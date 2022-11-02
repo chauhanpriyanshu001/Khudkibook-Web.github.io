@@ -1,0 +1,319 @@
+.mainheader {
+    color: orange;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+
+}
+
+body {
+    background-color: white;
+    overflow: scroll;
+
+}
+
+.main {
+    width: auto;
+    height: auto;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    flex-direction: column;
+
+}
+
+hr {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 99%;
+    height: 2px;
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.design {
+    background-color: orange;
+    height: 40vh;
+    width: 15px;
+    margin-left: 3vh;
+}
+
+.cloumn {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.maincontentimg {
+    height: 50vh;
+    width: 50vh;
+    margin-left: 10vh;
+    border-radius: 30px;
+    /* background-color: #EAEAEA; */
+    transition: all;
+    transition-duration: 0.5s;
+    /* box-shadow: 0px 0px 10px orange; */
+
+}
+
+.maincontentimg:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px orange;
+
+}
+
+
+
+
+.miandownloadbtn {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    width: 20vh;
+    height: 5vh;
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 5px 2px 2px orange;
+
+}
+
+.miandownloadbtn:hover {
+    box-shadow: 10px 0px 10px orange;
+    background-color: transparent;
+    border: 1px solid orange;
+}
+
+.maincontenthead:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.maincontenthead {
+    text-align: start;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+    transition: all;
+    transition-duration: 00.5s;
+
+}
+
+/* Recommnded */
+.recmainheader {
+    color: orange;
+    text-align: center;
+}
+
+
+.recommian {
+    background-color: white;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+}
+
+
+.recimg {
+    width: 30vh;
+    height: 29vh;
+    transition: all;
+    transition-duration: 0.5s;
+    border-radius: 30px;
+}
+
+.recimg:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px orange;
+}
+
+.reccontent {
+    padding: 10px;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.recbookname {
+    font-weight: bold;
+    font-size: 2vh;
+    text-align: start;
+}
+
+.recbookname:hover {
+    color: orange;
+}
+
+a {
+    color: black;
+}
+
+.recopenbtn {
+    margin-top: 5px;
+    width: 15vh;
+    height: 4vh;
+    background-color: orange;
+    border: navajowhite;
+    border-radius: 5px;
+    font-size: 2vh;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.recopenbtn:hover {
+    box-shadow: 10px 0px 10px orange;
+    background-color: transparent;
+    border: 1px solid orange;
+}
+
+@media (max-width:900px) {
+    .maincontentimg {
+        height: 40vh;
+        width: 40vh;
+    }
+
+    .maincontenthead {
+        font-size: 40px;
+    }
+
+    .mainheadtext {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:800px) {
+    .maincontentimg {
+        height: 30vh;
+        width: 30vh;
+    }
+
+    .maincontenthead {
+        font-size: 30px;
+    }
+
+    .miandownloadbtn {
+        width: 16vh;
+        height: 4vh;
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media(max-width:600px) {
+    .maincontentimg {
+        height: 25vh;
+        width: 25vh;
+    }
+
+    .maincontenthead {
+        font-size: 25px;
+    }
+
+    .miandownloadbtn {
+        width: 16vh;
+        height: 4vh;
+        font-size: 15px;
+    }
+
+    .design {
+        width: 1vh;
+        height: 35vh;
+    }
+
+    .mainheadtext {
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:500px) {
+    .maincontentimg {
+        height: 22vh;
+        width: 22vh;
+        margin-left: 5px;
+        margin-right: 0px;
+    }
+
+    .maincontenthead {
+        font-size: 20px;
+    }
+
+    .miandownloadbtn {
+        width: 16vh;
+        height: 4vh;
+        font-size: 15px;
+    }
+
+
+    .design {
+        width: 1vh;
+        height: 35vh;
+        margin-right: 0px;
+    }
+
+    .mainheadtext {
+        font-size: 15px;
+    }
+
+    .mainheader {
+
+        font-size: 30px;
+        margin-bottom: 5vh;
+    }
+
+
+
+    .recmainheader {
+        font-size: 30px;
+        margin-right: px;
+    }
+
+    .reccontent {
+        width: 20vh;
+        height: 30vh;
+        margin-top: 10px;
+        align-items: flex-start;
+    }
+
+    .recopenbtn {
+        margin-left: 30px;
+
+    }
+
+    .recimg {
+        width: 20vh;
+        height: 20vh;
+    }
+
+    .recbookname {
+        font-size: 20px;
+        text-align: start;
+        margin-left: 30px;
+
+    }
+
+}

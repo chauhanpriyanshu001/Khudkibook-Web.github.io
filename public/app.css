@@ -294,7 +294,7 @@ a {
 
     .reccontent {
         width: 20vh;
-        height: 30vh;
+        height: 35vh;
         margin-top: 10px;
         align-items: flex-start;
     }
@@ -315,5 +315,7 @@ a {
         margin-left: 30px;
 
     }
-
+.recopenbtn {
+    height: 4vh;
+}
 }

@@ -24,9 +24,9 @@ nav {
 
     height: 7vh;
     display: flex;
-    /* justify-content: center; */
+
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
 }
 

@@ -7,408 +7,66 @@
     <meta name="keywords" content="Gtu books free download , Gtu diploma books download , download gtu diploma , it">
     <meta charset="UTF-8">
     <meta name="audience" content="Everyone">
-    <meta name="description"
-        content="Get GTU Diploma All Branch Books PDF for Free, Advance Python Programming,Sem-2, Diploma Engineering">
+    <meta name="description" content="Get GTU Diploma All Branch Books PDF for Free ,Sem-2, Diploma Engineering">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4211827566541334"
         crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app.css">
-    <script src="https://kit.fontawesome.com/8500bd12c5.js" crossorigin="anonymous"></script>
+    <title>KhudKibook</title>
     <link rel="icon" type="image/x-icon" href="https://neo2708.github.io/pic.github.io/bg.png">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+    <link rel="stylesheet" href="styleit1.css">
+    <link rel="stylesheet" href="index.css">
+    <script>
+        fetch("data.json").then(response => response.json()).then(data => {
+            document.querySelector(".ith").innerText = data.it[0].hit
+
+        })
+        </script>
 
-        body {
-            box-sizing: border-box;
-            background-color: white;
-            font-family: sans-serif;
-            overflow: scroll;
-
-
-        }
-
-        nav {
-            position: fixed;
-            overflow: hidden;
-            width: 100%;
-            top: 0;
-        }
-
-        #appbar {
-            background-color: white;
-
-            height: 7vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-        }
-
-        .headerimg {
-            height: 8vh;
-            width: 8vh;
-            background-color: white;
-
-        }
-
-        .header {
-            font-size: 35px;
-            margin-top: 10vh;
-            padding: 2px;
-            color: orange;
-            text-shadow: 0px 0px 10px white;
-
-            text-align: center;
-        }
-
-
-
-        .contenthead {
-            text-align: center;
-            font-weight: bold;
-            font-size: 22px;
-            color: black;
-            transition: all;
-            transition-duration: 00.5s;
-
-        }
-
-        .contenthead:hover {
-            color: orange;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        .content {
-            margin: 20px;
-            width: auto;
-            height: auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        @media(min-width:855px) {
-
-
-
-
-            .cloumn {
-                display: flex;
-                margin-left: 5vh;
-                margin-right: 5vh;
-
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: center;
-                width: 35vh;
-            }
-
-            .card {
-                margin: 10px;
-                background-color: white;
-                width: 40vh;
-                height: 50vh;
-                border-radius: 20px;
-                display: flex;
-                align-items: center;
-                justify-content: space-evenly;
-                flex-direction: column;
-                transition: all;
-                transition-duration: 0.5s;
-            }
-
-            .card:hover {
-                box-shadow: 4px 4px 5px rgb(211, 211, 211);
-
-            }
-
-
-            .downloadbtn {
-                margin-top: 10px;
-                margin-bottom: 10px;
-            }
-
-
-
-
-            .contentimg {
-                height: 30vh;
-                width: 30vh;
-                border-radius: 30px;
-                /* background-color: #EAEAEA; */
-                transition: all;
-
-            }
-
-            .contentimg:hover {
-                margin-bottom: 10px;
-            }
-
-
-            .contenthead {
-                margin-bottom: 10px;
-            }
-
-
-
-
-
-        }
-
-
-
-        .contentsubheader {
-            text-align: center;
-            color: black;
-            font-size: 25px;
-
-        }
-
-        .downloadbtn {
-            width: 20vh;
-            height: 4vh;
-            border-radius: 10px;
-            border: none;
-            background-color: orange;
-            color: white;
-            font-weight: bold;
-            transition: all;
-            transition-duration: 00.5s;
-
-            font-size: 20px;
-
-        }
-
-        .downloadbtn:hover {
-            cursor: pointer;
-            background-color: transparent;
-            font-size: 20px;
-            border: 2px solid orange;
-            color: orange;
-
-
-        }
-
-        @media (max-width:855px) and (min-width:0px) {
-            #cardmobile {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                margin-top: 20px;
-                margin-left: 40px;
-                margin-right: 40px;
-
-                width: 50vh;
-                height: 26vh;
-                flex-direction: row;
-                border-radius: 30px;
-                background-color: white;
-
-            }
-
-
-            .contenthead {
-                font-size: 25px;
-                flex-wrap: wrap;
-                text-align: start;
-                margin-bottom: 10px;
-            }
-
-            .downloadbtn {
-                margin-top: 15px;
-                width: 20vh;
-                margin-bottom: 10px;
-            }
-
-            .contentsubheader {
-                margin-top: 10px;
-                font-size: 20px;
-            }
-
-            .contentimg {
-                /* background-color: #EAEAEA; */
-                width: 25vh;
-                height: 25vh;
-                border-radius: 30px;
-                transition: all;
-                transition-duration: 0.5s;
-            }
-
-            .contentimg:hover {
-                margin-bottom: 10px;
-            }
-
-            .card {
-                display: none;
-
-            }
-
-            .cloumn {
-                /* margin-left: 10px; */
-                justify-content: space-between;
-                width: 25vh;
-            }
-        }
-
-        @media(max-width:550px) {
-
-            #cardmobile {
-                width: 45vh;
-            }
-
-            .contenthead {
-                font-size: 25px;
-            }
-
-            .downloadbtn {
-                width: 15vh;
-            }
-        }
-
-        @media(max-width:400px) {
-
-            #cardmobile {
-                width: 40vh;
-            }
-
-            .contenthead {
-                font-size: 25px;
-            }
-
-            .downloadbtn {
-                width: 15vh;
-            }
-
-            .contenthead {
-                font-size: 18px;
-            }
-
-            .downloadbtn {
-                width: 13vh;
-            }
-        }
-
-
-        @media(max-width:400px) and (max-height:700px) {
-            #cardmobile {
-                width: 47vh;
-            }
-
-            .contenthead {
-                font-size: 20px;
-            }
-
-            .contentsubheader {
-                font-size: 17px;
-            }
-
-            .downloadbtn {
-                width: 15vh;
-                height: 5vh;
-            }
-        }
-    </style>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4211827566541334"
-        crossorigin="anonymous"></script>
-    <title>Advance Python Programming Download for Free </title>
 </head>
 
 <body>
     <nav>
         <div id="appbar">
-            <!-- <a href="/sem1it.html">
-                <i class="fa-solid fa-arrow-left fa-lg"></i>
-            </a> -->
             <a href="/public/index.html">
                 <img class="headerimg" src="https://neo2708.github.io/pic.github.io/bg.png" alt="Logo" srcset="">
             </a>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">Branch</a>
+            </li>
+            <li>
+                <a href="">Account</a>
+            </li>
+            <li><a href="">More books</a></li>
     </nav>
-
-
-    <div class="main">
-        <h1 class="mainheader">Study Material for Information Technology </h1>
-        <div class="row">
-            <a href="" target="_blank">
-                <img class="maincontentimg" src="https://neo2708.github.io/pic.github.io/001.png" alt="Book Photo"
-                    srcset="">
-            </a>
-
-            <div class="design"></div>
-            <div class="cloumn">
-                <span class="mainheadtext">Download GTU Diploma Engineering book free </span>
-                <h1 class="maincontenthead">Advance Python Programming</h1>
-                <div>
-                    <a href="https://drive.google.com/uc?export=download&id=1Bk_poa5XM4wZxZ05WGd-bGiwL8HmRdd1">
-                        <input class="miandownloadbtn" type="button" value="Download Book">
-                    </a>
-                    <a href="https://drive.google.com/uc?export=download&id=1G39yQwMU_OtlJfZmrEAqtl2Yj3NFomSB">
-                        <input class="miandownloadbtn" type="button" value="Practical">
-
-                    </a>
-                    <a href="https://drive.google.com/uc?export=download&id=1ClsrSl_u-yC3q_VydeeelcBq9GiCRI_C">
-                        <input class="miandownloadbtn" type="button" value="Syllabus">
-
-                    </a>
-                    <a href="https://drive.google.com/uc?export=download&id=1YpSYw_7oUvfB-9yraari4-1oIn3aCaTi">
-                        <input class="miandownloadbtn" type="button" value="Paper">
-
-                    </a>
-
-                </div>
-
-
-                <!-- <span class="miancontentsubheader">I.T and Computer </span> -->
-            </div>
-        </div>
-        <hr>
+    <h1 class="header">GTU Diploma Books and Study Material</h1>
+    <div class="newcard">
+        <h1 class="header">New </h1>
     </div>
-
-    <h1 class="recmainheader">
-        Recommnded Acording to your Semester
-    </h1>
-    <div class="recommian">
-        <a href="">
-            <div class="reccontent">
-                <div class="img">
-                    <img class="recimg" src="https://neo2708.github.io/pic.github.io/002.png" alt="" srcset="">
-
-                </div>
-                <span class="recbookname">Basic Computer Programming </span>
-                <input class="recopenbtn" type="button" value="Open >">
+    <div class="all">
+        <div class="it">
+            <!-- <img class="itimg"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFWTia0bceImPNyaXtE1Oy7BWHC_aBOorKA&usqp=CAU"
+                    alt=""> -->
+            <div class="ith">
+                <h1>Information Technology</h1>
 
             </div>
-        </a>
-        <a href="">
-            <div class="reccontent">
-                <img class="recimg" src="https://neo2708.github.io/pic.github.io/003.png" alt="" srcset="">
-                <span class="recbookname">Basic Computer Programming </span>
-                <input class="recopenbtn" type="button" value="Open >">
             </div>
-        </a>
-        <a href="">
-            <div class="reccontent">
-                <img class="recimg" src="https://neo2708.github.io/pic.github.io/004.png" alt="" srcset="">
-                <span class="recbookname">Basic Computer Programming </span>
-                <input class="recopenbtn" type="button" value="Open >">
+        <div class="civil"></div>
+        <div class="electrical"></div>
+        <div class="mechanical"></div>
+        <div class="computer"></div>
+        </div>
+    <div class="commoncard">
+        <h1 class="header">Common Subject Sem-1 </h1>
 
-            </div>
-        </a>
-        <a href="">
-            <div class="reccontent">
-                <img class="recimg" src="https://neo2708.github.io/pic.github.io/005.png" alt="" srcset="">
-                <span class="recbookname">Basic Computer Programming </span>
-                <input class="recopenbtn" type="button" value="Open >">
-
-            </div>
-        </a>
+    </div>
+    <div class="commoncard2">
+        <h1 class="header"> Common Subject Sem-2 </h1>
     </div>
 </body>
 

@@ -35,6 +35,15 @@ li {
     border-bottom: 2px solid black;
 }
 
+.home:enabled{
+   height: 9vh;
+   width: auto;
+   border-bottom: 5px solid black ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 .newcard {
     width: auto;
     height: 20vh;
@@ -69,12 +78,12 @@ li {
     font-size: 2vh;
     /* background-color: orange; */
     background: linear-gradient(to top, orange 50%, rgba(255, 134, 4, 0.585));
-    
-        box-shadow: 0px 3px rgb(176, 115, 2);
-        font-weight: bold;
-    
-    
-        transition: all;
+
+    box-shadow: 0px 3px rgb(176, 115, 2);
+    font-weight: bold;
+
+
+    transition: all;
 }
 
 .mechanical,
@@ -107,15 +116,15 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    }
-    
-    .english,
+}
+
+.english,
 .maths,
 .es,
 .ap {
     position: relative;
     width: auto;
-        height: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,44 +165,80 @@ li {
 .branch {
     font-size: 1.5vh;
     color: black;
-    }
+}
 
 .column {
     margin-left: 4vh;
     flex-wrap: wrap;
+}
+
+@media(max-width:2000px) and (min-width:900px) {
+    a {
+        font-size: 3vh;
     }
     
-    @media(max-width:2000px) and (min-width:900px) {
-        a {
-            font-size: 3vh;
-        }
+
+    .imgc {
+        width: 25vh;
+        height: 25vh;
+    }
+
+    .csn {
+        font-size: 3vh;
+    }
+
+    .branch {
+        font-size: 2vh;
+    }
+
+    .es {
+        margin-left: 2vh;
+    }
     
-        .imgc {
-            width: 25vh;
-            height: 25vh;
-        
-.csn {
-    font-size: 3vh;
+
+    .it,
+    .computer,
+    .electrical,
+    .civil,
+    .mechanical {
+        width: 25vh;
+        font-size: 3vh;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(to left, orange 50%, rgba(255, 134, 4, 0.585));
+    }
+
+    .it:hover,
+.civil:hover,
+.computer:hover,
+.electrical:hover,
+.mechanical:hover {
+    box-shadow: 0px 3px 5px rgb(176, 115, 2);
+    background: linear-gradient(to right,rgba(255, 134, 4, 0.585)  , orange 80% , rgba(255, 134, 4, 0.585));
+
 }
 
-.branch {
-    font-size: 2vh;
+    
+
+
 }
 
-.es {
-    margin-left: 2vh;
-}
-
-.it,
-.computer,
-.electrical,
-.civil,
-.mechanical {
-    width: 17vh;
-    font-size: 3vh;
-}
-
-
+@media(max-width:1500px) and (min-width:900px){
+    .it,
+    .computer,
+    .electrical,
+    .civil,
+    .mechanical {
+        width: 17vh;
+        font-size: 2.5vh;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .mechanical{
+        font-size: 2.1vh;
+    }
 }
 
 @media(max-width:900px) and (min-width:550px) {
@@ -230,28 +275,29 @@ li {
 
 
 
-        .commoncard {
-                width: 42vh;
-        
+    .commoncard {
+        width: 42vh;
+    }
 
 
-                .english,
-                .maths,
-                .es {
-                    width: 15vh;
-                    height: 25vh;
-                }
 
-                .it,
-                .computer,
-                .electrical,
-                .civil,
-                .mechanical {
-                    width: 8vh;
-                    font-size: 1.5vh;
-                }
+    .english,
+    .maths,
+    .es {
+        width: 15vh;
+        height: 25vh;
+    }
 
-                .english {
-                    margin-left: 3vh;
-                }
-                }
+    .it,
+    .computer,
+    .electrical,
+    .civil,
+    .mechanical {
+        width: 8vh;
+        font-size: 1.5vh;
+    }
+
+    .english {
+        margin-left: 3vh;
+    }
+}

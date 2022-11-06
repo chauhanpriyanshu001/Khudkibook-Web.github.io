@@ -49,22 +49,34 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: auto;
+        color: orange;
+        flex-wrap: wrap;
 }
 
-.it {
-    font-size: 4vh;
+.mechanical {
+    font-size: 1.5vh;
+}
+
+/* .it,
+.civil,
+.computer,
+.electrical,
+.mechanical {
+    font-size: 3vh;
     color: orange;
     display: flex;
     flex-direction: column;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFWTia0bceImPNyaXtE1Oy7BWHC_aBOorKA&usqp=CAU");
+    flex-wrap: wrap;
+        /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFWTia0bceImPNyaXtE1Oy7BWHC_aBOorKA&usqp=CAU");
     background-size: cover;
     background-position: -20px;
-}
+        */
 
-
-.itimg {
-    width: 5vh;
-    height: 8vh;
+*/ .itimg {
+        width: 9vh;
+        height: 9vh;
+        border-radius: 20px;
 }
 
 .commoncard,

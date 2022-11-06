@@ -3,6 +3,13 @@
     font-size: 3vh;
 }
 
+.header1 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 3vh;
+    color: orange;
+    text-align: center;
+}
 a {
     color: orange;
     font-size: 2vh;
@@ -27,6 +34,7 @@ li {
     width: auto;
     height: 20vh;
     border: 2px solid orange;
+    /* background: linear-gradient(to left, orange 60%, white); */
 }
 
 .all {
@@ -48,45 +56,100 @@ li {
     height: 10vh;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     font-size: auto;
     color: white;
-        flex-wrap: wrap;
-    background-color: orange;
-        box-shadow: 0px 3px rgb(176, 115, 2)
+    flex-wrap: wrap;
+    font-size: 2vh;
+        /* background-color: orange; */
+        background: linear-gradient(to top, orange 50%, rgba(255, 134, 4, 0.585));
+    
+        box-shadow: 0px 3px rgb(176, 115, 2);
+        font-weight: bold;
+    
+    
+        transition: all;
 }
 
 .mechanical,
 .computer {
     font-size: 1.5vh;
+    font-weight: bold;
 }
 
-/* .it,
-.civil,
-.computer,
-.electrical,
-.mechanical {
-    font-size: 3vh;
-    color: orange;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-        /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFWTia0bceImPNyaXtE1Oy7BWHC_aBOorKA&usqp=CAU");
-    background-size: cover;
-    background-position: -20px;
-        */
+.it:hover,
+.civil:hover,
+.computer:hover,
+.electrical:hover,
+.mechanical:hover {
+    box-shadow: 0px 3px 5px rgb(176, 115, 2);
+    background: linear-gradient(to bottom, orange 80%, rgba(255, 134, 4, 0.585));
 
-*/ .itimg {
-    width: 9vh;
-        height: 9vh;
-        border-radius: 20px;
+}
+
+.itimg {
+    width: 5vh;
+    height: 5vh;
 }
 
 .commoncard,
 .commoncard2 {
     width: auto;
     height: 25vh;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     margin-top: 0.5vh;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    .english,
+    .maths {
+        width: 20vh;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .imgc {
+        width: 17vh;
+        height: 17vh;
+    }
+    
+    .recimg {
+        width: 20vh;
+        height: 20vh;
+        transition: all;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+    }
+    
+    .recommian {
+        background-color: white;
+        width: 25vh;
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+        flex-direction: row;
+    }
+    
+    .csn {
+        color: orange;
+        font-size: 2vh;
+    }
+    
+    .branch {
+        font-size: 2vh;
+    }
 
+.column {
+    margin-left: 4vh;
 }

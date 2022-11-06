@@ -18,7 +18,11 @@
     <link rel="stylesheet" href="index.css">
     <script>
         fetch("data.json").then(response => response.json()).then(data => {
-            document.querySelector(".ith").innerText = data.it[0].hit
+            document.querySelector(".ith").innerText = data.it[0].hit;
+            document.querySelector(".cvh").innerText = data.cv[0].hcv;
+            document.querySelector(".meh").innerText = data.me[0].hme;
+            document.querySelector(".elh").innerText = data.el[0].hel;
+            document.querySelector(".cph").innerText = data.cp[0].hcp;
 
         })
         </script>
@@ -48,18 +52,32 @@
     </div>
     <div class="all">
         <div class="it">
-            <!-- <img class="itimg"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFWTia0bceImPNyaXtE1Oy7BWHC_aBOorKA&usqp=CAU"
-                    alt=""> -->
             <div class="ith">
-                <h1>Information Technology</h1>
+                <h1></h1>
 
             </div>
+            <!-- <img class="itimg" src="it.png" alt=""> -->
             </div>
-        <div class="civil"></div>
-        <div class="electrical"></div>
-        <div class="mechanical"></div>
-        <div class="computer"></div>
+            <div class="civil">
+                <div class="cvh">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="electrical">
+                <div class="elh">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="mechanical">
+                <div class="meh">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="computer">
+                <div class="cph">
+                    <h1></h1>
+                </div>
+            </div>
         </div>
     <div class="commoncard">
         <h1 class="header">Common Subject Sem-1 </h1>

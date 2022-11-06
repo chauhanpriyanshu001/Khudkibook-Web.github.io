@@ -3,5 +3,25 @@
         {
             "hit": "I.T"
         }
+    ],
+    "cv": [
+        {
+            "hcv": "Civil"
+        }
+    ],
+    "el": [
+        {
+            "hel": "Electricl"
+        }
+    ],
+    "me": [
+        {
+            "hme": "Mechanical"
+        }
+    ],
+    "cp": [
+        {
+            "hcp": "Computer"
+        }
     ]
 }

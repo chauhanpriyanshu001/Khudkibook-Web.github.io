@@ -30,21 +30,22 @@ li {
 }
 
 #appbar {
+    width: auto;
     display: flex;
     justify-content: space-evenly;
     border-bottom: 2px solid black;
 }
 
-.home:enabled{
-   height: 9vh;
-   width: auto;
-   border-bottom: 5px solid black ;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+.home:enabled {
+    height: 9vh;
+    width: auto;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.newcard {
+.slider {
     width: auto;
     height: 20vh;
     border: 2px solid orange;
@@ -160,6 +161,8 @@ li {
 .csn {
     color: orange;
     font-size: 2vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .branch {
@@ -176,7 +179,7 @@ li {
     a {
         font-size: 3vh;
     }
-    
+
 
     .imgc {
         width: 25vh;
@@ -194,7 +197,7 @@ li {
     .es {
         margin-left: 2vh;
     }
-    
+
 
     .it,
     .computer,
@@ -210,21 +213,22 @@ li {
     }
 
     .it:hover,
-.civil:hover,
-.computer:hover,
-.electrical:hover,
-.mechanical:hover {
-    box-shadow: 0px 3px 5px rgb(176, 115, 2);
-    background: linear-gradient(to right,rgba(255, 134, 4, 0.585)  , orange 80% , rgba(255, 134, 4, 0.585));
+    .civil:hover,
+    .computer:hover,
+    .electrical:hover,
+    .mechanical:hover {
+        box-shadow: 0px 3px 5px rgb(176, 115, 2);
+        background: linear-gradient(to right, rgba(255, 134, 4, 0.585), orange 80%, rgba(255, 134, 4, 0.585));
+
+    }
+
+
+
 
 }
 
-    
+@media(max-width:1500px) and (min-width:900px) {
 
-
-}
-
-@media(max-width:1500px) and (min-width:900px){
     .it,
     .computer,
     .electrical,
@@ -236,7 +240,8 @@ li {
         align-items: center;
         justify-content: space-evenly;
     }
-    .mechanical{
+
+    .mechanical {
         font-size: 2.1vh;
     }
 }
@@ -288,6 +293,7 @@ li {
         height: 25vh;
     }
 
+
     .it,
     .computer,
     .electrical,
@@ -297,7 +303,65 @@ li {
         font-size: 1.5vh;
     }
 
-    .english {
-        margin-left: 3vh;
-    }
+
+}
+
+.slider {
+    background-color: blanchedalmond;
+    position: relative;
+    width: 50vh;
+    height: 20vh;
+}
+
+.slider .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.slider .slide.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+}
+
+
+.slider .slide .info h1 {
+    font-size: 4vh;
+    color: black;
+}
+
+.slider .navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+    background-color: transparent;
+}
+
+.navigation .btn {
+    width: 8px;
+    height: 10px;
+    margin: 8px;
+    background-color: rgba(5, 5, 5, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider .navigation .btn.active {
+    background: blue;
+}
+
+.imgcard {
+    width: 20vh;
 }

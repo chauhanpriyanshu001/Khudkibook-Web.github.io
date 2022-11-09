@@ -9,8 +9,8 @@
     <meta name="audience" content="Everyone">
     <meta name="description" content="Get GTU Diploma All Branch Books PDF for Free ,Sem-2, Diploma Engineering">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4211827566541334"
-        crossorigin="anonymous"></script>
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4211827566541334"
+        crossorigin="anonymous"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KhudKibook</title>
     <link rel="icon" type="image/x-icon" href="https://neo2708.github.io/pic.github.io/bg.png">
@@ -26,43 +26,81 @@
             document.querySelector(".cph").innerText = data.cp[0].hcp;
 
         })
-</script>
+    </script>
     <!-- add -->
-    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+    <!-- <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script> -->
 
 </head>
 
 <body>
-    <nav>
+    <!-- <nav>
         <div id="appbar">
-            <a href="/public/index.html">
+            <a href="https://khudkibook.web.app/">
                 <img class="headerimg" src="https://neo2708.github.io/pic.github.io/bg.png" alt="Logo" srcset="">
             </a>
             <div class="home">
-                <li>
-                    <a class="home"  href="">Home</a>
-                </li>
+                <ul>
+                    <li>
+                        <a class="home" href="">Home</a>
+                    </li>
+                </ul>
+
             </div>
-            
-            <li>
-                <a class="brancha" href="">Branch</a>
-            </li>
-            <li>
-                <a class="account" href="">Account</a>
-            </li>
-            <li><a class="more" href="">More..</a></li>
-    </nav>
+
+            <ul>
+                <li>
+                    <a class="brancha" href="">Branch</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a class="account" href="">Account</a>
+                </li>
+            </ul>
+            <ul>
+                <li><a class="more" href="">More..</a></li>
+            </ul>
+    </nav> -->
     <h1 class="header">GTU Diploma Books and Study Material</h1>
     <!-- Add -->
-    <amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-4211827566541334" data-ad-slot="8202466290"
+    <!-- <amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-4211827566541334" data-ad-slot="8202466290"
         data-auto-format="rspv" data-full-width="">
         <div overflow=""></div>
-    </amp-ad>
+    </amp-ad> -->
     <!--  -->
-    <div class="newcard">
-        <h1 class="header">New </h1>
+    <div class="slider">
+        <!-- <h1 class="header">New </h1> -->
+        <div class="slide">
+
+            <img class="imgcard"  src="/assets/001.png" alt="">
+            <div class="info">
+                <h1>
+                    Get Python Book
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+           
+        </div>
+        <div class="slide">
+            <img class="imgcard"  src="/assets/002.png" alt="">
+            <div class="info">
+                <h1>
+                    Get BOP Book
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="btn"></div>
+            <div class="btn"></div>
+        </div>
+       
     </div>
-    <div class="all">
+   <div class="all">
         <div class="it">
             <img class="itimg" src="https://cdn-icons-png.flaticon.com/512/2387/2387667.png" alt="">
 
@@ -70,7 +108,6 @@
                 <h1></h1>
 
             </div>
-            <!-- <img class="itimg" src="it.png" alt=""> -->
         </div>
         <div class="civil">
             <img class="itimg" src="https://cdn-icons-png.flaticon.com/512/609/609034.png" alt="">
@@ -97,7 +134,7 @@
             </div>
         </div>
     </div>
-<hr>
+    <hr>
     <h1 class="header1">Common Subject Sem-1</h1>
     <div class="commoncard">
         <div class="english">
@@ -138,14 +175,14 @@
                     <h1 class="csn">Maths</h1>
                     <h1 class="branch">I.T | Computer | Electrical</h1>
                 </div>
-                </a>
-                </div>
-                <div class="maths">
-                    <a href="">
-                        <img class="imgc" src="https://neo2708.github.io/pic.github.io/007.png" alt="Maths book image">
-                        <div class="column">
-                            <h1 class="csn">Mathematics</h1>
-                            <h1 class="branch">Civil | Mechanical</h1>
+            </a>
+        </div>
+        <div class="maths">
+            <a href="">
+                <img class="imgc" src="https://neo2708.github.io/pic.github.io/007.png" alt="Maths book image">
+                <div class="column">
+                    <h1 class="csn">Mathematics</h1>
+                    <h1 class="branch">Civil | Mechanical</h1>
                 </div>
             </a>
         </div>
@@ -158,9 +195,61 @@
                 </div>
             </a>
         </div>
-    
+
     </div>
-    <hr>
+    
+
+    <script type="text/javascript">
+        var slides = document.querySelectorAll('.slide');
+        var btns = document.querySelectorAll('.btn');
+        let currentSlide = 1;
+
+        var manualNav = function (manual) {
+            slides.forEach((slide)=>{
+                slide.classList.remove('active');
+                btns.forEach((btn)=>{
+                    btn.classList.remove('active');
+                })
+            })
+            slides[manual].classList.add('active');
+            btns[manual].classList.add('active');
+        }
+
+        btns.forEach((btn, i) => {
+            btn.addEventListener("click", () => {
+                manualNav(i);
+                currentSlide = i;
+            });
+        });
+
+
+        // var repeat=function(activeClass){
+        //     let active =document.getElementsByClassName('active');
+        //     let i =1;
+
+        //     var repeater = () => {
+               
+        //         setTimeout(function(){
+        //             [...active].forEach((activeSlide)=>{
+        //                 activeSlide.classList.remove('active');
+        //             });
+        //             slides[i].classList.add('active');
+        //             btns[i].classList.add('active'); 
+        //             i++;
+
+        //             if(slides.length == i){
+        //                 i = 0;
+        //             }
+        //             if(i >= slides.length){
+        //                  return;
+        //             }
+        //             repeater();
+        //         },3000);
+        //     }
+        //     repeater();
+        // }
+        // repeat();
+    </script>
 </body>
 
 </html>

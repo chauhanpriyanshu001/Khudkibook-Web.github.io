@@ -48,7 +48,7 @@ li {
 .slider {
     width: auto;
     height: 20vh;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     /* background: linear-gradient(to left, orange 60%, white); */
 }
 
@@ -307,9 +307,9 @@ li {
 }
 
 .slider {
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     position: relative;
-    width: 50vh;
+    width: auto;
     height: 20vh;
 }
 
@@ -317,7 +317,7 @@ li {
     z-index: 1;
     position: absolute;
     width: 100%;
-    clip-path: circle(0% at 0 50%);
+    clip-path: circle(0% at 0 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -359,7 +359,7 @@ li {
 }
 
 .slider .navigation .btn.active {
-    background: blue;
+    background: black;
 }
 
 .imgcard {

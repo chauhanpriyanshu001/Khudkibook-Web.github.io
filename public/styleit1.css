@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +9,7 @@ body {
     background-color: #EAEAEA;
     font-family: sans-serif;
     overflow: scroll;
-
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -149,6 +149,7 @@ a {
 
 .contentsubheader {
     text-align: center;
+
     color: black;
     font-size: 25px;
 
@@ -288,12 +289,12 @@ a {
         font-size: 20px;
     }
 
-        .contentsubheader {
-            font-size: 17px;
-        }
+    .contentsubheader {
+        font-size: 17px;
+    }
 
-        .downloadbtn {
-            width: 15vh;
-            height: 5vh;
-        }
+    .downloadbtn {
+        width: 15vh;
+        height: 5vh;
+    }
 }

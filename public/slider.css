@@ -1,0 +1,65 @@
+/* Slider  */
+
+.slider {
+    position: fixed;
+    width: auto;
+    height: 20vh;
+    top: 4pc;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 10px 15px  rgb(128, 128, 128,0.5);
+}
+
+.slide {
+    z-index: 1;
+    position:absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.slider .slide.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+}
+
+
+.slider .slide .info h1 {
+    font-size: 3vh;
+    color: black;
+}
+.navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+    background-color: transparent;
+}
+
+.btn {
+    width: 8px;
+    height: 10px;
+    margin: 8px;
+    background-color: rgba(5, 5, 5, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider .navigation .btn.active {
+    background: black;
+}
+
+.imgcard {
+    width: 20vh;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid red ;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.desc{
+    font-size: 20px;
+    text-align: start;
+}

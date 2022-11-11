@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
 .mainheader {
     color: orange;
     margin-top: 10vh;
@@ -9,6 +14,7 @@
 body {
     background-color: white;
     overflow: scroll;
+    font-family: 'Open Sans', sans-serif;
 
 }
 

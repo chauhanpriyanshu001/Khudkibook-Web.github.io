@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styleit1.css">
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="slider.css">
     <script>
         fetch("data.json").then(response => response.json()).then(data => {
             document.querySelector(".ith").innerText = data.it[0].hit;
@@ -24,56 +25,10 @@
             document.querySelector(".cph").innerText = data.cp[0].hcp;
 
         })
-        var slides = document.querySelectorAll('.slide');
-        var btns = document.querySelectorAll('.btn');
-        let currentSlide = 1;
-
-        var manualNav = function (manual) {
-            slides.forEach((slide) => {
-                slide.classList.remove('active');
-                btns.forEach((btn) => {
-                    btn.classList.remove('active');
-                })
-            })
-            slides[manual].classList.add('active');
-            btns[manual].classList.add('active');
-        }
-
-        btns.forEach((btn, i) => {
-            btn.addEventListener("click", () => {
-                manualNav(i);
-                currentSlide = i;
-            });
-        });
-
-
-        var repeat = function (activeClass) {
-            let active = document.getElementsByClassName('active');
-            let i = 1;
-
-            var repeater = () => {
-
-                setTimeout(function () {
-                    [...active].forEach((activeSlide) => {
-                        activeSlide.classList.remove('active');
-                    });
-                    slides[i].classList.add('active');
-                    btns[i].classList.add('active');
-                    i++;
-
-                    if (slides.length == i) {
-                        i = 0;
-                    }
-                    if (i >= slides.length) {
-                        return;
-                    }
-                    repeater();
-                }, 3000);
-            }
-            repeater();
-        }
-        repeat();
+      
     </script>
+   
+     
 
 </head>
 
@@ -108,7 +63,7 @@
     </nav>
     <h1 class="header">GTU Diploma Books and Study Material</h1>
    
-    <div class="slider">
+    <!-- <div class="slider">
         <div class="slide active">
 
             <img class="imgcard" src="https://neo2708.github.io/pic.github.io/001.png" alt="">
@@ -123,7 +78,7 @@
 
         </div>
         <div class="slide">
-            <img class="imgcard" src="https://neo2708.github.io/pic.github.io/002.png" alt="">
+            <img class="imgcard" style="width: 20vh;" src="https://neo2708.github.io/pic.github.io/002.png" alt="">
             <div class="info">
                 <h1>
                     Get BOP Book
@@ -138,16 +93,19 @@
             <div class="btn"></div>
         </div>
 
-    </div>
+    </div> -->
     <div class="all">
-        <div class="it">
-            <img class="itimg" src="https://cdn-icons-png.flaticon.com/512/2387/2387667.png" alt="">
-
-            <div class="ith">
-                <h1></h1>
-
+        <a href="/public/it/index.html">
+            <div class="it">
+                <img class="itimg" src="https://cdn-icons-png.flaticon.com/512/2387/2387667.png" alt="">
+    
+                <div class="ith">
+                    <h1></h1>
+    
+                </div>
             </div>
-        </div>
+        </a>
+
         <div class="civil">
             <img class="itimg" src="https://cdn-icons-png.flaticon.com/512/609/609034.png" alt="">
             <div class="cvh">
@@ -236,6 +194,57 @@
         </div>
 
     </div>
+    <script>
+          var slides = document.querySelectorAll('.slide');
+        var btns = document.querySelectorAll('.btn');
+        let currentSlide = 1;
+
+        var manualNav = function (manual) {
+            slides.forEach((slide) => {
+                slide.classList.remove('active');
+                btns.forEach((btn) => {
+                    btn.classList.remove('active');
+                })
+            })
+            slides[manual].classList.add('active');
+            btns[manual].classList.add('active');
+        }
+
+        btns.forEach((btn, i) => {
+            btn.addEventListener("click", () => {
+                manualNav(i);
+                currentSlide = i;
+            });
+        });
+
+
+        var repeat = function (activeClass) {
+            let active = document.getElementsByClassName('active');
+            let i = 1;
+
+            var repeater = () => {
+
+                setTimeout(function () {
+                    [...active].forEach((activeSlide) => {
+                        activeSlide.classList.remove('active');
+                    });
+                    slides[i].classList.add('active');
+                    btns[i].classList.add('active');
+                    i++;
+
+                    if (slides.length == i) {
+                        i = 0;
+                    }
+                    if (i >= slides.length) {
+                        return;
+                    }
+                    repeater();
+                }, 3000);
+            }
+            repeater();
+        }
+        repeat();
+    </script>
 
 
  

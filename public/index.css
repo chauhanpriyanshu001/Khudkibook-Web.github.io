@@ -1,7 +1,12 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
     margin-left: 2px;
     margin-right: 2px;
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -18,9 +23,9 @@ body {
 }
 
 a {
-    color: orange;
     font-size: 2vh;
     font-weight: bold;
+    color: orange;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -33,21 +38,33 @@ li {
     width: auto;
     display: flex;
     justify-content: space-evenly;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
     background-color: white;
 }
+.home {
+    color: black;
+}
 
-.home:enabled {
-    height: 9vh;
-    width: auto;
-    border-bottom: 5px solid black;
+#active {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 10vh;
+    height: 125%;
+    margin-top: 2px;
+    text-decoration:3px solid black overline;
 }
 
-
-
+.profilec{
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50px;
+    border: 2px solid gray;}
+.profilepic{
+    width: 6vh;
+    height: 6vh;
+    border-radius: 40px;
+}
 .all {
     width: auto;
     height: 10vh;
@@ -55,7 +72,14 @@ li {
     display: flex;
     justify-content: space-around;
 }
-
+hr {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 99%;
+    height: 2px;
+    background-color: orange;
+    border: 1px solid orange;
+}
 .it,
 .computer,
 .electrical,
@@ -119,7 +143,6 @@ li {
 .maths,
 .es,
 .ap {
-    position: relative;
     width: auto;
     height: auto;
     display: flex;
@@ -144,8 +167,8 @@ li {
 
 .recommian {
     background-color: white;
-    width: 25vh;
-    height: 25vh;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,7 +194,44 @@ li {
     flex-wrap: wrap;
     
 }
+.aboutusc{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 0px 5vh ;
+    padding: 0px 5vh ;
+    background-color: rgb(243, 235, 233);
+    flex-direction: column;
+}
+.ah{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.ahm{
+    color: orange;
+text-decoration: overline;
+transition: text-decoration;
+transition-duration: 0.5s;
+transition-delay: 0.5s;
+transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.ahm:hover{
+    text-decoration: underline;
+}
+.auci{
+    width: 20vh;
+}
 
+.ahmc{
+    margin-left: 10vh;
+    font-size: 30px;
+}
+.ahmwh{
+    margin-left: 10vh;
+    font-size: 20px;
+}
 
 @media(max-width:2000px) and (min-width:900px) {
     a {
@@ -303,3 +363,4 @@ li {
 
 
 }
+

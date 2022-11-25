@@ -1,42 +1,73 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    font-family: 'Mitr', sans-serif;
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+/* Naviagtion */
+nav {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+}
 
+#appbar {
+    background-color: white;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 2.2vh;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+li {
+    list-style: none;
+}
+
+.headerimg {
+    height: 8vh;
+    width: 8vh;
+    background-color: white;
+
+}
+
+/* / */
+
+a {
+    text-decoration: none;
+}
 
 .mainheader {
     color: orange;
     margin-top: 10vh;
     margin-bottom: 10vh;
     text-align: center;
+    font-weight: bolderß;
 
 }
 
-body {
-    background-color: white;
-    overflow: scroll;
-    font-family: 'Open Sans', sans-serif;
-
-}
-
+/* Main */
 .main {
     width: auto;
     height: auto;
     background-color: white;
     display: flex;
-    /* justify-content: space-evenly; */
     align-items: center;
     flex-direction: column;
 
 }
 
-hr {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    width: 99%;
-    height: 2px;
-    background-color: orange;
-    border: 1px solid orange;
-}
+
 
 .row {
     display: flex;
@@ -65,25 +96,15 @@ hr {
     width: 50vh;
     margin-left: 10vh;
     border-radius: 30px;
-    /* background-color: #EAEAEA; */
     transition: all;
     transition-duration: 0.5s;
-    /* box-shadow: 0px 0px 10px orange; */
 
 }
-
-.maincontentimg:hover {
-    cursor: pointer;
-    box-shadow: 0px 0px 10px orange;
-
-}
-
-
-
 
 .miandownloadbtn {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     font-size: 19px;
     font-weight: bold;
     width: 20vh;
@@ -105,10 +126,6 @@ hr {
 
 }
 
-.maincontenthead:hover {
-    color: orange;
-    cursor: pointer;
-}
 
 .maincontenthead {
     text-align: start;
@@ -118,6 +135,28 @@ hr {
     transition: all;
     transition-duration: 00.5s;
 
+}
+
+.maincontenthead:hover {
+    color: orange;
+    cursor: pointer;
+}
+.mdesc{
+    color: orange;
+    text-align: start;
+    font-size: 35px;
+}
+.mdesc2{
+    text-align: start;
+    font-size: 30px;
+}
+hr {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 99%;
+    height: 2px;
+    background-color: orange;
+    border: 1px solid orange;
 }
 
 /* Recommnded */
@@ -150,7 +189,6 @@ hr {
 
 .recimg:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 10px orange;
 }
 
 .reccontent {
@@ -158,14 +196,13 @@ hr {
     width: 30vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     align-items: center;
 }
 
 .recbookname {
     font-weight: bold;
     font-size: 2vh;
-    text-align: start;
 }
 
 .recbookname:hover {
@@ -194,7 +231,80 @@ a {
     background-color: transparent;
     border: 1px solid orange;
 }
+.desc {
+    text-align: start;
+    font-size: 24px;
+}
+.desc2 {
+    color: orange;
+    font-size: 30px;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
 
+/* Learn  css */
+
+.learn {
+    width: auto;
+    height: auto;
+    margin: 5px 10px;
+}
+
+.lcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ccard {
+    width: 100%;
+    height: auto;
+    border: 1px solid #888888;
+    display: flex;
+    flex-direction: column;
+}
+
+.ccardc {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.ccardc2 {
+    font-size: 1.5vh;
+    font-weight: bold;
+    color: #888888;
+}
+
+/* Cureent book css */
+
+.current:hover,
+.current .reccontent .img .recimg:hover,
+.current .reccontent .align:hover,
+.current .reccontent .recopenbtn:hover {
+
+    cursor: not-allowed;
+
+}
+
+/* Footer */
+.footcover{
+    width: auto;
+    
+}
+.foottext{
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(128, 128, 128,0.5);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+/* Media  */
 @media (max-width:900px) {
     .maincontentimg {
         height: 40vh;
@@ -237,7 +347,7 @@ a {
     }
 
     .maincontenthead {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .miandownloadbtn {
@@ -254,8 +364,14 @@ a {
     .mainheadtext {
         font-size: 15px;
     }
+    iframe{
+        width: 516px;
+        height: 300px;
 
+    }
 }
+
+
 
 @media(max-width:557px) and (min-width:0px) {
     .maincontentimg {
@@ -265,9 +381,7 @@ a {
         margin-right: 0px;
     }
 
-    .maincontenthead {
-        font-size: 20px;
-    }
+ 
 
     .miandownloadbtn {
         width: 16vh;
@@ -301,7 +415,6 @@ a {
 
     .reccontent {
         width: 20vh;
-        height: 35vh;
         margin-top: 10px;
         align-items: flex-start;
     }
@@ -322,10 +435,36 @@ a {
         margin-left: 30px;
 
     }
-    .desc{
-        margin-left: 30px;
+
+    
+
+    .recopenbtn {
+        height: 4vh;
     }
-.recopenbtn {
-    height: 4vh;
-}
+    .desc {
+        margin-top: 2px;
+        margin-left: 30px;
+        text-align: start;
+        font-size: 15px;
+    }
+
+    .desc2 {
+        color: orange;
+        margin-left: 30px;
+        text-align: start;
+        font-size: 20px;
+    }
+    .mdesc{
+        color: orange;
+        text-align: start;
+        font-size: 20px;
+    }
+    .mdesc2{
+        text-align: start;
+        font-size: 18px;
+    }
+    iframe{
+        width: 360px;
+        height: 208px;
+    }
 }

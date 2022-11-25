@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +6,10 @@
 
 body {
     box-sizing: border-box;
-    background-color: #EAEAEA;
-    font-family: sans-serif;
-    overflow: scroll;
+    background-color: #fffefe;
     font-family: 'Open Sans', sans-serif;
 }
-
+/* Naviagtion */
 nav {
     position: fixed;
     overflow: hidden;
@@ -47,7 +45,7 @@ nav {
     text-align: center;
 }
 
-
+/* Content */
 
 .contenthead {
     text-align: center;
@@ -76,7 +74,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
 }
-
+/* Media Querry */
 @media(min-width:855px) {
 
 

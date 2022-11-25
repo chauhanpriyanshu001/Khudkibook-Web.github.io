@@ -1,17 +1,292 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.container{
-    border: 2px solid red ;
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    height: auto;
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
-.desc{
-    font-size: 20px;
-    text-align: start;
+nav {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+}
+
+#appbar {
+    background-color: white;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 2.2vh;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+/* Dropdown menu */
+.dropbtn {
+    background-color: skyblue;
+    color: black;
+    /* padding: 16px; */
+    font-size: 3vh;
+    border: none;
+}
+
+.dropdown {
+    /* position: relative; */
+    /* display: inline-block; */
+}
+
+.dropdown-content {
+    display: none;
+     position: absolute;
+    /* background-color: rgb(0, 179, 250); */
+    min-width: 20vh;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10000;
+    text-align: left;
+    width: 100%;
+    font-size: 3vh;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+
+}
+.dropdown-content:hover{
+    display: flex;
+    position:static;
+}
+.dropdown-content a:hover {
+    background-color: skyblue;
+  
+
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: rgb(0, 179, 250);
+
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(0, 179, 250);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    padding: 3px;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.headerimg {
+    height: 8vh;
+    width: 8vh;
+    background-color: white;
+
+}
+
+.header {
+    margin-top: 10vh;
+    font-size: 4vh;
+    text-align: center;
+    color: orange;
+}
+
+.header1 {
+    font-size: 4vh;
+    text-align: center;
+    color: orange;
+}
+
+/*  */
+
+a {
+    text-decoration: none;
+}
+
+.recmainheader {
+    color: orange;
+    text-align: center;
+}
+
+
+.recommian {
+    background-color: white;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+}
+
+
+.recimg {
+    width: 30vh;
+    height: 30vh;
+    transition: all;
+    transition-duration: 0.5s;
+    border-radius: 30px;
+}
+
+
+.reccontent {
+    padding: 10px;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recbookname {
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+.recbookname:hover {
+    color: orange;
+}
+
+a {
+    color: black;
+}
+
+.recopenbtn {
+    margin-top: 5px;
+    width: 15vh;
+    height: 4vh;
+    background-color: orange;
+    border: navajowhite;
+    border-radius: 5px;
+    font-size: 2vh;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.recopenbtn:hover {
+    box-shadow: 10px 0px 10px orange;
+    background-color: transparent;
+    border: 1px solid orange;
+}
+
+.desc {
+    text-align: center;
+    font-size: 24px;
+}
+
+.desc2 {
+    color: orange;
+    font-size: 25px;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+@media(max-width:625px) and (min-width:436px) {
+    .reccontent {
+        width: 20vh;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .recopenbtn {
+        margin-left: 30px;
+        bottom: 0;
+
+    }
+
+    .recimg {
+        width: 20vh;
+        height: 20vh;
+    }
+
+    .recbookname {
+        font-size: 20px;
+        text-align: start;
+        margin-left: 30px;
+
+    }
+
+    .desc {
+        margin-top: 2px;
+        margin-left: 30px;
+        text-align: start;
+        font-size: 20px;
+    }
+
+    .desc2 {
+        color: orange;
+        margin-left: 30px;
+        text-align: start;
+        font-size: 25px;
+    }
+
+    .recopenbtn {
+        height: 4vh;
+    }
+}
+
+@media (max-width:436px) and (min-width:0px) {
+    .reccontent {
+        width: 15vh;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .recopenbtn {
+        margin-left: 30px;
+        bottom: 0;
+
+    }
+
+    .recimg {
+        width: 17vh;
+        height: 17vh;
+    }
+
+    .recbookname {
+        font-size: 17px;
+        text-align: start;
+        margin-left: 30px;
+
+    }
+
+    .desc {
+        margin-top: 2px;
+        margin-left: 30px;
+        text-align: start;
+        font-size: 15px;
+    }
+
+    .desc2 {
+        color: orange;
+        margin-left: 30px;
+        text-align: start;
+        font-size: 20px;
+    }
+
+    .recopenbtn {
+        height: 3.5vh;
+        width: 10vh;
+    }
 }

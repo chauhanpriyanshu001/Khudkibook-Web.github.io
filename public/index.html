@@ -13,9 +13,7 @@
     <title>KhudKibook</title>
     <link rel="icon" type="image/x-icon" href="https://neo2708.github.io/pic.github.io/bg.png">
     <link rel="stylesheet" href="styleit1.css">
-    <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="slider.css">
     <script>
         fetch("data.json").then(response => response.json()).then(data => {
             document.querySelector(".ith").innerText = data.it[0].hit;
@@ -25,10 +23,10 @@
             document.querySelector(".cph").innerText = data.cp[0].hcp;
 
         })
-      
+
     </script>
-   
-     
+
+
 
 </head>
 
@@ -38,7 +36,7 @@
             <a href="https://khudkibook.web.app/">
                 <img class="headerimg" src="https://neo2708.github.io/pic.github.io/bg.png" alt="Logo" srcset="">
             </a>
-            <div class="home">
+            <div class="home" id="active">
                 <ul>
                     <li>
                         <a class="home" href="">Home</a>
@@ -46,23 +44,26 @@
                 </ul>
 
             </div>
+            <!-- <div class="aboutus">
+                <ul>
+                    <li>
+                        <a class="account" href="#scroll">About Us</a>
+                    </li>
+                </ul>
+            </div> -->
+            <!-- <div class="profilec">
+                <ul>
+                    <li><a class="profile" href="">
+                            <img class="profilepic"
+                                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                                alt="Profile Pic">
+                        </a></li>
+                </ul>
+            </div> -->
 
-            <ul>
-                <li>
-                    <a class="brancha" href="">Branch</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a class="account" href="">Account</a>
-                </li>
-            </ul>
-            <ul>
-                <li><a class="more" href="">More..</a></li>
-            </ul>
     </nav>
     <h1 class="header">GTU Diploma Books and Study Material</h1>
-   
+
     <!-- <div class="slider">
         <div class="slide active">
 
@@ -98,10 +99,10 @@
         <a href="/public/it/index.html">
             <div class="it">
                 <img class="itimg" src="https://cdn-icons-png.flaticon.com/512/2387/2387667.png" alt="">
-    
+
                 <div class="ith">
                     <h1></h1>
-    
+
                 </div>
             </div>
         </a>
@@ -194,7 +195,7 @@
         </div>
 
     </div>
-    <script>
+    <!-- <script>
           var slides = document.querySelectorAll('.slide');
         var btns = document.querySelectorAll('.btn');
         let currentSlide = 1;
@@ -244,10 +245,31 @@
             repeater();
         }
         repeat();
-    </script>
-
-
- 
+    </script> -->
+    <hr>
+    <!-- About Us  -->
+    <!-- <div id="scroll" class="aboutusc">
+        <h1 style="text-align: center;" >About Us</h1>
+        <br>
+        <div class="ah">
+            <h1 class="ahm">khudkibook</h1>
+            <img class="auci" src="/mobile-map-and-navigation.png" alt="" srcset="">
+        </div>
+        <h1 class="ahmc">
+            Who Are WE?
+        </h1>
+        <p class="ahmwh" >
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi incidunt commodi velit nam suscipit unde! Iure deleniti, dignissimos, doloribus doloremque illo sit modi mollitia quae beatae ipsa obcaecati asperiores repudiandae animi pariatur corrupti, accusantium similique sequi quaerat voluptatum. Libero sed debitis fugiat ut itaque tempore perspiciatis hic sunt modi harum.
+        </p>
+        <br><br>
+        <h1 class="ahmc">
+            What We Do?
+        </h1>
+        <p class="ahmwh" >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi incidunt commodi velit nam suscipit unde! Iure deleniti, dignissimos, doloribus doloremque illo sit modi mollitia quae beatae ipsa obcaecati asperiores repudiandae animi pariatur corrupti, accusantium similique sequi quaerat voluptatum. Libero sed debitis fugiat ut itaque tempore perspiciatis hic sunt modi harum.
+                    </p>
+                    <br><br>
+    </div> -->
 </body>
 
 </html>

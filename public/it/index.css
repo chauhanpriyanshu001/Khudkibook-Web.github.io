@@ -201,7 +201,19 @@ a {
     align-items: flex-start;
     justify-content: start;
 }
-
+/* Footer */
+.footcover{
+    width: auto;
+    
+}
+.foottext{
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(128, 128, 128,0.5);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
 @media(max-width:625px) and (min-width:436px) {
     .reccontent {
         width: 20vh;

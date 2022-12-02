@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,36 +11,35 @@
 
 
 </head>
+
 <body>
     <nav>
         <div id="appbar">
             <a href="/index.html">
                 <img class="headerimg" src="https://neo2708.github.io/pic.github.io/bg.png" alt="Logo" srcset="">
             </a>
-            <!-- <div class="home">
+            <div class="home">
                 <ul>
                     <li>
-                        <a class="home" href="/index.html">Home</a>
+                        <a class="home" href="/public/index.html">Home</a>
                     </li>
+
                 </ul>
 
-            </div> -->
-<!-- 
+            </div>
             <ul>
                 <li>
-                    <a class="brancha" href="">Branch</a>
+                    <a class="branch" href="/public/it/index.html">I.T</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a class="account" href="">Account</a>
+                    <a class="branch" id="active" href="#">I.T Systems</a>
                 </li>
             </ul>
-            <ul>
-                <li><a class="more" href="">More..</a></li>
-            </ul> -->
+
         </div>
-        
+
     </nav>
     <!-- Cureent Book Info  -->
     <div class="main">
@@ -57,9 +57,31 @@
                 <h1 class="mdesc">4311602</h1>
                 <h1 class="mdesc2">Credit-5</h1>
                 <div>
-                    <a href="https://drive.google.com/uc?export=download&id=1D5Y7q1AGF_jPUdVVrjPx7ak7P767KMYL">
-                        <input class="miandownloadbtn" type="button" value="Download Book">
-                    </a>
+                    <div class="dropdown">
+                        <button class="miandownloadbtn" class="dropbtn">
+                            <div class="drp">
+                                <span>Select Download </span> <img
+                                    src="/public/assests/expand_more_FILL0_wght400_GRAD0_opsz48.png"
+                                    style="width: 25px;margin-top: 10px;">
+                            </div>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="https://drive.google.com/uc?export=download&id=1AhOeEaEVKxJ1fVUrnq8Y3Mid8K5z7lpj">UNIT-1
+                            </a>
+                            <a href="https://drive.google.com/uc?export=download&id=1AeJb9vXKRqIuVnUHc0IwerpT3VvVE0ds">UNIT-2
+                            </a>
+                            <a href="https://drive.google.com/uc?export=download&id=1AeEDCkKQYYbLaO1kw5811jhdzNfv38HY">UNIT-3
+                            </a>
+                            <a href="https://drive.google.com/uc?export=download&id=1AchJ-PgbQIPi4xVBjrYuJn7I07hJYvB7">UNIT-4
+                            </a>
+                            <a
+                                href="https://drive.google.com/uc?export=download&id=1AbERMJ1EwLGOJ0Rdmg_e4oAWApzz5VJ9">UNIT-5</a>
+                            <a href="https://drive.google.com/uc?export=download&id=1AW4BbAT8NCc0fbSpL8U9JV99xZ4UhhYF">UNIT-6
+                            </a>
+                            <a href="https://drive.google.com/uc?export=download&id=1D5Y7q1AGF_jPUdVVrjPx7ak7P767KMYL">Full-Book
+                            </a>
+                        </div>
+                    </div>
                     <a href="https://drive.google.com/uc?export=download&id=18JZjqy8Lm1GPFf1ypewxgEifrZ8cARUw">
                         <input class="miandownloadbtn" type="button" value="Syllabus">
 
@@ -81,8 +103,8 @@
     </h1>
     <div class="recommian">
         <!-- Python* -->
-        
 
+        <a href="/public/it/pythonprogramming.html">
             <div class="reccontent">
                 <div class="img">
                     <img class="recimg" src="https://neo2708.github.io/pic.github.io/013.png" alt="" srcset="">
@@ -94,33 +116,96 @@
                     <input class="recopenbtn" type="button" value="Open >">
                 </div>
 
+        </a>
 
-            
+
+    </div>
+    <!-- IT SYS* -->
+    <!-- Current -->
+    <div class="current">
+        <div class="reccontent">
+            <div class="img">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/007.png"
+                    alt="Introduction to IT System" srcset="">
+            </div>
+            <div class="align">
+                <h1 class="recbookname">Introduction to IT Systems </h1>
+                <h1 class="desc2">4311602</h1>
+                <h1 class="desc">Credit-5</h1>
+                <input class="recopenbtn" type="button" value="Current">
+            </div>
 
         </div>
-        <!-- IT SYS* -->
-        <!-- Current -->
-        <div class="current">
+    </div>
+    <!-- Maths -->
+    <a href="/public/it/maths.html">
+        <div class="reccontent">
+            <img class="recimg" src="https://neo2708.github.io/pic.github.io/008.png" alt="" srcset="">
+            <div class="align">
+                <h1 class="recbookname">Mathematics </h1>
+                <h1 class="desc2">4300001</h1>
+                <h1 class="desc">Credit-4</h1>
+                <input class="recopenbtn" type="button" value="Open >">
+            </div>
+
+
+        </div>
+    </a>
+    <!-- English -->
+    <a href="/public/it/english.html">
+        <div class="reccontent">
+            <img class="recimg" src="https://neo2708.github.io/pic.github.io/014.png" alt="" srcset="">
+            <div class="align">
+                <h1 class="recbookname">Communication Skills in English </h1>
+                <h1 class="desc2">4300002</h1>
+                <h1 class="desc">Credit-3</h1>
+                <input class="recopenbtn" type="button" value="Open >">
+            </div>
+
+
+        </div>
+    </a>
+    </div>
+    <hr>
+    <h1 class="recmainheader">Semester-2</h1>
+    <div class="recommian">
+        <!-- Advance Python -->
+        <a href="/public/it2/app.html">
             <div class="reccontent">
                 <div class="img">
-                <img class="recimg" src="https://neo2708.github.io/pic.github.io/007.png" alt="Introduction to IT System" srcset="">
-            </div>
+                    <img class="recimg" src="https://neo2708.github.io/pic.github.io/001.png" alt="" srcset="">
+
+                </div>
                 <div class="align">
-                    <h1 class="recbookname">Introduction to IT Systems </h1>
-                    <h1 class="desc2">4311602</h1>
+                    <h1 class="recbookname">Advance Python Programming </h1>
+                    <h1 class="desc2">4300005</h1>
                     <h1 class="desc">Credit-5</h1>
-                    <input class="recopenbtn" type="button" value="Current">
+                    <input class="recopenbtn" type="button" value="Open >">
+
                 </div>
 
             </div>
-    </div>
-        <!-- Maths -->
-        <a href="/public/it/maths.html">
+        </a>
+        <!-- Maths 2 -->
+        <a href="/public/it2/emaths.html">
             <div class="reccontent">
-                <img class="recimg" src="https://neo2708.github.io/pic.github.io/008.png" alt="" srcset="">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/022.png" alt="" srcset="">
                 <div class="align">
-                    <h1 class="recbookname">Mathematics </h1>
-                    <h1 class="desc2">4300001</h1>
+                    <h1 class="recbookname"> Engineering Mathematics </h1>
+                    <h1 class="desc2">4320002</h1>
+                    <h1 class="desc">Credit-4</h1>
+                    <input class="recopenbtn" type="button" value="Open >">
+                </div>
+
+            </div>
+        </a>
+        <!--  Physics -->
+        <a href="/public/it2/physics.html">
+            <div class="reccontent">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/na.webp" alt="" srcset="">
+                <div class="align">
+                    <h1 class="recbookname"> Physics </h1>
+                    <h1 class="desc2">4300005</h1>
                     <h1 class="desc">Credit-4</h1>
                     <input class="recopenbtn" type="button" value="Open >">
                 </div>
@@ -128,13 +213,13 @@
 
             </div>
         </a>
-        <!-- English -->
-        <a href="/public/it/english.html">
+        <!-- ES -->
+        <a href="/public/it2/es.html">
             <div class="reccontent">
-                <img class="recimg" src="https://neo2708.github.io/pic.github.io/014.png" alt="" srcset="">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/005.png" alt="" srcset="">
                 <div class="align">
-                    <h1 class="recbookname">Communication Skills in English </h1>
-                    <h1 class="desc2">4300002</h1>
+                    <h1 class="recbookname">E.S </h1>
+                    <h1 class="desc2">4300003</h1>
                     <h1 class="desc">Credit-3</h1>
                     <input class="recopenbtn" type="button" value="Open >">
                 </div>
@@ -144,154 +229,74 @@
         </a>
     </div>
     <hr>
-    <!-- Learn  -->
-    <!-- <h1 class="recmainheader">learn Python Before Your Friends</h1>
-    <div class="learn">
-        <div class="lcard">
-            <div class="align">
-                <iframe width="400" height="300" src="https://www.youtube.com/embed/gfDE2a7MKjA"
-                    title="YouTube video player" frameborder="3"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <div class="ccard">
-                    <h1 class="ccardc">CodeWithHarry</h1>
-                    <h1 class="ccardc2">3.45M subscribers</h1>
+    <!-- Sem-3 -->
+    <h1 class="recmainheader">Semester-3</h1>
+    <div class="recommian">
+        <!-- Data Structure with Python -->
+        <a href="/public/it3/dsp.html">
+            <div class="reccontent">
+                <div class="img">
+                    <img class="recimg" src="https://neo2708.github.io/pic.github.io/na.webp" alt="" srcset="">
+
+                </div>
+                <div class="align">
+                    <h1 class="recbookname"> Data Structure with Python </h1>
+                    <h1 class="desc2">4330001</h1>
+                    <h1 class="desc">Credit-5</h1>
+                    <input class="recopenbtn" type="button" value="Open >">
+
                 </div>
 
             </div>
-        </div>
-    </div> -->
-    <!-- Bottom nav -->
-<!-- Sem-2 -->
-<h1  class="recmainheader">Semester-2</h1>
-<div  class="recommian">
-    <!-- Advance Python -->
-    <a href="">
-        <div class="reccontent">
-            <div class="img">
-                <img class="recimg" src="https://neo2708.github.io/pic.github.io/001.png" alt="" srcset="">
-
-            </div>
-            <div class="align">
-                <h1 class="recbookname">Advance Python Programming </h1>
-                <h1 class="desc2">4300005</h1>
-                <h1 class="desc">Credit-5</h1>
-                <input class="recopenbtn" type="button" value="Open >">
-
-            </div>
-
-        </div>
-    </a>
-    <!-- Maths 2 -->
-    <a href="">
-        <div class="reccontent">
-            <img class="recimg" src="https://neo2708.github.io/pic.github.io/022.png" alt="" srcset="">
-            <div class="align">
-                <h1 class="recbookname"> Engineering Mathematics </h1>
-                <h1 class="desc2">4320002</h1>
-                <h1 class="desc">Credit-4</h1>
-                <input class="recopenbtn" type="button" value="Open >">
-            </div>
-
-        </div>
-    </a>
-    <!--  Physics -->
-    <a href="">
-        <div class="reccontent">
-            <img class="recimg" src="https://neo2708.github.io/pic.github.io/na.webp" alt="" srcset="">
-            <div class="align">
-                <h1 class="recbookname"> Physics </h1>
-                <h1 class="desc2">4300005</h1>
-                <h1 class="desc">Credit-4</h1>
-                <input class="recopenbtn" type="button" value="Open >">
-            </div>
-
-
-        </div>
-    </a>
-    <!-- ES -->
-    <a href="">
-        <div class="reccontent">
-            <img class="recimg" src="https://neo2708.github.io/pic.github.io/005.png" alt="" srcset="">
-            <div class="align">
-                <h1 class="recbookname">E.S </h1>
-                <h1 class="desc2">4300003</h1>
-                <h1 class="desc">Credit-3</h1>
-                <input class="recopenbtn" type="button" value="Open >">
-            </div>
-
-
-        </div>
-    </a>
-</div>
-<hr>
-<!-- Sem-3 -->
-<h1 class="recmainheader">Semester-3</h1>
-<div class="recommian">
-    <!-- Data Structure with Python -->
-    <a href="">
-        <div class="reccontent">
-            <div class="img">
+        </a>
+        <!-- Database Management -->
+        <a href="/public/it3/dm.html">
+            <div class="reccontent">
                 <img class="recimg" src="https://neo2708.github.io/pic.github.io/na.webp" alt="" srcset="">
+                <div class="align">
+                    <h1 class="recbookname"> Database Management </h1>
+                    <h1 class="desc2">4331603</h1>
+                    <h1 class="desc">Credit-5</h1>
+                    <input class="recopenbtn" type="button" value="Open >">
+                </div>
 
             </div>
-            <div class="align">
-                <h1 class="recbookname"> Data Structure with Python </h1>
-                <h1 class="desc2">4330001</h1>
-                <h1 class="desc">Credit-5</h1>
-                <input class="recopenbtn" type="button" value="Open >">
+        </a>
+        <!--  Linux Operating System -->
+        <a href="/public/it3/linuxOS.html">
+            <div class="reccontent">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/na.webp" alt="Image Not Avilable"
+                    srcset="">
+                <div class="align">
+                    <h1 class="recbookname"> Linux Operating System </h1>
+                    <h1 class="desc2">4331602</h1>
+                    <h1 class="desc">Credit-4</h1>
+                    <input class="recopenbtn" type="button" value="Open >">
+                </div>
+
 
             </div>
+        </a>
+        <!--  Fundamentals of Software Development -->
+        <a href="/public/it3/FSD.html">
+            <div class="reccontent">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/030.png" alt="" srcset="">
+                <div class="align">
+                    <h1 class="recbookname"> Fundamentals of Software Development </h1>
+                    <h1 class="desc2">4331604</h1>
+                    <h1 class="desc">Credit-4</h1>
+                    <input class="recopenbtn" type="button" value="Open >">
+                </div>
 
-        </div>
-    </a>
-    <!-- Database Management -->
-    <a href="">
-        <div class="reccontent">
-            <img class="recimg" src="https://neo2708.github.io/pic.github.io/na.webp" alt="" srcset="">
-            <div class="align">
-                <h1 class="recbookname"> Database Management </h1>
-                <h1 class="desc2">4331603</h1>
-                <h1 class="desc">Credit-5</h1>
-                <input class="recopenbtn" type="button" value="Open >">
+
             </div>
-
-        </div>
-    </a>
-    <!--  Linux Operating System -->
-    <a href="">
-        <div class="reccontent">
-            <img class="recimg" src="https://neo2708.github.io/pic.github.io/na.webp" alt="Image Not Avilable"
-                srcset="">
-            <div class="align">
-                <h1 class="recbookname"> Linux Operating System </h1>
-                <h1 class="desc2">4331602</h1>
-                <h1 class="desc">Credit-4</h1>
-                <input class="recopenbtn" type="button" value="Open >">
-            </div>
+        </a>
+    </div>
+    <!-- Footer -->
 
 
-        </div>
-    </a>
-    <!--  Fundamentals of Software Development -->
-    <a href="">
-        <div class="reccontent">
-            <img class="recimg" src="https://neo2708.github.io/pic.github.io/030.png" alt="" srcset="">
-            <div class="align">
-                <h1 class="recbookname"> Fundamentals of Software Development </h1>
-                <h1 class="desc2">4331604</h1>
-                <h1 class="desc">Credit-4</h1>
-                <input class="recopenbtn" type="button" value="Open >">
-            </div>
-
-
-        </div>
-    </a>
-</div>
-<!-- Footer -->
-
-
-    <h1 class="foottext" >@KhudKibook</h1>
+    <h1 class="foottext">@KhudKibook</h1>
 
 </body>
+
 </html>

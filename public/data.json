@@ -3,25 +3,39 @@
         {
             "hit": "I.T"
         }
+        
     ],
     "cv": [
         {
             "hcv": "Civil"
+        },
+        {
+            "cvmli": "/public/cv/index.html"
         }
     ],
     "el": [
         {
             "hel": "Electrical"
+        },
+        {
+            "elmli": ""
         }
     ],
     "me": [
         {
             "hme": "Mechanical"
+        },
+        {
+            "memli": ""
         }
     ],
     "cp": [
         {
             "hcp": "Computer"
+        },
+        {
+            "cpmli": ""
         }
     ]
+    
 }

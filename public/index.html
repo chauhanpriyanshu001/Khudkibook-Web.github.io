@@ -14,17 +14,8 @@
     <link rel="icon" type="image/x-icon" href="https://neo2708.github.io/pic.github.io/bg.png">
     <link rel="stylesheet" href="styleit1.css">
     <link rel="stylesheet" href="index.css">
-    <script>
-        fetch("data.json").then(response => response.json()).then(data => {
-            document.querySelector(".ith").innerText = data.it[0].hit;
-            document.querySelector(".cvh").innerText = data.cv[0].hcv;
-            document.querySelector(".meh").innerText = data.me[0].hme;
-            document.querySelector(".elh").innerText = data.el[0].hel;
-            document.querySelector(".cph").innerText = data.cp[0].hcp;
-
-        })
-
-    </script>
+    <script src="/public/src.js"></script>
+    <meta name="google-site-verification" content="cQwdBWIbhba4RItxT8gHfbwOF3U6Q9qQtujUT2CtO2s" />
 
 
 
@@ -33,8 +24,8 @@
 <body>
     <nav>
         <div id="appbar">
-            <a href="https://khudkibook.web.app/">
-                <img class="headerimg" src="https://neo2708.github.io/pic.github.io/bg.png" alt="Logo" srcset="">
+            <a class="link" href="https://khudkibook.web.app/">
+                <img class="headerimg" src="https://neo2708.github.io/pic.github.io/bg.png" alt="Logo">
             </a>
             <div class="home" id="active">
                 <ul>
@@ -44,22 +35,7 @@
                 </ul>
 
             </div>
-            <!-- <div class="aboutus">
-                <ul>
-                    <li>
-                        <a class="account" href="#scroll">About Us</a>
-                    </li>
-                </ul>
-            </div> -->
-            <!-- <div class="profilec">
-                <ul>
-                    <li><a class="profile" href="">
-                            <img class="profilepic"
-                                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-                                alt="Profile Pic">
-                        </a></li>
-                </ul>
-            </div> -->
+
 
     </nav>
     <h1 class="header">GTU Diploma Books & Study Material</h1>
@@ -106,148 +82,128 @@
                 </div>
             </div>
         </a>
-
-        <div class="civil">
-            <img class="itimg" src="https://cdn-icons-png.flaticon.com/512/609/609034.png" alt="">
-            <div class="cvh">
-                <h1></h1>
+        <a href="">
+            <div class="civil">
+                <img class="itimg" src="https://cdn-icons-png.flaticon.com/512/609/609034.png" alt="">
+                <div class="cvh">
+                    <h1></h1>
+                </div>
             </div>
-        </div>
-        <div class="electrical">
-            <img src="https://cdn-icons-png.flaticon.com/512/2907/2907301.png" alt="" class="itimg">
-            <div class="elh">
-                <h1></h1>
+        </a>
+        <a href="">
+            <div class="electrical">
+                <img src="https://cdn-icons-png.flaticon.com/512/2907/2907301.png" alt="" class="itimg">
+                <div class="elh">
+                    <h1>Electrical</h1>
+                </div>
             </div>
-        </div>
-        <div class="mechanical">
-            <img src="https://cdn-icons-png.flaticon.com/512/1995/1995450.png" alt="" class="itimg">
-            <div class="meh">
-                <h1></h1>
+        </a>
+        <a href="">
+            <div class="mechanical">
+                <img src="https://cdn-icons-png.flaticon.com/512/1995/1995450.png" alt="" class="itimg">
+                <div class="meh">
+                    <h1>Mechanical</h1>
+                </div>
             </div>
-        </div>
-        <div class="computer">
-            <img src="https://cdn-icons-png.flaticon.com/512/186/186225.png" alt="" class="itimg">
-            <div class="cph">
-                <h1></h1>
+        </a>
+        <a id="cpli" href="">
+            <div class="computer">
+                <img src="https://cdn-icons-png.flaticon.com/512/186/186225.png" alt="" class="itimg">
+                <div class="cph">
+                    <h1></h1>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
     <hr>
-    <h1 class="header1">Common Subject Sem-1</h1>
-    <div class="commoncard">
-        <div class="english">
-            <a href="">
-                <img class="imgc" src="https://neo2708.github.io/pic.github.io/001.png" alt="">
-                <div class="column">
-                    <h1 class="csn">English</h1>
-                    <h1 class="branch">All Branch</h1>
+    <h1 class="header1">All GTU-Diploma Books</h1>
+    <div class="recommian">
+        <!-- English -->
+        <a href="/public/common/">
+            <div class="reccontent">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/014.png" alt="" srcset="">
+                <div class="align">
+                    <h1 class="recbookname">Communication Skills in English </h1>
+                    <h1 class="desc2">4300002</h1>
+                    <h1 class="desc">Credit-3</h1>
+                    <h1 class="desc3">Sem-1</h1>
+                    <h1 class="desc4">All Branch</h1>
+                    <input class="recopenbtn" type="button" value="Open >">
                 </div>
-            </a>
-        </div>
-        <div class="maths">
-            <a href="">
-                <img class="imgc" src="https://neo2708.github.io/pic.github.io/002.png" alt="">
-                <div class="column">
-                    <h1 class="csn">Mathematics</h1>
-                    <h1 class="branch">All Branch</h1>
+
+
+            </div>
+
+        </a>
+        <!-- Maths sem1 -->
+        <a id="macmli" href="/public/common/">
+            <div class="reccontent">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/008.png" alt="" srcset="">
+                <div class="align">
+                    <h1 class="recbookname">Mathematics </h1>
+                    <h1 class="desc2">4300001</h1>
+                    <h1 class="desc">Credit-4</h1>
+                    <h1 class="desc3">Sem-1</h1>
+                    <h1 class="desc4">All Branch</h1>
+                    <input class="recopenbtn" type="button" value="Open >">
                 </div>
-            </a>
-        </div>
-        <div class="es">
-            <a href="">
-                <img class="imgc" src="https://neo2708.github.io/pic.github.io/005.png" alt="">
-                <div class="column">
-                    <span class="csn">E.S</span>
-                    <h1 class="branch">All Branch</h1>
+            </div>
+        </a>
+        <!-- Es -->
+        <a href="/public/common/">
+            <div class="reccontent">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/005.png" alt="" srcset="">
+                <div class="align">
+                    <h1 class="recbookname">Environment and Sustainablity </h1>
+                    <h1 class="desc2">4300003</h1>
+                    <h1 class="desc">Credit-4</h1>
+                    <h1 class="desc3">Sem-1 : Computer</h1>
+                    <h1 class="desc4">Sem-2 : IT | Mechanical | Electrical | Civil</h1>
+                    <input class="recopenbtn" type="button" value="Open >">
                 </div>
-            </a>
-        </div>
+            </div>
+        </a>
+        <!-- Python -->
+        <a href="/public/it/pythonprogramming.html">
+            <div class="reccontent">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/013.png" alt="" srcset="">
+                <div class="align">
+                    <h1 class="recbookname">Python Programming</h1>
+                    <h1 class="desc2">4311601</h1>
+                    <h1 class="desc">Credit-5</h1>
+                    <h1 class="desc3">Sem-1</h1>
+                    <h1 class="desc4">IT</h1>
+                    <input class="recopenbtn" type="button" value="Open >">
+                </div>
+            </div>
+        </a>
+        <!-- IT System -->
+        <a href="/public/it/itsys.html">
+            <div class="reccontent">
+                <img class="recimg" src="https://neo2708.github.io/pic.github.io/007.png" alt="" srcset="">
+                <div class="align">
+                    <h1 class="recbookname">Introduction to IT Systems</h1>
+                    <h1 class="desc2">4311602</h1>
+                    <h1 class="desc">Credit-5</h1>
+                    <h1 class="desc3">Sem-1</h1>
+                    <h1 class="desc4">IT</h1>
+                    <input class="recopenbtn" type="button" value="Open >">
+                </div>
+            </div>
+        </a>
+        
+    </div>
+    </div>
+
+    </div>
+
     </div>
     <hr>
-    <h1 class="header1"> Common Subject Sem-2 </h1>
-    <div class="commoncard2">
-        <div class="maths2">
-            <a href="">
-                <img class="imgc" src="https://neo2708.github.io/pic.github.io/006.png" alt="">
-                <div class="column">
-                    <h1 class="csn">Maths</h1>
-                    <h1 class="branch">I.T | Computer | Electrical</h1>
-                </div>
-            </a>
-        </div>
-        <div class="maths">
-            <a href="">
-                <img class="imgc" src="https://neo2708.github.io/pic.github.io/007.png" alt="Maths book image">
-                <div class="column">
-                    <h1 class="csn">Mathematics</h1>
-                    <h1 class="branch">Civil | Mechanical</h1>
-                </div>
-            </a>
-        </div>
-        <div class="ap">
-            <a href="">
-                <img class="imgc" src="https://neo2708.github.io/pic.github.io/003.png" alt="">
-                <div class="column">
-                    <span class="csn">Applied <br> Physics </span>
-                    <h1 class="branch">I.T | Computer | Electrical</h1>
-                </div>
-            </a>
-        </div>
-
-    </div>
-    <!-- <script>
-          var slides = document.querySelectorAll('.slide');
-        var btns = document.querySelectorAll('.btn');
-        let currentSlide = 1;
-
-        var manualNav = function (manual) {
-            slides.forEach((slide) => {
-                slide.classList.remove('active');
-                btns.forEach((btn) => {
-                    btn.classList.remove('active');
-                })
-            })
-            slides[manual].classList.add('active');
-            btns[manual].classList.add('active');
-        }
-
-        btns.forEach((btn, i) => {
-            btn.addEventListener("click", () => {
-                manualNav(i);
-                currentSlide = i;
-            });
-        });
 
 
-        var repeat = function (activeClass) {
-            let active = document.getElementsByClassName('active');
-            let i = 1;
 
-            var repeater = () => {
+    <h1 class="foottext">--- @KhudKibook ---</h1>
 
-                setTimeout(function () {
-                    [...active].forEach((activeSlide) => {
-                        activeSlide.classList.remove('active');
-                    });
-                    slides[i].classList.add('active');
-                    btns[i].classList.add('active');
-                    i++;
-
-                    if (slides.length == i) {
-                        i = 0;
-                    }
-                    if (i >= slides.length) {
-                        return;
-                    }
-                    repeater();
-                }, 3000);
-            }
-            repeater();
-        }
-        repeat();
-    </script> -->
-    <hr>
-    <h1 class="foottext" >--- @KhudKibook ---</h1>
-  
+</body>
 
 </html>

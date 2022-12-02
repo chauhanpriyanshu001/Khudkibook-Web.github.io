@@ -1,4 +1,4 @@
-*{
+* {
     scroll-behavior: smooth;
 }
 
@@ -6,6 +6,8 @@ body {
     background-color: white;
     margin-left: 2px;
     margin-right: 2px;
+    overflow: h;
+
     scroll-behavior: smooth;
 }
 
@@ -41,6 +43,7 @@ li {
     border-bottom: 3px solid black;
     background-color: white;
 }
+
 .home {
     color: black;
 }
@@ -52,19 +55,10 @@ li {
     width: 10vh;
     height: 125%;
     margin-top: 2px;
-    text-decoration:3px solid black overline;
+    text-decoration: 3px solid black overline;
 }
 
-.profilec{
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50px;
-    border: 2px solid gray;}
-.profilepic{
-    width: 6vh;
-    height: 6vh;
-    border-radius: 40px;
-}
+
 .all {
     width: auto;
     height: 10vh;
@@ -72,6 +66,7 @@ li {
     display: flex;
     justify-content: space-around;
 }
+
 hr {
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -80,6 +75,7 @@ hr {
     background-color: orange;
     border: 1px solid orange;
 }
+
 .it,
 .computer,
 .electrical,
@@ -97,13 +93,9 @@ hr {
     color: white;
     flex-wrap: wrap;
     font-size: 2vh;
-    /* background-color: orange; */
     background: linear-gradient(to top, orange 50%, rgba(255, 134, 4, 0.585));
-
     box-shadow: 0px 3px rgb(176, 115, 2);
     font-weight: bold;
-
-
     transition: all;
 }
 
@@ -128,43 +120,6 @@ hr {
     height: 5vh;
 }
 
-.commoncard,
-.commoncard2 {
-    width: auto;
-    height: 28vh;
-    /* border: 2px solid orange; */
-    margin-top: 0.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.english,
-.maths,
-.es,
-.ap {
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.imgc {
-    width: 17vh;
-    height: 17vh;
-}
-
-.recimg {
-    width: 20vh;
-    height: 20vh;
-    transition: all;
-    transition-duration: 0.5s;
-    border-radius: 30px;
-}
-
 .recommian {
     background-color: white;
     width: auto;
@@ -177,93 +132,102 @@ hr {
     flex-direction: row;
 }
 
-.csn {
-    color: orange;
-    font-size: 2vh;
+.reccontent {
+    padding: 10px;
+    width: 30vh;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.branch {
-    font-size: 1.5vh;
+
+.recimg {
+    width: 30vh;
+    height: 29vh;
+    transition: all;
+    transition-duration: 0.5s;
+    border-radius: 30px;
+}
+
+.recimg:hover {
+    cursor: pointer;
+}
+
+
+
+a {
     color: black;
 }
 
-.column {
-    margin-left: 4vh;
-    flex-wrap: wrap;
-    
-}
-.aboutusc{
+.align {
     display: flex;
-    justify-content: start;
-    align-items: flex-start;
-    margin: 0px 5vh ;
-    padding: 0px 5vh ;
-    background-color: rgb(243, 235, 233);
     flex-direction: column;
-}
-.ah{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
-.ahm{
-    color: orange;
-text-decoration: overline;
-transition: text-decoration;
-transition-duration: 0.5s;
-transition-delay: 0.5s;
-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.ahm:hover{
-    text-decoration: underline;
-}
-.auci{
-    width: 20vh;
+    padding: 2px;
+    align-items: flex-start;
+    justify-content: start;
 }
 
-.ahmc{
-    margin-left: 10vh;
-    font-size: 30px;
+.recbookname {
+    font-weight: bold;
+    font-size: 2.5vh;
+    color: orange;
 }
-.ahmwh{
-    margin-left: 10vh;
-    font-size: 20px;
+
+.desc {
+    text-align: start;
+    font-size: 24px;
+    color: orange;
 }
-.foottext{
+
+.desc2 {
+    font-size: 25px;
+}
+
+.desc3 {
+    font-size: 22px;
+}
+
+.desc4 {
+    color: orange;
+    font-size: 22px;
+}
+
+.recopenbtn {
+    margin-top: 5px;
+    width: 15vh;
+    height: 4vh;
+    background-color: orange;
+    border: navajowhite;
+    border-radius: 5px;
+    font-size: 2vh;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.recopenbtn:hover {
+    box-shadow: 10px 0px 10px orange;
+    background-color: transparent;
+    border: 1px solid orange;
+}
+
+.foottext {
     text-align: center;
     margin-top: 5px;
-    color: rgb(128, 128, 128,0.5);
+    color: rgb(128, 128, 128, 0.5);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 
+
+
+
 @media(max-width:2000px) and (min-width:900px) {
     a {
         font-size: 3vh;
     }
-
-
-    .imgc {
-        width: 25vh;
-        height: 25vh;
-    }
-
-    .csn {
-        font-size: 3vh;
-    }
-
-    .branch {
-        font-size: 2vh;
-    }
-
-    .es {
-        margin-left: 2vh;
-    }
-
 
     .it,
     .computer,
@@ -287,10 +251,6 @@ transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
         background: linear-gradient(to right, rgba(255, 134, 4, 0.585), orange 80%, rgba(255, 134, 4, 0.585));
 
     }
-
-
-
-
 }
 
 @media(max-width:1500px) and (min-width:900px) {
@@ -313,14 +273,6 @@ transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 @media(max-width:900px) and (min-width:550px) {
-    .imgc {
-        width: 23vh;
-        height: 23vh;
-    }
-
-    .csn {
-        font-size: 3vh;
-    }
 
     .it,
     .computer,
@@ -330,27 +282,70 @@ transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
         width: 12vh;
         font-size: 2vh;
     }
-
 }
 
-@media(max-width:550px) and (min-width:00px) {
 
-    .imgc {
+
+@media(max-width:557px) {
+
+    .recmainheader {
+        font-size: 30px;
+        margin-right: px;
+    }
+
+    .reccontent {
+        width: 20vh;
+        margin-top: 10px;
+        align-items: flex-start;
+    }
+
+    .recopenbtn {
+        margin-left: 30px;
+
+    }
+
+    .recimg {
         width: 20vh;
         height: 20vh;
     }
-}
 
+    .recbookname {
+        font-size: 17px;
 
-@media(max-width:500px) {
-
-
-
-    .commoncard {
-        width: 42vh;
+        margin-left: 30px;
     }
 
+    .recopenbtn {
+        height: 3.5vh;
+        width: 10vh;
+    }
 
+    .desc {
+        margin-top: 2px;
+        margin-left: 30px;
+
+        font-size: 15px;
+    }
+    
+    .desc2 {
+        color: black;
+        margin-left: 30px;
+        text-align: start;
+        font-size: 15px;
+    }
+
+    .desc3 {
+        margin-left: 30px;
+        text-align: start;
+        font-size: 15px;
+    }
+    
+    .desc4 {
+        font-size: 15px;
+        margin-left: 30px;
+        text-align: start;
+
+    }
 
     .english,
     .maths,
@@ -358,7 +353,6 @@ transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
         width: 15vh;
         height: 25vh;
     }
-
 
     .it,
     .computer,
@@ -368,7 +362,4 @@ transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
         width: 8vh;
         font-size: 1.5vh;
     }
-
-
 }
-

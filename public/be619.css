@@ -42,8 +42,7 @@ nav {
 #ab111 {
     width: auto;
     display: flex;
-    justify-content: space-between;
-    border-bottom: 3px solid black;
+justify-content: center;
     background-color: white;
     align-items: center;
     z-index: 2;
@@ -84,8 +83,8 @@ li {
 }
 
 .logoimg {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+        width: 60px;
 }
 
 .nl753 {
@@ -237,7 +236,7 @@ main {
     cursor: pointer;
     transition: background-color, border;
     transition-duration: 0.5s;
-    margin: 5px 5px;
+    margin: 5px 0px;
 }
 
 .kpb789123:hover {
@@ -266,22 +265,26 @@ a {
     font-size: 30px;
     color: orange;
     position: sticky;
-    top: 80px;
+    top: 64px;
     background: white;
     z-index: 2;
     min-height: 5vh;
 }
 
 /* footer */
-.kft789123 {
-    text-align: center;
-    margin-top: 5px;
-    color: rgb(128, 128, 128, 0.5);
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    height: 5vh;
-    margin: 10px 0px;
+.ftriuy {
+    width: 100%;
+    /* background-color: orange; */
+    height: auto;
+    margin-top: 20px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgba(152, 152, 152, 0.747);
+    letter-spacing: 3px;
 }
 
 /* Main book content */
@@ -523,8 +526,8 @@ main {
 
     /* main */
     .mali147852 {
-        min-width: 200px;
-        max-width: 200px;
+        min-width: initial;
+            margin-right: 25px;
     }
 
     .abc123456 {

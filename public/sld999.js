@@ -1,16 +1,16 @@
-var slides = document.querySelectorAll('.slide');
+var slides = document.querySelectorAll('.sl100');
 var btns = document.querySelectorAll('.btn');
 let currentSlide = 1;
 
 var manualNav = function (manual) {
     slides.forEach((slide)=>{
-        slide.classList.remove('active');
+        slide.classList.remove('ats01');
         btns.forEach((btn)=>{
-            btn.classList.remove('active');
+            btn.classList.remove('ats01');
         })
     })
-    slides[manual].classList.add('active');
-    btns[manual].classList.add('active');
+    slides[manual].classList.add('ats01');
+    btns[manual].classList.add('ats01');
 }
 
 btns.forEach((btn, i) => {
@@ -22,17 +22,17 @@ btns.forEach((btn, i) => {
 
 
 var repeat=function(activeClass){
-    let active =document.getElementsByClassName('active');
+    let active =document.getElementsByClassName('ats01');
     let i =1;
 
     var repeater = () => {
        
         setTimeout(function(){
             [...active].forEach((activeSlide)=>{
-                activeSlide.classList.remove('active');
+                activeSlide.classList.remove('ats01');
             });
-            slides[i].classList.add('active');
-            btns[i].classList.add('active'); 
+            slides[i].classList.add('ats01');
+            btns[i].classList.add('ats01'); 
             i++;
 
             if(slides.length == i){
@@ -42,7 +42,7 @@ var repeat=function(activeClass){
                  return;
             }
             repeater();
-        },3000);
+        }, 4000);
     }
     repeater();
 }

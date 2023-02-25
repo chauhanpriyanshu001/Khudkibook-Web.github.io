@@ -26,6 +26,7 @@ nav {
     font-weight: bolder;
     border-bottom: 2px solid black;
 }
+
 /* Dropdown menu */
 .dropbtn {
     background-color: skyblue;
@@ -35,14 +36,11 @@ nav {
     border: none;
 }
 
-.dropdown {
-    /* position: relative; */
-    /* display: inline-block; */
-}
+
 
 .dropdown-content {
     display: none;
-     position: absolute;
+    position: absolute;
     /* background-color: rgb(0, 179, 250); */
     min-width: 20vh;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -61,13 +59,14 @@ nav {
 
 
 }
-.dropdown-content:hover{
+.dropdown-content:hover {
     display: flex;
-    position:static;
+    position: static;
 }
+
 .dropdown-content a:hover {
     background-color: skyblue;
-  
+
 
 
 }
@@ -107,8 +106,12 @@ li {
 
 .header1 {
     font-size: 4vh;
-    text-align: center;
+    text-align: start;
     color: orange;
+    margin: 30px 0% 0px 4%;
+        border-left: 15px solid orange;
+        border-radius: 15px;
+        padding-left: 15px;
 }
 
 /*  */
@@ -201,19 +204,21 @@ a {
     align-items: flex-start;
     justify-content: start;
 }
+
 /* Footer */
-.footcover{
+.footcover {
     width: auto;
-    
+
 }
-.foottext{
+.foottext {
     text-align: center;
     margin-top: 5px;
-    color: rgb(128, 128, 128,0.5);
+    color: rgb(128, 128, 128, 0.5);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
+
 @media(max-width:625px) and (min-width:436px) {
     .reccontent {
         width: 20vh;

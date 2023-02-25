@@ -1,0 +1,57 @@
+<div class="sl000">
+            <!-- Slide-1 -->
+            <div class="sl100 ats01">
+                <img class="slig741" src="/img/bg.png" alt="">
+                <div class="sli456">
+                    <h1 class="shd718">
+                        Books | Syllabus | Last year Papers all at one place
+                    </h1>
+                    <p  class="she471">
+                        Your all in one E-BookStore
+                    </p>
+                    <a href="/it2/app.html">
+
+                        <input class="kpb789123" type="button" alt="button" draggable="false" multiple tabindex="0" value="Explore">
+                    </a>
+                </div>
+            </div>
+            <!-- Slide-2 -->
+            <div class="sl100">
+                <img class="slig741" src="/img/001.png" alt="">
+                <div class="sli456">
+                    <h1 class="shd718">
+                        Check Latest Advanced Python Book
+                    </h1>
+                    <p class="she471">
+                        for I.T Diploma Sem-2 Student
+                    </p>
+                    <a href="/it2/app.html">
+
+                        <input class="kpb789123" type="button" value="Explore">
+                    </a>
+
+                </div>
+
+            </div>
+            <!-- Slide-3 -->
+            <div class="sl100">
+                <img class="slig741" src="/img/002.png" alt="">
+                <div class="sli456">
+                    <h1 class="shd718">
+                        Check Latest B.C.P Book
+                    </h1>
+                    <p class="she471">
+                        Basic of Computer Programming
+                    </p>
+                    <input class="kpb789123" type="button" value="Explore">
+
+                </div>
+            </div>
+
+            <div class="navigation">
+                <div class="btn active "></div>
+                <div class="btn"></div>
+                <div class="btn"></div>
+            </div>
+
+        </div>

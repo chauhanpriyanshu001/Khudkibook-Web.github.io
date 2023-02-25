@@ -1,0 +1,34 @@
+.navinfo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.navlist {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    background-color: rgba(210, 210, 210, 0.441);
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.navitem {
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+.navitem:hover {
+    color: rgb(0, 179, 255);
+}
+
+#activelist {
+    color: orange;
+    font-weight: 500;
+    letter-spacing: 2px;
+}

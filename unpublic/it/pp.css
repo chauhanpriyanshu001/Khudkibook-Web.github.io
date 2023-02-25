@@ -1,22 +1,24 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: white;
     font-family: 'Mitr', sans-serif;
     box-sizing: border-box;
     margin: 10px 0px;
 }
+
 /* Naviagtion */
 nav {
     position: fixed;
     overflow: hidden;
     width: 100%;
     top: 0;
+    z-index: 2;
 }
 
 #appbar {
@@ -30,6 +32,7 @@ nav {
     font-weight: bolder;
     border-bottom: 2px solid black;
 }
+
 li {
     list-style: none;
 }
@@ -52,7 +55,7 @@ a {
     margin-top: 10vh;
     margin-bottom: 10vh;
     text-align: center;
-    font-weight: bolderß;
+    font-weight: bolder;
 
 }
 
@@ -141,15 +144,16 @@ a {
     color: orange;
     cursor: pointer;
 }
-.mdesc{
+.mdesc {
     color: orange;
     text-align: start;
     font-size: 35px;
 }
-.mdesc2{
+.mdesc2 {
     text-align: start;
     font-size: 30px;
 }
+
 hr {
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -163,6 +167,7 @@ hr {
 .recmainheader {
     color: orange;
     text-align: center;
+
 }
 
 
@@ -196,7 +201,7 @@ hr {
     width: 30vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -231,15 +236,17 @@ a {
     background-color: transparent;
     border: 1px solid orange;
 }
+
 .desc {
     text-align: start;
     font-size: 20px;
 }
+
 .desc2 {
     color: orange;
     font-size: 25px;
 }
-.align{
+.align {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -292,10 +299,10 @@ a {
 
 /* Footer */
 
-.foottext{
+.foottext {
     text-align: center;
     margin-top: 5px;
-    color: rgb(128, 128, 128,0.5);
+    color: rgb(128, 128, 128, 0.5);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -312,51 +319,50 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-.drp{
+}
+.drp {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-  .dropdown {
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
     display: none;
-    position: absolute;
     background-color: orange;
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(255, 136, 0, 0.8);
     z-index: 1;
-    
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
     color: black;
     padding: 9px 9px;
     text-decoration: none;
     display: block;
     font-size: 19px;
     text-align: center;
-  }
-  .dropdown-content span{
+}
+.dropdown-content span {
     color: blue;
     font-size: 10px;
-  }
+}
 
-  .dropdown-content a:hover {background-color: white;}
-  
+.dropdown-content a:hover {
+    background-color: white;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-  .dropdown:hover .dropdown-content {display: block;}
-  
 
-
-#active{
+#active {
     text-decoration: overline;
     color: orange;
     width: 3px;
@@ -422,7 +428,7 @@ a {
     .mainheadtext {
         font-size: 15px;
     }
-    iframe{
+iframe {
         width: 516px;
         height: 300px;
 
@@ -439,12 +445,12 @@ a {
         margin-right: 0px;
     }
 
- 
+
 
     .miandownloadbtn {
-        width: 16vh;
-        height: 4vh;
-        font-size: 15px;
+        width: 14vh;
+            height: 5vh;
+            font-size: 16px;
     }
 
 
@@ -467,8 +473,7 @@ a {
 
 
     .recmainheader {
-        font-size: 30px;
-        margin-right: px;
+        font-size: 25px;
     }
 
     .reccontent {
@@ -494,11 +499,12 @@ a {
 
     }
 
-    
+
 
     .recopenbtn {
         height: 4vh;
     }
+
     .desc {
         margin-top: 2px;
         margin-left: 30px;
@@ -512,16 +518,16 @@ a {
         text-align: start;
         font-size: 20px;
     }
-    .mdesc{
+.mdesc {
         color: orange;
         text-align: start;
         font-size: 20px;
     }
-    .mdesc2{
+.mdesc2 {
         text-align: start;
         font-size: 18px;
     }
-    iframe{
+iframe {
         width: 360px;
         height: 208px;
     }

@@ -1,0 +1,727 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khudkibook</title>
+    <link rel="icon" type="image/x-icon" href="https://neo2708.github.io/pic.github.io/bg.png">
+    <link rel="stylesheet" href="ic
+    .css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,200..700,0..1,-50..200" />
+    <!-- <link rel="stylesheet" href="base.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 10px 5px;
+            background-color: #1C1C1C;
+        }
+
+        /* Nav bar */
+        nav {
+            width: -webkit-fill-available;
+            height: 70px;
+            position: fixed;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+            background-color: #1C1C1C;
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+
+        /* Nav bar logo  div */
+        nav div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Nav bar logo */
+        nav div a img {
+            width: 70px;
+            height: 70px;
+        }
+
+        /* Nav Header */
+        nav h1 {
+            font-size: 25px;
+            color: orange;
+            margin: 10px;
+        }
+
+        /* Menu */
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 200px;
+            margin: 10px;
+        }
+
+        /* Menu link  */
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 7px;
+            background-color: orange;
+        }
+
+        /* Menubar */
+
+        .material-symbols-outlined {
+            display: none;
+        }
+
+
+
+
+        @media (max-width:500px) {
+
+            /* Menu */
+            .menu {
+                display: none;
+            }
+
+            /* Menu bar */
+            .material-symbols-outlined {
+                display: block;
+            }
+
+            /* Menu bar span */
+            nav span {
+                margin: 10px;
+            }
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="landing.css"> -->
+    <style>
+        /* Menu */
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 200px;
+            margin: 10px;
+        }
+
+        /* Menu link  */
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 7px;
+            background-color: orange;
+        }
+
+        #signout {
+            width: 120px;
+            height: 40px;
+            background-color: orange;
+            border: none;
+            border-radius: 7px;
+            color: white;
+            font-weight: 400;
+            cursor: pointer;
+            border: 2px solid orange;
+
+        }
+
+        #signout:hover {
+            background-color: transparent;
+        }
+
+        /* Menubar */
+
+        .material-symbols-outlined {
+            display: none;
+        }
+
+
+
+        /* head */
+        /* .head {
+    margin-top: 70px;
+
+}
+
+/* hero img */
+        /* .headimg {
+    width: 100%;
+    height: auto;
+} */
+
+        /* title for image  */
+        /* .title {
+    font-size: 5vw;
+    position: absolute;
+    padding: 10px;
+} */
+
+        /* subtitle for image  */
+        /* 
+.subtitle {
+    font-size: 2vw;
+    position: absolute;
+    padding: 10px;
+    margin-top: 18vw;
+    color: rgb(213, 125, 17);
+
+} */
+
+
+        /* Header  */
+        header {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            transition: all;
+
+        }
+
+        /* Div in header */
+        .branch {
+            margin: 10px;
+            height: 50px;
+            width: 180px;
+            text-align: center;
+            font-size: 26px;
+            border-radius: 8px;
+            padding: 10px;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            text-decoration: none;
+            cursor: pointer;
+            background: linear-gradient(to top, orange 50%, #ffc107);
+            box-shadow: 0px 3px rgb(176, 115, 2);
+        }
+
+
+
+
+        /* header branch hover */
+        header a:hover {
+            box-shadow: 0px 3px 5px rgb(176, 115, 2);
+            background: linear-gradient(to bottom, orange 80%, rgba(255, 134, 4, 0.585));
+        }
+
+        /* header branch images */
+        .branch img {
+            width: 50px;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Main content */
+        .h1 {
+            border-top: 2px solid orange;
+            margin-top: 85px;
+            color: orange;
+            font-size: 30px;
+            text-align: center;
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+
+        /* wraper of main content */
+        .wrap {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            overflow: scroll;
+            padding: 10px;
+            overflow-y: hidden;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+
+        }
+
+        .wrap::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* label */
+        main h3 {
+            color: orange;
+            border-left: 10px solid orange;
+            border-radius: 10px;
+            padding-left: 10px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            font-size: 30px;
+            text-align: start;
+            width: 85%;
+
+        }
+
+        .wrap {
+            width: 78%;
+
+        }
+
+        /* Main link */
+        .wrap a {
+            width: 322px;
+            height: 322px;
+            border: none;
+        }
+
+        /* Div to make the subject name stick to cover */
+        .stick {
+            position: sticky;
+        }
+
+        /* Text over the cover image (Subject name) */
+        .over {
+            position: absolute;
+            color: white;
+            opacity: 0;
+            text-align: center;
+            background-color: #1617189c;
+            width: 200px;
+            height: auto;
+            margin-left: 83px;
+            transition: all;
+            transition-duration: 1s;
+            border: 2px solid black;
+            border-radius: 10px;
+            letter-spacing: 3px;
+        }
+
+        /*  cover image */
+        .cover {
+            width: 290px;
+            border-radius: 30px;
+            margin-left: 40px;
+            background-color: black;
+            border: none;
+            z-index: 1;
+
+
+        }
+
+        /* Scroll */
+        .scroller {
+            height: 45px;
+        }
+
+        #next {
+            cursor: pointer;
+            height: 45px;
+            width: 45px;
+            background-image: url("/assets/next.png");
+            background-repeat: no-repeat;
+            background-color: transparent;
+            position: absolute;
+            border: none;
+            right: 5%;
+            background-size: 30px;
+
+
+
+        }
+
+        #back {
+            cursor: pointer;
+            height: 50px;
+            width: 50px;
+            background-image: url("/assets/back.png");
+            background-repeat: no-repeat;
+            background-color: transparent;
+            position: absolute;
+            border: none;
+            padding-bottom: 10px;
+            color: black;
+            background-size: 30px;
+            left: 6%;
+        }
+
+
+        /* show the subject name on hover of link */
+
+
+        main a:hover .over {
+            opacity: 1;
+            cursor: pointer;
+            transform: translateY(50px);
+        }
+
+        /* border for cover image */
+        main a:hover .cover {
+            border: 2px solid orange;
+
+
+        }
+
+        @media (max-width:2000px)and (max-width:1800px) {
+            .wrap {
+                width: 69%;
+            }
+
+            #back {
+                left: 13%;
+            }
+
+            #next {
+                right: 13%;
+            }
+        }
+
+
+
+        @media (max-width:400px) {
+            .cover {
+                width: 158px;
+                border-radius: 15px;
+
+            }
+        }
+
+        @media (max-width:500px) {
+
+            /* Menu */
+            .menu {
+                display: none;
+            }
+
+            /* Menu bar */
+            .material-symbols-outlined {
+                display: block;
+            }
+
+            /* Menu bar span */
+            nav span {
+                margin: 10px;
+            }
+        }
+
+        @media (max-width:600px) {
+
+            .branch {
+                margin: 5px;
+                height: 25px;
+                width: 90px;
+                font-size: 18px;
+            }
+
+            .branch img {
+                display: none;
+            }
+
+            .wrap {
+                width: 87%;
+            }
+
+            .wrap a {
+                width: 210px;
+                height: 205px;
+                border: none;
+            }
+
+            .cover {
+                width: 200px;
+                margin-left: 10px;
+            }
+
+            .over {
+                margin-left: 12px;
+                width: 197px;
+                font-size: 25px;
+                margin-top: 2px;
+            }
+
+            #back {
+                left: 3%;
+                background-size: 20px;
+            }
+
+            #next {
+                background-size: 20px;
+                right: -2%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <a class="" href="https://khudkibook.web.app/">
+                <img class="" src="https://neo2708.github.io/pic.github.io/bg.png" alt="Logo">
+            </a>
+
+        </div>
+        <h1>khudkibook</h1>
+        <!-- Menu -->
+        <div class="menu">
+
+        </div>
+        <!-- Menubar -->
+        <span class="material-symbols-outlined">menu</span>
+
+
+
+
+    </nav>
+    <h1 class="h1">All Gtu-Books </h1>
+
+    <!-- Slider -->
+
+    <!-- <div class="head">
+        <div class="slide1">
+            <h1 class="title">Get All GTU <br> DIPLOMA BOOKS <br> <i>FREE</i> </h1>
+            <h1 class="subtitle">Lorem ipsum dolor sit,<br> amet consectetur adipisicing elit. <br> Nemo iusto
+                accusantium
+                <br>
+                aspernatur? <i>FREE</i>
+            </h1>
+            <img src="/assets/download.jpeg" class="headimg" alt="" srcset="">
+
+        </div>
+    </div> -->
+    <!-- Header -->
+    <header>
+        <a href="#" class="branch">
+            <img src="/assets/2387667.png" alt="">
+            I.T
+        </a>
+        <a href="#" class="branch">
+            <img src="/assets/2907301.png" alt="" class="itimg">
+
+            Electrical
+        </a>
+        <a href="#" class="branch">
+            <img src="/assets/186225.png" alt="" class="itimg">
+
+            Computer
+        </a>
+        <a href="#" class="branch">
+            <img src="/assets/1995450.png" alt="" class="itimg">
+
+            Mechanical
+        </a>
+        <a href="#" class="branch">
+            <img class="itimg" src="/assets/609034.png" alt="">
+
+            Civil
+        </a>
+    </header>
+
+    <!-- main -->
+
+    <main>
+
+        <!-- English -->
+
+        <h3>Sem-1</h3>
+        <div class="wrap">
+            <div class="scroller">
+                <button id="back">
+                </button>
+            </div>
+
+
+            <a href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">English</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/014.png" alt="" srcset="">
+            </a>
+            <!-- Maths sem1 -->
+            <a id="macmli" href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Mathematics</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/008.png" alt="" srcset="">
+            </a>
+            <!-- Intro to it -->
+            <a id="macmli" href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Introduction to IT System</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/007.png" alt="" srcset="">
+            </a>
+            <!-- ES -->
+            <a id="macmli" href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Environment and Sustainablity</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/005.png" alt="" srcset="">
+            </a>
+            <!-- Python -->
+            <a id="macmli" href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Python Programming</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/013.png" alt="" srcset="">
+            </a>
+            <!-- A Physics -->
+            <a id="macmli" href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Applied Physics</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/003.png" alt="" srcset="">
+            </a>
+            <!-- A Physics -->
+            <a id="macmli" href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Basic Computer Programming</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/002.png" alt="" srcset="">
+            </a>
+            <div class="scroller">
+                <button id="next">
+                </button>
+            </div>
+        </div>
+        <!-- Sem-2 -->
+        <h3>Sem-2</h3>
+        <div class="wrap">
+            <a href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Physics</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/019.png" alt="" srcset="">
+            </a>
+            <!-- Maths  -->
+            <a id="macmli" href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Engineering Mathematics</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/022.png" alt="" srcset="">
+            </a>
+            <!-- A Physics -->
+            <a id="macmli" href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Applied Physics</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/003.png" alt="" srcset="">
+            </a>
+        </div>
+        <h3>Sem-3</h3>
+        <div class="wrap">
+            <a href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Fundamental of Software Development</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/030.png" alt="" srcset="">
+            </a>
+            <!-- Maths  -->
+            <a id="macmli" href="/public/common/">
+                <div class="stick">
+                    <h2 class="over">Engineering Mathematics</h2>
+                </div>
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/022.png" alt="" srcset="">
+            </a>
+            <a id="macmli" href="/public/common/">
+                <img class="cover" src="https://neo2708.github.io/pic.github.io/007.png" alt="" srcset="">
+            </a>
+        </div>
+
+    </main>
+</body>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script type="module" src="/config.js"></script>
+<script type="module" src="/navbar.js"></script> -->
+<!-- <script src="/landing.js"></script> -->
+<script>
+    // Scroll next story
+    var width = window.outerWidth
+
+    // Get the arrow element
+    var arrow = document.getElementById("next");
+
+    // Add an event listener for the click event on the arrow
+    arrow.addEventListener("click", scrollStory);
+
+    function scrollStory() {
+        // Get the story container element
+        var storyContainer = document.querySelector(".wrap");
+        // Get the width of the first story card
+        var storyWidth = storyContainer.firstElementChild.offsetWidth;
+        var containerWidth = storyContainer.offsetWidth;
+        var contentWidth = storyContainer.scrollWidth;
+        if (containerWidth + storyContainer.scrollLeft > contentWidth) {
+            arrow.style.display = "none";
+
+        }
+        else {
+            if (width <= 600) {
+
+                storyContainer.scrollBy({ left: 430, behavior: 'smooth' });
+            }
+            else {
+
+                storyContainer.scrollBy({ left: 360, behavior: 'smooth' });
+            }
+            // Scroll to the next story card
+
+            back.style.display = "block";
+        }
+
+
+    }
+
+    var storyContainer = document.querySelector(".wrap");
+    var back = document.getElementById("back");
+
+
+    // Get the width of the first story card
+    var storyWidth = storyContainer.firstElementChild.offsetWidth;
+    var containerWidth = storyContainer.offsetWidth;
+    var contentWidth = storyContainer.scrollWidth;
+    if (containerWidth - storyContainer.scrollLeft < contentWidth) {
+        back.style.display = "none";
+
+    }
+
+    // Scroll back story
+    var back = document.getElementById("back");
+
+    // Add an event listener for the click event on the back
+    back.addEventListener("click", scrollStoryback);
+
+    function scrollStoryback() {
+        var storyContainer = document.querySelector(".wrap");
+        var storyWidth = storyContainer.firstElementChild.offsetWidth;
+        var containerWidth = storyContainer.offsetWidth;
+        var contentWidth = storyContainer.scrollWidth;
+        if (width <= 600) {
+
+            storyContainer.scrollBy({ left: -430, behavior: 'smooth' });
+        }
+        else {
+
+            storyContainer.scrollBy({ left: -360, behavior: 'smooth' });
+        }
+        arrow.style.display = "block";
+    }
+</script>
+
+</html>

@@ -1,0 +1,67 @@
+/* Slider  */
+
+.sl000 {
+    position: relative;
+    width: auto;
+    height: 220px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+.sl100 {
+    position:absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.sl000 .sl100.ats01 {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+}
+
+
+.shd718{
+    font-size: 30px;
+    color: #099cff;
+}
+.navigation {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+    background-color: transparent;
+}
+
+.btn {
+    width: 8px;
+    height: 10px;
+    margin: 8px;
+    background-color: rgba(5, 5, 5, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sl000 .navigation .btn.ats01 {
+    background: black;
+}
+
+.slig741 {
+    width: 200px;
+}
+/* Small Mobile  */
+
+@media (max-width:320px) {
+   
+
+   
+}

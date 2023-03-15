@@ -1,3 +1,4 @@
+
 /* The modal (hidden by default) */
 .m741852 {
     display: none;
@@ -27,6 +28,7 @@
 }
 
 .mc7913 a {
+    text-decoration: none;
     height: 6vh;
     color: orange;
     border: 1px solid orange;
@@ -42,19 +44,25 @@
 
 }
 
+.mc7913 a:hover {
+    background-color: rgba(247, 247, 247, 0.496);
+    text-decoration: underline;
+
+}
 /* Close button */
 .mc718293 {
     float: right;
     font-size: 28px;
-    font-weight: bold;
     cursor: pointer;
+    background-color: rgba(225, 225, 225, 0.653);
+        width: -webkit-fill-available;
+        text-align: center;
+        border-radius: 10px;
 }
 
-.close-btn:hover,
-.close-btn:focus {
+.mc718293:hover {
     color: #000;
-    text-decoration: none;
-    cursor: pointer;
+    background-color: rgba(251, 13, 13, 0.482);
 }
 
 /* iframe */

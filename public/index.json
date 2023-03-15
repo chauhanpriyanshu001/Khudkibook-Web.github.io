@@ -1,0 +1,296 @@
+{
+    "common": {
+        "english": {
+            "pagelink": "/it/sem1/english.html",
+            "img": "/img/014.png",
+            "subjectname": "Communication Skills in English",
+            "sem": "Sem-1",
+            "branch": "All Branch"
+        },
+        "es": {
+            "pagelink": "",
+            "img": "/img/005.png",
+            "subjectname": "Environment and Sustainablity",
+            "sem": "Sem-1&2",
+            "branch": "All Branch",
+            "book": {
+                "ch1": "https://drive.google.com/uc?export=download&id=1HkOUzKyz7bliRhnrsY_gjHHUm_LtWRNo",
+                "ch2": "https://drive.google.com/uc?export=download&id=1Dh9C0ytEr2icrx8crlm2lLiv1YqH3p_O",
+                "ch3": "https://drive.google.com/uc?export=download&id=18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
+                "ch4": "https://drive.google.com/uc?export=download&id=1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
+                "ch5": "https://drive.google.com/uc?export=download&id=1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
+                "fullbook": "https://drive.google.com/uc?export=download&id=19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
+            },
+            "paper": {
+                "2023": "https://drive.google.com/uc?export=download&id=1ZybViB-_-HaTie5wf0N-fZLaMto2oa89",
+                "2021": "https://drive.google.com/uc?export=download&id=1Td0cEXGFMpQT97mkauauyE2yBhwG926n"
+            }
+        },
+        "it": {
+            "sem1": {
+                "python": {
+                    "pagelink": "/it/sem1/pythonprogramming.html",
+                    "img": "/img/013.png",
+                    "subjectname": "Python Programming",
+                    "sem": "Sem-1",
+                    "branch": "I.T",
+                    "subcode": "4311601",
+                    "credit": "Credit-5",
+                    "syllabus": "",
+                    "booklink": {
+                        "ch1": "",
+                        "ch2": "",
+                        "ch3": "",
+                        "ch4": "",
+                        "ch5": "",
+                        "fullbook": ""
+                    },
+                    "paper": {
+                        "2019": "",
+                        "2020": "",
+                        "2021": "",
+                        "2022": ""
+                    }
+                },
+                "itsys": {
+                    "pagelink": "/it/sem1/introductiontoitsystem.html",
+                    "img": "/img/007.png",
+                    "subjectname": "Introduction to IT Systems ",
+                    "sem": "Sem-1",
+                    "branch": "I.T",
+                    "subcode": "4311602",
+                    "credit": "Credit-5"
+                },
+                "maths": {
+                    "pagelink": "/it/sem1/mathematics.html",
+                    "img": "/img/008.png",
+                    "subjectname": "Mathematics",
+                    "sem": "Sem-1",
+                    "branch": "All Branch",
+                    "subcode": "4300001",
+                    "credit": "Credit-4"
+                },
+                "english": {
+                    "pagelink": "/it/sem1/english.html",
+                    "img": "/img/014.png",
+                    "subjectname": "English",
+                    "sem": "Sem-1",
+                    "branch": "All Branch",
+                    "subcode": "4300002",
+                    "credit": "Credit-3"
+                }
+            },
+            "sem2": {
+                "app": {
+                    "pagelink": "/it/sem2/advancepythonprogramming.html",
+                    "img": "/img/001.png",
+                    "subjectname": "Advance Python Programming",
+                    "sem": "Sem-2",
+                    "branch": "I.T",
+                    "subcode": "4300005",
+                    "credit": "Credit-5"
+                },
+                "emaths": {
+                    "pagelink": "/it/sem2/engineeringmathematics.html",
+                    "img": "/img/022.png",
+                    "subjectname": "Engineering Mathematic",
+                    "sem": "Sem-2",
+                    "branch": "I.T",
+                    "subcode": "4300002",
+                    "credit": "Credit-4"
+                },
+                "es": {
+                    "pagelink": "/it/sem2/environmentandsustainability.html",
+                    "img": "/img/005.png",
+                    "subjectname": "E.S",
+                    "sem": "Sem-2",
+                    "branch": "All Branch",
+                    "subcode": "4300003",
+                    "credit": "Credit-3"
+                },
+                "physics": {
+                    "pagelink": "/it/sem2/physics.html",
+                    "img": "/img/na.webp",
+                    "subjectname": "Physics",
+                    "sem": "Sem-2",
+                    "branch": "All Branch",
+                    "subcode": "4300005",
+                    "credit": "Credit-4"
+                }
+            },
+            "sem3": {
+                "fsd": {
+                    "pagelink": "/it/sem2/fundamentalofsoftwaredevelopment.html",
+                    "img": "/img/030.png",
+                    "subjectname": "Fundamentals of Software Development ",
+                    "sem": "Sem-3",
+                    "branch": "I.T",
+                    "subcode": "4331604",
+                    "credit": "Credit-4"
+                },
+                "dbms": {
+                    "pagelink": "/it/sem2/databasemanagement.html",
+                    "img": "/img/035.png",
+                    "subjectname": "Database Management",
+                    "sem": "Sem-3",
+                    "branch": "I.T",
+                    "subcode": "4331603",
+                    "credit": "Credit-5"
+                },
+                "dsp": {
+                    "pagelink": "/it/sem2/datastructurewithpython.html",
+                    "img": "/img/na.webp",
+                    "subjectname": "Data Structure with Python",
+                    "sem": "Sem-3",
+                    "branch": "I.T",
+                    "subcode": "4331601",
+                    "credit": "Credit-5"
+                },
+                "los": {
+                    "pagelink": "/it/sem2/linuxoperatingsystem.html",
+                    "img": "/img/036.png",
+                    "subjectname": "Linux Operating System",
+                    "sem": "Sem-3",
+                    "branch": "I.T",
+                    "subcode": "4331602",
+                    "credit": "Credit-4"
+                }
+            },
+            "sem4": {},
+            "sem5": {},
+            "sem6": {},
+            "sem7": {},
+            "sem8": {}
+        },
+        "computer": {
+            "sem1": {
+                "es": {
+                    "pagelink": "/computer/sem1/environmentandsustainability.html",
+                    "img": "/img/005.png",
+                    "subjectname": "Environment and Sustainablity",
+                    "sem": "Sem-1",
+                    "branch": "All Branch",
+                    "subcode": "4300005",
+                    "credit": "Credit-3"
+                },
+                "bcp": {
+                    "pagelink": "/computer/sem1/basiccomputerprogramming.html",
+                    "img": "/img/002.png",
+                    "subjectname": "Basic Computer Programming",
+                    "sem": "Sem-1",
+                    "branch": "computer",
+                    "subcode": "4310702",
+                    "credit": "Credit-5"
+                },
+                "foee": {
+                    "pagelink": "/computer/sem1/foee.html",
+                    "img": "/img/018.png",
+                    "subjectname": "Fundamentals of Electrical and Electronics",
+                    "sem": "Sem-1",
+                    "branch": "Computer",
+                    "subcode": "4300018",
+                    "credit": "Credit-4"
+                },
+                "maths": {
+                    "pagelink": "/computer/sem1/mathematics.html",
+                    "img": "/img/008.png",
+                    "subjectname": "Mathematics",
+                    "sem": "Sem-1",
+                    "branch": "All Branch",
+                    "subcode": "4300001",
+                    "credit": "Credit-4"
+                },
+                "english": {
+                    "pagelink": "/computer/sem1/english.html",
+                    "img": "/img/014.png",
+                    "subjectname": "English",
+                    "sem": "Sem-1",
+                    "branch": "All Branch",
+                    "subcode": "4300002",
+                    "credit": "Credit-3"
+                }
+            },
+            "sem2": {
+                "emaths": {
+                    "pagelink": "/computer/sem2/engineeringmathematics.html",
+                    "img": "/img/022.png",
+                    "subjectname": "Engineering Mathematic",
+                    "sem": "Sem-2",
+                    "branch": "I.T",
+                    "subcode": "4300002",
+                    "credit": "Credit-4"
+                },
+                "physics": {
+                    "pagelink": "/computer/sem2/physics.html",
+                    "img": "/img/na.webp",
+                    "subjectname": "Physics",
+                    "sem": "Sem-2",
+                    "branch": "All Branch",
+                    "subcode": "4300005",
+                    "credit": "Credit-4"
+                },
+                "boop": {
+                    "pagelink": "/computer/sem2/boop.html",
+                    "img": "/img/029.png",
+                    "subjectname": "Basic Object Oriented Programming",
+                    "sem": "Sem-2",
+                    "branch": "Computer",
+                    "subcode": "4320702",
+                    "credit": "Credit-5"
+                },
+                "bde": {
+                    "pagelink": "/computer/sem2/BDE.html",
+                    "img": "/img/004.png",
+                    "subjectname": "Basics of Digital Electronics",
+                    "sem": "Sem-2",
+                    "branch": "Computer",
+                    "subcode": "4320703",
+                    "credit": "Credit-4"
+                }
+            },
+            "sem3": {
+                "slp": {
+                    "pagelink": "/computer/sem3/SLP.html",
+                    "img": "/img/na.webp",
+                    "subjectname": "Scripting Language Python",
+                    "sem": "Sem-3",
+                    "branch": "Computer",
+                    "subcode": "4330701",
+                    "credit": "Credit-5"
+                },
+                "rdbms": {
+                    "pagelink": "/computer/sem3/RDBMS.html",
+                    "img": "/img/038.png",
+                    "subjectname": "Relational Database Management System",
+                    "sem": "Sem-3",
+                    "branch": "Computer",
+                    "subcode": "4330702",
+                    "credit": "Credit-5"
+                },
+                "bos": {
+                    "pagelink": "/computer/sem3/BOS.html",
+                    "img": "/img/039.png",
+                    "subjectname": "Basics of Operating System",
+                    "sem": "Sem-3",
+                    "branch": "Computer",
+                    "subcode": "4330703",
+                    "credit": "Credit-4"
+                },
+                "dsa": {
+                    "pagelink": "/computer/sem3/DSA.html",
+                    "img": "/img/na.webp",
+                    "subjectname": " Data Structures and Algorithms",
+                    "sem": "Sem-3",
+                    "branch": "Computer",
+                    "subcode": "4330704",
+                    "credit": "Credit-5"
+                }
+            },
+            "sem4": {},
+            "sem5": {},
+            "sem6": {},
+            "sem7": {},
+            "sem8": {}
+        }
+    }
+}

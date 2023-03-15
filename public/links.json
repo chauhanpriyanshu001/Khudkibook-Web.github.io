@@ -1,0 +1,24 @@
+{
+    "ES": [
+        {
+            "book": {
+                "ch-1": "https://drive.google.com/uc?export=download&id=1HkOUzKyz7bliRhnrsY_gjHHUm_LtWRNo",
+                "ch-2": "https://drive.google.com/uc?export=download&id=1Dh9C0ytEr2icrx8crlm2lLiv1YqH3p_O",
+                "ch-3": "https://drive.google.com/uc?export=download&id=18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
+                "ch-4": "https://drive.google.com/uc?export=download&id=1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
+                "ch-5": "https://drive.google.com/uc?export=download&id=1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
+                "fullbook": "https://drive.google.com/uc?export=download&id=19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
+            }
+        },
+        {
+            "syllabus": {
+                "001": "https://drive.google.com/uc?export=download&id=1gFh42jzIkzL4C3snjupJA1ylxCI5OTp0"
+            }
+        },
+        {
+            "paper": {
+                "w2021-22": "https://drive.google.com/uc?export=download&id=1crZfwQVi9aLDu0D84eEtxyKyKcjgwS4S"
+            }
+        }
+    ]
+}

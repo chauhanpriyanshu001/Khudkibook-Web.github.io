@@ -80,12 +80,12 @@ function handleResize() {
                     <div class="list mobilel">
                         <li>Electrical</li>
                         <div class="listitem mobileli">
-                        <a href="/computer/sem1/homepage.html">Sem-1</a>
-                        <a href="/computer/sem2/homepage.html">Sem-2</a>
-                        <a href="/computer/sem3/homepage.html">Sem-3</a>
-                        <a href="/computer/sem4/homepage.html">Sem-4</a>
-                        <a href="/computer/sem5/homepage.html">Sem-5</a>
-                        <a href="/computer/sem6/homepage.html">Sem-6</a>
+                        <a href="/electical/sem1/homepage.html">Sem-1</a>
+                        <a href="/electical/sem2/homepage.html">Sem-2</a>
+                        <a href="/electical/sem3/homepage.html">Sem-3</a>
+                        <a href="/electical/sem4/homepage.html">Sem-4</a>
+                        <a href="/electical/sem5/homepage.html">Sem-5</a>
+                        <a href="/electical/sem6/homepage.html">Sem-6</a>
                         </div>
 
 

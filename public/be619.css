@@ -194,7 +194,7 @@ header {
     font-size: 20px;
 }
 
-#active {
+.active a {
     color: orange;
 }
 

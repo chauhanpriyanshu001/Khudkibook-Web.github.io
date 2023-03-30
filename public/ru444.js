@@ -20,7 +20,7 @@ function handleResize() {
                 </a>
             </div>
             <div>
-                <a class="textl" href="#">
+                <a class="textl" href="https://khudkibook.web.app/">
 
                     Khudkibook
                 </a>
@@ -48,8 +48,8 @@ function handleResize() {
         <div class="navdropdown">
             <ul class="navdul">
                 <div class="link">
-                <a href="#">
-                <li id="active">Home</li>
+                <a href="https://khudkibook.web.app/">
+                <li class="active">Home</li>
                 </a>
                     <div class="list mobilel">
                         <li>I.T</li>
@@ -207,7 +207,7 @@ function handleResize() {
         </div>
         <div class="link">
             <ul class="row">
-                <li id="active"> 
+                <li class="active"> 
             <a href="https://khudkibook.web.app/">
                 
                 Home

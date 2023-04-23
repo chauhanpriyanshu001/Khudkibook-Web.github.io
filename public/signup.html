@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KhudKibook |Signup</title>
+    <link rel="icon" type="image/x-icon" href="/img/bg.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Register</h1>
+    <div class="bind">
+        <div class="design1"></div>
+        <div class="book">
+            <div class="cover">
+                <img src="" alt="">
+            </div>
+            <input type="text" placeholder="Enter Username" required required>
+            <span class="error"> </span>
+            <input type="text" placeholder="Enter Name" required>
+            <span class="error"> </span>
+            <input type="text" placeholder="Enter Email or Phone" required>
+            <span class="error"> </span>
+            <select name="course" id="course">
+                <option value="0">Select Syllabus</option>
+                <option value="GTU">GTU</option>
+            </select>
+            <span class="error"> </span>
+            <select name="branch" id="branch">
+                <option value="00">Select Branch</option>
+                <option value="it">I.T</option>
+                <option value="computer">Computer</option>
+                <option value="civil">Civil</option>
+                <option value="mechanical">Mechanical</option>
+                <option value="electrical">Electrical</option>
+            </select>
+            <span class="error"> </span>
+            <select name="semester" id="semester">
+                <option value="000">Select Semester</option>
+                <option value="1">Semester-1</option>
+                <option value="2">Semester-2</option>
+                <option value="3">Semester-3</option>
+                <option value="4">Semester-4</option>
+                <option value="5">Semester-5</option>
+                <option value="6">Semester-6</option>
+                <option value="7">Semester-7</option>
+                <option value="8">Semester-8</option>
+            </select>
+            <span class="error"> </span>
+            <input type="password" placeholder="Password" required>
+            <span class="error"> </span>
+            <input type="password" placeholder="Confirm Password" required>
+            <span class="error"> </span>
+            <input type="submit" value="Register Book">
+            <a href="/login.html">
+                Log In
+            </a>
+        </div>
+    </div>
+    <!-- <div class="footer">
+        <center>
+            <span>@KhudKibook</span>
+        </center>
+    </div> -->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script type="module" src="/config.js"></script>
+<script type="module" src="/signup.js"></script>
+<script type="module" src="/text.js"></script>
+
+</html>

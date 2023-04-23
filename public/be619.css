@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400&display=swap');
-
+:root {
+    --pagebgclr: white;
+    --borderclr: #dddddd;
+    --tablerow2bgclr: rgba(202, 202, 202, 0.393);
+    --primaryclr: orange;
+    --borderinfoelement: black;
+}
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: white;
+    background-color: var(--pagebgclr);
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -25,7 +31,7 @@ table {
 
 td,
 th {
-    border: 2px solid #dddddd;
+    border: 2px solid var(--borderclr);
     text-align: left;
     padding: 5px;
     font-size: 25px;
@@ -33,7 +39,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: rgba(202, 202, 202, 0.393);
+    background-color: var(--tablerow2bgclr);
 }
 
 .ssn {
@@ -47,11 +53,11 @@ tr:nth-child(even) {
 }
 
 .infsub {
-    color: orange;
+    color: var(--primaryclr);
     font-size: 30px;
     text-align: center;
     padding: 5px;
-        border: 2px solid black;
+        border: 2px solid var(--borderinfoelement);
         border-radius: 10px;
         min-width: 30%;
         margin: 10px 0px;
@@ -63,7 +69,7 @@ tr:nth-child(even) {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid black;
+    border: 2px solid var(--borderinfoelement);
     border-radius: 12px;
     margin: auto;
 }
@@ -89,7 +95,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 999;
-        background-color: white;
+        background-color: var(--pagebgclr);
         width: 100%;
     overflow: hidden;
     border-bottom: 2px solid black;

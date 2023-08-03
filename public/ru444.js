@@ -3,7 +3,7 @@ let width;
 
 navbar = document.getElementById("nav")
 navtag = document.getElementById('nav')
-
+footer= document.getElementById("footer")
 const firebaseConfig = {
     apiKey: "AIzaSyBvc-vfv2EkbdFa-Wh6ieckvrLooMPYY3w",
     authDomain: "khudkibook.firebaseapp.com",
@@ -136,6 +136,25 @@ function handleResize() {
             </ul>
         </div>
         `;
+
+        footer.innerHTML=`
+        <div class="ftrh1"> @2023 KhudKibook</div>
+        <div class="ftrreviwwrap">
+            <h6 class="ftreh1">Leave Your Feedback </h6>
+            <form action="">
+
+            <input type="email" required name="" placeholder="Email *" id="fedbackemail">
+            <span class="error"> </span>
+
+            <textarea name="feedbak" required placeholder="Tell Us about Your Experince *" id="fedback" cols="20"
+                rows="10"></textarea>
+                <button id="postfeed" type="submit" >Post</button>
+            </form>
+
+                <div class="ftrh1"> Thank You </div>
+        </div>
+        `;
+
         navmenuop = document.querySelector(".menuop")
         navmenucl = document.querySelector(".menucl")
         menuic = document.querySelector(".icon")
@@ -276,6 +295,24 @@ function handleResize() {
             </ul>
         </div>
         `
+
+        footer.innerHTML=`
+        <div class="ftrh1"> @2023 KhudKibook</div>
+        <div class="ftrreviwwrap">
+            <h6 class="ftreh1">Leave Your Feedback </h6>
+            <form action="">
+
+            <input type="email" required name="" placeholder="Email *" id="fedbackemail">
+            <span class="error"> </span>
+
+            <textarea name="feedbak" required placeholder="Tell Us about Your Experince *" id="fedback" cols="20"
+                rows="10"></textarea>
+                <button id="postfeed" type="submit" >Post</button>
+            </form>
+
+                <div class="ftrh1"> Thank You </div>
+        </div>
+        `;
     }
     // Get user detail
 
@@ -353,4 +390,6 @@ function handleResize() {
 }
 handleResize()
 window.addEventListener('resize', handleResize);
+
+
 

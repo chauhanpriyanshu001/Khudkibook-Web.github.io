@@ -1,0 +1,49 @@
+  <!-- Es  -->
+            <a href="/common/environmentandsustainability.html">
+                <div class="abc123456">
+                    <img class="i12345" src="https://neo2708.github.io/pic.github.io//005.png" alt="GTU ES book download" srcset="">
+                    <div class="mali147852">
+                        <h1 class="bn159">Environment and Sustainablity </h1>
+                        <h1 class="d111">Sem-1 : Computer</h1>
+                        <h1 class="d212">Sem-2 : IT, Mechanical, Electrical, Civil</h1>
+                        <input class="kpb789123" type="button" value="Open">
+                    </div>
+                </div>
+            </a>
+            <!-- Python  -->
+            <a href="/it/sem1/pythonprogramming.html">
+                <div class="abc123456">
+                    <img class="i12345" src="https://neo2708.github.io/pic.github.io/013.png" alt="Python gtu book download" srcset="">
+                    <div class="mali147852">
+                        <h1 class="bn159">Python Programming</h1>
+                        <h1 class="d111">Sem-1</h1>
+                        <h1 class="d212">IT</h1>
+                        <input class="kpb789123" type="button" value="Open">
+                    </div>
+                </div>
+            </a>
+            <!-- IT System  -->
+            <a href="/it/sem1/introductiontoitsystem.html">
+                <div class="abc123456">
+                    <img class="i12345" src="https://neo2708.github.io/pic.github.io/007.png" alt="" srcset="">
+                    <div class="mali147852">
+                        <h1 class="bn159">Introduction to IT Systems</h1>
+                        <h1 class="d111">Sem-1</h1>
+                        <h1 class="d212">IT</h1>
+                        <input class="kpb789123" type="button" value="Open">
+                    </div>
+                </div>
+            </a>
+            <!-- English -->
+            <a href="/common/english.html">
+                <div class="abc123456">
+                    <img class="i12345" src="https://neo2708.github.io/pic.github.io/014.png" alt="" srcset="">
+                    <div class="mali147852">
+                        <h1 class="bn159">Communication Skills in English </h1>
+                        <h1 class="d111">4300002</h1>
+                        <h1 class="d212">Credit-3</h1>
+                        <input class="kpb789123" type="button" value="Open">
+                    </div>
+
+                </div>
+            </a>

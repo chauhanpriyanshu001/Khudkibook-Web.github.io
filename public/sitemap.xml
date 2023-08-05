@@ -9,57 +9,552 @@
 
 <url>
   <loc>https://khudkibook.web.app/</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://khudkibook.web.app/it/sem1/pythonprogramming</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
+  <loc>https://khudkibook.web.app/ithomepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civilhomepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electricalhomepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanicalhomepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computerhomepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem1/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem2/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem3/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem4/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem1/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem2/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem3/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem4/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem1/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem2/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem3/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem4/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem1/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem2/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem3/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem4/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem1/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem2/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem3/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem4/homepage</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem1/pythonprogramming</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://khudkibook.web.app/it/sem1/introductiontoitsystem</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://khudkibook.web.app/it/sem1/mathematics</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://khudkibook.web.app/it/sem1/english</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://khudkibook.web.app/it/sem2/advancepythonprogramming</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://khudkibook.web.app/it/sem2/engineeringmathematics</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://khudkibook.web.app/it/sem2/physics</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://khudkibook.web.app/it/sem2/environmentandsustainability</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://khudkibook.web.app/it/homepage</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://khudkibook.web.app/it/sem3/datastructurewithpython</loc>
-  <lastmod>2023-02-23T13:19:02+00:00</lastmod>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem3/databasemanagement</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem3/linuxoperatingsystem</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem3/fundamentalofsoftwaredevelopment</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem4/essentialsofDigitalmarketing</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem4/oopwithjava</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem4/fundamentalsofml</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/it/sem4/webdevelopmentusingPHP</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem1/AP</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem1/BEDG</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem1/mathematics</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem1/english</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem2/environmentandsustainability</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem2/EM</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem2/AC</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem2/AM</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem2/CED</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem3/Surveying</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem3/MS</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem3/CMT</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem3/Hydraulics</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem4/AS</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem4/SE</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem4/ECV</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/civil/sem4/BTE</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem1/EC</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem1/DCC</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem1/mathematics</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem1/english</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem2/physics</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem2/engineeringmathematics</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem2/BEDG</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem2/ACC</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem3/DCMT</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem3/EI</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem3/EPGT</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem3/FE</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem4/PTRACM</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem4/DUEP</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem4/EWECC</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/electrical/sem4/DEDI</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem1/AP</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem1/ED</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem1/mathematics</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem1/english</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem2/environmentandsustainability</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem2/EM</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem2/MD</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem2/AM</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem3/EM</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem3/TMM</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem3/ET</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem3/ME</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem3/SM</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem4/EMCE</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem4/MM</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem4/FMHM</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem4/ME2</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/mechanical/sem4/TE</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem1/environmentandsustainability</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem1/BCP</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem1/foee</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem1/mathematics</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem1/english</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem2/physics</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem2/engineeringmathematics</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem2/BOOP</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem2/BDE</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem3/SLP</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem3/RDBMS</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem3/BOS</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem3/DSA</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem4/AOOP</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem4/ISE</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem4/CN</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://khudkibook.web.app/computer/sem4/IWD</loc>
+  <lastmod>2023-08-02T15:05:40+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 

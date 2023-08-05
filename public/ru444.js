@@ -15,7 +15,28 @@ const firebaseConfig = {
     measurementId: "G-XRLK80TM3J"
 };
 firebase.initializeApp(firebaseConfig);
+var footerhtml=`
+<div class="ftrreviwwrap">
+<h6 class="ftreh1">Leave Your Feedback </h6>
+<form action="">
 
+    <input type="email" required name="" placeholder="Email *" id="fedbackemail">
+    <span class="error"> </span>
+
+    <textarea name="feedbak" required placeholder="Tell Us about Your Experince *" id="fedback" cols="20"
+        rows="10"></textarea>
+    <button id="postfeed" type="submit">Post</button>
+</form>
+
+<div class="ftrh1"> Thank You </div>
+<div class="ftrh1"> <span>@2023 KhudKibook || </span> <a href="https://khudkibook.web.app/">HomePage</a> || <a href="privacypolicy.html">Privacy Policy</a> || <a href="termsofservice.html">Terms of Service</a></div>
+
+</div>
+`;
+
+var navdropdownhtml=`
+
+`
 function handleResize() {
     windowWidth = window.innerWidth;
     if (windowWidth <= 700) {
@@ -137,23 +158,7 @@ function handleResize() {
         </div>
         `;
 
-        footer.innerHTML=`
-        <div class="ftrh1"> @2023 KhudKibook</div>
-        <div class="ftrreviwwrap">
-            <h6 class="ftreh1">Leave Your Feedback </h6>
-            <form action="">
-
-            <input type="email" required name="" placeholder="Email *" id="fedbackemail">
-            <span class="error"> </span>
-
-            <textarea name="feedbak" required placeholder="Tell Us about Your Experince *" id="fedback" cols="20"
-                rows="10"></textarea>
-                <button id="postfeed" type="submit" >Post</button>
-            </form>
-
-                <div class="ftrh1"> Thank You </div>
-        </div>
-        `;
+        footer.innerHTML= footerhtml;
 
         navmenuop = document.querySelector(".menuop")
         navmenucl = document.querySelector(".menucl")
@@ -296,23 +301,8 @@ function handleResize() {
         </div>
         `
 
-        footer.innerHTML=`
-        <div class="ftrh1"> @2023 KhudKibook</div>
-        <div class="ftrreviwwrap">
-            <h6 class="ftreh1">Leave Your Feedback </h6>
-            <form action="">
+        footer.innerHTML= footerhtml;
 
-            <input type="email" required name="" placeholder="Email *" id="fedbackemail">
-            <span class="error"> </span>
-
-            <textarea name="feedbak" required placeholder="Tell Us about Your Experince *" id="fedback" cols="20"
-                rows="10"></textarea>
-                <button id="postfeed" type="submit" >Post</button>
-            </form>
-
-                <div class="ftrh1"> Thank You </div>
-        </div>
-        `;
     }
     // Get user detail
 

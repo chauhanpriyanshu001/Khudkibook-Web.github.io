@@ -35,16 +35,22 @@ table {
 .ftrh1,.ftreh1{
     width: 95%;
     font-size: 20px;
-    margin: 50px 0px;
+
     display: flex;
     justify-content: center;
     align-items: center;
     color: #00000054;
+    gap: 10px;
+    margin-bottom:10px ;
+
+}
+.ftrh1 a{
+    font-size: 18px;
 }
 .ftreh1{
     color: black;
     font-size: 25px;
-    margin-bottom:10px ;
+    margin-top: 50px;
 }
 .ftrreviwwrap{
     width: 100%;
@@ -640,6 +646,9 @@ a {
 }
 
 /* footer */
+footer{
+    margin-top: 50px;
+}
 .ftriuy {
     width: 100%;
     /* background-color: orange; */

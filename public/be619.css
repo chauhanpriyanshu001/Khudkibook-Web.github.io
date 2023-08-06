@@ -458,7 +458,8 @@ a {
 }
 
 .nvl153 {
-    width: 80%;
+    width: 100%;
+    max-width: 75%;
     padding: 2px 5px;
     display: flex;
     align-items: center;
@@ -993,9 +994,12 @@ grid-template-columns: repeat(2,150px);
         width: 95%;
         height: 40px;
     }
-
+    .nvl153{
+        width: 90%;
+        max-width: 90%;
+    }
     .sydrp {
-        width: 100%;
+        width: 90%;
     }
 }
 @media (max-width:320px){

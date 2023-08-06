@@ -44,6 +44,15 @@ table {
     margin-bottom:10px ;
 
 }
+.la75984{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
 .ftrh1 a{
     font-size: 18px;
 }

@@ -471,7 +471,11 @@ a {
     flex-wrap: wrap;
     padding: 5px 0px;
 }
-
+.addc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nvi751 {
     color: rgb(0, 98, 255);
     font-size: 25px;

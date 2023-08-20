@@ -1,5 +1,3 @@
-console.log("Jai Jai shree Ram")
-
 var submit = document.getElementById("submit")
 
 submit.addEventListener("click", () => {

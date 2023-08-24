@@ -1,0 +1,54 @@
+{
+    "it": {
+        "sem1": [
+            {
+                "subcode": "4311601",
+                "credit":"Credit-5",
+                "name": "Python Programming",
+                "bookcoverimg": "/public/img/001.png",
+                "pagelink": "link",
+                "paperlink": [
+                    {
+                            "name": "DE Winter 2022 (New) Latest",
+                            "link": "https://drive.google.com/uc?export=download&id=14aU18LE0Z3aYbjI_DHwv7QpoCidKQzeR"
+                        
+                    },
+                    {
+                        "name": "DE Winter 2021",
+                        "link":"https://drive.google.com/uc?export=download&id=17DM3fINbdhLGB8GSEHOnt3o_gsLJel84"
+                    },
+                    {
+                        "name": "DE Winter 2022 (C to D)",
+                        "link":"https://drive.google.com/uc?export=download&id=12LZ5Ge-aK7GuVJyymRWbre2i28Nuu4_D"
+                    }
+                ],
+                "booklink": [
+                    {
+                        "chapter": "https://drive.google.com/uc?export=download&id=1oFoXYvrTPAaBTxUh7Z8LEFt5GyiJTSLz",
+                        "name":"Chapter-1"
+                    },
+                    {
+                        "chapter": "https://drive.google.com/uc?export=download&id=1i2enakYYlPaL5RxBHZ508VhKaZZkd2BW",
+                        "name":"Chapter-2"
+                    },
+                    {
+                        "chapter": "https://drive.google.com/uc?export=download&id=1eVZyfmDNTI_PrtDwbRYDrxJDkZzqthWc",
+                        "name":"Chapter-3"
+                    },
+                    {
+                        "chapter": "https://drive.google.com/uc?export=download&id=1mOYKO13xAhlszLfTRyMrHj8x8oT4lEU2",
+                        "name":"Chapter-4"
+                    },
+                    {
+                        "chapter": "https://drive.google.com/uc?export=download&id=1R4mMwyDsUWX7xIagWDfqo2Ol_P_YRyY3",
+                        "name":"Chapter-5"
+                    }
+                ],
+                "fullbooklink":"https://drive.google.com/uc?export=download&id=1fK5lcA2q0tD9gqV7YbRQFZCGivDUwoYw",
+                "syllabus":"https://drive.google.com/uc?export=download&id=13vnq7yujmZklvrTFrb_RYP0Ii2paSZN7"
+                
+            }
+        ]
+        }
+    } 
+    

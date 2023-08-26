@@ -515,14 +515,14 @@ main {
 }
 .navwrapper,
 .navlink {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 110px;
     background-color: orange;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 26px;
     border-radius: 5px;
     font-weight: 600;
     scale: 1;
@@ -535,7 +535,9 @@ main {
     scale: 1.1;
     text-decoration: underline;
 }
-
+.adsbygoogle{
+    margin: 10px 0px 10px 0px;
+}
 .maniwrraper {
     display: flex;
     justify-content: center;
@@ -950,7 +952,7 @@ grid-template-columns: repeat(2,150px);
     }
     .navlink{
         width: 150px;
-        height: 150px;
+        height: 80px;
         font-size: 25px;
     }
     /* main */

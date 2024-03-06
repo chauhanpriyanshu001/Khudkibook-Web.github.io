@@ -12,60 +12,75 @@
 </head>
 
 <body>
-    <h1>Register</h1>
+
+    <header>
+        <h1 style="text-align: center;">Register </h1>
+    </header>
     <div class="bind">
-        <div class="design1"></div>
+
         <div class="book">
-            <div class="cover">
-                <img src="" alt="">
+
+            <img class="llimg" src="https://khudkibook.web.app/img/bg.png" height="100vh" width="100vh" alt="">
+            <input required type="text" placeholder="Username">
+            <span class="error"></span>
+            <input required type="email" placeholder=" Email">
+            <span class="error"></span>
+
+            <div class="grp">
+                <div class="ss">
+                    <select name="university" id="uniselect">
+                        <option value="0">University</option>
+                        <option value="GTU">GTU</option>
+                        <option value="MSBTE">MSBTE</option>
+                    </select>
+                    <span class="error"></span>
+                </div>
+                <div class="ss">
+                    <select name="course" id="courseselct">
+                        <option value="0">Course</option>
+                        <option value="Diploma">Diploma</option>
+                        <option value="BE">BE-BACHELOR OF ENGINEERING</option>
+                    </select>
+                    <span class="error"></span>
+                </div>
             </div>
-            <input type="text" placeholder="Enter Username" required required>
-            <span class="error"> </span>
-            <input type="text" placeholder="Enter Name" required>
-            <span class="error"> </span>
-            <input type="text" placeholder="Enter Email or Phone" required>
-            <span class="error"> </span>
-            <select name="course" id="course">
-                <option value="0">Select Syllabus</option>
-                <option value="GTU">GTU</option>
-            </select>
-            <span class="error"> </span>
-            <select name="branch" id="branch">
-                <option value="00">Select Branch</option>
-                <option value="it">I.T</option>
-                <option value="computer">Computer</option>
-                <option value="civil">Civil</option>
-                <option value="mechanical">Mechanical</option>
-                <option value="electrical">Electrical</option>
-            </select>
-            <span class="error"> </span>
-            <select name="semester" id="semester">
-                <option value="000">Select Semester</option>
-                <option value="1">Semester-1</option>
-                <option value="2">Semester-2</option>
-                <option value="3">Semester-3</option>
-                <option value="4">Semester-4</option>
-                <option value="5">Semester-5</option>
-                <option value="6">Semester-6</option>
-                <option value="7">Semester-7</option>
-                <option value="8">Semester-8</option>
-            </select>
-            <span class="error"> </span>
-            <input type="password" placeholder="Password" required>
-            <span class="error"> </span>
-            <input type="password" placeholder="Confirm Password" required>
-            <span class="error"> </span>
-            <input type="submit" value="Register Book">
-            <a href="/login.html">
-                Log In
+            <div class="grp">
+                <div class="ss">
+                    <select name="branch" id="branchselect">
+                        <option value="0">Branch</option>
+                        <option value="it">I.T</option>
+                        <option value="computer">Computer</option>
+                        <option value="civil">Civil</option>
+                        <option value="mechanical">Mechanical</option>
+                        <option value="electrical">Electrical</option>
+                    </select>
+                    <span class="error"></span>
+                </div>
+                <div class="ss">
+                    <select name="sem" id="semselect">
+                        <option value="0">Semester</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <span class="error"></span>
+                </div>
+            </div>
+
+            <input required id="passinp" type="password" placeholder="Password">
+            <span class="error"></span>
+            <span id="showhidepass">show password</span>
+            <input type="submit" value="Register">
+
+
+            <span class="navbtn">or <a href="/login.html">Log-In</a></span>
             </a>
         </div>
     </div>
-    <!-- <div class="footer">
-        <center>
-            <span>@KhudKibook</span>
-        </center>
-    </div> -->
+
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
 <script type="module" src="/config.js"></script>

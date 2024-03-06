@@ -44,95 +44,25 @@ function logIn(email) {
                             if (doc.exists) {
                                 const user = doc.data();
                                 var name = user.name;
-                                var syllabus = user.syllabus;
+                                var university = user.university;
                                 var semester = user.semester;
                                 var branch = user.branch;
-                                if (syllabus == "GTU") {
-                                    if (branch == "it") {
-                                        if (semester == "1") {
-                                            window.location.replace("https://khudkibook.web.app/it/sem1/homepage")
+                                var userver = firebase.auth().currentUser.emailVerified;
+                                if (userver) {
+                                    if (user)
+                                        if (university == "GTU") {
+                                            var url = "https://khudkibook.web.app/" + branch + "/sem" + semester + "/homepage";
+                                            window.location.replace(url)
+
+                                        } else {
+                                            console.log("Some Problem Ocuured");
                                         }
-                                        else if (semester == "2") {
-                                            window.location.replace("https://khudkibook.web.app/it/sem2/homepage")
-                                        }
-                                        else if (semester == "3") {
-                                            window.location.replace("https://khudkibook.web.app/it/sem3/homepage")
-                                        }
-                                        else if (semester == "4") {
-                                            window.location.replace("https://khudkibook.web.app/it/sem4/homepage")
-                                        }
-                                    }
-                                    else if (branch == "computer") {
-                                        if (semester == "1") {
-                                            window.location.replace("https://khudkibook.web.app/computer/sem1/homepage")
-                                        }
-                                        else if (semester == "2") {
-                                            window.location.replace("https://khudkibook.web.app/computer/sem2/homepage")
-                                        }
-                                        else if (semester == "3") {
-                                            window.location.replace("https://khudkibook.web.app/computer/sem3/homepage")
-                                        }
-                                        else if (semester == "4") {
-                                            window.location.replace("https://khudkibook.web.app/computer/sem4/homepage")
-                                        }
-                                    }
-                                    else if (branch == "electrical") {
-                                        if (semester == "1") {
-                                            window.location.replace("https://khudkibook.web.app/electrical/sem1/homepage")
-                                        }
-                                        else if (semester == "2") {
-                                            window.location.replace("https://khudkibook.web.app/electrical/sem2/homepage")
-                                        }
-                                        else if (semester == "3") {
-                                            window.location.replace("https://khudkibook.web.app/electrical/sem3/homepage")
-                                        }
-                                        else if (semester == "4") {
-                                            window.location.replace("https://khudkibook.web.app/electrical/sem4/homepage")
-                                        }
-                                    }
-                                    else if (branch == "mechanical") {
-                                        if (semester == "1") {
-                                            window.location.replace("https://khudkibook.web.app/mechanical/sem1/homepage")
-                                        }
-                                        else if (semester == "2") {
-                                            window.location.replace("https://khudkibook.web.app/mechanical/sem2/homepage")
-                                        }
-                                        else if (semester == "3") {
-                                            window.location.replace("https://khudkibook.web.app/mechanical/sem3/homepage")
-                                        }
-                                        else if (semester == "4") {
-                                            window.location.replace("https://khudkibook.web.app/mechanical/sem4/homepage")
-                                        }
-                                    }
-                                    else if (branch == "civil") {
-                                        if (semester == "1") {
-                                            window.location.replace("https://khudkibook.web.app/civil/sem1/homepage")
-                                        }
-                                        else if (semester == "2") {
-                                            window.location.replace("https://khudkibook.web.app/civil/sem2/homepage")
-                                        }
-                                        else if (semester == "3") {
-                                            window.location.replace("https://khudkibook.web.app/civil/sem3/homepage")
-                                        }
-                                        else if (semester == "4") {
-                                            window.location.replace("https://khudkibook.web.app/civil/sem4/homepage")
-                                        }
-                                    }
+                                }
+                                else {
+                                    window.location.replace("/verification.html")
                                 }
 
-                                // var name = document.getElementById("name");
-                                menu.innerHTML += '<button id="signout"> Sign out</button>'
-                                var signuotbtn = document.getElementById("signout");
-                                function signoutf() {
-                                    auth.signOut().then(() => {
-                                        // Sign-out 
-                                        window.location.replace("/signup.html");
 
-                                    }).catch((error) => {
-                                        console.log("Error")
-                                    });
-                                }
-                                signuotbtn.addEventListener("click", signoutf)
 
 
                             } else {
@@ -144,12 +74,9 @@ function logIn(email) {
                         });
 
                 } else {
-                    // User is signed out
-                    // console.log("You are not looged in");
-                    // menu.innerHTML += '<a  href="/login.html">LogIn</a> <a href="/signup.html"> SignUp </a>'
-                    // window.location.replace("/signup.html");
+
                 }
-                // ...
+
             })
             .catch((error) => {
                 const errorCode = error.code;
@@ -187,50 +114,9 @@ function validateInputEmailUsername(tag) {
                     })
             }
             else {
-                const db = firebase.firestore();
-                username = this.value;
-                db.collection("users").where("username", "==", username).get()
-                    .then(querySnapshot => {
+                // if the email is available
+                showError(tag, 0, "User not found", 'isemail')
 
-                        if (!querySnapshot.empty) {
-                            // if the username already exists
-                            showDone(tag, 0, 'isusername')
-
-                            // Search for documents where the "username" field matches the given value
-                            db.collection("users").where("username", "==", username)
-                                .get()
-                                .then(function (querySnapshot) {
-                                    querySnapshot.forEach(function (doc) {
-                                        doc = doc.id;
-                                        db.collection("users").doc(doc)
-                                            .get()
-                                            .then(function (doc) {
-                                                if (doc.exists) {
-                                                    var data = doc.data();
-                                                    var utemail = data.email;
-                                                    // Log in
-                                                    logIn(utemail)
-
-                                                } else {
-                                                    console.error("No such document!");
-                                                }
-                                            })
-                                            .catch(function (error) {
-                                                console.error("Error retrieving document: ", error);
-                                            });
-                                    })
-                                })
-                                .catch(function (error) {
-                                    console.error("Error searching for document: ", error);
-                                });
-
-                        }
-                        // if the username is available
-                        else {
-                            showError(tag, 0, "No User Found", 'isusername')
-
-                        }
-                    })
             }
         }
         else {
@@ -248,3 +134,17 @@ function validateInputEmailUsername(tag) {
 
 
 validateInputEmailUsername(username)
+// Hide and Show Password
+var shpass = document.getElementById("showhidepass");
+var inppass = document.getElementById("passinp");
+shpass.addEventListener("click", () => {
+    if (inppass.type == "password") {
+
+        inppass.type = "text";
+        shpass.innerText = "Hide Password"
+    }
+    else {
+        inppass.type = "password";
+        shpass.innerText = "Show Password "
+    }
+})

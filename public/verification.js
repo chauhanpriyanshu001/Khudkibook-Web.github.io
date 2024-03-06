@@ -17,4 +17,4 @@ setInterval(() => {
             // console.log("User is not signed in");
         }
     });
-}, 1)
+}, 1000)

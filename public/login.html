@@ -14,20 +14,21 @@
 
 <body>
     <header>
-        <h1>Login </h1>
+        <h1 style="text-align: center;margin: 20px 0px;">Login </h1>
     </header>
     <div class="bind">
-        <div class="design1"></div>
+
         <div class="book">
-            <!-- <h1>KhudKibook</h1> -->
-            <input type="text" placeholder="Enter Username or Email">
+            <img class="llimg" src="https://khudkibook.web.app/img/bg.png" height="100vh" width="100vh" alt="">
+            <input required type="text" placeholder="Email">
             <span class="error"></span>
-            <input type="password" placeholder="Enter Password">
+            <input required id="passinp" type="password" placeholder="Password">
             <span class="error"></span>
+            <span id="showhidepass">show password</span>
             <input type="submit" value="Log In">
 
-            <a href="/signup.html">
-                Sign Up
+
+            <span class="navbtn">or <a href="/signup.html">Sign Up</a></span>
             </a>
         </div>
     </div>

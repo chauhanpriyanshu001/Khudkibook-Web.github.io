@@ -2,14 +2,14 @@
     "common": {
         "english": {
             "pagelink": "/it/sem1/english.html",
-            "img": "/img/014.png",
+            "img": "https://chauhanpriyanshu001.github.io/pic.github.io/014.png",
             "subjectname": "Communication Skills in English",
             "sem": "Sem-1",
             "branch": "All Branch"
         },
         "es": {
             "pagelink": "",
-            "img": "/img/005.png",
+            "img": "https://chauhanpriyanshu001.github.io/pic.github.io/005.png",
             "subjectname": "Environment and Sustainablity",
             "sem": "Sem-1&2",
             "branch": "All Branch",
@@ -31,7 +31,7 @@
         "sem1": {
             "python": {
                 "pagelink": "/it/sem1/pythonprogramming.html",
-                "img": "/img/013.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/013.png",
                 "subjectname": "Python Programming",
                 "sem": "Sem-1",
                 "branch": "I.T",
@@ -55,7 +55,7 @@
             },
             "itsys": {
                 "pagelink": "/it/sem1/introductiontoitsystem.html",
-                "img": "/img/007.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/007.png",
                 "subjectname": "Introduction to IT Systems ",
                 "sem": "Sem-1",
                 "branch": "I.T",
@@ -64,7 +64,7 @@
             },
             "maths": {
                 "pagelink": "/it/sem1/mathematics.html",
-                "img": "/img/008.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/008.png",
                 "subjectname": "Mathematics",
                 "sem": "Sem-1",
                 "branch": "All Branch",
@@ -73,7 +73,7 @@
             },
             "english": {
                 "pagelink": "/it/sem1/english.html",
-                "img": "/img/014.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/014.png",
                 "subjectname": "English",
                 "sem": "Sem-1",
                 "branch": "All Branch",
@@ -84,7 +84,7 @@
         "sem2": {
             "app": {
                 "pagelink": "/it/sem2/advancepythonprogramming.html",
-                "img": "/img/001.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/001.png",
                 "subjectname": "Advance Python Programming",
                 "sem": "Sem-2",
                 "branch": "I.T",
@@ -93,7 +93,7 @@
             },
             "emaths": {
                 "pagelink": "/it/sem2/engineeringmathematics.html",
-                "img": "/img/022.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/022.png",
                 "subjectname": "Engineering Mathematic",
                 "sem": "Sem-2",
                 "branch": "I.T",
@@ -102,7 +102,7 @@
             },
             "es": {
                 "pagelink": "/it/sem2/environmentandsustainability.html",
-                "img": "/img/005.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/005.png",
                 "subjectname": "E.S",
                 "sem": "Sem-2",
                 "branch": "All Branch",
@@ -111,7 +111,7 @@
             },
             "physics": {
                 "pagelink": "/it/sem2/physics.html",
-                "img": "/img/na.webp",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
                 "subjectname": "Physics",
                 "sem": "Sem-2",
                 "branch": "All Branch",
@@ -122,7 +122,7 @@
         "sem3": {
             "fsd": {
                 "pagelink": "/it/sem2/fundamentalofsoftwaredevelopment.html",
-                "img": "/img/030.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/030.png",
                 "subjectname": "Fundamentals of Software Development ",
                 "sem": "Sem-3",
                 "branch": "I.T",
@@ -131,7 +131,7 @@
             },
             "dbms": {
                 "pagelink": "/it/sem2/databasemanagement.html",
-                "img": "/img/035.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/035.png",
                 "subjectname": "Database Management",
                 "sem": "Sem-3",
                 "branch": "I.T",
@@ -140,7 +140,7 @@
             },
             "dsp": {
                 "pagelink": "/it/sem2/datastructurewithpython.html",
-                "img": "/img/na.webp",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
                 "subjectname": "Data Structure with Python",
                 "sem": "Sem-3",
                 "branch": "I.T",
@@ -149,7 +149,7 @@
             },
             "los": {
                 "pagelink": "/it/sem2/linuxoperatingsystem.html",
-                "img": "/img/036.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/036.png",
                 "subjectname": "Linux Operating System",
                 "sem": "Sem-3",
                 "branch": "I.T",
@@ -167,7 +167,7 @@
         "sem1": [
             {
                 "pagelink": "/computer/sem1/environmentandsustainability.html",
-                "img": "/img/005.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/005.png",
                 "subjectname": "Environment and Sustainablity",
                 "sem": "Sem-1",
                 "branch": "All Branch",
@@ -176,7 +176,7 @@
             },
             {
                 "pagelink": "/computer/sem1/basiccomputerprogramming.html",
-                "img": "/img/002.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/002.png",
                 "subjectname": "Basic Computer Programming",
                 "sem": "Sem-1",
                 "branch": "computer",
@@ -185,7 +185,7 @@
             },
             {
                 "pagelink": "/computer/sem1/foee.html",
-                "img": "/img/018.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/018.png",
                 "subjectname": "Fundamentals of Electrical and Electronics",
                 "sem": "Sem-1",
                 "branch": "Computer",
@@ -194,7 +194,7 @@
             },
             {
                 "pagelink": "/computer/sem1/mathematics.html",
-                "img": "/img/008.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/008.png",
                 "subjectname": "Mathematics",
                 "sem": "Sem-1",
                 "branch": "All Branch",
@@ -203,7 +203,7 @@
             },
             {
                 "pagelink": "/computer/sem1/english.html",
-                "img": "/img/014.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/014.png",
                 "subjectname": "English",
                 "sem": "Sem-1",
                 "branch": "All Branch",
@@ -214,7 +214,7 @@
         "sem2": {
             "emaths": {
                 "pagelink": "/computer/sem2/engineeringmathematics.html",
-                "img": "/img/022.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/022.png",
                 "subjectname": "Engineering Mathematic",
                 "sem": "Sem-2",
                 "branch": "I.T",
@@ -223,7 +223,7 @@
             },
             "physics": {
                 "pagelink": "/computer/sem2/physics.html",
-                "img": "/img/na.webp",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
                 "subjectname": "Physics",
                 "sem": "Sem-2",
                 "branch": "All Branch",
@@ -232,7 +232,7 @@
             },
             "boop": {
                 "pagelink": "/computer/sem2/boop.html",
-                "img": "/img/029.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/029.png",
                 "subjectname": "Basic Object Oriented Programming",
                 "sem": "Sem-2",
                 "branch": "Computer",
@@ -241,7 +241,7 @@
             },
             "bde": {
                 "pagelink": "/computer/sem2/BDE.html",
-                "img": "/img/004.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/004.png",
                 "subjectname": "Basics of Digital Electronics",
                 "sem": "Sem-2",
                 "branch": "Computer",
@@ -252,7 +252,7 @@
         "sem3": {
             "slp": {
                 "pagelink": "/computer/sem3/SLP.html",
-                "img": "/img/na.webp",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
                 "subjectname": "Scripting Language Python",
                 "sem": "Sem-3",
                 "branch": "Computer",
@@ -261,7 +261,7 @@
             },
             "rdbms": {
                 "pagelink": "/computer/sem3/RDBMS.html",
-                "img": "/img/038.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/038.png",
                 "subjectname": "Relational Database Management System",
                 "sem": "Sem-3",
                 "branch": "Computer",
@@ -270,7 +270,7 @@
             },
             "bos": {
                 "pagelink": "/computer/sem3/BOS.html",
-                "img": "/img/039.png",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/039.png",
                 "subjectname": "Basics of Operating System",
                 "sem": "Sem-3",
                 "branch": "Computer",
@@ -279,7 +279,7 @@
             },
             "dsa": {
                 "pagelink": "/computer/sem3/DSA.html",
-                "img": "/img/na.webp",
+                "img": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
                 "subjectname": " Data Structures and Algorithms",
                 "sem": "Sem-3",
                 "branch": "Computer",

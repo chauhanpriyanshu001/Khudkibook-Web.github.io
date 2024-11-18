@@ -1,7 +1,7 @@
 <div class="sl000">
             <!-- Slide-1 -->
             <div class="sl100 ats01">
-                <img class="slig741" src="/img/bg.png" alt="">
+                <img class="slig741" src="https://chauhanpriyanshu001.github.io/pic.github.io/bg.png" alt="">
                 <div class="sli456">
                     <h1 class="shd718">
                         Books | Syllabus | Last year Papers all at one place
@@ -17,7 +17,7 @@
             </div>
             <!-- Slide-2 -->
             <div class="sl100">
-                <img class="slig741" src="/img/001.png" alt="">
+                <img class="slig741" src="https://chauhanpriyanshu001.github.io/pic.github.io/001.png" alt="">
                 <div class="sli456">
                     <h1 class="shd718">
                         Check Latest Advanced Python Book
@@ -35,7 +35,7 @@
             </div>
             <!-- Slide-3 -->
             <div class="sl100">
-                <img class="slig741" src="/img/002.png" alt="">
+                <img class="slig741" src="https://chauhanpriyanshu001.github.io/pic.github.io/002.png" alt="">
                 <div class="sli456">
                     <h1 class="shd718">
                         Check Latest B.C.P Book

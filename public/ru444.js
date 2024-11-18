@@ -29,10 +29,11 @@ var footerhtml = `
 </div>
 
 <div class="ftrh1"> Thank You </div>
-<div class="ftrh1"> <span>@2023 KhudKibook || </span> <a href="https://khudkibook.web.app/">HomePage</a> || <a href="privacypolicy.html">Privacy Policy</a> || <a href="termsofservice.html">Terms of Service</a></div>
+<div class="ftrh1"> <span>@2024 KhudKibook || </span> <a href="https://khudkibook.web.app/">HomePage</a> || <a href="https://khudkibook.web.app/privacypolicy.html">Privacy Policy</a> || <a href="https://khudkibook.web.app/termsofservice.html">Terms of Service</a></div>
 
 </div>
 `;
+
 
 
 function handleResize() {
@@ -189,12 +190,12 @@ function handleResize() {
                     <div class="list mobilel">
                         <li>Electrical</li>
                         <div class="listitem mobileli">
-                        <a href="/electical/sem1/homepage.html">Sem-1</a>
-                        <a href="/electical/sem2/homepage.html">Sem-2</a>
-                        <a href="/electical/sem3/homepage.html">Sem-3</a>
-                        <a href="/electical/sem4/homepage.html">Sem-4</a>
-                        <a href="/electical/sem5/homepage.html">Sem-5</a>
-                        <a href="/electical/sem6/homepage.html">Sem-6</a>
+                        <a href="/electrical/sem1/homepage.html">Sem-1</a>
+                        <a href="/electrical/sem2/homepage.html">Sem-2</a>
+                        <a href="/electrical/sem3/homepage.html">Sem-3</a>
+                        <a href="/electrical/sem4/homepage.html">Sem-4</a>
+                        <a href="/electrical/sem5/homepage.html">Sem-5</a>
+                        <a href="/electrical/sem6/homepage.html">Sem-6</a>
                         </div>
 
 
@@ -419,3 +420,4 @@ post.addEventListener("click", async () => {
 })
 
 
+// share btn

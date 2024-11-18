@@ -1,6 +1,5 @@
-
 /* The modal (hidden by default) */
-.m741852 {
+.m741852,.m74185201 {
     display: none;
     position: fixed;
     z-index: 100;
@@ -15,19 +14,19 @@
 }
 
 /* Modal content */
-.mc7913 {
+.mc7913 ,.mc791301{
     background-color: #fff;
     margin: 20% auto;
     padding: 20px;
     border-radius: 5px;
-    width: 50%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.mc7913 a {
+.mc7913 a ,.mc791301 a {
     text-decoration: none;
     height: 6vh;
     color: orange;
@@ -44,20 +43,21 @@
 
 }
 
-.mc7913 a:hover {
+.mc7913 a:hover ,.mc791301 a:hover {
     background-color: rgba(247, 247, 247, 0.496);
     text-decoration: underline;
 
 }
+
 /* Close button */
 .mc718293 {
     float: right;
     font-size: 28px;
     cursor: pointer;
     background-color: rgba(225, 225, 225, 0.653);
-        width: -webkit-fill-available;
-        text-align: center;
-        border-radius: 10px;
+    width: -webkit-fill-available;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .mc718293:hover {
@@ -67,7 +67,7 @@
 
 /* iframe */
 
-.ledv7496{
+.ledv7496 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,6 +81,7 @@
 
     }
 }
+
 @media(max-width:557px) and (min-width:0px) {
 
     iframe {
@@ -88,6 +89,7 @@
         height: 208px;
     }
 }
+
 @media (max-width:500px) {
     .mc7593512345 {
         width: 250px;
@@ -99,7 +101,8 @@
     .mc7593512345 {
         width: 200px;
     }
-    iframe{
-width: 290px;
+
+    iframe {
+        width: 290px;
     }
 }

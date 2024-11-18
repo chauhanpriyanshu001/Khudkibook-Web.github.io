@@ -164,8 +164,8 @@
         "sem8": {}
     },
     "computer": {
-        "sem1": {
-            "es": {
+        "sem1": [
+            {
                 "pagelink": "/computer/sem1/environmentandsustainability.html",
                 "img": "/img/005.png",
                 "subjectname": "Environment and Sustainablity",
@@ -174,7 +174,7 @@
                 "subcode": "4300005",
                 "credit": "Credit-3"
             },
-            "bcp": {
+            {
                 "pagelink": "/computer/sem1/basiccomputerprogramming.html",
                 "img": "/img/002.png",
                 "subjectname": "Basic Computer Programming",
@@ -183,7 +183,7 @@
                 "subcode": "4310702",
                 "credit": "Credit-5"
             },
-            "foee": {
+            {
                 "pagelink": "/computer/sem1/foee.html",
                 "img": "/img/018.png",
                 "subjectname": "Fundamentals of Electrical and Electronics",
@@ -192,7 +192,7 @@
                 "subcode": "4300018",
                 "credit": "Credit-4"
             },
-            "maths": {
+            {
                 "pagelink": "/computer/sem1/mathematics.html",
                 "img": "/img/008.png",
                 "subjectname": "Mathematics",
@@ -201,7 +201,7 @@
                 "subcode": "4300001",
                 "credit": "Credit-4"
             },
-            "english": {
+            {
                 "pagelink": "/computer/sem1/english.html",
                 "img": "/img/014.png",
                 "subjectname": "English",
@@ -210,7 +210,7 @@
                 "subcode": "4300002",
                 "credit": "Credit-3"
             }
-        },
+        ],
         "sem2": {
             "emaths": {
                 "pagelink": "/computer/sem2/engineeringmathematics.html",

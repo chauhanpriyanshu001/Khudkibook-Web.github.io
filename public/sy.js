@@ -21,3 +21,64 @@ drpsy.addEventListener("click", () => {
 
     }
 })
+
+
+main = document.getElementById("main");
+var currentUrl = window.location.href;
+
+fetch('/main.json')
+    .then(response => response.json())
+    .then(data => {
+
+        console.log(currentUrl);
+        currentUrl = currentUrl.substring(8);
+        console.log(currentUrl);
+        currentUrl = currentUrl.substring(currentUrl.indexOf('/') + 1);
+        console.log(currentUrl);
+        // currentUrl = currentUrl.substring(currentUrl.indexOf('/') + 1);
+        var branch = currentUrl.substring(0, currentUrl.indexOf('/'));
+        currentUrl = currentUrl.substring(currentUrl.indexOf('/') + 1);
+
+        console.log(branch)
+        var sem = currentUrl.substring(0, currentUrl.indexOf('/'))
+        console.log(sem)
+        // if (currentUrl.includes()) {
+
+        if (currentUrl.includes(sem)) {
+            for (let index = 0; index < data[branch].length; index++) {
+
+                if (data[branch][index]['bookHomeLink'] == window.location.href) {
+                    main.innerHTML += `
+ <a href="${data[branch][index]['bookLink']}">
+            <div class="abc123456">
+                <img class="i12345" src=${data[branch][index]['bookImage']} alt="BE gtu english book download ">
+                <div class="mali147852">
+                    <h1 class="bn159">${data[branch][index]['bookName']}</h1>
+                    <h1 class="d111">${data[branch][index]['bookCode']}</h1>
+                        <h1 class="d212">Credit-${data[branch][index]['bookCredit']}</h1>
+
+
+                    <input class="kpb789123" type="button" value="Open">
+                </div>
+
+
+            </div>
+        </a>
+`;
+
+
+                }
+            }
+
+            // Loop through each modal button
+
+        }
+
+
+    })
+    .catch(error => {
+        console.error('Error fetching JSON file:', error);
+    });
+
+
+

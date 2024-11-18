@@ -1,4 +1,3 @@
 User-agent: *
-Disallow :/signup
-Disallow :/login
+
 Sitemap: https://khudkibook.web.app/sitemap.xml

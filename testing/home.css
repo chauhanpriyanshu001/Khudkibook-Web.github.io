@@ -1,0 +1,42 @@
+header {
+    /* border-radius: 30px; */
+    padding-left: 30px;
+    margin: 0px 10px;
+
+
+
+    background-repeat: no-repeat;
+    margin-top: 60px;
+
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homehead {
+    background-image: url("/public/Hero Section.webp");
+    height: 38vw;
+
+    background-repeat: no-repeat;
+    margin-top: 60px;
+
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+header h1 {
+    color: var(--secondary);
+    font-size: 4dvw;
+    width: 60%;
+}
+
+header p {
+    color: var(--secondary);
+    font-size: 3dvw;
+    width: 60%;
+}

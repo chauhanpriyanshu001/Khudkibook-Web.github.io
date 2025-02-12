@@ -1,0 +1,3458 @@
+{
+    "2018": {
+        "sem1": {
+            "common": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3110001,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110001.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Chemistry",
+                    "categories": "Basic Science (Elective)",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/chemistry"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110002,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110002.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "English",
+                    "categories": "Humanities and Social Science",
+                    "bookCredit": 3,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/english"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110003,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110003.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Programming for Problem Solving",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/PPS"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110004,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110004.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Basic Civil Engineering",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/BCE"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110005,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110005.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Basic Electrical Engineering",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/BE/sem1E"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110006,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110006.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Basic Mechanical Engineering",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/BME"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110007,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110007.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Environmental Sciences",
+                    "categories": "Mandatory",
+                    "bookCredit": 0,
+                    "totalMarks": 100,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/ES"
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3110011,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110011.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Physics",
+                    "categories": "Basic Science (Elective)",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/BS"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110012,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110012.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Workshop/ Manufacturing Practices",
+                    "categories": "Engineering Science",
+                    "bookCredit": 2,
+                    "totalMarks": 100,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/WMP"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110013,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110013.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Engineering Graphics & Design",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/EGD"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110014,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110014.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Mathematics - 1",
+                    "categories": "Basic Science",
+                    "bookCredit": 5,
+                    "totalMarks": 100,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/Maths1"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110015,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110015.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Mathematics - 2",
+                    "categories": "Basic Science",
+                    "bookCredit": 5,
+                    "totalMarks": 100,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem1/common/Maths2"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110017,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110017.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Induction Program",
+                    "categories": "Mandatory",
+                    "bookCredit": 0,
+                    "totalMarks": 0,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": ""
+                }
+            ],
+            "computer": [],
+            "civil": [],
+            "electrical": [],
+            "mechanical": [],
+            "it": []
+        },
+        "sem2": {
+            "common": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3110001,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110001.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Chemistry",
+                    "categories": "Basic Science (Elective)",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/chemistry"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110002,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110002.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "English",
+                    "categories": "Humanities and Social Science",
+                    "bookCredit": 3,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/english"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110003,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110003.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Programming for Problem Solving",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/PPS"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110004,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110004.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Basic Civil Engineering",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/BCE"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110005,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110005.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Basic Electrical Engineering",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/BEE"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110006,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110006.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Basic Mechanical Engineering",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/BME"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110007,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110007.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Environmental Sciences",
+                    "categories": "Mandatory",
+                    "bookCredit": 0,
+                    "totalMarks": 100,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/ES"
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3110011,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110011.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Physics",
+                    "categories": "Basic Science (Elective)",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/BS"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110012,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110012.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Workshop/ Manufacturing Practices",
+                    "categories": "Engineering Science",
+                    "bookCredit": 2,
+                    "totalMarks": 100,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/WMP"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110013,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110013.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Engineering Graphics & Design",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/EGD"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110014,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110014.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Mathematics - 1",
+                    "categories": "Basic Science",
+                    "bookCredit": 5,
+                    "totalMarks": 100,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/Maths1"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110015,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110015.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Mathematics - 2",
+                    "categories": "Basic Science",
+                    "bookCredit": 5,
+                    "totalMarks": 100,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem2/common/Maths2"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3110017,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3110017.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Induction Program",
+                    "categories": "Mandatory",
+                    "bookCredit": 0,
+                    "totalMarks": 0,
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": ""
+                }
+            ],
+            "computer": [],
+            "civil": [],
+            "electrical": [],
+            "mechanical": [],
+            "it": []
+        },
+        "sem3": {
+            "common": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3130004,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130004.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Effective Technical Communication",
+                    "categories": "Humanities and Social Science",
+                    "bookCredit": 3,
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem3/common/ETC"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3130007,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130007.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Indian Constitution",
+                    "categories": "Mandatory",
+                    "bookCredit": 0,
+                    "totalMarks": 50,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem3/common/IC"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3130008,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130008.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Design Engineering - I A",
+                    "categories": "Project Work",
+                    "bookCredit": 1,
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/sem3/common/DE1A"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3130006,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130006.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Probability and Statistics",
+                    "categories": "Basic Science",
+                    "bookCredit": 5,
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/it/sem3/PS"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3130702,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130702.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Data Structures",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/it/sem3/DS"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3130703,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130703.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Database Management Systems",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/it/sem3/DBMS"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3130704,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130704.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Digital Fundamentals",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/it/sem3/DF"
+                }
+            ],
+            "computer": [],
+            "civil": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3130606,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130606.pdf",
+                    "branchCode": "06",
+                    "bookName": "Geotechnical Engineering",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/civil/sem3/GE"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3130607,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130607.pdf",
+                    "branchCode": "06",
+                    "bookName": "Building Construction Technology",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/civil/sem3/BCT"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3130608,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130608.pdf",
+                    "branchCode": "06",
+                    "bookName": "Mechanics of Solids",
+                    "categories": "Engineering Science",
+                    "bookCredit": 5,
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/civil/sem3/MS"
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3130609,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130609.pdf",
+                    "branchCode": "06",
+                    "bookName": "Building and Town Planning",
+                    "categories": "Engineering Science",
+                    "bookCredit": 4,
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                    "bookLink": "https://khudkibook.web.app/be/civil/sem3/BTP"
+                }
+            ],
+            "electrical": [
+                [
+                    {
+                        "isElective": "No",
+                        "bookCode": 3130905,
+                        "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130905.pdf",
+                        "branchCode": "09",
+                        "bookName": "Control System Theory",
+                        "categories": "Engineering Science",
+                        "bookCredit": 4,
+                        "totalMarks": 150,
+                        "booksLink": [],
+                        "bookPapers": [],
+                        "GujbooksLink": [],
+                        "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                        "bookLink": "https://khudkibook.web.app/be/electrical/sem3/CST"
+                    },
+                    {
+                        "isElective": "No",
+                        "bookCode": 3130906,
+                        "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130906.pdf",
+                        "branchCode": "09",
+                        "bookName": "Electrical Circuit Analysis",
+                        "categories": "Professional Core",
+                        "bookCredit": 5,
+                        "totalMarks": 150,
+                        "booksLink": [],
+                        "bookPapers": [],
+                        "GujbooksLink": [],
+                        "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                        "bookLink": "https://khudkibook.web.app/be/electrical/sem3/ECA"
+                    },
+                    {
+                        "isElective": "No",
+                        "bookCode": 3130907,
+                        "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130907.pdf",
+                        "branchCode": "09",
+                        "bookName": "Analog & Digital Electronics",
+                        "categories": "Professional Core",
+                        "bookCredit": 5,
+                        "totalMarks": 150,
+                        "booksLink": [],
+                        "bookPapers": [],
+                        "GujbooksLink": [],
+                        "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                        "bookLink": "https://khudkibook.web.app/be/electrical/sem3/ADE"
+                    },
+                    {
+                        "isElective": "No",
+                        "bookCode": 3130908,
+                        "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130908.pdf",
+                        "branchCode": "09",
+                        "bookName": "Applied Mathematics for Electrical Engineering",
+                        "categories": "Basic Science",
+                        "bookCredit": 5,
+                        "totalMarks": 100,
+                        "booksLink": [],
+                        "bookPapers": [],
+                        "GujbooksLink": [],
+                        "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                        "bookLink": "https://khudkibook.web.app/be/electrical/sem3/AMEE"
+                    }
+                ]
+            ],
+            "mechanical": [
+                [
+                    {
+                        "isElective": "No",
+                        "bookCode": 3130005,
+                        "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130005.pdf",
+                        "branchCode": 19,
+                        "bookName": "Complex Variables and Partial Differential Equations",
+                        "categories": "Basic Science",
+                        "bookCredit": 5,
+                        "totalMarks": 100,
+                        "booksLink": [],
+                        "bookPapers": [],
+                        "GujbooksLink": [],
+                        "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                        "bookLink": "https://khudkibook.web.app/be/mechanical/sem3/CVPDET"
+                    },
+                    {
+                        "isElective": "No",
+                        "bookCode": 3131904,
+                        "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3131904.pdf",
+                        "branchCode": 19,
+                        "bookName": "Material Science and Metallurgy",
+                        "categories": "Engineering Science",
+                        "bookCredit": 4,
+                        "totalMarks": 150,
+                        "booksLink": [],
+                        "bookPapers": [],
+                        "GujbooksLink": [],
+                        "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                        "bookLink": "https://khudkibook.web.app/be/mechanical/sem3/MSM"
+                    },
+                    {
+                        "isElective": "No",
+                        "bookCode": 3131905,
+                        "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3131905.pdf",
+                        "branchCode": 19,
+                        "bookName": "Engineering Thermodynamics",
+                        "categories": "Professional Core",
+                        "bookCredit": 5,
+                        "totalMarks": 150,
+                        "booksLink": [],
+                        "bookPapers": [],
+                        "GujbooksLink": [],
+                        "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                        "bookLink": "https://khudkibook.web.app/be/mechanical/sem3/ET"
+                    },
+                    {
+                        "isElective": "No",
+                        "bookCode": 3131906,
+                        "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3131906.pdf",
+                        "branchCode": 19,
+                        "bookName": "Kinematics and Theory of Machines",
+                        "categories": "Professional Core",
+                        "bookCredit": 5,
+                        "totalMarks": 150,
+                        "booksLink": [],
+                        "bookPapers": [],
+                        "GujbooksLink": [],
+                        "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+                        "bookLink": "https://khudkibook.web.app/be/mechanical/sem3/KTM"
+                    }
+                ]
+            ],
+            "it": []
+        },
+        "sem4": {
+            "common": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3140005,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140005.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Design Engineering 1 B",
+                    "categories": "Project Work",
+                    "bookCredit": 1,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140705,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140705.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Object Oriented Programming -I",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140707,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140707.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Computer Organization & Architecture",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140708,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140708.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Discrete Mathematics",
+                    "categories": "Basic Science",
+                    "bookCredit": 5,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140709,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140709.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Principles of Economics and Management",
+                    "categories": "Humanities and Social Science",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                }
+            ],
+            "computer": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3140702,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140702.pdf",
+                    "branchCode": [
+                        "07"
+                    ],
+                    "bookName": "Operating System",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                }
+            ],
+            "civil": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3140601,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140601.pdf",
+                    "branchCode": "06",
+                    "bookName": "Surveying",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140603,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140603.pdf",
+                    "branchCode": "06",
+                    "bookName": "Structural Analysis-I",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140609,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140609.pdf",
+                    "branchCode": "06",
+                    "bookName": "Civil Engineering - Societal & Global Impact",
+                    "categories": "Humanities and Social Science",
+                    "bookCredit": 2,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140610,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140610.pdf",
+                    "branchCode": "06",
+                    "bookName": "Complex Variables and Partial Differential Equations",
+                    "categories": "Basic Science",
+                    "bookCredit": 5,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140611,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140611.pdf",
+                    "branchCode": "06",
+                    "bookName": "Fluid Mechanics & Hydraulics",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                }
+            ],
+            "electrical": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3140911,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140911.pdf",
+                    "branchCode": "09",
+                    "bookName": "Economics for Engineers",
+                    "categories": "Humanities and Social Science",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140912,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140912.pdf",
+                    "branchCode": "09",
+                    "bookName": "Electromagnetic Fields",
+                    "categories": "Basic Science",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140913,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140913.pdf",
+                    "branchCode": "09",
+                    "bookName": "Electrical Machine- I",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140914,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140914.pdf",
+                    "branchCode": "09",
+                    "bookName": "Power System- I",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3140915,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3140915.pdf",
+                    "branchCode": "09",
+                    "bookName": "Power Electronics",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                }
+            ],
+            "mechanical": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3141901,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3141901.pdf",
+                    "branchCode": 19,
+                    "bookName": "Mechanical Measurement and Metrology",
+                    "categories": "Basic Science",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3141906,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3141906.pdf",
+                    "branchCode": 19,
+                    "bookName": "Fluid Mechanics and Hydraulics Machines",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3141907,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3141907.pdf",
+                    "branchCode": 19,
+                    "bookName": "Fundamentals of Machine Design",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3141908,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3141908.pdf",
+                    "branchCode": 19,
+                    "bookName": "Manufacturing Processes",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3141909,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3141909.pdf",
+                    "branchCode": 19,
+                    "bookName": "Organisational Behaviour",
+                    "categories": "Humanities and Social Science",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                }
+            ],
+            "it": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3141601,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3141601.pdf",
+                    "branchCode": [
+                        "16"
+                    ],
+                    "bookName": "Operating System and Virtualization",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                }
+            ]
+        },
+        "sem5": {
+            "common": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3150001,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150001.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Design Engineering - II A",
+                    "categories": "Project Work",
+                    "bookCredit": 1,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150004,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150004.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Contributor Personality Development Program",
+                    "categories": "Personality development Elective",
+                    "bookCredit": 2,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150005,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150005.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Integrated Personality Development Course",
+                    "categories": "Personality development Elective",
+                    "bookCredit": 2,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3150703,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150703.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Analysis and Design of Algorithms",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3150709,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150709.pdf",
+                    "branchCode": [
+                        "07",
+                        "16",
+                        "09"
+                    ],
+                    "bookName": "Professional ethics",
+                    "categories": "Humanities and Social Science",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3150710,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150710.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Computer Networks",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150714,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150714.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Cyber Security",
+                    "categories": "Open Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3151108,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151108.pdf",
+                    "branchCode": [
+                        "06",
+                        "09"
+                    ],
+                    "bookName": "Python Programming",
+                    "categories": "Open Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                }
+            ],
+            "computer": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150711,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150711.pdf",
+                    "branchCode": "07",
+                    "bookName": "Software Engineering",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150712,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150712.pdf",
+                    "branchCode": "07",
+                    "bookName": "Computer Graphics",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150713,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150713.pdf",
+                    "branchCode": "07",
+                    "bookName": "Python for Data Science",
+                    "categories": "Open Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                }
+            ],
+            "civil": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3150610,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150610.pdf",
+                    "branchCode": "06",
+                    "bookName": "Concrete Technology",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3150611,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150611.pdf",
+                    "branchCode": "06",
+                    "bookName": "Transportation Engineering",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3150612,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150612.pdf",
+                    "branchCode": "06",
+                    "bookName": "Design of Structures",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150613,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150613.pdf",
+                    "branchCode": "06",
+                    "bookName": "Pavement Design and Highway construction",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150614,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150614.pdf",
+                    "branchCode": "06",
+                    "bookName": "Structural analysis-II",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150615,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150615.pdf",
+                    "branchCode": "06",
+                    "bookName": "Soil Mechanics",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150616,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150616.pdf",
+                    "branchCode": "06",
+                    "bookName": "Pipeline Engineering",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150617,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150617.pdf",
+                    "branchCode": "06",
+                    "bookName": "Remote Sensing and GIS",
+                    "categories": "Open Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                }
+            ],
+            "electrical": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3150910,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150910.pdf",
+                    "branchCode": "09",
+                    "bookName": "Electrical Machine- II",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3150911,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150911.pdf",
+                    "branchCode": "09",
+                    "bookName": "Power System- II",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3150912,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150912.pdf",
+                    "branchCode": "09",
+                    "bookName": "Signals and Systems",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3150913,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3150913.pdf",
+                    "branchCode": "09",
+                    "bookName": "Disaster Management",
+                    "categories": "Open Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3151108,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151108.pdf",
+                    "branchCode": "09",
+                    "bookName": "Python Programming",
+                    "categories": "Open Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3151910,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151910.pdf",
+                    "branchCode": "09",
+                    "bookName": "Operation Research",
+                    "categories": "Open Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                }
+            ],
+            "mechanical": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3151908,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151908.pdf",
+                    "branchCode": 19,
+                    "bookName": "Control Engineering",
+                    "categories": "Open Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3151909,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151909.pdf",
+                    "branchCode": 19,
+                    "bookName": "Heat Transfer",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3151910,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151910.pdf",
+                    "branchCode": 19,
+                    "bookName": "Operation Research",
+                    "categories": "Humanities and Social Science",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3151911,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151911.pdf",
+                    "branchCode": 19,
+                    "bookName": "Dynamics of Machinery",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3151912,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151912.pdf",
+                    "branchCode": 19,
+                    "bookName": "Manufacturing Technology",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3151913,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151913.pdf",
+                    "branchCode": 19,
+                    "bookName": "Oil Hydraulics And Pneumatics",
+                    "categories": "Open Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                }
+            ],
+            "it": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3151604,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151604.pdf",
+                    "branchCode": 16,
+                    "bookName": "Object Oriented Analysis and Design",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3151605,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151605.pdf",
+                    "branchCode": 16,
+                    "bookName": "Formal Language and Automata Theory",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3151606,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151606.pdf",
+                    "branchCode": 16,
+                    "bookName": "Web Development",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3151607,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151607.pdf",
+                    "branchCode": 16,
+                    "bookName": "Computer Graphics and Visualization",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3151608,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3151608.pdf",
+                    "branchCode": 16,
+                    "bookName": "Data Science",
+                    "categories": "Open Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                }
+            ]
+        },
+        "sem6": {
+            "common": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3160001,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160001.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Design Engineering II B",
+                    "categories": "Project Work",
+                    "bookCredit": 1,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160002,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160002.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Contributor Personality Development Program",
+                    "categories": "Personality development Elective",
+                    "bookCredit": 2,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160003,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160003.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Integrated Personality Development Course",
+                    "categories": "Personality development Elective",
+                    "bookCredit": 2,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161925,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161925.pdf",
+                    "branchCode": [
+                        "09",
+                        "19"
+                    ],
+                    "bookName": "Cyber Laws and Ethics",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160004,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160004.pdf",
+                    "branchCode": [
+                        "06",
+                        "09"
+                    ],
+                    "bookName": "Fundamental of Semiconductor Package Manufacturing and Test",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                }
+            ],
+            "computer": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3160704,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160704.pdf",
+                    "branchCode": "07",
+                    "bookName": "Theory of Computation",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160707,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160707.pdf",
+                    "branchCode": "07",
+                    "bookName": "Advanced Java Programming",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3160712,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160712.pdf",
+                    "branchCode": "07",
+                    "bookName": "Microprocessor and Interfacing",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160713,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160713.pdf",
+                    "branchCode": "07",
+                    "bookName": "Web Programming",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160714,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160714.pdf",
+                    "branchCode": "07",
+                    "bookName": "Data Mining",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160715,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160715.pdf",
+                    "branchCode": "07",
+                    "bookName": "System Software",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160716,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160716.pdf",
+                    "branchCode": "07",
+                    "bookName": "IOT and applications",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160717,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160717.pdf",
+                    "branchCode": "07",
+                    "bookName": "Data Visualization",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                }
+            ],
+            "civil": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160608,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160608.pdf",
+                    "branchCode": "06",
+                    "bookName": "Urban Transportation Planning",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3160610,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160610.pdf",
+                    "branchCode": "06",
+                    "bookName": "Water Resources Engineering and Hydrology",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3160611,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160611.pdf",
+                    "branchCode": "06",
+                    "bookName": "Environmental Engineering",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160612,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160612.pdf",
+                    "branchCode": "06",
+                    "bookName": "Design of Reinforced Concrete structures",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160613,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160613.pdf",
+                    "branchCode": "06",
+                    "bookName": "Rock Mechanics and Tunneling",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160614,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160614.pdf",
+                    "branchCode": "06",
+                    "bookName": "Contracts Management",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160615,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160615.pdf",
+                    "branchCode": "06",
+                    "bookName": "Traffic Engineering and Management",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160616,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160616.pdf",
+                    "branchCode": "06",
+                    "bookName": "Foundation Engineering",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160617,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160617.pdf",
+                    "branchCode": "06",
+                    "bookName": "Construction Equipment and Automation",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160618,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160618.pdf",
+                    "branchCode": "06",
+                    "bookName": "Open Channel flow",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160619,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160619.pdf",
+                    "branchCode": "06",
+                    "bookName": "Soft Computing Techniques",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160620,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160620.pdf",
+                    "branchCode": "06",
+                    "bookName": "Instrumentation and Sensors",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160621,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160621.pdf",
+                    "branchCode": "06",
+                    "bookName": "Earthquake Engineering",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160622,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160622.pdf",
+                    "branchCode": "06",
+                    "bookName": "Disaster Management",
+                    "categories": "Open Elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                }
+            ],
+            "electrical": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3160914,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160914.pdf",
+                    "branchCode": "09",
+                    "bookName": "Microprocessors and Microcontrollers",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3160915,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160915.pdf",
+                    "branchCode": "09",
+                    "bookName": "Electrical Measurement and Measuring Instruments",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160916,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160916.pdf",
+                    "branchCode": "09",
+                    "bookName": "Energy Conservation",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160917,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160917.pdf",
+                    "branchCode": "09",
+                    "bookName": "Wind And Solar Energy",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160918,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160918.pdf",
+                    "branchCode": "09",
+                    "bookName": "Element of Electrical Design",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160919,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160919.pdf",
+                    "branchCode": "09",
+                    "bookName": "Electric Drives",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160920,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160920.pdf",
+                    "branchCode": "09",
+                    "bookName": "Inter Connected Power System",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160921,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160921.pdf",
+                    "branchCode": "09",
+                    "bookName": "HVDC Transmission Systems",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160922,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160922.pdf",
+                    "branchCode": "09",
+                    "bookName": "Object Oriented Programming",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160923,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160923.pdf",
+                    "branchCode": "09",
+                    "bookName": "Electrical Materials",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161925,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161925.pdf",
+                    "branchCode": "09",
+                    "bookName": "Cyber Laws and Ethics",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                }
+            ],
+            "mechanical": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3160004,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3160004.pdf",
+                    "branchCode": 19,
+                    "bookName": "Fundamental of Semiconductor Package Manufacturing and Test",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161903,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161903.pdf",
+                    "branchCode": 19,
+                    "bookName": "Computer Aided Design",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161907,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161907.pdf",
+                    "branchCode": 19,
+                    "bookName": "Basics of Industrial Engineering",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3161910,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161910.pdf",
+                    "branchCode": 19,
+                    "bookName": "Applied Thermodynamics",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161911,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161911.pdf",
+                    "branchCode": 19,
+                    "bookName": "Design of Heat exchangers",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161912,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161912.pdf",
+                    "branchCode": 19,
+                    "bookName": "Gas Dynamics",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161913,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161913.pdf",
+                    "branchCode": 19,
+                    "bookName": "Industrial Safety and Maintenance Engineering",
+                    "categories": "Professional Elective - I",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161914,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161914.pdf",
+                    "branchCode": 19,
+                    "bookName": "Renewable Energy Engineering",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161915,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161915.pdf",
+                    "branchCode": 19,
+                    "bookName": "Computational Fluid Dynamics",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161916,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161916.pdf",
+                    "branchCode": 19,
+                    "bookName": "Product Development and Entrepreneurship",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161917,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161917.pdf",
+                    "branchCode": 19,
+                    "bookName": "Computer Aided Manufacturing",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161918,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161918.pdf",
+                    "branchCode": 19,
+                    "bookName": "Tribology and Terotechnology",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161919,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161919.pdf",
+                    "branchCode": 19,
+                    "bookName": "Energy Conservation and Management",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161920,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161920.pdf",
+                    "branchCode": 19,
+                    "bookName": "Automobile Engineering",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161921,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161921.pdf",
+                    "branchCode": 19,
+                    "bookName": "Machine Tool Design",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161922,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161922.pdf",
+                    "branchCode": 19,
+                    "bookName": "Advanced Manufacturing Processes",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161923,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161923.pdf",
+                    "branchCode": 19,
+                    "bookName": "Non destructive Testing",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161924,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161924.pdf",
+                    "branchCode": 19,
+                    "bookName": "Entrepreneurship and E-business",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161926,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161926.pdf",
+                    "branchCode": 19,
+                    "bookName": "Industry 4.0",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                }
+            ],
+            "it": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161604,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161604.pdf",
+                    "branchCode": 16,
+                    "bookName": "Image Processing",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3161605,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161605.pdf",
+                    "branchCode": 16,
+                    "bookName": "Software Engineering",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3161606,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161606.pdf",
+                    "branchCode": 16,
+                    "bookName": "Cryptography and Network security",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161607,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161607.pdf",
+                    "branchCode": 16,
+                    "bookName": "Big Data Analytics",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161608,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161608.pdf",
+                    "branchCode": 16,
+                    "bookName": "Artificial Intelligence",
+                    "categories": "Professional Elective - II",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161609,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161609.pdf",
+                    "branchCode": 16,
+                    "bookName": "Enterprise Application Development",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161610,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161610.pdf",
+                    "branchCode": 16,
+                    "bookName": "Data Warehousing and Mining",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161611,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161611.pdf",
+                    "branchCode": 16,
+                    "bookName": "Advanced Web Programming",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161612,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161612.pdf",
+                    "branchCode": 16,
+                    "bookName": "Mobile Application Development",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3161613,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3161613.pdf",
+                    "branchCode": 16,
+                    "bookName": "Data Analysis and Visualization",
+                    "categories": "Open elective - II",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                }
+            ]
+        },
+        "sem7": {
+            "common": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3170001,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170001.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Summer Internship",
+                    "categories": "Project",
+                    "bookCredit": 2,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171108,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171108.pdf",
+                    "branchCode": [
+                        "09",
+                        "16"
+                    ],
+                    "bookName": "Internet of Things",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170718,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170718.pdf",
+                    "branchCode": [
+                        "07",
+                        "16"
+                    ],
+                    "bookName": "Information Retrieval",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                }
+            ],
+            "computer": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3170701,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170701.pdf",
+                    "branchCode": "07",
+                    "bookName": "Compiler Design",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170710,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170710.pdf",
+                    "branchCode": "07",
+                    "bookName": "Mobile Computing and Wireless Communication",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3170716,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170716.pdf",
+                    "branchCode": "07",
+                    "bookName": "Artificial Intelligence",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170717,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170717.pdf",
+                    "branchCode": "07",
+                    "bookName": "Cloud Computing",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170719,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170719.pdf",
+                    "branchCode": "07",
+                    "bookName": "Distributed System",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170720,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170720.pdf",
+                    "branchCode": "07",
+                    "bookName": "Information security",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170721,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170721.pdf",
+                    "branchCode": "07",
+                    "bookName": "Parallel and Distributed Computing",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170722,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170722.pdf",
+                    "branchCode": "07",
+                    "bookName": "Big Data Analytics",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170723,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170723.pdf",
+                    "branchCode": "07",
+                    "bookName": "Natural Language Processing",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170724,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170724.pdf",
+                    "branchCode": "07",
+                    "bookName": "Machine Learning",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170725,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170725.pdf",
+                    "branchCode": "07",
+                    "bookName": "Digital forensics",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170726,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170726.pdf",
+                    "branchCode": "07",
+                    "bookName": "Mobile Application Development",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                }
+            ],
+            "civil": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170609,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170609.pdf",
+                    "branchCode": "06",
+                    "bookName": "Irrigation Engineering",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3170614,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170614.pdf",
+                    "branchCode": "06",
+                    "bookName": "Construction Engineering and Management",
+                    "categories": "Professional Core",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3170615,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170615.pdf",
+                    "branchCode": "06",
+                    "bookName": "Engineering Economics, Estimation and Costing",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170616,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170616.pdf",
+                    "branchCode": "06",
+                    "bookName": "Retrofitting of structures",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170617,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170617.pdf",
+                    "branchCode": "06",
+                    "bookName": "Application of GIS in Civil Engineering",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170618,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170618.pdf",
+                    "branchCode": "06",
+                    "bookName": "Design of Steel Structures",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170619,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170619.pdf",
+                    "branchCode": "06",
+                    "bookName": "Railway and Airport Engineering",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170620,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170620.pdf",
+                    "branchCode": "06",
+                    "bookName": "Computational Geotechnics",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170621,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170621.pdf",
+                    "branchCode": "06",
+                    "bookName": "Design of hydraulic structures",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170622,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170622.pdf",
+                    "branchCode": "06",
+                    "bookName": "Precast Construction",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170623,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170623.pdf",
+                    "branchCode": "06",
+                    "bookName": "Port and Harbour Engineering",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170624,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170624.pdf",
+                    "branchCode": "06",
+                    "bookName": "Design of Prestressed Concrete structures",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170625,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170625.pdf",
+                    "branchCode": "06",
+                    "bookName": "Environmental Impact Assessment",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170626,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170626.pdf",
+                    "branchCode": "06",
+                    "bookName": "Design of Industrial Structures",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170627,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170627.pdf",
+                    "branchCode": "06",
+                    "bookName": "ICT For Development",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170628,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170628.pdf",
+                    "branchCode": "06",
+                    "bookName": "Infrastructure for smart Cities",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170629,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170629.pdf",
+                    "branchCode": "06",
+                    "bookName": "Green Built Environment",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                }
+            ],
+            "electrical": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170906,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170906.pdf",
+                    "branchCode": "09",
+                    "bookName": "Advanced Power Electronics",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3170908,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170908.pdf",
+                    "branchCode": "09",
+                    "bookName": "Switchgear And Protection",
+                    "categories": "Professional Core",
+                    "bookCredit": 5,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170909,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170909.pdf",
+                    "branchCode": "09",
+                    "bookName": "AC Machine Design",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170914,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170914.pdf",
+                    "branchCode": "09",
+                    "bookName": "Advanced Microcontrollers",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170915,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170915.pdf",
+                    "branchCode": "09",
+                    "bookName": "Power System Dynamics and Control",
+                    "categories": "Professional Elective - III",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170916,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170916.pdf",
+                    "branchCode": "09",
+                    "bookName": "Advanced Electric Drives",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170917,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170917.pdf",
+                    "branchCode": "09",
+                    "bookName": "High Voltage Engineering",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170918,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170918.pdf",
+                    "branchCode": "09",
+                    "bookName": "Digital Signal Processors",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170919,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170919.pdf",
+                    "branchCode": "09",
+                    "bookName": "Power System Operation and Control",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170920,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170920.pdf",
+                    "branchCode": "09",
+                    "bookName": "Industrial Electrical Systems",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170921,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170921.pdf",
+                    "branchCode": "09",
+                    "bookName": "Power Quality and FACTS",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170922,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170922.pdf",
+                    "branchCode": "09",
+                    "bookName": "Smart Grids",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170923,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170923.pdf",
+                    "branchCode": "09",
+                    "bookName": "Electrical and Hybrid Vehicle",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170924,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170924.pdf",
+                    "branchCode": "09",
+                    "bookName": "AI and Machine Learning",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3170925,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3170925.pdf",
+                    "branchCode": "09",
+                    "bookName": "Industrial Automation",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                }
+            ],
+            "mechanical": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171506,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171506.pdf",
+                    "branchCode": 19,
+                    "bookName": "Project Management",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3171910,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171910.pdf",
+                    "branchCode": 19,
+                    "bookName": "Power Plant Engineering",
+                    "categories": "Professional Core",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171911,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171911.pdf",
+                    "branchCode": 19,
+                    "bookName": "Advanced Heat Transfer",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3171917,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171917.pdf",
+                    "branchCode": 19,
+                    "bookName": "Design of Machine Elements",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171918,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171918.pdf",
+                    "branchCode": 19,
+                    "bookName": "Refrigeration and Air conditioning",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171919,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171919.pdf",
+                    "branchCode": 19,
+                    "bookName": "Cryogenics Engineering",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171920,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171920.pdf",
+                    "branchCode": 19,
+                    "bookName": "Finite Element Methods",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171921,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171921.pdf",
+                    "branchCode": 19,
+                    "bookName": "Metal forming analysis",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171922,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171922.pdf",
+                    "branchCode": 19,
+                    "bookName": "Automation in Manufacturing",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171923,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171923.pdf",
+                    "branchCode": 19,
+                    "bookName": "Internal Combustion Engine",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171924,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171924.pdf",
+                    "branchCode": 19,
+                    "bookName": "Principles of Combustion",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171925,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171925.pdf",
+                    "branchCode": 19,
+                    "bookName": "Advanced Machine Design",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171926,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171926.pdf",
+                    "branchCode": 19,
+                    "bookName": "Rapid Prototyping",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171927,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171927.pdf",
+                    "branchCode": 19,
+                    "bookName": "Turbo Machines",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171928,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171928.pdf",
+                    "branchCode": 19,
+                    "bookName": "Design of Material Handling Equipment",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171929,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171929.pdf",
+                    "branchCode": 19,
+                    "bookName": "Quality and Reliability Engineering",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171930,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171930.pdf",
+                    "branchCode": 19,
+                    "bookName": "Industrial Internet of Things",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171931,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171931.pdf",
+                    "branchCode": 19,
+                    "bookName": "Nanotechnology and surface Engineering",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                }
+            ],
+            "it": [
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171108,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171108.pdf",
+                    "branchCode": 16,
+                    "bookName": "Internet of Things",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3171608,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171608.pdf",
+                    "branchCode": 16,
+                    "bookName": "Wireless Communication",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": 3171609,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171609.pdf",
+                    "branchCode": 16,
+                    "bookName": "Software Project Management",
+                    "categories": "Professional Core",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171610,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171610.pdf",
+                    "branchCode": 16,
+                    "bookName": "Agile Development and UI/UX design",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171611,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171611.pdf",
+                    "branchCode": 16,
+                    "bookName": "Graph Theory and Combinatorics",
+                    "categories": "Professional Elective - IV",
+                    "bookCredit": 3,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171612,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171612.pdf",
+                    "branchCode": 16,
+                    "bookName": "Virtual and Augment Reality",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171613,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171613.pdf",
+                    "branchCode": 16,
+                    "bookName": "Pattern Recognition",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171614,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171614.pdf",
+                    "branchCode": 16,
+                    "bookName": "Computer Vision",
+                    "categories": "Professional Elective - V",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171615,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171615.pdf",
+                    "branchCode": 16,
+                    "bookName": "Data Compression",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171616,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171616.pdf",
+                    "branchCode": 16,
+                    "bookName": "Internetwork Security and Web Analytics",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171617,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171617.pdf",
+                    "branchCode": 16,
+                    "bookName": "Applied Machine Learning",
+                    "categories": "Professional Elective - VI",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": 3171618,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3171618.pdf",
+                    "branchCode": 16,
+                    "bookName": "Blockchain",
+                    "categories": "Open Elective - III",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                }
+            ]
+        },
+        "sem8": {
+            "common": [],
+            "computer": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3180701,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3180701.pdf",
+                    "branchCode": [
+                        "07"
+                    ],
+                    "bookName": "Internship/Project",
+                    "categories": "Project Work",
+                    "bookCredit": 12,
+                    "totalMarks": 200
+                }
+            ],
+            "civil": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3180601,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3180601.pdf",
+                    "branchCode": [
+                        "06"
+                    ],
+                    "bookName": "Internship/Project",
+                    "categories": "Project Work",
+                    "bookCredit": 12,
+                    "totalMarks": 200
+                }
+            ],
+            "electrical": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3180901,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3180901.pdf",
+                    "branchCode": [
+                        "09"
+                    ],
+                    "bookName": "Internship/Project",
+                    "categories": "Project Work",
+                    "bookCredit": 12,
+                    "totalMarks": 200
+                }
+            ],
+            "mechanical": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3181901,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3181901.pdf",
+                    "branchCode": [
+                        "19"
+                    ],
+                    "bookName": "Internship/Project",
+                    "categories": "Project Work",
+                    "bookCredit": 12,
+                    "totalMarks": 200
+                }
+            ],
+            "it": [
+                {
+                    "isElective": "No",
+                    "bookCode": 3181601,
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3181601.pdf",
+                    "branchCode": [
+                        "16"
+                    ],
+                    "bookName": "Internship/Project",
+                    "categories": "Project Work",
+                    "bookCredit": 12,
+                    "totalMarks": 200
+                }
+            ]
+        }
+    },
+    "2024": {
+        "sem1": {
+            "common": [
+                {
+                    "isElective": "No",
+                    "bookCode": "BE01000011",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000011.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Student Induction Program  with essence of Indian  Knowledge System",
+                    "categories": "Mandatory Non-Credit Courses – Audit Course",
+                    "bookCredit": 0,
+                    "totalMarks": 0
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000021",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000021.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Physics",
+                    "categories": "Basic Science Courses",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000031",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000031.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Chemistry",
+                    "categories": "Basic Science Courses",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": "BE01000041",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000041.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Mathematics-I",
+                    "categories": "Basic Science Courses",
+                    "bookCredit": 4,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": "BE01000051",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000051.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Basic Electrical Engineering",
+                    "categories": "Engineering Science Courses",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": "BE01000061",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000061.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Engineering Graphics & Design",
+                    "categories": "Engineering Science Courses",
+                    "bookCredit": 2,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": "BE01000071",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000071.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Design Thinking",
+                    "categories": "Engineering Science Courses",
+                    "bookCredit": 2,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000081",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000081.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Basic Mechanical Engineering",
+                    "categories": "Engineering Science Courses",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000091",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000091.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Mechanics of Solids",
+                    "categories": "Engineering Science Courses",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000101",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000101.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Basic Civil Engineering",
+                    "categories": "Engineering Science Courses",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000111",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000111.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Basic Electronics Engineering",
+                    "categories": "Engineering Science Courses",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": "BE01000121",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000121.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Programming for Problem Solving",
+                    "categories": "Engineering Science Courses",
+                    "bookCredit": 4,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000131",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000131.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Workshop and Manufacturing Practices",
+                    "categories": "Engineering Science Courses",
+                    "bookCredit": 1,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000141",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000141.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Universal Human Values",
+                    "categories": "Humanities and Social Science, including Management Courses",
+                    "bookCredit": 2,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000151",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000151.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Contributor Personality Development Program",
+                    "categories": "Humanities and Social Science, including Management Courses",
+                    "bookCredit": 2,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000161",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000161.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Integrated Personality Development Course",
+                    "categories": "Humanities and Social Science, including Management Courses",
+                    "bookCredit": 2,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE01000181",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE01000181.pdf",
+                    "branchCode": [
+                        "06",
+                        "09",
+                        "07",
+                        "16",
+                        "19"
+                    ],
+                    "bookName": "Digital Fabrication Workshop",
+                    "categories": "Engineering Science Courses",
+                    "bookCredit": 1,
+                    "totalMarks": 100
+                }
+            ],
+            "computer": [],
+            "civil": [],
+            "electrical": [],
+            "mechanical": [],
+            "it": []
+        },
+        "sem2": {
+            "common": [
+                {
+                    "isElective": "No",
+                    "bookCode": "BE02000011",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE02000011.pdf",
+                    "branchCode": "006",
+                    "bookName": "Mathematics – 2",
+                    "categories": "Basic Science Courses",
+                    "bookCredit": 4,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "No",
+                    "bookCode": "BE02000021",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE02000021.pdf",
+                    "branchCode": "006",
+                    "bookName": "English for Technical Communication",
+                    "categories": "Humanities and Social Science, including Management Courses",
+                    "bookCredit": 3,
+                    "totalMarks": 150
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE02000031",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE02000031.pdf",
+                    "branchCode": "006",
+                    "bookName": "Intellectual Property Rights",
+                    "categories": "Multidisciplinary Open Professional Electives Courses",
+                    "bookCredit": 2,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE02000041",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE02000041.pdf",
+                    "branchCode": "006",
+                    "bookName": "Fundamental of AI",
+                    "categories": "Multidisciplinary Open Professional Electives Courses",
+                    "bookCredit": 2,
+                    "totalMarks": 100
+                },
+                {
+                    "isElective": "Yes",
+                    "bookCode": "BE02000061",
+                    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE02000061.pdf",
+                    "branchCode": "006",
+                    "bookName": "Industrial Safety and Standards",
+                    "categories": "Multidisciplinary Open Professional Electives Courses",
+                    "bookCredit": 2,
+                    "totalMarks": 100
+                }
+            ],
+            "computer": [],
+            "civil": [],
+            "electrical": [],
+            "mechanical": [],
+            "it": []
+        },
+        "sem3": {
+            "common": [],
+            "computer": [],
+            "civil": [],
+            "electrical": [],
+            "mechanical": [],
+            "it": []
+        },
+        "sem4": {
+            "common": [],
+            "computer": [],
+            "civil": [],
+            "electrical": [],
+            "mechanical": [],
+            "it": []
+        },
+        "sem5": {
+            "common": [],
+            "computer": [],
+            "civil": [],
+            "electrical": [],
+            "mechanical": [],
+            "it": []
+        },
+        "sem6": {
+            "common": [],
+            "computer": [],
+            "civil": [],
+            "electrical": [],
+            "mechanical": [],
+            "it": []
+        },
+        "sem7": {
+            "common": [],
+            "computer": [],
+            "civil": [],
+            "electrical": [],
+            "mechanical": [],
+            "it": []
+        },
+        "sem8": {
+            "common": [],
+            "computer": [],
+            "civil": [],
+            "electrical": [],
+            "mechanical": [],
+            "it": []
+        }
+    }
+}

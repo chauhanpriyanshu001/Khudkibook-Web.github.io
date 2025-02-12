@@ -14,16 +14,16 @@
             "sem": "Sem-1&2",
             "branch": "All Branch",
             "book": {
-                "ch1": "https://drive.google.com/uc?export=download&id=1HkOUzKyz7bliRhnrsY_gjHHUm_LtWRNo",
-                "ch2": "https://drive.google.com/uc?export=download&id=1Dh9C0ytEr2icrx8crlm2lLiv1YqH3p_O",
-                "ch3": "https://drive.google.com/uc?export=download&id=18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
-                "ch4": "https://drive.google.com/uc?export=download&id=1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
-                "ch5": "https://drive.google.com/uc?export=download&id=1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
-                "fullbook": "https://drive.google.com/uc?export=download&id=19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
+                "ch1": "https://drive.google.com/file/d/1HkOUzKyz7bliRhnrsY_gjHHUm_LtWRNo",
+                "ch2": "https://drive.google.com/file/d/1Dh9C0ytEr2icrx8crlm2lLiv1YqH3p_O",
+                "ch3": "https://drive.google.com/file/d/18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
+                "ch4": "https://drive.google.com/file/d/1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
+                "ch5": "https://drive.google.com/file/d/1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
+                "fullbook": "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
             },
             "paper": {
-                "2023": "https://drive.google.com/uc?export=download&id=1ZybViB-_-HaTie5wf0N-fZLaMto2oa89",
-                "2021": "https://drive.google.com/uc?export=download&id=1Td0cEXGFMpQT97mkauauyE2yBhwG926n"
+                "2023": "https://drive.google.com/file/d/1ZybViB-_-HaTie5wf0N-fZLaMto2oa89",
+                "2021": "https://drive.google.com/file/d/1Td0cEXGFMpQT97mkauauyE2yBhwG926n"
             }
         }
     },

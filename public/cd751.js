@@ -93,22 +93,21 @@ fetch('/main.json')
                     </div>
                     <button class="shrbtn">Share </button>
 
- <button class="mdbtn" data-modal-id="pay">Help Us</button>
+ 
 
- <div class="m74185201" id="pay">
-                        <div class="mc791301" style="background-color:#23192C">
-                            <span class="mc718293">&times;</span>
-                            <p style="text-align: center; color:white;" >Thank You all for your Positive Feedback. I am alone working on this Website to provide free books to students as much as i can. <br> If possible you can also Help Us to reach more students and help them by donating us. Your money will be used for Buying books and converting to PDF. I am using my Own money right now. </p>
-                            <h5 style="font-size: 5vh;color:white;" > Help Us </h5>
-                            <img src="https://khudkibook.web.app/img/qrcode.jpeg" alt="donation">
-                            <span style="color:white;">Thank You</span>
-                            
 
-                        </div>
-                    </div>
 
                 </div>
+                     <a class="playink"  href="https://play.google.com/store/apps/details?id=web.app.khudkibook&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">
+        <!-- <div style="display: flex;justify-content: center;align-items: center;flex-direction: row;" >
+
+            <img style="width: 15%;height: auto;" src="https://chauhanpriyanshu001.github.io/pic.github.io/bg.png" alt="khudkibook" srcset="">
+            <span style="font-size: 2vh;font-weight: bold;color: orange;" >KHUDKIBOOK</span>
+        </div> -->
+        <img  src="https://chauhanpriyanshu001.github.io/pic.github.io/downloadplaystore.png" alt="play store linl" srcset="">
+    </a>
             </div>
+        
 
         </div>
 `;
@@ -122,7 +121,7 @@ fetch('/main.json')
                 try {
 
                   booklink.innerHTML += `
-                  <a href="${data[branch][index]['booksLink'][index2]}">Full-Book
+                  <a href="${data[branch][index]['booksLink'][index2]}/view">Full-Book
                   </a>
                   `
                 }
@@ -281,7 +280,7 @@ fetch('/main.json')
 
 
 
-
+  
 
 // Get all modal buttons
 // const modalButtons = document.querySelectorAll(".mdbtn");

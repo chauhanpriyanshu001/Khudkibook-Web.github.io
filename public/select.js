@@ -1,4 +1,4 @@
-// var submit = document.getElementById("submit")
+ // var submit = document.getElementById("submit")
 
 // submit.addEventListener("click", () => {
 //     var branch = document.getElementById("branch").value
@@ -109,41 +109,60 @@
 // })
 
 
-main2 = document.getElementById("mainbooks");
-var currentUrl = window.location.href;
-var homepage = "https://khudkibook.web.app/";
-fetch('/main.json')
-    .then(response => response.json())
-    .then(data => {
-        var totalind = data.home.length;
-        console.log(totalind);
-        if (currentUrl == homepage) {
-            for (let index = 0; index < totalind; index++) {
-                console.log(data.home[index]['bookImage']);
-                main2.innerHTML += `
-                <a href="${data.home[index]['bookLink']}">
-            <div class="abc123456">
-                <img class="i12345" src=${data.home[index]['bookImage']} alt="BE gtu english book download ">
-                <div class="mali147852">
-                    <h1 class="bn159">${data.home[index]['bookName']}</h1>
-                    <h1 class="d111">${data.home[index]['bookCode']}</h1>
-              <h1 class="d212">Credit-${data.home[index]['bookCredit']}</h1>
-                    <input class="kpb789123" type="button" value="Open">
-                </div>
+// main2 = document.getElementById("mainbooks");
+// var currentUrl = window.location.href;
+// var homepage = "https://khudkibook.web.app/";
+// fetch('/main.json')
+//     .then(response => response.json())
+//     .then(data => {
+//         var totalind = data.home.length;
+//         console.log(totalind);
+//         if (currentUrl == homepage) {
+//             for (let index = 0; index < totalind; index++) {
+//                 console.log(data.home[index]['bookImage']);
+//                 main2.innerHTML += `
+//                 <a href="${data.home[index]['bookLink']}">
+//             <div class="abc123456">
+//                 <img class="i12345" src=${data.home[index]['bookImage']} alt="BE gtu english book download ">
+//                 <div class="mali147852">
+//                     <h1 class="bn159">${data.home[index]['bookName']}</h1>
+//                     <h1 class="d111">${data.home[index]['bookCode']}</h1>
+//               <h1 class="d212">Credit-${data.home[index]['bookCredit']}</h1>
+//                     <input class="kpb789123" type="button" value="Open">
+//                 </div>
 
 
-            </div>
-        </a>
-                `
-            }
-            console.log("Done");
+//             </div>
+//         </a>
+//                 `
+//             }
+//             console.log("Done");
 
-        }
+//         }
 
 
 
-    })
-    .catch(error => {
-        console.error('Error fetching JSON file:', error);
+//     })
+//     .catch(error => {
+//         console.error('Error fetching JSON file:', error);
+//     });
+
+const modalButtons = document.querySelectorAll(".mdbtn");
+
+// Loop through each modal button
+modalButtons.forEach((button) => {
+  // Add event listener to button
+  button.addEventListener("click", () => {
+    // Get the modal ID from the data-modal-id attribute
+    const modalId = button.getAttribute("data-modal-id");
+    // Get the modal element
+    const modal = document.getElementById(modalId);
+    // Show the modal
+    modal.style.display = "block";
+    // Add event listener to close button
+    modal.querySelector(".mc718293").addEventListener("click", () => {
+      // Hide the modal
+      modal.style.display = "none";
     });
-
+  });
+})

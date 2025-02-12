@@ -1,0 +1,558 @@
+{
+    "it": [
+        {
+            "bookName": "Python Programming",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem1/homepage",
+            "bookCode": "4311601",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/013.png",
+            "bookLink": "https://khudkibook.web.app/it/sem1/pythonprogramming",
+            "bookCredit": "5",
+            "sem": "sem1",
+            "syllabus": "https://drive.google.com/file/d/13vnq7yujmZklvrTFrb_RYP0Ii2paSZN7",
+            "booksLink": [
+                "https://drive.google.com/file/d/1oFoXYvrTPAaBTxUh7Z8LEFt5GyiJTSLz",
+                "https://drive.google.com/file/d/1i2enakYYlPaL5RxBHZ508VhKaZZkd2BW",
+                "https://drive.google.com/file/d/1eVZyfmDNTI_PrtDwbRYDrxJDkZzqthWc",
+                "https://drive.google.com/file/d/1mOYKO13xAhlszLfTRyMrHj8x8oT4lEU2",
+                "https://drive.google.com/file/d/1R4mMwyDsUWX7xIagWDfqo2Ol_P_YRyY3",
+                "https://drive.google.com/file/d/1fK5lcA2q0tD9gqV7YbRQFZCGivDUwoYw"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1yPtXPhnfThcuE11Px9-8EQV2eBPOkJBe",
+                "SU 2024",
+                "https://drive.google.com/file/d/1VMQ-WJTd-SFZ-fdM9WdpOoRLds_pt-Mc",
+                "SU 2023",
+                "https://drive.google.com/file/d/1mX4Rwqo2CCRqitflLE4BBSbB1nttu8rq",
+                "SU 2023",
+                "https://drive.google.com/file/d/12y-_6ANyzNUxANqdtfkkhuN3hWldUbIH",
+                "WE 2023",
+                "https://drive.google.com/file/d/12y-_6ANyzNUxANqdtfkkhuN3hWldUbIH",
+                "WE 2023",
+                "https://drive.google.com/file/d/14aU18LE0Z3aYbjI_DHwv7QpoCidKQzeR",
+                "WE 2022",
+                "https://drive.google.com/file/d/17DM3fINbdhLGB8GSEHOnt3o_gsLJel84",
+                "WE 2021",
+                "https://drive.google.com/file/d/12LZ5Ge-aK7GuVJyymRWbre2i28Nuu4_D",
+                "WE 2022 (C to D)"
+            ]
+        },
+        {
+            "bookName": "Mathematics",
+            "bookCode": "4300001",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/008.png",
+            "bookLink": "https://khudkibook.web.app/it/sem1/mathematics",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem1/homepage",
+            "bookCredit": "4",
+            "sem": "sem1",
+            "syllabus": "https://drive.google.com/file/d/1nJxDUmfcbnnKQ9lCu2xE7BUy20QjAhoV",
+            "booksLink": [
+                "https://drive.google.com/file/d/19ue7v2_CYd6YpbshQ7OeZgDwi3w8rI6p",
+                "https://drive.google.com/file/d/19uVoJQOwaH-7D5G77oiwQ6Y_20TVw-c6",
+                "https://drive.google.com/file/d/19kp-B4N3CltuXKNo90Ac7F0qv2VLvtnJ",
+                "https://drive.google.com/file/d/19_aloooH_oJmjxhkNhvg7z83ZjsxPyOY",
+                "https://drive.google.com/file/d/19_V6pdcHr-CY6-SNbuDK78jo5wBUBnVg",
+                "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G"
+            ],
+            "GujbooksLink": [
+                "https://drive.google.com/file/d/170qwsdxWZxMeMHmhoXME1OUgW3bdXuNe",
+                "https://drive.google.com/file/d/16j8nPC3JLiE_5z4gwZS6LccWkQAk4oka",
+                "https://drive.google.com/file/d/16ggwNKfa5DZtMbDLN6j3mUQs99DPaxcz",
+                "https://drive.google.com/file/d/16f1Hbw8i41jAe6BxLRstgNWxwZZHCbV9",
+                "https://drive.google.com/file/d/16d4phGJA_iq0gqlSeSIRqzAxSHl70Y4E",
+                "https://drive.google.com/file/d/16cGp5jAeWK7YScN0TozqAu0D9-FtbrO9"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/15F9fYeLt6IxOYvZN45BMvcxdtHkxVK_k",
+                "SU 2024",
+                "https://drive.google.com/file/d/1xs6OsP_Pk0h9fwpu9wLgG8iDnA1oeDk9",
+                "WE 2023",
+                "https://drive.google.com/file/d/1p59Ek7J9sosy775n6iaJwWxF9LNQiRJA",
+                "SU 2022",
+                "https://drive.google.com/file/d/1bXnARQtRZXtNm5MkOhZDIxOW2EHzfMv0",
+                "WE 2022",
+                "https://drive.google.com/file/d/1STB46aVikEFcSXja3ZEe9JNDPKgLJ_Kv",
+                "WE 2021"
+            ]
+        },
+        {
+            "bookName": "Introduction to IT Systems",
+            "bookCode": "4311602",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/007.png",
+            "bookLink": "https://khudkibook.web.app/it/sem1/introductiontoitsystem",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem1/homepage",
+            "bookCredit": "5",
+            "sem": "sem1",
+            "syllabus": "https://drive.google.com/file/d/18JZjqy8Lm1GPFf1ypewxgEifrZ8cARUw",
+            "booksLink": [
+                "https://drive.google.com/file/d/1pa8efnNX_rIE-oHmHB-ziEalZBKRUHim",
+                "https://drive.google.com/file/d/1os8qwrkrE1aLP8u_lGASY-w_MEAR4lBS",
+                "https://drive.google.com/file/d/1aAks5Dpd6QsJStq2D969lbwXOeXxJnkW",
+                "https://drive.google.com/file/d/1fVTjh-ZH63pvTJRiroALmQy3xNLxSOBt",
+                "https://drive.google.com/file/d/1q3Res-wC0lBmKYbOXG9Ae7TwJD2UtL0n",
+                "https://drive.google.com/file/d/17tslDfPxNz-nRlzsSy-wBCsPZxXgUvZi",
+                "https://drive.google.com/file/d/1D5Y7q1AGF_jPUdVVrjPx7ak7P767KMYL"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1uwmkGscZLZGD8dlbv9ZFx1PAM7LNd0ds",
+                "SU 2024",
+                "https://drive.google.com/file/d/18UMT3PQgBXpC8He8wULo5hOWgT5mCqyp",
+                "SU 2023",
+                "https://drive.google.com/file/d/1LoscTXXk6Z8Wy5FsaaFrrlbXvhmrnLVz",
+                "WE 2023",
+                "https://drive.google.com/file/d/1vKimrG2mokjAhADZUjNIDa5Agno8KqTx",
+                "SU 2022",
+                "https://drive.google.com/file/d/1yEQe3CDSqO5cUqBemO4-NALbodfnlOWh",
+                "WE 2022",
+                "https://drive.google.com/file/d/14kocxuNaMPJpjRKRf7ce1VHX2K19yl0q",
+                "WE 2021"
+            ]
+        },
+        {
+            "bookName": "Communication Skills in English",
+            "bookCode": "4300002",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/014.png",
+            "bookLink": "https://khudkibook.web.app/it/sem1/english",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem1/homepage",
+            "bookCredit": "3",
+            "sem": "sem1",
+            "syllabus": "https://drive.google.com/file/d/1PbEL53UarVv-NjqIZ2SdD-Z8Ybtw2GRN",
+            "booksLink": [
+                "https://drive.google.com/file/d/17Hew8UwYf96aEJO7I2L5R0VTp0irsJxI",
+                "https://drive.google.com/file/d/17FtILXd1pI8qvpCZ45ZjCtybUK9akWFd",
+                "https://drive.google.com/file/d/179vdy76glH7op2vQ7BwykQQMgkRjI9-R",
+                "https://drive.google.com/file/d/178HwIMRbW8fMBteZZ6YqJQ_T3-y3IrCi",
+                "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1JMuBAPRAKeM3QahLhB1rB7tQTRwI5K6D",
+                "SU 2024 ",
+                "https://drive.google.com/file/d/1ah3VCbWRKwmWH8SRUKyOCZPQZHIV2A4c",
+                "WE 2023 ",
+                "https://drive.google.com/file/d/1PYIdcwhA1o3lfe0yavoZsFFmrXUciZ5d",
+                "SU 2022 ",
+                "https://drive.google.com/file/d/1YUK-Uv1zjvmVtEnkrPyVX-pUIuq2A3LR",
+                "WE 2022",
+                "https://drive.google.com/file/d/1zAotD83vv-DYvYdXrPESa9-qB9Aw_nnu",
+                "WE 2021 "
+            ]
+        },
+        {
+            "bookName": "Environment and Sustainability",
+            "bookCode": "4300003",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/005.png",
+            "bookLink": "http://127.0.0.1:5501/public/it/sem2/environmentandsustainability.html",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem2/homepage",
+            "bookCredit": "3",
+            "sem": "sem2",
+            "syllabus": "https://drive.google.com/file/d/1j_CTsR9z1qrgIoryR9NF1WiWcKRgN4B9",
+            "booksLink": [
+                "https://drive.google.com/file/d/1HkOUzKyz7bliRhnrsY_gjHHUm_LtWRNo",
+                "https://drive.google.com/file/d/1Dh9C0ytEr2icrx8crlm2lLiv1YqH3p_O",
+                "https://drive.google.com/file/d/18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
+                "https://drive.google.com/file/d/1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
+                "https://drive.google.com/file/d/1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
+                "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
+            ],
+            "GujbooksLink": [
+                "https://drive.google.com/file/d/1DJCDYyzTpah0GF_NI5wJBMGV8DkCPVmE",
+                "https://drive.google.com/file/d/1DFEiFNguF05mRkvER3AK_-blUriMbC-3",
+                "https://drive.google.com/file/d/1D-QaQvsQa_7OuLdLk0rO4txV7S-tNq0w",
+                "https://drive.google.com/file/d/1DKiOYnL_i4yWswkx9U6oZK9M8Kx-RxWz",
+                "https://drive.google.com/file/d/1DOxWPh3pJIekSs9370vrPBss477BMOWO",
+                "https://drive.google.com/file/d/1DYjlSmE8sOTPXUPKbWKfnf46Dwj_izue"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1t53xjFCXziPthP9vYs5N-CQiShGGzdSE",
+                "WE 2023",
+                "https://drive.google.com/file/d/1zusD1GlJSvxCifyua45J5hmQBkQjKJVu",
+                "SU 2022",
+                "https://drive.google.com/file/d/1ZybViB-_-HaTie5wf0N-fZLaMto2oa89",
+                "WE 2022",
+                "https://drive.google.com/file/d/1Td0cEXGFMpQT97mkauauyE2yBhwG926n",
+                "WE 2021"
+            ]
+        },
+        {
+            "bookName": "Physics",
+            "bookCode": "4300005",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/019.png",
+            "bookLink": "https://khudkibook.web.app/it/sem2/physics",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem2/homepage",
+            "bookCredit": "4",
+            "sem": "sem2",
+            "syllabus": "https://drive.google.com/file/d/1EZKtCVMxmbZ6_HrR0fVPA0gM24yNzmW7",
+            "booksLink": [
+                "https://drive.google.com/file/d/14MYv787jWj8H_imtkt0harsonv97mxBW",
+                "https://drive.google.com/file/d/14Im2Cy-qNywiKIox8IHBlOkF2fWYmrz-/",
+                "https://drive.google.com/file/d/1430sMar1TuNGnBmpyLI5_rgBfElq0Vzf",
+                "https://drive.google.com/file/d/14HnwM7T83JWx929EacXgEKHTLGe27yrD",
+                "https://drive.google.com/file/d/141JLPIym0qZUBURGFduh-15G4_YqEz63",
+                "https://drive.google.com/file/d/13wC5hcYW0oJ__6A8TomvVxilhQ-XEdYl"
+            ],
+            "GujbooksLink": [
+                "https://drive.google.com/file/d/13hUSX01K40JdIHt3d6Np7EhTRvcm9yok",
+                "https://drive.google.com/file/d/13_uqbXcLoKvKcegWlwVEa-Yr5ud6C_cN",
+                "https://drive.google.com/file/d/13Qqd9cmf7GirycexR1Pa-pzbH7fUX079",
+                "https://drive.google.com/file/d/13Oa5g2veMB75_cfkT00MQO-kXy6Ys3y1",
+                "https://drive.google.com/file/d/13KdA40WYjfASRocp5ZscacFzcPwbiyJ6",
+                "https://drive.google.com/file/d/13J27UzM9YIlJd-1SkKmaQWH0GOOAc0RJ"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1eZNX1yAJIscV6UPsLS89VejK2CiGAhIQ",
+                "WE 2023",
+                "https://drive.google.com/file/d/1Z-MQNYsrPm5KoI_C_VLgo5K9_8KhCh34",
+                "WE 2022",
+                "https://drive.google.com/file/d/1wWRidccr_V4a7J_Mn_uYMUai38_SnQ7a",
+                "SU 2022",
+                "https://drive.google.com/file/d/1lw7mZwE9MpmY4UMMUFp8834Ezpg9_C4Y",
+                "WE 2021"
+            ]
+        },
+        {
+            "bookName": "Engineering Mathematics",
+            "bookCode": "4320002",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/022.png",
+            "bookLink": "https://khudkibook.web.app/it/sem2/engineeringmathematics",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem2/homepage",
+            "bookCredit": "4",
+            "sem": "sem2",
+            "syllabus": "https://drive.google.com/file/d/1vmYwKwfQtsAKlT0echgcc0Epd1-Y1ZUL",
+            "booksLink": [
+                "https://drive.google.com/file/d/114vDEjQcHsodK4itaEV3PTnWYBzpL8_T",
+                "https://drive.google.com/file/d/110Eo_t9VD3lngoNgbPMfZp68P44KYHMW",
+                "https://drive.google.com/file/d/10xrGvpmYxoschdbK-3X7gNed_haEPNK-",
+                "https://drive.google.com/file/d/10zJpnwXKwQezBmeChzVpAVCMi1meh7Ab",
+                "https://drive.google.com/file/d/10qojTypNRvUf3VbIUs7SC5dhkunHBTUf",
+                "https://drive.google.com/file/d/10p5XV0yhRpukU1Xxlini1FVtV87d0OhD"
+            ],
+            "GujbooksLink": [
+                "https://drive.google.com/file/d/11OVAf_PFwWuItJxYFslup2Gjvh0tsaaY",
+                "https://drive.google.com/file/d/123bBxA5B1ycYV9e4TkQxTxLBpCWxj524",
+                "https://drive.google.com/file/d/11MTlf0rsRq9YlYI6O8IO-ppAOfcIrSKu",
+                "https://drive.google.com/file/d/11D7qPNuFL4EKCpfQTSsHCUPHvcunxOll",
+                "https://drive.google.com/file/d/118ZSDO8ER1ias8tbZLEeh-5gVyns0ChL",
+                "https://drive.google.com/file/d/1241zzfz6l6OEpY7sWodOeSaJ4Dx8sz9z"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/19f5_mzarNk2IB9tnCq3-pLFVmStvtCht",
+                "SU 2024 ",
+                "https://drive.google.com/file/d/1TlHLXA6p_GekJbA47bU2ZNsUVvvdxbEh",
+                "WE 2023 ",
+                "https://drive.google.com/file/d/13OpMLvHR14_71s9nvK0E2YLuJcpr6nU5",
+                "SU 2023 ",
+                "https://drive.google.com/file/d/1ncxxw65Hm93RkvLZvD1ZKRdXtzzeVr4c",
+                "SU 2022 ",
+                "https://drive.google.com/file/d/119y03o_joR3YClqqoKwf1P8muUpkcyVt",
+                "WE 2022"
+            ]
+        },
+        {
+            "bookName": "Advance Python Programming",
+            "bookCode": "4321602",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/001.png",
+            "bookLink": "https://khudkibook.web.app/it/sem2/advancepythonprogramming",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem2/homepage",
+            "bookCredit": "5",
+            "sem": "sem2",
+            "syllabus": "https://drive.google.com/file/d/1ClsrSl_u-yC3q_VydeeelcBq9GiCRI_C",
+            "booksLink": [
+                "https://drive.google.com/file/d/1mJdZsf8TImi88b2RYuccucEfLZG-9uY",
+                "https://drive.google.com/file/d/1Iz-MIheKb3bdDKEMDqLnjUqnvXfTDgcb",
+                "https://drive.google.com/file/d/1ZhT4_6ccqMNBoX5-paAXV21hjIs45zFk",
+                "https://drive.google.com/file/d/1kz7AvYv6rk6V4KyL_35BMeE9tqOmseTb",
+                "https://drive.google.com/file/d/1RUbeQnccxydHyeT5TQrguO9zuagGottB",
+                "https://drive.google.com/file/d/1Bk_poa5XM4wZxZ05WGd-bGiwL8HmRdd1"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1HnEeU-nyd6o0-7chIBo2Fj9jBwThYTCY",
+                "SU 2024",
+                "https://drive.google.com/file/d/1nhrlHRCERkEQZpkkkPjvo-CFsr1iZGin",
+                "WE 2023",
+                "https://drive.google.com/file/d/1GeQvKtElL8qujpIJxVZQcVOdCOzIBxS9",
+                "SU 2023",
+                "https://drive.google.com/file/d/1cCB7YG6Zu1k6ipGwA_bv17NT06zXMUmG",
+                "SU 2022",
+                "https://drive.google.com/file/d/1ueHfyE-INIhIIpvCTRJfC47mZVLHI2yo",
+                "WE 2022"
+            ]
+        },
+        {
+            "bookName": "Data Structure with Python",
+            "bookCode": "4331601",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/051.png",
+            "bookLink": "https://khudkibook.web.app/it/sem3/datastructurewithpython",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem3/homepage",
+            "bookCredit": "5",
+            "sem": "sem3",
+            "syllabus": "https://drive.google.com/file/d/1sS2x7Zepl6eDFbus1LPnTG1p3StAdizt",
+            "booksLink": [],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1nB9rE8pj0CmbcUnd2Xq4ux5NbYyX0Sz6",
+                "SU 2024",
+                "https://drive.google.com/file/d/1BY4T8HiknFiZaxDu1I7de8I8NwUnbdel",
+                "WE 2023",
+                "https://drive.google.com/file/d/1h1Wg3rhNAvTTXC76O-PfPSmkzo8whHVp",
+                "SU 2023",
+                "https://drive.google.com/file/d/1ANtK5dYudpNtU14gLt-TU-07WBcvw4KJ",
+                "WE 2022"
+            ]
+        },
+        {
+            "bookName": "Database Management",
+            "bookCode": "4331603",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/035.png",
+            "bookLink": "https://khudkibook.web.app/it/sem3/databasemanagement",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem3/homepage",
+            "bookCredit": "5",
+            "sem": "sem3",
+            "syllabus": "https://drive.google.com/file/d/1vyh_Enihdv-pLlB7G59qZPCHbkAhSKat",
+            "booksLink": [
+                "https://drive.google.com/file/d/1NokaQAE2jhyWDqiiupJQoqLlessSMJA1",
+                "https://drive.google.com/file/d/1NhsyZqG-2wlkxA4rWPWbsoEw8rUoZX0n",
+                "https://drive.google.com/file/d/1NaksiDD0U3C_fxP98C9yPTBJE9stE6kI",
+                "https://drive.google.com/file/d/1Nd0MibtpShyI0b25U_r-Q23H7cvuvj7Q",
+                "https://drive.google.com/file/d/1Na6dZ6aaqM9IgdnsOs6nB2Xwpbk133yB",
+                "https://drive.google.com/file/d/1NTTX12H9pOoeRiKOoq6jikV1J6NKnwvd"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1t7qXCahpTdDw7bz9txgAHjz_HjDzWQiJ",
+                "SU 2024",
+                "https://drive.google.com/file/d/1X--JEze7xTm1xjeU-sJcfmXK7q15tfMv",
+                "SU 2023",
+                "https://drive.google.com/file/d/1Fqam0e7jjsHLtBvgMtyHVSyAfCjhPaR5",
+                "WE 2023",
+                "https://drive.google.com/file/d/13SZDw5ulfOvkoIxC07L3dXdOGseNzKG_",
+                "WE 2022"
+            ]
+        },
+        {
+            "bookName": "Linux Operating System",
+            "bookCode": "4331602",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/036.png",
+            "bookLink": "https://khudkibook.web.app/it/sem3/linuxoperatingsystem",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem3/homepage",
+            "bookCredit": "4",
+            "sem": "sem3",
+            "syllabus": "https://drive.google.com/file/d/1x6KiRmmQQABXQwRMnhdvOycMv5TJZVBt",
+            "booksLink": [],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1caut7dVI0XouI8iWn0WxJCP-Ej4CjCVI",
+                "Latest 2022 Paper ",
+                "https://drive.google.com/file/d/1jmXHVEw_2dFnyIdsA0H-2qowzRTEYmtl",
+                "Latest 2023 Paper "
+            ]
+        },
+        {
+            "bookName": "Fundamentals of Software Development",
+            "bookCode": "4331604",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/030.png",
+            "bookLink": "https://khudkibook.web.app/it/sem3/fundamentalofsoftwaredevelopment",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem3/homepage",
+            "bookCredit": "4",
+            "sem": "sem3",
+            "syllabus": "https://drive.google.com/file/d/1x6KiRmmQQABXQwRMnhdvOycMv5TJZVBt",
+            "booksLink": [
+                "https://drive.google.com/file/d/1AINA2N_SD7ohbSnXQ5ba-ZI6EraRPwDG",
+                "https://drive.google.com/file/d/1AFwWFP_iY5kxaqc7lNd2jbu79ln_y4yU",
+                "https://drive.google.com/file/d/1AAwhaRK297y50E7bV4W9N64dHy1T0Thd",
+                "https://drive.google.com/file/d/1A9hBifSAoNYfBVHTm6QVcku273gCfD5k",
+                "https://drive.google.com/file/d/1A7n1EhSDaB9aO1T8xf623jmmmrXvWvzY",
+                "https://drive.google.com/file/d/19zT97pVLdXxA8Hej0h8O1J3pFdOLfIZV",
+                "https://drive.google.com/file/d/1AQBgLtowd6eZy92MHFnmUj2FQrHBH8f7"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1caut7dVI0XouI8iWn0WxJCP-Ej4CjCVI",
+                "Latest WE 2022",
+                "https://drive.google.com/file/d/1EIk0jV_SkQV7C8usdgZEzouOJDNQDlaL",
+                "Latest WE 2023"
+            ]
+        },
+        {
+            "bookName": "Essentials of Digital Marketing",
+            "bookCode": "4341601",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+            "bookLink": "https://khudkibook.web.app/it/sem4/essentialsofDigitalmarketing",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem4/homepage",
+            "bookCredit": "5",
+            "sem": "sem4",
+            "syllabus": "https://drive.google.com/file/d/1K6vRpaB6BzsHhWgtLwQ4VtpVCQv7P3PO",
+            "booksLink": [],
+            "bookPapers": [
+                "https://drive.google.com/file/d/16CRTnveA7tUgs_bXCkKm076yC5ztKK5E",
+                "Latest WE 2023"
+            ]
+        },
+        {
+            "bookName": "Object Oriented Programming with JAVA",
+            "bookCode": "4341602",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/035.png",
+            "bookLink": "https://khudkibook.web.app/it/sem4/oopwithjava",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem4/homepage",
+            "bookCredit": "5",
+            "sem": "sem4",
+            "syllabus": "https://drive.google.com/file/d/1KEdrmmPpT5CxT_qyEobQ8Pc_IBq9Vj9J",
+            "booksLink": [],
+            "bookPapers": [
+                "https://drive.google.com/file/d/145Y5_6wcNCCPwLZoNc6IAFjSpNSQPkky",
+                "Latest WE 2023"
+            ]
+        },
+        {
+            "bookName": "Fundamentals of Machine Learning",
+            "bookCode": "4341603",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/052.png",
+            "bookLink": "https://khudkibook.web.app/it/sem4/fundamentalsofml",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem4/homepage",
+            "bookCredit": "5",
+            "sem": "sem4",
+            "syllabus": "https://drive.google.com/file/d/1KPmlaoeE9U_Uy6RzJ4xOF6LcQgvNpDJP",
+            "booksLink": [],
+            "bookPapers": [
+                "https://drive.google.com/file/d/128seyY1NJYKcVy8U621Quc0wZm8AcNs4",
+                "Latest WE 2023"
+            ]
+        },
+        {
+            "bookName": "Foundation of AI and ML",
+            "bookCode": "4351601",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+            "bookLink": "https://khudkibook.web.app/it/sem5/FAIML",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem5/homepage",
+            "bookCredit": "4",
+            "sem": "sem5",
+            "syllabus": "https://drive.google.com/file/d/1-G3ruEn3RSnmJXBeNlF5PuM0mm3DiYtM",
+            "booksLink": [
+                "https://drive.google.com/file/d/13G9xJRp2bd7fKgqIYds_lTvwzpMeBZUv",
+                "https://drive.google.com/file/d/13Ey5tENeNMcMXNJhd005UhBkVmNm80RP",
+                "https://drive.google.com/file/d/13D8PriUzVaGhfIDBOYHkeurPCxJ3G0gs",
+                "https://drive.google.com/file/d/13CgnS9d9Xu6D52rTK0qfsO1z-N71EBfx",
+                "https://drive.google.com/file/d/136rIna51thoUCY_oH3-3o6cPoPl37QKD",
+                "https://drive.google.com/file/d/135VPJspTIOlcdPDFwbaUHG-5IPUMY5i7"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/14yBSQ5TcqF2nTOVsZC7nKV7PQw9QnywQ",
+                "Latest WE 2023"
+            ]
+        },
+        {
+            "bookName": "Mobile Computing and Networks",
+            "bookCode": "4351602",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+            "bookLink": "https://khudkibook.web.app/it/sem5/MCN",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem5/homepage",
+            "bookCredit": "4",
+            "sem": "sem5",
+            "syllabus": "https://drive.google.com/file/d/1BzsQLRql_kgOy9aHO68R30XcI4Nh30eR",
+            "booksLink": [
+                "https://drive.google.com/file/d/18ldbB-pSRwpHMg7euQbZWg_Uq7bk6XB4",
+                "https://drive.google.com/file/d/18b84Q0DYS47f5WiNfMquUVt0BgekSRC3",
+                "https://drive.google.com/file/d/18Qo3VulxWyUrdo3KRy-W_HAkVvCNkAQU",
+                "https://drive.google.com/file/d/18MiAeQYkEWvAFMD-m-0PUcB38dxwRtL2",
+                "https://drive.google.com/file/d/18LVsbb9wNKEZR7YFjHfuXVkpxDaURLkG",
+                "https://drive.google.com/file/d/18L1UJKiRqGNdnONWr2rDHSR1cb_Fe7oq"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1ITSBmRxf0--NusccFdCdHxq5sGH56bY7",
+                "Latest WE 2023"
+            ]
+        },
+        {
+            "bookName": "Advanced Java Programming book download",
+            "bookCode": "4351603",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+            "bookLink": "https://khudkibook.web.app/it/sem5/AJP",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem5/homepage",
+            "bookCredit": "4",
+            "sem": "sem5",
+            "syllabus": "https://drive.google.com/file/d/11JH0BGBacxD-y_AfgaN7cgMUiQxC1inR",
+            "booksLink": [
+                "https://drive.google.com/file/d/12yOeigvxTROWCvSzGmRpdVeRWiMW5_6O",
+                "https://drive.google.com/file/d/12xecKCTZq78d2enmVpI-Y1gnrFQnuhe2",
+                "https://drive.google.com/file/d/12xWOd6lm6HJ7A98uUhlGY1b2ps8a9b7_",
+                "https://drive.google.com/file/d/12vdjHC_pIGcmuDdDNJNlYdZfuWQtGx2S",
+                "https://drive.google.com/file/d/12vC-aPCpyM9byAjFYujhHWcUHK1XQPn0",
+                "https://drive.google.com/file/d/12tURsa0WkxTzIUD0121UC6b29rqrY8qS"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1MN2TklmMWrvH40ugdUF_zhB2cwKbthzX",
+                "Latest WE 2023"
+            ]
+        },
+        {
+            "bookName": "Cyber Security and Digital Forensics ",
+            "bookCode": "4361601",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+            "bookLink": "https://khudkibook.web.app/it/sem6/CSDF",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem6/homepage",
+            "bookCredit": "6",
+            "sem": "sem6",
+            "syllabus": "https://drive.google.com/file/d/1cZcRv_cngVmUIhh-amIKlLi8o8-YbfhM",
+            "booksLink": [],
+            "bookPapers": [
+                "https://drive.google.com/file/d/15aGbsR84cBBWW7GIVkj0qh0DdHaEm0OC",
+                "Latest WE 2024",
+                "https://drive.google.com/file/d/1lK0Kyxq1rmr81Prd9oUBUb7lRWJp4R3M",
+                "Latest SU 2024"
+            ]
+        },
+        {
+            "bookName": " Cloud and Data Center Technologies",
+            "bookCode": "4361602",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+            "bookLink": "https://khudkibook.web.app/it/sem6/CDCT",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem6/homepage",
+            "bookCredit": "5",
+            "sem": "sem6",
+            "syllabus": "https://drive.google.com/file/d/19A5L2xp_L_3u5XYYEReq3adg_eDOtXhS",
+            "booksLink": [
+                "https://drive.google.com/file/d/1turV-usAOr8VC131DKZSBtwLdb48NIfh",
+                "https://drive.google.com/file/d/1tu3msVTBhC_7LUv2YwmofLmaBeawH315",
+                "https://drive.google.com/file/d/1tklOgdwOhQgq8pY8FCuSO84hrecCd7ps",
+                "https://drive.google.com/file/d/1tel6gmi6LlBBY6ILcJ7miOSBZ3YFnuZC",
+                "https://drive.google.com/file/d/1tcvRt48jCyV2efgz2QJ3XXOgJ7wYdqs7",
+                "https://drive.google.com/file/d/1tbVria-JAsZtZXN-6ot5eJxAWapSYZhO"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1BQrF9zrfuMZeDHmVG2EWZ3qNX0LR6U1F",
+                "Latest WE 2024"
+            ]
+        },
+        {
+            "bookName": "Foundation of Block Chain",
+            "bookCode": "4361603",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+            "bookLink": "https://khudkibook.web.app/it/sem6/FBC",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem6/homepage",
+            "bookCredit": "5",
+            "sem": "sem6",
+            "syllabus": "https://drive.google.com/file/d/1T50enp4y6ZqExHV9P-lEKws-4ie6plhl",
+            "booksLink": [
+                "https://drive.google.com/file/d/1t84JhxNraj9FHF1IzawVp1SI5GwjqEtj",
+                "https://drive.google.com/file/d/1t3EUwAZPwSgbTA16OlU7ec68OfksYPq_",
+                "https://drive.google.com/file/d/1skNT8YAnLxAk_3-WjLi_HTr-2h5e-u77",
+                "https://drive.google.com/file/d/1sSgJ5S7yrbDqorcJsegSw6pu1DT5zsBF",
+                "https://drive.google.com/file/d/1sSDylEpD8I_MIw5kcSkbQwbKYd8Pe-ae",
+                "https://drive.google.com/file/d/1sRg05ufF1HN7amYc2r7ouxrRBYfMcNgm"
+            ],
+            "bookPapers": [
+                "https://drive.google.com/file/d/1cdIUlrvy876hvOeXOZOIdDxSJrk8b_oj",
+                "Latest WE 2024"
+            ]
+        },
+        {
+            "bookName": "Software Development",
+            "bookCode": "4361604",
+            "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp",
+            "bookLink": "https://khudkibook.web.app/it/sem6/SD",
+            "bookHomeLink": "https://khudkibook.web.app/it/sem6/homepage",
+            "bookCredit": "3",
+            "sem": "sem6",
+            "syllabus": "https://drive.google.com/file/d/1bQYQuuMQgahyvjisoghV8URU2MTt6Oej",
+            "booksLink": [],
+            "bookPapers": [
+                "#",
+                "No Papers"
+            ]
+        }
+    ]
+}

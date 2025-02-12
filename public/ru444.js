@@ -397,7 +397,7 @@ feedemail.addEventListener("input", () => {
 
 // Feedback
 post.addEventListener("click", async () => {
-    const auth = firebase.auth();
+
     const db = firebase.firestore();
     var email = feedemail.value;
     var feedback = feedbackl.value;

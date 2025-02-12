@@ -28,7 +28,7 @@ for (let index = 0; index < 6; index++) {
 }
 var currentUrl = window.location.href;
 var homepage = "https://khudkibook.web.app/";
-fetch('/public/main.json')
+fetch('/testing/home_common.json')
   .then(response => response.json())
   .then(data => {
     var totalind = data.it.length;
@@ -331,7 +331,7 @@ fetch('/public/main.json')
 // main = document.getElementById("mainbooks");
 var currentUrl2 = window.location.href;
 var homepage = "https://khudkibook.web.app/";
-fetch('/public/main.json')
+fetch('/testing/home_common.json')
   .then(response => response.json())
   .then(data => {
     var totalind = data.home.length;

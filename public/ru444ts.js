@@ -18,8 +18,16 @@ const firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 var footerhtml = `
+ <a class="playink"  href="https://play.google.com/store/apps/details?id=web.app.khudkibook&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">
+        <!-- <div style="display: flex;justify-content: center;align-items: center;flex-direction: row;" >
 
+            <img style="width: 15%;height: auto;" src="https://chauhanpriyanshu001.github.io/pic.github.io/bg.png" alt="khudkibook" srcset="">
+            <span style="font-size: 2vh;font-weight: bold;color: orange;" >KHUDKIBOOK</span>
+        </div> -->
+        <img  src="https://chauhanpriyanshu001.github.io/pic.github.io/downloadplaystore.png" alt="play store linl" srcset="">
+    </a>
 <div class="ftrreviwwrap">
+
 <div class="about">
     <h3 class="fotthead">ABOUT US</h3>
     <p class="aboutdesc">At Khudkibook, we believe that education should be accessible to everyone. That's
@@ -81,7 +89,7 @@ function handleResize() {
 
                 <a href="https://khudkibook.web.app/" class="row">
                     <span class="bnltl">
-                        <img class="lohh" src="https://khudkibook.web.app/img/bg.png" alt="">
+                        <img class="lohh" src="https://chauhanpriyanshu001.github.io/pic.github.io/bg.png" alt="">
 
                     </span>
 
@@ -175,17 +183,10 @@ function handleResize() {
                 </li>
 
             </div>
-            <!-- Register Btn -->
-
-
-
-
-
-            <div class="auth" id="auth">
-            </div>
+           
             <div class="icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+                    <g fill="none" stroke="orange" stroke-linecap="round" stroke-width="2">
                         <path d="M5 5L12 12L19 5">
                             <animate fill="freeze" attributeName="d" dur="0.4s"
                                 values="M5 5L12 12L19 5;M5 5L12 5L19 5" />
@@ -285,9 +286,7 @@ function handleResize() {
                     </div>
                 </li>
                 
-                 <div class="auth col">
-
-                    </div>
+                
             </div>
 
 
@@ -310,7 +309,7 @@ function handleResize() {
             navdropdown.style.display = "block";
             menuic.innerHTML = `
                 <svg class="menucl" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
-                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+                            <g fill="none" stroke="orange" stroke-linecap="round" stroke-width="2">
                                 <path d="M5 5L12 5L19 5">
                                     <animate fill="freeze" attributeName="d" dur="0.4s"
                                         values="M5 5L12 5L19 5;M5 5L12 12L19 5" />
@@ -331,7 +330,7 @@ function handleResize() {
             val = 0
             navdropdown.style.display = "none";
             menuic.innerHTML = `
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"><path d="M5 5L12 12L19 5"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 5L12 12L19 5;M5 5L12 5L19 5"/></path><path d="M12 12H12"><animate fill="freeze" attributeName="d" dur="0.4s" values="M12 12H12;M5 12H19"/></path><path d="M5 19L12 12L19 19"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 19L12 12L19 19;M5 19L12 19L19 19"/></path></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><g fill="none" stroke="orange" stroke-linecap="round" stroke-width="2"><path d="M5 5L12 12L19 5"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 5L12 12L19 5;M5 5L12 5L19 5"/></path><path d="M12 12H12"><animate fill="freeze" attributeName="d" dur="0.4s" values="M12 12H12;M5 12H19"/></path><path d="M5 19L12 12L19 19"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 19L12 12L19 19;M5 19L12 19L19 19"/></path></g></svg>
                 `
 
         }
@@ -341,71 +340,71 @@ function handleResize() {
 }
 
 // Get user detail
-const auth = firebase.auth();
-const user = auth.currentUser;
+// const auth = firebase.auth();
+// const user = auth.currentUser;
 const db = firebase.firestore();
 
-auth.onAuthStateChanged((user) => {
-    var menu = document.getElementsByClassName("auth")[0];
-    var menu2 = document.getElementsByClassName("auth")[1];
-    var signout = `<button id="signout"  class="cssbuttons-io "><span>SignOut</span></button>`;
-    var signin = `
-                    <a href="https://khudkibook.web.app/signup" class="regBtn">Register</a>
-     `;
+// auth.onAuthStateChanged((user) => {
+//     var menu = document.getElementsByClassName("auth")[0];
+//     var menu2 = document.getElementsByClassName("auth")[1];
+//     var signout = `<button id="signout"  class="cssbuttons-io "><span>SignOut</span></button>`;
+//     var signin = `
+//                     <a href="https://khudkibook.web.app/signup" class="regBtn">Register</a>
+//      `;
 
 
-    // var menu = document.getElementsByClassName("auth")[0];
+//     // var menu = document.getElementsByClassName("auth")[0];
 
-    if (user) {
-        // Get information from database
-        db.collection("users").doc(user.uid).get()
-            .then(doc => {
-                if (doc.exists) {
-                    const user = doc.data();
-                    var name = user.name;
-                    var syllabus = user.syllabus;
-                    var semester = user.semester;
-                    var branch = user.branch;
-                    // console.log(name, syllabus, semester, branch)
-
-
-                    // var name = document.getElementById("name");
-                    menu.innerHTML += signout;
-                    menu2.innerHTML += signout;
-                    var signuotbtn = document.getElementById("signout");
-                    function signoutf() {
-                        auth.signOut().then(() => {
-                            // Sign-out 
-                            window.location.replace("/login.html");
-
-                        }).catch((error) => {
-                            console.log("Error")
-                        });
-                    }
-                    signuotbtn.addEventListener("click", signoutf)
+//     if (user) {
+//         // Get information from database
+//         db.collection("users").doc(user.uid).get()
+//             .then(doc => {
+//                 if (doc.exists) {
+//                     const user = doc.data();
+//                     var name = user.name;
+//                     var syllabus = user.syllabus;
+//                     var semester = user.semester;
+//                     var branch = user.branch;
+//                     // console.log(name, syllabus, semester, branch)
 
 
-                } else {
-                    console.log("No such document!");
-                }
-            })
-            .catch(error => {
-                console.log("Error getting document:", error);
-            });
+//                     // var name = document.getElementById("name");
+//                     menu.innerHTML += signout;
+//                     menu2.innerHTML += signout;
+//                     var signuotbtn = document.getElementById("signout");
+//                     function signoutf() {
+//                         auth.signOut().then(() => {
+//                             // Sign-out 
+//                             window.location.replace("/login.html");
 
-    } else {
-        // User is signed out
-
-        menu.innerHTML += signin;
-        menu2.innerHTML += signin;
-
-
-        // window.location.replace("/signup.html");
+//                         }).catch((error) => {
+//                             console.log("Error")
+//                         });
+//                     }
+//                     signuotbtn.addEventListener("click", signoutf)
 
 
+//                 } else {
+//                     console.log("No such document!");
+//                 }
+//             })
+//             .catch(error => {
+//                 console.log("Error getting document:", error);
+//             });
 
-    }
-})
+//     } else {
+//         // User is signed out
+
+//         menu.innerHTML += signin;
+//         menu2.innerHTML += signin;
+
+
+//         // window.location.replace("/signup.html");
+
+
+
+//     }
+// })
 // }
 handleResize()
 

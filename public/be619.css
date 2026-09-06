@@ -121,7 +121,7 @@ nav#nav, .navbar-root {
     align-items: center;
     gap: 8px;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .brand-link {
@@ -1772,14 +1772,14 @@ footer#footer {
     top: calc(100% + 8px);
     left: 0;
     right: 0;
-    background: var(--bg-surface);
-    border: 1px solid var(--border);
+    background: var(--bg-surface, #ffffff);
+    border: 1px solid var(--border, #e2e8f0);
     border-radius: 14px;
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 14px 35px rgba(15, 23, 42, 0.18);
     max-height: 60vh;
     overflow-y: auto;
     display: none;
-    z-index: 1200;
+    z-index: 99999;
 }
 
 .search-results.show {
@@ -1791,8 +1791,10 @@ footer#footer {
     align-items: center;
     gap: 12px;
     padding: 12px 16px;
-    color: var(--text-primary);
-    border-bottom: 1px solid var(--border);
+    color: var(--text-primary, #0f172a);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border, #e2e8f0);
+    transition: background 0.15s ease;
 }
 
 .search-results a:last-child {
@@ -1800,7 +1802,7 @@ footer#footer {
 }
 
 .search-results a:hover {
-    background: var(--bg-soft);
+    background: var(--bg-soft, #eef1fb);
 }
 
 .search-results a img, .search-results a .sr-cover {

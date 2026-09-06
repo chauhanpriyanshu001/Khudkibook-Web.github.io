@@ -405,64 +405,134 @@ function initSiteSearch() {
     }
     if (closeBtn) closeBtn.addEventListener("click", collapseSearch);
 
+    let isSearchLoading = false;
     let searchLoaded = false;
-    function loadSearchIndex() {
-        if (searchLoaded) return;
-        searchLoaded = true;
+
+    function loadSearchIndex(callback) {
+        if (searchLoaded) {
+            if (callback) callback();
+            return;
+        }
+        if (isSearchLoading) {
+            return;
+        }
+        isSearchLoading = true;
         fetch("/search-index.json")
             .then(r => r.json())
-            .then(data => { KB_SEARCH_DATA = Array.isArray(data) ? data : []; })
-            .catch(() => { KB_SEARCH_DATA = []; });
+            .then(data => {
+                KB_SEARCH_DATA = Array.isArray(data) ? data : [];
+                searchLoaded = true;
+                isSearchLoading = false;
+                if (callback) callback();
+                else if (input.value && input.value.trim()) search(input.value);
+            })
+            .catch(() => {
+                KB_SEARCH_DATA = [];
+                searchLoaded = true;
+                isSearchLoading = false;
+            });
     }
 
-    input.addEventListener("focus", loadSearchIndex, { once: true });
-    input.addEventListener("input", loadSearchIndex, { once: true });
-    if ('requestIdleCallback' in window) {
-        requestIdleCallback(loadSearchIndex, { timeout: 3500 });
+    // Pre-load search index eagerly on idle / startup
+    if (typeof window !== "undefined") {
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(() => loadSearchIndex(), { timeout: 1500 });
+        } else {
+            setTimeout(loadSearchIndex, 300);
+        }
     }
 
     function render(list) {
         if (!list.length) {
-            resultsBox.innerHTML = `<div class="no-result">No subjects found. Try a different keyword.</div>`;
+            resultsBox.innerHTML = `<div class="no-result"><i class="fas fa-search" style="margin-right:6px;opacity:0.5;"></i> No subjects found. Try a subject name, code, or branch.</div>`;
             resultsBox.classList.add("show");
             return;
         }
-        resultsBox.innerHTML = list.slice(0, 10).map(item => `
-            <a href="${item.url}" onclick="window.KB_SEARCH_OPEN=true">
-                <span class="sr-cover" style="background:${item.color}"><i class="fas fa-book" style="color:#fff;font-size:0.8rem;line-height:44px;text-align:center;display:block;"></i></span>
-                <span>
-                    <span class="sr-title">${item.name}</span><br/>
-                    <span class="sr-sub">${item.branch} &middot; ${item.sem}</span>
+        resultsBox.innerHTML = list.slice(0, 12).map(item => `
+            <a href="${item.url}" class="kb-sr-item">
+                <span class="sr-cover" style="background:${item.color || '#4f46e5'}"><i class="fas fa-book" style="color:#fff;font-size:0.8rem;line-height:44px;text-align:center;display:block;"></i></span>
+                <span style="flex:1;min-width:0;">
+                    <span class="sr-title" style="display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${item.name}</span>
+                    <span class="sr-sub">${item.code ? `<strong>${item.code}</strong> &middot; ` : ''}${item.branch || ''} &middot; ${item.sem || ''}</span>
                 </span>
             </a>`).join("");
         resultsBox.classList.add("show");
     }
 
     function search(q) {
-        q = q.trim().toLowerCase();
-        if (!q) { resultsBox.classList.remove("show"); return; }
-        const out = (KB_SEARCH_DATA || []).filter(item =>
-            (item.name || "").toLowerCase().includes(q) ||
-            (item.code || "").toLowerCase().includes(q) ||
-            (item.branch || "").toLowerCase().includes(q)
-        );
-        render(out);
+        q = (q || '').trim().toLowerCase();
+        if (!q) {
+            resultsBox.classList.remove("show");
+            return;
+        }
+        if (!searchLoaded) {
+            resultsBox.innerHTML = `<div class="no-result"><i class="fas fa-spinner fa-spin" style="margin-right:6px;color:var(--accent);"></i> Loading subject catalog...</div>`;
+            resultsBox.classList.add("show");
+            loadSearchIndex(() => search(input.value));
+            return;
+        }
+
+        const terms = q.split(/\s+/).filter(Boolean);
+        const matches = (KB_SEARCH_DATA || []).filter(item => {
+            const haystack = `${item.name || ''} ${item.code || ''} ${item.branch || ''} ${item.sem || ''}`.toLowerCase();
+            return terms.every(t => haystack.includes(t));
+        });
+
+        // Sort exact code or prefix matches to top
+        matches.sort((a, b) => {
+            const aCode = (a.code || '').toLowerCase();
+            const bCode = (b.code || '').toLowerCase();
+            const aName = (a.name || '').toLowerCase();
+            const bName = (b.name || '').toLowerCase();
+            
+            if (aCode === q && bCode !== q) return -1;
+            if (bCode === q && aCode !== q) return 1;
+            if (aName.startsWith(q) && !bName.startsWith(q)) return -1;
+            if (bName.startsWith(q) && !aName.startsWith(q)) return 1;
+            return 0;
+        });
+
+        render(matches);
     }
 
     let debounce;
     input.addEventListener("input", () => {
         clearTimeout(debounce);
-        debounce = setTimeout(() => search(input.value), 250);
+        debounce = setTimeout(() => search(input.value), 150);
     });
-    input.addEventListener("focus", () => { if (input.value) search(input.value); });
+
+    input.addEventListener("focus", () => {
+        loadSearchIndex();
+        if (input.value && input.value.trim()) {
+            search(input.value);
+        }
+    });
+
     input.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") { collapseSearch(); e.stopPropagation(); }
+        if (e.key === "Escape") {
+            collapseSearch();
+            e.stopPropagation();
+        } else if (e.key === "Enter") {
+            const firstResult = resultsBox.querySelector("a.kb-sr-item");
+            if (firstResult) {
+                firstResult.click();
+            } else {
+                search(input.value);
+            }
+        }
     });
+
     if (submitBtn) {
-        submitBtn.addEventListener("click", () => { if (input.value) search(input.value); });
+        submitBtn.addEventListener("click", () => {
+            if (input.value) search(input.value);
+            else input.focus();
+        });
     }
+
     document.addEventListener("click", (e) => {
-        if (!e.target.closest(".site-search-wrap")) resultsBox.classList.remove("show");
+        if (!e.target.closest(".site-search-wrap")) {
+            resultsBox.classList.remove("show");
+        }
     });
 }
 

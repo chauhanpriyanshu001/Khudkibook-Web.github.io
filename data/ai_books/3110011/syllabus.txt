@@ -1,0 +1,178 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3110011
+Page 1 of 5
+w.e.f. AY 2018-19
+PHYSICS
+B.E. 1stYEAR
+(For Group I Branches)
+Type of course: Basic Science (Physics)
+Prerequisite: Basic understanding`of Calculus, Physics and Mathematics course on Differentiate
+equations
+Rationale: The basic science - physics program is to prepare students for careers in engineering where
+physics principles can be applied to the advancement of technology. This education at the intersection of
+engineering and physics will enable students to seek employment in engineering upon graduation while, at
+the same time, provide a firm foundation for the pursuit of graduate studies in engineering.
+Teaching and Examination Scheme:
+Teaching Scheme Credits Examination Marks Total
+Marks	L T P C Theory Marks Practical Marks
+ESE (E) PA (M) ESE (V) PA (I)
+3 0 2 4 70 30 30 20 150
+Content:
+Sr No Topic Teaching
+Hrs.
+Module
+Weightage
+MODULE 1: Properties of Matter
+ Concept of Load, Stress and Strain
+ Hook's Law
+ Stress-Strain Diagram
+ Ductility, Brittleness and Plasticity
+ Elastic behavior of solids
+ Working stress and factor of safety
+ Factors affecting elasticity
+ Types of Elasticity
+ Twisting couple on a cylinder or wire-shaft
+ Torsional Pendulum
+ Cantilever-Depression of Cantilever
+ Young's modulus by Cantilever
+ I-shape Griders
+ Viscosity and comparison of viscosities
+7 19
+
+-- 1 of 5 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3110011
+Page 2 of 5
+w.e.f. AY 2018-19
+MODULE 2: Waves, Motion and Acoustics
+ Simple Harmonic motion
+ Free, forced, resonance, damped and undamped vibration
+ Damped harmonic motion
+ Force vibration and amplitude resonance
+ Velocity resonance and energy intake
+ Wave motion, transverse and longitudinal vibration
+ Sound absorption and reverberation
+ Sabine's formula and usage (excluding derivation)
+ Acoustic of building
+7 19
+Module 3: Ultrasonic and Non distractive testing (NDT)
+ Ultrasonic waves
+ Properties of ultrasound
+ Production of ultrasonic waves : Piezoelectric and
+magnetostriction method
+ Detection of ultrasound
+ Application of ultrasound
+ Introduction of NDT
+ Advantages of NDT
+ NDT through ultrasound
+9 25
+Module 4: Superconductivity
+ Introduction of Superconductivity
+ Properties of superconductor
+ Effect of magnetic field
+ Meissner effect
+ Pressure effect
+ Impurity effect
+ Isotopic mass effect
+ Mechanism of Superconductivity : BCS Theory
+ Penetration depth : Magnetic field
+ Josephson's junction and its application
+ Application of superconductors
+6 17
+Module 5: Lasers
+ Properties of Laser
+ Einstein’s theory of matter radiation : A and B coefficients
+ Amplification of light by population inversion
+ Different types of lasers
+ gas lasers ( He-Ne) solid-state lasers(ruby)
+ Properties of laser beams: mono-chromaticity, coherence,
+directionality and brightness, laser speckles
+ Applications of lasers in science, engineering and medicine.
+7 20
+
+-- 2 of 5 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3110011
+Page 3 of 5
+w.e.f. AY 2018-19
+Suggested Specification table with Marks (Theory):
+Distribution of Theory Marks
+R Level U Level A Level N Level E Level C Level
+30% 40% 30% 0 0 0
+Legends: R: Remembrance; U: Understanding; A: Application, N: Analyze and E: Evaluate C: Create
+and above Levels (Revised Bloom’s Taxonomy)
+Reference Books
+1. Engineering Physics by Dattu R Joshi, McGraw hill Publications
+2. Engineering Physics by Shatendra Sharma & Jyotsan Sharma, Pearson Publication
+3. Mechanics of Materials, SI Edition, 9th Edition,Barry J. Goodno, James M. Gere,Published: © 2018
+Print ISBN: 9781337093354
+Course Outcome:
+Sr. No. CO statement Marks % weightage
+CO-1 The student will gain knowledge of theoretical and mathematical
+concepts associated with properties of matter.
+19
+CO-2 The student will demonstrate understanding the basic principles,
+properties and applications of associated with Waves, Motion and
+Acoustics.
+19
+CO-3 The student will demonstrate the understanding of basic principles,
+properties, various method of production technique of Ultrasonic sound
+and its applications in NDT.
+25
+CO-4 The student will demonstrate understanding of basic theory, properties
+and applications of Superconductivity.
+17
+CO-5 The student will demonstrate understanding of basic principles,
+properties, type and application Lasers.
+20
+List of Experiments:
+1. Diffraction and interference experiments (from ordinary light or laser
+pointers); measurement of speed of light on a table top
+modulation; minimum deviation from a prism.
+2. Measurement of the Distance using Ultrasonic Sensors.
+3. Study of Object Detection using Ultrasonic Sensors.
+4. Melde’s Experiment Transverse and Longitudinal Modes
+5. To determine the frequency of given laser source.
+6. Frequency of AC Supply-Sonometer method
+7. Wavelength of Light -Diffraction GratingUsing LASER
+8. Acoustic grating method set up for measurement of velocity of ultrasonic waves in liquid
+9. Melde’s experiment Resonator
+10. Study of Damped Simple Harmonic Motion
+11. Newton’s rings, Determination of using sodium light.
+12. Calibration of Spectrometer & determination of unknown wavelength
+13. Dispersive curve of a prism
+14. Study of Fabry-Perot Etalon
+15. Study of Lloyd’s Mirror
+
+-- 3 of 5 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3110011
+Page 4 of 5
+w.e.f. AY 2018-19
+16. Study of Double Refraction in Calcite Prism
+17. Virtual Heat & Thermodynamics Lab
+18. Virtual Advanced Mechanics Lab
+19. Virtual Laser Optics Lab
+20. Virtual Harmonic Motion & Waves Lab
+21. Virtual Optics Lab
+22. Virtual Modern Physics Lab
+23. Virtual Lab on oscillations
+24. Virtual Physical Sciences Lab
+
+-- 4 of 5 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3110011
+Page 5 of 5
+w.e.f. AY 2018-19
+
+-- 5 of 5 --
+

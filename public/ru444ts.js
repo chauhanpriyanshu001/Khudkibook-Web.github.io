@@ -1,11 +1,4 @@
-
-let width;
-document.body.innerHTML += `
- <footer id="footer">
-    </footer>`;
-navbar = document.getElementById("nav")
-navtag = document.getElementById('nav')
-footer = document.getElementById("footer")
+// Firebase Configuration (Loaded On-Demand for Feedback)
 const firebaseConfig = {
     apiKey: "AIzaSyBvc-vfv2EkbdFa-Wh6ieckvrLooMPYY3w",
     authDomain: "khudkibook.firebaseapp.com",
@@ -16,457 +9,575 @@ const firebaseConfig = {
     appId: "1:245535789373:web:3977252363ca0bc10a3554",
     measurementId: "G-XRLK80TM3J"
 };
-firebase.initializeApp(firebaseConfig);
-var footerhtml = `
- <a class="playink"  href="https://play.google.com/store/apps/details?id=web.app.khudkibook&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">
-        <!-- <div style="display: flex;justify-content: center;align-items: center;flex-direction: row;" >
 
-            <img style="width: 15%;height: auto;" src="https://chauhanpriyanshu001.github.io/pic.github.io/bg.png" alt="khudkibook" srcset="">
-            <span style="font-size: 2vh;font-weight: bold;color: orange;" >KHUDKIBOOK</span>
-        </div> -->
-        <img  src="https://chauhanpriyanshu001.github.io/pic.github.io/downloadplaystore.png" alt="play store linl" srcset="">
+function ensureFirebase(callback) {
+    if (typeof firebase !== 'undefined' && firebase.apps && firebase.apps.length) {
+        callback();
+        return;
+    }
+    const s1 = document.createElement('script');
+    s1.src = "https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-app.js";
+    s1.onload = () => {
+        const s2 = document.createElement('script');
+        s2.src = "https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-firestore.js";
+        s2.onload = () => {
+            if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+            callback();
+        };
+        document.head.appendChild(s2);
+    };
+    document.head.appendChild(s1);
+}
+
+// Master Navbar HTML Template
+const modernNavbarHTML = `
+<div class="navwrap">
+    <!-- Brand Logo -->
+    <a href="/" class="brand-link" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+        <img class="lohh" src="/assets/brand/khudkibook-logo.png" alt="Khudkibook Logo" width="36" height="36" />
+        <span class="textl">Khudkibook</span>
     </a>
-<div class="ftrreviwwrap">
 
-<div class="about">
-    <h3 class="fotthead">ABOUT US</h3>
-    <p class="aboutdesc">At Khudkibook, we believe that education should be accessible to everyone. That's
-        why we've created a
-        platform where GTU (Gujarat Technological University) students can access textbooks and learning
-        materials for free. Whether you're preparing for exams, brushing up on your course materials, or
-        looking for additional references, Khudkibook offers a vast collection of books, all in one place.
-    </p>
-
-</div>
-<div class="column feedback">
-    <h3 class="fotthead">LEAVE YOUR FEEDBACK </h3>
-    <div class="form">
-
-        <input type="email" required name="" placeholder="Email *" id="fedbackemail">
-        <span class="error"> </span>
-
-        <textarea name="feedbak" required placeholder="Tell Us about Your Experince *" id="fedback"
-            cols="10" rows="5"></textarea>
-        <button id="postfeed" type="submit">SHARE</button>
-    </div>
-</div>
-<div class="social">
-
-    <!-- <h3 class="fotthead">LEGAL </h3> -->
-    <div class="col">
-
-        <a target="_blank"   style="color: white;font-size: 20px;" href="https://khudkibook.web.app/privacypolicy.html">Privacy</a>
-        <a target="_blank" style="color: white;font-size: 20px;"href="https://khudkibook.web.app/termsofservice.html">Term of Service</a>
-        <a target="_blank" style="color: white;font-size: 20px;" href="https://www.instagram.com/khudkibook/">Instagram</a>
+    <!-- Global Search -->
+    <div class="site-search-wrap" id="kb-search-wrap">
+        <div class="site-search">
+            <i class="fas fa-search kb-search-icon-open"></i>
+            <input type="text" id="kb-search-input" placeholder="Search books, subjects, code..." autocomplete="off" />
+            <button type="button" aria-label="Search" id="kb-search-submit"><i class="fas fa-arrow-right"></i></button>
+            <button type="button" aria-label="Close search" id="kb-search-close" class="kb-search-close"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="search-results" id="kb-search-results"></div>
     </div>
 
+    <!-- Desktop Navigation Links -->
+    <ul class="nav-links-desktop">
+        <li><a href="/" class="nav-item-link"><i class="fas fa-home"></i> Home</a></li>
+        
+        <!-- Diploma Dropdown -->
+        <li class="nav-dropdown-wrapper">
+            <button class="nav-dropdown-btn" type="button">
+                <i class="fas fa-graduation-cap"></i> Diploma <i class="fas fa-chevron-down nav-chevron"></i>
+            </button>
+            <div class="nav-dropdown-panel">
+                <div class="dropdown-grid">
+                    <div class="dropdown-branch-item">
+                        <a href="/ithomepage.html" class="branch-title"><i class="fas fa-laptop-code"></i> Information Technology</a>
+                        <div class="sem-quick-links">
+                            <a href="/it/sem1/index.html">Sem 1</a>
+                            <a href="/it/sem2/index.html">Sem 2</a>
+                            <a href="/it/sem3/index.html">Sem 3</a>
+                            <a href="/it/sem4/index.html">Sem 4</a>
+                            <a href="/it/sem5/index.html">Sem 5</a>
+                            <a href="/it/sem6/index.html">Sem 6</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-branch-item">
+                        <a href="/computerhomepage.html" class="branch-title"><i class="fas fa-desktop"></i> Computer Engineering</a>
+                        <div class="sem-quick-links">
+                            <a href="/computer/sem1/index.html">Sem 1</a>
+                            <a href="/computer/sem2/index.html">Sem 2</a>
+                            <a href="/computer/sem3/index.html">Sem 3</a>
+                            <a href="/computer/sem4/index.html">Sem 4</a>
+                            <a href="/computer/sem5/index.html">Sem 5</a>
+                            <a href="/computer/sem6/index.html">Sem 6</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-branch-item">
+                        <a href="/civilhomepage.html" class="branch-title"><i class="fas fa-building"></i> Civil Engineering</a>
+                        <div class="sem-quick-links">
+                            <a href="/civil/sem1/index.html">Sem 1</a>
+                            <a href="/civil/sem2/index.html">Sem 2</a>
+                            <a href="/civil/sem3/index.html">Sem 3</a>
+                            <a href="/civil/sem4/index.html">Sem 4</a>
+                            <a href="/civil/sem5/index.html">Sem 5</a>
+                            <a href="/civil/sem6/index.html">Sem 6</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-branch-item">
+                        <a href="/electricalhomepage.html" class="branch-title"><i class="fas fa-bolt"></i> Electrical Engineering</a>
+                        <div class="sem-quick-links">
+                            <a href="/electrical/sem1/index.html">Sem 1</a>
+                            <a href="/electrical/sem2/index.html">Sem 2</a>
+                            <a href="/electrical/sem3/index.html">Sem 3</a>
+                            <a href="/electrical/sem4/index.html">Sem 4</a>
+                            <a href="/electrical/sem5/index.html">Sem 5</a>
+                            <a href="/electrical/sem6/index.html">Sem 6</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-branch-item">
+                        <a href="/mechanicalhomepage.html" class="branch-title"><i class="fas fa-cogs"></i> Mechanical Engineering</a>
+                        <div class="sem-quick-links">
+                            <a href="/mechanical/sem1/index.html">Sem 1</a>
+                            <a href="/mechanical/sem2/index.html">Sem 2</a>
+                            <a href="/mechanical/sem3/index.html">Sem 3</a>
+                            <a href="/mechanical/sem4/index.html">Sem 4</a>
+                            <a href="/mechanical/sem5/index.html">Sem 5</a>
+                            <a href="/mechanical/sem6/index.html">Sem 6</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-branch-item">
+                        <a href="/chemicalhomepage.html" class="branch-title"><i class="fas fa-flask"></i> Chemical Engineering</a>
+                        <div class="sem-quick-links">
+                            <a href="/chemical/sem1/index.html">Sem 1</a>
+                            <a href="/chemical/sem2/index.html">Sem 2</a>
+                            <a href="/chemical/sem3/index.html">Sem 3</a>
+                            <a href="/chemical/sem4/index.html">Sem 4</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li><a href="/BE/behomepage.html" class="nav-item-link"><i class="fas fa-university"></i> Degree (BE)</a></li>
+        <li><a href="/ddcet.html" class="nav-item-link"><i class="fas fa-book-reader"></i> DDCET</a></li>
+    </ul>
+
+    <!-- Right Controls (Symmetrical alignment for Search & Hamburger) -->
+    <div class="nav-right-actions">
+        <button class="mobile-nav-btn" id="mobile-search-toggle" aria-label="Open Search" type="button">
+            <i class="fas fa-search"></i>
+        </button>
+        <button class="mobile-nav-btn" id="mobile-menu-toggle" aria-label="Toggle Mobile Menu" type="button">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
 </div>
 
-
-<!-- <div class="ftrh1"> Thank You </div>
-<div class="ftrh1"> <span>@2024 KhudKibook || </span> <a href="https://khudkibook.web.app/">HomePage</a> ||
-    <a href="https://khudkibook.web.app/privacypolicy.html">Privacy Policy</a> || <a
-        href="https://khudkibook.web.app/termsofservice.html">Terms of Service</a>
-</div> -->
-
+<!-- Mobile Off-Canvas Drawer -->
+<div class="mobile-drawer" id="mobile-drawer" style="display: none;">
+    <div class="drawer-header">
+        <a href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+            <img class="lohh" src="/assets/brand/khudkibook-logo.png" alt="Khudkibook" width="32" height="32" />
+            <span class="textl" style="font-size: 1.2rem;">Khudkibook</span>
+        </a>
+        <button class="drawer-close-btn" id="drawer-close-btn">&times;</button>
+    </div>
+    <div class="drawer-content">
+        <a href="/" class="drawer-link"><i class="fas fa-home"></i> Home</a>
+        <a href="/BE/behomepage.html" class="drawer-link"><i class="fas fa-university"></i> Degree (BE)</a>
+        <a href="/ddcet.html" class="drawer-link"><i class="fas fa-book-reader"></i> DDCET Preparation</a>
+        
+        <div class="drawer-section-title"><i class="fas fa-graduation-cap"></i> Diploma Branches</div>
+        <div class="drawer-branch-list">
+            <div class="drawer-accordion">
+                <button class="accordion-header"><span>Information Technology</span> <i class="fas fa-chevron-down"></i></button>
+                <div class="accordion-body">
+                    <a href="/it/sem1/index.html">Semester 1</a>
+                    <a href="/it/sem2/index.html">Semester 2</a>
+                    <a href="/it/sem3/index.html">Semester 3</a>
+                    <a href="/it/sem4/index.html">Semester 4</a>
+                    <a href="/it/sem5/index.html">Semester 5</a>
+                    <a href="/it/sem6/index.html">Semester 6</a>
+                </div>
+            </div>
+            <div class="drawer-accordion">
+                <button class="accordion-header"><span>Computer Engineering</span> <i class="fas fa-chevron-down"></i></button>
+                <div class="accordion-body">
+                    <a href="/computer/sem1/index.html">Semester 1</a>
+                    <a href="/computer/sem2/index.html">Semester 2</a>
+                    <a href="/computer/sem3/index.html">Semester 3</a>
+                    <a href="/computer/sem4/index.html">Semester 4</a>
+                    <a href="/computer/sem5/index.html">Semester 5</a>
+                    <a href="/computer/sem6/index.html">Semester 6</a>
+                </div>
+            </div>
+            <div class="drawer-accordion">
+                <button class="accordion-header"><span>Civil Engineering</span> <i class="fas fa-chevron-down"></i></button>
+                <div class="accordion-body">
+                    <a href="/civil/sem1/index.html">Semester 1</a>
+                    <a href="/civil/sem2/index.html">Semester 2</a>
+                    <a href="/civil/sem3/index.html">Semester 3</a>
+                    <a href="/civil/sem4/index.html">Semester 4</a>
+                    <a href="/civil/sem5/index.html">Semester 5</a>
+                    <a href="/civil/sem6/index.html">Semester 6</a>
+                </div>
+            </div>
+            <div class="drawer-accordion">
+                <button class="accordion-header"><span>Electrical Engineering</span> <i class="fas fa-chevron-down"></i></button>
+                <div class="accordion-body">
+                    <a href="/electrical/sem1/index.html">Semester 1</a>
+                    <a href="/electrical/sem2/index.html">Semester 2</a>
+                    <a href="/electrical/sem3/index.html">Semester 3</a>
+                    <a href="/electrical/sem4/index.html">Semester 4</a>
+                    <a href="/electrical/sem5/index.html">Semester 5</a>
+                    <a href="/electrical/sem6/index.html">Semester 6</a>
+                </div>
+            </div>
+            <div class="drawer-accordion">
+                <button class="accordion-header"><span>Mechanical Engineering</span> <i class="fas fa-chevron-down"></i></button>
+                <div class="accordion-body">
+                    <a href="/mechanical/sem1/index.html">Semester 1</a>
+                    <a href="/mechanical/sem2/index.html">Semester 2</a>
+                    <a href="/mechanical/sem3/index.html">Semester 3</a>
+                    <a href="/mechanical/sem4/index.html">Semester 4</a>
+                    <a href="/mechanical/sem5/index.html">Semester 5</a>
+                    <a href="/mechanical/sem6/index.html">Semester 6</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<span
-style="display: flex;justify-content: center;align-items: center;color: orange; font-weight: bold;margin: 10px;">@2024
-Khudkibook | Thank You</span>
 `;
 
-
-
-function handleResize() {
-    windowWidth = window.innerWidth;
-
-    navtag.classList.remove('rbb');
-    navbar.innerHTML = `
-     <div class="navwrap ">
-            <!-- Logo -->
-            <div class="row">
-
-
-                <a href="https://khudkibook.web.app/" class="row">
-                    <span class="bnltl">
-                        <img class="lohh" src="https://chauhanpriyanshu001.github.io/pic.github.io/bg.png" alt="">
-
-                    </span>
-
-                    <span class="textl">
-                        Khudkibook
-                    </span>
-                </a>
-
-            </div>
-            <!-- |Explore-->
-            <div class="row gap15 explore">
-                <li class="active">
-                    <a href="https://khudkibook.web.app/">Home</a>
-                </li>
-                <li>
-
-                    <div class="link" id="link2">
-                        <ul class="col">
-                            <div class="list">
-                                <li>Diploma</li>
-                                <div class="listitem">
-                                    <div style="z-index: 100;" class="list2">
-                                        <li>I.T</li>
-                                        <div class="listitem2">
-                                            <a href="/it/sem1/homepage.html">Sem-1</a>
-                                            <a href="/it/sem2/homepage.html">Sem-2</a>
-                                            <a href="/it/sem3/homepage.html">Sem-3</a>
-                                            <a href="/it/sem4/homepage.html">Sem-4</a>
-                                            <a href="/it/sem5/homepage.html">Sem-5</a>
-                                            <a href="/it/sem6/homepage.html">Sem-6</a>
-                                        </div>
-
-
-                                    </div>
-                                    <div style="z-index: 200;" class="list2">
-                                        <li>Civil</li>
-                                        <div class="listitem2">
-                                            <a href="/civil/sem1/homepage.html">Sem-1</a>
-                                            <a href="/civil/sem2/homepage.html">Sem-2</a>
-                                            <a href="/civil/sem3/homepage.html">Sem-3</a>
-                                            <a href="/civil/sem4/homepage.html">Sem-4</a>
-                                            <a href="/civil/sem5/homepage.html">Sem-5</a>
-                                            <a href="/civil/sem6/homepage.html">Sem-6</a>
-                                        </div>
-
-
-                                    </div>
-                                    <div style="z-index: 300;" class="list2">
-                                        <li>Electrical</li>
-                                        <div class="listitem2">
-                                            <a href="/electrical/sem1/homepage.html">Sem-1</a>
-                                            <a href="/electrical/sem2/homepage.html">Sem-2</a>
-                                            <a href="/electrical/sem3/homepage.html">Sem-3</a>
-                                            <a href="/electrical/sem4/homepage.html">Sem-4</a>
-                                            <a href="/electrical/sem5/homepage.html">Sem-5</a>
-                                            <a href="/electrical/sem6/homepage.html">Sem-6</a>
-                                        </div>
-
-
-                                    </div>
-                                    <div style="z-index: 400;" class="list2">
-                                        <li>Computer</li>
-                                        <div class="listitem2">
-                                            <a href="/computer/sem1/homepage.html">Sem-1</a>
-                                            <a href="/computer/sem2/homepage.html">Sem-2</a>
-                                            <a href="/computer/sem3/homepage.html">Sem-3</a>
-                                            <a href="/computer/sem4/homepage.html">Sem-4</a>
-                                            <a href="/computer/sem5/homepage.html">Sem-5</a>
-                                            <a href="/computer/sem6/homepage.html">Sem-6</a>
-                                        </div>
-
-
-                                    </div>
-                                    <div style="z-index: 500;" class="list2">
-                                        <li>Mechanical</li>
-                                        <div class="listitem2">
-                                            <a href="/mechanical/sem1/homepage.html">Sem-1</a>
-                                            <a href="/mechanical/sem2/homepage.html">Sem-2</a>
-                                            <a href="/mechanical/sem3/homepage.html">Sem-3</a>
-                                            <a href="/mechanical/sem4/homepage.html">Sem-4</a>
-                                            <a href="/mechanical/sem5/homepage.html">Sem-5</a>
-                                            <a href="/mechanical/sem6/homepage.html">Sem-6</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                        </ul>
-                    </div>
-                </li>
-
-            </div>
-           
-            <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
-                    <g fill="none" stroke="orange" stroke-linecap="round" stroke-width="2">
-                        <path d="M5 5L12 12L19 5">
-                            <animate fill="freeze" attributeName="d" dur="0.4s"
-                                values="M5 5L12 12L19 5;M5 5L12 5L19 5" />
-                        </path>
-                        <path d="M12 12H12">
-                            <animate fill="freeze" attributeName="d" dur="0.4s" values="M12 12H12;M5 12H19" />
-                        </path>
-                        <path d="M5 19L12 12L19 19">
-                            <animate fill="freeze" attributeName="d" dur="0.4s"
-                                values="M5 19L12 12L19 19;M5 19L12 19L19 19" />
-                        </path>
-                    </g>
-                </svg>
-            </div>
-
-
+// Footer HTML Template
+const modernFooterHTML = `
+<div class="ftrreviwwrap">
+    <div class="about">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+            <img src="/assets/brand/khudkibook-logo.png" alt="Khudkibook Logo" width="38" height="38" style="border-radius:10px;background:#4338ca;padding:2px;" />
+            <span class="textl" style="font-size:1.3rem;">Khudkibook</span>
         </div>
-
-        <div class="navdropdown" style="display: none;">
-            <ul class="navdul">
-             <li class="active">
-                    <a href="https://khudkibook.web.app/">Home</a>
-                </li>
-              <div class="link" id="link2">
-                        <ul class="col">
-                            <div class="list">
-                                <li>Diploma</li>
-                                <div class="listitem">
-                                    <div style="z-index: 100;" class="list2">
-                                        <li>I.T</li>
-                                        <div class="listitem2">
-                                            <a href="/it/sem1/homepage.html">Sem-1</a>
-                                            <a href="/it/sem2/homepage.html">Sem-2</a>
-                                            <a href="/it/sem3/homepage.html">Sem-3</a>
-                                            <a href="/it/sem4/homepage.html">Sem-4</a>
-                                            <a href="/it/sem5/homepage.html">Sem-5</a>
-                                            <a href="/it/sem6/homepage.html">Sem-6</a>
-                                        </div>
-
-
-                                    </div>
-                                    <div style="z-index: 200;" class="list2">
-                                        <li>Civil</li>
-                                        <div class="listitem2">
-                                            <a href="/civil/sem1/homepage.html">Sem-1</a>
-                                            <a href="/civil/sem2/homepage.html">Sem-2</a>
-                                            <a href="/civil/sem3/homepage.html">Sem-3</a>
-                                            <a href="/civil/sem4/homepage.html">Sem-4</a>
-                                            <a href="/civil/sem5/homepage.html">Sem-5</a>
-                                            <a href="/civil/sem6/homepage.html">Sem-6</a>
-                                        </div>
-
-
-                                    </div>
-                                    <div style="z-index: 300;" class="list2">
-                                        <li>Electrical</li>
-                                        <div class="listitem2">
-                                            <a href="/electrical/sem1/homepage.html">Sem-1</a>
-                                            <a href="/electrical/sem2/homepage.html">Sem-2</a>
-                                            <a href="/electrical/sem3/homepage.html">Sem-3</a>
-                                            <a href="/electrical/sem4/homepage.html">Sem-4</a>
-                                            <a href="/electrical/sem5/homepage.html">Sem-5</a>
-                                            <a href="/electrical/sem6/homepage.html">Sem-6</a>
-                                        </div>
-
-
-                                    </div>
-                                    <div style="z-index: 400;" class="list2">
-                                        <li>Computer</li>
-                                        <div class="listitem2">
-                                            <a href="/computer/sem1/homepage.html">Sem-1</a>
-                                            <a href="/computer/sem2/homepage.html">Sem-2</a>
-                                            <a href="/computer/sem3/homepage.html">Sem-3</a>
-                                            <a href="/computer/sem4/homepage.html">Sem-4</a>
-                                            <a href="/computer/sem5/homepage.html">Sem-5</a>
-                                            <a href="/computer/sem6/homepage.html">Sem-6</a>
-                                        </div>
-
-
-                                    </div>
-                                    <div style="z-index: 500;" class="list2">
-                                        <li>Mechanical</li>
-                                        <div class="listitem2">
-                                            <a href="/mechanical/sem1/homepage.html">Sem-1</a>
-                                            <a href="/mechanical/sem2/homepage.html">Sem-2</a>
-                                            <a href="/mechanical/sem3/homepage.html">Sem-3</a>
-                                            <a href="/mechanical/sem4/homepage.html">Sem-4</a>
-                                            <a href="/mechanical/sem5/homepage.html">Sem-5</a>
-                                            <a href="/mechanical/sem6/homepage.html">Sem-6</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                        </ul>
-                    </div>
-                </li>
-                
-                
-            </div>
-
-
-                   
-                </div>
-            </ul>
+        <h3 class="fotthead"><i class="fas fa-graduation-cap" style="color:#a5b4fc; margin-right:8px;"></i> ABOUT KHUDKIBOOK</h3>
+        <p class="aboutdesc">
+            At Khudkibook, we believe high-quality engineering education should be free and accessible to every GTU student.
+            Access official syllabus curriculums, English & Gujarati medium textbooks, and previous year solved question papers anytime, anywhere.
+        </p>
+    </div>
+    <div class="feedback">
+        <h3 class="fotthead"><i class="fas fa-comment-dots" style="color:#a5b4fc; margin-right:8px;"></i> LEAVE YOUR FEEDBACK</h3>
+        <div class="form">
+            <input type="email" required placeholder="Your Student Email *" id="fedbackemail" />
+            <textarea required placeholder="How can we make Khudkibook better for you? *" id="fedback" rows="3"></textarea>
+            <button id="postfeed" type="button"><i class="fas fa-paper-plane"></i> Submit Feedback</button>
         </div>
-        `;
+    </div>
+    <div class="social">
+        <h3 class="fotthead"><i class="fas fa-shield-alt" style="color:#a5b4fc; margin-right:8px;"></i> LEGAL & SOCIAL</h3>
+        <div class="col">
+            <a href="/privacypolicy.html"><i class="fas fa-user-shield"></i> Privacy Policy</a>
+            <a href="/termsofservice.html"><i class="fas fa-file-contract"></i> Terms of Service</a>
+            <a href="https://www.instagram.com/khudkibook/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Follow on Instagram</a>
+            <a href="https://play.google.com/store/apps/details?id=web.app.khudkibook" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play"></i> Rate on Play Store</a>
+        </div>
+    </div>
+</div>
+<div style="text-align: center; color:#a5b4fc; font-size: 0.85rem; padding-bottom: 20px;">
+    &copy; 2026 Khudkibook. Crafted with &#10084; for GTU Engineering Students.
+</div>
+`;
 
-    footer.innerHTML = footerhtml;
-
-    navmenuop = document.querySelector(".menuop")
-    navmenucl = document.querySelector(".menucl")
-    menuic = document.querySelector(".icon")
-    navdropdown = document.querySelector(".navdropdown")
-    let val = 0;
-    menuic.addEventListener("click", () => {
-        if (val == 0) {
-            val = 1
-            navdropdown.style.display = "block";
-            menuic.innerHTML = `
-                <svg class="menucl" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
-                            <g fill="none" stroke="orange" stroke-linecap="round" stroke-width="2">
-                                <path d="M5 5L12 5L19 5">
-                                    <animate fill="freeze" attributeName="d" dur="0.4s"
-                                        values="M5 5L12 5L19 5;M5 5L12 12L19 5" />
-                                </path>
-                                <path d="M5 12H19">
-                                    <animate fill="freeze" attributeName="d" dur="0.4s" values="M5 12H19;M12 12H12" />
-                                </path>
-                                <path d="M5 19L12 19L19 19">
-                                    <animate fill="freeze" attributeName="d" dur="0.4s"
-                                        values="M5 19L12 19L19 19;M5 19L12 12L19 19" />
-                                </path>
-                            </g>
-                        </svg>
-                `
-
-        }
-        else if (val == 1) {
-            val = 0
-            navdropdown.style.display = "none";
-            menuic.innerHTML = `
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><g fill="none" stroke="orange" stroke-linecap="round" stroke-width="2"><path d="M5 5L12 12L19 5"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 5L12 12L19 5;M5 5L12 5L19 5"/></path><path d="M12 12H12"><animate fill="freeze" attributeName="d" dur="0.4s" values="M12 12H12;M5 12H19"/></path><path d="M5 19L12 12L19 19"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 19L12 12L19 19;M5 19L12 19L19 19"/></path></g></svg>
-                `
-
-        }
-
-
-    })
+// Build dynamic navbar dropdown grid from branches data
+function buildDropdownItems(branches) {
+    const icons = ["fa-laptop-code", "fa-desktop", "fa-building", "fa-bolt", "fa-cogs", "fa-flask", "fa-microchip", "fa-dna", "fa-satellite", "fa-industry", "fa-robot", "fa-book-open", "fa-calculator", "fa-project-diagram", "fa-shield-alt", "fa-fire", "fa-water", "fa-leaf", "fa-truck", "fa-ship", "fa-plug", "fa-recycle", "fa-graduation-cap"];
+    return branches.map((b, i) => `
+        <div class="dropdown-branch-item">
+            <a href="${b.homepage}" class="branch-title"><i class="fas ${icons[i % icons.length]}"></i> ${b.name}</a>
+            <div class="sem-quick-links">
+                ${b.semesters.map(s => `<a href="${b.urlPrefix ? '/' + b.urlPrefix : ''}/${b.id}/${s.id}/index.html">${s.name.replace('sem', 'Sem ')}</a>`).join('')}
+            </div>
+        </div>
+    `).join('');
 }
 
-// Get user detail
-// const auth = firebase.auth();
-// const user = auth.currentUser;
-const db = firebase.firestore();
-
-// auth.onAuthStateChanged((user) => {
-//     var menu = document.getElementsByClassName("auth")[0];
-//     var menu2 = document.getElementsByClassName("auth")[1];
-//     var signout = `<button id="signout"  class="cssbuttons-io "><span>SignOut</span></button>`;
-//     var signin = `
-//                     <a href="https://khudkibook.web.app/signup" class="regBtn">Register</a>
-//      `;
-
-
-//     // var menu = document.getElementsByClassName("auth")[0];
-
-//     if (user) {
-//         // Get information from database
-//         db.collection("users").doc(user.uid).get()
-//             .then(doc => {
-//                 if (doc.exists) {
-//                     const user = doc.data();
-//                     var name = user.name;
-//                     var syllabus = user.syllabus;
-//                     var semester = user.semester;
-//                     var branch = user.branch;
-//                     // console.log(name, syllabus, semester, branch)
-
-
-//                     // var name = document.getElementById("name");
-//                     menu.innerHTML += signout;
-//                     menu2.innerHTML += signout;
-//                     var signuotbtn = document.getElementById("signout");
-//                     function signoutf() {
-//                         auth.signOut().then(() => {
-//                             // Sign-out 
-//                             window.location.replace("/login.html");
-
-//                         }).catch((error) => {
-//                             console.log("Error")
-//                         });
-//                     }
-//                     signuotbtn.addEventListener("click", signoutf)
-
-
-//                 } else {
-//                     console.log("No such document!");
-//                 }
-//             })
-//             .catch(error => {
-//                 console.log("Error getting document:", error);
-//             });
-
-//     } else {
-//         // User is signed out
-
-//         menu.innerHTML += signin;
-//         menu2.innerHTML += signin;
-
-
-//         // window.location.replace("/signup.html");
-
-
-
-//     }
-// })
-// }
-handleResize()
-
-
-
-
-
-
-
-
-
-// Feedback
-
-var feedemail = document.getElementById("fedbackemail");
-var feedbackl = document.getElementById("fedback");
-var post = document.getElementById("postfeed");
-var footer = document.getElementById("footer");
-var form = document.getElementsByClassName("form")[0];
-var error = document.getElementsByClassName("error")[0]
-
-function validateEmail(email) {
-    var emailRegex = /^\S+@\S+\.\S+$/;
-    return emailRegex.test(email);
+// Build dynamic mobile drawer branch accordions
+function buildDrawerBranches(branches) {
+    return branches.map(b => `
+        <div class="drawer-accordion">
+            <button class="accordion-header"><span>${b.name}</span> <i class="fas fa-chevron-down"></i></button>
+            <div class="accordion-body">
+                ${b.semesters.map(s => `<a href="${b.urlPrefix ? '/' + b.urlPrefix : ''}/${b.id}/${s.id}/index.html">${s.name.replace('sem', 'Semester ')}</a>`).join('')}
+            </div>
+        </div>
+    `).join('');
 }
-feedemail.addEventListener("input", () => {
-    var email = feedemail.value;
 
-    val = validateEmail(email)
-    if (val == false) {
-        error.innerText = "Enter valid email"
+// Core Branch Sorting Priority: IT, Computer, Civil, Electrical, Mechanical, Chemical
+function sortCoreBranches(list) {
+    const priority = ['it', 'computer', 'civil', 'electrical', 'mechanical', 'chemical'];
+    return [...list].sort((a, b) => {
+        const aName = (a.name || '').toLowerCase();
+        const bName = (b.name || '').toLowerCase();
+        const aId = (a.id || '').toLowerCase();
+        const bId = (b.id || '').toLowerCase();
+        
+        const aIdx = priority.findIndex(p => aId === p || aName.startsWith(p) || (p === 'it' && (aName.includes('information tech') || aName === 'it')));
+        const bIdx = priority.findIndex(p => bId === p || bName.startsWith(p) || (p === 'it' && (bName.includes('information tech') || bName === 'it')));
+        
+        const aScore = aIdx >= 0 ? aIdx : 999;
+        const bScore = bIdx >= 0 ? bIdx : 999;
+        if (aScore !== bScore) return aScore - bScore;
+        return aName.localeCompare(bName);
+    });
+}
+
+// Renders dynamic branch grids into any container marked data-branch-grid
+function renderBranchGrids(data) {
+    if (!data || !data.domains) return;
+    document.querySelectorAll("[data-branch-grid]").forEach(container => {
+        const domainId = container.getAttribute("data-branch-grid");
+        const domain = (data.domains || []).find(d => d.id === domainId);
+        if (!domain) return;
+        const sortedBranches = sortCoreBranches(domain.branches || []);
+        
+        container.innerHTML = "";
+        container.className = "branch-grid-container";
+        
+        const grid = document.createElement("div");
+        grid.className = "maniwrraper";
+        
+        const DEFAULT_VISIBLE_MOBILE = 5; // Show IT, Computer, Civil, Electrical, Mechanical by default
+
+        sortedBranches.forEach((b, index) => {
+            const a = document.createElement("a");
+            a.className = "navlink" + (index >= DEFAULT_VISIBLE_MOBILE ? " kb-branch-extra" : "");
+            a.href = b.homepage;
+            a.style.backgroundImage = "url('https://chauhanpriyanshu001.github.io/pic.github.io/bg.webp')";
+            a.innerHTML = `<span>${b.name}</span>`;
+            grid.appendChild(a);
+        });
+
+        container.appendChild(grid);
+
+        if (sortedBranches.length > DEFAULT_VISIBLE_MOBILE) {
+            const extraCount = sortedBranches.length - DEFAULT_VISIBLE_MOBILE;
+            const toggleWrap = document.createElement("div");
+            toggleWrap.className = "kb-branch-toggle-wrap";
+            toggleWrap.innerHTML = `
+                <button class="kb-branch-toggle-btn" type="button" aria-expanded="false">
+                    <i class="fas fa-layer-group"></i> <span>Show All ${domain.name || 'Engineering'} Branches (${extraCount}+ More)</span> <i class="fas fa-chevron-down toggle-icon"></i>
+                </button>
+            `;
+            const toggleBtn = toggleWrap.querySelector(".kb-branch-toggle-btn");
+            toggleBtn.addEventListener("click", () => {
+                const isExpanded = grid.classList.toggle("is-expanded");
+                container.classList.toggle("is-expanded", isExpanded);
+                toggleBtn.setAttribute("aria-expanded", isExpanded ? "true" : "false");
+                if (isExpanded) {
+                    toggleBtn.classList.add("expanded");
+                    toggleBtn.innerHTML = `<i class="fas fa-chevron-up"></i> <span>Show Less Branches</span>`;
+                } else {
+                    toggleBtn.classList.remove("expanded");
+                    toggleBtn.innerHTML = `<i class="fas fa-layer-group"></i> <span>Show All ${domain.name || 'Engineering'} Branches (${extraCount}+ More)</span> <i class="fas fa-chevron-down toggle-icon"></i>`;
+                }
+            });
+            container.appendChild(toggleWrap);
+        }
+    });
+}
+
+// Global site search over lightweight search-index.json
+let KB_SEARCH_DATA = [];
+function initSiteSearch() {
+    const input = document.getElementById("kb-search-input");
+    const resultsBox = document.getElementById("kb-search-results");
+    const wrap = document.getElementById("kb-search-wrap");
+    const closeBtn = document.getElementById("kb-search-close");
+    const submitBtn = document.getElementById("kb-search-submit");
+    if (!input || !resultsBox || !wrap) return;
+
+    let KB_SEARCH_OPEN = false;
+
+    // Mobile: tapping the search icon expands the bar to full width;
+    // tapping again (or Escape) collapses it back to an icon.
+    function isMobileSearch() {
+        return window.matchMedia("(max-width: 900px)").matches;
     }
-    else {
-        error.innerText = ""
 
-    }
-})
-
-// Feedback
-post.addEventListener("click", async () => {
-    const auth = firebase.auth();
-    const db = firebase.firestore();
-    var email = feedemail.value;
-    var feedback = feedbackl.value;
-    if (email != "" && feedback != "") {
-        await db.collection("feedback").doc().set({
-
-            email: feedemail.value,
-            feedback: feedbackl.value,
-            time: Date().toLocaleString().toString()
-        })
-        form.innerHTML = `
-        <h6 class="ftreh1">Posted !! Thank You For Your Feedback</h6>
-        `
-
-    }
-    else {
-
+    function expandSearch() {
+        wrap.classList.add("expanded");
+        KB_SEARCH_OPEN = true;
+        input.focus();
     }
 
+    function collapseSearch() {
+        wrap.classList.remove("expanded");
+        KB_SEARCH_OPEN = false;
+        resultsBox.classList.remove("show");
+    }
 
-})
+    // The mobile search toggle button in navbar actions
+    const mobileSearchBtn = document.getElementById("mobile-search-toggle");
+    if (mobileSearchBtn) {
+        mobileSearchBtn.addEventListener("click", () => {
+            expandSearch();
+            loadSearchIndex();
+        });
+    }
 
+    // The search icon inside the bar doubles as expand trigger on desktop/tablet
+    const icon = wrap.querySelector(".kb-search-icon-open");
+    if (icon) {
+        icon.addEventListener("click", () => {
+            if (isMobileSearch() && !KB_SEARCH_OPEN) {
+                expandSearch();
+            }
+        });
+    }
+    if (closeBtn) closeBtn.addEventListener("click", collapseSearch);
 
-// share btn
+    let searchLoaded = false;
+    function loadSearchIndex() {
+        if (searchLoaded) return;
+        searchLoaded = true;
+        fetch("/search-index.json")
+            .then(r => r.json())
+            .then(data => { KB_SEARCH_DATA = Array.isArray(data) ? data : []; })
+            .catch(() => { KB_SEARCH_DATA = []; });
+    }
 
+    input.addEventListener("focus", loadSearchIndex, { once: true });
+    input.addEventListener("input", loadSearchIndex, { once: true });
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadSearchIndex, { timeout: 3500 });
+    }
+
+    function render(list) {
+        if (!list.length) {
+            resultsBox.innerHTML = `<div class="no-result">No subjects found. Try a different keyword.</div>`;
+            resultsBox.classList.add("show");
+            return;
+        }
+        resultsBox.innerHTML = list.slice(0, 10).map(item => `
+            <a href="${item.url}" onclick="window.KB_SEARCH_OPEN=true">
+                <span class="sr-cover" style="background:${item.color}"><i class="fas fa-book" style="color:#fff;font-size:0.8rem;line-height:44px;text-align:center;display:block;"></i></span>
+                <span>
+                    <span class="sr-title">${item.name}</span><br/>
+                    <span class="sr-sub">${item.branch} &middot; ${item.sem}</span>
+                </span>
+            </a>`).join("");
+        resultsBox.classList.add("show");
+    }
+
+    function search(q) {
+        q = q.trim().toLowerCase();
+        if (!q) { resultsBox.classList.remove("show"); return; }
+        const out = (KB_SEARCH_DATA || []).filter(item =>
+            (item.name || "").toLowerCase().includes(q) ||
+            (item.code || "").toLowerCase().includes(q) ||
+            (item.branch || "").toLowerCase().includes(q)
+        );
+        render(out);
+    }
+
+    let debounce;
+    input.addEventListener("input", () => {
+        clearTimeout(debounce);
+        debounce = setTimeout(() => search(input.value), 250);
+    });
+    input.addEventListener("focus", () => { if (input.value) search(input.value); });
+    input.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") { collapseSearch(); e.stopPropagation(); }
+    });
+    if (submitBtn) {
+        submitBtn.addEventListener("click", () => { if (input.value) search(input.value); });
+    }
+    document.addEventListener("click", (e) => {
+        if (!e.target.closest(".site-search-wrap")) resultsBox.classList.remove("show");
+    });
+}
+
+// Initialize UI
+function initKhudkibookUI() {
+    const navbar = document.getElementById("nav");
+    const footer = document.getElementById("footer");
+
+    if (navbar) {
+        navbar.innerHTML = modernNavbarHTML;
+
+        // Load all branches and make navigation data-driven
+        try {
+            fetch("/data/branches.json", { cache: "no-store" })
+                .then(r => r.json())
+                .then(data => {
+                    window.KB_DATA = data;
+                    const diplomaDomain = (data.domains || []).find(d => d.id === "diploma");
+                    if (diplomaDomain) {
+                        const diplomas = diplomaDomain.branches;
+                        const grid = navbar.querySelector(".dropdown-grid");
+                        if (grid) grid.innerHTML = buildDropdownItems(diplomas);
+                        const drawerList = document.getElementById("drawer-branch-list");
+                        if (drawerList) drawerList.innerHTML = buildDrawerBranches(diplomas);
+                    }
+                    renderBranchGrids(data);
+                })
+                .catch(() => {});
+        } catch (e) {}
+
+        // Setup Mobile Menu Toggle
+        const mobileToggle = document.getElementById("mobile-menu-toggle");
+        const drawer = document.getElementById("mobile-drawer");
+        const drawerClose = document.getElementById("drawer-close-btn");
+
+        if (mobileToggle && drawer) {
+            mobileToggle.addEventListener("click", () => {
+                drawer.style.display = drawer.style.display === "none" ? "block" : "none";
+            });
+        }
+        if (drawerClose && drawer) {
+            drawerClose.addEventListener("click", () => {
+                drawer.style.display = "none";
+            });
+        }
+
+        // Setup Drawer Accordions
+        document.querySelectorAll(".drawer-accordion .accordion-header").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const body = btn.nextElementSibling;
+                const icon = btn.querySelector(".fa-chevron-down, .fa-chevron-up");
+                if (body) {
+                    const isOpen = body.style.display === "flex";
+                    body.style.display = isOpen ? "none" : "flex";
+                    if (icon) {
+                        icon.className = isOpen ? "fas fa-chevron-down" : "fas fa-chevron-up";
+                    }
+                }
+            });
+        });
+    }
+
+    if (footer) {
+        footer.innerHTML = modernFooterHTML;
+
+        // Feedback Handler with On-Demand Firebase Loading
+        const submitBtn = document.getElementById("postfeed");
+        if (submitBtn) {
+            submitBtn.addEventListener("click", () => {
+                const emailInput = document.getElementById("fedbackemail");
+                const msgInput = document.getElementById("fedback");
+                if (emailInput && msgInput && emailInput.value && msgInput.value) {
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = "Submitting...";
+                    ensureFirebase(() => {
+                        try {
+                            const db = firebase.firestore();
+                            db.collection("feedbacks").add({
+                                email: emailInput.value,
+                                feedback: msgInput.value,
+                                timestamp: new Date()
+                            }).then(() => {
+                                alert("Thank you! Your feedback has been received.");
+                                emailInput.value = "";
+                                msgInput.value = "";
+                                submitBtn.disabled = false;
+                                submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Submit Feedback';
+                            }).catch(() => {
+                                alert("Thank you for your feedback!");
+                                emailInput.value = "";
+                                msgInput.value = "";
+                                submitBtn.disabled = false;
+                                submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Submit Feedback';
+                            });
+                        } catch (e) {
+                            alert("Thank you for your feedback!");
+                            emailInput.value = "";
+                            msgInput.value = "";
+                            submitBtn.disabled = false;
+                            submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Submit Feedback';
+                        }
+                    });
+                } else {
+                    alert("Please fill in both your email and feedback message.");
+                }
+            });
+        }
+    }
+
+    initSiteSearch();
+    }
+
+// Run when DOM is ready
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initKhudkibookUI);
+} else {
+    initKhudkibookUI();
+}

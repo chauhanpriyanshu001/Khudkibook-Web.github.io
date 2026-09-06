@@ -1,0 +1,123 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110006
+https://syllabus.gtu.ac.in/ Page 1
+Semester/Year : 1
+Category of the Course : Engineering Science
+Subject Name & Code : Basic Mechanical Engineering (3110006)
+Prerequisite : Zeal to learn the subject
+Rationale : Understanding of basic principles of Mechanical Engineering is required in various field of
+engineering.
+Teaching and Examination Scheme :
+Teaching Scheme Credits Examination Marks Total
+Marks	L T P C Theory Marks Practical Marks
+ESE(E) PA (M) ESE (V) PA(I)
+3 0 2 4 70 30 30 20 150
+Content :
+Sr Topic Total
+Hrs.
+1
+Introduction: Prime movers and its types, Concept of Force, Pressure, Energy, Work, Power,
+System, Heat, Temperature, Specific heat capacity, Change of state, Path, Process, Cycle, Internal
+energy, Enthalpy, Statements of Zeroth law and First law.
+4
+2
+Energy: Introduction and applications of Energy sources like Fossil fuels, Nuclear fuels, Hydro,
+Solar, Wind, and Bio-fuels, Environmental issues like Global warming and Ozone depletion. 3
+3
+Properties of gases: Boyle's law, Charles's law, Gay-Lussac’s law, Avogadro’s law, Combined gas
+law, Gas constant, Relation between cp and cv, Various non-flow processes like constant volume
+process, constant pressure process, Isothermal process, Adiabatic process, Polytrophic process.
+5
+4
+Properties of Steam: Steam formation, Types of steam, Enthalpy, Specific volume, Internal energy
+and dryness fraction of steam, use of steam tables, steam calorimeters. 6
+5
+Heat Engines: Heat engine cycle and Heat engine, working substances, Classification of heat
+engines, Description and thermal efficiency of Carnot; Rankine; Otto cycle and Diesel cycles. 5
+6
+Steam Boilers: Introduction, Classification, Cochran, Lancashire and Babcock and Wilcox boiler,
+Functioning of different mountings and accessories. -
+7
+Internal Combustion Engines: Introduction, Classification, Engine details, four-stroke/ two-stroke
+cycle Petrol/Diesel engines, Indicated power, Brake Power, Efficiencies. 4
+8 Pumps: Types and operation of Reciprocating, Rotary and Centrifugal pumps, Priming. 3
+
+-- 1 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110006
+https://syllabus.gtu.ac.in/ Page 2
+9
+Air Compressors: Types and operation of Reciprocating and Rotary air compressors, significance
+of Multistage. 3
+10
+Refrigeration & Air Conditioning: Refrigerant, Vapor compression refrigeration system, Vapor
+absorption refrigeration system, Domestic Refrigerator, Window and split air conditioners. 4
+11
+Couplings, Clutches and Brakes: Construction and applications of Couplings (Box; Flange; Pin type
+flexible; Universal and Oldham), Clutches (Disc and Centrifugal), and Brakes (Block; Shoe; Band and
+Disc).
+-
+12
+Transmission of Motion and Power: Shaft and axle, Different arrangement and applications of Belt
+drive; Chain drive; Friction drive and Gear drive. -
+13
+Engineering Materials: Types, properties and applications of Ferrous & Nonferrous metals, Timber,
+Abrasive material, silica, ceramics, glass, graphite, diamond, plastic and polymer. 4
+Note : Topic No. 6, 11 and 12 of the above syllabus are to be covered in Practical Hours.
+Distribution of marks weightage for cognitive level :
+Distribution of Theory Marks
+R Level U Level A Level N Level E Level C Level
+20 40 40 - - -
+Note : This specification table shall be treated as a general guideline for students and teachers. The actual
+distribution of marks in the question paper may vary slightly from above table.
+Reference Books :
+1. Elements of Mechanical Engineering by N M Bhatt and J R Mehta, Mahajan Publishing House
+2. Basic Mechanical Engineering by Pravin Kumar, Pearson Education
+3. Fundamental of Mechanical Engineering by G.S. Sawhney, PHI Publication New Delhi
+4. Elements of Mechanical Engineering by Sadhu Singh, S. Chand Publication
+5. Introduction to Engineering Materials by B.K. Agrawal, McGraw Hill Publication, New Delhi
+
+-- 2 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110006
+https://syllabus.gtu.ac.in/ Page 3
+Course Outcome :
+Sr.
+No. CO statement Marks %
+weightage
+CO-1 Discuss the various sources of energy and basic terminology of Mechanical
+engineering
+14
+CO-2 Make calculations for commonly used working fluids i.e. ideal gases and steam 22
+CO-3 Analyze various heat engine cycles and understand construction and working of IC
+engines
+20
+CO-4 Discuss working and applications of steam boilers and various energy conversion
+systems
+28
+CO-5 Discuss various power transmission elements and properties of various engineering
+materials with their applications
+16
+List of Experiments :
+1. To understand construction and working of various types of boilers.
+2. To understand construction and working of different boiler mountings and accessories.
+3. To understand construction features of two/four stoke petrol/diesel engines
+4. To determine brake thermal efficiency of an I. C. Engine.
+5. To understand construction and working of different types of air compressors.
+6. To demonstrate vapor compression refrigeration cycle of domestic refrigerator OR
+window airconditioner OR split air conditioner.
+7. To understand construction, working and application of clutches, coupling and brakes
+8. To understand different arrangement and application of various power transmission drives
+Major Equipment : Models of Cochran, Lancashire and Babcock and Wilcox boilers, models of various
+mountings and accessories, Models of various types of IC engines, Single cylinder two stroke /four stroke petrol/
+diesel engine, models of pumps, compressors, Domestic refrigerator/window air conditioner/split air conditioner,
+models of various types of brakes, coupling, clutches, drives.
+List of Open Source Software/learning website : https://nptel.ac.in, www.vlab.co.in
+
+-- 3 of 3 --
+

@@ -1,0 +1,333 @@
+{
+ "code": "4360302",
+ "subject": "Biomaterials & Implants",
+ "unit": 3,
+ "lang": "en",
+ "title": "Unit – I: Introduction of Biomaterials and Implants",
+ "url": "/books/4360302/unit-3.html",
+ "guUrl": null,
+ "words": 3327,
+ "readingMin": 18,
+ "marks": "14 marks in the end-semester exam (7 Remember + 4 Understand + 3 Apply)",
+ "sections": [
+  {
+   "heading": "Unit – I: Introduction of Biomaterials and Implants",
+   "id": "",
+   "html": "<p><em>(AI-generated self study book for GTU Diploma Biomedical Engineering, subject code 4360302 — generated locally with Ollama.)</em></p>\n<p>This unit carries approximately <strong>14 marks in the end-semester exam (7 Remember + 4 Understand + 3 Apply)</strong>.</p>\n<p>Learning objectives covered by this unit:</p>\n<ul>\n<li>Define Biomaterial, Implant, Biological Material, Bio compatibility.</li>\n<li>Classify different Biomaterial.</li>\n<li>Enlist the need of biomaterial.</li>\n<li>Explain in detail the need of biomaterial for the society.</li>\n<li>Describe tissue response to implants.</li>\n<li>Explain the concept of biocompatibility of implants with the human body.</li>\n<li>Give Classification for different implant.</li>\n<li>Explain acute and chronic inflammation.</li>\n<li>Enlist the infections that happen due to implants.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Biomaterials and Implants: An Introduction",
+   "id": "",
+   "html": "<p>Biomaterials and implants play a critical role in modern medical technology, enabling the restoration and enhancement of human health. This chapter will explore the definitions, needs, and the interactions of biomaterials and biological materials. By the end of this chapter, you will have a clear understanding of how these materials are used and their importance in society.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.1.1 Definition of Biomaterial",
+   "id": "",
+   "html": "<p><strong>Biomaterial:</strong> A biomaterial is a substance that can perform, either alone or in conjunction with the body, a beneficial medical function. It can be a synthetic, semi-synthetic, or natural material that is designed to interact with biological systems.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.1.2 Definition of Biological Material",
+   "id": "",
+   "html": "<p><strong>Biological Material:</strong> A biological material is a naturally occurring substance that is derived from living organisms, such as bone, collagen, or blood. It is often used as a component in the development of biomaterials.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.1.3 Comparison with Examples",
+   "id": "",
+   "html": "<ul>\n<li><strong>Metals vs. Bone:</strong> Metals like titanium are used in implants such as hip and knee replacements. Bone is a biological material that is naturally strong and flexible. The strength and flexibility of bone inspire the design of metal implants.</li>\n<li><strong>Polymers vs. Collagen:</strong> Polymers like polyethylene are used in artificial joints. Collagen, a protein found in skin and bones, is a biological material that can be used in wound dressings and tissue engineering.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.1.4 Safe Interaction with Living Tissue",
+   "id": "",
+   "html": "<p>Biomaterials must interact safely with the living tissue to ensure that they do not cause harm. For example, titanium implants are chosen for their low toxicity and ability to integrate well with bone tissue. Similarly, collagen-based materials are used in sutures because they are biocompatible and promote healing.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A titanium implant is used in a patient to replace a damaged hip joint. The titanium is chosen because it is biocompatible and can integrate well with the surrounding bone tissue, ensuring long-term stability and patient comfort.</div>",
+   "examples": [
+    "A titanium implant is used in a patient to replace a damaged hip joint. The titanium is chosen because it is biocompatible and can integrate well with the surrounding bone tissue, ensuring long-term stability and patient comfort."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.2.1 Enlist the Needs of Biomaterials",
+   "id": "",
+   "html": "<ul>\n<li><strong>Replace Damaged Tissues:</strong> Biomaterials are used to replace damaged tissues that cannot heal on their own. For example, bone can be replaced using bone grafts or synthetic implants.</li>\n<li><strong>Restore Function:</strong> Biomaterials can restore the function of organs or limbs that have been damaged. For instance, pacemakers restore the electrical function of the heart, and artificial heart valves replace malfunctioning natural valves.</li>\n<li><strong>Implants for Trauma and Degeneration:</strong> Biomaterials are used in trauma cases to stabilize fractures and in degenerative conditions like osteoarthritis to replace worn-out joints.</li>\n<li><strong>Improve Quality of Life:</strong> Biomaterials enhance the quality of life by providing solutions for conditions that limit daily activities. For example, artificial limbs and hearing aids improve the mobility and hearing of patients, respectively.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.2.2 Flowchart for the Needs of Biomaterials",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Replace Damaged Tissues] --&gt; B[Bone Grafts, Synthetic Implants]\n    A --&gt; C[Restore Function] --&gt; D[Pacemakers, Artificial Heart Valves]\n    A --&gt; E[Implants for Trauma and Degeneration] --&gt; F[Fracture Stabilization, Joint Replacements]\n    A --&gt; G[Improve Quality of Life] --&gt; H[Artificial Limbs, Hearing Aids]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Replace Damaged Tissues] --&gt; B[Bone Grafts, Synthetic Implants]\n    A --&gt; C[Restore Function] --&gt; D[Pacemakers, Artificial Heart Valves]\n    A --&gt; E[Implants for Trauma and Degeneration] --&gt; F[Fracture Stabilization, Joint Replacements]\n    A --&gt; G[Improve Quality of Life] --&gt; H[Artificial Limbs, Hearing Aids]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Replace Damaged Tissues] --&gt; B[Bone Grafts, Synthetic Implants]\n    A --&gt; C[Restore Function] --&gt; D[Pacemakers, Artificial Heart Valves]\n    A --&gt; E[Implants for Trauma and Degeneration] --&gt; F[Fracture Stabilization, Joint Replacements]\n    A --&gt; G[Improve Quality of Life] --&gt; H[Artificial Limbs, Hearing Aids]</pre></noscript></div>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient with a severe knee injury undergoes a total knee replacement surgery. The artificial knee implant is used to replace the damaged cartilage and bone, restoring the patient's ability to walk without pain. This procedure significantly improves the patient's quality of life.</div>",
+   "examples": [
+    "A patient with a severe knee injury undergoes a total knee replacement surgery. The artificial knee implant is used to replace the damaged cartilage and bone, restoring the patient's ability to walk without pain. This procedure significantly improves the patient's quality of life."
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[Replace Damaged Tissues] --> B[Bone Grafts, Synthetic Implants]\n    A --> C[Restore Function] --> D[Pacemakers, Artificial Heart Valves]\n    A --> E[Implants for Trauma and Degeneration] --> F[Fracture Stabilization, Joint Replacements]\n    A --> G[Improve Quality of Life] --> H[Artificial Limbs, Hearing Aids]"
+   ]
+  },
+  {
+   "heading": "1.2.3 Practical Example",
+   "id": "",
+   "html": "<ul>\n<li><strong>Artificial Heart Valve:</strong> An artificial heart valve is used to replace a diseased valve that cannot open and close properly. This valve is made from biomaterials like tissue or mechanical components. The valve must be biocompatible and durable to ensure the patient's long-term health.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient with a leaky aortic valve undergoes surgery to replace it with an artificial valve. The valve is designed to mimic the natural valve's function and is made from biocompatible materials to ensure safe and effective integration with the body.</div>\n<p>By understanding the needs and applications of biomaterials, we can appreciate their critical role in modern medical technology. In the next section, we will explore the concept of biocompatibility and its importance in the selection of biomaterials.</p>\n<hr />",
+   "examples": [
+    "A patient with a leaky aortic valve undergoes surgery to replace it with an artificial valve. The valve is designed to mimic the natural valve's function and is made from biocompatible materials to ensure safe and effective integration with the body."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3 Classification of Biomaterial",
+   "id": "",
+   "html": "<ul>\n<li><strong>Biomaterials</strong> are materials that are used in medical devices or implants and are biocompatible with the human body. They play a crucial role in supporting the body's functions, repairing tissues, and assisting in the healing process.</li>\n<li><strong>Implants</strong> are biomaterials that are surgically placed inside the body to replace or support a lost function.</li>\n<li><strong>Biological Material</strong> refers to any material derived from biological sources, such as tissues, cells, or proteins.</li>\n<li><strong>Bio compatibility</strong> is the ability of a biomaterial to perform its intended function without eliciting any adverse effects in the body.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Classification of Biomaterial",
+   "id": "",
+   "html": "<ul>\n<li>Biomaterials can be broadly classified into the following main groups:</li>\n<li><strong>Metals and Alloys</strong></li>\n<li><strong>Ceramics</strong></li>\n<li><strong>Polymers</strong></li>\n<li><strong>Composites</strong></li>\n<li><strong>Natural Biomaterials</strong></li>\n</ul>\n<p>The table below summarizes the classification of biomaterials:</p>\n<table>\n<thead><tr><th>Class</th><th>Typical Examples</th><th>Biomedical Application</th></tr></thead><tbody>\n<tr><td>Metals and Alloys</td><td>Titanium, Stainless Steel</td><td>Orthopedic implants, dental implants</td></tr>\n<tr><td>Ceramics</td><td>Zirconia, Calcium Phosphate</td><td>Dental implants, bone grafts</td></tr>\n<tr><td>Polymers</td><td>Polyethylene, Polyurethane</td><td>Artificial joints, vascular grafts</td></tr>\n<tr><td>Composites</td><td>Glass Ionomer, Carbon Fiber</td><td>Composite bone grafts, bone plates</td></tr>\n<tr><td>Natural Biomaterials</td><td>Collagen, Chitosan</td><td>Tissue engineering, wound dressings</td></tr>\n</table>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart for Classification of Biomaterials",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    Biomaterials --&gt; MetalsAndAlloys\n    Biomaterials --&gt; Ceramics\n    Biomaterials --&gt; Polymers\n    Biomaterials --&gt; Composites\n    Biomaterials --&gt; NaturalBiomaterials\n    MetalsAndAlloys --&gt; Titanium\n    MetalsAndAlloys --&gt; StainlessSteel\n    Ceramics --&gt; Zirconia\n    Ceramics --&gt; CalciumPhosphate\n    Polymers --&gt; Polyethylene\n    Polymers --&gt; Polyurethane\n    Composites --&gt; GlassIonomer\n    Composites --&gt; CarbonFiber\n    NaturalBiomaterials --&gt; Collagen\n    NaturalBiomaterials --&gt; Chitosan</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    Biomaterials --&gt; MetalsAndAlloys\n    Biomaterials --&gt; Ceramics\n    Biomaterials --&gt; Polymers\n    Biomaterials --&gt; Composites\n    Biomaterials --&gt; NaturalBiomaterials\n    MetalsAndAlloys --&gt; Titanium\n    MetalsAndAlloys --&gt; StainlessSteel\n    Ceramics --&gt; Zirconia\n    Ceramics --&gt; CalciumPhosphate\n    Polymers --&gt; Polyethylene\n    Polymers --&gt; Polyurethane\n    Composites --&gt; GlassIonomer\n    Composites --&gt; CarbonFiber\n    NaturalBiomaterials --&gt; Collagen\n    NaturalBiomaterials --&gt; Chitosan</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    Biomaterials --&gt; MetalsAndAlloys\n    Biomaterials --&gt; Ceramics\n    Biomaterials --&gt; Polymers\n    Biomaterials --&gt; Composites\n    Biomaterials --&gt; NaturalBiomaterials\n    MetalsAndAlloys --&gt; Titanium\n    MetalsAndAlloys --&gt; StainlessSteel\n    Ceramics --&gt; Zirconia\n    Ceramics --&gt; CalciumPhosphate\n    Polymers --&gt; Polyethylene\n    Polymers --&gt; Polyurethane\n    Composites --&gt; GlassIonomer\n    Composites --&gt; CarbonFiber\n    NaturalBiomaterials --&gt; Collagen\n    NaturalBiomaterials --&gt; Chitosan</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    Biomaterials --> MetalsAndAlloys\n    Biomaterials --> Ceramics\n    Biomaterials --> Polymers\n    Biomaterials --> Composites\n    Biomaterials --> NaturalBiomaterials\n    MetalsAndAlloys --> Titanium\n    MetalsAndAlloys --> StainlessSteel\n    Ceramics --> Zirconia\n    Ceramics --> CalciumPhosphate\n    Polymers --> Polyethylene\n    Polymers --> Polyurethane\n    Composites --> GlassIonomer\n    Composites --> CarbonFiber\n    NaturalBiomaterials --> Collagen\n    NaturalBiomaterials --> Chitosan"
+   ]
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Titanium is a commonly used metal in orthopedic implants because of its excellent biocompatibility and strength. It is often used in hip and knee replacements. The mechanical properties of titanium, such as its high strength-to-weight ratio, make it suitable for load-bearing applications.</div>",
+   "examples": [
+    "Titanium is a commonly used metal in orthopedic implants because of its excellent biocompatibility and strength. It is often used in hip and knee replacements. The mechanical properties of titanium, such as its high strength-to-weight ratio, make it suitable for load-bearing applications."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.1 Metals and Alloys",
+   "id": "",
+   "html": "<ul>\n<li><strong>Metals and Alloys</strong> are materials that are often used in orthopedic and dental applications due to their strength and biocompatibility.</li>\n<li><strong>Titanium</strong> is a highly biocompatible metal that is commonly used in orthopedic implants. It is used in hip and knee replacements due to its strength and resistance to corrosion.</li>\n<li><strong>Stainless Steel</strong> is another commonly used metal in medical applications. It is used in surgical instruments and some types of implants due to its strength and resistance to corrosion.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient needs a hip replacement. The doctor decides to use a titanium implant because of its biocompatibility and strength. The titanium implant will support the patient's new hip joint and allow for normal movement.</div>",
+   "examples": [
+    "A patient needs a hip replacement. The doctor decides to use a titanium implant because of its biocompatibility and strength. The titanium implant will support the patient's new hip joint and allow for normal movement."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.2 Ceramics",
+   "id": "",
+   "html": "<ul>\n<li><strong>Ceramics</strong> are inorganic, non-metallic materials that are used in medical applications due to their biocompatibility and strength.</li>\n<li><strong>Zirconia</strong> is a ceramic material that is used in dental implants and bone grafts. It is known for its high strength and ability to bond with bone.</li>\n<li><strong>Calcium Phosphate</strong> is another ceramic material that is used in bone grafts and orthopedic implants. It is biocompatible and can be used to replace missing bone tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient needs a bone graft to repair a fracture. The doctor decides to use a calcium phosphate implant because of its ability to bond with the patient's bone tissue. The calcium phosphate implant will help the bone tissue regenerate and heal.</div>",
+   "examples": [
+    "A patient needs a bone graft to repair a fracture. The doctor decides to use a calcium phosphate implant because of its ability to bond with the patient's bone tissue. The calcium phosphate implant will help the bone tissue regenerate and heal."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.3 Polymers",
+   "id": "",
+   "html": "<ul>\n<li><strong>Polymers</strong> are synthetic materials that are used in medical applications due to their flexibility and biocompatibility.</li>\n<li><strong>Polyethylene</strong> is a polymer that is commonly used in artificial joints, such as hip and knee replacements. It is used as a liner in the joint to reduce friction and wear.</li>\n<li><strong>Polyurethane</strong> is another polymer that is used in medical applications. It is used in vascular grafts and tissue engineering due to its biocompatibility and flexibility.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient needs a knee replacement. The doctor decides to use a polyethylene liner in the knee implant because of its ability to reduce friction and wear. The polyethylene liner will help the knee joint function smoothly and reduce pain.</div>",
+   "examples": [
+    "A patient needs a knee replacement. The doctor decides to use a polyethylene liner in the knee implant because of its ability to reduce friction and wear. The polyethylene liner will help the knee joint function smoothly and reduce pain."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.4 Composites",
+   "id": "",
+   "html": "<ul>\n<li><strong>Composites</strong> are materials that are made by combining two or more different materials to enhance their properties.</li>\n<li><strong>Glass Ionomer</strong> is a composite material that is used in dental applications. It is used in filling cavities and as a liner in root canals due to its ability to bond with tooth tissue.</li>\n<li><strong>Carbon Fiber</strong> is another composite material that is used in orthopedic implants. It is used in bone plates and rods due to its high strength and flexibility.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient needs a bone plate to support a fractured bone. The doctor decides to use a carbon fiber plate because of its high strength and flexibility. The carbon fiber plate will help the bone heal and reduce the risk of infection.</div>",
+   "examples": [
+    "A patient needs a bone plate to support a fractured bone. The doctor decides to use a carbon fiber plate because of its high strength and flexibility. The carbon fiber plate will help the bone heal and reduce the risk of infection."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.5 Natural Biomaterials",
+   "id": "",
+   "html": "<ul>\n<li><strong>Natural Biomaterials</strong> are materials derived from biological sources, such as tissues, cells, or proteins.</li>\n<li><strong>Collagen</strong> is a natural biomaterial that is used in tissue engineering and wound dressings. It is derived from animal tissues and is used to promote tissue regeneration.</li>\n<li><strong>Chitosan</strong> is another natural biomaterial that is used in wound dressings and tissue engineering. It is derived from the exoskeleton of crustaceans and is used to promote the healing of wounds.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient needs a wound dressing to treat a chronic wound. The doctor decides to use a chitosan dressing because of its ability to promote the healing of wounds. The chitosan dressing will help the wound heal and reduce the risk of infection.</div>\n<p>By understanding the classification and properties of biomaterials, students can better select appropriate materials for medical applications. This knowledge is crucial for ensuring the safety and effectiveness of medical devices and implants.</p>\n<hr />",
+   "examples": [
+    "A patient needs a wound dressing to treat a chronic wound. The doctor decides to use a chitosan dressing because of its ability to promote the healing of wounds. The chitosan dressing will help the wound heal and reduce the risk of infection."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.4 Introduction to Implant",
+   "id": "",
+   "html": "<ul>\n<li><strong>Implant:</strong> An implant is a medical device that is surgically inserted into the body to replace a damaged or diseased part. It is designed to be integrated with the body tissues over a longer period and often remains in the body permanently.</li>\n<li><strong>Biomaterial:</strong> A biomaterial is any substance that is used in the contact with biological systems for a medical purpose. Biomaterials can be used to create implants, but they are not necessarily implants. For example, a biomaterial could be a tissue-engineered scaffold that does not remain permanently in the body.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Examples of Implants",
+   "id": "",
+   "html": "<ul>\n<li><strong>Bone Plates:</strong> Used to stabilize and align fractures and broken bones.</li>\n<li><strong>Sutures:</strong> Used to close wounds and surgical incisions.</li>\n<li><strong>Joint Replacements (e.g., Hip and Knee):</strong> Replaces damaged joints with artificial joints to relieve pain and restore function.</li>\n<li><strong>Pacemakers:</strong> Used to regulate the heartbeat in individuals with arrhythmias.</li>\n<li><strong>Cardiac Valves:</strong> Replaces damaged heart valves to improve heart function.</li>\n<li><strong>Dental Implants:</strong> Used to replace missing teeth by anchoring artificial teeth into the jawbone.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient with a fractured femur may require a bone plate to stabilize the bone while it heals. The bone plate is an implant because it is surgically inserted and is expected to remain in the body for a long time.</div>",
+   "examples": [
+    "A patient with a fractured femur may require a bone plate to stabilize the bone while it heals. The bone plate is an implant because it is surgically inserted and is expected to remain in the body for a long time."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.4.1 Classification of Implant",
+   "id": "",
+   "html": "<ul>\n<li><strong>Viewpoints for Classification:</strong></li>\n<li><strong>Permanent vs Temporary:</strong> Permanent implants are designed to remain in the body for a long time, whereas temporary implants are used for short-term treatment and are removed after their purpose is fulfilled.</li>\n<li><strong>Internal vs External:</strong> Internal implants are placed inside the body, while external implants are placed on the body’s surface.</li>\n<li><strong>Functional vs Non-functional:</strong> Functional implants have a specific function such as providing support or regulating a bodily function, whereas non-functional implants are used for cosmetic or prosthetic purposes.</li>\n<li><strong>By Tissue/Organ Site:</strong> Implants can be classified based on the tissue or organ they interact with, such as bone implants, cardiovascular implants, or dental implants.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart TD",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Implants] --&gt; B[Permanent] --&gt; C[Internal] --&gt; D[Bone Plates]\n    A --&gt; B --&gt; E[External] --&gt; F[External Fixators]\n    A --&gt; B --&gt; G[Functional] --&gt; H[Pacemakers]\n    A --&gt; B --&gt; G --&gt; I[Non-functional] --&gt; J[Dental Implants]\n    A --&gt; B --&gt; H --&gt; K[Cardiovascular Implants] --&gt; L[Cardiac Valves]\n    A --&gt; B --&gt; G --&gt; I --&gt; J[Prosthetic Implants]\n    A --&gt; C --&gt; D\n    A --&gt; C --&gt; E\n    A --&gt; C --&gt; G\n    A --&gt; C --&gt; I\n    A --&gt; D --&gt; L\n    A --&gt; E --&gt; F\n    A --&gt; F --&gt; M[External Fixators]\n    A --&gt; G --&gt; H\n    A --&gt; G --&gt; I\n    A --&gt; H --&gt; K\n    A --&gt; I --&gt; J</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Implants] --&gt; B[Permanent] --&gt; C[Internal] --&gt; D[Bone Plates]\n    A --&gt; B --&gt; E[External] --&gt; F[External Fixators]\n    A --&gt; B --&gt; G[Functional] --&gt; H[Pacemakers]\n    A --&gt; B --&gt; G --&gt; I[Non-functional] --&gt; J[Dental Implants]\n    A --&gt; B --&gt; H --&gt; K[Cardiovascular Implants] --&gt; L[Cardiac Valves]\n    A --&gt; B --&gt; G --&gt; I --&gt; J[Prosthetic Implants]\n    A --&gt; C --&gt; D\n    A --&gt; C --&gt; E\n    A --&gt; C --&gt; G\n    A --&gt; C --&gt; I\n    A --&gt; D --&gt; L\n    A --&gt; E --&gt; F\n    A --&gt; F --&gt; M[External Fixators]\n    A --&gt; G --&gt; H\n    A --&gt; G --&gt; I\n    A --&gt; H --&gt; K\n    A --&gt; I --&gt; J</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Implants] --&gt; B[Permanent] --&gt; C[Internal] --&gt; D[Bone Plates]\n    A --&gt; B --&gt; E[External] --&gt; F[External Fixators]\n    A --&gt; B --&gt; G[Functional] --&gt; H[Pacemakers]\n    A --&gt; B --&gt; G --&gt; I[Non-functional] --&gt; J[Dental Implants]\n    A --&gt; B --&gt; H --&gt; K[Cardiovascular Implants] --&gt; L[Cardiac Valves]\n    A --&gt; B --&gt; G --&gt; I --&gt; J[Prosthetic Implants]\n    A --&gt; C --&gt; D\n    A --&gt; C --&gt; E\n    A --&gt; C --&gt; G\n    A --&gt; C --&gt; I\n    A --&gt; D --&gt; L\n    A --&gt; E --&gt; F\n    A --&gt; F --&gt; M[External Fixators]\n    A --&gt; G --&gt; H\n    A --&gt; G --&gt; I\n    A --&gt; H --&gt; K\n    A --&gt; I --&gt; J</pre></noscript></div>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A pacemaker is a functional internal implant used to regulate the heartbeat. It is a permanent implant because it is surgically inserted and remains in the body for a long time.</div>\n<p>This flowchart helps to visualize the different classifications of implants based on various viewpoints. Each node represents a specific type of implant and its classification.</p>\n<hr />",
+   "examples": [
+    "A pacemaker is a functional internal implant used to regulate the heartbeat. It is a permanent implant because it is surgically inserted and remains in the body for a long time."
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[Implants] --> B[Permanent] --> C[Internal] --> D[Bone Plates]\n    A --> B --> E[External] --> F[External Fixators]\n    A --> B --> G[Functional] --> H[Pacemakers]\n    A --> B --> G --> I[Non-functional] --> J[Dental Implants]\n    A --> B --> H --> K[Cardiovascular Implants] --> L[Cardiac Valves]\n    A --> B --> G --> I --> J[Prosthetic Implants]\n    A --> C --> D\n    A --> C --> E\n    A --> C --> G\n    A --> C --> I\n    A --> D --> L\n    A --> E --> F\n    A --> F --> M[External Fixators]\n    A --> G --> H\n    A --> G --> I\n    A --> H --> K\n    A --> I --> J"
+   ]
+  },
+  {
+   "heading": "1.5.1 Biocompatibility",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Biocompatibility refers to the ability of a biomaterial to perform its intended function without eliciting any harmful biological response. An implant is considered biocompatible if it does not cause rejection, toxicity, or adverse tissue reactions in the host body. The host response to an implant involves the body's immune system, which can either be beneficial or harmful depending on the implant's properties.</div>",
+   "examples": [
+    "Biocompatibility refers to the ability of a biomaterial to perform its intended function without eliciting any harmful biological response. An implant is considered biocompatible if it does not cause rejection, toxicity, or adverse tissue reactions in the host body. The host response to an implant involves the body's immune system, which can either be beneficial or harmful depending on the implant's properties."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.2 Tissue Response Sequence",
+   "id": "",
+   "html": "<p>The tissue and tissue-fluid reactions to an implanted biomaterial can be described in a sequence as follows:</p>\n<ul>\n<li><strong>Protein Adsorption</strong>: When an implant is placed, proteins from the surrounding fluids adsorb onto the implant surface. This adsorption is a crucial step in the initial interaction between the biomaterial and the body.</li>\n<li><strong>Acute Inflammatory Response</strong>: Following protein adsorption, the immune system responds, causing an acute inflammatory response. This involves the release of cytokines and the infiltration of various immune cells, such as neutrophils and macrophages.</li>\n<li><strong>Chronic Inflammation</strong>: If the acute inflammatory response is not resolved, it can lead to chronic inflammation. This is characterized by the long-term presence of inflammatory cells and the formation of a fibrous capsule around the implant.</li>\n<li><strong>Granulation Tissue</strong>: Granulation tissue is formed during the healing process, consisting of newly formed blood vessels and fibroblasts. This tissue helps in tissue repair and regeneration.</li>\n<li><strong>Fibrous Capsule</strong>: Over time, a fibrous capsule forms around the implant. This capsule helps to separate the implant from the surrounding tissue and can limit the interaction between the implant and the host body.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">sequenceDiagram\n    participant Implant\n    participant Proteins\n    participant Immune Cells\n    participant Granulation Tissue\n    participant Fibrous Capsule\n    Implant-&gt;&gt;Proteins: Adsorption\n    Proteins-&gt;&gt;Immune Cells: Activation\n    Immune Cells-&gt;&gt;Implant: Inflammation\n    Immune Cells-&gt;&gt;Granulation Tissue: Formation\n    Granulation Tissue-&gt;&gt;Fibrous Capsule: Formation</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>sequenceDiagram\n    participant Implant\n    participant Proteins\n    participant Immune Cells\n    participant Granulation Tissue\n    participant Fibrous Capsule\n    Implant-&gt;&gt;Proteins: Adsorption\n    Proteins-&gt;&gt;Immune Cells: Activation\n    Immune Cells-&gt;&gt;Implant: Inflammation\n    Immune Cells-&gt;&gt;Granulation Tissue: Formation\n    Granulation Tissue-&gt;&gt;Fibrous Capsule: Formation</pre></details><noscript><pre class=\"mermaid-src\">sequenceDiagram\n    participant Implant\n    participant Proteins\n    participant Immune Cells\n    participant Granulation Tissue\n    participant Fibrous Capsule\n    Implant-&gt;&gt;Proteins: Adsorption\n    Proteins-&gt;&gt;Immune Cells: Activation\n    Immune Cells-&gt;&gt;Implant: Inflammation\n    Immune Cells-&gt;&gt;Granulation Tissue: Formation\n    Granulation Tissue-&gt;&gt;Fibrous Capsule: Formation</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "sequenceDiagram\n    participant Implant\n    participant Proteins\n    participant Immune Cells\n    participant Granulation Tissue\n    participant Fibrous Capsule\n    Implant->>Proteins: Adsorption\n    Proteins->>Immune Cells: Activation\n    Immune Cells->>Implant: Inflammation\n    Immune Cells->>Granulation Tissue: Formation\n    Granulation Tissue->>Fibrous Capsule: Formation"
+   ]
+  },
+  {
+   "heading": "1.5.3 Biocompatibility (Continued)",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>An implant is biocompatible if it does not cause any adverse reactions. For instance, a titanium implant is biocompatible because it does not cause tissue rejection or toxicity. The implant should integrate well with the surrounding tissue, forming a stable interface that minimizes immune response.</div>",
+   "examples": [
+    "An implant is biocompatible if it does not cause any adverse reactions. For instance, a titanium implant is biocompatible because it does not cause tissue rejection or toxicity. The implant should integrate well with the surrounding tissue, forming a stable interface that minimizes immune response."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Acute Inflammation",
+   "id": "",
+   "html": "<ul>\n<li><strong>Causes</strong>: Acute inflammation can be caused by the initial interaction of the implant with the surrounding tissues, leading to the release of pro-inflammatory cytokines.</li>\n<li><strong>Cells Involved</strong>: Neutrophils and macrophages are the primary cells involved in the acute inflammatory response.</li>\n<li><strong>Characteristics</strong>: This response is typically short-term and is characterized by redness, swelling, and pain.</li>\n<li><strong>Timeline</strong>: The acute inflammatory response usually occurs within the first few hours to days after implantation.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Chronic Inflammation",
+   "id": "",
+   "html": "<ul>\n<li><strong>Causes</strong>: Chronic inflammation can occur if the acute inflammatory response is not resolved, leading to the long-term presence of immune cells and the formation of a fibrous capsule.</li>\n<li><strong>Cells Involved</strong>: Chronic inflammation involves a prolonged presence of macrophages, fibroblasts, and other immune cells.</li>\n<li><strong>Characteristics</strong>: Chronic inflammation is characterized by tissue remodeling and the formation of a fibrous capsule, which can limit the interaction between the implant and the host body.</li>\n<li><strong>Timeline</strong>: The chronic inflammatory response can last for weeks to months after implantation.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Infections",
+   "id": "",
+   "html": "<ul>\n<li><strong>Surgical Infection</strong>: This occurs immediately after the surgery, often due to bacterial contamination.</li>\n<li><strong>Biofilm Formation on Devices</strong>: Biofilms are communities of microorganisms that adhere to a surface and produce a protective extracellular matrix. They can form on implants, leading to persistent infections.</li>\n<li><strong>Pacemaker Infections</strong>: Pacemakers can develop infections, especially if they are exposed to bacteria during surgery or due to poor hygiene.</li>\n<li><strong>Dental Implants Infections</strong>: Dental implants can also develop infections, particularly if there is poor oral hygiene or if the implant is not properly cleaned.</li>\n<li><strong>Orthopaedic Implants Infections</strong>: Orthopaedic implants, such as hip and knee replacements, can also develop infections, often due to bacteria entering the bloodstream during surgery.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient had a dental implant placed. After two weeks, the patient experienced pain, swelling, and fever. The dentist suspected an infection and performed a biopsy. The biopsy results showed the presence of bacteria, confirming a biofilm infection. The patient was prescribed antibiotics and the implant was cleaned thoroughly to prevent further infection.</div>\n<p>By understanding the sequence of tissue responses and the concept of biocompatibility, engineers can design implants that are more likely to integrate well with the human body, reducing the risk of adverse reactions and infections.</p>\n<hr />",
+   "examples": [
+    "A patient had a dental implant placed. After two weeks, the patient experienced pain, swelling, and fever. The dentist suspected an infection and performed a biopsy. The biopsy results showed the presence of bacteria, confirming a biofilm infection. The patient was prescribed antibiotics and the implant was cleaned thoroughly to prevent further infection."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Example 1: Classify Biomaterials",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Classify the following biomaterials into categories: titanium alloy, hydroxyapatite, polyethylene, and polyurethane.</div>\n<ul>\n<li><strong>Solution:</strong></li>\n<li><strong>Metal:</strong> Titanium alloy</li>\n<li><strong>Ceramic:</strong> Hydroxyapatite</li>\n<li><strong>Polymer:</strong> Polyethylene, Polyurethane</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Metals] --&gt; B[Titanium alloy]\n    A --&gt; C[Ceramics]\n    C --&gt; D[Hydroxyapatite]\n    A --&gt; E[Polymers]\n    E --&gt; F[Polyethylene]\n    E --&gt; G[Polyurethane]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Metals] --&gt; B[Titanium alloy]\n    A --&gt; C[Ceramics]\n    C --&gt; D[Hydroxyapatite]\n    A --&gt; E[Polymers]\n    E --&gt; F[Polyethylene]\n    E --&gt; G[Polyurethane]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Metals] --&gt; B[Titanium alloy]\n    A --&gt; C[Ceramics]\n    C --&gt; D[Hydroxyapatite]\n    A --&gt; E[Polymers]\n    E --&gt; F[Polyethylene]\n    E --&gt; G[Polyurethane]</pre></noscript></div>",
+   "examples": [
+    "Classify the following biomaterials into categories: titanium alloy, hydroxyapatite, polyethylene, and polyurethane."
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[Metals] --> B[Titanium alloy]\n    A --> C[Ceramics]\n    C --> D[Hydroxyapatite]\n    A --> E[Polymers]\n    E --> F[Polyethylene]\n    E --> G[Polyurethane]"
+   ]
+  },
+  {
+   "heading": "Example 2: Explain Tissue Response to Implants",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Explain the sequence of tissue response to an implant.</div>\n<ul>\n<li><strong>Solution:</strong></li>\n</ul>\n<ol>\n<li><strong>Invasion by Inflammatory Cells:</strong> The first response is the infiltration of inflammatory cells such as neutrophils and macrophages.</li>\n<li><strong>Proliferation of Fibroblasts and Connective Tissue:</strong> Fibroblasts start to proliferate and form a fibrous capsule around the implant.</li>\n<li><strong>Revascularization:</strong> New blood vessels grow into the implant site to supply nutrients and oxygen.</li>\n<li><strong>Osteoblastic Activity:</strong> Osteoblasts start to form new bone tissue, leading to integration of the implant.</li>\n</ol>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">sequenceDiagram\n    participant Implant\n    participant Inflammatory Cells\n    participant Fibroblasts\n    participant Blood Vessels\n    participant Osteoblasts\n    Implant-&gt;&gt;Inflammatory Cells: Infiltrate\n    Inflammatory Cells-&gt;&gt;Fibroblasts: Stimulate Proliferation\n    Fibroblasts-&gt;&gt;Implant: Form Fibrous Capsule\n    Inflammatory Cells-&gt;&gt;Blood Vessels: Induce Revascularization\n    Osteoblasts-&gt;&gt;Implant: Form New Bone Tissue</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>sequenceDiagram\n    participant Implant\n    participant Inflammatory Cells\n    participant Fibroblasts\n    participant Blood Vessels\n    participant Osteoblasts\n    Implant-&gt;&gt;Inflammatory Cells: Infiltrate\n    Inflammatory Cells-&gt;&gt;Fibroblasts: Stimulate Proliferation\n    Fibroblasts-&gt;&gt;Implant: Form Fibrous Capsule\n    Inflammatory Cells-&gt;&gt;Blood Vessels: Induce Revascularization\n    Osteoblasts-&gt;&gt;Implant: Form New Bone Tissue</pre></details><noscript><pre class=\"mermaid-src\">sequenceDiagram\n    participant Implant\n    participant Inflammatory Cells\n    participant Fibroblasts\n    participant Blood Vessels\n    participant Osteoblasts\n    Implant-&gt;&gt;Inflammatory Cells: Infiltrate\n    Inflammatory Cells-&gt;&gt;Fibroblasts: Stimulate Proliferation\n    Fibroblasts-&gt;&gt;Implant: Form Fibrous Capsule\n    Inflammatory Cells-&gt;&gt;Blood Vessels: Induce Revascularization\n    Osteoblasts-&gt;&gt;Implant: Form New Bone Tissue</pre></noscript></div>",
+   "examples": [
+    "Explain the sequence of tissue response to an implant."
+   ],
+   "mermaid": [
+    "sequenceDiagram\n    participant Implant\n    participant Inflammatory Cells\n    participant Fibroblasts\n    participant Blood Vessels\n    participant Osteoblasts\n    Implant->>Inflammatory Cells: Infiltrate\n    Inflammatory Cells->>Fibroblasts: Stimulate Proliferation\n    Fibroblasts->>Implant: Form Fibrous Capsule\n    Inflammatory Cells->>Blood Vessels: Induce Revascularization\n    Osteoblasts->>Implant: Form New Bone Tissue"
+   ]
+  },
+  {
+   "heading": "Example 3: Define and Contrast Biocompatibility Terms",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Define and contrast biocompatibility and bioinertness.</div>\n<ul>\n<li><strong>Solution:</strong></li>\n<li><strong>Biocompatibility:</strong> The ability of a biomaterial to perform its intended function without causing any harmful effects to the surrounding biological system.</li>\n<li><strong>Bioinertness:</strong> The characteristic of a biomaterial to be non-reactive and not inducing any significant immune response or tissue response.</li>\n</ul>\n<ul>\n<li><strong>Comparison:</strong></li>\n<li>Biocompatibility allows for some level of interaction, whereas bioinertness implies minimal interaction.</li>\n</ul>",
+   "examples": [
+    "Define and contrast biocompatibility and bioinertness."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Unit-End Questions (GTU exam style)",
+   "id": "",
+   "html": "<ul>\n<li>(3) Define biomaterial.</li>\n<li>(3) Define implant.</li>\n<li>(3) Define biological material.</li>\n<li>(3) Define bio compatibility.</li>\n<li>(4) Classify the following biomaterials into categories: titanium alloy, hydroxyapatite, polyethylene, and polyurethane.</li>\n<li>(7) Explain the sequence of tissue response to an implant.</li>\n<li>(7) Explain the concept of biocompatibility of implants with the human body.</li>\n<li>(3) Define acute inflammation.</li>\n<li>(3) Define chronic inflammation.</li>\n<li>(4) Enlist the infections that happen due to implants.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<ul>\n<li>Biomaterial: A material that is used in or for a medical device or implant.</li>\n<li>Implant: A medical device that is surgically inserted into the body to replace or support a biological structure.</li>\n<li>Biological Material: Any organic or biological material used in medical applications.</li>\n<li>Bio Compatibility: The ability of a biomaterial to interact with biological tissues without causing any adverse effects.</li>\n<li>Biomaterial Classification: Materials can be classified into metals, ceramics, polymers, and composites.</li>\n<li>Tissue Response to Implants: Involves stages such as inflammatory response, fibrous capsule formation, revascularization, and osteoblastic activity.</li>\n<li>Biocompatibility: Involves the material's interaction with the biological system.</li>\n<li>Acute Inflammation: Immediate, short-term inflammatory response.</li>\n<li>Chronic Inflammation: Long-term inflammatory response.</li>\n<li>Infections Due to Implants: Can include bacterial infections, fungal infections, and biofilm formation.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Key Terms",
+   "id": "",
+   "html": "<ul>\n<li><strong>Biomaterial:</strong> A material used in or for a medical device or implant.</li>\n<li><strong>Implant:</strong> A medical device surgically inserted into the body.</li>\n<li><strong>Biological Material:</strong> Any organic or biological material used in medical applications.</li>\n<li><strong>Bio Compatibility:</strong> The ability of a biomaterial to interact with biological tissues without causing adverse effects.</li>\n<li><strong>Inflammatory Response:</strong> The body's reaction to a foreign material.</li>\n<li><strong>Fibrous Capsule:</strong> A layer of fibrous tissue that forms around an implant.</li>\n<li><strong>Acute Inflammation:</strong> Immediate, short-term inflammatory response.</li>\n<li><strong>Chronic Inflammation:</strong> Long-term inflammatory response.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  }
+ ]
+}

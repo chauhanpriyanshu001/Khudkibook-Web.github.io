@@ -1,0 +1,790 @@
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 1
+DIPLOMA IN COMPUTER AIDED COSTUME DESIGN & DRESS MAKING
+CLOTHING CONSTRUCTION – I
+1. RATIONALE :
+This course will provides good foundation for garment manufacturing techniques. It is
+essential to learn about each tool used for garment manufacturing. Student will be able to learn
+through this course about techniques of body measurements, sewing by non-automatic
+machine, varieties of constructional stitches, understanding and preparing fabric for clothing
+construction.
+2. SCHEME OF STUDIES:
+3. SCHEME OF TEACHING :
+4. OBJECTIVES :
+1. To enable the students to learn measurements techniques useful for clothing
+construction.
+2. To enable student to learn use of tools, equipment and simple machine used for
+clothing construction.
+3. To enable the students for different basic hand and machine stitches required for
+clothing construction.
+4. To make the students aware of different varieties of fabrics for the clothing
+construction.
+5. CONTENT OUTLINE :
+1. BODY MEASUREMENT.
+1.1 Knowledge of various landmarks on the body, required for making garments.
+1.2 Techniques of taking body measurements.
+1.2.1 Directly form the body.(Vertical & Horizontal)
+1.2.2 Indirectly form the readymade garments.
+1.2.3 From standard size charts.
+1.2.4 Technique of calculating all the measurements from chest
+measurement.
+NAME OF COURSE L P
+Clothing Construction – I 1 6
+Topic
+No. Name of Topic Lecture
+Hour
+Practical
+Hour
+Total
+Hour
+%
+Weightage
+1. Body Measurement 2 8 10
+2. Tools 2 16 18
+3. Sewing machine 2 10 12
+4. Fabrics 1 2 3
+5. Construction data 7 48 55
+Total 14 84 98
+
+-- 1 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 2
+2. TOOLS.
+Explain function, use and care of the following.
+2.1 Measuring tools.
+2.2 Marking tools.
+2.3 Cutting tools.
+2.4 Sewing tools.
+2.5 Miscellaneous tools.
+2.1 MEASURING TOOLS
+Explain function, use and care of the following.
+2.1.1 Measuring tape
+2.1.2 Tailor’s square
+2.1.3 Right angled triangle
+2.1.4 Calculator
+2.1.5 French curve Set
+2.1.6 Set square
+2.1.7 Curve Rules
+2.2 MARKING TOOLS
+Explain function, use and care of the following.
+2.2.1 Paper
+2.2.2 Pencil
+2.2.3 Fibre pens
+2.2.4 Rubber
+2.2.5 Compass
+2.2.6 Tracing wheel
+2.2.7 Pins
+2.2.8 Tailor’s chalk
+2.2.9 Pattern notcher
+2.2.10 Pattern punch
+2.2.11 Pattern books
+2.2.12 Pattern weights
+2.2.13 Model stands
+2.3 CUTTING TOOLS
+Explain function, use and care of the following.
+2.3.1 Small shears
+2.3.2 Big shears
+2.3.3 Cutters
+2.3.4 Pinking shears
+2.3.5 Stitch opener
+2.4 SEWING TOOLS
+Explain function, use and care of the following.
+2.4.1 Bobbin & Bobbin case
+2.4.2 Machine sewing needles
+2.4.3 Hand sewing needles
+2.5 MISCELLANEOUS
+Explain function, use and care of the following.
+2.5.1 Thimble
+2.5.2 Pin cushions
+
+-- 2 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 3
+2.5.3 Thread
+2.5.4 Ironing board
+2.5.5 Iron
+2.5.6 Bobbin winder
+3 SEWING MACHINE.
+3.1 History of sewing machine
+3.2 Types of sewing machine
+3.3 Parts and functions of sewing machine
+3.4 Operation of sewing machine
+3.5 Care & maintenance of sewing machine
+3.6 Causes and remedies of faulty sewing & adjustments of sewing machine
+3.7 Sewing area
+4 FABRIC.
+4.1 Fabric widths
+4.2 Grain lines
+4.3 Preparation of fabric for clothing construction
+4.3.1 Straightening
+4.3.2 Tearing
+4.3.3 Shrinking
+4.4 Different types of fabrics and its application in clothing.
+5 CLOTHING CONSTRUCTION.
+5.1 Hand stitches
+5.1.1 Basting
+5.1.1.1 Even basting
+5.1.1.2 Uneven basting
+5.1.2 Running stitch
+5.1.3 Different types of hemming stitches
+5.1.3.1 Blind hemming stitch
+5.1.3.2 Simple hemming stitch
+5.2 Machine stitches
+5.2.1 Forming a seam
+5.2.1.1 Plain
+5.2.1.2 Curved
+5.2.1.3 Cornered
+5.2.1.4 To join an inward corner
+5.2.1.5 Trimming
+5.2.1.6 To trim corner
+5.2.1.7 Clipping
+5.2.1.8 Hand overcast
+5.2.1.9 Zigzagged
+5.2.1.10 Bias bound
+5.2.1.11 Net bound
+5.2.1.12 French seam
+5.2.1.13 Hat felled seam
+5.2.1.14 Self bound seam
+5.2.1.15 Corded seams
+5.2.1.16 Lapped seams
+5.2.1.17 Fagotted seam
+5.2.1.18 Double top stitched seam
+5.2.1.19 Welt seam
+5.2.1.20 Tuck seam
+
+-- 3 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 4
+5.2.1.21 Slot seam
+5.2.1.22 Seaming special fabrics
+5.2.2 Fullness techniques
+5.2.2.1 Darts
+5.2.2.2 Tucks
+5.2.2.3 Pleats
+5.2.2.4 Gathering
+5.2.2.5 Shirring
+5.2.2.6 Smocking
+5.2.2.7 Ruffles
+5.2.3 Finishing
+5.2.3.1 Neck – line finishing(U, Round, V and Fancy neck - line)
+5.2.3.2 Pockets
+- Patch pocket
+- Side pocket
+- Cut pocket
+6 LABORATORY EXPERIENCES :
+1 Diagram of sewing machine and it’s parts.
+2 To take measurement of another person and note it in the file.
+3 To calculate average measurements by taking 10 subjects(individual).
+4 To make all the samples of given hand stitches.
+5 To make all the samples of given machine stitches.
+7 TERM WORK :
+Prepare a Journal for submission as a part of Curriculum.
+8 REFERENCES :
+1. Macall’s sewing in colour - Hamlyn
+2. Singer sewing Book - Glady Cunning ham.
+3. Reader digest - Complete guide to sewing
+4. Clothing construction - Evelyn A. Mansfield
+5. Clothing construction and - The Macmillan Book
+wardrobe planning
+6. Home dress making - Pan Craft Book
+7. The Art of Sewing
+8. Simplicity
+
+-- 4 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 5
+DIPLOMA IN COMPUTER AIDED COSTUME DESIGN & DRESS MAKING
+COMPUTER APPLICATION - I
+1. RATIONALE :
+Computer has become essential component of Engineering and Technology. It
+makes the things easy, aster and perfect. Thus Computer is very useful along with many subject of this
+course. This course provides basic knowledge for computer application.
+2. SCHEME OF STUDIES:
+NAME OF COURSE L P
+Computer Application-1 1 6
+3. SCHEME OF TEACHING :
+Topic
+No.
+Name of Topic Lecture
+Hour
+Practical
+hour
+Total
+Hrs.
+%
+weightage
+1. Introduction to computer 5 2 7
+2. Operating systems 2 2 4
+3. Hardware & Software of Computer 1 2 3
+4. Introduction to AutoCAD, Word,
+Paintbrush
+6 78 84
+9 Total 14 84 98
+4. OBJECTIVES :
+1 To make student aware of computer and it operating system.
+2 To develop ability of using printer among students.
+3 To make students aware of AutoCAD, Word, Paintbrush.
+5. TOPICS AND SUB-TOPICS :
+1 INTRODUCTION TO COMPUTER
+1.1 Definition of computer
+1.2 Block diagram of Computer
+1.3 Input devices, its function & use.
+1.4 Output devices, its function & use.
+1.5 Central Processing unit, its function & use.
+2 OPERATING SYSTEM OF COMPUTER.
+2.1 Dos - its command, such as DIR, MD, RD, CD, CLS, Copy, Delete, Date,
+Time etc.
+
+-- 5 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 6
+2.2 Window – its icon, start button, Window explorer, recycle bin, shut –
+down.
+3 HARDWARE AND SOFTWARE OF COMPUTER.
+4 INTRODUCTION TO AUTOCAD.
+4.1 Meaning and its use.
+4.2 General introduction to drawing editor.
+4.3 AutoCAD Menu
+4.4 AutoCAD Icons.
+4.5 AutoCAD commands such as line Pline, Circle, Ellipse, Offset, hatch,
+Hatch Arc, Scale, Zoom Pan, Measure, Brake, Trim, Erase, Oops,
+Redraw, Copy, Fillet, Donut, Mirror, Move, Rotate Colour, Block, Insert,
+Array, Solid, Text, Dtext, Limit, Distance, Paste clip, Extend, Explode,
+Print, Plot, Wblock, Minsert etc.
+5 INTRODUCTION TO WORD.
+5.1 Meaning and its use.
+5.2 General introduction to screen layout display.
+5.3 Word menu bar.
+5.4 Word standard tool bar.
+5.5 Word formatting tool bar.
+5.6 ‘Word drawing tool bar.
+6 INTRODUCTION TO PAINTBRUSH.
+6.1 General introduction to drawing editor & its use.
+6.2 Paintbrush menubar.
+6.3 Paintbrush toolbox.
+6. LABORATORY EXPERIENCES :
+1 Introduction to computer system, its various parts and their function.
+2 Introduction to operating system.
+3 Understand & use basic commands of Autocad.
+4 To understand & use menubar & toolbar of word.
+5 To understand & use menubar & toolbox of Paintbrush.
+7. TERM WORK :
+1 Preparation of following design.(Use all Acad commands in one or
+another design)
+1.1 Natural design (Minimum Any - 5)
+1.2 Geometric design (Minimum Any - 5)
+1.3 Dotted design (Minimum Any - 5)
+1.4 Conventional design (Minimum Any - 5)
+1.5 Textual design (Minimum Any - 5)
+2 Preparation of all above design in paintbrush software. (Minimum 2)
+3 Preparation of time table by using word software.
+
+-- 6 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 7
+8. REFERENCE :
+1 Computer application – (By Atul Prakashan. English & Gujarati version).
+2 Autocad 200 – Reference Manuel
+3 Paintbrush - Venus publication
+4 Word - By Atul prakashan & Microsoft company.
+
+-- 7 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 8
+DIPLOMA IN COMPUTER AIDED COSTUME DESIGN AND DRESS MAKING
+ART & DESIGN
+1. RATIONALE:
+This course is designed to create artistic aptitude in the field of garment/fashion
+design. It is very essential to be successful in the field of fashion design/garment
+manufacturing in this age. This course will provide base to make garment design
+artistic.
+2. SCHEME OF STUDIES:
+NAME OF COURSE L P
+Art and Design 2 6
+3. SCHEME OF TEACHING:
+Topi
+c No. 5 Name of Topic Lectur
+erHour
+Practica
+lHour
+Tot
+al
+Hou
+r
+%
+weightag
+e
+1 Tools & Materials for drawing
+& sketching. 2 10 12
+2 Elements of design. 12 32 44
+3 Principles of design. 12 32 44
+4 Design, its importance &
+types.
+2 10 12
+10 Total 28 84 112
+Note:- Computer period allotted for practical are 14 per term.
+4. OBJECTIVES:
+1. To enable students to appreciate art & learn elements & principles of
+design.
+2. To enable students to develop skills in developing design manually &
+through computer.
+5. CONTENT OUTLINE:
+1. TOOLS AND MATERIALS FOR DRAWING AND SKETCHING.
+2. ELEMENTS OF DESIGN.
+2.1 Line and its physical and psychological effect.
+(Horizontal, Vertical, Diagonal, Curve, Zigzag)
+2.2 Space
+
+-- 8 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 9
+2.3 Shape
+2.4 Form
+2.5 Texture
+2.6 Colour – Definition & psychological effects of colour. Primary, secondary,
+tertiary, grayed & neutral colour. Dimension of colour – Hue, Value & Intensity.
+Tints and Shade. Warm and Cool colour. Colour scheme – Neutral, Analogous,
+Monochromatic, Complementary, Triad, Split complementary
+3. PRINCIPLES OF DESIGN.
+3.1 Harmony.
+3.2 Proportion.
+3.3 Emphasis.
+3.4 Balance- Formal and Informal.
+3.5 Rhythm – Repetition, Gradation, Radiation, Opposition, Transition.
+4. DESIGN.
+Explain importance and types of.
+4.1 Structural design.
+4.2 Applied design.
+4.3 Reducing and enlargement of design.
+6. LABORATORY EXPERIENCE:
+1. Application of tools & materials for drawing.
+2. Prepare given types of drawing by hand and on computer
+using Paint Brush software.
+2.1 Nature drawing.
+2.2 Object drawing.
+2.3 Free hand drawing.
+2.4 Memory drawing.
+3. Calligraphy writing by hand (All alphabet).
+3.1 Gothic letters.
+3.2 Roman letters.
+4. Effect of different types of line.
+(Types as per the theory portion.)
+5. Shape.
+5.1 Prepare the sheet showing following equal sided flat shapes by hand as well as
+by using computer.
+5.1.1 Square
+5.1.2 Circle
+5.1.3 Equilateral Triangle
+5.1.4 Pentagon
+5.1.5 Hexagon
+5.1.6 Octagon
+5.2 Prepare the sheet showing following Unequal sided flat shapes manually as well
+as by using computer.
+5.2.1 Rectangle
+5.2.2 Parallelogram
+5.2.3 Heart
+5.2.4 Diamond
+5.2.5 Teardrop
+
+-- 9 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 10
+5.2.6 Marquis
+5.2.7 Ogive
+5.2.8 Star
+5.2.9 Paisley
+5.2.10 Club
+5.2.11 Spade
+5.2.12 Pear
+5.2.13 Kidney
+6. Preparation of the sheets showing shapes that fit snugly together (6.1 to 6.6) and the
+shapes that don’t fit together but create other shapes between them (6.7 to 6.10)
+(Do it by hand and by computer in AutoCAD software)
+Squares
+Hexagon
+Ogives
+Diamonds
+Triangles
+Paisleys in to the circle
+Octagon
+Star
+Circle
+Square & Rectangle
+7. Form.
+(Do it by hand and by computer in AutoCAD software)
+7.1 Preparation of sheet sowing Equal sided three dimensional form
+7.1.1 Sphere
+7.1.2 Cube
+7.2 Preparation of the sheet showing Unequal sided three dimensional forms.
+7.1.1 Cylinder
+7.1.2 Cone
+7.1.3 Pyramid
+7.1.4 Box
+7.1.5 Bell
+7.1.6 Dome
+7.1.7 Ovoid
+7.1.8 Barrel
+7.1.9 Hourglass
+7.1.10 Trumpet
+8 Preparation of sheet sowing following Texture. (any medium)
+8.1 Rough texture
+8.2 Smooth texture
+8.3 Transparent effect
+9 Principles of design
+9.1 Preparation of sheet showing the effect of Balance in following areas manually.
+9.1.1 Balance in line path
+9.1.2 Balance in space
+9.1.3 Balance in space & shape
+9.1.4 Balance in value
+9.1.5 Balance in texture
+9.1.6 Balance in pattern
+9.2 Preparation of the sheet showing Emphasis in relation to the elements of design
+manually.
+
+-- 10 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 11
+9.2.1 Emphasis of line thickness
+9.2.2 Emphasis of shape
+9.2.3 Emphasis of form
+9.2.4 Emphasis of space
+9.2.5 Emphasis of light
+9.2.6 Emphasis of texture
+9.2.7 Emphasis of pattern
+9.3 Preparation of sheets showing Rhythm and its relationship with elements of
+design manually.
+9.3.1 Rhythm in line – Wavy, Zigzag, Single, Swirled, Jagged.
+9.3.2 Rhythm in shape – Saw tooth, Diamond, Undulating.
+9.3.3 Rhythm in pattern
+9.3.3.1 Preparation of sheets showing the effect of Radiation in relation to
+elements of design manually.
+9.3.3.1.1 Radiation in line & space
+9.3.3.1.2 Radiation in shape & space
+9.3.3.1.3 Radiation in Pattern
+9.3.3.1.4 Radiation from an axis
+9.3.3.2 Preparation of sheets showing the effect of Transition in relation to
+elements of design manually.
+9.3.3.2.1 Transition in line
+9.3.3.2.2 Transition in space
+9.3.3.2.3 Transition in space & shape
+9.3.3.2.4 Transition in texture
+9.3.3.2.5 Transition in shape & texture
+9.3.3.3 Preparation of sheets showing effect of Gradation manually.
+9.3.3.3.1 Gradation in line
+9.3.3.3.2 Gradation in space
+9.3.3.3.3 Gradation in shape
+9.3.3.3.4 Gradation in space & shape
+9.3.3.3.5 Gradation in texture
+9.3.3.3.6 Gradation in pattern
+9.3.3.4 Preparation of sheets showing the effect of Repetition manually.
+9.3.3.4.1 Repetition in line
+9.3.3.4.2 Repetition in space
+9.3.3.4.3 Repetition in shape
+9.3.3.4.4 Repetition in pattern
+9.3.3.4.5 Repetition in texture
+10 Reducing and Enlargement of design.
+11 To prepare Structural and Applied design on sheet by hand.
+12 Colour.
+12.1 Preparation of sheet showing colour wheel.
+12.2 Preparation of sheet showing tints and shades.
+12.3 Preparation of sheet showing colour schemes with reference to theory.
+6 7. TERM WORK:
+Prepare a Journal/file as a part of Curriculum.
+
+-- 11 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 12
+8. REFERENCES:
+Sr.
+No.
+Name of book Author Publication
+1. Visual design in dress Marian L.
+Devis
+2. Individuality in clothing selection
+and personal appearance
+Mary
+Kefgan
+M/c Milan
+3. Colour and line in dress Hemstead Lawrance
+Prantice Hall
+4. Fashion design illustration-Men Pattrick John
+Ircland
+B.T.Batsford
+Ltd. London
+5. M/c calls’ Sewing in colour Hamlyn Hamlyn
+6. How you look and dress? Byrta Carson
+7. Corel Draw-10 Shashank Jain
+Satish Jain
+BPB Publication
+New Delhi
+
+-- 12 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 13
+DIPLOMA IN COMPUTER AIDED COSTUME DESIGN AND DRESS MAKING
+TEXTILE SCIENCE
+1 RATIONALE:
+Rapid changes and progress in textile industry has led to the advancement in the
+fabrics selected for manufacturing garments. Manufacture of fibers and textiles for apparel,
+household and industrial use in the greatest business. There are many approaches to the
+study of textiles. This curriculum has been developed to know the different fibers available
+in the market, its mechanical production or engineering of fibers, the chemistry and
+physics involved in producing and testing fibers. This course will provide useful knowledge
+to the students basically required for garment manufacturing.
+2. SCHEME OF STUDIES :
+NAME OF
+COURSE L P
+Textile
+science
+2 2
+3 SCHEME OF TEACHING:
+Topi
+c No. 1 Name of Topic Lectur
+e Hour
+Practic
+al Hour
+Total
+Hour
+%
+weightag
+e
+1 Classification of Textile fibers 2 04 06
+2 General fiber properties. 3 -- 03
+3
+Textile fibers & its
+manufacturing process and
+properties.
+7 -- 07
+4 Yarns. 7 08 15
+5 Conversion of yarn into fabric. 9 16 25
+11 Total 28 28 56
+4. OBJECTIVES:
+1 To enable students to acquire knowledge regarding different textile fibers
+available in the market.
+2 To help the students to know the various properties of the textile fibers so
+that they can judge which fibers are suitable for what type of garments.
+3 To make the students aware of different types of dyes available in the
+market and its use for different types of fibers.
+4 To aquaint the students with the knowledge of weaves.
+5 To aquaint the students with the knowledge of different types of fabric.
+
+-- 13 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 14
+5. CONTENT OUTLINE:
+1. CLASSIFICATION OF TEXTILE FIBERS .
+1. GENERAL FIBER PROPERTIES.
+2.7 Fiber length
+2.8 Fiber strength
+2.9 Flexibility
+2.10 Spinability
+2.11 Uniformity
+2.12 Density
+2.13 Lustre
+2.14 Moisture & Moisture regain
+2.15 Elasticity, elastic recovery, elongation.
+2.16 Water-repellant fibers.
+2.17 Reseliency & compressibility.
+2.18 Chemical, Environmental & other properties.
+3. TEXTILE FIBERS AND ITS MANUFACTURING PROCESS AND
+PROPERTIES.(PHYSICAL AND CHEMICAL)
+3.1 Cotton.
+3.2 Silk.
+3.3 Wool.
+3.4 Polyester.
+3.5 Acrylic.
+3.6 Nylon.
+4. YARNS.
+4.1 Definition of yarn.
+4.2 Types of yarn.
+4.3 Yarn twist.
+4.4 Yarn count (definition, unit of yarn count)
+5. CONVERSION OF YARN INTO FABRIC
+5.1 Woven fabric
+5.1.1 Basic loom & its structure
+5.1.2 Warp & weft yarns, grain line
+5.1.3 Basic weaves.(Plain weave, Rib weave, Variation of plain weave,
+Basket variation of plain weave, Twill weave, Satin weave, Sateen
+weave)
+5.1.4 Decorative weaves.(Dobby weaves, Jacquard weave, Leno
+weaves, Surface figure weave, Pile, Double weave)
+5.1.5 Draft and peg-plan of weave.
+5.1.6 Fabric count.
+5.2 Knitted fabric.
+5.3 Non-Woven fabric.
+
+-- 14 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 15
+5.4 Other fabric construction process.
+5.4.1 Braided fabric
+5.4.2 Nets
+5.4.3 Laces
+5.4.4 Film fabric
+5.4.5 Tufted fabric
+6. LABORATORY EXPERIENCE:
+1. Identification of fibers.
+2. Preparation different types of yarns.
+5.1 Simple yarn
+5.2 Complex or Novelty yarn
+3. Collection of different types of fabric sample and identify each.
+4. Prepration of all basic weaves by hand with reference to theory.
+5. Draft and Peg-plan of weave.
+6. I ndustrial visits should be arranged and write report of the visits.
+7. TERM WORK:
+Prepare Journal/file for submission as a part of Curriculum.
+8. REFERENCES:
+1 Fundamentals of textiles and their care. - Sushila Dantyagi.
+2 Textile science - Marjery Joseph.
+3 Modern textile - Dorothy S. Lyle.
+4 Household textile and their care - Durga Deuokar.
+5 From fiber to fabric - Elizabeth.
+
+-- 15 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 16
+DIPLOMA IN COMPUTER AIDED COSTUME DESIGN AND DRESS MAKING
+PERSONALITY DEVELOPMENT & COMMUNICATION SKILLS.
+2. RATIONALE:
+This course will provide good knowledge for developing personality &
+communication skill in an important aspect of an individual. Now a day it is
+necessary to develop personality & communication skills. Effective
+communication always leads towards achievement of desired results. Effective
+communication is essential for the success of any business. Communication of
+any type should be effective.
+2. SCHEME OF STUDIES:
+NAME OF COURSE L P
+Personality
+Development and
+Communication
+skill.
+2 2
+4. SCHEME OF TEACHING:
+Topic
+No. N AME OF TOPI C Lecture
+Hour
+Practi
+calHo
+ur
+Total
+Hour
+%
+weigh
+tage
+1 Understanding Personality 2 -- 02
+2 Developing Personality by enhancing
+beauty, poise, charm & Health. 18 -- 18
+3 Clothes as an expression of
+personality.
+2 -- 02
+4 Conformity vs. Individuality. 1 -- 01
+5 Characteristic of good letter. 2 -- 02
+6 Types of letter. 3 28 31
+Total 28 28 56
+4. OBJECTIVES:
+1. The students will be able to gain knowledge for personality development.
+2. To develop skills in communication skill.
+3. To understand characteristics of good letter.
+4. To classify different types of letter.
+5. CONTENT OUTLINE:
+
+-- 16 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 17
+1. UNDERSTANDING PERSONALITY:
+2 DEVELOPING PERSONALITY BY ENHANCING BEAUTY, POISE,
+CHARM AND HEALTH.:
+2.1 CLEANLINESS.
+2.1.1 Body cleanliness.
+2.1.2 Cleaning the face.
+2.1.3 Preventing sun-burn and chapping.
+2.1.4 Preventing body order
+2.1.5 Care of the hands
+2.1.6 Care of the feet
+2.1.7 Care of the hair & scalp
+2.1.8 Washing the hair, styling the hair
+2.1.9 Make-up (Powder, rough, lipstick and the final check)
+2.2 POISE AND CHARM
+2.2.1 Correct posture
+2.2.2 Hand control
+2.2.3 Graceful walk
+2.2.4 Pausing and standing
+2.2.5 Graceful turn
+2.2.6 Sitting down and rising
+2.2.7 Carrying handbag and handling gloves
+2.2.8 Handling the coat
+2.2.9 Highlighting interest points of a garment
+2.3 HEALTH
+2.3.1 Diet
+2.3.2 Exercises
+2.3.3 Posture
+2.3.4 Rest
+2.3.5 Dental health
+2.3.6 Medical examination
+2.3.7 Clothing
+3 CLOTHES AS AN EXPRESSION OF PERSONALITY:
+3.1 Reading clothing message.
+3.2 Psychological interpretation of dress.
+4 CONFERMITY VS. INDIVIDUALITY:
+5 CHARACTERISTICS OF GOOD LETTER AND ITS LAYOUT:
+5.1 Heading
+5.2 Inside address
+5.3 Salutation
+5.4 Subject heading
+5.5 Complimentary close
+5.6 Signature
+
+-- 17 of 18 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITRY, AHMEDABAD
+PAGE : 18
+5.6.1 Telephone number, telegraphic address, references
+5.6.2 Enclosures
+5.6.3 Copies
+6 TYPES OF LETTER
+6.1 FORMAL LETTER ( ANY FIVE ) FOR EXAMPLE:
+6.1.1 Leave application letter.
+6.1.2 Permission letter for visit to institute and libraries.
+6.1.3 Forwading letter for different types of letter.
+6.1.4 Forwading letter for admission to hostel.
+6.1.5 Application letter for inquiry regarding job opportunities.
+6.1.6 Application for job along with bio-data.
+6.2 INFORMAL LETTER (ANY FIVE ) LIKE :
+6.2.1 You are residing in a hostel. Write a letter to your father
+giving details of your monthly expenditure.
+6.2.2 You are residing in a hostel. Write a letter to your parents
+asking them to give permission for industrial visit.
+6. LABORATORY EXPERIENCE:
+1. Letter writing by hand and in computer.
+1.1 Write all letters from topic-6 by hand.
+1.2 Write minimum three each formal and informal letters in computer by using
+Word software.
+2. Preparation of index and certificate for journal by using Word software.
+7. TERM WORK:
+All Laboratory experiences should be compiled in the file & submit as a term work.
+8. REFERENCES:
+1 Individuality - Mary Kefgan & Phyllis-
+Touchie-Specht
+2 How you look and dress - Byrta Carson
+3 Clothing construction & - Dora S. Lewis.
+Wardrobe planning - Mabel Goode Bowers
+- Marietta Kettuner.
+
+-- 18 of 18 --
+

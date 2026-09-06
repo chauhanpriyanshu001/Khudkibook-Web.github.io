@@ -1,0 +1,197 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110001
+https://syllabus.gtu.ac.in/ Page 1
+Semester/Year : 1
+Category of the Course : Basic Science
+Subject Name & Code : Chemistry (3110001)
+Prerequisite: Zeal to learn the subject.
+Rationale: Chemistry is considered as Basic Science subject.
+Teaching and Examination Scheme:
+Teaching
+Scheme Credits Examination
+Marks
+Total Marks	L T P C Theory Marks Practical Marks
+ESE (E) PA (M) ESE
+(V)
+PA (I)
+3 0 2 4 70 30 30 20 150
+Contents:
+Sr.
+No. Topics Teaching
+Hrs.
+Module
+Weightage
+1
+General Chemistry:
+Introduction to Chemical Sciences, Basics includes: Periodic properties,
+Effective nuclear charge, penetration of orbitals, variations of s, p, d and
+f orbital energies of atoms in the periodic table, electronic
+configurations, atomic and ionic sizes, ionization energies, electron
+affinity and electronegativity, polarizability, oxidation states,
+coordination numbers and geometries, hard soft acids and bases,
+molecular geometries Structure of an Atom, Formation of molecules –
+Kossel – Lewis approach to Chemical Bonding, Lewis Representations
+of Simple Molecules and Ions, Types of Bonds.
+5
+40%
+2
+Water Technology:
+Introduction, Sources of water, Impurities in water, Hardness of Water,
+Boiler Problems, Softening of water (External & Internal treatments),
+Domestic water treatments, Waste water treatments, Desalination of
+Brackish water.
+5
+
+-- 1 of 5 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110001
+https://syllabus.gtu.ac.in/ Page 2
+3
+Metals, Alloys and Corrosion:
+Introduction, Physical properties of Metals, Definition and purpose of
+alloy, Classification of alloys. Alloys: Steel, Cu, Al, Pb and its industrial
+applications.
+Introduction to Corrosion, Theories of corrosion, Protective
+measurements against corrosion – organic and inorganic materials,
+Inhibitors, Cathodic protection.
+6
+4
+Polymers and Fibers
+Introduction, Classification based on Source, Structure, Molecular
+forces. Polymerization and its mechanism. Definition of Rubber, Types
+of Rubber, Vulcanization of rubber. Application of Rubber.
+Biodegradable Polymers, Commercially important polymers- PE, PP,
+PS, PVC, ABS, PMMA, Glyptal and their uses.
+Types of fibers – Natural, semi synthetic, synthetic fibers. Physical
+properties of fibers and uses of Cellulose acetate, Viscose Rayon,
+Nylon,Polyesters acrylic, Glass fibers and Liquid Crystals.
+7 40%
+5
+Nano material:
+Introduction, Sources, Properties and application of fullerenes,
+fullerols, Metal based nanoparticles, Carbon nanotubes and nanowires.
+Synthesis: Top down and Bottom up approaches, Nanoelectronics.
+Applications of nanomaterial in catalysis, textile and medicine.
+5
+6
+Fuel and Combustion: Definition, Types of fuel and their applications.
+Calorific Value, Characteristics of good fuel. Analysis of coal – ultimate
+and proximate analysis, LPG, Natural gas, Biogas, Refining of
+Petroleum by Fractional distillation, Octane and Cetane Number,
+Unleaded Petrol and Diesel.
+5
+
+-- 2 of 5 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110001
+https://syllabus.gtu.ac.in/ Page 3
+7
+Chemical aspect of Biotechnology:
+Introduction, Scope, importance and application, Benefits through
+biotechnology – Agriculture, Food quality, Medicines, Fermentation
+processes: Preparation of Ethanol and Acetic acid, Enzymes and its
+application in industries, Importance of Biofuels, Bio fertilizers, Bio
+surfactants and Bioreactors.
+5
+20%
+8
+Analytical Techniques: Measurement and understanding of pH,
+Conductance, and Potential, Spectroscopic techniques: Principles of
+Spectroscopy and Selection rules. UV-Visible Spectroscopy and its
+Application, Vibrational and Rotational spectroscopy (IR) of diatomic
+molecules and its application.
+4
+Suggested Specification table with Marks (Theory) : (For BE only)
+Distribution of Theory Marks
+R Level U Level A Level N Level E Level C Level
+10 50 10 30 0 0
+Legends: R: Remembrance; U: Understanding; A: Application, N: Analyze and E:
+Evaluate C:Create and above Levels (Revised Bloom’s Taxonomy)
+
+-- 3 of 5 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110001
+https://syllabus.gtu.ac.in/ Page 4
+Reference Books :
+1. Engineering Chemistry by Jain and Jain, Dhanpat Rai Publishing Co.
+2. Engineering Chemistry Willey India Publisher
+3. Engineering Chemistry by Marry Jane & Shultz, Cencage Learning Publisher
+4. Engineering Chemistry by N. Krishnamurthy, P. Vallinaygam and D. Madhavan,
+Prentice Hall of India Pvt. Ltd.
+5. Engineering Chemistry by K. Sesha Maheswaramma and Mridula Chugh,
+Pearson IndiaEducation Pvt Ltd.
+6. Engineering Chemistry by B K. Sharma, Krishna Prakashan Media (P) Ltd.
+7. A textbook of Engineering Chemistry by Shashi Chawla, Dhanpatrai Publishing Co. Ltd.
+8. Fundamentals of Biotechnology by B D Singh, Kalyani Publisher. New Delhi.
+9. Essential of Physical Chemistry by Bahl and Tuli., S Chand & Co. Ltd, New Delhi.
+10. Introduction to Nano Science by N N. Lindsay, Oxford University Press.
+11. NANO: The Essentials by T Pradeep Tata McGraw-Hill Publishing Company, New Delhi.
+Course Outcome :
+Sr.
+No.
+CO statement Marks % weightage
+CO-1 Relate periodic properties such as ionization potential, oxidation
+states and electro negativity.
+15
+CO-2 Analyze microscopic chemistry in terms of atomic and molecular
+orbital’s and inter molecular forces.
+10
+CO-3 Describe the importance and relevance of chemistry in our everyday
+life
+10
+CO-4 Select the appropriate chemical material and utilization of it. 50
+CO-5 Interpret the methods of science as a logical means of problem
+solving
+10
+CO-6 Distinguish the ranges of the electromagnetic spectrum used for
+exciting different molecular energy levels in various spectroscopic
+techniques.
+5
+LIST OF PRACTICALS: (Minimum 8 to be performed.)
+1. Analysis of Steel Sample.
+2. Analysis of Pyrolusite Ore.
+3. Analysis of Brass Alloy.
+4. Estimation of Hardness.
+5. Gravimetric Analysis of decomposition of Na2CO3 & NaHCO3.
+6. Determination of Concentration of Unknown Solution Spectrophotometrically.
+7. To study Wet Corrosion loss of Steel by weight loss method using electrochemical theory.
+8. Stress Corrosion Cracking of Brass in NH3 Solution.
+9. To determine Alkalinity of a given Water Sample.
+
+-- 4 of 5 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110001
+https://syllabus.gtu.ac.in/ Page 5
+10. Determination of Saponification Value of Oil.
+11. Determination of chloride content of water
+12. Study of decomposition reaction of ZnCO3 by Gravimetric analysis.
+13. To determine the moisture content in coal.
+Reference Books :
+1. Laboratory Manual of Engineering Chemistry, by S K. Bhasin
+& Sudha Rani.Publisher: Dhanpat Rai Publishing Company Ltd.
+2. Engineering Chemistry with Laboratory Experiments, by
+M S. Kaurav.Publisher: PHI Learning Pvt. Ltd. New
+Delhi.
+3. Vogel’s textbook of Quantitative Chemical Analysis, by Arthur I Vogel, Revised
+by Jeffery etal, Publisher: Addison Wesley, Longman Ltd, England
+4. Engineering Chemistry with Laboratory Experiments, by R. P. Mani &
+Mishra, Publisher:Cen cage Publisher.
+Major Equipment :
+1. Spectrophotometer.
+2. Laboratory Oven.
+3. Melting Point Instrument.
+4. Electronic Balance
+List of Open Source Software/learning website :
+NPTEL, World Wide Web, etc.
+
+-- 5 of 5 --
+

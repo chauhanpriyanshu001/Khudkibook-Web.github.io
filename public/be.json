@@ -3082,7 +3082,11 @@
                     "bookName": "Student Induction Program  with essence of Indian  Knowledge System",
                     "categories": "Mandatory Non-Credit Courses – Audit Course",
                     "bookCredit": 0,
-                    "totalMarks": 0
+                    "totalMarks": 0,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3098,7 +3102,11 @@
                     "bookName": "Physics",
                     "categories": "Basic Science Courses",
                     "bookCredit": 4,
-                    "totalMarks": 150
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3114,7 +3122,11 @@
                     "bookName": "Chemistry",
                     "categories": "Basic Science Courses",
                     "bookCredit": 4,
-                    "totalMarks": 150
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "No",
@@ -3130,7 +3142,11 @@
                     "bookName": "Mathematics-I",
                     "categories": "Basic Science Courses",
                     "bookCredit": 4,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "No",
@@ -3146,7 +3162,11 @@
                     "bookName": "Basic Electrical Engineering",
                     "categories": "Engineering Science Courses",
                     "bookCredit": 4,
-                    "totalMarks": 150
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "No",
@@ -3162,7 +3182,11 @@
                     "bookName": "Engineering Graphics & Design",
                     "categories": "Engineering Science Courses",
                     "bookCredit": 2,
-                    "totalMarks": 150
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "No",
@@ -3178,7 +3202,11 @@
                     "bookName": "Design Thinking",
                     "categories": "Engineering Science Courses",
                     "bookCredit": 2,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3194,7 +3222,11 @@
                     "bookName": "Basic Mechanical Engineering",
                     "categories": "Engineering Science Courses",
                     "bookCredit": 4,
-                    "totalMarks": 150
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3210,7 +3242,11 @@
                     "bookName": "Mechanics of Solids",
                     "categories": "Engineering Science Courses",
                     "bookCredit": 4,
-                    "totalMarks": 150
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3226,7 +3262,11 @@
                     "bookName": "Basic Civil Engineering",
                     "categories": "Engineering Science Courses",
                     "bookCredit": 4,
-                    "totalMarks": 150
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3242,7 +3282,11 @@
                     "bookName": "Basic Electronics Engineering",
                     "categories": "Engineering Science Courses",
                     "bookCredit": 4,
-                    "totalMarks": 150
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "No",
@@ -3258,7 +3302,11 @@
                     "bookName": "Programming for Problem Solving",
                     "categories": "Engineering Science Courses",
                     "bookCredit": 4,
-                    "totalMarks": 150
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3274,7 +3322,11 @@
                     "bookName": "Workshop and Manufacturing Practices",
                     "categories": "Engineering Science Courses",
                     "bookCredit": 1,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3290,7 +3342,11 @@
                     "bookName": "Universal Human Values",
                     "categories": "Humanities and Social Science, including Management Courses",
                     "bookCredit": 2,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3306,7 +3362,11 @@
                     "bookName": "Contributor Personality Development Program",
                     "categories": "Humanities and Social Science, including Management Courses",
                     "bookCredit": 2,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3322,7 +3382,11 @@
                     "bookName": "Integrated Personality Development Course",
                     "categories": "Humanities and Social Science, including Management Courses",
                     "bookCredit": 2,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3338,7 +3402,11 @@
                     "bookName": "Digital Fabrication Workshop",
                     "categories": "Engineering Science Courses",
                     "bookCredit": 1,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 }
             ],
             "computer": [],
@@ -3357,7 +3425,11 @@
                     "bookName": "Mathematics – 2",
                     "categories": "Basic Science Courses",
                     "bookCredit": 4,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "No",
@@ -3367,7 +3439,11 @@
                     "bookName": "English for Technical Communication",
                     "categories": "Humanities and Social Science, including Management Courses",
                     "bookCredit": 3,
-                    "totalMarks": 150
+                    "totalMarks": 150,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3377,7 +3453,11 @@
                     "bookName": "Intellectual Property Rights",
                     "categories": "Multidisciplinary Open Professional Electives Courses",
                     "bookCredit": 2,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3387,7 +3467,11 @@
                     "bookName": "Fundamental of AI",
                     "categories": "Multidisciplinary Open Professional Electives Courses",
                     "bookCredit": 2,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 },
                 {
                     "isElective": "Yes",
@@ -3397,7 +3481,11 @@
                     "bookName": "Industrial Safety and Standards",
                     "categories": "Multidisciplinary Open Professional Electives Courses",
                     "bookCredit": 2,
-                    "totalMarks": 100
+                    "totalMarks": 100,
+                    "booksLink": [],
+                    "bookPapers": [],
+                    "GujbooksLink": [],
+                    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/na.webp"
                 }
             ],
             "computer": [],

@@ -1,0 +1,138 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3130703
+Page 1 of 3
+w.e.f. AY 2018-19
+Semester – III
+Subject Name: Database Management Systems
+Type of course: Core
+Prerequisite: Basic knowledge of Computer Programming
+Rationale:
+Database is an integral part of real life application system. The course will enable student understand the
+different issues involved in the design and implementation of a database system. Student will learn the
+physical and logical database designs, database modeling, relational, hierarchical, and network models.
+Student will learn to use data manipulation language to query, update, and manage a database. Student will
+understand essential DBMS concepts such as: database security, integrity, concurrency, storage strategies
+etc. The students will get the hands on practice of using SQL and PL/SQL concepts.
+Teaching and Examination Scheme:
+Teaching Scheme Credits Examination Marks Total
+Marks	L T P C Theory Marks Practical Marks
+ESE (E) PA (M) ESE (V) PA (I)
+4 0 2 5 70 30 30 20 150
+Content:
+Sr.
+No.
+Content Total
+Hrs
+% Weightage
+1 Database system architecture: Data Abstraction, Data Independence, Data
+Definition Language (DDL), Data Manipulation Language (DML).
+03 05
+2 Data models: Entity-relationship model, network model, relational and
+object oriented data models, integrity constraints, data manipulation
+operations.
+06 12
+3 Relational query languages: Relational algebra, Tuple and domain
+relational calculus, SQL3, DDL and DML constructs, Open source and
+Commercial DBMS - MYSQL, ORACLE, DB2, SQL server.
+04 08
+4 Relational database design: Domain and data dependency, Armstrong's
+axioms, Normal forms, Dependency preservation, Lossless design.
+05 10
+5 Query processing and optimization: Evaluation of relational algebra
+expressions, Query equivalence, Join strategies, Query optimization
+06 10
+
+-- 1 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3130703
+Page 2 of 3
+w.e.f. AY 2018-19
+Suggested Specification table with Marks (Theory): (For BE only)
+Distribution of Theory Marks
+R Level U Level A Level N Level E Level C Level
+15 15 15 10 10 05
+Legends: R: Remembrance; U: Understanding; A: Application, N: Analyze and E: Evaluate C:
+Create and above Levels (Revised Bloom’s Taxonomy)
+Note: This specification table shall be treated as a general guideline for students and teachers. The actual
+distribution of marks in the question paper may vary slightly from above table.
+Reference Books:
+1. “Database System Concepts”, 6th Edition by Abraham Silberschatz, Henry F. Korth, S. Sudarshan,
+McGraw-Hill.
+2. “Fundamentals of Database Systems”, 7th Edition by R. Elmasri and S. Navathe, Pearson
+3. “An introduction to Database Systems”, C J Date, Pearson.
+4. “Modern Database Management”, Hoffer , Ramesh, Topi, Pearson.
+5. “Principles of Database and Knowledge – Base Systems”, Vol 1 by J. D. Ullman, Computer
+Science Press.
+algorithms.
+6 Storage strategies: Indices, B-trees, hashing. 04 07
+7 Transaction processing: Concurrency control, ACID property,
+Serializability of scheduling, Locking and timestamp based schedulers,
+Multi-version and optimistic Concurrency Control schemes, Database
+recovery.
+06 15
+8 Database Security: Authentication, Authorization and access control, DAC,
+MAC and RBAC models, Intrusion detection, SQL injection.
+04 07
+9 SQL Concepts : Basics of SQL, DDL,DML,DCL, structure – creation,
+alteration, defining constraints – Primary key, foreign key, unique, not null,
+check, IN operator, aggregate functions, Built-in functions –numeric, date,
+string functions, set operations, sub-queries, correlated sub-queries, join,
+Exist, Any, All , view and its types., transaction control commands.
+10 18
+10 PL/SQL Concepts : Cursors, Stored Procedures, Stored Function,
+Database Triggers
+04 08
+
+-- 2 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3130703
+Page 3 of 3
+w.e.f. AY 2018-19
+6. “Understanding SQL”, Martin Gruber, BPB
+7. “SQL- PL/SQL”, Ivan bayross
+Course Outcomes:
+Sr.
+No.
+CO statement Marks % weightage
+CO-1 Recognize the various elements of Database Management Systems 10
+CO-2 Given a problem statement, identify the entities and their relations and
+draw an E-R diagram and design database applying normalization
+20
+CO-3 Solve the given problem using Relational Algebra, Relational Calculus,
+SQL and PL/SQL
+40
+CO-4 Apply and relate the concepts of transaction, concurrency control,
+recovery and security in database
+20
+CO-5 Recognize the purpose of query processing, optimization and
+demonstrate the SQL query evaluation
+10
+List of Experiments:
+1. To study DDL-create and DML-insert commands
+2. Create table and insert sample data in tables.
+3. Perform queries involving predicates LIKE, BETWEEN, IN etc.
+4. To Perform various data manipulation commands, aggregate functions and sorting concept on
+all created tables.
+5. To study Single-row functions.
+6. Displaying data from Multiple Tables (join)
+7. To apply the concept of Aggregating Data using Group functions.
+8. To solve queries using the concept of sub query.
+9. To apply the concept of security and privileges
+10. To study Transaction control commands
+11. Write Cursor
+12. Write Trigger
+Major Equipment:
+Computer system with DBMS system
+List of Open Source Software/learning website:
+1. https://www.tutorialspoint.com/dbms/
+2. https://www.w3schools.com/sql/
+3. https://www.codecademy.com/learn/learn-sql
+4. https://in.udacity.com/
+
+-- 3 of 3 --
+

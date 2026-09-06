@@ -1,0 +1,588 @@
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 1 of 12
+GUJARAT TECHNOLOGICAL UNIVERSITY (GTU)
+Competency-focused Outcome-based Green Curriculum-2021 (COGC-2021) Semester-VI
+Course Title: Biomaterials & Implants
+(Course Code: 4360302)
+Diploma programmer in which this course is offered Semester in which offered
+Biomedical Engineering Sixth
+1. RATIONALE
+Biomaterials in the form of implants like sutures, bone plates, joint replacements and
+medical devices i.e. pacemakers, artificial cardiac valves, blood tubes are widely used to
+replace and restore the function of traumatized or degenerated tissues or organs, and thus
+improve the quality of life of the patients. The biocompatibility profiles of materials
+employed for the replacement or augmentation of biologic tissues has always been a critical
+concern within the health care disciplines. This course curriculum is important for a diploma
+biomedical engineer to develop an understanding of the concepts underlying the design and
+selection of materials for use in prostheses and implants and develop relevant skills to work
+effectively in health care industries.
+2. COMPETENCY
+The course content should be taught and curriculum should be implemented with the aim
+to develop required skills in the students so that they are able to acquire following
+competency:
+● Select appropriate bio-materials and implants as per requirement.
+3. COURSE OUTCOMES (COs)
+The theory should be taught and practical should be carried out in such a manner that
+students are able to acquire required learning outcomes in cognitive, psychomotor and
+affective domain to demonstrate following course outcomes:
+I. Explain the concept and need of bio-materials, implants and bio compatibilities.
+II. Recognize the types of various metals, alloys and ceramics used for implantation
+according to their formation and applications
+III. Describe the use of various polymers used for designing implants.
+IV. Identify different biomaterial uses for cardiovascular, optical implants and auditory
+implant.
+
+-- 1 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 2 of 12
+V. Select appropriate biomaterial for Dental and Orthopedic Implant and also
+understand effective method to design ecofriendly biomaterial for implants.
+4. TEACHING AND EXAMINATION SCHEME
+Teaching Scheme
+(In Hours)
+Total Credits
+(L+T+P/2)
+Examination Scheme
+Theory Marks Practical Marks Total
+Marks	L T P C CA ESE CA ESE
+3 0 4 5 70 30 25 25 150
+(*): Out of 30 marks under the theory CA, 10 marks are for assessment of the micro-project to
+facilitate integration of COs and the remaining 20 marks is the average of 2 tests to be taken during
+the semester for the assessing the attainment of the cognitive domain UOs required for the
+attainment of the COs.
+Legends: L-Lecture; T – Tutorial/Teacher Guided Theory Practice; P -Practical; C – Credit, CA -
+Continuous Assessment; ESE -End Semester Examination.
+5. SUGGESTED PRACTICAL EXERCISES:
+The following practical outcomes (PrOs) that are the subcomponents of the Co. Some of the PrOs
+marked ‘*’ are compulsory, as they are crucial for that particular CO at the ‘Precision Level’ of
+Dave’s Taxonomy related to ‘Psychomotor Domain’.
+S. No. Practical Outcomes (PrOs) Unit No. Approx. Hrs.
+Required
+1 Identify various implants used in the biomedical field. I 04*
+2 To Study about characteristics of tissue response to
+implants.
+I 04*
+3 To Study about characteristics of biocompatibility. I 02
+4 Identify various metals and alloys used in the
+biomedical field.
+II 04
+5 Identify various stainless used in the biomedical field. II 04*
+
+-- 2 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 3 of 12
+6 Identify various ceramics used in the biomedical field. II 04
+7 Identify various polymers used in the biomedical field. III 04*
+8 To Study about Sterilization process for various
+polymers used in the biomedical field.
+III 04*
+9 To Study about cardiac valve implant shape with its
+material specifications.
+IV 04
+10 To Study about cardiac pacemaker implantations
+process with safety aspect
+IV 04
+11 To Study about models of intraocular lens
+implantations process with safety aspect.
+IV 04*
+12 To Study about models of cochlear implantations
+process with safety aspect
+IV 04*
+13 To Study about models of knee joints and implant
+shape with its material specifications.
+V 04
+14 To Study about models of hip replacements implant
+shape with its material specifications.
+V 04*
+15 To Study about models of different dental
+implantations and implant shape with its material
+specifications
+V 02
+16 To Study about materials for implants can have V 04*
+significant environmental implications.
+Minimum 14 Practical Exercises 56Hrs.
+Note
+i. More Practical Exercises can be designed and offered by the respective course teacher to
+develop the industry-relevant skills/outcomes to match the COs. The above table is only a
+suggestive list.
+ii.The following are some sample ‘Process’ and ‘Product’ related skills (more may be
+added/deleted depending on the course) that occur in the above listed Practical Exercises of
+this course required which are embedded in the COs and ultimately the competency.
+7. MAJOR EQUIPMENT/ INSTRUMENTS REQUIRED
+Sr. No. Equipment Name with Broad Specifications PrO.
+No.
+
+-- 3 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 4 of 12
+1
+Dental implants
+Dental Implant and Crown Bridge Demonstration Model.
+Expose the roots and implant fixture. All three tooth crowns are
+removable.
+15
+2
+Artificial knee joint
+Life Size Knee Model, 2nd Stage Osteoarthritic Knee Model and Knee
+Model with Implant. Anatomically accurate, made of high-quality
+unbreakable PVC Plastic.
+13
+3
+Hip joints
+● Ball and socket joint Demonstrates anteversion, retroversion,
+abduction & internal/external rotation.
+● Includes flexible, artificial ligaments.
+14
+Ball and socket joint Demonstrates anteversion, retroversion, abduction &
+internal/external rotation.
+4
+Intra Occular Lens Implant
+• Should be UV Absorbance
+• Lens Material-Hydrophilic Acrylic
+• Power, D(Diopter)-20
+• Design Type-Foldable
+• Item Type-Single Piece
+• Haptic Design-Modified C-Loop
+• Optic Type-Bi-Convex
+• Optic Diameter-6 millimeter
+11
+7. AFFECTIVE DOMAIN OUTCOMES
+The following sample Affective Domain Outcomes (ADOs) are embedded in many of the
+abovementioned COs and PrOs More could be added to fulfill the development of this course
+competency.
+a) Work as a leader/a team member.
+b) Follow ethical practices.
+c) Practice environmentally friendly methods and processes.
+The ADOs are best developed through the laboratory/field-based exercises. Moreover, the level of
+achievement of the ADOs according to Krathwohl’s ‘Affective Domain Taxonomy’ should gradually
+increase as planned below:
+
+-- 4 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 5 of 12
+I. ‘Valuing Level’ in 1st year
+II. ‘Organization Level’ in 2nd year
+III. ‘Characterization Level’ in 3rd year
+8. UNDERPINNING THEORY: The major underpinning theory is given below based on the
+higher level UOs of Revised Bloom’s taxonomy that are formulated for development of the
+COs and competency. If required, more such UOs could be included by the course teacher to
+focus on attainment of COs and competency.
+Unit Unit Outcomes (UOs)
+(4 to 6 UOs at different levels) Topics and Sub-topics
+Unit-I
+Introduction of
+Biomaterials
+and Implants
+1a. Define Biomaterial, Implant, Biological
+Material, Bio compatibility.
+1b. Classify different Biomaterial.
+1c. Enlist the need of biomaterial.
+1.1. Introduction To
+Biomaterial and Biological
+Material
+1.2. Need Of Biomaterial
+1d. Explain in detail the need of biomaterial
+for the society.
+1e. Describe tissue response to implants. 1f.
+Explain the concept of biocompatibility of
+implants with the human body.
+1g. Give Classification for different implant.
+1h. Explain acute and chronic inflammation.
+1i. Enlist the infections that happen due to
+implants.
+1.3. Classification Of
+Biomaterial
+1.4 Introduction to Implant
+1.4.1 Classification of Implant
+1.5. Tissue Response to
+Implants
+1.5.1. Biocompatibility
+1.5.2. Inflammation and
+Infection
+
+-- 5 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 6 of 12
+Unit – II
+Metals,
+Ceramics and
+Composite
+2a. Explain the types of stainless steel along
+with the composition.
+2b. Enlist properties of stainless steel.
+2c. Describe the types of Co-Cr along with the
+formation.
+2d. Describe the types of Ti based alloys and
+describe formation.
+2e. Describe the types of nitinols and
+describe formation.
+2f. Describe the types of carbons and their
+formation along with applications.
+2g. Describe the types of Alumina and their
+formation.
+2h. Describe the types of surface reactive
+ceramics and their formation.
+2i. Mention the application of Stainless steel,
+Cobalt-chromium, Titanium based alloys,
+Nitinol, Carbons and Alumina for biomedical
+field.
+2j. Mention the application of Ceramics for
+biomedical field.
+2k. Distinguish between Metals, Ceramics and
+Composite.
+2l. Write brief note on Composite.
+Introduction, Composition,
+Properties and Application of
+Metals and Ceramics:
+2.1 Stainless steel 316 and
+316L
+2.2 Cobalt-chromium alloys:
+Cast alloys, Wrought alloys,
+Forged alloys.
+2.3 Titanium based alloys:
+Cast alloys, Wrought alloys,
+Forged alloys
+2.4 Nitinol
+2.5 Carbons
+2.6 Alumina
+2.7 Ceramics-Surface reactive
+ceramics: Bioglass, Ceravital
+2.8 Composite: Introduction
+structure and Application.
+Unit– III
+Polymers
+3a. Enlist the types of polymer chain.
+3b. Enlist the types of Polymers in biomedical
+use.
+3c. Explain the polymerization process and
+their classification.
+3d. Describe the Polyamides and Poly Methyl
+Methacrylate (PMMA) used in the
+biomedical field.
+3e. Explain sterilization process of polymer.
+3f. List out the application of PMMA and
+acrylic polymer.
+3g. Distinguish between Metals, Ceramics,
+Polymer and Composite.
+3.1 Polymerization: Types of
+polymer chain, Polymers in
+biomedical use.
+3.2 Polyethylene and
+polypropylene
+3.3 Perfluorinated polymers
+3.4 Acrylic polymers
+3.5 Polyamides and Poly
+Methyl Methacrylate
+(PMMA)
+3.6 Sterilization of polymer.
+
+-- 6 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 7 of 12
+Unit– IV
+Cardiovascular,
+Optical and
+Auditory
+Implant
+4a. Comprehending the vascular implant. 4b.
+Outline the material used in Implantable
+pacemaker, stent.
+4c. Describe the material used in endocardial
+electrodes of cardiac pacemakers.
+4d. Interpret Cardiac assisting device.
+4e. Infer Contact lenses.
+4f. Distinguish the soft and hard lenses. 4g.
+Describe the material use for disposable
+lenses.
+4h. Explain intra ocular lens.
+4i. Define Auditory Implants, Vascular grafts.
+4j. Describe in brief Cochlear Implant.
+4k. Explain Caged-ball valve with neat
+diagram.
+4.1 Cardiovascular Implant:
+4.1.1 Vascular grafts,
+4.1.2 Heart valves:
+Mechanical (Caged-ball
+valve, Tilting disc valve and
+Bi-leaflet valve) and
+Biological (Xenografts
+(porcine and bovine),
+allografts or homografts),
+4.1.3 Cardiac assisting
+devices: LVAD
+4.1.4 Stent,
+4.1.5 Implantable pacemaker
+4.2 Optical Implants:
+4.2.1 Contact Lenses - Soft
+and Hard Lenses 4.2.2
+Disposable Lenses
+4.2.3 Intraocular Lenses
+(IOLS),
+4.3 Auditory Implant:
+Cochlear Implant
+Unit– V
+Dental Implant,
+Orthopedic
+Implant and
+Ecofriendly
+Biomaterial for
+Implants
+5a. Define Dental Implant and Orthopedic
+implant.
+5.b. Describe Endosteal Implants.
+5c. Describe total hip replacement in detail.
+5d. Describe Total knee replacement in detail.
+5e. Explain the choice of materials for
+implants can have significant environmental
+implications.
+5f. Explain the manufacturing processes
+involved in producing implants
+can contribute to environmental
+effects.
+5.1 Dental Implant:
+5.1.1. Endosteal Implants,
+5.1.2 Subperiosteal implants.
+5.2 Orthopedic implant:
+5.2.1 Total Hip replacement
+5.2.2 Total knee replacements
+5.3 Ecofriendly Biomaterial
+for Implants: choice of
+materials and manufacturing
+processes.
+9. SUGGESTED SPECIFICATION TABLE FOR QUESTIONPAPER DESIGN:
+Unit Title Distribution of Theory Marks
+
+-- 7 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 8 of 12
+Unit
+No.
+Teaching
+Hours
+R Level U
+Level
+A
+Level
+Total
+Marks
+I Introduction of Bio Materials and Implants 8 7 4 3 14
+II Metals and Ceramics 12 7 7 4 18
+III Polymers 6 3 7 0 10
+IV Cardiovascular implants, Optical implants
+and Auditory Implant. 8 3 4 7 14
+V Dental implants, Orthopedic implant and
+Ecofriendly Biomaterial for Implants. 8 3 4 7 14
+Total 42 23 26 21 70
+Legends: R=Remember, U=Understand, A=Apply and above (Revised Bloom’s taxonomy)
+Note: This specification table provides general guidelines to assist student for their learning and to
+teachers to teach and question paper designers/setters to formulate test items/questions to assess
+the attainment of the UOs. The actual distribution of marks at different taxonomy levels (of R, U
+and A) in the question paper may slightly vary from above table.
+10. SUGGESTED STUDENT ACTIVITIES
+Other than the classroom and laboratory learning, following are the suggested student-related
+cocurricular activities which can be undertaken to accelerate the attainment of the various
+outcomes in this course: Students should conduct following activities in group and prepare reports
+of about 5 pages for each activity, also collect/record physical evidences for their (student’s)
+portfolio which will be useful for their placement interviews:
+a) Prepare charts of different biomaterials of the body implant.
+b) Undertake micro-projects in teams for making working models of different implants.
+c) Seminar/Presentation on any relevant topic.
+d) Categorized various disorders commonly found in various organs and selected
+implants accordingly.
+11. SUGGESTED SPECIAL INSTRUCTIONAL STRATEGIES (if any)
+These are sample strategies, which the teacher can use to accelerate the attainment of the various
+outcomes in this course:
+a) Massive open online courses (MOOCs) may be used to teach various topics/sub topics.
+b) Guide student(s) in undertaking micro-projects.
+
+-- 8 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 9 of 12
+c) ‘L’ in section No. 4 means different types of teaching methods that are to be employed
+by teachers to develop the outcomes.
+d) About 20% of the topics/sub-topics which are relatively simpler or descriptive in
+nature is to be given to the students for self-learning, but to be assessed using
+different assessment methods.
+e) With respect to section No.10, teachers need to ensure to create opportunities and
+provisions for co-curricular activities.
+f) Guide students on how to address issues on environment and sustainability.
+g) Guide students for using instructional manuals.
+12. SUGGESTED PROJECT LIST
+Only one micro-project is planned to be undertaken by a student that needs to be assigned to
+him/her in the beginning of the semester. In the first four semesters, the micro-project are
+groupbased (group of 3 to 5). However, in the fifth and sixth semesters, the number of students in
+the group should not exceed three. The micro-project could be industry application based,
+internetbased, workshop-based, laboratory-based or field-based. Each micro-project should
+encompass two or more COs which are in fact, an integration of PrOs, UOs and ADOs. Each student
+will have to maintain a dated work diary consisting of individual contributions in the project work
+and give a seminar presentation of it before submission. The duration of the microproject should
+be about 14-16 (fourteen to sixteen) student engagement hours during the course. The students
+ought to submit micro-project by the end of the semester to develop the industry-oriented COs.
+A suggestive list of micro-projects is given here. This has to match the competency and the COs.
+Similar micro-projects could be added by the concerned course teacher:
+a. Prepare a chart to describe various Biomaterials.
+b. Prepare a chart or describe various types of Implants.
+c. Prepare a chart or model to describe inflammation process and concept of
+biocompatibility
+d. Design various implant by using open source designing software.
+e. Make a 3d model of dental implants
+f. Make a 3d model of Vascular implants
+g. Make a 3d model of Optical implants
+h. Make a 3d model of Orthopedic implants
+i. Prepare a chart for implant waste management
+j. Make a working model of cochlear implants
+13. SUGGESTED LEARNING RESOURCES
+
+-- 9 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 10 of 12
+Sr.
+No.
+Title of Book Author Publication with place, year
+and ISBN
+1 Biomaterials Sujata V. Bhatt, Second Edition, Narosa
+Publishing House, 2005
+2
+Biomaterials -
+Principles and
+Applications
+Joon B. Park Joseph D.
+Bronzino CRC Press, 2003
+3
+Biomaterials Medical
+Devices and Tissue
+Engineering
+Fredrick H. Silver
+Chapman and Hall
+London J.V. Park, Biomaterials
+Science and Engineering,
+Plenum Press, New York
+4
+Biomaterials Science-
+An introduction to
+materials in medicine
+Buddy D. Ratner, Allan
+S. Hoffman, Frederick
+j. Schoen, Jack E.
+Lemons
+Edition: Third Edition
+Publisher: Academic Press
+Publication Year: 2013
+Place of Publication:
+Burlington, MA, USA
+ISBN-13: 978-0123746269
+ISBN-10: 0123746264
+14. SOFTWARE/LEARNING WEBSITES
+https://nptel.ac.in/courses/102106057
+https://nptel.ac.in/courses/113108071
+15. PO-COMPETENCY-CO MAPPING:
+Semester VI Biomaterials & Implants (Course Code: 4630302)
+POs
+Competency
+& Course Outcomes
+PO 1 PO 2 PO 3 PO 4 PO 5
+Engineering
+practices for
+society,
+sustainability
+&
+
+-- 10 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 11 of 12
+ProbleDesign/ Engineering Basic & m
+developmeTools,
+Discipline Analysint of Experimentatio specific s
+solutions n &Testing knowledg
+e
+environment PO 6 PO 7
+Project
+ManagemeLifent
+long
+learnin g
+Competency Select appropriate bio-materials and implants as per requirement.
+I. Explain the
+concept and need
+of bio-materials,
+implants and bio
+compatibilities.
+3 1 1 1 - - 2
+ii. Recognize the
+types of various
+metals, alloys and
+ceramics used for
+implantation
+according to their
+formation and
+applications
+3 1 2 2 - -
+2
+iii. Describe the
+use of various
+polymers used for
+implantation.
+3 1 2 2 1 - 2
+iv.Identify
+different
+biomaterial uses
+for cardiovascular
+implant,
+optical
+implants and
+auditory implant.
+3 2 2 1 1 - 2
+
+-- 11 of 12 --
+
+Course Code:4360302
+GTU - COGC-2021 Curriculum
+Page 12 of 12
+v. Select
+appropriate
+biomaterial for
+Dental and
+Orthopedic
+Implant and also
+3 2 2 1 3 - 3
+Select effective
+method to discard
+implants.
+Legend: ‘3’ for high, ‘2’ for medium, ‘1’ for low and ‘-’ for no correlation of each CO with PO.
+16. COURSE CURRICULUM DEVELOPMENT COMMITTEE
+GTU Resource Persons
+Sr.
+No. Name and Designation Institute Contact
+No. Email
+1. Ms. Aarti R Dalwadi
+(Lecturer)
+GGP
+Ahmedabad 9099314217 ankitadalwadi98@gmail.com
+2. Ms. Poonam.G.Lakhani
+(Lecturer)
+GP
+Gandhinagar 9898645087 poonamlakhani.bm@polytechnic
+gnr.gujarat.gov.in
+
+-- 12 of 12 --
+

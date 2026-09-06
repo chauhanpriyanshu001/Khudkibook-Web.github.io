@@ -1,0 +1,26 @@
+{
+  "name": "khudkibook-web.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEO2708/Khudkibook-Web.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NEO2708/Khudkibook-Web.github.io/issues"
+  },
+  "homepage": "https://github.com/NEO2708/Khudkibook-Web.github.io#readme",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "express": "^5.2.1",
+    "pdf-parse": "^2.4.5"
+  }
+}

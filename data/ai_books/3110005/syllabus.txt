@@ -1,0 +1,140 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110005
+https://syllabus.gtu.ac.in/ Page 1
+Semester/Year : 1
+Category of the Course : Engineering Science
+Subject Name & Code : Basic Electrical Engineering (3110005)
+Prerequisite : NA
+Rationale : Electricity has been the main source of energy for the developing and developed countries.
+Per capita consumption of electricity of a country can be considered as an indicator of the development of
+the country. In view of this, it is essential for all engineering graduates to know the basic aspects of
+electrical engineering. This subject deals with basic circuit solution methods, introduction to electrical
+machines and basics of domestic electrical installations.
+Teaching and Examination Scheme :
+Teaching Scheme Credits Examination Marks Total
+Marks	L T P C Theory Marks Practical Marks
+ESE(E) PA (M) ESE (V) PA(I)
+3 0 2 4 70 30 30 20 150
+Content :
+Sr. No. Content Total
+Hrs % Weightage
+1 DC Circuits:
+Electrical circuit elements (R, L and C), voltage and current sources,
+Kirchoff’s current and voltage laws, analysis of simple circuits with dc
+excitation.
+Superposition, Thevenin and Norton Theorems.
+Time-domain analysis of first-order RL and RC circuits.
+8 20
+2 AC Circuits
+Representation of sinusoidal waveforms, peak and RMS values, Phasor
+representation of AC quantities, real power, reactive power, apparent
+power, power factor.
+Analysis of single-phase ac circuits consisting of R, L, C, RL, RC, RLC
+combinations (series and parallel),
+Series and parallel resonance.
+Three phase balanced circuits, voltage and current relations in star and
+delta connections, Power measurement in three phase circuits.
+10 25
+
+-- 1 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110005
+https://syllabus.gtu.ac.in/ Page 2
+3 Transformers
+Magnetic materials, BH characteristics.
+Construction and working principle of single phase and three phase
+transformers.
+Ideal and practical transformer.
+Auto-transformer and its applications.
+8 15
+4 Electrical Machines
+Generation of rotating magnetic fields.
+Construction and working of following machines:
+ Three-phase induction motor
+ Single-phase induction motor.
+ Separately excited DC motor.
+ Synchronous generators.
+8 20
+5 Electrical Installations
+Components of LT Switchgear: Switch Fuse Unit (SFU), MCB, ELCB,
+MCCB.
+Types of Wires and Cables.
+Earthing – Types of earthing and its importance. Safety precautions for
+electrical appliances.
+Types of Batteries, Important Characteristics for Batteries. Elementary
+calculations for energy consumption.
+Basics of power factor improvement.
+8 20
+Suggested Specification table with Marks (Theory) :
+Distribution of Theory Marks
+R Level U Level A Level N Level E Level C Level
+40 20 20 20 0 0
+Legends: R: Remembrance; U: Understanding; A: Application, N: Analyze and E: Evaluate C:
+Create and above Levels (Revised Bloom’s Taxonomy)
+Note: This specification table shall be treated as a general guideline for students and teachers. The
+actualdistribution of marks in the question paper may vary slightly from above table.
+
+-- 2 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110005
+https://syllabus.gtu.ac.in/ Page 3
+Reference Books :
+(i) D. C. Kulshreshtha, “Basic Electrical Engineering”, McGraw Hill, 2009.
+(ii) Basic Electrical Engineering - Nagsarkar and Sukhija, Oxford University Press
+(iii) B. L. Theraja, “Electrical Technology – Part I and II”, S. Chand and Co. 2012
+(iv) D. P. Kothari and I. J. Nagrath, “Basic Electrical Engineering”, Tata McGraw Hill, 2010.
+(v) L. S. Bobrow, “Fundamentals of Electrical Engineering”, Oxford University Press, 2011.
+(vi) E. Hughes, “Electrical and Electronics Technology”, Pearson, 2010.
+(vii) V. D. Toro, “Electrical Engineering Fundamentals”, Prentice Hall India, 1989.
+Course Outcomes :
+Sr. No. CO statement Marks % weightage
+CO-1 Apply fundamental electrical laws and circuit theorems to electrical
+circuits.
+20
+CO-2 Analyze single phase and three phase AC circuits. 25
+CO-3 Describe operating principle and applications of static and rotating
+electrical machines.
+35
+CO-4 Comprehend electrical installations, their protection and personnel
+safety.
+20
+List of Experiments :
+(1) Introduction and use of measuring instruments – voltmeter, ammeter, multi-meter,
+oscilloscope.Resistors, Capacitors and Inductors.
+(2) To verify the DC circuit currents and voltages by calculations and actual measurements.
+(3) To verify the Kirchoff’s current and voltage laws.
+(4) To verify the Network theorems.
+(5) To obtain sinusoidal steady state response of R-L and R-C circuits – impedance
+calculation andverification. Observation of phase differences between current and
+voltage.
+(6) Measuring the steady-state and transient time-response of R-L, R-C, and R-L-C circuits to
+a stepchange in voltage (transient may be observed on a Digital Storage Oscilloscope).
+(7) To verify the resonance in R-L-C circuits.
+(8) To measure the power in three phase circuits using two wattmeter method.
+(9) To verify the current and voltage relationships in three phase star and delta connections.
+(10) Demonstration of cut-section models and charts of various machines.
+(11) Demonstration of domestic installations like MCB, ELCB, MCCB etc.
+(12) Understanding of various safety precautions for electrical installations.
+(13) Demonstration of various types of wires and cables.
+(14) Understanding of various electricity bills and calculations for energy consumption.
+(15) To verify the power factor improvement in single phase AC circuit.
+
+-- 3 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110005
+https://syllabus.gtu.ac.in/ Page 4
+Major Equipment :
+Ammeters, Voltmeters, Wattmeters, Resistors, Capacitors and Inductors of appropriate rating.
+Multimeters,Digital storage oscilloscope, Cut section models/charts of various machines, Demo units
+for MCB, ELCB, MCCB etc, Samples of wires and cables. Charts for earthing and safety precautions.
+List of Open Source Software/learning website : www.vlabs.co.in
+
+-- 4 of 4 --
+

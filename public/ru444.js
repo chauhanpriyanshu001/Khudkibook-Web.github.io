@@ -29,7 +29,7 @@ var footerhtml = `
 </div>
 
 <div class="ftrh1"> Thank You </div>
-<div class="ftrh1"> <span>@2024 KhudKibook || </span> <a href="https://khudkibook.web.app/">HomePage</a> || <a href="https://khudkibook.web.app/privacypolicy.html">Privacy Policy</a> || <a href="https://khudkibook.web.app/termsofservice.html">Terms of Service</a></div>
+<div class="ftrh1"> <span>@2025 KhudKibook || </span> <a href="https://khudkibook.web.app/">HomePage</a> || <a href="https://khudkibook.web.app/privacypolicy.html">Privacy Policy</a> || <a href="https://khudkibook.web.app/termsofservice.html">Terms of Service</a></div>
 
 </div>
 `;

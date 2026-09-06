@@ -1,0 +1,1718 @@
+{
+  "programs": {
+    "BE": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - AERONAUTICAL ENGINEERING"
+        },
+        {
+          "code": "02",
+          "name": "02 - AUTOMOBILE ENGINEERING"
+        },
+        {
+          "code": "03",
+          "name": "03 - BIOMEDICAL ENGINEERING"
+        },
+        {
+          "code": "04",
+          "name": "04 - BIO-TECHNOLOGY"
+        },
+        {
+          "code": "05",
+          "name": "05 - CHEMICAL ENGINEERING"
+        },
+        {
+          "code": "06",
+          "name": "06 - CIVIL ENGINEERING"
+        },
+        {
+          "code": "07",
+          "name": "07 - COMPUTER ENGINEERING"
+        },
+        {
+          "code": "08",
+          "name": "08 - ELECTRICAL & ELECTRONICS ENGINEERING"
+        },
+        {
+          "code": "09",
+          "name": "09 - ELECTRICAL ENGINEERING"
+        },
+        {
+          "code": "10",
+          "name": "10 - ELECTRONICS ENGINEERING"
+        },
+        {
+          "code": "11",
+          "name": "11 - ELECTRONICS & COMMUNICATION ENGINEERING"
+        },
+        {
+          "code": "12",
+          "name": "12 - ELECTRONICS & TELECOMMUNICATION ENGINEERING"
+        },
+        {
+          "code": "13",
+          "name": "13 - ENVIRONMENTAL ENGINEERING"
+        },
+        {
+          "code": "14",
+          "name": "14 - FOOD PROCESSING TECHNOLOGY"
+        },
+        {
+          "code": "15",
+          "name": "15 - INDUSTRIAL ENGINEERING"
+        },
+        {
+          "code": "16",
+          "name": "16 - INFORMATION TECHNOLOGY"
+        },
+        {
+          "code": "17",
+          "name": "17 - INSTRUMENTATION & CONTROL ENGINEERING"
+        },
+        {
+          "code": "18",
+          "name": "18 - MARINE ENGINEERING"
+        },
+        {
+          "code": "19",
+          "name": "19 - MECHANICAL ENGINEERING"
+        },
+        {
+          "code": "20",
+          "name": "20 - MECHATRONICS ENGINEERING"
+        },
+        {
+          "code": "21",
+          "name": "21 - METALLURGY ENGINEERING"
+        },
+        {
+          "code": "22",
+          "name": "22 - MINING ENGINEERING"
+        },
+        {
+          "code": "23",
+          "name": "23 - PLASTIC TECHNOLOGY"
+        },
+        {
+          "code": "24",
+          "name": "24 - POWER ELECTRONICS"
+        },
+        {
+          "code": "25",
+          "name": "25 - PRODUCTION ENGINEERING"
+        },
+        {
+          "code": "26",
+          "name": "26 - RUBBER TECHNOLOGY"
+        },
+        {
+          "code": "28",
+          "name": "28 - TEXTILE PROCESSING"
+        },
+        {
+          "code": "29",
+          "name": "29 - TEXTILE TECHNOLOGY"
+        },
+        {
+          "code": "31",
+          "name": "31 - COMPUTER SCIENCE & ENGINEERING"
+        },
+        {
+          "code": "32",
+          "name": "32 - INFORMATION & COMMUNICATION TECHNOLOGY"
+        },
+        {
+          "code": "34",
+          "name": "34 - MANUFACTURING ENGINEERING"
+        },
+        {
+          "code": "35",
+          "name": "35 - ENVIRONMENTAL SCIENCE & TECHNOLOGY"
+        },
+        {
+          "code": "36",
+          "name": "36 - CHEMICAL TECHNOLOGY"
+        },
+        {
+          "code": "37",
+          "name": "37 - ENVIRONMENTAL SCIENCE AND ENGINEERING"
+        },
+        {
+          "code": "39",
+          "name": "39 - NANO TECHNOLOGY"
+        },
+        {
+          "code": "40",
+          "name": "40 - CIVIL & INFRASTRUCTURE ENGINEERING"
+        },
+        {
+          "code": "41",
+          "name": "41 - ROBOTICS AND AUTOMATION"
+        },
+        {
+          "code": "42",
+          "name": "42 - COMPUTER SCIENCE & ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)"
+        },
+        {
+          "code": "43",
+          "name": "43 - ARTIFICIAL INTELLIGENCE AND DATA SCIENCE"
+        },
+        {
+          "code": "44",
+          "name": "44 - CHEMICAL ENGINEERING (GREEN TECHNOLOGY & SUSTAINABILITY ENGINEERING)"
+        },
+        {
+          "code": "45",
+          "name": "45 - COMPUTER SCIENCE & ENGINEERING (INTERNET OF THINGS AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)"
+        },
+        {
+          "code": "46",
+          "name": "46 - COMPUTER SCIENCE & ENGINEERING (DATA SCIENCE)"
+        },
+        {
+          "code": "47",
+          "name": "47 - ELECTRONICS & INSTRUMENTATION ENGINEERING"
+        },
+        {
+          "code": "48",
+          "name": "48 - COMPUTER SCIENCE & ENGINEERING (CYBER SECURITY)"
+        },
+        {
+          "code": "49",
+          "name": "49 - COMPUTER SCIENCE & DESIGN"
+        },
+        {
+          "code": "50",
+          "name": "50 - SMART & SUSTAINABLE ENERGY"
+        },
+        {
+          "code": "51",
+          "name": "51 - FOOD ENGINEERING & TECHNOLOGY"
+        },
+        {
+          "code": "52",
+          "name": "52 - ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING"
+        },
+        {
+          "code": "53",
+          "name": "53 - PLASTICS ENGINEERING"
+        },
+        {
+          "code": "54",
+          "name": "54 - ELECTRONICS AND COMMUNICATION (COMMUNICATION SYSTEM ENGINEERING)"
+        },
+        {
+          "code": "89",
+          "name": "89 - MECHANICAL ENGINEERING"
+        },
+        {
+          "code": "AA",
+          "name": "AA - MINOR/HONORS -INDUSTRIAL PROCESS SAFETY"
+        },
+        {
+          "code": "AB",
+          "name": "AB - MINOR/HONORS -WASTE TECHNOLOGY"
+        },
+        {
+          "code": "AC",
+          "name": "AC - MINOR/HONORS -CONSTRUCTION TECHNOLOGY"
+        },
+        {
+          "code": "AD",
+          "name": "AD - MINOR/HONORS -NEXT GENERATION SMART VILLAGE"
+        },
+        {
+          "code": "AE",
+          "name": "AE - MINOR/HONORS -INFRASTRUCTURE ENGINEERING"
+        },
+        {
+          "code": "AF",
+          "name": "AF - MINOR/HONORS -SMART CITIES"
+        },
+        {
+          "code": "AG",
+          "name": "AG - MINOR/HONORS -ARTIFICIAL INTELLIGENCE & MACHINE LEARNING"
+        },
+        {
+          "code": "AH",
+          "name": "AH - MINOR/HONORS -CYBER SECURITY"
+        },
+        {
+          "code": "AI",
+          "name": "AI - MINOR/HONORS -INTERNET OF THINGS"
+        },
+        {
+          "code": "AJ",
+          "name": "AJ - MINOR/HONORS - SOLAR ENERGY SYSTEMS"
+        },
+        {
+          "code": "AK",
+          "name": "AK - MINOR/HONORS -ELECTRICAL AND COMPUTER"
+        },
+        {
+          "code": "AL",
+          "name": "AL - MINOR/HONORS -ELECTRIC VEHICLES"
+        },
+        {
+          "code": "AM",
+          "name": "AM - MINOR/HONORS -CONTROL SYSTEMS AND SENSORS TECHNOLOGY"
+        },
+        {
+          "code": "AN",
+          "name": "AN - MINOR/HONORS -3 D PRINTING"
+        },
+        {
+          "code": "AO",
+          "name": "AO - MINOR/HONORS -ROBOTICS"
+        },
+        {
+          "code": "AP",
+          "name": "AP - MINOR/HONORS -ENERGY ENGINEERING"
+        },
+        {
+          "code": "AQ",
+          "name": "AQ - MINOR/HONORS - GLOBAL CITIZENSHIP PERSONALITY DEVELOPMENT"
+        },
+        {
+          "code": "AR",
+          "name": "AR - MINOR/HONOURS-INDUSTRIAL BASED NON DESTRUCTIVE TECHNIQUES AND PRACTICES"
+        },
+        {
+          "code": "AS",
+          "name": "AS - MINOR/HONOURS-GREEN TECHNOLOGY AND SUSTAINABILITY ENGINEERING"
+        },
+        {
+          "code": "AT",
+          "name": "AT - MINOR/HONOURS-DATA SCIENCE"
+        },
+        {
+          "code": "AU",
+          "name": "AU - MINOR/HONOURS-FORENSIC STRUCTURAL ENGINEERING"
+        },
+        {
+          "code": "AV",
+          "name": "AV - MINOR/HONOURS-COMPUTER AIDED CIVIL ENGINEERING PROCESSES"
+        },
+        {
+          "code": "IAA",
+          "name": "IAA - INDUSTRY-MINOR/HONS.-ELECTRIC VEHICLES ( iACE by Maruti Suzuki )"
+        },
+        {
+          "code": "IAN",
+          "name": "IAN - INDUSTRY-MINOR/HONS.-ARTIFICIAL INTELLIGENCE & MACHINE LEARNING ( Infosys Springboard )"
+        },
+        {
+          "code": "IAO",
+          "name": "IAO - INDUSTRY-MINOR/HONS.-GEN AI SPECIALIST ( IBM Through Partner Etrain India Pvt. Ltd )"
+        },
+        {
+          "code": "IAP",
+          "name": "IAP - INDUSTRY-MINOR/HONS.-FULL STACK JAVA SPECIALIZATION ( IBM Through Partner Etrain India Pvt. Ltd )"
+        },
+        {
+          "code": "IAQ",
+          "name": "IAQ - INDUSTRY-MINOR/HONS.-CYBER SECURITY ( Infosys Springboard )"
+        },
+        {
+          "code": "IAR",
+          "name": "IAR - INDUSTRY-MINOR/HONS.-DATA SCIENCE ( Infosys Springboard )"
+        },
+        {
+          "code": "IAS",
+          "name": "IAS - INDUSTRY-MINOR/HONS.-MICROSOFT CLOUD & AI HONORS ( Microsoft Through partner CloudThat )"
+        },
+        {
+          "code": "IAT",
+          "name": "IAT - INDUSTRY-MINOR/HONS.-ELECTRIC VEHICLE ( TATA IIS )"
+        },
+        {
+          "code": "IAU",
+          "name": "IAU - INDUSTRY-MINOR/HONS.-INDUSTRIAL ROBOTICS(TATA IIS) ( TATA IIS )"
+        },
+        {
+          "code": "IAV",
+          "name": "IAV - INDUSTRY-MINOR/HONS.-INDUSTRIAL ADDITIVE MANUFACTURING(TATA IIS) ( TATA IIS )"
+        },
+        {
+          "code": "NA",
+          "name": "NA - ARMY"
+        },
+        {
+          "code": "NB",
+          "name": "NB - AIR FORCE"
+        },
+        {
+          "code": "NC",
+          "name": "NC - NAVY"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "DI": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - AERONAUTICAL ENGINEERING"
+        },
+        {
+          "code": "01",
+          "name": "01 - DIPLOMA IN AERONAUTICAL ENGINEERING"
+        },
+        {
+          "code": "02",
+          "name": "02 - AUTOMOBILE ENGINEERING"
+        },
+        {
+          "code": "03",
+          "name": "03 - BIOMEDICAL ENGINEERING"
+        },
+        {
+          "code": "05",
+          "name": "05 - CHEMICAL ENGINEERING"
+        },
+        {
+          "code": "06",
+          "name": "06 - CIVIL ENGINEERING"
+        },
+        {
+          "code": "07",
+          "name": "07 - COMPUTER ENGINEERING"
+        },
+        {
+          "code": "09",
+          "name": "09 - ELECTRICAL ENGINEERING"
+        },
+        {
+          "code": "11",
+          "name": "11 - ELECTRONICS AND COMMUNICATION ENGINEERING"
+        },
+        {
+          "code": "13",
+          "name": "13 - ENVIRONMENTAL ENGINEERING"
+        },
+        {
+          "code": "16",
+          "name": "16 - INFORMATION TECHNOLOGY"
+        },
+        {
+          "code": "17",
+          "name": "17 - INSTRUMENTATION AND CONTROL ENGINEERING"
+        },
+        {
+          "code": "18",
+          "name": "18 - DIPLOMA IN MARINE ENGINEERING"
+        },
+        {
+          "code": "18",
+          "name": "18 - MARINE ENGINEERING"
+        },
+        {
+          "code": "19",
+          "name": "19 - MECHANICAL ENGINEERING"
+        },
+        {
+          "code": "20",
+          "name": "20 - MECHATRONICS ENGINEERING"
+        },
+        {
+          "code": "21",
+          "name": "21 - METALLURGY ENGINEERING"
+        },
+        {
+          "code": "22",
+          "name": "22 - MINING ENGINEERING"
+        },
+        {
+          "code": "23",
+          "name": "23 - PLASTICS ENGINEERING"
+        },
+        {
+          "code": "24",
+          "name": "24 - POWER ELECTRONICS"
+        },
+        {
+          "code": "28",
+          "name": "28 - TEXTILE PROCESSING TECHNOLOGY"
+        },
+        {
+          "code": "29",
+          "name": "29 - TEXTILE MANUFACTURING TECHNOLOGY"
+        },
+        {
+          "code": "31",
+          "name": "31 - COMPUTER SCIENCE & ENGINEERING"
+        },
+        {
+          "code": "32",
+          "name": "32 - INFORMATION AND COMMUNICATION TECHNOLOGY"
+        },
+        {
+          "code": "34",
+          "name": "34 - DIPLOMA IN MECHANICAL(MANUFACTURING TECHNOLOGY)"
+        },
+        {
+          "code": "41",
+          "name": "41 - AUTOMATION AND ROBOTICS"
+        },
+        {
+          "code": "50",
+          "name": "50 - ARCHITECTURAL ASSISTANTSHIP"
+        },
+        {
+          "code": "51",
+          "name": "51 - COMPUTER AIDED COSTUME DESIGN & DRESS MAKING"
+        },
+        {
+          "code": "52",
+          "name": "52 - CERAMIC TECHNOLOGY"
+        },
+        {
+          "code": "53",
+          "name": "53 - COMMERCIAL ART"
+        },
+        {
+          "code": "54",
+          "name": "54 - COMMERCIAL PRACTICE"
+        },
+        {
+          "code": "55",
+          "name": "55 - FABRICATION TECHNOLOGY"
+        },
+        {
+          "code": "56",
+          "name": "56 - HOME SCIENCE"
+        },
+        {
+          "code": "58",
+          "name": "58 - PRINTING TECHNOLOGY"
+        },
+        {
+          "code": "59",
+          "name": "59 - TEXTILE DESIGNING"
+        },
+        {
+          "code": "60",
+          "name": "60 - TRANSPORTATION ENGINEERING"
+        },
+        {
+          "code": "61",
+          "name": "61 - FIRE TECHNOLOGY"
+        },
+        {
+          "code": "63",
+          "name": "63 - AGRICULTURAL ENGINEERING"
+        },
+        {
+          "code": "64",
+          "name": "64 - RENEWABLE ENERGY"
+        },
+        {
+          "code": "65",
+          "name": "65 - MECHANICAL ENGINEERING  (CAD/CAM)"
+        },
+        {
+          "code": "66",
+          "name": "66 - CYBER SYSTEM AND INFORMATION SECURITY"
+        },
+        {
+          "code": "67",
+          "name": "67 - ANIMATION AND MULTIMEDIA TECHNOLOGY"
+        },
+        {
+          "code": "68",
+          "name": "68 - FILM TECHNOLOGY AND TV PRODUCTION(CINEMATOGRAPHY)"
+        },
+        {
+          "code": "69",
+          "name": "69 - FASHION AND DESIGN"
+        },
+        {
+          "code": "70",
+          "name": "70 - FIRE TECHNOLOGY AND SAFETY"
+        },
+        {
+          "code": "71",
+          "name": "71 - ARTIFICIAL INTELLIGENCE (AI) AND MACHINE LEARNING"
+        },
+        {
+          "code": "81",
+          "name": "81 - CIVIL ENGINEERING (DLM)"
+        },
+        {
+          "code": "82",
+          "name": "82 - MECHANICAL ENGINEERING (DLM)"
+        },
+        {
+          "code": "83",
+          "name": "83 - ELECTRICAL ENGINEERING (DLM)"
+        },
+        {
+          "code": "NA",
+          "name": "NA - ARMY"
+        },
+        {
+          "code": "NB",
+          "name": "NB - AIR FORCE"
+        },
+        {
+          "code": "NC",
+          "name": "NC - NAVY"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "ME": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - COMPUTER (COMPUTER SCIENCE & ENGINEERING)"
+        },
+        {
+          "code": "02",
+          "name": "02 - COMPUTER ENGINEERING"
+        },
+        {
+          "code": "03",
+          "name": "03 - INSTRUMENTATION AND CONTROL(APPLIED INSTRUMENTATION)"
+        },
+        {
+          "code": "04",
+          "name": "04 - ELECTRONICS AND COMMUNICATION ENGINEERING"
+        },
+        {
+          "code": "05",
+          "name": "05 - ELECTRONICS AND COMMUNICATION (COMMUNICATION SYSTEM ENGINEERING)"
+        },
+        {
+          "code": "06",
+          "name": "06 - ELECTRONICS AND COMMUNICATION (COMMUNICATION ENGINEERING)"
+        },
+        {
+          "code": "07",
+          "name": "07 - ELECTRICAL ENGINEERING"
+        },
+        {
+          "code": "08",
+          "name": "08 - MECHANICAL (CAD/CAM)"
+        },
+        {
+          "code": "09",
+          "name": "09 - MECHANICAL (MACHINE DESIGN)"
+        },
+        {
+          "code": "10",
+          "name": "10 - MECHANICAL (CRYOGENIC ENGINEERING)"
+        },
+        {
+          "code": "11",
+          "name": "11 - MECHANICAL (I.C.ENGINE & AUTOMOBILE)"
+        },
+        {
+          "code": "12",
+          "name": "12 - CIVIL ( WATER RESOURCES MANAGEMENT)"
+        },
+        {
+          "code": "13",
+          "name": "13 - CIVIL (TRANSPORTATION ENGINEERING)"
+        },
+        {
+          "code": "14",
+          "name": "14 - CIVIL (CONSTRUCTION ENGINEERING AND MANAGEMENT)"
+        },
+        {
+          "code": "15",
+          "name": "15 - CIVIL (CASAD)"
+        },
+        {
+          "code": "16",
+          "name": "16 - CHEMICAL ENGINEERING (COMPUTER AIDED PROCESS DESIGN)"
+        },
+        {
+          "code": "17",
+          "name": "17 - ENVIRONMENTAL ENGINEERING"
+        },
+        {
+          "code": "18",
+          "name": "18 - ENVIRONMENTAL MANAGEMENT"
+        },
+        {
+          "code": "19",
+          "name": "19 - CIVIL (TRANSPORTATION SYSTEM ENGINEERING)"
+        },
+        {
+          "code": "20",
+          "name": "20 - CIVIL (STRUCTURAL ENGINEERING)"
+        },
+        {
+          "code": "21",
+          "name": "21 - MECHANICAL (THERMAL ENGINEERING)"
+        },
+        {
+          "code": "22",
+          "name": "22 - ELECTRONICS AND COMMUNICATION (DIGITAL COMMUNICATIONS)"
+        },
+        {
+          "code": "23",
+          "name": "23 - INFORMATION TECHNOLOGY"
+        },
+        {
+          "code": "24",
+          "name": "24 - PLASTIC ENGINEERING"
+        },
+        {
+          "code": "25",
+          "name": "25 - TEXTILE ENGINEERING"
+        },
+        {
+          "code": "26",
+          "name": "26 - ELECTRONICS AND COMMUNICATION (SIGNAL PROCESSING AND VLSI TECHNOLOGY)"
+        },
+        {
+          "code": "27",
+          "name": "27 - ELECTRONICS AND COMMUNICATION (WIRELESS COMMUNICATION SYSTEMS AND NETWORKS)"
+        },
+        {
+          "code": "28",
+          "name": "28 - MECHANICAL (PRODUCTION ENGINEERING)"
+        },
+        {
+          "code": "29",
+          "name": "29 - POWER ELECTRONICS"
+        },
+        {
+          "code": "30",
+          "name": "30 - CHEMICAL ENGINEERING"
+        },
+        {
+          "code": "31",
+          "name": "31 - BIOMEDICAL ENGINEERING"
+        },
+        {
+          "code": "32",
+          "name": "32 - CIVIL (COMPUTER AIDED STRUCTURAL ANALYSIS)"
+        },
+        {
+          "code": "33",
+          "name": "33 - CIVIL (WATER RESOURCE ENGINEERING)"
+        },
+        {
+          "code": "34",
+          "name": "34 - MECHANICAL (THERMAL SCIENCE)"
+        },
+        {
+          "code": "35",
+          "name": "35 - MECHANICAL (AUTOMOBILE ENGINEERING)"
+        },
+        {
+          "code": "36",
+          "name": "36 - ME ELECTRICAL (AUTOMATION AND CONTROL POWER SYSTEM)"
+        },
+        {
+          "code": "37",
+          "name": "37 - ELECTRICAL (POWER SYSTEM ENGINEERING)"
+        },
+        {
+          "code": "38",
+          "name": "38 - COMPUTER (COMPUTER SCIENCE & TECHNOLOGY)"
+        },
+        {
+          "code": "39",
+          "name": "39 - MECHANICAL (ENERGY ENGINEERING)"
+        },
+        {
+          "code": "40",
+          "name": "40 - RUBBER ENGINEERING"
+        },
+        {
+          "code": "41",
+          "name": "41 - ELECTRONICS AND COMMUNICATION (SIGNAL PROCESSING & COMMUNICATION)"
+        },
+        {
+          "code": "42",
+          "name": "42 - ELECTRONICS AND COMMUNICATION (VLSI SYSTEM DESIGN)"
+        },
+        {
+          "code": "43",
+          "name": "43 - CIVIL (GEOTECHNICAL ENGINEERING)"
+        },
+        {
+          "code": "44",
+          "name": "44 - ELECTRONICS AND COMMUNICATION (WIRELESS COMMUNICATION TECHNOLOGY)"
+        },
+        {
+          "code": "45",
+          "name": "45 - ELECTRICAL (POWER ELECTRONICS & ELECTRICAL DRIVES)"
+        },
+        {
+          "code": "46",
+          "name": "46 - MECHANICAL (INDUSTRIAL ENGINEERING)"
+        },
+        {
+          "code": "47",
+          "name": "47 - MECHATRONICS"
+        },
+        {
+          "code": "48",
+          "name": "48 - TOWN AND COUNTRY PLANNING"
+        },
+        {
+          "code": "49",
+          "name": "49 - CONSTRUCTION MANAGEMENT"
+        },
+        {
+          "code": "50",
+          "name": "50 - ADVANCED MANUFACTURING SYSTEMS"
+        },
+        {
+          "code": "51",
+          "name": "51 - COMPUTER ENGINEERING (IT SYSTEMS AND NETWORK SECURITY)"
+        },
+        {
+          "code": "52",
+          "name": "52 - ELECTRONICS AND COMMUNICATION (VLSI & EMBEDDED SYSTEMS DESIGN)"
+        },
+        {
+          "code": "53",
+          "name": "53 - COMPUTER ENGINEERING (WIRELESS & MOBILE COMPUTING)"
+        },
+        {
+          "code": "54",
+          "name": "54 - ELECTRONICS AND COMMUNICATION (EMBEDDED SYSTEM)"
+        },
+        {
+          "code": "55",
+          "name": "55 - COMPUTER ENGINEERING (HIGH PERFORMANCE COMPUTING)"
+        },
+        {
+          "code": "56",
+          "name": "56 - COMPUTER ENGINEERING (SYSTEMS AND NETWORK SECURITY)"
+        },
+        {
+          "code": "59",
+          "name": "59 - CYBER SECURITY"
+        },
+        {
+          "code": "60",
+          "name": "60 - ELECTRONICS AND COMMUNICATION ENGINEERING (MOBILE COMMUNICATION AND NETWORK TECHNOLOGY)"
+        },
+        {
+          "code": "61",
+          "name": "61 - EC (VLSI AND EMBEDDED SYSTEMS)"
+        },
+        {
+          "code": "62",
+          "name": "62 - INTERNET OF THINGS"
+        },
+        {
+          "code": "63",
+          "name": "63 - VLSI DESIGN"
+        },
+        {
+          "code": "64",
+          "name": "64 - ELECTRIC VEHICLE TECHNOLOGY"
+        },
+        {
+          "code": "65",
+          "name": "65 - CIVIL ENGINEERING"
+        },
+        {
+          "code": "66",
+          "name": "66 - ADVANCED MANUFACTURING TECHNOLOGY"
+        },
+        {
+          "code": "67",
+          "name": "67 - APPLIED INSTRUMENTATION"
+        },
+        {
+          "code": "68",
+          "name": "68 - CAD/CAM"
+        },
+        {
+          "code": "69",
+          "name": "69 - CIVIL ENGINEERING(TRANSPORTATION ENGINEERING)"
+        },
+        {
+          "code": "70",
+          "name": "70 - COMPUTER AIDED DESIGN AND MANUFACTURE"
+        },
+        {
+          "code": "71",
+          "name": "71 - COMPUTER AIDED DESIGN MANUFACTURE AND ENGINEERING"
+        },
+        {
+          "code": "72",
+          "name": "72 - COMPUTER AIDED PROCESS DESIGN"
+        },
+        {
+          "code": "73",
+          "name": "73 - COMPUTER ENGINEERING(SOFTWARE ENGINEERING)"
+        },
+        {
+          "code": "74",
+          "name": "74 - CRYOGENIC ENGINEERING"
+        },
+        {
+          "code": "75",
+          "name": "75 - ENERGY ENGINEERING"
+        },
+        {
+          "code": "76",
+          "name": "76 - GEOTECHNICAL ENGINEERING"
+        },
+        {
+          "code": "77",
+          "name": "77 - INFORMATION TECHNOLOGY(INFORMATION AND CYBER WARFARE)"
+        },
+        {
+          "code": "78",
+          "name": "78 - MACHINE DESIGN"
+        },
+        {
+          "code": "79",
+          "name": "79 - MECHANICAL ENGINEERING"
+        },
+        {
+          "code": "80",
+          "name": "80 - MECHANICAL(I.C. ENGINE AND AUTOMOBILE ENGINEERING)"
+        },
+        {
+          "code": "81",
+          "name": "81 - MECHANICAL ENGINEERING(CAD/CAM)"
+        },
+        {
+          "code": "82",
+          "name": "82 - MECHANICAL ENGINEERING(PRODUCTION)"
+        },
+        {
+          "code": "83",
+          "name": "83 - MECHANICAL ENGINEERING(THERMAL ENGINEERING)"
+        },
+        {
+          "code": "84",
+          "name": "84 - PLASTICS ENGINEERING"
+        },
+        {
+          "code": "85",
+          "name": "85 - POWER ELECTRONICS AND ELECTRICAL DRIVES"
+        },
+        {
+          "code": "86",
+          "name": "86 - POWER SYSTEMS"
+        },
+        {
+          "code": "87",
+          "name": "87 - PRODUCTION ENGINEERING"
+        },
+        {
+          "code": "88",
+          "name": "88 - RUBBER TECHNOLOGY"
+        },
+        {
+          "code": "89",
+          "name": "89 - STRUCTURAL ENGINEERING"
+        },
+        {
+          "code": "94",
+          "name": "94 - ME (MECH) ARMAMENT ENGINEERING"
+        },
+        {
+          "code": "95",
+          "name": "95 - ARTIFICIAL INTELLIGENCE AND DATA SCIENCE"
+        },
+        {
+          "code": "96",
+          "name": "96 - ELECTRONICS AND COMMUNICATION(VLSI DESIGN)"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "EP": {
+      "branches": [
+        {
+          "code": "06",
+          "name": "06 - CIVIL ENGINEERING"
+        },
+        {
+          "code": "09",
+          "name": "09 - ELECTRICAL ENGINEERING"
+        },
+        {
+          "code": "11",
+          "name": "11 - ELECTRONICS & COMMUNICATION ENGINEERING"
+        },
+        {
+          "code": "19",
+          "name": "19 - MECHANICAL ENGINEERING"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "BI": {
+      "branches": [
+        {
+          "code": "51",
+          "name": "51 - INTERIOR DESIGN"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "BL": {
+      "branches": [
+        {
+          "code": "55",
+          "name": "55 - BACHELOR OF PLANNING"
+        }
+      ],
+      "sems": []
+    },
+    "BS": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - BIOTECHNOLOGY"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "BA": {
+      "branches": [
+        {
+          "code": "50",
+          "name": "50 - ARCHITECTURE"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    "BB": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - BACHELOR OF BUSINESS ADMINISTRATION"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "BC": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - BACHELOR OF COMPUTER APPLICATIONS"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "BN": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - COMMUNICATION DESIGN"
+        },
+        {
+          "code": "02",
+          "name": "02 - DESIGN"
+        },
+        {
+          "code": "03",
+          "name": "03 - INDUSTRIAL DESIGN"
+        },
+        {
+          "code": "04",
+          "name": "04 - TEXTILE DESIGN"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "BH": {
+      "branches": [
+        {
+          "code": "30",
+          "name": "30 - HOTEL MANAGEMENT & CATERING TECHNOLOGY"
+        },
+        {
+          "code": "33",
+          "name": "33 - HOSPITALITY AND TOURISM ADMINISTRATION"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "BP": {
+      "branches": [
+        {
+          "code": "90",
+          "name": "90 - PHARMACY"
+        },
+        {
+          "code": "NA",
+          "name": "NA - ARMY"
+        },
+        {
+          "code": "NB",
+          "name": "NB - AIR FORCE"
+        },
+        {
+          "code": "NC",
+          "name": "NC - NAVY"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "BV": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - AUTOMOBILE SERVICING"
+        },
+        {
+          "code": "02",
+          "name": "02 - SOFTWARE DEVELOPMENT"
+        },
+        {
+          "code": "03",
+          "name": "03 - PRODUCTION TECHNOLOGY"
+        },
+        {
+          "code": "04",
+          "name": "04 - REFRIGERATION AND AIR CONDITIONING"
+        },
+        {
+          "code": "05",
+          "name": "05 - INFORMATION TECHNOLOGY"
+        },
+        {
+          "code": "06",
+          "name": "06 - ENTREPRENEURSHIP DEVELOPMENT"
+        },
+        {
+          "code": "07",
+          "name": "07 - SOLAR AND RENEWABLE ENERGY"
+        },
+        {
+          "code": "08",
+          "name": "08 - PRACTICAL ACCOUNTING AND TAX (DPATP) & TALLY"
+        },
+        {
+          "code": "09",
+          "name": "09 - FOOD PROCESSING AND QUALITY CONTROL"
+        },
+        {
+          "code": "21",
+          "name": "21 - BANKING FINANCIAL SERVICES AND INSURANCE"
+        },
+        {
+          "code": "22",
+          "name": "22 - SALES & MARKETING MANAGEMENT"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "DA": {
+      "branches": [
+        {
+          "code": "62",
+          "name": "62 - DIPLOMA IN ARCHITECTURE"
+        },
+        {
+          "code": "63",
+          "name": "63 - DIPLOMA IN ARCHITECTURE"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "DP": {
+      "branches": [
+        {
+          "code": "91",
+          "name": "91 - DIPLOMA PHARMACY"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2"
+      ]
+    },
+    "DV": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - AUTOMOBILE SERVICING"
+        },
+        {
+          "code": "02",
+          "name": "02 - SOFTWARE DEVELOPMENT"
+        },
+        {
+          "code": "04",
+          "name": "04 - REFRIGERATION AND AIR CONDITIONING"
+        },
+        {
+          "code": "06",
+          "name": "06 - ARCHITECTURE ASSISTANTSHIP"
+        },
+        {
+          "code": "08",
+          "name": "08 - ELECTRICAL WIRING"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "MB": {
+      "branches": [
+        {
+          "code": "90",
+          "name": "90 - International Business (Online)"
+        },
+        {
+          "code": "92",
+          "name": "92 - MBA"
+        },
+        {
+          "code": "93",
+          "name": "93 - MBA(INTERNATIONAL BUSINESS)"
+        },
+        {
+          "code": "94",
+          "name": "94 - MBA (INNOVATION, ENTREPRENEURSHIP AND VENTURE DEVELOPMENT)"
+        },
+        {
+          "code": "95",
+          "name": "95 - FINANCIAL MANAGEMENT"
+        },
+        {
+          "code": "96",
+          "name": "96 - INFORMATION TECHNOLOGY"
+        },
+        {
+          "code": "97",
+          "name": "97 - MBA(LOGISTICS AND SUPPLY CHAIN MANAGEMENT)"
+        },
+        {
+          "code": "98",
+          "name": "98 - MBA (FINTECH)"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "MC": {
+      "branches": [
+        {
+          "code": "93",
+          "name": "93 - MCA"
+        },
+        {
+          "code": "94",
+          "name": "94 - MCA"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "IC": {
+      "branches": [
+        {
+          "code": "86",
+          "name": "86 - MCA INTEGRATED"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    "MP": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - PHARMACEUTICAL CHEMISTRY"
+        },
+        {
+          "code": "02",
+          "name": "02 - PHARMACEUTICAL TECHNOLOGY AND PHARMACEUTICS"
+        },
+        {
+          "code": "03",
+          "name": "03 - PHARMACOLOGY"
+        },
+        {
+          "code": "04",
+          "name": "04 - QUALITY ASSURANCE"
+        },
+        {
+          "code": "05",
+          "name": "05 - PHARMACOGNOSY"
+        },
+        {
+          "code": "06",
+          "name": "06 - CLINICAL PHARMACY"
+        },
+        {
+          "code": "07",
+          "name": "07 - PHARMACEUTICAL ANALYSIS"
+        },
+        {
+          "code": "08",
+          "name": "08 - PHARMACEUTICS"
+        },
+        {
+          "code": "09",
+          "name": "09 - PHARMACEUTICAL QUALITY ASSURANCE"
+        },
+        {
+          "code": "10",
+          "name": "10 - PHARMACEUTICAL TECHNOLOGY"
+        },
+        {
+          "code": "11",
+          "name": "11 - PHARMACOLOGY AND TOXICOLOGY"
+        },
+        {
+          "code": "12",
+          "name": "12 - INDUSTRIAL PHARMACY"
+        },
+        {
+          "code": "13",
+          "name": "13 - QUALITY ASSURANCE TECHNIQUE"
+        },
+        {
+          "code": "14",
+          "name": "14 - MEDICAL CHEMISTRY"
+        },
+        {
+          "code": "15",
+          "name": "15 - QUALITY ASSURANCE AND PHARM REGULATORY AFFAIRS"
+        },
+        {
+          "code": "16",
+          "name": "16 - PHARMACEUTICAL MANAGEMENT AND REGULATORY AFFAIRS"
+        },
+        {
+          "code": "20",
+          "name": "20 - PHARMACEUTICS"
+        },
+        {
+          "code": "21",
+          "name": "21 - INDUSTRIAL PHARMACY"
+        },
+        {
+          "code": "22",
+          "name": "22 - PHARMACEUTICAL CHEMISTRY"
+        },
+        {
+          "code": "23",
+          "name": "23 - PHARMACEUTICAL ANALYSIS"
+        },
+        {
+          "code": "24",
+          "name": "24 - PHARMACEUTICAL QUALITY ASSURANCE"
+        },
+        {
+          "code": "25",
+          "name": "25 - PHARMACOLOGY"
+        },
+        {
+          "code": "26",
+          "name": "26 - PHARMACOGNOSY"
+        },
+        {
+          "code": "27",
+          "name": "27 - PHARMACEUTICAL REGULATORY AFFAIRS"
+        },
+        {
+          "code": "28",
+          "name": "28 - PHARMACEUTICAL TECHNOLOGY"
+        },
+        {
+          "code": "29",
+          "name": "29 - CLINICAL PHARMACY"
+        },
+        {
+          "code": "30",
+          "name": "30 - PHARMACY PRACTICE"
+        },
+        {
+          "code": "31",
+          "name": "31 - PHYTOPHARMACY AND PHYTOMEDICINE"
+        },
+        {
+          "code": "32",
+          "name": "32 - REGULATORY AFFAIRS"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "FD": {
+      "branches": [
+        {
+          "code": "88",
+          "name": "88 - PHARMACY"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "PB": {
+      "branches": [
+        {
+          "code": "89",
+          "name": "89 - PHARM D (PB)"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "MR": {
+      "branches": [
+        {
+          "code": "61",
+          "name": "61 - SUSTAINABLE ARCHITECTURE"
+        },
+        {
+          "code": "62",
+          "name": "62 - INTERIOR ARCHITECTURE"
+        },
+        {
+          "code": "63",
+          "name": "63 - MASTER OF ARCHITECTURE"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "MH": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - Master of Arts in Hindu Studies"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "MN": {
+      "branches": [],
+      "sems": [
+        "Sem",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "MA": {
+      "branches": [
+        {
+          "code": "71",
+          "name": "71 - INTEGRATED MBA (IMBA)"
+        },
+        {
+          "code": "85",
+          "name": "85 - MBA APPLIED MANAGEMENT (MAM)"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    "MV": {
+      "branches": [
+        {
+          "code": "99",
+          "name": "99 - MBA-PARTTIME"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "PH": {
+      "branches": [
+        {
+          "code": "01",
+          "name": "01 - PHARMACY"
+        },
+        {
+          "code": "02",
+          "name": "02 - COMPUTER SCIENCE"
+        },
+        {
+          "code": "03",
+          "name": "03 - MANAGEMENT"
+        },
+        {
+          "code": "04",
+          "name": "04 - HUMANITY-ENGLISH"
+        },
+        {
+          "code": "05",
+          "name": "05 - SCIENCE-CHEMISTRY"
+        },
+        {
+          "code": "06",
+          "name": "06 - SCIENCE-MATHEMATICS"
+        },
+        {
+          "code": "07",
+          "name": "07 - SCIENCE-PHYSICS"
+        },
+        {
+          "code": "08",
+          "name": "08 - ARCHITECTURE"
+        },
+        {
+          "code": "09",
+          "name": "09 - ARMAMENT ENGINEERING"
+        },
+        {
+          "code": "10",
+          "name": "10 - BIOTECHNOLOGY"
+        },
+        {
+          "code": "11",
+          "name": "11 - CHEMICAL ENGINEERING"
+        },
+        {
+          "code": "12",
+          "name": "12 - CIVIL ENGINEERING"
+        },
+        {
+          "code": "13",
+          "name": "13 - COMPUTER/IT ENGINEERING"
+        },
+        {
+          "code": "14",
+          "name": "14 - ELECTRICAL ENGINEERING"
+        },
+        {
+          "code": "15",
+          "name": "15 - ELECTRONICS AND COMMUNICATION ENGINEERING"
+        },
+        {
+          "code": "16",
+          "name": "16 - ENVIRONMENT ENGINEERING"
+        },
+        {
+          "code": "17",
+          "name": "17 - INSTRUMENTATION AND CONTROL ENGINEERING"
+        },
+        {
+          "code": "18",
+          "name": "18 - BIOMEDICAL ENGINEERING"
+        },
+        {
+          "code": "19",
+          "name": "19 - MECHANICAL ENGINEERING"
+        },
+        {
+          "code": "20",
+          "name": "20 - TEXTILE ENGINEERING"
+        },
+        {
+          "code": "21",
+          "name": "21 - METALLURGY ENGINEERING"
+        }
+      ],
+      "sems": [
+        "Sem",
+        "1"
+      ]
+    }
+  }
+}

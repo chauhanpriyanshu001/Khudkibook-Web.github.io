@@ -149,20 +149,25 @@
 
 const modalButtons = document.querySelectorAll(".mdbtn");
 
-// Loop through each modal button
 modalButtons.forEach((button) => {
-  // Add event listener to button
   button.addEventListener("click", () => {
-    // Get the modal ID from the data-modal-id attribute
     const modalId = button.getAttribute("data-modal-id");
-    // Get the modal element
+    if (!modalId) return;
     const modal = document.getElementById(modalId);
-    // Show the modal
-    modal.style.display = "block";
-    // Add event listener to close button
-    modal.querySelector(".mc718293").addEventListener("click", () => {
-      // Hide the modal
-      modal.style.display = "none";
-    });
+    if (!modal) return;
+    modal.style.display = "flex";
+    const closeBtn = modal.querySelector(".mc718293");
+    if (closeBtn && !closeBtn.dataset.bound) {
+      closeBtn.dataset.bound = "1";
+      closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+      });
+    }
   });
-})
+});
+
+document.querySelectorAll(".m741852").forEach((backdrop) => {
+  backdrop.addEventListener("click", (e) => {
+    if (e.target === backdrop) backdrop.style.display = "none";
+  });
+});

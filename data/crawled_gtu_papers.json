@@ -1,0 +1,46 @@
+[
+  {
+    "subjectCode": "4300001",
+    "session": "S2024",
+    "extype": "DI",
+    "year": "2024",
+    "label": "Summer 2024 Exam Paper",
+    "link": "https://gtu.ac.in/uploads/S2024/DI/4300001.pdf",
+    "type": "paper",
+    "verified": true,
+    "scrapedAt": "2026-09-01T11:41:41.097Z"
+  },
+  {
+    "subjectCode": "4300001",
+    "session": "S2024",
+    "extype": "DI",
+    "year": "2024",
+    "label": "Summer 2024 Exam Paper",
+    "link": "https://gtu.ac.in/uploads/S2024/DI/C4300001.pdf",
+    "type": "paper",
+    "verified": true,
+    "scrapedAt": "2026-09-01T11:41:41.119Z"
+  },
+  {
+    "subjectCode": "4300001",
+    "session": "W2024",
+    "extype": "DI",
+    "year": "2024",
+    "label": "Winter 2024 Exam Paper",
+    "link": "https://gtu.ac.in/uploads/W2024/DI/4300001.pdf",
+    "type": "paper",
+    "verified": true,
+    "scrapedAt": "2026-09-01T11:41:44.169Z"
+  },
+  {
+    "subjectCode": "4300001",
+    "session": "W2024",
+    "extype": "DI",
+    "year": "2024",
+    "label": "Winter 2024 Exam Paper",
+    "link": "https://gtu.ac.in/uploads/W2024/DI/C4300001.pdf",
+    "type": "paper",
+    "verified": true,
+    "scrapedAt": "2026-09-01T11:41:44.253Z"
+  }
+]

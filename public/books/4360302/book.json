@@ -1,0 +1,89 @@
+{
+ "code": "4360302",
+ "subject": "Biomaterials & Implants",
+ "branchLabel": "Diploma Electrical Engineering",
+ "subjectPage": "/electrical/sem6/biomaterials-and-implants.html",
+ "units": [
+  {
+   "n": 1,
+   "label": "Unit – I: Introduction of Biomaterials and Implants",
+   "file": "unit-1.html",
+   "guFile": null,
+   "words": 3452,
+   "readingMin": 19,
+   "marks": "14 marks in the end-semester exam (7 Remember + 4 Understand + 3 Apply)"
+  },
+  {
+   "n": 2,
+   "label": "Unit – I: Introduction of Biomaterials and Implants",
+   "file": "unit-2.html",
+   "guFile": null,
+   "words": 3452,
+   "readingMin": 19,
+   "marks": "14 marks in the end-semester exam (7 Remember + 4 Understand + 3 Apply)"
+  },
+  {
+   "n": 3,
+   "label": "Unit – I: Introduction of Biomaterials and Implants",
+   "file": "unit-3.html",
+   "guFile": null,
+   "words": 3327,
+   "readingMin": 18,
+   "marks": "14 marks in the end-semester exam (7 Remember + 4 Understand + 3 Apply)"
+  },
+  {
+   "n": 4,
+   "label": "Unit – I: Introduction of Biomaterials and Implants",
+   "file": "unit-4.html",
+   "guFile": null,
+   "words": 3062,
+   "readingMin": 17,
+   "marks": "14 marks in the end-semester exam (7 Remember + 4 Understand + 3 Apply)"
+  },
+  {
+   "n": 5,
+   "label": "Unit – I: Introduction of Biomaterials and Implants",
+   "file": "unit-5.html",
+   "guFile": null,
+   "words": 3258,
+   "readingMin": 18,
+   "marks": "14 marks in the end-semester exam (7 Remember + 4 Understand + 3 Apply)"
+  }
+ ],
+ "title": "Biomaterials & Implants",
+ "titleGu": "Biomaterials & Implants",
+ "pages": [
+  {
+   "n": 1,
+   "file": "unit-1.html",
+   "marks": "14 marks (7 Remember + 4 Understand + 3 Apply)",
+   "hours": 8
+  },
+  {
+   "n": 2,
+   "file": "unit-2.html",
+   "marks": "18 marks (7 Remember + 7 Understand + 4 Apply)",
+   "hours": 12
+  },
+  {
+   "n": 3,
+   "file": "unit-3.html",
+   "marks": "10 marks (3 Remember + 7 Understand + 0 Apply)",
+   "hours": 6
+  },
+  {
+   "n": 4,
+   "file": "unit-4.html",
+   "marks": "14 marks (3 Remember + 4 Understand + 7 Apply)",
+   "hours": 8
+  },
+  {
+   "n": 5,
+   "file": "unit-5.html",
+   "marks": "14 marks (3 Remember + 4 Understand + 7 Apply)",
+   "hours": 8
+  }
+ ],
+ "full": "full-book.html",
+ "updatedAt": "2026-09-05T23:09:12.103Z"
+}

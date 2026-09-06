@@ -1,0 +1,118 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110007
+https://syllabus.gtu.ac.in/ Page 1
+Semester/Year : 1
+Category of the Course : Mandatory Course
+Subject Name & Code : Environmental Science (3110007)
+Type of course : Engineering Science
+Prerequisite : Interest in natural systems sustaining the life on the earth.
+Rationale : To inculcate the environmental values translating into pro-conservation actions. Honorable
+Supreme Court of India has made it 'mandatory’ to introduce a basic course on environment at the
+undergraduate level.
+Teaching and Examination Scheme :
+Teaching Scheme Credits Examination Marks Total
+Marks	L T P C Theory Marks Practical Marks
+ESE(E) PA (M) ESE (V) PA(I)
+2 2 0 0 70 30 0 0 100
+Content:
+Sr. No. Content Total
+Hrs % Weightage
+1
+INTRODUCTION TO ENVIRONMENT
+Definition, principles and scope of Environmental Science. Impacts
+of
+technology on Environment, Environmental Degradation, Importance
+for different engineering disciplines
+02 8 %
+
+-- 1 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110007
+https://syllabus.gtu.ac.in/ Page 2
+2
+ENVIRONMENTAL POLLUTION
+a) Water Pollution: Introduction – Water Quality Standards, Sources of
+Water Pollution, Classification of water pollutants, Effects of water
+pollutants
+b) Air Pollution: Composition of air, Structure of atmosphere, Ambient
+Air Quality Standards, Classification of air pollutants, Sources of
+common air pollutants like PM, SO2, NOX, Auto exhaust, Effects of
+common air pollutants
+c) Noise Pollution: Introduction, Sound and Noise, Noise
+measurements, Causes and Effects
+d) Solid Waste: Generation and management
+e) Bio-medical Waste: Generation and management
+f) E-waste: Generation and management
+14 44 %
+3
+GLOBAL ENVIRONMENTAL ISSUES
+Sustainable Development, Climate Change, Global Warming and
+Green House Effect, Acid Rain, Depletion of Ozone layer, Carbon
+Footprint, Cleaner Development Mechanism (CDM), International
+Steps for Mitigating Global Change
+06 24 %
+4
+Basic Concepts of Green Building & Smart Cities :
+Green Building : Introduction, Objectives, Fundamental Principles,
+Benefits of Green Buildings, Example of Green Buildings, Smart Cities
+Concepts.
+04 16 %
+5 Concept of 4R’s : Principles, Application of 4R’s. 02 8 %
+Suggested Specification table with Marks (Theory) :
+Distribution of Theory
+Marks
+R Level U Level A Level N Level E Level C Level
+40 40 20 0 0 0
+Legends : R: Remembrance; U: Understanding; A: Application, N: Analyze and E: Evaluate
+C: Create andabove Levels (Revised Bloom’s Taxonomy)
+Note : This specification table shall be treated as a general guideline for students and teachers. The
+actualdistribution of marks in the question paper may vary slightly from above table.
+
+-- 2 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+BACHELOR OF ENGINEERING SYLLABUS
+1st Year, Subject Code : 3110007
+https://syllabus.gtu.ac.in/ Page 3
+Reference Books :
+1. Textbook of Environmental Studies for Undergraduate Courses by Erach Bharucha
+Secondedition,2013 Publisher: Universities Press (India) Private Ltd, Hyderabad.
+2. Basics of Environmental Studies by Prof Dr N S Varandani ,2013 Publisher: LAP -
+LambertAcademic Publishing , Germany
+3. Environmental Studies by Anindita Basak ,2009 Publisher: Drling Kindersley(India)Pvt.
+LtdPearson
+4. Textbook of Environmental Studies by Deeksha Dave & S S Kateva , Cengage Publishers.
+5. Environmental Sciences by Daniel B Botkin & Edward A Keller Publisher: John Wiley
+&Sons.
+6. Environmental Studies by R. Rajagopalan, Oxford University Press
+7. Environmental Studies by Benny Joseph, TMH publishers
+8. Environmental Studies by Dr. Suresh K Dhameja, 2007 Published by : S K Kataria &
+SonsNew Delhi
+9. Basics of Environmental Studies by U K Khare, 2011 Published by Tata McGraw Hill
+Course Outcome :
+Sr.
+No. CO statement Marks %
+weightage
+CO-1 Identify the types of pollution in society along with their sources 45
+CO-2 Realize the global environmental issues 25
+CO-3 Conceptualize the principles of Green Buildings and Smart cities 15
+CO-4 Implement the concept of recycle and reuse in all fields of engineering 15
+List of Tutorials : Based on
+1. Introduction to Environment
+2. Water Pollution
+3. Air Pollution
+4. Noise Pollution
+5. Solid Waste
+6. Bio-medical Waste
+7. E-waste
+8. Global Environmental Issues
+9. Concept of Green Building
+10. Concept of Smart Cities
+11. Concept of 4R’s
+List of Open Source Software/learning website : MOEF, NPTEL
+
+-- 3 of 3 --
+

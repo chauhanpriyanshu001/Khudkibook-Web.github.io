@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khudkibook | Private Admin Panel</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>Khudkibook Admin</h1>
+                <p style="color: var(--text-muted);">Manage your static web ecosystem.</p>
+            </div>
+            <div class="actions">
+                <a href="/" target="_blank" class="secondary-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:8px;"><i class="fas fa-external-link-alt"></i> View Site</a>
+                <button id="save-btn" class="secondary-btn"><i class="fas fa-save"></i> Save Changes</button>
+                <button id="crawler-btn" class="secondary-btn"><i class="fas fa-robot"></i> GTU Crawler</button>
+                <button id="ai-btn" class="secondary-btn"><i class="fas fa-book-open"></i> AI Corner</button>
+                <button id="build-btn"><i class="fas fa-rocket"></i> Build Site</button>
+            </div>
+        </header>
+
+        <div class="stats">
+            <div class="stat-card">
+                <h3>Universities</h3>
+                <p id="unv-count">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Domains</h3>
+                <p id="domain-count">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Total Branches</h3>
+                <p id="branch-count">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Total Semesters</h3>
+                <p id="sem-count">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Books/Subjects</h3>
+                <p id="book-count">0</p>
+            </div>
+        </div>
+
+        <nav class="breadcrumb">
+            <a href="#" onclick="navigate('root')">Project</a> 
+            <span id="nav-trail"> / Home</span>
+        </nav>
+
+        <!-- Dynamic Content Section -->
+        <main id="main-content">
+            <div style="text-align: center; padding: 50px;">
+                <i class="fas fa-circle-notch fa-spin" style="font-size: 3rem; color: var(--accent);"></i>
+                <p style="margin-top: 20px;">Connecting to database...</p>
+            </div>
+        </main>
+    </div>
+
+    <div class="build-bar">
+        <div id="build-status">Ready to generate site. Last updated: <span id="last-save">Never</span></div>
+        <div id="sync-status"><i class="fas fa-shield-alt"></i> Private Mode Active</div>
+    </div>
+
+    <!-- Modals / Forms -->
+    <div id="modal-container" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(15px); z-index: 2000; align-items: center; justify-content: center;">
+        <div class="form-section" style="width: 500px; position: relative;">
+            <button class="icon-btn" style="position: absolute; top: 15px; right: 15px;" onclick="closeModal()"><i class="fas fa-times"></i></button>
+             <div id="form-content"></div>
+        </div>
+    </div>
+
+    <!-- GTU Crawler Modal -->
+    <div id="crawler-modal" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(15px); z-index: 2100; align-items: center; justify-content: center;">
+        <div class="form-section" style="width: 940px; max-width: 96vw; position: relative; max-height: 92vh; overflow-y: auto;">
+            <button class="icon-btn" style="position: absolute; top: 15px; right: 15px;" onclick="closeCrawlerModal()"><i class="fas fa-times"></i></button>
+            <div id="crawler-content">
+                <h2><i class="fas fa-robot"></i> GTU Crawler</h2>
+                <p style="color: var(--text-muted); margin-top: 6px;">Scrapes GTU circulars, syllabus and question papers, then merges new material into <code>site_db.json</code> (existing links are preserved).</p>
+
+                <div class="grid-form" style="margin-top: 20px;">
+                    <div class="input-group full-width">
+                        <label>Operation</label>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;" id="crawl-mode">
+                            <button class="secondary-btn crawl-mode-btn active" data-mode="sync" onclick="selectCrawlMode('sync')"><i class="fas fa-sync-alt"></i> Full Sync</button>
+                            <button class="secondary-btn crawl-mode-btn" data-mode="notices" onclick="selectCrawlMode('notices')"><i class="fas fa-bullhorn"></i> Notices</button>
+                            <button class="secondary-btn crawl-mode-btn" data-mode="syllabus" onclick="selectCrawlMode('syllabus')"><i class="fas fa-file-alt"></i> Syllabus</button>
+                            <button class="secondary-btn crawl-mode-btn" data-mode="papers" onclick="selectCrawlMode('papers')"><i class="fas fa-file-pdf"></i> Papers</button>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label>Limit (papers/syllabus per subject)</label>
+                        <input type="number" id="crawl-limit" placeholder="e.g. 10" min="1">
+                    </div>
+                    <div class="input-group">
+                        <label>Years (papers only)</label>
+                        <input type="text" id="crawl-years" placeholder="e.g. 2024,2023 (all if empty)">
+                    </div>
+                    <div class="input-group full-width">
+                        <label>Subject codes (leave empty to scan all subjects in DB)</label>
+                        <textarea id="crawl-codes" rows="2" placeholder="e.g. 4300001,4330701,3150705"></textarea>
+                    </div>
+                    <div class="input-group full-width">
+                        <label>Skipped parts (full sync only)</label>
+                        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                            <label style="display:inline-flex; gap:6px; align-items:center;"><input type="checkbox" id="crawl-skip-notices" value="1"> Skip Notices</label>
+                            <label style="display:inline-flex; gap:6px; align-items:center;"><input type="checkbox" id="crawl-skip-syllabus" value="1"> Skip Syllabus</label>
+                            <label style="display:inline-flex; gap:6px; align-items:center;"><input type="checkbox" id="crawl-skip-papers" value="1"> Skip Papers</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="crawler-log-wrap" style="display:none; margin-top: 18px; background: #0a0f1e; border: 1px solid var(--border); border-radius: 12px; overflow: hidden;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; padding: 10px 14px; border-bottom: 1px solid var(--border);">
+                        <strong style="font-size: 0.9rem;"><i class="fas fa-terminal"></i> Live Log</strong>
+                        <span id="crawler-status" style="font-size:0.8rem; color: var(--accent);">running...</span>
+                    </div>
+                    <pre id="crawler-log" style="margin:0; padding: 14px; max-height: 300px; overflow-y: auto; font-size: 0.78rem; line-height: 1.5; white-space: pre-wrap; word-break: break-word; background: transparent; color: #9fe8a0;"></pre>
+                </div>
+
+                <div id="crawler-result" style="display:none; margin-top: 16px; padding: 14px; border-radius: 12px; background: rgba(63,185,119,0.1); border: 1px solid rgba(63,185,119,0.35); color: var(--accent); font-size: 0.9rem;"></div>
+
+                <div class="actions" style="margin-top: 24px; justify-content: flex-end;">
+                    <button class="secondary-btn" id="crawler-cancel-btn" onclick="cancelCrawl()" style="display:none;"><i class="fas fa-stop"></i> Stop</button>
+                    <button class="secondary-btn" onclick="closeCrawlerModal()">Close</button>
+                    <button id="crawler-run-btn" onclick="runCrawl()"><i class="fas fa-play"></i> Run Crawler</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,6321 @@
+{
+  "config": {
+    "currentYear": "2025-2026",
+    "adPubId": "ca-pub-4211827566541334",
+    "siteUrl": "https://khudkibook.web.app",
+    "appUrl": "https://play.google.com/store/apps/details?id=web.app.khudkibook",
+    "academicYears": [
+      "2025-2026",
+      "2024-2025",
+      "2023-2024"
+    ]
+  },
+  "domains": [
+    {
+      "id": "diploma",
+      "name": "Diploma Engineering",
+      "urlPrefix": "",
+      "branches": [
+        {
+          "id": "civil",
+          "name": "Civil Engineering ",
+          "shortName": "CIVIL",
+          "urlPrefix": "",
+          "homepage": "/civilhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 10
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 10
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 15
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 15
+            }
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer Engineering",
+          "shortName": "COMPUTER",
+          "urlPrefix": "",
+          "homepage": "/computerhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 35
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 22
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 28
+            }
+          ]
+        },
+        {
+          "id": "cse",
+          "name": "Computer Science & Engineering",
+          "shortName": "CSE",
+          "urlPrefix": "",
+          "homepage": "/csehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 33
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 15
+            }
+          ]
+        },
+        {
+          "id": "cs-ai",
+          "name": "Computer Science & Engineering (artificial Intelligence & ML)",
+          "shortName": "CS-AI",
+          "urlPrefix": "",
+          "homepage": "/cs-aihomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 33
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "mechanical",
+          "name": "Mechanical Engineering",
+          "shortName": "MECHANICAL",
+          "urlPrefix": "",
+          "homepage": "/mechanicalhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 36
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 22
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 34
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 24
+            }
+          ]
+        },
+        {
+          "id": "mechanical-engineering-cad-cam",
+          "name": "Mechanical Engineering (cad/cam)",
+          "shortName": "ME(",
+          "urlPrefix": "",
+          "homepage": "/mechanical-engineering-cad-camhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "electrical",
+          "name": "Electrical Engineering",
+          "shortName": "ELECTRICAL",
+          "urlPrefix": "",
+          "homepage": "/electricalhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 34
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 28
+            }
+          ]
+        },
+        {
+          "id": "electrical-engineering-dlm",
+          "name": "Electrical Engineering (DLM)",
+          "shortName": "EE(",
+          "urlPrefix": "",
+          "homepage": "/electrical-engineering-dlmhomepage.html",
+          "semesters": [
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "it",
+          "name": "Information Technology",
+          "shortName": "Information Technology",
+          "urlPrefix": "",
+          "homepage": "/ithomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 6
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 4
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 4
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "agricultural-engineering",
+          "name": "Agricultural Engineering",
+          "shortName": "AE",
+          "urlPrefix": "",
+          "homepage": "/agricultural-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "animation-and-multimedia-technology",
+          "name": "Animation and Multimedia Technology",
+          "shortName": "AAMT",
+          "urlPrefix": "",
+          "homepage": "/animation-and-multimedia-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "artificial-intelligence-ai-and-machine-learning",
+          "name": "Artificial Intelligence (AI) and Machine Learning",
+          "shortName": "AI(A",
+          "urlPrefix": "",
+          "homepage": "/artificial-intelligence-ai-and-machine-learninghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "ai-data-science",
+          "name": "Artificial Intelligence and Data Science",
+          "shortName": "AI & DS",
+          "urlPrefix": "",
+          "homepage": "/ai-data-sciencehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "ai-ml",
+          "name": "Artificial Intelligence and Machine Learning",
+          "shortName": "AI & ML",
+          "urlPrefix": "",
+          "homepage": "/ai-mlhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "automobile",
+          "name": "Automobile Engineering",
+          "shortName": "Auto",
+          "urlPrefix": "",
+          "homepage": "/automobilehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 24
+            }
+          ]
+        },
+        {
+          "id": "biomedical",
+          "name": "Biomedical Engineering",
+          "shortName": "Biomed",
+          "urlPrefix": "",
+          "homepage": "/biomedicalhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 17
+            }
+          ]
+        },
+        {
+          "id": "ceramic-technology",
+          "name": "Ceramic Technology",
+          "shortName": "CT",
+          "urlPrefix": "",
+          "homepage": "/ceramic-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 33
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 5
+            }
+          ]
+        },
+        {
+          "id": "chemical-green",
+          "name": "Chemical Engineering (green Tech)",
+          "shortName": "Chem. Green",
+          "urlPrefix": "",
+          "homepage": "/chemical-greenhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "commercial-art",
+          "name": "Commercial ART",
+          "shortName": "CA",
+          "urlPrefix": "",
+          "homepage": "/commercial-arthomepage.html",
+          "semesters": [
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "commercial-practice",
+          "name": "Commercial Practice",
+          "shortName": "CP",
+          "urlPrefix": "",
+          "homepage": "/commercial-practicehomepage.html",
+          "semesters": [
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "cyber-system-and-information-security",
+          "name": "Cyber System and Information Security",
+          "shortName": "CSAI",
+          "urlPrefix": "",
+          "homepage": "/cyber-system-and-information-securityhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 9
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "ds",
+          "name": "Data Science",
+          "shortName": "DS",
+          "urlPrefix": "",
+          "homepage": "/dshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 10
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "ec",
+          "name": "Electronics & Communication Engineering",
+          "shortName": "EC",
+          "urlPrefix": "",
+          "homepage": "/echomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 26
+            }
+          ]
+        },
+        {
+          "id": "electronics-telecom",
+          "name": "Electronics & Telecommunication Engineering",
+          "shortName": "ETC",
+          "urlPrefix": "",
+          "homepage": "/electronics-telecomhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 15
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 5
+            }
+          ]
+        },
+        {
+          "id": "electronics",
+          "name": "Electronics Engineering",
+          "shortName": "Electronics",
+          "urlPrefix": "",
+          "homepage": "/electronicshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 41
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 40
+            }
+          ]
+        },
+        {
+          "id": "fabrication-technology",
+          "name": "Fabrication Technology",
+          "shortName": "FT",
+          "urlPrefix": "",
+          "homepage": "/fabrication-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 2
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 2
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 17
+            }
+          ]
+        },
+        {
+          "id": "fashion-and-design",
+          "name": "Fashion and Design",
+          "shortName": "FAD",
+          "urlPrefix": "",
+          "homepage": "/fashion-and-designhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "film-technology-and-tv-production-cinematography",
+          "name": "Film Technology and TV Production(cinematography)",
+          "shortName": "FTAT",
+          "urlPrefix": "",
+          "homepage": "/film-technology-and-tv-production-cinematographyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "fire-technology",
+          "name": "Fire Technology",
+          "shortName": "FT",
+          "urlPrefix": "",
+          "homepage": "/fire-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "fire-technology-and-safety",
+          "name": "Fire Technology and Safety",
+          "shortName": "FTAS",
+          "urlPrefix": "",
+          "homepage": "/fire-technology-and-safetyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "home-science",
+          "name": "Home Science",
+          "shortName": "HS",
+          "urlPrefix": "",
+          "homepage": "/home-sciencehomepage.html",
+          "semesters": [
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "ics",
+          "name": "Information & Communication Technology",
+          "shortName": "ICT",
+          "urlPrefix": "",
+          "homepage": "/icshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "ict-iot",
+          "name": "Information & Communication Technology (IOT)",
+          "shortName": "ICT-IoT",
+          "urlPrefix": "",
+          "homepage": "/ict-iothomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 33
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 20
+            }
+          ]
+        },
+        {
+          "id": "instrumentation",
+          "name": "Instrumentation & Control Engineering",
+          "shortName": "IC",
+          "urlPrefix": "",
+          "homepage": "/instrumentationhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 34
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 23
+            }
+          ]
+        },
+        {
+          "id": "marine",
+          "name": "Marine Engineering",
+          "shortName": "Marine",
+          "urlPrefix": "",
+          "homepage": "/marinehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "mechatronics",
+          "name": "Mechatronics Engineering",
+          "shortName": "Mechatronics",
+          "urlPrefix": "",
+          "homepage": "/mechatronicshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 48
+            }
+          ]
+        },
+        {
+          "id": "mining",
+          "name": "Mining Engineering",
+          "shortName": "Mining",
+          "urlPrefix": "",
+          "homepage": "/mininghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 21
+            }
+          ]
+        },
+        {
+          "id": "nano",
+          "name": "Nano Technology",
+          "shortName": "Nano",
+          "urlPrefix": "",
+          "homepage": "/nanohomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "power-electronics",
+          "name": "Power Electronics",
+          "shortName": "PE",
+          "urlPrefix": "",
+          "homepage": "/power-electronicshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 15
+            }
+          ]
+        },
+        {
+          "id": "printing-technology",
+          "name": "Printing Technology",
+          "shortName": "PT",
+          "urlPrefix": "",
+          "homepage": "/printing-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "production",
+          "name": "Production Engineering",
+          "shortName": "Production",
+          "urlPrefix": "",
+          "homepage": "/productionhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 33
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 30
+            }
+          ]
+        },
+        {
+          "id": "renewable-energy",
+          "name": "Renewable Energy",
+          "shortName": "RE",
+          "urlPrefix": "",
+          "homepage": "/renewable-energyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "rubber",
+          "name": "Rubber Technology",
+          "shortName": "Rubber",
+          "urlPrefix": "",
+          "homepage": "/rubberhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 33
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "smart-energy",
+          "name": "Smart & Sustainable Energy",
+          "shortName": "Smart Energy",
+          "urlPrefix": "",
+          "homepage": "/smart-energyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 6
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 6
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "textile-designing",
+          "name": "Textile Designing",
+          "shortName": "TD",
+          "urlPrefix": "",
+          "homepage": "/textile-designinghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "transportation-engineering",
+          "name": "Transportation Engineering",
+          "shortName": "TE",
+          "urlPrefix": "",
+          "homepage": "/transportation-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 6
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 6
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "be",
+      "name": "Bachelor of Engineering test",
+      "urlPrefix": "BE",
+      "branches": [
+        {
+          "id": "civil-infra",
+          "name": "Civil & Infrastructure Engineering",
+          "shortName": "Civil Infra",
+          "urlPrefix": "BE",
+          "homepage": "/BE/civil-infrahomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 12
+            }
+          ]
+        },
+        {
+          "id": "civil",
+          "name": "Civil Engineering",
+          "shortName": "Civil Engineering",
+          "urlPrefix": "BE",
+          "homepage": "/BE/civilhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 35
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "Computer Engineering",
+          "shortName": "Computer Engineering",
+          "urlPrefix": "BE",
+          "homepage": "/BE/computerhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "cs-design",
+          "name": "Computer Science & Design",
+          "shortName": "CS-Design",
+          "urlPrefix": "BE",
+          "homepage": "/BE/cs-designhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "cse",
+          "name": "Computer Science & Engineering",
+          "shortName": "CSE",
+          "urlPrefix": "BE",
+          "homepage": "/BE/csehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 11
+            }
+          ]
+        },
+        {
+          "id": "cs-ai-ml",
+          "name": "Computer Science & Engineering (AI & ML)",
+          "shortName": "CS-AI/ML",
+          "urlPrefix": "BE",
+          "homepage": "/BE/cs-ai-mlhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 12
+            }
+          ]
+        },
+        {
+          "id": "cs-cyber",
+          "name": "Computer Science & Engineering (cyber Security)",
+          "shortName": "CS-Cyber",
+          "urlPrefix": "BE",
+          "homepage": "/BE/cs-cyberhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "cs-data-science",
+          "name": "Computer Science & Engineering (data Science)",
+          "shortName": "CS-DS",
+          "urlPrefix": "BE",
+          "homepage": "/BE/cs-data-sciencehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 15
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "cs-iot-cyber",
+          "name": "Computer Science & Engineering (IOT, Cyber Security & Blockchain)",
+          "shortName": "CS-IoT",
+          "urlPrefix": "BE",
+          "homepage": "/BE/cs-iot-cyberhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 15
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "mechanical",
+          "name": "Mechanical Engineering",
+          "shortName": "Mechanical Engineering",
+          "urlPrefix": "BE",
+          "homepage": "/BE/mechanicalhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 34
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 20
+            }
+          ]
+        },
+        {
+          "id": "eee",
+          "name": "Electrical & Electronics Engineering",
+          "shortName": "EEE",
+          "urlPrefix": "BE",
+          "homepage": "/BE/eeehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "electrical",
+          "name": "Electrical Engineering",
+          "shortName": "Electrical Engineering",
+          "urlPrefix": "BE",
+          "homepage": "/BE/electricalhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "it",
+          "name": "Information Technology",
+          "shortName": "Information Technology",
+          "urlPrefix": "BE",
+          "homepage": "/BE/ithomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "aeronautical",
+          "name": "Aeronautical Engineering",
+          "shortName": "Aero",
+          "urlPrefix": "BE",
+          "homepage": "/BE/aeronauticalhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "ai-data-science",
+          "name": "Artificial Intelligence and Data Science",
+          "shortName": "AI & DS",
+          "urlPrefix": "BE",
+          "homepage": "/BE/ai-data-sciencehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 15
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "ai-ml",
+          "name": "Artificial Intelligence and Machine Learning",
+          "shortName": "AI & ML",
+          "urlPrefix": "BE",
+          "homepage": "/BE/ai-mlhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "automobile",
+          "name": "Automobile Engineering",
+          "shortName": "Auto",
+          "urlPrefix": "BE",
+          "homepage": "/BE/automobilehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 33
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 11
+            }
+          ]
+        },
+        {
+          "id": "biotechnology",
+          "name": "Bio-technology",
+          "shortName": "Biotech",
+          "urlPrefix": "BE",
+          "homepage": "/BE/biotechnologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 42
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "biomedical",
+          "name": "Biomedical Engineering",
+          "shortName": "Biomed",
+          "urlPrefix": "BE",
+          "homepage": "/BE/biomedicalhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 38
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "chemical",
+          "name": "Chemical Engineering",
+          "shortName": "Chemical",
+          "urlPrefix": "BE",
+          "homepage": "/BE/chemicalhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "chemical-green",
+          "name": "Chemical Engineering (green Tech & Sustainability)",
+          "shortName": "Chem. Green",
+          "urlPrefix": "BE",
+          "homepage": "/BE/chemical-greenhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "chemical-technology",
+          "name": "Chemical Technology",
+          "shortName": "Chem. Tech.",
+          "urlPrefix": "BE",
+          "homepage": "/BE/chemical-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 12
+            }
+          ]
+        },
+        {
+          "id": "common",
+          "name": "Common (ALL Branches)",
+          "shortName": "Common",
+          "urlPrefix": "BE",
+          "homepage": "/BE/commonhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 3
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 0
+            }
+          ]
+        },
+        {
+          "id": "ec-cs",
+          "name": "Electronics & Communication (communication System Engineering)",
+          "shortName": "EC-CS",
+          "urlPrefix": "BE",
+          "homepage": "/BE/ec-cshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "ece",
+          "name": "Electronics & Communication Engineering",
+          "shortName": "ECE",
+          "urlPrefix": "BE",
+          "homepage": "/BE/ecehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "ei",
+          "name": "Electronics & Instrumentation Engineering",
+          "shortName": "EIE",
+          "urlPrefix": "BE",
+          "homepage": "/BE/eihomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "etc",
+          "name": "Electronics & Telecommunication Engineering",
+          "shortName": "ETC",
+          "urlPrefix": "BE",
+          "homepage": "/BE/etchomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 9
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "electronics",
+          "name": "Electronics Engineering",
+          "shortName": "Electronics",
+          "urlPrefix": "BE",
+          "homepage": "/BE/electronicshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "environmental",
+          "name": "Environmental Engineering",
+          "shortName": "Env. Engg",
+          "urlPrefix": "BE",
+          "homepage": "/BE/environmentalhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 38
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "env-science-tech",
+          "name": "Environmental Science & Technology",
+          "shortName": "Env. Sci. Tech",
+          "urlPrefix": "BE",
+          "homepage": "/BE/env-science-techhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 22
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "env-science-eng",
+          "name": "Environmental Science and Engineering",
+          "shortName": "Env. Sci. Eng",
+          "urlPrefix": "BE",
+          "homepage": "/BE/env-science-enghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 6
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "food-eng",
+          "name": "Food Engineering & Technology",
+          "shortName": "Food Engg.",
+          "urlPrefix": "BE",
+          "homepage": "/BE/food-enghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 10
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "food-processing",
+          "name": "Food Processing Technology",
+          "shortName": "Food Proc.",
+          "urlPrefix": "BE",
+          "homepage": "/BE/food-processinghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 3
+            }
+          ]
+        },
+        {
+          "id": "industrial",
+          "name": "Industrial Engineering",
+          "shortName": "Industrial",
+          "urlPrefix": "BE",
+          "homepage": "/BE/industrialhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 9
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "ict",
+          "name": "Information & Communication Technology",
+          "shortName": "ICT",
+          "urlPrefix": "BE",
+          "homepage": "/BE/icthomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 38
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "instrumentation",
+          "name": "Instrumentation & Control Engineering",
+          "shortName": "IC",
+          "urlPrefix": "BE",
+          "homepage": "/BE/instrumentationhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "manufacturing",
+          "name": "Manufacturing Engineering",
+          "shortName": "Manufacturing",
+          "urlPrefix": "BE",
+          "homepage": "/BE/manufacturinghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 36
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "mechatronics",
+          "name": "Mechatronics Engineering",
+          "shortName": "Mechatronics",
+          "urlPrefix": "BE",
+          "homepage": "/BE/mechatronicshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 33
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "metallurgy",
+          "name": "Metallurgy Engineering",
+          "shortName": "Metallurgy",
+          "urlPrefix": "BE",
+          "homepage": "/BE/metallurgyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 14
+            }
+          ]
+        },
+        {
+          "id": "mining",
+          "name": "Mining Engineering",
+          "shortName": "Mining",
+          "urlPrefix": "BE",
+          "homepage": "/BE/mininghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 36
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "nano",
+          "name": "Nano Technology",
+          "shortName": "Nano",
+          "urlPrefix": "BE",
+          "homepage": "/BE/nanohomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "plastic",
+          "name": "Plastic Technology",
+          "shortName": "Plastic",
+          "urlPrefix": "BE",
+          "homepage": "/BE/plastichomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 38
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "plastics",
+          "name": "Plastics Engineering",
+          "shortName": "Plastics",
+          "urlPrefix": "BE",
+          "homepage": "/BE/plasticshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "power-electronics",
+          "name": "Power Electronics",
+          "shortName": "PE",
+          "urlPrefix": "BE",
+          "homepage": "/BE/power-electronicshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "production",
+          "name": "Production Engineering",
+          "shortName": "Production",
+          "urlPrefix": "BE",
+          "homepage": "/BE/productionhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 36
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "robotics",
+          "name": "Robotics and Automation",
+          "shortName": "Robotics",
+          "urlPrefix": "BE",
+          "homepage": "/BE/roboticshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 38
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "rubber",
+          "name": "Rubber Technology",
+          "shortName": "Rubber",
+          "urlPrefix": "BE",
+          "homepage": "/BE/rubberhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 41
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "smart-energy",
+          "name": "Smart & Sustainable Energy",
+          "shortName": "Smart Energy",
+          "urlPrefix": "BE",
+          "homepage": "/BE/smart-energyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 2
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 1
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 3
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 1
+            }
+          ]
+        },
+        {
+          "id": "textile-processing",
+          "name": "Textile Processing",
+          "shortName": "Textile Proc.",
+          "urlPrefix": "BE",
+          "homepage": "/BE/textile-processinghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "textile",
+          "name": "Textile Technology",
+          "shortName": "Textile Tech.",
+          "urlPrefix": "BE",
+          "homepage": "/BE/textilehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem5",
+              "name": "Semester 5",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem6",
+              "name": "Semester 6",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem7",
+              "name": "Semester 7",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem8",
+              "name": "Semester 8",
+              "subjectCount": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "me",
+      "name": "Master of Engineering / M.Tech",
+      "urlPrefix": "ME",
+      "branches": [
+        {
+          "id": "civil-water-resources-management",
+          "name": "Civil ( Water Resources Management)",
+          "shortName": "C(WR",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-water-resources-managementhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "civil-casad",
+          "name": "Civil (casad)",
+          "shortName": "C(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-casadhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "civil-computer-aided-structural-analysis",
+          "name": "Civil (computer Aided Structural Analysis)",
+          "shortName": "C(AS",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-computer-aided-structural-analysishomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "civil-construction-engineering-and-management",
+          "name": "Civil (construction Engineering and Management)",
+          "shortName": "C(EA",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-construction-engineering-and-managementhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 43
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "civil-geotechnical-engineering",
+          "name": "Civil (geotechnical Engineering)",
+          "shortName": "C(E",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-geotechnical-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "civil-structural-engineering",
+          "name": "Civil (structural Engineering)",
+          "shortName": "C(E",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-structural-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 42
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "civil-transportation-engineering",
+          "name": "Civil (transportation Engineering)",
+          "shortName": "C(E",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-transportation-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 53
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "civil-transportation-system-engineering",
+          "name": "Civil (transportation System Engineering)",
+          "shortName": "C(SE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-transportation-system-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "civil-water-resource-engineering",
+          "name": "Civil (water Resource Engineering)",
+          "shortName": "C(RE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-water-resource-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 38
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "civil-engineering",
+          "name": "Civil Engineering",
+          "shortName": "CE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "civil-engineering-transportation-engineering",
+          "name": "Civil Engineering(transportation Engineering)",
+          "shortName": "CEE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/civil-engineering-transportation-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "chemical-engineering-computer-aided-process-design",
+          "name": "Chemical Engineering (computer Aided Process Design)",
+          "shortName": "CE(A",
+          "urlPrefix": "ME",
+          "homepage": "/ME/chemical-engineering-computer-aided-process-designhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "computer-computer-science-and-engineering",
+          "name": "Computer (computer Science & Engineering)",
+          "shortName": "C(S&",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-computer-science-and-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 11
+            }
+          ]
+        },
+        {
+          "id": "computer-computer-science-and-technology",
+          "name": "Computer (computer Science & Technology)",
+          "shortName": "C(S&",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-computer-science-and-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 11
+            }
+          ]
+        },
+        {
+          "id": "computer-aided-design-and-manufacture",
+          "name": "Computer Aided Design and Manufacture",
+          "shortName": "CADA",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-aided-design-and-manufacturehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "computer-aided-design-manufacture-and-engineering",
+          "name": "Computer Aided Design Manufacture and Engineering",
+          "shortName": "CADM",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-aided-design-manufacture-and-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "computer-aided-process-design",
+          "name": "Computer Aided Process Design",
+          "shortName": "CAPD",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-aided-process-designhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "computer-engineering",
+          "name": "Computer Engineering",
+          "shortName": "CE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 45
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "computer-engineering-high-performance-computing",
+          "name": "Computer Engineering (high Performance Computing)",
+          "shortName": "CE(P",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-engineering-high-performance-computinghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 9
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 6
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "computer-engineering-it-systems-and-network-security",
+          "name": "Computer Engineering (IT Systems and Network Security)",
+          "shortName": "CE(S",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-engineering-it-systems-and-network-securityhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 22
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 22
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "computer-engineering-systems-and-network-security",
+          "name": "Computer Engineering (systems and Network Security)",
+          "shortName": "CE(A",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-engineering-systems-and-network-securityhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "computer-engineering-wireless-and-mobile-computing",
+          "name": "Computer Engineering (wireless & Mobile Computing)",
+          "shortName": "CE(&",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-engineering-wireless-and-mobile-computinghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "computer-engineering-software-engineering",
+          "name": "Computer Engineering(software Engineering)",
+          "shortName": "CEE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/computer-engineering-software-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "mechanical-automobile-engineering",
+          "name": "Mechanical (automobile Engineering)",
+          "shortName": "M(E",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-automobile-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "mechanical-cad-cam",
+          "name": "Mechanical (cad/cam)",
+          "shortName": "M(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-cad-camhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 46
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 11
+            }
+          ]
+        },
+        {
+          "id": "mechanical-cryogenic-engineering",
+          "name": "Mechanical (cryogenic Engineering)",
+          "shortName": "M(E",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-cryogenic-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "mechanical-energy-engineering",
+          "name": "Mechanical (energy Engineering)",
+          "shortName": "M(E",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-energy-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "mechanical-i-c-engine-and-automobile",
+          "name": "Mechanical (i.c.engine & Automobile)",
+          "shortName": "M(&A",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-i-c-engine-and-automobilehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 41
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "mechanical-industrial-engineering",
+          "name": "Mechanical (industrial Engineering)",
+          "shortName": "M(E",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-industrial-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "mechanical-machine-design",
+          "name": "Mechanical (machine Design)",
+          "shortName": "M(D",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-machine-designhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 47
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "mechanical-production-engineering",
+          "name": "Mechanical (production Engineering)",
+          "shortName": "M(E",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-production-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 11
+            }
+          ]
+        },
+        {
+          "id": "mechanical-thermal-engineering",
+          "name": "Mechanical (thermal Engineering)",
+          "shortName": "M(E",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-thermal-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 39
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "mechanical-thermal-science",
+          "name": "Mechanical (thermal Science)",
+          "shortName": "M(S",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-thermal-sciencehomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "mechanical-engineering",
+          "name": "Mechanical Engineering",
+          "shortName": "ME",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "mechanical-engineering-cad-cam",
+          "name": "Mechanical Engineering(cad/cam)",
+          "shortName": "ME",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-engineering-cad-camhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "mechanical-engineering-production",
+          "name": "Mechanical Engineering(production)",
+          "shortName": "ME",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-engineering-productionhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "mechanical-engineering-thermal-engineering",
+          "name": "Mechanical Engineering(thermal Engineering)",
+          "shortName": "MEE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-engineering-thermal-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "mechanical-i-c-engine-and-automobile-engineering",
+          "name": "Mechanical(i.c. Engine and Automobile Engineering)",
+          "shortName": "MEAA",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechanical-i-c-engine-and-automobile-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "electrical-power-electronics-and-electrical-drives",
+          "name": "Electrical (power Electronics & Electrical Drives)",
+          "shortName": "E(E&",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electrical-power-electronics-and-electrical-driveshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "electrical-power-system-engineering",
+          "name": "Electrical (power System Engineering)",
+          "shortName": "E(SE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electrical-power-system-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 10
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 4
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "electrical-engineering",
+          "name": "Electrical Engineering",
+          "shortName": "EE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electrical-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 56
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 12
+            }
+          ]
+        },
+        {
+          "id": "me-electrical-automation-and-control-power-system",
+          "name": "ME Electrical (automation and Control Power System)",
+          "shortName": "ME(A",
+          "urlPrefix": "ME",
+          "homepage": "/ME/me-electrical-automation-and-control-power-systemhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 13
+            }
+          ]
+        },
+        {
+          "id": "power-electronics-and-electrical-drives",
+          "name": "Power Electronics and Electrical Drives",
+          "shortName": "PEAE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/power-electronics-and-electrical-driveshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "information-technology",
+          "name": "Information Technology",
+          "shortName": "IT",
+          "urlPrefix": "ME",
+          "homepage": "/ME/information-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 43
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "information-technology-information-and-cyber-warfare",
+          "name": "Information Technology(information and Cyber Warfare)",
+          "shortName": "ITAC",
+          "urlPrefix": "ME",
+          "homepage": "/ME/information-technology-information-and-cyber-warfarehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "advanced-manufacturing-systems",
+          "name": "Advanced Manufacturing Systems",
+          "shortName": "AMS",
+          "urlPrefix": "ME",
+          "homepage": "/ME/advanced-manufacturing-systemshomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 41
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "advanced-manufacturing-technology",
+          "name": "Advanced Manufacturing Technology",
+          "shortName": "AMT",
+          "urlPrefix": "ME",
+          "homepage": "/ME/advanced-manufacturing-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "applied-instrumentation",
+          "name": "Applied Instrumentation",
+          "shortName": "AI",
+          "urlPrefix": "ME",
+          "homepage": "/ME/applied-instrumentationhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 10
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "artificial-intelligence-and-data-science",
+          "name": "Artificial Intelligence and Data Science",
+          "shortName": "AIAD",
+          "urlPrefix": "ME",
+          "homepage": "/ME/artificial-intelligence-and-data-sciencehomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "biomedical-engineering",
+          "name": "Biomedical Engineering",
+          "shortName": "BE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/biomedical-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "cad-cam",
+          "name": "Cad/cam",
+          "shortName": "C",
+          "urlPrefix": "ME",
+          "homepage": "/ME/cad-camhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "chemical-engineering",
+          "name": "Chemical Engineering",
+          "shortName": "CE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/chemical-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 43
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "construction-management",
+          "name": "Construction Management",
+          "shortName": "CM",
+          "urlPrefix": "ME",
+          "homepage": "/ME/construction-managementhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 8
+            }
+          ]
+        },
+        {
+          "id": "cryogenic-engineering",
+          "name": "Cryogenic Engineering",
+          "shortName": "CE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/cryogenic-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 10
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "cyber-security",
+          "name": "Cyber Security",
+          "shortName": "CS",
+          "urlPrefix": "ME",
+          "homepage": "/ME/cyber-securityhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 41
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 11
+            }
+          ]
+        },
+        {
+          "id": "ec-vlsi-and-embedded-systems",
+          "name": "EC (vlsi and Embedded Systems)",
+          "shortName": "E(AE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/ec-vlsi-and-embedded-systemshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 6
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "electric-vehicle-technology",
+          "name": "Electric Vehicle Technology",
+          "shortName": "EVT",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electric-vehicle-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 29
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 9
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-communication-engineering",
+          "name": "Electronics and Communication (communication Engineering)",
+          "shortName": "EAC(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-communication-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 19
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-communication-system-engineering",
+          "name": "Electronics and Communication (communication System Engineering)",
+          "shortName": "EAC(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-communication-system-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 31
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 55
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-digital-communications",
+          "name": "Electronics and Communication (digital Communications)",
+          "shortName": "EAC(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-digital-communicationshomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-embedded-system",
+          "name": "Electronics and Communication (embedded System)",
+          "shortName": "EAC(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-embedded-systemhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-signal-processing-and-communication",
+          "name": "Electronics and Communication (signal Processing & Communication)",
+          "shortName": "EAC(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-signal-processing-and-communicationhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 32
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-signal-processing-and-vlsi-technology",
+          "name": "Electronics and Communication (signal Processing and Vlsi Technology)",
+          "shortName": "EAC(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-signal-processing-and-vlsi-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 36
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 15
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-vlsi-and-embedded-systems-design",
+          "name": "Electronics and Communication (vlsi & Embedded Systems Design)",
+          "shortName": "EAC(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-vlsi-and-embedded-systems-designhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 15
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-vlsi-system-design",
+          "name": "Electronics and Communication (vlsi System Design)",
+          "shortName": "EAC(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-vlsi-system-designhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 35
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 15
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-wireless-communication-systems-and-networks",
+          "name": "Electronics and Communication (wireless Communication Systems and Networks)",
+          "shortName": "EAC(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-wireless-communication-systems-and-networkshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 28
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 36
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-wireless-communication-technology",
+          "name": "Electronics and Communication (wireless Communication Technology)",
+          "shortName": "EAC(",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-wireless-communication-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 7
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 6
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-engineering",
+          "name": "Electronics and Communication Engineering",
+          "shortName": "EACE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 42
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-engineering-mobile-communication-and-network-technology",
+          "name": "Electronics and Communication Engineering (mobile Communication and Network Technology)",
+          "shortName": "EACE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-engineering-mobile-communication-and-network-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "electronics-and-communication-vlsi-design",
+          "name": "Electronics and Communication(vlsi Design)",
+          "shortName": "EACD",
+          "urlPrefix": "ME",
+          "homepage": "/ME/electronics-and-communication-vlsi-designhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 10
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 4
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "energy-engineering",
+          "name": "Energy Engineering",
+          "shortName": "EE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/energy-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "environmental-engineering",
+          "name": "Environmental Engineering",
+          "shortName": "EE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/environmental-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 15
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 26
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "environmental-management",
+          "name": "Environmental Management",
+          "shortName": "EM",
+          "urlPrefix": "ME",
+          "homepage": "/ME/environmental-managementhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 35
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 15
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "geotechnical-engineering",
+          "name": "Geotechnical Engineering",
+          "shortName": "GE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/geotechnical-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "instrumentation-and-control-applied-instrumentation",
+          "name": "Instrumentation and Control(applied Instrumentation)",
+          "shortName": "IACI",
+          "urlPrefix": "ME",
+          "homepage": "/ME/instrumentation-and-control-applied-instrumentationhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 42
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 11
+            }
+          ]
+        },
+        {
+          "id": "internet-of-things",
+          "name": "Internet of Things",
+          "shortName": "IOT",
+          "urlPrefix": "ME",
+          "homepage": "/ME/internet-of-thingshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 23
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "machine-design",
+          "name": "Machine Design",
+          "shortName": "MD",
+          "urlPrefix": "ME",
+          "homepage": "/ME/machine-designhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 20
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 13
+            }
+          ]
+        },
+        {
+          "id": "me-mech-armament-engineering",
+          "name": "ME (mech) Armament Engineering",
+          "shortName": "M(AE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/me-mech-armament-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 4
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 5
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 4
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "mechatronics",
+          "name": "Mechatronics",
+          "shortName": "M",
+          "urlPrefix": "ME",
+          "homepage": "/ME/mechatronicshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 6
+            }
+          ]
+        },
+        {
+          "id": "plastic-engineering",
+          "name": "Plastic Engineering",
+          "shortName": "PE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/plastic-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 40
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "plastics-engineering",
+          "name": "Plastics Engineering",
+          "shortName": "PE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/plastics-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 22
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "power-electronics",
+          "name": "Power Electronics",
+          "shortName": "PE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/power-electronicshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 27
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 42
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 10
+            }
+          ]
+        },
+        {
+          "id": "power-systems",
+          "name": "Power Systems",
+          "shortName": "PS",
+          "urlPrefix": "ME",
+          "homepage": "/ME/power-systemshomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 10
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 13
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 4
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 2
+            }
+          ]
+        },
+        {
+          "id": "production-engineering",
+          "name": "Production Engineering",
+          "shortName": "PE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/production-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 21
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 24
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 12
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "rubber-engineering",
+          "name": "Rubber Engineering",
+          "shortName": "RE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/rubber-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 37
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 16
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "rubber-technology",
+          "name": "Rubber Technology",
+          "shortName": "RT",
+          "urlPrefix": "ME",
+          "homepage": "/ME/rubber-technologyhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 19
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 22
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 11
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        },
+        {
+          "id": "textile-engineering",
+          "name": "Textile Engineering",
+          "shortName": "TE",
+          "urlPrefix": "ME",
+          "homepage": "/ME/textile-engineeringhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 25
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 38
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 9
+            }
+          ]
+        },
+        {
+          "id": "town-and-country-planning",
+          "name": "Town and Country Planning",
+          "shortName": "TACP",
+          "urlPrefix": "ME",
+          "homepage": "/ME/town-and-country-planninghomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 18
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 30
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 14
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 7
+            }
+          ]
+        },
+        {
+          "id": "vlsi-design",
+          "name": "Vlsi Design",
+          "shortName": "VD",
+          "urlPrefix": "ME",
+          "homepage": "/ME/vlsi-designhomepage.html",
+          "semesters": [
+            {
+              "id": "sem1",
+              "name": "Semester 1",
+              "subjectCount": 17
+            },
+            {
+              "id": "sem2",
+              "name": "Semester 2",
+              "subjectCount": 22
+            },
+            {
+              "id": "sem3",
+              "name": "Semester 3",
+              "subjectCount": 8
+            },
+            {
+              "id": "sem4",
+              "name": "Semester 4",
+              "subjectCount": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

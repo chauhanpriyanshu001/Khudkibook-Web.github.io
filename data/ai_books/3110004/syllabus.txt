@@ -1,0 +1,154 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3110004
+Page 1 of 3
+w.e.f. AY 2018-19
+BASIC CIVIL ENGINEERING
+1ST YEAR
+Type of course: Engineering Science
+Prerequisite:
+Rationale:
+Teaching & Examination Scheme:
+Teaching Scheme Credits Examination Marks Total
+Marks	L T P C Theory Marks Practical Marks
+ESE (E) PA (M) ESE (V) PA (I)
+3 0 2 4 70 30 30 20 150
+Course Content:
+Module Content Hours Weightage
+1. INTRODUCTION TO CIVIL ENGINEERING AND CIVIL
+ENGINEERING MATERIALS:
+Introduction, Branches, Scope, Impact, Role of Civil Engineer, Units
+of measurement, Unit conversion (Length, Area, Volume).
+List of materials, Details (types, properties, uses) of materials:
+Cement, Aggregate, Brick, Steel, Concrete, Stone, Soil, Mortar,
+Timber, Plastic, Epoxy, Flyash, Steel slag, Copper slag, Bitumen,
+Optical fiber, Pipe, Wire, Cable, Smart material, Basic hand fill tests,
+FRP
+Water and waste water quality characteristics, drinking water
+standards, Road traffic, traffic control, traffic signals & Intersections.
+10 20%
+2. INTRODUCTION TO BUILDING AND TOWN PLANNING:
+Definition and concept of plan of a simple residential building,
+Principles of planning, Elementary principles and basic requirements
+for building planning, elevation and section of a residential building.
+Principles of town planning, Necessity of town planning, Origin of
+town, Growth of town, Land use, Principles and objects of zoning,
+Advantages of zoning, Low cost housing, Prevention of slum, FSI.
+08 20%
+3. BUILDING CONSTRUCTION AND BUILDING SERVICES
+Building Construction: Types of building, Components of
+building & its functions, types of loads acting on building, Types of
+brick bonds, Typical building layout, Symbols used in electrical
+layout, Symbols used for water supply, plumbing and sanitation.
+Nominal dimensions for door, window and furniture.
+Building Services: Types of building services like plumbing &
+sanitation, water supply& drainage system, electricity, building
+finishes, HVAC.
+8 20%
+
+-- 1 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3110004
+Page 2 of 3
+w.e.f. AY 2018-19
+4. INTRODUCTION TO SURVEYING AND LEVELLING:
+Introduction, Fundamental principles, Classification.
+Linear measurement: Instruments used, Chaining on plane
+ground, Offset, Ranging.
+Angular measurement: Compass-Instrument used Meridian,
+Bearing, and Local attraction.
+Leveling: Instrument used, Terminology, Types of leveling, and
+Methods of leveling, Introduction to contour
+Modern tools: Introduction to Theodolite, Total Station,
+Introduction to GPS, GIS & RS
+11 20%
+5. ADVANCEMENTS IN CIVIL ENGINEERING:
+Smart city and it’s features, Solid waste management systems, Mass
+Transportation systems-BRTS, Metro, Rain water harvesting
+systems, Watershed Management, Green building, Energy efficient
+building, Development of River fronts, Heritage structures & its
+conservations, Features of Earthquake resistant structures
+8 20%
+45 hrs 100%
+Suggested Specification table with Marks (Theory):
+Distribution of Theory Marks
+R Level U Level A Level N Level E Level C Level
+35 40 25 0 0 0
+Legends: R: Remembrance; U: Understanding; A: Application, N: Analyze and E: Evaluate C: Create
+and above Levels (Revised Bloom’s Taxonomy)
+Reference Book:
+Title Author/s Publication
+Surveying and leveling N. N. Basak Tata McGraw Hill
+Education
+Civil engineering drawing S.C. Rangwala Charotar Publication
+Building Construction Dr.B.C.Punmia Laxmi Pub. Delhi
+Engineering Material S.C. Rangwala Charotar Publication
+Town Planning S. C. Rangwala Charotar Publication
+Heavy Construction V. N. Vazirani and
+S. P. Chandola
+Khanna Publication
+Building planning, designing and
+scheduling
+Gurucharan Singh Standard Publisher
+Basic Civil Engineering S. Ramamrutham Dhanpatrai Publication
+Soil Mechanics and Foundation
+Engineering
+B.C. Punamia Laxmi Pub. Delhi
+Environmental Engineering
+H.S. Peavy, D.R. Rowe and G.
+Tchbanoglous
+McGraw Hill International
+Edition
+Estimation and Costing In Civil
+Engineering
+B. N. Dutta Ubs Publishers Distributors
+Estimating and Costing S. C. Rangwala Charotar Publishing House
+Basic Civil Engineering M.S.Palanichamy McGraw Hill
+
+-- 2 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3110004
+Page 3 of 3
+w.e.f. AY 2018-19
+Basic Civil Engineering Satheesh Gopi Pearson Publisher
+Course Outcome:
+Sr.
+No.
+CO statement Marks % weightage
+CO-1 describe the use of different materials in Civil Engineering 20
+CO-2 interpret various aspect of the building and town planning 30
+CO-3 identify the various building components, method of constructions , and
+services
+10
+CO-4 use different equipments for angular and linear measurements 30
+CO-5 describe various public transportation system, water conservation
+methods, water -waste water quality and advances in civil engineering
+10
+List of Practical:
+Sr No Name of Practical Hours
+1. Unit conversation Exercise. 02
+2. Chart preparation of various materials. Collection of rate and sample. (field visit) 02
+3. Components of building (field visit) 02
+4. Planning of a residential building( plan, elevation& section of simple 1 room) 04
+5. Assignment based upon town planning module 4 02
+6. Linear and angular measurements (Chain and Compass) ( in field with instrument) 04
+7. Introduction to Theodolite & total station. 02
+8. Determine R.L of given point by Dumpy level. ( in field with instrument) 02
+9. Assignment based upon estimation.( simple, 1 room only) 02
+10. Videos showing working of construction Equipment’s 04
+11. Presentation on BRTS / mass transportation system ( city bus) 04
+12. Seminar on green building & smart city 02
+32 hrs
+Web Material Links:
+ http://nptel.ac.in/courses/105107122/
+ http://nptel.ac.in/courses/105107157/
+ http://nptel.ac.in/courses/105101087/
+ http://nptel.ac.in/courses/105104100/
+ www.svnit.ac.in
+
+-- 3 of 3 --
+

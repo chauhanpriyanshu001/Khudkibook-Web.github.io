@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khudkibook | AI Corner</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .ai-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 18px; margin-bottom: 22px; }
+        .ai-card h2 { font-size: 1rem; font-weight: 700; margin-bottom: 12px; color: var(--text); display: flex; align-items: center; gap: 8px; }
+        .control-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
+        .control-bar input[type=text], .control-bar select { background: rgba(255,255,255,.06); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 8px 12px; font-size: .85rem; }
+        .control-bar input[type=text] { width: 260px; }
+        .badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
+        .badge { font-size: .7rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-muted); }
+        .badge.on { border-color: var(--accent); color: var(--accent); }
+        .badge.ai { border-color: #7c4dff; color: #b388ff; }
+        .badge.gu { border-color: #00c853; color: #69f0ae; }
+        .catalog-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+        .catalog-table th { text-align: left; color: var(--text-muted); text-transform: uppercase; font-size: .68rem; letter-spacing: .06em; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+        .catalog-table td { padding: 9px 10px; border-bottom: 1px solid rgba(255,255,255,.05); vertical-align: middle; }
+        .catalog-table tr:hover td { background: rgba(255,255,255,.03); }
+        .code { font-weight: 700; color: var(--accent); }
+        .subj { font-weight: 500; }
+        .actions { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+        .actions button, .actions select { font-size: .72rem; padding: 4px 9px; border-radius: 7px; border: 1px solid var(--border); background: rgba(255,255,255,.05); color: var(--text); cursor: pointer; }
+        .actions button:hover { background: var(--accent); color: #000; }
+        .actions button:disabled { opacity: .4; cursor: not-allowed; }
+        .unit-chips { display: flex; flex-wrap: wrap; gap: 3px; }
+        .unit-chip { display: inline-flex; align-items: center; gap: 3px; font-size: .66rem; font-weight: 700; padding: 3px 7px; border-radius: 7px; border: 1px dashed var(--border); color: var(--text-muted); }
+        .unit-chip.done { border-style: solid; border-color: var(--accent); color: var(--accent); background: rgba(255,157,0,.07); text-decoration: none; cursor: pointer; }
+        .unit-chip .gu { color: #69f0ae; font-weight: 800; }
+        .legend { font-size: .66rem; color: var(--text-muted); margin-top: 5px; letter-spacing: .02em; }
+        .legend b { color: var(--accent); }
+        .legend .g { color: #69f0ae; }
+        .sel-unit { min-width: 62px; }
+        .subj-link { color: var(--text); text-decoration: none; }
+        .subj-link:hover { color: var(--accent); }
+        .btn-full { background: var(--accent); border: none; color: #000; font-weight: 700; }
+        .btn-gu { background: rgba(0,200,83,.15); color: #69f0ae; border-color: rgba(0,200,83,.4); }
+        .btn-regen { color: var(--danger); border-color: rgba(207,102,121,.4); }
+        .job-table { width: 100%; border-collapse: collapse; font-size: .8rem; }
+        .job-table th { text-align: left; color: var(--text-muted); font-size: .68rem; text-transform: uppercase; padding: 8px; border-bottom: 1px solid var(--border); }
+        .job-table td { padding: 8px; border-bottom: 1px solid rgba(255,255,255,.05); vertical-align: middle; }
+        .status { font-size: .7rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; }
+        .status.queued { color: var(--text-muted); border: 1px solid var(--border); }
+        .status.running { color: var(--accent); border: 1px solid var(--accent); }
+        .status.done { color: #69f0ae; border: 1px solid #00c853; }
+        .status.error { color: var(--danger); border: 1px solid var(--danger); }
+        .status.cancelled, .status.interrupted { color: var(--text-muted); border: 1px solid var(--border); }
+        .pbar { height: 6px; background: rgba(255,255,255,.08); border-radius: 999px; overflow: hidden; min-width: 120px; }
+        .pbar > div { height: 100%; background: var(--accent); width: 0%; transition: width .4s; }
+        .job-log { background: #0a0c10; border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; font-size: .75rem; max-height: 300px; overflow: auto; white-space: pre-wrap; font-family: Menlo, Consolas, monospace; line-height: 1.5; }
+        .empty { text-align: center; color: var(--text-muted); padding: 30px; font-size: .85rem; }
+        .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #111318; border: 1px solid var(--border); color: var(--text); padding: 10px 18px; border-radius: 10px; font-size: .8rem; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 99; }
+        .toast.show { opacity: 1; }
+        .muted { color: var(--text-muted); }
+        .btn-x { margin-left: auto; font-size: .78rem;}
+        .summary-line { font-size: .78rem; color: var(--text-muted); margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>Khudkibook AI Corner</h1>
+                <p style="color: var(--text-muted);">Generate AI self-study books from GTU syllabus (local Ollama).</p>
+            </div>
+            <div class="actions">
+                <a href="/admin/" class="secondary-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:8px;"><i class="fas fa-arrow-left"></i> Admin</a>
+                <a href="/" target="_blank" class="secondary-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:8px;"><i class="fas fa-external-link-alt"></i> View Site</a>
+                <span id="ollama-status" class="badge">Ollama ?</span>
+            </div>
+        </header>
+
+        <!-- Jobs -->
+        <div class="ai-card">
+            <h2><i class="fas fa-tasks"></i> Jobs <span class="muted" style="font-weight:400; font-size:.75rem;" id="jobs-count"></span></h2>
+            <div id="jobs-wrap"></div>
+        </div>
+
+        <!-- Catalog -->
+        <div class="ai-card">
+            <h2><i class="fas fa-book-open"></i> Subject Catalog <span class="muted" style="font-weight:400; font-size:.75rem;" id="catalog-count"></span></h2>
+            <div class="control-bar">
+                <input type="text" id="q" placeholder="Search code or subject name…" />
+                <select id="filter">
+                    <option value="all">All subjects</option>
+                    <option value="core">Core (real/syllabus/ai)</option>
+                    <option value="missing">Missing AI book</option>
+                </select>
+                <select id="badge">
+                    <option value="">Any badges</option>
+                    <option value="ai">Has AI units</option>
+                    <option value="papers">Has question papers</option>
+                </select>
+                <button class="secondary-btn" onclick="reloadCatalog()"><i class="fas fa-sync-alt"></i> Refresh</button>
+                <span class="muted" style="font-size:.75rem;">Generation runs locally; only 1 job at a time.</span>
+            </div>
+            <div id="catalog-wrap"></div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+    const $ = id => document.getElementById(id);
+    let CATALOG = [];
+    let JOBS = [];
+    let pollTimer = null;
+    let focusedJob = null;      // job currently streaming logs via SSE
+    let focusedSource = null;
+
+    function toast(msg) {
+        const t = $('toast');
+        t.textContent = msg;
+        t.classList.add('show');
+        clearTimeout(t._h);
+        t._h = setTimeout(() => t.classList.remove('show'), 2200);
+    }
+
+    async function api(path, opts) {
+        const r = await fetch(path, opts);
+        const d = await r.json().catch(() => ({}));
+        if (!r.ok) throw new Error(d.message || r.statusText);
+        return d;
+    }
+
+    async function ollamaStatus() {
+        try {
+            const r = await fetch('http://localhost:11434/api/tags');
+            const d = await r.json();
+            const el = $('ollama-status');
+            el.textContent = 'Ollama ' + (d.models || []).map(m => m.name).slice(0, 3).join(', ') || 'online';
+            el.className = 'badge on';
+        } catch (_) {
+            const el = $('ollama-status');
+            el.textContent = 'Ollama offline';
+            el.className = 'badge';
+            if (pollTimer) clearInterval(pollTimer);
+        }
+    }
+
+    // ---------------- Jobs ----------------
+    async function loadJobs() {
+        let data;
+        try { data = await api('/api/ai/jobs'); } catch (e) { return; }
+        JOBS = data.jobs || [];
+        $('jobs-count').textContent = '(' + JOBS.length + ')';
+        renderJobs();
+    }
+
+    function statusPill(s) {
+        return `<span class="status ${s}">${s}</span>`;
+    }
+
+    function renderJobs() {
+        const w = $('jobs-wrap');
+        if (!JOBS.length) { w.innerHTML = '<div class="empty">No jobs yet — use the catalog below to launch one.</div>'; return; }
+        let html = `<table class="job-table"><thead><tr>
+            <th>ID</th><th>Type</th><th>Code</th><th>Units</th><th>Status</th><th>Progress</th><th>Step</th><th>Created</th><th>Actions</th>
+        </tr></thead><tbody>`;
+        for (const j of JOBS.slice().reverse()) {
+            const units = (j.units || []).join(',') || 'all';
+            const isRunning = j.status === 'running';
+            const pct = (j.stepCount ? Math.round((j.stepIndex / j.stepCount) * 100) : 0);
+            const disp = isRunning ? pct : j.progress;
+            html += `<tr>
+                <td class="muted">${j.id.replace(/ai_/, '')}</td>
+                <td>${j.type}${j.gu ? ' <span class="badge gu">GU</span>' : ''}</td>
+                <td class="code">${j.code}</td>
+                <td>${units}</td>
+                <td>${statusPill(j.status)}</td>
+                <td><div class="pbar"><div style="width:${disp}%"></div></div> ${disp}%</td>
+                <td class="muted" style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${(j.stepLabel || '').replace(/─/g, '')}</td>
+                <td class="muted">${new Date(j.createdAt).toLocaleTimeString()}</td>
+                <td>
+                    <button onclick="toggleLog('${j.id}')"><i class="fas fa-terminal"></i> Log</button>
+                    ${isRunning ? `<button class="btn-regen" onclick="cancelJob('${j.id}')"><i class="fas fa-ban"></i> Cancel</button>` : `<button onclick="retryJob('${j.id}')"><i class="fas fa-redo"></i> Retry</button>`}
+                    ${j.error && j.status === 'error' ? `<span class="muted">${j.error}</span>` : ''}
+                </td>
+            </tr>`;
+            if (focusedJob === j.id) {
+                html += `<tr><td colspan="9"><div class="job-log" id="joblog-${j.id}"></div></td></tr>`;
+            }
+        }
+        html += '</tbody></table>';
+        w.innerHTML = html;
+        if (focusedJob) {
+            const jl = $('joblog-' + focusedJob);
+            if (jl) {
+                const logs = (JOBS.find(x => x.id === focusedJob) || {}).logs || [];
+                if (logs.length) {
+                    jl.textContent = logs.join('\n');
+                    jl.scrollTop = jl.scrollHeight;
+                }
+            }
+            wireSse(focusedJob);
+        }
+    }
+
+    function wireSse(jobId) {
+        if (focusedSource && focusedJob === jobId) return; // already wired
+        if (focusedSource) { focusedSource.close(); focusedSource = null; }
+        focusedJob = jobId;
+        const jl = $('joblog-' + jobId);
+        if (!jl) { focusedJob = null; return; }
+        jl.textContent = 'streaming…';
+        const src = new EventSource(`/api/ai/jobs/${jobId}/events`);
+        focusedSource = src;
+        src.onmessage = (e) => {
+            const p = JSON.parse(e.data);
+            if (p.logs) {
+                const el = $('joblog-' + jobId);
+                if (el) { el.textContent = ((el.textContent || '').trim() === 'streaming…' ? '' : el.textContent) + ''.concat(...p.logs.map(l => l + '\n')); el.scrollTop = el.scrollHeight; }
+            }
+            if (p.status === 'running' && p.snapshot) { /* initial */ }
+        };
+        src.onerror = () => { src.close(); };
+    }
+
+    function toggleLog(jobId) {
+        if (focusedJob === jobId) { focusedJob = null; if (focusedSource) focusedSource.close(); focusedSource = null; }
+        else focusedJob = jobId;
+        renderJobs();
+    }
+
+    async function cancelJob(id) {
+        try { await api('/api/ai/jobs/' + id + '/cancel', { method: 'POST' }); toast('Cancel requested'); loadJobs(); } catch (e) { toast(e.message); }
+    }
+    async function retryJob(id) {
+        try { await api('/api/ai/jobs/' + id + '/retry', { method: 'POST' }); toast('Re-queued'); loadJobs(); } catch (e) { toast(e.message); }
+    }
+
+    // ---------------- Catalog ----------------
+    async function reloadCatalog() {
+        const q = encodeURIComponent($('q').value.trim());
+        const filter = $('filter').value;
+        const badge = $('badge').value;
+        try {
+            const d = await api(`/api/ai/catalog?q=${q}&filter=${filter}&badge=${badge}&limit=400`);
+            CATALOG = d.subjects || [];
+            $('catalog-count').textContent = '(' + d.total + ' matches, showing ' + CATALOG.length + ')';
+            renderCatalog();
+        } catch (e) { $('catalog-wrap').innerHTML = `<div class="empty">Catalog error: ${e.message}</div>`; }
+    }
+
+    // Unit chips from the parsed syllabus (source of truth). Unknown count → prompt
+    // the admin to fetch the syllabus first.
+    function unitChips(s) {
+        const have = new Set(s.aiUnits);
+        const guS = new Set(s.aiGu);
+        const t = s.unitTitles || [];
+        const count = (s.unitsKnown && s.unitCount > 0) ? s.unitCount : (s.aiUnits.length ? Math.max(...s.aiUnits) : 0);
+        if (!count) {
+            return '<span class="unit-chip" title="Run Fetch Syllabus to discover how many units this subject actually has">Unit count unknown</span>';
+        }
+        return Array.from({ length: count }, (_, i) => i + 1).map(n => {
+            if (have.has(n)) {
+                const gu = guS.has(n) ? ' <span class="gu">ગુ</span>' : '';
+                const title = (t.find(x => x.n === n) || {}).title || `Unit ${n}`;
+                return `<a class="unit-chip done" target="_blank" title="Unit ${n}: ${title} — open book page" href="/books/${s.code}/unit-${n}.html"><i class="fas fa-check"></i>U${n}${gu}</a>`;
+            }
+            return `<span class="unit-chip" title="Unit ${n} — not generated yet">U${n}</span>`;
+        }).join('');
+    }
+
+    function renderCatalog() {
+        const w = $('catalog-wrap');
+        if (!CATALOG.length) { w.innerHTML = '<div class="empty">No subjects match.</div>'; return; }
+        let html = `<table class="catalog-table"><thead><tr>
+            <th>Code</th><th>Subject</th><th>Branch / Sem</th><th>Badges</th>
+            <th>Units <span class="legend">from syllabus · ✓ EN · ગુ GU</span></th>
+            <th>Actions</th></tr></thead><tbody>`;
+        for (const s of CATALOG) {
+            const badges = [];
+            badges.push(s.realBook
+                ? '<span class="badge on">Real Book</span>'
+                : (s.hasSyllabus ? '<span class="badge">Syllabus PDF</span>' : '<span class="badge">No Real Book</span>'));
+            if (s.hasPapers) badges.push('<span class="badge">Papers</span>');
+            if (s.unitsKnown) badges.push(`<span class="badge ai">${s.unitCount} units</span>`);
+            if (s.aiFull) badges.push('<span class="badge ai">Full Book ✓</span>');
+            const count = Math.max(1, s.unitCount || 0);
+            const hasSel = s.unitsKnown && count > 0;
+            const opt = hasSel ? Array.from({ length: count }, (_, i) => i + 1).map(n => `<option value="${n}">Unit ${n}</option>`).join('') : '';
+            const sel = hasSel ? `<select class="sel-unit" data-sel data-code="${s.code}">${opt}</select>` : '';
+            const genBtns = hasSel ? `
+                    <button class="btn-full" title="Generate this unit in English (Ollama)" onclick="enqueue('unit','${s.code}', this)">Generate</button>
+                    <button class="btn-regen" title="Delete and regenerate this unit from scratch" onclick="enqueue('regen','${s.code}', this)">Regenerate</button>
+                    <button class="btn-gu" title="Translate this unit to Gujarati" onclick="enqueue('gu','${s.code}', this)">ગુજરાતી</button>
+                    <button class="btn-full" title="Generate the complete book (all ${count} units)" onclick="enqueueFull('${s.code}', this)">Full Book</button>` : `
+                    <button class="btn-full" title="Download + parse the GTU syllabus PDF to discover the real unit count" onclick="enqueueSyllabus('${s.code}', this)"><i class="fas fa-file-alt"></i> Fetch Syllabus</button>
+                    <button title="Fetch the syllabus first — unit actions unlock after that" disabled>Full Book</button>`;
+            html += `<tr>
+                <td class="code">${s.code}</td>
+                <td class="subj"><a class="subj-link" href="${s.page}" target="_blank">${s.name}</a></td>
+                <td class="muted">${s.branch}<br/>${s.sem}</td>
+                <td>${badges.join('')}</td>
+                <td><div class="unit-chips">${unitChips(s)}</div></td>
+                <td class="actions">
+                    ${sel}
+                    ${genBtns}
+                </td>
+            </tr>`;
+        }
+        html += '</tbody></table>';
+        w.innerHTML = html;
+        CATALOG.forEach(s => {
+            const selEl = w.querySelector(`select[data-code="${s.code}"]`);
+            if (!selEl) return;
+            const have = new Set(s.aiUnits);
+            let picked = false;
+            for (const o of selEl.options) if (!have.has(+o.value)) { selEl.value = o.value; picked = true; break; }
+            if (!picked) selEl.value = selEl.options[0].value;
+        });
+    }
+
+    async function enqueueSyllabus(code, btn) {
+        btn.disabled = true;
+        try {
+            const r = await api('/api/ai/jobs', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: 'syllabus', code }) });
+            const jid = r.job.id;
+            toast('Fetching syllabus for ' + code + '…');
+            loadJobs();
+            const t = setInterval(async () => {
+                try {
+                    const d = await api('/api/ai/jobs');
+                    const j = d.jobs.find(x => x.id === jid);
+                    if (!j) return;
+                    if (/^(done|error|cancelled|interrupted)$/.test(j.status)) {
+                        clearInterval(t);
+                        loadJobs();
+                        reloadCatalog();
+                        toast(j.status === 'done' ? 'Syllabus parsed — units now known for ' + code : 'Syllabus fetch failed: ' + (j.error || 'unknown'));
+                    }
+                } catch (_) { clearInterval(t); }
+            }, 2500);
+        } catch (e) { toast(e.message); } finally { btn.disabled = false; }
+    }
+
+    async function enqueue(type, code, btn) {
+        const row = btn.closest('tr');
+        const selEl = row.querySelector('select[data-sel]');
+        const n = +selEl.value;
+        btn.disabled = true;
+        try {
+            await api('/api/ai/jobs', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type, code, units: [n], gu: type === 'gu' }) });
+            toast(`${type === 'regen' ? 'Re-generating' : 'Generating'} unit ${n} for ${code}…`);
+            loadJobs();
+        } catch (e) { toast(e.message); } finally { btn.disabled = false; }
+    }
+
+    async function enqueueFull(code, btn) {
+        btn.disabled = true;
+        try {
+            await api('/api/ai/jobs', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: 'fullbook', code }) });
+            toast('Full book job queued for ' + code);
+            loadJobs();
+        } catch (e) { toast(e.message); } finally { btn.disabled = false; }
+    }
+
+    // debounce search & filters
+    let qTimer = null;
+    $('q').addEventListener('input', () => { clearTimeout(qTimer); qTimer = setTimeout(reloadCatalog, 350); });
+    $('filter').addEventListener('change', reloadCatalog);
+    $('badge').addEventListener('change', reloadCatalog);
+
+    setInterval(() => { loadJobs(); }, 2500);
+    ollamaStatus();
+    loadJobs();
+    reloadCatalog();
+    </script>
+</body>
+</html>

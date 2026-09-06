@@ -31,30 +31,23 @@ fetch('/main.json')
   .then(data => {
     var totalind = data.it.length;
     console.log(totalind);
-    var currentUrl = window.location.href;
+    const currentPath = window.location.pathname;
+    const pathParts = currentPath.split('/').filter(Boolean);
+    let branch = pathParts[0] === 'BE' ? (pathParts[1] || '') : (pathParts[0] || '');
+    let sem = pathParts[0] === 'BE' ? (pathParts[2] || '') : (pathParts[1] || '');
 
-    console.log(currentUrl);
-    currentUrl = currentUrl.substring(8);
-    console.log(currentUrl);
-    currentUrl = currentUrl.substring(currentUrl.indexOf('/') + 1);
-    console.log(currentUrl);
-    // currentUrl = currentUrl.substring(currentUrl.indexOf('/') + 1);
-    var branch = currentUrl.substring(0, currentUrl.indexOf('/'));
-    currentUrl = currentUrl.substring(currentUrl.indexOf('/') + 1);
+    const branchBooks = data[branch] || [];
+    if (branchBooks.length > 0) {
+      for (let index = 0; index < branchBooks.length; index++) {
+        const item = branchBooks[index];
+        const bLink = item.bookLink || '';
+        const cleanBLink = bLink.replace(/^https?:\/\/[^\/]+/, '');
+        const isMatch = (bLink && bLink === window.location.href) || 
+                        (cleanBLink && cleanBLink === currentPath) || 
+                        (cleanBLink && currentPath.endsWith(cleanBLink)) ||
+                        (cleanBLink && cleanBLink.endsWith(currentPath));
 
-    console.log(branch)
-    var sem = currentUrl.substring(0, currentUrl.indexOf('/'))
-    console.log(sem)
-    // if (currentUrl.includes()) {
-
-    if (currentUrl.includes(sem)) {
-      console.log(data[branch]);
-      console.log(data[branch].length);
-      for (let index = 0; index < data[branch].length; index++) {
-        console.log(data[branch][index]['bookLink']);
-        console.log(window.location.href);
-        console.log(data[branch][index]['bookLink'] == window.location.href);
-        if (data[branch][index]['bookLink'] == window.location.href) {
+        if (isMatch) {
           var main = document.getElementsByTagName("main")[0];
 
           main.innerHTML += `

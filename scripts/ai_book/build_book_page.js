@@ -26,7 +26,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..', '..');
-const SITE_URL = 'https://khudkibook.web.app';
+const SITE_URL = 'https://khudkibook.in';
 
 // Subject page routing metadata (kept minimal; extend as subjects are generated)
 const SUBJECT_PAGES = {

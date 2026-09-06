@@ -1,0 +1,1639 @@
+{
+ "code": "310004",
+ "subject": "Effective Technical Communication",
+ "unit": 10,
+ "lang": "en",
+ "title": "Unit – null: Form",
+ "url": "/books/310004/unit-10.html",
+ "guUrl": null,
+ "words": 11437,
+ "readingMin": 64,
+ "marks": "",
+ "sections": [
+  {
+   "heading": "Unit – null: Form",
+   "id": "",
+   "html": "<p><em>(AI-generated self study book for GTU Diploma Biomedical Engineering, subject code 310004 — generated locally with Ollama.)</em></p>\n<p>This unit carries approximately ****.</p>\n<p>Learning objectives covered by this unit:</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "7.1.1 Sphere",
+   "id": "",
+   "html": "<p>A <strong>sphere</strong> is a three-dimensional shape where every point on its surface is equidistant from its center. In biomedical engineering, spheres are often used as implants or for modeling round objects.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A sphere with a radius of 5 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a square sheet.</div>\n<ol>\n<li><strong>Formula for the Area of a Sphere:</strong></li>\n</ol>\n<p>\\[</p>\n<p>\\text{Surface Area} = 4 \\pi r^2</p>\n<p>\\]</p>\n<p>where \\( r \\) is the radius of the sphere.</p>\n<ol>\n<li><strong>Calculate the Surface Area:</strong></li>\n</ol>\n<p>\\[</p>\n<p>\\text{Surface Area} = 4 \\pi (5)^2 = 4 \\pi \\times 25 = 100 \\pi \\approx 314.16 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<ol>\n<li><strong>Determine the Minimum Sheet Size:</strong></li>\n</ol>\n<p>Since the sheet is square, the area of the square should be at least equal to the surface area of the sphere. The side length \\( s \\) of the square can be found by:</p>\n<p>\\[</p>\n<p>s^2 \\geq 314.16 \\implies s \\geq \\sqrt{314.16} \\approx 17.72 \\, \\text{cm}</p>\n<p>\\]</p>\n<p>Therefore, the minimum side length of the square sheet should be approximately 17.72 cm.</p>",
+   "examples": [
+    "A sphere with a radius of 5 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a square sheet."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "7.1.2 Cube",
+   "id": "",
+   "html": "<p>A <strong>cube</strong> is a three-dimensional shape with six equal square faces. Each face is a square, and all edges are of equal length.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A cube with an edge length of 10 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a square sheet.</div>\n<ol>\n<li><strong>Formula for the Area of a Cube:</strong></li>\n</ol>\n<p>The surface area of a cube is given by:</p>\n<p>\\[</p>\n<p>\\text{Surface Area} = 6a^2</p>\n<p>\\]</p>\n<p>where \\( a \\) is the edge length of the cube.</p>\n<ol>\n<li><strong>Calculate the Surface Area:</strong></li>\n</ol>\n<p>\\[</p>\n<p>\\text{Surface Area} = 6 \\times (10)^2 = 6 \\times 100 = 600 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<ol>\n<li><strong>Determine the Minimum Sheet Size:</strong></li>\n</ol>\n<p>Since the sheet is square, the area of the square should be at least equal to the surface area of the cube. The side length \\( s \\) of the square can be found by:</p>\n<p>\\[</p>\n<p>s^2 \\geq 600 \\implies s \\geq \\sqrt{600} \\approx 24.49 \\, \\text{cm}</p>\n<p>\\]</p>\n<p>Therefore, the minimum side length of the square sheet should be approximately 24.49 cm.</p>",
+   "examples": [
+    "A cube with an edge length of 10 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a square sheet."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "7.1.1 Cylinder",
+   "id": "",
+   "html": "<p>A <strong>cylinder</strong> is a three-dimensional shape with two parallel circular bases connected by a curved surface. The height and radius of the cylinder can vary.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A cylinder with a radius of 5 cm and a height of 10 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a rectangular sheet.</div>\n<ol>\n<li><strong>Formula for the Area of a Cylinder:</strong></li>\n</ol>\n<p>The surface area of a cylinder consists of the lateral surface area and the area of the two circular bases.</p>\n<p>\\[</p>\n<p>\\text{Total Surface Area} = 2\\pi r (r + h)</p>\n<p>\\]</p>\n<p>where \\( r \\) is the radius and \\( h \\) is the height of the cylinder.</p>\n<ol>\n<li><strong>Calculate the Total Surface Area:</strong></li>\n</ol>\n<p>\\[</p>\n<p>\\text{Total Surface Area} = 2 \\pi \\times 5 \\times (5 + 10) = 2 \\pi \\times 5 \\times 15 = 150 \\pi \\approx 471.24 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<ol>\n<li><strong>Determine the Minimum Sheet Size:</strong></li>\n</ol>\n<p>The sheet is rectangular, so its area should be at least equal to the total surface area of the cylinder. The dimensions \\( l \\) (length) and \\( w \\) (width) can be found by:</p>\n<p>\\[</p>\n<p>l \\times w \\geq 471.24 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>For simplicity, let's assume the width \\( w \\) is the same as the height \\( h \\) of the cylinder (10 cm):</p>\n<p>\\[</p>\n<p>l \\times 10 \\geq 471.24 \\implies l \\geq \\frac{471.24}{10} = 47.124 \\, \\text{cm}</p>\n<p>\\]</p>\n<p>Therefore, the minimum length of the rectangular sheet should be approximately 47.124 cm.</p>",
+   "examples": [
+    "A cylinder with a radius of 5 cm and a height of 10 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a rectangular sheet."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "7.1.2 Cone",
+   "id": "",
+   "html": "<p>A <strong>cone</strong> is a three-dimensional shape with a circular base and a single vertex (apex). The slant height, radius, and height of the cone can vary.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A cone with a radius of 5 cm and a height of 10 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a sector of a circle.</div>\n<ol>\n<li><strong>Formula for the Area of a Cone:</strong></li>\n</ol>\n<p>The surface area of a cone consists of the lateral surface area and the area of the circular base.</p>\n<p>\\[</p>\n<p>\\text{Total Surface Area} = \\pi r (r + l)</p>\n<p>\\]</p>\n<p>where \\( r \\) is the radius and \\( l \\) is the slant height of the cone. The slant height \\( l \\) can be calculated using the Pythagorean theorem:</p>\n<p>\\[</p>\n<p>l = \\sqrt{r^2 + h^2} = \\sqrt{5^2 + 10^2} = \\sqrt{25 + 100} = \\sqrt{125} \\approx 11.18 \\, \\text{cm}</p>\n<p>\\]</p>\n<ol>\n<li><strong>Calculate the Total Surface Area:</strong></li>\n</ol>\n<p>\\[</p>\n<p>\\text{Total Surface Area} = \\pi \\times 5 \\times (5 + 11.18) = \\pi \\times 5 \\times 16.18 = 80.9 \\pi \\approx 255.33 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<ol>\n<li><strong>Determine the Minimum Sheet Size:</strong></li>\n</ol>\n<p>The sheet is a sector of a circle, so its area should be at least equal to the total surface area of the cone. The sector's area can be found by:</p>\n<p>\\[</p>\n<p>\\text{Area of Sector} = \\frac{1}{2} l^2 \\theta</p>\n<p>\\]</p>\n<p>where \\( l \\) is the slant height and \\( \\theta \\) is the central angle in radians. For a complete sector, \\( \\theta = 2\\pi \\):</p>\n<p>\\[</p>\n<p>\\text{Area of Sector} = \\frac{1}{2} \\times 11.18^2 \\times 2\\pi = \\frac{1}{2} \\times 125 \\times 2\\pi = 125\\pi \\approx 392.69 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>Therefore, the minimum size of the sector should be approximately 392.69 cm².</p>",
+   "examples": [
+    "A cone with a radius of 5 cm and a height of 10 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a sector of a circle."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "7.1.3 Pyramid",
+   "id": "",
+   "html": "<p>A <strong>pyramid</strong> is a three-dimensional shape with a polygonal base and triangular faces that meet at a common vertex (apex). The base can be any polygon, and the height and slant height can vary.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A square pyramid with a base side of 10 cm and a height of 15 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a square and four triangular sheets.</div>\n<ol>\n<li><strong>Formula for the Area of a Pyramid:</strong></li>\n</ol>\n<p>The surface area of a pyramid consists of the area of the base and the area of the triangular faces.</p>\n<p>\\[</p>\n<p>\\text{Total Surface Area} = \\text{Base Area} + \\text{Lateral Area}</p>\n<p>\\]</p>\n<p>The base area is:</p>\n<p>\\[</p>\n<p>\\text{Base Area} = 10^2 = 100 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>The lateral area is the sum of the areas of the four triangular faces. Each triangular face has a base of 10 cm and a slant height that can be calculated using the Pythagorean theorem:</p>\n<p>\\[</p>\n<p>l = \\sqrt{\\left(\\frac{10}{2}\\right)^2 + 15^2} = \\sqrt{5^2 + 15^2} = \\sqrt{25 + 225} = \\sqrt{250} \\approx 15.81 \\, \\text{cm}</p>\n<p>\\]</p>\n<p>The area of one triangular face is:</p>\n<p>\\[</p>\n<p>\\text{Area of One Triangle} = \\frac{1}{2} \\times 10 \\times 15.81 = 79.05 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>The total lateral area is:</p>\n<p>\\[</p>\n<p>\\text{Lateral Area} = 4 \\times 79.05 = 316.2 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>Therefore, the total surface area is:</p>\n<p>\\[</p>\n<p>\\text{Total Surface Area} = 100 + 316.2 = 416.2 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<ol>\n<li><strong>Determine the Minimum Sheet Size:</strong></li>\n</ol>\n<p>The sheet is a square and four triangular sheets, so the total area should be at least equal to the total surface area of the pyramid. The minimum size of the square sheet should be:</p>\n<p>\\[</p>\n<p>s^2 \\geq 416.2 \\implies s \\geq \\sqrt{416.2} \\approx 20.4 \\, \\text{cm}</p>\n<p>\\]</p>\n<p>Therefore, the minimum side length of the square sheet should be approximately 20.4 cm.</p>",
+   "examples": [
+    "A square pyramid with a base side of 10 cm and a height of 15 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a square and four triangular sheets."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "7.1.4 Box",
+   "id": "",
+   "html": "<p>A <strong>box</strong> is a three-dimensional shape with six rectangular faces. The dimensions can vary.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A box with dimensions 10 cm x 10 cm x 15 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a rectangular sheet.</div>\n<ol>\n<li><strong>Formula for the Area of a Box:</strong></li>\n</ol>\n<p>The surface area of a box is given by:</p>\n<p>\\[</p>\n<p>\\text{Surface Area} = 2(lw + lh + wh)</p>\n<p>\\]</p>\n<p>where \\( l \\) is the length, \\( w \\) is the width, and \\( h \\) is the height of the box.</p>\n<ol>\n<li><strong>Calculate the Surface Area:</strong></li>\n</ol>\n<p>\\[</p>\n<p>\\text{Surface Area} = 2(10 \\times 10 + 10 \\times 15 + 10 \\times 15) = 2(100 + 150 + 150) = 2 \\times 400 = 800 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<ol>\n<li><strong>Determine the Minimum Sheet Size:</strong></li>\n</ol>\n<p>The sheet is rectangular, so the area should be at least equal to the surface area of the box. The dimensions \\( l \\) (length) and \\( w \\) (width) can be found by:</p>\n<p>\\[</p>\n<p>l \\times w \\geq 800 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>For simplicity, let's assume the width \\( w \\) is the same as the width of the box (10 cm):</p>\n<p>\\[</p>\n<p>l \\times 10 \\geq 800 \\implies l \\geq \\frac{800}{10} = 80 \\, \\text{cm}</p>\n<p>\\]</p>\n<p>Therefore, the minimum length of the rectangular sheet should be 80 cm.</p>",
+   "examples": [
+    "A box with dimensions 10 cm x 10 cm x 15 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a rectangular sheet."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "7.1.5 Bell",
+   "id": "",
+   "html": "<p>A <strong>bell</strong> is a three-dimensional shape with a circular base and a curved surface that narrows towards the top. The height and slant height can vary.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A bell with a base radius of 10 cm and a height of 20 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a sector of a circle.</div>\n<ol>\n<li><strong>Formula for the Area of a Bell:</strong></li>\n</ol>\n<p>The surface area of a bell consists of the area of the circular base and the area of the curved surface. The curved surface can be approximated by a sector of a circle with a radius equal to the slant height. The slant height \\( l \\) can be calculated using the Pythagorean theorem:</p>\n<p>\\[</p>\n<p>l = \\sqrt{r^2 + h^2} = \\sqrt{10^2 + 20^2} = \\sqrt{100 + 400} = \\sqrt{500} \\approx 22.36 \\, \\text{cm}</p>\n<p>\\]</p>\n<ol>\n<li><strong>Calculate the Total Surface Area:</strong></li>\n</ol>\n<p>The area of the base is:</p>\n<p>\\[</p>\n<p>\\text{Base Area} = \\pi r^2 = \\pi \\times 10^2 = 100\\pi \\approx 314.16 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>The area of the sector is:</p>\n<p>\\[</p>\n<p>\\text{Area of Sector} = \\frac{1}{2} l^2 \\theta</p>\n<p>\\]</p>\n<p>where \\( \\theta \\) is the central angle in radians. For a complete sector, \\( \\theta = 2\\pi \\):</p>\n<p>\\[</p>\n<p>\\text{Area of Sector} = \\frac{1}{2} \\times 22.36^2 \\times 2\\pi = \\frac{1}{2} \\times 500 \\times 2\\pi = 500\\pi \\approx 1570.8 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>Therefore, the total surface area is:</p>\n<p>\\[</p>\n<p>\\text{Total Surface Area} = 314.16 + 1570.8 = 1884.96 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<ol>\n<li><strong>Determine the Minimum Sheet Size:</strong></li>\n</ol>\n<p>The sheet is a sector of a circle, so the area should be at least equal to the total surface area of the bell. The minimum size of the sector should be approximately 1884.96 cm².</p>",
+   "examples": [
+    "A bell with a base radius of 10 cm and a height of 20 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a sector of a circle."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "7.1.6 Cylinder",
+   "id": "",
+   "html": "<p>A <strong>cylinder</strong> is a three-dimensional shape with two circular bases and a lateral surface. The radius and height can vary.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A cylinder with a radius of 5 cm and a height of 10 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a rectangular sheet.</div>\n<ol>\n<li><strong>Formula for the Area of a Cylinder:</strong></li>\n</ol>\n<p>The surface area of a cylinder consists of the area of the two circular bases and the area of the lateral surface.</p>\n<p>\\[</p>\n<p>\\text{Total Surface Area} = 2\\pi r (r + h)</p>\n<p>\\]</p>\n<p>where \\( r \\) is the radius and \\( h \\) is the height of the cylinder.</p>\n<ol>\n<li><strong>Calculate the Total Surface Area:</strong></li>\n</ol>\n<p>\\[</p>\n<p>\\text{Total Surface Area} = 2 \\pi \\times 5 \\times (5 + 10) = 2 \\pi \\times 5 \\times 15 = 150 \\pi \\approx 471.24 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<ol>\n<li><strong>Determine the Minimum Sheet Size:</strong></li>\n</ol>\n<p>The sheet is rectangular, so the area should be at least equal to the total surface area of the cylinder. The dimensions \\( l \\) (length) and \\( w \\) (width) can be found by:</p>\n<p>\\[</p>\n<p>l \\times w \\geq 471.24 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>For simplicity, let's assume the width \\( w \\) is the same as the height of the cylinder (10 cm):</p>\n<p>\\[</p>\n<p>l \\times 10 \\geq 471.24 \\implies l \\geq \\frac{471.24}{10} = 47.124 \\, \\text{cm}</p>\n<p>\\]</p>\n<p>Therefore, the minimum length of the rectangular sheet should be approximately 47.124 cm.</p>",
+   "examples": [
+    "A cylinder with a radius of 5 cm and a height of 10 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a rectangular sheet."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "7.1.7 Prism",
+   "id": "",
+   "html": "<p>A <strong>prism</strong> is a three-dimensional shape with two parallel polygonal bases and rectangular lateral faces. The base can be any polygon, and the height can vary.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A triangular prism with a base side of 10 cm, a height of 15 cm, and a length of 20 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a triangular and three rectangular sheets.</div>\n<ol>\n<li><strong>Formula for the Area of a Prism:</strong></li>\n</ol>\n<p>The surface area of a prism consists of the area of the two bases and the area of the rectangular faces.</p>\n<p>\\[</p>\n<p>\\text{Total Surface Area} = 2(\\text{Base Area}) + \\text{Lateral Area}</p>\n<p>\\]</p>\n<p>The base area is:</p>\n<p>\\[</p>\n<p>\\text{Base Area} = \\frac{\\sqrt{3}}{4} \\times 10^2 = \\frac{\\sqrt{3}}{4} \\times 100 = 25\\sqrt{3} \\approx 43.3 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>The lateral area is the sum of the areas of the three rectangular faces. Each rectangular face has a base of 10 cm and a height of 15 cm:</p>\n<p>\\[</p>\n<p>\\text{Area of</p>\n<hr />",
+   "examples": [
+    "A triangular prism with a base side of 10 cm, a height of 15 cm, and a length of 20 cm is to be prepared from a sheet of material. Calculate the minimum size of the sheet required if the material is to be cut with a triangular and three rectangular sheets."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "8.2. Smooth texture",
+   "id": "",
+   "html": "<p><strong>Smooth texture</strong> refers to the surface finish of a material that feels soft and non-rough to the touch. It is often desirable in biomedical applications to provide a comfortable and non-irritating surface for implants and prosthetics. Smooth textures are also important in aesthetic designs to ensure a pleasing appearance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Smooth Texture",
+   "id": "",
+   "html": "<ul>\n<li><strong>Biocompatibility</strong>: Smooth surfaces reduce the risk of tissue damage and irritation, which is crucial for long-term implant success.</li>\n<li><strong>Aesthetics</strong>: Smooth textures enhance the visual appeal of medical devices and prosthetics, making them more acceptable to patients.</li>\n<li><strong>Ease of Cleaning</strong>: Smooth surfaces are easier to clean and maintain, which is important in medical environments to prevent infections.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Smooth Textures",
+   "id": "",
+   "html": "<ul>\n<li><strong>Polished Metal Surfaces</strong>: Commonly used in orthopedic implants to ensure a smooth and non-abrasive surface.</li>\n<li><strong>Biocompatible Coatings</strong>: Epoxy, polyurethane, and other coatings are applied to implant surfaces to achieve a smooth finish.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a titanium implant for a patient. The engineer needs to ensure the surface finish is smooth to minimize tissue irritation. The surface roughness (Ra) should be less than 0.1 μm. The engineer decides to polish the titanium surface using a fine abrasive to achieve this finish.</div>",
+   "examples": [
+    "A biomedical engineer is designing a titanium implant for a patient. The engineer needs to ensure the surface finish is smooth to minimize tissue irritation. The surface roughness (Ra) should be less than 0.1 μm. The engineer decides to polish the titanium surface using a fine abrasive to achieve this finish."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "8.3. Transparent effect",
+   "id": "",
+   "html": "<p><strong>Transparent effect</strong> refers to the appearance of a material that allows light to pass through it, giving the impression of clarity. This property is crucial in biomedical applications where visibility and light transmission are important, such as in optical implants and surgical visualization devices.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Transparent Effect",
+   "id": "",
+   "html": "<ul>\n<li><strong>Optical Applications</strong>: Transparent materials are used in optical implants and surgical equipment to ensure clear visibility.</li>\n<li><strong>Aesthetics</strong>: Transparent materials can provide a sleek and modern appearance in medical devices.</li>\n<li><strong>Light Transmission</strong>: Transparent materials are essential for devices that require light to pass through, such as optical fibers and endoscopes.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Transparent Materials",
+   "id": "",
+   "html": "<ul>\n<li><strong>Glass and Ceramics</strong>: Commonly used in surgical devices for their transparency and biocompatibility.</li>\n<li><strong>Plastic and Polymers</strong>: Used in optical implants and surgical tools for their lightweight and flexible properties.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing an optical implant for a patient who needs a clear view of their internal organs. The engineer decides to use a transparent material with a refractive index of 1.5, which allows light to pass through with minimal distortion. The material should be biocompatible and have a thickness of 2 mm to ensure clarity.</div>",
+   "examples": [
+    "A biomedical engineer is designing an optical implant for a patient who needs a clear view of their internal organs. The engineer decides to use a transparent material with a refractive index of 1.5, which allows light to pass through with minimal distortion. The material should be biocompatible and have a thickness of 2 mm to ensure clarity."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.1. Preparation of sheet showing the effect of Balance in following areas manually.",
+   "id": "",
+   "html": "<p><strong>Balance in design</strong> refers to the distribution of visual weight and the arrangement of elements to create a sense of harmony and stability. This section covers the preparation of a sheet showing the effect of balance in different areas of design.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Preparation of Sheet",
+   "id": "",
+   "html": "<ul>\n<li><strong>Objective</strong>: To create a visual representation of balance in different areas of design.</li>\n<li><strong>Tools</strong>: Use of sketching tools, digital design software, or physical models.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Areas of Balance",
+   "id": "",
+   "html": "<ul>\n<li><strong>Line Path</strong>: Balance in the arrangement of lines.</li>\n<li><strong>Space</strong>: Balance in the distribution of space.</li>\n<li><strong>Shape</strong>: Balance in the use of shapes.</li>\n<li><strong>Value</strong>: Balance in the use of light and dark.</li>\n<li><strong>Texture</strong>: Balance in the use of textures.</li>\n<li><strong>Pattern</strong>: Balance in the use of patterns.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart for Preparation",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Start] --&gt; B[Define the area of balance]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Start] --&gt; B[Define the area of balance]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Start] --&gt; B[Define the area of balance]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Start] --> B[Define the area of balance]\n    B --> C[Sketch or create a model]\n    C --> D[Analyze and refine the design]\n    D --> E[Evaluate and adjust]\n    E --> F[Finalize the sheet]\n    F --> G[End]"
+   ]
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is preparing a sheet to show the effect of balance in the space area of a prosthetic device. The engineer starts by sketching the device on paper and then analyzes the distribution of space. The engineer adjusts the design to ensure that the space is evenly distributed, creating a balanced appearance. The final sheet shows the balanced distribution of space, with all elements arranged harmoniously.</div>",
+   "examples": [
+    "A biomedical engineer is preparing a sheet to show the effect of balance in the space area of a prosthetic device. The engineer starts by sketching the device on paper and then analyzes the distribution of space. The engineer adjusts the design to ensure that the space is evenly distributed, creating a balanced appearance. The final sheet shows the balanced distribution of space, with all elements arranged harmoniously."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.1.1. Balance in line path",
+   "id": "",
+   "html": "<p><strong>Balance in line path</strong> refers to the arrangement of lines in a design to create a sense of harmony and stability. This is important in biomedical designs to ensure clear and balanced visual flow.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Balance in Line Path",
+   "id": "",
+   "html": "<ul>\n<li><strong>Visual Flow</strong>: Ensures that the viewer's eye follows a natural and balanced path.</li>\n<li><strong>Clarity</strong>: Helps in presenting information clearly and effectively.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall aesthetic appeal of the design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Balance in Line Path",
+   "id": "",
+   "html": "<ul>\n<li><strong>Straight Lines</strong>: Arrange straight lines in a symmetrical manner.</li>\n<li><strong>Curved Lines</strong>: Use curved lines in a harmonious and balanced way.</li>\n<li><strong>Combination</strong>: Combine straight and curved lines to create a balanced path.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a surgical tool and wants to ensure that the lines are balanced and clear. The engineer draws the tool with straight and curved lines, ensuring that the lines are evenly distributed and create a balanced path. The final design shows a clear and harmonious line path, making the tool easy to use and understand.</div>",
+   "examples": [
+    "A biomedical engineer is designing a surgical tool and wants to ensure that the lines are balanced and clear. The engineer draws the tool with straight and curved lines, ensuring that the lines are evenly distributed and create a balanced path. The final design shows a clear and harmonious line path, making the tool easy to use and understand."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.1.2. Balance in space",
+   "id": "",
+   "html": "<p><strong>Balance in space</strong> refers to the distribution of elements in a design to create a sense of harmony and stability. This is important in biomedical designs to ensure that the space is used effectively and aesthetically.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Balance in Space",
+   "id": "",
+   "html": "<ul>\n<li><strong>Harmony</strong>: Ensures that all elements in the design are harmoniously distributed.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall visual appeal of the design.</li>\n<li><strong>Functionality</strong>: Ensures that the design is functional and easy to use.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Balance in Space",
+   "id": "",
+   "html": "<ul>\n<li><strong>Symmetrical Layout</strong>: Arrange elements in a symmetrical manner.</li>\n<li><strong>Asymmetrical Layout</strong>: Use an asymmetrical layout to create interest and balance.</li>\n<li><strong>Inconsistent Layout</strong>: Use inconsistent elements to create a dynamic and balanced design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a patient monitoring device and wants to ensure that the space is balanced. The engineer arranges the sensors and display panels in a symmetrical layout, ensuring that the space is evenly distributed. The final design shows a balanced and harmonious use of space, making the device easy to use and aesthetically pleasing.</div>",
+   "examples": [
+    "A biomedical engineer is designing a patient monitoring device and wants to ensure that the space is balanced. The engineer arranges the sensors and display panels in a symmetrical layout, ensuring that the space is evenly distributed. The final design shows a balanced and harmonious use of space, making the device easy to use and aesthetically pleasing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.1.3. Balance in space & shape",
+   "id": "",
+   "html": "<p><strong>Balance in space & shape</strong> refers to the arrangement of both space and shapes in a design to create a sense of harmony and stability. This is important in biomedical designs to ensure that the space and shapes are used effectively and aesthetically.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Balance in Space & Shape",
+   "id": "",
+   "html": "<ul>\n<li><strong>Visual Harmony</strong>: Ensures that the design is visually harmonious.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall visual appeal of the design.</li>\n<li><strong>Functionality</strong>: Ensures that the design is functional and easy to use.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Balance in Space & Shape",
+   "id": "",
+   "html": "<ul>\n<li><strong>Symmetrical Layout</strong>: Arrange elements in a symmetrical manner.</li>\n<li><strong>Asymmetrical Layout</strong>: Use an asymmetrical layout to create interest and balance.</li>\n<li><strong>Inconsistent Layout</strong>: Use inconsistent elements to create a dynamic and balanced design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a patient monitoring device and wants to ensure that the space and shapes are balanced. The engineer arranges the sensors and display panels in a symmetrical layout, ensuring that the space and shapes are evenly distributed. The final design shows a balanced and harmonious use of space and shapes, making the device easy to use and aesthetically pleasing.</div>",
+   "examples": [
+    "A biomedical engineer is designing a patient monitoring device and wants to ensure that the space and shapes are balanced. The engineer arranges the sensors and display panels in a symmetrical layout, ensuring that the space and shapes are evenly distributed. The final design shows a balanced and harmonious use of space and shapes, making the device easy to use and aesthetically pleasing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.1.4. Balance in value",
+   "id": "",
+   "html": "<p><strong>Balance in value</strong> refers to the distribution of light and dark in a design to create a sense of harmony and stability. This is important in biomedical designs to ensure that the contrast is appropriate and enhances the overall appearance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Balance in Value",
+   "id": "",
+   "html": "<ul>\n<li><strong>Contrast</strong>: Ensures that the design has appropriate contrast.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall visual appeal of the design.</li>\n<li><strong>Functionality</strong>: Ensures that the design is functional and easy to use.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Balance in Value",
+   "id": "",
+   "html": "<ul>\n<li><strong>High Contrast</strong>: Use high contrast to create a strong visual impact.</li>\n<li><strong>Low Contrast</strong>: Use low contrast to create a soft and subtle appearance.</li>\n<li><strong>Inconsistent Contrast</strong>: Use inconsistent contrast to create a dynamic and balanced design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a surgical instrument and wants to ensure that the value is balanced. The engineer uses high contrast between the metal parts and the handle, ensuring that the design is visually appealing and easy to use. The final design shows a balanced and harmonious use of value, making the instrument easy to handle and visually appealing.</div>",
+   "examples": [
+    "A biomedical engineer is designing a surgical instrument and wants to ensure that the value is balanced. The engineer uses high contrast between the metal parts and the handle, ensuring that the design is visually appealing and easy to use. The final design shows a balanced and harmonious use of value, making the instrument easy to handle and visually appealing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.1.5. Balance in texture",
+   "id": "",
+   "html": "<p><strong>Balance in texture</strong> refers to the distribution of textures in a design to create a sense of harmony and stability. This is important in biomedical designs to ensure that the textures are appropriate and enhance the overall appearance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Balance in Texture",
+   "id": "",
+   "html": "<ul>\n<li><strong>Harmony</strong>: Ensures that the design is visually harmonious.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall visual appeal of the design.</li>\n<li><strong>Functionality</strong>: Ensures that the design is functional and easy to use.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Balance in Texture",
+   "id": "",
+   "html": "<ul>\n<li><strong>Smooth Texture</strong>: Use smooth textures to create a soft and non-irritating appearance.</li>\n<li><strong>Rough Texture</strong>: Use rough textures to create a rough and durable appearance.</li>\n<li><strong>Inconsistent Texture</strong>: Use inconsistent textures to create a dynamic and balanced design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a patient support device and wants to ensure that the texture is balanced. The engineer uses smooth textures on the surface to ensure that the device is comfortable and non-irritating. The final design shows a balanced and harmonious use of texture, making the device easy to use and visually appealing.</div>",
+   "examples": [
+    "A biomedical engineer is designing a patient support device and wants to ensure that the texture is balanced. The engineer uses smooth textures on the surface to ensure that the device is comfortable and non-irritating. The final design shows a balanced and harmonious use of texture, making the device easy to use and visually appealing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.1.6. Balance in pattern",
+   "id": "",
+   "html": "<p><strong>Balance in pattern</strong> refers to the arrangement of patterns in a design to create a sense of harmony and stability. This is important in biomedical designs to ensure that the patterns are appropriate and enhance the overall appearance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Balance in Pattern",
+   "id": "",
+   "html": "<ul>\n<li><strong>Harmony</strong>: Ensures that the design is visually harmonious.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall visual appeal of the design.</li>\n<li><strong>Functionality</strong>: Ensures that the design is functional and easy to use.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Balance in Pattern",
+   "id": "",
+   "html": "<ul>\n<li><strong>Symmetrical Pattern</strong>: Arrange elements in a symmetrical pattern.</li>\n<li><strong>Asymmetrical Pattern</strong>: Use an asymmetrical pattern to create interest and balance.</li>\n<li><strong>Inconsistent Pattern</strong>: Use inconsistent elements to create a dynamic and balanced design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a patient monitoring device and wants to ensure that the pattern is balanced. The engineer arranges the sensors and display panels in a symmetrical pattern, ensuring that the design is visually appealing and easy to use. The final design shows a balanced and harmonious use of pattern, making the device easy to use and aesthetically pleasing.</div>",
+   "examples": [
+    "A biomedical engineer is designing a patient monitoring device and wants to ensure that the pattern is balanced. The engineer arranges the sensors and display panels in a symmetrical pattern, ensuring that the design is visually appealing and easy to use. The final design shows a balanced and harmonious use of pattern, making the device easy to use and aesthetically pleasing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.2. Preparation of the sheet showing Emphasis in relation to the elements of design",
+   "id": "",
+   "html": "<p><strong>Emphasis</strong> in design refers to the use of elements to draw attention to a specific part of the design. This is important in biomedical designs to ensure that key information is highlighted and easy to understand.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Preparation of Sheet",
+   "id": "",
+   "html": "<ul>\n<li><strong>Objective</strong>: To create a visual representation of emphasis in the elements of design.</li>\n<li><strong>Tools</strong>: Use of sketching tools, digital design software, or physical models.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Elements of Emphasis",
+   "id": "",
+   "html": "<ul>\n<li><strong>Line Thickness</strong>: Highlighting lines by making them thicker.</li>\n<li><strong>Shape</strong>: Using larger or more prominent shapes.</li>\n<li><strong>Form</strong>: Using more complex or detailed forms.</li>\n<li><strong>Space</strong>: Using more prominent or larger spaces.</li>\n<li><strong>Light</strong>: Using more prominent or more intense lighting.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart for Preparation",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Start] --&gt; B[Define the elements of emphasis]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Start] --&gt; B[Define the elements of emphasis]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Start] --&gt; B[Define the elements of emphasis]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Start] --> B[Define the elements of emphasis]\n    B --> C[Sketch or create a model]\n    C --> D[Analyze and refine the design]\n    D --> E[Evaluate and adjust]\n    E --> F[Finalize the sheet]\n    F --> G[End]"
+   ]
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is preparing a sheet to show the emphasis in the elements of design for a patient monitoring device. The engineer starts by sketching the device and then identifies the key elements that need emphasis. The engineer uses thicker lines and larger shapes to highlight these elements, ensuring that the design is clear and easy to understand. The final sheet shows the emphasis in the elements of design, making the device easy to use and understand.</div>",
+   "examples": [
+    "A biomedical engineer is preparing a sheet to show the emphasis in the elements of design for a patient monitoring device. The engineer starts by sketching the device and then identifies the key elements that need emphasis. The engineer uses thicker lines and larger shapes to highlight these elements, ensuring that the design is clear and easy to understand. The final sheet shows the emphasis in the elements of design, making the device easy to use and understand."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.2.1. Emphasis of line thickness",
+   "id": "",
+   "html": "<p><strong>Emphasis of line thickness</strong> refers to the use of thicker lines to draw attention to specific parts of a design. This is important in biomedical designs to ensure that key information is highlighted and easy to understand.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Emphasis of Line Thickness",
+   "id": "",
+   "html": "<ul>\n<li><strong>Clarity</strong>: Ensures that the design is clear and easy to understand.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall visual appeal of the design.</li>\n<li><strong>Functionality</strong>: Ensures that the design is functional and easy to use.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Emphasis of Line Thickness",
+   "id": "",
+   "html": "<ul>\n<li><strong>Thicker Lines</strong>: Use thicker lines to draw attention to specific parts.</li>\n<li><strong>Thinner Lines</strong>: Use thinner lines to highlight less important parts.</li>\n<li><strong>Inconsistent Line Thickness</strong>: Use inconsistent line thickness to create a dynamic and balanced design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a surgical instrument and wants to ensure that the line thickness is emphasized. The engineer uses thicker lines to highlight the critical parts of the instrument, ensuring that the design is clear and easy to understand. The final design shows the emphasis in line thickness, making the instrument easy to use and visually appealing.</div>",
+   "examples": [
+    "A biomedical engineer is designing a surgical instrument and wants to ensure that the line thickness is emphasized. The engineer uses thicker lines to highlight the critical parts of the instrument, ensuring that the design is clear and easy to understand. The final design shows the emphasis in line thickness, making the instrument easy to use and visually appealing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.2.2. Emphasis of shape",
+   "id": "",
+   "html": "<p><strong>Emphasis of shape</strong> refers to the use of larger or more prominent shapes to draw attention to specific parts of a design. This is important in biomedical designs to ensure that key information is highlighted and easy to understand.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Emphasis of Shape",
+   "id": "",
+   "html": "<ul>\n<li><strong>Clarity</strong>: Ensures that the design is clear and easy to understand.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall visual appeal of the design.</li>\n<li><strong>Functionality</strong>: Ensures that the design is functional and easy to use.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Emphasis of Shape",
+   "id": "",
+   "html": "<ul>\n<li><strong>Larger Shapes</strong>: Use larger shapes to draw attention to specific parts.</li>\n<li><strong>Smaller Shapes</strong>: Use smaller shapes to highlight less important parts.</li>\n<li><strong>Inconsistent Shapes</strong>: Use inconsistent shapes to create a dynamic and balanced design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a patient monitoring device and wants to ensure that the shape is emphasized. The engineer uses larger shapes to highlight the key parts of the device, ensuring that the design is clear and easy to understand. The final design shows the emphasis in shape, making the device easy to use and visually appealing.</div>",
+   "examples": [
+    "A biomedical engineer is designing a patient monitoring device and wants to ensure that the shape is emphasized. The engineer uses larger shapes to highlight the key parts of the device, ensuring that the design is clear and easy to understand. The final design shows the emphasis in shape, making the device easy to use and visually appealing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.2.3. Emphasis of form",
+   "id": "",
+   "html": "<p><strong>Emphasis of form</strong> refers to the use of more complex or detailed forms to draw attention to specific parts of a design. This is important in biomedical designs to ensure that key information is highlighted and easy to understand.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Emphasis of Form",
+   "id": "",
+   "html": "<ul>\n<li><strong>Clarity</strong>: Ensures that the design is clear and easy to understand.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall visual appeal of the design.</li>\n<li><strong>Functionality</strong>: Ensures that the design is functional and easy to use.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Emphasis of Form",
+   "id": "",
+   "html": "<ul>\n<li><strong>Complex Forms</strong>: Use complex forms to draw attention to specific parts.</li>\n<li><strong>Simple Forms</strong>: Use simple forms to highlight less important parts.</li>\n<li><strong>Inconsistent Forms</strong>: Use inconsistent forms to create a dynamic and balanced design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a patient support device and wants to ensure that the form is emphasized. The engineer uses complex forms to highlight the key parts of the device, ensuring that the design is clear and easy to understand. The final design shows the emphasis in form, making the device easy to use and visually appealing.</div>",
+   "examples": [
+    "A biomedical engineer is designing a patient support device and wants to ensure that the form is emphasized. The engineer uses complex forms to highlight the key parts of the device, ensuring that the design is clear and easy to understand. The final design shows the emphasis in form, making the device easy to use and visually appealing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.2.4. Emphasis of space",
+   "id": "",
+   "html": "<p><strong>Emphasis of space</strong> refers to the use of more prominent or larger spaces to draw attention to specific parts of a design. This is important in biomedical designs to ensure that key information is highlighted and easy to understand.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Emphasis of Space",
+   "id": "",
+   "html": "<ul>\n<li><strong>Clarity</strong>: Ensures that the design is clear and easy to understand.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall visual appeal of the design.</li>\n<li><strong>Functionality</strong>: Ensures that the design is functional and easy to use.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Emphasis of Space",
+   "id": "",
+   "html": "<ul>\n<li><strong>Larger Spaces</strong>: Use larger spaces to draw attention to specific parts.</li>\n<li><strong>Smaller Spaces</strong>: Use smaller spaces to highlight less important parts.</li>\n<li><strong>Inconsistent Spaces</strong>: Use inconsistent spaces to create a dynamic and balanced design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a patient monitoring device and wants to ensure that the space is emphasized. The engineer uses larger spaces to highlight the key parts of the device, ensuring that the design is clear and easy to understand. The final design shows the emphasis in space, making the device easy to use and visually appealing.</div>",
+   "examples": [
+    "A biomedical engineer is designing a patient monitoring device and wants to ensure that the space is emphasized. The engineer uses larger spaces to highlight the key parts of the device, ensuring that the design is clear and easy to understand. The final design shows the emphasis in space, making the device easy to use and visually appealing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.2.5. Emphasis of light",
+   "id": "",
+   "html": "<p><strong>Emphasis of light</strong> refers to the use of more prominent or more intense lighting to draw attention to specific parts of a design. This is important in biomedical designs to ensure that key information is highlighted and easy to understand.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Emphasis of Light",
+   "id": "",
+   "html": "<ul>\n<li><strong>Clarity</strong>: Ensures that the design is clear and easy to understand.</li>\n<li><strong>Aesthetics</strong>: Enhances the overall visual appeal of the design.</li>\n<li><strong>Functionality</strong>: Ensures that the design is functional and easy to use.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Emphasis of Light",
+   "id": "",
+   "html": "<ul>\n<li><strong>Brighter Light</strong>: Use brighter light to draw attention to specific parts.</li>\n<li><strong>Darker Light</strong>: Use darker light to highlight less important parts.</li>\n<li><strong>Inconsistent Light</strong>: Use inconsistent light to create a dynamic and balanced design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a surgical instrument and wants to ensure that the light is emphasized. The engineer uses brighter light to highlight the critical parts of the instrument, ensuring that the design is clear and easy to understand. The final design shows the emphasis in light, making the instrument easy to use and visually appealing.</div>\n<p>This comprehensive approach to balance and emphasis in design will ensure that biomedical devices are both functional and visually appealing. By carefully considering the elements and principles of design, biomedical engineers can create devices that are easy to use and understand.</p>\n<p>Feel free to use any part or all of this information as needed. If you have any specific questions or need further assistance, please let me know! 🚑📊🔍💡</p>\n<p>---</p>\n<p>If you have any more specific requirements or need further details, please let me know. I'm here to help! 🚑📊🔍💡</p>\n<p>---</p>\n<p>I hope this detailed guide helps you in your design process. If you need any more assistance, feel free to ask! 🚑📊🔍💡</p>\n<p>---</p>\n<p>Thank you for your time and consideration. I look forward to any further questions you might have! 🚑📊🔍💡</p>\n<p>---</p>\n<p>Warm regards</p>\n<hr />",
+   "examples": [
+    "A biomedical engineer is designing a surgical instrument and wants to ensure that the light is emphasized. The engineer uses brighter light to highlight the critical parts of the instrument, ensuring that the design is clear and easy to understand. The final design shows the emphasis in light, making the instrument easy to use and visually appealing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Texture</strong> refers to the surface characteristics of an object. In the context of biomedical engineering, texture can be used to enhance the performance of biomaterials and implants. The emphasis on texture involves modifying the surface properties to achieve specific functional or aesthetic outcomes.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>Emphasizing texture can significantly influence the biological response of a biomaterial. For example, a rough surface can promote better bone ingrowth, while a smooth surface might reduce biofilm formation.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A titanium implant used in orthopedic surgery is modified to have a rough surface texture to improve osseointegration. This roughness can be achieved through processes like sandblasting, etching, or plasma treatment.</div>",
+   "examples": [
+    "A titanium implant used in orthopedic surgery is modified to have a rough surface texture to improve osseointegration. This roughness can be achieved through processes like sandblasting, etching, or plasma treatment."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Pattern</strong> refers to the arrangement of elements in a regular or irregular manner. In biomedical engineering, patterns can be used to enhance the structural integrity and functionality of implants.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>Patterns can influence the mechanical properties and biological response of biomaterials. For instance, a patterned surface can improve the distribution of mechanical stress and promote better cell adhesion.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A ceramic implant is designed with a patterned surface to enhance its structural strength. The pattern can be a series of grooves or ridges that run along the surface, providing a mechanical advantage and improving the material's resistance to fracture.</div>",
+   "examples": [
+    "A ceramic implant is designed with a patterned surface to enhance its structural strength. The pattern can be a series of grooves or ridges that run along the surface, providing a mechanical advantage and improving the material's resistance to fracture."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p>Rhythm refers to the regular or irregular recurrence of elements in a design. It can be applied to lines, shapes, and patterns to create a dynamic and engaging visual effect. Understanding the relationship between rhythm and the elements of design is crucial for creating effective and functional biomaterials.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Wavy",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> A wavy line is a line that bends and curves in a regular, flowing manner.</li>\n<li><strong>Example:</strong> A wavy line can be used in the design of a flexible implant that needs to conform to the body's natural curves.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    W[Wave] --&gt; L[Line]\n    L --&gt; C[Curved]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    W[Wave] --&gt; L[Line]\n    L --&gt; C[Curved]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    W[Wave] --&gt; L[Line]\n    L --&gt; C[Curved]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    W[Wave] --> L[Line]\n    L --> C[Curved]"
+   ]
+  },
+  {
+   "heading": "Zigzag",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> A zigzag line consists of a series of sharp angles or turns.</li>\n<li><strong>Example:</strong> A zigzag line can be used in the design of a surgical tool that needs to navigate through tight spaces.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    Z[Zigzag] --&gt; L[Line]\n    L --&gt; A[Angular]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    Z[Zigzag] --&gt; L[Line]\n    L --&gt; A[Angular]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    Z[Zigzag] --&gt; L[Line]\n    L --&gt; A[Angular]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    Z[Zigzag] --> L[Line]\n    L --> A[Angular]"
+   ]
+  },
+  {
+   "heading": "Single",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> A single line is a straight and unbroken line.</li>\n<li><strong>Example:</strong> A single line can be used in the design of a straight, rigid implant.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    S[Single] --&gt; L[Line]\n    L --&gt; R[Rectilinear]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    S[Single] --&gt; L[Line]\n    L --&gt; R[Rectilinear]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    S[Single] --&gt; L[Line]\n    L --&gt; R[Rectilinear]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    S[Single] --> L[Line]\n    L --> R[Rectilinear]"
+   ]
+  },
+  {
+   "heading": "Swirled",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> A swirled line is a line that spirals or twists in a circular pattern.</li>\n<li><strong>Example:</strong> A swirled line can be used in the design of a vascular graft that needs to conform to the blood vessel's natural curvature.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    S[Swirled] --&gt; L[Line]\n    L --&gt; C[Curved]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    S[Swirled] --&gt; L[Line]\n    L --&gt; C[Curved]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    S[Swirled] --&gt; L[Line]\n    L --&gt; C[Curved]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    S[Swirled] --> L[Line]\n    L --> C[Curved]"
+   ]
+  },
+  {
+   "heading": "Jagged",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> A jagged line consists of sharp, uneven angles or points.</li>\n<li><strong>Example:</strong> A jagged line can be used in the design of a cutting edge for a surgical instrument.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    J[Jagged] --&gt; L[Line]\n    L --&gt; P[Pointed]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    J[Jagged] --&gt; L[Line]\n    L --&gt; P[Pointed]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    J[Jagged] --&gt; L[Line]\n    L --&gt; P[Pointed]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    J[Jagged] --> L[Line]\n    L --> P[Pointed]"
+   ]
+  },
+  {
+   "heading": "Saw Tooth",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> A saw tooth shape consists of alternating sharp points and flat surfaces, resembling the teeth of a saw.</li>\n<li><strong>Example:</strong> A saw tooth shape can be used in the design of a cutting tool for precise incisions.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    S[Saw Tooth] --&gt; H[Shape]\n    H --&gt; T[Toothed]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    S[Saw Tooth] --&gt; H[Shape]\n    H --&gt; T[Toothed]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    S[Saw Tooth] --&gt; H[Shape]\n    H --&gt; T[Toothed]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    S[Saw Tooth] --> H[Shape]\n    H --> T[Toothed]"
+   ]
+  },
+  {
+   "heading": "Diamond",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> A diamond shape is a four-sided figure with equal sides and angles.</li>\n<li><strong>Example:</strong> A diamond shape can be used in the design of a bone plate that needs to fit into a specific anatomical space.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    D[Diamond] --&gt; H[Shape]\n    H --&gt; F[Faceted]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    D[Diamond] --&gt; H[Shape]\n    H --&gt; F[Faceted]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    D[Diamond] --&gt; H[Shape]\n    H --&gt; F[Faceted]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    D[Diamond] --> H[Shape]\n    H --> F[Faceted]"
+   ]
+  },
+  {
+   "heading": "Undulating",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> An undulating shape consists of a series of waves or curves that rise and fall.</li>\n<li><strong>Example:</strong> An undulating shape can be used in the design of a flexible device that needs to conform to the body's natural curves.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    U[Undulating] --&gt; H[Shape]\n    H --&gt; C[Curved]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    U[Undulating] --&gt; H[Shape]\n    H --&gt; C[Curved]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    U[Undulating] --&gt; H[Shape]\n    H --&gt; C[Curved]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    U[Undulating] --> H[Shape]\n    H --> C[Curved]"
+   ]
+  },
+  {
+   "heading": "Preparation of Sheets Showing the Effect of Radiation in Relation to",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in relation to rhythm involves the application of light or heat to create visual effects on the surface of a material.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    R[Radiation] --&gt; S[Sheet]\n    S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    R[Radiation] --&gt; S[Sheet]\n    S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    R[Radiation] --&gt; S[Sheet]\n    S --&gt; E[Effect]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    R[Radiation] --> S[Sheet]\n    S --> E[Effect]"
+   ]
+  },
+  {
+   "heading": "Radiation in Line & Space",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in line and space involves using light or heat to create visual effects on the surface of a material by altering the line and space relationships.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    R[Line] --&gt; L[Line]\n    L --&gt; S[Space]\n    S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    R[Line] --&gt; L[Line]\n    L --&gt; S[Space]\n    S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    R[Line] --&gt; L[Line]\n    L --&gt; S[Space]\n    S --&gt; E[Effect]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    R[Line] --> L[Line]\n    L --> S[Space]\n    S --> E[Effect]"
+   ]
+  },
+  {
+   "heading": "Radiation in Shape & Space",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in shape and space involves using light or heat to create visual effects on the surface of a material by altering the shape and space relationships.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    R[Shape] --&gt; H[Shape]\n    H --&gt; S[Space]\n    S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    R[Shape] --&gt; H[Shape]\n    H --&gt; S[Space]\n    S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    R[Shape] --&gt; H[Shape]\n    H --&gt; S[Space]\n    S --&gt; E[Effect]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    R[Shape] --> H[Shape]\n    H --> S[Space]\n    S --> E[Effect]"
+   ]
+  },
+  {
+   "heading": "Radiation in Pattern",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in pattern involves using light or heat to create visual effects on the surface of a material by altering the pattern.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    R[Pattern] --&gt; P[Pattern]\n    P --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    R[Pattern] --&gt; P[Pattern]\n    P --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    R[Pattern] --&gt; P[Pattern]\n    P --&gt; E[Effect]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    R[Pattern] --> P[Pattern]\n    P --> E[Effect]"
+   ]
+  },
+  {
+   "heading": "Radiation from an Axis",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> Radiation from an axis involves using light or heat to create visual effects on the surface of a material by altering the pattern from a central axis.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    R[Axis] --&gt; A[Axis]\n    A --&gt; P[Pattern]\n    P --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    R[Axis] --&gt; A[Axis]\n    A --&gt; P[Pattern]\n    P --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    R[Axis] --&gt; A[Axis]\n    A --&gt; P[Pattern]\n    P --&gt; E[Effect]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    R[Axis] --> A[Axis]\n    A --> P[Pattern]\n    P --> E[Effect]"
+   ]
+  },
+  {
+   "heading": "Preparation of Sheets Showing the Effect of Transition in Relation to",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> Transition in relation to rhythm involves the gradual change in the elements of a design.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    T[Transition] --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    T[Transition] --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    T[Transition] --&gt; E[Effect]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    T[Transition] --> E[Effect]"
+   ]
+  },
+  {
+   "heading": "Transition in Line",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> Transition in line involves the gradual change in the line elements.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    T[Line] --&gt; L[Line]\n    L --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    T[Line] --&gt; L[Line]\n    L --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    T[Line] --&gt; L[Line]\n    L --&gt; E[Effect]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    T[Line] --> L[Line]\n    L --> E[Effect]"
+   ]
+  },
+  {
+   "heading": "Transition in Space",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> Transition in space involves the gradual change in the space elements.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    T[Space] --&gt; S[Space]\n    S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    T[Space] --&gt; S[Space]\n    S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    T[Space] --&gt; S[Space]\n    S --&gt; E[Effect]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    T[Space] --> S[Space]\n    S --> E[Effect]"
+   ]
+  },
+  {
+   "heading": "Transition in Space & Shape",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition:</strong> Transition in space and shape involves the gradual change in both space and shape elements.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    T[Space] --&gt; S[Shape]\n    S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    T[Space] --&gt; S[Shape]\n    S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    T[Space] --&gt; S[Shape]\n    S --&gt; E[Effect]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    T[Space] --> S[Shape]\n    S --> E[Effect]"
+   ]
+  },
+  {
+   "heading": "Practical Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer prepares a series of sheets showing the effect of radiation in relation to the line and space of a biomaterial. The engineer uses a laser to create a pattern of lines and spaces, then observes the changes in the material's surface properties.</div>",
+   "examples": [
+    "A biomedical engineer prepares a series of sheets showing the effect of radiation in relation to the line and space of a biomaterial. The engineer uses a laser to create a pattern of lines and spaces, then observes the changes in the material's surface properties."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conclusion",
+   "id": "",
+   "html": "<p>Understanding and emphasizing texture, pattern, and rhythm in the design of biomaterials and implants is crucial for achieving the desired functional and aesthetic outcomes. By applying these principles, engineers can enhance the performance and effectiveness of medical devices.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Transition in texture:</strong> A gradual change in the surface characteristics of a material or object. This change can be observed in terms of roughness, smoothness, or other surface properties that vary smoothly over a given area.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>In biomedical engineering, the texture of a material is crucial for its integration and interaction with the human body. Different tissue interfaces require varying levels of texture to ensure proper healing, adhesion, or integration. For example, a material used for bone healing might need a specific level of roughness to promote better osseointegration.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples",
+   "id": "",
+   "html": "<ul>\n<li><strong>Example:</strong> A biomedical implant used in a bone fracture needs a certain level of roughness on its surface to promote cell adhesion and bone growth. However, this roughness should gradually decrease as the implant integrates into the surrounding bone, ensuring a smooth transition to the natural bone surface.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Transition in Texture in Biomaterials",
+   "id": "",
+   "html": "<p>The transition in texture can be designed to mimic the natural healing process. This is often achieved by varying the surface characteristics of the biomaterial over a specific region.</p>\n<ul>\n<li><strong>Example:</strong> A titanium implant used in joint replacement can be designed with a rough surface at the attachment points to promote cell adhesion and integration, with a smooth surface at the non-attachment regions to reduce wear and tear.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Implants",
+   "id": "",
+   "html": "<p>The transition in texture can significantly affect the performance and biocompatibility of implants. Properly designed transitions can enhance the overall functionality and longevity of the implant.</p>\n<ul>\n<li><strong>Example:</strong> In dental implants, the transition from the rough surface at the bone interface to the smooth surface at the gum line can help in reducing the risk of infection and promoting better healing.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Application",
+   "id": "",
+   "html": "<p>Understanding the transition in texture is crucial for designing implants that mimic the natural healing process and enhance patient recovery.</p>\n<ul>\n<li><strong>Example:</strong> A vascular graft used for arterial repair can be designed with a textured surface that gradually transitions to a smooth surface as it interfaces with the natural artery, reducing the risk of thrombosis and promoting better blood flow.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a vascular graft to be used in arterial repair. The graft needs to have a rough surface at the site of the arterial attachment to promote cell adhesion and integration, with a smooth surface at the non-attachment regions to reduce the risk of thrombosis. The transition in texture should be gradual to ensure a smooth integration with the natural artery.</div>",
+   "examples": [
+    "A biomedical engineer is designing a vascular graft to be used in arterial repair. The graft needs to have a rough surface at the site of the arterial attachment to promote cell adhesion and integration, with a smooth surface at the non-attachment regions to reduce the risk of thrombosis. The transition in texture should be gradual to ensure a smooth integration with the natural artery."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Transition in shape & texture:</strong> This refers to a gradual change in both the shape and texture of a material or object. The shape can change from one form to another, while the texture can vary in terms of smoothness, roughness, or other surface characteristics.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>In biomedical applications, the transition in shape and texture can play a significant role in the integration and performance of the material. For example, a biomaterial used in bone repair might need to transition from a rough surface to a smooth surface as it integrates into the surrounding bone.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples",
+   "id": "",
+   "html": "<ul>\n<li><strong>Example:</strong> A bone plate used in orthopedic surgery can have a rough surface at the bone interface to promote better osseointegration, with a smooth surface at the non-attachment regions to reduce wear and tear.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Transition in Shape & Texture in Biomaterials",
+   "id": "",
+   "html": "<p>The transition in shape and texture can be designed to mimic the natural healing process. This is often achieved by varying both the surface characteristics and the shape of the biomaterial over a specific region.</p>\n<ul>\n<li><strong>Example:</strong> A cranial implant can be designed with a rough surface at the bone interface to promote cell adhesion and integration, and a smooth surface at the non-attachment regions to reduce the risk of infection and promote better healing.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Implants",
+   "id": "",
+   "html": "<p>The transition in shape and texture can significantly affect the performance and biocompatibility of implants. Properly designed transitions can enhance the overall functionality and longevity of the implant.</p>\n<ul>\n<li><strong>Example:</strong> In a hip replacement, the transition from the rough surface at the bone interface to the smooth surface at the non-attachment regions can help in reducing the risk of infection and promoting better integration.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Application",
+   "id": "",
+   "html": "<p>Understanding the transition in shape and texture is crucial for designing implants that mimic the natural healing process and enhance patient recovery.</p>\n<ul>\n<li><strong>Example:</strong> A spinal fusion cage used in spinal surgery can be designed with a rough surface at the bone interface to promote cell adhesion and integration, with a smooth surface at the non-attachment regions to reduce the risk of infection and promote better healing.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a spinal fusion cage to be used in spinal surgery. The cage needs to have a rough surface at the bone interface to promote cell adhesion and integration, with a smooth surface at the non-attachment regions to reduce the risk of infection and promote better healing. The transition in shape and texture should be gradual to ensure a smooth integration with the natural bone.</div>",
+   "examples": [
+    "A biomedical engineer is designing a spinal fusion cage to be used in spinal surgery. The cage needs to have a rough surface at the bone interface to promote cell adhesion and integration, with a smooth surface at the non-attachment regions to reduce the risk of infection and promote better healing. The transition in shape and texture should be gradual to ensure a smooth integration with the natural bone."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Gradation:</strong> The gradual change in a characteristic such as line, space, shape, pattern, or texture over a given area. Gradation is used to create a smooth transition in design, which can enhance the aesthetic and functional properties of a material or object.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>Gradation is crucial in designing biomaterials that can mimic the natural healing process. By gradually changing the characteristics, the material can better integrate with the surrounding tissue.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples",
+   "id": "",
+   "html": "<ul>\n<li><strong>Example:</strong> A biomaterial used in wound healing can have a gradual transition from a smooth surface to a rough surface, promoting cell adhesion and integration.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Preparation of Sheets Showing Effect of Gradation",
+   "id": "",
+   "html": "<p>To prepare sheets showing the effect of gradation, the following steps can be followed:</p>\n<ol>\n<li><strong>Determine the Characteristics to Gradate:</strong> Identify the characteristics that need to be gradually changed, such as line, space, shape, pattern, or texture.</li>\n<li><strong>Define the Transition Points:</strong> Determine the points at which the characteristics will change. These points should be evenly spaced to ensure a smooth transition.</li>\n<li><strong>Create the Gradation Scales:</strong> Develop a scale that shows the gradual change in the characteristic. This can be done using a linear or non-linear scale.</li>\n<li><strong>Apply the Gradation:</strong> Apply the gradation to the material or object, ensuring that the transition is smooth and consistent.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Application",
+   "id": "",
+   "html": "<p>Gradation can be used in various biomedical applications to enhance the performance and biocompatibility of biomaterials.</p>\n<ul>\n<li><strong>Example:</strong> A vascular graft can be designed with a gradual transition from a smooth surface to a rough surface at the site of the arterial attachment, promoting cell adhesion and integration.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is preparing a sheet to show the effect of gradation in the texture of a biomaterial used in bone repair. The sheet should show a gradual transition from a smooth surface to a rough surface, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition.</div>",
+   "examples": [
+    "A biomedical engineer is preparing a sheet to show the effect of gradation in the texture of a biomaterial used in bone repair. The sheet should show a gradual transition from a smooth surface to a rough surface, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Gradation in line:</strong> A gradual change in the thickness, width, or length of a line over a given area. This can be used to create a smooth transition in the design of a material or object.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>Gradation in line can be used to enhance the aesthetic and functional properties of biomaterials. For example, a gradual change in the thickness of a line can be used to create a more natural and organic appearance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples",
+   "id": "",
+   "html": "<ul>\n<li><strong>Example:</strong> A vascular graft can have a gradual transition in the thickness of the lines used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Gradation in Line in Biomaterials",
+   "id": "",
+   "html": "<p>The gradation in line can be designed to mimic the natural healing process. This is often achieved by varying the thickness of the lines over a specific region.</p>\n<ul>\n<li><strong>Example:</strong> A cranial implant can have a gradual transition in the thickness of the lines used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Implants",
+   "id": "",
+   "html": "<p>Gradation in line can significantly affect the performance and biocompatibility of implants. Properly designed transitions can enhance the overall functionality and longevity of the implant.</p>\n<ul>\n<li><strong>Example:</strong> In a hip replacement, the transition from a thick line at the bone interface to a thin line at the non-attachment regions can help in reducing the risk of infection and promoting better integration.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Application",
+   "id": "",
+   "html": "<p>Gradation in line can be used in various biomedical applications to enhance the performance and biocompatibility of biomaterials.</p>\n<ul>\n<li><strong>Example:</strong> A spinal fusion cage can have a gradual transition in the thickness of the lines used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is preparing a sheet to show the effect of gradation in line in a biomaterial used in bone repair. The sheet should show a gradual transition in the thickness of the lines, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition.</div>",
+   "examples": [
+    "A biomedical engineer is preparing a sheet to show the effect of gradation in line in a biomaterial used in bone repair. The sheet should show a gradual transition in the thickness of the lines, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Gradation in space:</strong> A gradual change in the distribution of space over a given area. This can be used to create a smooth transition in the design of a material or object.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>Gradation in space can be used to enhance the aesthetic and functional properties of biomaterials. For example, a gradual change in the distribution of space can be used to create a more natural and organic appearance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples",
+   "id": "",
+   "html": "<ul>\n<li><strong>Example:</strong> A vascular graft can have a gradual transition in the distribution of space to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Gradation in Space in Biomaterials",
+   "id": "",
+   "html": "<p>The gradation in space can be designed to mimic the natural healing process. This is often achieved by varying the distribution of space over a specific region.</p>\n<ul>\n<li><strong>Example:</strong> A cranial implant can have a gradual transition in the distribution of space used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Implants",
+   "id": "",
+   "html": "<p>Gradation in space can significantly affect the performance and biocompatibility of implants. Properly designed transitions can enhance the overall functionality and longevity of the implant.</p>\n<ul>\n<li><strong>Example:</strong> In a hip replacement, the transition from a high distribution of space at the bone interface to a low distribution of space at the non-attachment regions can help in reducing the risk of infection and promoting better integration.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Application",
+   "id": "",
+   "html": "<p>Gradation in space can be used in various biomedical applications to enhance the performance and biocompatibility of biomaterials.</p>\n<ul>\n<li><strong>Example:</strong> A spinal fusion cage can have a gradual transition in the distribution of space used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is preparing a sheet to show the effect of gradation in space in a biomaterial used in bone repair. The sheet should show a gradual transition in the distribution of space, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition.</div>",
+   "examples": [
+    "A biomedical engineer is preparing a sheet to show the effect of gradation in space in a biomaterial used in bone repair. The sheet should show a gradual transition in the distribution of space, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Gradation in shape:</strong> A gradual change in the form or outline of a shape over a given area. This can be used to create a smooth transition in the design of a material or object.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>Gradation in shape can be used to enhance the aesthetic and functional properties of biomaterials. For example, a gradual change in the shape can be used to create a more natural and organic appearance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples",
+   "id": "",
+   "html": "<ul>\n<li><strong>Example:</strong> A vascular graft can have a gradual transition in the shape of the lines used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Gradation in Shape in Biomaterials",
+   "id": "",
+   "html": "<p>The gradation in shape can be designed to mimic the natural healing process. This is often achieved by varying the shape of the lines over a specific region.</p>\n<ul>\n<li><strong>Example:</strong> A cranial implant can have a gradual transition in the shape of the lines used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Implants",
+   "id": "",
+   "html": "<p>Gradation in shape can significantly affect the performance and biocompatibility of implants. Properly designed transitions can enhance the overall functionality and longevity of the implant.</p>\n<ul>\n<li><strong>Example:</strong> In a hip replacement, the transition from a thick shape at the bone interface to a thin shape at the non-attachment regions can help in reducing the risk of infection and promoting better integration.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Application",
+   "id": "",
+   "html": "<p>Gradation in shape can be used in various biomedical applications to enhance the performance and biocompatibility of biomaterials.</p>\n<ul>\n<li><strong>Example:</strong> A spinal fusion cage can have a gradual transition in the shape of the lines used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is preparing a sheet to show the effect of gradation in shape in a biomaterial used in bone repair. The sheet should show a gradual transition in the shape of the lines, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition.</div>",
+   "examples": [
+    "A biomedical engineer is preparing a sheet to show the effect of gradation in shape in a biomaterial used in bone repair. The sheet should show a gradual transition in the shape of the lines, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Gradation in pattern:</strong> A gradual change in the arrangement or distribution of a pattern over a given area. This can be used to create a smooth transition in the design of a material or object.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>Gradation in pattern can be used to enhance the aesthetic and functional properties of biomaterials. For example, a gradual change in the distribution of a pattern can be used to create a more natural and organic appearance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples",
+   "id": "",
+   "html": "<ul>\n<li><strong>Example:</strong> A vascular graft can have a gradual transition in the distribution of a pattern to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Gradation in Pattern in Biomaterials",
+   "id": "",
+   "html": "<p>The gradation in pattern can be designed to mimic the natural healing process. This is often achieved by varying the distribution of a pattern over a specific region.</p>\n<ul>\n<li><strong>Example:</strong> A cranial implant can have a gradual transition in the distribution of a pattern used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Implants",
+   "id": "",
+   "html": "<p>Gradation in pattern can significantly affect the performance and biocompatibility of implants. Properly designed transitions can enhance the overall functionality and longevity of the implant.</p>\n<ul>\n<li><strong>Example:</strong> In a hip replacement, the transition from a high distribution of a pattern at the bone interface to a low distribution of a pattern at the non-attachment regions can help in reducing the risk of infection and promoting better integration.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Application",
+   "id": "",
+   "html": "<p>Gradation in pattern can be used in various biomedical applications to enhance the performance and biocompatibility of biomaterials.</p>\n<ul>\n<li><strong>Example:</strong> A spinal fusion cage can have a gradual transition in the distribution of a pattern used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is preparing a sheet to show the effect of gradation in pattern in a biomaterial used in bone repair. The sheet should show a gradual transition in the distribution of a pattern, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition.</div>",
+   "examples": [
+    "A biomedical engineer is preparing a sheet to show the effect of gradation in pattern in a biomaterial used in bone repair. The sheet should show a gradual transition in the distribution of a pattern, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Gradation in texture:</strong> A gradual change in the surface characteristics over a given area. This can be used to create a smooth transition in the design of a material or object.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>Gradation in texture can be used to enhance the aesthetic and functional properties of biomaterials. For example, a gradual change in the surface characteristics can be used to create a more natural and organic appearance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples",
+   "id": "",
+   "html": "<ul>\n<li><strong>Example:</strong> A vascular graft can have a gradual transition in the surface characteristics to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Gradation in Texture in Biomaterials",
+   "id": "",
+   "html": "<p>The gradation in texture can be designed to mimic the natural healing process. This is often achieved by varying the surface characteristics over a specific region.</p>\n<ul>\n<li><strong>Example:</strong> A cranial implant can have a gradual transition in the surface characteristics used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Implants",
+   "id": "",
+   "html": "<p>Gradation in texture can significantly affect the performance and biocompatibility of implants. Properly designed transitions can enhance the overall functionality and longevity of the implant.</p>\n<ul>\n<li><strong>Example:</strong> In a hip replacement, the transition from a smooth surface at the bone interface to a rough surface at the non-attachment regions can help in reducing the risk of infection and promoting better integration.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Application",
+   "id": "",
+   "html": "<p>Gradation in texture can be used in various biomedical applications to enhance the performance and biocompatibility of biomaterials.</p>\n<ul>\n<li><strong>Example:</strong> A spinal fusion cage can have a gradual transition in the surface characteristics used to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is preparing a sheet to show the effect of gradation in texture in a biomaterial used in bone repair. The sheet should show a gradual transition in the surface characteristics, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition.</div>",
+   "examples": [
+    "A biomedical engineer is preparing a sheet to show the effect of gradation in texture in a biomaterial used in bone repair. The sheet should show a gradual transition in the surface characteristics, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Gradation:</strong> The gradual change in a characteristic such as line, space, shape, pattern, or texture over a given area. Gradation is used to create a smooth transition in design, which can enhance the aesthetic and functional properties of a material or object.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomaterials",
+   "id": "",
+   "html": "<p>Gradation is crucial in designing biomaterials that can mimic the natural healing process. By gradually changing the characteristics, the material can better integrate with the surrounding tissue.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Preparation of Sheets Showing Effect of Gradation",
+   "id": "",
+   "html": "<p>To prepare sheets showing the effect of gradation, the following steps can be followed:</p>\n<ol>\n<li><strong>Determine the Characteristics to Gradate:</strong> Identify the characteristics that need to be gradually changed, such as line, space, shape, pattern, or texture.</li>\n<li><strong>Define the Transition Points:</strong> Determine the points at which the characteristics will change. These points should be evenly spaced to ensure a smooth transition.</li>\n<li><strong>Create the Gradation Scales:</strong> Develop a scale that shows the gradual change in the characteristic. This can be done using a linear or non-linear scale.</li>\n<li><strong>Apply the Gradation:</strong> Apply the gradation to the material or object, ensuring that the transition is smooth and consistent.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Application",
+   "id": "",
+   "html": "<p>Gradation can be used in various biomedical applications to enhance the performance and biocompatibility of biomaterials.</p>\n<ul>\n<li><strong>Example:</strong> A vascular graft can be designed with a gradual transition in the surface characteristics to create a more natural appearance and enhance the integration with the surrounding tissue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is preparing a sheet to show the effect of gradation in texture in a biomaterial used in bone repair. The sheet should show a gradual transition in the surface characteristics, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition.</div>",
+   "examples": [
+    "A biomedical engineer is preparing a sheet to show the effect of gradation in texture in a biomaterial used in bone repair. The sheet should show a gradual transition in the surface characteristics, promoting better osseointegration. The transition points should be evenly spaced, and the scale should be linear to ensure a smooth and consistent transition."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "9.3.3.4.1. Gradation in line",
+   "id": "",
+   "html": "<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p>A <strong>colour wheel</strong> is a visual representation of colours arranged in a circular format. It is a useful tool for understanding the relationships between different colours and their harmonies. The primary colours on a colour wheel are <strong>red</strong>, <strong>yellow</strong>, and <strong>blue</strong>. These are the foundational colours that can be mixed to create other colours.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Creating a Colour Wheel",
+   "id": "",
+   "html": "<p>To prepare a sheet showing a colour wheel, follow these steps:</p>\n<ol>\n<li><strong>Draw a Circle</strong>: Use a compass to draw a large circle on a piece of paper.</li>\n<li><strong>Divide the Circle</strong>: Divide the circle into 12 equal parts to form a 12-spoke wheel. Each spoke represents a different colour.</li>\n<li><strong>Label the Colours</strong>:</li>\n</ol>\n<ul>\n<li><strong>Primary Colours</strong>: Red, Yellow, Blue.</li>\n<li><strong>Secondary Colours</strong>: Green (yellow + blue), Orange (red + yellow), Purple (red + blue).</li>\n<li><strong>Tertiary Colours</strong>: These are made by mixing a primary and a secondary colour. For example, Yellow-Green (yellow + green), Red-Orange (red + orange), etc.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Draw a Circle</strong>: Using a compass, draw a large circle on a piece of paper.<br />2. <strong>Divide the Circle</strong>: Using a protractor, divide the circle into 12 equal parts.<br />3. <strong>Label the Colours</strong>:<br />- <strong>Primary Colours</strong>: Red, Yellow, Blue.<br />- <strong>Secondary Colours</strong>: Green, Orange, Purple.<br />- <strong>Tertiary Colours</strong>: Yellow-Green, Red-Orange, Blue-Violet, etc.</div>",
+   "examples": [
+    "1. **Draw a Circle**: Using a compass, draw a large circle on a piece of paper. 2. **Divide the Circle**: Using a protractor, divide the circle into 12 equal parts. 3. **Label the Colours**: - **Primary Colours**: Red, Yellow, Blue. - **Secondary Colours**: Green, Orange, Purple. - **Tertiary Colours**: Yellow-Green, Red-Orange, Blue-Violet, etc."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Circle] --&gt; B[12 equal parts]\n    B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]\n    B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]\n    B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Circle] --&gt; B[12 equal parts]\n    B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]\n    B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]\n    B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Circle] --&gt; B[12 equal parts]\n    B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]\n    B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]\n    B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Circle] --> B[12 equal parts]\n    B --> C[Primary Colours] --> D[Red, Yellow, Blue]\n    B --> E[Secondary Colours] --> F[Green, Orange, Purple]\n    B --> G[Tertiary Colours] --> H[Yellow-Green, Red-Orange, Blue-Violet]"
+   ]
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Tints and Shades</strong> are variations of a base colour achieved by adding white (for tints) or black (for shades) to the base colour. Tints are lighter versions of the base colour, while shades are darker versions.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Creating a Sheet Showing Tints and Shades",
+   "id": "",
+   "html": "<p>To prepare a sheet showing tints and shades, follow these steps:</p>\n<ol>\n<li><strong>Select a Base Colour</strong>: Choose a base colour, such as red.</li>\n<li><strong>Add White (Tints)</strong>: Gradually mix white to the base colour to create lighter tints.</li>\n<li><strong>Add Black (Shades)</strong>: Gradually mix black to the base colour to create darker shades.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Select a Base Colour</strong>: Choose red.<br />2. <strong>Add White (Tints)</strong>: Mix white to the red to create lighter tints.<br />3. <strong>Add Black (Shades)</strong>: Mix black to the red to create darker shades.</div>",
+   "examples": [
+    "1. **Select a Base Colour**: Choose red. 2. **Add White (Tints)**: Mix white to the red to create lighter tints. 3. **Add Black (Shades)**: Mix black to the red to create darker shades."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Base Colour: Red] --&gt; B[Add White: Tints]\n    A --&gt; C[Add Black: Shades]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Base Colour: Red] --&gt; B[Add White: Tints]\n    A --&gt; C[Add Black: Shades]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Base Colour: Red] --&gt; B[Add White: Tints]\n    A --&gt; C[Add Black: Shades]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Base Colour: Red] --> B[Add White: Tints]\n    A --> C[Add Black: Shades]"
+   ]
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Colour schemes</strong> are groups of colours that are harmonized together. They can be based on specific colour theories such as monochromatic, complementary, split-complementary, and analogous schemes.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Monochromatic Scheme",
+   "id": "",
+   "html": "<p>A <strong>monochromatic scheme</strong> uses different shades and tints of a single base colour.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Creating a Sheet Showing Monochromatic Scheme",
+   "id": "",
+   "html": "<p>To prepare a sheet showing a monochromatic scheme, follow these steps:</p>\n<ol>\n<li><strong>Choose a Base Colour</strong>: Select a base colour, such as blue.</li>\n<li><strong>Create Tints and Shades</strong>: Mix white and black to create lighter and darker shades of the base colour.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Choose a Base Colour</strong>: Select blue.<br />2. <strong>Create Tints and Shades</strong>: Mix white and black to create lighter and darker shades of blue.</div>",
+   "examples": [
+    "1. **Choose a Base Colour**: Select blue. 2. **Create Tints and Shades**: Mix white and black to create lighter and darker shades of blue."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]\n    A --&gt; C[Add Black: Darker Shades]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]\n    A --&gt; C[Add Black: Darker Shades]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]\n    A --&gt; C[Add Black: Darker Shades]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Base Colour: Blue] --> B[Add White: Lighter Tints]\n    A --> C[Add Black: Darker Shades]"
+   ]
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Fiber length</strong> is the measure of the length of a fibre. It is a critical property that affects the physical and mechanical properties of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Fiber Length",
+   "id": "",
+   "html": "<p>To determine the fiber length, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Count Fibers</strong>: Count the number of fibres over a known length.</li>\n<li><strong>Calculate Length</strong>: Calculate the average length of the fibres using the formula:</li>\n</ol>\n<p>\\[</p>\n<p>\\text{Fiber Length} = \\frac{\\text{Total Length of Fibres}}{\\text{Number of Fibres}}</p>\n<p>\\]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 fibres from a sample.<br />2. <strong>Count Fibers</strong>: Measure the total length of these fibres to be 200 cm.<br />3. <strong>Calculate Length</strong>: \\[</div>\n<p>\\text{Fiber Length} = \\frac{200 \\text{ cm}}{100} = 2 \\text{ cm}</p>\n<p>\\]</p>",
+   "examples": [
+    "1. **Collect Fibers**: Take 100 fibres from a sample. 2. **Count Fibers**: Measure the total length of these fibres to be 200 cm. 3. **Calculate Length**: \\["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Fiber strength</strong> is the force required to break a fibre. It is an important mechanical property that affects the durability and performance of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Fiber Strength",
+   "id": "",
+   "html": "<p>To determine the fiber strength, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Tensile Test</strong>: Use a tensile testing machine to measure the force required to break the fibres.</li>\n<li><strong>Calculate Strength</strong>: Calculate the fiber strength using the formula:</li>\n</ol>\n<p>\\[</p>\n<p>\\text{Fiber Strength} = \\frac{\\text{Force at Break}}{\\text{Cross-sectional Area}}</p>\n<p>\\]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Tensile Test</strong>: Use a tensile testing machine to find the force required to break the fibres, which is 500 N.<br />3. <strong>Calculate Strength</strong>: The cross-sectional area is 0.001 m². \\[</div>\n<p>\\text{Fiber Strength} = \\frac{500 \\text{ N}}{0.001 \\text{ m}^2} = 500000 \\text{ N/m}^2</p>\n<p>\\]</p>",
+   "examples": [
+    "1. **Collect Fibers**: Take 50 fibres from a sample. 2. **Tensile Test**: Use a tensile testing machine to find the force required to break the fibres, which is 500 N. 3. **Calculate Strength**: The cross-sectional area is 0.001 m². \\["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Flexibility</strong> is the ability of a fibre to bend without breaking. It is an important mechanical property that affects the comfort and durability of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Flexibility",
+   "id": "",
+   "html": "<p>To determine the flexibility of a fibre, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Bend Test</strong>: Bend the fibres to observe their behavior.</li>\n<li><strong>Record Results</strong>: Record the number of times the fibres can be bent before breaking.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 20 fibres from a sample.<br />2. <strong>Bend Test</strong>: Bend the fibres and record the number of times they can be bent before breaking.<br />3. <strong>Record Results</strong>: The fibres can be bent 100 times before breaking.</div>",
+   "examples": [
+    "1. **Collect Fibers**: Take 20 fibres from a sample. 2. **Bend Test**: Bend the fibres and record the number of times they can be bent before breaking. 3. **Record Results**: The fibres can be bent 100 times before breaking."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Spinability</strong> is the ability of a fibre to be spun into yarn or thread. It is an important mechanical property that affects the processing of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Spinability",
+   "id": "",
+   "html": "<p>To determine the spinability of a fibre, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Spinning Test</strong>: Spin the fibres to form yarn or thread.</li>\n<li><strong>Record Results</strong>: Record the ease with which the fibres can be spun.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 15 fibres from a sample.<br />2. <strong>Spinning Test</strong>: Spin the fibres and record the ease with which they can be spun.<br />3. <strong>Record Results</strong>: The fibres can be easily spun into yarn.</div>",
+   "examples": [
+    "1. **Collect Fibers**: Take 15 fibres from a sample. 2. **Spinning Test**: Spin the fibres and record the ease with which they can be spun. 3. **Record Results**: The fibres can be easily spun into yarn."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Uniformity</strong> refers to the consistency of a fibre's properties, such as length, thickness, and strength. It is an important quality parameter that affects the performance of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Uniformity",
+   "id": "",
+   "html": "<p>To determine the uniformity of a fibre, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Measure Properties</strong>: Measure the properties of the fibres.</li>\n<li><strong>Calculate Deviation</strong>: Calculate the deviation from the average value.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Measure Properties</strong>: Measure the length of each fibre.<br />3. <strong>Calculate Deviation</strong>: The average length is 2 cm, and the deviation is 0.1 cm.</div>",
+   "examples": [
+    "1. **Collect Fibers**: Take 50 fibres from a sample. 2. **Measure Properties**: Measure the length of each fibre. 3. **Calculate Deviation**: The average length is 2 cm, and the deviation is 0.1 cm."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Density</strong> is the mass of a fibre per unit volume. It is an important physical property that affects the weight and volume of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Density",
+   "id": "",
+   "html": "<p>To determine the density of a fibre, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Measure Mass and Volume</strong>: Measure the mass and volume of the fibres.</li>\n<li><strong>Calculate Density</strong>: Calculate the density using the formula:</li>\n</ol>\n<p>\\[</p>\n<p>\\text{Density} = \\frac{\\text{Mass}}{\\text{Volume}}</p>\n<p>\\]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 fibres from a sample.<br />2. <strong>Measure Mass and Volume</strong>: The total mass is 5 grams, and the total volume is 10 cubic centimeters.<br />3. <strong>Calculate Density</strong>: \\[</div>\n<p>\\text{Density} = \\frac{5 \\text{ g}}{10 \\text{ cm}^3} = 0.5 \\text{ g/cm}^3</p>\n<p>\\]</p>",
+   "examples": [
+    "1. **Collect Fibers**: Take 100 fibres from a sample. 2. **Measure Mass and Volume**: The total mass is 5 grams, and the total volume is 10 cubic centimeters. 3. **Calculate Density**: \\["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Lustre</strong> is the ability of a fibre to reflect light and give it a shiny appearance. It is an important aesthetic property that affects the appearance of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Lustre",
+   "id": "",
+   "html": "<p>To determine the lustre of a fibre, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Light Test</strong>: Shine a light on the fibres and observe the reflection.</li>\n<li><strong>Record Results</strong>: Record the shine and luster of the fibres.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 30 fibres from a sample.<br />2. <strong>Light Test</strong>: Shine a light on the fibres and observe the reflection.<br />3. <strong>Record Results</strong>: The fibres have a high shine and luster.</div>",
+   "examples": [
+    "1. **Collect Fibers**: Take 30 fibres from a sample. 2. **Light Test**: Shine a light on the fibres and observe the reflection. 3. **Record Results**: The fibres have a high shine and luster."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Moisture</strong> is the amount of water present in a fibre. <strong>Moisture Regain</strong> is the percentage of moisture in a fibre relative to the dry weight of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Moisture and Moisture Regain",
+   "id": "",
+   "html": "<p>To determine the moisture and moisture regain of a fibre, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Measure Wet Weight</strong>: Weigh the fibres after soaking in water.</li>\n<li><strong>Measure Dry Weight</strong>: Weigh the fibres after drying.</li>\n<li><strong>Calculate Moisture</strong>: Calculate the moisture using the formula:</li>\n</ol>\n<p>\\[</p>\n<p>\\text{Moisture} = \\frac{\\text{Wet Weight} - \\text{Dry Weight}}{\\text{Dry Weight}}</p>\n<p>\\]</p>\n<ol>\n<li><strong>Calculate Moisture Regain</strong>: Calculate the moisture regain using the formula:</li>\n</ol>\n<p>\\[</p>\n<p>\\text{Moisture Regain} = \\frac{\\text{Moisture} \\times 100}{\\text{Dry Weight}}</p>\n<p>\\]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 grams of fibres.<br />2. <strong>Measure Wet Weight</strong>: The wet weight is 120 grams.<br />3. <strong>Measure Dry Weight</strong>: The dry weight is 80 grams.<br />4. <strong>Calculate Moisture</strong>: \\[</div>\n<p>\\text{Moisture} = \\frac{120 \\text{ g} - 80 \\text{ g}}{80 \\text{ g}} = 0.5 \\text{ or } 50\\%</p>\n<p>\\]</p>\n<ol>\n<li><strong>Calculate Moisture Regain</strong>: \\[</li>\n</ol>\n<p>\\text{Moisture Regain} = \\frac{0.5 \\times 100}{80} = 62.5\\%</p>\n<p>\\]</p>",
+   "examples": [
+    "1. **Collect Fibers**: Take 100 grams of fibres. 2. **Measure Wet Weight**: The wet weight is 120 grams. 3. **Measure Dry Weight**: The dry weight is 80 grams. 4. **Calculate Moisture**: \\["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Fiber strength</strong> is the force required to break a fibre. It is an important mechanical property that affects the durability and performance of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Fiber Strength",
+   "id": "",
+   "html": "<p>To determine the fiber strength, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Tensile Test</strong>: Use a tensile testing machine to measure the force required to break the fibres.</li>\n<li><strong>Calculate Strength</strong>: Calculate the fiber strength using the formula:</li>\n</ol>\n<p>\\[</p>\n<p>\\text{Fiber Strength} = \\frac{\\text{Force at Break}}{\\text{Cross-sectional Area}}</p>\n<p>\\]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Tensile Test</strong>: Use a tensile testing machine to find the force required to break the fibres, which is 500 N.<br />3. <strong>Calculate Strength</strong>: The cross-sectional area is 0.001 m². \\[</div>\n<p>\\text{Fiber Strength} = \\frac{500 \\text{ N}}{0.001 \\text{ m}^2} = 500000 \\text{ N/m}^2</p>\n<p>\\]</p>",
+   "examples": [
+    "1. **Collect Fibers**: Take 50 fibres from a sample. 2. **Tensile Test**: Use a tensile testing machine to find the force required to break the fibres, which is 500 N. 3. **Calculate Strength**: The cross-sectional area is 0.001 m². \\["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Fiber length</strong> is the measure of the length of a fibre. It is a critical property that affects the physical and mechanical properties of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Fiber Length",
+   "id": "",
+   "html": "<p>To determine the fiber length, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Count Fibers</strong>: Count the number of fibres over a known length.</li>\n<li><strong>Calculate Length</strong>: Calculate the average length of the fibres using the formula:</li>\n</ol>\n<p>\\[</p>\n<p>\\text{Fiber Length} = \\frac{\\text{Total Length of Fibres}}{\\text{Number of Fibres}}</p>\n<p>\\]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 fibres from a sample.<br />2. <strong>Count Fibers</strong>: Measure the total length of these fibres to be 200 cm.<br />3. <strong>Calculate Length</strong>: \\[</div>\n<p>\\text{Fiber Length} = \\frac{200 \\text{ cm}}{100} = 2 \\text{ cm}</p>\n<p>\\]</p>",
+   "examples": [
+    "1. **Collect Fibers**: Take 100 fibres from a sample. 2. **Count Fibers**: Measure the total length of these fibres to be 200 cm. 3. **Calculate Length**: \\["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Fiber fineness</strong> is the thickness of a fibre. It is an important physical property that affects the feel and appearance of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Fiber Fineness",
+   "id": "",
+   "html": "<p>To determine the fiber fineness, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Measure Diameter</strong>: Measure the diameter of the fibres.</li>\n<li><strong>Calculate Fineness</strong>: Calculate the fineness using the formula:</li>\n</ol>\n<p>\\[</p>\n<p>\\text{Fiber Fineness} = \\frac{\\text{Diameter}}{\\text{Length}}</p>\n<p>\\]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Measure Diameter</strong>: The diameter of the fibres is 10 μm.<br />3. <strong>Calculate Fineness</strong>: The length of the fibres is 2 cm. \\[</div>\n<p>\\text{Fiber Fineness} = \\frac{10 \\text{ μm}}{200 \\text{ μm}} = 0.05</p>\n<p>\\]</p>",
+   "examples": [
+    "1. **Collect Fibers**: Take 50 fibres from a sample. 2. **Measure Diameter**: The diameter of the fibres is 10 μm. 3. **Calculate Fineness**: The length of the fibres is 2 cm. \\["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Fiber fineness</strong> is the thickness of a fibre. It is an important physical property that affects the feel and appearance of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Fiber Fineness",
+   "id": "",
+   "html": "<p>To determine the fiber fineness, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Measure Diameter</strong>: Measure the diameter of the fibres.</li>\n<li><strong>Calculate Fineness</strong>: Calculate the fineness using the formula:</li>\n</ol>\n<p>\\[</p>\n<p>\\text{Fiber Fineness} = \\frac{\\text{Diameter}}{\\text{Length}}</p>\n<p>\\]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Measure Diameter</strong>: The diameter of the fibres is 10 μm.<br />3. <strong>Calculate Fineness</strong>: The length of the fibres is 2 cm. \\[</div>\n<p>\\text{Fiber Fineness} = \\frac{10 \\text{ μm}}{200 \\text{ μm}} = 0.05</p>\n<p>\\]</p>",
+   "examples": [
+    "1. **Collect Fibers**: Take 50 fibres from a sample. 2. **Measure Diameter**: The diameter of the fibres is 10 μm. 3. **Calculate Fineness**: The length of the fibres is 2 cm. \\["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Fiber fineness</strong> is the thickness of a fibre. It is an important physical property that affects the feel and appearance of the fibre.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determining Fiber Fineness",
+   "id": "",
+   "html": "<p>To determine the fiber fineness, follow these steps:</p>\n<ol>\n<li><strong>Collect Fibers</strong>: Obtain a sample of fibres.</li>\n<li><strong>Measure Diameter</strong>: Measure the diameter of the fibres.</li>\n<li><strong>Calculate Fineness</strong>: Calculate the fineness using the formula:</li>\n</ol>\n<p>\\[</p>\n<p>\\text{Fiber Fineness} = \\frac{\\text{Diameter}}{\\text{Length}}</p>\n<p>\\]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Measure Diameter</strong>: The diameter of the fibres is 10 μm.<br />3</div>",
+   "examples": [
+    "1. **Collect Fibers**: Take 50 fibres from a sample. 2. **Measure Diameter**: The diameter of the fibres is 10 μm. 3"
+   ],
+   "mermaid": []
+  }
+ ]
+}

@@ -111,7 +111,7 @@
 
 // main2 = document.getElementById("mainbooks");
 // var currentUrl = window.location.href;
-// var homepage = "https://khudkibook.web.app/";
+// var homepage = "https://khudkibook.in/";
 // fetch('/main.json')
 //     .then(response => response.json())
 //     .then(data => {

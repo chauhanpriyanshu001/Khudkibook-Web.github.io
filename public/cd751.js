@@ -25,7 +25,7 @@ for (let index = 0; index < 6; index++) {
 
 }
 var currentUrl = window.location.href;
-var homepage = "https://khudkibook.web.app/";
+var homepage = "https://khudkibook.in/";
 fetch('/main.json')
   .then(response => response.json())
   .then(data => {
@@ -324,7 +324,7 @@ fetch('/main.json')
 
 // main = document.getElementById("mainbooks");
 var currentUrl2 = window.location.href;
-var homepage = "https://khudkibook.web.app/";
+var homepage = "https://khudkibook.in/";
 fetch('/main.json')
   .then(response => response.json())
   .then(data => {

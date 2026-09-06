@@ -1,17 +1,57 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**",
-      "**/site_db*.json",
-      "**/gtu_*.json",
-      "**/crawled_*.json",
-      "**/*_backup.json"
-    ],
-    "cleanUrls": true,
+  "hosting": [
+    {
+      "target": "redirect",
+      "public": "public-redirect",
+      "redirects": [
+        {
+          "regex": "^/(.*)$",
+          "destination": "https://khudkibook.in/:1",
+          "type": 301
+        }
+      ]
+    },
+    {
+      "target": "main",
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**",
+        "**/site_db*.json",
+        "**/gtu_*.json",
+        "**/crawled_*.json",
+        "**/*_backup.json"
+      ],
+      "cleanUrls": true,
     "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "/index.html",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/betesting",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/betesting/:path*",
+        "destination": "/:path*",
+        "type": 301
+      },
+      {
+        "source": "/admin",
+        "destination": "/admin-panel/",
+        "type": 301
+      },
+      {
+        "source": "/admin/index.html",
+        "destination": "/admin-panel/",
+        "type": 301
+      }
+    ],
     "headers": [
       {
         "source": "sitemap.xml",
@@ -77,5 +117,6 @@
         ]
       }
     ]
-  }
+    }
+  ]
 }

@@ -8,9 +8,22 @@
 const fs = require('fs');
 const path = require('path');
 
-const PUBLIC_DIR = path.join(__dirname, '../public');
+const ROOT_DIR = path.join(__dirname, '..');
+const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 const SITEMAP_PATH = path.join(PUBLIC_DIR, 'sitemap.xml');
-const SITE_URL = 'https://khudkibook.web.app';
+const DB_PATH = path.join(ROOT_DIR, 'data', 'site_db.json');
+
+let SITE_URL = 'https://khudkibook.in';
+try {
+    if (fs.existsSync(DB_PATH)) {
+        const db = JSON.parse(fs.readFileSync(DB_PATH, 'utf8'));
+        if (db && db.config && db.config.siteUrl) {
+            SITE_URL = db.config.siteUrl.replace(/\/+$/, '');
+        }
+    }
+} catch (e) {
+    console.warn('Could not read siteUrl from site_db.json, using fallback:', SITE_URL);
+}
 
 const SKIP_DIRS = new Set(['templates', 'data', 'assets', 'icons']);
 
@@ -65,8 +78,18 @@ const seen = new Map();
 for (const file of files) {
     const html = fs.readFileSync(file, 'utf8');
     if (isNoindex(html)) continue;
-    const canonical = extractCanonical(html);
-    if (!canonical || !canonical.startsWith(SITE_URL)) continue;
+    let canonical = extractCanonical(html);
+    if (!canonical) continue;
+
+    // Normalize domain to SITE_URL
+    canonical = canonical.replace(/^https?:\/\/(?:www\.)?(?:khudkibook\.in|khudkibook\.web\.app|khudkibook\.com)/i, SITE_URL);
+    if (!canonical.startsWith(SITE_URL)) continue;
+
+    // Normalize root index.html to /
+    if (canonical === `${SITE_URL}/index.html`) {
+        canonical = `${SITE_URL}/`;
+    }
+
     if (!seen.has(canonical)) {
         seen.set(canonical, fs.statSync(file).mtimeMs);
     }

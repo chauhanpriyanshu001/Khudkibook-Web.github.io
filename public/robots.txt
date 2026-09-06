@@ -1,12 +1,18 @@
 User-agent: *
 Allow: /
 Disallow: /admin/
+Disallow: /admin-panel/
+Disallow: /login
 Disallow: /login.html
+Disallow: /signup
 Disallow: /signup.html
+Disallow: /verification
 Disallow: /verification.html
 Disallow: /data/
-Disallow: /main.json
 Disallow: /search-index.json
 Disallow: /branches.json
+Disallow: /main.json
+Disallow: /*_backup.json$
+Disallow: /*.json$
 
-Sitemap: https://khudkibook.web.app/sitemap.xml
+Sitemap: https://khudkibook.in/sitemap.xml

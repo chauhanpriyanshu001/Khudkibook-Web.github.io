@@ -1,0 +1,147 @@
+{
+ "code": "310004",
+ "subject": "Effective Technical Communication",
+ "unit": 8,
+ "lang": "en",
+ "title": "Unit – null: Calligraphy writing by hand (All alphabet)",
+ "url": "/books/310004/unit-8.html",
+ "guUrl": null,
+ "words": 948,
+ "readingMin": 5,
+ "marks": "",
+ "sections": [
+  {
+   "heading": "Unit – null: Calligraphy writing by hand (All alphabet)",
+   "id": "",
+   "html": "<p><em>(AI-generated self study book for GTU Diploma Biomedical Engineering, subject code 310004 — generated locally with Ollama.)</em></p>\n<p>This unit carries approximately ****.</p>\n<p>Learning objectives covered by this unit:</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Gothic Letters",
+   "id": "",
+   "html": "<p>Gothic letters, also known as \"gothic typefaces,\" are a style of typefaces that were popular in the late medieval period and continued to be used into the 19th century. They are characterized by their heavy and bold design, with vertical and horizontal lines being more prominent than the angles and curves. Gothic letters are often used in historical texts and documents to give a distinct look.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Characteristics",
+   "id": "",
+   "html": "<p><strong>Gothic letter:</strong> A typeface style with heavy and bold lines, used primarily in historical texts.</p>\n<p><strong>Example:</strong></p>\n<p>Gothic letters can be recognized by their thick, angular strokes. For instance, the letter \"A\" in Gothic type has a distinctly angular shape, as shown below.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Gothic A] --&gt; B[Heavy and Angular]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Gothic A] --&gt; B[Heavy and Angular]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Gothic A] --&gt; B[Heavy and Angular]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Gothic A] --> B[Heavy and Angular]"
+   ]
+  },
+  {
+   "heading": "Usage in Bio-Materials and Implants",
+   "id": "",
+   "html": "<p>In the context of bio-materials and implants, Gothic letters are not directly used. However, understanding Gothic letters can be useful in the historical context of medical devices. For example, early medical texts and documents that described the use of implants might have used Gothic typefaces.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example Requirement",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div></div>\n<p>Consider a historical document from the 16th century that describes the use of a metal plate as an implant. The text in this document is written in Gothic letters. The document states, \"The metal plate, A[Plate], was inserted into the patient's B[bone] to stabilize the C[fracture].\"</p>",
+   "examples": [
+    ""
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Classification of Gothic Letters",
+   "id": "",
+   "html": "<p>Gothic letters can be classified based on their design and usage. The most common types of Gothic letters include:</p>\n<ul>\n<li><strong>Textura:</strong> A highly decorative form of Gothic lettering, often used in early printed books.</li>\n<li><strong>Fraktur:</strong> A more simplified version of Textura, commonly used in later manuscripts.</li>\n<li><strong>Schwabacher:</strong> A transitional form between Textura and Fraktur, with more rounded corners.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example Requirement",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div></div>\n<p>Classify the following Gothic letters based on their characteristics:</p>\n<ul>\n<li>Textura: A[Thick and angular lines], B[Decorative]</li>\n<li>Fraktur: A[Thicker and more angular than Textura], B[Less decorative]</li>\n<li>Schwabacher: A[Less angular than Fraktur], B[More rounded corners]</li>\n</ul>",
+   "examples": [
+    ""
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>Gothic letters are a style of typeface that were popular in the late medieval period and continue to be used in historical contexts. Understanding Gothic letters is essential for recognizing and interpreting historical medical texts and documents. While Gothic letters are not directly used in modern bio-materials and implants, their historical significance in the context of medical devices makes them an important topic for biomedical engineers.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div></div>\n<p>Consider a historical document from the 16th century that describes the use of a metal plate as an implant. The text in this document is written in Gothic letters. The document states, \"The metal plate, A[Plate], was inserted into the patient's B[bone] to stabilize the C[fracture].\"</p>\n<hr />",
+   "examples": [
+    ""
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "3.2. Roman Letters",
+   "id": "",
+   "html": "<p>Roman letters are the characters used in the Latin alphabet. In the context of biomedical engineering, Roman letters are often used to denote various components or parameters in equations and medical terminology. Here, we will define Roman letters and explain their usage in biomedical engineering.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition of Roman Letters",
+   "id": "",
+   "html": "<p><strong>Roman letters</strong> are uppercase letters from the Latin alphabet, such as A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z. These letters are commonly used in equations, medical codes, and labeling systems in biomedical engineering.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Usage in Biomedical Engineering",
+   "id": "",
+   "html": "<p>Roman letters are used to represent various parameters, materials, and components in biomedical engineering. For example, in the context of implants and biomaterials, Roman letters are used to denote specific properties or components.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Usage in Biomaterials",
+   "id": "",
+   "html": "<p>Consider a scenario where a biomedical engineer is working with different types of biomaterials. The engineer might use Roman letters to denote the material type and its properties.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />- A: Represents aluminum, a commonly used metal in orthopedic implants.<br />- B: Represents bioactive glass, used for its osteoconductive properties.<br />- C: Represents carbon fiber, used for its strength and stiffness.<br />- D: Represents DuraMed, a specific type of polymer used in tissue engineering.</div>",
+   "examples": [
+    "- A: Represents aluminum, a commonly used metal in orthopedic implants. - B: Represents bioactive glass, used for its osteoconductive properties. - C: Represents carbon fiber, used for its strength and stiffness. - D: Represents DuraMed, a specific type of polymer used in tissue engineering."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Classification of Biomaterials Using Roman Letters",
+   "id": "",
+   "html": "<p>Biomaterials can be classified into different categories based on their properties and applications. Roman letters can be used to classify these materials into groups.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Classification of Biomaterials",
+   "id": "",
+   "html": "<p>Consider the classification of biomaterials into four main categories: Metals, Ceramics, Polymers, and Composites.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Metal] --&gt; B[Aluminum]\n    A --&gt; C[Titanium]\n    A --&gt; D[Bronze]\n    B --&gt; E[Orthopedic implants]\n    C --&gt; F[Dental implants]\n    D --&gt; G[Articulation joints]\n    A --&gt; H[Ceramics]\n    H --&gt; I[Bone plates, implants]\n    H --&gt; J[Dental crowns]\n    H --&gt; K[Orthopedic plates]\n    A --&gt; L[Polymers]\n    L --&gt; M[Plastic]\n    L --&gt; N[Silicone]\n    L --&gt; O[Elastomer]\n    A --&gt; P[Composites]\n    P --&gt; Q[Carbon fiber]\n    P --&gt; R[Graphene]\n    P --&gt; S[Biocomposite]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Metal] --&gt; B[Aluminum]\n    A --&gt; C[Titanium]\n    A --&gt; D[Bronze]\n    B --&gt; E[Orthopedic implants]\n    C --&gt; F[Dental implants]\n    D --&gt; G[Articulation joints]\n    A --&gt; H[Ceramics]\n    H --&gt; I[Bone plates, implants]\n    H --&gt; J[Dental crowns]\n    H --&gt; K[Orthopedic plates]\n    A --&gt; L[Polymers]\n    L --&gt; M[Plastic]\n    L --&gt; N[Silicone]\n    L --&gt; O[Elastomer]\n    A --&gt; P[Composites]\n    P --&gt; Q[Carbon fiber]\n    P --&gt; R[Graphene]\n    P --&gt; S[Biocomposite]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Metal] --&gt; B[Aluminum]\n    A --&gt; C[Titanium]\n    A --&gt; D[Bronze]\n    B --&gt; E[Orthopedic implants]\n    C --&gt; F[Dental implants]\n    D --&gt; G[Articulation joints]\n    A --&gt; H[Ceramics]\n    H --&gt; I[Bone plates, implants]\n    H --&gt; J[Dental crowns]\n    H --&gt; K[Orthopedic plates]\n    A --&gt; L[Polymers]\n    L --&gt; M[Plastic]\n    L --&gt; N[Silicone]\n    L --&gt; O[Elastomer]\n    A --&gt; P[Composites]\n    P --&gt; Q[Carbon fiber]\n    P --&gt; R[Graphene]\n    P --&gt; S[Biocomposite]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Metal] --> B[Aluminum]\n    A --> C[Titanium]\n    A --> D[Bronze]\n    B --> E[Orthopedic implants]\n    C --> F[Dental implants]\n    D --> G[Articulation joints]\n    A --> H[Ceramics]\n    H --> I[Bone plates, implants]\n    H --> J[Dental crowns]\n    H --> K[Orthopedic plates]\n    A --> L[Polymers]\n    L --> M[Plastic]\n    L --> N[Silicone]\n    L --> O[Elastomer]\n    A --> P[Composites]\n    P --> Q[Carbon fiber]\n    P --> R[Graphene]\n    P --> S[Biocomposite]"
+   ]
+  },
+  {
+   "heading": "Selection of Appropriate Biomaterials Using Roman Letters",
+   "id": "",
+   "html": "<p>The selection of appropriate biomaterials involves considering factors like biocompatibility, strength, and durability. Roman letters can be used to denote these factors in decision-making processes.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Selection of Biomaterials",
+   "id": "",
+   "html": "<p>Suppose a biomedical engineer needs to select a biomaterial for a specific application. The engineer might use Roman letters to denote the key factors.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />- A: Biocompatibility (Aluminum, Titanium)<br />- B: Strength (Titanium, Bronze)<br />- C: Durability (Aluminum, Ceramic)<br />- D: Cost-effectiveness (Aluminum, Plastic)</div>",
+   "examples": [
+    "- A: Biocompatibility (Aluminum, Titanium) - B: Strength (Titanium, Bronze) - C: Durability (Aluminum, Ceramic) - D: Cost-effectiveness (Aluminum, Plastic)"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conclusion",
+   "id": "",
+   "html": "<p>Roman letters are essential in biomedical engineering for denoting various components, materials, and parameters. By understanding their usage and classification, biomedical engineers can make informed decisions when selecting appropriate biomaterials and implants.</p>\n<p>By practicing with examples, students can enhance their ability to use Roman letters effectively in biomedical engineering applications.</p>",
+   "examples": [],
+   "mermaid": []
+  }
+ ]
+}

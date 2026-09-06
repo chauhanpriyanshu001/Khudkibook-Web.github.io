@@ -1,0 +1,348 @@
+Competency-focused Outcome-based Green Curriculum-2023 1
+Subject: Software Development Course-Code : 4361604
+GUJARAT TECHNOLOGICAL UNIVERSITY (GTU)
+Competency-focused Outcome-based Green Curriculum-2023 (COGC-2023)
+Semester-VI
+Course Title: Software Development
+(Course Code: 4361604)
+Diploma program in which this course is offered Semester in which offered
+Information Technology 6th
+1. RATIONALE
+The world of software development is always evolving, with new technologies, tools, and approaches
+emerging at a rapid pace. The software development industry continues to expand with remarkable
+advancements in technology. It has revolutionized every area of human life like education, health, defense
+and security, finance and business, travel, social life, politics, entertainment and so on. The list of latest and
+promising software development trends includes Artificial Intelligence, Cybersecurity, Progressive Web
+Applications, Block-chain Adoption, Mixed Reality, The Internet of Things (IoT), Distributed Cloud
+Services, Software Outsourcing, Low-code Development, and Software Quality Standards. This course guides
+the students to analyze, design, implement and test the software product with proper documentation.
+2. COMPETENCY
+The purpose of this course is to help the student in development of software.
+Develop multiple types of skills such as planning, communication, collaboration, decision making /
+Problem solving and management skills along with selected technical knowledge.
+3. COURSE OUTCOMES (COs)
+The practical exercises, the underpinning knowledge and the relevant soft skills associated with the
+identified competency are to be developed in the student for the achievement of the following COs:
+a) Select and apply appropriate process model for software project.
+b) Prepare software requirement specification (SRS) document and design of the software with user
+interface for a software project.
+c) Organize software project development schedule.
+d) Develop front end and back end coding of software project.
+e) Apply testing on software product with proper test cases.
+4. TEACHING AND EXAMINATION SCHEME
+Teaching Scheme
+(In Hours)
+Total Credits
+(L+T+P/2)
+Examination Scheme
+Theory Marks Practical Marks Total
+Marks	L T P C CA ESE CA ESE
+0 0 6 3 0 0 25 25 50
+1. Industry Defined Project: CA will be carried out by industry resource person/project guide and ESE will
+be carried out by university examiner.
+
+-- 1 of 9 --
+
+Competency-focused Outcome-based Green Curriculum-2023 2
+2. User Defined Project: CA will be carried out by institute resource person/project guide and ESE will be
+carried out by university examiner.
+Legends: L-Lecture; T – Tutorial/Teacher Guided Theory Practice; P -Practical; C – Credit, CA -
+Continuous Assessment; ESE -End Semester Examination.
+5. COURSE DETAILS
+Unit Major Learning
+Outcomes
+(in cognitive domain)
+Topics and Sub-topics
+Unit-I
+Software
+Development
+Process Model
+1.1. Defining the
+problem definition
+for the project.
+1.1.1 Defining the problem definition for
+the project.
+1.1.2 Analysis on problem definition.
+1.2 Select Software
+development models for
+project.
+1.2.1 Software Development Models
+Waterfall Model
+• Incremental Model RAD Model
+• Prototyping Model
+• Spiral Model
+• Agile Model
+Unit-II
+Software
+analysis &
+design
+2.1. Identify software
+requirement
+2.1.1 Requirement gathering –collect
+requirements from stakeholders
+2.1.2 Analyze the requirements
+2.2. Analyze and design
+requirement
+2.2.1 Analyze the requirements
+2.2.2 Identify functional and non-
+functional requirements for the project.
+2.2.3 Prepare software design
+Unit-III
+Software Project
+Management
+3.1. Prepare and manage
+Schedule for different
+software development
+activities
+3.1.1 Estimate the size of the project.
+3.1.2 Estimate the cost and development time of the project.
+3.1.3 Estimate resources required for a project.
+3.1.4 Prepare schedule for the project.
+Unit-IV
+Software
+Implementation/
+Coding
+4.1. Develop Front end
+implementation.
+4.1.1 Introduction to Front end development.
+4.1.2 What Front-End Developers Should Know?
+4.1.3 How Front-End Communicates with the
+BackEnd?
+4.1.4 Most Popular Front-End Development Languages
+4.2. Develop Back end
+implementation.
+4.2.1 Introduction to Back end development.
+4.2.2 What Back-End Developers Should Know?
+4.2.3 Most Popular Back-End Development Languages
+Unit-V
+Software
+Coding and
+Testing
+5.1 Follow coding
+standards
+5.1.1 Coding standards and guidelines
+5.1.2 Code review
+5.2 Test the software
+with proper test cases
+5.2.1 Testing
+– Test cases and test suit
+– Verification, Validation
+– Unit testing
+– Black-box testing
+– White-box testing
+
+-- 2 of 9 --
+
+Competency-focused Outcome-based Green Curriculum-2023 3
+List of Documents to be prepared for Submission:
+• Detail report duly signed and approved by the internal/external mentor/guide.
+• Presentation regarding software project approved by the internal/external mentor/guide.
+Poster regarding software project approved by the internal/external mentor/guide.
+Common Note:
+1) For Projects / Seminar etc. Evaluation is based on work done, quality of report, performance in viva-voce,
+presentation etc. The internal / external assessment is based on the student’s performance in viva-voce /work
+record respectively.
+6. AFFECTIVE DOMAIN OUTCOMES
+The following affective Domain Outcomes (ADOs) are embedded in many of the above mentioned COs.
+More could be added to fulfill the development of this course competency.
+a) Work as a leader/a team member as role of Engineer.
+b) Practice environment friendly methods and processes.
+c) Follow safety precautions and ethical practices.
+7. SUGGESTED STUDENT ACTIVITIES
+Following are the suggested student-related curricular, co-curricular activities which can be
+undertaken to accelerate the attainment of the various outcomes in this course: Students should
+perform following activities and prepare reports and give presentation in front of students and
+faculty members. They should also collect/record physical evidences for their (student’s) portfolio
+which may be useful for their placement interviews:
+a) Perform various tasks given by industry resources person during software development in IDP projects.
+b) Perform various task required to complete software development work under guidance of institute faculty
+member in UDP projects.
+c) Students are required to give a presentation before review committee consisting of a group of academic
+staff members.
+d) At the end of the software development make a poster presentation of the work carried out. The poster
+presentation is open to the public. It is also evaluated by faculty members.
+8. SOFTWARE / LEARNING WEBSITES
+A software development is a short term work program usually offered to students by companies and
+institutes who require staff for assistance at junior levels. Thus for the students undergoing software
+development work are get a professional learning experience is provided to benefit them in their skills
+as well as career. It will brush existing skills and provide exposure to new skills.
+Here is a suggestive list for reference only.
+• http://www.gksgujarat.org/
+• https://anubandham.gujarat.gov.in/home
+• https://kaushalyaskilluniversity.ac.in/
+• https://www.internshala.com
+• https://swayam.gov.in
+• https://nptel.ac.in/
+• https://neat.aicte-india.org/
+• https://www.edx.org/
+• https://www.coursera.org/
+
+-- 3 of 9 --
+
+Competency-focused Outcome-based Green Curriculum-2023 4
+• https://www.udemy.com/
+• https://www.linkedIn.com
+• https://www.stumags.com
+• https://www.glassdoor.com
+
+-- 4 of 9 --
+
+PO-COMPETENCY-CO MAPPING
+Semester VI
+Software Development (Course Code: 4361604)
+POs
+Competency
+& Course Outcomes
+PO 1
+Basic &
+Disciplin
+e specific
+knowled
+ge
+PO 2
+Proble
+m
+Analy
+sis
+PO 3
+Design/
+developme
+nt of
+solutions
+PO 4
+Engineerin
+g Tools,
+Experimen
+tation &
+Testing
+PO 5
+Engineering
+practices for
+society,
+sustainability
+&
+environment
+PO 6
+Project
+Manageme
+nt
+PO 7
+Life-
+long
+learni
+ng
+CO1) Select and apply
+appropriate process model
+for software project.
+3
+2 3 2
+- 2 3
+CO2) Prepare software
+requirement
+specification(SRS)
+document and design of
+the software with user
+interface for a software
+project.
+3 3 3 3 - 3 3
+CO3)Organize software
+project development
+schedule. 2 2 3 3 - 3 3
+CO4) Develop front end
+and back end coding of
+software project. 2 3 3 3 2 3 3
+CO5) Apply testing on
+software product with
+proper test cases. 2 2 3 3 - 3 3
+Legend: ‘3’ for high, ‘2’ for medium, ‘1’ for low and ‘-’ for no correlation of each CO with PO.
+9. COURSE CURRICULUM DEVELOPMENT COMMITTEE
+Sr. No. Name and Designation Institute Email
+1 Dr. Gaurang V. Lakhani,
+HOD,IT, I/c Principal
+G.P. Bhuj gvlakhani1@gmail.com
+2 Mr. Bhavin P. Mistry,
+Lecturer in I.T.
+G.P. Himatnagar mistry.1987@gmail.com
+3 Ms. Amisha Patel, Lecturer
+in I.T.
+G.P. Valsad patelamisha61@gmail.com
+Sample forms for Registration and Evaluation of software project are given below:
+1. Registration Form is mandatory to be filled at the commencement of software development.
+
+-- 5 of 9 --
+
+2. Mapping will be done to ease CA and ESE Evaluations.
+3. A Seminar / Webinar can be arranged so that students coming from different industry / institute /
+project background can share experiences and learnings to their peers / all students of the same
+department.
+4. Attached formats for Registration and Evaluation are suggestive.
+Software Development Registration Form
+Note: Students needs to submit this registration form after finalizing mode of software development.
+
+-- 6 of 9 --
+
+Student Signature Faculty Signature
+
+-- 7 of 9 --
+
+Software Development Evaluation Rubrics for Institute
+Evaluation Rubrics (Institute)
+Enrollment No: Branch: _________ Name of the Student:
+Date of Evaluation:
+Internal Evaluation – 25 Marks PA(I)
+Parameter Excellent Good Average Not up the level of
+Satisfaction Obtained
+Marks
+Mark 5 4 3 Below 2
+Technical knowledge and awareness
+related to the specific discipline.
+05 marks
+Attendance and punctuality during the
+software development work. 05 marks
+Receiving and providing feedback during
+the software development work.05 marks
+Team work in the organization and
+adaptation capacity. 05 marks
+Report writing and Presentation Skill.
+05 marks
+Total Marks Obtained Out of 25
+PA(I)
+Signature: Examiner Name:
+-----------------------------------------------------------------------------------------------------------------------
+-
+Enrollment No: Branch: __________ Name of the Student:
+Date of Evaluation:
+External Evaluation – 25 Marks ESE(V)
+Parameter Excellent Good Average Not up the level of
+Satisfaction
+Obtained
+Marks
+Mark 5 4 3 Below 2
+Demonstrates skills needed for
+assigned tasks and effective use
+of engineering tools and
+techniques. (05 Marks)
+Maintains professional
+manner/appearance and
+Manages time/resources
+effectively. (05 Marks)
+student attendance and
+punctuality during the software
+development work and
+dedication towards work
+assigned. (05 Marks)
+
+-- 8 of 9 --
+
+Understands expectations of
+supervisor and seeks further
+guidance when appropriate.
+(05 Marks)
+Quality of industrial report and
+presentation skill. (05 Marks)
+Total Marks Obtained Out of 25
+ESE(V)
+Signature: Examiner Name:
+
+-- 9 of 9 --
+

@@ -51,7 +51,7 @@ function logIn(email) {
                                 if (userver) {
                                     if (user)
                                         if (university == "GTU") {
-                                            var url = "https://khudkibook.web.app/" + branch + "/sem" + semester + "/homepage";
+                                            var url = "https://khudkibook.in/" + branch + "/sem" + semester + "/homepage";
                                             window.location.replace(url)
 
                                         } else {

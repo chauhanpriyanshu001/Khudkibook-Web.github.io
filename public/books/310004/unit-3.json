@@ -1,0 +1,680 @@
+{
+ "code": "310004",
+ "subject": "Effective Technical Communication",
+ "unit": 3,
+ "lang": "en",
+ "title": "Unit – null: TOPICS AND SUB-TOPICS :",
+ "url": "/books/310004/unit-3.html",
+ "guUrl": null,
+ "words": 4060,
+ "readingMin": 23,
+ "marks": "",
+ "sections": [
+  {
+   "heading": "Unit – null: TOPICS AND SUB-TOPICS :",
+   "id": "",
+   "html": "<p><em>(AI-generated self study book for GTU Diploma Biomedical Engineering, subject code 310004 — generated locally with Ollama.)</em></p>\n<p>This unit carries approximately ****.</p>\n<p>Learning objectives covered by this unit:</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.1. Definition of Computer",
+   "id": "",
+   "html": "<p><strong>Computer</strong>: A computer is an electronic device that can accept data, process it according to a set of instructions, and produce useful information. It can perform a wide range of tasks, from simple calculations to complex operations like data processing and information retrieval. Computers are designed to follow a set of instructions, known as a program, to carry out specific tasks.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A simple computer program to add two numbers:</div>\n<pre><code>#include &lt;stdio.h&gt;\nint main() {\n    int a, b, sum;\n    printf(&quot;Enter two numbers: &quot;);\n    scanf(&quot;%d %d&quot;, &amp;a, &amp;b);\n    sum = a + b;\n    printf(&quot;Sum = %d&quot;, sum);\n    return 0;\n}</code></pre>",
+   "examples": [
+    "A simple computer program to add two numbers:"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.2. Block Diagram of Computer",
+   "id": "",
+   "html": "<p>A <strong>block diagram</strong> of a computer shows the main components and their interconnections. It helps us understand how these components work together to process data. The typical block diagram includes the following main components:</p>\n<ul>\n<li><strong>Central Processing Unit (CPU)</strong></li>\n<li><strong>Memory (RAM and ROM)</strong></li>\n<li><strong>Input Devices</strong></li>\n<li><strong>Output Devices</strong></li>\n<li><strong>Storage Devices</strong></li>\n<li><strong>Control Unit</strong></li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div></div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n    A[CPU] --&gt; B[Memory]\n    B --&gt; C[ROM]\n    B --&gt; D[RAM]\n    A --&gt; E[Input Devices]\n    A --&gt; F[Output Devices]\n    A --&gt; G[Storage Devices]\n    A --&gt; H[Control Unit]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n    A[CPU] --&gt; B[Memory]\n    B --&gt; C[ROM]\n    B --&gt; D[RAM]\n    A --&gt; E[Input Devices]\n    A --&gt; F[Output Devices]\n    A --&gt; G[Storage Devices]\n    A --&gt; H[Control Unit]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n    A[CPU] --&gt; B[Memory]\n    B --&gt; C[ROM]\n    B --&gt; D[RAM]\n    A --&gt; E[Input Devices]\n    A --&gt; F[Output Devices]\n    A --&gt; G[Storage Devices]\n    A --&gt; H[Control Unit]</pre></noscript></div>",
+   "examples": [
+    ""
+   ],
+   "mermaid": [
+    "flowchart LR\n    A[CPU] --> B[Memory]\n    B --> C[ROM]\n    B --> D[RAM]\n    A --> E[Input Devices]\n    A --> F[Output Devices]\n    A --> G[Storage Devices]\n    A --> H[Control Unit]"
+   ]
+  },
+  {
+   "heading": "1.3. Input Devices, Its Function & Use",
+   "id": "",
+   "html": "<p><strong>Input Devices</strong>: These devices are used to enter data into the computer. Common examples include the keyboard, mouse, scanner, and microphone.</p>\n<ul>\n<li><strong>Keyboard</strong>: Used to type text and commands.</li>\n<li><strong>Mouse</strong>: Used to point and click on items.</li>\n<li><strong>Scanner</strong>: Used to scan documents and convert them into digital format.</li>\n<li><strong>Microphone</strong>: Used to input voice commands.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Using a keyboard to type a document:</div>\n<pre><code>Type the following text on the keyboard:\nHello, this is a sample document.</code></pre>",
+   "examples": [
+    "Using a keyboard to type a document:"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.4. Output Devices, Its Function & Use",
+   "id": "",
+   "html": "<p><strong>Output Devices</strong>: These devices are used to display or output the processed data. Common examples include the monitor, printer, and speaker.</p>\n<ul>\n<li><strong>Monitor</strong>: Used to display text, images, and videos.</li>\n<li><strong>Printer</strong>: Used to print text, images, and documents.</li>\n<li><strong>Speaker</strong>: Used to output sound.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Printing a document:</div>\n<pre><code>Open the document in a word processor and click the print button.</code></pre>",
+   "examples": [
+    "Printing a document:"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5. Central Processing Unit, Its Function & Use",
+   "id": "",
+   "html": "<p><strong>Central Processing Unit (CPU)</strong>: The CPU is the brain of the computer. It processes data and executes instructions. It can be further divided into two parts: the <strong>Control Unit (CU)</strong> and the <strong>Arithmetic Logic Unit (ALU)</strong>.</p>\n<ul>\n<li><strong>Control Unit (CU)</strong>: Controls the operations of the computer by executing instructions and managing the flow of data.</li>\n<li><strong>Arithmetic Logic Unit (ALU)</strong>: Performs arithmetic and logical operations.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div></div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">sequenceDiagram\n    participant CPU\n    participant ALU\n    participant ControlUnit\n    CPU-&gt;&gt;ALU: Perform addition\n    CPU-&gt;&gt;ControlUnit: Execute instruction\n    ControlUnit-&gt;&gt;ALU: Manage data flow\n    ALU-&gt;&gt;CPU: Return result</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>sequenceDiagram\n    participant CPU\n    participant ALU\n    participant ControlUnit\n    CPU-&gt;&gt;ALU: Perform addition\n    CPU-&gt;&gt;ControlUnit: Execute instruction\n    ControlUnit-&gt;&gt;ALU: Manage data flow\n    ALU-&gt;&gt;CPU: Return result</pre></details><noscript><pre class=\"mermaid-src\">sequenceDiagram\n    participant CPU\n    participant ALU\n    participant ControlUnit\n    CPU-&gt;&gt;ALU: Perform addition\n    CPU-&gt;&gt;ControlUnit: Execute instruction\n    ControlUnit-&gt;&gt;ALU: Manage data flow\n    ALU-&gt;&gt;CPU: Return result</pre></noscript></div>",
+   "examples": [
+    ""
+   ],
+   "mermaid": [
+    "sequenceDiagram\n    participant CPU\n    participant ALU\n    participant ControlUnit\n    CPU->>ALU: Perform addition\n    CPU->>ControlUnit: Execute instruction\n    ControlUnit->>ALU: Manage data flow\n    ALU->>CPU: Return result"
+   ]
+  },
+  {
+   "heading": "2.1. Dos - Its Command, Such as DIR, MD, RD, CD, CLS, Copy, Delete, Date,",
+   "id": "",
+   "html": "<p><strong>Command Prompt (CMD)</strong>: Also known as DOS (Disk Operating System), it is a command-line interface for interacting with the Windows operating system. Common commands include:</p>\n<ul>\n<li><strong>DIR</strong>: Lists the files and directories in the current directory.</li>\n<li><strong>MD</strong>: Creates a new directory.</li>\n<li><strong>RD</strong>: Deletes a directory.</li>\n<li><strong>CD</strong>: Changes the current directory.</li>\n<li><strong>CLS</strong>: Clears the screen.</li>\n<li><strong>COPY</strong>: Copies files.</li>\n<li><strong>DELETE</strong>: Deletes files.</li>\n<li><strong>DATE</strong>: Sets the date.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div></div>\n<pre><code>1. Open Command Prompt\n2. Type: dir\n3. Type: md new_folder\n4. Type: cd new_folder\n5. Type: copy file1.txt file2.txt\n6. Type: delete file1.txt\n7. Type: date 01-01-2023</code></pre>\n<hr />",
+   "examples": [
+    ""
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2. Window – its icon, start button, Window explorer, recycle bin, shut –",
+   "id": "",
+   "html": "<p>Windows is the operating system used in many computers and devices. Understanding its basic components is essential for any user.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.1. Icon",
+   "id": "",
+   "html": "<p>The <strong>Icon</strong> is a small visual representation of an application or program. It is usually found on the desktop or in the taskbar. For example, the <strong>Icon</strong> of the Notepad is a stylized text \"N\" with a small background.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>If you click on the Notepad icon, it opens the Notepad application where you can type and save text documents.</div>",
+   "examples": [
+    "If you click on the Notepad icon, it opens the Notepad application where you can type and save text documents."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.2. Start Button",
+   "id": "",
+   "html": "<p>The <strong>Start Button</strong> is located at the bottom-left corner of the screen. It is a square-shaped button with the Windows logo. Clicking it opens the <strong>Start Menu</strong> where you can find all installed applications, settings, and search options.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Clicking the Start button and typing \"Settings\" in the search bar will open the Settings application.</div>",
+   "examples": [
+    "Clicking the Start button and typing \"Settings\" in the search bar will open the Settings application."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.3. Window Explorer",
+   "id": "",
+   "html": "<p><strong>Window Explorer</strong> is a file manager that allows you to view, organize, and manage files and folders on your computer. It is accessed by clicking the <strong>Start Button</strong> and then selecting <strong>File Explorer</strong> from the menu.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In Window Explorer, you can navigate to <code>C:\\Users\\YourUsername\\Documents</code> to view and manage your personal documents.</div>",
+   "examples": [
+    "In Window Explorer, you can navigate to `C:\\Users\\YourUsername\\Documents` to view and manage your personal documents."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.4. Recycle Bin",
+   "id": "",
+   "html": "<p>The <strong>Recycle Bin</strong> is a virtual trash can where deleted files and folders are temporarily stored. It is represented by a trash can icon on the desktop.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>If you delete a file, it goes to the Recycle Bin. You can restore the file from the Recycle Bin by right-clicking it and selecting \"Restore.\"</div>",
+   "examples": [
+    "If you delete a file, it goes to the Recycle Bin. You can restore the file from the Recycle Bin by right-clicking it and selecting \"Restore.\""
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.5. Shut Down",
+   "id": "",
+   "html": "<p>To <strong>Shut Down</strong> your computer, you can use the <strong>Start Button</strong> and then select <strong>Power</strong> > <strong>Shut Down</strong>. This option ensures that all running applications are closed and the computer is powered off.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Click the Start button, then go to <strong>Power</strong> and choose <strong>Shut Down</strong>. All running applications will close, and the computer will turn off.</div>",
+   "examples": [
+    "Click the Start button, then go to **Power** and choose **Shut Down**. All running applications will close, and the computer will turn off."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.1. Meaning and its use.",
+   "id": "",
+   "html": "<p><strong>Meaning</strong> is a fundamental concept in language and communication. It refers to the idea or concept that a word or phrase represents. The <strong>use</strong> of meaning involves how words or phrases are applied in different contexts.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.1.1. Definition of Meaning",
+   "id": "",
+   "html": "<p>The <strong>meaning</strong> of a word is the idea or concept that it represents. For example, the word \"dog\" means an animal that is typically kept as a pet.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>The sentence \"The dog barked at the mailman\" uses the word \"dog\" to refer to an animal that is known to bark.</div>",
+   "examples": [
+    "The sentence \"The dog barked at the mailman\" uses the word \"dog\" to refer to an animal that is known to bark."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.1.2. Use of Meaning",
+   "id": "",
+   "html": "<p>The <strong>use</strong> of meaning involves how words are applied in different contexts. For instance, the same word can have different meanings based on the context.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>The word \"bank\" can mean a financial institution (e.g., \"I deposited money in the bank\") or the side of a river (e.g., \"The bank of the river was steep\").</div>",
+   "examples": [
+    "The word \"bank\" can mean a financial institution (e.g., \"I deposited money in the bank\") or the side of a river (e.g., \"The bank of the river was steep\")."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.2. General Introduction to Drawing Editor",
+   "id": "",
+   "html": "<p><strong>Drawing Editor</strong> is a software tool used for creating and editing images, drawings, and sketches. It is commonly used in engineering and design for creating diagrams, blueprints, and technical drawings.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.2.1. Definition",
+   "id": "",
+   "html": "<p>A <strong>Drawing Editor</strong> is a type of software that allows users to create and edit images and drawings. It provides various tools and features to manipulate images and create professional-looking drawings.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.2.2. Use",
+   "id": "",
+   "html": "<p>The <strong>use</strong> of a Drawing Editor is to create visual representations of ideas, plans, and designs. It is widely used in fields such as architecture, engineering, and graphic design.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Using a Drawing Editor, an engineer can create a detailed blueprint of a bridge, including dimensions, materials, and structural details.</div>",
+   "examples": [
+    "Using a Drawing Editor, an engineer can create a detailed blueprint of a bridge, including dimensions, materials, and structural details."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.3. AutoCAD Menu",
+   "id": "",
+   "html": "<p><strong>AutoCAD Menu</strong> is a feature in AutoCAD, a powerful drafting and design software, that provides various commands and tools for creating and editing drawings.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.3.1. Definition",
+   "id": "",
+   "html": "<p>The <strong>AutoCAD Menu</strong> is a list of commands and options that can be accessed by clicking on a menu item. It includes options for creating, editing, and formatting drawings.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.3.2. Use",
+   "id": "",
+   "html": "<p>The <strong>use</strong> of the AutoCAD Menu is to quickly access commands and tools needed to create and edit drawings. It helps users to perform tasks efficiently without having to remember complex commands.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>To draw a line, you can go to the <strong>Draw</strong> menu, select <strong>Line</strong>, and then specify the starting and ending points.</div>",
+   "examples": [
+    "To draw a line, you can go to the **Draw** menu, select **Line**, and then specify the starting and ending points."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.4. AutoCAD Icons",
+   "id": "",
+   "html": "<p><strong>AutoCAD Icons</strong> are graphical representations of commands and tools in AutoCAD. They are used to quickly access specific features and functions.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.4.1. Definition",
+   "id": "",
+   "html": "<p>The <strong>AutoCAD Icons</strong> are visual symbols that represent commands and tools in AutoCAD. These icons help users to perform tasks quickly and efficiently.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.4.2. Use",
+   "id": "",
+   "html": "<p>The <strong>use</strong> of AutoCAD Icons is to quickly access commands and tools. They provide a visual cue for common tasks, making the software more user-friendly.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>The <strong>Line</strong> icon is a simple line symbol that, when clicked, allows you to draw a line on the drawing.</div>",
+   "examples": [
+    "The **Line** icon is a simple line symbol that, when clicked, allows you to draw a line on the drawing."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5. AutoCAD Commands such as line, Pline, Circle, Ellipse, Offset, hatch,",
+   "id": "",
+   "html": "<p><strong>AutoCAD Commands</strong> are specific instructions used in AutoCAD to perform various tasks, such as drawing lines, circles, and hatching.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.1. Line",
+   "id": "",
+   "html": "<p>The <strong>Line</strong> command is used to draw a straight line between two points.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.2. Polyline (Pline)",
+   "id": "",
+   "html": "<p>The <strong>Pline</strong> command is used to draw a polyline, which is a series of connected line segments.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.3. Circle",
+   "id": "",
+   "html": "<p>The <strong>Circle</strong> command is used to draw a circular shape.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.4. Ellipse",
+   "id": "",
+   "html": "<p>The <strong>Ellipse</strong> command is used to draw an oval or ellipse.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.5. Offset",
+   "id": "",
+   "html": "<p>The <strong>Offset</strong> command is used to create a parallel copy of an existing object.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.6. Hatch",
+   "id": "",
+   "html": "<p>The <strong>Hatch</strong> command is used to fill a selected area with a pattern.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.7. Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>To draw a line, type <code>LINE</code> in the command line, then specify the starting and ending points. For example:<br /></div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Start] --&gt; B[Type LINE]\n    B --&gt; C[Specify Start Point]\n    C --&gt; D[Specify End Point]\n    D --&gt; E[Line Drawn]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Start] --&gt; B[Type LINE]\n    B --&gt; C[Specify Start Point]\n    C --&gt; D[Specify End Point]\n    D --&gt; E[Line Drawn]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Start] --&gt; B[Type LINE]\n    B --&gt; C[Specify Start Point]\n    C --&gt; D[Specify End Point]\n    D --&gt; E[Line Drawn]</pre></noscript></div>\n<blockquote>To create a circle, type <code>CIRCLE</code> and specify the center point and radius. For example:<br /></blockquote>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Start] --&gt; B[Type CIRCLE]\n    B --&gt; C[Specify Center Point]\n    C --&gt; D[Specify Radius]\n    D --&gt; E[CIRCLE Drawn]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Start] --&gt; B[Type CIRCLE]\n    B --&gt; C[Specify Center Point]\n    C --&gt; D[Specify Radius]\n    D --&gt; E[CIRCLE Drawn]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Start] --&gt; B[Type CIRCLE]\n    B --&gt; C[Specify Center Point]\n    C --&gt; D[Specify Radius]\n    D --&gt; E[CIRCLE Drawn]</pre></noscript></div>\n<blockquote>To draw a polyline, type <code>PLINE</code> and specify the vertices. For example:<br /></blockquote>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Start] --&gt; B[Type PLINE]\n    B --&gt; C[Specify Vertices]\n    C --&gt; D[Polyline Drawn]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Start] --&gt; B[Type PLINE]\n    B --&gt; C[Specify Vertices]\n    C --&gt; D[Polyline Drawn]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Start] --&gt; B[Type PLINE]\n    B --&gt; C[Specify Vertices]\n    C --&gt; D[Polyline Drawn]</pre></noscript></div>\n<blockquote>To offset a line, type <code>OFFSET</code> and specify the distance and the line to offset. For example:<br /></blockquote>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Start] --&gt; B[Type OFFSET]\n    B --&gt; C[Specify Distance]\n    C --&gt; D[Specify Line]\n    D --&gt; E[Line Offset]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Start] --&gt; B[Type OFFSET]\n    B --&gt; C[Specify Distance]\n    C --&gt; D[Specify Line]\n    D --&gt; E[Line Offset]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Start] --&gt; B[Type OFFSET]\n    B --&gt; C[Specify Distance]\n    C --&gt; D[Specify Line]\n    D --&gt; E[Line Offset]</pre></noscript></div>\n<blockquote>To hatch a selected area, type <code>HATCH</code> and specify the hatch pattern. For example:<br /></blockquote>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Start] --&gt; B[Type HATCH]\n    B --&gt; C[Select Area]\n    C --&gt; D[Specify Pattern]\n    D --&gt; E[Hatched Area]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Start] --&gt; B[Type HATCH]\n    B --&gt; C[Select Area]\n    C --&gt; D[Specify Pattern]\n    D --&gt; E[Hatched Area]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Start] --&gt; B[Type HATCH]\n    B --&gt; C[Select Area]\n    C --&gt; D[Specify Pattern]\n    D --&gt; E[Hatched Area]</pre></noscript></div>\n<hr />",
+   "examples": [
+    "To draw a line, type `LINE` in the command line, then specify the starting and ending points. For example:"
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[Start] --> B[Type LINE]\n    B --> C[Specify Start Point]\n    C --> D[Specify End Point]\n    D --> E[Line Drawn]",
+    "flowchart TD\n    A[Start] --> B[Type CIRCLE]\n    B --> C[Specify Center Point]\n    C --> D[Specify Radius]\n    D --> E[CIRCLE Drawn]",
+    "flowchart TD\n    A[Start] --> B[Type PLINE]\n    B --> C[Specify Vertices]\n    C --> D[Polyline Drawn]",
+    "flowchart TD\n    A[Start] --> B[Type OFFSET]\n    B --> C[Specify Distance]\n    C --> D[Specify Line]\n    D --> E[Line Offset]",
+    "flowchart TD\n    A[Start] --> B[Type HATCH]\n    B --> C[Select Area]\n    C --> D[Specify Pattern]\n    D --> E[Hatched Area]"
+   ]
+  },
+  {
+   "heading": "Definition and Importance",
+   "id": "",
+   "html": "<p><strong>Biomaterials:</strong> Biomaterials are materials that are used in the medical field to interact with biological systems for medical diagnosis, treatment, or prevention of disease. They can be used in implants, surgical tools, and medical devices. <strong>Implants:</strong> Implants are devices that are inserted into the body to replace or support damaged organs, tissues, or bones. Examples include artificial joints, pacemakers, and dental implants.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Selection",
+   "id": "",
+   "html": "<p>The selection of appropriate biomaterials and implants is crucial because they directly impact patient health and well-being. Incorrect selection can lead to adverse reactions, infections, and complications. Therefore, engineers must have a deep understanding of the properties and applications of biomaterials.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Suppose a patient needs a hip replacement. The surgeon must choose a biomaterial for the hip implant that is biocompatible, durable, and can withstand long-term wear. Some common choices include titanium alloys, cobalt-chrome alloys, and ceramic materials. Each has its own advantages and disadvantages, which must be carefully considered.</div>",
+   "examples": [
+    "Suppose a patient needs a hip replacement. The surgeon must choose a biomaterial for the hip implant that is biocompatible, durable, and can withstand long-term wear. Some common choices include titanium alloys, cobalt-chrome alloys, and ceramic materials. Each has its own advantages and disadvantages, which must be carefully considered."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Understanding the Screen Layout",
+   "id": "",
+   "html": "<p>The screen layout display in a computer program is the visual representation of the user interface. It includes various elements like toolbars, menus, and windows that help users interact with the software.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Key Components",
+   "id": "",
+   "html": "<ul>\n<li><strong>Toolbars:</strong> These are horizontal or vertical bars that contain icons and buttons to perform specific tasks.</li>\n<li><strong>Menubars:</strong> These are vertical or horizontal bars that contain a list of commands and options.</li>\n<li><strong>Windows:</strong> These are areas on the screen where information is displayed or edited.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In a CAD software, the screen layout display might include a toolbar with icons for drawing tools, a menubar with options like \"File,\" \"Edit,\" and \"View,\" and a main window where the drawing is displayed. Understanding how to navigate and use these elements is essential for efficient work.</div>",
+   "examples": [
+    "In a CAD software, the screen layout display might include a toolbar with icons for drawing tools, a menubar with options like \"File,\" \"Edit,\" and \"View,\" and a main window where the drawing is displayed. Understanding how to navigate and use these elements is essential for efficient work."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Purpose",
+   "id": "",
+   "html": "<p>The <strong>menu bar</strong> is a horizontal bar at the top of a window that contains a series of menus. Each menu offers a list of commands and options. The menu bar helps users to quickly access different functions and settings.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Menus",
+   "id": "",
+   "html": "<ul>\n<li><strong>File:</strong> Contains options like \"New,\" \"Open,\" \"Save,\" and \"Print.\"</li>\n<li><strong>Edit:</strong> Contains options like \"Cut,\" \"Copy,\" \"Paste,\" and \"Undo.\"</li>\n<li><strong>View:</strong> Contains options like \"Zoom,\" \"Full Screen,\" and \"Toolbars.\"</li>\n<li><strong>Tools:</strong> Contains options like \"Options,\" \"Paste Special,\" and \"Customize.\"</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In Microsoft Word, the menu bar might include the \"File\" menu, where users can open or save a document. The \"Edit\" menu contains commands to cut, copy, and paste text. The \"View\" menu allows users to change the display settings of the document. Understanding these menus is crucial for efficient document management.</div>",
+   "examples": [
+    "In Microsoft Word, the menu bar might include the \"File\" menu, where users can open or save a document. The \"Edit\" menu contains commands to cut, copy, and paste text. The \"View\" menu allows users to change the display settings of the document. Understanding these menus is crucial for efficient document management."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Purpose",
+   "id": "",
+   "html": "<p>The <strong>standard toolbar</strong> is a horizontal bar located below the menu bar. It contains commonly used commands and tools that users frequently need. The standard toolbar is designed to provide quick access to essential features without having to navigate through menus.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Buttons",
+   "id": "",
+   "html": "<ul>\n<li><strong>New:</strong> Creates a new document.</li>\n<li><strong>Open:</strong> Opens an existing document.</li>\n<li><strong>Save:</strong> Saves the current document.</li>\n<li><strong>Print:</strong> Prints the current document.</li>\n<li><strong>Cut:</strong> Removes selected text and places it in the clipboard.</li>\n<li><strong>Copy:</strong> Copies selected text to the clipboard.</li>\n<li><strong>Paste:</strong> Pastes the contents of the clipboard into the document.</li>\n<li><strong>Undo:</strong> Reverses the last action.</li>\n<li><strong>Redo:</strong> Reverses the last undone action.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In Microsoft Word, the standard toolbar might include the \"Save\" button, which allows users to save their document. The \"Cut\" button is frequently used to remove selected text. The \"Print\" button is used to print the document. Understanding these buttons is essential for efficient document management.</div>",
+   "examples": [
+    "In Microsoft Word, the standard toolbar might include the \"Save\" button, which allows users to save their document. The \"Cut\" button is frequently used to remove selected text. The \"Print\" button is used to print the document. Understanding these buttons is essential for efficient document management."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Purpose",
+   "id": "",
+   "html": "<p>The <strong>formatting toolbar</strong> is a horizontal bar that provides options for formatting text and paragraphs. It includes buttons for font style, size, color, alignment, and other formatting options.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Buttons",
+   "id": "",
+   "html": "<ul>\n<li><strong>Font:</strong> Changes the font style of selected text.</li>\n<li><strong>Font Size:</strong> Changes the font size of selected text.</li>\n<li><strong>Bold:</strong> Makes selected text bold.</li>\n<li><strong>Italic:</strong> Makes selected text italic.</li>\n<li><strong>Underline:</strong> Underlines selected text.</li>\n<li><strong>Align Left:</strong> Aligns selected text to the left.</li>\n<li><strong>Align Center:</strong> Centers selected text.</li>\n<li><strong>Align Right:</strong> Aligns selected text to the right.</li>\n<li><strong>Align Justify:</strong> Justifies selected text.</li>\n<li><strong>Text Color:</strong> Changes the color of selected text.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In Microsoft Word, the formatting toolbar might include the \"Bold\" button, which allows users to make selected text bold. The \"Font Size\" button can be used to increase or decrease the size of the text. The \"Align Center\" button can be used to center the text. Understanding these buttons is essential for creating well-formatted documents.</div>",
+   "examples": [
+    "In Microsoft Word, the formatting toolbar might include the \"Bold\" button, which allows users to make selected text bold. The \"Font Size\" button can be used to increase or decrease the size of the text. The \"Align Center\" button can be used to center the text. Understanding these buttons is essential for creating well-formatted documents."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Purpose",
+   "id": "",
+   "html": "<p>The <strong>drawing toolbar</strong> is a horizontal bar that provides tools for creating and editing shapes, lines, and other graphical elements in a document. It is particularly useful for creating diagrams, flowcharts, and other visual aids.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Buttons",
+   "id": "",
+   "html": "<ul>\n<li><strong>Line:</strong> Draws a straight line.</li>\n<li><strong>Rectangle:</strong> Draws a rectangle.</li>\n<li><strong>Ellipse:</strong> Draws a circle or an ellipse.</li>\n<li><strong>Freeform:</strong> Allows users to draw freehand shapes.</li>\n<li><strong>Arrow:</strong> Draws an arrow.</li>\n<li><strong>Text Box:</strong> Adds a text box to the document.</li>\n<li><strong>Connector:</strong> Connects shapes with lines.</li>\n<li><strong>Fill Color:</strong> Fills the selected shape with a color.</li>\n<li><strong>Outline Color:</strong> Changes the outline color of the selected shape.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In Microsoft Word, the drawing toolbar might include the \"Rectangle\" button, which allows users to draw a rectangle. The \"Line\" button can be used to draw a straight line. The \"Text Box\" button can be used to add a text box to the document. The \"Fill Color\" button can be used to fill a shape with a color. Understanding these buttons is essential for creating visual aids and diagrams.</div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Biomaterial] --&gt; B[Metals]\n    A --&gt; C[Ceramics]\n    B --&gt; D[Bone plates, implants]\n    C --&gt; E[Bone cement]\n    D --&gt; F[Biocompatibility]\n    E --&gt; F</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Biomaterial] --&gt; B[Metals]\n    A --&gt; C[Ceramics]\n    B --&gt; D[Bone plates, implants]\n    C --&gt; E[Bone cement]\n    D --&gt; F[Biocompatibility]\n    E --&gt; F</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Biomaterial] --&gt; B[Metals]\n    A --&gt; C[Ceramics]\n    B --&gt; D[Bone plates, implants]\n    C --&gt; E[Bone cement]\n    D --&gt; F[Biocompatibility]\n    E --&gt; F</pre></noscript></div>\n<hr />",
+   "examples": [
+    "In Microsoft Word, the drawing toolbar might include the \"Rectangle\" button, which allows users to draw a rectangle. The \"Line\" button can be used to draw a straight line. The \"Text Box\" button can be used to add a text box to the document. The \"Fill Color\" button can be used to fill a shape with a color. Understanding these buttons is essential for creating visual aids and diagrams."
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[Biomaterial] --> B[Metals]\n    A --> C[Ceramics]\n    B --> D[Bone plates, implants]\n    C --> E[Bone cement]\n    D --> F[Biocompatibility]\n    E --> F"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p>A <strong>drawing editor</strong> is a software tool used to create and manipulate images, diagrams, and illustrations. It is widely used in various fields including biomedical engineering for designing and planning implants and biomaterials.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Biomedical Engineering",
+   "id": "",
+   "html": "<p>In biomedical engineering, drawing editors are crucial for creating detailed and accurate designs of implants, prosthetics, and other medical devices. These designs help in understanding the structural and functional aspects of the devices before they are manufactured.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Basic Features",
+   "id": "",
+   "html": "<ul>\n<li><strong>Create and Edit</strong>: Draw and modify shapes, lines, and images.</li>\n<li><strong>Save and Export</strong>: Save and export designs in various file formats.</li>\n<li><strong>Zoom and Pan</strong>: Zoom in and out and pan the view to see details and make adjustments.</li>\n<li><strong>Undo and Redo</strong>: Undo and redo actions to correct mistakes.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Using a drawing editor, a biomedical engineer can design a heart valve. The engineer starts by drawing the basic outline of the valve, then adds intricate details like the flaps and connecting tissues. The engineer uses the zoom feature to adjust the flaps to the exact size and shape needed. Finally, the engineer saves the design as a PDF file for further analysis.</div>",
+   "examples": [
+    "Using a drawing editor, a biomedical engineer can design a heart valve. The engineer starts by drawing the basic outline of the valve, then adds intricate details like the flaps and connecting tissues. The engineer uses the zoom feature to adjust the flaps to the exact size and shape needed. Finally, the engineer saves the design as a PDF file for further analysis."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Menubar Overview",
+   "id": "",
+   "html": "<p>The <strong>menubar</strong> in a drawing editor is a horizontal bar at the top of the software window containing a list of commands and options. These commands help in creating and modifying the designs.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Menubar Commands",
+   "id": "",
+   "html": "<ul>\n<li><strong>File</strong>: New, Open, Save, Save As, Print, Exit.</li>\n<li><strong>Edit</strong>: Cut, Copy, Paste, Undo, Redo, Find.</li>\n<li><strong>View</strong>: Zoom In, Zoom Out, Pan, Display Rulers, Grids.</li>\n<li><strong>Shapes</strong>: Line, Rectangle, Circle, Ellipse, Polygon.</li>\n<li><strong>Colors</strong>: Fill, Stroke, Color Picker.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>To create a simple line, the engineer clicks on the <strong>Line</strong> option in the <strong>Shapes</strong> menu. Then, the engineer clicks and drags to draw a line. The engineer can change the color and thickness of the line using the <strong>Stroke</strong> and <strong>Color Picker</strong> options in the menubar.</div>",
+   "examples": [
+    "To create a simple line, the engineer clicks on the **Line** option in the **Shapes** menu. Then, the engineer clicks and drags to draw a line. The engineer can change the color and thickness of the line using the **Stroke** and **Color Picker** options in the menubar."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Toolbox Overview",
+   "id": "",
+   "html": "<p>The <strong>toolbox</strong> in a drawing editor is a panel on the side of the software window that contains various tools and options for drawing and editing. These tools are essential for creating precise and detailed designs.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Toolbox Tools",
+   "id": "",
+   "html": "<ul>\n<li><strong>Brush Tool</strong>: Used for painting and drawing.</li>\n<li><strong>Eraser Tool</strong>: Used for erasing parts of the design.</li>\n<li><strong>Line Tool</strong>: Used for drawing straight lines.</li>\n<li><strong>Rectangle Tool</strong>: Used for drawing rectangles.</li>\n<li><strong>Ellipse Tool</strong>: Used for drawing circles and ellipses.</li>\n<li><strong>Selection Tool</strong>: Used for selecting and moving parts of the design.</li>\n<li><strong>Text Tool</strong>: Used for adding text to the design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Using the <strong>Brush Tool</strong>, the engineer draws a detailed outline of a pacemaker. The engineer uses the <strong>Eraser Tool</strong> to remove any unwanted lines. Then, the engineer uses the <strong>Text Tool</strong> to add the name of the device and its specifications. The engineer uses the <strong>Selection Tool</strong> to align the text and ensure it is properly placed.</div>",
+   "examples": [
+    "Using the **Brush Tool**, the engineer draws a detailed outline of a pacemaker. The engineer uses the **Eraser Tool** to remove any unwanted lines. Then, the engineer uses the **Text Tool** to add the name of the device and its specifications. The engineer uses the **Selection Tool** to align the text and ensure it is properly placed."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Natural design</strong> refers to designs that mimic natural structures and patterns, often used in creating biomimetic implants and devices that integrate well with the human body.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance",
+   "id": "",
+   "html": "<p>Natural designs help in creating implants that are biocompatible and have a lower risk of rejection. They also ensure that the design is aesthetically pleasing and functional.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>To design a natural biomaterial for a bone implant, the engineer studies the structure of natural bone. The engineer then uses this knowledge to create a lattice structure that mimics the natural bone's porous structure. This design ensures that the implant integrates well with the surrounding bone tissue.</div>",
+   "examples": [
+    "To design a natural biomaterial for a bone implant, the engineer studies the structure of natural bone. The engineer then uses this knowledge to create a lattice structure that mimics the natural bone's porous structure. This design ensures that the implant integrates well with the surrounding bone tissue."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Geometric design</strong> involves using mathematical and geometric shapes to create precise and symmetrical designs. These designs are often used in creating medical devices and implants that require specific dimensions and shapes.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance",
+   "id": "",
+   "html": "<p>Geometric designs ensure that the devices are functional and can be manufactured accurately. They also provide a clear and precise blueprint for the engineers.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>To design a stent for a blood vessel, the engineer uses a geometric design. The engineer starts by drawing a circular shape and then uses the <strong>Ellipse Tool</strong> to create a series of concentric circles. These circles are then used to create the stent's pattern. The engineer uses the <strong>Line Tool</strong> to add the necessary support structures and ensure the stent is stable.</div>",
+   "examples": [
+    "To design a stent for a blood vessel, the engineer uses a geometric design. The engineer starts by drawing a circular shape and then uses the **Ellipse Tool** to create a series of concentric circles. These circles are then used to create the stent's pattern. The engineer uses the **Line Tool** to add the necessary support structures and ensure the stent is stable."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Dotted design</strong> involves creating designs using dots or small circles. These designs are often used in creating patterns and textures that can be applied to implants and devices.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance",
+   "id": "",
+   "html": "<p>Dotted designs add a texture to the surface of the device, which can improve its grip and make it more secure. They can also be used to create patterns that enhance the aesthetic appeal of the design.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>To design a surface for a dental implant, the engineer uses a dotted design. The engineer starts by creating a grid of small circles using the <strong>Ellipse Tool</strong>. The engineer then adjusts the size and spacing of the circles to ensure they are evenly distributed. The engineer uses the <strong>Stroke Tool</strong> to add a thin line around each circle, creating a dotted pattern. This pattern enhances the grip of the implant and ensures it stays in place.</div>\n<hr />",
+   "examples": [
+    "To design a surface for a dental implant, the engineer uses a dotted design. The engineer starts by creating a grid of small circles using the **Ellipse Tool**. The engineer then adjusts the size and spacing of the circles to ensure they are evenly distributed. The engineer uses the **Stroke Tool** to add a thin line around each circle, creating a dotted pattern. This pattern enhances the grip of the implant and ensures it stays in place."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Conventional Design",
+   "id": "",
+   "html": "<p>Conventional design in biomedical engineering involves the use of well-established methods and materials to create medical devices and implants. This design process typically follows a set of standardized procedures and guidelines to ensure safety and effectiveness.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps in Conventional Design",
+   "id": "",
+   "html": "<ol>\n<li><strong>Problem Identification</strong>: Identify the medical need or problem that the design aims to address.</li>\n<li><strong>Material Selection</strong>: Choose suitable materials based on their biocompatibility, mechanical properties, and cost.</li>\n<li><strong>Design Specifications</strong>: Define the design parameters such as dimensions, shape, and functionality.</li>\n<li><strong>Prototype Development</strong>: Create a prototype of the device or implant.</li>\n<li><strong>Testing</strong>: Conduct tests to ensure the design meets the required performance criteria.</li>\n<li><strong>Approval and Manufacturing</strong>: Once the design passes all tests, it can be approved for manufacturing.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example of Conventional Design",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is tasked with designing a titanium hip implant. The engineer follows the conventional design process as outlined below:<br /><br />1. <strong>Problem Identification</strong>: The need is to replace a patient's damaged hip joint with a durable and biocompatible implant.<br />2. <strong>Material Selection</strong>: Titanium is chosen due to its high biocompatibility, strength, and corrosion resistance.<br />3. <strong>Design Specifications</strong>: The implant needs to have a cylindrical shape with a diameter of 25 mm and a length of 120 mm.<br />4. <strong>Prototype Development</strong>: A 3D model is created and a prototype is manufactured.<br />5. <strong>Testing</strong>: The prototype is tested for mechanical strength and biocompatibility. It passes all tests with a compressive strength of 700 MPa and passes the biocompatibility test with no adverse reactions.<br />6. <strong>Approval and Manufacturing</strong>: The design is approved and the implant is manufactured for clinical use.</div>",
+   "examples": [
+    "A biomedical engineer is tasked with designing a titanium hip implant. The engineer follows the conventional design process as outlined below: 1. **Problem Identification**: The need is to replace a patient's damaged hip joint with a durable and biocompatible implant. 2. **Material Selection**: Titanium is chosen due to its high biocompatibility, strength, and corrosion resistance. 3. **Design Specifications**: The implant needs to have a cylindrical shape with a diameter of 25 mm and a length of 120 mm. 4. **Prototype Development**: A 3D model is created and a prototype is manufactured. 5. **Testing**: The prototype is tested for mechanical strength and biocompatibility. It passes all tests with a compressive strength of 700 MPa and passes the biocompatibility test with no adverse reactions. 6. **Approval and Manufacturing**: The design is approved and the implant is manufactured for clinical use."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Conventional Design Process",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Problem Identification] --&gt; B[Material Selection]\n    B --&gt; C[Design Specifications]\n    C --&gt; D[Prototype Development]\n    D --&gt; E[Testing]\n    E --&gt; F[Approval and Manufacturing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Problem Identification] --&gt; B[Material Selection]\n    B --&gt; C[Design Specifications]\n    C --&gt; D[Prototype Development]\n    D --&gt; E[Testing]\n    E --&gt; F[Approval and Manufacturing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Problem Identification] --&gt; B[Material Selection]\n    B --&gt; C[Design Specifications]\n    C --&gt; D[Prototype Development]\n    D --&gt; E[Testing]\n    E --&gt; F[Approval and Manufacturing]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Problem Identification] --> B[Material Selection]\n    B --> C[Design Specifications]\n    C --> D[Prototype Development]\n    D --> E[Testing]\n    E --> F[Approval and Manufacturing]"
+   ]
+  },
+  {
+   "heading": "Introduction to Textual Design",
+   "id": "",
+   "html": "<p>Textual design in biomedical engineering involves detailed documentation and reporting of the design process. This includes clear and concise descriptions of the design, materials used, and testing procedures.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps in Textual Design",
+   "id": "",
+   "html": "<ol>\n<li><strong>Documentation</strong>: Write a detailed document describing the design process, materials used, and testing results.</li>\n<li><strong>Materials Description</strong>: Provide a thorough description of the materials and their properties.</li>\n<li><strong>Design Parameters</strong>: Describe the design parameters, including dimensions, shape, and functionality.</li>\n<li><strong>Testing Details</strong>: Document the testing procedures and results.</li>\n<li><strong>Approval and Reporting</strong>: Ensure all documentation is complete and submitted for approval.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example of Textual Design",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is required to document the design of a titanium hip implant. The textual design includes the following:<br /><br />- <strong>Problem Identification</strong>: Replace a patient's damaged hip joint with a durable and biocompatible implant.<br />- <strong>Material Selection</strong>: Titanium was chosen due to its high biocompatibility, strength, and corrosion resistance.<br />- <strong>Design Parameters</strong>: The implant has a cylindrical shape with a diameter of 25 mm and a length of 120 mm.<br />- <strong>Testing Details</strong>: The prototype was tested for mechanical strength and biocompatibility. The compressive strength was 700 MPa, and there were no adverse reactions in the biocompatibility test.<br />- <strong>Approval and Reporting</strong>: The design documentation is complete and submitted for approval.</div>",
+   "examples": [
+    "A biomedical engineer is required to document the design of a titanium hip implant. The textual design includes the following: - **Problem Identification**: Replace a patient's damaged hip joint with a durable and biocompatible implant. - **Material Selection**: Titanium was chosen due to its high biocompatibility, strength, and corrosion resistance. - **Design Parameters**: The implant has a cylindrical shape with a diameter of 25 mm and a length of 120 mm. - **Testing Details**: The prototype was tested for mechanical strength and biocompatibility. The compressive strength was 700 MPa, and there were no adverse reactions in the biocompatibility test. - **Approval and Reporting**: The design documentation is complete and submitted for approval."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Textual Design Process",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Documentation] --&gt; B[Materials Description]\n    B --&gt; C[Design Parameters]\n    C --&gt; D[Testing Details]\n    D --&gt; E[Approval and Reporting]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Documentation] --&gt; B[Materials Description]\n    B --&gt; C[Design Parameters]\n    C --&gt; D[Testing Details]\n    D --&gt; E[Approval and Reporting]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Documentation] --&gt; B[Materials Description]\n    B --&gt; C[Design Parameters]\n    C --&gt; D[Testing Details]\n    D --&gt; E[Approval and Reporting]</pre></noscript></div>\n<p>These sections provide a comprehensive understanding of conventional design and textual design, which are crucial for the selection and implementation of appropriate bio-materials and implants.</p>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Documentation] --> B[Materials Description]\n    B --> C[Design Parameters]\n    C --> D[Testing Details]\n    D --> E[Approval and Reporting]"
+   ]
+  }
+ ]
+}

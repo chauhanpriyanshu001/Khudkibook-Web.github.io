@@ -1,0 +1,196 @@
+{
+ "code": "310004",
+ "subject": "Effective Technical Communication",
+ "branchLabel": "Gujarat Technological University Information Technology Semester 3",
+ "subjectPage": "/it/sem3/ETC.html",
+ "units": [
+  {
+   "n": 1,
+   "label": "Unit – null: BODY MEASUREMENT",
+   "file": "unit-1.html",
+   "guFile": null,
+   "words": 2084,
+   "readingMin": 12,
+   "marks": ""
+  },
+  {
+   "n": 2,
+   "label": "Unit – null: TOOLS",
+   "file": "unit-2.html",
+   "guFile": null,
+   "words": 10061,
+   "readingMin": 56,
+   "marks": ""
+  },
+  {
+   "n": 3,
+   "label": "Unit – null: TOPICS AND SUB-TOPICS :",
+   "file": "unit-3.html",
+   "guFile": null,
+   "words": 4060,
+   "readingMin": 23,
+   "marks": ""
+  },
+  {
+   "n": 4,
+   "label": "Unit – null: ELEMENTS OF DESIGN",
+   "file": "unit-4.html",
+   "guFile": null,
+   "words": 1745,
+   "readingMin": 10,
+   "marks": ""
+  },
+  {
+   "n": 5,
+   "label": "Unit – null: PRINCIPLES OF DESIGN",
+   "file": "unit-5.html",
+   "guFile": null,
+   "words": 2463,
+   "readingMin": 14,
+   "marks": ""
+  },
+  {
+   "n": 6,
+   "label": "Unit – null: DESIGN",
+   "file": "unit-6.html",
+   "guFile": null,
+   "words": 1542,
+   "readingMin": 9,
+   "marks": ""
+  },
+  {
+   "n": 7,
+   "label": "Unit – null: Prepare given types of drawing by hand and on computer",
+   "file": "unit-7.html",
+   "guFile": null,
+   "words": 1682,
+   "readingMin": 9,
+   "marks": ""
+  },
+  {
+   "n": 8,
+   "label": "Unit – null: Calligraphy writing by hand (All alphabet)",
+   "file": "unit-8.html",
+   "guFile": null,
+   "words": 948,
+   "readingMin": 5,
+   "marks": ""
+  },
+  {
+   "n": 9,
+   "label": "Unit – null: Shape",
+   "file": "unit-9.html",
+   "guFile": null,
+   "words": 3991,
+   "readingMin": 22,
+   "marks": ""
+  },
+  {
+   "n": 10,
+   "label": "Unit – null: Form",
+   "file": "unit-10.html",
+   "guFile": null,
+   "words": 11437,
+   "readingMin": 64,
+   "marks": ""
+  },
+  {
+   "n": 11,
+   "label": "Unit – null: TEXTILE FIBERS AND ITS MANUFACTURING PROCESS AND",
+   "file": "unit-11.html",
+   "guFile": null,
+   "words": 1653,
+   "readingMin": 9,
+   "marks": ""
+  },
+  {
+   "n": 12,
+   "label": "Unit – null: YARNS",
+   "file": "unit-12.html",
+   "guFile": null,
+   "words": 1567,
+   "readingMin": 9,
+   "marks": ""
+  },
+  {
+   "n": 13,
+   "label": "Unit – null: CONVERSION OF YARN INTO FABRIC",
+   "file": "unit-13.html",
+   "guFile": null,
+   "words": 9246,
+   "readingMin": 51,
+   "marks": ""
+  },
+  {
+   "n": 14,
+   "label": "Unit – null: Letter writing by hand and in computer",
+   "file": "unit-14.html",
+   "guFile": null,
+   "words": 1639,
+   "readingMin": 9,
+   "marks": ""
+  }
+ ],
+ "title": "Effective Technical Communication",
+ "titleGu": "Effective Technical Communication",
+ "pages": [
+  {
+   "n": 1,
+   "file": "unit-1.html"
+  },
+  {
+   "n": 2,
+   "file": "unit-2.html"
+  },
+  {
+   "n": 3,
+   "file": "unit-3.html"
+  },
+  {
+   "n": 4,
+   "file": "unit-4.html"
+  },
+  {
+   "n": 5,
+   "file": "unit-5.html"
+  },
+  {
+   "n": 6,
+   "file": "unit-6.html"
+  },
+  {
+   "n": 7,
+   "file": "unit-7.html"
+  },
+  {
+   "n": 8,
+   "file": "unit-8.html"
+  },
+  {
+   "n": 9,
+   "file": "unit-9.html"
+  },
+  {
+   "n": 10,
+   "file": "unit-10.html"
+  },
+  {
+   "n": 11,
+   "file": "unit-11.html"
+  },
+  {
+   "n": 12,
+   "file": "unit-12.html"
+  },
+  {
+   "n": 13,
+   "file": "unit-13.html"
+  },
+  {
+   "n": 14,
+   "file": "unit-14.html"
+  }
+ ],
+ "full": "full-book.html",
+ "updatedAt": "2026-09-06T15:48:56.905Z"
+}

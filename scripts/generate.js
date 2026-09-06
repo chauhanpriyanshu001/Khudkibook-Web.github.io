@@ -6,7 +6,7 @@ const ROOT_DIR = path.join(__dirname, '..');
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 const DATA_FILE = path.join(ROOT_DIR, 'data/site_db.json');
 const TEMPLATE_FILE = path.join(PUBLIC_DIR, 'templates/base.html');
-const DEFAULT_SITE_URL = 'https://khudkibook.web.app';
+const DEFAULT_SITE_URL = 'https://khudkibook.in';
 const DEFAULT_AD_PUB_ID = 'ca-pub-4211827566541334';
 
 /**
@@ -259,28 +259,30 @@ function generateSite() {
                             <span><i class="fas fa-book-open" style="color: var(--accent); margin-right: 8px;"></i> Official Syllabus & Subjects</span>
                             <span style="font-size: 0.85rem; color: var(--text-muted);">${semSubjects.length} Subjects Included</span>
                         </div>
-                        <table id="table">
-                            <thead>
-                                <tr>
-                                    <th>Subject Code</th>
-                                    <th>Subject Name</th>
-                                    <th>Credits</th>
-                                    <th>Total Marks</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                ${semSubjects.map(sub => {
-                                    const subHref = `/${branch.urlPrefix ? branch.urlPrefix + '/' : ''}${branch.id}/${sem.id}/${sub.slug || sub.code}.html`;
-                                    return `
-                                    <tr data-subject>
-                                        <td><strong>${sub.code || 'N/A'}</strong></td>
-                                        <td><a class="ssn" href="${subHref}">${sub.name}</a></td>
-                                        <td>${sub.credit || 4}</td>
-                                        <td>${sub.marks || 100}</td>
+                        <div class="kb-table-wrap">
+                            <table id="table">
+                                <thead>
+                                    <tr>
+                                        <th>Subject Code</th>
+                                        <th>Subject Name</th>
+                                        <th>Credits</th>
+                                        <th>Total Marks</th>
                                     </tr>
-                                `;}).join('')}
-                            </tbody>
-                        </table>
+                                </thead>
+                                <tbody>
+                                    ${semSubjects.map(sub => {
+                                        const subHref = `/${branch.urlPrefix ? branch.urlPrefix + '/' : ''}${branch.id}/${sem.id}/${sub.slug || sub.code}.html`;
+                                        return `
+                                        <tr data-subject>
+                                            <td><strong>${sub.code || 'N/A'}</strong></td>
+                                            <td><a class="ssn" href="${subHref}">${sub.name}</a></td>
+                                            <td>${sub.credit || 4}</td>
+                                            <td>${sub.marks || 100}</td>
+                                        </tr>
+                                    `;}).join('')}
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
 
                     ${inContentAdHTML}

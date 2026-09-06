@@ -1,0 +1,580 @@
+{
+ "code": "310004",
+ "subject": "Effective Technical Communication",
+ "unit": 9,
+ "lang": "en",
+ "title": "Unit – null: Shape",
+ "url": "/books/310004/unit-9.html",
+ "guUrl": null,
+ "words": 3991,
+ "readingMin": 22,
+ "marks": "",
+ "sections": [
+  {
+   "heading": "Unit – null: Shape",
+   "id": "",
+   "html": "<p><em>(AI-generated self study book for GTU Diploma Biomedical Engineering, subject code 310004 — generated locally with Ollama.)</em></p>\n<p>This unit carries approximately ****.</p>\n<p>Learning objectives covered by this unit:</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.1. Prepare the sheet showing following equal sided flat shapes by hand as well as",
+   "id": "",
+   "html": "<p>This section covers the basic skills required to prepare equal-sided flat shapes such as squares, circles, equilateral triangles, and pentagons by hand. These shapes are fundamental in various engineering and design applications, including biomedical engineering, where accurate and precise drawings are essential.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Description",
+   "id": "",
+   "html": "<p>A square is a four-sided polygon with all sides of equal length and all angles equal to 90 degrees. It is one of the simplest and most common shapes in geometry.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps to Draw a Square",
+   "id": "",
+   "html": "<ol>\n<li><strong>Draw the First Side:</strong></li>\n</ol>\n<ul>\n<li>Draw a straight line segment of the desired length. Let's assume the length is 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Draw the Second Side:</strong></li>\n</ol>\n<ul>\n<li>At one end of the first line, draw a perpendicular line of the same length (5 cm) to form a right angle.</li>\n</ul>\n<ol>\n<li><strong>Draw the Third Side:</strong></li>\n</ol>\n<ul>\n<li>Connect the end of the second line to the opposite end of the first line to form another right angle.</li>\n</ul>\n<ol>\n<li><strong>Draw the Fourth Side:</strong></li>\n</ol>\n<ul>\n<li>Complete the square by connecting the remaining ends of the lines to form the fourth right angle.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Square] --> B[Side 1: 5 cm] --> C[Perpendicular Side 2: 5 cm] --> D[Right Angle] --> E[Side 3: 5 cm] --> F[Right Angle] --> G[Side 4: 5 cm] --> H[Complete Square]<br />```</div>",
+   "examples": [
+    "```mermaid flowchart TD A[Square] --> B[Side 1: 5 cm] --> C[Perpendicular Side 2: 5 cm] --> D[Right Angle] --> E[Side 3: 5 cm] --> F[Right Angle] --> G[Side 4: 5 cm] --> H[Complete Square] ```"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Description",
+   "id": "",
+   "html": "<p>A circle is a round shape with all points on its edge at an equal distance from the center. This distance is known as the radius.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps to Draw a Circle",
+   "id": "",
+   "html": "<ol>\n<li><strong>Mark the Center:</strong></li>\n</ol>\n<ul>\n<li>Place a dot at the center of the drawing area.</li>\n</ul>\n<ol>\n<li><strong>Set the Compass:</strong></li>\n</ol>\n<ul>\n<li>Adjust a compass to the desired radius, say 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Draw the Circle:</strong></li>\n</ol>\n<ul>\n<li>Place the compass point at the center and draw the circle by moving the pencil around the compass.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Circle] --> B[Mark Center] --> C[Set Compass to 5 cm] --> D[Draw Circle]<br />```</div>",
+   "examples": [
+    "```mermaid flowchart TD A[Circle] --> B[Mark Center] --> C[Set Compass to 5 cm] --> D[Draw Circle] ```"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Description",
+   "id": "",
+   "html": "<p>An equilateral triangle is a three-sided polygon with all sides of equal length and all angles equal to 60 degrees.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps to Draw an Equilateral Triangle",
+   "id": "",
+   "html": "<ol>\n<li><strong>Draw the First Side:</strong></li>\n</ol>\n<ul>\n<li>Draw a straight line segment of the desired length, say 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Draw the Second Side:</strong></li>\n</ol>\n<ul>\n<li>Using a compass, set the radius to the length of the first side (5 cm) and place the compass point at one end of the first side. Draw an arc intersecting the first side.</li>\n</ul>\n<ol>\n<li><strong>Draw the Third Side:</strong></li>\n</ol>\n<ul>\n<li>Repeat the previous step from the other end of the first side. The two arcs should intersect at a point.</li>\n</ul>\n<ol>\n<li><strong>Connect the Points:</strong></li>\n</ol>\n<ul>\n<li>Draw lines from the intersection point to the ends of the first side to complete the triangle.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Equilateral Triangle] --> B[First Side: 5 cm] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Connect to Complete Triangle]<br />```</div>",
+   "examples": [
+    "```mermaid flowchart TD A[Equilateral Triangle] --> B[First Side: 5 cm] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Connect to Complete Triangle] ```"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Description",
+   "id": "",
+   "html": "<p>A pentagon is a five-sided polygon with all sides of equal length and all angles approximately 108 degrees.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps to Draw a Pentagon",
+   "id": "",
+   "html": "<ol>\n<li><strong>Draw the First Side:</strong></li>\n</ol>\n<ul>\n<li>Draw a straight line segment of the desired length, say 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Set the Compass:</strong></li>\n</ol>\n<ul>\n<li>Adjust a compass to the length of the first side (5 cm).</li>\n</ul>\n<ol>\n<li><strong>Draw the Second Side:</strong></li>\n</ol>\n<ul>\n<li>Place the compass point at one end of the first side and draw an arc.</li>\n</ul>\n<ol>\n<li><strong>Draw the Third Side:</strong></li>\n</ol>\n<ul>\n<li>Repeat the previous step from the other end of the first side. The arcs should intersect at a point.</li>\n</ul>\n<ol>\n<li><strong>Continue Drawing the Remaining Sides:</strong></li>\n</ol>\n<ul>\n<li>Repeat the process to draw the remaining sides, ensuring each side is of the same length and the angles are approximately 108 degrees.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Pentagon] --> B[First Side: 5 cm] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Draw Third Side] --> H[Continue Drawing Remaining Sides]<br />```</div>\n<p>By following these steps, you can accurately draw the required shapes by hand. Practice these techniques to ensure precision and accuracy in your drawings, which is crucial in various engineering applications.</p>\n<hr />",
+   "examples": [
+    "```mermaid flowchart TD A[Pentagon] --> B[First Side: 5 cm] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Draw Third Side] --> H[Continue Drawing Remaining Sides] ```"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.1.5. Hexagon",
+   "id": "",
+   "html": "<p><strong>Hexagon:</strong> A <strong>hexagon</strong> is a six-sided polygon. In the context of biomedical engineering, hexagonal shapes are often used in implants and biomaterials due to their unique properties, such as increased surface area and mechanical stability.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Hexagon",
+   "id": "",
+   "html": "<ul>\n<li><strong>Number of Sides:</strong> 6</li>\n<li><strong>Sum of Interior Angles:</strong> 720 degrees</li>\n<li><strong>Regular Hexagon:</strong> All sides and angles are equal.</li>\n<li><strong>Irregular Hexagon:</strong> Sides and angles can vary.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Classification of Hexagon",
+   "id": "",
+   "html": "<ul>\n<li><strong>Regular Hexagon:</strong> All sides are equal, and all internal angles are 120 degrees.</li>\n<li><strong>Irregular Hexagon:</strong> Sides and angles are not necessarily equal.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Properties of a Regular Hexagon",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a regular hexagon with a side length of 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 6 × side length = 6 × 5 cm = 30 cm<br />- <strong>Area:</strong> Area = \\(\\frac{3\\sqrt{3}}{2} \\times (\\text{side length})^2 = \\frac{3\\sqrt{3}}{2} \\times (5)^2 = \\frac{3\\sqrt{3}}{2} \\times 25 = 36.74 \\, \\text{cm}^2\\)</div>",
+   "examples": [
+    "Calculate the area and perimeter of a regular hexagon with a side length of 5 cm. **Solution:** - **Perimeter:** Perimeter = 6 × side length = 6 × 5 cm = 30 cm - **Area:** Area = \\(\\frac{3\\sqrt{3}}{2} \\times (\\text{side length})^2 = \\frac{3\\sqrt{3}}{2} \\times (5)^2 = \\frac{3\\sqrt{3}}{2} \\times 25 = 36.74 \\, \\text{cm}^2\\)"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Hexagon",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Regular Hexagon] --&gt; B[All sides equal]\n    A --&gt; C[All angles equal (120 degrees)]\n    B --&gt; D[Perimeter = 6 × side length]\n    C --&gt; E[Area = (3√3/2) × (side length)^2]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Regular Hexagon] --&gt; B[All sides equal]\n    A --&gt; C[All angles equal (120 degrees)]\n    B --&gt; D[Perimeter = 6 × side length]\n    C --&gt; E[Area = (3√3/2) × (side length)^2]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Regular Hexagon] --&gt; B[All sides equal]\n    A --&gt; C[All angles equal (120 degrees)]\n    B --&gt; D[Perimeter = 6 × side length]\n    C --&gt; E[Area = (3√3/2) × (side length)^2]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Regular Hexagon] --> B[All sides equal]\n    A --> C[All angles equal (120 degrees)]\n    B --> D[Perimeter = 6 × side length]\n    C --> E[Area = (3√3/2) × (side length)^2]"
+   ]
+  },
+  {
+   "heading": "5.1.6. Octagon",
+   "id": "",
+   "html": "<p><strong>Octagon:</strong> An <strong>octagon</strong> is an eight-sided polygon. In biomedical engineering, octagonal shapes are less common but can be used in certain implant designs for their unique mechanical properties.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Octagon",
+   "id": "",
+   "html": "<ul>\n<li><strong>Number of Sides:</strong> 8</li>\n<li><strong>Sum of Interior Angles:</strong> 1080 degrees</li>\n<li><strong>Regular Octagon:</strong> All sides and angles are equal.</li>\n<li><strong>Irregular Octagon:</strong> Sides and angles can vary.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Classification of Octagon",
+   "id": "",
+   "html": "<ul>\n<li><strong>Regular Octagon:</strong> All sides are equal, and all internal angles are 135 degrees.</li>\n<li><strong>Irregular Octagon:</strong> Sides and angles are not necessarily equal.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Properties of a Regular Octagon",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a regular octagon with a side length of 4 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 8 × side length = 8 × 4 cm = 32 cm<br />- <strong>Area:</strong> Area = 2 × (1 + √2) × (\\text{side length})^2 = 2 × (1 + 1.414) × (4)^2 = 2 × 2.414 × 16 = 77.248 \\, \\text{cm}^2</div>",
+   "examples": [
+    "Calculate the area and perimeter of a regular octagon with a side length of 4 cm. **Solution:** - **Perimeter:** Perimeter = 8 × side length = 8 × 4 cm = 32 cm - **Area:** Area = 2 × (1 + √2) × (\\text{side length})^2 = 2 × (1 + 1.414) × (4)^2 = 2 × 2.414 × 16 = 77.248 \\, \\text{cm}^2"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Octagon",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Regular Octagon] --&gt; B[All sides equal]\n    A --&gt; C[All angles equal (135 degrees)]\n    B --&gt; D[Perimeter = 8 × side length]\n    C --&gt; E[Area = 2 × (1 + √2) × (side length)^2]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Regular Octagon] --&gt; B[All sides equal]\n    A --&gt; C[All angles equal (135 degrees)]\n    B --&gt; D[Perimeter = 8 × side length]\n    C --&gt; E[Area = 2 × (1 + √2) × (side length)^2]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Regular Octagon] --&gt; B[All sides equal]\n    A --&gt; C[All angles equal (135 degrees)]\n    B --&gt; D[Perimeter = 8 × side length]\n    C --&gt; E[Area = 2 × (1 + √2) × (side length)^2]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Regular Octagon] --> B[All sides equal]\n    A --> C[All angles equal (135 degrees)]\n    B --> D[Perimeter = 8 × side length]\n    C --> E[Area = 2 × (1 + √2) × (side length)^2]"
+   ]
+  },
+  {
+   "heading": "Rectangle",
+   "id": "",
+   "html": "<p><strong>Rectangle:</strong> A <strong>rectangle</strong> is a four-sided flat shape with four right angles (90 degrees). In biomedical applications, rectangles are commonly used for their simplicity and stability.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Rectangle",
+   "id": "",
+   "html": "<ul>\n<li><strong>Number of Sides:</strong> 4</li>\n<li><strong>Sum of Interior Angles:</strong> 360 degrees</li>\n<li><strong>Right Angles:</strong> All angles are 90 degrees.</li>\n<li><strong>Opposite Sides:</strong> Equal and parallel.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Calculating Area and Perimeter of a Rectangle",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a rectangle with length 10 cm and width 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 2 × (length + width) = 2 × (10 + 5) cm = 30 cm<br />- <strong>Area:</strong> Area = length × width = 10 cm × 5 cm = 50 \\, \\text{cm}^2</div>",
+   "examples": [
+    "Calculate the area and perimeter of a rectangle with length 10 cm and width 5 cm. **Solution:** - **Perimeter:** Perimeter = 2 × (length + width) = 2 × (10 + 5) cm = 30 cm - **Area:** Area = length × width = 10 cm × 5 cm = 50 \\, \\text{cm}^2"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Rectangle",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Rectangle] --&gt; B[Right Angles (90 degrees)]\n    A --&gt; C[Opposite sides equal and parallel]\n    B --&gt; D[Perimeter = 2 × (length + width)]\n    C --&gt; E[Area = length × width]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Rectangle] --&gt; B[Right Angles (90 degrees)]\n    A --&gt; C[Opposite sides equal and parallel]\n    B --&gt; D[Perimeter = 2 × (length + width)]\n    C --&gt; E[Area = length × width]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Rectangle] --&gt; B[Right Angles (90 degrees)]\n    A --&gt; C[Opposite sides equal and parallel]\n    B --&gt; D[Perimeter = 2 × (length + width)]\n    C --&gt; E[Area = length × width]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Rectangle] --> B[Right Angles (90 degrees)]\n    A --> C[Opposite sides equal and parallel]\n    B --> D[Perimeter = 2 × (length + width)]\n    C --> E[Area = length × width]"
+   ]
+  },
+  {
+   "heading": "5.2.2. Parallelogram",
+   "id": "",
+   "html": "<p><strong>Parallelogram:</strong> A <strong>parallelogram</strong> is a four-sided flat shape with opposite sides parallel. In biomedical applications, parallelograms can be used for their flexibility and mechanical properties.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Parallelogram",
+   "id": "",
+   "html": "<ul>\n<li><strong>Number of Sides:</strong> 4</li>\n<li><strong>Sum of Interior Angles:</strong> 360 degrees</li>\n<li><strong>Opposite Sides:</strong> Equal and parallel.</li>\n<li><strong>Opposite Angles:</strong> Equal.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Calculating Area and Perimeter of a Parallelogram",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a parallelogram with base 8 cm, height 6 cm, and side length 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 2 × (base + side length) = 2 × (8 + 5) cm = 26 cm<br />- <strong>Area:</strong> Area = base × height = 8 cm × 6 cm = 48 \\, \\text{cm}^2</div>",
+   "examples": [
+    "Calculate the area and perimeter of a parallelogram with base 8 cm, height 6 cm, and side length 5 cm. **Solution:** - **Perimeter:** Perimeter = 2 × (base + side length) = 2 × (8 + 5) cm = 26 cm - **Area:** Area = base × height = 8 cm × 6 cm = 48 \\, \\text{cm}^2"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Parallelogram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Parallelogram] --&gt; B[Opposite sides equal and parallel]\n    A --&gt; C[Opposite angles equal]\n    B --&gt; D[Perimeter = 2 × (base + side length)]\n    C --&gt; E[Area = base × height]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Parallelogram] --&gt; B[Opposite sides equal and parallel]\n    A --&gt; C[Opposite angles equal]\n    B --&gt; D[Perimeter = 2 × (base + side length)]\n    C --&gt; E[Area = base × height]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Parallelogram] --&gt; B[Opposite sides equal and parallel]\n    A --&gt; C[Opposite angles equal]\n    B --&gt; D[Perimeter = 2 × (base + side length)]\n    C --&gt; E[Area = base × height]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Parallelogram] --> B[Opposite sides equal and parallel]\n    A --> C[Opposite angles equal]\n    B --> D[Perimeter = 2 × (base + side length)]\n    C --> E[Area = base × height]"
+   ]
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>In this section, we have covered the properties and calculations for hexagons, octagons, rectangles, and parallelograms. Each shape has unique properties that make them suitable for specific biomedical applications. Understanding these shapes and their calculations is essential for selecting appropriate biomaterials and implants.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.3. Heart",
+   "id": "",
+   "html": "<p>The <strong>heart</strong> is a vital organ that functions to pump blood throughout the body. It is a hollow, muscular organ located in the chest cavity. The heart has four chambers: two <strong>atria</strong> (singular: <strong>atrium</strong>) and two <strong>ventricles</strong>. The <strong>atria</strong> receive blood from the body and lungs, while the <strong>ventricles</strong> pump blood out to the body and lungs.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.3.1. Structure and Function",
+   "id": "",
+   "html": "<ul>\n<li><strong>Atria</strong>: These are the upper chambers of the heart. The <strong>right atrium</strong> receives deoxygenated blood from the body, while the <strong>left atrium</strong> receives oxygenated blood from the lungs.</li>\n<li><strong>Ventricles</strong>: These are the lower chambers of the heart. The <strong>right ventricle</strong> pumps deoxygenated blood to the lungs, while the <strong>left ventricle</strong> pumps oxygenated blood to the body.</li>\n<li><strong>Valves</strong>: The heart has four valves that ensure blood flows in the correct direction:</li>\n<li><strong>Tricuspid valve</strong>: Between the right atrium and right ventricle.</li>\n<li><strong>Pulmonary valve</strong>: Between the right ventricle and pulmonary artery.</li>\n<li><strong>Mitral valve</strong>: Between the left atrium and left ventricle.</li>\n<li><strong>Aortic valve</strong>: Between the left ventricle and aorta.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.3.2. Blood Flow",
+   "id": "",
+   "html": "<p>The <strong>blood flow</strong> through the heart can be described using the following sequence:</p>\n<ol>\n<li><strong>Right atrium</strong> receives deoxygenated blood from the body.</li>\n<li>The <strong>tricuspid valve</strong> opens, allowing blood to flow into the <strong>right ventricle</strong>.</li>\n<li>The <strong>pulmonary valve</strong> closes, and the <strong>pulmonary valve</strong> opens, allowing blood to flow into the <strong>pulmonary artery</strong>.</li>\n<li>The <strong>pulmonary artery</strong> carries blood to the lungs for oxygenation.</li>\n<li>Oxygenated blood returns to the <strong>left atrium</strong> via the <strong>pulmonary veins</strong>.</li>\n<li>The <strong>mitral valve</strong> opens, allowing blood to flow into the <strong>left ventricle</strong>.</li>\n<li>The <strong>aortic valve</strong> opens, allowing oxygenated blood to flow into the <strong>aorta</strong>.</li>\n<li>The <strong>aorta</strong> distributes blood to the rest of the body.</li>\n</ol>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Right Atrium] --&gt; B[Tricuspid Valve Open] --&gt; C[Right Ventricle]\n    C --&gt; D[Pulmonary Valve Open] --&gt; E[Pulmonary Artery]\n    E --&gt; F[Lungs]\n    F --&gt; G[Pulmonary Veins] --&gt; H[Left Atrium]\n    H --&gt; I[Mitral Valve Open] --&gt; J[Left Ventricle]\n    J --&gt; K[Aortic Valve Open] --&gt; L[Aorta]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Right Atrium] --&gt; B[Tricuspid Valve Open] --&gt; C[Right Ventricle]\n    C --&gt; D[Pulmonary Valve Open] --&gt; E[Pulmonary Artery]\n    E --&gt; F[Lungs]\n    F --&gt; G[Pulmonary Veins] --&gt; H[Left Atrium]\n    H --&gt; I[Mitral Valve Open] --&gt; J[Left Ventricle]\n    J --&gt; K[Aortic Valve Open] --&gt; L[Aorta]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Right Atrium] --&gt; B[Tricuspid Valve Open] --&gt; C[Right Ventricle]\n    C --&gt; D[Pulmonary Valve Open] --&gt; E[Pulmonary Artery]\n    E --&gt; F[Lungs]\n    F --&gt; G[Pulmonary Veins] --&gt; H[Left Atrium]\n    H --&gt; I[Mitral Valve Open] --&gt; J[Left Ventricle]\n    J --&gt; K[Aortic Valve Open] --&gt; L[Aorta]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Right Atrium] --> B[Tricuspid Valve Open] --> C[Right Ventricle]\n    C --> D[Pulmonary Valve Open] --> E[Pulmonary Artery]\n    E --> F[Lungs]\n    F --> G[Pulmonary Veins] --> H[Left Atrium]\n    H --> I[Mitral Valve Open] --> J[Left Ventricle]\n    J --> K[Aortic Valve Open] --> L[Aorta]"
+   ]
+  },
+  {
+   "heading": "5.2.3.3. Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient is diagnosed with a <strong>tricuspid valve</strong> regurgitation. Explain what this condition means and how it affects the heart's function.</div>\n<ul>\n<li><strong>Answer</strong>: Tricuspid valve regurgitation means that the <strong>tricuspid valve</strong> does not close properly, leading to backward flow of blood from the <strong>right ventricle</strong> back into the <strong>right atrium</strong>. This condition can cause the <strong>right atrium</strong> to become enlarged and can lead to <strong>heart failure</strong>. The <strong>right ventricle</strong> will have to work harder to pump blood into the <strong>right atrium</strong>, which can cause it to dilate and eventually fail.</li>\n</ul>",
+   "examples": [
+    "A patient is diagnosed with a **tricuspid valve** regurgitation. Explain what this condition means and how it affects the heart's function."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.4. Diamond",
+   "id": "",
+   "html": "<p>The <strong>diamond</strong> is a precious gemstone composed primarily of <strong>carbon</strong>. It is renowned for its brilliance and hardness. Diamonds are formed under high pressure and temperature conditions deep within the Earth's crust.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.4.1. Structure and Properties",
+   "id": "",
+   "html": "<ul>\n<li><strong>Crystal Structure</strong>: Diamonds have a <strong>face-centered cubic (FCC)</strong> crystal structure.</li>\n<li><strong>Hardness</strong>: Diamonds are the hardest naturally occurring material known, with a <strong>Mohs hardness scale</strong> of 10.</li>\n<li><strong>Color</strong>: Most diamonds are colorless, but they can also occur in various colors such as yellow, brown, blue, and pink.</li>\n<li><strong>Cut</strong>: The <strong>cut</strong> of a diamond determines its brilliance and sparkle. The most common cuts are <strong>round brilliant cut</strong>, <strong>princess cut</strong>, and <strong>emerald cut</strong>.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.4.2. Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A diamond has a <strong>princess cut</strong> with a total weight of 1.5 carats. If the price of the diamond is $50,000 per carat, calculate the total cost of the diamond.</div>\n<ul>\n<li><strong>Answer</strong>: The total cost of the diamond can be calculated as follows:</li>\n</ul>\n<p>\\[</p>\n<p>\\text{Total Cost} = \\text{Weight of the Diamond} \\times \\text{Price per Carat} = 1.5 \\, \\text{carats} \\times 50,000 \\, \\text{\\$/carat} = 75,000 \\, \\text{\\$}</p>\n<p>\\]</p>",
+   "examples": [
+    "A diamond has a **princess cut** with a total weight of 1.5 carats. If the price of the diamond is $50,000 per carat, calculate the total cost of the diamond."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.5. Teardrop",
+   "id": "",
+   "html": "<p>The <strong>teardrop</strong> is a shape that is often used in various design applications. It is characterized by its smooth, curved edges that taper to a point, resembling a teardrop.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.5.1. Shape and Application",
+   "id": "",
+   "html": "<ul>\n<li><strong>Shape</strong>: The teardrop shape is defined by its smooth, curved lines that gradually taper to a point. It is a combination of a <strong>circle</strong> and a <strong>triangle</strong>.</li>\n<li><strong>Applications</strong>: The teardrop shape is commonly used in jewelry, fashion, and architecture. Its soft, flowing lines make it suitable for creating elegant and fluid designs.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.5.2. Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A teardrop-shaped pendant has a length of 2 cm and a width of 1 cm at the widest point. If the pendant is made of a material with a density of 7.8 g/cm³, calculate the volume of the pendant.</div>\n<ul>\n<li><strong>Answer</strong>: To calculate the volume of the teardrop-shaped pendant, we can approximate it as a <strong>triangular prism</strong>. The volume \\( V \\) of a triangular prism is given by:</li>\n</ul>\n<p>\\[</p>\n<p>V = \\text{Base Area} \\times \\text{Height}</p>\n<p>\\]</p>\n<p>The base area of the triangle can be approximated using the formula for the area of a triangle:</p>\n<p>\\[</p>\n<p>\\text{Base Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}</p>\n<p>\\]</p>\n<p>Assuming the width (1 cm) is the base and the length (2 cm) is the height:</p>\n<p>\\[</p>\n<p>\\text{Base Area} = \\frac{1}{2} \\times 1 \\, \\text{cm} \\times 2 \\, \\text{cm} = 1 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>Therefore, the volume of the pendant is:</p>\n<p>\\[</p>\n<p>V = 1 \\, \\text{cm}^2 \\times 2 \\, \\text{cm} = 2 \\, \\text{cm}^3</p>\n<p>\\]</p>",
+   "examples": [
+    "A teardrop-shaped pendant has a length of 2 cm and a width of 1 cm at the widest point. If the pendant is made of a material with a density of 7.8 g/cm³, calculate the volume of the pendant."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.6. Marquis",
+   "id": "",
+   "html": "<p>The <strong>marquis</strong> is a type of gemstone cut that is characterized by its elongated shape and pointed ends. It is similar to the <strong>emerald cut</strong> but with a more pointed shape.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.6.1. Shape and Cut",
+   "id": "",
+   "html": "<ul>\n<li><strong>Shape</strong>: The marquis cut is an elongated <strong>oval</strong> shape with pointed ends. It is similar to the <strong>emerald cut</strong> but with more pointed corners.</li>\n<li><strong>Cut</strong>: The marquis cut is a modification of the <strong>princess cut</strong>. It has a stepped facets that provide a unique, elegant appearance.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.6.2. Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A marquis-shaped diamond has a length of 8 mm and a width of 5 mm at the widest point. If the diamond is 2 mm thick, calculate the volume of the diamond.</div>\n<ul>\n<li><strong>Answer</strong>: The volume \\( V \\) of a marquis-shaped diamond can be approximated as a <strong>rectangular prism</strong>. The volume is given by:</li>\n</ul>\n<p>\\[</p>\n<p>V = \\text{Length} \\times \\text{Width} \\times \\text{Height}</p>\n<p>\\]</p>\n<p>Substituting the given dimensions:</p>\n<p>\\[</p>\n<p>V = 8 \\, \\text{mm} \\times 5 \\, \\text{mm} \\times 2 \\, \\text{mm} = 80 \\, \\text{mm}^3</p>\n<p>\\]</p>",
+   "examples": [
+    "A marquis-shaped diamond has a length of 8 mm and a width of 5 mm at the widest point. If the diamond is 2 mm thick, calculate the volume of the diamond."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.7. Ogive",
+   "id": "",
+   "html": "<p>The <strong>ogive</strong> is a curve that is often used in statistics to represent the cumulative frequency distribution. It is a graphical representation of the cumulative frequency distribution of a dataset.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.7.1. Definition and Use",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition</strong>: An <strong>ogive</strong> is a cumulative frequency curve that shows the number of data points that are less than or equal to a certain value.</li>\n<li><strong>Use</strong>: Ogives are used to analyze the distribution of data and to find the median and quartiles of a dataset.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.2.7.2. Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A dataset of 100 students' test scores is given as follows:</div>\n<table>\n<thead><tr><th>Score Range</th><th>Number of Students</th></tr></thead><tbody>\n<tr><td>0-10</td><td>5</td></tr>\n<tr><td>11-20</td><td>10</td></tr>\n<tr><td>21-30</td><td>15</td></tr>\n<tr><td>31-40</td><td>20</td></tr>\n<tr><td>41-50</td><td>25</td></tr>\n<tr><td>51-60</td><td>15</td></tr>\n<tr><td>61-70</td><td>10</td></tr>\n<tr><td>71-80</td><td>5</td></tr>\n</table>\n<p>Construct an <strong>ogive</strong> for the given data.</p>\n<ul>\n<li><strong>Answer</strong>: To construct an <strong>ogive</strong>, first, calculate the cumulative frequency for each score range:</li>\n</ul>\n<table>\n<thead><tr><th>Score Range</th><th>Number of Students</th><th>Cumulative Frequency</th></tr></thead><tbody>\n<tr><td>0-10</td><td>5</td><td>5</td></tr>\n<tr><td>11-20</td><td>10</td><td>15</td></tr>\n<tr><td>21-30</td><td>15</td><td>30</td></tr>\n<tr><td>31-40</td><td>20</td><td>50</td></tr>\n<tr><td>41-50</td><td>25</td><td>75</td></tr>\n<tr><td>51-60</td><td>15</td><td>90</td></tr>\n<tr><td>61-70</td><td>10</td><td>100</td></tr>\n<tr><td>71-80</td><td>5</td><td>105</td></tr>\n</table>\n<p>Next, plot the cumulative frequency on the y-axis and the upper boundary of the score range on the x-axis. Connect the points to form the ogive curve.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">graph TD\n    A[0-10] --&gt; B[5]\n    B --&gt; C[15]\n    C --&gt; D[30]\n    D --&gt; E[50]\n    E --&gt; F[75]\n    F --&gt; G[90]\n    G --&gt; H[100]\n    H --&gt; I[105]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>graph TD\n    A[0-10] --&gt; B[5]\n    B --&gt; C[15]\n    C --&gt; D[30]\n    D --&gt; E[50]\n    E --&gt; F[75]\n    F --&gt; G[90]\n    G --&gt; H[100]\n    H --&gt; I[105]</pre></details><noscript><pre class=\"mermaid-src\">graph TD\n    A[0-10] --&gt; B[5]\n    B --&gt; C[15]\n    C --&gt; D[30]\n    D --&gt; E[50]\n    E --&gt; F[75]\n    F --&gt; G[90]\n    G --&gt; H[100]\n    H --&gt; I[105]</pre></noscript></div>\n<p>By plotting these points, you can construct the ogive curve, which will help in finding the median and quartiles of the dataset.</p>\n<hr />",
+   "examples": [
+    "A dataset of 100 students' test scores is given as follows:"
+   ],
+   "mermaid": [
+    "graph TD\n    A[0-10] --> B[5]\n    B --> C[15]\n    C --> D[30]\n    D --> E[50]\n    E --> F[75]\n    F --> G[90]\n    G --> H[100]\n    H --> I[105]"
+   ]
+  },
+  {
+   "heading": "5.2.8. Star",
+   "id": "",
+   "html": "<p><strong>Star</strong>: A star is a type of decorative pattern often used in engineering and design. It is characterized by a five-pointed or six-pointed shape, with each point extending outward from a central point. The star is commonly used in the design of implants and biomaterials due to its unique and aesthetically pleasing shape.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Star",
+   "id": "",
+   "html": "<ul>\n<li><strong>Material</strong>: Stainless steel, titanium, and other alloys are commonly used to create star-shaped implants.</li>\n<li><strong>Applications</strong>: Stars are often used in orthopedic implants, such as hip and knee replacements, as well as in dental implants.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Designing a Star-Shaped Implant",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a star-shaped hip implant for a patient with osteoarthritis. The engineer needs to determine the material and dimensions of the implant.</div>\n<ol>\n<li><strong>Material Selection</strong>:</li>\n</ol>\n<ul>\n<li><strong>Stainless Steel</strong>: A common choice due to its biocompatibility and strength.</li>\n<li><strong>Titanium</strong>: Another option for its lightweight and high strength.</li>\n</ul>\n<ol>\n<li><strong>Dimensions</strong>:</li>\n</ol>\n<ul>\n<li><strong>Point Length</strong>: Each point should be 5 mm long.</li>\n<li><strong>Central Diameter</strong>: The central part of the star should be 10 mm in diameter.</li>\n<li><strong>Thickness</strong>: The thickness of the implant should be 2 mm.</li>\n</ul>\n<ol>\n<li><strong>Process</strong>:</li>\n</ol>\n<ul>\n<li><strong>Milling</strong>: The implant is machined using a CNC machine.</li>\n<li><strong>Polishing</strong>: The surface is polished to ensure a smooth finish.</li>\n</ul>",
+   "examples": [
+    "A biomedical engineer is designing a star-shaped hip implant for a patient with osteoarthritis. The engineer needs to determine the material and dimensions of the implant."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Star-Shaped Implant Design",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n    A[Design] --&gt; B[Material Selection: Stainless Steel/Titanium]\n    B --&gt; C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]\n    C --&gt; D[Milling]\n    D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n    A[Design] --&gt; B[Material Selection: Stainless Steel/Titanium]\n    B --&gt; C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]\n    C --&gt; D[Milling]\n    D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n    A[Design] --&gt; B[Material Selection: Stainless Steel/Titanium]\n    B --&gt; C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]\n    C --&gt; D[Milling]\n    D --&gt; E[Polishing]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart LR\n    A[Design] --> B[Material Selection: Stainless Steel/Titanium]\n    B --> C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]\n    C --> D[Milling]\n    D --> E[Polishing]"
+   ]
+  },
+  {
+   "heading": "5.2.9. Paisley",
+   "id": "",
+   "html": "<p><strong>Paisley</strong>: A paisley pattern is an ornate design often used in textiles and is sometimes integrated into biomedical engineering designs. It consists of a teardrop-shaped motif with curved lines and points, creating a flowing, natural look.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Paisley",
+   "id": "",
+   "html": "<ul>\n<li><strong>Material</strong>: Often made from titanium, stainless steel, or cobalt-chromium alloys.</li>\n<li><strong>Applications</strong>: Used in orthopedic implants and dental implants to provide a natural appearance.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Designing a Paisley-Shaped Dental Implant",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a paisley-shaped dental implant for a patient needing a new tooth. The engineer needs to determine the material and dimensions of the implant.</div>\n<ol>\n<li><strong>Material Selection</strong>:</li>\n</ol>\n<ul>\n<li><strong>Titanium</strong>: Known for its biocompatibility and strength.</li>\n</ul>\n<ol>\n<li><strong>Dimensions</strong>:</li>\n</ol>\n<ul>\n<li><strong>Length</strong>: 10 mm.</li>\n<li><strong>Width</strong>: 5 mm.</li>\n<li><strong>Thickness</strong>: 2 mm.</li>\n</ul>\n<ol>\n<li><strong>Process</strong>:</li>\n</ol>\n<ul>\n<li><strong>Casting</strong>: The implant is cast using a metal alloy.</li>\n<li><strong>Polishing</strong>: The surface is polished to ensure a smooth finish.</li>\n</ul>",
+   "examples": [
+    "A biomedical engineer is designing a paisley-shaped dental implant for a patient needing a new tooth. The engineer needs to determine the material and dimensions of the implant."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Paisley-Shaped Implant Design",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n    A[Design] --&gt; B[Material Selection: Titanium]\n    B --&gt; C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]\n    C --&gt; D[Casting]\n    D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n    A[Design] --&gt; B[Material Selection: Titanium]\n    B --&gt; C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]\n    C --&gt; D[Casting]\n    D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n    A[Design] --&gt; B[Material Selection: Titanium]\n    B --&gt; C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]\n    C --&gt; D[Casting]\n    D --&gt; E[Polishing]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart LR\n    A[Design] --> B[Material Selection: Titanium]\n    B --> C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]\n    C --> D[Casting]\n    D --> E[Polishing]"
+   ]
+  },
+  {
+   "heading": "5.2.10. Club",
+   "id": "",
+   "html": "<p><strong>Club</strong>: A club is a blunt, round-ended design, often used in the context of sports or as a motif in design. In biomedical engineering, it can be used in the design of certain types of implants.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Club",
+   "id": "",
+   "html": "<ul>\n<li><strong>Material</strong>: Typically made from titanium or stainless steel.</li>\n<li><strong>Applications</strong>: Used in orthopedic implants, particularly in designs that require a blunt, rounded end.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Designing a Club-Shaped Hip Implant",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a club-shaped hip implant for a patient with a specific bone structure. The engineer needs to determine the material and dimensions of the implant.</div>\n<ol>\n<li><strong>Material Selection</strong>:</li>\n</ol>\n<ul>\n<li><strong>Titanium</strong>: Known for its biocompatibility and strength.</li>\n</ul>\n<ol>\n<li><strong>Dimensions</strong>:</li>\n</ol>\n<ul>\n<li><strong>Length</strong>: 20 mm.</li>\n<li><strong>Width</strong>: 10 mm.</li>\n<li><strong>Thickness</strong>: 2 mm.</li>\n</ul>\n<ol>\n<li><strong>Process</strong>:</li>\n</ol>\n<ul>\n<li><strong>Forging</strong>: The implant is forged to achieve the desired shape.</li>\n<li><strong>Polishing</strong>: The surface is polished to ensure a smooth finish.</li>\n</ul>",
+   "examples": [
+    "A biomedical engineer is designing a club-shaped hip implant for a patient with a specific bone structure. The engineer needs to determine the material and dimensions of the implant."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Club-Shaped Implant Design",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n    A[Design] --&gt; B[Material Selection: Titanium]\n    B --&gt; C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]\n    C --&gt; D[Forging]\n    D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n    A[Design] --&gt; B[Material Selection: Titanium]\n    B --&gt; C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]\n    C --&gt; D[Forging]\n    D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n    A[Design] --&gt; B[Material Selection: Titanium]\n    B --&gt; C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]\n    C --&gt; D[Forging]\n    D --&gt; E[Polishing]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart LR\n    A[Design] --> B[Material Selection: Titanium]\n    B --> C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]\n    C --> D[Forging]\n    D --> E[Polishing]"
+   ]
+  },
+  {
+   "heading": "5.2.11. Spade",
+   "id": "",
+   "html": "<p><strong>Spade</strong>: A spade is a flat, round-ended design, often used in the context of tools or as a motif in design. In biomedical engineering, it can be used in the design of certain types of implants.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Spade",
+   "id": "",
+   "html": "<ul>\n<li><strong>Material</strong>: Typically made from titanium or stainless steel.</li>\n<li><strong>Applications</strong>: Used in orthopedic implants, particularly in designs that require a flat, rounded end.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Designing a Spade-Shaped Knee Implant",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a spade-shaped knee implant for a patient with a specific bone structure. The engineer needs to determine the material and dimensions of the implant.</div>\n<ol>\n<li><strong>Material Selection</strong>:</li>\n</ol>\n<ul>\n<li><strong>Stainless Steel</strong>: Known for its biocompatibility and strength.</li>\n</ul>\n<ol>\n<li><strong>Dimensions</strong>:</li>\n</ol>\n<ul>\n<li><strong>Length</strong>: 15 mm.</li>\n<li><strong>Width</strong>: 8 mm.</li>\n<li><strong>Thickness</strong>: 2 mm.</li>\n</ul>\n<ol>\n<li><strong>Process</strong>:</li>\n</ol>\n<ul>\n<li><strong>Machining</strong>: The implant is machined to achieve the desired shape.</li>\n<li><strong>Polishing</strong>: The surface is polished to ensure a smooth finish.</li>\n</ul>",
+   "examples": [
+    "A biomedical engineer is designing a spade-shaped knee implant for a patient with a specific bone structure. The engineer needs to determine the material and dimensions of the implant."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Spade-Shaped Implant Design",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n    A[Design] --&gt; B[Material Selection: Stainless Steel]\n    B --&gt; C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]\n    C --&gt; D[Machining]\n    D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n    A[Design] --&gt; B[Material Selection: Stainless Steel]\n    B --&gt; C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]\n    C --&gt; D[Machining]\n    D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n    A[Design] --&gt; B[Material Selection: Stainless Steel]\n    B --&gt; C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]\n    C --&gt; D[Machining]\n    D --&gt; E[Polishing]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart LR\n    A[Design] --> B[Material Selection: Stainless Steel]\n    B --> C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]\n    C --> D[Machining]\n    D --> E[Polishing]"
+   ]
+  },
+  {
+   "heading": "5.2.12. Pear",
+   "id": "",
+   "html": "<p><strong>Pear</strong>: A pear is a design that resembles the shape of a pear fruit, with a round end and a tapering end. It is often used in the design of certain types of implants.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Pear",
+   "id": "",
+   "html": "<ul>\n<li><strong>Material</strong>: Typically made from titanium or stainless steel.</li>\n<li><strong>Applications</strong>: Used in orthopedic implants, particularly in designs that require a pear-shaped structure.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Designing a Pear-Shaped Ankle Implant",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biomedical engineer is designing a pear-shaped ankle implant for a patient with a specific bone structure. The engineer needs to determine the material and dimensions of the implant.</div>\n<ol>\n<li><strong>Material Selection</strong>:</li>\n</ol>\n<ul>\n<li><strong>Titanium</strong>: Known for its biocompatibility and strength.</li>\n</ul>\n<ol>\n<li><strong>Dimensions</strong>:</li>\n</ol>\n<ul>\n<li><strong>Length</strong>: 25 mm.</li>\n<li><strong>Width at Round End</strong>: 10 mm.</li>\n<li><strong>Width at Tapering End</strong>: 5 mm.</li>\n<li><strong>Thickness</strong>: 2 mm.</li>\n</ul>\n<ol>\n<li><strong>Process</strong>:</li>\n</ol>\n<ul>\n<li><strong>Forging</strong>: The implant is forged to achieve the desired shape.</li>\n<li><strong>Polishing</strong>: The surface is polished to ensure a smooth finish.</li>\n</ul>",
+   "examples": [
+    "A biomedical engineer is designing a pear-shaped ankle implant for a patient with a specific bone structure. The engineer needs to determine the material and dimensions of the implant."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Pear-Shaped Implant Design",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n    A[Design] --&gt; B[Material Selection: Titanium]\n    B --&gt; C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]\n    C --&gt; D[Forging]\n    D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n    A[Design] --&gt; B[Material Selection: Titanium]\n    B --&gt; C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]\n    C --&gt; D[Forging]\n    D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n    A[Design] --&gt; B[Material Selection: Titanium]\n    B --&gt; C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]\n    C --&gt; D[Forging]\n    D --&gt; E[Polishing]</pre></noscript></div>\n<p>These sections provide a clear and concise overview of the star, paisley, club, spade, and pear designs used in biomedical engineering, along with practical examples to aid in understanding and application.</p>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "flowchart LR\n    A[Design] --> B[Material Selection: Titanium]\n    B --> C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]\n    C --> D[Forging]\n    D --> E[Polishing]"
+   ]
+  },
+  {
+   "heading": "Introduction to Kidneys",
+   "id": "",
+   "html": "<p><strong>Kidney:</strong> The kidneys are vital organs that play a crucial role in the body’s filtration system. They are responsible for filtering blood, removing waste products, and regulating the body’s fluid balance. Each kidney is about the size of a fist and is located in the back of the abdominal cavity, one on each side of the spine.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Structure and Function of Kidneys",
+   "id": "",
+   "html": "<ul>\n<li><strong>Nephrons:</strong> The basic functional units of the kidney are called nephrons. Each kidney contains about one million nephrons. Nephrons are composed of a glomerulus (a cluster of capillaries) and a tubule.</li>\n<li><strong>Glomerulus:</strong> The glomerulus is a network of capillaries where blood filtration occurs. The high-pressure environment in the glomerulus allows small molecules and water to pass through the capillary walls, creating a filtrate.</li>\n<li><strong>Tubule:</strong> The tubule is a long, narrow structure where the filtrate undergoes further processing. It reabsorbs essential substances like glucose and sodium, and secretes excess substances into the urine.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Classification of Kidney Diseases",
+   "id": "",
+   "html": "<ul>\n<li><strong>Acute Renal Failure (ARF):</strong> Occurs suddenly, often due to injury or blockage of the urinary tract.</li>\n<li><strong>Chronic Renal Failure (CRF):</strong> Develops over a longer period, often due to diabetes or hypertension.</li>\n<li><strong>Kidney Stones:</strong> Hard deposits that form in the kidneys and can cause severe pain.</li>\n<li><strong>Nephrotic Syndrome:</strong> A condition where the kidneys allow too much protein to be lost in the urine, leading to swelling and other symptoms.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example: Classification of Kidney Diseases",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient presents with sudden onset of severe back pain, fever, and blood in the urine. Based on these symptoms, classify the likely condition.<br /><br /><strong>Solution:</strong> The symptoms of sudden onset, severe back pain, fever, and blood in the urine are indicative of <strong>Acute Renal Failure (ARF)</strong>. This condition often results from blockages in the urinary tract, infections, or other acute issues that suddenly affect kidney function.</div>",
+   "examples": [
+    "A patient presents with sudden onset of severe back pain, fever, and blood in the urine. Based on these symptoms, classify the likely condition. **Solution:** The symptoms of sudden onset, severe back pain, fever, and blood in the urine are indicative of **Acute Renal Failure (ARF)**. This condition often results from blockages in the urinary tract, infections, or other acute issues that suddenly affect kidney function."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Biomaterials and Implants for Kidney Disease",
+   "id": "",
+   "html": "<ul>\n<li><strong>Dialysis Membrane:</strong> A synthetic membrane used in hemodialysis to filter blood. It is made from materials like polyacrylonitrile (PAN) or cellulose.</li>\n<li><strong>Peritoneal Dialysis Catheter:</strong> A catheter placed in the peritoneal cavity to facilitate the exchange of fluids during peritoneal dialysis.</li>\n<li><strong>Kidney Prosthesis:</strong> Artificial kidneys used in transplantation. They are typically made from biocompatible materials such as silicone, titanium, and polyurethane.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example: Selecting Appropriate Biomaterials for Kidney Prosthesis",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A patient needs a kidney prosthesis. Select the most suitable biomaterial from the following options: polyethylene, silicone, titanium, and polyurethane.<br /><br /><strong>Solution:</strong> For a kidney prosthesis, the most suitable biomaterial would be <strong>silicone</strong>. Silicone is biocompatible, flexible, and durable, making it ideal for long-term implantation in the body.</div>",
+   "examples": [
+    "A patient needs a kidney prosthesis. Select the most suitable biomaterial from the following options: polyethylene, silicone, titanium, and polyurethane. **Solution:** For a kidney prosthesis, the most suitable biomaterial would be **silicone**. Silicone is biocompatible, flexible, and durable, making it ideal for long-term implantation in the body."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conclusion",
+   "id": "",
+   "html": "<p>The kidneys are essential organs that perform critical functions in the body. Understanding their structure, function, and diseases is crucial for selecting appropriate biomaterials and implants. By classifying kidney diseases and choosing the right biomaterials, medical professionals can effectively manage and treat kidney-related conditions.</p>",
+   "examples": [],
+   "mermaid": []
+  }
+ ]
+}

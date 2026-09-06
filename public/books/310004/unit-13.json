@@ -1,0 +1,1653 @@
+{
+ "code": "310004",
+ "subject": "Effective Technical Communication",
+ "unit": 13,
+ "lang": "en",
+ "title": "Unit – null: CONVERSION OF YARN INTO FABRIC",
+ "url": "/books/310004/unit-13.html",
+ "guUrl": null,
+ "words": 9246,
+ "readingMin": 51,
+ "marks": "",
+ "sections": [
+  {
+   "heading": "Unit – null: CONVERSION OF YARN INTO FABRIC",
+   "id": "",
+   "html": "<p><em>(AI-generated self study book for GTU Diploma Biomedical Engineering, subject code 310004 — generated locally with Ollama.)</em></p>\n<p>This unit carries approximately ****.</p>\n<p>Learning objectives covered by this unit:</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "5.1.1. Basic Loom & Its Structure",
+   "id": "",
+   "html": "<p><strong>Basic Loom:</strong> A loom is a machine or device used to weave fabric by interlacing warp and weft yarns. There are several types of looms, but the basic loom is the most fundamental and is used in manual weaving.</p>\n<ul>\n<li><strong>Parts of a Basic Loom:</strong></li>\n<li><strong>Warp Beams:</strong> A horizontal cylinder that holds the warp yarns.</li>\n<li><strong>Reed:</strong> A comb-like device that holds the warp threads in place.</li>\n<li><strong>Heddles:</strong> Small loops that hold the warp threads and allow them to be raised and lowered.</li>\n<li><strong>Shuttle:</strong> A device that carries the weft yarns.</li>\n<li><strong>Take-up Rollers:</strong> A roller that pulls the woven fabric from the loom.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A basic loom consists of a warp beam, reed, heddles, shuttle, and take-up rollers. The warp threads are held by the warp beam and reed, while the weft threads are inserted by the shuttle.</div>",
+   "examples": [
+    "A basic loom consists of a warp beam, reed, heddles, shuttle, and take-up rollers. The warp threads are held by the warp beam and reed, while the weft threads are inserted by the shuttle."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.1.2. Warp & Weft Yarns, Grain Line",
+   "id": "",
+   "html": "<p><strong>Warp Yarns:</strong> These are the vertical yarns in a woven fabric. They are stretched between the warp beams and are the foundation of the fabric structure.</p>\n<p><strong>Weft Yarns:</strong> These are the horizontal yarns that are inserted between the warp yarns to interlace with them. Weft yarns are carried by the shuttle.</p>\n<p><strong>Grain Line:</strong> The grain line is the direction of the fabric along the warp yarns. It is important for cutting and pattern making to ensure the fabric is used correctly.</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In a woven fabric, the warp yarns run vertically and the weft yarns run horizontally. The grain line is the direction of the warp yarns, which is important for cutting patterns.</div>",
+   "examples": [
+    "In a woven fabric, the warp yarns run vertically and the weft yarns run horizontally. The grain line is the direction of the warp yarns, which is important for cutting patterns."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.1.3. Basic Weaves (Plain Weave, Rib Weave, Variation of Plain Weave)",
+   "id": "",
+   "html": "<p><strong>Plain Weave:</strong></p>\n<ul>\n<li><strong>Definition:</strong> A plain weave is the simplest weave structure, where each weft thread passes over one warp thread and under the next, repeating this pattern.</li>\n<li><strong>Diagram:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Weft] --&gt; B[Over] --&gt; C[Warp] --&gt; D[Under] --&gt; E[Warp] --&gt; F[Over] --&gt; G[Warp] --&gt; H[Under]\n    I[Weft] --&gt; J[Over] --&gt; K[Warp] --&gt; L[Under] --&gt; M[Warp] --&gt; N[Over] --&gt; O[Warp] --&gt; P[Under]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Weft] --&gt; B[Over] --&gt; C[Warp] --&gt; D[Under] --&gt; E[Warp] --&gt; F[Over] --&gt; G[Warp] --&gt; H[Under]\n    I[Weft] --&gt; J[Over] --&gt; K[Warp] --&gt; L[Under] --&gt; M[Warp] --&gt; N[Over] --&gt; O[Warp] --&gt; P[Under]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Weft] --&gt; B[Over] --&gt; C[Warp] --&gt; D[Under] --&gt; E[Warp] --&gt; F[Over] --&gt; G[Warp] --&gt; H[Under]\n    I[Weft] --&gt; J[Over] --&gt; K[Warp] --&gt; L[Under] --&gt; M[Warp] --&gt; N[Over] --&gt; O[Warp] --&gt; P[Under]</pre></noscript></div>\n<p><strong>Rib Weave:</strong></p>\n<ul>\n<li><strong>Definition:</strong> A rib weave is a variation of the plain weave where the weft yarns are shifted to form a rib-like structure. This weave is commonly used in fabrics like interlock.</li>\n<li><strong>Diagram:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">sequenceDiagram\n    participant Weft\n    participant Warp\n    Weft -&gt;&gt; Warp: Over\n    Warp -&gt;&gt; Weft: Under\n    Weft -&gt;&gt; Warp: Over\n    Warp -&gt;&gt; Weft: Under</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>sequenceDiagram\n    participant Weft\n    participant Warp\n    Weft -&gt;&gt; Warp: Over\n    Warp -&gt;&gt; Weft: Under\n    Weft -&gt;&gt; Warp: Over\n    Warp -&gt;&gt; Weft: Under</pre></details><noscript><pre class=\"mermaid-src\">sequenceDiagram\n    participant Weft\n    participant Warp\n    Weft -&gt;&gt; Warp: Over\n    Warp -&gt;&gt; Weft: Under\n    Weft -&gt;&gt; Warp: Over\n    Warp -&gt;&gt; Weft: Under</pre></noscript></div>\n<p><strong>Variation of Plain Weave:</strong></p>\n<ul>\n<li><strong>Definition:</strong> A variation of plain weave can include changes in the sequence of over and under movements to create different textures and patterns. For example, a twill weave is a variation where the weft yarns shift to the right or left after each row.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In a plain weave, each weft thread alternates between over and under the warp threads. In a rib weave, the weft threads are shifted to form a rib-like structure. A variation of plain weave can include a twill weave, where the weft yarns shift to the right or left after each row.</div>",
+   "examples": [
+    "In a plain weave, each weft thread alternates between over and under the warp threads. In a rib weave, the weft threads are shifted to form a rib-like structure. A variation of plain weave can include a twill weave, where the weft yarns shift to the right or left after each row."
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[Weft] --> B[Over] --> C[Warp] --> D[Under] --> E[Warp] --> F[Over] --> G[Warp] --> H[Under]\n    I[Weft] --> J[Over] --> K[Warp] --> L[Under] --> M[Warp] --> N[Over] --> O[Warp] --> P[Under]",
+    "sequenceDiagram\n    participant Weft\n    participant Warp\n    Weft ->> Warp: Over\n    Warp ->> Weft: Under\n    Weft ->> Warp: Over\n    Warp ->> Weft: Under"
+   ]
+  },
+  {
+   "heading": "5.1.4. Decorative Weaves (Dobby Weaves, Jacquard Weave, Leno)",
+   "id": "",
+   "html": "<p><strong>Dobby Weaves:</strong></p>\n<ul>\n<li><strong>Definition:</strong> Dobby weaves are a type of weave where the weft yarns are controlled by a dobby mechanism, allowing for complex patterns on the fabric surface.</li>\n<li><strong>Example:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n    A[Dobby] --&gt; B[Weft] --&gt; C[Over] --&gt; D[Warp] --&gt; E[Under] --&gt; F[Warp] --&gt; G[Over] --&gt; H[Warp] --&gt; I[Under]\n    A --&gt; J[Pattern] --&gt; K[Different]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n    A[Dobby] --&gt; B[Weft] --&gt; C[Over] --&gt; D[Warp] --&gt; E[Under] --&gt; F[Warp] --&gt; G[Over] --&gt; H[Warp] --&gt; I[Under]\n    A --&gt; J[Pattern] --&gt; K[Different]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n    A[Dobby] --&gt; B[Weft] --&gt; C[Over] --&gt; D[Warp] --&gt; E[Under] --&gt; F[Warp] --&gt; G[Over] --&gt; H[Warp] --&gt; I[Under]\n    A --&gt; J[Pattern] --&gt; K[Different]</pre></noscript></div>\n<p><strong>Jacquard Weave:</strong></p>\n<ul>\n<li><strong>Definition:</strong> Jacquard weaving is a complex weave where each weft yarn is controlled by its own set of harnesses, allowing for intricate and detailed patterns.</li>\n<li><strong>Example:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">sequenceDiagram\n    participant Weft\n    participant Harnesses\n    participant Warp\n    Weft -&gt;&gt; Harnesses: Control\n    Harnesses -&gt;&gt; Warp: Weft Insertion</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>sequenceDiagram\n    participant Weft\n    participant Harnesses\n    participant Warp\n    Weft -&gt;&gt; Harnesses: Control\n    Harnesses -&gt;&gt; Warp: Weft Insertion</pre></details><noscript><pre class=\"mermaid-src\">sequenceDiagram\n    participant Weft\n    participant Harnesses\n    participant Warp\n    Weft -&gt;&gt; Harnesses: Control\n    Harnesses -&gt;&gt; Warp: Weft Insertion</pre></noscript></div>\n<p><strong>Leno Weave:</strong></p>\n<ul>\n<li><strong>Definition:</strong> A leno weave is a type of fabric weave where the weft yarns are loosely twisted around the warp yarns, creating a net-like structure.</li>\n<li><strong>Example:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">sequenceDiagram\n    participant Weft\n    participant Warp\n    Weft -&gt;&gt; Warp: Twist\n    Warp -&gt;&gt; Weft: Twist</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>sequenceDiagram\n    participant Weft\n    participant Warp\n    Weft -&gt;&gt; Warp: Twist\n    Warp -&gt;&gt; Weft: Twist</pre></details><noscript><pre class=\"mermaid-src\">sequenceDiagram\n    participant Weft\n    participant Warp\n    Weft -&gt;&gt; Warp: Twist\n    Warp -&gt;&gt; Weft: Twist</pre></noscript></div>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Dobby weaves are controlled by a dobby mechanism to create complex patterns, while jacquard weaving uses individual harnesses for each weft yarn to create intricate designs. A leno weave creates a net-like structure by loosely twisting the weft yarns around the warp yarns.</div>",
+   "examples": [
+    "Dobby weaves are controlled by a dobby mechanism to create complex patterns, while jacquard weaving uses individual harnesses for each weft yarn to create intricate designs. A leno weave creates a net-like structure by loosely twisting the weft yarns around the warp yarns."
+   ],
+   "mermaid": [
+    "flowchart LR\n    A[Dobby] --> B[Weft] --> C[Over] --> D[Warp] --> E[Under] --> F[Warp] --> G[Over] --> H[Warp] --> I[Under]\n    A --> J[Pattern] --> K[Different]",
+    "sequenceDiagram\n    participant Weft\n    participant Harnesses\n    participant Warp\n    Weft ->> Harnesses: Control\n    Harnesses ->> Warp: Weft Insertion",
+    "sequenceDiagram\n    participant Weft\n    participant Warp\n    Weft ->> Warp: Twist\n    Warp ->> Weft: Twist"
+   ]
+  },
+  {
+   "heading": "5.1.5. Draft and Peg-Plan of Weave",
+   "id": "",
+   "html": "<p><strong>Draft:</strong> The draft is a diagram that shows the pattern of the weave. It is a sequence of harnesses that control the warp yarns. The peg-plan is a detailed layout of the harnesses used in the weave.</p>\n<ul>\n<li><strong>Example:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Draft] --&gt; B[Harnesses] --&gt; C[Peg-Plan] --&gt; D[Sequence]\n    A --&gt; E[Pattern] --&gt; F[Control]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Draft] --&gt; B[Harnesses] --&gt; C[Peg-Plan] --&gt; D[Sequence]\n    A --&gt; E[Pattern] --&gt; F[Control]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Draft] --&gt; B[Harnesses] --&gt; C[Peg-Plan] --&gt; D[Sequence]\n    A --&gt; E[Pattern] --&gt; F[Control]</pre></noscript></div>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>The draft shows the sequence of harnesses used to create the weave pattern, while the peg-plan provides a detailed layout of these harnesses. For example, a draft might show harness 1 and 3 lifted for a certain row, and the peg-plan would show which pegs are connected to these harnesses.</div>",
+   "examples": [
+    "The draft shows the sequence of harnesses used to create the weave pattern, while the peg-plan provides a detailed layout of these harnesses. For example, a draft might show harness 1 and 3 lifted for a certain row, and the peg-plan would show which pegs are connected to these harnesses."
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[Draft] --> B[Harnesses] --> C[Peg-Plan] --> D[Sequence]\n    A --> E[Pattern] --> F[Control]"
+   ]
+  },
+  {
+   "heading": "5.1.6. Fabric Count",
+   "id": "",
+   "html": "<p><strong>Definition:</strong> Fabric count refers to the number of warp and weft threads per inch or centimeter in a fabric. It is used to determine the quality and thickness of the fabric.</p>\n<ul>\n<li><strong>Example:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">sequenceDiagram\n    participant Count\n    participant Threads\n    Count -&gt;&gt; Threads: Number per inch\n    Threads -&gt;&gt; Count: Quality &amp; Thickness</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>sequenceDiagram\n    participant Count\n    participant Threads\n    Count -&gt;&gt; Threads: Number per inch\n    Threads -&gt;&gt; Count: Quality &amp; Thickness</pre></details><noscript><pre class=\"mermaid-src\">sequenceDiagram\n    participant Count\n    participant Threads\n    Count -&gt;&gt; Threads: Number per inch\n    Threads -&gt;&gt; Count: Quality &amp; Thickness</pre></noscript></div>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A fabric count of 200 warp threads per inch and 150 weft threads per inch would indicate a high-quality, dense fabric. A lower count would suggest a lighter, less dense fabric.</div>\n<hr />",
+   "examples": [
+    "A fabric count of 200 warp threads per inch and 150 weft threads per inch would indicate a high-quality, dense fabric. A lower count would suggest a lighter, less dense fabric."
+   ],
+   "mermaid": [
+    "sequenceDiagram\n    participant Count\n    participant Threads\n    Count ->> Threads: Number per inch\n    Threads ->> Count: Quality & Thickness"
+   ]
+  },
+  {
+   "heading": "5.2.1. Definition and Structure",
+   "id": "",
+   "html": "<p><strong>Definition:</strong> Knitted fabric is produced by interlocking loops of yarn using knitting machines or hand knitting techniques. Each loop is connected to the next, creating a flexible and elastic fabric.</p>\n<p><strong>Structure:</strong> Knitted fabrics are generally more elastic and stretchy compared to woven fabrics.</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A knitted fabric is made by interlocking loops of yarn, creating a flexible and elastic structure. This type of fabric is commonly used in garments like sweaters and socks.</div>\n<hr />",
+   "examples": [
+    "A knitted fabric is made by interlocking loops of yarn, creating a flexible and elastic structure. This type of fabric is commonly used in garments like sweaters and socks."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.3.1. Definition and Structure",
+   "id": "",
+   "html": "<p><strong>Definition:</strong> Non-woven fabric is a fabric that is not produced by weaving or knitting. It is made by bonding fibers together using methods like bonding, felting, or heat bonding.</p>\n<p><strong>Structure:</strong> Non-woven fabrics are often used for their unique properties, such as high filtration efficiency, moisture absorption, and flexibility.</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Non-woven fabrics are made by bonding fibers together, creating a flexible and versatile material. These fabrics are used in applications like medical masks and hygiene products.</div>\n<hr />",
+   "examples": [
+    "Non-woven fabrics are made by bonding fibers together, creating a flexible and versatile material. These fabrics are used in applications like medical masks and hygiene products."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.4.1. Braided Fabric",
+   "id": "",
+   "html": "<p><strong>Definition:</strong> Braided fabric is a type of fabric made by intertwining three or more strands of yarn or threads to form a continuous braid.</p>\n<p><strong>Process:</strong></p>\n<ol>\n<li><strong>Strand Preparation:</strong> Yarns are prepared and aligned.</li>\n<li><strong>Braiding:</strong> The strands are interlaced to form a continuous braid.</li>\n<li><strong>Finishing:</strong> The braid is trimmed and finished to create the final fabric.</li>\n</ol>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Braided fabric is made by intertwining three or more strands of yarn. The strands are interlaced to form a continuous braid, which is then finished to create the final fabric.</div>",
+   "examples": [
+    "Braided fabric is made by intertwining three or more strands of yarn. The strands are interlaced to form a continuous braid, which is then finished to create the final fabric."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.4.2. Nets",
+   "id": "",
+   "html": "<p><strong>Definition:</strong> Nets are open fabrics that are used for fishing, trapping, or as a protective barrier.</p>\n<p><strong>Process:</strong></p>\n<ol>\n<li><strong>Yarn Preparation:</strong> Yarns are prepared and aligned.</li>\n<li><strong>Weaving:</strong> The yarns are woven to form an open, mesh-like structure.</li>\n<li><strong>Finishing:</strong> The net is finished to ensure it is strong and durable.</li>\n</ol>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Nets are open fabrics made by weaving yarns to form a mesh-like structure. They are used for fishing, trapping, or as protective barriers.</div>",
+   "examples": [
+    "Nets are open fabrics made by weaving yarns to form a mesh-like structure. They are used for fishing, trapping, or as protective barriers."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.4.3. Laces",
+   "id": "",
+   "html": "<p><strong>Definition:</strong> Laces are used to fasten or decorate garments, shoes, or other items. They are made by intertwining threads to form a flexible, adjustable closure.</p>\n<p><strong>Process:</strong></p>\n<ol>\n<li><strong>Thread Preparation:</strong> Threads are prepared and aligned.</li>\n<li><strong>Interlacing:</strong> The threads are interlaced to form a lace pattern.</li>\n<li><strong>Finishing:</strong> The lace is finished to ensure it is strong and durable.</li>\n</ol>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Laces are made by intertwining threads to form a flexible, adjustable closure. They are used to fasten or decorate garments, shoes, or other items.</div>",
+   "examples": [
+    "Laces are made by intertwining threads to form a flexible, adjustable closure. They are used to fasten or decorate garments, shoes, or other items."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "5.4.4. Film Fabric",
+   "id": "",
+   "html": "<p><strong>Definition:</strong> Film fabric is a thin, flexible material made from polymers or other synthetic materials. It is used for packaging, medical applications, and other specialized uses.</p>\n<p><strong>Process:</strong></p>\n<ol>\n<li><strong>Material Preparation:</strong> Polymers or synthetic materials are prepared.</li>\n<li><strong>Extrusion:</strong> The material is extruded into a thin, flexible sheet.</li>\n<li><strong>Finishing:</strong> The film is finished to ensure it is suitable for its intended use.</li>\n</ol>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Film fabric is a thin, flexible material made from polymers or synthetic materials. It is used for packaging, medical applications, and other specialized uses. The process involves extruding the material into a thin, flexible sheet and finishing it to ensure it is suitable for its intended use.</div>",
+   "examples": [
+    "Film fabric is a thin, flexible material made from polymers or synthetic materials. It is used for packaging, medical applications, and other specialized uses. The process involves extruding the material into a thin, flexible sheet and finishing it to ensure it is suitable for its intended use."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart for Other Fabric Construction Processes",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n    A[Strand Preparation] --&gt; B[Braiding] --&gt; C[Finishing]\n    D[Yarn Preparation] --&gt; E[Weaving] --&gt; F[Finishing]\n    G[Thread Preparation] --&gt; H[Interlacing] --&gt; I[Finishing]\n    J[Material Preparation] --&gt; K[Extrusion] --&gt; L[Finishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n    A[Strand Preparation] --&gt; B[Braiding] --&gt; C[Finishing]\n    D[Yarn Preparation] --&gt; E[Weaving] --&gt; F[Finishing]\n    G[Thread Preparation] --&gt; H[Interlacing] --&gt; I[Finishing]\n    J[Material Preparation] --&gt; K[Extrusion] --&gt; L[Finishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n    A[Strand Preparation] --&gt; B[Braiding] --&gt; C[Finishing]\n    D[Yarn Preparation] --&gt; E[Weaving] --&gt; F[Finishing]\n    G[Thread Preparation] --&gt; H[Interlacing] --&gt; I[Finishing]\n    J[Material Preparation] --&gt; K[Extrusion] --&gt; L[Finishing]</pre></noscript></div>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>The flowchart for other fabric construction processes shows the steps involved in making braided, woven, laced, and film fabrics. Each process involves preparation, construction, and finishing steps to create the final product.</div>\n<hr />\n<p>This detailed chapter covers the various types of woven, knitted, non-woven, and other fabric construction processes, including their definitions, structures, and processes. Each section includes a worked example to ensure a clear understanding of the concepts.</p>\n<hr />",
+   "examples": [
+    "The flowchart for other fabric construction processes shows the steps involved in making braided, woven, laced, and film fabrics. Each process involves preparation, construction, and finishing steps to create the final product."
+   ],
+   "mermaid": [
+    "flowchart LR\n    A[Strand Preparation] --> B[Braiding] --> C[Finishing]\n    D[Yarn Preparation] --> E[Weaving] --> F[Finishing]\n    G[Thread Preparation] --> H[Interlacing] --> I[Finishing]\n    J[Material Preparation] --> K[Extrusion] --> L[Finishing]"
+   ]
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Tufted fabric</strong> is a type of fabric that is manufactured by inserting tufts of yarn or fibers through a backing material. This process results in a raised, textured surface that can be used in various applications such as upholstery, carpets, and decorative items.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Manufacturing Process",
+   "id": "",
+   "html": "<ul>\n<li><strong>Backing Material</strong>: The backing material can be a woven or non-woven fabric, or even a foam core.</li>\n<li><strong>Tufting Machines</strong>: These machines use needles to push yarn tufts through the backing material. The yarn is held in place by a knot or a loop, creating a textured appearance.</li>\n<li><strong>Finishing</strong>: After tufting, the fabric is usually treated to ensure durability and prevent unraveling.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications",
+   "id": "",
+   "html": "<ul>\n<li><strong>Upholstery</strong>: Tufted fabric is commonly used in furniture upholstery for its aesthetic appeal and durability.</li>\n<li><strong>Carpeting</strong>: It is used in carpet manufacturing to create textured patterns.</li>\n<li><strong>Decorative Items</strong>: It can be used in curtains, cushions, and other decorative items.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A fabric manufacturer wants to create a tufted fabric for a sofa. They use a 500g/m² backing material and a tufting machine with a 1.5mm needle. After tufting, they apply a 0.2mm knot to secure the yarn. The resulting fabric has a raised pattern with a texture depth of 0.5mm.</div>",
+   "examples": [
+    "A fabric manufacturer wants to create a tufted fabric for a sofa. They use a 500g/m² backing material and a tufting machine with a 1.5mm needle. After tufting, they apply a 0.2mm knot to secure the yarn. The resulting fabric has a raised pattern with a texture depth of 0.5mm."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Simple yarn</strong> refers to a single strand of fiber that is used in the manufacturing of textiles. It is the base material used to create more complex fabrics and yarns.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Components",
+   "id": "",
+   "html": "<ul>\n<li><strong>Fiber Type</strong>: Common fibers include cotton, polyester, and wool.</li>\n<li><strong>Yarn Count</strong>: This is a measure of the thickness of the yarn, typically expressed in tex or count.</li>\n<li><strong>Twist</strong>: The number of twists per unit length of the yarn affects its strength and appearance.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Manufacturing Process",
+   "id": "",
+   "html": "<ul>\n<li><strong>Carding</strong>: This process aligns and intermingles the fibers to prepare them for spinning.</li>\n<li><strong>Spinning</strong>: The aligned fibers are twisted together to form a continuous strand of yarn.</li>\n<li><strong>Yarn Dyeing</strong>: The yarn can be dyed after spinning to achieve the desired color.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications",
+   "id": "",
+   "html": "<ul>\n<li><strong>Clothing</strong>: Simple yarn is used in the production of t-shirts, sweaters, and other garments.</li>\n<li><strong>Furnishings</strong>: It is used in curtains, bed sheets, and other home textiles.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A textile factory produces a simple cotton yarn with a yarn count of 20 tex. The yarn is then dyed red and used to make a 100% cotton t-shirt. The t-shirt has a thickness of 150 grams per square meter and a gauge of 200 threads per inch.</div>",
+   "examples": [
+    "A textile factory produces a simple cotton yarn with a yarn count of 20 tex. The yarn is then dyed red and used to make a 100% cotton t-shirt. The t-shirt has a thickness of 150 grams per square meter and a gauge of 200 threads per inch."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Complex or novelty yarn</strong> is a type of yarn that is created by combining different fibers, adding decorations, or using unique manufacturing techniques. This results in a yarn that has a distinctive appearance and texture.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Types",
+   "id": "",
+   "html": "<ul>\n<li><strong>Blended Yarn</strong>: A mixture of two or more different fibers.</li>\n<li><strong>Textured Yarn</strong>: Yarn that has been treated to create a specific texture, such as fleece or cord.</li>\n<li><strong>Decorative Yarn</strong>: Yarn that has been embellished with beads, sequins, or other decorations.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Manufacturing Process",
+   "id": "",
+   "html": "<ul>\n<li><strong>Blending</strong>: Different fibers are mixed together to create a new yarn.</li>\n<li><strong>Texturing</strong>: Techniques such as crimping, crimping, and heat setting are used to create a textured appearance.</li>\n<li><strong>Decorating</strong>: Decorations are added to the yarn, such as applying beads or sequins.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications",
+   "id": "",
+   "html": "<ul>\n<li><strong>Fashion</strong>: Complex yarns are used in creating unique clothing designs.</li>\n<li><strong>Interiors</strong>: They are used in creating decorative textiles for home furnishings.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A fashion designer wants to create a unique sweater. They use a blended yarn of 50% cotton and 50% polyester to create a soft, durable fabric. The yarn is then textured by adding crimping and heat setting to create a fuzzy, puffy effect. The sweater is then decorated with silver sequins, making it stand out.</div>",
+   "examples": [
+    "A fashion designer wants to create a unique sweater. They use a blended yarn of 50% cotton and 50% polyester to create a soft, durable fabric. The yarn is then textured by adding crimping and heat setting to create a fuzzy, puffy effect. The sweater is then decorated with silver sequins, making it stand out."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Cleanliness</strong> is the practice of maintaining a clean and hygienic environment to prevent the spread of diseases and promote health.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Types of Cleanliness",
+   "id": "",
+   "html": "<ul>\n<li><strong>Body Cleanliness</strong>: Keeping the body clean to prevent the spread of germs.</li>\n<li><strong>Facial Cleanliness</strong>: Cleaning the face to maintain hygiene and appearance.</li>\n<li><strong>Sun Burn and Chapping Prevention</strong>: Preventing sunburn and chapping to protect the skin.</li>\n<li><strong>Body Odor Prevention</strong>: Preventing body odor to maintain personal hygiene.</li>\n<li><strong>Hand Care</strong>: Maintaining the cleanliness and health of the hands.</li>\n<li><strong>Foot Care</strong>: Keeping the feet clean and healthy.</li>\n<li><strong>Hair and Scalp Care</strong>: Maintaining the cleanliness and health of the hair and scalp.</li>\n<li><strong>Hair Washing and Styling</strong>: Washing and styling the hair to maintain hygiene and appearance.</li>\n<li><strong>Make-up Application</strong>: Applying make-up to enhance appearance and maintain hygiene.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A student wants to maintain cleanliness. They wash their hands with soap and water for at least 20 seconds, brush their teeth twice a day, and take a shower daily. They also use a facial cleanser to wash their face every morning and evening. To prevent sunburn, they apply sunscreen with an SPF of 30 before going outside. They use deodorant to prevent body odor and take care of their feet by wearing clean socks and changing shoes regularly. For hair and scalp care, they wash their hair twice a week and use a mild shampoo. They style their hair using a heat protectant before using a blow dryer. For make-up, they apply powder and lipstick, ensuring they do a final check for any smudges or stains.</div>",
+   "examples": [
+    "A student wants to maintain cleanliness. They wash their hands with soap and water for at least 20 seconds, brush their teeth twice a day, and take a shower daily. They also use a facial cleanser to wash their face every morning and evening. To prevent sunburn, they apply sunscreen with an SPF of 30 before going outside. They use deodorant to prevent body odor and take care of their feet by wearing clean socks and changing shoes regularly. For hair and scalp care, they wash their hair twice a week and use a mild shampoo. They style their hair using a heat protectant before using a blow dryer. For make-up, they apply powder and lipstick, ensuring they do a final check for any smudges or stains."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Body cleanliness</strong> involves maintaining a clean and hygienic body to prevent the spread of germs and maintain overall health.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance",
+   "id": "",
+   "html": "<ul>\n<li><strong>Preventing Diseases</strong>: Cleanliness helps in preventing the spread of diseases.</li>\n<li><strong>Hygiene</strong>: Regular cleaning maintains personal hygiene.</li>\n<li><strong>Comfort</strong>: Cleanliness enhances personal comfort.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A person maintains body cleanliness by taking a bath daily, washing their hands frequently, and brushing their teeth twice a day. They also change into clean clothes regularly.</div>",
+   "examples": [
+    "A person maintains body cleanliness by taking a bath daily, washing their hands frequently, and brushing their teeth twice a day. They also change into clean clothes regularly."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Cleaning the face</strong> is an essential part of maintaining personal hygiene and appearance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wash Hands</strong>: Wash hands with soap and water before cleaning the face.</li>\n<li><strong>Apply Cleanser</strong>: Apply a facial cleanser to the face.</li>\n<li><strong>Massage Gently</strong>: Gently massage the cleanser into the skin for 30 seconds.</li>\n<li><strong>Rinse</strong>: Rinse the face with lukewarm water.</li>\n<li><strong>Pat Dry</strong>: Pat the face dry with a clean towel.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance",
+   "id": "",
+   "html": "<ul>\n<li><strong>Skin Health</strong>: Cleansing the face removes dirt and oil, keeping the skin healthy.</li>\n<li><strong>Preventing Breakouts</strong>: Regular face cleaning prevents breakouts and acne.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A person cleans their face by first washing their hands with soap and water. They then apply a facial cleanser to their face and gently massage it for 30 seconds. After rinsing with lukewarm water, they pat their face dry with a clean towel.</div>",
+   "examples": [
+    "A person cleans their face by first washing their hands with soap and water. They then apply a facial cleanser to their face and gently massage it for 30 seconds. After rinsing with lukewarm water, they pat their face dry with a clean towel."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Sun burn</strong> and <strong>chapping</strong> are common skin issues that can be prevented by maintaining proper skin care.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Sun Burn Prevention",
+   "id": "",
+   "html": "<ul>\n<li><strong>Apply Sunscreen</strong>: Apply a sunscreen with a high SPF before going outside.</li>\n<li><strong>Wear Protective Clothing</strong>: Wear protective clothing such as hats and sunglasses.</li>\n<li><strong>Stay in Shade</strong>: Stay in the shade when possible.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Chapping Prevention",
+   "id": "",
+   "html": "<ul>\n<li><strong>Moisturize Regularly</strong>: Apply a moisturizer regularly to keep the skin hydrated.</li>\n<li><strong>Use Lip Balm</strong>: Use a lip balm with SPF to protect the lips.</li>\n<li><strong>Avoid Harsh Weather</strong>: Avoid prolonged exposure to harsh weather conditions.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>To prevent sun burn, a person applies a sunscreen with an SPF of 50 before going outside. They also wear a hat and sunglasses to protect their face and eyes. To prevent chapping, they apply a moisturizer regularly and use a lip balm with SPF before going outside.</div>",
+   "examples": [
+    "To prevent sun burn, a person applies a sunscreen with an SPF of 50 before going outside. They also wear a hat and sunglasses to protect their face and eyes. To prevent chapping, they apply a moisturizer regularly and use a lip balm with SPF before going outside."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Body order</strong> refers to the prevention of body odor. Maintaining body order is important for personal hygiene and social interactions.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Causes of Body Odor",
+   "id": "",
+   "html": "<ul>\n<li><strong>Bacteria</strong>: Bacteria on the skin produce odor.</li>\n<li><strong>Sweat</strong>: Sweat itself is odorless, but it interacts with bacteria to produce a smell.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Prevention",
+   "id": "",
+   "html": "<ul>\n<li><strong>Wear Clean Clothing</strong>: Wear clean, fresh clothes daily.</li>\n<li><strong>Regular Bathing</strong>: Take a bath or shower daily to remove sweat and bacteria.</li>\n<li><strong>Use Deodorant</strong>: Use deodorant to neutralize odors.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>To prevent body odor, a person wears clean, fresh clothes daily. They also take a bath or shower daily, using a soap or cleanser to remove sweat and bacteria. They apply deodorant to neutralize any remaining odors.</div>",
+   "examples": [
+    "To prevent body odor, a person wears clean, fresh clothes daily. They also take a bath or shower daily, using a soap or cleanser to remove sweat and bacteria. They apply deodorant to neutralize any remaining odors."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Hand care</strong> involves maintaining the cleanliness and health of the hands.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wash Hands</strong>: Wash hands with soap and water for at least 20 seconds.</li>\n<li><strong>Moisturize</strong>: Apply hand lotion to keep the skin hydrated.</li>\n<li><strong>Use Gloves</strong>: Wear gloves when handling chemicals or cleaning.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance",
+   "id": "",
+   "html": "<ul>\n<li><strong>Preventing Infections</strong>: Washing hands prevents the spread of germs and infections.</li>\n<li><strong>Skin Health</strong>: Moisturizing keeps the skin healthy and prevents dryness.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A person maintains hand care by washing their hands with soap and water for at least 20 seconds. They then apply hand lotion to keep their skin hydrated. They also wear gloves when handling chemicals or cleaning.</div>",
+   "examples": [
+    "A person maintains hand care by washing their hands with soap and water for at least 20 seconds. They then apply hand lotion to keep their skin hydrated. They also wear gloves when handling chemicals or cleaning."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Foot care</strong> involves maintaining the cleanliness and health of the feet.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wash Feet</strong>: Wash feet with soap and water.</li>\n<li><strong>Dry Thoroughly</strong>: Dry feet thoroughly, especially between the toes.</li>\n<li><strong>Trim Nails</strong>: Trim nails regularly to prevent ingrown toenails.</li>\n<li><strong>Use Foot Powder</strong>: Use foot powder to keep the feet dry and prevent odor.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance",
+   "id": "",
+   "html": "<ul>\n<li><strong>Preventing Infections</strong>: Foot care prevents the spread of infections.</li>\n<li><strong>Comfort</strong>: Proper foot care enhances comfort and prevents discomfort.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A person maintains foot care by washing their feet with soap and water, drying them thoroughly, especially between the toes. They trim their toenails regularly to prevent ingrown toenails. They also use foot powder to keep their feet dry and prevent odor.</div>",
+   "examples": [
+    "A person maintains foot care by washing their feet with soap and water, drying them thoroughly, especially between the toes. They trim their toenails regularly to prevent ingrown toenails. They also use foot powder to keep their feet dry and prevent odor."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Hair and scalp care</strong> involves maintaining the health and appearance of the hair and scalp.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wash Hair</strong>: Wash hair with a mild shampoo.</li>\n<li><strong>Condition Hair</strong>: Use a conditioner to moisturize the hair.</li>\n<li><strong>Style Hair</strong>: Style hair using appropriate styling products.</li>\n<li><strong>Regular Trims</strong>: Get regular trims to maintain hair health.</li>\n<li><strong>Scalp Care</strong>: Use a scalp treatment to keep the scalp healthy.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance",
+   "id": "",
+   "html": "<ul>\n<li><strong>Hygiene</strong>: Proper hair and scalp care maintains personal hygiene.</li>\n<li><strong>Appearance</strong>: Care of the hair and scalp enhances appearance.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A person maintains hair and scalp care by washing their hair with a mild shampoo and conditioning it to moisturize. They style their hair using appropriate styling products. They also get regular trims to maintain hair health and use a scalp treatment to keep the scalp healthy.</div>",
+   "examples": [
+    "A person maintains hair and scalp care by washing their hair with a mild shampoo and conditioning it to moisturize. They style their hair using appropriate styling products. They also get regular trims to maintain hair health and use a scalp treatment to keep the scalp healthy."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Washing the hair</strong> and <strong>styling the hair</strong> are important aspects of hair care.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Washing the Hair",
+   "id": "",
+   "html": "<ol>\n<li><strong>Prepare</strong>: Wet hair thoroughly.</li>\n<li><strong>Apply Shampoo</strong>: Apply a mild shampoo and massage into the scalp.</li>\n<li><strong>Rinse</strong>: Rinse the hair thoroughly to remove all shampoo.</li>\n<li><strong>Condition</strong>: Apply a conditioner to moisturize the hair.</li>\n<li><strong>Rinse Again</strong>: Rinse the hair thoroughly to remove all conditioner.</li>\n<li><strong>Dry</strong>: Gently dry the hair with a towel.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Styling the Hair",
+   "id": "",
+   "html": "<ol>\n<li><strong>Apply Styling Products</strong>: Use appropriate styling products such as gels or mousses.</li>\n<li><strong>Style</strong>: Style the hair as desired.</li>\n<li><strong>Set</strong>: Use a hair dryer or heat tools to set the style.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A person washes their hair by first wetting it thoroughly. They then apply a mild shampoo and massage it into the scalp. After rinsing thoroughly, they apply a conditioner to moisturize the hair. They rinse again and gently dry the hair with a towel. To style their hair, they apply a gel and style it as desired. They then use a hair dryer to set the style.</div>",
+   "examples": [
+    "A person washes their hair by first wetting it thoroughly. They then apply a mild shampoo and massage it into the scalp. After rinsing thoroughly, they apply a conditioner to moisturize the hair. They rinse again and gently dry the hair with a towel. To style their hair, they apply a gel and style it as desired. They then use a hair dryer to set the style."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Make-up application</strong> involves applying make-up to enhance appearance and maintain hygiene.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps",
+   "id": "",
+   "html": "<ol>\n<li><strong>Prepare Skin</strong>: Cleanse and moisturize the face.</li>\n<li><strong>Apply Foundation</strong>: Apply a foundation to even out the skin tone.</li>\n<li><strong>Set with Powder</strong>: Use a setting powder to set the foundation.</li>\n<li><strong>Apply Blush</strong>: Apply blush to the cheeks for a natural flush.</li>\n<li><strong>Define Eyes</strong>: Apply eyeshadow, eyeliner, and mascara to define the eyes.</li>\n<li><strong>Apply Lipstick</strong>: Apply lipstick to enhance the lips.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance",
+   "id": "",
+   "html": "<ul>\n<li><strong>Enhancement</strong>: Make-up enhances appearance and confidence.</li>\n<li><strong>Hygiene</strong>: Proper application of make-up maintains hygiene.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A person applies make-up by first cleansing and moisturizing their face. They then apply a foundation to even out the skin tone and set it with powder. They apply blush to the cheeks for a natural flush. They define their eyes by applying eyeshadow, eyeliner, and mascara. Finally, they apply lipstick to enhance their lips. They ensure they do a final check for any smudges or stains.</div>\n<p>By following these steps and examples, individuals can maintain cleanliness, hygiene, and personal appearance. This ensures a healthy and comfortable environment, as well as enhanced confidence in social interactions.</p>\n<hr />\n<p>This comprehensive guide covers various aspects of cleanliness, hygiene, and personal care, ensuring individuals can maintain a healthy and hygienic lifestyle. Each step is detailed to provide a clear understanding and practical application.</p>\n<hr />\n<p>Feel free to use or modify any part of this guide as needed. If you have any further questions or need additional information, please let me know!</p>\n<hr />\n<p>Example Guide for Cleanliness and Hygiene:</p>",
+   "examples": [
+    "A person applies make-up by first cleansing and moisturizing their face. They then apply a foundation to even out the skin tone and set it with powder. They apply blush to the cheeks for a natural flush. They define their eyes by applying eyeshadow, eyeliner, and mascara. Finally, they apply lipstick to enhance their lips. They ensure they do a final check for any smudges or stains."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Body Cleanliness",
+   "id": "",
+   "html": "<ol>\n<li><strong>Daily Bath</strong>: Take a bath or shower daily to clean the body.</li>\n<li><strong>Hand Hygiene</strong>: Wash hands frequently with soap and water.</li>\n<li><strong>Clothing</strong>: Change into clean clothes regularly.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Facial Cleanliness",
+   "id": "",
+   "html": "<ol>\n<li><strong>Morning and Evening</strong>: Wash face with a facial cleanser.</li>\n<li><strong>Sunscreen</strong>: Apply sunscreen with an SPF of 30 before going outside.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Sun Burn and Chapping Prevention",
+   "id": "",
+   "html": "<ol>\n<li><strong>Apply Sunscreen</strong>: Use a sunscreen with an SPF of 50.</li>\n<li><strong>Wear Protective Clothing</strong>: Use hats and sunglasses.</li>\n<li><strong>Stay in Shade</strong>: Stay in the shade when possible.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Body Odor Prevention",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wear Clean Clothes</strong>: Wear clean, fresh clothes daily.</li>\n<li><strong>Regular Bathing</strong>: Take a bath or shower daily.</li>\n<li><strong>Use Deodorant</strong>: Apply deodorant regularly.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Hand Care",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wash Hands</strong>: Wash hands with soap and water for at least 20 seconds.</li>\n<li><strong>Moisturize</strong>: Apply hand lotion regularly.</li>\n<li><strong>Gloves</strong>: Wear gloves when handling chemicals.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Foot Care",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wash Feet</strong>: Wash feet with soap and water.</li>\n<li><strong>Dry Thoroughly</strong>: Dry feet thoroughly, especially between the toes.</li>\n<li><strong>Trim Nails</strong>: Trim nails regularly.</li>\n<li><strong>Use Foot Powder</strong>: Use foot powder to keep feet dry.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Hair and Scalp Care",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wash Hair</strong>: Wash hair with a mild shampoo.</li>\n<li><strong>Condition Hair</strong>: Use a conditioner to moisturize the hair.</li>\n<li><strong>Style Hair</strong>: Style hair using appropriate styling products.</li>\n<li><strong>Regular Trims</strong>: Get regular trims to maintain hair health.</li>\n<li><strong>Scalp Care</strong>: Use a scalp treatment to keep the scalp healthy.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Hair Washing and Styling",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wash Hair</strong>: Wet hair thoroughly, apply shampoo, rinse, and condition.</li>\n<li><strong>Styling</strong>: Apply styling products and style as desired.</li>\n<li><strong>Set Style</strong>: Use a hair dryer to set the style.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Make-up Application",
+   "id": "",
+   "html": "<ol>\n<li><strong>Prepare Skin</strong>: Cleanse and moisturize the face.</li>\n<li><strong>Apply Foundation</strong>: Even out the skin tone.</li>\n<li><strong>Set with Powder</strong>: Set the foundation.</li>\n<li><strong>Apply Blush</strong>: Apply blush for a natural flush.</li>\n<li><strong>Define Eyes</strong>: Apply eyeshadow, eyeliner, and mascara.</li>\n<li><strong>Apply Lipstick</strong>: Enhance the lips with lipstick.</li>\n</ol>\n<p>By following these steps, individuals can maintain a clean and hygienic environment, ensuring health and social comfort.</p>\n<hr />\n<p>This guide can be used as a reference for individuals to follow and ensure they maintain proper hygiene and cleanliness in their daily lives.</p>\n<hr />\n<p>If you need any more detailed information or have any specific questions, feel free to ask!</p>\n<hr />\n<p>Example Guide for Cleanliness and Hygiene:</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Body Cleanliness",
+   "id": "",
+   "html": "<ol>\n<li><strong>Daily Bath</strong>: Take a bath or shower daily to clean the body.</li>\n<li><strong>Hand Hygiene</strong>: Wash hands frequently with soap and water.</li>\n<li><strong>Clothing</strong>: Change into clean clothes regularly.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Facial Cleanliness",
+   "id": "",
+   "html": "<ol>\n<li><strong>Morning and Evening</strong>: Wash face with a facial cleanser.</li>\n<li><strong>Sunscreen</strong>: Apply sunscreen with an SPF of 30 before going outside.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Sun Burn and Chapping Prevention",
+   "id": "",
+   "html": "<ol>\n<li><strong>Apply Sunscreen</strong>: Use a sunscreen with an SPF of 50.</li>\n<li><strong>Wear Protective Clothing</strong>: Use hats and sunglasses.</li>\n<li><strong>Stay in Shade</strong>: Stay in the shade when possible.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Body Odor Prevention",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wear Clean Clothes</strong>: Wear clean, fresh clothes daily.</li>\n<li><strong>Regular Bathing</strong>: Take a bath or shower daily.</li>\n<li><strong>Use Deodorant</strong>: Apply deodorant regularly.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Hand Care",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wash Hands</strong>: Wash hands with soap and water for at least 20 seconds.</li>\n<li><strong>Moisturize</strong>: Apply hand lotion regularly.</li>\n<li><strong>Gloves</strong>: Wear gloves when handling chemicals.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Foot Care",
+   "id": "",
+   "html": "<ol>\n<li><strong>Wash Feet</strong>: Wash feet with soap and water.</li>\n</ol>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Importance",
+   "id": "",
+   "html": "<p><strong>Correct posture</strong> refers to the proper alignment of the body while standing, sitting, or performing daily activities. It is essential for maintaining physical health, preventing injuries, and enhancing overall comfort and efficiency. Poor posture can lead to back pain, muscle strain, and long-term health issues.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Posture Problems",
+   "id": "",
+   "html": "<ul>\n<li><strong>Slouching</strong>: Leaning forward with rounded shoulders and a protruding stomach.</li>\n<li><strong>Hyperlordosis</strong>: Excessive curvature of the lower back.</li>\n<li><strong>Kyphosis</strong>: Excessive curvature of the upper back.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Benefits of Good Posture",
+   "id": "",
+   "html": "<ul>\n<li><strong>Reduced Strain on Muscles and Joints</strong>: Proper alignment distributes weight evenly, reducing the risk of strain.</li>\n<li><strong>Improved Breathing</strong>: Good posture allows for better lung expansion and breathing.</li>\n<li><strong>Enhanced Confidence and Appearance</strong>: Upright posture projects confidence and improves appearance.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A person who maintains good posture while standing or sitting can reduce the risk of developing lower back pain by 40%. This is because the body is aligned, distributing weight evenly and reducing stress on the spine.</div>",
+   "examples": [
+    "A person who maintains good posture while standing or sitting can reduce the risk of developing lower back pain by 40%. This is because the body is aligned, distributing weight evenly and reducing stress on the spine."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Correct Posture Techniques",
+   "id": "",
+   "html": "<ol>\n<li><strong>Head and Neck</strong>: Keep the head upright, looking straight ahead. Avoid tilting the head forward or backward.</li>\n<li><strong>Shoulders</strong>: Relax the shoulders and keep them back. Avoid hunching or shrugging.</li>\n<li><strong>Spine</strong>: Maintain a straight spine, with the weight evenly distributed.</li>\n<li><strong>Pelvis</strong>: Keep the pelvis level and avoid tilting it forward or backward.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Correct Posture Alignment",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Head] --&gt; B[Neck]\n    B --&gt; C[Shoulders]\n    C --&gt; D[Spine]\n    D --&gt; E[Pelvis]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Head] --&gt; B[Neck]\n    B --&gt; C[Shoulders]\n    C --&gt; D[Spine]\n    D --&gt; E[Pelvis]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Head] --&gt; B[Neck]\n    B --&gt; C[Shoulders]\n    C --&gt; D[Spine]\n    D --&gt; E[Pelvis]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Head] --> B[Neck]\n    B --> C[Shoulders]\n    C --> D[Spine]\n    D --> E[Pelvis]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Hand control</strong> involves the proper use and movement of hands while performing tasks. It is crucial for precise and efficient handling of objects, tools, and materials.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Hand Control",
+   "id": "",
+   "html": "<ul>\n<li><strong>Precision and Accuracy</strong>: Hand control allows for accurate and detailed work.</li>\n<li><strong>Safety</strong>: Proper hand control reduces the risk of accidents and injuries.</li>\n<li><strong>Comfort</strong>: Effective hand control minimizes strain and fatigue.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Hand Control Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Tremors</strong>: Uncontrolled shaking of the hands.</li>\n<li><strong>Improper Grip</strong>: Holding objects too tightly or too loosely.</li>\n<li><strong>Lack of Coordination</strong>: Inability to move hands smoothly and in sync.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A surgeon performing an operation requires excellent hand control to manipulate instruments precisely. Improper hand control can lead to errors, potentially harming the patient.</div>",
+   "examples": [
+    "A surgeon performing an operation requires excellent hand control to manipulate instruments precisely. Improper hand control can lead to errors, potentially harming the patient."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Improving Hand Control",
+   "id": "",
+   "html": "<ol>\n<li><strong>Grip Strength</strong>: Use appropriate grip strength for different tasks.</li>\n<li><strong>Smooth Movements</strong>: Practice smooth and controlled hand movements.</li>\n<li><strong>Precision Tasks</strong>: Focus on detailed and precise tasks to enhance control.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Hand Control Techniques",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">sequenceDiagram\n    participant Surgeon\n    participant Instrument\n    Surgeon -&gt;&gt; Instrument: Hold with firm grip\n    Instrument -&gt;&gt; Surgeon: Move smoothly\n    Surgeon -&gt;&gt; Instrument: Maintain precise control</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>sequenceDiagram\n    participant Surgeon\n    participant Instrument\n    Surgeon -&gt;&gt; Instrument: Hold with firm grip\n    Instrument -&gt;&gt; Surgeon: Move smoothly\n    Surgeon -&gt;&gt; Instrument: Maintain precise control</pre></details><noscript><pre class=\"mermaid-src\">sequenceDiagram\n    participant Surgeon\n    participant Instrument\n    Surgeon -&gt;&gt; Instrument: Hold with firm grip\n    Instrument -&gt;&gt; Surgeon: Move smoothly\n    Surgeon -&gt;&gt; Instrument: Maintain precise control</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "sequenceDiagram\n    participant Surgeon\n    participant Instrument\n    Surgeon ->> Instrument: Hold with firm grip\n    Instrument ->> Surgeon: Move smoothly\n    Surgeon ->> Instrument: Maintain precise control"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Graceful walk</strong> involves walking in a manner that is smooth, controlled, and aesthetically pleasing. It reflects confidence and poise.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Graceful Walk",
+   "id": "",
+   "html": "<ul>\n<li><strong>Confidence</strong>: A graceful walk projects confidence and assurance.</li>\n<li><strong>Comfort</strong>: Proper walking posture reduces strain on the body.</li>\n<li><strong>Professionalism</strong>: A graceful walk is often perceived as a sign of professionalism.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Uneven Steps</strong>: Steps of unequal length or speed.</li>\n<li><strong>Rushing</strong>: Walking too quickly or hasty movements.</li>\n<li><strong>Poor Balance</strong>: Inability to maintain steady and balanced steps.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A healthcare professional walking into a patient's room should do so with a graceful walk. This not only projects confidence but also shows respect for the patient and the environment.</div>",
+   "examples": [
+    "A healthcare professional walking into a patient's room should do so with a graceful walk. This not only projects confidence but also shows respect for the patient and the environment."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Graceful Walking",
+   "id": "",
+   "html": "<ol>\n<li><strong>Step Length</strong>: Keep steps consistent and even.</li>\n<li><strong>Speed</strong>: Maintain a steady and moderate pace.</li>\n<li><strong>Balance</strong>: Keep the body straight and centered.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Graceful Walk",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n    A[Step Length] --&gt; B[Consistent]\n    B --&gt; C[Even]\n    A --&gt; D[Speed]\n    D --&gt; E[Steady]\n    A --&gt; F[Balance]\n    F --&gt; G[Centered]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n    A[Step Length] --&gt; B[Consistent]\n    B --&gt; C[Even]\n    A --&gt; D[Speed]\n    D --&gt; E[Steady]\n    A --&gt; F[Balance]\n    F --&gt; G[Centered]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n    A[Step Length] --&gt; B[Consistent]\n    B --&gt; C[Even]\n    A --&gt; D[Speed]\n    D --&gt; E[Steady]\n    A --&gt; F[Balance]\n    F --&gt; G[Centered]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart LR\n    A[Step Length] --> B[Consistent]\n    B --> C[Even]\n    A --> D[Speed]\n    D --> E[Steady]\n    A --> F[Balance]\n    F --> G[Centered]"
+   ]
+  },
+  {
+   "heading": "Definition and Importance",
+   "id": "",
+   "html": "<p><strong>Pausing and standing</strong> involves the ability to stand still and pause in a manner that is calm and composed. It is essential for maintaining poise and professionalism in various situations.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Pausing and Standing",
+   "id": "",
+   "html": "<ul>\n<li><strong>Composure</strong>: Pausing allows for a calm and collected demeanor.</li>\n<li><strong>Attention</strong>: Pausing can help in focusing and retaining attention.</li>\n<li><strong>Respect</strong>: Proper standing posture shows respect and professionalism.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Restlessness</strong>: Inability to stand still for long periods.</li>\n<li><strong>Poor Posture</strong>: Leaning or shifting weight awkwardly.</li>\n<li><strong>Unnecessary Movements</strong>: Excessively fidgeting or shifting.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>When waiting to meet a patient or client, a healthcare professional should stand with proper posture and avoid unnecessary movements. This shows respect and professionalism.</div>",
+   "examples": [
+    "When waiting to meet a patient or client, a healthcare professional should stand with proper posture and avoid unnecessary movements. This shows respect and professionalism."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Pausing and Standing",
+   "id": "",
+   "html": "<ol>\n<li><strong>Posture</strong>: Maintain a straight and upright posture.</li>\n<li><strong>Weight Distribution</strong>: Distribute weight evenly on both feet.</li>\n<li><strong>Relaxation</strong>: Keep muscles relaxed and avoid tension.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Pausing and Standing",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Posture] --&gt; B[Upright]\n    B --&gt; C[Weight Distribution]\n    C --&gt; D[Relaxation]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Posture] --&gt; B[Upright]\n    B --&gt; C[Weight Distribution]\n    C --&gt; D[Relaxation]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Posture] --&gt; B[Upright]\n    B --&gt; C[Weight Distribution]\n    C --&gt; D[Relaxation]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Posture] --> B[Upright]\n    B --> C[Weight Distribution]\n    C --> D[Relaxation]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Graceful turn</strong> involves the ability to turn the body in a smooth and controlled manner. It is essential for maintaining balance and poise during movement.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Graceful Turns",
+   "id": "",
+   "html": "<ul>\n<li><strong>Balance</strong>: Proper turning prevents loss of balance and falls.</li>\n<li><strong>Control</strong>: Smooth and controlled turns ensure smooth movement.</li>\n<li><strong>Aesthetics</strong>: Graceful turns are visually pleasing and project confidence.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Rapid Movements</strong>: Quick and jerky turns.</li>\n<li><strong>Loss of Balance</strong>: Inability to maintain balance during turns.</li>\n<li><strong>Uneven Steps</strong>: Unequal steps during turns.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A nurse turning to face a patient should do so smoothly and with control. This not only ensures safety but also projects a professional and calm demeanor.</div>",
+   "examples": [
+    "A nurse turning to face a patient should do so smoothly and with control. This not only ensures safety but also projects a professional and calm demeanor."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Graceful Turns",
+   "id": "",
+   "html": "<ol>\n<li><strong>Step Length</strong>: Ensure steps are even and controlled.</li>\n<li><strong>Body Alignment</strong>: Maintain body alignment during the turn.</li>\n<li><strong>Smooth Movement</strong>: Move smoothly and with control.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Graceful Turn",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Step Length] --&gt; B[Even]\n    B --&gt; C[Body Alignment]\n    C --&gt; D[Smooth Movement]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Step Length] --&gt; B[Even]\n    B --&gt; C[Body Alignment]\n    C --&gt; D[Smooth Movement]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Step Length] --&gt; B[Even]\n    B --&gt; C[Body Alignment]\n    C --&gt; D[Smooth Movement]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Step Length] --> B[Even]\n    B --> C[Body Alignment]\n    C --> D[Smooth Movement]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Sitting down and rising</strong> involves the ability to sit and stand with proper posture and control. It is essential for maintaining comfort and dignity during these actions.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Sitting Down and Rising",
+   "id": "",
+   "html": "<ul>\n<li><strong>Comfort</strong>: Proper posture ensures comfort and prevents strain.</li>\n<li><strong>Professionalism</strong>: Maintaining poise during these actions shows professionalism.</li>\n<li><strong>Safety</strong>: Controlled movements reduce the risk of injury.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Rushing</strong>: Sitting or standing too quickly.</li>\n<li><strong>Poor Posture</strong>: Incorrect alignment during sitting or rising.</li>\n<li><strong>Uneven Movements</strong>: Uncontrolled and jerky movements.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A physiotherapist sitting down to examine a patient should do so with proper posture. This not only ensures safety but also projects professionalism and care.</div>",
+   "examples": [
+    "A physiotherapist sitting down to examine a patient should do so with proper posture. This not only ensures safety but also projects professionalism and care."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Sitting Down and Rising",
+   "id": "",
+   "html": "<ol>\n<li><strong>Posture</strong>: Maintain good posture when sitting and standing.</li>\n<li><strong>Control</strong>: Move slowly and with control.</li>\n<li><strong>Balance</strong>: Distribute weight evenly during these actions.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Sitting Down and Rising",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Posture] --&gt; B[Good]\n    B --&gt; C[Control]\n    C --&gt; D[Balance]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Posture] --&gt; B[Good]\n    B --&gt; C[Control]\n    C --&gt; D[Balance]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Posture] --&gt; B[Good]\n    B --&gt; C[Control]\n    C --&gt; D[Balance]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Posture] --> B[Good]\n    B --> C[Control]\n    C --> D[Balance]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Carrying a handbag</strong> and <strong>handling gloves</strong> are tasks that require proper technique and control to ensure comfort and efficiency.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Carrying a Handbag",
+   "id": "",
+   "html": "<ul>\n<li><strong>Posture</strong>: Maintain good posture when holding the handbag.</li>\n<li><strong>Grip</strong>: Use a comfortable and secure grip.</li>\n<li><strong>Balance</strong>: Distribute the weight evenly.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Handling Gloves",
+   "id": "",
+   "html": "<ul>\n<li><strong>Proper Fit</strong>: Ensure gloves fit properly.</li>\n<li><strong>Cleanliness</strong>: Keep gloves clean and free from debris.</li>\n<li><strong>Control</strong>: Handle gloves with care to avoid damage.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A medical professional carrying a handbag should do so with proper posture to avoid strain. Handling gloves should be done with care to ensure they remain clean and functional.</div>",
+   "examples": [
+    "A medical professional carrying a handbag should do so with proper posture to avoid strain. Handling gloves should be done with care to ensure they remain clean and functional."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Carrying Handbag and Handling Gloves",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Posture] --&gt; B[Good]\n    B --&gt; C[Grip]\n    C --&gt; D[Balance]\n    A --&gt; E[Proper Fit]\n    E --&gt; F[Cleanliness]\n    E --&gt; G[Control]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Posture] --&gt; B[Good]\n    B --&gt; C[Grip]\n    C --&gt; D[Balance]\n    A --&gt; E[Proper Fit]\n    E --&gt; F[Cleanliness]\n    E --&gt; G[Control]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Posture] --&gt; B[Good]\n    B --&gt; C[Grip]\n    C --&gt; D[Balance]\n    A --&gt; E[Proper Fit]\n    E --&gt; F[Cleanliness]\n    E --&gt; G[Control]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Posture] --> B[Good]\n    B --> C[Grip]\n    C --> D[Balance]\n    A --> E[Proper Fit]\n    E --> F[Cleanliness]\n    E --> G[Control]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Handling the coat</strong> involves the proper technique for wearing and removing a coat. It is essential for maintaining comfort and professionalism.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Handling the Coat",
+   "id": "",
+   "html": "<ul>\n<li><strong>Comfort</strong>: Proper handling ensures a comfortable fit.</li>\n<li><strong>Professionalism</strong>: Correct handling projects a professional image.</li>\n<li><strong>Efficiency</strong>: Efficient handling saves time and effort.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Improper Fit</strong>: Wearing a coat that is too tight or loose.</li>\n<li><strong>Uneven Distribution</strong>: Uneven distribution of the coat's weight.</li>\n<li><strong>Improper Removal</strong>: Removing the coat too quickly or clumsily.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A doctor removing a coat before entering a patient's room should do so efficiently and professionally. This not only ensures comfort but also projects a professional image.</div>",
+   "examples": [
+    "A doctor removing a coat before entering a patient's room should do so efficiently and professionally. This not only ensures comfort but also projects a professional image."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Handling the Coat",
+   "id": "",
+   "html": "<ol>\n<li><strong>Fit</strong>: Ensure the coat fits properly.</li>\n<li><strong>Weight Distribution</strong>: Distribute the coat's weight evenly.</li>\n<li><strong>Efficiency</strong>: Remove and wear the coat quickly and smoothly.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Handling the Coat",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Fit] --&gt; B[Proper]\n    B --&gt; C[Weight Distribution]\n    C --&gt; D[Efficiency]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Fit] --&gt; B[Proper]\n    B --&gt; C[Weight Distribution]\n    C --&gt; D[Efficiency]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Fit] --&gt; B[Proper]\n    B --&gt; C[Weight Distribution]\n    C --&gt; D[Efficiency]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Fit] --> B[Proper]\n    B --> C[Weight Distribution]\n    C --> D[Efficiency]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Highlighting interest points of a garment</strong> involves drawing attention to specific features or designs of a garment. It is essential for enhancing the appearance and emphasizing key details.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Highlighting Interest Points",
+   "id": "",
+   "html": "<ul>\n<li><strong>Aesthetics</strong>: Drawing attention to specific details improves the overall appearance.</li>\n<li><strong>Professionalism</strong>: Emphasizing key features shows attention to detail and professionalism.</li>\n<li><strong>Confidence</strong>: Highlighting interest points can boost confidence and self-assurance.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Overemphasis</strong>: Excessive focus on minor details.</li>\n<li><strong>Ignoring Key Features</strong>: Failing to draw attention to important details.</li>\n<li><strong>Inconsistency</strong>: Inconsistent highlighting of interest points.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A fashion designer highlighting the interest points of a garment, such as the design of a collar or the texture of a fabric, can enhance the garment's appeal and emphasize its unique features.</div>",
+   "examples": [
+    "A fashion designer highlighting the interest points of a garment, such as the design of a collar or the texture of a fabric, can enhance the garment's appeal and emphasize its unique features."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Highlighting Interest Points",
+   "id": "",
+   "html": "<ol>\n<li><strong>Identify Key Features</strong>: Determine which features are most important.</li>\n<li><strong>Emphasize with Color</strong>: Use color to draw attention to key features.</li>\n<li><strong>Focus on Details</strong>: Pay attention to details that enhance the overall appearance.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Highlighting Interest Points of a Garment",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Identify Key Features] --&gt; B[Important]\n    B --&gt; C[Emphasize with Color]\n    C --&gt; D[Focus on Details]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Identify Key Features] --&gt; B[Important]\n    B --&gt; C[Emphasize with Color]\n    C --&gt; D[Focus on Details]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Identify Key Features] --&gt; B[Important]\n    B --&gt; C[Emphasize with Color]\n    C --&gt; D[Focus on Details]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Identify Key Features] --> B[Important]\n    B --> C[Emphasize with Color]\n    C --> D[Focus on Details]"
+   ]
+  },
+  {
+   "heading": "Definition and Importance",
+   "id": "",
+   "html": "<p><strong>Health</strong> refers to the state of being free from illness or injury. It encompasses physical, mental, and social well-being. Maintaining good health is essential for overall functionality and productivity.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Components of Health",
+   "id": "",
+   "html": "<ul>\n<li><strong>Physical Health</strong>: Involves the body's ability to function properly.</li>\n<li><strong>Mental Health</strong>: Involves emotional, psychological, and social well-being.</li>\n<li><strong>Social Health</strong>: Involves the ability to form and maintain relationships.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Health",
+   "id": "",
+   "html": "<ul>\n<li><strong>Quality of Life</strong>: Good health leads to a better quality of life.</li>\n<li><strong>Productivity</strong>: Good health enables better performance and productivity.</li>\n<li><strong>Well-being</strong>: Good health contributes to overall well-being and happiness.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Health Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Poor Diet</strong>: Unhealthy eating habits can lead to various health problems.</li>\n<li><strong>Lack of Exercise</strong>: Inactivity can lead to obesity and other health issues.</li>\n<li><strong>Poor Sleep</strong>: Insufficient sleep can affect overall health and well-being.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A healthcare professional who maintains good health through a balanced diet, regular exercise, and adequate sleep is better equipped to handle the demands of their profession.</div>",
+   "examples": [
+    "A healthcare professional who maintains good health through a balanced diet, regular exercise, and adequate sleep is better equipped to handle the demands of their profession."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Maintaining Health",
+   "id": "",
+   "html": "<ol>\n<li><strong>Balanced Diet</strong>: Consume a healthy and balanced diet.</li>\n<li><strong>Regular Exercise</strong>: Engage in regular physical activity.</li>\n<li><strong>Adequate Sleep</strong>: Ensure sufficient and quality sleep.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Health",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Balanced Diet] --&gt; B[Healthy]\n    B --&gt; C[Regular Exercise]\n    C --&gt; D[Adequate Sleep]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Balanced Diet] --&gt; B[Healthy]\n    B --&gt; C[Regular Exercise]\n    C --&gt; D[Adequate Sleep]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Balanced Diet] --&gt; B[Healthy]\n    B --&gt; C[Regular Exercise]\n    C --&gt; D[Adequate Sleep]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Balanced Diet] --> B[Healthy]\n    B --> C[Regular Exercise]\n    C --> D[Adequate Sleep]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Poor Diet</strong> involves consuming an unhealthy and imbalanced diet. It can lead to various health problems and negatively impact overall well-being.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Nutritional Deficiencies</strong>: Lack of essential nutrients.</li>\n<li><strong>Overconsumption of Unhealthy Foods</strong>: Excessive intake of junk food and processed items.</li>\n<li><strong>Unbalanced Diet</strong>: Inadequate intake of essential nutrients.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A healthcare professional who consumes a poor diet, such as one high in sugars and fats, may experience health issues and reduced productivity.</div>",
+   "examples": [
+    "A healthcare professional who consumes a poor diet, such as one high in sugars and fats, may experience health issues and reduced productivity."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Improving Diet",
+   "id": "",
+   "html": "<ol>\n<li><strong>Balanced Meals</strong>: Include a variety of nutrients in meals.</li>\n<li><strong>Hydration</strong>: Drink plenty of water.</li>\n<li><strong>Healthy Snacks</strong>: Choose nutritious snacks over unhealthy options.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Poor Diet",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Nutritional Deficiencies] --&gt; B[Lack]\n    B --&gt; C[Overconsumption of Unhealthy Foods]\n    C --&gt; D[Unbalanced Diet]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Nutritional Deficiencies] --&gt; B[Lack]\n    B --&gt; C[Overconsumption of Unhealthy Foods]\n    C --&gt; D[Unbalanced Diet]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Nutritional Deficiencies] --&gt; B[Lack]\n    B --&gt; C[Overconsumption of Unhealthy Foods]\n    C --&gt; D[Unbalanced Diet]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Nutritional Deficiencies] --> B[Lack]\n    B --> C[Overconsumption of Unhealthy Foods]\n    C --> D[Unbalanced Diet]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Lack of Exercise</strong> involves not engaging in regular physical activity. It can lead to various health problems and negatively impact overall well-being.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Obesity</strong>: Excess weight due to lack of physical activity.</li>\n<li><strong>Cardiovascular Issues</strong>: Increased risk of heart disease and other cardiovascular problems.</li>\n<li><strong>Muscle Weakness</strong>: Reduced muscle strength and endurance.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A healthcare professional who does not engage in regular exercise may experience reduced physical stamina and increased risk of health issues.</div>",
+   "examples": [
+    "A healthcare professional who does not engage in regular exercise may experience reduced physical stamina and increased risk of health issues."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Increasing Exercise",
+   "id": "",
+   "html": "<ol>\n<li><strong>Regular Routines</strong>: Incorporate regular physical activity into daily routines.</li>\n<li><strong>Variety</strong>: Engage in different types of exercises to keep things interesting.</li>\n<li><strong>Consistency</strong>: Maintain a consistent exercise schedule.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Lack of Exercise",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Obesity] --&gt; B[Excess]\n    B --&gt; C[Cardiovascular Issues]\n    C --&gt; D[Muscle Weakness]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Obesity] --&gt; B[Excess]\n    B --&gt; C[Cardiovascular Issues]\n    C --&gt; D[Muscle Weakness]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Obesity] --&gt; B[Excess]\n    B --&gt; C[Cardiovascular Issues]\n    C --&gt; D[Muscle Weakness]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Obesity] --> B[Excess]\n    B --> C[Cardiovascular Issues]\n    C --> D[Muscle Weakness]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Poor Sleep</strong> involves not getting sufficient or quality sleep. It can lead to various health problems and negatively impact overall well-being.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Fatigue</strong>: Feeling tired and lacking energy.</li>\n<li><strong>Mental Health Issues</strong>: Increased risk of depression and anxiety.</li>\n<li><strong>Physical Health Issues</strong>: Increased risk of chronic conditions.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A healthcare professional who experiences poor sleep may have reduced energy levels and increased stress, affecting their performance and well-being.</div>",
+   "examples": [
+    "A healthcare professional who experiences poor sleep may have reduced energy levels and increased stress, affecting their performance and well-being."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Techniques for Improving Sleep",
+   "id": "",
+   "html": "<ol>\n<li><strong>Consistent Sleep Schedule</strong>: Go to bed and wake up at the same time every day.</li>\n<li><strong>Relaxation Techniques</strong>: Practice relaxation techniques before bedtime.</li>\n<li><strong>Comfortable Environment</strong>: Ensure a comfortable and quiet sleeping environment.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Poor Sleep",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Fatigue] --&gt; B[Tired]\n    B --&gt; C[Mental Health Issues]\n    C --&gt; D[Physical Health Issues]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Fatigue] --&gt; B[Tired]\n    B --&gt; C[Mental Health Issues]\n    C --&gt; D[Physical Health Issues]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Fatigue] --&gt; B[Tired]\n    B --&gt; C[Mental Health Issues]\n    C --&gt; D[Physical Health Issues]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Fatigue] --> B[Tired]\n    B --> C[Mental Health Issues]\n    C --> D[Physical Health Issues]"
+   ]
+  },
+  {
+   "heading": "Conclusion",
+   "id": "",
+   "html": "<p>Maintaining good health, proper posture, and professional demeanor are crucial for healthcare professionals and other professionals in various fields. By focusing on these aspects, individuals can enhance their productivity, well-being, and overall performance in their careers. The techniques and practical examples provided in this guide can help individuals develop and maintain these important skills. Regular practice and attention to detail will contribute to a more successful and fulfilling professional life.</p>\n<p>Feel free to use this guide as a reference and continue to refine your skills to ensure you are at your best in all situations.</p>\n<p>If you have any further questions or need additional guidance, please don't hesitate to ask.</p>\n<p>Thank you for your attention!</p>\n<p>\\<em>End of Guide\\</em></p>\n<p>If you need more information or have any specific questions, please let me know. I'm here to help!</p>\n<p>Best regards,</p>\n<p>[Your Name]</p>\n<p>[Your Contact Information]</p>\n<p>[Your Organization, if applicable]</p>\n<hr />\n<p>I hope this comprehensive guide helps you in your professional journey. If you need any further assistance or additional content, feel free to reach out!</p>\n<p>Best wishes,</p>\n<p>[Your Name]</p>\n<p>[Your Contact Information]</p>\n<p>[Your Organization, if applicable]</p>\n<hr />\n<p>If you have any specific requirements or areas you would like to focus on, please let me know. I can tailor the content to better meet your needs.</p>\n<p>Thank you again for considering this guide. I look forward to assisting you further.</p>\n<p>Best regards,</p>\n<p>[Your Name]</p>\n<p>[Your Contact Information]</p>\n<p>[Your Organization, if applicable]</p>\n<hr />\n<p>Feel free to modify or expand on any part of this guide to suit your specific needs. Let me know if you have any other questions or if there’s anything else I can help with.</p>\n<p>Best regards,</p>\n<p>[Your Name]</p>\n<p>[Your Contact Information]</p>\n<p>[Your Organization, if applicable]</p>\n<hr />\n<p>I’ll be here to assist you further. If you need any additional content or have specific questions, please let me know. I’m here to support you.</p>\n<p>Best regards,</p>\n<p>[Your Name]</p>\n<p>[Your Contact Information]</p>\n<p>[Your Organization, if applicable]</p>\n<hr />\n<p>If you need any further assistance or have specific questions, please don’t hesitate to contact me. I’m here to help!</p>\n<p>Best regards,</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Dental Health",
+   "id": "",
+   "html": "<p><strong>Dental health</strong> refers to the condition of the teeth, gums, and mouth. Good dental health is essential for overall health and well-being. Poor dental health can lead to several issues, including tooth decay, gum disease, and even systemic infections.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Dental Issues",
+   "id": "",
+   "html": "<ul>\n<li><strong>Tooth Decay (Caries):</strong> This is the most common dental issue. It is caused by the action of bacteria in the mouth on sugars and starches, leading to acid production that can destroy tooth enamel.</li>\n<li><strong>Gum Disease (Periodontal Disease):</strong> This condition affects the tissues that surround and support the teeth. It can cause inflammation, bleeding, and eventually, tooth loss.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Dental Materials and Implants",
+   "id": "",
+   "html": "<ul>\n<li><strong>Biomaterials Used in Dentistry:</strong> These are materials used to replace or repair damaged teeth and gums. Common biomaterials include metals, ceramics, polymers, and composites.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A dentist might use a titanium implant to replace a missing tooth. Titanium is chosen because it is biocompatible and can integrate well with the surrounding bone tissue.</div>",
+   "examples": [
+    "A dentist might use a titanium implant to replace a missing tooth. Titanium is chosen because it is biocompatible and can integrate well with the surrounding bone tissue."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Types of Dental Implants",
+   "id": "",
+   "html": "<ul>\n<li><strong>Root-Mimicking Implants:</strong> These implants mimic the shape and function of natural tooth roots. They are usually made of titanium and can be used to support a single tooth or multiple teeth.</li>\n<li><strong>Plate Implants:</strong> These are larger and are used to support a bridge or denture. They are typically made of titanium and can be placed in the jawbone.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart of Dental Implant Process",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Initial Assessment] --&gt; B[CT Scan]\n    B --&gt; C[Implant Placement]\n    C --&gt; D[Post-Operative Care]\n    D --&gt; E[Follow-Up Appointments]\n    E --&gt; F[Successful Implant]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Initial Assessment] --&gt; B[CT Scan]\n    B --&gt; C[Implant Placement]\n    C --&gt; D[Post-Operative Care]\n    D --&gt; E[Follow-Up Appointments]\n    E --&gt; F[Successful Implant]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Initial Assessment] --&gt; B[CT Scan]\n    B --&gt; C[Implant Placement]\n    C --&gt; D[Post-Operative Care]\n    D --&gt; E[Follow-Up Appointments]\n    E --&gt; F[Successful Implant]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Initial Assessment] --> B[CT Scan]\n    B --> C[Implant Placement]\n    C --> D[Post-Operative Care]\n    D --> E[Follow-Up Appointments]\n    E --> F[Successful Implant]"
+   ]
+  },
+  {
+   "heading": "Introduction to Medical Examination",
+   "id": "",
+   "html": "<p><strong>Medical examination</strong> is a thorough evaluation of a patient's health status. It includes a physical assessment, history taking, and diagnostic tests. The goal is to identify any potential health issues and determine the appropriate treatment plan.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Components of a Medical Examination",
+   "id": "",
+   "html": "<ul>\n<li><strong>History Taking:</strong> This involves gathering information about the patient's medical history, including symptoms, past illnesses, and family history.</li>\n<li><strong>Physical Assessment:</strong> This includes visual and tactile examination of various body parts to identify any abnormalities.</li>\n<li><strong>Diagnostic Tests:</strong> These are used to confirm or rule out certain conditions. Examples include blood tests, X-rays, and ECGs.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A doctor might perform a blood test to check for signs of diabetes. If the patient has high blood sugar levels, further tests might be needed to confirm the diagnosis.</div>",
+   "examples": [
+    "A doctor might perform a blood test to check for signs of diabetes. If the patient has high blood sugar levels, further tests might be needed to confirm the diagnosis."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart of a Medical Examination Process",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Initial Consultation] --&gt; B[History Taking]\n    B --&gt; C[Physical Assessment]\n    C --&gt; D[Diagnostic Tests]\n    D --&gt; E[Diagnosis]\n    E --&gt; F[Treatment Plan]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Initial Consultation] --&gt; B[History Taking]\n    B --&gt; C[Physical Assessment]\n    C --&gt; D[Diagnostic Tests]\n    D --&gt; E[Diagnosis]\n    E --&gt; F[Treatment Plan]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Initial Consultation] --&gt; B[History Taking]\n    B --&gt; C[Physical Assessment]\n    C --&gt; D[Diagnostic Tests]\n    D --&gt; E[Diagnosis]\n    E --&gt; F[Treatment Plan]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Initial Consultation] --> B[History Taking]\n    B --> C[Physical Assessment]\n    C --> D[Diagnostic Tests]\n    D --> E[Diagnosis]\n    E --> F[Treatment Plan]"
+   ]
+  },
+  {
+   "heading": "Introduction to Clothing",
+   "id": "",
+   "html": "<p><strong>Clothing</strong> refers to the items worn to cover the body. It serves both functional and aesthetic purposes, protecting the body from the environment and expressing personal style.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Types of Clothing",
+   "id": "",
+   "html": "<ul>\n<li><strong>Formal Wear:</strong> This includes suits, dresses, and tuxedos. They are typically worn for formal events and business settings.</li>\n<li><strong>Casual Wear:</strong> This includes jeans, t-shirts, and sneakers. They are suitable for everyday use and informal settings.</li>\n<li><strong>Sportswear:</strong> This includes athletic clothing designed for specific sports and activities.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A person attending a formal event might wear a suit and tie, while someone going to a gym might wear a sportswear outfit.</div>",
+   "examples": [
+    "A person attending a formal event might wear a suit and tie, while someone going to a gym might wear a sportswear outfit."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart of Clothing Selection",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Identify Occasion] --&gt; B[Formal Wear]\n    B --&gt; C[Casual Wear]\n    C --&gt; D[Sportswear]\n    D --&gt; E[Select Appropriate Outfit]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Identify Occasion] --&gt; B[Formal Wear]\n    B --&gt; C[Casual Wear]\n    C --&gt; D[Sportswear]\n    D --&gt; E[Select Appropriate Outfit]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Identify Occasion] --&gt; B[Formal Wear]\n    B --&gt; C[Casual Wear]\n    C --&gt; D[Sportswear]\n    D --&gt; E[Select Appropriate Outfit]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Identify Occasion] --> B[Formal Wear]\n    B --> C[Casual Wear]\n    C --> D[Sportswear]\n    D --> E[Select Appropriate Outfit]"
+   ]
+  },
+  {
+   "heading": "Introduction to Reading Clothing Message",
+   "id": "",
+   "html": "<p><strong>Reading clothing message</strong> involves interpreting the meaning behind the clothing choices of others. It can provide insights into a person's personality, social status, and emotional state.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A person wearing bright colors and trendy outfits might be trying to express a fun and outgoing personality. Someone wearing dark colors and minimal accessories might be more reserved or serious.</div>",
+   "examples": [
+    "A person wearing bright colors and trendy outfits might be trying to express a fun and outgoing personality. Someone wearing dark colors and minimal accessories might be more reserved or serious."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Psychological Interpretation of Dress",
+   "id": "",
+   "html": "<p><strong>Psychological interpretation of dress</strong> involves analyzing the psychological factors that influence clothing choices. It considers how clothing can affect a person's self-image and how others perceive them.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Wearing a uniform might make a person feel more professional and confident, while wearing casual clothes might make them feel more relaxed and comfortable.</div>",
+   "examples": [
+    "Wearing a uniform might make a person feel more professional and confident, while wearing casual clothes might make them feel more relaxed and comfortable."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart of Psychological Interpretation of Dress",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Identify Clothing Type] --&gt; B[Analyze Functionality]\n    B --&gt; C[Consider Social Context]\n    C --&gt; D[Evaluate Psychological Impact]\n    D --&gt; E[Interpret Meaning]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Identify Clothing Type] --&gt; B[Analyze Functionality]\n    B --&gt; C[Consider Social Context]\n    C --&gt; D[Evaluate Psychological Impact]\n    D --&gt; E[Interpret Meaning]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Identify Clothing Type] --&gt; B[Analyze Functionality]\n    B --&gt; C[Consider Social Context]\n    C --&gt; D[Evaluate Psychological Impact]\n    D --&gt; E[Interpret Meaning]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Identify Clothing Type] --> B[Analyze Functionality]\n    B --> C[Consider Social Context]\n    C --> D[Evaluate Psychological Impact]\n    D --> E[Interpret Meaning]"
+   ]
+  },
+  {
+   "heading": "Introduction to Heading",
+   "id": "",
+   "html": "<p><strong>Heading</strong> refers to the title or label at the beginning of a document. It provides an overview of the content and helps organize the document.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A heading for a document about dental health might be \"Dental Health and Biomaterials.\"</div>",
+   "examples": [
+    "A heading for a document about dental health might be \"Dental Health and Biomaterials.\""
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Inside Address",
+   "id": "",
+   "html": "<p><strong>Inside address</strong> is the information provided at the beginning of a letter, such as the recipient's name and address. It ensures the letter is delivered to the correct person or organization.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />> <strong>Example:</strong><br />><br />><br />> <strong>Inside Address:</strong><br />><br />> Dr. R. Patel<br />> Department of Biomedical Engineering<br />> Gujarat Technological University<br />> Ahmedabad, Gujarat<br />> India</div>",
+   "examples": [
+    "> **Example:** > > > **Inside Address:** > > Dr. R. Patel > Department of Biomedical Engineering > Gujarat Technological University > Ahmedabad, Gujarat > India"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Salutation",
+   "id": "",
+   "html": "<p><strong>Salutation</strong> is the greeting at the beginning of a letter. It sets the tone for the rest of the communication.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />> <strong>Example:</strong><br />><br />><br />> <strong>Salutation:</strong><br />><br />> Dear Dr. Patel,</div>",
+   "examples": [
+    "> **Example:** > > > **Salutation:** > > Dear Dr. Patel,"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Subject Heading",
+   "id": "",
+   "html": "<p><strong>Subject heading</strong> is the line that summarizes the main topic of the letter. It helps the recipient understand the purpose of the letter at a glance.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />> <strong>Example:</strong><br />><br />><br />> <strong>Subject Heading:</strong><br />><br />> Request for Information on Biomaterials</div>",
+   "examples": [
+    "> **Example:** > > > **Subject Heading:** > > Request for Information on Biomaterials"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Complimentary Close",
+   "id": "",
+   "html": "<p><strong>Complimentary close</strong> is a polite ending to a letter, often followed by the sender's name and signature.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />> <strong>Example:</strong><br />><br />><br />> <strong>Complimentary Close:</strong><br />><br />> Sincerely,<br />><br />> [Your Name]</div>",
+   "examples": [
+    "> **Example:** > > > **Complimentary Close:** > > Sincerely, > > [Your Name]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Signature",
+   "id": "",
+   "html": "<p><strong>Signature</strong> is the handwritten name at the end of a document, indicating the person's approval or agreement.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />> <strong>Example:</strong><br />><br />><br />> <strong>Signature:</strong><br />><br />> [Your Handwritten Name]</div>",
+   "examples": [
+    "> **Example:** > > > **Signature:** > > [Your Handwritten Name]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Telephone Number, Telegraphic Address, and References",
+   "id": "",
+   "html": "<p><strong>Telephone number, telegraphic address, and references</strong> are additional details that can be included in a letter for communication purposes.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />> <strong>Example:</strong><br />><br />><br />> <strong>Telephone Number:</strong> +91 1234567890<br />><br />> <strong>Telegraphic Address:</strong> Biomedical Dept, G.T.U.<br />><br />> <strong>References:</strong><br />><br />> Dr. R. Patel<br />><br />> Dr. M. Shah</div>",
+   "examples": [
+    "> **Example:** > > > **Telephone Number:** +91 1234567890 > > **Telegraphic Address:** Biomedical Dept, G.T.U. > > **References:** > > Dr. R. Patel > > Dr. M. Shah"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Enclosures",
+   "id": "",
+   "html": "<p><strong>Enclosures</strong> are documents or items attached to a letter, such as reports, drawings, or samples.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />> <strong>Example:</strong><br />><br />><br />> <strong>Enclosures:</strong><br />><br />> 1. Copy of Dental Health Report<br />><br />> 2. Sample of Biomaterial</div>",
+   "examples": [
+    "> **Example:** > > > **Enclosures:** > > 1. Copy of Dental Health Report > > 2. Sample of Biomaterial"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Copies",
+   "id": "",
+   "html": "<p><strong>Copies</strong> are additional copies of a document that are provided to other parties.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />> <strong>Example:</strong><br />><br />><br />> <strong>Copies:</strong><br />><br />> To Dr. R. Patel, Dr. M. Shah, and Dr. S. Patel</div>\n<p>By covering each of these sections, you will be well-prepared for any questions related to these topics in your exams.</p>\n<hr />",
+   "examples": [
+    "> **Example:** > > > **Copies:** > > To Dr. R. Patel, Dr. M. Shah, and Dr. S. Patel"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "6.1.1. Leave Application Letter",
+   "id": "",
+   "html": "<p>A leave application letter is a formal request to an authority for permission to be absent from work or studies. The letter should be written in a polite and professional manner. Here are the key components of a leave application letter:</p>\n<ul>\n<li><strong>Date</strong>: The date when the letter is written.</li>\n<li><strong>Recipient</strong>: The name and designation of the person to whom the letter is addressed.</li>\n<li><strong>Subject Line</strong>: Mention the purpose of the letter.</li>\n<li><strong>Introduction</strong>: State the reason for the leave.</li>\n<li><strong>Details</strong>: Provide the dates of the leave and the reason.</li>\n<li><strong>Conclusion</strong>: Express gratitude and hope for approval.</li>\n<li><strong>Closing</strong>: Use formal closing phrases like \"Yours faithfully\" or \"Yours sincerely\".</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><strong>Date:</strong> 10th May 2023<br /><strong>To:</strong> Dr. P. V. Shah, HOD, Department of Biomedical Engineering, Gujarat Technological University<br /><strong>Subject:</strong> Request for Leave<br /><br /><strong>Introduction:</strong><br />I am writing to request a leave of absence from 15th to 19th May 2023 for personal reasons.<br /><br /><strong>Details:</strong><br />I need to attend a family function in Mumbai. My project work is well advanced, and I will ensure that all pending tasks are completed before my departure.<br /><br /><strong>Conclusion:</strong><br />I would be grateful if you could approve my request.<br /><br /><strong>Closing:</strong><br />Yours faithfully,<br />[Your Name]</div>",
+   "examples": [
+    "**Date:** 10th May 2023 **To:** Dr. P. V. Shah, HOD, Department of Biomedical Engineering, Gujarat Technological University **Subject:** Request for Leave **Introduction:** I am writing to request a leave of absence from 15th to 19th May 2023 for personal reasons. **Details:** I need to attend a family function in Mumbai. My project work is well advanced, and I will ensure that all pending tasks are completed before my departure. **Conclusion:** I would be grateful if you could approve my request. **Closing:** Yours faithfully, [Your Name]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "6.1.2. Permission Letter for Visit to Institute and Libraries",
+   "id": "",
+   "html": "<p>A permission letter is a formal document seeking permission to visit the institute or access its libraries. It should be clear, concise, and polite.</p>\n<ul>\n<li><strong>Date</strong>: The date when the letter is written.</li>\n<li><strong>Recipient</strong>: The name and designation of the person to whom the letter is addressed.</li>\n<li><strong>Subject Line</strong>: Mention the purpose of the letter.</li>\n<li><strong>Introduction</strong>: State the reason for the visit.</li>\n<li><strong>Details</strong>: Provide the dates and duration of the visit.</li>\n<li><strong>Conclusion</strong>: Express gratitude and hope for approval.</li>\n<li><strong>Closing</strong>: Use formal closing phrases like \"Yours faithfully\" or \"Yours sincerely\".</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><strong>Date:</strong> 12th June 2023<br /><strong>To:</strong> Librarian, Gujarat Technological University, Ahmedabad<br /><strong>Subject:</strong> Request for Library Access<br /><br /><strong>Introduction:</strong><br />I am writing to request permission to access the library facilities on 15th and 16th June 2023 for research purposes.<br /><br /><strong>Details:</strong><br />I need to review some journals and books related to my project. I will be using the library only during the mentioned dates.<br /><br /><strong>Conclusion:</strong><br />I would be grateful if you could grant me the permission.<br /><br /><strong>Closing:</strong><br />Yours sincerely,<br />[Your Name]</div>",
+   "examples": [
+    "**Date:** 12th June 2023 **To:** Librarian, Gujarat Technological University, Ahmedabad **Subject:** Request for Library Access **Introduction:** I am writing to request permission to access the library facilities on 15th and 16th June 2023 for research purposes. **Details:** I need to review some journals and books related to my project. I will be using the library only during the mentioned dates. **Conclusion:** I would be grateful if you could grant me the permission. **Closing:** Yours sincerely, [Your Name]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "6.1.3. Forwarding Letter for Different Types of Letter",
+   "id": "",
+   "html": "<p>A forwarding letter is used to pass on a letter to another person or department. It should clearly state the purpose and provide necessary details.</p>\n<ul>\n<li><strong>Date</strong>: The date when the letter is written.</li>\n<li><strong>Recipient</strong>: The name and designation of the person to whom the letter is addressed.</li>\n<li><strong>Subject Line</strong>: Mention the purpose of the letter.</li>\n<li><strong>Introduction</strong>: State the reason for forwarding the letter.</li>\n<li><strong>Details</strong>: Provide the necessary information and context.</li>\n<li><strong>Conclusion</strong>: Express gratitude and hope for approval.</li>\n<li><strong>Closing</strong>: Use formal closing phrases like \"Yours faithfully\" or \"Yours sincerely\".</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><strong>Date:</strong> 15th June 2023<br /><strong>To:</strong> Registrar, Gujarat Technological University, Ahmedabad<br /><strong>Subject:</strong> Forwarding Letter for Hostel Admission<br /><br /><strong>Introduction:</strong><br />I am writing to forward the application for hostel admission from Mr. Ravi Patel, batch 2023-2027.<br /><br /><strong>Details:</strong><br />Mr. Ravi has submitted all the necessary documents and is eligible for hostel accommodation. Please consider his application.<br /><br /><strong>Conclusion:</strong><br />I would be grateful if you could process his application.<br /><br /><strong>Closing:</strong><br />Yours sincerely,<br />[Your Name]</div>",
+   "examples": [
+    "**Date:** 15th June 2023 **To:** Registrar, Gujarat Technological University, Ahmedabad **Subject:** Forwarding Letter for Hostel Admission **Introduction:** I am writing to forward the application for hostel admission from Mr. Ravi Patel, batch 2023-2027. **Details:** Mr. Ravi has submitted all the necessary documents and is eligible for hostel accommodation. Please consider his application. **Conclusion:** I would be grateful if you could process his application. **Closing:** Yours sincerely, [Your Name]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "6.1.4. Forwarding Letter for Admission to Hostel",
+   "id": "",
+   "html": "<p>A forwarding letter for hostel admission is a specific type of forwarding letter aimed at securing a student's accommodation in the hostel.</p>\n<ul>\n<li><strong>Date</strong>: The date when the letter is written.</li>\n<li><strong>Recipient</strong>: The name and designation of the person to whom the letter is addressed.</li>\n<li><strong>Subject Line</strong>: Mention the purpose of the letter.</li>\n<li><strong>Introduction</strong>: State the reason for the hostel application.</li>\n<li><strong>Details</strong>: Provide the student's name, batch, and application details.</li>\n<li><strong>Conclusion</strong>: Express hope for approval.</li>\n<li><strong>Closing</strong>: Use formal closing phrases like \"Yours faithfully\" or \"Yours sincerely\".</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><strong>Date:</strong> 18th June 2023<br /><strong>To:</strong> Warden, Gujarat Technological University Hostel, Ahmedabad<br /><strong>Subject:</strong> Request for Hostel Admission for Mr. Ravi Patel<br /><br /><strong>Introduction:</strong><br />I am writing to forward the application for hostel admission from Mr. Ravi Patel, batch 2023-2027.<br /><br /><strong>Details:</strong><br />Mr. Ravi has submitted his application and is eager to secure a place in the hostel. He is a deserving candidate and will abide by all hostel rules and regulations.<br /><br /><strong>Conclusion:</strong><br />I would be grateful if you could consider his application for hostel accommodation.<br /><br /><strong>Closing:</strong><br />Yours faithfully,<br />[Your Name]</div>",
+   "examples": [
+    "**Date:** 18th June 2023 **To:** Warden, Gujarat Technological University Hostel, Ahmedabad **Subject:** Request for Hostel Admission for Mr. Ravi Patel **Introduction:** I am writing to forward the application for hostel admission from Mr. Ravi Patel, batch 2023-2027. **Details:** Mr. Ravi has submitted his application and is eager to secure a place in the hostel. He is a deserving candidate and will abide by all hostel rules and regulations. **Conclusion:** I would be grateful if you could consider his application for hostel accommodation. **Closing:** Yours faithfully, [Your Name]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "6.1.5. Application Letter for Inquiry Regarding Job Opportunities",
+   "id": "",
+   "html": "<p>An application letter for job inquiry is a formal request to an organization for information about job opportunities. It should be polite and provide necessary details.</p>\n<ul>\n<li><strong>Date</strong>: The date when the letter is written.</li>\n<li><strong>Recipient</strong>: The name and designation of the person to whom the letter is addressed.</li>\n<li><strong>Subject Line</strong>: Mention the purpose of the letter.</li>\n<li><strong>Introduction</strong>: State the purpose of the letter.</li>\n<li><strong>Details</strong>: Provide your contact information and inquire about job openings.</li>\n<li><strong>Conclusion</strong>: Express hope for a positive response.</li>\n<li><strong>Closing</strong>: Use formal closing phrases like \"Yours faithfully\" or \"Yours sincerely\".</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><strong>Date:</strong> 20th June 2023<br /><strong>To:</strong> HR Manager, XYZ Healthcare Pvt. Ltd., Ahmedabad<br /><strong>Subject:</strong> Inquiry Regarding Job Opportunities<br /><br /><strong>Introduction:</strong><br />I am writing to inquire about potential job opportunities within your esteemed organization.<br /><br /><strong>Details:</strong><br />My name is [Your Name], and I am currently pursuing my Bachelor of Biomedical Engineering from Gujarat Technological University. I am particularly interested in positions related to medical device development and research. Could you please provide me with information on any such openings?<br /><br /><strong>Conclusion:</strong><br />I would be grateful for your guidance and look forward to your response.<br /><br /><strong>Closing:</strong><br />Yours faithfully,<br />[Your Name]</div>",
+   "examples": [
+    "**Date:** 20th June 2023 **To:** HR Manager, XYZ Healthcare Pvt. Ltd., Ahmedabad **Subject:** Inquiry Regarding Job Opportunities **Introduction:** I am writing to inquire about potential job opportunities within your esteemed organization. **Details:** My name is [Your Name], and I am currently pursuing my Bachelor of Biomedical Engineering from Gujarat Technological University. I am particularly interested in positions related to medical device development and research. Could you please provide me with information on any such openings? **Conclusion:** I would be grateful for your guidance and look forward to your response. **Closing:** Yours faithfully, [Your Name]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "6.1.6. Application for Job Along with Bio-Data",
+   "id": "",
+   "html": "<p>An application for a job is a formal request to an organization for employment. It should include a bio-data (resume) and be written in a professional manner.</p>\n<ul>\n<li><strong>Date</strong>: The date when the letter is written.</li>\n<li><strong>Recipient</strong>: The name and designation of the person to whom the letter is addressed.</li>\n<li><strong>Subject Line</strong>: Mention the purpose of the letter.</li>\n<li><strong>Introduction</strong>: State the purpose of the letter.</li>\n<li><strong>Details</strong>: Provide your bio-data and express interest in a specific position.</li>\n<li><strong>Conclusion</strong>: Express hope for a positive response.</li>\n<li><strong>Closing</strong>: Use formal closing phrases like \"Yours faithfully\" or \"Yours sincerely\".</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><strong>Date:</strong> 22nd June 2023<br /><strong>To:</strong> HR Manager, ABC Medical Devices, Ahmedabad<br /><strong>Subject:</strong> Application for Job Position<br /><br /><strong>Introduction:</strong><br />I am writing to apply for the position of Biomedical Engineer at your esteemed organization.<br /><br /><strong>Details:</strong><br />My name is [Your Name], and I am currently a final-year student in the Bachelor of Biomedical Engineering program at Gujarat Technological University. I am enthusiastic about joining your team and contributing to your projects related to medical device development.<br /><br /><strong>Conclusion:</strong><br />Please find attached my bio-data for your review. I would be grateful for your consideration and hope to hear from you soon.<br /><br /><strong>Closing:</strong><br />Yours sincerely,<br />[Your Name]</div>\n<hr />",
+   "examples": [
+    "**Date:** 22nd June 2023 **To:** HR Manager, ABC Medical Devices, Ahmedabad **Subject:** Application for Job Position **Introduction:** I am writing to apply for the position of Biomedical Engineer at your esteemed organization. **Details:** My name is [Your Name], and I am currently a final-year student in the Bachelor of Biomedical Engineering program at Gujarat Technological University. I am enthusiastic about joining your team and contributing to your projects related to medical device development. **Conclusion:** Please find attached my bio-data for your review. I would be grateful for your consideration and hope to hear from you soon. **Closing:** Yours sincerely, [Your Name]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "6.2.1. You Are Residing in a Hostel. Write a Letter to Your Father",
+   "id": "",
+   "html": "<p>An informal letter is written in a casual and friendly manner. It is usually written to a close family member.</p>\n<ul>\n<li><strong>Date</strong>: The date when the letter is written.</li>\n<li><strong>Recipient</strong>: The name of the person to whom the letter is addressed.</li>\n<li><strong>Introduction</strong>: Start with a friendly greeting.</li>\n<li><strong>Body</strong>: Provide details of your stay and any important updates.</li>\n<li><strong>Conclusion</strong>: Express love and gratitude.</li>\n<li><strong>Closing</strong>: Use informal closing phrases like \"With love\" or \"With regards\".</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><strong>Date:</strong> 10th May 2023<br /><strong>To:</strong> Father,<br /><strong>Subject:</strong> How Are You?<br /><br /><strong>Introduction:</strong><br />Hello Dad, hope you are well.<br /><br /><strong>Body:</strong><br />I hope you are all doing well. I am currently residing in the hostel at GTU. The food here is okay, but I miss our home-cooked meals. I have made some friends who are also from our batch. We are enjoying our time here.<br /><br /><strong>Conclusion:</strong><br />I am doing well and hope you and mom are doing the same. I miss you all a lot and would love to come home soon.<br /><br /><strong>Closing:</strong><br />With love,<br />[Your Name]</div>",
+   "examples": [
+    "**Date:** 10th May 2023 **To:** Father, **Subject:** How Are You? **Introduction:** Hello Dad, hope you are well. **Body:** I hope you are all doing well. I am currently residing in the hostel at GTU. The food here is okay, but I miss our home-cooked meals. I have made some friends who are also from our batch. We are enjoying our time here. **Conclusion:** I am doing well and hope you and mom are doing the same. I miss you all a lot and would love to come home soon. **Closing:** With love, [Your Name]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "6.2.2. You Are Residing in a Hostel. Write a Letter to Your Parents",
+   "id": "",
+   "html": "<p>An informal letter to parents is written in a friendly and casual manner. It is usually written to both parents.</p>\n<ul>\n<li><strong>Date</strong>: The date when the letter is written.</li>\n<li><strong>Recipient</strong>: The names of the people to whom the letter is addressed.</li>\n<li><strong>Introduction</strong>: Start with a friendly greeting.</li>\n<li><strong>Body</strong>: Provide details of your stay and any important updates.</li>\n<li><strong>Conclusion</strong>: Express love and gratitude.</li>\n<li><strong>Closing</strong>: Use informal closing phrases like \"With love\" or \"With regards\".</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><strong>Date:</strong> 10th May 2023<br /><strong>To:</strong> Mother and Father,<br /><strong>Subject:</strong> How Are You?<br /><br /><strong>Introduction:</strong><br />Hey Mom and Dad, hope you are well.<br /><br /><strong>Body:</strong><br />I hope you are both doing well. I am currently residing in the hostel at GTU. The food here is okay, but I miss our home-cooked meals. I have made some friends who are also from our batch. We are enjoying our time here.<br /><br /><strong>Conclusion:</strong><br />I am doing well and hope you and mom are doing the same. I miss you both a lot and would love to come home soon.<br /><br /><strong>Closing:</strong><br />With love,<br />[Your Name]</div>\n<hr />\n<p>This completes the detailed sections on formal and informal letters. Each section includes a worked example to help you understand how to write these letters effectively.</p>",
+   "examples": [
+    "**Date:** 10th May 2023 **To:** Mother and Father, **Subject:** How Are You? **Introduction:** Hey Mom and Dad, hope you are well. **Body:** I hope you are both doing well. I am currently residing in the hostel at GTU. The food here is okay, but I miss our home-cooked meals. I have made some friends who are also from our batch. We are enjoying our time here. **Conclusion:** I am doing well and hope you and mom are doing the same. I miss you both a lot and would love to come home soon. **Closing:** With love, [Your Name]"
+   ],
+   "mermaid": []
+  }
+ ]
+}

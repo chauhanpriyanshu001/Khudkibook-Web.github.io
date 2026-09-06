@@ -15,7 +15,7 @@ const DB_FILE = path.join(DATA_DIR, 'site_db.json');
 const DB_BACKUP = path.join(DATA_DIR, 'site_db_backup.json');
 const CRAWLED_FILE = path.join(DATA_DIR, 'gtu_full_subjects.json');
 const PROGRAMS_FILE = path.join(DATA_DIR, 'gtu_programs_branches.json');
-const SITE_URL = 'https://khudkibook.web.app';
+const SITE_URL = 'https://khudkibook.in';
 const SYLLABUS_PREFIX = 'https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/';
 const OG_IMAGE = 'https://chauhanpriyanshu001.github.io/pic.github.io/bg.webp';
 

@@ -160,7 +160,7 @@ function buildNewDb(existingDb, slugMap) {
         config: {
             currentYear: "2025-2026",
             adPubId: "ca-pub-4211827566541334",
-            siteUrl: "https://khudkibook.web.app",
+            siteUrl: "https://khudkibook.in",
             appUrl: "https://play.google.com/store/apps/details?id=web.app.khudkibook",
             academicYears: ["2025-2026", "2024-2025", "2023-2024"]
         },

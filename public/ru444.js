@@ -29,7 +29,7 @@ var footerhtml = `
 </div>
 
 <div class="ftrh1"> Thank You </div>
-<div class="ftrh1"> <span>@2025 KhudKibook || </span> <a href="https://khudkibook.web.app/">HomePage</a> || <a href="https://khudkibook.web.app/privacypolicy.html">Privacy Policy</a> || <a href="https://khudkibook.web.app/termsofservice.html">Terms of Service</a></div>
+<div class="ftrh1"> <span>@2025 KhudKibook || </span> <a href="https://khudkibook.in/">HomePage</a> || <a href="https://khudkibook.in/privacypolicy.html">Privacy Policy</a> || <a href="https://khudkibook.in/termsofservice.html">Terms of Service</a></div>
 
 </div>
 `;
@@ -46,9 +46,9 @@ function handleResize() {
         Khudkibook
     </span>
     <div class="logo">
-        <a href="https://khudkibook.web.app/">
+        <a href="https://khudkibook.in/">
             <span class="bnltl">
-                <img class="lohh" src="https://khudkibook.web.app/img/bg.png" alt="">
+                <img class="lohh" src="https://khudkibook.in/img/bg.png" alt="">
 
             </span>
 
@@ -80,7 +80,7 @@ function handleResize() {
 <div class="link" id="link">
     <ul class="row">
         <li class="active">
-            <a href="https://khudkibook.web.app/">
+            <a href="https://khudkibook.in/">
 
                 Home
             </a>
@@ -158,7 +158,7 @@ function handleResize() {
 <div class="navdropdown" style="display: none;">
             <ul class="navdul">
                 <div class="link">
-                <a href="https://khudkibook.web.app/">
+                <a href="https://khudkibook.in/">
                 <li class="active">Home</li>
                 </a>
                     <div class="list mobilel">

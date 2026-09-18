@@ -72,9 +72,10 @@
     .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
     .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
     /* mermaid */
-    .kb-article .mermaid-wrap{margin:16px 0}
-    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-    .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+    .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+    .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+    .kb-article .mermaid svg foreignObject{overflow:visible}
     .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
     .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
     .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
@@ -144,7 +145,7 @@
       <h1>Unit – Coordinate Geometry</h1>
       <div class="kb-sub">Mathematics (C4300001) · Gujarat Technological University Artificial Intelligence and Data Science Semester 1</div>
       <div class="kb-meta">
-      <span><i class="fas fa-clock"></i> 14 min read</span>
+      <span><i class="fas fa-clock"></i> 13 min read</span>
       <span><i class="fas fa-bullseye"></i> 14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)</span>
       
       <a class="kb-print-btn no-print" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
@@ -158,6 +159,8 @@
         <a class="toc-item " href="unit-1.html"><i class="fas fa-book-open"></i> Unit – Determinant and Function</a>
 <a class="toc-item " href="unit-2.html"><i class="fas fa-book-open"></i> Unit – Trigonometry</a>
 <a class="toc-item " href="unit-3.html"><i class="fas fa-book-open"></i> Unit – Vectors</a>
+<a class="toc-item toc-active" href="unit-4.html"><i class="fas fa-book-open"></i> Unit – Coordinate Geometry</a>
+<a class="toc-item " href="unit-5.html"><i class="fas fa-book-open"></i> Unit – Limit</a>
         <h4>In this chapter</h4>
         <a class="toc-item toc-sec" href="#sec-4-1-straight-line-two-point-form-and-slope-of-straight-line"><i class="fas fa-chevron-right"></i> 4.1. Straight line (Two-point form) and slope of straight line</a>
 <a class="toc-item toc-sec" href="#sec-4-2-slope-point-form-intercept-form-general-form-of-line"><i class="fas fa-chevron-right"></i> 4.2. Slope Point Form, Intercept Form, General Form of Line</a>
@@ -185,19 +188,19 @@
 <h3 id="sec-4-1-straight-line-two-point-form-and-slope-of-straight-line">4.1. Straight line (Two-point form) and slope of straight line</h3>
 <h4>4.1.1. Slope of a Straight Line</h4>
 <p>The slope of a straight line is a measure of its steepness. It is defined as the change in the vertical direction (rise) divided by the change in the horizontal direction (run). Mathematically, it is given by:</p>
-<p>[ m = \frac{y_2 - y_1}{x_2 - x_1} ]</p>
+<p>[ m = (y₂ - y₁ / x₂ - x₁) ]</p>
 <p>where (x₁, y₁) and (x₂, y₂) are any two points on the line.</p>
 <h4>4.1.2. Two-Point Form of the Equation of a Straight Line</h4>
 <p>The two-point form of the equation of a straight line can be derived using the slope formula. If two points (x₁, y₁) and (x₂, y₂) lie on the line, the equation of the line is:</p>
-<p>[ y - y_1 = m(x - x_1) ]</p>
+<p>[ y - y₁ = m(x - x₁) ]</p>
 <p>where m is the slope of the line, calculated as:</p>
-<p>[ m = \frac{y_2 - y_1}{x_2 - x_1} ]</p>
+<p>[ m = (y₂ - y₁ / x₂ - x₁) ]</p>
 <h4>4.1.3. Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the equation of the straight line passing through the points (2, 3) and (4, 7).</div>
 <ol>
 <li>Calculate the slope m:</li>
 </ol>
-<p>[ m = \frac{7 - 3}{4 - 2} = \frac{4}{2} = 2 ]</p>
+<p>[ m = (7 - 3 / 4 - 2) = (4 / 2) = 2 ]</p>
 <ol>
 <li>Use the two-point form equation:</li>
 </ol>
@@ -218,11 +221,11 @@
 <h3 id="sec-4-2-slope-point-form-intercept-form-general-form-of-line">4.2. Slope Point Form, Intercept Form, General Form of Line</h3>
 <h4>4.2.1. Slope Point Form of the Equation of a Straight Line</h4>
 <p>The slope point form of the equation of a straight line is:</p>
-<p>[ y - y_1 = m(x - x_1) ]</p>
+<p>[ y - y₁ = m(x - x₁) ]</p>
 <p>where (x₁, y₁) is a point on the line and m is the slope of the line.</p>
 <h4>4.2.2. Intercept Form of the Equation of a Straight Line</h4>
 <p>The intercept form of the equation of a straight line is:</p>
-<p>[ \frac{x}{a} + \frac{y}{b} = 1 ]</p>
+<p>[ (x / a) + (y / b) = 1 ]</p>
 <p>where a is the x-intercept and b is the y-intercept.</p>
 <h4>4.2.3. General Form of the Equation of a Straight Line</h4>
 <p>The general form of the equation of a straight line is:</p>
@@ -236,7 +239,7 @@
 <ul>
 <li>Calculate the slope m:</li>
 </ul>
-<p>[ m = \frac{6 - 2}{5 - 3} = \frac{4}{2} = 2 ]</p>
+<p>[ m = (6 - 2 / 5 - 3) = (4 / 2) = 2 ]</p>
 <ul>
 <li>Use the slope point form:</li>
 </ul>
@@ -262,8 +265,8 @@
 <ul>
 <li>Use the intercept form:</li>
 </ul>
-<p>[ \frac{x}{2} + \frac{y}{-4} = 1 ]</p>
-<p>[ \frac{x}{2} - \frac{y}{4} = 1 ]</p>
+<p>[ (x / 2) + (y / -4) = 1 ]</p>
+<p>[ (x / 2) - (y / 4) = 1 ]</p>
 <ol>
 <li><strong>General Form:</strong></li>
 </ol>
@@ -299,14 +302,14 @@
 <li>For 2x + 3y = 6:</li>
 </ul>
 <p>[</p>
-<p>3y = -2x + 6 \implies y = -\frac{2}{3}x + 2</p>
+<p>3y = -2x + 6 y = -(2 / 3)x + 2</p>
 <p>]</p>
 <p>The slope m₁ = - 2 3.</p>
 <ul>
 <li>For 4x + 6y = 12:</li>
 </ul>
 <p>[</p>
-<p>6y = -4x + 12 \implies y = -\frac{2}{3}x + 2</p>
+<p>6y = -4x + 12 y = -(2 / 3)x + 2</p>
 <p>]</p>
 <p>The slope m₂ = - 2 3.</p>
 <ol>
@@ -321,21 +324,21 @@
 <li>For 3x - 2y = 5:</li>
 </ul>
 <p>[</p>
-<p>-2y = -3x + 5 \implies y = \frac{3}{2}x - \frac{5}{2}</p>
+<p>-2y = -3x + 5 y = (3 / 2)x - (5 / 2)</p>
 <p>]</p>
 <p>The slope m₁ = 3 2.</p>
 <ul>
 <li>For 6x - 4y = k:</li>
 </ul>
 <p>[</p>
-<p>-4y = -6x + k \implies y = \frac{3}{2}x - \frac{k}{4}</p>
+<p>-4y = -6x + k y = (3 / 2)x - (k / 4)</p>
 <p>]</p>
 <p>The slope m₂ = 3 2.</p>
 <ol>
 <li>Since the lines are parallel, m₁ = m₂:</li>
 </ol>
 <p>[</p>
-<p>\frac{3}{2} = \frac{3}{2} \implies k \text{ can be any value}</p>
+<p>(3 / 2) = (3 / 2) k can be any value</p>
 <p>]</p>
 <p>However, the problem is asking for the value of k such that the lines are parallel, which is already satisfied for any k. Thus, the specific value of k is not uniquely determined by the condition of parallelism alone.</p>
 <h3 id="sec-4-4-equations-of-parallel-lines-and-perpendicular-lines-to-the-given-lines">4.4. Equations of Parallel Lines and Perpendicular Lines to the Given Lines</h3>
@@ -348,7 +351,7 @@
 <li>Substitute (2, -1) into the equation:</li>
 </ol>
 <p>[</p>
-<p>3(2) - 4(-1) = d \implies 6 + 4 = d \implies d = 10</p>
+<p>3(2) - 4(-1) = d 6 + 4 = d d = 10</p>
 <p>]</p>
 <ol>
 <li>Therefore, the equation of the line is 3x - 4y = 10.</li>
@@ -362,7 +365,7 @@
 <li>Substitute (2, -1) into the equation:</li>
 </ol>
 <p>[</p>
-<p>-4(2) - 3(-1) = d \implies -8 + 3 = d \implies d = -5</p>
+<p>-4(2) - 3(-1) = d -8 + 3 = d d = -5</p>
 <p>]</p>
 <ol>
 <li>Therefore, the equation of the line is -4x - 3y = -5 or 4x + 3y = 5.</li>
@@ -375,14 +378,14 @@
 <li>For 2x + 3y = 6:</li>
 </ul>
 <p>[</p>
-<p>3y = -2x + 6 \implies y = -\frac{2}{3}x + 2</p>
+<p>3y = -2x + 6 y = -(2 / 3)x + 2</p>
 <p>]</p>
 <p>The slope m₁ = - 2 3.</p>
 <ul>
 <li>For 4x + 6y = 12:</li>
 </ul>
 <p>[</p>
-<p>6y = -4x + 12 \implies y = -\frac{2}{3}x + 2</p>
+<p>6y = -4x + 12 y = -(2 / 3)x + 2</p>
 <p>]</p>
 <p>The slope m₂ = - 2 3.</p>
 <ol>
@@ -394,31 +397,31 @@
 <p>The angle between two lines is the smallest angle formed between their directions. This angle is measured from one line to the other and is always between 0° and 180°.</p>
 <h4>Slope of a Line</h4>
 <p>The slope (m) of a line is defined as the tangent of the angle (θ) that the line makes with the positive x-axis. The slope can be calculated from the coordinates of any two points on the line using the formula:</p>
-<p>[ m = \frac{y_2 - y_1}{x_2 - x_1} ]</p>
+<p>[ m = (y₂ - y₁ / x₂ - x₁) ]</p>
 <h4>Angle Between Two Lines</h4>
 <p>The angle (θ) between two lines with slopes m₁ and m₂ can be found using the following formula:</p>
-<p>[ \tan \theta = \left| \frac{m_1 - m_2}{1 + m_1 m_2} \right| ]</p>
+<p>[ θ = | (m₁ - m₂ / 1 + m₁ m₂) | ]</p>
 <p>From this, the angle θ can be calculated as:</p>
-<p>[ \theta = \tan^{-1} \left( \left| \frac{m_1 - m_2}{1 + m_1 m_2} \right| \right) ]</p>
+<p>[ θ = ⁻¹ ( | (m₁ - m₂ / 1 + m₁ m₂) | ) ]</p>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the angle between the lines with equations 2x - 3y + 5 = 0 and 4x + 6y - 7 = 0.</div>
 <ol>
 <li>First, find the slopes of both lines.</li>
 <li>The slope of the line 2x - 3y + 5 = 0 is:</li>
 </ol>
-<p>[ m_1 = \frac{2}{3} ]</p>
+<p>[ m₁ = (2 / 3) ]</p>
 <ol>
 <li>The slope of the line 4x + 6y - 7 = 0 is:</li>
 </ol>
-<p>[ m_2 = -\frac{4}{6} = -\frac{2}{3} ]</p>
+<p>[ m₂ = -(4 / 6) = -(2 / 3) ]</p>
 <ol>
 <li>Substitute these values into the formula for the angle between the lines:</li>
 </ol>
-<p>[ \tan \theta = \left| \frac{\frac{2}{3} - \left(-\frac{2}{3}\right)}{1 + \left(\frac{2}{3}\right)\left(-\frac{2}{3}\right)} \right| = \left| \frac{\frac{4}{3}}{1 - \frac{4}{9}} \right| = \left| \frac{\frac{4}{3}}{\frac{5}{9}} \right| = \left| \frac{4}{3} \times \frac{9}{5} \right| = \left| \frac{12}{5} \right| = \frac{12}{5} ]</p>
+<p>[ θ = | (2 / 3) - (-(2 / 3))1 + ((2 / 3))(-(2 / 3)) | = | (4 / 3)1 - (4 / 9) | = | (4 / 3)(5 / 9) | = | (4 / 3) × (9 / 5) | = | (12 / 5) | = (12 / 5) ]</p>
 <ol>
 <li>Therefore, the angle θ is:</li>
 </ol>
-<p>[ \theta = \tan^{-1} \left( \frac{12}{5} \right) ]</p>
+<p>[ θ = ⁻¹ ( (12 / 5) ) ]</p>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Lines] --&gt; B[Find Slopes]
@@ -433,24 +436,24 @@
 <h3 id="sec-4-6-equation-of-circle-with-center-and-radius">4.6. Equation of Circle with Center and Radius</h3>
 <h4>Definition</h4>
 <p>The general equation of a circle with center (h, k) and radius r is given by:</p>
-<p>[ (x - h)^2 + (y - k)^2 = r^2 ]</p>
+<p>[ (x - h)² + (y - k)² = r² ]</p>
 <h4>Standard Form</h4>
 <p>The standard form of the equation of a circle with center (h, k) and radius r is:</p>
-<p>[ (x - h)^2 + (y - k)^2 = r^2 ]</p>
+<p>[ (x - h)² + (y - k)² = r² ]</p>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the equation of the circle with center (3, -4) and radius 5.</div>
 <ol>
 <li>Use the standard form of the equation of a circle:</li>
 </ol>
-<p>[ (x - h)^2 + (y - k)^2 = r^2 ]</p>
+<p>[ (x - h)² + (y - k)² = r² ]</p>
 <ol>
 <li>Substitute h = 3, k = -4, and r = 5:</li>
 </ol>
-<p>[ (x - 3)^2 + (y + 4)^2 = 5^2 ]</p>
+<p>[ (x - 3)² + (y + 4)² = 5² ]</p>
 <ol>
 <li>Simplify the right-hand side:</li>
 </ol>
-<p>[ (x - 3)^2 + (y + 4)^2 = 25 ]</p>
+<p>[ (x - 3)² + (y + 4)² = 25 ]</p>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Circle] --&gt; B[Center and Radius]
@@ -472,39 +475,39 @@
 <h3 id="sec-4-7-general-equation-of-circle">4.7. General Equation of Circle</h3>
 <h4>Definition and Standard Form</h4>
 <p>A circle is the set of all points in a plane that are equidistant from a fixed point called the center. The distance from the center to any point on the circle is known as the radius. The general equation of a circle is given by the formula:</p>
-<p>[ x^2 + y^2 + 2gx + 2fy + c = 0 ]</p>
+<p>[ x² + y² + 2gx + 2fy + c = 0 ]</p>
 <p>where g, f, and c are constants. This equation can be transformed into the standard form (x - h)² + (y - k)² = r² by completing the square.</p>
 <h4>Converting to Standard Form</h4>
 <p>To convert the general form to the standard form, follow these steps:</p>
 <ol>
 <li><strong>Group the x and y terms:</strong></li>
 </ol>
-<p>[ x^2 + 2gx + y^2 + 2fy + c = 0 ]</p>
+<p>[ x² + 2gx + y² + 2fy + c = 0 ]</p>
 <ol>
 <li><strong>Complete the square for x and y:</strong></li>
 </ol>
-<p>[ (x^2 + 2gx) + (y^2 + 2fy) + c = 0 ]</p>
-<p>[ (x + g)^2 - g^2 + (y + f)^2 - f^2 + c = 0 ]</p>
-<p>[ (x + g)^2 + (y + f)^2 = g^2 + f^2 - c ]</p>
+<p>[ (x² + 2gx) + (y² + 2fy) + c = 0 ]</p>
+<p>[ (x + g)² - g² + (y + f)² - f² + c = 0 ]</p>
+<p>[ (x + g)² + (y + f)² = g² + f² - c ]</p>
 <ol>
 <li><strong>Identify the center and radius:</strong></li>
 </ol>
-<p>[ (x + g)^2 + (y + f)^2 = r^2 ]</p>
+<p>[ (x + g)² + (y + f)² = r² ]</p>
 <p>Here, the center of the circle is (-g, -f) and the radius r is g² + f² - c.</p>
 <h4>Worked Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the center and radius of the circle given by the equation x² + y² - 6x + 4y - 12 = 0.</div>
 <ol>
 <li><strong>Group the x and y terms:</strong></li>
 </ol>
-<p>[ x^2 - 6x + y^2 + 4y = 12 ]</p>
+<p>[ x² - 6x + y² + 4y = 12 ]</p>
 <ol>
 <li><strong>Complete the square:</strong></li>
 </ol>
 <p>For x: x² - 6x becomes (x - 3)² - 9.</p>
 <p>For y: y² + 4y becomes (y + 2)² - 4.</p>
-<p>[ (x - 3)^2 - 9 + (y + 2)^2 - 4 = 12 ]</p>
-<p>[ (x - 3)^2 + (y + 2)^2 - 13 = 12 ]</p>
-<p>[ (x - 3)^2 + (y + 2)^2 = 25 ]</p>
+<p>[ (x - 3)² - 9 + (y + 2)² - 4 = 12 ]</p>
+<p>[ (x - 3)² + (y + 2)² - 13 = 12 ]</p>
+<p>[ (x - 3)² + (y + 2)² = 25 ]</p>
 <ol>
 <li><strong>Identify the center and radius:</strong></li>
 </ol>
@@ -524,13 +527,13 @@
 <li><strong>Equation of the Tangent:</strong></li>
 </ol>
 <p>The equation of the tangent at (x₁, y₁) is given by:</p>
-<p>[ xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0 ]</p>
+<p>[ xx₁ + yy₁ + g(x + x₁) + f(y + y₁) + c = 0 ]</p>
 <ol>
 <li><strong>Equation of the Normal:</strong></li>
 </ol>
 <p>The equation of the normal at (x₁, y₁) can be found by using the slope of the tangent. The slope of the tangent is - g + x₁ f + y₁, so the slope of the normal is the negative reciprocal, which is f + y₁ g + x₁.</p>
 <p>The equation of the normal is:</p>
-<p>[ y - y_1 = \frac{f + y_1}{g + x_1} (x - x_1) ]</p>
+<p>[ y - y₁ = (f + y₁ / g + x₁) (x - x₁) ]</p>
 <h4>Worked Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the equation of the tangent and normal to the circle x² + y² - 6x + 4y - 12 = 0 at the point (5, 2).</div>
 <ol>
@@ -546,7 +549,7 @@
 </ol>
 <p>The slope of the tangent at (5, 2) is - -3 2 = 3 2. The slope of the normal is - 2 3.</p>
 <p>The equation of the normal is:</p>
-<p>[ y - 2 = -\frac{2}{3} (x - 5) ]</p>
+<p>[ y - 2 = -(2 / 3) (x - 5) ]</p>
 <p>[ 3(y - 2) = -2(x - 5) ]</p>
 <p>[ 3y - 6 = -2x + 10 ]</p>
 <p>[ 2x + 3y - 16 = 0 ]</p>
@@ -554,22 +557,22 @@
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
  A[General Equation] --&gt; B[Convert to Standard Form]
  B --&gt; C[Identify Center and Radius]
- C --&gt; D[Example: Center and Radius]
+ C --&gt; D[&quot;Example: Center and Radius&quot;]
  D --&gt; E[Tangent Equation]
  E --&gt; F[Normal Equation]
- F --&gt; G[Example: Tangent and Normal]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ F --&gt; G[&quot;Example: Tangent and Normal&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
  A[General Equation] --&gt; B[Convert to Standard Form]
  B --&gt; C[Identify Center and Radius]
- C --&gt; D[Example: Center and Radius]
+ C --&gt; D[&quot;Example: Center and Radius&quot;]
  D --&gt; E[Tangent Equation]
  E --&gt; F[Normal Equation]
- F --&gt; G[Example: Tangent and Normal]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ F --&gt; G[&quot;Example: Tangent and Normal&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart LR
  A[General Equation] --&gt; B[Convert to Standard Form]
  B --&gt; C[Identify Center and Radius]
- C --&gt; D[Example: Center and Radius]
+ C --&gt; D[&quot;Example: Center and Radius&quot;]
  D --&gt; E[Tangent Equation]
  E --&gt; F[Normal Equation]
- F --&gt; G[Example: Tangent and Normal]</pre></noscript></div>
+ F --&gt; G[&quot;Example: Tangent and Normal&quot;]</pre></noscript></div>
 <p>This flowchart illustrates the process from the general form to finding the center and radius, and then to deriving the equations of the tangent and normal.</p>
 
         <nav class="kb-pn no-print"><a class="pn-btn" href="unit-3.html"><i class="fas fa-chevron-left"></i> Unit 3</a><span class="pn-btn disabled">Unit – Coordinate Geometry</span></nav>
@@ -657,12 +660,26 @@
   (function () {
     function init() {
       if (!window.mermaid) return;
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, curve: 'basis' } });
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, useMaxWidth: true, curve: 'basis', nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
       var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
       nodes.forEach(function (el) {
         if (el.dataset.kbMermaidRun) return;
         el.dataset.kbMermaidRun = '1';
-        mermaid.run({ nodes: [el] }).catch(function () {
+        function fitDiagram() {
+          var svg = el.querySelector('svg');
+          if (!svg) return;
+          var vb = svg.viewBox && svg.viewBox.baseVal;
+          if (vb && vb.width && vb.height) {
+            svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            svg.setAttribute('width', '100%');
+            svg.removeAttribute('height');
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+            svg.style.maxWidth = '100%';
+            svg.style.overflow = 'visible';
+          }
+        }
+        mermaid.run({ nodes: [el] }).then(fitDiagram).catch(function () {
           el.classList.add('mermaid-failed');
           el.innerHTML = '<div style="padding:8px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>';
         });

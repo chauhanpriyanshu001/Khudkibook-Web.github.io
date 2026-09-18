@@ -111,6 +111,21 @@
       @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
     }
   </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q14JJGGSPR');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yha6xlt986");
+  </script>
 </head>
 <body>
   <nav id="nav" class="navbar-root no-print"></nav>
@@ -251,13 +266,13 @@
 <h4><strong>Example:</strong></h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A biomedical engineer is required to select a suitable yarn for a new biomedical application. The application requires a strong, durable, and biocompatible material. The engineer decides to use <strong>polyester yarn</strong> because it is strong, durable, and resistant to abrasion, making it suitable for use in surgical sutures.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Polyester Yarn] --&gt; B[Strong, Durable, Abrasion Resistant]
+ A[Polyester Yarn] --&gt; B['Strong, Durable, Abrasion Resistant']
  A --&gt; C[Biocompatible]
  A --&gt; D[Surgical Sutures]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Polyester Yarn] --&gt; B[Strong, Durable, Abrasion Resistant]
+ A[Polyester Yarn] --&gt; B['Strong, Durable, Abrasion Resistant']
  A --&gt; C[Biocompatible]
  A --&gt; D[Surgical Sutures]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Polyester Yarn] --&gt; B[Strong, Durable, Abrasion Resistant]
+ A[Polyester Yarn] --&gt; B['Strong, Durable, Abrasion Resistant']
  A --&gt; C[Biocompatible]
  A --&gt; D[Surgical Sutures]</pre></noscript></div>
 <p>This diagram illustrates the properties and applications of polyester yarn.</p>
@@ -283,9 +298,9 @@
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A biomedical engineer is designing a surgical mesh that requires a specific strength and flexibility. The engineer decides to use a yarn with a twist of 20 twists per inch. To verify this decision, the engineer measures the twist by cutting a 1-inch segment of the yarn and counting the number of twists. If the yarn has 20 twists, the design is confirmed to be correct.</div>
 <h4>Calculation of Twist</h4>
 <p>The twist in yarn can be calculated using the formula:</p>
-<p>\[ \text{Twist (turns per inch)} = \frac{\text{Number of twists}}{\text{Length of yarn (inches)}} \]</p>
+<p>Twist (turns per inch) = (Number of twists / Length of yarn (inches))</p>
 <p>For instance, if a 6-inch segment of yarn has 120 twists, the twist can be calculated as:</p>
-<p>\[ \text{Twist} = \frac{120 \text{ twists}}{6 \text{ inches}} = 20 \text{ twists per inch} \]</p>
+<p>Twist = (120 twists / 6 inches) = 20 twists per inch</p>
 <h4>Sequence of Twist</h4>
 <p>To illustrate the sequence of twist, consider the following sequence diagram:</p>
 <div class="mermaid-wrap"><div class="mermaid">sequenceDiagram
@@ -326,30 +341,30 @@
 <li><strong>Linear Count (Nt)</strong>: This unit is based on the weight of 1 meter of yarn. The higher the Nt value, the finer the yarn.</li>
 </ul>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />Suppose we have a yarn with a circular count of 40 Ne. This means that 1000 meters of this yarn weighs 40 grams. If we wanted to find the linear count of this yarn, we would use the following calculation:<br /><br />\[<br />\text{Linear Count (Nt)} = \frac{\text{Circular Count (Ne)}}{1000}<br />\]<br /><br />\[<br />\text{Linear Count (Nt)} = \frac{40}{1000} = 0.04 \, \text{grams per meter}<br />\]<br /><br />Therefore, a yarn with a circular count of 40 Ne has a linear count of 0.04 grams per meter.</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />Suppose we have a yarn with a circular count of 40 Ne. This means that 1000 meters of this yarn weighs 40 grams. If we wanted to find the linear count of this yarn, we would use the following calculation:<br /><br />[<br />Linear Count (Nt) = (Circular Count (Ne) / 1000)<br />]<br /><br />[<br />Linear Count (Nt) = (40 / 1000) = 0.04 \, grams per meter<br />]<br /><br />Therefore, a yarn with a circular count of 40 Ne has a linear count of 0.04 grams per meter.</div>
 <h4>Flowchart for Converting Yarn Count Units</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Input: Circular Count (Ne)] --&gt; B[1000]
- B --&gt; C[Output: Linear Count (Nt)]
+ A['Input: Circular Count (Ne)'] --&gt; B[1000]
+ B --&gt; C['Output: Linear Count (Nt)']
  A --&gt; D[1]
  D --&gt; C
- C --&gt; E[Output: Linear Count (Nt)]
+ C --&gt; E['Output: Linear Count (Nt)']
  E --&gt; F[grams per meter]
  C --&gt; G[grams per 1000 meters]
  G --&gt; H[grams per meter]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Input: Circular Count (Ne)] --&gt; B[1000]
- B --&gt; C[Output: Linear Count (Nt)]
+ A['Input: Circular Count (Ne)'] --&gt; B[1000]
+ B --&gt; C['Output: Linear Count (Nt)']
  A --&gt; D[1]
  D --&gt; C
- C --&gt; E[Output: Linear Count (Nt)]
+ C --&gt; E['Output: Linear Count (Nt)']
  E --&gt; F[grams per meter]
  C --&gt; G[grams per 1000 meters]
  G --&gt; H[grams per meter]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Input: Circular Count (Ne)] --&gt; B[1000]
- B --&gt; C[Output: Linear Count (Nt)]
+ A['Input: Circular Count (Ne)'] --&gt; B[1000]
+ B --&gt; C['Output: Linear Count (Nt)']
  A --&gt; D[1]
  D --&gt; C
- C --&gt; E[Output: Linear Count (Nt)]
+ C --&gt; E['Output: Linear Count (Nt)']
  E --&gt; F[grams per meter]
  C --&gt; G[grams per 1000 meters]
  G --&gt; H[grams per meter]</pre></noscript></div>

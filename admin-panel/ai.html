@@ -97,6 +97,9 @@
         .catalog-table .actions button, .catalog-table .actions select { font-size: .72rem; padding: 5px 10px; border-radius: 8px; border: 1px solid var(--border); background: transparent; color: var(--text); cursor: pointer; }
         .catalog-table .actions button:hover { background: var(--accent); color: #000; }
         .catalog-table .actions button:disabled { opacity: .4; cursor: not-allowed; }
+        .quality-badge { display:inline-flex; align-items:center; gap:4px; cursor:help; }
+        .quality-badge.ready { color:#7ee787; border-color:rgba(126,231,135,.35); }
+        .quality-badge.review { color:#ffb86b; border-color:rgba(255,184,107,.4); }
         .unit-chips { display: flex; flex-wrap: wrap; gap: 4px; max-width: 280px; }
         .unit-chip { display: inline-flex; align-items: center; gap: 3px; font-size: .66rem; font-weight: 700; padding: 3px 7px; border-radius: 7px; border: 1px dashed var(--border); color: var(--text-muted); }
         .unit-chip.done { border-style: solid; border-color: var(--accent); color: var(--accent); background: rgba(255,157,0,.07); text-decoration: none; cursor: pointer; }
@@ -536,6 +539,8 @@
             if (s.hasPapers) badges.push('<span class="badge">Papers</span>');
             if (s.unitsKnown) badges.push(`<span class="badge ai">${s.unitCount} units</span>`);
             if (s.aiFull) badges.push('<span class="badge ai">Full Book ✓</span>');
+            const q = s.quality || {};
+            badges.push(`<span class="badge quality-badge ${q.status === 'ready' ? 'ready' : 'review'}" title="${(q.issues || []).join(', ') || 'No raw formula, diagram, cover, or overview issues detected'}"><i class="fas fa-${q.status === 'ready' ? 'shield-check' : 'triangle-exclamation'}"></i> ${q.status === 'ready' ? 'Quality OK' : 'Review'}</span>`);
             const count = Math.max(1, s.unitCount || 0);
             const hasSel = s.unitsKnown && count > 0;
             const opt = hasSel ? Array.from({ length: count }, (_, i) => i + 1).map(n => `<option value="${n}">Unit ${n}</option>`).join('') : '';

@@ -72,9 +72,10 @@
     .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
     .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
     /* mermaid */
-    .kb-article .mermaid-wrap{margin:16px 0}
-    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-    .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+    .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+    .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+    .kb-article .mermaid svg foreignObject{overflow:visible}
     .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
     .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
     .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
@@ -157,6 +158,9 @@
         <h4>Chapters</h4>
         <a class="toc-item " href="unit-1.html"><i class="fas fa-book-open"></i> Unit – Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.</a>
 <a class="toc-item " href="unit-2.html"><i class="fas fa-book-open"></i> Unit – Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve</a>
+<a class="toc-item toc-active" href="unit-3.html"><i class="fas fa-book-open"></i> Unit – General Properties of Matter 3.a Explain the Hooke’s law, stress- strain curve and moduli of elasticity. 3.b Explain surface tension, cohesive and adhesive forces.</a>
+<a class="toc-item " href="unit-4.html"><i class="fas fa-book-open"></i> Unit – Heat and Thermometry 4.a Distinguish between heat and temperature. 4.b Explain modes of heat transmission. 4.c Explain various temperature scales and conversion between</a>
+<a class="toc-item " href="unit-5.html"><i class="fas fa-book-open"></i> Unit – Wave motion and its applications 5.a Explain wave and wave motion with example. 5.b Distinguish between longitudinal and transverse</a>
         <h4>In this chapter</h4>
         <a class="toc-item toc-sec" href="#sec-3-1-elasticity"><i class="fas fa-chevron-right"></i> 3.1. Elasticity</a>
 <a class="toc-item toc-sec" href="#sec-3-1-2-stress-strain-with-their-types"><i class="fas fa-chevron-right"></i> 3.1.2. Stress-Strain with their Types</a>
@@ -197,14 +201,14 @@
 <li>Spring constant (k) = 200 N/m</li>
 </ul>
 <p>We know from Hooke’s law that the extension (x) of the spring is given by:</p>
-<p>[ x = \frac{F}{k} ]</p>
+<p>[ x = (F / k) ]</p>
 <p>Substituting the given values:</p>
-<p>[ x = \frac{10 \, \text{N}}{200 \, \text{N/m}} = 0.05 \, \text{m} ]</p>
+<p>[ x = (10 \, N / 200 \, N/m) = 0.05 \, m ]</p>
 <p>So, the extension in the spring is 0.05 m.</p>
 <h3 id="sec-3-1-2-stress-strain-with-their-types">3.1.2. Stress-Strain with their Types</h3>
 <h4>3.1.2.1. Stress</h4>
 <p><strong>Stress:</strong> It is the internal force per unit area within a material that arises due to external forces. The units of stress are N/m² or Pa (Pascal).</p>
-<p>[ \text{Stress} = \frac{\text{Force}}{\text{Area}} ]</p>
+<p>[ Stress = (Force / Area) ]</p>
 <h4>3.1.2.2. Types of Stress</h4>
 <ul>
 <li><strong>Tensile Stress:</strong> Force that tends to stretch or elongate a material.</li>
@@ -213,7 +217,7 @@
 </ul>
 <h4>3.1.2.3. Strain</h4>
 <p><strong>Strain:</strong> It is the measure of deformation of a body. It is dimensionless and is defined as the ratio of change in dimension to the original dimension.</p>
-<p>[ \text{Strain} = \frac{\text{Change in Dimension}}{\text{Original Dimension}} ]</p>
+<p>[ Strain = (Change in Dimension / Original Dimension) ]</p>
 <h4>3.1.2.4. Types of Strain</h4>
 <ul>
 <li><strong>Tensile Strain:</strong> Strain due to tensile stress.</li>
@@ -228,7 +232,7 @@
 <li>Change in length (ΔL) = 0.5 cm = 0.005 m</li>
 </ul>
 <p>Tensile strain (ε) is given by:</p>
-<p>[ \varepsilon = \frac{\Delta L}{L} = \frac{0.005 \, \text{m}}{10 \, \text{m}} = 0.0005 ]</p>
+<p>[ = (Δ L / L) = (0.005 \, m / 10 \, m) = 0.0005 ]</p>
 <p>So, the tensile strain is 0.0005.</p>
 <h3 id="sec-3-1-3-hooke-s-law">3.1.3. Hooke’s Law</h3>
 <div class="ad-slot-wrapper no-print ad-inarticle">
@@ -253,15 +257,15 @@
 <li>Force (F) = 75 N</li>
 </ul>
 <p>Using Hooke’s law:</p>
-<p>[ x = \frac{F}{k} = \frac{75 \, \text{N}}{150 \, \text{N/m}} = 0.5 \, \text{m} ]</p>
+<p>[ x = (F / k) = (75 \, N / 150 \, N/m) = 0.5 \, m ]</p>
 <p>So, the extension of the spring is 0.5 m.</p>
 <h3 id="sec-3-1-4-moduli-of-elasticity-young-s-modulus-bulk-modulus-shear-modulus">3.1.4. Moduli of Elasticity, Young’s Modulus, Bulk Modulus, Shear Modulus</h3>
 <h4>3.1.4.1. Young’s Modulus</h4>
 <p><strong>Young’s Modulus (E):</strong> It is a measure of a material’s stiffness or resistance to tensile deformation. It is defined as the ratio of tensile stress to tensile strain.</p>
-<p>[ E = \frac{\text{Tensile Stress}}{\text{Tensile Strain}} ]</p>
+<p>[ E = (Tensile Stress / Tensile Strain) ]</p>
 <h4>3.1.4.2. Bulk Modulus</h4>
 <p><strong>Bulk Modulus (K):</strong> It is a measure of a material’s resistance to uniform compression. It is defined as the ratio of volumetric stress to volumetric strain.</p>
-<p>[ K = -\frac{\Delta p}{\Delta V / V} ]</p>
+<p>[ K = -(Δ p / Δ V / V) ]</p>
 <p>Where:</p>
 <ul>
 <li>Δ p is the change in pressure,</li>
@@ -270,7 +274,7 @@
 </ul>
 <h4>3.1.4.3. Shear Modulus</h4>
 <p><strong>Shear Modulus (G):</strong> It is a measure of a material’s resistance to shear deformation. It is defined as the ratio of shear stress to shear strain.</p>
-<p>[ G = \frac{\text{Shear Stress}}{\text{Shear Strain}} ]</p>
+<p>[ G = (Shear Stress / Shear Strain) ]</p>
 <h5>Example</h5>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A material has a Young’s modulus of 200 GPa and a Shear Modulus of 80 GPa. If a tensile stress of 100 MPa is applied, calculate the tensile strain and the shear strain.</div>
 <p>Given:</p>
@@ -280,16 +284,16 @@
 <li>Tensile Stress (σ) = 100 MPa</li>
 </ul>
 <p>Tensile strain (ε) is given by:</p>
-<p>[ \varepsilon = \frac{\sigma}{E} = \frac{100 \, \text{MPa}}{200,000 \, \text{MPa}} = 0.0005 ]</p>
+<p>[ = (σ / E) = (100 \, MPa / 200,000 \, MPa) = 0.0005 ]</p>
 <p>Shear strain (γ) is given by:</p>
-<p>[ \gamma = \frac{\sigma}{G} = \frac{100 \, \text{MPa}}{80,000 \, \text{MPa}} = 0.00125 ]</p>
+<p>[ γ = (σ / G) = (100 \, MPa / 80,000 \, MPa) = 0.00125 ]</p>
 <p>So, the tensile strain is 0.0005 and the shear strain is 0.00125.</p>
 <h3 id="sec-3-1-5-viscosity-coefficient-of-viscosity-terminal-velocity-and-stokes-law">3.1.5. Viscosity, Coefficient of Viscosity, Terminal Velocity, and Stokes’ Law</h3>
 <h4>3.1.5.1. Viscosity</h4>
 <p><strong>Viscosity:</strong> It is a measure of a fluid’s resistance to flow. It is the internal friction between different layers of a moving fluid.</p>
 <h4>3.1.5.2. Coefficient of Viscosity</h4>
 <p><strong>Coefficient of Viscosity (η):</strong> It is a measure of a fluid’s resistance to flow. It is defined as the ratio of the shear stress to the velocity gradient.</p>
-<p>[ \eta = \frac{\tau}{\frac{du}{dy}} ]</p>
+<p>[ = τ(du / dy) ]</p>
 <p>Where:</p>
 <ul>
 <li>τ is the shear stress,</li>
@@ -297,7 +301,7 @@
 </ul>
 <h4>3.1.5.3. Terminal Velocity</h4>
 <p><strong>Terminal Velocity:</strong> It is the constant velocity that a particle attains when the forces of drag and buoyancy balance the gravitational force. It is given by:</p>
-<p>[ v_t = \frac{2r^2 (\rho_f - \rho_p) g}{9 \eta} ]</p>
+<p>[ v_t = (2r² (_f - _p) g / 9) ]</p>
 <p>Where:</p>
 <ul>
 <li>r is the radius of the particle,</li>
@@ -308,7 +312,7 @@
 </ul>
 <h4>3.1.5.4. Stokes’ Law</h4>
 <p><strong>Stokes’ Law:</strong> It is used to calculate the terminal velocity of small spherical particles in a fluid. The law states that the drag force (F) on a spherical particle is directly proportional to the velocity of the particle and the viscosity of the fluid.</p>
-<p>[ F = 6 \pi \eta r v ]</p>
+<p>[ F = 6 π r v ]</p>
 <p>Where:</p>
 <ul>
 <li>r is the radius of the particle,</li>
@@ -326,8 +330,8 @@
 <li>Acceleration due to gravity (g) = 9.81 m/s²</li>
 </ul>
 <p>Using Stokes’ law:</p>
-<p>[ v_t = \frac{2r^2 (\rho_f - \rho_p) g}{9 \eta} = \frac{2 (0.5 \times 10^{-3})^2 (1000 - 1200) \times 9.81}{9 \times 0.001} ]</p>
-<p>[ v_t = \frac{2 \times (0.25 \times 10^{-6}) \times (-200) \times 9.81}{9 \times 0.001} = \frac{-0.000004905}{0.009} = -0.000545 \, \text{m/s} ]</p>
+<p>[ v_t = (2r² (_f - _p) g / 9) = 2 (0.5 × 10⁻³)² (1000 - 1200) × 9.819 × 0.001 ]</p>
+<p>[ v_t = 2 × (0.25 × 10⁻⁶) × (-200) × 9.819 × 0.001 = (-0.000004905 / 0.009) = -0.000545 \, m/s ]</p>
 <p>The negative sign indicates the direction of the velocity, but the magnitude of the terminal velocity is 0.000545 m/s.</p>
 <p>So, the terminal velocity of the particle is 0.000545 m/s.</p>
 <h3 id="sec-3-1-6-types-of-fluid-motion-and-reynolds-number">3.1.6. Types of Fluid Motion and Reynolds Number</h3>
@@ -338,7 +342,7 @@
 </ul>
 <h4>3.1.6.2. Reynolds Number</h4>
 <p><strong>Reynolds Number (Re):</strong> It is a dimensionless number used to predict flow patterns in different fluid flow situations. It is given by:</p>
-<p>[ Re = \frac{\rho v d}{\eta} ]</p>
+<p>[ Re = (v d / ) ]</p>
 <p>Where:</p>
 <ul>
 <li>is the density of the fluid,</li>
@@ -356,7 +360,7 @@
 <li>Viscosity () = 0.001 Pa·s</li>
 </ul>
 <p>Using the Reynolds number formula:</p>
-<p>[ Re = \frac{\rho v d}{\eta} = \frac{800 \times 2 \times 0.1}{0.001} = \frac{160}{0.001} = 160,000 ]</p>
+<p>[ Re = (v d / ) = (800 × 2 × 0.1 / 0.001) = (160 / 0.001) = 160,000 ]</p>
 <p>So, the Reynolds number is 160,000.</p>
 <p>This completes the detailed coverage of the syllabus topics for "General Properties of Matter" in the context of Applied Physics for GTU students.</p>
 <hr />
@@ -382,7 +386,7 @@
 <ul>
 <li><strong>Hooke's Law:</strong> A linear relationship between stress and strain, where the material returns to its original shape when the stress is removed. Mathematically, it can be expressed as:</li>
 </ul>
-<p>[ \text{Stress} = E \times \text{Strain} ]</p>
+<p>[ Stress = E × Strain ]</p>
 <p>Where E is the <strong>modulus of elasticity</strong>.</p>
 <h4>Elastic Limit and Yield Point</h4>
 <ul>
@@ -402,11 +406,11 @@
 </ul>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A steel rod with a cross-sectional area of 50 mm² is subjected to a tensile force of 1000 N. The original length of the rod is 1000 mm. The rod elongates by 0.2 mm under the applied force. Calculate the stress, strain, and the Young's modulus of the steel if the Young's modulus is known to be 200 GPa.<br /><br />- <strong>Stress (σ):</strong></div>
-<p>[ \sigma = \frac{\text{Force}}{\text{Area}} = \frac{1000 \, \text{N}}{50 \, \text{mm}^2} = 20 \, \text{N/mm}^2 = 20 \, \text{MPa} ]</p>
+<p>[ σ = (Force / Area) = (1000 \, N / 50 \, mm²) = 20 \, N/mm² = 20 \, MPa ]</p>
 <blockquote><br />- <strong>Strain (ε):</strong></blockquote>
-<p>[ \varepsilon = \frac{\Delta L}{L} = \frac{0.2 \, \text{mm}}{1000 \, \text{mm}} = 0.0002 ]</p>
+<p>[ = (Δ L / L) = (0.2 \, mm / 1000 \, mm) = 0.0002 ]</p>
 <blockquote><br />- <strong>Young's Modulus (E):</strong></blockquote>
-<p>[ E = \frac{\sigma}{\varepsilon} = \frac{20 \, \text{MPa}}{0.0002} = 100 \, \text{MPa} ]</p>
+<p>[ E = (σ / ) = (20 \, MPa / 0.0002) = 100 \, MPa ]</p>
 <blockquote><br />However, the known value of Young's Modulus for steel is 200 GPa (200,000 MPa), which indicates a discrepancy in the given data or calculation.</blockquote>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
@@ -433,7 +437,7 @@
 </ul>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A mercury drop has a surface tension of 0.48 N/m. If the radius of the drop is 2 mm, calculate the excess pressure inside the drop.<br /><br />- <strong>Excess Pressure (ΔP):</strong></div>
-<p>[ \Delta P = \frac{2 \times \text{Surface Tension}}{r} = \frac{2 \times 0.48 \, \text{N/m}}{0.002 \, \text{m}} = 480 \, \text{Pa} ]</p>
+<p>[ Δ P = (2 × Surface Tension / r) = (2 × 0.48 \, N/m / 0.002 \, m) = 480 \, Pa ]</p>
 <h3 id="sec-3-2-1-surface-tension-concept-and-units">3.2.1. Surface Tension; Concept and Units</h3>
 <h4>Concept</h4>
 <ul>
@@ -442,7 +446,7 @@
 </ul>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A drop of water (surface tension = 0.0728 N/m) is placed on a clean glass surface. If the contact angle is 0°, calculate the adhesion energy between the water and glass.<br /><br />- <strong>Adhesion Energy (E):</strong></div>
-<p>[ E = \text{Surface Tension} \times \text{Contact Angle} = 0.0728 \, \text{N/m} \times \cos(0°) = 0.0728 \, \text{N/m} ]</p>
+<p>[ E = Surface Tension × Contact Angle = 0.0728 \, N/m × (0°) = 0.0728 \, N/m ]</p>
 <h3 id="sec-3-2-2-cohesive-and-adhesive-forces">3.2.2. Cohesive and Adhesive Forces</h3>
 <h4>Cohesive Forces</h4>
 <ul>
@@ -456,7 +460,7 @@
 </ul>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A small piece of wax is placed on the surface of a glass of water. The contact angle between the wax and water is 70°. Calculate the adhesive energy between the wax and water.<br /><br />- <strong>Adhesive Energy (E):</strong></div>
-<p>[ E = \text{Surface Tension} \times \cos(\text{Contact Angle}) = 0.0728 \, \text{N/m} \times \cos(70°) = 0.025 \, \text{N/m} ]</p>
+<p>[ E = Surface Tension × (Contact Angle) = 0.0728 \, N/m × (70°) = 0.025 \, N/m ]</p>
 <h3 id="sec-3-2-3-molecular-range-and-sphere-of-influence">3.2.3. Molecular Range and Sphere of Influence</h3>
 <h4>Molecular Range</h4>
 <ul>
@@ -468,30 +472,30 @@
 </ul>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Consider a molecule of water in a liquid state. The cohesive forces are strongest within a distance of about 3 Å, while the adhesive forces extend up to 5 Å. Calculate the total range of interaction for this molecule.<br /><br />- <strong>Total Range of Interaction:</strong></div>
-<p>[ \text{Total Range} = \text{Cohesive Range} + \text{Adhesive Range} = 3 \, \text{Å} + 5 \, \text{Å} = 8 \, \text{Å} ]</p>
+<p>[ Total Range = Cohesive Range + Adhesive Range = 3 \, Å + 5 \, Å = 8 \, Å ]</p>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Molecular Range] --&gt; B[Cohesive Forces]
  A --&gt; C[Adhesive Forces]
  B --&gt; D[3 Å]
  C --&gt; E[5 Å]
- D --&gt; F[Total Range: 8 Å]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ D --&gt; F[&quot;Total Range: 8 Å&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Molecular Range] --&gt; B[Cohesive Forces]
  A --&gt; C[Adhesive Forces]
  B --&gt; D[3 Å]
  C --&gt; E[5 Å]
- D --&gt; F[Total Range: 8 Å]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ D --&gt; F[&quot;Total Range: 8 Å&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Molecular Range] --&gt; B[Cohesive Forces]
  A --&gt; C[Adhesive Forces]
  B --&gt; D[3 Å]
  C --&gt; E[5 Å]
- D --&gt; F[Total Range: 8 Å]</pre></noscript></div>
+ D --&gt; F[&quot;Total Range: 8 Å&quot;]</pre></noscript></div>
 <hr />
 <h3 id="sec-3-2-4-laplace-s-molecular-theory">3.2.4. Laplace’s Molecular Theory</h3>
 <p>Laplace’s molecular theory is a fundamental concept in surface science that explains the behavior of liquids and their interfaces. According to this theory, the pressure difference across a curved liquid surface can be explained by the molecular forces between the liquid and the surrounding medium.</p>
 <h4>Explanation of Laplace’s Molecular Theory</h4>
 <p><strong>Laplace’s Law:</strong> The pressure difference (Δ P) across a curved liquid surface is given by the equation:</p>
-<p>[ \Delta P = \frac{2 \sigma}{R} ]</p>
+<p>[ Δ P = (2 σ / R) ]</p>
 <p>where:</p>
 <ul>
 <li>σ is the surface tension of the liquid,</li>
@@ -507,7 +511,7 @@
 <li>Radius of curvature, R = 1 cm = 0.01 m</li>
 </ul>
 <p>Using Laplace's law:</p>
-<p>[ \Delta P = \frac{2 \times 0.072 \, \text{N/m}}{0.01 \, \text{m}} = 14.4 \, \text{Pa} ]</p>
+<p>[ Δ P = (2 × 0.072 \, N/m / 0.01 \, m) = 14.4 \, Pa ]</p>
 <p>So, the pressure difference across the surface of the droplet is 14.4 Pa.</p>
 <h3 id="sec-3-2-5-angle-of-contact-ascent-formula-no-derivation">3.2.5. Angle of Contact, Ascent Formula (No Derivation)</h3>
 <p>The angle of contact (θ) is the angle made by the liquid surface with the solid surface at the point of contact. It is a critical parameter in understanding the behavior of liquids on solid surfaces. The angle of contact can be used to determine whether a liquid will wet or not wet a solid surface.</p>
@@ -519,7 +523,7 @@
 </ul>
 <h4>Ascent Formula</h4>
 <p>The ascent formula is used to determine the height to which a liquid rises in a capillary tube. The formula is given by:</p>
-<p>[ h = \frac{2 \sigma \cos \theta}{\rho g d} ]</p>
+<p>[ h = (2 σ θ / g d) ]</p>
 <p>where:</p>
 <ul>
 <li>h is the height of the liquid column,</li>
@@ -541,15 +545,15 @@
 <li>Acceleration due to gravity, g = 9.8 m/s²</li>
 </ul>
 <p>Using the ascent formula:</p>
-<p>[ h = \frac{2 \times 0.072 \, \text{N/m} \times \cos 30^\circ}{1000 \, \text{kg/m}^3 \times 9.8 \, \text{m/s}^2 \times 0.0001 \, \text{m}} ]</p>
-<p>[ h = \frac{2 \times 0.072 \, \text{N/m} \times 0.866}{1000 \, \text{kg/m}^3 \times 9.8 \, \text{m/s}^2 \times 0.0001 \, \text{m}} ]</p>
-<p>[ h = \frac{0.12384}{0.098} \, \text{m} ]</p>
-<p>[ h = 1.264 \, \text{mm} ]</p>
+<p>[ h = (2 × 0.072 \, N/m × 30^ / 1000 \, kg/m³ × 9.8 \, m/s² × 0.0001 \, m) ]</p>
+<p>[ h = (2 × 0.072 \, N/m × 0.866 / 1000 \, kg/m³ × 9.8 \, m/s² × 0.0001 \, m) ]</p>
+<p>[ h = (0.12384 / 0.098) \, m ]</p>
+<p>[ h = 1.264 \, mm ]</p>
 <p>So, the height to which the liquid rises is 1.264 mm.</p>
 <h3 id="sec-3-2-6-surface-energy">3.2.6. Surface Energy</h3>
 <p>Surface energy is the energy required to create a new surface in a material. It is a measure of the strength of the intermolecular forces at the surface. The surface energy (γ) is defined as the energy required to increase the surface area of a liquid by one unit of area.</p>
 <h4>Definition of Surface Energy</h4>
-<p>[ \gamma = \frac{\Delta E}{\Delta A} ]</p>
+<p>[ γ = (Δ E / Δ A) ]</p>
 <p>where:</p>
 <ul>
 <li>Δ E is the change in energy,</li>
@@ -564,7 +568,7 @@
 <li>Change in surface area, Δ A = 10 m²</li>
 </ul>
 <p>Using the definition of surface energy:</p>
-<p>[ \gamma = \frac{150 \, \text{J}}{10 \, \text{m}^2} = 15 \, \text{J/m}^2 ]</p>
+<p>[ γ = (150 \, J / 10 \, m²) = 15 \, J/m² ]</p>
 <p>So, the surface energy of water is 15 J/m².</p>
 <h3 id="sec-3-2-7-applications-of-surface-tension">3.2.7. Applications of Surface Tension</h3>
 <p>Surface tension has numerous practical applications in various fields, including everyday phenomena and industrial processes. Some common applications include:</p>
@@ -584,11 +588,11 @@
 <li>Energy required, Δ E = 0.3 J</li>
 </ul>
 <p>Using the definition of surface energy:</p>
-<p>[ \gamma = \frac{\Delta E}{\Delta A} = \frac{0.3 \, \text{J}}{0.001 \, \text{m}^2} = 300 \, \text{J/m}^2 ]</p>
+<p>[ γ = (Δ E / Δ A) = (0.3 \, J / 0.001 \, m²) = 300 \, J/m² ]</p>
 <p>The efficiency of the soap solution can be calculated as:</p>
-<p>[ \text{Efficiency} = \frac{\gamma_{\text{solution}}}{\gamma_{\text{water}}} ]</p>
+<p>[ Efficiency = ᵢoₙ ]</p>
 <p>Assuming the surface tension of water is 0.072 N/m:</p>
-<p>[ \text{Efficiency} = \frac{300 \, \text{J/m}^2}{0.072 \, \text{N/m} \times 0.001 \, \text{m}^2} = \frac{300}{0.000072} = 4166.67\% ]</p>
+<p>[ Efficiency = (300 \, J/m² / 0.072 \, N/m × 0.001 \, m²) = (300 / 0.000072) = 4166.67\% ]</p>
 <p>So, the efficiency of the soap solution is 4166.67%.</p>
 <h3 id="sec-3-2-8-effect-of-temperature-and-impurity-on-surface-tension">3.2.8. Effect of Temperature and Impurity on Surface Tension</h3>
 <p>The surface tension of a liquid can be affected by changes in temperature and the presence of impurities. Generally, the surface tension decreases with an increase in temperature and increases with the addition of impurities.</p>
@@ -611,10 +615,10 @@
 <li>Surface tension at 30°C, σ₃₀ = 0.065 N/m</li>
 </ul>
 <p>Percentage change in surface tension:</p>
-<p>[ \text{Percentage change} = \left( \frac{\sigma_{20} - \sigma_{30}}{\sigma_{20}} \right) \times 100\% ]</p>
-<p>[ \text{Percentage change} = \left( \frac{0.07 \, \text{N/m} - 0.065 \, \text{N/m}}{0.07 \, \text{N/m}} \right) \times 100\% ]</p>
-<p>[ \text{Percentage change} = \left( \frac{0.005 \, \text{N/m}}{0.07 \, \text{N/m}} \right) \times 100\% ]</p>
-<p>[ \text{Percentage change} = 7.14\% ]</p>
+<p>[ Percentage change = ( σ₂₀ - σ₃₀σ₂₀ ) × 100\% ]</p>
+<p>[ Percentage change = ( (0.07 \, N/m - 0.065 \, N/m / 0.07 \, N/m) ) × 100\% ]</p>
+<p>[ Percentage change = ( (0.005 \, N/m / 0.07 \, N/m) ) × 100\% ]</p>
+<p>[ Percentage change = 7.14\% ]</p>
 <p>So, the surface tension decreases by 7.14% with an increase in temperature from 20°C to 30°C.</p>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A solution of salt in water has a surface tension of 0.07 N/m, while pure water has a surface tension of 0.072 N/m. Calculate the percentage increase in surface tension due to the addition of salt.</div>
 <p>Solution:</p>
@@ -624,10 +628,10 @@
 <li>Surface tension of pure water, = 0.072 N/m</li>
 </ul>
 <p>Percentage increase in surface tension:</p>
-<p>[ \text{Percentage increase} = \left( \frac{\sigma_{\text{solution}} - \sigma_{\text{water}}}{\sigma_{\text{water}}} \right) \times 100\% ]</p>
-<p>[ \text{Percentage increase} = \left( \frac{0.07 \, \text{N/m} - 0.072 \, \text{N/m}}{0.072 \, \text{N/m}} \right) \times 100\% ]</p>
-<p>[ \text{Percentage increase} = \left( \frac{-0.002 \, \text{N/m}}{0.072 \, \text{N/m}} \right) \times 100\% ]</p>
-<p>[ \text{Percentage increase} = -2.78\% ]</p>
+<p>[ Percentage increase = ( ᵢoₙ - ) × 100\% ]</p>
+<p>[ Percentage increase = ( (0.07 \, N/m - 0.072 \, N/m / 0.072 \, N/m) ) × 100\% ]</p>
+<p>[ Percentage increase = ( (-0.002 \, N/m / 0.072 \, N/m) ) × 100\% ]</p>
+<p>[ Percentage increase = -2.78\% ]</p>
 <p>So, the surface tension decreases by 2.78% due to the addition of salt.</p>
 <hr />
 <h3 id="sec-3-3-viscosity">3.3. Viscosity</h3>
@@ -638,7 +642,7 @@
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>The viscosity of water at 20°C is approximately 0.001 Pa·s or 1 cP.</div>
 <h4>3.3.2. Newton’s Law of Viscosity</h4>
 <p><strong>Newton’s Law of Viscosity:</strong> Newton's law of viscosity states that the shear stress (τ) between two layers of a fluid is directly proportional to the velocity gradient (dv/dy) between the layers. Mathematically, this can be expressed as:</p>
-<p>[ \tau = \eta \frac{dv}{dy} ]</p>
+<p>[ τ = (dv / dy) ]</p>
 <p>where:</p>
 <ul>
 <li>τ is the shear stress,</li>
@@ -647,10 +651,10 @@
 </ul>
 <p><strong>Example:</strong></p>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Consider a fluid flowing between two parallel plates separated by a distance y. If the upper plate is moved with a velocity v, the velocity gradient dv dy = v y. The shear stress τ at the interface between the fluid and the plate is given by:</div>
-<p>[ \tau = \eta \frac{v}{y} ]</p>
+<p>[ τ = (v / y) ]</p>
 <h4>3.3.3. Viscous Force, Velocity Gradient and Coefficient of Viscosity and its SI Units, Free Fall of an Object Through Viscous Medium and Terminal Velocity</h4>
 <p><strong>Viscous Force:</strong> The viscous force (F) acting on an object moving through a fluid is given by:</p>
-<p>[ F = 6 \pi \eta r v ]</p>
+<p>[ F = 6 π r v ]</p>
 <p>where:</p>
 <ul>
 <li>r is the radius of the object,</li>
@@ -661,7 +665,7 @@
 <p><strong>SI Units:</strong> The SI unit of the coefficient of viscosity is Pascal-second (Pa·s).</p>
 <p><strong>Free Fall Through Viscous Medium and Terminal Velocity:</strong> When an object is dropped in a viscous medium, it initially accelerates due to gravity. However, as it moves through the fluid, the viscous force opposes its motion. Eventually, the object reaches a constant velocity called the terminal velocity (v_t), where the viscous force equals the gravitational force.</p>
 <p>The terminal velocity v_t is given by:</p>
-<p>[ v_t = \frac{2mg}{9 \pi \eta r^2} ]</p>
+<p>[ v_t = (2mg / 9 π r²) ]</p>
 <p>where:</p>
 <ul>
 <li>m is the mass of the object,</li>
@@ -676,7 +680,7 @@
 <li>= 0.001 Pa·s</li>
 <li>r = 0.05 m</li>
 </ul>
-<p>[ v_t = \frac{2 \times 0.133 \times 9.81}{9 \pi \times 0.001 \times (0.05)^2} = \frac{2.61}{0.000785} = 333.56 \text{ m/s} ]</p>
+<p>[ v_t = (2 × 0.133 × 9.81 / 9 π × 0.001 × (0.05)²) = (2.61 / 0.000785) = 333.56 m/s ]</p>
 <h4>3.3.4. Types of Fluid Motion, Stream Line and Turbulent Flow, Critical Velocity, Reynold’s Number</h4>
 <p><strong>Types of Fluid Motion:</strong></p>
 <ul>
@@ -687,7 +691,7 @@
 <p><strong>Turbulent Flow:</strong> Turbulent flow is characterized by chaotic and irregular fluid motion, with a high velocity gradient and a large Reynolds number.</p>
 <p><strong>Critical Velocity:</strong> The critical velocity is the velocity at which the flow transitions from laminar to turbulent. It is a function of the Reynolds number (Re).</p>
 <p><strong>Reynold’s Number (Re):</strong> Reynolds number is a dimensionless number that helps predict flow patterns in different fluid flow situations. It is given by:</p>
-<p>[ Re = \frac{\rho v L}{\eta} ]</p>
+<p>[ Re = (v L / ) ]</p>
 <p>where:</p>
 <ul>
 <li>is the fluid density,</li>
@@ -711,7 +715,7 @@
  C --&gt; E[Chaotic and Irregular Path]</pre></noscript></div>
 <p><strong>Example:</strong></p>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Determine the Reynolds number for a flow of water through a pipe with a diameter of 0.1 m and a velocity of 2 m/s. The density of water is 1000 kg/m³ and the coefficient of viscosity of water is 0.001 Pa·s.</div>
-<p>[ Re = \frac{1000 \times 2 \times 0.1}{0.001} = 200000 ]</p>
+<p>[ Re = (1000 × 2 × 0.1 / 0.001) = 200000 ]</p>
 <p>Since Re > 2000, the flow is turbulent.</p>
 <p>This completes the detailed coverage of viscosity, its units, Newton's law of viscosity, and related concepts.</p>
 <hr />
@@ -719,7 +723,7 @@
 <h4>Definition and Explanation</h4>
 <p>Stokes’ law is a fundamental principle in fluid mechanics that describes the drag force exerted on a sphere moving through a viscous fluid. This law is crucial in understanding the behavior of small particles in fluids, such as in the sedimentation of colloidal particles or the movement of microorganisms in water.</p>
 <p><strong>Stokes’ Law:</strong> The drag force F_d on a small sphere of radius r moving at a velocity v through a fluid of dynamic viscosity  is given by:</p>
-<p>[ F_d = 6 \pi \eta r v ]</p>
+<p>[ F_d = 6 π r v ]</p>
 <h4>Derivation and Explanation</h4>
 <p>The derivation of Stokes’ law is based on the assumption that the flow around the sphere is laminar and the resistance to motion is primarily due to the viscous drag of the fluid. The derivation involves integrating the forces acting on the sphere over its surface.</p>
 <h4>Example</h4>
@@ -735,11 +739,11 @@
 <ol>
 <li><strong>Using Stokes’ law:</strong></li>
 </ol>
-<p>[ F_d = 6 \pi \eta r v ]</p>
-<p>[ F_d = 6 \pi (1 \times 10^{-3}) (1 \times 10^{-6}) (0.1) ]</p>
-<p>[ F_d = 6 \pi \times 1 \times 10^{-10} \times 0.1 ]</p>
-<p>[ F_d = 6 \pi \times 1 \times 10^{-11} ]</p>
-<p>[ F_d \approx 1.88 \times 10^{-10}\, \text{N} ]</p>
+<p>[ F_d = 6 π r v ]</p>
+<p>[ F_d = 6 π (1 × 10⁻³) (1 × 10⁻⁶) (0.1) ]</p>
+<p>[ F_d = 6 π × 1 × 10⁻¹⁰ × 0.1 ]</p>
+<p>[ F_d = 6 π × 1 × 10⁻¹¹ ]</p>
+<p>[ F_d ≈ 1.88 × 10⁻¹⁰\, N ]</p>
 <h4>Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Stokes' Law] --&gt; B[Drag Force]
@@ -762,12 +766,12 @@
 <ol>
 <li><strong>For liquids:</strong></li>
 </ol>
-<p>[ \mu_2 = \mu_1 \left(\frac{T_1}{T_2}\right)^n ]</p>
+<p>[ μ₂ = μ₁ ((T₁ / T₂))ⁿ ]</p>
 <p>where μ₁ and μ₂ are the viscosities at temperatures T₁ and T₂, and n is a temperature exponent, typically between 0.3 and 0.7.</p>
 <ol>
 <li><strong>For gases:</strong></li>
 </ol>
-<p>[ \mu_2 = \mu_1 \left(\frac{T_1}{T_2}\right)^{0.7} ]</p>
+<p>[ μ₂ = μ₁ ((T₁ / T₂))⁰.⁷ ]</p>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A liquid has a viscosity of 0.01 Pa·s at 20°C. Calculate its viscosity at 30°C, assuming n = 0.6.</div>
 <ol>
@@ -782,11 +786,11 @@
 <ol>
 <li><strong>Using the empirical equation:</strong></li>
 </ol>
-<p>[ \mu_2 = \mu_1 \left(\frac{T_1}{T_2}\right)^n ]</p>
-<p>[ \mu_2 = 0.01 \left(\frac{20}{30}\right)^{0.6} ]</p>
-<p>[ \mu_2 = 0.01 \left(\frac{2}{3}\right)^{0.6} ]</p>
-<p>[ \mu_2 = 0.01 \times 0.63096 ]</p>
-<p>[ \mu_2 \approx 0.00631\, \text{Pa·s} ]</p>
+<p>[ μ₂ = μ₁ ((T₁ / T₂))ⁿ ]</p>
+<p>[ μ₂ = 0.01 ((20 / 30))⁰.⁶ ]</p>
+<p>[ μ₂ = 0.01 ((2 / 3))⁰.⁶ ]</p>
+<p>[ μ₂ = 0.01 × 0.63096 ]</p>
+<p>[ μ₂ ≈ 0.00631\, Pa·s ]</p>
 <h4>Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Effect of Temperature] --&gt; B[Viscosity of Liquids]
@@ -838,11 +842,11 @@
 <ol>
 <li><strong>Calculate the percentage increase:</strong></li>
 </ol>
-<p>[ \text{Percentage Increase} = \left(\frac{\mu_2 - \mu_1}{\mu_1}\right) \times 100 ]</p>
-<p>[ \text{Percentage Increase} = \left(\frac{50 - 20}{20}\right) \times 100 ]</p>
-<p>[ \text{Percentage Increase} = \left(\frac{30}{20}\right) \times 100 ]</p>
-<p>[ \text{Percentage Increase} = 1.5 \times 100 ]</p>
-<p>[ \text{Percentage Increase} = 150\% ]</p>
+<p>[ Percentage Increase = ((μ₂ - μ₁ / μ₁)) × 100 ]</p>
+<p>[ Percentage Increase = ((50 - 20 / 20)) × 100 ]</p>
+<p>[ Percentage Increase = ((30 / 20)) × 100 ]</p>
+<p>[ Percentage Increase = 1.5 × 100 ]</p>
+<p>[ Percentage Increase = 150\% ]</p>
 <h4>Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Hydraulic System Applications] --&gt; B[Transmission Fluids]
@@ -950,12 +954,26 @@
   (function () {
     function init() {
       if (!window.mermaid) return;
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, curve: 'basis' } });
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, useMaxWidth: true, curve: 'basis', nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
       var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
       nodes.forEach(function (el) {
         if (el.dataset.kbMermaidRun) return;
         el.dataset.kbMermaidRun = '1';
-        mermaid.run({ nodes: [el] }).catch(function () {
+        function fitDiagram() {
+          var svg = el.querySelector('svg');
+          if (!svg) return;
+          var vb = svg.viewBox && svg.viewBox.baseVal;
+          if (vb && vb.width && vb.height) {
+            svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            svg.setAttribute('width', '100%');
+            svg.removeAttribute('height');
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+            svg.style.maxWidth = '100%';
+            svg.style.overflow = 'visible';
+          }
+        }
+        mermaid.run({ nodes: [el] }).then(fitDiagram).catch(function () {
           el.classList.add('mermaid-failed');
           el.innerHTML = '<div style="padding:8px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>';
         });

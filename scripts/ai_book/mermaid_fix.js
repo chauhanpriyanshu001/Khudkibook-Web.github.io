@@ -30,9 +30,29 @@ function repairSource(src) {
   s = s.split('\n').map(line => {
     if (!/^\s*(?:flowchart|graph)\b/i.test(s) && !/-->|==>|-\.-|---/.test(line)) return line;
     return line.replace(/([A-Za-z][A-Za-z0-9_]*)\[([^\]\n]*)\]/g, (m, id, label) => {
-      const clean = label.replace(/"/g, "'").trim();
+      let clean = label.trim();
+      // Older repairs emitted single quotes inside the node brackets. Mermaid
+      // treats those as visible text, which is why readers saw a leading
+      // apostrophe in labels such as 'Vertical Asymptote'. Strip only an
+      // outer quote pair; apostrophes inside normal prose remain intact.
+      if ((clean.startsWith("'") && clean.endsWith("'")) || (clean.startsWith('"') && clean.endsWith('"'))) {
+        clean = clean.slice(1, -1).trim();
+      }
+      clean = clean.replace(/"/g, '&quot;');
       if (!clean || /^\s*["'][\s\S]*["']\s*$/.test(clean)) return `${id}[${clean}]`;
-      return /[()[\]{}:;,/%#&/\\]/.test(clean) ? `${id}["${clean}"]` : `${id}[${clean}]`;
+      const needsQuotes = /[()[\]{}:;,/%#&/\\]/.test(clean) || clean.length > 30;
+      if (!needsQuotes) return `${id}[${clean}]`;
+      // Keep long labels inside the SVG viewport. htmlLabels is enabled by
+      // both readers, so <br/> produces a real line break rather than a
+      // literal tag.
+      const wrapped = clean.split(/\s+/).reduce((rows, word) => {
+        const last = rows[rows.length - 1] || '';
+        if (!rows.length) rows.push(word);
+        else if (last && `${last} ${word}`.length > 28) rows.push(word);
+        else rows[rows.length - 1] = `${last} ${word}`.trim();
+        return rows;
+      }, []).join('<br/>');
+      return `${id}["${wrapped}"]`;
     });
   }).join('\n');
 

@@ -6,7 +6,7 @@
  "title": "Unit – Shape",
  "url": "/books/310004/unit-9.html",
  "guUrl": null,
- "words": 3991,
+ "words": 3962,
  "readingMin": 22,
  "marks": "",
  "sections": [
@@ -34,11 +34,13 @@
   {
    "heading": "Steps to Draw a Square",
    "id": "",
-   "html": "<ol>\n<li><strong>Draw the First Side:</strong></li>\n</ol>\n<ul>\n<li>Draw a straight line segment of the desired length. Let's assume the length is 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Draw the Second Side:</strong></li>\n</ol>\n<ul>\n<li>At one end of the first line, draw a perpendicular line of the same length (5 cm) to form a right angle.</li>\n</ul>\n<ol>\n<li><strong>Draw the Third Side:</strong></li>\n</ol>\n<ul>\n<li>Connect the end of the second line to the opposite end of the first line to form another right angle.</li>\n</ul>\n<ol>\n<li><strong>Draw the Fourth Side:</strong></li>\n</ol>\n<ul>\n<li>Complete the square by connecting the remaining ends of the lines to form the fourth right angle.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Square] --> B[Side 1: 5 cm] --> C[Perpendicular Side 2: 5 cm] --> D[Right Angle] --> E[Side 3: 5 cm] --> F[Right Angle] --> G[Side 4: 5 cm] --> H[Complete Square]<br />```</div>",
+   "html": "<ol>\n<li><strong>Draw the First Side:</strong></li>\n</ol>\n<ul>\n<li>Draw a straight line segment of the desired length. Let's assume the length is 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Draw the Second Side:</strong></li>\n</ol>\n<ul>\n<li>At one end of the first line, draw a perpendicular line of the same length (5 cm) to form a right angle.</li>\n</ul>\n<ol>\n<li><strong>Draw the Third Side:</strong></li>\n</ol>\n<ul>\n<li>Connect the end of the second line to the opposite end of the first line to form another right angle.</li>\n</ul>\n<ol>\n<li><strong>Draw the Fourth Side:</strong></li>\n</ol>\n<ul>\n<li>Complete the square by connecting the remaining ends of the lines to form the fourth right angle.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /></div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Square] --&gt; B['Side 1: 5 cm'] --&gt; C['Perpendicular Side 2: 5 cm'] --&gt; D[Right Angle] --&gt; E['Side 3: 5 cm'] --&gt; F[Right Angle] --&gt; G['Side 4: 5 cm'] --&gt; H[Complete Square]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Square] --&gt; B['Side 1: 5 cm'] --&gt; C['Perpendicular Side 2: 5 cm'] --&gt; D[Right Angle] --&gt; E['Side 3: 5 cm'] --&gt; F[Right Angle] --&gt; G['Side 4: 5 cm'] --&gt; H[Complete Square]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Square] --&gt; B['Side 1: 5 cm'] --&gt; C['Perpendicular Side 2: 5 cm'] --&gt; D[Right Angle] --&gt; E['Side 3: 5 cm'] --&gt; F[Right Angle] --&gt; G['Side 4: 5 cm'] --&gt; H[Complete Square]</pre></noscript></div>",
    "examples": [
-    "```mermaid flowchart TD A[Square] --> B[Side 1: 5 cm] --> C[Perpendicular Side 2: 5 cm] --> D[Right Angle] --> E[Side 3: 5 cm] --> F[Right Angle] --> G[Side 4: 5 cm] --> H[Complete Square] ```"
+    ""
    ],
-   "mermaid": []
+   "mermaid": [
+    "flowchart TD\n A[Square] --> B[\"Side 1: 5 cm\"] --> C[\"Perpendicular Side 2: 5 cm\"] --> D[Right Angle] --> E[\"Side 3: 5 cm\"] --> F[Right Angle] --> G[\"Side 4: 5 cm\"] --> H[Complete Square]"
+   ]
   },
   {
    "heading": "Description",
@@ -50,11 +52,13 @@
   {
    "heading": "Steps to Draw a Circle",
    "id": "",
-   "html": "<ol>\n<li><strong>Mark the Center:</strong></li>\n</ol>\n<ul>\n<li>Place a dot at the center of the drawing area.</li>\n</ul>\n<ol>\n<li><strong>Set the Compass:</strong></li>\n</ol>\n<ul>\n<li>Adjust a compass to the desired radius, say 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Draw the Circle:</strong></li>\n</ol>\n<ul>\n<li>Place the compass point at the center and draw the circle by moving the pencil around the compass.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Circle] --> B[Mark Center] --> C[Set Compass to 5 cm] --> D[Draw Circle]<br />```</div>",
+   "html": "<ol>\n<li><strong>Mark the Center:</strong></li>\n</ol>\n<ul>\n<li>Place a dot at the center of the drawing area.</li>\n</ul>\n<ol>\n<li><strong>Set the Compass:</strong></li>\n</ol>\n<ul>\n<li>Adjust a compass to the desired radius, say 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Draw the Circle:</strong></li>\n</ol>\n<ul>\n<li>Place the compass point at the center and draw the circle by moving the pencil around the compass.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /></div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Circle] --&gt; B[Mark Center] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Circle]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Circle] --&gt; B[Mark Center] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Circle]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Circle] --&gt; B[Mark Center] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Circle]</pre></noscript></div>",
    "examples": [
-    "```mermaid flowchart TD A[Circle] --> B[Mark Center] --> C[Set Compass to 5 cm] --> D[Draw Circle] ```"
+    ""
    ],
-   "mermaid": []
+   "mermaid": [
+    "flowchart TD\n A[Circle] --> B[Mark Center] --> C[Set Compass to 5 cm] --> D[Draw Circle]"
+   ]
   },
   {
    "heading": "Description",
@@ -66,11 +70,13 @@
   {
    "heading": "Steps to Draw an Equilateral Triangle",
    "id": "",
-   "html": "<ol>\n<li><strong>Draw the First Side:</strong></li>\n</ol>\n<ul>\n<li>Draw a straight line segment of the desired length, say 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Draw the Second Side:</strong></li>\n</ol>\n<ul>\n<li>Using a compass, set the radius to the length of the first side (5 cm) and place the compass point at one end of the first side. Draw an arc intersecting the first side.</li>\n</ul>\n<ol>\n<li><strong>Draw the Third Side:</strong></li>\n</ol>\n<ul>\n<li>Repeat the previous step from the other end of the first side. The two arcs should intersect at a point.</li>\n</ul>\n<ol>\n<li><strong>Connect the Points:</strong></li>\n</ol>\n<ul>\n<li>Draw lines from the intersection point to the ends of the first side to complete the triangle.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Equilateral Triangle] --> B[First Side: 5 cm] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Connect to Complete Triangle]<br />```</div>",
+   "html": "<ol>\n<li><strong>Draw the First Side:</strong></li>\n</ol>\n<ul>\n<li>Draw a straight line segment of the desired length, say 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Draw the Second Side:</strong></li>\n</ol>\n<ul>\n<li>Using a compass, set the radius to the length of the first side (5 cm) and place the compass point at one end of the first side. Draw an arc intersecting the first side.</li>\n</ul>\n<ol>\n<li><strong>Draw the Third Side:</strong></li>\n</ol>\n<ul>\n<li>Repeat the previous step from the other end of the first side. The two arcs should intersect at a point.</li>\n</ul>\n<ol>\n<li><strong>Connect the Points:</strong></li>\n</ol>\n<ul>\n<li>Draw lines from the intersection point to the ends of the first side to complete the triangle.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /></div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Equilateral Triangle] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Connect to Complete Triangle]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Equilateral Triangle] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Connect to Complete Triangle]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Equilateral Triangle] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Connect to Complete Triangle]</pre></noscript></div>",
    "examples": [
-    "```mermaid flowchart TD A[Equilateral Triangle] --> B[First Side: 5 cm] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Connect to Complete Triangle] ```"
+    ""
    ],
-   "mermaid": []
+   "mermaid": [
+    "flowchart TD\n A[Equilateral Triangle] --> B[\"First Side: 5 cm\"] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Connect to Complete Triangle]"
+   ]
   },
   {
    "heading": "Description",
@@ -82,11 +88,13 @@
   {
    "heading": "Steps to Draw a Pentagon",
    "id": "",
-   "html": "<ol>\n<li><strong>Draw the First Side:</strong></li>\n</ol>\n<ul>\n<li>Draw a straight line segment of the desired length, say 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Set the Compass:</strong></li>\n</ol>\n<ul>\n<li>Adjust a compass to the length of the first side (5 cm).</li>\n</ul>\n<ol>\n<li><strong>Draw the Second Side:</strong></li>\n</ol>\n<ul>\n<li>Place the compass point at one end of the first side and draw an arc.</li>\n</ul>\n<ol>\n<li><strong>Draw the Third Side:</strong></li>\n</ol>\n<ul>\n<li>Repeat the previous step from the other end of the first side. The arcs should intersect at a point.</li>\n</ul>\n<ol>\n<li><strong>Continue Drawing the Remaining Sides:</strong></li>\n</ol>\n<ul>\n<li>Repeat the process to draw the remaining sides, ensuring each side is of the same length and the angles are approximately 108 degrees.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Pentagon] --> B[First Side: 5 cm] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Draw Third Side] --> H[Continue Drawing Remaining Sides]<br />```</div>\n<p>By following these steps, you can accurately draw the required shapes by hand. Practice these techniques to ensure precision and accuracy in your drawings, which is crucial in various engineering applications.</p>\n<hr />",
+   "html": "<ol>\n<li><strong>Draw the First Side:</strong></li>\n</ol>\n<ul>\n<li>Draw a straight line segment of the desired length, say 5 cm.</li>\n</ul>\n<ol>\n<li><strong>Set the Compass:</strong></li>\n</ol>\n<ul>\n<li>Adjust a compass to the length of the first side (5 cm).</li>\n</ul>\n<ol>\n<li><strong>Draw the Second Side:</strong></li>\n</ol>\n<ul>\n<li>Place the compass point at one end of the first side and draw an arc.</li>\n</ul>\n<ol>\n<li><strong>Draw the Third Side:</strong></li>\n</ol>\n<ul>\n<li>Repeat the previous step from the other end of the first side. The arcs should intersect at a point.</li>\n</ul>\n<ol>\n<li><strong>Continue Drawing the Remaining Sides:</strong></li>\n</ol>\n<ul>\n<li>Repeat the process to draw the remaining sides, ensuring each side is of the same length and the angles are approximately 108 degrees.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /></div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Pentagon] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Draw Third Side] --&gt; H[Continue Drawing Remaining Sides]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Pentagon] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Draw Third Side] --&gt; H[Continue Drawing Remaining Sides]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Pentagon] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Draw Third Side] --&gt; H[Continue Drawing Remaining Sides]</pre></noscript></div>\n<p>By following these steps, you can accurately draw the required shapes by hand. Practice these techniques to ensure precision and accuracy in your drawings, which is crucial in various engineering applications.</p>\n<hr />",
    "examples": [
-    "```mermaid flowchart TD A[Pentagon] --> B[First Side: 5 cm] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Draw Third Side] --> H[Continue Drawing Remaining Sides] ```"
+    ""
    ],
-   "mermaid": []
+   "mermaid": [
+    "flowchart TD\n A[Pentagon] --> B[\"First Side: 5 cm\"] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Draw Third Side] --> H[Continue Drawing Remaining Sides]"
+   ]
   },
   {
    "heading": "5.1.5. Hexagon",
@@ -112,19 +120,19 @@
   {
    "heading": "Example: Properties of a Regular Hexagon",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a regular hexagon with a side length of 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 6 × side length = 6 × 5 cm = 30 cm<br />- <strong>Area:</strong> Area = \\(\\frac{3\\sqrt{3}}{2} \\times (\\text{side length})^2 = \\frac{3\\sqrt{3}}{2} \\times (5)^2 = \\frac{3\\sqrt{3}}{2} \\times 25 = 36.74 \\, \\text{cm}^2\\)</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a regular hexagon with a side length of 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 6 × side length = 6 × 5 cm = 30 cm<br />- <strong>Area:</strong> Area = 332 × (side length)² = 332 × (5)² = 332 × 25 = 36.74 \\, cm²</div>",
    "examples": [
-    "Calculate the area and perimeter of a regular hexagon with a side length of 5 cm. **Solution:** - **Perimeter:** Perimeter = 6 × side length = 6 × 5 cm = 30 cm - **Area:** Area = \\(\\frac{3\\sqrt{3}}{2} \\times (\\text{side length})^2 = \\frac{3\\sqrt{3}}{2} \\times (5)^2 = \\frac{3\\sqrt{3}}{2} \\times 25 = 36.74 \\, \\text{cm}^2\\)"
+    "Calculate the area and perimeter of a regular hexagon with a side length of 5 cm. **Solution:** - **Perimeter:** Perimeter = 6 × side length = 6 × 5 cm = 30 cm - **Area:** Area = 332 × (side length)² = 332 × (5)² = 332 × 25 = 36.74 \\, cm²"
    ],
    "mermaid": []
   },
   {
    "heading": "Mermaid Diagram for Hexagon",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Regular Hexagon] --&gt; B[All sides equal]\n A --&gt; C[All angles equal (120 degrees)]\n B --&gt; D[Perimeter = 6 × side length]\n C --&gt; E[Area = (3√3/2) × (side length)^2]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Regular Hexagon] --&gt; B[All sides equal]\n A --&gt; C[All angles equal (120 degrees)]\n B --&gt; D[Perimeter = 6 × side length]\n C --&gt; E[Area = (3√3/2) × (side length)^2]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Regular Hexagon] --&gt; B[All sides equal]\n A --&gt; C[All angles equal (120 degrees)]\n B --&gt; D[Perimeter = 6 × side length]\n C --&gt; E[Area = (3√3/2) × (side length)^2]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Regular Hexagon] --&gt; B[All sides equal]\n A --&gt; C['All angles equal (120 degrees)']\n B --&gt; D[Perimeter = 6 × side length]\n C --&gt; E['Area = (3√3/2) × (side length)^2']</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Regular Hexagon] --&gt; B[All sides equal]\n A --&gt; C['All angles equal (120 degrees)']\n B --&gt; D[Perimeter = 6 × side length]\n C --&gt; E['Area = (3√3/2) × (side length)^2']</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Regular Hexagon] --&gt; B[All sides equal]\n A --&gt; C['All angles equal (120 degrees)']\n B --&gt; D[Perimeter = 6 × side length]\n C --&gt; E['Area = (3√3/2) × (side length)^2']</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Regular Hexagon] --> B[All sides equal]\n    A --> C[All angles equal (120 degrees)]\n    B --> D[Perimeter = 6 × side length]\n    C --> E[Area = (3√3/2) × (side length)^2]"
+    "flowchart TD\n A[Regular Hexagon] --> B[All sides equal]\n A --> C[\"All angles equal (120 degrees)\"]\n B --> D[Perimeter = 6 × side length]\n C --> E[\"Area = (3√3/2) × (side length)^2\"]"
    ]
   },
   {
@@ -151,19 +159,19 @@
   {
    "heading": "Example: Properties of a Regular Octagon",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a regular octagon with a side length of 4 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 8 × side length = 8 × 4 cm = 32 cm<br />- <strong>Area:</strong> Area = 2 × (1 + √2) × (\\text{side length})^2 = 2 × (1 + 1.414) × (4)^2 = 2 × 2.414 × 16 = 77.248 \\, \\text{cm}^2</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a regular octagon with a side length of 4 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 8 × side length = 8 × 4 cm = 32 cm<br />- <strong>Area:</strong> Area = 2 × (1 + √2) × (side length)² = 2 × (1 + 1.414) × (4)² = 2 × 2.414 × 16 = 77.248 \\, cm²</div>",
    "examples": [
-    "Calculate the area and perimeter of a regular octagon with a side length of 4 cm. **Solution:** - **Perimeter:** Perimeter = 8 × side length = 8 × 4 cm = 32 cm - **Area:** Area = 2 × (1 + √2) × (\\text{side length})^2 = 2 × (1 + 1.414) × (4)^2 = 2 × 2.414 × 16 = 77.248 \\, \\text{cm}^2"
+    "Calculate the area and perimeter of a regular octagon with a side length of 4 cm. **Solution:** - **Perimeter:** Perimeter = 8 × side length = 8 × 4 cm = 32 cm - **Area:** Area = 2 × (1 + √2) × (side length)² = 2 × (1 + 1.414) × (4)² = 2 × 2.414 × 16 = 77.248 \\, cm²"
    ],
    "mermaid": []
   },
   {
    "heading": "Mermaid Diagram for Octagon",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Regular Octagon] --&gt; B[All sides equal]\n A --&gt; C[All angles equal (135 degrees)]\n B --&gt; D[Perimeter = 8 × side length]\n C --&gt; E[Area = 2 × (1 + √2) × (side length)^2]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Regular Octagon] --&gt; B[All sides equal]\n A --&gt; C[All angles equal (135 degrees)]\n B --&gt; D[Perimeter = 8 × side length]\n C --&gt; E[Area = 2 × (1 + √2) × (side length)^2]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Regular Octagon] --&gt; B[All sides equal]\n A --&gt; C[All angles equal (135 degrees)]\n B --&gt; D[Perimeter = 8 × side length]\n C --&gt; E[Area = 2 × (1 + √2) × (side length)^2]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Regular Octagon] --&gt; B[All sides equal]\n A --&gt; C['All angles equal (135 degrees)']\n B --&gt; D[Perimeter = 8 × side length]\n C --&gt; E['Area = 2 × (1 + √2) × (side length)^2']</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Regular Octagon] --&gt; B[All sides equal]\n A --&gt; C['All angles equal (135 degrees)']\n B --&gt; D[Perimeter = 8 × side length]\n C --&gt; E['Area = 2 × (1 + √2) × (side length)^2']</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Regular Octagon] --&gt; B[All sides equal]\n A --&gt; C['All angles equal (135 degrees)']\n B --&gt; D[Perimeter = 8 × side length]\n C --&gt; E['Area = 2 × (1 + √2) × (side length)^2']</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Regular Octagon] --> B[All sides equal]\n    A --> C[All angles equal (135 degrees)]\n    B --> D[Perimeter = 8 × side length]\n    C --> E[Area = 2 × (1 + √2) × (side length)^2]"
+    "flowchart TD\n A[Regular Octagon] --> B[All sides equal]\n A --> C[\"All angles equal (135 degrees)\"]\n B --> D[Perimeter = 8 × side length]\n C --> E[\"Area = 2 × (1 + √2) × (side length)^2\"]"
    ]
   },
   {
@@ -183,19 +191,19 @@
   {
    "heading": "Example: Calculating Area and Perimeter of a Rectangle",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a rectangle with length 10 cm and width 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 2 × (length + width) = 2 × (10 + 5) cm = 30 cm<br />- <strong>Area:</strong> Area = length × width = 10 cm × 5 cm = 50 \\, \\text{cm}^2</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a rectangle with length 10 cm and width 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 2 × (length + width) = 2 × (10 + 5) cm = 30 cm<br />- <strong>Area:</strong> Area = length × width = 10 cm × 5 cm = 50 \\, cm²</div>",
    "examples": [
-    "Calculate the area and perimeter of a rectangle with length 10 cm and width 5 cm. **Solution:** - **Perimeter:** Perimeter = 2 × (length + width) = 2 × (10 + 5) cm = 30 cm - **Area:** Area = length × width = 10 cm × 5 cm = 50 \\, \\text{cm}^2"
+    "Calculate the area and perimeter of a rectangle with length 10 cm and width 5 cm. **Solution:** - **Perimeter:** Perimeter = 2 × (length + width) = 2 × (10 + 5) cm = 30 cm - **Area:** Area = length × width = 10 cm × 5 cm = 50 \\, cm²"
    ],
    "mermaid": []
   },
   {
    "heading": "Mermaid Diagram for Rectangle",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Rectangle] --&gt; B[Right Angles (90 degrees)]\n A --&gt; C[Opposite sides equal and parallel]\n B --&gt; D[Perimeter = 2 × (length + width)]\n C --&gt; E[Area = length × width]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Rectangle] --&gt; B[Right Angles (90 degrees)]\n A --&gt; C[Opposite sides equal and parallel]\n B --&gt; D[Perimeter = 2 × (length + width)]\n C --&gt; E[Area = length × width]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Rectangle] --&gt; B[Right Angles (90 degrees)]\n A --&gt; C[Opposite sides equal and parallel]\n B --&gt; D[Perimeter = 2 × (length + width)]\n C --&gt; E[Area = length × width]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Rectangle] --&gt; B['Right Angles (90 degrees)']\n A --&gt; C[Opposite sides equal and parallel]\n B --&gt; D['Perimeter = 2 × (length + width)']\n C --&gt; E[Area = length × width]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Rectangle] --&gt; B['Right Angles (90 degrees)']\n A --&gt; C[Opposite sides equal and parallel]\n B --&gt; D['Perimeter = 2 × (length + width)']\n C --&gt; E[Area = length × width]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Rectangle] --&gt; B['Right Angles (90 degrees)']\n A --&gt; C[Opposite sides equal and parallel]\n B --&gt; D['Perimeter = 2 × (length + width)']\n C --&gt; E[Area = length × width]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Rectangle] --> B[Right Angles (90 degrees)]\n    A --> C[Opposite sides equal and parallel]\n    B --> D[Perimeter = 2 × (length + width)]\n    C --> E[Area = length × width]"
+    "flowchart TD\n A[Rectangle] --> B[\"Right Angles (90 degrees)\"]\n A --> C[Opposite sides equal and parallel]\n B --> D[\"Perimeter = 2 × (length + width)\"]\n C --> E[Area = length × width]"
    ]
   },
   {
@@ -215,19 +223,19 @@
   {
    "heading": "Example: Calculating Area and Perimeter of a Parallelogram",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a parallelogram with base 8 cm, height 6 cm, and side length 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 2 × (base + side length) = 2 × (8 + 5) cm = 26 cm<br />- <strong>Area:</strong> Area = base × height = 8 cm × 6 cm = 48 \\, \\text{cm}^2</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the area and perimeter of a parallelogram with base 8 cm, height 6 cm, and side length 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 2 × (base + side length) = 2 × (8 + 5) cm = 26 cm<br />- <strong>Area:</strong> Area = base × height = 8 cm × 6 cm = 48 \\, cm²</div>",
    "examples": [
-    "Calculate the area and perimeter of a parallelogram with base 8 cm, height 6 cm, and side length 5 cm. **Solution:** - **Perimeter:** Perimeter = 2 × (base + side length) = 2 × (8 + 5) cm = 26 cm - **Area:** Area = base × height = 8 cm × 6 cm = 48 \\, \\text{cm}^2"
+    "Calculate the area and perimeter of a parallelogram with base 8 cm, height 6 cm, and side length 5 cm. **Solution:** - **Perimeter:** Perimeter = 2 × (base + side length) = 2 × (8 + 5) cm = 26 cm - **Area:** Area = base × height = 8 cm × 6 cm = 48 \\, cm²"
    ],
    "mermaid": []
   },
   {
    "heading": "Mermaid Diagram for Parallelogram",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Parallelogram] --&gt; B[Opposite sides equal and parallel]\n A --&gt; C[Opposite angles equal]\n B --&gt; D[Perimeter = 2 × (base + side length)]\n C --&gt; E[Area = base × height]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Parallelogram] --&gt; B[Opposite sides equal and parallel]\n A --&gt; C[Opposite angles equal]\n B --&gt; D[Perimeter = 2 × (base + side length)]\n C --&gt; E[Area = base × height]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Parallelogram] --&gt; B[Opposite sides equal and parallel]\n A --&gt; C[Opposite angles equal]\n B --&gt; D[Perimeter = 2 × (base + side length)]\n C --&gt; E[Area = base × height]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Parallelogram] --&gt; B[Opposite sides equal and parallel]\n A --&gt; C[Opposite angles equal]\n B --&gt; D['Perimeter = 2 × (base + side length)']\n C --&gt; E[Area = base × height]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Parallelogram] --&gt; B[Opposite sides equal and parallel]\n A --&gt; C[Opposite angles equal]\n B --&gt; D['Perimeter = 2 × (base + side length)']\n C --&gt; E[Area = base × height]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Parallelogram] --&gt; B[Opposite sides equal and parallel]\n A --&gt; C[Opposite angles equal]\n B --&gt; D['Perimeter = 2 × (base + side length)']\n C --&gt; E[Area = base × height]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Parallelogram] --> B[Opposite sides equal and parallel]\n    A --> C[Opposite angles equal]\n    B --> D[Perimeter = 2 × (base + side length)]\n    C --> E[Area = base × height]"
+    "flowchart TD\n A[Parallelogram] --> B[Opposite sides equal and parallel]\n A --> C[Opposite angles equal]\n B --> D[\"Perimeter = 2 × (base + side length)\"]\n C --> E[Area = base × height]"
    ]
   },
   {
@@ -257,7 +265,7 @@
    "html": "<p>The <strong>blood flow</strong> through the heart can be described using the following sequence:</p>\n<ol>\n<li><strong>Right atrium</strong> receives deoxygenated blood from the body.</li>\n<li>The <strong>tricuspid valve</strong> opens, allowing blood to flow into the <strong>right ventricle</strong>.</li>\n<li>The <strong>pulmonary valve</strong> closes, and the <strong>pulmonary valve</strong> opens, allowing blood to flow into the <strong>pulmonary artery</strong>.</li>\n<li>The <strong>pulmonary artery</strong> carries blood to the lungs for oxygenation.</li>\n<li>Oxygenated blood returns to the <strong>left atrium</strong> via the <strong>pulmonary veins</strong>.</li>\n<li>The <strong>mitral valve</strong> opens, allowing blood to flow into the <strong>left ventricle</strong>.</li>\n<li>The <strong>aortic valve</strong> opens, allowing oxygenated blood to flow into the <strong>aorta</strong>.</li>\n<li>The <strong>aorta</strong> distributes blood to the rest of the body.</li>\n</ol>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Right Atrium] --&gt; B[Tricuspid Valve Open] --&gt; C[Right Ventricle]\n C --&gt; D[Pulmonary Valve Open] --&gt; E[Pulmonary Artery]\n E --&gt; F[Lungs]\n F --&gt; G[Pulmonary Veins] --&gt; H[Left Atrium]\n H --&gt; I[Mitral Valve Open] --&gt; J[Left Ventricle]\n J --&gt; K[Aortic Valve Open] --&gt; L[Aorta]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Right Atrium] --&gt; B[Tricuspid Valve Open] --&gt; C[Right Ventricle]\n C --&gt; D[Pulmonary Valve Open] --&gt; E[Pulmonary Artery]\n E --&gt; F[Lungs]\n F --&gt; G[Pulmonary Veins] --&gt; H[Left Atrium]\n H --&gt; I[Mitral Valve Open] --&gt; J[Left Ventricle]\n J --&gt; K[Aortic Valve Open] --&gt; L[Aorta]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Right Atrium] --&gt; B[Tricuspid Valve Open] --&gt; C[Right Ventricle]\n C --&gt; D[Pulmonary Valve Open] --&gt; E[Pulmonary Artery]\n E --&gt; F[Lungs]\n F --&gt; G[Pulmonary Veins] --&gt; H[Left Atrium]\n H --&gt; I[Mitral Valve Open] --&gt; J[Left Ventricle]\n J --&gt; K[Aortic Valve Open] --&gt; L[Aorta]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Right Atrium] --> B[Tricuspid Valve Open] --> C[Right Ventricle]\n    C --> D[Pulmonary Valve Open] --> E[Pulmonary Artery]\n    E --> F[Lungs]\n    F --> G[Pulmonary Veins] --> H[Left Atrium]\n    H --> I[Mitral Valve Open] --> J[Left Ventricle]\n    J --> K[Aortic Valve Open] --> L[Aorta]"
+    "flowchart TD\n A[Right Atrium] --> B[Tricuspid Valve Open] --> C[Right Ventricle]\n C --> D[Pulmonary Valve Open] --> E[Pulmonary Artery]\n E --> F[Lungs]\n F --> G[Pulmonary Veins] --> H[Left Atrium]\n H --> I[Mitral Valve Open] --> J[Left Ventricle]\n J --> K[Aortic Valve Open] --> L[Aorta]"
    ]
   },
   {
@@ -286,7 +294,7 @@
   {
    "heading": "5.2.4.2. Worked Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A diamond has a <strong>princess cut</strong> with a total weight of 1.5 carats. If the price of the diamond is $50,000 per carat, calculate the total cost of the diamond.</div>\n<ul>\n<li><strong>Answer</strong>: The total cost of the diamond can be calculated as follows:</li>\n</ul>\n<p>\\[</p>\n<p>\\text{Total Cost} = \\text{Weight of the Diamond} \\times \\text{Price per Carat} = 1.5 \\, \\text{carats} \\times 50,000 \\, \\text{\\$/carat} = 75,000 \\, \\text{\\$}</p>\n<p>\\]</p>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A diamond has a <strong>princess cut</strong> with a total weight of 1.5 carats. If the price of the diamond is $50,000 per carat, calculate the total cost of the diamond.</div>\n<ul>\n<li><strong>Answer</strong>: The total cost of the diamond can be calculated as follows:</li>\n</ul>\n<p>[</p>\n<p>Total Cost = Weight of the Diamond × Price per Carat = 1.5 \\, carats × 50,000 \\, /carat = 75,000 \\, \\</p>\n<p>]</p>",
    "examples": [
     "A diamond has a **princess cut** with a total weight of 1.5 carats. If the price of the diamond is $50,000 per carat, calculate the total cost of the diamond."
    ],
@@ -309,7 +317,7 @@
   {
    "heading": "5.2.5.2. Worked Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A teardrop-shaped pendant has a length of 2 cm and a width of 1 cm at the widest point. If the pendant is made of a material with a density of 7.8 g/cm³, calculate the volume of the pendant.</div>\n<ul>\n<li><strong>Answer</strong>: To calculate the volume of the teardrop-shaped pendant, we can approximate it as a <strong>triangular prism</strong>. The volume \\( V \\) of a triangular prism is given by:</li>\n</ul>\n<p>\\[</p>\n<p>V = \\text{Base Area} \\times \\text{Height}</p>\n<p>\\]</p>\n<p>The base area of the triangle can be approximated using the formula for the area of a triangle:</p>\n<p>\\[</p>\n<p>\\text{Base Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}</p>\n<p>\\]</p>\n<p>Assuming the width (1 cm) is the base and the length (2 cm) is the height:</p>\n<p>\\[</p>\n<p>\\text{Base Area} = \\frac{1}{2} \\times 1 \\, \\text{cm} \\times 2 \\, \\text{cm} = 1 \\, \\text{cm}^2</p>\n<p>\\]</p>\n<p>Therefore, the volume of the pendant is:</p>\n<p>\\[</p>\n<p>V = 1 \\, \\text{cm}^2 \\times 2 \\, \\text{cm} = 2 \\, \\text{cm}^3</p>\n<p>\\]</p>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A teardrop-shaped pendant has a length of 2 cm and a width of 1 cm at the widest point. If the pendant is made of a material with a density of 7.8 g/cm³, calculate the volume of the pendant.</div>\n<ul>\n<li><strong>Answer</strong>: To calculate the volume of the teardrop-shaped pendant, we can approximate it as a <strong>triangular prism</strong>. The volume V of a triangular prism is given by:</li>\n</ul>\n<p>[</p>\n<p>V = Base Area × Height</p>\n<p>]</p>\n<p>The base area of the triangle can be approximated using the formula for the area of a triangle:</p>\n<p>[</p>\n<p>Base Area = (1 / 2) × base × height</p>\n<p>]</p>\n<p>Assuming the width (1 cm) is the base and the length (2 cm) is the height:</p>\n<p>[</p>\n<p>Base Area = (1 / 2) × 1 \\, cm × 2 \\, cm = 1 \\, cm²</p>\n<p>]</p>\n<p>Therefore, the volume of the pendant is:</p>\n<p>[</p>\n<p>V = 1 \\, cm² × 2 \\, cm = 2 \\, cm³</p>\n<p>]</p>",
    "examples": [
     "A teardrop-shaped pendant has a length of 2 cm and a width of 1 cm at the widest point. If the pendant is made of a material with a density of 7.8 g/cm³, calculate the volume of the pendant."
    ],
@@ -332,7 +340,7 @@
   {
    "heading": "5.2.6.2. Worked Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A marquis-shaped diamond has a length of 8 mm and a width of 5 mm at the widest point. If the diamond is 2 mm thick, calculate the volume of the diamond.</div>\n<ul>\n<li><strong>Answer</strong>: The volume \\( V \\) of a marquis-shaped diamond can be approximated as a <strong>rectangular prism</strong>. The volume is given by:</li>\n</ul>\n<p>\\[</p>\n<p>V = \\text{Length} \\times \\text{Width} \\times \\text{Height}</p>\n<p>\\]</p>\n<p>Substituting the given dimensions:</p>\n<p>\\[</p>\n<p>V = 8 \\, \\text{mm} \\times 5 \\, \\text{mm} \\times 2 \\, \\text{mm} = 80 \\, \\text{mm}^3</p>\n<p>\\]</p>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A marquis-shaped diamond has a length of 8 mm and a width of 5 mm at the widest point. If the diamond is 2 mm thick, calculate the volume of the diamond.</div>\n<ul>\n<li><strong>Answer</strong>: The volume V of a marquis-shaped diamond can be approximated as a <strong>rectangular prism</strong>. The volume is given by:</li>\n</ul>\n<p>[</p>\n<p>V = Length × Width × Height</p>\n<p>]</p>\n<p>Substituting the given dimensions:</p>\n<p>[</p>\n<p>V = 8 \\, mm × 5 \\, mm × 2 \\, mm = 80 \\, mm³</p>\n<p>]</p>",
    "examples": [
     "A marquis-shaped diamond has a length of 8 mm and a width of 5 mm at the widest point. If the diamond is 2 mm thick, calculate the volume of the diamond."
    ],
@@ -360,7 +368,7 @@
     "A dataset of 100 students' test scores is given as follows:"
    ],
    "mermaid": [
-    "graph TD\n    A[0-10] --> B[5]\n    B --> C[15]\n    C --> D[30]\n    D --> E[50]\n    E --> F[75]\n    F --> G[90]\n    G --> H[100]\n    H --> I[105]"
+    "graph TD\n A[0-10] --> B[5]\n B --> C[15]\n C --> D[30]\n D --> E[50]\n E --> F[75]\n F --> G[90]\n G --> H[100]\n H --> I[105]"
    ]
   },
   {
@@ -389,10 +397,10 @@
   {
    "heading": "Mermaid Diagram for Star-Shaped Implant Design",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Design] --&gt; B[Material Selection: Stainless Steel/Titanium]\n B --&gt; C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]\n C --&gt; D[Milling]\n D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Design] --&gt; B[Material Selection: Stainless Steel/Titanium]\n B --&gt; C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]\n C --&gt; D[Milling]\n D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Design] --&gt; B[Material Selection: Stainless Steel/Titanium]\n B --&gt; C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]\n C --&gt; D[Milling]\n D --&gt; E[Polishing]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Design] --&gt; B['Material Selection: Stainless Steel/Titanium']\n B --&gt; C['Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm']\n C --&gt; D[Milling]\n D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Design] --&gt; B['Material Selection: Stainless Steel/Titanium']\n B --&gt; C['Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm']\n C --&gt; D[Milling]\n D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Design] --&gt; B['Material Selection: Stainless Steel/Titanium']\n B --&gt; C['Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm']\n C --&gt; D[Milling]\n D --&gt; E[Polishing]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart LR\n    A[Design] --> B[Material Selection: Stainless Steel/Titanium]\n    B --> C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]\n    C --> D[Milling]\n    D --> E[Polishing]"
+    "flowchart LR\n A[Design] --> B[\"Material Selection: Stainless Steel/Titanium\"]\n B --> C[\"Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm\"]\n C --> D[Milling]\n D --> E[Polishing]"
    ]
   },
   {
@@ -421,10 +429,10 @@
   {
    "heading": "Mermaid Diagram for Paisley-Shaped Implant Design",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Design] --&gt; B[Material Selection: Titanium]\n B --&gt; C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]\n C --&gt; D[Casting]\n D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Design] --&gt; B[Material Selection: Titanium]\n B --&gt; C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]\n C --&gt; D[Casting]\n D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Design] --&gt; B[Material Selection: Titanium]\n B --&gt; C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]\n C --&gt; D[Casting]\n D --&gt; E[Polishing]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Design] --&gt; B['Material Selection: Titanium']\n B --&gt; C['Dimensions: Length 10mm, Width 5mm, Thickness 2mm']\n C --&gt; D[Casting]\n D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Design] --&gt; B['Material Selection: Titanium']\n B --&gt; C['Dimensions: Length 10mm, Width 5mm, Thickness 2mm']\n C --&gt; D[Casting]\n D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Design] --&gt; B['Material Selection: Titanium']\n B --&gt; C['Dimensions: Length 10mm, Width 5mm, Thickness 2mm']\n C --&gt; D[Casting]\n D --&gt; E[Polishing]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart LR\n    A[Design] --> B[Material Selection: Titanium]\n    B --> C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]\n    C --> D[Casting]\n    D --> E[Polishing]"
+    "flowchart LR\n A[Design] --> B[\"Material Selection: Titanium\"]\n B --> C[\"Dimensions: Length 10mm, Width 5mm, Thickness 2mm\"]\n C --> D[Casting]\n D --> E[Polishing]"
    ]
   },
   {
@@ -453,10 +461,10 @@
   {
    "heading": "Mermaid Diagram for Club-Shaped Implant Design",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Design] --&gt; B[Material Selection: Titanium]\n B --&gt; C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Design] --&gt; B[Material Selection: Titanium]\n B --&gt; C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Design] --&gt; B[Material Selection: Titanium]\n B --&gt; C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Design] --&gt; B['Material Selection: Titanium']\n B --&gt; C['Dimensions: Length 20mm, Width 10mm, Thickness 2mm']\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Design] --&gt; B['Material Selection: Titanium']\n B --&gt; C['Dimensions: Length 20mm, Width 10mm, Thickness 2mm']\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Design] --&gt; B['Material Selection: Titanium']\n B --&gt; C['Dimensions: Length 20mm, Width 10mm, Thickness 2mm']\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart LR\n    A[Design] --> B[Material Selection: Titanium]\n    B --> C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]\n    C --> D[Forging]\n    D --> E[Polishing]"
+    "flowchart LR\n A[Design] --> B[\"Material Selection: Titanium\"]\n B --> C[\"Dimensions: Length 20mm, Width 10mm, Thickness 2mm\"]\n C --> D[Forging]\n D --> E[Polishing]"
    ]
   },
   {
@@ -485,10 +493,10 @@
   {
    "heading": "Mermaid Diagram for Spade-Shaped Implant Design",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Design] --&gt; B[Material Selection: Stainless Steel]\n B --&gt; C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]\n C --&gt; D[Machining]\n D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Design] --&gt; B[Material Selection: Stainless Steel]\n B --&gt; C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]\n C --&gt; D[Machining]\n D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Design] --&gt; B[Material Selection: Stainless Steel]\n B --&gt; C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]\n C --&gt; D[Machining]\n D --&gt; E[Polishing]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Design] --&gt; B['Material Selection: Stainless Steel']\n B --&gt; C['Dimensions: Length 15mm, Width 8mm, Thickness 2mm']\n C --&gt; D[Machining]\n D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Design] --&gt; B['Material Selection: Stainless Steel']\n B --&gt; C['Dimensions: Length 15mm, Width 8mm, Thickness 2mm']\n C --&gt; D[Machining]\n D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Design] --&gt; B['Material Selection: Stainless Steel']\n B --&gt; C['Dimensions: Length 15mm, Width 8mm, Thickness 2mm']\n C --&gt; D[Machining]\n D --&gt; E[Polishing]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart LR\n    A[Design] --> B[Material Selection: Stainless Steel]\n    B --> C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]\n    C --> D[Machining]\n    D --> E[Polishing]"
+    "flowchart LR\n A[Design] --> B[\"Material Selection: Stainless Steel\"]\n B --> C[\"Dimensions: Length 15mm, Width 8mm, Thickness 2mm\"]\n C --> D[Machining]\n D --> E[Polishing]"
    ]
   },
   {
@@ -517,10 +525,10 @@
   {
    "heading": "Mermaid Diagram for Pear-Shaped Implant Design",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Design] --&gt; B[Material Selection: Titanium]\n B --&gt; C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Design] --&gt; B[Material Selection: Titanium]\n B --&gt; C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Design] --&gt; B[Material Selection: Titanium]\n B --&gt; C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</pre></noscript></div>\n<p>These sections provide a clear and concise overview of the star, paisley, club, spade, and pear designs used in biomedical engineering, along with practical examples to aid in understanding and application.</p>\n<hr />",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Design] --&gt; B['Material Selection: Titanium']\n B --&gt; C['Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm']\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Design] --&gt; B['Material Selection: Titanium']\n B --&gt; C['Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm']\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Design] --&gt; B['Material Selection: Titanium']\n B --&gt; C['Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm']\n C --&gt; D[Forging]\n D --&gt; E[Polishing]</pre></noscript></div>\n<p>These sections provide a clear and concise overview of the star, paisley, club, spade, and pear designs used in biomedical engineering, along with practical examples to aid in understanding and application.</p>\n<hr />",
    "examples": [],
    "mermaid": [
-    "flowchart LR\n    A[Design] --> B[Material Selection: Titanium]\n    B --> C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]\n    C --> D[Forging]\n    D --> E[Polishing]"
+    "flowchart LR\n A[Design] --> B[\"Material Selection: Titanium\"]\n B --> C[\"Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm\"]\n C --> D[Forging]\n D --> E[Polishing]"
    ]
   },
   {

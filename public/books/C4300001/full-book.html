@@ -106,10 +106,10 @@
   .kb-article .fig-callout{background:var(--bg-soft,#eef1fb);border:1.5px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;padding:14px 16px;margin:14px 0;color:var(--text-secondary,#475569);font-size:.92rem;display:flex;gap:10px;align-items:flex-start}
   .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
   .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
-  .kb-article .mermaid-wrap{margin:16px 0}
-  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-  .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
-  .kb-article .mermaid svg{max-width:100%;height:auto}
+  .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+  .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+  .kb-article .mermaid svg foreignObject{overflow:visible}
   .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted,#64748b)}
   .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
   .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
@@ -153,7 +153,7 @@
     @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in · Mathematics";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
   }
   </style>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Mathematics – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":11200,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Mathematics","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Mathematics – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":11152,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Mathematics","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
   <script>
@@ -204,7 +204,7 @@
       <p class="kb-lead">A clear, exam-oriented self-study book for GTU students. Every chapter is arranged from the official syllabus into simple explanations, worked examples, diagrams, revision points and exam-style questions.</p>
       <div class="kb-front-grid">
         <div><strong>5</strong><span>syllabus units</span></div>
-        <div><strong>11,200</strong><span>study words</span></div>
+        <div><strong>11,152</strong><span>study words</span></div>
         <div><strong>23</strong><span>print pages approx.</span></div>
       </div>
       <h2>How to use this book</h2>
@@ -230,7 +230,7 @@
         <button class="kb-tb-btn kb-desktop-toc-toggle" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
         <button class="kb-tb-btn" id="kb-reader-toggle" type="button"><i class="fas fa-book-open"></i> Page view</button>
         <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~49 min read</span>
-        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 11,200 words</span>
+        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 11,152 words</span>
       </div>
       <div class="kb-tb-group">
         <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
@@ -426,15 +426,15 @@
  A[0] --&gt; B[1]
  B --&gt; C[2]
  C --&gt; D[3]
- A --&gt; E['Vertical Asymptote: x = 0']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>graph TD
+ A --&gt; E[&quot;Vertical Asymptote: x = 0&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>graph TD
  A[0] --&gt; B[1]
  B --&gt; C[2]
  C --&gt; D[3]
- A --&gt; E['Vertical Asymptote: x = 0']</pre></details><noscript><pre class="mermaid-src">graph TD
+ A --&gt; E[&quot;Vertical Asymptote: x = 0&quot;]</pre></details><noscript><pre class="mermaid-src">graph TD
  A[0] --&gt; B[1]
  B --&gt; C[2]
  C --&gt; D[3]
- A --&gt; E['Vertical Asymptote: x = 0']</pre></noscript></div>
+ A --&gt; E[&quot;Vertical Asymptote: x = 0&quot;]</pre></noscript></div>
 <h4>Additional Practice</h4>
 <ul>
 <li><strong>Problem 1:</strong> Solve ₃ 27 = x.</li>
@@ -629,23 +629,23 @@
 <p>Trigonometric functions and their inverses are essential tools in solving engineering problems. Understanding the relationship between degrees and radians, and applying trigonometric identities, will help in solving various practical problems.</p>
 <h4>Mermaid Diagram: Relationship Between Degrees and Radians</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[1 Degree] --&gt; B['180/π Radians']
- A --&gt; C['π/180 Radians']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[1 Degree] --&gt; B['180/π Radians']
- A --&gt; C['π/180 Radians']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[1 Degree] --&gt; B['180/π Radians']
- A --&gt; C['π/180 Radians']</pre></noscript></div>
+ A[1 Degree] --&gt; B[&quot;180/π Radians&quot;]
+ A --&gt; C[&quot;π/180 Radians&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[1 Degree] --&gt; B[&quot;180/π Radians&quot;]
+ A --&gt; C[&quot;π/180 Radians&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[1 Degree] --&gt; B[&quot;180/π Radians&quot;]
+ A --&gt; C[&quot;π/180 Radians&quot;]</pre></noscript></div>
 <h4>Mermaid Diagram: Trigonometric Functions</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Angle] --&gt; B['Sine(θ)'] --&gt; C['Opposite/Hypotenuse']
- A --&gt; D['Cosine(θ)'] --&gt; E['Adjacent/Hypotenuse']
- A --&gt; F['Tangent(θ)'] --&gt; G['Opposite/Adjacent']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Angle] --&gt; B['Sine(θ)'] --&gt; C['Opposite/Hypotenuse']
- A --&gt; D['Cosine(θ)'] --&gt; E['Adjacent/Hypotenuse']
- A --&gt; F['Tangent(θ)'] --&gt; G['Opposite/Adjacent']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Angle] --&gt; B['Sine(θ)'] --&gt; C['Opposite/Hypotenuse']
- A --&gt; D['Cosine(θ)'] --&gt; E['Adjacent/Hypotenuse']
- A --&gt; F['Tangent(θ)'] --&gt; G['Opposite/Adjacent']</pre></noscript></div>
+ A[Angle] --&gt; B[&quot;Sine(θ)&quot;] --&gt; C[&quot;Opposite/Hypotenuse&quot;]
+ A --&gt; D[&quot;Cosine(θ)&quot;] --&gt; E[&quot;Adjacent/Hypotenuse&quot;]
+ A --&gt; F[&quot;Tangent(θ)&quot;] --&gt; G[&quot;Opposite/Adjacent&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Angle] --&gt; B[&quot;Sine(θ)&quot;] --&gt; C[&quot;Opposite/Hypotenuse&quot;]
+ A --&gt; D[&quot;Cosine(θ)&quot;] --&gt; E[&quot;Adjacent/Hypotenuse&quot;]
+ A --&gt; F[&quot;Tangent(θ)&quot;] --&gt; G[&quot;Opposite/Adjacent&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Angle] --&gt; B[&quot;Sine(θ)&quot;] --&gt; C[&quot;Opposite/Hypotenuse&quot;]
+ A --&gt; D[&quot;Cosine(θ)&quot;] --&gt; E[&quot;Adjacent/Hypotenuse&quot;]
+ A --&gt; F[&quot;Tangent(θ)&quot;] --&gt; G[&quot;Opposite/Adjacent&quot;]</pre></noscript></div>
 <p>This section covers the fundamental concepts of units of angles and trigonometric functions, providing clear explanations and practical examples for GTU students.</p>
 <hr />
 <h3 id="u2-sec-2-3-allied-compound-angles-multiple-submultiples-angles">2.3. Allied & Compound Angles, Multiple –Submultiples Angles</h3>
@@ -706,32 +706,32 @@
 <div class="mermaid-wrap"><div class="mermaid">graph TD
  A[Trigonometric Functions] --&gt; B[Sine Function]
  A --&gt; C[Cosine Function]
- B --&gt; D['Period: 360°']
- C --&gt; E['Period: 360°']
+ B --&gt; D[&quot;Period: 360°&quot;]
+ C --&gt; E[&quot;Period: 360°&quot;]
  D --&gt; F[Oscillates between -1 and 1]
  E --&gt; G[Oscillates between -1 and 1]
- F --&gt; H[Crosses x-axis at multiples of 180°]
- G --&gt; I[Crosses x-axis at multiples of 90°]
+ F --&gt; H[&quot;Crosses x-axis at&lt;br/&gt;multiples&lt;br/&gt;of 180°&quot;]
+ G --&gt; I[&quot;Crosses x-axis at&lt;br/&gt;multiples&lt;br/&gt;of 90°&quot;]
  H --&gt; J[Sketch of Sine Graph]
  I --&gt; K[Sketch of Cosine Graph]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>graph TD
  A[Trigonometric Functions] --&gt; B[Sine Function]
  A --&gt; C[Cosine Function]
- B --&gt; D['Period: 360°']
- C --&gt; E['Period: 360°']
+ B --&gt; D[&quot;Period: 360°&quot;]
+ C --&gt; E[&quot;Period: 360°&quot;]
  D --&gt; F[Oscillates between -1 and 1]
  E --&gt; G[Oscillates between -1 and 1]
- F --&gt; H[Crosses x-axis at multiples of 180°]
- G --&gt; I[Crosses x-axis at multiples of 90°]
+ F --&gt; H[&quot;Crosses x-axis at&lt;br/&gt;multiples&lt;br/&gt;of 180°&quot;]
+ G --&gt; I[&quot;Crosses x-axis at&lt;br/&gt;multiples&lt;br/&gt;of 90°&quot;]
  H --&gt; J[Sketch of Sine Graph]
  I --&gt; K[Sketch of Cosine Graph]</pre></details><noscript><pre class="mermaid-src">graph TD
  A[Trigonometric Functions] --&gt; B[Sine Function]
  A --&gt; C[Cosine Function]
- B --&gt; D['Period: 360°']
- C --&gt; E['Period: 360°']
+ B --&gt; D[&quot;Period: 360°&quot;]
+ C --&gt; E[&quot;Period: 360°&quot;]
  D --&gt; F[Oscillates between -1 and 1]
  E --&gt; G[Oscillates between -1 and 1]
- F --&gt; H[Crosses x-axis at multiples of 180°]
- G --&gt; I[Crosses x-axis at multiples of 90°]
+ F --&gt; H[&quot;Crosses x-axis at&lt;br/&gt;multiples&lt;br/&gt;of 180°&quot;]
+ G --&gt; I[&quot;Crosses x-axis at&lt;br/&gt;multiples&lt;br/&gt;of 90°&quot;]
  H --&gt; J[Sketch of Sine Graph]
  I --&gt; K[Sketch of Cosine Graph]</pre></noscript></div>
 <p>This completes the detailed sections on Allied & Compound Angles, Multiple –Submultiples angles and the Graph of Sine and Cosine.</p>
@@ -751,15 +751,15 @@
 <h4>Graphical Representation</h4>
 <p>The graphical representation of periodic functions can be visualized using mermaid diagrams. Here is a simple representation of the sine function:</p>
 <div class="mermaid-wrap"><div class="mermaid">graph TD
- A['Sine Function (y = sin(x))'] --&gt; B['Period: 2π']
- A --&gt; C['Range: -1 to 1']
- A --&gt; D['Graph: Waveform']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>graph TD
- A['Sine Function (y = sin(x))'] --&gt; B['Period: 2π']
- A --&gt; C['Range: -1 to 1']
- A --&gt; D['Graph: Waveform']</pre></details><noscript><pre class="mermaid-src">graph TD
- A['Sine Function (y = sin(x))'] --&gt; B['Period: 2π']
- A --&gt; C['Range: -1 to 1']
- A --&gt; D['Graph: Waveform']</pre></noscript></div>
+ A[&quot;Sine Function (y = sin(x))&quot;] --&gt; B[&quot;Period: 2π&quot;]
+ A --&gt; C[&quot;Range: -1 to 1&quot;]
+ A --&gt; D[&quot;Graph: Waveform&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>graph TD
+ A[&quot;Sine Function (y = sin(x))&quot;] --&gt; B[&quot;Period: 2π&quot;]
+ A --&gt; C[&quot;Range: -1 to 1&quot;]
+ A --&gt; D[&quot;Graph: Waveform&quot;]</pre></details><noscript><pre class="mermaid-src">graph TD
+ A[&quot;Sine Function (y = sin(x))&quot;] --&gt; B[&quot;Period: 2π&quot;]
+ A --&gt; C[&quot;Range: -1 to 1&quot;]
+ A --&gt; D[&quot;Graph: Waveform&quot;]</pre></noscript></div>
 <h3 id="u2-sec-2-6-sum-and-factor-formulae">2.6. Sum and Factor Formulae</h3>
 <h4>Sum Formulae</h4>
 <p>Sum formulae are useful in simplifying and solving trigonometric expressions. These formulae are derived from the angle addition and subtraction formulas.</p>
@@ -801,18 +801,18 @@
 <h4>Mermaid Diagram for Sum and Factor Formulae</h4>
 <p>Here is a mermaid diagram to summarize the sum and factor formulae:</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Sum of Sines] --&gt; B['2 sin((A+B)/2) cos((A-B)/2)']
- A --&gt; C['Example: sin 75° + sin 15° = 2 sin(45°) cos(30°) = √6/2']
- D[Product to Sum] --&gt; E['1/2 [sin(A+B) + sin(A-B)']]
- D --&gt; F['Example: sin 75° cos 15° = 1/2 [sin(90°) + sin(60°)'] = 1/2 (1 + √3/2) = 1/2 + √3/4]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Sum of Sines] --&gt; B['2 sin((A+B)/2) cos((A-B)/2)']
- A --&gt; C['Example: sin 75° + sin 15° = 2 sin(45°) cos(30°) = √6/2']
- D[Product to Sum] --&gt; E['1/2 [sin(A+B) + sin(A-B)']]
- D --&gt; F['Example: sin 75° cos 15° = 1/2 [sin(90°) + sin(60°)'] = 1/2 (1 + √3/2) = 1/2 + √3/4]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Sum of Sines] --&gt; B['2 sin((A+B)/2) cos((A-B)/2)']
- A --&gt; C['Example: sin 75° + sin 15° = 2 sin(45°) cos(30°) = √6/2']
- D[Product to Sum] --&gt; E['1/2 [sin(A+B) + sin(A-B)']]
- D --&gt; F['Example: sin 75° cos 15° = 1/2 [sin(90°) + sin(60°)'] = 1/2 (1 + √3/2) = 1/2 + √3/4]</pre></noscript></div>
+ A[Sum of Sines] --&gt; B[&quot;2 sin((A+B)/2) cos((A-B)/2)&quot;]
+ A --&gt; C[&quot;Example: sin 75° + sin 15°&lt;br/&gt;=&lt;br/&gt;2 sin(45°) cos(30°) =&lt;br/&gt;√6/2&quot;]
+ D[Product to Sum] --&gt; E[&quot;1/2 [sin(A+B) + sin(A-B)&quot;]]
+ D --&gt; F[&quot;Example: sin 75° cos 15°&lt;br/&gt;=&lt;br/&gt;1/2 [sin(90°) +&lt;br/&gt;sin(60°)&quot;] = 1/2 (1 + √3/2) = 1/2 + √3/4]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Sum of Sines] --&gt; B[&quot;2 sin((A+B)/2) cos((A-B)/2)&quot;]
+ A --&gt; C[&quot;Example: sin 75° + sin 15°&lt;br/&gt;=&lt;br/&gt;2 sin(45°) cos(30°) =&lt;br/&gt;√6/2&quot;]
+ D[Product to Sum] --&gt; E[&quot;1/2 [sin(A+B) + sin(A-B)&quot;]]
+ D --&gt; F[&quot;Example: sin 75° cos 15°&lt;br/&gt;=&lt;br/&gt;1/2 [sin(90°) +&lt;br/&gt;sin(60°)&quot;] = 1/2 (1 + √3/2) = 1/2 + √3/4]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Sum of Sines] --&gt; B[&quot;2 sin((A+B)/2) cos((A-B)/2)&quot;]
+ A --&gt; C[&quot;Example: sin 75° + sin 15°&lt;br/&gt;=&lt;br/&gt;2 sin(45°) cos(30°) =&lt;br/&gt;√6/2&quot;]
+ D[Product to Sum] --&gt; E[&quot;1/2 [sin(A+B) + sin(A-B)&quot;]]
+ D --&gt; F[&quot;Example: sin 75° cos 15°&lt;br/&gt;=&lt;br/&gt;1/2 [sin(90°) +&lt;br/&gt;sin(60°)&quot;] = 1/2 (1 + √3/2) = 1/2 + √3/4]</pre></noscript></div>
 <p>This section covers the periodicity of trigonometric functions and the application of sum and factor formulae, providing a clear understanding for exam preparation.</p>
 <hr />
 <h3 id="u2-sec-2-7-inverse-trigonometric-function">2.7. Inverse Trigonometric Function</h3>
@@ -857,19 +857,19 @@
 <p>]</p>
 <p>Thus, the solution to the equation ⁻¹ x + ⁻¹ x = π 2 is any x in the interval [-1, 1].</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Inverse Trigonometric Functions] --&gt; B[Definition]
+ A[&quot;Inverse&lt;br/&gt;Trigonometric&lt;br/&gt;Functions&quot;] --&gt; B[Definition]
  B --&gt; C[Domain and Range]
  B --&gt; D[Properties and Identities]
  C --&gt; E[Principal Values]
  C --&gt; F[Complementary Angles]
  D --&gt; G[Sum and Difference Identities]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Inverse Trigonometric Functions] --&gt; B[Definition]
+ A[&quot;Inverse&lt;br/&gt;Trigonometric&lt;br/&gt;Functions&quot;] --&gt; B[Definition]
  B --&gt; C[Domain and Range]
  B --&gt; D[Properties and Identities]
  C --&gt; E[Principal Values]
  C --&gt; F[Complementary Angles]
  D --&gt; G[Sum and Difference Identities]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Inverse Trigonometric Functions] --&gt; B[Definition]
+ A[&quot;Inverse&lt;br/&gt;Trigonometric&lt;br/&gt;Functions&quot;] --&gt; B[Definition]
  B --&gt; C[Domain and Range]
  B --&gt; D[Properties and Identities]
  C --&gt; E[Principal Values]
@@ -1499,22 +1499,22 @@
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
  A[General Equation] --&gt; B[Convert to Standard Form]
  B --&gt; C[Identify Center and Radius]
- C --&gt; D['Example: Center and Radius']
+ C --&gt; D[&quot;Example: Center and Radius&quot;]
  D --&gt; E[Tangent Equation]
  E --&gt; F[Normal Equation]
- F --&gt; G['Example: Tangent and Normal']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ F --&gt; G[&quot;Example: Tangent and Normal&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
  A[General Equation] --&gt; B[Convert to Standard Form]
  B --&gt; C[Identify Center and Radius]
- C --&gt; D['Example: Center and Radius']
+ C --&gt; D[&quot;Example: Center and Radius&quot;]
  D --&gt; E[Tangent Equation]
  E --&gt; F[Normal Equation]
- F --&gt; G['Example: Tangent and Normal']</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ F --&gt; G[&quot;Example: Tangent and Normal&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart LR
  A[General Equation] --&gt; B[Convert to Standard Form]
  B --&gt; C[Identify Center and Radius]
- C --&gt; D['Example: Center and Radius']
+ C --&gt; D[&quot;Example: Center and Radius&quot;]
  D --&gt; E[Tangent Equation]
  E --&gt; F[Normal Equation]
- F --&gt; G['Example: Tangent and Normal']</pre></noscript></div>
+ F --&gt; G[&quot;Example: Tangent and Normal&quot;]</pre></noscript></div>
 <p>This flowchart illustrates the process from the general form to finding the center and radius, and then to deriving the equations of the tangent and normal.</p>
 
         <nav class="kb-pn no-print"><a class="pn-btn" href="unit-3.html"><i class="fas fa-chevron-left"></i> Unit 3</a><span class="pn-btn disabled">Unit – Coordinate Geometry</span></nav>
@@ -1600,9 +1600,9 @@
 <p>[ → ₂ (x² - 3x + 2) = 0 ]</p>
 <h4>Flowchart of Evaluating Limits</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Is the function a polynomial or rational?]
+ A[&quot;Is the function a&lt;br/&gt;polynomial&lt;br/&gt;or rational?&quot;]
  B[Direct substitution]
- C[Factorization or simplification]
+ C[&quot;Factorization&lt;br/&gt;or&lt;br/&gt;simplification&quot;]
  D[Rationalization]
  E[Indeterminate form?]
  F[Substitution]
@@ -1620,9 +1620,9 @@
  E --&gt; D
  D --&gt; G
  G --&gt; H</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Is the function a polynomial or rational?]
+ A[&quot;Is the function a&lt;br/&gt;polynomial&lt;br/&gt;or rational?&quot;]
  B[Direct substitution]
- C[Factorization or simplification]
+ C[&quot;Factorization&lt;br/&gt;or&lt;br/&gt;simplification&quot;]
  D[Rationalization]
  E[Indeterminate form?]
  F[Substitution]
@@ -1640,9 +1640,9 @@
  E --&gt; D
  D --&gt; G
  G --&gt; H</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Is the function a polynomial or rational?]
+ A[&quot;Is the function a&lt;br/&gt;polynomial&lt;br/&gt;or rational?&quot;]
  B[Direct substitution]
- C[Factorization or simplification]
+ C[&quot;Factorization&lt;br/&gt;or&lt;br/&gt;simplification&quot;]
  D[Rationalization]
  E[Indeterminate form?]
  F[Substitution]
@@ -1789,13 +1789,23 @@
   }
   function init() {
     if (!window.mermaid) return;
-    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', flowchart: { curve: 'basis', htmlLabels: true } });
+    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', securityLevel: 'strict', flowchart: { curve: 'basis', htmlLabels: true, useMaxWidth: true, nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
     var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
     nodes.forEach(function (el) {
       if (el.dataset.kbRun) return;
       el.dataset.kbRun = '1';
       el.textContent = kbSanitizeMermaid(el.textContent);
-      mermaid.run({ nodes: [el] }).catch(function () {
+      mermaid.run({ nodes: [el] }).then(function () {
+        var svg = el.querySelector('svg');
+        if (!svg) return;
+        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        svg.setAttribute('width', '100%');
+        svg.removeAttribute('height');
+        svg.style.width = '100%';
+        svg.style.height = 'auto';
+        svg.style.maxWidth = '100%';
+        svg.style.overflow = 'visible';
+      }).catch(function () {
         el.classList.add('mermaid-failed');
         el.innerHTML = '<div style="padding:10px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>' + el.innerHTML;
       });

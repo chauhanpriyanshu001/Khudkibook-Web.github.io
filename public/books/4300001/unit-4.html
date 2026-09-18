@@ -72,9 +72,10 @@
     .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
     .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
     /* mermaid */
-    .kb-article .mermaid-wrap{margin:16px 0}
-    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-    .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+    .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+    .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+    .kb-article .mermaid svg foreignObject{overflow:visible}
     .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
     .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
     .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
@@ -382,28 +383,28 @@
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
  A[Parallel Lines] --&gt; B[Same Slope]
  A --&gt; C[No Intersection]
- B --&gt; D['Equation of Line: y = mx + c']
- C --&gt; E['Example: 3x - 4y + 12 = 0']
- B --&gt; F['Example: 2x + 3y - 6 = 0']
+ B --&gt; D[&quot;Equation of Line: y = mx + c&quot;]
+ C --&gt; E[&quot;Example: 3x - 4y + 12 = 0&quot;]
+ B --&gt; F[&quot;Example: 2x + 3y - 6 = 0&quot;]
  F --&gt; G[Perpendicular Lines] --&gt; H[Product of Slopes is -1]
- F --&gt; I['Equation of Line: y = mx + c']
- H --&gt; J['Example: 2x + 3y - 6 = 0']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ F --&gt; I[&quot;Equation of Line: y = mx + c&quot;]
+ H --&gt; J[&quot;Example: 2x + 3y - 6 = 0&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
  A[Parallel Lines] --&gt; B[Same Slope]
  A --&gt; C[No Intersection]
- B --&gt; D['Equation of Line: y = mx + c']
- C --&gt; E['Example: 3x - 4y + 12 = 0']
- B --&gt; F['Example: 2x + 3y - 6 = 0']
+ B --&gt; D[&quot;Equation of Line: y = mx + c&quot;]
+ C --&gt; E[&quot;Example: 3x - 4y + 12 = 0&quot;]
+ B --&gt; F[&quot;Example: 2x + 3y - 6 = 0&quot;]
  F --&gt; G[Perpendicular Lines] --&gt; H[Product of Slopes is -1]
- F --&gt; I['Equation of Line: y = mx + c']
- H --&gt; J['Example: 2x + 3y - 6 = 0']</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ F --&gt; I[&quot;Equation of Line: y = mx + c&quot;]
+ H --&gt; J[&quot;Example: 2x + 3y - 6 = 0&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart LR
  A[Parallel Lines] --&gt; B[Same Slope]
  A --&gt; C[No Intersection]
- B --&gt; D['Equation of Line: y = mx + c']
- C --&gt; E['Example: 3x - 4y + 12 = 0']
- B --&gt; F['Example: 2x + 3y - 6 = 0']
+ B --&gt; D[&quot;Equation of Line: y = mx + c&quot;]
+ C --&gt; E[&quot;Example: 3x - 4y + 12 = 0&quot;]
+ B --&gt; F[&quot;Example: 2x + 3y - 6 = 0&quot;]
  F --&gt; G[Perpendicular Lines] --&gt; H[Product of Slopes is -1]
- F --&gt; I['Equation of Line: y = mx + c']
- H --&gt; J['Example: 2x + 3y - 6 = 0']</pre></noscript></div>
+ F --&gt; I[&quot;Equation of Line: y = mx + c&quot;]
+ H --&gt; J[&quot;Example: 2x + 3y - 6 = 0&quot;]</pre></noscript></div>
 <p>This section covers the condition for parallel lines, solving problems involving parallel lines, and finding equations of perpendicular lines, all tailored to the given syllabus requirements.</p>
 <hr />
 <h3 id="sec-4-5-angle-between-two-lines">4.5. Angle between two lines.</h3>
@@ -442,16 +443,16 @@
 </ol>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Lines] --&gt; B['Parallel Lines: m₁ = m₂']
- A --&gt; C['Perpendicular Lines: m₁ · m₂ = -1']
+ A[Lines] --&gt; B[&quot;Parallel Lines: m₁ = m₂&quot;]
+ A --&gt; C[&quot;Perpendicular Lines: m₁ ·&lt;br/&gt;m₂&lt;br/&gt;= -1&quot;]
  B --&gt; D[Equal Slopes]
  C --&gt; E[Reciprocal and Opposite Slopes]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Lines] --&gt; B['Parallel Lines: m₁ = m₂']
- A --&gt; C['Perpendicular Lines: m₁ · m₂ = -1']
+ A[Lines] --&gt; B[&quot;Parallel Lines: m₁ = m₂&quot;]
+ A --&gt; C[&quot;Perpendicular Lines: m₁ ·&lt;br/&gt;m₂&lt;br/&gt;= -1&quot;]
  B --&gt; D[Equal Slopes]
  C --&gt; E[Reciprocal and Opposite Slopes]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Lines] --&gt; B['Parallel Lines: m₁ = m₂']
- A --&gt; C['Perpendicular Lines: m₁ · m₂ = -1']
+ A[Lines] --&gt; B[&quot;Parallel Lines: m₁ = m₂&quot;]
+ A --&gt; C[&quot;Perpendicular Lines: m₁ ·&lt;br/&gt;m₂&lt;br/&gt;= -1&quot;]
  B --&gt; D[Equal Slopes]
  C --&gt; E[Reciprocal and Opposite Slopes]</pre></noscript></div>
 <h3 id="sec-4-6-equation-of-circle-with-center-and-radius">4.6. Equation of Circle with Center and Radius</h3>
@@ -489,21 +490,21 @@
 <p>]</p>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Circle Equation] --&gt; B['Standard Form: (x - h)² + (y - k)² = r²']
- B --&gt; C['Identify Center (h, k)']
+ A[Circle Equation] --&gt; B[&quot;Standard Form: (x - h)² +&lt;br/&gt;(y&lt;br/&gt;- k)² = r²&quot;]
+ B --&gt; C[&quot;Identify Center (h, k)&quot;]
  C --&gt; D[Identify Radius r]
  D --&gt; E[Substitute into Standard Form]
- E --&gt; F['Equation: (x - 3)² + (y + 2)² = 25']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Circle Equation] --&gt; B['Standard Form: (x - h)² + (y - k)² = r²']
- B --&gt; C['Identify Center (h, k)']
+ E --&gt; F[&quot;Equation: (x - 3)² + (y&lt;br/&gt;+&lt;br/&gt;2)² = 25&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Circle Equation] --&gt; B[&quot;Standard Form: (x - h)² +&lt;br/&gt;(y&lt;br/&gt;- k)² = r²&quot;]
+ B --&gt; C[&quot;Identify Center (h, k)&quot;]
  C --&gt; D[Identify Radius r]
  D --&gt; E[Substitute into Standard Form]
- E --&gt; F['Equation: (x - 3)² + (y + 2)² = 25']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Circle Equation] --&gt; B['Standard Form: (x - h)² + (y - k)² = r²']
- B --&gt; C['Identify Center (h, k)']
+ E --&gt; F[&quot;Equation: (x - 3)² + (y&lt;br/&gt;+&lt;br/&gt;2)² = 25&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Circle Equation] --&gt; B[&quot;Standard Form: (x - h)² +&lt;br/&gt;(y&lt;br/&gt;- k)² = r²&quot;]
+ B --&gt; C[&quot;Identify Center (h, k)&quot;]
  C --&gt; D[Identify Radius r]
  D --&gt; E[Substitute into Standard Form]
- E --&gt; F['Equation: (x - 3)² + (y + 2)² = 25']</pre></noscript></div>
+ E --&gt; F[&quot;Equation: (x - 3)² + (y&lt;br/&gt;+&lt;br/&gt;2)² = 25&quot;]</pre></noscript></div>
 <p>This section covers the essential concepts and provides worked examples to help students apply these concepts effectively.</p>
 <hr />
 <h3 id="sec-4-7-general-equation-of-circle">4.7. General equation of circle.</h3>
@@ -656,12 +657,26 @@
   (function () {
     function init() {
       if (!window.mermaid) return;
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, curve: 'basis' } });
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, useMaxWidth: true, curve: 'basis', nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
       var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
       nodes.forEach(function (el) {
         if (el.dataset.kbMermaidRun) return;
         el.dataset.kbMermaidRun = '1';
-        mermaid.run({ nodes: [el] }).catch(function () {
+        function fitDiagram() {
+          var svg = el.querySelector('svg');
+          if (!svg) return;
+          var vb = svg.viewBox && svg.viewBox.baseVal;
+          if (vb && vb.width && vb.height) {
+            svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            svg.setAttribute('width', '100%');
+            svg.removeAttribute('height');
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+            svg.style.maxWidth = '100%';
+            svg.style.overflow = 'visible';
+          }
+        }
+        mermaid.run({ nodes: [el] }).then(fitDiagram).catch(function () {
           el.classList.add('mermaid-failed');
           el.innerHTML = '<div style="padding:8px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>';
         });

@@ -106,10 +106,10 @@
   .kb-article .fig-callout{background:var(--bg-soft,#eef1fb);border:1.5px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;padding:14px 16px;margin:14px 0;color:var(--text-secondary,#475569);font-size:.92rem;display:flex;gap:10px;align-items:flex-start}
   .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
   .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
-  .kb-article .mermaid-wrap{margin:16px 0}
-  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-  .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
-  .kb-article .mermaid svg{max-width:100%;height:auto}
+  .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+  .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+  .kb-article .mermaid svg foreignObject{overflow:visible}
   .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted,#64748b)}
   .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
   .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
@@ -153,7 +153,7 @@
     @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in · Applied Physics";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
   }
   </style>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Applied Physics – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":16945,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Applied Physics","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Applied Physics – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":16882,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Applied Physics","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
   <script>
@@ -204,7 +204,7 @@
       <p class="kb-lead">A clear, exam-oriented self-study book for GTU students. Every chapter is arranged from the official syllabus into simple explanations, worked examples, diagrams, revision points and exam-style questions.</p>
       <div class="kb-front-grid">
         <div><strong>5</strong><span>syllabus units</span></div>
-        <div><strong>16,945</strong><span>study words</span></div>
+        <div><strong>16,882</strong><span>study words</span></div>
         <div><strong>34</strong><span>print pages approx.</span></div>
       </div>
       <h2>How to use this book</h2>
@@ -230,7 +230,7 @@
         <button class="kb-tb-btn kb-desktop-toc-toggle" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
         <button class="kb-tb-btn" id="kb-reader-toggle" type="button"><i class="fas fa-book-open"></i> Page view</button>
         <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~81 min read</span>
-        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 16,945 words</span>
+        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 16,882 words</span>
       </div>
       <div class="kb-tb-group">
         <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
@@ -418,21 +418,21 @@
 <p>[ v = (120 \, m / 10 \, s) = 12 \, m/s ]</p>
 <p>Therefore, the speed of the car is 12 m/s.</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['Length (L)'] --&gt; B['Volume (V)']
- A --&gt; C['Speed (v)']
- A --&gt; D['Density (ρ)']
- C --&gt; E['Force (F)']
- E --&gt; F['Energy (E)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['Length (L)'] --&gt; B['Volume (V)']
- A --&gt; C['Speed (v)']
- A --&gt; D['Density (ρ)']
- C --&gt; E['Force (F)']
- E --&gt; F['Energy (E)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['Length (L)'] --&gt; B['Volume (V)']
- A --&gt; C['Speed (v)']
- A --&gt; D['Density (ρ)']
- C --&gt; E['Force (F)']
- E --&gt; F['Energy (E)']</pre></noscript></div>
+ A[&quot;Length (L)&quot;] --&gt; B[&quot;Volume (V)&quot;]
+ A --&gt; C[&quot;Speed (v)&quot;]
+ A --&gt; D[&quot;Density (ρ)&quot;]
+ C --&gt; E[&quot;Force (F)&quot;]
+ E --&gt; F[&quot;Energy (E)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;Length (L)&quot;] --&gt; B[&quot;Volume (V)&quot;]
+ A --&gt; C[&quot;Speed (v)&quot;]
+ A --&gt; D[&quot;Density (ρ)&quot;]
+ C --&gt; E[&quot;Force (F)&quot;]
+ E --&gt; F[&quot;Energy (E)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;Length (L)&quot;] --&gt; B[&quot;Volume (V)&quot;]
+ A --&gt; C[&quot;Speed (v)&quot;]
+ A --&gt; D[&quot;Density (ρ)&quot;]
+ C --&gt; E[&quot;Force (F)&quot;]
+ E --&gt; F[&quot;Energy (E)&quot;]</pre></noscript></div>
 <p>This flowchart illustrates the relationship between the fundamental quantities and derived quantities.</p>
 <hr />
 <h3 id="u1-sec-1-3-systems-of-units-cgs-mks-and-si-definition-of-units-only-for-information-and-not-to-be-asked-in-examination-interconversion-of-units-mks-to-cgs-and-vice-versa-requirements-of-standard-unit">1.3. Systems of units: CGS, MKS and SI, definition of units (only for information and not to be asked in examination), interconversion of units MKS to CGS and vice versa, Requirements of standard unit</h3>
@@ -698,34 +698,34 @@
  B --&gt; D[Angular Displacement - Time]
  C --&gt; E[Angular Velocity - Time]
  D --&gt; F[Angular Acceleration - Time]
- E --&gt; G[Angular Displacement - Velocity]
- F --&gt; H[Angular Velocity - Acceleration]
- G --&gt; I[Angular Acceleration - Velocity]
- H --&gt; J[Angular Displacement - Acceleration]
- I --&gt; K[Angular Displacement - Acceleration]
- J --&gt; K[Angular Displacement - Acceleration]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ E --&gt; G[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ F --&gt; H[&quot;Angular Velocity&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ G --&gt; I[&quot;Angular Acceleration&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ H --&gt; J[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ I --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ J --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Angular Displacement] --&gt; B[Angular Velocity]
  A --&gt; C[Angular Acceleration]
  B --&gt; D[Angular Displacement - Time]
  C --&gt; E[Angular Velocity - Time]
  D --&gt; F[Angular Acceleration - Time]
- E --&gt; G[Angular Displacement - Velocity]
- F --&gt; H[Angular Velocity - Acceleration]
- G --&gt; I[Angular Acceleration - Velocity]
- H --&gt; J[Angular Displacement - Acceleration]
- I --&gt; K[Angular Displacement - Acceleration]
- J --&gt; K[Angular Displacement - Acceleration]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ E --&gt; G[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ F --&gt; H[&quot;Angular Velocity&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ G --&gt; I[&quot;Angular Acceleration&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ H --&gt; J[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ I --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ J --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Angular Displacement] --&gt; B[Angular Velocity]
  A --&gt; C[Angular Acceleration]
  B --&gt; D[Angular Displacement - Time]
  C --&gt; E[Angular Velocity - Time]
  D --&gt; F[Angular Acceleration - Time]
- E --&gt; G[Angular Displacement - Velocity]
- F --&gt; H[Angular Velocity - Acceleration]
- G --&gt; I[Angular Acceleration - Velocity]
- H --&gt; J[Angular Displacement - Acceleration]
- I --&gt; K[Angular Displacement - Acceleration]
- J --&gt; K[Angular Displacement - Acceleration]</pre></noscript></div>
+ E --&gt; G[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ F --&gt; H[&quot;Angular Velocity&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ G --&gt; I[&quot;Angular Acceleration&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ H --&gt; J[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ I --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ J --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]</pre></noscript></div>
 <p>This diagram helps visualize the interrelation between angular displacement, velocity, and acceleration.</p>
 <hr />
 <h3 id="u2-sec-2-3-centripetal-and-centrifugal-forces-examples-banking-of-roads-and-bending-of-cyclist">2.3. Centripetal and centrifugal forces examples: banking of roads and bending of cyclist</h3>
@@ -774,24 +774,24 @@
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A cyclist is turning a curve of radius 30 meters at a speed of 10 m/s. The coefficient of friction between the tires and the road is 0.5. Determine the speed at which the cyclist can safely turn the curve without skidding.<br /><br />Given:<br />- Radius of the curve, R = 30 m,<br />- Speed, v = 10 m/s,<br />- Coefficient of friction, μ = 0.5.<br /><br />Using the formula for the maximum speed:<br />[ v = μ g R ]<br />[ v = 0.5 × 9.8 × 30 ]<br />[ v = 147 ]<br />[ v ≈ 12.12 \, m/s ]<br /><br />Therefore, the cyclist can safely turn the curve without skidding at a speed of approximately 12.12 m/s.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Given] --&gt; B['R = 30m, v = 10m/s, μ = 0.5']
- B --&gt; C['Required: Maximum Speed v']
- C --&gt; D['Formula: v = sqrt(μgR)']
- D --&gt; E['v = sqrt(0.5 * 9.8 * 30)']
- E --&gt; F['v = sqrt(147)']
- F --&gt; G['v ≈ 12.12m/s']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Given] --&gt; B['R = 30m, v = 10m/s, μ = 0.5']
- B --&gt; C['Required: Maximum Speed v']
- C --&gt; D['Formula: v = sqrt(μgR)']
- D --&gt; E['v = sqrt(0.5 * 9.8 * 30)']
- E --&gt; F['v = sqrt(147)']
- F --&gt; G['v ≈ 12.12m/s']</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Given] --&gt; B['R = 30m, v = 10m/s, μ = 0.5']
- B --&gt; C['Required: Maximum Speed v']
- C --&gt; D['Formula: v = sqrt(μgR)']
- D --&gt; E['v = sqrt(0.5 * 9.8 * 30)']
- E --&gt; F['v = sqrt(147)']
- F --&gt; G['v ≈ 12.12m/s']</pre></noscript></div>
+ A[Given] --&gt; B[&quot;R = 30m, v = 10m/s, μ = 0.5&quot;]
+ B --&gt; C[&quot;Required: Maximum Speed v&quot;]
+ C --&gt; D[&quot;Formula: v = sqrt(μgR)&quot;]
+ D --&gt; E[&quot;v = sqrt(0.5 * 9.8 * 30)&quot;]
+ E --&gt; F[&quot;v = sqrt(147)&quot;]
+ F --&gt; G[&quot;v ≈ 12.12m/s&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[Given] --&gt; B[&quot;R = 30m, v = 10m/s, μ = 0.5&quot;]
+ B --&gt; C[&quot;Required: Maximum Speed v&quot;]
+ C --&gt; D[&quot;Formula: v = sqrt(μgR)&quot;]
+ D --&gt; E[&quot;v = sqrt(0.5 * 9.8 * 30)&quot;]
+ E --&gt; F[&quot;v = sqrt(147)&quot;]
+ F --&gt; G[&quot;v ≈ 12.12m/s&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[Given] --&gt; B[&quot;R = 30m, v = 10m/s, μ = 0.5&quot;]
+ B --&gt; C[&quot;Required: Maximum Speed v&quot;]
+ C --&gt; D[&quot;Formula: v = sqrt(μgR)&quot;]
+ D --&gt; E[&quot;v = sqrt(0.5 * 9.8 * 30)&quot;]
+ E --&gt; F[&quot;v = sqrt(147)&quot;]
+ F --&gt; G[&quot;v ≈ 12.12m/s&quot;]</pre></noscript></div>
 
         <nav class="kb-pn no-print"><a class="pn-btn" href="unit-1.html"><i class="fas fa-chevron-left"></i> Unit 1</a><span class="pn-btn disabled">Unit – Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve</span></nav>
 
@@ -1099,17 +1099,17 @@
  A --&gt; C[Adhesive Forces]
  B --&gt; D[3 Å]
  C --&gt; E[5 Å]
- D --&gt; F['Total Range: 8 Å']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ D --&gt; F[&quot;Total Range: 8 Å&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Molecular Range] --&gt; B[Cohesive Forces]
  A --&gt; C[Adhesive Forces]
  B --&gt; D[3 Å]
  C --&gt; E[5 Å]
- D --&gt; F['Total Range: 8 Å']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ D --&gt; F[&quot;Total Range: 8 Å&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Molecular Range] --&gt; B[Cohesive Forces]
  A --&gt; C[Adhesive Forces]
  B --&gt; D[3 Å]
  C --&gt; E[5 Å]
- D --&gt; F['Total Range: 8 Å']</pre></noscript></div>
+ D --&gt; F[&quot;Total Range: 8 Å&quot;]</pre></noscript></div>
 <hr />
 <h3 id="u3-sec-3-2-4-laplace-s-molecular-theory">3.2.4. Laplace’s Molecular Theory</h3>
 <p>Laplace’s molecular theory is a fundamental concept in surface science that explains the behavior of liquids and their interfaces. According to this theory, the pressure difference across a curved liquid surface can be explained by the molecular forces between the liquid and the surrounding medium.</p>
@@ -1839,27 +1839,27 @@
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />- <strong>Longitudinal Wave</strong>: Consider a sound wave in air. The particles of air vibrate back and forth along the direction of the wave, causing the pressure to vary periodically.<br />- <strong>Transverse Wave</strong>: Consider a wave on a string. The string particles move up and down, creating a pattern that travels along the string.</div>
 <h4>Mermaid Diagram for Longitudinal and Transverse Waves</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Longitudinal Wave] --&gt; B[Particles vibrate parallel to wave direction]
- A --&gt; C['Example: Sound in air']
- A --&gt; D['Example: Seismic P-waves']
- A --&gt; E[Particles vibrate perpendicular to wave direction]
+ A[Longitudinal Wave] --&gt; B[&quot;Particles vibrate&lt;br/&gt;parallel&lt;br/&gt;to wave&lt;br/&gt;direction&quot;]
+ A --&gt; C[&quot;Example: Sound in air&quot;]
+ A --&gt; D[&quot;Example: Seismic P-waves&quot;]
+ A --&gt; E[&quot;Particles&lt;br/&gt;vibrate&lt;br/&gt;perpendicular to&lt;br/&gt;wave&lt;br/&gt;direction&quot;]
  A --&gt; F[Transverse Wave]
- F --&gt; G['Example: Waves on a string']
- F --&gt; H['Example: Electromagnetic waves']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Longitudinal Wave] --&gt; B[Particles vibrate parallel to wave direction]
- A --&gt; C['Example: Sound in air']
- A --&gt; D['Example: Seismic P-waves']
- A --&gt; E[Particles vibrate perpendicular to wave direction]
+ F --&gt; G[&quot;Example: Waves on a string&quot;]
+ F --&gt; H[&quot;Example:&lt;br/&gt;Electromagnetic&lt;br/&gt;waves&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Longitudinal Wave] --&gt; B[&quot;Particles vibrate&lt;br/&gt;parallel&lt;br/&gt;to wave&lt;br/&gt;direction&quot;]
+ A --&gt; C[&quot;Example: Sound in air&quot;]
+ A --&gt; D[&quot;Example: Seismic P-waves&quot;]
+ A --&gt; E[&quot;Particles&lt;br/&gt;vibrate&lt;br/&gt;perpendicular to&lt;br/&gt;wave&lt;br/&gt;direction&quot;]
  A --&gt; F[Transverse Wave]
- F --&gt; G['Example: Waves on a string']
- F --&gt; H['Example: Electromagnetic waves']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Longitudinal Wave] --&gt; B[Particles vibrate parallel to wave direction]
- A --&gt; C['Example: Sound in air']
- A --&gt; D['Example: Seismic P-waves']
- A --&gt; E[Particles vibrate perpendicular to wave direction]
+ F --&gt; G[&quot;Example: Waves on a string&quot;]
+ F --&gt; H[&quot;Example:&lt;br/&gt;Electromagnetic&lt;br/&gt;waves&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Longitudinal Wave] --&gt; B[&quot;Particles vibrate&lt;br/&gt;parallel&lt;br/&gt;to wave&lt;br/&gt;direction&quot;]
+ A --&gt; C[&quot;Example: Sound in air&quot;]
+ A --&gt; D[&quot;Example: Seismic P-waves&quot;]
+ A --&gt; E[&quot;Particles&lt;br/&gt;vibrate&lt;br/&gt;perpendicular to&lt;br/&gt;wave&lt;br/&gt;direction&quot;]
  A --&gt; F[Transverse Wave]
- F --&gt; G['Example: Waves on a string']
- F --&gt; H['Example: Electromagnetic waves']</pre></noscript></div>
+ F --&gt; G[&quot;Example: Waves on a string&quot;]
+ F --&gt; H[&quot;Example:&lt;br/&gt;Electromagnetic&lt;br/&gt;waves&quot;]</pre></noscript></div>
 <h3 id="u5-sec-5-2-frequency-periodic-time-amplitude-wavelength-and-wave-velocity-and-their-relationship">5.2. Frequency, periodic time, amplitude, wavelength and wave velocity and their relationship</h3>
 <h4>Basic Definitions</h4>
 <ul>
@@ -1890,20 +1890,20 @@
 <p>> - Therefore, the frequency of the wave is 100 Hz.</p>
 <h4>Mermaid Diagram for Frequency, Periodic Time, Amplitude, Wavelength, and Wave Velocity</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['Frequency(f)'] --&gt; B['1/T']
- A --&gt; C['Amplitude(A)']
- A --&gt; D['Wavelength(λ)']
- A --&gt; E['Wave Velocity(v)']
+ A[&quot;Frequency(f)&quot;] --&gt; B[&quot;1/T&quot;]
+ A --&gt; C[&quot;Amplitude(A)&quot;]
+ A --&gt; D[&quot;Wavelength(λ)&quot;]
+ A --&gt; E[&quot;Wave Velocity(v)&quot;]
  E --&gt; F[v = f × λ]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['Frequency(f)'] --&gt; B['1/T']
- A --&gt; C['Amplitude(A)']
- A --&gt; D['Wavelength(λ)']
- A --&gt; E['Wave Velocity(v)']
+ A[&quot;Frequency(f)&quot;] --&gt; B[&quot;1/T&quot;]
+ A --&gt; C[&quot;Amplitude(A)&quot;]
+ A --&gt; D[&quot;Wavelength(λ)&quot;]
+ A --&gt; E[&quot;Wave Velocity(v)&quot;]
  E --&gt; F[v = f × λ]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['Frequency(f)'] --&gt; B['1/T']
- A --&gt; C['Amplitude(A)']
- A --&gt; D['Wavelength(λ)']
- A --&gt; E['Wave Velocity(v)']
+ A[&quot;Frequency(f)&quot;] --&gt; B[&quot;1/T&quot;]
+ A --&gt; C[&quot;Amplitude(A)&quot;]
+ A --&gt; D[&quot;Wavelength(λ)&quot;]
+ A --&gt; E[&quot;Wave Velocity(v)&quot;]
  E --&gt; F[v = f × λ]</pre></noscript></div>
 <p>This section covers the fundamental concepts of waves, including their types (longitudinal and transverse), definitions, and key relationships. The worked examples provided will help students understand and apply these concepts effectively in exam scenarios.</p>
 <hr />
@@ -2280,13 +2280,23 @@
   }
   function init() {
     if (!window.mermaid) return;
-    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', flowchart: { curve: 'basis', htmlLabels: true } });
+    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', securityLevel: 'strict', flowchart: { curve: 'basis', htmlLabels: true, useMaxWidth: true, nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
     var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
     nodes.forEach(function (el) {
       if (el.dataset.kbRun) return;
       el.dataset.kbRun = '1';
       el.textContent = kbSanitizeMermaid(el.textContent);
-      mermaid.run({ nodes: [el] }).catch(function () {
+      mermaid.run({ nodes: [el] }).then(function () {
+        var svg = el.querySelector('svg');
+        if (!svg) return;
+        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        svg.setAttribute('width', '100%');
+        svg.removeAttribute('height');
+        svg.style.width = '100%';
+        svg.style.height = 'auto';
+        svg.style.maxWidth = '100%';
+        svg.style.overflow = 'visible';
+      }).catch(function () {
         el.classList.add('mermaid-failed');
         el.innerHTML = '<div style="padding:10px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>' + el.innerHTML;
       });

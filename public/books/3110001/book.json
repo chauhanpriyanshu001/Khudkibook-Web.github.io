@@ -9,7 +9,7 @@
    "label": "Unit – General Chemistry",
    "file": "unit-1.html",
    "guFile": null,
-   "words": 3603,
+   "words": 3581,
    "readingMin": 20,
    "marks": ""
   },
@@ -18,7 +18,7 @@
    "label": "Unit – Water Technology",
    "file": "unit-2.html",
    "guFile": null,
-   "words": 3594,
+   "words": 3572,
    "readingMin": 20,
    "marks": ""
   },
@@ -27,7 +27,7 @@
    "label": "Unit – Metals, Alloys and Corrosion",
    "file": "unit-3.html",
    "guFile": null,
-   "words": 3671,
+   "words": 3647,
    "readingMin": 20,
    "marks": ""
   },
@@ -45,7 +45,7 @@
    "label": "Unit – Nano material",
    "file": "unit-5.html",
    "guFile": null,
-   "words": 2936,
+   "words": 2931,
    "readingMin": 16,
    "marks": ""
   },
@@ -54,7 +54,7 @@
    "label": "Unit – Fuel and Combustion",
    "file": "unit-6.html",
    "guFile": null,
-   "words": 3628,
+   "words": 3626,
    "readingMin": 20,
    "marks": ""
   },
@@ -63,7 +63,7 @@
    "label": "Unit – Chemical aspect of Biotechnology",
    "file": "unit-7.html",
    "guFile": null,
-   "words": 3428,
+   "words": 3412,
    "readingMin": 19,
    "marks": ""
   },
@@ -72,7 +72,7 @@
    "label": "Unit – Analytical Techniques",
    "file": "unit-8.html",
    "guFile": null,
-   "words": 2041,
+   "words": 2013,
    "readingMin": 11,
    "marks": ""
   }
@@ -125,5 +125,5 @@
   }
  ],
  "full": "full-book.html",
- "updatedAt": "2026-09-11T21:10:19.061Z"
+ "updatedAt": "2026-09-18T11:44:13.355Z"
 }

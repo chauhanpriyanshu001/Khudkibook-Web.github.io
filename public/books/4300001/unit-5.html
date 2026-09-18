@@ -159,6 +159,7 @@
 <a class="toc-item " href="unit-2.html"><i class="fas fa-book-open"></i> Unit – Trigonometry</a>
 <a class="toc-item " href="unit-3.html"><i class="fas fa-book-open"></i> Unit – Vectors</a>
 <a class="toc-item " href="unit-4.html"><i class="fas fa-book-open"></i> Unit – Coordinate Geometry</a>
+<a class="toc-item toc-active" href="unit-5.html"><i class="fas fa-book-open"></i> Unit – Limit</a>
         <h4>In this chapter</h4>
         <a class="toc-item toc-sec" href="#sec-5-1-limit-of-a-function"><i class="fas fa-chevron-right"></i> 5.1. Limit of a Function.</a>
 <a class="toc-item toc-sec" href="#sec-5-2-standard-formulae-of-limit-and-related-simple-examples"><i class="fas fa-chevron-right"></i> 5.2. Standard Formulae of Limit and Related Simple Examples</a>
@@ -178,7 +179,7 @@
 <h3 id="sec-5-1-limit-of-a-function">5.1. Limit of a Function.</h3>
 <h4>Definition and Concept</h4>
 <p>The <strong>limit</strong> of a function is a fundamental concept in calculus. It is the value that a function approaches as the input (or variable) approaches a certain value. This concept is crucial for understanding continuity, derivatives, and integrals. Formally, the limit of a function f(x) as x approaches a is denoted as:</p>
-<p>[ \lim_{x \to a} f(x) = L ]</p>
+<p>[ → a f(x) = L ]</p>
 <p>where L is the value that f(x) gets arbitrarily close to as x gets closer to a.</p>
 <h4>Types of Limits</h4>
 <p>Limits can be classified into different types based on the behavior of the function as x approaches a. These include:</p>
@@ -197,13 +198,13 @@
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the limit of the function f(x) = x² - 4 x - 2 as x approaches 2.</div>
 <p>To solve this, we first try direct substitution:</p>
-<p>[ \lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \frac{2^2 - 4}{2 - 2} = \frac{0}{0} ]</p>
+<p>[ → ₂ (x² - 4 / x - 2) = (2² - 4 / 2 - 2) = (0 / 0) ]</p>
 <p>This results in an indeterminate form. Next, we factor the numerator:</p>
-<p>[ \lim_{x \to 2} \frac{(x - 2)(x + 2)}{x - 2} = \lim_{x \to 2} (x + 2) ]</p>
+<p>[ → ₂ ((x - 2)(x + 2) / x - 2) = → ₂ (x + 2) ]</p>
 <p>Now, we can substitute x = 2:</p>
-<p>[ \lim_{x \to 2} (x + 2) = 2 + 2 = 4 ]</p>
+<p>[ → ₂ (x + 2) = 2 + 2 = 4 ]</p>
 <p>Thus, the limit of the function as x approaches 2 is:</p>
-<p>[ \boxed{4} ]</p>
+<p>[ 4 ]</p>
 <hr />
 <h3 id="sec-5-2-standard-formulae-of-limit-and-related-simple-examples">5.2. Standard Formulae of Limit and Related Simple Examples</h3>
 <h4>5.2.1. Introduction to Standard Formulae of Limit</h4>
@@ -215,32 +216,32 @@
 <li><strong>Formula for the limit of a polynomial function:</strong></li>
 </ul>
 <p>[</p>
-<p>\lim_{x \to a} (P(x)) = P(a)</p>
+<p>→ a (P(x)) = P(a)</p>
 <p>]</p>
 <p>where P(x) is a polynomial function.</p>
 <ul>
 <li><strong>Formula for the limit of a rational function:</strong></li>
 </ul>
 <p>[</p>
-<p>\lim_{x \to a} \left(\frac{P(x)}{Q(x)}\right) = \frac{P(a)}{Q(a)}, \quad \text{if } Q(a) \neq 0</p>
+<p>→ a ((P(x) / Q(x))) = (P(a) / Q(a)), if Q(a) ≠ 0</p>
 <p>]</p>
 <ul>
 <li><strong>Formula for the limit of a trigonometric function:</strong></li>
 </ul>
 <p>[</p>
-<p>\lim_{x \to 0} \left(\frac{\sin x}{x}\right) = 1</p>
+<p>→ ₀ ((x / x)) = 1</p>
 <p>]</p>
 <ul>
 <li><strong>Formula for the limit of the exponential function:</strong></li>
 </ul>
 <p>[</p>
-<p>\lim_{x \to 0} \left(\frac{e^x - 1}{x}\right) = 1</p>
+<p>→ ₀ ((eˣ - 1 / x)) = 1</p>
 <p>]</p>
 <ul>
 <li><strong>Formula for the limit of the logarithmic function:</strong></li>
 </ul>
 <p>[</p>
-<p>\lim_{x \to 0^+} \left(x \ln x\right) = 0</p>
+<p>→ ₀⁺ (x x) = 0</p>
 <p>]</p>
 <h4>5.2.3. Application of Standard Formulae</h4>
 <p>To solve problems using these standard formulae, it is crucial to recognize the type of function involved and apply the appropriate formula. Here is a worked example to illustrate the application of these formulae.</p>
@@ -248,11 +249,11 @@
 <p><strong>Solution:</strong></p>
 <p>First, we simplify the function:</p>
 <p>[</p>
-<p>f(x) = \frac{x^2 - 4}{x - 2} = \frac{(x - 2)(x + 2)}{x - 2} = x + 2 \quad \text{for } x \neq 2</p>
+<p>f(x) = (x² - 4 / x - 2) = ((x - 2)(x + 2) / x - 2) = x + 2 for x ≠ 2</p>
 <p>]</p>
 <p>Now, we can find the limit:</p>
 <p>[</p>
-<p>\lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) = 2 + 2 = 4</p>
+<p>→ ₂ f(x) = → ₂ (x + 2) = 2 + 2 = 4</p>
 <p>]</p>
 <h4>5.2.4. Advanced Application of Limit Formulae</h4>
 <p>To further enhance your understanding and application, consider the following problem:</p>
@@ -260,41 +261,41 @@
 <p><strong>Solution:</strong></p>
 <p>Using the standard formula for the limit of a trigonometric function:</p>
 <p>[</p>
-<p>\lim_{x \to 0} \left(\frac{\sin 3x}{x}\right) = \lim_{x \to 0} \left(3 \cdot \frac{\sin 3x}{3x}\right) = 3 \cdot \lim_{x \to 0} \left(\frac{\sin 3x}{3x}\right) = 3 \cdot 1 = 3</p>
+<p>→ ₀ ((3x / x)) = → ₀ (3 · (3x / 3x)) = 3 · → ₀ ((3x / 3x)) = 3 · 1 = 3</p>
 <p>]</p>
 <h4>5.2.5. Flowchart for Standard Formulae Application</h4>
 <p>To visualize the process of applying standard formulae, consider the following flowchart:</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Identify the type of function] --&gt; B[Polynomial Function]
- B --&gt; C[Use \lim_{x \to a} P(x) = P(a)]
+ B --&gt; C['Use \lim_{x \to a} P(x) = P(a)']
  A --&gt; D[Rational Function]
- D --&gt; E[Use \lim_{x \to a} (P(x)/Q(x)) = P(a)/Q(a)]
+ D --&gt; E['Use \lim_{x \to a} (P(x)/Q(x)) = P(a)/Q(a)']
  A --&gt; F[Trigonometric Function]
- F --&gt; G[Use \lim_{x \to 0} (sin x / x) = 1]
+ F --&gt; G['Use \lim_{x \to 0} (sin x / x) = 1']
  A --&gt; H[Exponential Function]
- H --&gt; I[Use \lim_{x \to 0} ((e^x - 1) / x) = 1]
+ H --&gt; I['Use \lim_{x \to 0} ((e^x - 1) / x) = 1']
  A --&gt; J[Logarithmic Function]
- J --&gt; K[Use \lim_{x \to 0^+} (x ln x) = 0]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ J --&gt; K['Use \lim_{x \to 0^+} (x ln x) = 0']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Identify the type of function] --&gt; B[Polynomial Function]
- B --&gt; C[Use \lim_{x \to a} P(x) = P(a)]
+ B --&gt; C['Use \lim_{x \to a} P(x) = P(a)']
  A --&gt; D[Rational Function]
- D --&gt; E[Use \lim_{x \to a} (P(x)/Q(x)) = P(a)/Q(a)]
+ D --&gt; E['Use \lim_{x \to a} (P(x)/Q(x)) = P(a)/Q(a)']
  A --&gt; F[Trigonometric Function]
- F --&gt; G[Use \lim_{x \to 0} (sin x / x) = 1]
+ F --&gt; G['Use \lim_{x \to 0} (sin x / x) = 1']
  A --&gt; H[Exponential Function]
- H --&gt; I[Use \lim_{x \to 0} ((e^x - 1) / x) = 1]
+ H --&gt; I['Use \lim_{x \to 0} ((e^x - 1) / x) = 1']
  A --&gt; J[Logarithmic Function]
- J --&gt; K[Use \lim_{x \to 0^+} (x ln x) = 0]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ J --&gt; K['Use \lim_{x \to 0^+} (x ln x) = 0']</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Identify the type of function] --&gt; B[Polynomial Function]
- B --&gt; C[Use \lim_{x \to a} P(x) = P(a)]
+ B --&gt; C['Use \lim_{x \to a} P(x) = P(a)']
  A --&gt; D[Rational Function]
- D --&gt; E[Use \lim_{x \to a} (P(x)/Q(x)) = P(a)/Q(a)]
+ D --&gt; E['Use \lim_{x \to a} (P(x)/Q(x)) = P(a)/Q(a)']
  A --&gt; F[Trigonometric Function]
- F --&gt; G[Use \lim_{x \to 0} (sin x / x) = 1]
+ F --&gt; G['Use \lim_{x \to 0} (sin x / x) = 1']
  A --&gt; H[Exponential Function]
- H --&gt; I[Use \lim_{x \to 0} ((e^x - 1) / x) = 1]
+ H --&gt; I['Use \lim_{x \to 0} ((e^x - 1) / x) = 1']
  A --&gt; J[Logarithmic Function]
- J --&gt; K[Use \lim_{x \to 0^+} (x ln x) = 0]</pre></noscript></div>
+ J --&gt; K['Use \lim_{x \to 0^+} (x ln x) = 0']</pre></noscript></div>
 <p>This flowchart helps in quickly identifying the appropriate standard formula for the given function type.</p>
 <h4>5.2.6. Summary</h4>
 <p>In this section, we have covered the standard formulae of limits and their application in solving problems. By recognizing the type of function and applying the correct formula, you can efficiently find limits. Practice these formulae and their applications to ensure a strong foundation in limit evaluation.</p>

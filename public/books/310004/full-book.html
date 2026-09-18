@@ -21,15 +21,33 @@
   .kb-progress-bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#4f46e5,#7c3aed);z-index:1200;transition:width .1s linear}
 
   /* ---------- Book cover (reader-style) ---------- */
-  .kb-book-cover{background:linear-gradient(135deg,#312e81 0%,#4f46e5 45%,#7c3aed 100%);border-radius:20px;color:#fff;padding:0;margin:18px 0 24px;box-shadow:0 20px 44px rgba(79,70,229,.32);overflow:hidden;position:relative}
+  .kb-book-cover{background:linear-gradient(135deg,var(--kb-accent,#312e81) 0%,var(--kb-accent-2,#4f46e5) 100%);border-radius:20px;color:#fff;padding:0;margin:18px 0 24px;box-shadow:0 20px 44px color-mix(in srgb,var(--kb-accent,#4f46e5) 32%,transparent);overflow:hidden;position:relative;min-height:520px;display:flex;align-items:center}
   .kb-book-cover::before{content:"";position:absolute;inset:0;background:radial-gradient(1200px 400px at 85% -10%,rgba(255,255,255,.18),transparent 60%),radial-gradient(600px 300px at 0% 110%,rgba(124,58,237,.5),transparent 55%);pointer-events:none}
-  .kb-cover-inner{position:relative;padding:44px 40px 38px;text-align:center}
+  .kb-cover-inner{position:relative;padding:52px 40px 44px;text-align:center;width:100%;z-index:2}
+  .kb-brand-lockup{display:inline-flex;align-items:center;gap:8px;font-weight:800;letter-spacing:.18em;font-size:.78rem;margin-bottom:22px}
+  .kb-brand-mark{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:10px;background:#fff;color:var(--kb-accent,#4338ca);font-size:.72rem;letter-spacing:-.04em}
   .kb-cover-kicker{font-size:.74rem;letter-spacing:.28em;text-transform:uppercase;opacity:.8;font-weight:700;margin-bottom:16px}
+  .kb-cover-subject-icon{font-size:4rem;line-height:1;margin:0 auto 16px;text-shadow:0 8px 30px rgba(0,0,0,.25)}
   .kb-cover-title{font-family:'Outfit',sans-serif;font-size:clamp(1.7rem,4.5vw,2.8rem);font-weight:800;line-height:1.16;letter-spacing:-.01em}
   .kb-cover-rule{width:64px;height:3px;border-radius:99px;background:rgba(255,255,255,.7);margin:18px auto}
   .kb-cover-meta{font-size:.95rem;font-weight:600;opacity:.94;margin-top:2px}
   .kb-cover-units{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-size:.82rem;font-weight:700;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.32);padding:7px 16px;border-radius:999px}
+  .kb-cover-topics{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin:18px auto 0;max-width:720px}
+  .kb-cover-topic{font-size:.72rem;padding:5px 9px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .kb-cover-badge{margin-top:18px;display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:600;background:rgba(0,0,0,.22);padding:8px 16px;border-radius:999px}
+  .kb-motif{position:absolute;inset:0;opacity:.24;pointer-events:none}
+  .kb-motif-grid{background-image:linear-gradient(rgba(255,255,255,.35) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.35) 1px,transparent 1px);background-size:34px 34px;transform:perspective(420px) rotateX(58deg) translateY(45%);transform-origin:center bottom}
+  .kb-motif-wave{position:absolute;right:4%;bottom:7%;font-size:7rem;letter-spacing:-.35em;transform:rotate(-12deg);white-space:nowrap}
+  .kb-motif-gear{position:absolute;right:5%;top:8%;font-size:12rem;opacity:.16}
+  .kb-motif-blueprint{position:absolute;right:5%;bottom:5%;font-size:6rem;letter-spacing:1.2rem}
+  .kb-motif-circuit i,.kb-motif-circuit b,.kb-motif-molecule i,.kb-motif-molecule b{position:absolute;display:block;border-radius:50%;background:#fff;box-shadow:0 0 0 8px rgba(255,255,255,.08)}
+  .kb-motif-circuit i:nth-child(1),.kb-motif-molecule i:nth-child(1){width:14px;height:14px;left:10%;top:22%}.kb-motif-circuit i:nth-child(2),.kb-motif-molecule i:nth-child(2){width:10px;height:10px;right:14%;top:32%}.kb-motif-circuit i:nth-child(3),.kb-motif-molecule i:nth-child(3){width:18px;height:18px;right:24%;bottom:14%}
+  .kb-motif-circuit b,.kb-motif-molecule b{height:2px;width:40%;border-radius:0;opacity:.75}.kb-motif-circuit b:nth-of-type(1){left:10%;top:24%;transform:rotate(18deg)}.kb-motif-circuit b:nth-of-type(2){right:18%;top:34%;transform:rotate(48deg)}
+  .kb-motif-molecule b{width:24%;left:20%;top:46%;transform:rotate(-28deg)}.kb-motif-molecule b:nth-of-type(2){left:57%;top:46%;transform:rotate(28deg)}
+  .kb-paper{background:#fff;border:1px solid var(--border,#e5e9f2);border-radius:16px;padding:34px 38px;margin:0 0 22px;box-shadow:0 1px 3px rgba(15,23,42,.08);line-height:1.7;position:relative}
+  .kb-paper::after{content:"";position:absolute;inset:10px;border:1px solid rgba(79,70,229,.08);border-radius:11px;pointer-events:none}
+  .kb-brand-page-mark{font-size:.72rem;font-weight:800;letter-spacing:.18em;color:var(--kb-accent,#4338ca);margin-bottom:28px}.kb-brand-page-mark span{color:#94a3b8;font-weight:600;margin-left:8px}
+  .kb-eyebrow{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;font-weight:800;color:var(--kb-accent,#4338ca);margin-bottom:6px}.kb-paper h1,.kb-paper h2{font-family:'Outfit',sans-serif;color:#1e1b4b}.kb-paper h1{font-size:2rem;margin:0 0 12px}.kb-paper h2{font-size:1.35rem;border-bottom:2px solid #eef1fb;padding-bottom:8px;margin:24px 0 10px}.kb-paper h3{font-size:1.05rem;margin:22px 0 8px}.kb-lead{font-size:1.05rem;color:#475569;max-width:760px}.kb-muted{color:#64748b}.kb-front-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}.kb-front-grid div{border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fafc}.kb-front-grid strong{display:block;font-size:1.35rem;color:var(--kb-accent,#4338ca)}.kb-front-grid span{font-size:.78rem;color:#64748b}.kb-reading-steps{padding-left:22px}.kb-disclaimer{border-left:4px solid #f59e0b;background:#fffbeb;padding:12px 14px;border-radius:0 10px 10px 0;font-size:.86rem;color:#78350f;margin-top:22px}.kb-syllabus-table{width:100%;border-collapse:collapse;font-size:.88rem}.kb-syllabus-table th,.kb-syllabus-table td{border:1px solid #e2e8f0;padding:9px;text-align:left;vertical-align:top}.kb-syllabus-table th{background:#f1f5f9;color:#1e293b}.kb-keyword-row{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.kb-keyword-row .kb-cover-topic{color:var(--kb-accent,#4338ca);background:#eef2ff;border-color:#c7d2fe}
 
   /* ---------- Toolbar ---------- */
   .kb-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;justify-content:space-between;margin:0 0 18px}
@@ -37,6 +55,7 @@
   .kb-tb-btn,.kb-print-btn{display:inline-flex;gap:8px;align-items:center;background:#fff;color:var(--accent,#4f46e5);border:1px solid var(--border,#e5e9f2);padding:9px 15px;border-radius:999px;font-weight:700;font-size:.82rem;text-decoration:none;box-shadow:0 1px 3px rgba(15,23,42,.08);transition:.15s}
   .kb-tb-btn:hover,.kb-print-btn:hover{transform:translateY(-1px);border-color:var(--border-accent,rgba(79,70,229,.35));box-shadow:0 6px 16px rgba(15,23,42,.12)}
   .kb-tb-stat{display:inline-flex;gap:8px;align-items:center;background:#fff;border:1px solid var(--border,#e5e9f2);padding:9px 14px;border-radius:999px;font-weight:600;font-size:.82rem;color:var(--text-secondary,#475569);box-shadow:0 1px 3px rgba(15,23,42,.08)}
+  .kb-page-controls{display:flex;align-items:center;justify-content:center;gap:14px;margin:0 0 18px}.kb-page-label{font-size:.82rem;font-weight:800;color:#64748b;min-width:110px;text-align:center}
 
   /* ---------- Mobile chapter drawer ---------- */
   #kb-mobile-toc{position:fixed;inset:0;background:rgba(15,23,42,.5);backdrop-filter:blur(2px);z-index:1500;opacity:0;pointer-events:none;transition:.25s}
@@ -95,6 +114,7 @@
   .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
   .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
   .kb-unit{margin-bottom:26px}
+  .kb-page-mode .kb-articles{perspective:1600px}.kb-page-mode .kb-unit{display:none;min-height:72vh;margin-bottom:0;animation-duration:.42s;animation-fill-mode:both}.kb-page-mode .kb-unit.kb-page-active{display:block}.kb-page-mode .kb-unit.kb-turn-next{animation-name:kbTurnNext}.kb-page-mode .kb-unit.kb-turn-prev{animation-name:kbTurnPrev}@keyframes kbTurnNext{from{opacity:0;transform:rotateY(-7deg) translateX(26px)}to{opacity:1;transform:none}}@keyframes kbTurnPrev{from{opacity:0;transform:rotateY(7deg) translateX(-26px)}to{opacity:1;transform:none}}.kb-page-mode .kb-front-matter{display:none}.kb-page-mode .kb-book-cover{min-height:300px}.kb-page-mode .kb-unit{box-shadow:0 12px 30px rgba(15,23,42,.09);border-top:5px solid var(--kb-accent,#4338ca)}.kb-page-mode .kb-page-controls{position:sticky;bottom:12px;z-index:3;background:rgba(246,248,252,.92);padding:10px;border-radius:999px;backdrop-filter:blur(8px)}
   .kb-notice{display:flex;gap:10px;background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:12px;padding:12px 14px;font-size:.86rem;margin:22px 0 0;line-height:1.55}
   .kb-notice i{color:#ea580c;margin-top:3px}
   .kb-toast{position:fixed;bottom:66px;left:50%;transform:translateX(-50%) translateY(20px);background:#111827;color:#fff;padding:9px 16px;border-radius:999px;font-size:.82rem;font-weight:600;opacity:0;pointer-events:none;transition:.25s;z-index:1300}
@@ -105,6 +125,7 @@
     .kb-layout{grid-template-columns:1fr}
     .kb-toc{display:none}
     .kb-article{padding:20px 18px}
+    .kb-paper{padding:26px 20px}.kb-front-grid{grid-template-columns:1fr}.kb-page-controls{gap:7px}.kb-page-label{font-size:.75rem;min-width:84px}.kb-cover-inner{padding:42px 20px}.kb-book-cover{min-height:470px}
     /* show mobile chapter button */
     .kb-desktop-toc-toggle{display:inline-flex!important}
   }
@@ -132,9 +153,24 @@
     @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in · Effective Technical Communication";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
   }
   </style>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Effective Technical Communication – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":60630,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Effective Technical Communication","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Effective Technical Communication – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":60906,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Effective Technical Communication","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q14JJGGSPR');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yha6xlt986");
+  </script>
 </head>
-<body>
+<body style="--kb-accent:#2563eb;--kb-accent-2:#7c3aed;" data-kb-theme="digital">
   <nav id="nav" class="navbar-root no-print"></nav>
   <div class="kb-progress-bar" id="kb-progress"></div>
 
@@ -147,25 +183,64 @@
 
       
     <div class="kb-book-cover">
+      <span class="kb-motif kb-motif-circuit" aria-hidden="true"><i></i><i></i><i></i><b></b><b></b></span>
       <div class="kb-cover-inner">
-        <div class="kb-cover-kicker">KHUDKIBOOK · GTU AI SELF-STUDY BOOK</div>
+        <div class="kb-brand-lockup"><span class="kb-brand-mark">KB</span><span>KHUDKIBOOK</span></div>
+        <div class="kb-cover-kicker">GTU DIGITAL · AI SELF-STUDY BOOK</div>
+        <div class="kb-cover-subject-icon">⌘</div>
         <div class="kb-cover-title">Effective Technical Communication</div>
         <div class="kb-cover-rule"></div>
         <div class="kb-cover-meta">Subject Code 310004 · Gujarat Technological University Information Technology Semester 3</div>
         <div class="kb-cover-units">Complete Study Book · 14 Units</div>
+        <div class="kb-cover-topics"><span class="kb-cover-topic">BODY MEASUREMENT</span><span class="kb-cover-topic">Knowledge of various landmarks on the body, required for making garments.</span><span class="kb-cover-topic">Techniques of taking body measurements.</span><span class="kb-cover-topic">Directly form the body.(Vertical &amp; Horizontal)</span><span class="kb-cover-topic">Indirectly form the readymade garments.</span><span class="kb-cover-topic">From standard size charts.</span></div>
         <div class="kb-cover-badge"><i class="fas fa-robot"></i> AI-generated study material · cross-check with official syllabus</div>
       </div>
     </div>
+    
+    <section class="kb-front-matter kb-paper" id="kb-overview">
+      <div class="kb-brand-page-mark">KHUDKIBOOK <span>STUDENT EDITION</span></div>
+      <p class="kb-eyebrow">About this book</p>
+      <h1>Effective Technical Communication</h1>
+      <p class="kb-lead">A clear, exam-oriented self-study book for GTU students. Every chapter is arranged from the official syllabus into simple explanations, worked examples, diagrams, revision points and exam-style questions.</p>
+      <div class="kb-front-grid">
+        <div><strong>14</strong><span>syllabus units</span></div>
+        <div><strong>60,906</strong><span>study words</span></div>
+        <div><strong>122</strong><span>print pages approx.</span></div>
+      </div>
+      <h2>How to use this book</h2>
+      <ol class="kb-reading-steps">
+        <li>Read the unit overview before starting a chapter.</li>
+        <li>Study the worked examples and diagrams, then attempt the unit-end questions.</li>
+        <li>Use the page-turn reader for focused study or download the watermarked PDF for offline revision.</li>
+        <li>Always verify formulas, standards and exam requirements against the official GTU syllabus and prescribed textbooks.</li>
+      </ol>
+      <div class="kb-disclaimer"><strong>Academic note:</strong> This is a KhudKibook learning aid, not an official GTU publication. It is designed to make syllabus-aligned study easier, not to replace official references.</div>
+    </section>
+    <section class="kb-front-matter kb-paper" id="kb-syllabus">
+      <p class="kb-eyebrow">At a glance</p>
+      <h2>Syllabus and learning map</h2>
+      <p class="kb-muted">The chapters below are generated from the syllabus definition stored for subject code <strong>310004</strong>.</p>
+      <table class="kb-syllabus-table"><thead><tr><th>Unit</th><th>Coverage</th><th>Weight / marks</th></tr></thead><tbody><tr><td>Unit 1</td><td>BODY MEASUREMENT</td><td>As per GTU syllabus</td></tr><tr><td>Unit 2</td><td>TOOLS</td><td>As per GTU syllabus</td></tr><tr><td>Unit 3</td><td>TOPICS AND SUB-TOPICS :</td><td>As per GTU syllabus</td></tr><tr><td>Unit 4</td><td>ELEMENTS OF DESIGN</td><td>As per GTU syllabus</td></tr><tr><td>Unit 5</td><td>PRINCIPLES OF DESIGN</td><td>As per GTU syllabus</td></tr><tr><td>Unit 6</td><td>DESIGN</td><td>As per GTU syllabus</td></tr><tr><td>Unit 7</td><td>Prepare given types of drawing by hand and on computer</td><td>As per GTU syllabus</td></tr><tr><td>Unit 8</td><td>Calligraphy writing by hand (All alphabet)</td><td>As per GTU syllabus</td></tr><tr><td>Unit 9</td><td>Shape</td><td>As per GTU syllabus</td></tr><tr><td>Unit 10</td><td>Form</td><td>As per GTU syllabus</td></tr><tr><td>Unit 11</td><td>TEXTILE FIBERS AND ITS MANUFACTURING PROCESS AND</td><td>As per GTU syllabus</td></tr><tr><td>Unit 12</td><td>YARNS</td><td>As per GTU syllabus</td></tr><tr><td>Unit 13</td><td>CONVERSION OF YARN INTO FABRIC</td><td>As per GTU syllabus</td></tr><tr><td>Unit 14</td><td>Letter writing by hand and in computer</td><td>As per GTU syllabus</td></tr></tbody></table>
+      
+      <div class="kb-keyword-row"><span class="kb-cover-topic">BODY MEASUREMENT</span><span class="kb-cover-topic">Knowledge of various landmarks on the body, required for making garments.</span><span class="kb-cover-topic">Techniques of taking body measurements.</span><span class="kb-cover-topic">Directly form the body.(Vertical &amp; Horizontal)</span><span class="kb-cover-topic">Indirectly form the readymade garments.</span><span class="kb-cover-topic">From standard size charts.</span></div>
+    </section>
 
     <div class="kb-toolbar no-print">
       <div class="kb-tb-group">
         <button class="kb-tb-btn kb-desktop-toc-toggle" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
-        <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~302 min read</span>
-        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 60,630 words</span>
+        <button class="kb-tb-btn" id="kb-reader-toggle" type="button"><i class="fas fa-book-open"></i> Page view</button>
+        <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~299 min read</span>
+        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 60,906 words</span>
       </div>
       <div class="kb-tb-group">
         <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
       </div>
+    </div>
+
+    <div class="kb-page-controls no-print" id="kb-page-controls" aria-label="Book page controls">
+      <button class="kb-tb-btn" id="kb-page-prev" type="button"><i class="fas fa-arrow-left"></i> Previous page</button>
+      <span id="kb-page-label" class="kb-page-label">Page 1 of 14</span>
+      <button class="kb-tb-btn" id="kb-page-next" type="button">Next page <i class="fas fa-arrow-right"></i></button>
     </div>
 
     <div class="kb-mobile-toggle-bar no-print">
@@ -612,17 +687,17 @@
 <h4>Mermaid Diagram for Standing Measurements</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Height] --&gt; B[From top of head to floor]
- A --&gt; C[Chest - Around fullest part of chest, just above nipples]
- A --&gt; D[Waist - Around narrowest part of torso, usually above belly button]
- A --&gt; E[Hips - Around fullest part of hips, typically at widest part of thighs]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A --&gt; C[&quot;Chest - Around fullest part of chest, just above nipples&quot;]
+ A --&gt; D[&quot;Waist - Around narrowest part of torso, usually above belly button&quot;]
+ A --&gt; E[&quot;Hips - Around fullest part of hips, typically at widest part of thighs&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Height] --&gt; B[From top of head to floor]
- A --&gt; C[Chest - Around fullest part of chest, just above nipples]
- A --&gt; D[Waist - Around narrowest part of torso, usually above belly button]
- A --&gt; E[Hips - Around fullest part of hips, typically at widest part of thighs]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A --&gt; C[&quot;Chest - Around fullest part of chest, just above nipples&quot;]
+ A --&gt; D[&quot;Waist - Around narrowest part of torso, usually above belly button&quot;]
+ A --&gt; E[&quot;Hips - Around fullest part of hips, typically at widest part of thighs&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Height] --&gt; B[From top of head to floor]
- A --&gt; C[Chest - Around fullest part of chest, just above nipples]
- A --&gt; D[Waist - Around narrowest part of torso, usually above belly button]
- A --&gt; E[Hips - Around fullest part of hips, typically at widest part of thighs]</pre></noscript></div>
+ A --&gt; C[&quot;Chest - Around fullest part of chest, just above nipples&quot;]
+ A --&gt; D[&quot;Waist - Around narrowest part of torso, usually above belly button&quot;]
+ A --&gt; E[&quot;Hips - Around fullest part of hips, typically at widest part of thighs&quot;]</pre></noscript></div>
 <h4>Mermaid Diagram for Sitting Measurements</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Sitting Height] --&gt; B[From top of head to sitting surface]
@@ -1591,11 +1666,11 @@
  A --&gt; C[Prevent Fabric from Stretching]</pre></noscript></div>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>To hand overcast, make small, overcasting stitches along the edge of the fabric to secure it.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Hand Overcast] --&gt; B[Make Small, Overcasting Stitches Along Edge]
+ A[Hand Overcast] --&gt; B['Make Small, Overcasting Stitches Along Edge']
  A --&gt; C[Secure Edge of Fabric]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Hand Overcast] --&gt; B[Make Small, Overcasting Stitches Along Edge]
+ A[Hand Overcast] --&gt; B['Make Small, Overcasting Stitches Along Edge']
  A --&gt; C[Secure Edge of Fabric]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Hand Overcast] --&gt; B[Make Small, Overcasting Stitches Along Edge]
+ A[Hand Overcast] --&gt; B['Make Small, Overcasting Stitches Along Edge']
  A --&gt; C[Secure Edge of Fabric]</pre></noscript></div>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>To zigzag, create a zigzag pattern along the edge of the fabric to finish it.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
@@ -2012,7 +2087,7 @@ Hello, this is a sample document.</code></pre>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Clicking the Start button and typing "Settings" in the search bar will open the Settings application.</div>
 <h4>2.2.3. Window Explorer</h4>
 <p><strong>Window Explorer</strong> is a file manager that allows you to view, organize, and manage files and folders on your computer. It is accessed by clicking the <strong>Start Button</strong> and then selecting <strong>File Explorer</strong> from the menu.</p>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>In Window Explorer, you can navigate to <code>C:\Users\YourUsername\Documents</code> to view and manage your personal documents.</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>In Window Explorer, you can navigate to <code>C:</code> to view and manage your personal documents.</div>
 <h4>2.2.4. Recycle Bin</h4>
 <p>The <strong>Recycle Bin</strong> is a virtual trash can where deleted files and folders are temporarily stored. It is represented by a trash can icon on the desktop.</p>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>If you delete a file, it goes to the Recycle Bin. You can restore the file from the Recycle Bin by right-clicking it and selecting "Restore."</div>
@@ -2216,19 +2291,19 @@ Hello, this is a sample document.</code></pre>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Biomaterial] --&gt; B[Metals]
  A --&gt; C[Ceramics]
- B --&gt; D[Bone plates, implants]
+ B --&gt; D['Bone plates, implants']
  C --&gt; E[Bone cement]
  D --&gt; F[Biocompatibility]
  E --&gt; F</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Biomaterial] --&gt; B[Metals]
  A --&gt; C[Ceramics]
- B --&gt; D[Bone plates, implants]
+ B --&gt; D['Bone plates, implants']
  C --&gt; E[Bone cement]
  D --&gt; F[Biocompatibility]
  E --&gt; F</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Biomaterial] --&gt; B[Metals]
  A --&gt; C[Ceramics]
- B --&gt; D[Bone plates, implants]
+ B --&gt; D['Bone plates, implants']
  C --&gt; E[Bone cement]
  D --&gt; F[Biocompatibility]
  E --&gt; F</pre></noscript></div>
@@ -2637,8 +2712,8 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Area Proportion:</strong></li>
 </ol>
 <ul>
-<li>Area of the implant (cylinder) = π * (Diameter/2)^2</li>
-<li>Area of the implant = π <em> (3 mm / 2)^2 = π </em> (1.5 mm)^2 = 2.25π mm²</li>
+<li>Area of the implant (cylinder) = π * (Diameter/2)²</li>
+<li>Area of the implant = π <em> (3 mm / 2)² = π </em> (1.5 mm)² = 2.25π mm²</li>
 <li>Area proportion = Cross-sectional area of the implant / Area of the root canal</li>
 <li>Assuming the area of the root canal is 1.5 mm² (for simplicity)</li>
 <li>Area proportion = 2.25π mm² / 1.5 mm² ≈ 4.71</li>
@@ -2657,11 +2732,11 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Design the bone plate:</strong></li>
 </ol>
 <ul>
-<li>Let the diameter of the bone plate be \(d\).</li>
-<li>Cross-sectional area of the bone plate = π * (d/2)^2</li>
-<li>30 cm² = π * (d/2)^2</li>
-<li>(d/2)^2 = 30 cm² / π</li>
-<li>(d/2)^2 ≈ 9.55 cm²</li>
+<li>Let the diameter of the bone plate be d.</li>
+<li>Cross-sectional area of the bone plate = π * (d/2)²</li>
+<li>30 cm² = π * (d/2)²</li>
+<li>(d/2)² = 30 cm² / π</li>
+<li>(d/2)² ≈ 9.55 cm²</li>
 <li>d/2 ≈ √9.55 cm = 3.09 cm</li>
 <li>d ≈ 2 * 3.09 cm = 6.18 cm</li>
 </ul>
@@ -2834,14 +2909,21 @@ Hello, this is a sample document.</code></pre>
 <p>Titanium is a common choice for dental implants due to its strength and biocompatibility. The modulus of elasticity for titanium is about 110 GPa.</p>
 <h5>Step 3: Design the Geometry</h5>
 <p>The implant is designed as a cylindrical shape with a diameter of 3.5 mm and a length of 10 mm. The cross-sectional area (A) of the implant is calculated as:</p>
-<p>\[ A = \pi \left(\frac{d}{2}\right)^2 = \pi \left(\frac{3.5}{2}\right)^2 = 9.62 \, \text{mm}^2 \]</p>
+<p>A = π ((d / 2))² = π ((3.5 / 2))² = 9.62 \, mm²</p>
 <h5>Step 4: Stress Analysis</h5>
 <p>The stress (σ) in the implant can be calculated using the formula:</p>
-<p>\[ \sigma = \frac{F}{A} \]</p>
-<p>where \( F \) is the applied force (200 N) and \( A \) is the cross-sectional area (9.62 mm²).</p>
-<p>\[ \sigma = \frac{200 \, \text{N}}{9.62 \, \text{mm}^2} = 20.78 \, \text{MPa} \]</p>
+<p>σ = (F / A)</p>
+<p>where F is the applied force (200 N) and A is the cross-sectional area (9.62 mm²).</p>
+<p>σ = (200 \, N / 9.62 \, mm²) = 20.78 \, MPa</p>
 <p>This stress is within the safe limit for titanium, ensuring the implant will not fail under normal usage.</p>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Consider a dental implant with a diameter of 3.5 mm and a length of 10 mm. If the applied force is 200 N, the stress in the implant is calculated as:<br /><br />```mermaid<br />flowchart LR<br />A[Stress Calculation] --> B[Stress = 200 N / 9.62 mm²]<br />B --> C[Stress = 20.78 MPa]<br />```</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Consider a dental implant with a diameter of 3.5 mm and a length of 10 mm. If the applied force is 200 N, the stress in the implant is calculated as:<br /></div>
+<div class="mermaid-wrap"><div class="mermaid">flowchart LR
+ A[Stress Calculation] --&gt; B['Stress = 200 N / 9.62 mm²']
+ B --&gt; C[Stress = 20.78 MPa]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[Stress Calculation] --&gt; B['Stress = 200 N / 9.62 mm²']
+ B --&gt; C[Stress = 20.78 MPa]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[Stress Calculation] --&gt; B['Stress = 200 N / 9.62 mm²']
+ B --&gt; C[Stress = 20.78 MPa]</pre></noscript></div>
 <h4>Summary</h4>
 <p>Structural design is a critical aspect of biomedical engineering, ensuring that implants and biomaterials can withstand the mechanical stresses they will encounter. By considering factors such as material properties, load analysis, and biomechanical environment, engineers can design robust and effective implants.</p>
 <hr />
@@ -3132,7 +3214,12 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Make Adjustments:</strong> Make necessary adjustments to improve clarity and detail.</li>
 </ul>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br /><strong>Step 1: Understanding the Requirement</strong><br /><br />You are required to draw a free hand sketch of a knee prosthesis.<br /><br /><strong>Step 2: Sketching the Basic Outline</strong><br /><br />Start with a light guide line of the knee joint. Draw the femur and tibia bones, and the patella. Use a light pencil to make the initial sketch.<br /><br />```mermaid<br />flowchart TD<br />A[Initial Sketch] --> B[Refine Outline] --> C[Add Details] --> D[Review and Revise]<br />```<br /><br /><strong>Step 3: Adding Details</strong><br /><br />Add the prosthesis components, such as the femoral stem, tibial base, and polyethylene insert. Label the key parts and add measurements.<br /><br /><strong>Step 4: Review and Revise</strong><br /><br />Check the drawing for any errors or missing details. Make sure all dimensions and labels are correct. Revise as necessary to improve the clarity and detail.</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br /><strong>Step 1: Understanding the Requirement</strong><br /><br />You are required to draw a free hand sketch of a knee prosthesis.<br /><br /><strong>Step 2: Sketching the Basic Outline</strong><br /><br />Start with a light guide line of the knee joint. Draw the femur and tibia bones, and the patella. Use a light pencil to make the initial sketch.<br /></div>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Initial Sketch] --&gt; B[Refine Outline] --&gt; C[Add Details] --&gt; D[Review and Revise]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Initial Sketch] --&gt; B[Refine Outline] --&gt; C[Add Details] --&gt; D[Review and Revise]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Initial Sketch] --&gt; B[Refine Outline] --&gt; C[Add Details] --&gt; D[Review and Revise]</pre></noscript></div>
+<blockquote><br /><strong>Step 3: Adding Details</strong><br /><br />Add the prosthesis components, such as the femoral stem, tibial base, and polyethylene insert. Label the key parts and add measurements.<br /><br /><strong>Step 4: Review and Revise</strong><br /><br />Check the drawing for any errors or missing details. Make sure all dimensions and labels are correct. Revise as necessary to improve the clarity and detail.</blockquote>
 <p>In this example, the initial sketch, refinement, adding details, and reviewing the drawing are clearly outlined, ensuring a comprehensive and accurate free hand drawing.</p>
 <hr />
 <h3 id="u7-sec-2-4-memory-drawing">2.4. Memory Drawing</h3>
@@ -3260,7 +3347,7 @@ Hello, this is a sample document.</code></pre>
  C --&gt; F[Dental implants]
  D --&gt; G[Articulation joints]
  A --&gt; H[Ceramics]
- H --&gt; I[Bone plates, implants]
+ H --&gt; I['Bone plates, implants']
  H --&gt; J[Dental crowns]
  H --&gt; K[Orthopedic plates]
  A --&gt; L[Polymers]
@@ -3278,7 +3365,7 @@ Hello, this is a sample document.</code></pre>
  C --&gt; F[Dental implants]
  D --&gt; G[Articulation joints]
  A --&gt; H[Ceramics]
- H --&gt; I[Bone plates, implants]
+ H --&gt; I['Bone plates, implants']
  H --&gt; J[Dental crowns]
  H --&gt; K[Orthopedic plates]
  A --&gt; L[Polymers]
@@ -3296,7 +3383,7 @@ Hello, this is a sample document.</code></pre>
  C --&gt; F[Dental implants]
  D --&gt; G[Articulation joints]
  A --&gt; H[Ceramics]
- H --&gt; I[Bone plates, implants]
+ H --&gt; I['Bone plates, implants']
  H --&gt; J[Dental crowns]
  H --&gt; K[Orthopedic plates]
  A --&gt; L[Polymers]
@@ -3368,7 +3455,11 @@ Hello, this is a sample document.</code></pre>
 <ul>
 <li>Complete the square by connecting the remaining ends of the lines to form the fourth right angle.</li>
 </ul>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Square] --> B[Side 1: 5 cm] --> C[Perpendicular Side 2: 5 cm] --> D[Right Angle] --> E[Side 3: 5 cm] --> F[Right Angle] --> G[Side 4: 5 cm] --> H[Complete Square]<br />```</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /></div>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Square] --&gt; B['Side 1: 5 cm'] --&gt; C['Perpendicular Side 2: 5 cm'] --&gt; D[Right Angle] --&gt; E['Side 3: 5 cm'] --&gt; F[Right Angle] --&gt; G['Side 4: 5 cm'] --&gt; H[Complete Square]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Square] --&gt; B['Side 1: 5 cm'] --&gt; C['Perpendicular Side 2: 5 cm'] --&gt; D[Right Angle] --&gt; E['Side 3: 5 cm'] --&gt; F[Right Angle] --&gt; G['Side 4: 5 cm'] --&gt; H[Complete Square]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Square] --&gt; B['Side 1: 5 cm'] --&gt; C['Perpendicular Side 2: 5 cm'] --&gt; D[Right Angle] --&gt; E['Side 3: 5 cm'] --&gt; F[Right Angle] --&gt; G['Side 4: 5 cm'] --&gt; H[Complete Square]</pre></noscript></div>
 <h4>5.1.2. Circle</h4>
 <h5>Description</h5>
 <p>A circle is a round shape with all points on its edge at an equal distance from the center. This distance is known as the radius.</p>
@@ -3391,7 +3482,11 @@ Hello, this is a sample document.</code></pre>
 <ul>
 <li>Place the compass point at the center and draw the circle by moving the pencil around the compass.</li>
 </ul>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Circle] --> B[Mark Center] --> C[Set Compass to 5 cm] --> D[Draw Circle]<br />```</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /></div>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Circle] --&gt; B[Mark Center] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Circle]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Circle] --&gt; B[Mark Center] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Circle]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Circle] --&gt; B[Mark Center] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Circle]</pre></noscript></div>
 <h4>5.1.3. Equilateral Triangle</h4>
 <h5>Description</h5>
 <p>An equilateral triangle is a three-sided polygon with all sides of equal length and all angles equal to 60 degrees.</p>
@@ -3420,7 +3515,11 @@ Hello, this is a sample document.</code></pre>
 <ul>
 <li>Draw lines from the intersection point to the ends of the first side to complete the triangle.</li>
 </ul>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Equilateral Triangle] --> B[First Side: 5 cm] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Connect to Complete Triangle]<br />```</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /></div>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Equilateral Triangle] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Connect to Complete Triangle]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Equilateral Triangle] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Connect to Complete Triangle]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Equilateral Triangle] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Connect to Complete Triangle]</pre></noscript></div>
 <h4>5.1.4. Pentagon</h4>
 <h5>Description</h5>
 <p>A pentagon is a five-sided polygon with all sides of equal length and all angles approximately 108 degrees.</p>
@@ -3455,7 +3554,11 @@ Hello, this is a sample document.</code></pre>
 <ul>
 <li>Repeat the process to draw the remaining sides, ensuring each side is of the same length and the angles are approximately 108 degrees.</li>
 </ul>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />```mermaid<br />flowchart TD<br />A[Pentagon] --> B[First Side: 5 cm] --> C[Set Compass to 5 cm] --> D[Draw Arc from End 1] --> E[Draw Arc from End 2] --> F[Intersection Point] --> G[Draw Third Side] --> H[Continue Drawing Remaining Sides]<br />```</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /></div>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Pentagon] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Draw Third Side] --&gt; H[Continue Drawing Remaining Sides]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Pentagon] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Draw Third Side] --&gt; H[Continue Drawing Remaining Sides]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Pentagon] --&gt; B['First Side: 5 cm'] --&gt; C[Set Compass to 5 cm] --&gt; D[Draw Arc from End 1] --&gt; E[Draw Arc from End 2] --&gt; F[Intersection Point] --&gt; G[Draw Third Side] --&gt; H[Continue Drawing Remaining Sides]</pre></noscript></div>
 <p>By following these steps, you can accurately draw the required shapes by hand. Practice these techniques to ensure precision and accuracy in your drawings, which is crucial in various engineering applications.</p>
 <hr />
 <h3 id="u9-sec-5-1-5-hexagon">5.1.5. Hexagon</h3>
@@ -3473,21 +3576,21 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Irregular Hexagon:</strong> Sides and angles are not necessarily equal.</li>
 </ul>
 <h4>Example: Properties of a Regular Hexagon</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the area and perimeter of a regular hexagon with a side length of 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 6 × side length = 6 × 5 cm = 30 cm<br />- <strong>Area:</strong> Area = \(\frac{3\sqrt{3}}{2} \times (\text{side length})^2 = \frac{3\sqrt{3}}{2} \times (5)^2 = \frac{3\sqrt{3}}{2} \times 25 = 36.74 \, \text{cm}^2\)</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the area and perimeter of a regular hexagon with a side length of 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 6 × side length = 6 × 5 cm = 30 cm<br />- <strong>Area:</strong> Area = 332 × (side length)² = 332 × (5)² = 332 × 25 = 36.74 \, cm²</div>
 <h4>Mermaid Diagram for Hexagon</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Regular Hexagon] --&gt; B[All sides equal]
- A --&gt; C[All angles equal (120 degrees)]
+ A --&gt; C['All angles equal (120 degrees)']
  B --&gt; D[Perimeter = 6 × side length]
- C --&gt; E[Area = (3√3/2) × (side length)^2]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ C --&gt; E['Area = (3√3/2) × (side length)^2']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Regular Hexagon] --&gt; B[All sides equal]
- A --&gt; C[All angles equal (120 degrees)]
+ A --&gt; C['All angles equal (120 degrees)']
  B --&gt; D[Perimeter = 6 × side length]
- C --&gt; E[Area = (3√3/2) × (side length)^2]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ C --&gt; E['Area = (3√3/2) × (side length)^2']</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Regular Hexagon] --&gt; B[All sides equal]
- A --&gt; C[All angles equal (120 degrees)]
+ A --&gt; C['All angles equal (120 degrees)']
  B --&gt; D[Perimeter = 6 × side length]
- C --&gt; E[Area = (3√3/2) × (side length)^2]</pre></noscript></div>
+ C --&gt; E['Area = (3√3/2) × (side length)^2']</pre></noscript></div>
 <h3 id="u9-sec-5-1-6-octagon">5.1.6. Octagon</h3>
 
 <p><strong>Octagon:</strong> An <strong>octagon</strong> is an eight-sided polygon. In biomedical engineering, octagonal shapes are less common but can be used in certain implant designs for their unique mechanical properties.</p>
@@ -3504,21 +3607,21 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Irregular Octagon:</strong> Sides and angles are not necessarily equal.</li>
 </ul>
 <h4>Example: Properties of a Regular Octagon</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the area and perimeter of a regular octagon with a side length of 4 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 8 × side length = 8 × 4 cm = 32 cm<br />- <strong>Area:</strong> Area = 2 × (1 + √2) × (\text{side length})^2 = 2 × (1 + 1.414) × (4)^2 = 2 × 2.414 × 16 = 77.248 \, \text{cm}^2</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the area and perimeter of a regular octagon with a side length of 4 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 8 × side length = 8 × 4 cm = 32 cm<br />- <strong>Area:</strong> Area = 2 × (1 + √2) × (side length)² = 2 × (1 + 1.414) × (4)² = 2 × 2.414 × 16 = 77.248 \, cm²</div>
 <h4>Mermaid Diagram for Octagon</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Regular Octagon] --&gt; B[All sides equal]
- A --&gt; C[All angles equal (135 degrees)]
+ A --&gt; C['All angles equal (135 degrees)']
  B --&gt; D[Perimeter = 8 × side length]
- C --&gt; E[Area = 2 × (1 + √2) × (side length)^2]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ C --&gt; E['Area = 2 × (1 + √2) × (side length)^2']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Regular Octagon] --&gt; B[All sides equal]
- A --&gt; C[All angles equal (135 degrees)]
+ A --&gt; C['All angles equal (135 degrees)']
  B --&gt; D[Perimeter = 8 × side length]
- C --&gt; E[Area = 2 × (1 + √2) × (side length)^2]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ C --&gt; E['Area = 2 × (1 + √2) × (side length)^2']</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Regular Octagon] --&gt; B[All sides equal]
- A --&gt; C[All angles equal (135 degrees)]
+ A --&gt; C['All angles equal (135 degrees)']
  B --&gt; D[Perimeter = 8 × side length]
- C --&gt; E[Area = 2 × (1 + √2) × (side length)^2]</pre></noscript></div>
+ C --&gt; E['Area = 2 × (1 + √2) × (side length)^2']</pre></noscript></div>
 <h3 id="u9-sec-5-2-prepare-the-sheet-showing-following-unequal-sided-flat-shapes-manually-as-well">5.2. Prepare the sheet showing following Unequal sided flat shapes manually as well</h3>
 <h4>Rectangle</h4>
 <p><strong>Rectangle:</strong> A <strong>rectangle</strong> is a four-sided flat shape with four right angles (90 degrees). In biomedical applications, rectangles are commonly used for their simplicity and stability.</p>
@@ -3530,20 +3633,20 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Opposite Sides:</strong> Equal and parallel.</li>
 </ul>
 <h4>Example: Calculating Area and Perimeter of a Rectangle</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the area and perimeter of a rectangle with length 10 cm and width 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 2 × (length + width) = 2 × (10 + 5) cm = 30 cm<br />- <strong>Area:</strong> Area = length × width = 10 cm × 5 cm = 50 \, \text{cm}^2</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the area and perimeter of a rectangle with length 10 cm and width 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 2 × (length + width) = 2 × (10 + 5) cm = 30 cm<br />- <strong>Area:</strong> Area = length × width = 10 cm × 5 cm = 50 \, cm²</div>
 <h4>Mermaid Diagram for Rectangle</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Rectangle] --&gt; B[Right Angles (90 degrees)]
+ A[Rectangle] --&gt; B['Right Angles (90 degrees)']
  A --&gt; C[Opposite sides equal and parallel]
- B --&gt; D[Perimeter = 2 × (length + width)]
+ B --&gt; D['Perimeter = 2 × (length + width)']
  C --&gt; E[Area = length × width]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Rectangle] --&gt; B[Right Angles (90 degrees)]
+ A[Rectangle] --&gt; B['Right Angles (90 degrees)']
  A --&gt; C[Opposite sides equal and parallel]
- B --&gt; D[Perimeter = 2 × (length + width)]
+ B --&gt; D['Perimeter = 2 × (length + width)']
  C --&gt; E[Area = length × width]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Rectangle] --&gt; B[Right Angles (90 degrees)]
+ A[Rectangle] --&gt; B['Right Angles (90 degrees)']
  A --&gt; C[Opposite sides equal and parallel]
- B --&gt; D[Perimeter = 2 × (length + width)]
+ B --&gt; D['Perimeter = 2 × (length + width)']
  C --&gt; E[Area = length × width]</pre></noscript></div>
 <h3 id="u9-sec-5-2-2-parallelogram">5.2.2. Parallelogram</h3>
 <p><strong>Parallelogram:</strong> A <strong>parallelogram</strong> is a four-sided flat shape with opposite sides parallel. In biomedical applications, parallelograms can be used for their flexibility and mechanical properties.</p>
@@ -3555,20 +3658,20 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Opposite Angles:</strong> Equal.</li>
 </ul>
 <h4>Example: Calculating Area and Perimeter of a Parallelogram</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the area and perimeter of a parallelogram with base 8 cm, height 6 cm, and side length 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 2 × (base + side length) = 2 × (8 + 5) cm = 26 cm<br />- <strong>Area:</strong> Area = base × height = 8 cm × 6 cm = 48 \, \text{cm}^2</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the area and perimeter of a parallelogram with base 8 cm, height 6 cm, and side length 5 cm.<br /><br /><strong>Solution:</strong><br />- <strong>Perimeter:</strong> Perimeter = 2 × (base + side length) = 2 × (8 + 5) cm = 26 cm<br />- <strong>Area:</strong> Area = base × height = 8 cm × 6 cm = 48 \, cm²</div>
 <h4>Mermaid Diagram for Parallelogram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Parallelogram] --&gt; B[Opposite sides equal and parallel]
  A --&gt; C[Opposite angles equal]
- B --&gt; D[Perimeter = 2 × (base + side length)]
+ B --&gt; D['Perimeter = 2 × (base + side length)']
  C --&gt; E[Area = base × height]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Parallelogram] --&gt; B[Opposite sides equal and parallel]
  A --&gt; C[Opposite angles equal]
- B --&gt; D[Perimeter = 2 × (base + side length)]
+ B --&gt; D['Perimeter = 2 × (base + side length)']
  C --&gt; E[Area = base × height]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Parallelogram] --&gt; B[Opposite sides equal and parallel]
  A --&gt; C[Opposite angles equal]
- B --&gt; D[Perimeter = 2 × (base + side length)]
+ B --&gt; D['Perimeter = 2 × (base + side length)']
  C --&gt; E[Area = base × height]</pre></noscript></div>
 <h3 id="u9-sec-summary">Summary</h3>
 <p>In this section, we have covered the properties and calculations for hexagons, octagons, rectangles, and parallelograms. Each shape has unique properties that make them suitable for specific biomedical applications. Understanding these shapes and their calculations is essential for selecting appropriate biomaterials and implants.</p>
@@ -3635,9 +3738,9 @@ Hello, this is a sample document.</code></pre>
 <ul>
 <li><strong>Answer</strong>: The total cost of the diamond can be calculated as follows:</li>
 </ul>
-<p>\[</p>
-<p>\text{Total Cost} = \text{Weight of the Diamond} \times \text{Price per Carat} = 1.5 \, \text{carats} \times 50,000 \, \text{\$/carat} = 75,000 \, \text{\$}</p>
-<p>\]</p>
+<p>[</p>
+<p>Total Cost = Weight of the Diamond × Price per Carat = 1.5 \, carats × 50,000 \, /carat = 75,000 \, \</p>
+<p>]</p>
 <h3 id="u9-sec-5-2-5-teardrop">5.2.5. Teardrop</h3>
 <p>The <strong>teardrop</strong> is a shape that is often used in various design applications. It is characterized by its smooth, curved edges that taper to a point, resembling a teardrop.</p>
 <h4>5.2.5.1. Shape and Application</h4>
@@ -3648,23 +3751,23 @@ Hello, this is a sample document.</code></pre>
 <h4>5.2.5.2. Worked Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A teardrop-shaped pendant has a length of 2 cm and a width of 1 cm at the widest point. If the pendant is made of a material with a density of 7.8 g/cm³, calculate the volume of the pendant.</div>
 <ul>
-<li><strong>Answer</strong>: To calculate the volume of the teardrop-shaped pendant, we can approximate it as a <strong>triangular prism</strong>. The volume \( V \) of a triangular prism is given by:</li>
+<li><strong>Answer</strong>: To calculate the volume of the teardrop-shaped pendant, we can approximate it as a <strong>triangular prism</strong>. The volume V of a triangular prism is given by:</li>
 </ul>
-<p>\[</p>
-<p>V = \text{Base Area} \times \text{Height}</p>
-<p>\]</p>
+<p>[</p>
+<p>V = Base Area × Height</p>
+<p>]</p>
 <p>The base area of the triangle can be approximated using the formula for the area of a triangle:</p>
-<p>\[</p>
-<p>\text{Base Area} = \frac{1}{2} \times \text{base} \times \text{height}</p>
-<p>\]</p>
+<p>[</p>
+<p>Base Area = (1 / 2) × base × height</p>
+<p>]</p>
 <p>Assuming the width (1 cm) is the base and the length (2 cm) is the height:</p>
-<p>\[</p>
-<p>\text{Base Area} = \frac{1}{2} \times 1 \, \text{cm} \times 2 \, \text{cm} = 1 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Base Area = (1 / 2) × 1 \, cm × 2 \, cm = 1 \, cm²</p>
+<p>]</p>
 <p>Therefore, the volume of the pendant is:</p>
-<p>\[</p>
-<p>V = 1 \, \text{cm}^2 \times 2 \, \text{cm} = 2 \, \text{cm}^3</p>
-<p>\]</p>
+<p>[</p>
+<p>V = 1 \, cm² × 2 \, cm = 2 \, cm³</p>
+<p>]</p>
 <h3 id="u9-sec-5-2-6-marquis">5.2.6. Marquis</h3>
 <p>The <strong>marquis</strong> is a type of gemstone cut that is characterized by its elongated shape and pointed ends. It is similar to the <strong>emerald cut</strong> but with a more pointed shape.</p>
 <h4>5.2.6.1. Shape and Cut</h4>
@@ -3675,15 +3778,15 @@ Hello, this is a sample document.</code></pre>
 <h4>5.2.6.2. Worked Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A marquis-shaped diamond has a length of 8 mm and a width of 5 mm at the widest point. If the diamond is 2 mm thick, calculate the volume of the diamond.</div>
 <ul>
-<li><strong>Answer</strong>: The volume \( V \) of a marquis-shaped diamond can be approximated as a <strong>rectangular prism</strong>. The volume is given by:</li>
+<li><strong>Answer</strong>: The volume V of a marquis-shaped diamond can be approximated as a <strong>rectangular prism</strong>. The volume is given by:</li>
 </ul>
-<p>\[</p>
-<p>V = \text{Length} \times \text{Width} \times \text{Height}</p>
-<p>\]</p>
+<p>[</p>
+<p>V = Length × Width × Height</p>
+<p>]</p>
 <p>Substituting the given dimensions:</p>
-<p>\[</p>
-<p>V = 8 \, \text{mm} \times 5 \, \text{mm} \times 2 \, \text{mm} = 80 \, \text{mm}^3</p>
-<p>\]</p>
+<p>[</p>
+<p>V = 8 \, mm × 5 \, mm × 2 \, mm = 80 \, mm³</p>
+<p>]</p>
 <h3 id="u9-sec-5-2-7-ogive">5.2.7. Ogive</h3>
 <p>The <strong>ogive</strong> is a curve that is often used in statistics to represent the cumulative frequency distribution. It is a graphical representation of the cumulative frequency distribution of a dataset.</p>
 <h4>5.2.7.1. Definition and Use</h4>
@@ -3780,16 +3883,16 @@ Hello, this is a sample document.</code></pre>
 </ul>
 <h4>Mermaid Diagram for Star-Shaped Implant Design</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Design] --&gt; B[Material Selection: Stainless Steel/Titanium]
- B --&gt; C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Stainless Steel/Titanium']
+ B --&gt; C['Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm']
  C --&gt; D[Milling]
  D --&gt; E[Polishing]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Design] --&gt; B[Material Selection: Stainless Steel/Titanium]
- B --&gt; C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Stainless Steel/Titanium']
+ B --&gt; C['Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm']
  C --&gt; D[Milling]
  D --&gt; E[Polishing]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Design] --&gt; B[Material Selection: Stainless Steel/Titanium]
- B --&gt; C[Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Stainless Steel/Titanium']
+ B --&gt; C['Dimensions: Point Length 5mm, Central Diameter 10mm, Thickness 2mm']
  C --&gt; D[Milling]
  D --&gt; E[Polishing]</pre></noscript></div>
 <h3 id="u9-sec-5-2-9-paisley">5.2.9. Paisley</h3>
@@ -3824,16 +3927,16 @@ Hello, this is a sample document.</code></pre>
 </ul>
 <h4>Mermaid Diagram for Paisley-Shaped Implant Design</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Design] --&gt; B[Material Selection: Titanium]
- B --&gt; C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Titanium']
+ B --&gt; C['Dimensions: Length 10mm, Width 5mm, Thickness 2mm']
  C --&gt; D[Casting]
  D --&gt; E[Polishing]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Design] --&gt; B[Material Selection: Titanium]
- B --&gt; C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Titanium']
+ B --&gt; C['Dimensions: Length 10mm, Width 5mm, Thickness 2mm']
  C --&gt; D[Casting]
  D --&gt; E[Polishing]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Design] --&gt; B[Material Selection: Titanium]
- B --&gt; C[Dimensions: Length 10mm, Width 5mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Titanium']
+ B --&gt; C['Dimensions: Length 10mm, Width 5mm, Thickness 2mm']
  C --&gt; D[Casting]
  D --&gt; E[Polishing]</pre></noscript></div>
 <h3 id="u9-sec-5-2-10-club">5.2.10. Club</h3>
@@ -3868,16 +3971,16 @@ Hello, this is a sample document.</code></pre>
 </ul>
 <h4>Mermaid Diagram for Club-Shaped Implant Design</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Design] --&gt; B[Material Selection: Titanium]
- B --&gt; C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Titanium']
+ B --&gt; C['Dimensions: Length 20mm, Width 10mm, Thickness 2mm']
  C --&gt; D[Forging]
  D --&gt; E[Polishing]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Design] --&gt; B[Material Selection: Titanium]
- B --&gt; C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Titanium']
+ B --&gt; C['Dimensions: Length 20mm, Width 10mm, Thickness 2mm']
  C --&gt; D[Forging]
  D --&gt; E[Polishing]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Design] --&gt; B[Material Selection: Titanium]
- B --&gt; C[Dimensions: Length 20mm, Width 10mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Titanium']
+ B --&gt; C['Dimensions: Length 20mm, Width 10mm, Thickness 2mm']
  C --&gt; D[Forging]
  D --&gt; E[Polishing]</pre></noscript></div>
 <h3 id="u9-sec-5-2-11-spade">5.2.11. Spade</h3>
@@ -3912,16 +4015,16 @@ Hello, this is a sample document.</code></pre>
 </ul>
 <h4>Mermaid Diagram for Spade-Shaped Implant Design</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Design] --&gt; B[Material Selection: Stainless Steel]
- B --&gt; C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Stainless Steel']
+ B --&gt; C['Dimensions: Length 15mm, Width 8mm, Thickness 2mm']
  C --&gt; D[Machining]
  D --&gt; E[Polishing]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Design] --&gt; B[Material Selection: Stainless Steel]
- B --&gt; C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Stainless Steel']
+ B --&gt; C['Dimensions: Length 15mm, Width 8mm, Thickness 2mm']
  C --&gt; D[Machining]
  D --&gt; E[Polishing]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Design] --&gt; B[Material Selection: Stainless Steel]
- B --&gt; C[Dimensions: Length 15mm, Width 8mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Stainless Steel']
+ B --&gt; C['Dimensions: Length 15mm, Width 8mm, Thickness 2mm']
  C --&gt; D[Machining]
  D --&gt; E[Polishing]</pre></noscript></div>
 <h3 id="u9-sec-5-2-12-pear">5.2.12. Pear</h3>
@@ -3957,16 +4060,16 @@ Hello, this is a sample document.</code></pre>
 </ul>
 <h4>Mermaid Diagram for Pear-Shaped Implant Design</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Design] --&gt; B[Material Selection: Titanium]
- B --&gt; C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Titanium']
+ B --&gt; C['Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm']
  C --&gt; D[Forging]
  D --&gt; E[Polishing]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Design] --&gt; B[Material Selection: Titanium]
- B --&gt; C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Titanium']
+ B --&gt; C['Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm']
  C --&gt; D[Forging]
  D --&gt; E[Polishing]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Design] --&gt; B[Material Selection: Titanium]
- B --&gt; C[Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm]
+ A[Design] --&gt; B['Material Selection: Titanium']
+ B --&gt; C['Dimensions: Length 25mm, Width at Round End 10mm, Width at Tapering End 5mm, Thickness 2mm']
  C --&gt; D[Forging]
  D --&gt; E[Polishing]</pre></noscript></div>
 <p>These sections provide a clear and concise overview of the star, paisley, club, spade, and pear designs used in biomedical engineering, along with practical examples to aid in understanding and application.</p>
@@ -4029,23 +4132,23 @@ Hello, this is a sample document.</code></pre>
 <ol>
 <li><strong>Formula for the Area of a Sphere:</strong></li>
 </ol>
-<p>\[</p>
-<p>\text{Surface Area} = 4 \pi r^2</p>
-<p>\]</p>
-<p>where \( r \) is the radius of the sphere.</p>
+<p>[</p>
+<p>Surface Area = 4 π r²</p>
+<p>]</p>
+<p>where r is the radius of the sphere.</p>
 <ol>
 <li><strong>Calculate the Surface Area:</strong></li>
 </ol>
-<p>\[</p>
-<p>\text{Surface Area} = 4 \pi (5)^2 = 4 \pi \times 25 = 100 \pi \approx 314.16 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Surface Area = 4 π (5)² = 4 π × 25 = 100 π ≈ 314.16 \, cm²</p>
+<p>]</p>
 <ol>
 <li><strong>Determine the Minimum Sheet Size:</strong></li>
 </ol>
-<p>Since the sheet is square, the area of the square should be at least equal to the surface area of the sphere. The side length \( s \) of the square can be found by:</p>
-<p>\[</p>
-<p>s^2 \geq 314.16 \implies s \geq \sqrt{314.16} \approx 17.72 \, \text{cm}</p>
-<p>\]</p>
+<p>Since the sheet is square, the area of the square should be at least equal to the surface area of the sphere. The side length s of the square can be found by:</p>
+<p>[</p>
+<p>s² ≥ 314.16 s ≥ 314.16 ≈ 17.72 \, cm</p>
+<p>]</p>
 <p>Therefore, the minimum side length of the square sheet should be approximately 17.72 cm.</p>
 <h4>7.1.2 Cube</h4>
 <p>A <strong>cube</strong> is a three-dimensional shape with six equal square faces. Each face is a square, and all edges are of equal length.</p>
@@ -4054,23 +4157,23 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Formula for the Area of a Cube:</strong></li>
 </ol>
 <p>The surface area of a cube is given by:</p>
-<p>\[</p>
-<p>\text{Surface Area} = 6a^2</p>
-<p>\]</p>
-<p>where \( a \) is the edge length of the cube.</p>
+<p>[</p>
+<p>Surface Area = 6a²</p>
+<p>]</p>
+<p>where a is the edge length of the cube.</p>
 <ol>
 <li><strong>Calculate the Surface Area:</strong></li>
 </ol>
-<p>\[</p>
-<p>\text{Surface Area} = 6 \times (10)^2 = 6 \times 100 = 600 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Surface Area = 6 × (10)² = 6 × 100 = 600 \, cm²</p>
+<p>]</p>
 <ol>
 <li><strong>Determine the Minimum Sheet Size:</strong></li>
 </ol>
-<p>Since the sheet is square, the area of the square should be at least equal to the surface area of the cube. The side length \( s \) of the square can be found by:</p>
-<p>\[</p>
-<p>s^2 \geq 600 \implies s \geq \sqrt{600} \approx 24.49 \, \text{cm}</p>
-<p>\]</p>
+<p>Since the sheet is square, the area of the square should be at least equal to the surface area of the cube. The side length s of the square can be found by:</p>
+<p>[</p>
+<p>s² ≥ 600 s ≥ 600 ≈ 24.49 \, cm</p>
+<p>]</p>
 <p>Therefore, the minimum side length of the square sheet should be approximately 24.49 cm.</p>
 <h3 id="u10-sec-7-2-preparation-of-the-sheet-showing-unequal-sided-three-dimensional-forms">7.2. Preparation of the Sheet Showing Unequal Sided Three-Dimensional Forms</h3>
 <h4>7.1.1 Cylinder</h4>
@@ -4080,27 +4183,27 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Formula for the Area of a Cylinder:</strong></li>
 </ol>
 <p>The surface area of a cylinder consists of the lateral surface area and the area of the two circular bases.</p>
-<p>\[</p>
-<p>\text{Total Surface Area} = 2\pi r (r + h)</p>
-<p>\]</p>
-<p>where \( r \) is the radius and \( h \) is the height of the cylinder.</p>
+<p>[</p>
+<p>Total Surface Area = 2π r (r + h)</p>
+<p>]</p>
+<p>where r is the radius and h is the height of the cylinder.</p>
 <ol>
 <li><strong>Calculate the Total Surface Area:</strong></li>
 </ol>
-<p>\[</p>
-<p>\text{Total Surface Area} = 2 \pi \times 5 \times (5 + 10) = 2 \pi \times 5 \times 15 = 150 \pi \approx 471.24 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Total Surface Area = 2 π × 5 × (5 + 10) = 2 π × 5 × 15 = 150 π ≈ 471.24 \, cm²</p>
+<p>]</p>
 <ol>
 <li><strong>Determine the Minimum Sheet Size:</strong></li>
 </ol>
-<p>The sheet is rectangular, so its area should be at least equal to the total surface area of the cylinder. The dimensions \( l \) (length) and \( w \) (width) can be found by:</p>
-<p>\[</p>
-<p>l \times w \geq 471.24 \, \text{cm}^2</p>
-<p>\]</p>
-<p>For simplicity, let's assume the width \( w \) is the same as the height \( h \) of the cylinder (10 cm):</p>
-<p>\[</p>
-<p>l \times 10 \geq 471.24 \implies l \geq \frac{471.24}{10} = 47.124 \, \text{cm}</p>
-<p>\]</p>
+<p>The sheet is rectangular, so its area should be at least equal to the total surface area of the cylinder. The dimensions l (length) and w (width) can be found by:</p>
+<p>[</p>
+<p>l × w ≥ 471.24 \, cm²</p>
+<p>]</p>
+<p>For simplicity, let's assume the width w is the same as the height h of the cylinder (10 cm):</p>
+<p>[</p>
+<p>l × 10 ≥ 471.24 l ≥ (471.24 / 10) = 47.124 \, cm</p>
+<p>]</p>
 <p>Therefore, the minimum length of the rectangular sheet should be approximately 47.124 cm.</p>
 <h4>7.1.2 Cone</h4>
 <p>A <strong>cone</strong> is a three-dimensional shape with a circular base and a single vertex (apex). The slant height, radius, and height of the cone can vary.</p>
@@ -4109,30 +4212,30 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Formula for the Area of a Cone:</strong></li>
 </ol>
 <p>The surface area of a cone consists of the lateral surface area and the area of the circular base.</p>
-<p>\[</p>
-<p>\text{Total Surface Area} = \pi r (r + l)</p>
-<p>\]</p>
-<p>where \( r \) is the radius and \( l \) is the slant height of the cone. The slant height \( l \) can be calculated using the Pythagorean theorem:</p>
-<p>\[</p>
-<p>l = \sqrt{r^2 + h^2} = \sqrt{5^2 + 10^2} = \sqrt{25 + 100} = \sqrt{125} \approx 11.18 \, \text{cm}</p>
-<p>\]</p>
+<p>[</p>
+<p>Total Surface Area = π r (r + l)</p>
+<p>]</p>
+<p>where r is the radius and l is the slant height of the cone. The slant height l can be calculated using the Pythagorean theorem:</p>
+<p>[</p>
+<p>l = r² + h² = 5² + 10² = 25 + 100 = 125 ≈ 11.18 \, cm</p>
+<p>]</p>
 <ol>
 <li><strong>Calculate the Total Surface Area:</strong></li>
 </ol>
-<p>\[</p>
-<p>\text{Total Surface Area} = \pi \times 5 \times (5 + 11.18) = \pi \times 5 \times 16.18 = 80.9 \pi \approx 255.33 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Total Surface Area = π × 5 × (5 + 11.18) = π × 5 × 16.18 = 80.9 π ≈ 255.33 \, cm²</p>
+<p>]</p>
 <ol>
 <li><strong>Determine the Minimum Sheet Size:</strong></li>
 </ol>
 <p>The sheet is a sector of a circle, so its area should be at least equal to the total surface area of the cone. The sector's area can be found by:</p>
-<p>\[</p>
-<p>\text{Area of Sector} = \frac{1}{2} l^2 \theta</p>
-<p>\]</p>
-<p>where \( l \) is the slant height and \( \theta \) is the central angle in radians. For a complete sector, \( \theta = 2\pi \):</p>
-<p>\[</p>
-<p>\text{Area of Sector} = \frac{1}{2} \times 11.18^2 \times 2\pi = \frac{1}{2} \times 125 \times 2\pi = 125\pi \approx 392.69 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Area of Sector = (1 / 2) l² θ</p>
+<p>]</p>
+<p>where l is the slant height and θ is the central angle in radians. For a complete sector, θ = 2π:</p>
+<p>[</p>
+<p>Area of Sector = (1 / 2) × 11.18² × 2π = (1 / 2) × 125 × 2π = 125π ≈ 392.69 \, cm²</p>
+<p>]</p>
 <p>Therefore, the minimum size of the sector should be approximately 392.69 cm².</p>
 <h4>7.1.3 Pyramid</h4>
 <p>A <strong>pyramid</strong> is a three-dimensional shape with a polygonal base and triangular faces that meet at a common vertex (apex). The base can be any polygon, and the height and slant height can vary.</p>
@@ -4141,36 +4244,36 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Formula for the Area of a Pyramid:</strong></li>
 </ol>
 <p>The surface area of a pyramid consists of the area of the base and the area of the triangular faces.</p>
-<p>\[</p>
-<p>\text{Total Surface Area} = \text{Base Area} + \text{Lateral Area}</p>
-<p>\]</p>
+<p>[</p>
+<p>Total Surface Area = Base Area + Lateral Area</p>
+<p>]</p>
 <p>The base area is:</p>
-<p>\[</p>
-<p>\text{Base Area} = 10^2 = 100 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Base Area = 10² = 100 \, cm²</p>
+<p>]</p>
 <p>The lateral area is the sum of the areas of the four triangular faces. Each triangular face has a base of 10 cm and a slant height that can be calculated using the Pythagorean theorem:</p>
-<p>\[</p>
-<p>l = \sqrt{\left(\frac{10}{2}\right)^2 + 15^2} = \sqrt{5^2 + 15^2} = \sqrt{25 + 225} = \sqrt{250} \approx 15.81 \, \text{cm}</p>
-<p>\]</p>
+<p>[</p>
+<p>l = ((10 / 2))² + 15² = 5² + 15² = 25 + 225 = 250 ≈ 15.81 \, cm</p>
+<p>]</p>
 <p>The area of one triangular face is:</p>
-<p>\[</p>
-<p>\text{Area of One Triangle} = \frac{1}{2} \times 10 \times 15.81 = 79.05 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Area of One Triangle = (1 / 2) × 10 × 15.81 = 79.05 \, cm²</p>
+<p>]</p>
 <p>The total lateral area is:</p>
-<p>\[</p>
-<p>\text{Lateral Area} = 4 \times 79.05 = 316.2 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Lateral Area = 4 × 79.05 = 316.2 \, cm²</p>
+<p>]</p>
 <p>Therefore, the total surface area is:</p>
-<p>\[</p>
-<p>\text{Total Surface Area} = 100 + 316.2 = 416.2 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Total Surface Area = 100 + 316.2 = 416.2 \, cm²</p>
+<p>]</p>
 <ol>
 <li><strong>Determine the Minimum Sheet Size:</strong></li>
 </ol>
 <p>The sheet is a square and four triangular sheets, so the total area should be at least equal to the total surface area of the pyramid. The minimum size of the square sheet should be:</p>
-<p>\[</p>
-<p>s^2 \geq 416.2 \implies s \geq \sqrt{416.2} \approx 20.4 \, \text{cm}</p>
-<p>\]</p>
+<p>[</p>
+<p>s² ≥ 416.2 s ≥ 416.2 ≈ 20.4 \, cm</p>
+<p>]</p>
 <p>Therefore, the minimum side length of the square sheet should be approximately 20.4 cm.</p>
 <h4>7.1.4 Box</h4>
 <p>A <strong>box</strong> is a three-dimensional shape with six rectangular faces. The dimensions can vary.</p>
@@ -4179,27 +4282,27 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Formula for the Area of a Box:</strong></li>
 </ol>
 <p>The surface area of a box is given by:</p>
-<p>\[</p>
-<p>\text{Surface Area} = 2(lw + lh + wh)</p>
-<p>\]</p>
-<p>where \( l \) is the length, \( w \) is the width, and \( h \) is the height of the box.</p>
+<p>[</p>
+<p>Surface Area = 2(lw + lh + wh)</p>
+<p>]</p>
+<p>where l is the length, w is the width, and h is the height of the box.</p>
 <ol>
 <li><strong>Calculate the Surface Area:</strong></li>
 </ol>
-<p>\[</p>
-<p>\text{Surface Area} = 2(10 \times 10 + 10 \times 15 + 10 \times 15) = 2(100 + 150 + 150) = 2 \times 400 = 800 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Surface Area = 2(10 × 10 + 10 × 15 + 10 × 15) = 2(100 + 150 + 150) = 2 × 400 = 800 \, cm²</p>
+<p>]</p>
 <ol>
 <li><strong>Determine the Minimum Sheet Size:</strong></li>
 </ol>
-<p>The sheet is rectangular, so the area should be at least equal to the surface area of the box. The dimensions \( l \) (length) and \( w \) (width) can be found by:</p>
-<p>\[</p>
-<p>l \times w \geq 800 \, \text{cm}^2</p>
-<p>\]</p>
-<p>For simplicity, let's assume the width \( w \) is the same as the width of the box (10 cm):</p>
-<p>\[</p>
-<p>l \times 10 \geq 800 \implies l \geq \frac{800}{10} = 80 \, \text{cm}</p>
-<p>\]</p>
+<p>The sheet is rectangular, so the area should be at least equal to the surface area of the box. The dimensions l (length) and w (width) can be found by:</p>
+<p>[</p>
+<p>l × w ≥ 800 \, cm²</p>
+<p>]</p>
+<p>For simplicity, let's assume the width w is the same as the width of the box (10 cm):</p>
+<p>[</p>
+<p>l × 10 ≥ 800 l ≥ (800 / 10) = 80 \, cm</p>
+<p>]</p>
 <p>Therefore, the minimum length of the rectangular sheet should be 80 cm.</p>
 <h4>7.1.5 Bell</h4>
 <p>A <strong>bell</strong> is a three-dimensional shape with a circular base and a curved surface that narrows towards the top. The height and slant height can vary.</p>
@@ -4207,29 +4310,29 @@ Hello, this is a sample document.</code></pre>
 <ol>
 <li><strong>Formula for the Area of a Bell:</strong></li>
 </ol>
-<p>The surface area of a bell consists of the area of the circular base and the area of the curved surface. The curved surface can be approximated by a sector of a circle with a radius equal to the slant height. The slant height \( l \) can be calculated using the Pythagorean theorem:</p>
-<p>\[</p>
-<p>l = \sqrt{r^2 + h^2} = \sqrt{10^2 + 20^2} = \sqrt{100 + 400} = \sqrt{500} \approx 22.36 \, \text{cm}</p>
-<p>\]</p>
+<p>The surface area of a bell consists of the area of the circular base and the area of the curved surface. The curved surface can be approximated by a sector of a circle with a radius equal to the slant height. The slant height l can be calculated using the Pythagorean theorem:</p>
+<p>[</p>
+<p>l = r² + h² = 10² + 20² = 100 + 400 = 500 ≈ 22.36 \, cm</p>
+<p>]</p>
 <ol>
 <li><strong>Calculate the Total Surface Area:</strong></li>
 </ol>
 <p>The area of the base is:</p>
-<p>\[</p>
-<p>\text{Base Area} = \pi r^2 = \pi \times 10^2 = 100\pi \approx 314.16 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Base Area = π r² = π × 10² = 100π ≈ 314.16 \, cm²</p>
+<p>]</p>
 <p>The area of the sector is:</p>
-<p>\[</p>
-<p>\text{Area of Sector} = \frac{1}{2} l^2 \theta</p>
-<p>\]</p>
-<p>where \( \theta \) is the central angle in radians. For a complete sector, \( \theta = 2\pi \):</p>
-<p>\[</p>
-<p>\text{Area of Sector} = \frac{1}{2} \times 22.36^2 \times 2\pi = \frac{1}{2} \times 500 \times 2\pi = 500\pi \approx 1570.8 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Area of Sector = (1 / 2) l² θ</p>
+<p>]</p>
+<p>where θ is the central angle in radians. For a complete sector, θ = 2π:</p>
+<p>[</p>
+<p>Area of Sector = (1 / 2) × 22.36² × 2π = (1 / 2) × 500 × 2π = 500π ≈ 1570.8 \, cm²</p>
+<p>]</p>
 <p>Therefore, the total surface area is:</p>
-<p>\[</p>
-<p>\text{Total Surface Area} = 314.16 + 1570.8 = 1884.96 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Total Surface Area = 314.16 + 1570.8 = 1884.96 \, cm²</p>
+<p>]</p>
 <ol>
 <li><strong>Determine the Minimum Sheet Size:</strong></li>
 </ol>
@@ -4241,27 +4344,27 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Formula for the Area of a Cylinder:</strong></li>
 </ol>
 <p>The surface area of a cylinder consists of the area of the two circular bases and the area of the lateral surface.</p>
-<p>\[</p>
-<p>\text{Total Surface Area} = 2\pi r (r + h)</p>
-<p>\]</p>
-<p>where \( r \) is the radius and \( h \) is the height of the cylinder.</p>
+<p>[</p>
+<p>Total Surface Area = 2π r (r + h)</p>
+<p>]</p>
+<p>where r is the radius and h is the height of the cylinder.</p>
 <ol>
 <li><strong>Calculate the Total Surface Area:</strong></li>
 </ol>
-<p>\[</p>
-<p>\text{Total Surface Area} = 2 \pi \times 5 \times (5 + 10) = 2 \pi \times 5 \times 15 = 150 \pi \approx 471.24 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Total Surface Area = 2 π × 5 × (5 + 10) = 2 π × 5 × 15 = 150 π ≈ 471.24 \, cm²</p>
+<p>]</p>
 <ol>
 <li><strong>Determine the Minimum Sheet Size:</strong></li>
 </ol>
-<p>The sheet is rectangular, so the area should be at least equal to the total surface area of the cylinder. The dimensions \( l \) (length) and \( w \) (width) can be found by:</p>
-<p>\[</p>
-<p>l \times w \geq 471.24 \, \text{cm}^2</p>
-<p>\]</p>
-<p>For simplicity, let's assume the width \( w \) is the same as the height of the cylinder (10 cm):</p>
-<p>\[</p>
-<p>l \times 10 \geq 471.24 \implies l \geq \frac{471.24}{10} = 47.124 \, \text{cm}</p>
-<p>\]</p>
+<p>The sheet is rectangular, so the area should be at least equal to the total surface area of the cylinder. The dimensions l (length) and w (width) can be found by:</p>
+<p>[</p>
+<p>l × w ≥ 471.24 \, cm²</p>
+<p>]</p>
+<p>For simplicity, let's assume the width w is the same as the height of the cylinder (10 cm):</p>
+<p>[</p>
+<p>l × 10 ≥ 471.24 l ≥ (471.24 / 10) = 47.124 \, cm</p>
+<p>]</p>
 <p>Therefore, the minimum length of the rectangular sheet should be approximately 47.124 cm.</p>
 <h4>7.1.7 Prism</h4>
 <p>A <strong>prism</strong> is a three-dimensional shape with two parallel polygonal bases and rectangular lateral faces. The base can be any polygon, and the height can vary.</p>
@@ -4270,16 +4373,16 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Formula for the Area of a Prism:</strong></li>
 </ol>
 <p>The surface area of a prism consists of the area of the two bases and the area of the rectangular faces.</p>
-<p>\[</p>
-<p>\text{Total Surface Area} = 2(\text{Base Area}) + \text{Lateral Area}</p>
-<p>\]</p>
+<p>[</p>
+<p>Total Surface Area = 2(Base Area) + Lateral Area</p>
+<p>]</p>
 <p>The base area is:</p>
-<p>\[</p>
-<p>\text{Base Area} = \frac{\sqrt{3}}{4} \times 10^2 = \frac{\sqrt{3}}{4} \times 100 = 25\sqrt{3} \approx 43.3 \, \text{cm}^2</p>
-<p>\]</p>
+<p>[</p>
+<p>Base Area = 34 × 10² = 34 × 100 = 253 ≈ 43.3 \, cm²</p>
+<p>]</p>
 <p>The lateral area is the sum of the areas of the three rectangular faces. Each rectangular face has a base of 10 cm and a height of 15 cm:</p>
-<p>\[</p>
-<p>\text{Area of</p>
+<p>[</p>
+<p>Area of</p>
 <hr />
 <h3 id="u10-sec-8-2-smooth-texture">8.2. Smooth texture</h3>
 
@@ -5048,17 +5151,17 @@ Hello, this is a sample document.</code></pre>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Circle] --&gt; B[12 equal parts]
- B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]
- B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]
- B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ B --&gt; C[Primary Colours] --&gt; D['Red, Yellow, Blue']
+ B --&gt; E[Secondary Colours] --&gt; F['Green, Orange, Purple']
+ B --&gt; G[Tertiary Colours] --&gt; H['Yellow-Green, Red-Orange, Blue-Violet']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Circle] --&gt; B[12 equal parts]
- B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]
- B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]
- B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ B --&gt; C[Primary Colours] --&gt; D['Red, Yellow, Blue']
+ B --&gt; E[Secondary Colours] --&gt; F['Green, Orange, Purple']
+ B --&gt; G[Tertiary Colours] --&gt; H['Yellow-Green, Red-Orange, Blue-Violet']</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Circle] --&gt; B[12 equal parts]
- B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]
- B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]
- B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</pre></noscript></div>
+ B --&gt; C[Primary Colours] --&gt; D['Red, Yellow, Blue']
+ B --&gt; E[Secondary Colours] --&gt; F['Green, Orange, Purple']
+ B --&gt; G[Tertiary Colours] --&gt; H['Yellow-Green, Red-Orange, Blue-Violet']</pre></noscript></div>
 <h3 id="u10-sec-12-2-preparation-of-sheet-showing-tints-and-shades">12.2. Preparation of sheet showing tints and shades.</h3>
 <h4>Introduction</h4>
 <p><strong>Tints and Shades</strong> are variations of a base colour achieved by adding white (for tints) or black (for shades) to the base colour. Tints are lighter versions of the base colour, while shades are darker versions.</p>
@@ -5073,12 +5176,12 @@ Hello, this is a sample document.</code></pre>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Select a Base Colour</strong>: Choose red.<br />2. <strong>Add White (Tints)</strong>: Mix white to the red to create lighter tints.<br />3. <strong>Add Black (Shades)</strong>: Mix black to the red to create darker shades.</div>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Base Colour: Red] --&gt; B[Add White: Tints]
- A --&gt; C[Add Black: Shades]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Base Colour: Red] --&gt; B[Add White: Tints]
- A --&gt; C[Add Black: Shades]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Base Colour: Red] --&gt; B[Add White: Tints]
- A --&gt; C[Add Black: Shades]</pre></noscript></div>
+ A['Base Colour: Red'] --&gt; B['Add White: Tints']
+ A --&gt; C['Add Black: Shades']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A['Base Colour: Red'] --&gt; B['Add White: Tints']
+ A --&gt; C['Add Black: Shades']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A['Base Colour: Red'] --&gt; B['Add White: Tints']
+ A --&gt; C['Add Black: Shades']</pre></noscript></div>
 <h3 id="u10-sec-12-3-preparation-of-sheet-showing-colour-schemes-with-reference-to-theory">12.3. Preparation of sheet showing colour schemes with reference to theory.</h3>
 <h4>Introduction</h4>
 <p><strong>Colour schemes</strong> are groups of colours that are harmonized together. They can be based on specific colour theories such as monochromatic, complementary, split-complementary, and analogous schemes.</p>
@@ -5094,12 +5197,12 @@ Hello, this is a sample document.</code></pre>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Choose a Base Colour</strong>: Select blue.<br />2. <strong>Create Tints and Shades</strong>: Mix white and black to create lighter and darker shades of blue.</div>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]
- A --&gt; C[Add Black: Darker Shades]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]
- A --&gt; C[Add Black: Darker Shades]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]
- A --&gt; C[Add Black: Darker Shades]</pre></noscript></div>
+ A['Base Colour: Blue'] --&gt; B['Add White: Lighter Tints']
+ A --&gt; C['Add Black: Darker Shades']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A['Base Colour: Blue'] --&gt; B['Add White: Lighter Tints']
+ A --&gt; C['Add Black: Darker Shades']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A['Base Colour: Blue'] --&gt; B['Add White: Lighter Tints']
+ A --&gt; C['Add Black: Darker Shades']</pre></noscript></div>
 <h3 id="u10-sec-2-7-fiber-length">2.7. Fiber Length</h3>
 <h4>Introduction</h4>
 <p><strong>Fiber length</strong> is the measure of the length of a fibre. It is a critical property that affects the physical and mechanical properties of the fibre.</p>
@@ -5110,13 +5213,13 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Count Fibers</strong>: Count the number of fibres over a known length.</li>
 <li><strong>Calculate Length</strong>: Calculate the average length of the fibres using the formula:</li>
 </ol>
-<p>\[</p>
-<p>\text{Fiber Length} = \frac{\text{Total Length of Fibres}}{\text{Number of Fibres}}</p>
-<p>\]</p>
+<p>[</p>
+<p>Fiber Length = (Total Length of Fibres / Number of Fibres)</p>
+<p>]</p>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 fibres from a sample.<br />2. <strong>Count Fibers</strong>: Measure the total length of these fibres to be 200 cm.<br />3. <strong>Calculate Length</strong>: \[</div>
-<p>\text{Fiber Length} = \frac{200 \text{ cm}}{100} = 2 \text{ cm}</p>
-<p>\]</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 fibres from a sample.<br />2. <strong>Count Fibers</strong>: Measure the total length of these fibres to be 200 cm.<br />3. <strong>Calculate Length</strong>: [</div>
+<p>Fiber Length = (200 cm / 100) = 2 cm</p>
+<p>]</p>
 <h3 id="u10-sec-2-8-fiber-strength">2.8. Fiber Strength</h3>
 <h4>Introduction</h4>
 <p><strong>Fiber strength</strong> is the force required to break a fibre. It is an important mechanical property that affects the durability and performance of the fibre.</p>
@@ -5127,13 +5230,13 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Tensile Test</strong>: Use a tensile testing machine to measure the force required to break the fibres.</li>
 <li><strong>Calculate Strength</strong>: Calculate the fiber strength using the formula:</li>
 </ol>
-<p>\[</p>
-<p>\text{Fiber Strength} = \frac{\text{Force at Break}}{\text{Cross-sectional Area}}</p>
-<p>\]</p>
+<p>[</p>
+<p>Fiber Strength = (Force at Break / Cross-sectional Area)</p>
+<p>]</p>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Tensile Test</strong>: Use a tensile testing machine to find the force required to break the fibres, which is 500 N.<br />3. <strong>Calculate Strength</strong>: The cross-sectional area is 0.001 m². \[</div>
-<p>\text{Fiber Strength} = \frac{500 \text{ N}}{0.001 \text{ m}^2} = 500000 \text{ N/m}^2</p>
-<p>\]</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Tensile Test</strong>: Use a tensile testing machine to find the force required to break the fibres, which is 500 N.<br />3. <strong>Calculate Strength</strong>: The cross-sectional area is 0.001 m². [</div>
+<p>Fiber Strength = (500 N / 0.001 m²) = 500000 N/m²</p>
+<p>]</p>
 <h3 id="u10-sec-2-9-flexibility">2.9. Flexibility</h3>
 <h4>Introduction</h4>
 <p><strong>Flexibility</strong> is the ability of a fibre to bend without breaking. It is an important mechanical property that affects the comfort and durability of the fibre.</p>
@@ -5180,13 +5283,13 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Measure Mass and Volume</strong>: Measure the mass and volume of the fibres.</li>
 <li><strong>Calculate Density</strong>: Calculate the density using the formula:</li>
 </ol>
-<p>\[</p>
-<p>\text{Density} = \frac{\text{Mass}}{\text{Volume}}</p>
-<p>\]</p>
+<p>[</p>
+<p>Density = (Mass / Volume)</p>
+<p>]</p>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 fibres from a sample.<br />2. <strong>Measure Mass and Volume</strong>: The total mass is 5 grams, and the total volume is 10 cubic centimeters.<br />3. <strong>Calculate Density</strong>: \[</div>
-<p>\text{Density} = \frac{5 \text{ g}}{10 \text{ cm}^3} = 0.5 \text{ g/cm}^3</p>
-<p>\]</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 fibres from a sample.<br />2. <strong>Measure Mass and Volume</strong>: The total mass is 5 grams, and the total volume is 10 cubic centimeters.<br />3. <strong>Calculate Density</strong>: [</div>
+<p>Density = (5 g / 10 cm³) = 0.5 g/cm³</p>
+<p>]</p>
 <h3 id="u10-sec-2-13-lustre">2.13. Lustre</h3>
 <h4>Introduction</h4>
 <p><strong>Lustre</strong> is the ability of a fibre to reflect light and give it a shiny appearance. It is an important aesthetic property that affects the appearance of the fibre.</p>
@@ -5210,24 +5313,24 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Measure Dry Weight</strong>: Weigh the fibres after drying.</li>
 <li><strong>Calculate Moisture</strong>: Calculate the moisture using the formula:</li>
 </ol>
-<p>\[</p>
-<p>\text{Moisture} = \frac{\text{Wet Weight} - \text{Dry Weight}}{\text{Dry Weight}}</p>
-<p>\]</p>
+<p>[</p>
+<p>Moisture = (Wet Weight - Dry Weight / Dry Weight)</p>
+<p>]</p>
 <ol>
 <li><strong>Calculate Moisture Regain</strong>: Calculate the moisture regain using the formula:</li>
 </ol>
-<p>\[</p>
-<p>\text{Moisture Regain} = \frac{\text{Moisture} \times 100}{\text{Dry Weight}}</p>
-<p>\]</p>
+<p>[</p>
+<p>Moisture Regain = (Moisture × 100 / Dry Weight)</p>
+<p>]</p>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 grams of fibres.<br />2. <strong>Measure Wet Weight</strong>: The wet weight is 120 grams.<br />3. <strong>Measure Dry Weight</strong>: The dry weight is 80 grams.<br />4. <strong>Calculate Moisture</strong>: \[</div>
-<p>\text{Moisture} = \frac{120 \text{ g} - 80 \text{ g}}{80 \text{ g}} = 0.5 \text{ or } 50\%</p>
-<p>\]</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 grams of fibres.<br />2. <strong>Measure Wet Weight</strong>: The wet weight is 120 grams.<br />3. <strong>Measure Dry Weight</strong>: The dry weight is 80 grams.<br />4. <strong>Calculate Moisture</strong>: [</div>
+<p>Moisture = (120 g - 80 g / 80 g) = 0.5 or 50\%</p>
+<p>]</p>
 <ol>
-<li><strong>Calculate Moisture Regain</strong>: \[</li>
+<li><strong>Calculate Moisture Regain</strong>: [</li>
 </ol>
-<p>\text{Moisture Regain} = \frac{0.5 \times 100}{80} = 62.5\%</p>
-<p>\]</p>
+<p>Moisture Regain = (0.5 × 100 / 80) = 62.5\%</p>
+<p>]</p>
 <h3 id="u10-sec-2-15-fiber-strength">2.15. Fiber Strength</h3>
 <h4>Introduction</h4>
 <p><strong>Fiber strength</strong> is the force required to break a fibre. It is an important mechanical property that affects the durability and performance of the fibre.</p>
@@ -5238,13 +5341,13 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Tensile Test</strong>: Use a tensile testing machine to measure the force required to break the fibres.</li>
 <li><strong>Calculate Strength</strong>: Calculate the fiber strength using the formula:</li>
 </ol>
-<p>\[</p>
-<p>\text{Fiber Strength} = \frac{\text{Force at Break}}{\text{Cross-sectional Area}}</p>
-<p>\]</p>
+<p>[</p>
+<p>Fiber Strength = (Force at Break / Cross-sectional Area)</p>
+<p>]</p>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Tensile Test</strong>: Use a tensile testing machine to find the force required to break the fibres, which is 500 N.<br />3. <strong>Calculate Strength</strong>: The cross-sectional area is 0.001 m². \[</div>
-<p>\text{Fiber Strength} = \frac{500 \text{ N}}{0.001 \text{ m}^2} = 500000 \text{ N/m}^2</p>
-<p>\]</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Tensile Test</strong>: Use a tensile testing machine to find the force required to break the fibres, which is 500 N.<br />3. <strong>Calculate Strength</strong>: The cross-sectional area is 0.001 m². [</div>
+<p>Fiber Strength = (500 N / 0.001 m²) = 500000 N/m²</p>
+<p>]</p>
 <h3 id="u10-sec-2-16-fiber-length">2.16. Fiber Length</h3>
 <h4>Introduction</h4>
 <p><strong>Fiber length</strong> is the measure of the length of a fibre. It is a critical property that affects the physical and mechanical properties of the fibre.</p>
@@ -5255,13 +5358,13 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Count Fibers</strong>: Count the number of fibres over a known length.</li>
 <li><strong>Calculate Length</strong>: Calculate the average length of the fibres using the formula:</li>
 </ol>
-<p>\[</p>
-<p>\text{Fiber Length} = \frac{\text{Total Length of Fibres}}{\text{Number of Fibres}}</p>
-<p>\]</p>
+<p>[</p>
+<p>Fiber Length = (Total Length of Fibres / Number of Fibres)</p>
+<p>]</p>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 fibres from a sample.<br />2. <strong>Count Fibers</strong>: Measure the total length of these fibres to be 200 cm.<br />3. <strong>Calculate Length</strong>: \[</div>
-<p>\text{Fiber Length} = \frac{200 \text{ cm}}{100} = 2 \text{ cm}</p>
-<p>\]</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 100 fibres from a sample.<br />2. <strong>Count Fibers</strong>: Measure the total length of these fibres to be 200 cm.<br />3. <strong>Calculate Length</strong>: [</div>
+<p>Fiber Length = (200 cm / 100) = 2 cm</p>
+<p>]</p>
 <h3 id="u10-sec-2-17-fiber-fineness">2.17. Fiber Fineness</h3>
 <h4>Introduction</h4>
 <p><strong>Fiber fineness</strong> is the thickness of a fibre. It is an important physical property that affects the feel and appearance of the fibre.</p>
@@ -5272,13 +5375,13 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Measure Diameter</strong>: Measure the diameter of the fibres.</li>
 <li><strong>Calculate Fineness</strong>: Calculate the fineness using the formula:</li>
 </ol>
-<p>\[</p>
-<p>\text{Fiber Fineness} = \frac{\text{Diameter}}{\text{Length}}</p>
-<p>\]</p>
+<p>[</p>
+<p>Fiber Fineness = (Diameter / Length)</p>
+<p>]</p>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Measure Diameter</strong>: The diameter of the fibres is 10 μm.<br />3. <strong>Calculate Fineness</strong>: The length of the fibres is 2 cm. \[</div>
-<p>\text{Fiber Fineness} = \frac{10 \text{ μm}}{200 \text{ μm}} = 0.05</p>
-<p>\]</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Measure Diameter</strong>: The diameter of the fibres is 10 μm.<br />3. <strong>Calculate Fineness</strong>: The length of the fibres is 2 cm. [</div>
+<p>Fiber Fineness = (10 μm / 200 μm) = 0.05</p>
+<p>]</p>
 <h3 id="u10-sec-2-18-fiber-fineness">2.18. Fiber Fineness</h3>
 <h4>Introduction</h4>
 <p><strong>Fiber fineness</strong> is the thickness of a fibre. It is an important physical property that affects the feel and appearance of the fibre.</p>
@@ -5289,13 +5392,13 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Measure Diameter</strong>: Measure the diameter of the fibres.</li>
 <li><strong>Calculate Fineness</strong>: Calculate the fineness using the formula:</li>
 </ol>
-<p>\[</p>
-<p>\text{Fiber Fineness} = \frac{\text{Diameter}}{\text{Length}}</p>
-<p>\]</p>
+<p>[</p>
+<p>Fiber Fineness = (Diameter / Length)</p>
+<p>]</p>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Measure Diameter</strong>: The diameter of the fibres is 10 μm.<br />3. <strong>Calculate Fineness</strong>: The length of the fibres is 2 cm. \[</div>
-<p>\text{Fiber Fineness} = \frac{10 \text{ μm}}{200 \text{ μm}} = 0.05</p>
-<p>\]</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Measure Diameter</strong>: The diameter of the fibres is 10 μm.<br />3. <strong>Calculate Fineness</strong>: The length of the fibres is 2 cm. [</div>
+<p>Fiber Fineness = (10 μm / 200 μm) = 0.05</p>
+<p>]</p>
 <h3 id="u10-sec-2-19-fiber-fineness">2.19. Fiber Fineness</h3>
 <h4>Introduction</h4>
 <p><strong>Fiber fineness</strong> is the thickness of a fibre. It is an important physical property that affects the feel and appearance of the fibre.</p>
@@ -5306,9 +5409,9 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Measure Diameter</strong>: Measure the diameter of the fibres.</li>
 <li><strong>Calculate Fineness</strong>: Calculate the fineness using the formula:</li>
 </ol>
-<p>\[</p>
-<p>\text{Fiber Fineness} = \frac{\text{Diameter}}{\text{Length}}</p>
-<p>\]</p>
+<p>[</p>
+<p>Fiber Fineness = (Diameter / Length)</p>
+<p>]</p>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Collect Fibers</strong>: Take 50 fibres from a sample.<br />2. <strong>Measure Diameter</strong>: The diameter of the fibres is 10 μm.<br />3</div>
 
@@ -5536,11 +5639,11 @@ Hello, this is a sample document.</code></pre>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A biomedical engineer is designing a surgical suture for use in soft tissue repair. Given the high tensile strength and biocompatibility of nylon, PA is chosen for its excellent mechanical properties and flexibility.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Nylon] --&gt; B[Polyamide (PA)]
+ A[Nylon] --&gt; B['Polyamide (PA)']
  A --&gt; C[Stabilized Nylon]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Nylon] --&gt; B[Polyamide (PA)]
+ A[Nylon] --&gt; B['Polyamide (PA)']
  A --&gt; C[Stabilized Nylon]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Nylon] --&gt; B[Polyamide (PA)]
+ A[Nylon] --&gt; B['Polyamide (PA)']
  A --&gt; C[Stabilized Nylon]</pre></noscript></div>
 <p>In summary, both acrylic and nylon are important polymers in biomedical engineering due to their unique properties and applications. Understanding the properties, applications, and classifications of these materials is crucial for selecting appropriate materials in biomedical engineering projects.</p>
 
@@ -5650,13 +5753,13 @@ Hello, this is a sample document.</code></pre>
 <h4><strong>Example:</strong></h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A biomedical engineer is required to select a suitable yarn for a new biomedical application. The application requires a strong, durable, and biocompatible material. The engineer decides to use <strong>polyester yarn</strong> because it is strong, durable, and resistant to abrasion, making it suitable for use in surgical sutures.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Polyester Yarn] --&gt; B[Strong, Durable, Abrasion Resistant]
+ A[Polyester Yarn] --&gt; B['Strong, Durable, Abrasion Resistant']
  A --&gt; C[Biocompatible]
  A --&gt; D[Surgical Sutures]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Polyester Yarn] --&gt; B[Strong, Durable, Abrasion Resistant]
+ A[Polyester Yarn] --&gt; B['Strong, Durable, Abrasion Resistant']
  A --&gt; C[Biocompatible]
  A --&gt; D[Surgical Sutures]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Polyester Yarn] --&gt; B[Strong, Durable, Abrasion Resistant]
+ A[Polyester Yarn] --&gt; B['Strong, Durable, Abrasion Resistant']
  A --&gt; C[Biocompatible]
  A --&gt; D[Surgical Sutures]</pre></noscript></div>
 <p>This diagram illustrates the properties and applications of polyester yarn.</p>
@@ -5677,9 +5780,9 @@ Hello, this is a sample document.</code></pre>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A biomedical engineer is designing a surgical mesh that requires a specific strength and flexibility. The engineer decides to use a yarn with a twist of 20 twists per inch. To verify this decision, the engineer measures the twist by cutting a 1-inch segment of the yarn and counting the number of twists. If the yarn has 20 twists, the design is confirmed to be correct.</div>
 <h4>Calculation of Twist</h4>
 <p>The twist in yarn can be calculated using the formula:</p>
-<p>\[ \text{Twist (turns per inch)} = \frac{\text{Number of twists}}{\text{Length of yarn (inches)}} \]</p>
+<p>Twist (turns per inch) = (Number of twists / Length of yarn (inches))</p>
 <p>For instance, if a 6-inch segment of yarn has 120 twists, the twist can be calculated as:</p>
-<p>\[ \text{Twist} = \frac{120 \text{ twists}}{6 \text{ inches}} = 20 \text{ twists per inch} \]</p>
+<p>Twist = (120 twists / 6 inches) = 20 twists per inch</p>
 <h4>Sequence of Twist</h4>
 <p>To illustrate the sequence of twist, consider the following sequence diagram:</p>
 <div class="mermaid-wrap"><div class="mermaid">sequenceDiagram
@@ -5720,30 +5823,30 @@ Hello, this is a sample document.</code></pre>
 <li><strong>Linear Count (Nt)</strong>: This unit is based on the weight of 1 meter of yarn. The higher the Nt value, the finer the yarn.</li>
 </ul>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />Suppose we have a yarn with a circular count of 40 Ne. This means that 1000 meters of this yarn weighs 40 grams. If we wanted to find the linear count of this yarn, we would use the following calculation:<br /><br />\[<br />\text{Linear Count (Nt)} = \frac{\text{Circular Count (Ne)}}{1000}<br />\]<br /><br />\[<br />\text{Linear Count (Nt)} = \frac{40}{1000} = 0.04 \, \text{grams per meter}<br />\]<br /><br />Therefore, a yarn with a circular count of 40 Ne has a linear count of 0.04 grams per meter.</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />Suppose we have a yarn with a circular count of 40 Ne. This means that 1000 meters of this yarn weighs 40 grams. If we wanted to find the linear count of this yarn, we would use the following calculation:<br /><br />[<br />Linear Count (Nt) = (Circular Count (Ne) / 1000)<br />]<br /><br />[<br />Linear Count (Nt) = (40 / 1000) = 0.04 \, grams per meter<br />]<br /><br />Therefore, a yarn with a circular count of 40 Ne has a linear count of 0.04 grams per meter.</div>
 <h4>Flowchart for Converting Yarn Count Units</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Input: Circular Count (Ne)] --&gt; B[1000]
- B --&gt; C[Output: Linear Count (Nt)]
+ A['Input: Circular Count (Ne)'] --&gt; B[1000]
+ B --&gt; C['Output: Linear Count (Nt)']
  A --&gt; D[1]
  D --&gt; C
- C --&gt; E[Output: Linear Count (Nt)]
+ C --&gt; E['Output: Linear Count (Nt)']
  E --&gt; F[grams per meter]
  C --&gt; G[grams per 1000 meters]
  G --&gt; H[grams per meter]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Input: Circular Count (Ne)] --&gt; B[1000]
- B --&gt; C[Output: Linear Count (Nt)]
+ A['Input: Circular Count (Ne)'] --&gt; B[1000]
+ B --&gt; C['Output: Linear Count (Nt)']
  A --&gt; D[1]
  D --&gt; C
- C --&gt; E[Output: Linear Count (Nt)]
+ C --&gt; E['Output: Linear Count (Nt)']
  E --&gt; F[grams per meter]
  C --&gt; G[grams per 1000 meters]
  G --&gt; H[grams per meter]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Input: Circular Count (Ne)] --&gt; B[1000]
- B --&gt; C[Output: Linear Count (Nt)]
+ A['Input: Circular Count (Ne)'] --&gt; B[1000]
+ B --&gt; C['Output: Linear Count (Nt)']
  A --&gt; D[1]
  D --&gt; C
- C --&gt; E[Output: Linear Count (Nt)]
+ C --&gt; E['Output: Linear Count (Nt)']
  E --&gt; F[grams per meter]
  C --&gt; G[grams per 1000 meters]
  G --&gt; H[grams per meter]</pre></noscript></div>
@@ -6789,7 +6892,7 @@ Hello, this is a sample document.</code></pre>
 <p>Feel free to use this guide as a reference and continue to refine your skills to ensure you are at your best in all situations.</p>
 <p>If you have any further questions or need additional guidance, please don't hesitate to ask.</p>
 <p>Thank you for your attention!</p>
-<p>\<em>End of Guide\</em></p>
+<p><em>End of Guide</em></p>
 <p>If you need more information or have any specific questions, please let me know. I'm here to help!</p>
 <p>Best regards,</p>
 <p>[Your Name]</p>
@@ -7560,6 +7663,54 @@ Hello, this is a sample document.</code></pre>
     // Add class to body for sticky bottom toolbar behavior
     var b = document.body;
     b.classList.add('kb-reader');
+
+    // Reader mode turns chapters into substantial, book-like pages. The
+    // regular continuous layout remains the default for accessibility and
+    // printing; the toggle is a progressive enhancement for screen reading.
+    var readerToggle = document.getElementById('kb-reader-toggle');
+    var pageControls = document.getElementById('kb-page-controls');
+    var pages = [].slice.call(document.querySelectorAll('.kb-articles .kb-unit'));
+    var pageIndex = Math.max(0, Math.min(pages.length - 1, Number(localStorage.getItem('kb:' + "310004" + ':page') || 0)));
+    var pageMode = false;
+    function paintPage(direction) {
+      if (!pages.length) return;
+      pages.forEach(function (p, i) { p.classList.toggle('kb-page-active', i === pageIndex); p.classList.remove('kb-turn-next', 'kb-turn-prev'); });
+      var current = pages[pageIndex];
+      if (current) { current.classList.add(direction === 'prev' ? 'kb-turn-prev' : 'kb-turn-next'); current.setAttribute('tabindex', '-1'); current.focus({ preventScroll: true }); }
+      var label = document.getElementById('kb-page-label');
+      if (label) label.textContent = 'Chapter ' + (pageIndex + 1) + ' of ' + pages.length;
+      var prev = document.getElementById('kb-page-prev'), next = document.getElementById('kb-page-next');
+      if (prev) prev.disabled = pageIndex === 0;
+      if (next) next.disabled = pageIndex === pages.length - 1;
+      localStorage.setItem('kb:' + "310004" + ':page', String(pageIndex));
+    }
+    function setPageMode(on) {
+      pageMode = !!on;
+      b.classList.toggle('kb-page-mode', pageMode);
+      if (readerToggle) {
+        readerToggle.innerHTML = pageMode ? '<i class="fas fa-scroll"></i> Continuous view' : '<i class="fas fa-book-open"></i> Page view';
+        readerToggle.setAttribute('aria-pressed', pageMode ? 'true' : 'false');
+      }
+      if (pageControls) pageControls.style.display = pageMode ? 'flex' : 'none';
+      if (pageMode) paintPage('next');
+      else pages.forEach(function (p) { p.classList.add('kb-page-active'); p.removeAttribute('tabindex'); });
+    }
+    if (pageControls) pageControls.style.display = 'none';
+    if (readerToggle) readerToggle.addEventListener('click', function () { setPageMode(!pageMode); });
+    var prevBtn = document.getElementById('kb-page-prev'), nextBtn = document.getElementById('kb-page-next');
+    if (prevBtn) prevBtn.addEventListener('click', function () { if (pageIndex > 0) { pageIndex--; paintPage('prev'); } });
+    if (nextBtn) nextBtn.addEventListener('click', function () { if (pageIndex < pages.length - 1) { pageIndex++; paintPage('next'); } });
+    document.addEventListener('keydown', function (e) {
+      if (!pageMode || (e.target && /input|textarea|select/i.test(e.target.tagName))) return;
+      if (e.key === 'ArrowLeft' && pageIndex > 0) { pageIndex--; paintPage('prev'); }
+      if (e.key === 'ArrowRight' && pageIndex < pages.length - 1) { pageIndex++; paintPage('next'); }
+    });
+    document.querySelectorAll('.kb-unit-link').forEach(function (link, index) {
+      link.addEventListener('click', function (e) {
+        if (!pageMode) return;
+        e.preventDefault(); pageIndex = index; paintPage('next');
+      });
+    });
 
     // Mobile chapter drawer toggle
     var tocDrawer = document.getElementById('kb-mobile-toc');

@@ -9,7 +9,7 @@
    "label": "Unit – Ecosystem",
    "file": "unit-1.html",
    "guFile": null,
-   "words": 2855,
+   "words": 2818,
    "readingMin": 16,
    "marks": "14 marks (6 Remember + 6 Understand + 2 Apply) (per syllabus)"
   },
@@ -18,7 +18,7 @@
    "label": "Unit – Pollution and its types",
    "file": "unit-2.html",
    "guFile": null,
-   "words": 3891,
+   "words": 3898,
    "readingMin": 22,
    "marks": "16 marks (4 Remember + 6 Understand + 6 Apply) (per syllabus)"
   },
@@ -27,7 +27,7 @@
    "label": "Unit – Renewable sources of energy",
    "file": "unit-3.html",
    "guFile": null,
-   "words": 4078,
+   "words": 4051,
    "readingMin": 23,
    "marks": "16 marks (4 Remember + 6 Understand + 6 Apply) (per syllabus)"
   },
@@ -36,8 +36,8 @@
    "label": "Unit – Climate Change",
    "file": "unit-4.html",
    "guFile": null,
-   "words": 3371,
-   "readingMin": 19,
+   "words": 3324,
+   "readingMin": 18,
    "marks": "14 marks (4 Remember + 6 Understand + 4 Apply) (per syllabus)"
   },
   {
@@ -85,5 +85,5 @@
   }
  ],
  "full": "full-book.html",
- "updatedAt": "2026-09-12T10:21:32.399Z"
+ "updatedAt": "2026-09-18T11:44:14.165Z"
 }

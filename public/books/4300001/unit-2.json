@@ -6,8 +6,8 @@
  "title": "Unit – Trigonometry",
  "url": "/books/4300001/unit-2.html",
  "guUrl": null,
- "words": 1962,
- "readingMin": 11,
+ "words": 1853,
+ "readingMin": 10,
  "marks": "14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)",
  "sections": [
   {
@@ -41,25 +41,25 @@
   {
    "heading": "Conversion Between Degrees and Radians",
    "id": "",
-   "html": "<p>The relationship between degrees and radians can be expressed as:</p>\n<p>[ 1 \\text{ radian} = \\frac{180^\\circ}{\\pi} ]</p>\n<p>[ 1^\\circ = \\frac{\\pi}{180} \\text{ radians} ]</p>",
+   "html": "<p>The relationship between degrees and radians can be expressed as:</p>\n<p>[ 1 radian = (180^ / π) ]</p>\n<p>[ 1^ = (π / 180) radians ]</p>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 120 degrees to radians.<br /><br />Given: 120^<br /><br />Using the conversion formula:<br />[ 120^\\circ = 120 \\times \\frac{\\pi}{180} \\text{ radians} = \\frac{2\\pi}{3} \\text{ radians} ]<br /><br />Therefore, 120^ is equivalent to 2π 3 radians.</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 120 degrees to radians.<br /><br />Given: 120^<br /><br />Using the conversion formula:<br />[ 120^ = 120 × (π / 180) radians = (2π / 3) radians ]<br /><br />Therefore, 120^ is equivalent to 2π 3 radians.</div>",
    "examples": [
-    "Convert 120 degrees to radians. Given: 120^ Using the conversion formula: [ 120^\\circ = 120 \\times \\frac{\\pi}{180} \\text{ radians} = \\frac{2\\pi}{3} \\text{ radians} ] Therefore, 120^ is equivalent to 2π 3 radians."
+    "Convert 120 degrees to radians. Given: 120^ Using the conversion formula: [ 120^ = 120 × (π / 180) radians = (2π / 3) radians ] Therefore, 120^ is equivalent to 2π 3 radians."
    ],
    "mermaid": []
   },
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 3 radians to degrees.<br /><br />Given: 3 radians<br /><br />Using the conversion formula:<br />[ 3 \\text{ radians} = 3 \\times \\frac{180^\\circ}{\\pi} = \\frac{540}{\\pi} \\approx 171.89^\\circ ]<br /><br />Therefore, 3 radians is approximately 171.89^.</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 3 radians to degrees.<br /><br />Given: 3 radians<br /><br />Using the conversion formula:<br />[ 3 radians = 3 × (180^ / π) = (540 / π) ≈ 171.89^ ]<br /><br />Therefore, 3 radians is approximately 171.89^.</div>",
    "examples": [
-    "Convert 3 radians to degrees. Given: 3 radians Using the conversion formula: [ 3 \\text{ radians} = 3 \\times \\frac{180^\\circ}{\\pi} = \\frac{540}{\\pi} \\approx 171.89^\\circ ] Therefore, 3 radians is approximately 171.89^."
+    "Convert 3 radians to degrees. Given: 3 radians Using the conversion formula: [ 3 radians = 3 × (180^ / π) = (540 / π) ≈ 171.89^ ] Therefore, 3 radians is approximately 171.89^."
    ],
    "mermaid": []
   },
@@ -94,36 +94,36 @@
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the sine, cosine, and tangent of a 30° angle.<br /><br />Given: θ = 30^<br /><br />Using the standard values:<br />[ \\sin 30^\\circ = \\frac{1}{2} ]<br />[ \\cos 30^\\circ = \\frac{\\sqrt{3}}{2} ]<br />[ \\tan 30^\\circ = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3} ]<br /><br />Therefore, 30^ = 0.5, 30^ = 0.866, and 30^ = 0.577.</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the sine, cosine, and tangent of a 30° angle.<br /><br />Given: θ = 30^<br /><br />Using the standard values:<br />[ 30^ = (1 / 2) ]<br />[ 30^ = 32 ]<br />[ 30^ = 13 = 33 ]<br /><br />Therefore, 30^ = 0.5, 30^ = 0.866, and 30^ = 0.577.</div>",
    "examples": [
-    "Find the sine, cosine, and tangent of a 30° angle. Given: θ = 30^ Using the standard values: [ \\sin 30^\\circ = \\frac{1}{2} ] [ \\cos 30^\\circ = \\frac{\\sqrt{3}}{2} ] [ \\tan 30^\\circ = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3} ] Therefore, 30^ = 0.5, 30^ = 0.866, and 30^ = 0.577."
+    "Find the sine, cosine, and tangent of a 30° angle. Given: θ = 30^ Using the standard values: [ 30^ = (1 / 2) ] [ 30^ = 32 ] [ 30^ = 13 = 33 ] Therefore, 30^ = 0.5, 30^ = 0.866, and 30^ = 0.577."
    ],
    "mermaid": []
   },
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the angle whose sine is 0.5.<br /><br />Given: θ = 0.5<br /><br />Using the inverse sine function:<br />[ \\theta = \\sin^{-1}(0.5) = 30^\\circ ]<br /><br />Therefore, the angle is 30^.</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the angle whose sine is 0.5.<br /><br />Given: θ = 0.5<br /><br />Using the inverse sine function:<br />[ θ = ⁻¹(0.5) = 30^ ]<br /><br />Therefore, the angle is 30^.</div>",
    "examples": [
-    "Find the angle whose sine is 0.5. Given: θ = 0.5 Using the inverse sine function: [ \\theta = \\sin^{-1}(0.5) = 30^\\circ ] Therefore, the angle is 30^."
+    "Find the angle whose sine is 0.5. Given: θ = 0.5 Using the inverse sine function: [ θ = ⁻¹(0.5) = 30^ ] Therefore, the angle is 30^."
    ],
    "mermaid": []
   },
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the cosine and tangent of a 45° angle.<br /><br />Given: θ = 45^<br /><br />Using the standard values:<br />[ \\cos 45^\\circ = \\frac{\\sqrt{2}}{2} ]<br />[ \\tan 45^\\circ = 1 ]<br /><br />Therefore, 45^ = 0.707 and 45^ = 1.</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the cosine and tangent of a 45° angle.<br /><br />Given: θ = 45^<br /><br />Using the standard values:<br />[ 45^ = 22 ]<br />[ 45^ = 1 ]<br /><br />Therefore, 45^ = 0.707 and 45^ = 1.</div>",
    "examples": [
-    "Find the cosine and tangent of a 45° angle. Given: θ = 45^ Using the standard values: [ \\cos 45^\\circ = \\frac{\\sqrt{2}}{2} ] [ \\tan 45^\\circ = 1 ] Therefore, 45^ = 0.707 and 45^ = 1."
+    "Find the cosine and tangent of a 45° angle. Given: θ = 45^ Using the standard values: [ 45^ = 22 ] [ 45^ = 1 ] Therefore, 45^ = 0.707 and 45^ = 1."
    ],
    "mermaid": []
   },
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the angle whose tangent is 1.<br /><br />Given: θ = 1<br /><br />Using the inverse tangent function:<br />[ \\theta = \\tan^{-1}(1) = 45^\\circ ]<br /><br />Therefore, the angle is 45^.</div>\n<p>These examples and explanations should help you understand the concepts and apply them effectively in your engineering problems.</p>\n<hr />",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the angle whose tangent is 1.<br /><br />Given: θ = 1<br /><br />Using the inverse tangent function:<br />[ θ = ⁻¹(1) = 45^ ]<br /><br />Therefore, the angle is 45^.</div>\n<p>These examples and explanations should help you understand the concepts and apply them effectively in your engineering problems.</p>\n<hr />",
    "examples": [
-    "Find the angle whose tangent is 1. Given: θ = 1 Using the inverse tangent function: [ \\theta = \\tan^{-1}(1) = 45^\\circ ] Therefore, the angle is 45^."
+    "Find the angle whose tangent is 1. Given: θ = 1 Using the inverse tangent function: [ θ = ⁻¹(1) = 45^ ] Therefore, the angle is 45^."
    ],
    "mermaid": []
   },
@@ -202,7 +202,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">graph LR\n A[0] --&gt; B[90] --&gt; C[180] --&gt; D[270] --&gt; E[360]\n A --&gt; F[0]\n C --&gt; G[-1]\n E --&gt; H[0]\n A --&gt; I[1]\n G --&gt; J[-1]\n C --&gt; K[0]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>graph LR\n A[0] --&gt; B[90] --&gt; C[180] --&gt; D[270] --&gt; E[360]\n A --&gt; F[0]\n C --&gt; G[-1]\n E --&gt; H[0]\n A --&gt; I[1]\n G --&gt; J[-1]\n C --&gt; K[0]</pre></details><noscript><pre class=\"mermaid-src\">graph LR\n A[0] --&gt; B[90] --&gt; C[180] --&gt; D[270] --&gt; E[360]\n A --&gt; F[0]\n C --&gt; G[-1]\n E --&gt; H[0]\n A --&gt; I[1]\n G --&gt; J[-1]\n C --&gt; K[0]</pre></noscript></div>\n<ul>\n<li><strong>Explanation:</strong> The diagram shows the values of sine and cosine at key angles from 0^ to 360^.</li>\n</ul>\n<p>This completes the detailed coverage of Allied & Compound Angles, Multiple –Submultiples Angles and Graph of Sine and Cosine.</p>\n<hr />",
    "examples": [],
    "mermaid": [
-    "graph LR\n    A[0] --> B[90] --> C[180] --> D[270] --> E[360]\n    A --> F[0]\n    C --> G[-1]\n    E --> H[0]\n    A --> I[1]\n    G --> J[-1]\n    C --> K[0]"
+    "graph LR\n A[0] --> B[90] --> C[180] --> D[270] --> E[360]\n A --> F[0]\n C --> G[-1]\n E --> H[0]\n A --> I[1]\n G --> J[-1]\n C --> K[0]"
    ]
   },
   {
@@ -245,16 +245,16 @@
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Prove that x + 3x = 2 2x x.<br /><br /><strong>Solution:</strong> Using the sum formula for sines:<br />[<br />\\sin x + \\sin 3x = 2 \\sin\\left(\\frac{x + 3x}{2}\\right) \\cos\\left(\\frac{x - 3x}{2}\\right)<br />]<br />Simplifying the arguments inside the sine and cosine functions:<br />[<br />\\sin x + \\sin 3x = 2 \\sin\\left(2x\\right) \\cos\\left(-x\\right)<br />]<br />Since (-x) = (x):<br />[<br />\\sin x + \\sin 3x = 2 \\sin(2x) \\cos(x)<br />]<br />Thus, the identity is proved.</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Prove that x + 3x = 2 2x x.<br /><br /><strong>Solution:</strong> Using the sum formula for sines:<br />[<br />x + 3x = 2 ((x + 3x / 2)) ((x - 3x / 2))<br />]<br />Simplifying the arguments inside the sine and cosine functions:<br />[<br />x + 3x = 2 (2x) (-x)<br />]<br />Since (-x) = (x):<br />[<br />x + 3x = 2 (2x) (x)<br />]<br />Thus, the identity is proved.</div>",
    "examples": [
-    "Prove that x + 3x = 2 2x x. **Solution:** Using the sum formula for sines: [ \\sin x + \\sin 3x = 2 \\sin\\left(\\frac{x + 3x}{2}\\right) \\cos\\left(\\frac{x - 3x}{2}\\right) ] Simplifying the arguments inside the sine and cosine functions: [ \\sin x + \\sin 3x = 2 \\sin\\left(2x\\right) \\cos\\left(-x\\right) ] Since (-x) = (x): [ \\sin x + \\sin 3x = 2 \\sin(2x) \\cos(x) ] Thus, the identity is proved."
+    "Prove that x + 3x = 2 2x x. **Solution:** Using the sum formula for sines: [ x + 3x = 2 ((x + 3x / 2)) ((x - 3x / 2)) ] Simplifying the arguments inside the sine and cosine functions: [ x + 3x = 2 (2x) (-x) ] Since (-x) = (x): [ x + 3x = 2 (2x) (x) ] Thus, the identity is proved."
    ],
    "mermaid": []
   },
   {
    "heading": "Practical Application",
    "id": "",
-   "html": "<ul>\n<li><strong>Example:</strong> Simplify 10^ 20^ + 80^ 60^.</li>\n</ul>\n<blockquote><br /><strong>Solution:</strong> Using the product to sum formula:<br />[<br />\\sin 10^\\circ \\cos 20^\\circ = \\frac{1}{2} [\\sin(30^\\circ) - \\sin(-10^\\circ)] = \\frac{1}{2} [\\sin(30^\\circ) + \\sin(10^\\circ)]<br />]<br />[<br />\\sin 80^\\circ \\cos 60^\\circ = \\sin 80^\\circ \\cdot \\frac{1}{2} = \\frac{1}{2} \\sin(80^\\circ)<br />]<br />Since (80^) = (10^):<br />[<br />\\sin 80^\\circ \\cos 60^\\circ = \\frac{1}{2} \\cos(10^\\circ)<br />]<br />Therefore:<br />[<br />\\sin 10^\\circ \\cos 20^\\circ + \\sin 80^\\circ \\cos 60^\\circ = \\frac{1}{2} [\\sin(30^\\circ) + \\sin(10^\\circ)] + \\frac{1}{2} \\cos(10^\\circ)<br />]<br />Using (30^) = 1 2:<br />[<br />\\sin 10^\\circ \\cos 20^\\circ + \\sin 80^\\circ \\cos 60^\\circ = \\frac{1}{2} \\left(\\frac{1}{2} + \\sin(10^\\circ)\\right) + \\frac{1}{2} \\cos(10^\\circ)<br />]<br />Simplifying:<br />[<br />\\sin 10^\\circ \\cos 20^\\circ + \\sin 80^\\circ \\cos 60^\\circ = \\frac{1}{4} + \\frac{1}{2} \\sin(10^\\circ) + \\frac{1}{2} \\cos(10^\\circ)<br />]<br />Using the identity (10^) + (10^) = 2 (55^):<br />[<br />\\sin 10^\\circ \\cos 20^\\circ + \\sin 80^\\circ \\cos 60^\\circ = \\frac{1}{4} + \\frac{\\sqrt{2}}{2} \\sin(55^\\circ)<br />]</blockquote>\n<hr />",
+   "html": "<ul>\n<li><strong>Example:</strong> Simplify 10^ 20^ + 80^ 60^.</li>\n</ul>\n<blockquote><br /><strong>Solution:</strong> Using the product to sum formula:<br />[<br />10^ 20^ = (1 / 2) [(30^) - (-10^)] = (1 / 2) [(30^) + (10^)]<br />]<br />[<br />80^ 60^ = 80^ · (1 / 2) = (1 / 2) (80^)<br />]<br />Since (80^) = (10^):<br />[<br />80^ 60^ = (1 / 2) (10^)<br />]<br />Therefore:<br />[<br />10^ 20^ + 80^ 60^ = (1 / 2) [(30^) + (10^)] + (1 / 2) (10^)<br />]<br />Using (30^) = 1 2:<br />[<br />10^ 20^ + 80^ 60^ = (1 / 2) ((1 / 2) + (10^)) + (1 / 2) (10^)<br />]<br />Simplifying:<br />[<br />10^ 20^ + 80^ 60^ = (1 / 4) + (1 / 2) (10^) + (1 / 2) (10^)<br />]<br />Using the identity (10^) + (10^) = 2 (55^):<br />[<br />10^ 20^ + 80^ 60^ = (1 / 4) + 22 (55^)<br />]</blockquote>\n<hr />",
    "examples": [],
    "mermaid": []
   },
@@ -289,7 +289,7 @@
   {
    "heading": "Worked Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Solve ⁻¹(0.5) + ⁻¹(0.5).</div>\n<ol>\n<li>We know from the properties of inverse trigonometric functions that ⁻¹(0.5) + ⁻¹(0.5) = π 2.</li>\n</ol>\n<ol>\n<li>Therefore, ⁻¹(0.5) + ⁻¹(0.5) = π 2.</li>\n</ol>\n<ol>\n<li>Since ⁻¹(0.5) = π 6 and ⁻¹(0.5) = π 3, we can verify:</li>\n</ol>\n<p>[</p>\n<p>\\frac{\\pi}{6} + \\frac{\\pi}{3} = \\frac{\\pi}{6} + \\frac{2\\pi}{6} = \\frac{3\\pi}{6} = \\frac{\\pi}{2}</p>\n<p>]</p>\n<ol>\n<li>Thus, the solution is π 2.</li>\n</ol>\n<p>This example demonstrates the application of the property that the sum of the inverse sine and cosine of the same value is π 2.</p>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Solve ⁻¹(0.5) + ⁻¹(0.5).</div>\n<ol>\n<li>We know from the properties of inverse trigonometric functions that ⁻¹(0.5) + ⁻¹(0.5) = π 2.</li>\n</ol>\n<ol>\n<li>Therefore, ⁻¹(0.5) + ⁻¹(0.5) = π 2.</li>\n</ol>\n<ol>\n<li>Since ⁻¹(0.5) = π 6 and ⁻¹(0.5) = π 3, we can verify:</li>\n</ol>\n<p>[</p>\n<p>(π / 6) + (π / 3) = (π / 6) + (2π / 6) = (3π / 6) = (π / 2)</p>\n<p>]</p>\n<ol>\n<li>Thus, the solution is π 2.</li>\n</ol>\n<p>This example demonstrates the application of the property that the sum of the inverse sine and cosine of the same value is π 2.</p>",
    "examples": [
     "Solve ⁻¹(0.5) + ⁻¹(0.5)."
    ],

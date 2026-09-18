@@ -5,7 +5,7 @@
       "public": "public-redirect",
       "redirects": [
         {
-          "regex": "^/(.*)$",
+          "regex": "^/(()|[^g].*|g[^o].*|go[^o].*|goo[^g].*|goog[^l].*|googl[^e].*|google([^0-9a-zA-Z].*))$",
           "destination": "https://khudkibook.in/:1",
           "type": 301
         }
@@ -110,6 +110,7 @@
       {
         "source": "**",
         "headers": [
+          { "key": "Access-Control-Allow-Origin", "value": "*" },
           { "key": "X-Content-Type-Options", "value": "nosniff" },
           { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
           { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },

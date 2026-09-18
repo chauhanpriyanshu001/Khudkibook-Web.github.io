@@ -1,0 +1,139 @@
+{
+  "code": "4300001",
+  "subject": "Mathematics",
+  "slug": "mathematics",
+  "branchLabel": "Gujarat Technological University Artificial Intelligence and Data Science Semester 1",
+  "page": "/ai-data-science/sem1/mathematics.html",
+  "semId": "sem1",
+  "level": "degree",
+  "references": {
+    "books": [],
+    "websites": []
+  },
+  "syllabusUrl": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/4300001.pdf",
+  "generatedAt": "2026-09-13T05:27:55.916Z",
+  "units": [
+    {
+      "n": 1,
+      "roman": "I",
+      "title": "Determinant and Function",
+      "uos": [
+        "1.a. Solve simple problems of Determinant up to order 3*3.",
+        "1.b. Explain graphically the given functions.",
+        "1.c. Solve simple problems using concepts of Logarithms"
+      ],
+      "topics": [
+        "1.1. Determinant and its value up to 3rd order (Without properties)",
+        "1.2. Function and simple examples.",
+        "1.3. Logarithm as a function",
+        "1.4. Laws of Logarithm and related Simple examples"
+      ],
+      "marks": "16 marks (4 Remember + 7 Understand + 5 Apply)",
+      "hours": 9,
+      "r": 4,
+      "u": 7,
+      "a": 5,
+      "totalMarks": 16,
+      "titleGu": null
+    },
+    {
+      "n": 2,
+      "roman": "II",
+      "title": "Trigonometry",
+      "uos": [
+        "2.a. Apply the concept of Compound angle, Allied angle, and Multiple angles to solve the given simple engineering problem(s)",
+        "2.b. Explain the concept of Sub- Multiple and solve related problem(s).",
+        "2.c. Invoke the concept of Sum and Factor formulae to solve the given simple problem(s)",
+        "2.d. Investigate given simple problems using inverse Trigonometric functions."
+      ],
+      "topics": [
+        "2.1. Units of Angles (degree and radian)",
+        "2.2. Trigonometric Functions",
+        "2.3. Allied & Compound Angles, Multiple –Submultiples angles",
+        "2.4. Graph of Sine and Cosine,",
+        "2.5. Periodic Trigonometric function",
+        "2.6. Sum and factor formulae",
+        "2.7. Inverse Trigonometric function"
+      ],
+      "marks": "14 marks (4 Remember + 5 Understand + 5 Apply)",
+      "hours": 12,
+      "r": 4,
+      "u": 5,
+      "a": 5,
+      "totalMarks": 14,
+      "titleGu": null
+    },
+    {
+      "n": 3,
+      "roman": "III",
+      "title": "Vectors",
+      "uos": [
+        "3.a. Apply the concept of algebraic operations of Vectors to solve given simple engineering problem(s)",
+        "3.b. Apply the concept of Scalar and Vector product to solve specified simple problem(s)",
+        "3.c. Solve problems of work done and moment of force using the concept of Vectors."
+      ],
+      "topics": [
+        "3.1. Vector, Addition, Subtraction, Magnitude and direction.",
+        "3.2. Scalar and Vector Product and it's properties",
+        "3.3. Angle between two Vectors",
+        "3.4. Applications of Scalar and Vector Product (Work Done and Moment of Force)"
+      ],
+      "marks": "14 marks (4 Remember + 6 Understand + 4 Apply)",
+      "hours": 7,
+      "r": 4,
+      "u": 6,
+      "a": 4,
+      "totalMarks": 14,
+      "titleGu": null
+    },
+    {
+      "n": 4,
+      "roman": "IV",
+      "title": "Coordinate Geometry",
+      "uos": [
+        "4.a. Employ the equation of straight line to solve given simple problems.",
+        "4.b. Apply the concept of slope and its consequences to",
+        "4.c. Find the angle between two lines using the concept of Parallel and Perpendicular lines.",
+        "4.d. Apply the concept of equation of circle with center and radius to solve the given problems.",
+        "4.e. Solve problems related to general equation of circle based on tangent and normal. perpendicular lines"
+      ],
+      "topics": [
+        "4.1. Straight line (Two-point form) and slope of straight line",
+        "4.2. Slope point form, Intercept form, General form of line",
+        "4.3. Condition of parallel and Mathematics Course Code: 4300001 NITTTR Bhopal – GTU - COGC-2021 Curriculum Topics and Sub-topics solve the given problems.",
+        "4.4. Equations of Parallel lines and Perpendicular lines to the given lines",
+        "4.5. Angle between two lines.",
+        "4.6. Equation of circle with center and Radius.",
+        "4.7. General equation of circle.",
+        "4.8. Tangent and normal to a circle."
+      ],
+      "marks": "14 marks (4 Remember + 5 Understand + 5 Apply)",
+      "hours": 8,
+      "r": 4,
+      "u": 5,
+      "a": 5,
+      "totalMarks": 14,
+      "titleGu": null
+    },
+    {
+      "n": 5,
+      "roman": "V",
+      "title": "Limit",
+      "uos": [
+        "5.a. Analyse the characteristic of functions using the concept of Limit.",
+        "5.b. Solve the given problems using standard formulae of Limit"
+      ],
+      "topics": [
+        "5.1. Limit of a Function.",
+        "5.2. Standard formulae of Limit and related simple examples. Note: The Unit Outcomes (UOs) need to be formulated at the ‘Application Level’ and above of Revised Bloom’s Taxonomy’ to accelerate the attainment of the COs and the competency."
+      ],
+      "marks": "12 marks (3 Remember + 4 Understand + 5 Apply)",
+      "hours": 6,
+      "r": 3,
+      "u": 4,
+      "a": 5,
+      "totalMarks": 12,
+      "titleGu": null
+    }
+  ]
+}

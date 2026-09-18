@@ -1301,10 +1301,10 @@ footer#footer {
 }
 
 .rec-card-cover {
-    width: 72px;
-    height: 98px;
-    flex-shrink: 0;
-    border-radius: 8px;
+    flex: 0 0 auto;
+    width: clamp(76px, 13vw, 104px);
+    aspect-ratio: 3 / 4.1;
+    border-radius: 9px;
     overflow: hidden;
     background: #eef1fb;
     box-shadow: 0 4px 10px rgba(15, 23, 42, 0.12);

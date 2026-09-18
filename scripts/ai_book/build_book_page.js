@@ -24,6 +24,8 @@
 
 const fs = require('fs');
 const path = require('path');
+const { repairSource, repairMarkdown, validateMermaid, analyzeMermaid } = require('./mermaid_fix');
+const { cleanLatexMath } = require('./tex_fix');
 
 const ROOT = path.join(__dirname, '..', '..');
 const SITE_URL = 'https://khudkibook.in';
@@ -69,6 +71,13 @@ function slugify(text) {
     .replace(/^-+|-+$/g, '') || 'sec';
 }
 
+// Repair common AI-generated Mermaid syntax that Mermaid's parser rejects.
+// Delegates to the shared mermaid_fix module so every pipeline stage sees the
+// same repairs. Kept as a named function for backwards compatibility.
+function sanitizeMermaid(src) {
+  return repairSource(src);
+}
+
 // Ad slot shell (AdSense injects when the push script runs)
 function adSlot(extraClass) {
   return `<div class="ad-slot-wrapper no-print ${extraClass || ''}">
@@ -107,6 +116,7 @@ function markdownToHtml(md, toc, opts) {
   let inUl = false, inOl = false, inTable = false, inCode = false, codeBuf = [], codeLang = '';
   const slugCounts = {};
   let headingSeq = 0;
+  let skipH1 = false;
 
   const makeId = (text) => {
     const base = slugify(text);
@@ -128,7 +138,7 @@ function markdownToHtml(md, toc, opts) {
       const lang = line.trim().replace(/^```/, '');
       if (inCode) {
         if (codeLang === 'mermaid') {
-          const src = codeBuf.join('\n');
+          const src = sanitizeMermaid(codeBuf.join('\n'));
           out.push(`<div class="mermaid-wrap"><div class="mermaid">${esc(src)}</div><details class="mermaid-src"><summary>Diagram source</summary><pre>${esc(src)}</pre></details><noscript><pre class="mermaid-src">${esc(src)}</pre></noscript></div>`);
         } else if (codeBuf.length) {
           out.push(`<pre><code>${esc(codeBuf.join('\n'))}</code></pre>`);
@@ -143,7 +153,15 @@ function markdownToHtml(md, toc, opts) {
     if (h) {
       closeList();
       const level = h[1].length; // 1..4
-      const text = h[2].trim();
+      const headText = h[2].trim();
+      // Skip the document's top-level title heading (# …) — it only duplicates
+      // the page header. Also clean any AI-generated stray "null" markers.
+      const cleanedText = headText.replace(/\bnull\b/gi, '').replace(/[:：]$/, '').replace(/\s+/g, ' ').trim();
+      if (level === 1) {
+        if (!skipH1 && (cleanedText || headText)) { skipH1 = true; out.push(''); }
+        continue;
+      }
+      const text = cleanedText || headText;
       const tagLevel = level + 1; // h2..h5
       if (tagLevel === 2 || tagLevel === 3) {
         const id = makeId(text);
@@ -419,8 +437,8 @@ function buildPage({ code, unitInfo, contentHtml, toc, title, description, stats
     .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
     /* mermaid */
     .kb-article .mermaid-wrap{margin:16px 0}
-    .kb-article .mermaid{text-align:center;overflow-x:auto;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff}
-    .kb-article .mermaid svg{max-width:100%;height:auto}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
+    .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
     .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
     .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
     .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
@@ -454,9 +472,24 @@ function buildPage({ code, unitInfo, contentHtml, toc, title, description, stats
       .print-watermark span{display:block;transform:rotate(-28deg);font-size:84px;font-weight:800;color:#000;opacity:.06;letter-spacing:10px;white-space:nowrap;font-family:'Outfit',sans-serif}
       h2,h3{page-break-after:avoid}
       p,li,blockquote,table{page-break-inside:avoid}
-      @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · KhudKibook-Web.github.io";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
+      @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
     }
   </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q14JJGGSPR');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yha6xlt986");
+  </script>
 </head>
 <body>
   <nav id="nav" class="navbar-root no-print"></nav>
@@ -627,17 +660,24 @@ function main() {
 
   const info = subjectInfo(code);
 
-  // Prefer the unit title from an existing unitdef (auto-parsed syllabus), else the md's first heading.
+  // Prefer the unit title from an existing unitdef (auto-parsed syllabus), else
+  // fall back to the md's first heading with any stray "Unit – null" cleaned up.
   let titleLine = (fs.readFileSync(mdPath, 'utf8').match(/^#\s+(.+)$/m) || [])[1] || `Unit ${unit}`;
   const unitdefPath = path.join(dataDir, 'unitdef.json');
-  if (lang === 'gu' && fs.existsSync(unitdefPath)) {
+  if (fs.existsSync(unitdefPath)) {
     try {
       const def = JSON.parse(fs.readFileSync(unitdefPath, 'utf8'));
       const u = (def.units || []).find(x => x.n === unit);
-      if (u && u.titleGu) titleLine = u.titleGu;
-      else if (u && u.title) titleLine = `Unit – ${u.title}`;
+      if (lang === 'gu') {
+        if (u && u.titleGu) titleLine = u.titleGu;
+        else if (u && u.title) titleLine = `Unit – ${u.title}`;
+      } else if (u && u.title) {
+        titleLine = `Unit – ${u.title}`;
+      }
     } catch (_) { /* fallback to md heading */ }
   }
+  // Defensive cleanup: the AI model sometimes writes "Unit – null: <Title>"
+  titleLine = titleLine.replace(/\bnull\b/gi, '').replace(/[:：]\s*$/, '').replace(/\s+/g, ' ').trim() || `Unit ${unit}`;
 
   const guMdExists = fs.existsSync(path.join(dataDir, `unit-${unit}.gu.md`));
 
@@ -662,7 +702,23 @@ function main() {
   if (unit > 1) unitInfo.prev = { n: unit - 1, short: `Unit ${unit - 1}` };
   unitInfo.next = null;
 
-  const md = fs.readFileSync(mdPath, 'utf8');
+  const mdRaw = fs.readFileSync(mdPath, 'utf8');
+
+  // Clean LaTeX math remnants (e.g. \( \text{CH}_4 \) -> CH₄) so legacy/cached
+  // markdown also renders as readable text, then repair diagrams.
+  const repairedMd = repairMarkdown(cleanLatexMath(mdRaw)).md;
+  const md = repairedMd;
+  const diagramReport = analyzeMermaid(md);
+  if (diagramReport.count > 0) {
+    const broken = diagramReport.blocks.filter(b => !b.ok);
+    if (broken.length) {
+      console.log(`WARN unit ${unit}: ${broken.length}/${diagramReport.count} mermaid diagram(s) may not render:`);
+      broken.forEach((b, i) => console.log(`  - [${i + 1}] ${b.errors.concat(b.issues).join('; ') || 'unknown'}`));
+    } else {
+      console.log(`OK unit ${unit}: ${diagramReport.count} mermaid diagram(s) passed structural check`);
+    }
+  }
+
   const toc = [];
   const contentHtml = markdownToHtml(md, toc, { isGu: lang === 'gu' });
   const stats = wordStats(md);

@@ -1,0 +1,89 @@
+{
+ "code": "4300001",
+ "subject": "Mathematics",
+ "branchLabel": "Gujarat Technological University Artificial Intelligence and Data Science Semester 1",
+ "subjectPage": "/ai-data-science/sem1/mathematics.html",
+ "units": [
+  {
+   "n": 1,
+   "label": "Unit – Determinant and Function",
+   "file": "unit-1.html",
+   "guFile": null,
+   "words": 1487,
+   "readingMin": 8,
+   "marks": "16 marks (4 Remember + 7 Understand + 5 Apply) (per syllabus)"
+  },
+  {
+   "n": 2,
+   "label": "Unit – Trigonometry",
+   "file": "unit-2.html",
+   "guFile": null,
+   "words": 1962,
+   "readingMin": 11,
+   "marks": "14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)"
+  },
+  {
+   "n": 3,
+   "label": "Unit – Vectors",
+   "file": "unit-3.html",
+   "guFile": null,
+   "words": 1909,
+   "readingMin": 11,
+   "marks": "14 marks (4 Remember + 6 Understand + 4 Apply) (per syllabus)"
+  },
+  {
+   "n": 4,
+   "label": "Unit – Coordinate Geometry",
+   "file": "unit-4.html",
+   "guFile": null,
+   "words": 2592,
+   "readingMin": 14,
+   "marks": "14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)"
+  },
+  {
+   "n": 5,
+   "label": "Unit – Limit",
+   "file": "unit-5.html",
+   "guFile": null,
+   "words": 954,
+   "readingMin": 5,
+   "marks": "12 marks (3 Remember + 4 Understand + 5 Apply) (per syllabus)"
+  }
+ ],
+ "title": "Mathematics",
+ "titleGu": "Mathematics",
+ "pages": [
+  {
+   "n": 1,
+   "file": "unit-1.html",
+   "marks": "16 marks (4 Remember + 7 Understand + 5 Apply)",
+   "hours": 9
+  },
+  {
+   "n": 2,
+   "file": "unit-2.html",
+   "marks": "14 marks (4 Remember + 5 Understand + 5 Apply)",
+   "hours": 12
+  },
+  {
+   "n": 3,
+   "file": "unit-3.html",
+   "marks": "14 marks (4 Remember + 6 Understand + 4 Apply)",
+   "hours": 7
+  },
+  {
+   "n": 4,
+   "file": "unit-4.html",
+   "marks": "14 marks (4 Remember + 5 Understand + 5 Apply)",
+   "hours": 8
+  },
+  {
+   "n": 5,
+   "file": "unit-5.html",
+   "marks": "12 marks (3 Remember + 4 Understand + 5 Apply)",
+   "hours": 6
+  }
+ ],
+ "full": "full-book.html",
+ "updatedAt": "2026-09-13T07:00:21.364Z"
+}

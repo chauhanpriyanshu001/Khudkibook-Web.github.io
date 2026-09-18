@@ -1,0 +1,343 @@
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ 	P a g e 1 | 6
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Bachelor of Engineering
+Level: UG
+Branch: ALL
+Course / Subject Code: BE01R00051
+Course / Subject Name: Basic Electrical Engineering
+w. e. f. Academic Year: 2024-25
+Semester: Ist Year
+Category of the Course: ESC
+Prerequisite: NA
+Rationale: Electricity has been the main source of energy for the developing and developed
+countries. Per capita consumption of electricity of a country can be considered as
+an indicator of the development of the country. In view of this, it is essential for all
+engineering graduates to know the basic aspects of electrical engineering. This
+subject deals with basic circuit solution methods, introduction to electrical
+machines and basics of domestic electrical installations.
+Course Outcome:
+After Completion of the Course, Student will able to:
+No Course Outcomes RBT Level
+01 Apply fundamental electrical laws and circuit theorems to electrical circuits. Application
+02 Analyze single phase and three phase AC circuits. Analyze
+03 Describe operating principle and applications of static and rotating electrical
+machines.
+Understand
+04 Understand the wiring methods, electricity billing, and working principles of
+circuits protective devices and personal safety measures.
+Read &
+Understand
+05 Understand the electrical safety and purpose, types and scope of earthing
+systems
+Read &
+Understand
+Teaching and Examination Scheme:
+Teaching / Learning Scheme
+(in Hours per semester) Total
+Credits
+=
+TH/30
+Assessment Pattern and Marks
+Total
+Marks
+L T P TW/SL TH
+Theory Tutorial / Practical
+ESE
+(E)
+PA
+(M)
+PA/
+(I)
+TW/
+SL (I)
+ESE
+(V)
+45 0 30 45 120 04 70 30 20 30 50 200
+Where L = Lecture, T= Tutorial, P= Practical, TW/SL = Term-Work / Self-Learning, TH = Total Hours, PA = Progressive
+Assessment, ESE = End-Semester Examination
+
+-- 1 of 6 --
+
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ 	P a g e 2 | 6
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Bachelor of Engineering
+Level: UG
+Branch: ALL
+Course / Subject Code: BE01R00051
+Course / Subject Name: Basic Electrical Engineering
+Course Content:
+Unit
+No. Content No. of
+Hours
+% of
+Weightage
+1. DC Circuits:
+Electrical circuit elements (R, L and C), voltage and current independent
+sources, Kirchoff’s current and voltage laws, analysis of simple circuits
+with dc excitation, Superposition, Thevenin and Norton Theorems, Star-
+delta/Delta-Star conversion, Time-domain analysis of first-order RL and
+RC circuits.
+7 15
+2. AC Circuits
+Representation of sinusoidal waveforms, peak, RMS and average values
+of different signals, form factor and peak factor, Phasor representation
+of AC quantities, real power, reactive power, apparent power, power
+factor.
+Analysis of single-phase ac circuits consisting of R, L, C, RL, RC, RLC
+combinations (series and parallel), Series and parallel resonances, Three
+phase balanced circuits, voltage and current relations in star and delta
+connections, Power measurement in three phase balanced circuits.
+9 20
+3. Magnetic Circuits & Transformers
+Magnetic effect of electrical current, cross and dot convention, right hand
+thumb rule and cork screw rule, Concepts of m.m.f, flux, flux density,
+reluctance, permeability and field strength, Analogy between electric and
+magnetic circuits, Magnetic Circuits, B-H Curve, Hysteresis Loop,
+Hysteresis and Eddy current losses, Construction and working principle
+of single-phase transformers: Construction, principle of working, voltage
+and current ratios, losses, definition of regulation and efficiency, Ideal
+and practical transformer.
+8 15
+4. Fundamentals of Electrical Machines
+Generation of rotating magnetic fields, Construction and working of
+Single-phase induction motors (Split phase, Capacitor start, Permanent
+split capacitor, Capacitor start/capacitor run).
+Single phase induction motor applications: pumps, refrigerators, fans,
+compressors, and portable drills.
+Construction and working of brushless DC motors and its application:
+Electrical Vehicle, washing machines, Blowers, Computers/Laptops
+9 20
+
+-- 2 of 6 --
+
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ 	P a g e 3 | 6
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Bachelor of Engineering
+Level: UG
+Branch: ALL
+Course / Subject Code: BE01R00051
+Course / Subject Name: Basic Electrical Engineering
+5. Electrical Wiring and Installations
+Components of LT Switchgear: Switch Fuse Unit (SFU), MCB,
+ELCB, MCCB.
+Types of lamps, fixtures & reflectors, illumination schemes for
+domestic, industrial & commercial premises, Lumen requirements for
+different categories.
+Earthing – Types of earthing and its importance.
+Safety precautions for electrical appliances.
+Types of Batteries, Characteristics of Batteries (Voltage, storage
+capacity, discharge curve, cycle life).
+Elementary calculations for energy consumption of home appliances
+and electricity bill.
+Basic electrical measurements with Ammeter, Voltmeter, Wattmeter
+and Energy meter (working principle and circuit connection).
+12 30
+Total 45 100
+Suggested Specification Table with Marks (Theory):
+Distribution of Theory Marks
+R Level U Level A Level N Level E Level C Level
+40 20 20 20 0 0
+Where R: Remember; U: Understanding; A: Application, N: Analyze and E: Evaluate C: Create (as per Revised
+Bloom’s Taxonomy)
+References/Suggested Learning Resources:
+(a) Books:
+1) D. C. Kulshreshtha, “Basic Electrical Engineering”, McGraw Hill, 2009.
+2) Basic Electrical Engineering - Nagsarkar and Sukhija, Oxford University Press
+3) B. L. Theraja, “Electrical Technology – Part I and II”, S. Chand and Co. 2012
+4) D. P. Kothari and I. J. Nagrath, “Basic Electrical Engineering”, Tata McGraw Hill, 2010.
+5) J. B. Gupta “ Basic Electrical Engineering”, S.K. Kataria & Sons,2023.
+6) A Chakrabarti,S Nath and C K Chanda ”Basic Electrical Engineering”,TATA McGraw Hill,
+7) S.L. Uppal “Electrical Wiring Estimating and Costing”, Khanna Publisher, 1987
+8) Irving M. Gottlieb “"Practical Electric Motor Handbook"Newnes,1997
+9) L. S. Bobrow, “Fundamentals of Electrical Engineering”, Oxford University Press, 2011.
+10) E. Hughes, “Electrical and Electronics Technology”, Pearson, 2010.
+11) V. D. Toro, “Electrical Engineering Fundamentals”, Prentice Hall India, 1989.
+
+-- 3 of 6 --
+
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ 	P a g e 4 | 6
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Bachelor of Engineering
+Level: UG
+Branch: ALL
+Course / Subject Code: BE01R00051
+Course / Subject Name: Basic Electrical Engineering
+Open source software and website:
+1. https://nptel.ac.in/
+Suggested Course Practical List:
+1) Introduction of Resistors, Capacitors and Inductors and usage of measuring instruments – voltmeter,
+ammeter, multi-meter, oscilloscope.
+2) To verify the Kirchoff’s current and Kirchoff’s voltage laws.
+3) To verify the Thevenin’s and Norton’s theorems.
+4) To verify Superposition’s theorems
+5) To obtain sinusoidal steady state response of R-L and R-C circuits – impedance calculation and
+verification phasor relationships between voltage and current and to observe the phase differences
+between current and voltage phasors
+6) To obtain steady-state and transient time-response of R-L, R-C, and R-L-C circuits to a step change
+in DC input voltage (transient may be observed on a Digital Storage Oscilloscope)
+7) To verify the phasor relationships between currents and voltages for resonances in R-L-C circuits
+8) To measure the power in three phase balanced circuits using two wattmeter method
+9) To verify the current phasor and voltage phasor relationships in three phase star and delta
+connections
+10) Demonstration of cut-section models and charts of various machines
+11) Demonstration of domestic switch gears like MCB, ELCB, MCCB etc. of different ratings
+12) Understanding of various safety precautions for electrical installations
+13) Demonstration of various types of wires, fuses and cables
+14) To Calculate energy consumption of various appliances and house hold electricity bills
+15) To verify the power factor improvement in single phase AC circuit
+16) Study the different types of domestic wiring
+17) To obtain Hysteresis loop of a magnetic material on CRO/DSO
+List of Laboratory/Learning Resources Required:
+Ammeters, Voltmeters, Wattmeters, Resistors, Capacitors and Inductors of appropriate rating. Multimeters,
+Digital storage oscilloscope, Cut section models/charts of various machines, Demo units for MCB, ELCB,
+MCCB etc, Samples of wires and cables. Charts for earthing and safety precautions.
+ Self-Learning Activity
+Total Self-Learning Hours: 45
+No. Activity Name Units
+Mapped
+Hours Brief Description Evaluation Criteria
+1 Technical
+Video-Based
+Learning
+Unit 1, 2, 3 10 (5+5) Watch curated videos (e.g.,
+NPTEL/MIT OCW) on DC
+circuits, AC power,
+Report + Oral
+Presentation
+
+-- 4 of 6 --
+
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ 	P a g e 5 | 6
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Bachelor of Engineering
+Level: UG
+Branch: ALL
+Course / Subject Code: BE01R00051
+Course / Subject Name: Basic Electrical Engineering
+Transformers. Submit a
+reflective report.
+2 Numerical
+Assignment
+Writing
+Unit 1, 2, 3 10 (5 × 2h) Solve 5 numerical
+assignments covering
+Theorems, Power factor, AC
+analysis, and Transformer
+calculations.
+Correctness,
+method, clarity
+3 Simulation &
+Problem
+Solving Using
+Software
+(Scilab,
+Tinkercad,
+LTSpice)
+Unit 1, 2, 3 10 (5 × 2h) Simulate basic circuits
+(RLC, transformer
+equivalent), transient
+analysis, and AC load
+behavior.
+Report +
+Screenshot +
+Output sheet
+4 Case Study:
+Domestic
+Wiring &
+Electricity
+Billing
+Unit 5 5 (2.5+2.5) Study household wiring
+layout and energy bills.
+Estimate load, usage, and
+suggest efficiency
+improvements.
+Report + Practical
+Recommendations
+5 Poster / PPT
+Preparation
+Unit 4, 5 4 Topic examples: “BLDC
+Motor in EV”, “Earthing
+Methods”, “Difference
+between MCB & MCCB”
+Technical clarity +
+Visual appeal +
+Presentation
+6 Group
+Discussion /
+Seminar on
+Electrical
+Safety &
+Earthing
+Unit 5 2 Discuss safety norms, role of
+protective devices, and
+earthing types.
+Technical depth,
+articulation
+7 Online
+Technical Quiz
+/ Interactive
+Simulation
+(Electrical4U /
+vlab.co.in)
+Unit 1 to 5 2 Attempt at least 3 online
+quizzes with screenshot of
+scores and a 100-word
+learning reflection.
+Quiz scores +
+Reflection Note
+8 Maintenance /
+Troubleshooting
+Logbook (Lab
+Based)
+Unit 1, 2, 4,
+5
+2 Record at least 5 issues
+encountered during lab
+sessions and how they were
+resolved.
+Clarity of issue,
+resolution steps
+9 Annotated
+Concept Video
+Unit 2, 3 Extra
+(Optional 5)
+Make a 5–6 minute video
+explaining topics like phasor
+Clarity, technical
+accuracy,
+
+-- 5 of 6 --
+
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ 	P a g e 6 | 6
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Bachelor of Engineering
+Level: UG
+Branch: ALL
+Course / Subject Code: BE01R00051
+Course / Subject Name: Basic Electrical Engineering
+(Optional –
+Higher Bloom’s
+level)
+relationships or transformer
+working.
+originality
+Unit-Wise Mapping of Self-Learning Activities
+Unit Topic Relevant Activities
+1 DC Circuits Activities 1, 2, 3, 7, 8
+2 AC Circuits Activities 1, 2, 3, 7, 8, 9
+3 Magnetic Circuits & Transformers Activities 1, 2, 3, 9
+4 Electrical Machines Activities 1, 5, 8
+5 Electrical Wiring, Safety & Billing Activities 4, 5, 6, 7, 8
+Note:
+ All the suggested activity should be related to the subject.
+ The number of hours is suggestive. Faculty can sub-divide the number of hours based on the activity.However,
+total number of hours is fixed.
+ Rubrics for the evaluation can be prepared by the faculty.
+ All records pertaining to the evaluation and assessment of self-learning activities must be properlymaintained and
+preserved at the institute level. These records should be made available to the universityupon request.
+ Institutes are encouraged to utilize digital platforms, such as Microsoft Teams, for effective record-keeping and to
+ensure transparency in the evaluation and assessment of self-learning activities.
+* * * * * * *
+
+-- 6 of 6 --
+

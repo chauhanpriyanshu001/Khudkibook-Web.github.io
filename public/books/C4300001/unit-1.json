@@ -1,0 +1,192 @@
+{
+ "code": "C4300001",
+ "subject": "Mathematics",
+ "unit": 1,
+ "lang": "en",
+ "title": "Unit – Determinant and Function",
+ "url": "/books/C4300001/unit-1.html",
+ "guUrl": null,
+ "words": 1549,
+ "readingMin": 9,
+ "marks": "16 marks (4 Remember + 7 Understand + 5 Apply) (per syllabus)",
+ "sections": [
+  {
+   "heading": "Unit – I: Determinant and Function",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code C4300001 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately <strong>16 marks (4 Remember + 7 Understand + 5 Apply) (per syllabus)</strong>.</p>\n<p>Learning objectives covered by this module:</p>\n<ul>\n<li>1.a. Solve simple problems of Determinant up to order 3*3.</li>\n<li>1.b. Explain graphically the given functions.</li>\n<li>1.c. Solve simple problems using concepts of Logarithms</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Importance",
+   "id": "",
+   "html": "<p>A <strong>determinant</strong> is a scalar value that can be calculated from the elements of a square matrix. In the context of this chapter, we will focus on determinants of 2x2 and 3x3 matrices. The determinant provides important information about the matrix, such as whether it is invertible or not.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determinant of a 2x2 Matrix",
+   "id": "",
+   "html": "<p>For a 2x2 matrix A given by:</p>\n<p>[ A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} ]</p>\n<p>the determinant, denoted as det(A) or |A|, is calculated as:</p>\n<p>[ \\text{det}(A) = ad - bc ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Determinant of a 3x3 Matrix",
+   "id": "",
+   "html": "<p>For a 3x3 matrix B given by:</p>\n<p>[ B = \\begin{bmatrix} a & b & c \\\\ d & e & f \\\\ g & h & i \\end{bmatrix} ]</p>\n<p>the determinant, denoted as det(B) or |B|, is calculated as:</p>\n<p>[ \\text{det}(B) = a(ei - fh) - b(di - fg) + c(dh - eg) ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the determinant of the following 3x3 matrix:</div>\n<p>[ C = \\begin{bmatrix} 2 & 3 & 4 \\\\ 1 & 5 & 6 \\\\ 7 & 8 & 9 \\end{bmatrix} ]</p>\n<p>To find the determinant of matrix C:</p>\n<p>[ \\text{det}(C) = 2 \\left( 5 \\cdot 9 - 6 \\cdot 8 \\right) - 3 \\left( 1 \\cdot 9 - 6 \\cdot 7 \\right) + 4 \\left( 1 \\cdot 8 - 5 \\cdot 7 \\right) ]</p>\n<p>Calculate each term:</p>\n<p>[ 5 \\cdot 9 = 45 ]</p>\n<p>[ 6 \\cdot 8 = 48 ]</p>\n<p>[ 1 \\cdot 9 = 9 ]</p>\n<p>[ 6 \\cdot 7 = 42 ]</p>\n<p>[ 1 \\cdot 8 = 8 ]</p>\n<p>[ 5 \\cdot 7 = 35 ]</p>\n<p>Substitute these values back into the determinant formula:</p>\n<p>[ \\text{det}(C) = 2(45 - 48) - 3(9 - 42) + 4(8 - 35) ]</p>\n<p>[ \\text{det}(C) = 2(-3) - 3(-33) + 4(-27) ]</p>\n<p>[ \\text{det}(C) = -6 + 99 - 108 ]</p>\n<p>[ \\text{det}(C) = -15 ]</p>\n<p>Therefore, the determinant of matrix C is -15.</p>",
+   "examples": [
+    "Calculate the determinant of the following 3x3 matrix:"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>To find the determinant of a 2x2 matrix, use the formula ad - bc. For a 3x3 matrix, use the expanded form:</p>\n<p>[ \\text{det}(B) = a(ei - fh) - b(di - fg) + c(dh - eg) ]</p>\n<p>This method is fundamental in solving systems of linear equations and understanding the properties of matrices.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Basic Concepts",
+   "id": "",
+   "html": "<p>A <strong>function</strong> is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output. In mathematics, functions are used to describe relationships where each element of the input set (domain) is mapped to exactly one element in the output set (range).</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Types of Functions",
+   "id": "",
+   "html": "<p>Functions can be classified based on their input and output. Common types include:</p>\n<ul>\n<li><strong>Linear functions</strong>: Functions of the form f(x) = ax + b.</li>\n<li><strong>Quadratic functions</strong>: Functions of the form f(x) = ax² + bx + c.</li>\n<li><strong>Polynomial functions</strong>: Functions involving variables raised to non-negative integer powers.</li>\n<li><strong>Exponential functions</strong>: Functions of the form f(x) = aˣ.</li>\n<li><strong>Logarithmic functions</strong>: Functions of the form f(x) = _a x.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Graphical Representation",
+   "id": "",
+   "html": "<p>Functions can be represented graphically, which helps in understanding their behavior and properties. The <strong>graph</strong> of a function is the set of all points (x, y) such that y = f(x).</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Simple Examples",
+   "id": "",
+   "html": "<p>Let's consider some simple examples to understand the graphical representation of functions.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />1. <strong>Linear Function</strong>: Consider the linear function f(x) = 2x + 3.<br /><br />- <strong>Graph</strong>: The graph of f(x) = 2x + 3 is a straight line. For x = 0, y = 3, and for x = 1, y = 5. The slope is 2, and the y-intercept is 3.<br /><br />2. <strong>Quadratic Function</strong>: Consider the quadratic function f(x) = x² - 4x + 4.<br /><br />- <strong>Graph</strong>: The graph of f(x) = x² - 4x + 4 is a parabola. It can be rewritten as (x-2)², which means the vertex is at (2, 0). The parabola opens upwards.<br /><br />3. <strong>Exponential Function</strong>: Consider the exponential function f(x) = 2ˣ.<br /><br />- <strong>Graph</strong>: The graph of f(x) = 2ˣ is a curve that increases rapidly as x increases. For x = 0, y = 1, and for x = 1, y = 2.<br /><br />4. <strong>Logarithmic Function</strong>: Consider the logarithmic function f(x) = ₂ x.<br /><br />- <strong>Graph</strong>: The graph of f(x) = ₂ x is a curve that increases slowly as x increases. For x = 1, y = 0, and for x = 2, y = 1.</div>",
+   "examples": [
+    "1. **Linear Function**: Consider the linear function f(x) = 2x + 3. - **Graph**: The graph of f(x) = 2x + 3 is a straight line. For x = 0, y = 3, and for x = 1, y = 5. The slope is 2, and the y-intercept is 3. 2. **Quadratic Function**: Consider the quadratic function f(x) = x² - 4x + 4. - **Graph**: The graph of f(x) = x² - 4x + 4 is a parabola. It can be rewritten as (x-2)², which means the vertex is at (2, 0). The parabola opens upwards. 3. **Exponential Function**: Consider the exponential function f(x) = 2ˣ. - **Graph**: The graph of f(x) = 2ˣ is a curve that increases rapidly as x increases. For x = 0, y = 1, and for x = 1, y = 2. 4. **Logarithmic Function**: Consider the logarithmic function f(x) = ₂ x. - **Graph**: The graph of f(x) = ₂ x is a curve that increases slowly as x increases. For x = 1, y = 0, and for x = 2, y = 1."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />Solve the following quadratic function graphically: f(x) = x² - 2x - 3.<br /><br />- <strong>Graph</strong>: The function f(x) = x² - 2x - 3 can be factored as (x - 3)(x + 1). The roots are x = 3 and x = -1. The graph is a parabola that opens upwards, with the vertex at x = 1 (since the vertex formula x = - b 2a gives x = 2 2 = 1). The y-intercept is f(0) = -3.<br /><br />- <strong>Graphical Solution</strong>: To find the roots, we set f(x) = 0. Solving x² - 2x - 3 = 0 gives (x - 3)(x + 1) = 0, hence x = 3 and x = -1.</div>\n<p>This example illustrates how to graphically solve a quadratic function and find its roots. Understanding these concepts will help in solving more complex problems in future sections.</p>\n<hr />",
+   "examples": [
+    "Solve the following quadratic function graphically: f(x) = x² - 2x - 3. - **Graph**: The function f(x) = x² - 2x - 3 can be factored as (x - 3)(x + 1). The roots are x = 3 and x = -1. The graph is a parabola that opens upwards, with the vertex at x = 1 (since the vertex formula x = - b 2a gives x = 2 2 = 1). The y-intercept is f(0) = -3. - **Graphical Solution**: To find the roots, we set f(x) = 0. Solving x² - 2x - 3 = 0 gives (x - 3)(x + 1) = 0, hence x = 3 and x = -1."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Basic Properties",
+   "id": "",
+   "html": "<p><strong>Logarithm:</strong> The logarithm of a number to a given base is the exponent to which the base must be raised to produce that number. Mathematically, if _b a = c, then bc = a.</p>\n<ul>\n<li><strong>Common Logarithm (Base 10):</strong> ₁₀ a = a</li>\n<li><strong>Natural Logarithm (Base e):</strong> _e a = a</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Key Properties of Logarithms",
+   "id": "",
+   "html": "<ul>\n<li><strong>Product Rule:</strong> _b (xy) = _b x + _b y</li>\n<li><strong>Quotient Rule:</strong> _b ( x y ) = _b x - _b y</li>\n<li><strong>Power Rule:</strong> _b (xⁿ) = n _b x</li>\n<li><strong>Change of Base Formula:</strong> _b a = _c a _c b</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Graphical Representation of Logarithmic Functions",
+   "id": "",
+   "html": "<p>To graph a logarithmic function, consider the function y = _b x. The graph of a logarithmic function has the following characteristics:</p>\n<ul>\n<li><strong>Domain:</strong> x > 0</li>\n<li><strong>Range:</strong> All real numbers</li>\n<li><strong>Asymptote:</strong> The y-axis (x = 0) is a vertical asymptote.</li>\n<li><strong>Intercept:</strong> The function passes through the point (1, 0) since _b 1 = 0.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Solve the following problem and graph the function y = ₂ x.</div>\n<ol>\n<li><strong>Solve ₂ 8 = x:</strong></li>\n</ol>\n<ul>\n<li>We need to find x such that 2ˣ = 8.</li>\n<li>Since 8 = 2³, we have x = 3.</li>\n<li>Therefore, ₂ 8 = 3.</li>\n</ul>\n<ol>\n<li><strong>Graph the function y = ₂ x:</strong></li>\n</ol>\n<ul>\n<li><strong>Key Points:</strong></li>\n<li>(1, 0) because ₂ 1 = 0</li>\n<li>(2, 1) because ₂ 2 = 1</li>\n<li>(4, 2) because ₂ 4 = 2</li>\n<li>(8, 3) because ₂ 8 = 3</li>\n<li><strong>Shape:</strong> The graph will be a curve that increases slowly as x increases, approaching the y-axis as x approaches 0.</li>\n</ul>\n<ol>\n<li><strong>Graph:</strong></li>\n</ol>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">graph TD\n A[0] --&gt; B[1]\n B --&gt; C[2]\n C --&gt; D[3]\n A --&gt; E[Vertical Asymptote: x = 0]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>graph TD\n A[0] --&gt; B[1]\n B --&gt; C[2]\n C --&gt; D[3]\n A --&gt; E[Vertical Asymptote: x = 0]</pre></details><noscript><pre class=\"mermaid-src\">graph TD\n A[0] --&gt; B[1]\n B --&gt; C[2]\n C --&gt; D[3]\n A --&gt; E[Vertical Asymptote: x = 0]</pre></noscript></div>",
+   "examples": [
+    "Solve the following problem and graph the function y = ₂ x."
+   ],
+   "mermaid": [
+    "graph TD\n    A[0] --> B[1]\n    B --> C[2]\n    C --> D[3]\n    A --> E[Vertical Asymptote: x = 0]"
+   ]
+  },
+  {
+   "heading": "Additional Practice",
+   "id": "",
+   "html": "<ul>\n<li><strong>Problem 1:</strong> Solve ₃ 27 = x.</li>\n<li><strong>Problem 2:</strong> Graph the function y = ₃ x and identify its key points and asymptote.</li>\n</ul>\n<p>By solving these problems, you will gain a better understanding of logarithmic functions and their properties.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition of Logarithm",
+   "id": "",
+   "html": "<p>A <strong>logarithm</strong> is the power to which a number (the base) must be raised to get another number. For example, the logarithm of 100 to the base 10 is 2, because 10² = 100. This can be written as ₁₀(100) = 2.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Laws of Logarithm",
+   "id": "",
+   "html": "<p>The laws of logarithms are essential for solving logarithmic problems. There are four main laws of logarithms that we will cover:</p>\n<ol>\n<li><strong>Product Law</strong>: _b(mn) = _b(m) + _b(n)</li>\n<li><strong>Quotient Law</strong>: _b( m n ) = _b(m) - _b(n)</li>\n<li><strong>Power Law</strong>: _b(mⁿ) = n _b(m)</li>\n<li><strong>Change of Base Law</strong>: _b(m) = _k(m) _k(b)</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example Application of Laws of Logarithm",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Simplify the expression ₂(8 × 32).</div>\n<p>Using the product law:</p>\n<p>[</p>\n<p>\\log_2(8 \\times 32) = \\log_2(8) + \\log_2(32)</p>\n<p>]</p>\n<p>Next, we simplify the individual logarithms:</p>\n<p>[</p>\n<p>\\log_2(8) = 3 \\quad \\text{(since } 2^3 = 8\\text{)}</p>\n<p>]</p>\n<p>[</p>\n<p>\\log_2(32) = 5 \\quad \\text{(since } 2^5 = 32\\text{)}</p>\n<p>]</p>\n<p>Thus, the expression simplifies to:</p>\n<p>[</p>\n<p>\\log_2(8 \\times 32) = 3 + 5 = 8</p>\n<p>]</p>",
+   "examples": [
+    "Simplify the expression ₂(8 × 32)."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Examples",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Simplify the expression ₃( 27 9 ).</div>\n<p>Using the quotient law:</p>\n<p>[</p>\n<p>\\log_3\\left(\\frac{27}{9}\\right) = \\log_3(27) - \\log_3(9)</p>\n<p>]</p>\n<p>Next, we simplify the individual logarithms:</p>\n<p>[</p>\n<p>\\log_3(27) = 3 \\quad \\text{(since } 3^3 = 27\\text{)}</p>\n<p>]</p>\n<p>[</p>\n<p>\\log_3(9) = 2 \\quad \\text{(since } 3^2 = 9\\text{)}</p>\n<p>]</p>\n<p>Thus, the expression simplifies to:</p>\n<p>[</p>\n<p>\\log_3\\left(\\frac{27}{9}\\right) = 3 - 2 = 1</p>\n<p>]</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Simplify the expression ₄(16²).</div>\n<p>Using the power law:</p>\n<p>[</p>\n<p>\\log_4(16^2) = 2 \\log_4(16)</p>\n<p>]</p>\n<p>Next, we simplify the individual logarithm:</p>\n<p>[</p>\n<p>\\log_4(16) = 2 \\quad \\text{(since } 4^2 = 16\\text{)}</p>\n<p>]</p>\n<p>Thus, the expression simplifies to:</p>\n<p>[</p>\n<p>\\log_4(16^2) = 2 \\times 2 = 4</p>\n<p>]</p>",
+   "examples": [
+    "Simplify the expression ₃( 27 9 ).",
+    "Simplify the expression ₄(16²)."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Change of Base Law",
+   "id": "",
+   "html": "<p>The <strong>Change of Base Law</strong> is useful when the base of the logarithm is not the same as the base of the calculator or the logarithm table. It allows us to express a logarithm in terms of a different base. For example, ₃(9) can be expressed in terms of base 10 logarithms:</p>\n<p>[</p>\n<p>\\log_3(9) = \\frac{\\log_{10}(9)}{\\log_{10}(3)}</p>\n<p>]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example Using Change of Base Law",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Evaluate ₅(125) using the change of base law.</div>\n<p>Using the change of base law:</p>\n<p>[</p>\n<p>\\log_5(125) = \\frac{\\log_{10}(125)}{\\log_{10}(5)}</p>\n<p>]</p>\n<p>Using a calculator to find the values:</p>\n<p>[</p>\n<p>\\log_{10}(125) \\approx 2.0969 \\quad \\text{and} \\quad \\log_{10}(5) \\approx 0.6990</p>\n<p>]</p>\n<p>Thus, the expression evaluates to:</p>\n<p>[</p>\n<p>\\log_5(125) = \\frac{2.0969}{0.6990} \\approx 3</p>\n<p>]</p>",
+   "examples": [
+    "Evaluate ₅(125) using the change of base law."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>In this section, we have covered the fundamental laws of logarithms, including the product, quotient, power, and change of base laws. We have also provided several examples to illustrate how these laws can be applied to simplify and solve logarithmic expressions.</p>",
+   "examples": [],
+   "mermaid": []
+  }
+ ]
+}

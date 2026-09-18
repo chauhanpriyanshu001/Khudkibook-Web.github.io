@@ -3,7 +3,7 @@
  "subject": "Effective Technical Communication",
  "unit": 6,
  "lang": "en",
- "title": "Unit – null: DESIGN",
+ "title": "Unit – DESIGN",
  "url": "/books/310004/unit-6.html",
  "guUrl": null,
  "words": 1542,
@@ -101,7 +101,7 @@
   {
    "heading": "Flowchart of Applied Design Process",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Problem Identification and Analysis] --&gt; B[Requirement Specification]\n    B --&gt; C[Conceptual Design]\n    C --&gt; D[Prototype Development]\n    D --&gt; E[Testing and Validation]\n    E --&gt; F[Final Design and Production]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Problem Identification and Analysis] --&gt; B[Requirement Specification]\n    B --&gt; C[Conceptual Design]\n    C --&gt; D[Prototype Development]\n    D --&gt; E[Testing and Validation]\n    E --&gt; F[Final Design and Production]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Problem Identification and Analysis] --&gt; B[Requirement Specification]\n    B --&gt; C[Conceptual Design]\n    C --&gt; D[Prototype Development]\n    D --&gt; E[Testing and Validation]\n    E --&gt; F[Final Design and Production]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Problem Identification and Analysis] --&gt; B[Requirement Specification]\n B --&gt; C[Conceptual Design]\n C --&gt; D[Prototype Development]\n D --&gt; E[Testing and Validation]\n E --&gt; F[Final Design and Production]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Problem Identification and Analysis] --&gt; B[Requirement Specification]\n B --&gt; C[Conceptual Design]\n C --&gt; D[Prototype Development]\n D --&gt; E[Testing and Validation]\n E --&gt; F[Final Design and Production]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Problem Identification and Analysis] --&gt; B[Requirement Specification]\n B --&gt; C[Conceptual Design]\n C --&gt; D[Prototype Development]\n D --&gt; E[Testing and Validation]\n E --&gt; F[Final Design and Production]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    A[Problem Identification and Analysis] --> B[Requirement Specification]\n    B --> C[Conceptual Design]\n    C --> D[Prototype Development]\n    D --> E[Testing and Validation]\n    E --> F[Final Design and Production]"
@@ -158,7 +158,7 @@
   {
    "heading": "Mermaid Diagram",
    "id": "",
-   "html": "<p>To illustrate the process of reducing and enlargement of design, we can use a simple flowchart:</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Anatomical Space] --&gt; B[Design Too Large] --&gt; C[Reduce Design]\n    A --&gt; D[Design Too Small] --&gt; E[Enlarge Design]\n    C --&gt; F[New Reduced Dimensions]\n    E --&gt; G[New Enlarged Dimensions]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Anatomical Space] --&gt; B[Design Too Large] --&gt; C[Reduce Design]\n    A --&gt; D[Design Too Small] --&gt; E[Enlarge Design]\n    C --&gt; F[New Reduced Dimensions]\n    E --&gt; G[New Enlarged Dimensions]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Anatomical Space] --&gt; B[Design Too Large] --&gt; C[Reduce Design]\n    A --&gt; D[Design Too Small] --&gt; E[Enlarge Design]\n    C --&gt; F[New Reduced Dimensions]\n    E --&gt; G[New Enlarged Dimensions]</pre></noscript></div>",
+   "html": "<p>To illustrate the process of reducing and enlargement of design, we can use a simple flowchart:</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Anatomical Space] --&gt; B[Design Too Large] --&gt; C[Reduce Design]\n A --&gt; D[Design Too Small] --&gt; E[Enlarge Design]\n C --&gt; F[New Reduced Dimensions]\n E --&gt; G[New Enlarged Dimensions]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Anatomical Space] --&gt; B[Design Too Large] --&gt; C[Reduce Design]\n A --&gt; D[Design Too Small] --&gt; E[Enlarge Design]\n C --&gt; F[New Reduced Dimensions]\n E --&gt; G[New Enlarged Dimensions]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Anatomical Space] --&gt; B[Design Too Large] --&gt; C[Reduce Design]\n A --&gt; D[Design Too Small] --&gt; E[Enlarge Design]\n C --&gt; F[New Reduced Dimensions]\n E --&gt; G[New Enlarged Dimensions]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    A[Anatomical Space] --> B[Design Too Large] --> C[Reduce Design]\n    A --> D[Design Too Small] --> E[Enlarge Design]\n    C --> F[New Reduced Dimensions]\n    E --> G[New Enlarged Dimensions]"

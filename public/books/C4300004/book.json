@@ -1,0 +1,89 @@
+{
+ "code": "C4300004",
+ "subject": "Applied Physics",
+ "branchLabel": "Gujarat Technological University Artificial Intelligence and Machine Learning Semester 2",
+ "subjectPage": "/ai-ml/sem2/applied-physics.html",
+ "units": [
+  {
+   "n": 1,
+   "label": "Unit – Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.",
+   "file": "unit-1.html",
+   "guFile": null,
+   "words": 2244,
+   "readingMin": 12,
+   "marks": "13 marks (4 Remember + 4 Understand + 5 Apply) (per syllabus)"
+  },
+  {
+   "n": 2,
+   "label": "Unit – Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve",
+   "file": "unit-2.html",
+   "guFile": null,
+   "words": 1627,
+   "readingMin": 9,
+   "marks": "10 marks (3 Remember + 3 Understand + 4 Apply) (per syllabus)"
+  },
+  {
+   "n": 3,
+   "label": "Unit – General Properties of Matter 3.a Explain the Hooke’s law, stress- strain curve and moduli of elasticity. 3.b Explain surface tension, cohesive and adhesive forces.",
+   "file": "unit-3.html",
+   "guFile": null,
+   "words": 5079,
+   "readingMin": 28,
+   "marks": "20 marks (4 Remember + 7 Understand + 9 Apply) (per syllabus)"
+  },
+  {
+   "n": 4,
+   "label": "Unit – Heat and Thermometry 4.a Distinguish between heat and temperature. 4.b Explain modes of heat transmission. 4.c Explain various temperature scales and conversion between",
+   "file": "unit-4.html",
+   "guFile": null,
+   "words": 2700,
+   "readingMin": 15,
+   "marks": "13 marks (3 Remember + 4 Understand + 6 Apply) (per syllabus)"
+  },
+  {
+   "n": 5,
+   "label": "Unit – Wave motion and its applications 5.a Explain wave and wave motion with example. 5.b Distinguish between longitudinal and transverse",
+   "file": "unit-5.html",
+   "guFile": null,
+   "words": 3112,
+   "readingMin": 17,
+   "marks": "14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)"
+  }
+ ],
+ "title": "Applied Physics",
+ "titleGu": "Applied Physics",
+ "pages": [
+  {
+   "n": 1,
+   "file": "unit-1.html",
+   "marks": "13 marks (4 Remember + 4 Understand + 5 Apply)",
+   "hours": 8
+  },
+  {
+   "n": 2,
+   "file": "unit-2.html",
+   "marks": "10 marks (3 Remember + 3 Understand + 4 Apply)",
+   "hours": 6
+  },
+  {
+   "n": 3,
+   "file": "unit-3.html",
+   "marks": "20 marks (4 Remember + 7 Understand + 9 Apply)",
+   "hours": 12
+  },
+  {
+   "n": 4,
+   "file": "unit-4.html",
+   "marks": "13 marks (3 Remember + 4 Understand + 6 Apply)",
+   "hours": 8
+  },
+  {
+   "n": 5,
+   "file": "unit-5.html",
+   "marks": "14 marks (4 Remember + 5 Understand + 5 Apply)",
+   "hours": 8
+  }
+ ],
+ "full": "full-book.html",
+ "updatedAt": "2026-09-13T03:47:40.422Z"
+}

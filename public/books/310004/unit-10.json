@@ -3,7 +3,7 @@
  "subject": "Effective Technical Communication",
  "unit": 10,
  "lang": "en",
- "title": "Unit – null: Form",
+ "title": "Unit – Form",
  "url": "/books/310004/unit-10.html",
  "guUrl": null,
  "words": 11437,
@@ -182,7 +182,7 @@
   {
    "heading": "Flowchart for Preparation",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Start] --&gt; B[Define the area of balance]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Start] --&gt; B[Define the area of balance]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Start] --&gt; B[Define the area of balance]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Start] --&gt; B[Define the area of balance]\n B --&gt; C[Sketch or create a model]\n C --&gt; D[Analyze and refine the design]\n D --&gt; E[Evaluate and adjust]\n E --&gt; F[Finalize the sheet]\n F --&gt; G[End]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Start] --&gt; B[Define the area of balance]\n B --&gt; C[Sketch or create a model]\n C --&gt; D[Analyze and refine the design]\n D --&gt; E[Evaluate and adjust]\n E --&gt; F[Finalize the sheet]\n F --&gt; G[End]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Start] --&gt; B[Define the area of balance]\n B --&gt; C[Sketch or create a model]\n C --&gt; D[Analyze and refine the design]\n D --&gt; E[Evaluate and adjust]\n E --&gt; F[Finalize the sheet]\n F --&gt; G[End]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    A[Start] --> B[Define the area of balance]\n    B --> C[Sketch or create a model]\n    C --> D[Analyze and refine the design]\n    D --> E[Evaluate and adjust]\n    E --> F[Finalize the sheet]\n    F --> G[End]"
@@ -401,7 +401,7 @@
   {
    "heading": "Flowchart for Preparation",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Start] --&gt; B[Define the elements of emphasis]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Start] --&gt; B[Define the elements of emphasis]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Start] --&gt; B[Define the elements of emphasis]\n    B --&gt; C[Sketch or create a model]\n    C --&gt; D[Analyze and refine the design]\n    D --&gt; E[Evaluate and adjust]\n    E --&gt; F[Finalize the sheet]\n    F --&gt; G[End]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Start] --&gt; B[Define the elements of emphasis]\n B --&gt; C[Sketch or create a model]\n C --&gt; D[Analyze and refine the design]\n D --&gt; E[Evaluate and adjust]\n E --&gt; F[Finalize the sheet]\n F --&gt; G[End]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Start] --&gt; B[Define the elements of emphasis]\n B --&gt; C[Sketch or create a model]\n C --&gt; D[Analyze and refine the design]\n D --&gt; E[Evaluate and adjust]\n E --&gt; F[Finalize the sheet]\n F --&gt; G[End]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Start] --&gt; B[Define the elements of emphasis]\n B --&gt; C[Sketch or create a model]\n C --&gt; D[Analyze and refine the design]\n D --&gt; E[Evaluate and adjust]\n E --&gt; F[Finalize the sheet]\n F --&gt; G[End]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    A[Start] --> B[Define the elements of emphasis]\n    B --> C[Sketch or create a model]\n    C --> D[Analyze and refine the design]\n    D --> E[Evaluate and adjust]\n    E --> F[Finalize the sheet]\n    F --> G[End]"
@@ -622,7 +622,7 @@
   {
    "heading": "Wavy",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> A wavy line is a line that bends and curves in a regular, flowing manner.</li>\n<li><strong>Example:</strong> A wavy line can be used in the design of a flexible implant that needs to conform to the body's natural curves.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    W[Wave] --&gt; L[Line]\n    L --&gt; C[Curved]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    W[Wave] --&gt; L[Line]\n    L --&gt; C[Curved]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    W[Wave] --&gt; L[Line]\n    L --&gt; C[Curved]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> A wavy line is a line that bends and curves in a regular, flowing manner.</li>\n<li><strong>Example:</strong> A wavy line can be used in the design of a flexible implant that needs to conform to the body's natural curves.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n W[Wave] --&gt; L[Line]\n L --&gt; C[Curved]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n W[Wave] --&gt; L[Line]\n L --&gt; C[Curved]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n W[Wave] --&gt; L[Line]\n L --&gt; C[Curved]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    W[Wave] --> L[Line]\n    L --> C[Curved]"
@@ -631,7 +631,7 @@
   {
    "heading": "Zigzag",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> A zigzag line consists of a series of sharp angles or turns.</li>\n<li><strong>Example:</strong> A zigzag line can be used in the design of a surgical tool that needs to navigate through tight spaces.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    Z[Zigzag] --&gt; L[Line]\n    L --&gt; A[Angular]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    Z[Zigzag] --&gt; L[Line]\n    L --&gt; A[Angular]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    Z[Zigzag] --&gt; L[Line]\n    L --&gt; A[Angular]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> A zigzag line consists of a series of sharp angles or turns.</li>\n<li><strong>Example:</strong> A zigzag line can be used in the design of a surgical tool that needs to navigate through tight spaces.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n Z[Zigzag] --&gt; L[Line]\n L --&gt; A[Angular]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n Z[Zigzag] --&gt; L[Line]\n L --&gt; A[Angular]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n Z[Zigzag] --&gt; L[Line]\n L --&gt; A[Angular]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    Z[Zigzag] --> L[Line]\n    L --> A[Angular]"
@@ -640,7 +640,7 @@
   {
    "heading": "Single",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> A single line is a straight and unbroken line.</li>\n<li><strong>Example:</strong> A single line can be used in the design of a straight, rigid implant.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    S[Single] --&gt; L[Line]\n    L --&gt; R[Rectilinear]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    S[Single] --&gt; L[Line]\n    L --&gt; R[Rectilinear]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    S[Single] --&gt; L[Line]\n    L --&gt; R[Rectilinear]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> A single line is a straight and unbroken line.</li>\n<li><strong>Example:</strong> A single line can be used in the design of a straight, rigid implant.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n S[Single] --&gt; L[Line]\n L --&gt; R[Rectilinear]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n S[Single] --&gt; L[Line]\n L --&gt; R[Rectilinear]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n S[Single] --&gt; L[Line]\n L --&gt; R[Rectilinear]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    S[Single] --> L[Line]\n    L --> R[Rectilinear]"
@@ -649,7 +649,7 @@
   {
    "heading": "Swirled",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> A swirled line is a line that spirals or twists in a circular pattern.</li>\n<li><strong>Example:</strong> A swirled line can be used in the design of a vascular graft that needs to conform to the blood vessel's natural curvature.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    S[Swirled] --&gt; L[Line]\n    L --&gt; C[Curved]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    S[Swirled] --&gt; L[Line]\n    L --&gt; C[Curved]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    S[Swirled] --&gt; L[Line]\n    L --&gt; C[Curved]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> A swirled line is a line that spirals or twists in a circular pattern.</li>\n<li><strong>Example:</strong> A swirled line can be used in the design of a vascular graft that needs to conform to the blood vessel's natural curvature.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n S[Swirled] --&gt; L[Line]\n L --&gt; C[Curved]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n S[Swirled] --&gt; L[Line]\n L --&gt; C[Curved]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n S[Swirled] --&gt; L[Line]\n L --&gt; C[Curved]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    S[Swirled] --> L[Line]\n    L --> C[Curved]"
@@ -658,7 +658,7 @@
   {
    "heading": "Jagged",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> A jagged line consists of sharp, uneven angles or points.</li>\n<li><strong>Example:</strong> A jagged line can be used in the design of a cutting edge for a surgical instrument.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    J[Jagged] --&gt; L[Line]\n    L --&gt; P[Pointed]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    J[Jagged] --&gt; L[Line]\n    L --&gt; P[Pointed]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    J[Jagged] --&gt; L[Line]\n    L --&gt; P[Pointed]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> A jagged line consists of sharp, uneven angles or points.</li>\n<li><strong>Example:</strong> A jagged line can be used in the design of a cutting edge for a surgical instrument.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n J[Jagged] --&gt; L[Line]\n L --&gt; P[Pointed]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n J[Jagged] --&gt; L[Line]\n L --&gt; P[Pointed]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n J[Jagged] --&gt; L[Line]\n L --&gt; P[Pointed]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    J[Jagged] --> L[Line]\n    L --> P[Pointed]"
@@ -667,7 +667,7 @@
   {
    "heading": "Saw Tooth",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> A saw tooth shape consists of alternating sharp points and flat surfaces, resembling the teeth of a saw.</li>\n<li><strong>Example:</strong> A saw tooth shape can be used in the design of a cutting tool for precise incisions.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    S[Saw Tooth] --&gt; H[Shape]\n    H --&gt; T[Toothed]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    S[Saw Tooth] --&gt; H[Shape]\n    H --&gt; T[Toothed]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    S[Saw Tooth] --&gt; H[Shape]\n    H --&gt; T[Toothed]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> A saw tooth shape consists of alternating sharp points and flat surfaces, resembling the teeth of a saw.</li>\n<li><strong>Example:</strong> A saw tooth shape can be used in the design of a cutting tool for precise incisions.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n S[Saw Tooth] --&gt; H[Shape]\n H --&gt; T[Toothed]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n S[Saw Tooth] --&gt; H[Shape]\n H --&gt; T[Toothed]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n S[Saw Tooth] --&gt; H[Shape]\n H --&gt; T[Toothed]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    S[Saw Tooth] --> H[Shape]\n    H --> T[Toothed]"
@@ -676,7 +676,7 @@
   {
    "heading": "Diamond",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> A diamond shape is a four-sided figure with equal sides and angles.</li>\n<li><strong>Example:</strong> A diamond shape can be used in the design of a bone plate that needs to fit into a specific anatomical space.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    D[Diamond] --&gt; H[Shape]\n    H --&gt; F[Faceted]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    D[Diamond] --&gt; H[Shape]\n    H --&gt; F[Faceted]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    D[Diamond] --&gt; H[Shape]\n    H --&gt; F[Faceted]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> A diamond shape is a four-sided figure with equal sides and angles.</li>\n<li><strong>Example:</strong> A diamond shape can be used in the design of a bone plate that needs to fit into a specific anatomical space.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n D[Diamond] --&gt; H[Shape]\n H --&gt; F[Faceted]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n D[Diamond] --&gt; H[Shape]\n H --&gt; F[Faceted]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n D[Diamond] --&gt; H[Shape]\n H --&gt; F[Faceted]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    D[Diamond] --> H[Shape]\n    H --> F[Faceted]"
@@ -685,7 +685,7 @@
   {
    "heading": "Undulating",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> An undulating shape consists of a series of waves or curves that rise and fall.</li>\n<li><strong>Example:</strong> An undulating shape can be used in the design of a flexible device that needs to conform to the body's natural curves.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    U[Undulating] --&gt; H[Shape]\n    H --&gt; C[Curved]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    U[Undulating] --&gt; H[Shape]\n    H --&gt; C[Curved]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    U[Undulating] --&gt; H[Shape]\n    H --&gt; C[Curved]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> An undulating shape consists of a series of waves or curves that rise and fall.</li>\n<li><strong>Example:</strong> An undulating shape can be used in the design of a flexible device that needs to conform to the body's natural curves.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n U[Undulating] --&gt; H[Shape]\n H --&gt; C[Curved]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n U[Undulating] --&gt; H[Shape]\n H --&gt; C[Curved]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n U[Undulating] --&gt; H[Shape]\n H --&gt; C[Curved]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    U[Undulating] --> H[Shape]\n    H --> C[Curved]"
@@ -694,7 +694,7 @@
   {
    "heading": "Preparation of Sheets Showing the Effect of Radiation in Relation to",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in relation to rhythm involves the application of light or heat to create visual effects on the surface of a material.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    R[Radiation] --&gt; S[Sheet]\n    S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    R[Radiation] --&gt; S[Sheet]\n    S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    R[Radiation] --&gt; S[Sheet]\n    S --&gt; E[Effect]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in relation to rhythm involves the application of light or heat to create visual effects on the surface of a material.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n R[Radiation] --&gt; S[Sheet]\n S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n R[Radiation] --&gt; S[Sheet]\n S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n R[Radiation] --&gt; S[Sheet]\n S --&gt; E[Effect]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    R[Radiation] --> S[Sheet]\n    S --> E[Effect]"
@@ -703,7 +703,7 @@
   {
    "heading": "Radiation in Line & Space",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in line and space involves using light or heat to create visual effects on the surface of a material by altering the line and space relationships.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    R[Line] --&gt; L[Line]\n    L --&gt; S[Space]\n    S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    R[Line] --&gt; L[Line]\n    L --&gt; S[Space]\n    S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    R[Line] --&gt; L[Line]\n    L --&gt; S[Space]\n    S --&gt; E[Effect]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in line and space involves using light or heat to create visual effects on the surface of a material by altering the line and space relationships.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n R[Line] --&gt; L[Line]\n L --&gt; S[Space]\n S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n R[Line] --&gt; L[Line]\n L --&gt; S[Space]\n S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n R[Line] --&gt; L[Line]\n L --&gt; S[Space]\n S --&gt; E[Effect]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    R[Line] --> L[Line]\n    L --> S[Space]\n    S --> E[Effect]"
@@ -712,7 +712,7 @@
   {
    "heading": "Radiation in Shape & Space",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in shape and space involves using light or heat to create visual effects on the surface of a material by altering the shape and space relationships.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    R[Shape] --&gt; H[Shape]\n    H --&gt; S[Space]\n    S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    R[Shape] --&gt; H[Shape]\n    H --&gt; S[Space]\n    S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    R[Shape] --&gt; H[Shape]\n    H --&gt; S[Space]\n    S --&gt; E[Effect]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in shape and space involves using light or heat to create visual effects on the surface of a material by altering the shape and space relationships.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n R[Shape] --&gt; H[Shape]\n H --&gt; S[Space]\n S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n R[Shape] --&gt; H[Shape]\n H --&gt; S[Space]\n S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n R[Shape] --&gt; H[Shape]\n H --&gt; S[Space]\n S --&gt; E[Effect]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    R[Shape] --> H[Shape]\n    H --> S[Space]\n    S --> E[Effect]"
@@ -721,7 +721,7 @@
   {
    "heading": "Radiation in Pattern",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in pattern involves using light or heat to create visual effects on the surface of a material by altering the pattern.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    R[Pattern] --&gt; P[Pattern]\n    P --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    R[Pattern] --&gt; P[Pattern]\n    P --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    R[Pattern] --&gt; P[Pattern]\n    P --&gt; E[Effect]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> Radiation in pattern involves using light or heat to create visual effects on the surface of a material by altering the pattern.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n R[Pattern] --&gt; P[Pattern]\n P --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n R[Pattern] --&gt; P[Pattern]\n P --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n R[Pattern] --&gt; P[Pattern]\n P --&gt; E[Effect]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    R[Pattern] --> P[Pattern]\n    P --> E[Effect]"
@@ -730,7 +730,7 @@
   {
    "heading": "Radiation from an Axis",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> Radiation from an axis involves using light or heat to create visual effects on the surface of a material by altering the pattern from a central axis.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    R[Axis] --&gt; A[Axis]\n    A --&gt; P[Pattern]\n    P --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    R[Axis] --&gt; A[Axis]\n    A --&gt; P[Pattern]\n    P --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    R[Axis] --&gt; A[Axis]\n    A --&gt; P[Pattern]\n    P --&gt; E[Effect]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> Radiation from an axis involves using light or heat to create visual effects on the surface of a material by altering the pattern from a central axis.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n R[Axis] --&gt; A[Axis]\n A --&gt; P[Pattern]\n P --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n R[Axis] --&gt; A[Axis]\n A --&gt; P[Pattern]\n P --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n R[Axis] --&gt; A[Axis]\n A --&gt; P[Pattern]\n P --&gt; E[Effect]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    R[Axis] --> A[Axis]\n    A --> P[Pattern]\n    P --> E[Effect]"
@@ -739,7 +739,7 @@
   {
    "heading": "Preparation of Sheets Showing the Effect of Transition in Relation to",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> Transition in relation to rhythm involves the gradual change in the elements of a design.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    T[Transition] --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    T[Transition] --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    T[Transition] --&gt; E[Effect]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> Transition in relation to rhythm involves the gradual change in the elements of a design.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n T[Transition] --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n T[Transition] --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n T[Transition] --&gt; E[Effect]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    T[Transition] --> E[Effect]"
@@ -748,7 +748,7 @@
   {
    "heading": "Transition in Line",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> Transition in line involves the gradual change in the line elements.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    T[Line] --&gt; L[Line]\n    L --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    T[Line] --&gt; L[Line]\n    L --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    T[Line] --&gt; L[Line]\n    L --&gt; E[Effect]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> Transition in line involves the gradual change in the line elements.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n T[Line] --&gt; L[Line]\n L --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n T[Line] --&gt; L[Line]\n L --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n T[Line] --&gt; L[Line]\n L --&gt; E[Effect]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    T[Line] --> L[Line]\n    L --> E[Effect]"
@@ -757,7 +757,7 @@
   {
    "heading": "Transition in Space",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> Transition in space involves the gradual change in the space elements.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    T[Space] --&gt; S[Space]\n    S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    T[Space] --&gt; S[Space]\n    S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    T[Space] --&gt; S[Space]\n    S --&gt; E[Effect]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> Transition in space involves the gradual change in the space elements.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n T[Space] --&gt; S[Space]\n S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n T[Space] --&gt; S[Space]\n S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n T[Space] --&gt; S[Space]\n S --&gt; E[Effect]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    T[Space] --> S[Space]\n    S --> E[Effect]"
@@ -766,7 +766,7 @@
   {
    "heading": "Transition in Space & Shape",
    "id": "",
-   "html": "<ul>\n<li><strong>Definition:</strong> Transition in space and shape involves the gradual change in both space and shape elements.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    T[Space] --&gt; S[Shape]\n    S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    T[Space] --&gt; S[Shape]\n    S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    T[Space] --&gt; S[Shape]\n    S --&gt; E[Effect]</pre></noscript></div>",
+   "html": "<ul>\n<li><strong>Definition:</strong> Transition in space and shape involves the gradual change in both space and shape elements.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n T[Space] --&gt; S[Shape]\n S --&gt; E[Effect]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n T[Space] --&gt; S[Shape]\n S --&gt; E[Effect]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n T[Space] --&gt; S[Shape]\n S --&gt; E[Effect]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    T[Space] --> S[Shape]\n    S --> E[Effect]"
@@ -1259,7 +1259,7 @@
   {
    "heading": "Mermaid Diagram",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Circle] --&gt; B[12 equal parts]\n    B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]\n    B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]\n    B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Circle] --&gt; B[12 equal parts]\n    B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]\n    B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]\n    B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Circle] --&gt; B[12 equal parts]\n    B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]\n    B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]\n    B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Circle] --&gt; B[12 equal parts]\n B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]\n B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]\n B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Circle] --&gt; B[12 equal parts]\n B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]\n B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]\n B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Circle] --&gt; B[12 equal parts]\n B --&gt; C[Primary Colours] --&gt; D[Red, Yellow, Blue]\n B --&gt; E[Secondary Colours] --&gt; F[Green, Orange, Purple]\n B --&gt; G[Tertiary Colours] --&gt; H[Yellow-Green, Red-Orange, Blue-Violet]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    A[Circle] --> B[12 equal parts]\n    B --> C[Primary Colours] --> D[Red, Yellow, Blue]\n    B --> E[Secondary Colours] --> F[Green, Orange, Purple]\n    B --> G[Tertiary Colours] --> H[Yellow-Green, Red-Orange, Blue-Violet]"
@@ -1291,7 +1291,7 @@
   {
    "heading": "Mermaid Diagram",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Base Colour: Red] --&gt; B[Add White: Tints]\n    A --&gt; C[Add Black: Shades]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Base Colour: Red] --&gt; B[Add White: Tints]\n    A --&gt; C[Add Black: Shades]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Base Colour: Red] --&gt; B[Add White: Tints]\n    A --&gt; C[Add Black: Shades]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Base Colour: Red] --&gt; B[Add White: Tints]\n A --&gt; C[Add Black: Shades]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Base Colour: Red] --&gt; B[Add White: Tints]\n A --&gt; C[Add Black: Shades]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Base Colour: Red] --&gt; B[Add White: Tints]\n A --&gt; C[Add Black: Shades]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    A[Base Colour: Red] --> B[Add White: Tints]\n    A --> C[Add Black: Shades]"
@@ -1330,7 +1330,7 @@
   {
    "heading": "Mermaid Diagram",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n    A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]\n    A --&gt; C[Add Black: Darker Shades]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n    A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]\n    A --&gt; C[Add Black: Darker Shades]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n    A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]\n    A --&gt; C[Add Black: Darker Shades]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]\n A --&gt; C[Add Black: Darker Shades]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]\n A --&gt; C[Add Black: Darker Shades]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Base Colour: Blue] --&gt; B[Add White: Lighter Tints]\n A --&gt; C[Add Black: Darker Shades]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
     "flowchart TD\n    A[Base Colour: Blue] --> B[Add White: Lighter Tints]\n    A --> C[Add Black: Darker Shades]"

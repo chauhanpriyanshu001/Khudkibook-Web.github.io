@@ -1,0 +1,141 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Degree
+Branch: All
+Course / Subject Code : BE02000011
+Course / Subject Name : Mathematics – 2
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 1 | 3
+w. e. f. Academic Year: 2024-25
+Semester: 2
+Category of the Course: BSC
+Prerequisite: Basic Algebra, Complex Algebra, Calculus.
+Rationale: Mathematics fundamental necessary to formulate, solve and analyze engineering
+problems. Complex analysis not only provides insight into mathematical theory
+but also has practical applications in engineering, physics and many other forms.
+Course Outcome:
+After Completion of the Course, Student will able to:
+No Course Outcomes RBT Level
+01 The essential tool of matrices and linear algebra in a comprehensive manner. A
+02 The effective mathematical tools for the solutions of differential equations that
+model physical processes.
+A
+03 The tools of differentiation and integration of functions of a complex variable
+that are used in various techniques dealing engineering problems.
+A
+04 To find Laurent’s series, poles. residues, and apply Cauchy Residue theorem in
+evaluating some real integrals.
+A
+*Revised Bloom’s Taxonomy (RBT)
+Teaching and Examination Scheme:
+Teaching Scheme
+(in Hours)
+Total
+Credits
+L+T+
+(PR/2)
+Assessment Pattern and Marks
+Total
+Marks
+L T PR C
+Theory Tutorial / Practical
+ESE
+(E)
+PA / CA
+(M) PA/CA (I) ESE (V)
+3 1 0 4 70 30 0 0 100
+
+-- 1 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Degree
+Branch: All
+Course / Subject Code : BE02000011
+Course / Subject Name : Mathematics – 2
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 2 | 3
+Course Content:
+Unit
+No. Content No. of
+Hours
+% of
+Weightage
+1.
+Module 1: Matrices:
+Linear Independence; Row Echelon form (REF)and Reduced Row
+Echelon form(RREF) of a Matrix, Rank of a Matrix using REF/RREF;
+Inverse of a matrix using Gauss-Jordan method; Solution of System of
+linear equations by elementary row operations; Symmetric, skew-
+symmetric and orthogonal matrices; Eigen values and eigenvectors;
+Diagonalization of matrices; Inverse of a Matrix by Cayley-Hamilton
+Theorem.
+10 22%
+2.
+Module 2: First order ordinary differential equations:
+Exact differential equations, Integrating factors for non-Exact
+differential equations, linear and Bernoulli’s equations. Equations not
+of first degree: equations solvable for p, equations solvable for y,
+equations solvable for x and Clairaut’s type.
+8 18%
+3.
+Module 3: Ordinary differential equations of higher orders:
+Higher order linear differential equations with constant and variable
+coefficients, Euler-Cauchy equations, solution by variation of
+parameters, method of undetermined coefficients;
+Classification of Ordinary and Singular points, Power series solutions
+for ordinary points.
+10 22%
+4.
+Module 4: Complex Variables (Differentiation):
+Differentiation, Cauchy-Riemann equations, analytic functions,
+harmonic functions, finding harmonic conjugate; analyticity of
+elementary functions (exponential, trigonometric, logarithm) and their
+properties;
+9 20%
+5.
+Module 5: Complex Variables (Integration):
+Contour integrals, Cauchy-Goursat theorem (without proof), Cauchy
+Integral formula (without proof); Taylor’s series, zeros of analytic
+functions, singularities, Laurent’s series; Residues, Cauchy residue
+theorem (without proof), Rouche’s theorem.
+8 18%
+Total 45 100
+
+-- 2 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Degree
+Branch: All
+Course / Subject Code : BE02000011
+Course / Subject Name : Mathematics – 2
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 3 | 3
+Suggested Specification Table with Marks (Theory):
+Distribution of Theory Marks (in %)
+R Level U Level A Level N Level E Level C Level
+20 35 15 0 0 0
+Where R: Remember; U: Understanding; A: Application, N: Analyze and E: Evaluate C: Create (as
+per Revised Bloom’s Taxonomy)
+References/Suggested Learning Resources:
+(a) Books:
+1. Erwin Kreyszig, Advanced Engineering Mathematics, 10th Edition, John Wiley & Sons, 2006.
+2. W. E. Boyce and R. C. DiPrima, Elementary Differential Equations and Boundary Value
+Problems, 9th Edn., Wiley India, 2009.
+3. D. Poole, Linear Algebra: A Modern Introduction, 2nd Edition, Brooks/Cole, 2005.
+4. S. L. Ross, Differential Equations, 3rd Ed., Wiley India, 1984.
+5. E. A. Coddington, An Introduction to Ordinary Differential Equations, Prentice Hall India,
+1995.
+6. E. L. Ince, Ordinary Differential Equations, Dover Publications, 1958.
+7. J. W. Brown and R. V. Churchill, Complex Variables and Applications, 7th Ed., Mc-Graw Hill,
+2004.
+8. B.S. Grewal, Higher Engineering Mathematics, Khanna Publishers, 36th Edition, 2010.
+9. Howard Anton, Irl Bivens, Stephens Davis, Calculus, 10e, Wiley, 2016.
+10. AICTE’s Prescribed Textbook: Mathematics-II (Calculus, Ordinary Differential Equations and
+Complex Variable), Khanna Book Publishing Co.
+(b) Open source software and website:
+1. MIT Open Courseware
+(https://ocw.mit.edu/search/?s=department_course_numbers.sort_coursenum)
+2. NPTEL Open Courseware (https://nptel.ac.in/)
+* * * * * * *
+
+-- 3 of 3 --
+

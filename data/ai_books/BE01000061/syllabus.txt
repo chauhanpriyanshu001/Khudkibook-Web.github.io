@@ -1,0 +1,140 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: UG
+Branch: All
+Course / Subject Code : BE01000061
+Course / Subject Name : Engineering Graphics & Design
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 1 | 3
+w. e. f. Academic Year: 2024-25
+Semester: Ist Year
+Category of the Course: Engineering Science
+Prerequisite: Zeal to learn the subject
+Rationale: Engineering Drawing is an effective language of engineers. It is the foundation
+block which strengthens the engineering & technological structure. Moreover, it is
+the transmitting link between ideas and realization.
+Course Outcome:
+After Completion of the Course, Student will able to:
+No Course Outcomes RBT level
+1 Apply the conventions and the methods of engineering drawing also interpret
+engineering drawings
+Application
+2 Construct basic and intermediate geometry and comprehend the theory of
+projection.
+Application
+3 Dissect the objects in three dimensions with different orientation. Analyze
+4 Make use of computer software for engineering drawings. Application
+Teaching and Examination Scheme:
+Teaching Scheme
+(in Hours)
+Total
+Credits
+L+T+
+(PR/2)
+Assessment Pattern and Marks
+Total
+Marks
+L T PR C
+Theory Tutorial / Practical
+ESE
+(E)
+PA / CA
+(M) PA/CA (I) ESE (V)
+1 0 2 2 70 30 20 30 150
+Course Content:
+Unit
+No. Content No. of
+Hours
+% of
+Weightage
+1. Introduction to Engineering Graphics: Drawing instruments and
+accessories, BIS – SP 46. Use of plane scales, Diagonal Scales and
+Representative Fraction.
+* 10
+
+-- 1 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: UG
+Branch: All
+Course / Subject Code : BE01000061
+Course / Subject Name : Engineering Graphics & Design
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 2 | 3
+2. Engineering Curves: Classification and application of Engineering
+Curves, Construction of Conics, Cycloidal Curves, Involutes andSpirals
+* 10
+3. Projections of Points and Lines: Introduction to principal planes of
+projections, Projections of the points located in same quadrant and
+different quadrants, Projections of line with its inclination to one
+reference plane and with two reference planes. True length and
+inclination with the reference planes.
+4 18
+4. Projections of Planes: Projections of planes (polygons, circle and
+ellipse) with its inclination to one reference plane and with two
+reference planes
+2 16
+5. Projections of Solids, Section of Solids: Classification of solids.
+Projections of solids (Cylinder, Cone, Pyramid and Prism) along with
+frustum with its inclination to one reference plane and with two
+reference planes, Section of such solids and the true shape of the
+section.
+6 18
+6. Orthographic Projections: Fundamental of projection along with
+classification, Projections from the pictorial view of the object on the
+principal planes for view from front, top and sides using first angle
+projection method and third angle projection method, full sectional
+view.
+3 18
+7. Computer Aided Drawing:
+Introduction to AutoCAD, Basic commands for 2D drawing like :
+Line, Circle, Polyline, Rectangle, Hatch, Fillet, Chamfer, Trim, Extend,
+Offset, Dim style, etc.
+*
+Total 15 100
+* Chapter/Topics must be taught during laboratory sessions.
+Suggested Specification Table with Marks (Theory):
+Distribution of Theory Marks
+R Level U Level A Level N Level E Level C Level
+25 30 30 15 - -
+Where R: Remember; U: Understanding; A: Application, N: Analyze and E: Evaluate C: Create (as per
+Revised Bloom’s Taxonomy)
+References/Suggested Learning Resources:
+(a) Books:
+1. A Text Book of Engineering Graphics by P.J.Shah S.Chand & Company Ltd., New Delhi.
+10
+
+-- 2 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: UG
+Branch: All
+Course / Subject Code : BE01000061
+Course / Subject Name : Engineering Graphics & Design
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 3 | 3
+2. Elementary Engineering Drawing by N.D.Bhatt Charotar Publishing House, Anand.
+3. A text book of Engineering Drawing by R.K.Dhawan, S.Chand & Company Ltd., New Delhi.
+4. A text book of Engineering Drawing by P.S.Gill, S.K.Kataria & sons, Delhi.
+5. Engineering Drawing by B. Agrawal and C M Agrawal, Tata McGraw Hill, New Delhi.
+(b) Open-source software and website:
+1. AutoCAD
+Suggested Course Practical List:
+Students must prepare sketch book and drawing sheets on the following topics.
+1. Practice sheet (which includes dimensioning methods, different types of line, construction
+of different polygon, divide the line and angle in parts, use of stencil) – 2 Hrs.
+2. Plane scale and diagonal scale – 2 Hrs.
+3. Engineering curves- 4 Hrs.
+4. Projection of point and line – 4 Hrs.
+5. Projection of plane – 4 Hrs.
+6. Projection of solid, section of solid - 4 Hrs.
+7. Orthographic projection – 6 Hrs.
+8. At least one orthographic drawing (three views) using above mentioned AutoCAD commands.
+– 4 Hrs.
+List of Laboratory/Learning Resources Required:
+Suggested Project List:
+1. Students must prepare at least one model using cardboard/paper to understand the fundamentals
+of topic no. 1 to 6. This project work will be considered for practical evaluation.
+* * * * * * *
+
+-- 3 of 3 --
+

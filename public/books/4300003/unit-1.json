@@ -1,0 +1,320 @@
+{
+ "code": "4300003",
+ "subject": "Environment and Sustainability",
+ "unit": 1,
+ "lang": "en",
+ "title": "Unit – Ecosystem",
+ "url": "/books/4300003/unit-1.html",
+ "guUrl": null,
+ "words": 2855,
+ "readingMin": 16,
+ "marks": "14 marks (6 Remember + 6 Understand + 2 Apply) (per syllabus)",
+ "sections": [
+  {
+   "heading": "Unit – I: Ecosystem",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code 4300003 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately <strong>14 marks (6 Remember + 6 Understand + 2 Apply) (per syllabus)</strong>.</p>\n<p>Learning objectives covered by this module:</p>\n<ul>\n<li>1.a. Explain the Structure with components of the given Ecosystem</li>\n<li>1.b. Explain Carbon, Nitrogen, Sulphur and phosphorus cycle for the given ecosystem.</li>\n<li>1.c. Justify the need to conserve the given Ecosystem on the w.r.t. following points:  carrying capacity of earth  Biomes,  Ecologically sensitive area</li>\n<li>1.d. Explain the term biodiversity with its importance.</li>\n<li>1.e. Illustrate the importance of IUCN red list in environmental engineering.</li>\n<li>1.f. Calculate global ecological overshoot and virtual water requirement of given natural and man-made materials.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Importance",
+   "id": "",
+   "html": "<p>An ecosystem is a functional unit consisting of living organisms (biotic components) and their physical environment (abiotic components). The structure and components of an ecosystem play a crucial role in maintaining its balance and sustainability. Understanding these components is essential for the conservation and management of ecosystems.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Biotic Components",
+   "id": "",
+   "html": "<ol>\n<li><strong>Producers (Autotrophs)</strong></li>\n</ol>\n<ul>\n<li><strong>Definition:</strong> Producers are organisms that can synthesize their own food using inorganic substances and light energy. They are the primary producers in an ecosystem.</li>\n<li><strong>Examples:</strong> Plants, algae, and some bacteria.</li>\n</ul>\n<ol>\n<li><strong>Consumers (Heterotrophs)</strong></li>\n</ol>\n<ul>\n<li><strong>Herbivores:</strong> Organisms that eat only plants.</li>\n<li><strong>Example:</strong> Deer, rabbits.</li>\n<li><strong>Carnivores:</strong> Organisms that eat other animals.</li>\n<li><strong>Example:</strong> Lions, tigers.</li>\n<li><strong>Omnivores:</strong> Organisms that eat both plants and animals.</li>\n<li><strong>Example:</strong> Humans, bears.</li>\n<li><strong>Decomposers (Detritivores and Saprotrophs):</strong></li>\n<li><strong>Definition:</strong> Decomposers break down dead organic matter, converting it into inorganic substances.</li>\n<li><strong>Examples:</strong> Bacteria, fungi.</li>\n</ul>\n<ol>\n<li><strong>Saprotrophs</strong></li>\n</ol>\n<ul>\n<li><strong>Definition:</strong> Saprotrophs break down dead organic matter in the soil, contributing to the nutrient cycle.</li>\n<li><strong>Example:</strong> Fungi, certain bacteria.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Abiotic Components",
+   "id": "",
+   "html": "<ol>\n<li><strong>Physical Factors:</strong></li>\n</ol>\n<ul>\n<li><strong>Light:</strong> Essential for photosynthesis.</li>\n<li><strong>Temperature:</strong> Affects metabolic rates and survival.</li>\n<li><strong>Water:</strong> Vital for all life processes.</li>\n<li><strong>Soil:</strong> Provides minerals and anchorage.</li>\n</ul>\n<ol>\n<li><strong>Chemical Factors:</strong></li>\n</ol>\n<ul>\n<li><strong>Nutrients:</strong> Essential elements such as nitrogen, phosphorus, and sulfur.</li>\n<li><strong>Oxygen:</strong> Required for respiration.</li>\n<li><strong>Carbon Dioxide:</strong> Used in photosynthesis.</li>\n</ul>\n<ol>\n<li><strong>Other Factors:</strong></li>\n</ol>\n<ul>\n<li><strong>Atmospheric Pressure:</strong> Affects gas exchange in organisms.</li>\n<li><strong>Wind:</strong> Influences distribution of organisms.</li>\n<li><strong>Precipitation:</strong> Affects water availability.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In a forest ecosystem, trees are the primary producers, providing oxygen and serving as habitats for various animals. Herbivores like deer and rabbits feed on these plants, while carnivores like wolves prey on these herbivores. Decomposers like fungi break down dead leaves and other organic matter, returning nutrients to the soil.</div>",
+   "examples": [
+    "In a forest ecosystem, trees are the primary producers, providing oxygen and serving as habitats for various animals. Herbivores like deer and rabbits feed on these plants, while carnivores like wolves prey on these herbivores. Decomposers like fungi break down dead leaves and other organic matter, returning nutrients to the soil."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Types of Ecosystem",
+   "id": "",
+   "html": "<p>Ecosystems can be broadly classified based on their physical environment and the organisms that inhabit them.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Natural Ecosystems",
+   "id": "",
+   "html": "<ol>\n<li><strong>Terrestrial Ecosystems</strong></li>\n</ol>\n<ul>\n<li><strong>Forest Ecosystem:</strong> Characterized by high plant density and complex structures.</li>\n<li><strong>Example:</strong> Tropical rainforests, temperate forests.</li>\n<li><strong>Grassland Ecosystem:</strong> Dominated by grasses and few trees.</li>\n<li><strong>Example:</strong> Savannas, prairies.</li>\n<li><strong>Desert Ecosystem:</strong> Extreme conditions of low rainfall and high temperatures.</li>\n<li><strong>Example:</strong> Arid deserts, semi-deserts.</li>\n<li><strong>Tundra Ecosystem:</strong> Cold, treeless regions with short growing seasons.</li>\n<li><strong>Example:</strong> Arctic tundra, Alpine tundra.</li>\n</ul>\n<ol>\n<li><strong>Aquatic Ecosystems</strong></li>\n</ol>\n<ul>\n<li><strong>Freshwater Ecosystem:</strong> Lakes, rivers, and ponds.</li>\n<li><strong>Example:</strong> Freshwater lakes, rivers.</li>\n<li><strong>Marine Ecosystem:</strong> Oceans, seas, and coastal areas.</li>\n<li><strong>Example:</strong> Coral reefs, mangroves.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Artificial Ecosystems",
+   "id": "",
+   "html": "<ol>\n<li><strong>Urban Ecosystem:</strong> Human-made environments with high population density.</li>\n<li><strong>Agricultural Ecosystem:</strong> Human-managed ecosystems for crop production.</li>\n<li><strong>Industrial Ecosystem:</strong> Areas with significant human industrial activity.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Changes in Ecosystem",
+   "id": "",
+   "html": "<p>Ecosystems can undergo changes due to natural processes or human activities. These changes can be positive, neutral, or negative.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Natural Changes",
+   "id": "",
+   "html": "<ol>\n<li><strong>Succession:</strong></li>\n</ol>\n<ul>\n<li><strong>Primary Succession:</strong> The development of a new ecosystem in an area where no ecosystem previously existed, such as after a volcanic eruption.</li>\n<li><strong>Example:</strong> Pioneer species like lichens and mosses.</li>\n<li><strong>Secondary Succession:</strong> The development of a new ecosystem in an area where an existing ecosystem has been disturbed, but the soil remains.</li>\n<li><strong>Example:</strong> Regrowth of vegetation after a forest fire.</li>\n</ul>\n<ol>\n<li><strong>Climate Change:</strong></li>\n</ol>\n<ul>\n<li><strong>Definition:</strong> Long-term changes in temperature and weather patterns.</li>\n<li><strong>Example:</strong> Increase in global temperatures leading to melting glaciers and rising sea levels.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Human-Induced Changes",
+   "id": "",
+   "html": "<ol>\n<li><strong>Deforestation:</strong></li>\n</ol>\n<ul>\n<li><strong>Definition:</strong> The large-scale removal of trees.</li>\n<li><strong>Example:</strong> Clear-cutting for agriculture or logging.</li>\n</ul>\n<ol>\n<li><strong>Pollution:</strong></li>\n</ol>\n<ul>\n<li><strong>Water Pollution:</strong> Release of harmful substances into water bodies.</li>\n<li><strong>Example:</strong> Industrial waste, agricultural runoff.</li>\n<li><strong>Air Pollution:</strong> Release of pollutants into the atmosphere.</li>\n<li><strong>Example:</strong> Vehicle emissions, industrial smoke.</li>\n</ul>\n<ol>\n<li><strong>Urbanization:</strong></li>\n</ol>\n<ul>\n<li><strong>Definition:</strong> The process of converting rural areas into urban areas.</li>\n<li><strong>Example:</strong> Construction of buildings and infrastructure in previously natural areas.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>The Amazon rainforest, a terrestrial ecosystem, is facing significant changes due to deforestation. This has led to a reduction in biodiversity, changes in local climate, and an increase in carbon dioxide levels, contributing to global warming.</div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Forest Ecosystem] --&gt; B[Tropical Rainforest]\n A --&gt; C[Temperate Forest]\n A --&gt; D[Desert Ecosystem]\n A --&gt; E[Tundra Ecosystem]\n A --&gt; F[Aquatic Ecosystem]\n A --&gt; G[Freshwater Ecosystem]\n A --&gt; H[Marine Ecosystem]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Forest Ecosystem] --&gt; B[Tropical Rainforest]\n A --&gt; C[Temperate Forest]\n A --&gt; D[Desert Ecosystem]\n A --&gt; E[Tundra Ecosystem]\n A --&gt; F[Aquatic Ecosystem]\n A --&gt; G[Freshwater Ecosystem]\n A --&gt; H[Marine Ecosystem]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Forest Ecosystem] --&gt; B[Tropical Rainforest]\n A --&gt; C[Temperate Forest]\n A --&gt; D[Desert Ecosystem]\n A --&gt; E[Tundra Ecosystem]\n A --&gt; F[Aquatic Ecosystem]\n A --&gt; G[Freshwater Ecosystem]\n A --&gt; H[Marine Ecosystem]</pre></noscript></div>\n<p>By understanding the structure and components of ecosystems, as well as the types and changes, students can better appreciate the complexity and importance of these natural systems. This knowledge is crucial for developing sustainable practices and policies to protect and manage ecosystems effectively.</p>\n<hr />",
+   "examples": [
+    "The Amazon rainforest, a terrestrial ecosystem, is facing significant changes due to deforestation. This has led to a reduction in biodiversity, changes in local climate, and an increase in carbon dioxide levels, contributing to global warming."
+   ],
+   "mermaid": [
+    "flowchart LR\n    A[Forest Ecosystem] --> B[Tropical Rainforest]\n    A --> C[Temperate Forest]\n    A --> D[Desert Ecosystem]\n    A --> E[Tundra Ecosystem]\n    A --> F[Aquatic Ecosystem]\n    A --> G[Freshwater Ecosystem]\n    A --> H[Marine Ecosystem]"
+   ]
+  },
+  {
+   "heading": "1.3.1. Carbon Cycle",
+   "id": "",
+   "html": "<p>The <strong>carbon cycle</strong> is a fundamental process in the ecosystem that involves the exchange of carbon between the atmosphere, oceans, terrestrial biosphere, and geosphere. Carbon is a crucial element for life, and its cycling is essential for maintaining the balance of the Earth's climate.</p>\n<ul>\n<li><strong>Atmosphere</strong>: Carbon dioxide (CO2) is the primary form of carbon in the atmosphere. Photosynthesis by plants and photosynthetic bacteria removes CO2 from the atmosphere.</li>\n<li><strong>Biosphere</strong>: Carbon is stored in living organisms such as plants, animals, and microorganisms. When these organisms die, their carbon is returned to the soil through decomposition.</li>\n<li><strong>Soil</strong>: Carbon is also stored in the soil in the form of organic matter.</li>\n<li><strong>Ocean</strong>: The ocean is a significant carbon sink, storing large amounts of carbon in the form of dissolved CO2 and organic matter.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the total amount of carbon stored in a forest ecosystem over a period of 10 years, given that the forest contains 50,000 trees with an average carbon content of 50 kg per tree. The forest sequesters 5% of its carbon annually.</div>\n<ol>\n<li><strong>Total carbon in the forest:</strong></li>\n</ol>\n<p>[</p>\n<p>50,000 \\text{ trees} \\times 50 \\text{ kg/tree} = 2,500,000 \\text{ kg of carbon}</p>\n<p>]</p>\n<ol>\n<li><strong>Annual carbon sequestration:</strong></li>\n</ol>\n<p>[</p>\n<p>2,500,000 \\text{ kg} \\times 0.05 = 125,000 \\text{ kg/year}</p>\n<p>]</p>\n<ol>\n<li><strong>Total carbon sequestered over 10 years:</strong></li>\n</ol>\n<p>[</p>\n<p>125,000 \\text{ kg/year} \\times 10 \\text{ years} = 1,250,000 \\text{ kg of carbon}</p>\n<p>]</p>",
+   "examples": [
+    "Calculate the total amount of carbon stored in a forest ecosystem over a period of 10 years, given that the forest contains 50,000 trees with an average carbon content of 50 kg per tree. The forest sequesters 5% of its carbon annually."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.2. Nitrogen Cycle",
+   "id": "",
+   "html": "<p>The <strong>nitrogen cycle</strong> is another critical cycle that involves the transformation of nitrogen between its various forms. Nitrogen is a key component of proteins and nucleic acids in living organisms.</p>\n<ul>\n<li><strong>Atmosphere</strong>: Nitrogen (N2) makes up about 78% of the atmosphere. Lightning can convert nitrogen to nitric oxide (NO), which can further react to form nitrate (NO3-).</li>\n<li><strong>Soil</strong>: Nitrogen is fixed by bacteria in the soil, converting N2 to ammonia (NH3) through a process called nitrogen fixation.</li>\n<li><strong>Living Organisms</strong>: Nitrogen is used by plants and animals in the form of ammonia, nitrate, and nitrite.</li>\n<li><strong>Decomposition</strong>: Dead organisms release nitrogen back into the soil through decomposition.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A farmer wants to understand the nitrogen cycle in his field. He notes that the field contains 500 kg of nitrogen in the form of organic matter. Calculate the amount of nitrogen in the soil after 5 years if the field loses 10% of its nitrogen annually due to decomposition.</div>\n<ol>\n<li><strong>Initial nitrogen content:</strong></li>\n</ol>\n<p>[</p>\n<p>500 \\text{ kg}</p>\n<p>]</p>\n<ol>\n<li><strong>Annual loss of nitrogen:</strong></li>\n</ol>\n<p>[</p>\n<p>500 \\text{ kg} \\times 0.10 = 50 \\text{ kg/year}</p>\n<p>]</p>\n<ol>\n<li><strong>Total nitrogen lost over 5 years:</strong></li>\n</ol>\n<p>[</p>\n<p>50 \\text{ kg/year} \\times 5 \\text{ years} = 250 \\text{ kg}</p>\n<p>]</p>\n<ol>\n<li><strong>Remaining nitrogen after 5 years:</strong></li>\n</ol>\n<p>[</p>\n<p>500 \\text{ kg} - 250 \\text{ kg} = 250 \\text{ kg of nitrogen}</p>\n<p>]</p>",
+   "examples": [
+    "A farmer wants to understand the nitrogen cycle in his field. He notes that the field contains 500 kg of nitrogen in the form of organic matter. Calculate the amount of nitrogen in the soil after 5 years if the field loses 10% of its nitrogen annually due to decomposition."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.3. Sulphur Cycle",
+   "id": "",
+   "html": "<p>The <strong>sulphur cycle</strong> involves the movement of sulphur between the atmosphere, soil, and living organisms.</p>\n<ul>\n<li><strong>Atmosphere</strong>: Sulphur dioxide (SO2) and sulphur trioxide (SO3) are released into the atmosphere through volcanic activity and human activities such as burning fossil fuels.</li>\n<li><strong>Rainfall</strong>: SO2 and SO3 can form sulphuric acid (H2SO4) in the atmosphere, which then falls as acid rain.</li>\n<li><strong>Soil</strong>: Sulphur is found in the soil in various forms, and it is taken up by plants and microorganisms.</li>\n<li><strong>Decomposition</strong>: Dead organisms return sulphur to the soil through decomposition.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the amount of sulphur released into the atmosphere from a coal-burning power plant that burns 10,000 tons of coal per year. Assume that 2.5% of the sulphur in coal is released as SO2.</div>\n<ol>\n<li><strong>Total sulphur content in coal:</strong></li>\n</ol>\n<p>[</p>\n<p>10,000 \\text{ tons} \\times 2.5\\% = 250 \\text{ tons of sulphur}</p>\n<p>]</p>\n<ol>\n<li><strong>Sulphur released as SO2:</strong></li>\n</ol>\n<p>[</p>\n<p>250 \\text{ tons} \\times 1000 \\text{ kg/ton} = 250,000 \\text{ kg of sulphur}</p>\n<p>]</p>\n<ol>\n<li><strong>Sulphur released as SO2:</strong></li>\n</ol>\n<p>[</p>\n<p>250,000 \\text{ kg} \\times 0.88 (SO2) = 220,000 \\text{ kg of SO2}</p>\n<p>]</p>",
+   "examples": [
+    "Calculate the amount of sulphur released into the atmosphere from a coal-burning power plant that burns 10,000 tons of coal per year. Assume that 2.5% of the sulphur in coal is released as SO2."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.4. Phosphorus Cycle",
+   "id": "",
+   "html": "<p>The <strong>phosphorus cycle</strong> involves the movement of phosphorus between the soil, water, and living organisms.</p>\n<ul>\n<li><strong>Soil</strong>: Phosphorus is an essential nutrient for plants and is found in the soil in various forms.</li>\n<li><strong>Water</strong>: Phosphorus can be transported in water bodies, affecting aquatic ecosystems.</li>\n<li><strong>Decomposition</strong>: Dead organisms release phosphorus back into the soil through decomposition.</li>\n<li><strong>Human Activities</strong>: Phosphorus is added to the soil through fertilizers and can be lost through runoff into water bodies.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A farmer applies 200 kg of phosphorus fertilizer to his field. Calculate the amount of phosphorus left in the soil after 3 years if 10% of the phosphorus is lost annually due to leaching.</div>\n<ol>\n<li><strong>Initial phosphorus content:</strong></li>\n</ol>\n<p>[</p>\n<p>200 \\text{ kg}</p>\n<p>]</p>\n<ol>\n<li><strong>Annual loss of phosphorus:</strong></li>\n</ol>\n<p>[</p>\n<p>200 \\text{ kg} \\times 10\\% = 20 \\text{ kg/year}</p>\n<p>]</p>\n<ol>\n<li><strong>Total phosphorus lost over 3 years:</strong></li>\n</ol>\n<p>[</p>\n<p>20 \\text{ kg/year} \\times 3 \\text{ years} = 60 \\text{ kg}</p>\n<p>]</p>\n<ol>\n<li><strong>Remaining phosphorus after 3 years:</strong></li>\n</ol>\n<p>[</p>\n<p>200 \\text{ kg} - 60 \\text{ kg} = 140 \\text{ kg of phosphorus}</p>\n<p>]</p>",
+   "examples": [
+    "A farmer applies 200 kg of phosphorus fertilizer to his field. Calculate the amount of phosphorus left in the soil after 3 years if 10% of the phosphorus is lost annually due to leaching."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.4.1. Ecosystem Conservation",
+   "id": "",
+   "html": "<p>Ecosystem conservation is crucial for maintaining the balance of the environment and ensuring the sustainability of natural resources. Ecosystems provide essential services such as water purification, air quality maintenance, and pollination.</p>\n<ul>\n<li><strong>Conservation Goals</strong>: The primary goals of ecosystem conservation include preserving biodiversity, maintaining ecological balance, and ensuring the sustainable use of natural resources.</li>\n<li><strong>Carrying Capacity of Earth</strong>: The carrying capacity of the Earth refers to the maximum population that the Earth can support indefinitely without degrading the environment. This concept is important in understanding the limits of natural resources and the impact of human activities.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>If the carrying capacity of the Earth for humans is estimated to be 9 billion people, and the current population is 8 billion, calculate the remaining carrying capacity and discuss the implications for resource management.</div>\n<ol>\n<li><strong>Remaining carrying capacity:</strong></li>\n</ol>\n<p>[</p>\n<p>9 \\text{ billion} - 8 \\text{ billion} = 1 \\text{ billion}</p>\n<p>]</p>\n<ol>\n<li><strong>Implications</strong>: The remaining carrying capacity of 1 billion people suggests that the Earth can support an additional 1 billion people under current resource management practices. However, this does not account for the impact of human activities on the environment and the need for sustainable resource use.</li>\n</ol>",
+   "examples": [
+    "If the carrying capacity of the Earth for humans is estimated to be 9 billion people, and the current population is 8 billion, calculate the remaining carrying capacity and discuss the implications for resource management."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.4.2. Biomes in India",
+   "id": "",
+   "html": "<p>India has a diverse range of biomes, each with unique characteristics and ecosystems. Understanding the biomes helps in the conservation and management of natural resources.</p>\n<ul>\n<li><strong>Tropical Rainforest</strong>: Found in the Western Ghats and parts of the Eastern Ghats, these biomes are characterized by high rainfall and a wide variety of plant and animal species.</li>\n<li><strong>Tropical Deciduous Forest</strong>: Found in the plains of central India, these forests have a mix of evergreen and deciduous trees.</li>\n<li><strong>Tropical Thorn Forest</strong>: Found in the western parts of Rajasthan and Gujarat, these forests have a low rainfall and are characterized by thorny shrubs and trees.</li>\n<li><strong>Desert</strong>: Found in the western parts of Rajasthan, these areas have low rainfall and support a unique set of plant and animal species.</li>\n<li><strong>Mountainous Regions</strong>: Found in the Himalayas, these regions have a diverse range of ecosystems, including alpine forests and meadows.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Classify the following biome based on the given characteristics: High rainfall, dense evergreen and deciduous trees, diverse wildlife.</div>\n<ol>\n<li><strong>Classification</strong>: <strong>Tropical Deciduous Forest</strong></li>\n</ol>",
+   "examples": [
+    "Classify the following biome based on the given characteristics: High rainfall, dense evergreen and deciduous trees, diverse wildlife."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.4.3. Ecologically Sensitive Areas (ESA)",
+   "id": "",
+   "html": "<p>Ecologically sensitive areas (ESAs) are regions that are ecologically, biologically, or geologically important and require special protection. These areas are critical for maintaining biodiversity and ecosystem services.</p>\n<ul>\n<li><strong>Definition</strong>: ESAs are areas that are ecologically, biologically, or geologically important and require special protection.</li>\n<li><strong>Examples</strong>: Mangrove forests, wetlands, coral reefs, and mountainous regions.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Identify an ESA in India and explain its importance.</div>\n<ol>\n<li><strong>Identification</strong>: <strong>Mangrove Forests</strong></li>\n<li><strong>Importance</strong>: Mangrove forests are important for maintaining biodiversity, providing nursery grounds for fish, and protecting coastal areas from erosion. They also play a crucial role in carbon sequestration and are essential for the livelihoods of local communities.</li>\n</ol>",
+   "examples": [
+    "Identify an ESA in India and explain its importance."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Biomes in India",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Western Ghats] --&gt; B[Tropical Rainforest]\n A --&gt; C[Tropical Deciduous Forest]\n A --&gt; D[Tropical Thorn Forest]\n E[Rajasthan] --&gt; D\n E --&gt; F[Desert]\n G[Himalayas] --&gt; H[Alpine Forest]\n G --&gt; I[Mountainous Meadows]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Western Ghats] --&gt; B[Tropical Rainforest]\n A --&gt; C[Tropical Deciduous Forest]\n A --&gt; D[Tropical Thorn Forest]\n E[Rajasthan] --&gt; D\n E --&gt; F[Desert]\n G[Himalayas] --&gt; H[Alpine Forest]\n G --&gt; I[Mountainous Meadows]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Western Ghats] --&gt; B[Tropical Rainforest]\n A --&gt; C[Tropical Deciduous Forest]\n A --&gt; D[Tropical Thorn Forest]\n E[Rajasthan] --&gt; D\n E --&gt; F[Desert]\n G[Himalayas] --&gt; H[Alpine Forest]\n G --&gt; I[Mountainous Meadows]</pre></noscript></div>\n<p>This diagram illustrates the different biomes found in India, highlighting their geographical distribution and unique characteristics.</p>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Western Ghats] --> B[Tropical Rainforest]\n    A --> C[Tropical Deciduous Forest]\n    A --> D[Tropical Thorn Forest]\n    E[Rajasthan] --> D\n    E --> F[Desert]\n    G[Himalayas] --> H[Alpine Forest]\n    G --> I[Mountainous Meadows]"
+   ]
+  },
+  {
+   "heading": "1.5.1. Bio Diversity",
+   "id": "",
+   "html": "<p><strong>Bio diversity</strong> refers to the variety and variability of life forms within a given species, ecosystem, or planet. It is a measure of the variety of organisms, including plants, animals, fungi, and microorganisms, and the ecological and evolutionary processes that sustain them. Bio diversity is essential for maintaining the health and productivity of ecosystems and providing a wide range of services that support human well-being.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Bio Diversity",
+   "id": "",
+   "html": "<ul>\n<li><strong>Ecosystem Functioning</strong>: Bio diversity plays a crucial role in maintaining the health and productivity of ecosystems. For instance, the presence of diverse plant species can help in soil stabilization, nutrient cycling, and pest control.</li>\n<li><strong>Economic Value</strong>: Bio diversity provides many economic benefits, such as food, medicine, and raw materials. For example, 50% of the world's medicines come from plants, animals, and microorganisms.</li>\n<li><strong>Cultural and Recreational Value</strong>: Many cultures rely on bio diverse ecosystems for their traditional practices, and bio diverse areas offer recreational opportunities, such as hiking and bird-watching.</li>\n<li><strong>Climate Regulation</strong>: Bio diverse ecosystems help in regulating the climate by sequestering carbon and producing oxygen.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.2. International Union for Conservation of Nature (IUCN) Red List",
+   "id": "",
+   "html": "<p>The <strong>International Union for Conservation of Nature (IUCN)</strong> is a global organization that provides information on the conservation status of species and ecosystems. The IUCN Red List is a comprehensive inventory of the global conservation status of biological species.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Categories of the IUCN Red List",
+   "id": "",
+   "html": "<ul>\n<li><strong>Extinct (EX)</strong>: The last individual of the species has died.</li>\n<li><strong>Extinct in the Wild (EW)</strong>: The species exists only in captivity or has disappeared from its natural habitat.</li>\n<li><strong>Critically Endangered (CR)</strong>: Facing an extremely high risk of extinction in the wild.</li>\n<li><strong>Endangered (EN)</strong>: Facing a very high risk of extinction in the wild.</li>\n<li><strong>Vulnerable (VU)</strong>: Facing a high risk of extinction in the wild.</li>\n<li><strong>Near Threatened (NT)</strong>: Likely to become endangered in the near future.</li>\n<li><strong>Least Concern (LC)</strong>: Does not qualify for any of the threatened categories.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />Suppose a species of butterfly is found to be declining rapidly due to habitat loss and climate change. The IUCN Red List would classify this species as <strong>Endangered (EN)</strong>. This classification helps in prioritizing conservation efforts and raising awareness about the species.</div>",
+   "examples": [
+    "Suppose a species of butterfly is found to be declining rapidly due to habitat loss and climate change. The IUCN Red List would classify this species as **Endangered (EN)**. This classification helps in prioritizing conservation efforts and raising awareness about the species."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.6.1. Ecological Footprint",
+   "id": "",
+   "html": "<p>The <strong>ecological footprint</strong> is a tool used to measure the demand on Earth's ecosystems and the capacity of the planet to regenerate resources and absorb waste. It quantifies the amount of biologically productive land and water an individual, a city, a country, or a company requires to produce the resources it consumes and to absorb the waste it generates, using prevailing technology and resource management.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Calculation of Ecological Footprint",
+   "id": "",
+   "html": "<p>The ecological footprint is calculated by summing the following components:</p>\n<ul>\n<li><strong>Land and Water</strong>: Used for agriculture, forestry, and urban areas.</li>\n<li><strong>Air</strong>: Used for carbon dioxide emissions.</li>\n<li><strong>Built-up Land</strong>: Land used for buildings and infrastructure.</li>\n</ul>\n<p>The formula for calculating the ecological footprint is:</p>\n<p>[ \\text{Ecological Footprint} = \\text{Land and Water} + \\text{Air} + \\text{Built-up Land} ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.6.2. Virtual Water",
+   "id": "",
+   "html": "<p><strong>Virtual water</strong> refers to the water used in the production of goods and services. It is the amount of water that is embedded in the production of a product, from the water used in growing crops to the water used in manufacturing and transporting the product.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Virtual Water",
+   "id": "",
+   "html": "<ul>\n<li><strong>Water Scarcity Management</strong>: Understanding virtual water can help in managing water resources more efficiently.</li>\n<li><strong>Trade and Sustainability</strong>: Virtual water analysis is crucial for sustainable trade policies, especially in water-scarce regions.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.6.3. Global Ecological Overshoot",
+   "id": "",
+   "html": "<p><strong>Global Ecological Overshoot</strong> occurs when the total ecological footprint of human activities exceeds the Earth's capacity to regenerate resources and absorb waste. This leads to resource depletion and environmental degradation.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Calculation of Global Ecological Overshoot",
+   "id": "",
+   "html": "<p>The global ecological overshoot can be calculated by comparing the total ecological footprint of humanity with the Earth's biocapacity.</p>\n<p>[ \\text{Global Ecological Overshoot} = \\text{Total Ecological Footprint} - \\text{Earth's Biocapacity} ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />If the total ecological footprint of humanity is 1.7 global hectares per person and the Earth's biocapacity is 1.6 global hectares per person, the global ecological overshoot would be:<br /><br />[ \\text{Global Ecological Overshoot} = 1.7 - 1.6 = 0.1 ]<br /><br />This means that humanity is using 10% more of the Earth's resources than what the planet can regenerate in a year.</div>",
+   "examples": [
+    "If the total ecological footprint of humanity is 1.7 global hectares per person and the Earth's biocapacity is 1.6 global hectares per person, the global ecological overshoot would be: [ \\text{Global Ecological Overshoot} = 1.7 - 1.6 = 0.1 ] This means that humanity is using 10% more of the Earth's resources than what the planet can regenerate in a year."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>In conclusion, bio diversity and the IUCN Red List are crucial for understanding and protecting the health of ecosystems. The ecological footprint and virtual water are tools that help in assessing the sustainability of human activities and managing resources effectively. The global ecological overshoot highlights the need for sustainable practices to avoid further environmental degradation.</p>",
+   "examples": [],
+   "mermaid": []
+  }
+ ]
+}

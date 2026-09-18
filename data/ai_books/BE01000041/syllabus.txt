@@ -1,0 +1,142 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Degree
+Branch: All
+Course / Subject Code : BE01000041
+Course / Subject Name : Mathematics – 1
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 1 | 3
+w. e. f. Academic Year: 2024-25
+Semester: Ist semester
+Category of the Course: BSC
+Prerequisite: Basic Algebra, Geometry, Trigonometry and Calculus
+Rationale: The goal of this course is to achieve conceptual understanding and to retain the
+best traditions of traditional calculus. This is a foundation course which mainly
+deals with topics such as single variable and multivariable calculus and plays an
+important role in the understanding of science, engineering, economics and
+computer science, among other disciplines.
+Course Outcome:
+After Completion of the Course, Student will able to:
+No Course Outcomes RBT Level
+01
+To apply differential and integral calculus to improper integrals. Apart from
+some other applications they will have a basic understanding of Beta and Gamma
+functions.
+A
+02 The fallouts of Taylor’s and Maclaurin’s Theorem that is fundamental to
+application of analysis to Engineering problems.
+A
+03 The tool of Sequences and Infinite series for learning advanced Engineering
+Mathematics.
+A
+04 To deal with functions of several variables that is essential in most branches of
+engineering.
+A
+05 To acquaint the student with mathematical tools needed in evaluating multiple
+integrals and their usage.
+A
+*Revised Bloom’s Taxonomy (RBT)
+Teaching and Examination Scheme:
+Teaching Scheme
+(in Hours)
+Total
+Credits
+L+T+
+(PR/2)
+Assessment Pattern and Marks
+Total
+Marks
+L T PR C
+Theory Tutorial / Practical
+ESE
+(E)
+PA / CA
+(M) PA/CA (I) ESE (V)
+3 1 0 4 70 30 0 0 100
+
+-- 1 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Degree
+Branch: All
+Course / Subject Code : BE01000041
+Course / Subject Name : Mathematics – 1
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 2 | 3
+Course Content:
+Unit
+No. Content No. of
+Hours
+% of
+Weightage
+1.
+Module 1: Basic Calculus:
+Evaluation of improper integrals of Type-I and Type-II, Beta and
+Gamma functions and their properties; Applications of definite
+integrals to evaluate surface areas and volumes of revolutions
+9 20%
+2.
+Module 2: Single-variable Calculus (Differentiation):
+Taylor’s and Maclaurin’s theorem for a function of one variable,
+Taylor’s and Maclaurin’s series of a function using statement of the
+theorems; Extreme values of functions; Indeterminate forms and L'
+Hospital's rule.
+9 20%
+3.
+Module 3: Sequences and series:
+Sequence of numbers and its convergence, Infinite series; Tests for
+convergence (Telescoping series, Geometric series test, Integral test, p-
+test, comparison test, D’ Alembert’s ratio test, Cauchy’s root test),
+Alternating series test; Power series, Radius and interval of
+convergence, Conditional and Absolute convergence of a power series
+9 20%
+4.
+Module 4: Multivariable Calculus (Differentiation):
+Limit, Continuity and Differentiation for function of two or more
+variables, total derivative, gradient, directional derivatives; Tangent
+plane and Normal line to the surface 𝑓(𝑥, 𝑦, 𝑧) = 𝑐; Extreme values for
+function of two variables (Maxima, minima and saddle points);
+Method of Lagrange multipliers.
+9 20%
+5.
+Module 5: Multivariable Calculus (Integration):
+Multiple Integration: Double integrals (Cartesian, Polar), change of
+order of integration in double integrals, Change of variables (Cartesian
+to polar), Applications: areas and volumes, Center of mass and Gravity
+(constant and variable densities); Triple integrals (Cartesian,
+Cylindrical, Spherical).
+9 20%
+Total 45 100
+
+-- 2 of 3 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Degree
+Branch: All
+Course / Subject Code : BE01000041
+Course / Subject Name : Mathematics – 1
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 3 | 3
+Suggested Specification Table with Marks (Theory):
+Distribution of Theory Marks (in %)
+R Level U Level A Level N Level E Level C Level
+20 35 15 0 0 0
+Where R: Remember; U: Understanding; A: Application, N: Analyze and E: Evaluate C: Create (as
+per Revised Bloom’s Taxonomy)
+References/Suggested Learning Resources:
+(a) Books:
+1. G.B. Thomas and R.L. Finney, Calculus and Analytic geometry, 9th Edition, Pearson, Reprint,
+2002.
+2. Erwin Kreyszig, Advanced Engineering Mathematics, 9th Edition, John Wiley & Sons, 2006.
+3. B.S. Grewal, Higher Engineering Mathematics, Khanna Publishers, 36th Edition, 2010.
+4. AICTE’s Prescribed Textbook: Mathematics-I (Calculus & Linear Algebra), Khanna Book
+Publishing Co.
+5. Ramana B.V., Higher Engineering Mathematics, Tata McGraw Hill New Delhi, 11th Reprint,
+2010.
+(b) Open source software and website:
+1. MIT Open Courseware
+(https://ocw.mit.edu/search/?s=department_course_numbers.sort_coursenum)
+2. NPTEL Open Courseware (https://nptel.ac.in/)
+* * * * * * *
+
+-- 3 of 3 --
+

@@ -1,0 +1,262 @@
+{
+ "code": "C4300001",
+ "subject": "Mathematics",
+ "unit": 4,
+ "lang": "en",
+ "title": "Unit – Coordinate Geometry",
+ "url": "/books/C4300001/unit-4.html",
+ "guUrl": null,
+ "words": 2452,
+ "readingMin": 14,
+ "marks": "14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)",
+ "sections": [
+  {
+   "heading": "Unit – IV: Coordinate Geometry",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code C4300001 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately <strong>14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)</strong>.</p>\n<p>Learning objectives covered by this module:</p>\n<ul>\n<li>4.a. Employ the equation of straight line to solve given simple problems.</li>\n<li>4.b. Apply the concept of slope and its consequences to</li>\n<li>4.c. Find the angle between two lines using the concept of Parallel and Perpendicular lines.</li>\n<li>4.d. Apply the concept of equation of circle with center and radius to solve the given problems.</li>\n<li>4.e. Solve problems related to general equation of circle based on tangent and normal. perpendicular lines</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.1.1. Slope of a Straight Line",
+   "id": "",
+   "html": "<p>The slope of a straight line is a measure of its steepness. It is defined as the change in the vertical direction (rise) divided by the change in the horizontal direction (run). Mathematically, it is given by:</p>\n<p>[ m = \\frac{y_2 - y_1}{x_2 - x_1} ]</p>\n<p>where (x₁, y₁) and (x₂, y₂) are any two points on the line.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.1.2. Two-Point Form of the Equation of a Straight Line",
+   "id": "",
+   "html": "<p>The two-point form of the equation of a straight line can be derived using the slope formula. If two points (x₁, y₁) and (x₂, y₂) lie on the line, the equation of the line is:</p>\n<p>[ y - y_1 = m(x - x_1) ]</p>\n<p>where m is the slope of the line, calculated as:</p>\n<p>[ m = \\frac{y_2 - y_1}{x_2 - x_1} ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.1.3. Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the equation of the straight line passing through the points (2, 3) and (4, 7).</div>\n<ol>\n<li>Calculate the slope m:</li>\n</ol>\n<p>[ m = \\frac{7 - 3}{4 - 2} = \\frac{4}{2} = 2 ]</p>\n<ol>\n<li>Use the two-point form equation:</li>\n</ol>\n<p>[ y - 3 = 2(x - 2) ]</p>\n<ol>\n<li>Simplify the equation:</li>\n</ol>\n<p>[ y - 3 = 2x - 4 ]</p>\n<p>[ y = 2x - 1 ]</p>",
+   "examples": [
+    "Find the equation of the straight line passing through the points (2, 3) and (4, 7)."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.1.4. Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Two Points] --&gt; B[Slope]\n B --&gt; C[Two-Point Form Equation]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Two Points] --&gt; B[Slope]\n B --&gt; C[Two-Point Form Equation]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Two Points] --&gt; B[Slope]\n B --&gt; C[Two-Point Form Equation]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Two Points] --> B[Slope]\n    B --> C[Two-Point Form Equation]"
+   ]
+  },
+  {
+   "heading": "4.2.1. Slope Point Form of the Equation of a Straight Line",
+   "id": "",
+   "html": "<p>The slope point form of the equation of a straight line is:</p>\n<p>[ y - y_1 = m(x - x_1) ]</p>\n<p>where (x₁, y₁) is a point on the line and m is the slope of the line.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.2.2. Intercept Form of the Equation of a Straight Line",
+   "id": "",
+   "html": "<p>The intercept form of the equation of a straight line is:</p>\n<p>[ \\frac{x}{a} + \\frac{y}{b} = 1 ]</p>\n<p>where a is the x-intercept and b is the y-intercept.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.2.3. General Form of the Equation of a Straight Line",
+   "id": "",
+   "html": "<p>The general form of the equation of a straight line is:</p>\n<p>[ Ax + By + C = 0 ]</p>\n<p>where A, B, and C are constants, and A and B are not both zero.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.2.4. Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the equation of the straight line in slope point form, intercept form, and general form passing through the points (3, 2) and (5, 6).</div>\n<ol>\n<li><strong>Slope Point Form:</strong></li>\n</ol>\n<ul>\n<li>Calculate the slope m:</li>\n</ul>\n<p>[ m = \\frac{6 - 2}{5 - 3} = \\frac{4}{2} = 2 ]</p>\n<ul>\n<li>Use the slope point form:</li>\n</ul>\n<p>[ y - 2 = 2(x - 3) ]</p>\n<ul>\n<li>Simplify:</li>\n</ul>\n<p>[ y - 2 = 2x - 6 ]</p>\n<p>[ y = 2x - 4 ]</p>\n<ol>\n<li><strong>Intercept Form:</strong></li>\n</ol>\n<ul>\n<li>Find the x-intercept a and y-intercept b:</li>\n<li>When y = 0:</li>\n</ul>\n<p>[ 0 = 2x - 4 ]</p>\n<p>[ x = 2 ]</p>\n<ul>\n<li>When x = 0:</li>\n</ul>\n<p>[ y = 2(0) - 4 = -4 ]</p>\n<ul>\n<li>Use the intercept form:</li>\n</ul>\n<p>[ \\frac{x}{2} + \\frac{y}{-4} = 1 ]</p>\n<p>[ \\frac{x}{2} - \\frac{y}{4} = 1 ]</p>\n<ol>\n<li><strong>General Form:</strong></li>\n</ol>\n<ul>\n<li>Rearrange the slope point form:</li>\n</ul>\n<p>[ y = 2x - 4 ]</p>\n<p>[ 2x - y - 4 = 0 ]</p>",
+   "examples": [
+    "Find the equation of the straight line in slope point form, intercept form, and general form passing through the points (3, 2) and (5, 6)."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.2.5. Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Slope Point Form] --&gt; B[Intercept Form]\n A --&gt; C[General Form]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Slope Point Form] --&gt; B[Intercept Form]\n A --&gt; C[General Form]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Slope Point Form] --&gt; B[Intercept Form]\n A --&gt; C[General Form]</pre></noscript></div>\n<p>By understanding and applying these forms, you can solve a variety of problems related to straight lines in your exams.</p>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Slope Point Form] --> B[Intercept Form]\n    A --> C[General Form]"
+   ]
+  },
+  {
+   "heading": "4.3.1. Condition for Parallel Lines",
+   "id": "",
+   "html": "<p>Two lines are parallel if and only if their slopes are equal. The slope of a line is the ratio of the change in y to the change in x, and can be represented as m. For two lines to be parallel, the equation of a line in slope-intercept form is given by y = mx + c, where m is the slope and c is the y-intercept.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Determine if the lines 2x + 3y = 6 and 4x + 6y = 12 are parallel.</div>\n<ol>\n<li>First, we convert the equations to slope-intercept form:</li>\n</ol>\n<ul>\n<li>For 2x + 3y = 6:</li>\n</ul>\n<p>[</p>\n<p>3y = -2x + 6 \\implies y = -\\frac{2}{3}x + 2</p>\n<p>]</p>\n<p>The slope m₁ = - 2 3.</p>\n<ul>\n<li>For 4x + 6y = 12:</li>\n</ul>\n<p>[</p>\n<p>6y = -4x + 12 \\implies y = -\\frac{2}{3}x + 2</p>\n<p>]</p>\n<p>The slope m₂ = - 2 3.</p>\n<ol>\n<li>Since m₁ = m₂, the lines are parallel.</li>\n</ol>",
+   "examples": [
+    "Determine if the lines 2x + 3y = 6 and 4x + 6y = 12 are parallel."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.3.2. Solving Problems Using the Condition of Parallel Lines",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>If the line 3x - 2y = 5 is parallel to the line 6x - 4y = k, find the value of k.</div>\n<ol>\n<li>Convert the equations to slope-intercept form:</li>\n</ol>\n<ul>\n<li>For 3x - 2y = 5:</li>\n</ul>\n<p>[</p>\n<p>-2y = -3x + 5 \\implies y = \\frac{3}{2}x - \\frac{5}{2}</p>\n<p>]</p>\n<p>The slope m₁ = 3 2.</p>\n<ul>\n<li>For 6x - 4y = k:</li>\n</ul>\n<p>[</p>\n<p>-4y = -6x + k \\implies y = \\frac{3}{2}x - \\frac{k}{4}</p>\n<p>]</p>\n<p>The slope m₂ = 3 2.</p>\n<ol>\n<li>Since the lines are parallel, m₁ = m₂:</li>\n</ol>\n<p>[</p>\n<p>\\frac{3}{2} = \\frac{3}{2} \\implies k \\text{ can be any value}</p>\n<p>]</p>\n<p>However, the problem is asking for the value of k such that the lines are parallel, which is already satisfied for any k. Thus, the specific value of k is not uniquely determined by the condition of parallelism alone.</p>",
+   "examples": [
+    "If the line 3x - 2y = 5 is parallel to the line 6x - 4y = k, find the value of k."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.4.1. Equations of Parallel Lines",
+   "id": "",
+   "html": "<p>If a line is parallel to another line, their slopes are equal. The equation of a line parallel to ax + by = c and passing through the point (x₁, y₁) can be written as ax + by = d, where d is a constant determined by substituting (x₁, y₁).</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the equation of the line parallel to 3x - 4y = 7 and passing through the point (2, -1).</div>\n<ol>\n<li>The slope of the line 3x - 4y = 7 is m = 3 4.</li>\n<li>The equation of the parallel line can be written as 3x - 4y = d.</li>\n<li>Substitute (2, -1) into the equation:</li>\n</ol>\n<p>[</p>\n<p>3(2) - 4(-1) = d \\implies 6 + 4 = d \\implies d = 10</p>\n<p>]</p>\n<ol>\n<li>Therefore, the equation of the line is 3x - 4y = 10.</li>\n</ol>",
+   "examples": [
+    "Find the equation of the line parallel to 3x - 4y = 7 and passing through the point (2, -1)."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.4.2. Equations of Perpendicular Lines",
+   "id": "",
+   "html": "<p>If two lines are perpendicular, the product of their slopes is -1. The equation of a line perpendicular to ax + by = c and passing through the point (x₁, y₁) can be written as bx - ay = d, where d is a constant determined by substituting (x₁, y₁).</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the equation of the line perpendicular to 3x - 4y = 7 and passing through the point (2, -1).</div>\n<ol>\n<li>The slope of the line 3x - 4y = 7 is m = 3 4. The slope of the perpendicular line is m' = - 4 3.</li>\n<li>The equation of the perpendicular line can be written as -4x - 3y = d.</li>\n<li>Substitute (2, -1) into the equation:</li>\n</ol>\n<p>[</p>\n<p>-4(2) - 3(-1) = d \\implies -8 + 3 = d \\implies d = -5</p>\n<p>]</p>\n<ol>\n<li>Therefore, the equation of the line is -4x - 3y = -5 or 4x + 3y = 5.</li>\n</ol>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Determine if the lines 2x + 3y = 6 and 4x + 6y = 12 are parallel.</div>\n<ol>\n<li>Convert the equations to slope-intercept form:</li>\n</ol>\n<ul>\n<li>For 2x + 3y = 6:</li>\n</ul>\n<p>[</p>\n<p>3y = -2x + 6 \\implies y = -\\frac{2}{3}x + 2</p>\n<p>]</p>\n<p>The slope m₁ = - 2 3.</p>\n<ul>\n<li>For 4x + 6y = 12:</li>\n</ul>\n<p>[</p>\n<p>6y = -4x + 12 \\implies y = -\\frac{2}{3}x + 2</p>\n<p>]</p>\n<p>The slope m₂ = - 2 3.</p>\n<ol>\n<li>Since m₁ = m₂, the lines are parallel.</li>\n</ol>\n<hr />",
+   "examples": [
+    "Find the equation of the line perpendicular to 3x - 4y = 7 and passing through the point (2, -1).",
+    "Determine if the lines 2x + 3y = 6 and 4x + 6y = 12 are parallel."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Concept",
+   "id": "",
+   "html": "<p>The angle between two lines is the smallest angle formed between their directions. This angle is measured from one line to the other and is always between 0° and 180°.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Slope of a Line",
+   "id": "",
+   "html": "<p>The slope (m) of a line is defined as the tangent of the angle (θ) that the line makes with the positive x-axis. The slope can be calculated from the coordinates of any two points on the line using the formula:</p>\n<p>[ m = \\frac{y_2 - y_1}{x_2 - x_1} ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Angle Between Two Lines",
+   "id": "",
+   "html": "<p>The angle (θ) between two lines with slopes m₁ and m₂ can be found using the following formula:</p>\n<p>[ \\tan \\theta = \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right| ]</p>\n<p>From this, the angle θ can be calculated as:</p>\n<p>[ \\theta = \\tan^{-1} \\left( \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right| \\right) ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the angle between the lines with equations 2x - 3y + 5 = 0 and 4x + 6y - 7 = 0.</div>\n<ol>\n<li>First, find the slopes of both lines.</li>\n<li>The slope of the line 2x - 3y + 5 = 0 is:</li>\n</ol>\n<p>[ m_1 = \\frac{2}{3} ]</p>\n<ol>\n<li>The slope of the line 4x + 6y - 7 = 0 is:</li>\n</ol>\n<p>[ m_2 = -\\frac{4}{6} = -\\frac{2}{3} ]</p>\n<ol>\n<li>Substitute these values into the formula for the angle between the lines:</li>\n</ol>\n<p>[ \\tan \\theta = \\left| \\frac{\\frac{2}{3} - \\left(-\\frac{2}{3}\\right)}{1 + \\left(\\frac{2}{3}\\right)\\left(-\\frac{2}{3}\\right)} \\right| = \\left| \\frac{\\frac{4}{3}}{1 - \\frac{4}{9}} \\right| = \\left| \\frac{\\frac{4}{3}}{\\frac{5}{9}} \\right| = \\left| \\frac{4}{3} \\times \\frac{9}{5} \\right| = \\left| \\frac{12}{5} \\right| = \\frac{12}{5} ]</p>\n<ol>\n<li>Therefore, the angle θ is:</li>\n</ol>\n<p>[ \\theta = \\tan^{-1} \\left( \\frac{12}{5} \\right) ]</p>",
+   "examples": [
+    "Find the angle between the lines with equations 2x - 3y + 5 = 0 and 4x + 6y - 7 = 0."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Lines] --&gt; B[Find Slopes]\n B --&gt; C[Calculate Angle]\n C --&gt; D[Angle between Lines]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Lines] --&gt; B[Find Slopes]\n B --&gt; C[Calculate Angle]\n C --&gt; D[Angle between Lines]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Lines] --&gt; B[Find Slopes]\n B --&gt; C[Calculate Angle]\n C --&gt; D[Angle between Lines]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Lines] --> B[Find Slopes]\n    B --> C[Calculate Angle]\n    C --> D[Angle between Lines]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p>The general equation of a circle with center (h, k) and radius r is given by:</p>\n<p>[ (x - h)^2 + (y - k)^2 = r^2 ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Standard Form",
+   "id": "",
+   "html": "<p>The standard form of the equation of a circle with center (h, k) and radius r is:</p>\n<p>[ (x - h)^2 + (y - k)^2 = r^2 ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the equation of the circle with center (3, -4) and radius 5.</div>\n<ol>\n<li>Use the standard form of the equation of a circle:</li>\n</ol>\n<p>[ (x - h)^2 + (y - k)^2 = r^2 ]</p>\n<ol>\n<li>Substitute h = 3, k = -4, and r = 5:</li>\n</ol>\n<p>[ (x - 3)^2 + (y + 4)^2 = 5^2 ]</p>\n<ol>\n<li>Simplify the right-hand side:</li>\n</ol>\n<p>[ (x - 3)^2 + (y + 4)^2 = 25 ]</p>",
+   "examples": [
+    "Find the equation of the circle with center (3, -4) and radius 5."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Circle] --&gt; B[Center and Radius]\n B --&gt; C[Equation of Circle]\n C --&gt; D[Standard Form]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Circle] --&gt; B[Center and Radius]\n B --&gt; C[Equation of Circle]\n C --&gt; D[Standard Form]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Circle] --&gt; B[Center and Radius]\n B --&gt; C[Equation of Circle]\n C --&gt; D[Standard Form]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Circle] --> B[Center and Radius]\n    B --> C[Equation of Circle]\n    C --> D[Standard Form]"
+   ]
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<ul>\n<li>The angle between two lines can be found using the slopes of the lines.</li>\n<li>The equation of a circle with center and radius can be written in standard form.</li>\n</ul>\n<p>These examples and explanations should help you in solving problems related to the angle between lines and the equation of a circle with center and radius.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Standard Form",
+   "id": "",
+   "html": "<p>A circle is the set of all points in a plane that are equidistant from a fixed point called the center. The distance from the center to any point on the circle is known as the radius. The general equation of a circle is given by the formula:</p>\n<p>[ x^2 + y^2 + 2gx + 2fy + c = 0 ]</p>\n<p>where g, f, and c are constants. This equation can be transformed into the standard form (x - h)² + (y - k)² = r² by completing the square.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Converting to Standard Form",
+   "id": "",
+   "html": "<p>To convert the general form to the standard form, follow these steps:</p>\n<ol>\n<li><strong>Group the x and y terms:</strong></li>\n</ol>\n<p>[ x^2 + 2gx + y^2 + 2fy + c = 0 ]</p>\n<ol>\n<li><strong>Complete the square for x and y:</strong></li>\n</ol>\n<p>[ (x^2 + 2gx) + (y^2 + 2fy) + c = 0 ]</p>\n<p>[ (x + g)^2 - g^2 + (y + f)^2 - f^2 + c = 0 ]</p>\n<p>[ (x + g)^2 + (y + f)^2 = g^2 + f^2 - c ]</p>\n<ol>\n<li><strong>Identify the center and radius:</strong></li>\n</ol>\n<p>[ (x + g)^2 + (y + f)^2 = r^2 ]</p>\n<p>Here, the center of the circle is (-g, -f) and the radius r is g² + f² - c.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the center and radius of the circle given by the equation x² + y² - 6x + 4y - 12 = 0.</div>\n<ol>\n<li><strong>Group the x and y terms:</strong></li>\n</ol>\n<p>[ x^2 - 6x + y^2 + 4y = 12 ]</p>\n<ol>\n<li><strong>Complete the square:</strong></li>\n</ol>\n<p>For x: x² - 6x becomes (x - 3)² - 9.</p>\n<p>For y: y² + 4y becomes (y + 2)² - 4.</p>\n<p>[ (x - 3)^2 - 9 + (y + 2)^2 - 4 = 12 ]</p>\n<p>[ (x - 3)^2 + (y + 2)^2 - 13 = 12 ]</p>\n<p>[ (x - 3)^2 + (y + 2)^2 = 25 ]</p>\n<ol>\n<li><strong>Identify the center and radius:</strong></li>\n</ol>\n<p>The center is (3, -2) and the radius is 25 = 5.</p>\n<p>Thus, the center is (3, -2) and the radius is 5.</p>",
+   "examples": [
+    "Find the center and radius of the circle given by the equation x² + y² - 6x + 4y - 12 = 0."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications of the General Equation",
+   "id": "",
+   "html": "<p>The general equation of a circle can be used in various applications, such as in physics to describe the motion of objects in a circular path, or in engineering to design circular structures.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition of Tangent and Normal",
+   "id": "",
+   "html": "<ul>\n<li><strong>Tangent:</strong> A tangent to a circle is a line that touches the circle at exactly one point.</li>\n<li><strong>Normal:</strong> The normal to a circle at a point is a line that is perpendicular to the tangent at that point.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Equations of Tangent and Normal",
+   "id": "",
+   "html": "<p>To find the equations of the tangent and normal to a circle, consider the circle x² + y² + 2gx + 2fy + c = 0 and a point (x₁, y₁) on the circle.</p>\n<ol>\n<li><strong>Equation of the Tangent:</strong></li>\n</ol>\n<p>The equation of the tangent at (x₁, y₁) is given by:</p>\n<p>[ xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0 ]</p>\n<ol>\n<li><strong>Equation of the Normal:</strong></li>\n</ol>\n<p>The equation of the normal at (x₁, y₁) can be found by using the slope of the tangent. The slope of the tangent is - g + x₁ f + y₁, so the slope of the normal is the negative reciprocal, which is f + y₁ g + x₁.</p>\n<p>The equation of the normal is:</p>\n<p>[ y - y_1 = \\frac{f + y_1}{g + x_1} (x - x_1) ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the equation of the tangent and normal to the circle x² + y² - 6x + 4y - 12 = 0 at the point (5, 2).</div>\n<ol>\n<li><strong>Equation of the Tangent:</strong></li>\n</ol>\n<p>The given circle is x² + y² - 6x + 4y - 12 = 0. The point is (5, 2).</p>\n<p>The equation of the tangent is:</p>\n<p>[ 5x + 2y - 3(5 + 5) + 2(2 + 2) - 12 = 0 ]</p>\n<p>[ 5x + 2y - 30 + 8 - 12 = 0 ]</p>\n<p>[ 5x + 2y - 34 = 0 ]</p>\n<ol>\n<li><strong>Equation of the Normal:</strong></li>\n</ol>\n<p>The slope of the tangent at (5, 2) is - -3 2 = 3 2. The slope of the normal is - 2 3.</p>\n<p>The equation of the normal is:</p>\n<p>[ y - 2 = -\\frac{2}{3} (x - 5) ]</p>\n<p>[ 3(y - 2) = -2(x - 5) ]</p>\n<p>[ 3y - 6 = -2x + 10 ]</p>\n<p>[ 2x + 3y - 16 = 0 ]</p>\n<p>Thus, the equation of the tangent is 5x + 2y - 34 = 0 and the equation of the normal is 2x + 3y - 16 = 0.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[General Equation] --&gt; B[Convert to Standard Form]\n B --&gt; C[Identify Center and Radius]\n C --&gt; D[Example: Center and Radius]\n D --&gt; E[Tangent Equation]\n E --&gt; F[Normal Equation]\n F --&gt; G[Example: Tangent and Normal]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[General Equation] --&gt; B[Convert to Standard Form]\n B --&gt; C[Identify Center and Radius]\n C --&gt; D[Example: Center and Radius]\n D --&gt; E[Tangent Equation]\n E --&gt; F[Normal Equation]\n F --&gt; G[Example: Tangent and Normal]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[General Equation] --&gt; B[Convert to Standard Form]\n B --&gt; C[Identify Center and Radius]\n C --&gt; D[Example: Center and Radius]\n D --&gt; E[Tangent Equation]\n E --&gt; F[Normal Equation]\n F --&gt; G[Example: Tangent and Normal]</pre></noscript></div>\n<p>This flowchart illustrates the process from the general form to finding the center and radius, and then to deriving the equations of the tangent and normal.</p>",
+   "examples": [
+    "Find the equation of the tangent and normal to the circle x² + y² - 6x + 4y - 12 = 0 at the point (5, 2)."
+   ],
+   "mermaid": [
+    "flowchart LR\n    A[General Equation] --> B[Convert to Standard Form]\n    B --> C[Identify Center and Radius]\n    C --> D[Example: Center and Radius]\n    D --> E[Tangent Equation]\n    E --> F[Normal Equation]\n    F --> G[Example: Tangent and Normal]"
+   ]
+  }
+ ]
+}

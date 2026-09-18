@@ -1,0 +1,79 @@
+{
+ "code": "C4300002",
+ "subject": "Communication Skills in English",
+ "branchLabel": "Gujarat Technological University Artificial Intelligence and Data Science Semester 1",
+ "subjectPage": "/ai-data-science/sem1/communication-skills-in-english.html",
+ "units": [
+  {
+   "n": 1,
+   "label": "Unit – Theory of Communi- cation",
+   "file": "unit-1.html",
+   "guFile": null,
+   "words": 2699,
+   "readingMin": 15,
+   "marks": ""
+  },
+  {
+   "n": 2,
+   "label": "Unit – Grammar",
+   "file": "unit-2.html",
+   "guFile": null,
+   "words": 3890,
+   "readingMin": 22,
+   "marks": ""
+  },
+  {
+   "n": 3,
+   "label": "Unit – Prose and Poetry",
+   "file": "unit-3.html",
+   "guFile": null,
+   "words": 3210,
+   "readingMin": 18,
+   "marks": ""
+  },
+  {
+   "n": 4,
+   "label": "Unit – Techniques of Writing",
+   "file": "unit-4.html",
+   "guFile": null,
+   "words": 1417,
+   "readingMin": 8,
+   "marks": ""
+  },
+  {
+   "n": 5,
+   "label": "Unit – Mechanics of Speaking",
+   "file": "unit-5.html",
+   "guFile": null,
+   "words": 1478,
+   "readingMin": 8,
+   "marks": ""
+  }
+ ],
+ "title": "Communication Skills in English",
+ "titleGu": "Communication Skills in English",
+ "pages": [
+  {
+   "n": 1,
+   "file": "unit-1.html"
+  },
+  {
+   "n": 2,
+   "file": "unit-2.html"
+  },
+  {
+   "n": 3,
+   "file": "unit-3.html"
+  },
+  {
+   "n": 4,
+   "file": "unit-4.html"
+  },
+  {
+   "n": 5,
+   "file": "unit-5.html"
+  }
+ ],
+ "full": "full-book.html",
+ "updatedAt": "2026-09-13T08:59:06.283Z"
+}

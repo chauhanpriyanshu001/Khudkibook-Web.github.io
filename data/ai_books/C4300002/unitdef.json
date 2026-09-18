@@ -1,0 +1,132 @@
+{
+  "code": "C4300002",
+  "subject": "Communication Skills in English",
+  "slug": "communication-skills-in-english",
+  "branchLabel": "Gujarat Technological University Artificial Intelligence and Data Science Semester 1",
+  "page": "/ai-data-science/sem1/communication-skills-in-english.html",
+  "semId": "sem1",
+  "level": "degree",
+  "references": {
+    "books": [],
+    "websites": []
+  },
+  "syllabusUrl": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf",
+  "generatedAt": "2026-09-13T05:27:58.876Z",
+  "units": [
+    {
+      "n": 1,
+      "roman": "1",
+      "title": "Theory of Communi- cation",
+      "uos": [
+        "1.a. Define the theory of communication",
+        "1.b. State different types of communication.",
+        "1.c. Explain barriers in communication",
+        "1.d. Communicate effectively"
+      ],
+      "topics": [
+        "1.1. Concept of effective communication and communication skills",
+        "1.2. Basic communication model(S+M+C+R+F)",
+        "1.3. Types of communication",
+        "1.4. Barriers of effective communication"
+      ],
+      "marks": null,
+      "titleGu": null
+    },
+    {
+      "n": 2,
+      "roman": "2",
+      "title": "Grammar",
+      "uos": [
+        "2.a. Identify different parts of speech and their usage in the sentence.",
+        "2.f. Choose appropriate parts of speech for day to day communication.",
+        "2.b. Apply correct verbs in the given sentence",
+        "2.g. Use grammatically correct sentence in day to day communication",
+        "2.c. Use appropriate Modal Auxiliaries in a given expression.",
+        "2.h. Choose appropriate Modals in situations where different modes of expressions are used.",
+        "2.d. Choose the correct verb for the given subject.",
+        "2.i. Use the correct verb depending on the subject in a sentence.",
+        "2.e. Identify basic sentence patterns of English and form sentences in correct word order.",
+        "2.j. Use correct word order in their speech."
+      ],
+      "topics": [
+        "2.1. Parts of Speech Noun, Pronoun, Verb, Adjective, Adverb and Interjection- Meaning and Examples (Recapitulation) Prepositions- In, into, On, At, for, Since, between, among, to, towards Connectors - If, Unless, Otherwise, Because, Therefore, Who, Which, Where, When, Why.",
+        "2.2. Tenses",
+        "2.2.1. Present Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+        "2.2.2. Past Tense (Simple, Continuous, Perfect)",
+        "2.2.3. Future Tense (Simple)",
+        "2.3. Modal Auxiliaries (Can, Could, May, Might, Shall, Should, Will, Would, Must, Have to, Ought to) Communication Skills in English Course Code: 4300002 NITTTR Bhopal – GTU - COGC-2021 Curriculum Topics and Sub topics Writing Skills Speaking Skills",
+        "2.4. Subject- Verb Agreement",
+        "2.5. Basic Sentence Patterns of English (Explanation of S, V,O,A,C) S-Subject, V-Verb, O- Object, A-Adverbial and C- Complement Four Basic Sentence Patterns  S+V  S+V+O  S+V+A  S+V+C"
+      ],
+      "marks": null,
+      "titleGu": null
+    },
+    {
+      "n": 3,
+      "roman": "3",
+      "title": "Prose and Poetry",
+      "uos": [
+        "3.a. Realise the central idea of the literary piece.",
+        "3.b. Formulate sentences using new words.",
+        "3.c. Enrich vocabulary through reading.",
+        "3.d. Write short as well as long answers to questions.",
+        "3.e. Express ideas in English in written form effectively",
+        "3.f. Explain the content of the passage/story in the class.",
+        "3.g. Ask appropriate questions as well to answer them.",
+        "3.h. Follow oral instructions and interpret them to others.",
+        "3.i. Present topics effectively and clearly.",
+        "3.j. Use dictionary, thesaurus and other reference books.",
+        "3.k. Describe an object or product.",
+        "3.l. Use correct pronunciation and intonation.",
+        "3.m. Give instructions orally."
+      ],
+      "topics": [
+        "3.1. Prose The Leopard- Ruskin Bond",
+        "3.2. Short Story After Twenty Years- O Henry",
+        "3.3. Poetry  Stopping by Woods on Snowy Evening-Robert Frost  Where the Mind is Without Fear- Rabindranath Tagore",
+        "3.4. Language components: Language components should be integrated with:  Passages from text book/Work book.  Unseen passages Reading with correct pronunciation. Communication Skills in English Course Code: 4300002 NITTTR Bhopal – GTU - COGC-2021 Curriculum Topics and Sub topics Writing Skills Speaking Skills",
+        "3.5. Vocabulary Items:  Matching items (Word and its Meaning)  One-Word Substitution  Phrases and Idioms  Synonyms and Antonyms"
+      ],
+      "marks": null,
+      "titleGu": null
+    },
+    {
+      "n": 4,
+      "roman": "4",
+      "title": "Techniques of Writing",
+      "uos": [
+        "4.a. Compose emails on given topics/ situations.",
+        "4.b. Write a paragraph in words with synchronized sentence structure on the given situation / topic.",
+        "4.c. Answer the questions on the given unseen passage.",
+        "4.d. Summarize the given unseen passage .",
+        "4.e. Face oral examinations and interviews.",
+        "4.f. Grasp the main idea of any conversation and communicate accordingly."
+      ],
+      "topics": [
+        "4.1. Email Writing (Business) Format and Sample Enquiry, Orders and complaints Examples for Practice",
+        "4.2. Letter writing  Types of letters,  Formats of Letters  Qualities of a good letter  Sample letters such as: - Job applications/ Cover Letter - Leave applications, Complaints, - Purchase orders, Enquiries replies etc."
+      ],
+      "marks": null,
+      "titleGu": null
+    },
+    {
+      "n": 5,
+      "roman": "5",
+      "title": "Mechanics of Speaking",
+      "uos": [
+        "5.a. Develop a welcome and farewell speech for the given theme/ situation.",
+        "5.b. Prepare a speech for introducing a guest in the given situation.",
+        "5.c. Make a weather report for the given condition .",
+        "5.d. Introduce oneself with correct pronunciation, intonation, using verbal and non- verbal gestures.",
+        "5.e. Speak in specified formal situations with correct pronunciation.",
+        "5.f. Speak in specified informal situations with correct"
+      ],
+      "topics": [
+        "5.1. Public speaking  Basics of Speaking  Importance of public speaking  Characteristics of good speech",
+        "5.2. Samples for Practice:  Welcome speech  Farewell speech  Introducing oneself and another.  Discussing Weather  Disposal of E -Waste Communication Skills in English Course Code: 4300002 NITTTR Bhopal – GTU - COGC-2021 Curriculum Topics and Sub topics Writing Skills Speaking Skills pronunciation.  Environmental protection through non-use of Plastic  Reduction of Noise pollution by vehicles.  Conversation with the Cashier- College/ bank  Telephonic Conversations (Formal and Informal)."
+      ],
+      "marks": null,
+      "titleGu": null
+    }
+  ]
+}

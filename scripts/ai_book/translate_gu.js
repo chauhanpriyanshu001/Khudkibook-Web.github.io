@@ -18,9 +18,12 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..', '..');
-const OLLAMA = 'http://localhost:11434/api/generate';
+const OLLAMA_BASE = process.env.OLLAMA_HOST || 'http://localhost:11434';
+const OLLAMA = `${OLLAMA_BASE.replace(/\/$/, '')}/api/generate`;
 
-const GU_SYSTEM = `You are a fluent, native-quality Gujarati translator for GTU diploma engineering study material.
+function makeGuSystem(level = 'diploma') {
+  const degree = level === 'degree';
+  return `You are a fluent, native-quality Gujarati translator for GTU ${degree ? 'B.E. (degree) engineering' : 'diploma engineering'} study material.
 Translate the incoming English markdown chapter into CLEAN, exam-oriented GUJARATI (ગુજરાતી script).
 
 Strict rules:
@@ -31,14 +34,15 @@ Strict rules:
 4. Fenced code blocks that begin with a line of exactly \`\`\`mermaid\`\`\` MUST be copied 100% VERBATIM and never translated or reformatted.
 5. Keep numbers, subject codes, marks, and technical terms intact. When a technical term helps clarity,
    keep the English term and give the Gujarati in parentheses, e.g. biocompatibility, બાયોકોમ્પેટિબિલિટી.
-6. Use "એકમ" for Unit; keep topic numbering like 1.1, 1.4.2 unchanged.
-7. Simple, clear, exam-oriented Gujarati suitable for diploma students. Always use Gujarati script (never transliterate to Latin).`;
+6. Use "એકમ" for Unit/module; keep topic numbering like 1.1, 1.4.2 unchanged.
+7. Simple, clear, exam-oriented Gujarati suitable for ${degree ? 'degree-level (B.E.) students' : 'diploma students'}. Always use Gujarati script (never transliterate to Latin).`;
+}
 
-async function callOllama(prompt, { model = process.env.OLLAMA_GU_MODEL || 'aya-expanse:8b', maxTokens = 3000, temperature = 0.3, retries = 3 } = {}) {
+async function callOllama(prompt, { model = process.env.OLLAMA_GU_MODEL || 'aya-expanse:8b', maxTokens = 3000, temperature = 0.3, retries = 3, system } = {}) {
   const body = {
     model,
     prompt,
-    system: GU_SYSTEM,
+    system: system || makeGuSystem('diploma'),
     stream: true,
     options: { num_predict: maxTokens, temperature }
   };
@@ -140,8 +144,14 @@ async function main() {
   }
 
   const md = fs.readFileSync(enPath, 'utf8');
+  let level = 'diploma';
+  try {
+    const def = JSON.parse(fs.readFileSync(path.join(dataDir, 'unitdef.json'), 'utf8'));
+    if (def.level) level = def.level;
+  } catch (_) { /* default diploma */ }
+  const system = makeGuSystem(level);
   const chunks = splitChunks(md);
-  console.log(`\n=== Gujarati translation | ${code} unit ${unit} | ${chunks.length} chunks | ${model || process.env.OLLAMA_GU_MODEL || 'aya-expanse:8b'} ===\n`);
+  console.log(`\n=== Gujarati translation | ${code} unit ${unit} (${level}) | ${chunks.length} chunks | ${model || process.env.OLLAMA_GU_MODEL || 'aya-expanse:8b'} ===\n`);
 
   const outParts = [];
   const startT = Date.now();
@@ -154,7 +164,7 @@ async function main() {
       continue;
     }
     console.log(`[part ${ck.idx + 1}/${chunks.length}] translating (${ck.text.trim().split(/\s+/).length} words)...`);
-    const gu = await callOllama(ck.text, { model });
+    const gu = await callOllama(ck.text, { model, system });
     const cleaned = gu.trim();
     fs.writeFileSync(path.join(dataDir, `part-gu-${ck.idx}.md`), cleaned);
     state[doneKey] = new Date().toISOString();

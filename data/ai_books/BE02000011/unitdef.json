@@ -1,0 +1,123 @@
+{
+  "code": "BE02000011",
+  "subject": "Mathematics – 2",
+  "slug": "mathematics-2",
+  "branchLabel": "Gujarat Technological University Aeronautical Engineering Semester 2",
+  "page": "/aeronautical/sem2/mathematics-2.html",
+  "semId": "sem2",
+  "level": "degree",
+  "references": {
+    "books": [
+      "Erwin Kreyszig, Advanced Engineering Mathematics, 10th Edition, John Wiley & Sons, 2006",
+      "W. E. Boyce and R. C. DiPrima, Elementary Differential Equations and Boundary Value Problems, 9th Edn., Wiley India, 2009",
+      "D. Poole, Linear Algebra: A Modern Introduction, 2nd Edition, Brooks/Cole, 2005",
+      "S. L. Ross, Differential Equations, 3rd Ed., Wiley India, 1984",
+      "E. A. Coddington, An Introduction to Ordinary Differential Equations, Prentice Hall India, 1995",
+      "E. L. Ince, Ordinary Differential Equations, Dover Publications, 1958",
+      "J. W. Brown and R. V. Churchill, Complex Variables and Applications, 7th Ed., Mc-Graw Hill, 2004",
+      "B.S. Grewal, Higher Engineering Mathematics, Khanna Publishers, 36th Edition, 2010",
+      "Howard Anton, Irl Bivens, Stephens Davis, Calculus, 10e, Wiley, 2016",
+      "AICTE’s Prescribed Textbook: Mathematics-II (Calculus, Ordinary Differential Equations and Complex Variable), Khanna Book Publishing Co"
+    ],
+    "websites": [
+      "https://ocw.mit.edu/search/?s=department_course_numbers.sort_coursenum",
+      "https://nptel.ac.in/"
+    ]
+  },
+  "syllabusUrl": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/BE02000011.pdf",
+  "generatedAt": "2026-09-07T03:44:04.036Z",
+  "units": [
+    {
+      "n": 1,
+      "roman": "1",
+      "title": "Matrices",
+      "uos": [],
+      "topics": [
+        "Linear Independence",
+        "Row Echelon form (REF)and Reduced Row Echelon form(RREF) of a Matrix, Rank of a Matrix using REF/RREF",
+        "Inverse of a matrix using Gauss-Jordan method",
+        "Solution of System of linear equations by elementary row operations",
+        "Symmetric, skew- symmetric and orthogonal matrices",
+        "Eigen values and eigenvectors",
+        "Diagonalization of matrices",
+        "Inverse of a Matrix by Cayley-Hamilton Theorem"
+      ],
+      "hours": 10,
+      "weightage": "22%",
+      "titleGu": null,
+      "marks": "22% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    },
+    {
+      "n": 2,
+      "roman": "2",
+      "title": "First order ordinary differential equations",
+      "uos": [],
+      "topics": [
+        "Exact differential equations, Integrating factors for non-Exact differential equations, linear and Bernoulli’s equations",
+        "Equations not of first degree: equations solvable for p, equations solvable for y, equations solvable for x and Clairaut’s type"
+      ],
+      "hours": 8,
+      "weightage": "18%",
+      "titleGu": null,
+      "marks": "18% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    },
+    {
+      "n": 3,
+      "roman": "3",
+      "title": "Ordinary differential equations of higher orders",
+      "uos": [],
+      "topics": [
+        "Higher order linear differential equations with constant and variable coefficients, Euler-Cauchy equations, solution by variation of parameters, method of undetermined coefficients",
+        "Classification of Ordinary and Singular points, Power series solutions for ordinary points"
+      ],
+      "hours": 10,
+      "weightage": "22%",
+      "titleGu": null,
+      "marks": "22% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    },
+    {
+      "n": 4,
+      "roman": "4",
+      "title": "Complex Variables (Differentiation)",
+      "uos": [],
+      "topics": [
+        "Differentiation, Cauchy-Riemann equations, analytic functions, harmonic functions, finding harmonic conjugate",
+        "analyticity of elementary functions (exponential, trigonometric, logarithm) and their properties"
+      ],
+      "hours": 9,
+      "weightage": "20%",
+      "titleGu": null,
+      "marks": "20% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    },
+    {
+      "n": 5,
+      "roman": "5",
+      "title": "Complex Variables (Integration)",
+      "uos": [],
+      "topics": [
+        "Contour integrals, Cauchy-Goursat theorem (without proof), Cauchy Integral formula (without proof)",
+        "Taylor’s series, zeros of analytic functions, singularities, Laurent’s series",
+        "Residues, Cauchy residue theorem (without proof), Rouche’s theorem"
+      ],
+      "hours": 8,
+      "weightage": "18%",
+      "titleGu": null,
+      "marks": "18% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    }
+  ]
+}

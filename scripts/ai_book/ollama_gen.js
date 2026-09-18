@@ -14,24 +14,34 @@
 
 const fs = require('fs');
 const path = require('path');
+const { repairMermaid, repairMarkdown, analyzeMermaid } = require('./mermaid_fix');
+const { cleanLatexMath } = require('./tex_fix');
 
 const ROOT = path.join(__dirname, '..', '..');
-const OLLAMA = 'http://localhost:11434/api/generate';
+// OLLAMA_HOST overrides the server: default localhost for "Local", set it to
+// the Race pod (http://<pod-ip>:11434) for "Race" generation. run_subject /
+// server.js pass this through via process.env.
+const OLLAMA_BASE = process.env.OLLAMA_HOST || 'http://localhost:11434';
+const OLLAMA = `${OLLAMA_BASE.replace(/\/$/, '')}/api/generate`;
 const MODEL = process.env.OLLAMA_MODEL || 'qwen2.5:7b';
 
 // Bump this whenever section prompts / content rules change so cached parts
 // from older versions are ignored. Stored in state.json as promptVersion.
-const PROMPT_VERSION = 'v2-2026-09-06-examples-mermaid';
+const PROMPT_VERSION = 'v4-2026-09-07-no-latex-subtopics';
 
-const SYSTEM = `You are a diploma engineering textbook author writing for Gujarat Technological University (GTU).
-You write textbook chapters for a semester-6 Biomedical Engineering student.
+// Subject-appropriate author prompt: degree (BE/ME) vs diploma.
+function makeSystem(level = 'degree') {
+  const degree = level === 'degree';
+  return `You are ${degree ? 'a B.E. engineering textbook author' : 'a diploma engineering textbook author'} writing for Gujarat Technological University (GTU).
+You write exam-oriented textbook chapters for GTU students.
 Style requirements:
-- Simple, clear English at diploma level; short paragraphs and bullet points.
+- Simple, clear ${degree ? 'engineering-degree-level' : 'diploma-level'} English; short paragraphs and bullet points.
 - Cover ONLY the syllabus topics given in the user message. Do NOT add topics outside the syllabus.
 - Define every important term in bold when introduced.
 - Use plain Markdown: # for the chapter title, ## for main sections, ### for sub-sections, - for bullets.
+- NEVER use LaTeX math code (no \\( ... \\), $...$, \\text{} , \\times, ^sub/superscript LaTeX syntax). Write chemical formulas, units, numbers and simple math in plain readable text: e.g. CH4, CO2, H2O, H2SO4, Fe^2+ or Fe2+, E = mc2, Z* = Z - S, 1s2 2s2 2p4. Use unicode where helpful (2s² 2p⁴, Cu²⁺). Everything must read as normal textbook words, never as raw LaTeX.
 - Include concrete examples, realistic numbers and practical context wherever relevant.
-- Be exam-oriented: mirror the verbs used in the unit outcomes (Define, Classify, Enlist, Explain, Describe).
+- Be exam-oriented: mirror the verbs used in the unit/module outcomes (Define, Classify, Enlist, Explain, Describe, Solve, Apply).
 - EVERY main section (heading ##) must include at least ONE worked example (numerical or practical/problem)
   presented as a blockquote that starts with "> **Example:** " on its first line; if the example continues on
   more lines, continue each line as "> " so all lines are part of the same blockquote.
@@ -43,13 +53,13 @@ Style requirements:
   Example of the exact fence format:
 \`\`\`mermaid
 flowchart TD
-    A[Biomaterial] --> B[Metals]
-    A --> C[Ceramics]
-    B --> D[Bone plates, implants]
+    A[Math Concepts] --> B[Core Topic]
+    A --> C[Applications]
 \`\`\`
 - Use one clear diagram per section only where it genuinely aids understanding; do not force diagrams into
   trivial content. Prefer a Markdown table when comparing tabular data.
 Do NOT include headings like "Unit Outcomes". Start directly with the chapter content.`;
+}
 
 const UNIT_DEFS = {
   4360302: {
@@ -139,11 +149,11 @@ A glossary list "**Term** – short definition" of at least 8 terms from this un
 // ------------------------------------------------------------------
 // Ollama API helpers
 // ------------------------------------------------------------------
-async function callOllama(prompt, { maxTokens = 4096, temperature = 0.7, retries = 3 } = {}) {
+async function callOllama(prompt, { maxTokens = 4096, temperature = 0.7, retries = 3, system } = {}) {
   const body = {
     model: MODEL,
     prompt,
-    system: SYSTEM,
+    system: system || makeSystem('degree'),
     stream: true,
     options: { num_predict: maxTokens, temperature }
   };
@@ -230,7 +240,11 @@ function buildDefsFromUnitdef(code, dataDir, unit) {
   return {
     subject: ud.subject || `Subject ${code}`,
     unit: `Unit – ${u.roman}: ${u.title || `Unit ${u.roman}`}`,
-    examWeight: u.marks ? `${u.marks} (per syllabus)` : (ud.units.length ? '' : ''),
+    branchLabel: ud.branchLabel || '',
+    level: ud.level || (/^(BE|ME)/i.test(String(code)) ? 'degree' : 'diploma'),
+    references: (ud.references && ud.references.books) || [],
+    referenceSites: (ud.references && ud.references.websites) || [],
+    examWeight: u.marks ? `${u.marks} (per syllabus)` : (u.weightage ? `${u.weightage} of the end-semester theory paper (per syllabus)` : (ud.units.length ? '' : '')),
     uos: u.uos || [],
     sections
   };
@@ -260,18 +274,25 @@ async function main() {
 
   const def = UNIT_DEFS[codeS] || buildDefsFromUnitdef(codeS, dataDir, unit);
   if (!def) { console.error(`No syllabus definition for code ${code}`); process.exit(1); }
+  const system = makeSystem(def.level || (/^(BE|ME)/i.test(codeS) ? 'degree' : 'diploma'));
 
   const last = path.join(dataDir, `unit-${unit}.md`);
   const statePath = path.join(dataDir, 'state.json');
   const state = fs.existsSync(statePath) ? JSON.parse(fs.readFileSync(statePath, 'utf8')) : {};
 
-  console.log(`\n=== Generating ${def.subject} | ${def.unit} (${code}) using ${MODEL} ===\n`);
+  console.log(`\n=== Generating ${def.subject} | ${def.unit} (${code}) using ${MODEL} (${def.level || 'degree'}) ===\n`);
 
   // Build the chapter doc progressively. Intro + UOs listing up front.
+  const uoBlock = def.uos && def.uos.length
+    ? `Learning objectives covered by this module:\n` + def.uos.map(u => `- ${u.replace(/^\d+[a-z]\./i, '').trim()}`).join('\n') + '\n'
+    : '';
+  const refBlock = def.references && def.references.length
+    ? `Recommended textbooks from the GTU syllabus (align your terminology and approach with these):\n` + def.references.map(b => `- ${b}`).join('\n') + '\n'
+    : '';
   const intro = `# ${def.unit}\n\n` +
-    `*(AI-generated self study book for GTU Diploma Biomedical Engineering, subject code ${code} — generated locally with Ollama.)*\n\n` +
-    `This unit carries approximately **${def.examWeight}**.\n\nLearning objectives covered by this unit:\n` +
-    def.uos.map(u => `- ${u.replace(/^\d+[a-z]\./i, '').trim()}`).join('\n') + '\n';
+    `*(AI-generated self-study book for GTU, subject code ${code} — generated locally with Ollama.)*\n\n` +
+    `This module carries approximately **${def.examWeight}**.\n\n` +
+    uoBlock + refBlock;
 
   let doc = intro;
   const parts = [];
@@ -291,14 +312,58 @@ async function main() {
       continue;
     }
 
-    const user = `Syllabus Unit Outcomes:${def.uos.map(u => '\n  ' + u).join('')}\n\n` +
-      `Course competency: "Select appropriate bio-materials and implants as per requirement."\n\n` +
-      `Now write the following part of the chapter, ${sec.target}:\n${sec.spec}\n` +
+    const uoStr = def.uos && def.uos.length
+      ? `Syllabus unit/module outcomes:\n${def.uos.map(u => '  ' + u).join('\n')}`
+      : `Syllabus module: ${def.unit}`;
+    const refStr = def.references && def.references.length
+      ? `\n\nRecommended textbooks from the official GTU syllabus (align your terminology, notation and approach with these):\n${def.references.map(b => '  - ' + b).join('\n')}`
+      : '';
+    const user = `${uoStr}${refStr}\n\nNow write the following part of the chapter, ${sec.target}:\n${sec.spec}\n` +
       (sec.hint ? `\nDiagram requirement for this part:\n- ${sec.hint}\n` : '') +
       `\nExample requirement for this part:\n- Include at least ONE worked example (numerical or practical), as a blockquote starting with "> **Example:** ".\n- Every other main section (## heading) in your output must also include a worked example in the same blockquote format.`;
 
     console.log(`\n[${si + 1}/${totalSections}] ${sec.key}: ${sec.topic}\n${sec.target}...`);
-    const text = await callOllama(user);
+    let text = await callOllama(user, { system });
+
+    // --- Post-process: strip LaTeX math into readable plain text so books never
+    // ship raw \text{CH}_4 style markup to readers. ---
+    text = cleanLatexMath(text);
+
+    // --- Diagram safety pass: repair + optionally re-request broken/truncated
+    // Mermaid so units never ship with syntax errors or half-cut diagrams. ---
+    let mermaidCheck = analyzeMermaid(text);
+    if (mermaidCheck.count > 0 && mermaidCheck.blocks.some(b => !b.ok)) {
+      const damaged = mermaidCheck.blocks.filter(b => !b.ok).map(b => b.issues.join('; '));
+      console.log(`   ! Mermaid issues (${mermaidCheck.count} diagram(s)): ${damaged.join(' | ')}`);
+      const repaired = repairMarkdown(text);
+      const repairCheck = analyzeMermaid(repaired.md);
+      const stillBroken = repairCheck.blocks.some(b => !b.ok);
+      if (!stillBroken) {
+        text = repaired.md;
+        console.log('   ✓ repaired all diagram(s) in place');
+      } else if (process.env.RETRY_BROKEN_DIAGRAMS === '1') {
+        // One corrective follow-up before we accept the content.
+        const fixPrompt = `Your previous answer contains one or more broken Mermaid diagrams (these issues were detected: ${damaged.join('; ')}).\nRewrite ONLY the broken \`\`\`mermaid blocks, keeping all wording identical. Return the complete corrected content.\nRules: open each diagram with a single diagram-type line (e.g. "flowchart TD" or "sequenceDiagram"), never put quotes/apostrophes inside node brackets, and always close the fence with a line containing exactly \`\`\`.`;
+        try {
+          let fixed = await callOllama(user + '\n\n' + fixPrompt, { system, maxTokens });
+          const fixedCheck = analyzeMermaid(fixed);
+          if (fixedCheck.count > 0 && fixedCheck.blocks.every(b => b.ok)) {
+            text = fixed;
+            console.log('   ✓ re-requested section and fixed damaged diagram(s)');
+          } else {
+            text = repairMarkdown(text).md;
+            console.log('   ! re-request still broken — kept auto-repaired version');
+          }
+        } catch (e) {
+          text = repairMarkdown(text).md;
+          console.log('   ! diagram re-request failed — kept auto-repaired version');
+        }
+      } else {
+        text = repairMarkdown(text).md;
+        console.log('   · clamped fences (auto-repair, set RETRY_BROKEN_DIAGRAMS=1 to re-request)');
+      }
+    }
+
     if (!text /* || text.trim().length < 200 */) {
       console.log(`   ! empty/short output for ${sec.key}; storing anyway`);
     }
@@ -324,4 +389,4 @@ if (require.main === module) {
   main().catch(e => { console.error('[FATAL]', e.message); process.exit(1); });
 }
 
-module.exports = { main, callOllama, SYSTEM };
+module.exports = { main, callOllama, makeSystem };

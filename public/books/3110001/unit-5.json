@@ -1,0 +1,325 @@
+{
+ "code": "3110001",
+ "subject": "Chemistry",
+ "unit": 5,
+ "lang": "en",
+ "title": "Unit – Nano material",
+ "url": "/books/3110001/unit-5.html",
+ "guUrl": null,
+ "words": 2936,
+ "readingMin": 16,
+ "marks": "",
+ "sections": [
+  {
+   "heading": "Unit – 5: Nano material",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code 3110001 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately ****.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Nano material:</strong> Nano materials or nanostructured materials are materials with at least one dimension in the nanometer (nm) range, typically between 1 and 100 nm. These materials exhibit unique properties due to their small size, such as enhanced strength, improved thermal stability, and increased surface area, which can be exploited in various applications.</p>\n<p><strong>Properties of Nano Materials:</strong></p>\n<ul>\n<li><strong>Enhanced Surface Area:</strong> The high surface area to volume ratio increases the reactivity and catalytic activity of nano materials.</li>\n<li><strong>Quantum Size Effects:</strong> Due to the small size, quantum effects become significant, affecting the optical, electrical, and magnetic properties of the material.</li>\n<li><strong>Morphological Effects:</strong> The shape and size of nano particles can be precisely controlled, leading to tailored properties.</li>\n<li><strong>Size-Dependent Properties:</strong> The properties of nano materials can vary significantly with size, which can be exploited in various applications.</li>\n</ul>\n<p><strong>Applications:</strong></p>\n<ul>\n<li><strong>Electronics:</strong> Nano materials like carbon nanotubes and graphene are used in high-performance electronics and flexible devices.</li>\n<li><strong>Biotechnology:</strong> Nano materials can be used in drug delivery systems and medical imaging.</li>\n<li><strong>Energy:</strong> Nano materials are used in solar cells, batteries, and fuel cells to enhance efficiency.</li>\n<li><strong>Construction:</strong> Nano materials improve the strength and durability of construction materials.</li>\n</ul>\n<p><strong>Advantages:</strong></p>\n<ul>\n<li><strong>Improved Performance:</strong> Enhanced mechanical, thermal, and chemical properties.</li>\n<li><strong>Sustainability:</strong> Potential for reducing waste and improving resource utilization.</li>\n<li><strong>Innovative Solutions:</strong> New applications in various fields like medicine, energy, and environmental technology.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Consider a nano material with a particle size of 50 nm. If the surface area of a single particle is A m² and the density is  g/cm³, calculate the total surface area of 1000 such particles.</div>\n<ul>\n<li><strong>Solution:</strong></li>\n<li>Surface area of a single particle: A m²</li>\n<li>Number of particles: 1000</li>\n<li>Total surface area: 1000 × A m² = 1000A m²</li>\n<li>This calculation demonstrates the significant increase in surface area due to the small size of nano particles.</li>\n</ul>",
+   "examples": [
+    "Consider a nano material with a particle size of 50 nm. If the surface area of a single particle is A m² and the density is  g/cm³, calculate the total surface area of 1000 such particles."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Sources",
+   "id": "",
+   "html": "<p><strong>Synthesis of Nano Materials:</strong></p>\n<ul>\n<li><strong>Chemical Methods:</strong> These involve the use of chemical reactions to form nano particles, such as sol-gel, hydrothermal, and precipitation methods.</li>\n<li><strong>Physical Methods:</strong> These include techniques like mechanical milling, laser ablation, and electron beam evaporation, where physical forces are used to create nano particles.</li>\n<li><strong>Biological Methods:</strong> Utilizing biological systems and enzymes for the synthesis of nano materials, often leading to more eco-friendly processes.</li>\n</ul>\n<p><strong>Characterization Techniques:</strong></p>\n<ul>\n<li><strong>Scanning Electron Microscopy (SEM):</strong> SEM provides high-resolution images of the surface morphology of nano materials.</li>\n<li><strong>Transmission Electron Microscopy (TEM):</strong> TEM offers detailed cross-sectional and surface images with atomic resolution.</li>\n<li><strong>X-ray Diffraction (XRD):</strong> XRD is used to determine the crystal structure and phase of the nano materials.</li>\n<li><strong>Dynamic Light Scattering (DLS):</strong> DLS measures the size and size distribution of nano particles in solution.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A researcher needs to determine the size and size distribution of a synthesized nano material using DLS. The researcher measures the intensity of scattered light at different angles and finds that the intensity peaks at a certain angle.</div>\n<ul>\n<li><strong>Solution:</strong></li>\n<li>The peak angle in the intensity distribution corresponds to the hydrodynamic radius of the nano particles. By using the known refractive index of the dispersant and the angle, the researcher can calculate the size of the nano particles using the equation:</li>\n</ul>\n<p>[ R_h = \\frac{1}{2} \\left( \\frac{\\lambda}{1.22 \\cdot \\sin(\\theta/2)} \\right) ]</p>\n<p>where λ is the wavelength of the light and θ is the angle of the peak.</p>\n<ul>\n<li>This example illustrates how DLS can be used to measure the size of nano particles.</li>\n</ul>\n<hr />",
+   "examples": [
+    "A researcher needs to determine the size and size distribution of a synthesized nano material using DLS. The researcher measures the intensity of scattered light at different angles and finds that the intensity peaks at a certain angle."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Fullerenes",
+   "id": "",
+   "html": "<p><strong>Fullerenes</strong> are a class of carbon allotropes, characterized by closed, hollow structures. The most well-known fullerene is <strong>C60</strong>, which has a structure resembling a soccer ball (buckminsterfullerene). The general structure of fullerenes can be represented as Cn, where n is an even number.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Structural Properties",
+   "id": "",
+   "html": "<ul>\n<li><strong>Symmetry and Geometry</strong>: Fullerenes have a high degree of symmetry. The C60 fullerene, for instance, has an icosahedral symmetry.</li>\n<li><strong>Size</strong>: The size of fullerenes is typically between 0.3 and 20 nm.</li>\n<li><strong>Bonding</strong>: Fullerenes exhibit a combination of single and double bonds, leading to a variety of bonding arrangements.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Chemical Properties",
+   "id": "",
+   "html": "<ul>\n<li><strong>Reactivity</strong>: Fullerenes can be reactive, especially when exposed to oxygen. They can also undergo reactions with other molecules due to their reactive surface.</li>\n<li><strong>Stability</strong>: Due to the delocalized π-electrons, fullerenes are relatively stable.</li>\n<li><strong>Solubility</strong>: Fullerenes are soluble in organic solvents but not in water.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Physical Properties",
+   "id": "",
+   "html": "<ul>\n<li><strong>Electrical Conductivity</strong>: Fullerenes can exhibit both metallic and semiconducting properties, depending on their structure and doping.</li>\n<li><strong>Magnetic Properties</strong>: Some fullerenes, such as <strong>C82</strong> and <strong>C70</strong>, exhibit magnetic behavior.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications of Fullerenes",
+   "id": "",
+   "html": "<ul>\n<li><strong>Electronics</strong>: Fullerenes are used in organic solar cells and organic field-effect transistors (OFETs).</li>\n<li><strong>Medicine</strong>: They have potential as drug delivery systems due to their ability to encapsulate and transport molecules.</li>\n<li><strong>Materials Science</strong>: Fullerenes can be used to strengthen materials and enhance their mechanical properties.</li>\n<li><strong>Optoelectronics</strong>: Their ability to emit light makes them useful in display technologies.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><strong>Application in Solar Cells:</strong><br />Fullerenes are used as electron acceptors in organic solar cells. In a typical organic solar cell, the fullerene derivative, <strong>C60</strong>, acts as the electron acceptor. The fullerene layer helps in the efficient extraction of electrons from the active layer, thereby improving the overall efficiency of the solar cell.</div>",
+   "examples": [
+    "**Application in Solar Cells:** Fullerenes are used as electron acceptors in organic solar cells. In a typical organic solar cell, the fullerene derivative, **C60**, acts as the electron acceptor. The fullerene layer helps in the efficient extraction of electrons from the active layer, thereby improving the overall efficiency of the solar cell."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Fullerols",
+   "id": "",
+   "html": "<p><strong>Fullerols</strong> are a class of compounds that are derived from fullerenes. They are formed by opening the fullerene cage and adding hydroxyl (-OH) groups, resulting in a linear chain structure.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Structural Properties",
+   "id": "",
+   "html": "<ul>\n<li><strong>Formation</strong>: Fullerols are formed by hydroxylating the surface of fullerenes.</li>\n<li><strong>Size</strong>: Fullerols are generally larger than fullerenes, with molecular weights ranging from 1000 to 5000 Da.</li>\n<li><strong>Hydrophilicity</strong>: Due to the presence of hydroxyl groups, fullerols are more hydrophilic than fullerenes.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Chemical Properties",
+   "id": "",
+   "html": "<ul>\n<li><strong>Reactivity</strong>: Fullerols are more reactive than fullerenes due to the presence of hydroxyl groups.</li>\n<li><strong>Stability</strong>: They are less stable than fullerenes due to the breakage of the carbon cage structure.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Physical Properties",
+   "id": "",
+   "html": "<ul>\n<li><strong>Solubility</strong>: Fullerols are highly soluble in water and organic solvents.</li>\n<li><strong>Spectroscopic Properties</strong>: Fullerols exhibit specific absorption and emission spectra, making them useful in spectroscopic studies.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications of Fullerols",
+   "id": "",
+   "html": "<ul>\n<li><strong>Biomedical Applications</strong>: Fullerols can be used as antioxidants and as drug carriers due to their hydrophilicity and reactivity.</li>\n<li><strong>Environmental Applications</strong>: They can be used in water treatment processes due to their ability to adsorb pollutants.</li>\n<li><strong>Optoelectronic Applications</strong>: Fullerols can be used in organic light-emitting diodes (OLEDs) and other optoelectronic devices.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><strong>Application in Drug Delivery:</strong><br />Fullerols can be used as carriers for drug molecules. Due to their hydrophilic nature, they can encapsulate and transport hydrophobic drugs. For instance, a fullerol derivative can be used to deliver a hydrophobic anti-cancer drug to cancer cells, enhancing the drug's effectiveness while minimizing side effects.</div>\n<p>In summary, fullerenes and fullerols have a wide range of applications due to their unique properties, making them important in various fields such as electronics, medicine, and materials science. Understanding these properties and applications is crucial for students to grasp the importance of these novel carbon allotropes in modern technology.</p>\n<hr />",
+   "examples": [
+    "**Application in Drug Delivery:** Fullerols can be used as carriers for drug molecules. Due to their hydrophilic nature, they can encapsulate and transport hydrophobic drugs. For instance, a fullerol derivative can be used to deliver a hydrophobic anti-cancer drug to cancer cells, enhancing the drug's effectiveness while minimizing side effects."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Properties",
+   "id": "",
+   "html": "<p><strong>Metal based nanoparticles</strong> are tiny particles of metals with at least one dimension less than 100 nm. These nanoparticles have unique properties due to their small size and high surface area to volume ratio. They exhibit enhanced chemical, physical, and biological properties compared to their bulk counterparts.</p>\n<ul>\n<li><strong>High Surface Area to Volume Ratio</strong>: This ratio increases the reactivity of the nanoparticles, making them more effective in catalytic reactions.</li>\n<li><strong>Quantum Size Effects</strong>: These effects can alter the optical, magnetic, and electronic properties of the nanoparticles.</li>\n<li><strong>Shape Anisotropy</strong>: Different shapes can influence the optical and electronic properties of the nanoparticles.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Types of Metal Based Nanoparticles",
+   "id": "",
+   "html": "<ol>\n<li><strong>Gold Nanoparticles (AuNP)</strong>:</li>\n</ol>\n<ul>\n<li><strong>Preparation</strong>: Commonly synthesized using reducing agents like sodium borohydride.</li>\n<li><strong>Properties</strong>: Good biocompatibility and stability.</li>\n<li><strong>Applications</strong>: Anticancer drug delivery, biosensing, and catalysis.</li>\n</ul>\n<ol>\n<li><strong>Silver Nanoparticles (AgNP)</strong>:</li>\n</ol>\n<ul>\n<li><strong>Preparation</strong>: Often synthesized using citrate reduction method.</li>\n<li><strong>Properties</strong>: Antibacterial and antifungal properties.</li>\n<li><strong>Applications</strong>: Food packaging, antimicrobial coatings, and biomedical applications.</li>\n</ul>\n<ol>\n<li><strong>Iron Nanoparticles (FeNP)</strong>:</li>\n</ol>\n<ul>\n<li><strong>Preparation</strong>: Synthesized by reduction of iron salts using reducing agents.</li>\n<li><strong>Properties</strong>: Strong magnetic properties.</li>\n<li><strong>Applications</strong>: Magnetic resonance imaging (MRI) contrast agents, magnetic separation, and hydrogen storage.</li>\n</ul>\n<ol>\n<li><strong>Copper Nanoparticles (CuNP)</strong>:</li>\n</ol>\n<ul>\n<li><strong>Preparation</strong>: Synthesized using methods like sonochemical reduction.</li>\n<li><strong>Properties</strong>: High catalytic activity.</li>\n<li><strong>Applications</strong>: Catalysis, sensors, and water purification.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />Synthesize gold nanoparticles using the citrate reduction method.<br /><br /><strong>Materials Needed:</strong><br />- Gold (III) chloride (HAuCl4)<br />- Sodium citrate dihydrate (Na3C6H5O7·2H2O)<br />- Distilled water<br /><br /><strong>Procedure:</strong><br />1. Prepare a 1 mM solution of HAuCl4 in distilled water.<br />2. In a separate beaker, prepare a 0.1 mM solution of sodium citrate dihydrate in distilled water.<br />3. Gradually add the HAuCl4 solution to the sodium citrate solution while stirring continuously.<br />4. The reaction will proceed and a reddish-brown color will appear, indicating the formation of gold nanoparticles.<br />5. Centrifuge the solution to isolate the nanoparticles.<br />6. Wash the nanoparticles with distilled water and resuspend in ethanol or another suitable solvent.</div>",
+   "examples": [
+    "Synthesize gold nanoparticles using the citrate reduction method. **Materials Needed:** - Gold (III) chloride (HAuCl4) - Sodium citrate dihydrate (Na3C6H5O7·2H2O) - Distilled water **Procedure:** 1. Prepare a 1 mM solution of HAuCl4 in distilled water. 2. In a separate beaker, prepare a 0.1 mM solution of sodium citrate dihydrate in distilled water. 3. Gradually add the HAuCl4 solution to the sodium citrate solution while stirring continuously. 4. The reaction will proceed and a reddish-brown color will appear, indicating the formation of gold nanoparticles. 5. Centrifuge the solution to isolate the nanoparticles. 6. Wash the nanoparticles with distilled water and resuspend in ethanol or another suitable solvent."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart of Metal Nanoparticle Synthesis",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Prepare Reagents] --&gt; B[HAuCl4 Solution]\n B --&gt; C[HAuCl4 Solution] --&gt; D[Add to Citrate Solution]\n D --&gt; E[Mix Solution] --&gt; F[Form Nanoparticles]\n F --&gt; G[Centrifuge] --&gt; H[Wash]\n H --&gt; I[Resuspend in Solvent]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Prepare Reagents] --&gt; B[HAuCl4 Solution]\n B --&gt; C[HAuCl4 Solution] --&gt; D[Add to Citrate Solution]\n D --&gt; E[Mix Solution] --&gt; F[Form Nanoparticles]\n F --&gt; G[Centrifuge] --&gt; H[Wash]\n H --&gt; I[Resuspend in Solvent]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Prepare Reagents] --&gt; B[HAuCl4 Solution]\n B --&gt; C[HAuCl4 Solution] --&gt; D[Add to Citrate Solution]\n D --&gt; E[Mix Solution] --&gt; F[Form Nanoparticles]\n F --&gt; G[Centrifuge] --&gt; H[Wash]\n H --&gt; I[Resuspend in Solvent]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Prepare Reagents] --> B[HAuCl4 Solution]\n    B --> C[HAuCl4 Solution] --> D[Add to Citrate Solution]\n    D --> E[Mix Solution] --> F[Form Nanoparticles]\n    F --> G[Centrifuge] --> H[Wash]\n    H --> I[Resuspend in Solvent]"
+   ]
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Carbon nanotubes (CNTs)</strong> and <strong>carbon nanowires (CNWs)</strong> are one-dimensional nanostructures composed of carbon atoms arranged in a cylindrical or wire-like structure. They are highly sought after due to their unique mechanical, electrical, and thermal properties.</p>\n<ul>\n<li><strong>Structure</strong>: CNTs and CNWs are formed by rolling a single or multiple layers of graphene sheets into a cylindrical shape.</li>\n<li><strong>Types</strong>: Single-walled carbon nanotubes (SWCNTs) and multi-walled carbon nanotubes (MWCNTs).</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties",
+   "id": "",
+   "html": "<ol>\n<li><strong>Mechanical Properties</strong>:</li>\n</ol>\n<ul>\n<li><strong>Strength</strong>: SWCNTs are the strongest and stiffest fibers known, with a tensile strength of over 100 GPa.</li>\n<li><strong>Flexibility</strong>: Due to their cylindrical shape, they can bend without breaking.</li>\n</ul>\n<ol>\n<li><strong>Electrical Properties</strong>:</li>\n</ol>\n<ul>\n<li><strong>Conductivity</strong>: Can act as either metallic or semiconducting depending on the chirality.</li>\n<li><strong>High Electrical Conductivity</strong>: Metallic SWCNTs can have conductivities comparable to metals.</li>\n</ul>\n<ol>\n<li><strong>Thermal Properties</strong>:</li>\n</ol>\n<ul>\n<li><strong>High Thermal Conductivity</strong>: Can conduct heat as efficiently as diamond.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications",
+   "id": "",
+   "html": "<ol>\n<li><strong>Electronics</strong>: Used in making transistors, sensors, and flexible electronics.</li>\n<li><strong>Materials Science</strong>: Used in composites for enhancing strength and stiffness.</li>\n<li><strong>Biotechnology</strong>: Used in drug delivery and biosensors.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />Fabricate multi-walled carbon nanotubes (MWCNTs) using chemical vapor deposition (CVD).<br /><br /><strong>Materials Needed:</strong><br />- Carbon source (e.g., ethanol)<br />- Metal catalyst (e.g., Ni, Fe)<br />- Quartz or metal tube as a reactor<br /><br /><strong>Procedure:</strong><br />1. Prepare a quartz or metal tube as a reactor.<br />2. Deposit a thin layer of metal catalyst (e.g., Fe or Ni) on the inner surface of the tube.<br />3. Introduce the carbon source (e.g., ethanol) into the reactor.<br />4. Heat the reactor to a high temperature (e.g., 700°C to 1000°C) under a flow of hydrogen.<br />5. The carbon source decomposes, and the carbon atoms nucleate and grow on the metal catalyst to form MWCNTs.<br />6. Cool the reactor and collect the MWCNTs.</div>",
+   "examples": [
+    "Fabricate multi-walled carbon nanotubes (MWCNTs) using chemical vapor deposition (CVD). **Materials Needed:** - Carbon source (e.g., ethanol) - Metal catalyst (e.g., Ni, Fe) - Quartz or metal tube as a reactor **Procedure:** 1. Prepare a quartz or metal tube as a reactor. 2. Deposit a thin layer of metal catalyst (e.g., Fe or Ni) on the inner surface of the tube. 3. Introduce the carbon source (e.g., ethanol) into the reactor. 4. Heat the reactor to a high temperature (e.g., 700°C to 1000°C) under a flow of hydrogen. 5. The carbon source decomposes, and the carbon atoms nucleate and grow on the metal catalyst to form MWCNTs. 6. Cool the reactor and collect the MWCNTs."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart of CNT Fabrication",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Prepare Reactor] --&gt; B[Deposit Metal Catalyst]\n B --&gt; C[Introduce Carbon Source]\n C --&gt; D[Heat Reactor] --&gt; E[Form CNTs]\n E --&gt; F[Cool Reactor] --&gt; G[Collect CNTs]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Prepare Reactor] --&gt; B[Deposit Metal Catalyst]\n B --&gt; C[Introduce Carbon Source]\n C --&gt; D[Heat Reactor] --&gt; E[Form CNTs]\n E --&gt; F[Cool Reactor] --&gt; G[Collect CNTs]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Prepare Reactor] --&gt; B[Deposit Metal Catalyst]\n B --&gt; C[Introduce Carbon Source]\n C --&gt; D[Heat Reactor] --&gt; E[Form CNTs]\n E --&gt; F[Cool Reactor] --&gt; G[Collect CNTs]</pre></noscript></div>\n<p>These sections provide a detailed overview of metal based nanoparticles and carbon nanotubes and nanowires, including their preparation methods and applications, along with worked examples.</p>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Prepare Reactor] --> B[Deposit Metal Catalyst]\n    B --> C[Introduce Carbon Source]\n    C --> D[Heat Reactor] --> E[Form CNTs]\n    E --> F[Cool Reactor] --> G[Collect CNTs]"
+   ]
+  },
+  {
+   "heading": "Synthesis: Top down and Bottom up approaches",
+   "id": "",
+   "html": "<p><strong>Top down approach:</strong> This method involves starting with larger structures and removing material to achieve the desired nanoscale structures. Common techniques include etching, lithography, and chemical vapor deposition (CVD).</p>\n<ul>\n<li><strong>Etching:</strong> A process where selective removal of material is achieved using chemicals or plasma. For example, in photolithography, a pattern is first created on a photoresist layer, which is then used to etch the underlying material.</li>\n<li><strong>Lithography:</strong> A technique that uses a template to transfer a pattern onto a surface. This is widely used in the fabrication of semiconductor devices. An example is electron beam lithography, where a focused beam of electrons is used to pattern the surface.</li>\n</ul>\n<p><strong>Bottom up approach:</strong> This method starts with individual atoms or molecules and builds up to larger structures. Techniques include self-assembly, chemical vapor deposition, and molecular beam epitaxy (MBE).</p>\n<ul>\n<li><strong>Self-assembly:</strong> A process where molecules or nanoparticles spontaneously organize themselves into a desired structure. This is seen in the formation of lipid bilayers in biological systems.</li>\n<li><strong>MBE:</strong> A technique where atoms or molecules are deposited one layer at a time, allowing precise control over the growth of thin films. It is often used in the fabrication of semiconductor devices.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div></div>\n<p>A researcher is using a bottom-up approach to synthesize a quantum dot. The process starts by evaporating a semiconductor material in a vacuum chamber. The material condenses on a substrate, forming a single layer. This process is repeated multiple times to build up the desired thickness of the quantum dot. The researcher uses MBE to control the precise number of layers and their composition.</p>",
+   "examples": [
+    ""
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Nanoelectronics",
+   "id": "",
+   "html": "<p>Nanoelectronics refers to the application of nanotechnology in the design and manufacture of electronic devices. It involves the use of nanoscale materials and structures to enhance the performance and functionality of electronic devices.</p>\n<ul>\n<li><strong>Advantages:</strong> Nanoelectronics can significantly improve the performance of electronic devices by reducing size, increasing speed, and reducing power consumption.</li>\n<li><strong>Applications:</strong> Nanoelectronics are used in a wide range of devices, including transistors, sensors, and memory devices.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div></div>\n<p>In nanoelectronics, the use of graphene in transistors is a significant advancement. Graphene, a single layer of carbon atoms arranged in a hexagonal lattice, has exceptional electrical conductivity and high thermal conductivity. By using graphene in transistors, the on-off switching capability can be improved, leading to faster and more efficient electronic devices.</p>",
+   "examples": [
+    ""
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Synthesis Techniques] --&gt; B[Top down approach]\n A --&gt; C[Bottom up approach]\n B --&gt; D[Lithography]\n B --&gt; E[Etching]\n C --&gt; F[Self-assembly]\n C --&gt; G[MBE]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Synthesis Techniques] --&gt; B[Top down approach]\n A --&gt; C[Bottom up approach]\n B --&gt; D[Lithography]\n B --&gt; E[Etching]\n C --&gt; F[Self-assembly]\n C --&gt; G[MBE]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Synthesis Techniques] --&gt; B[Top down approach]\n A --&gt; C[Bottom up approach]\n B --&gt; D[Lithography]\n B --&gt; E[Etching]\n C --&gt; F[Self-assembly]\n C --&gt; G[MBE]</pre></noscript></div>\n<p>This diagram illustrates the different synthesis techniques used in nanotechnology, showing the key methods in both top down and bottom up approaches.</p>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Synthesis Techniques] --> B[Top down approach]\n    A --> C[Bottom up approach]\n    B --> D[Lithography]\n    B --> E[Etching]\n    C --> F[Self-assembly]\n    C --> G[MBE]"
+   ]
+  },
+  {
+   "heading": "Applications of nanomaterial in catalysis",
+   "id": "",
+   "html": "<p>Nanomaterials have revolutionized the field of catalysis due to their unique physical and chemical properties. These materials are widely used in various industrial processes, including petrochemicals, pharmaceuticals, and environmental remediation. The key advantages of using nanomaterials in catalysis include high surface area, increased reactivity, enhanced selectivity, and improved stability.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1. High Surface Area and Reactivity",
+   "id": "",
+   "html": "<p>Nanomaterials, such as nanocatalysts, have a large surface area compared to their volume, which enhances the interaction between reactants and catalysts. This high reactivity is crucial for catalytic reactions, making nanomaterials highly effective in facilitating chemical transformations.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Palladium nanoparticles are used as catalysts in the hydrogenation of alkenes. Due to their high surface area, they provide numerous active sites for the hydrogen atoms to bind, leading to efficient and selective hydrogenation of alkenes.</div>",
+   "examples": [
+    "Palladium nanoparticles are used as catalysts in the hydrogenation of alkenes. Due to their high surface area, they provide numerous active sites for the hydrogen atoms to bind, leading to efficient and selective hydrogenation of alkenes."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2. Enhanced Selectivity",
+   "id": "",
+   "html": "<p>The selectivity of a catalyst is its ability to promote a desired reaction over others. Nanomaterials can be designed to have specific active sites that favor certain reactions, thus improving the selectivity of the catalyst. This is particularly useful in complex industrial processes where multiple reactions can occur.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In the oxidation of methanol to formaldehyde, gold nanoparticles are used as catalysts. The specific surface chemistry of gold nanoparticles ensures that the reaction proceeds selectively to formaldehyde, reducing the formation of undesired by-products like carbon monoxide.</div>",
+   "examples": [
+    "In the oxidation of methanol to formaldehyde, gold nanoparticles are used as catalysts. The specific surface chemistry of gold nanoparticles ensures that the reaction proceeds selectively to formaldehyde, reducing the formation of undesired by-products like carbon monoxide."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "3. Improved Stability",
+   "id": "",
+   "html": "<p>Nanomaterials are often more stable than their bulk counterparts due to their surface properties. This stability is crucial in long-term industrial applications where the catalyst needs to remain active over extended periods.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Ruthenium nanoparticles are used in the selective oxidation of ethylene to ethylene oxide. Their stability allows them to maintain their catalytic activity even after prolonged use, making them suitable for continuous industrial processes.</div>",
+   "examples": [
+    "Ruthenium nanoparticles are used in the selective oxidation of ethylene to ethylene oxide. Their stability allows them to maintain their catalytic activity even after prolonged use, making them suitable for continuous industrial processes."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart of Catalytic Processes Using Nanomaterials",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Chemical Reaction] --&gt; B[High Surface Area]\n B --&gt; C[Enhanced Reactivity]\n C --&gt; D[Enhanced Selectivity]\n D --&gt; E[Improved Stability]\n E --&gt; F[Industrial Application]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Chemical Reaction] --&gt; B[High Surface Area]\n B --&gt; C[Enhanced Reactivity]\n C --&gt; D[Enhanced Selectivity]\n D --&gt; E[Improved Stability]\n E --&gt; F[Industrial Application]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Chemical Reaction] --&gt; B[High Surface Area]\n B --&gt; C[Enhanced Reactivity]\n C --&gt; D[Enhanced Selectivity]\n D --&gt; E[Improved Stability]\n E --&gt; F[Industrial Application]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Chemical Reaction] --> B[High Surface Area]\n    B --> C[Enhanced Reactivity]\n    C --> D[Enhanced Selectivity]\n    D --> E[Improved Stability]\n    E --> F[Industrial Application]"
+   ]
+  },
+  {
+   "heading": "Textile and Medicine",
+   "id": "",
+   "html": "<p>Nanomaterials are increasingly used in the textile and medical industries due to their unique properties. These applications include improved fabric performance, drug delivery systems, and medical diagnostics.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1. Improved Fabric Performance",
+   "id": "",
+   "html": "<p>Nanomaterials can be used to enhance the properties of textiles, such as durability, moisture resistance, and antimicrobial properties.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Silver nanoparticles are often used in clothing to impart antimicrobial properties. The nanoparticles release silver ions, which can inhibit bacterial growth, making the fabric more hygienic.</div>",
+   "examples": [
+    "Silver nanoparticles are often used in clothing to impart antimicrobial properties. The nanoparticles release silver ions, which can inhibit bacterial growth, making the fabric more hygienic."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2. Drug Delivery Systems",
+   "id": "",
+   "html": "<p>Nanomaterials can be designed to act as carriers for drugs, improving their delivery and efficacy. This is particularly useful for targeted drug delivery, where the drug is released only in the presence of specific conditions or at specific locations.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Liposomes are nanocarriers used for drug delivery. They are lipids vesicles that can encapsulate drugs and release them in a controlled manner. For instance, doxorubicin, a chemotherapy drug, can be encapsulated in liposomes to target cancer cells specifically, reducing side effects.</div>",
+   "examples": [
+    "Liposomes are nanocarriers used for drug delivery. They are lipids vesicles that can encapsulate drugs and release them in a controlled manner. For instance, doxorubicin, a chemotherapy drug, can be encapsulated in liposomes to target cancer cells specifically, reducing side effects."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "3. Medical Diagnostics",
+   "id": "",
+   "html": "<p>Nanomaterials can be used in diagnostic tools to detect biomolecules, such as DNA or proteins, with high sensitivity and specificity.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Quantum dots are semiconductor nanocrystals used in biomedical imaging. They emit light when excited, which can be detected to visualize the location of specific biomolecules in tissues. This is particularly useful in cancer diagnostics where early detection can significantly improve treatment outcomes.</div>",
+   "examples": [
+    "Quantum dots are semiconductor nanocrystals used in biomedical imaging. They emit light when excited, which can be detected to visualize the location of specific biomolecules in tissues. This is particularly useful in cancer diagnostics where early detection can significantly improve treatment outcomes."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart of Nanomaterial Applications in Textiles and Medicine",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Textile] --&gt; B[Improved Fabric Performance]\n B --&gt; C[Durability]\n B --&gt; D[Moisture Resistance]\n B --&gt; E[Antimicrobial Properties]\n C --&gt; F[Industrial Use]\n D --&gt; F\n E --&gt; F\n G[Medical] --&gt; H[Drug Delivery Systems]\n H --&gt; I[Targeted Drug Delivery]\n H --&gt; J[Reduced Side Effects]\n G --&gt; K[Medical Diagnostics]\n K --&gt; L[High Sensitivity]\n K --&gt; M[Specificity]\n L --&gt; N[Early Detection]\n M --&gt; N</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Textile] --&gt; B[Improved Fabric Performance]\n B --&gt; C[Durability]\n B --&gt; D[Moisture Resistance]\n B --&gt; E[Antimicrobial Properties]\n C --&gt; F[Industrial Use]\n D --&gt; F\n E --&gt; F\n G[Medical] --&gt; H[Drug Delivery Systems]\n H --&gt; I[Targeted Drug Delivery]\n H --&gt; J[Reduced Side Effects]\n G --&gt; K[Medical Diagnostics]\n K --&gt; L[High Sensitivity]\n K --&gt; M[Specificity]\n L --&gt; N[Early Detection]\n M --&gt; N</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Textile] --&gt; B[Improved Fabric Performance]\n B --&gt; C[Durability]\n B --&gt; D[Moisture Resistance]\n B --&gt; E[Antimicrobial Properties]\n C --&gt; F[Industrial Use]\n D --&gt; F\n E --&gt; F\n G[Medical] --&gt; H[Drug Delivery Systems]\n H --&gt; I[Targeted Drug Delivery]\n H --&gt; J[Reduced Side Effects]\n G --&gt; K[Medical Diagnostics]\n K --&gt; L[High Sensitivity]\n K --&gt; M[Specificity]\n L --&gt; N[Early Detection]\n M --&gt; N</pre></noscript></div>\n<p>These sections provide a comprehensive overview of the applications of nanomaterials in catalysis, textiles, and medicine, along with relevant worked examples to aid understanding.</p>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Textile] --> B[Improved Fabric Performance]\n    B --> C[Durability]\n    B --> D[Moisture Resistance]\n    B --> E[Antimicrobial Properties]\n    C --> F[Industrial Use]\n    D --> F\n    E --> F\n    G[Medical] --> H[Drug Delivery Systems]\n    H --> I[Targeted Drug Delivery]\n    H --> J[Reduced Side Effects]\n    G --> K[Medical Diagnostics]\n    K --> L[High Sensitivity]\n    K --> M[Specificity]\n    L --> N[Early Detection]\n    M --> N"
+   ]
+  }
+ ]
+}

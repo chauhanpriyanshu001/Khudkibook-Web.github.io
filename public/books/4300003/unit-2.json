@@ -1,0 +1,422 @@
+{
+ "code": "4300003",
+ "subject": "Environment and Sustainability",
+ "unit": 2,
+ "lang": "en",
+ "title": "Unit – Pollution and its types",
+ "url": "/books/4300003/unit-2.html",
+ "guUrl": null,
+ "words": 3891,
+ "readingMin": 22,
+ "marks": "16 marks (4 Remember + 6 Understand + 6 Apply) (per syllabus)",
+ "sections": [
+  {
+   "heading": "Unit – II: Pollution and its types",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code 4300003 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately <strong>16 marks (4 Remember + 6 Understand + 6 Apply) (per syllabus)</strong>.</p>\n<p>Learning objectives covered by this module:</p>\n<ul>\n<li>2.a. Explain the term, “pollution and pollutant” in the given situation.</li>\n<li>2.b. Classify the air pollution on the basis of its source</li>\n<li>2.c. Use relevant equipment to control given type of air pollution.</li>\n<li>2.d. Explain relevant techniques of treatment to deal with given type of water pollution.</li>\n<li>2.e. Apply relevant techniques of Solid waste management based on its characteristics.</li>\n<li>2.f. Explain drawbacks of noise pollution in given situation.</li>\n<li>2.g. Describe the environmental degradation due to Plastic waste and E- waste secondary and tertiary</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.1. Definition of pollution",
+   "id": "",
+   "html": "<p>Pollution is the introduction of <strong>foreign substances</strong> or <strong>waste materials</strong> into the <strong>environment</strong> that cause harm, discomfort, or other negative effects. These substances are known as <strong>pollutants</strong>. The presence of pollutants can degrade the quality of air, water, soil, and other natural resources, leading to adverse impacts on living organisms and the environment.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.2. Definition of pollutant",
+   "id": "",
+   "html": "<p>A <strong>pollutant</strong> is any substance or form of energy that degrades the quality of the environment and causes harm to living organisms. Pollutants can be <strong>physical</strong> (e.g., noise), <strong>chemical</strong> (e.g., sulfur dioxide), <strong>biological</strong> (e.g., bacteria), or <strong>thermal</strong> (e.g., heat from industrial processes).</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.3. Examples of pollutants",
+   "id": "",
+   "html": "<ul>\n<li><strong>Chemical pollutants</strong>: Carbon monoxide (CO), Lead (Pb), DDT (a pesticide)</li>\n<li><strong>Physical pollutants</strong>: Noise, light, thermal radiation</li>\n<li><strong>Biological pollutants</strong>: Pathogenic bacteria, viruses, fungi</li>\n<li><strong>Thermal pollutants</strong>: Excess heat from industrial processes</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.4. Importance of understanding pollution and pollutants",
+   "id": "",
+   "html": "<p>Understanding the definitions of pollution and pollutants is crucial for effective environmental management and control. It helps in identifying the sources and impacts of pollutants, which is essential for developing appropriate mitigation strategies.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />A factory emits a large amount of carbon monoxide into the air. This carbon monoxide is a <strong>pollutant</strong> that degrades the quality of the air, leading to health issues for people and animals in the vicinity. The factory's emissions are a source of <strong>air pollution</strong>.</div>",
+   "examples": [
+    "A factory emits a large amount of carbon monoxide into the air. This carbon monoxide is a **pollutant** that degrades the quality of the air, leading to health issues for people and animals in the vicinity. The factory's emissions are a source of **air pollution**."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.1. Classification of air pollution",
+   "id": "",
+   "html": "<p>Air pollution can be classified based on its <strong>source</strong> and <strong>composition</strong>. The following flowchart illustrates the classification of air pollution:</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Classification of Air Pollution] --&gt; B[By Source]\n A --&gt; C[By Composition]\n B --&gt; D[Indoor Pollution]\n B --&gt; E[Outdoor Pollution]\n C --&gt; F[Particulate Matter (PM)]\n C --&gt; G[Ozone Depleting Substances]\n D --&gt; H[Natural Sources]\n D --&gt; I[Anthropogenic Sources]\n F --&gt; J[PM10, PM2.5]\n G --&gt; K[Chlorofluorocarbons (CFCs)]\n H --&gt; L[Natural Dust, Volcanic Ash]\n I --&gt; M[Industrial Emissions, Vehicle Emissions]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Classification of Air Pollution] --&gt; B[By Source]\n A --&gt; C[By Composition]\n B --&gt; D[Indoor Pollution]\n B --&gt; E[Outdoor Pollution]\n C --&gt; F[Particulate Matter (PM)]\n C --&gt; G[Ozone Depleting Substances]\n D --&gt; H[Natural Sources]\n D --&gt; I[Anthropogenic Sources]\n F --&gt; J[PM10, PM2.5]\n G --&gt; K[Chlorofluorocarbons (CFCs)]\n H --&gt; L[Natural Dust, Volcanic Ash]\n I --&gt; M[Industrial Emissions, Vehicle Emissions]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Classification of Air Pollution] --&gt; B[By Source]\n A --&gt; C[By Composition]\n B --&gt; D[Indoor Pollution]\n B --&gt; E[Outdoor Pollution]\n C --&gt; F[Particulate Matter (PM)]\n C --&gt; G[Ozone Depleting Substances]\n D --&gt; H[Natural Sources]\n D --&gt; I[Anthropogenic Sources]\n F --&gt; J[PM10, PM2.5]\n G --&gt; K[Chlorofluorocarbons (CFCs)]\n H --&gt; L[Natural Dust, Volcanic Ash]\n I --&gt; M[Industrial Emissions, Vehicle Emissions]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Classification of Air Pollution] --> B[By Source]\n    A --> C[By Composition]\n    B --> D[Indoor Pollution]\n    B --> E[Outdoor Pollution]\n    C --> F[Particulate Matter (PM)]\n    C --> G[Ozone Depleting Substances]\n    D --> H[Natural Sources]\n    D --> I[Anthropogenic Sources]\n    F --> J[PM10, PM2.5]\n    G --> K[Chlorofluorocarbons (CFCs)]\n    H --> L[Natural Dust, Volcanic Ash]\n    I --> M[Industrial Emissions, Vehicle Emissions]"
+   ]
+  },
+  {
+   "heading": "2.2.2. Sources of air pollution",
+   "id": "",
+   "html": "<p>Air pollution sources can be broadly categorized into <strong>natural</strong> and <strong>anthropogenic</strong> sources.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.2.1. Natural sources",
+   "id": "",
+   "html": "<ul>\n<li><strong>Natural dust</strong>: Wind-blown soil particles</li>\n<li><strong>Volcanic ash</strong>: Ejected during volcanic eruptions</li>\n<li><strong>Forest fires</strong>: Natural wildfires that release smoke and particulates</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.2.2. Anthropogenic sources",
+   "id": "",
+   "html": "<ul>\n<li><strong>Industrial emissions</strong>: Emissions from factories and power plants</li>\n<li><strong>Vehicle emissions</strong>: Exhaust from cars, trucks, and other vehicles</li>\n<li><strong>Construction activities</strong>: Dust from excavation and building sites</li>\n<li><strong>Agricultural activities</strong>: Burning of crop residues</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.3. Examples of air pollution sources",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />A coal-fired power plant releases large amounts of particulate matter (PM10, PM2.5) and sulfur dioxide (SO2) into the atmosphere. These emissions are examples of <strong>anthropogenic sources</strong> of air pollution.</div>",
+   "examples": [
+    "A coal-fired power plant releases large amounts of particulate matter (PM10, PM2.5) and sulfur dioxide (SO2) into the atmosphere. These emissions are examples of **anthropogenic sources** of air pollution."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>Understanding the definitions of pollution and pollutants is fundamental for effective environmental management. Air pollution can be classified based on its sources and composition, with sources categorized as natural and anthropogenic. Recognizing the different sources of air pollution is crucial for implementing appropriate control measures and treatment techniques.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.3. Air Pollution Control Equipments",
+   "id": "",
+   "html": "<p>Air pollution control equipment is essential for reducing the emission of pollutants into the atmosphere. These devices are used to treat and control air pollutants before they are released into the environment. The primary types of air pollution control equipment are:</p>\n<ul>\n<li><strong>Absorption Systems:</strong> These systems use a liquid medium to remove pollutants from the air. The liquid can be water, a chemical solution, or a solvent. Absorption is effective for removing gaseous pollutants like SO2 and HCl.</li>\n</ul>\n<ul>\n<li><strong> Adsorption Systems:</strong> These use solid materials like activated carbon to capture pollutants. Adsorption is useful for removing particulate matter and certain organic compounds.</li>\n</ul>\n<ul>\n<li><strong>Catalytic Converters:</strong> These devices use catalysts to convert harmful pollutants into less harmful substances. They are commonly used in vehicle exhaust systems to reduce the emission of CO, NOx, and hydrocarbons.</li>\n</ul>\n<ul>\n<li><strong>Electrostatic Precipitators (ESP):</strong> These devices use electrostatic forces to remove particulate matter from the air. The particles are charged by an electric field and then collected on a grounded plate.</li>\n</ul>\n<ul>\n<li><strong>Baghouses:</strong> These are used to remove particulate matter from the air by trapping it in fabric filters. The air is forced through the filter, and the particulate matter is retained.</li>\n</ul>\n<ul>\n<li><strong>Wet Scrubbers:</strong> These systems use water or a water-based solution to wash out particulate matter and gaseous pollutants.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A factory emits SO2 gas into the atmosphere. The factory decides to use an absorption system to control the pollution. The system uses a sodium hydroxide (NaOH) solution to absorb the SO2 gas. The chemical reaction that takes place is:<br /><br />SO2 + 2NaOH → Na2SO3 + H2O<br /><br />This reaction effectively removes the SO2 from the exhaust gases, thereby reducing the pollution.</div>",
+   "examples": [
+    "A factory emits SO2 gas into the atmosphere. The factory decides to use an absorption system to control the pollution. The system uses a sodium hydroxide (NaOH) solution to absorb the SO2 gas. The chemical reaction that takes place is: SO2 + 2NaOH → Na2SO3 + H2O This reaction effectively removes the SO2 from the exhaust gases, thereby reducing the pollution."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4. Water Pollution, Pollution Parameters like BOD, COD, pH, Total Suspended Solids, Turbidity, Total Solids",
+   "id": "",
+   "html": "<p>Water pollution is a significant environmental issue, and understanding the parameters used to measure pollution is crucial. These parameters include:</p>\n<ul>\n<li><strong>BOD (Biochemical Oxygen Demand):</strong> This is a measure of the amount of oxygen required by microorganisms to break down organic matter in water. A high BOD value indicates a high level of organic pollution.</li>\n</ul>\n<ul>\n<li><strong>COD (Chemical Oxygen Demand):</strong> This is a measure of the amount of oxygen required to oxidize all the organic matter and some of the inorganic matter in water. COD is a more comprehensive measure than BOD and includes both organic and inorganic matter.</li>\n</ul>\n<ul>\n<li><strong>pH:</strong> This is a measure of the acidity or alkalinity of water. A pH value of 7 is neutral, while values below 7 are acidic and above 7 are alkaline. A high pH value can indicate the presence of basic pollutants, while a low pH value can indicate acidic pollutants.</li>\n</ul>\n<ul>\n<li><strong>Total Suspended Solids (TSS):</strong> This is the total amount of suspended particles in water. High TSS levels can indicate pollution from soil erosion, industrial discharges, or sewage.</li>\n</ul>\n<ul>\n<li><strong>Turbidity:</strong> This is a measure of the clarity of water. Turbid water has a high concentration of suspended particles, which can indicate pollution from sediment or other particulates.</li>\n</ul>\n<ul>\n<li><strong>Total Solids (TS):</strong> This is the total weight of all dissolved and suspended solids in water. High TS levels can indicate pollution from industrial discharges, sewage, or other sources.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A river is tested for its water quality parameters. The results are as follows:<br /><br />- BOD: 15 mg/L<br />- COD: 30 mg/L<br />- pH: 6.5<br />- TSS: 50 mg/L<br />- Turbidity: 20 NTU<br />- TS: 120 mg/L<br /><br />The high BOD and COD levels indicate significant organic pollution. The low pH value suggests the presence of acidic pollutants, which could be from industrial discharges. The high TSS and turbidity values indicate sediment pollution, which could be from soil erosion or industrial discharges. The high TS value further confirms the presence of significant suspended solids.</div>\n<p>These parameters are crucial for understanding and managing water pollution effectively.</p>\n<hr />",
+   "examples": [
+    "A river is tested for its water quality parameters. The results are as follows: - BOD: 15 mg/L - COD: 30 mg/L - pH: 6.5 - TSS: 50 mg/L - Turbidity: 20 NTU - TS: 120 mg/L The high BOD and COD levels indicate significant organic pollution. The low pH value suggests the presence of acidic pollutants, which could be from industrial discharges. The high TSS and turbidity values indicate sediment pollution, which could be from soil erosion or industrial discharges. The high TS value further confirms the presence of significant suspended solids."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.5.1. Introduction to Waste Water Treatment",
+   "id": "",
+   "html": "<p>Waste water treatment is the process of removing contaminants from waste water and making it safe for release into the environment. The purpose of waste water treatment is to ensure that the waste water is free from harmful substances and pollutants before it is discharged into natural water bodies or re-used.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.5.2. Types of Waste Water Treatment",
+   "id": "",
+   "html": "<p>Waste water treatment is typically divided into three main stages: primary, secondary, and tertiary treatment. Each stage has specific goals and methods to improve the quality of the effluent.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.5.2.1. Primary Treatment",
+   "id": "",
+   "html": "<p><strong>Primary treatment</strong> is the first stage of waste water treatment. The main goal of primary treatment is to remove large solids and debris from the waste water. This is achieved through physical processes such as screening and sedimentation.</p>\n<ul>\n<li><strong>Screening</strong>: Screens are used to remove large solids and debris such as rags, plastics, and sticks. The screens are typically made of metal mesh with openings of 10-20 mm.</li>\n<li><strong>Sedimentation</strong>: Sedimentation tanks are used to allow the heavier solids to settle at the bottom of the tank. This process is also known as primary settling. The settled solids are called primary sludge.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In a primary treatment plant, the waste water is first screened to remove solids larger than 10 mm. The screened waste water is then allowed to settle in a sedimentation tank for 2-4 hours. The settled solids are removed and are sent to a sludge treatment facility.</div>",
+   "examples": [
+    "In a primary treatment plant, the waste water is first screened to remove solids larger than 10 mm. The screened waste water is then allowed to settle in a sedimentation tank for 2-4 hours. The settled solids are removed and are sent to a sludge treatment facility."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.5.3. Secondary Treatment",
+   "id": "",
+   "html": "<p><strong>Secondary treatment</strong> focuses on removing dissolved and suspended biodegradable organic material. This is typically achieved through biological processes such as the activated sludge process and the trickling filter process.</p>\n<ul>\n<li><strong>Activated Sludge Process</strong>: In this process, waste water is mixed with microorganisms in aeration tanks. The microorganisms consume the organic matter, converting it into biomass and carbon dioxide. The treated water is then separated from the biomass.</li>\n<li><strong>Trickling Filter Process</strong>: In this process, waste water is trickled over a bed of rocks or other media where microorganisms grow. These microorganisms consume the organic matter.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In a secondary treatment plant, waste water is first mixed with microorganisms in an aeration tank. The microorganisms consume the organic matter, producing biomass and carbon dioxide. The treated water is then separated from the biomass and further treated in a secondary settling tank.</div>",
+   "examples": [
+    "In a secondary treatment plant, waste water is first mixed with microorganisms in an aeration tank. The microorganisms consume the organic matter, producing biomass and carbon dioxide. The treated water is then separated from the biomass and further treated in a secondary settling tank."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.5.4. Tertiary Treatment",
+   "id": "",
+   "html": "<p><strong>Tertiary treatment</strong> is the final stage of waste water treatment. The main goal is to remove any remaining contaminants and make the water safe for discharge or re-use. This is typically achieved through processes such as filtration, disinfection, and chemical treatment.</p>\n<ul>\n<li><strong>Filtration</strong>: Filtration is used to remove any remaining suspended solids. This is typically done using sand filters or membrane filters.</li>\n<li><strong>Disinfection</strong>: Disinfection is used to kill any remaining microorganisms. This is typically done using chlorination or ultraviolet (UV) radiation.</li>\n<li><strong>Chemical Treatment</strong>: Chemical treatment is used to remove specific contaminants such as heavy metals. This is typically done using coagulants and flocculants.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In a tertiary treatment plant, the treated water from the secondary settling tank is first filtered through sand filters to remove any remaining suspended solids. The water is then disinfected using chlorine to kill any remaining microorganisms. Finally, the water is checked for any remaining contaminants and is deemed safe for discharge.</div>",
+   "examples": [
+    "In a tertiary treatment plant, the treated water from the secondary settling tank is first filtered through sand filters to remove any remaining suspended solids. The water is then disinfected using chlorine to kill any remaining microorganisms. Finally, the water is checked for any remaining contaminants and is deemed safe for discharge."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.5.5. Summary",
+   "id": "",
+   "html": "<p>Waste water treatment involves three main stages: primary, secondary, and tertiary. Primary treatment removes large solids and debris, secondary treatment removes dissolved and suspended biodegradable organic matter, and tertiary treatment removes any remaining contaminants and makes the water safe for discharge or re-use.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.6.1. Introduction to Solid Waste",
+   "id": "",
+   "html": "<p>Solid waste is any waste that is not liquid or gaseous. Municipal solid waste (MSW) is the waste generated by households and small businesses. The sources and characteristics of MSW are critical for understanding how to manage and treat this waste.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.6.2. Sources of Municipal Solid Waste",
+   "id": "",
+   "html": "<p>MSW is generated from various sources, including households, commercial establishments, and institutions. The main sources of MSW can be classified as follows:</p>\n<ul>\n<li><strong>Domestic Waste</strong>: Waste generated from households, including food waste, paper, plastic, and textiles.</li>\n<li><strong>Commercial Waste</strong>: Waste generated from small businesses, including food waste, packaging materials, and office waste.</li>\n<li><strong>Institutional Waste</strong>: Waste generated from schools, hospitals, and other institutions, including medical waste, food waste, and laboratory waste.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.6.3. Characteristics of Municipal Solid Waste",
+   "id": "",
+   "html": "<p>The characteristics of MSW can be categorized as follows:</p>\n<ul>\n<li><strong>Composition</strong>: MSW is composed of a wide variety of materials, including organic waste, paper, plastic, glass, and metals.</li>\n<li><strong>Volume</strong>: The volume of MSW generated varies based on the population density and consumption patterns.</li>\n<li><strong>Biodegradability</strong>: Some components of MSW are biodegradable, while others are not. For example, food waste and paper are biodegradable, while plastics and metals are not.</li>\n<li><strong>Recyclability</strong>: Some components of MSW can be recycled, while others cannot. For example, paper, glass, and metals are recyclable, while plastics are less recyclable.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In a typical household, the daily waste generated is approximately 1-2 kg per person. The composition of the waste includes 50% organic waste, 20% paper, 15% plastic, and 15% glass and metals. The biodegradability of the waste is 60%, while the recyclability is 30%.</div>",
+   "examples": [
+    "In a typical household, the daily waste generated is approximately 1-2 kg per person. The composition of the waste includes 50% organic waste, 20% paper, 15% plastic, and 15% glass and metals. The biodegradability of the waste is 60%, while the recyclability is 30%."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.6.4. Summary",
+   "id": "",
+   "html": "<p>Municipal solid waste is generated from various sources, including households, commercial establishments, and institutions. The characteristics of MSW, including composition, volume, biodegradability, and recyclability, are critical for understanding how to manage and treat this waste.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Composition] --&gt; B[Organic waste]\n A --&gt; C[Paper]\n A --&gt; D[Plastic]\n A --&gt; E[Glass and metals]\n B --&gt; F[Biodegradable]\n C --&gt; G[Recyclable]\n D --&gt; H[Less recyclable]\n E --&gt; I[Recyclable]\n F --&gt; J[60%]\n G --&gt; K[30%]\n H --&gt; L[10%]\n I --&gt; M[30%]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Composition] --&gt; B[Organic waste]\n A --&gt; C[Paper]\n A --&gt; D[Plastic]\n A --&gt; E[Glass and metals]\n B --&gt; F[Biodegradable]\n C --&gt; G[Recyclable]\n D --&gt; H[Less recyclable]\n E --&gt; I[Recyclable]\n F --&gt; J[60%]\n G --&gt; K[30%]\n H --&gt; L[10%]\n I --&gt; M[30%]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Composition] --&gt; B[Organic waste]\n A --&gt; C[Paper]\n A --&gt; D[Plastic]\n A --&gt; E[Glass and metals]\n B --&gt; F[Biodegradable]\n C --&gt; G[Recyclable]\n D --&gt; H[Less recyclable]\n E --&gt; I[Recyclable]\n F --&gt; J[60%]\n G --&gt; K[30%]\n H --&gt; L[10%]\n I --&gt; M[30%]</pre></noscript></div>\n<p>This diagram illustrates the composition and characteristics of municipal solid waste.</p>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Composition] --> B[Organic waste]\n    A --> C[Paper]\n    A --> D[Plastic]\n    A --> E[Glass and metals]\n    B --> F[Biodegradable]\n    C --> G[Recyclable]\n    D --> H[Less recyclable]\n    E --> I[Recyclable]\n    F --> J[60%]\n    G --> K[30%]\n    H --> L[10%]\n    I --> M[30%]"
+   ]
+  },
+  {
+   "heading": "Collection of Municipal Waste",
+   "id": "",
+   "html": "<p>Municipal waste refers to waste generated by households and commercial establishments in urban and rural areas. Effective collection is crucial for maintaining hygiene and preventing environmental degradation. The collection process typically involves the following steps:</p>\n<ul>\n<li><strong>Source Separation:</strong> Waste is sorted at the source (households, shops, etc.) to separate recyclable materials from non-recyclable ones. This helps in reducing the volume of waste sent to landfills and promotes recycling.</li>\n<li><strong>Collection Points:</strong> These are strategically placed in residential areas and commercial zones to ensure easy access and reduce collection time. Common types of collection points include bins, containers, and trucks.</li>\n<li><strong>Collection Methods:</strong></li>\n<li><strong>Manual Collection:</strong> Using hand-pushed carts or garbage trucks.</li>\n<li><strong>Mechanized Collection:</strong> Using advanced machinery like compactors to reduce waste volume.</li>\n<li><strong>Door-to-Door Collection:</strong> Waste collectors visit households directly to collect waste.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Disposal of Municipal Waste",
+   "id": "",
+   "html": "<p>Disposal of municipal waste involves managing it to prevent pollution and ensure environmental safety. The primary methods include:</p>\n<ul>\n<li><strong>Landfills:</strong></li>\n<li><strong>Sanitary Landfills:</strong> These are designed to minimize contamination of soil, groundwater, and surface water. They have liners and leachate collection systems.</li>\n<li><strong>Municipal Solid Waste Landfills (MSWLF):</strong> These are large-scale landfills where waste is buried and compacted.</li>\n<li><strong>Waste-to-Energy (WTE) Plants:</strong> These facilities convert waste into energy through processes like incineration and gasification.</li>\n<li><strong>Recycling Centers:</strong> Materials like paper, plastic, and metal are collected, sorted, and processed to reuse.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Collection and Disposal of Hazardous Waste",
+   "id": "",
+   "html": "<p>Hazardous waste includes any waste with properties that make it harmful to human health or the environment. Proper management is essential to prevent accidents and environmental damage. The key steps are:</p>\n<ul>\n<li><strong>Collection:</strong></li>\n<li><strong>Segregation:</strong> Hazardous waste must be separated from non-hazardous waste to prevent contamination.</li>\n<li><strong>Special Collection Points:</strong> These are designated areas or containers where hazardous waste is collected.</li>\n<li><strong>Regular Collection:</strong> Hazardous waste is collected on a regular basis to ensure it does not accumulate and pose risks.</li>\n<li><strong>Disposal:</strong></li>\n<li><strong>Land Disposal:</strong></li>\n<li><strong>Hazardous Waste Landfills:</strong> Special landfills designed to handle hazardous waste, equipped with liners and monitoring systems.</li>\n<li><strong>Surface Impoundments:</strong> These are lined basins or ponds where hazardous waste is stored.</li>\n<li><strong>Incineration:</strong></li>\n<li><strong>Incineration Plants:</strong> These facilities burn hazardous waste at high temperatures to reduce its volume and neutralize harmful components.</li>\n<li><strong>Recycling:</strong> Some hazardous waste can be treated and reused, such as spent solvents and certain types of batteries.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A city's municipal waste management department has decided to implement a new door-to-door collection system. The department has identified 100 residential areas and 50 commercial zones. Each residential area will have a dedicated collection point, and commercial zones will be serviced by a single truck. The department plans to use compactors to reduce the volume of waste collected. For hazardous waste, they will establish special collection points in high-risk areas and ensure regular collection by a specialized truck. The city also plans to set up a waste-to-energy plant to treat 20% of the collected waste.</div>",
+   "examples": [
+    "A city's municipal waste management department has decided to implement a new door-to-door collection system. The department has identified 100 residential areas and 50 commercial zones. Each residential area will have a dedicated collection point, and commercial zones will be serviced by a single truck. The department plans to use compactors to reduce the volume of waste collected. For hazardous waste, they will establish special collection points in high-risk areas and ensure regular collection by a specialized truck. The city also plans to set up a waste-to-energy plant to treat 20% of the collected waste."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Effects of Noise Pollution",
+   "id": "",
+   "html": "<p>Noise pollution has significant impacts on both human health and the environment. Common effects include:</p>\n<ul>\n<li><strong>Health Effects:</strong></li>\n<li><strong>Hearing Loss:</strong> Prolonged exposure to loud noises can lead to permanent hearing damage.</li>\n<li><strong>Stress and Anxiety:</strong> Noise can cause stress and increase the risk of anxiety disorders.</li>\n<li><strong>Cardiovascular Issues:</strong> High noise levels can increase blood pressure and heart rate, leading to cardiovascular problems.</li>\n<li><strong>Environmental Effects:</strong></li>\n<li><strong>Animal Disruption:</strong> Noise can disrupt animal behavior, affecting their communication and migration patterns.</li>\n<li><strong>Ecosystem Disturbance:</strong> It can lead to habitat degradation and interfere with natural processes.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Sources of Noise Pollution",
+   "id": "",
+   "html": "<p>Noise pollution can originate from various sources, including:</p>\n<ul>\n<li><strong>Transportation:</strong> Vehicles, airplanes, and trains.</li>\n<li><strong>Industries:</strong> Factories, construction sites, and power plants.</li>\n<li><strong>Recreational Activities:</strong> Concerts, sporting events, and public celebrations.</li>\n<li><strong>Domestic Activities:</strong> Home appliances, machinery, and loud music.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Measurement of Noise Pollution",
+   "id": "",
+   "html": "<p>Noise levels are typically measured using decibels (dB) on the decibel scale. The following are common measurement tools and techniques:</p>\n<ul>\n<li><strong>Sound Level Meter:</strong> This device measures the sound pressure level and is used to determine the intensity of noise.</li>\n<li><strong>Noise Dosimeter:</strong> This measures the exposure to noise over time, often used in occupational settings.</li>\n<li><strong>A-Weighted Decibel (dB(A)) Scale:</strong> This scale is used to measure the impact of sound on the human ear, taking into account the frequency range of human hearing.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A city council is planning to measure noise levels in a residential area to assess the impact of noise pollution. They use a sound level meter to measure the noise levels at different points in the area. The readings are recorded as follows:</div>\n<table>\n<thead><tr><th>Point</th><th>Noise Level (dB(A))</th></tr></thead><tbody>\n<tr><td>A</td><td>65</td></tr>\n<tr><td>B</td><td>72</td></tr>\n<tr><td>C</td><td>80</td></tr>\n<tr><td>D</td><td>95</td></tr>\n</table>\n<p>The council decides to take immediate action to reduce noise levels at point D, where the noise level is 95 dB(A), which is above the recommended limit of 70 dB(A) for residential areas. They plan to implement sound barriers and noise-reducing technologies to lower the noise levels.</p>\n<hr />",
+   "examples": [
+    "A city council is planning to measure noise levels in a residential area to assess the impact of noise pollution. They use a sound level meter to measure the noise levels at different points in the area. The readings are recorded as follows:"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition of Plastic Waste",
+   "id": "",
+   "html": "<p><strong>Plastic waste</strong> refers to any material that is made of plastic and is discarded after use. Plastics are polymers derived from petrochemicals and are widely used in various industries due to their durability and versatility. However, their long-lasting nature makes them a significant environmental concern.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Sources of Plastic Waste",
+   "id": "",
+   "html": "<p>Plastic waste can originate from various sources such as:</p>\n<ul>\n<li><strong>Domestic Use</strong>: Packaging materials, containers, and utensils.</li>\n<li><strong>Industrial Activities</strong>: Manufacturing processes, agricultural films, and disposable products.</li>\n<li><strong>Retail and Commercial Activities</strong>: Shopping bags, food packaging, and disposable cups.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1. Marine Pollution",
+   "id": "",
+   "html": "<p>Plastic waste is a major contributor to marine pollution. <strong>Microplastics</strong> (small plastic particles) have been found in the water, sediments, and even in the tissues of marine life. These microplastics can be ingested by marine organisms, leading to blockages in their digestive systems, reduced nutrient absorption, and even death.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2. Soil Contamination",
+   "id": "",
+   "html": "<p>Plastic waste can also contaminate soil. As plastics break down, they release harmful chemicals into the soil, affecting the growth of plants and the overall soil quality.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3. Air Pollution",
+   "id": "",
+   "html": "<p>When plastic waste is burned, it releases toxic fumes and particulate matter into the air, contributing to air pollution. These pollutants can harm human health and the environment.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1. Recycling",
+   "id": "",
+   "html": "<p>Recycling is one of the most effective methods to manage plastic waste. <strong>Recycling</strong> involves the collection, sorting, and processing of plastics to create new products. However, the recycling process is not without its challenges. Only certain types of plastics can be recycled, and the process requires significant energy.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A community has collected 1000 kg of plastic waste. After sorting, 300 kg of plastic can be recycled. The cost of recycling per kg is Rs 50. The total cost of recycling is Rs 15000.</div>",
+   "examples": [
+    "A community has collected 1000 kg of plastic waste. After sorting, 300 kg of plastic can be recycled. The cost of recycling per kg is Rs 50. The total cost of recycling is Rs 15000."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2. Incineration",
+   "id": "",
+   "html": "<p>Incineration involves burning plastic waste to reduce its volume and produce energy. However, this method can release toxic pollutants into the atmosphere. Proper control measures are essential to minimize these emissions.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3. Landfilling",
+   "id": "",
+   "html": "<p>Landfilling involves the disposal of plastic waste in designated areas. While this method is widely used, it can lead to leaching of harmful chemicals into the soil and groundwater.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A city generates 5000 kg of plastic waste per day. The city plans to use a combination of recycling and incineration. If 40% of the waste can be recycled and the cost of recycling is Rs 40 per kg, and the city incinerates the remaining waste, what is the total cost of waste management per day?</div>\n<ol>\n<li><strong>Calculate Recyclable Waste:</strong></li>\n</ol>\n<p>[</p>\n<p>\\text{Recyclable Waste} = 5000 \\, \\text{kg} \\times 0.40 = 2000 \\, \\text{kg}</p>\n<p>]</p>\n<ol>\n<li><strong>Calculate Cost of Recycling:</strong></li>\n</ol>\n<p>[</p>\n<p>\\text{Cost of Recycling} = 2000 \\, \\text{kg} \\times 40 \\, \\text{Rs/kg} = 80000 \\, \\text{Rs}</p>\n<p>]</p>\n<ol>\n<li><strong>Calculate Incinerated Waste:</strong></li>\n</ol>\n<p>[</p>\n<p>\\text{Incinerated Waste} = 5000 \\, \\text{kg} - 2000 \\, \\text{kg} = 3000 \\, \\text{kg}</p>\n<p>]</p>\n<ol>\n<li><strong>Calculate Cost of Incineration:</strong></li>\n</ol>\n<p>The cost of incineration is not provided, but we can assume it is negligible compared to recycling.</p>\n<ol>\n<li><strong>Total Cost:</strong></li>\n</ol>\n<p>[</p>\n<p>\\text{Total Cost} = 80000 \\, \\text{Rs}</p>\n<p>]</p>\n<p>The total cost of waste management per day is Rs 80,000.</p>\n<hr />",
+   "examples": [
+    "A city generates 5000 kg of plastic waste per day. The city plans to use a combination of recycling and incineration. If 40% of the waste can be recycled and the cost of recycling is Rs 40 per kg, and the city incinerates the remaining waste, what is the total cost of waste management per day?"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition of E Waste",
+   "id": "",
+   "html": "<p><strong>E-waste</strong> (electronic waste) refers to discarded electrical and electronic equipment and their components. These devices include computers, smartphones, televisions, and various household appliances. E-waste is a growing concern due to the rapid pace of technological advancement and the increasing consumption of electronic devices.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1. Household Appliances",
+   "id": "",
+   "html": "<p>Old refrigerators, washing machines, and air conditioners are common sources of E-waste.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2. IT Equipment",
+   "id": "",
+   "html": "<p>Computers, printers, and other office equipment are frequently replaced, leading to a significant amount of E-waste.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3. Consumer Electronics",
+   "id": "",
+   "html": "<p>Smartphones, televisions, and other consumer electronics are often discarded when newer models are purchased.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1. Toxic Substances",
+   "id": "",
+   "html": "<p>E-waste contains toxic substances such as lead, mercury, cadmium, and brominated flame retardants. These substances can leach into the soil and water, posing significant health risks to humans and wildlife.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2. Energy Consumption",
+   "id": "",
+   "html": "<p>The production and disposal of E-waste require substantial energy, contributing to increased carbon emissions and environmental degradation.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3. Resource Depletion",
+   "id": "",
+   "html": "<p>E-waste contains valuable metals and materials that can be recovered and reused, such as gold, silver, and copper. However, improper disposal leads to the loss of these resources.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1. Recycling",
+   "id": "",
+   "html": "<p>Recycling E-waste involves the disassembly and recovery of valuable materials. This process helps reduce the amount of waste going to landfills and conserves natural resources.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2. Proper Disposal",
+   "id": "",
+   "html": "<p>Proper disposal involves the safe disposal of E-waste in designated facilities where it can be managed and recycled.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3. Extended Producer Responsibility (EPR)",
+   "id": "",
+   "html": "<p>EPR policies require manufacturers to take responsibility for the disposal and recycling of their products. This approach encourages manufacturers to design products that are easier to recycle and less harmful to the environment.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A company generates 1000 kg of E-waste per month. The cost of recycling per kg is Rs 70. The company has two options: recycle the waste or dispose of it in a landfill. If the cost of landfilling is Rs 50 per kg, what is the total cost for each option per month?</div>\n<ol>\n<li><strong>Calculate Cost of Recycling:</strong></li>\n</ol>\n<p>[</p>\n<p>\\text{Cost of Recycling} = 1000 \\, \\text{kg} \\times 70 \\, \\text{Rs/kg} = 70000 \\, \\text{Rs}</p>\n<p>]</p>\n<ol>\n<li><strong>Calculate Cost of Landfilling:</strong></li>\n</ol>\n<p>[</p>\n<p>\\text{Cost of Landfilling} = 1000 \\, \\text{kg} \\times 50 \\, \\text{Rs/kg} = 50000 \\, \\text{Rs}</p>\n<p>]</p>\n<p>The total cost of recycling per month is Rs 70,000, while the total cost of landfilling per month is Rs 50,000.</p>\n<p>This section covers the key aspects of plastic waste and E-waste, including their sources, impacts, and treatment techniques, providing a comprehensive understanding for exam preparation.</p>",
+   "examples": [
+    "A company generates 1000 kg of E-waste per month. The cost of recycling per kg is Rs 70. The company has two options: recycle the waste or dispose of it in a landfill. If the cost of landfilling is Rs 50 per kg, what is the total cost for each option per month?"
+   ],
+   "mermaid": []
+  }
+ ]
+}

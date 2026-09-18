@@ -1,3 +1,32 @@
+// Analytics Bootstrap (GA4 + Clarity — guarded so it never double-injects)
+(function () {
+  'use strict';
+  if (window.gtag || document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
+    window.dataLayer = window.dataLayer || [];
+    if (typeof window.gtag !== 'function') {
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-Q14JJGGSPR');
+    }
+  } else {
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-Q14JJGGSPR');
+    var gs = document.createElement('script');
+    gs.async = true;
+    gs.src = 'https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR';
+    document.head.appendChild(gs);
+  }
+  if (!window.clarity && !document.querySelector('script[src*="clarity.ms/tag"]')) {
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+      t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, 'clarity', 'script', 'yha6xlt986');
+  }
+})();
+
 // Firebase Configuration (Loaded On-Demand for Feedback)
 const firebaseConfig = {
     apiKey: "AIzaSyBvc-vfv2EkbdFa-Wh6ieckvrLooMPYY3w",

@@ -1,0 +1,494 @@
+{
+ "code": "C4300002",
+ "subject": "Communication Skills in English",
+ "unit": 2,
+ "lang": "en",
+ "title": "Unit – Grammar",
+ "url": "/books/C4300002/unit-2.html",
+ "guUrl": null,
+ "words": 3890,
+ "readingMin": 22,
+ "marks": "",
+ "sections": [
+  {
+   "heading": "Unit – 2: Grammar",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code C4300002 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately ****.</p>\n<p>Learning objectives covered by this module:</p>\n<ul>\n<li>2.a. Identify different parts of speech and their usage in the sentence.</li>\n<li>2.f. Choose appropriate parts of speech for day to day communication.</li>\n<li>2.b. Apply correct verbs in the given sentence</li>\n<li>2.g. Use grammatically correct sentence in day to day communication</li>\n<li>2.c. Use appropriate Modal Auxiliaries in a given expression.</li>\n<li>2.h. Choose appropriate Modals in situations where different modes of expressions are used.</li>\n<li>2.d. Choose the correct verb for the given subject.</li>\n<li>2.i. Use the correct verb depending on the subject in a sentence.</li>\n<li>2.e. Identify basic sentence patterns of English and form sentences in correct word order.</li>\n<li>2.j. Use correct word order in their speech.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.1. Nouns",
+   "id": "",
+   "html": "<p><strong>Noun:</strong> A noun is a word that refers to a person, place, thing, or idea. Nouns can be singular or plural, and they can be common or proper.</p>\n<ul>\n<li><strong>Common Nouns:</strong> Refer to general things, such as \"book,\" \"city,\" or \"dog.\"</li>\n<li><strong>Proper Nouns:</strong> Refer to specific people, places, or things, such as \"London,\" \"John,\" or \"Sunday.\"</li>\n</ul>\n<p><strong>Example:</strong></p>\n<ul>\n<li><strong>Common Noun:</strong> She reads a book.</li>\n<li><strong>Proper Noun:</strong> She reads a Harry Potter book.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Identify the noun in the sentence: \"The teacher gave the book to John.\"<br />> <strong>Answer:</strong> The nouns are \"teacher,\" \"book,\" and \"John.\"</div>",
+   "examples": [
+    "Identify the noun in the sentence: \"The teacher gave the book to John.\" > **Answer:** The nouns are \"teacher,\" \"book,\" and \"John.\""
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.2. Pronouns",
+   "id": "",
+   "html": "<p><strong>Pronoun:</strong> A pronoun is a word used instead of a noun to avoid repetition. Common pronouns include \"I,\" \"you,\" \"he,\" \"she,\" \"it,\" \"we,\" \"they,\" \"me,\" \"him,\" \"her,\" \"us,\" \"them,\" \"this,\" \"that,\" \"these,\" and \"those.\"</p>\n<ul>\n<li><strong>Personal Pronouns:</strong> First person singular (I, me), first person plural (we, us), second person singular and plural (you), third person singular (he, she, it) and plural (they, them).</li>\n<li><strong>Possessive Pronouns:</strong> Mine, yours, his, hers, its, ours, theirs.</li>\n<li><strong>Reflexive Pronouns:</strong> Myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<ul>\n<li><strong>Personal Pronoun:</strong> I read a book. You read a book.</li>\n<li><strong>Possessive Pronoun:</strong> This is mine.</li>\n<li><strong>Reflexive Pronoun:</strong> She hurt herself.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Choose the correct pronoun to complete the sentence: \"The book belongs ___.\"<br />> <strong>Answer:</strong> The book belongs to me.</div>",
+   "examples": [
+    "Choose the correct pronoun to complete the sentence: \"The book belongs ___.\" > **Answer:** The book belongs to me."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.3. Verbs",
+   "id": "",
+   "html": "<p><strong>Verb:</strong> A verb is a word that expresses an action, occurrence, or state of being. Verbs are often used with subjects and objects to form complete sentences.</p>\n<ul>\n<li><strong>Finite Verbs:</strong> Can be conjugated and agree with the subject in number and person. Examples: \"read,\" \"am reading,\" \"read.\"</li>\n<li><strong>Non-finite Verbs:</strong> Cannot be conjugated and are not used with a subject. Examples: \"reading,\" \"to read,\" \"read.\"</li>\n</ul>\n<p><strong>Example:</strong></p>\n<ul>\n<li><strong>Finite Verb:</strong> She reads a book.</li>\n<li><strong>Non-finite Verb:</strong> To read a book is good.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Identify the verb in the sentence: \"She reads a book in the park.\"<br />> <strong>Answer:</strong> Reads.</div>",
+   "examples": [
+    "Identify the verb in the sentence: \"She reads a book in the park.\" > **Answer:** Reads."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.4. Adjectives",
+   "id": "",
+   "html": "<p><strong>Adjective:</strong> An adjective is a word that modifies a noun or pronoun, giving more information about it.</p>\n<ul>\n<li><strong>Descriptive Adjectives:</strong> Describe the noun directly, such as \"big,\" \"red,\" \"happy.\"</li>\n<li><strong>Possessive Adjectives:</strong> Indicate ownership, such as \"my,\" \"your,\" \"his,\" \"her.\"</li>\n</ul>\n<p><strong>Example:</strong></p>\n<ul>\n<li><strong>Descriptive Adjective:</strong> The red car is fast.</li>\n<li><strong>Possessive Adjective:</strong> This is my book.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Choose the correct adjective to complete the sentence: \"The ___ book is in the library.\"<br />> <strong>Answer:</strong> The red book is in the library.</div>",
+   "examples": [
+    "Choose the correct adjective to complete the sentence: \"The ___ book is in the library.\" > **Answer:** The red book is in the library."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.5. Adverbs",
+   "id": "",
+   "html": "<p><strong>Adverb:</strong> An adverb is a word that modifies a verb, adjective, or other adverb, giving more information about the action, quality, or manner.</p>\n<ul>\n<li><strong>Manner:</strong> How something is done, such as \"quickly,\" \"carefully.\"</li>\n<li><strong>Time:</strong> When something happens, such as \"now,\" \"often.\"</li>\n<li><strong>Place:</strong> Where something happens, such as \"here,\" \"there.\"</li>\n<li><strong>Degree:</strong> How much something happens, such as \"very,\" \"extremely.\"</li>\n</ul>\n<p><strong>Example:</strong></p>\n<ul>\n<li><strong>Manner Adverb:</strong> She reads quickly.</li>\n<li><strong>Time Adverb:</strong> He often comes early.</li>\n<li><strong>Place Adverb:</strong> The meeting is here.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Choose the correct adverb to complete the sentence: \"He reads ___.\"<br />> <strong>Answer:</strong> He reads quickly.</div>",
+   "examples": [
+    "Choose the correct adverb to complete the sentence: \"He reads ___.\" > **Answer:** He reads quickly."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.6. Interjections",
+   "id": "",
+   "html": "<p><strong>Interjection:</strong> An interjection is a word that expresses a sudden feeling or emotion, such as \"oh,\" \"ah,\" \"wow,\" \"ouch,\" \"hello,\" \"goodbye.\"</p>\n<p><strong>Example:</strong></p>\n<ul>\n<li><strong>Interjection:</strong> Oh, no! The book is lost.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.7. Prepositions",
+   "id": "",
+   "html": "<p><strong>Preposition:</strong> A preposition shows the relationship between a noun or pronoun and other words in a sentence. Common prepositions include \"in,\" \"into,\" \"on,\" \"at,\" \"for,\" \"since,\" \"between,\" \"among,\" \"to,\" \"towards.\"</p>\n<p><strong>Example:</strong></p>\n<ul>\n<li><strong>In:</strong> She is in the garden.</li>\n<li><strong>Into:</strong> She went into the house.</li>\n<li><strong>On:</strong> He put the book on the table.</li>\n<li><strong>At:</strong> He is at the park.</li>\n<li><strong>For:</strong> She is waiting for her friend.</li>\n<li><strong>Since:</strong> Since you asked, I will help.</li>\n<li><strong>Between:</strong> There is a fence between the houses.</li>\n<li><strong>Among:</strong> They are among the trees.</li>\n<li><strong>To:</strong> He gave the book to her.</li>\n<li><strong>Towards:</strong> He ran towards the goal.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Choose the correct preposition to complete the sentence: \"He is ___ the park.\"<br />> <strong>Answer:</strong> He is at the park.</div>",
+   "examples": [
+    "Choose the correct preposition to complete the sentence: \"He is ___ the park.\" > **Answer:** He is at the park."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.8. Connectors",
+   "id": "",
+   "html": "<p><strong>Connectors:</strong> Connectors, also known as conjunctions, are words that join words, phrases, clauses, or sentences.</p>\n<ul>\n<li><strong>Conditional Connectors:</strong> If, unless, otherwise.</li>\n<li><strong>Cause and Effect Connectors:</strong> Because, therefore.</li>\n<li><strong>Relative Connectors:</strong> Who, which, where, when, why.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<ul>\n<li><strong>Conditional Connector:</strong> If you come, you will have fun.</li>\n<li><strong>Cause and Effect Connector:</strong> Because it is raining, we will stay inside.</li>\n<li><strong>Relative Connector:</strong> The book, which is mine, is in the library.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Choose the correct connector to complete the sentence: \"He will come ___ you ask.\"<br />> <strong>Answer:</strong> He will come if you ask.</div>",
+   "examples": [
+    "Choose the correct connector to complete the sentence: \"He will come ___ you ask.\" > **Answer:** He will come if you ask."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.1. Simple Present Tense",
+   "id": "",
+   "html": "<p><strong>Simple Present Tense:</strong> Used to talk about habits, general truths, and scheduled future events.</p>\n<ul>\n<li><strong>Structure:</strong> Subject + base form of the verb (I, you, we, they) or -s/-es (he, she, it).</li>\n<li><strong>Examples:</strong></li>\n<li>I read a book.</li>\n<li>She reads a book.</li>\n<li>They read a book.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ read a book every day.\"<br />> <strong>Answer:</strong> She reads a book every day.</div>",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ read a book every day.\" > **Answer:** She reads a book every day."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.2. Simple Past Tense",
+   "id": "",
+   "html": "<p><strong>Simple Past Tense:</strong> Used to talk about completed actions in the past.</p>\n<ul>\n<li><strong>Structure:</strong> Subject + past form of the verb.</li>\n<li><strong>Examples:</strong></li>\n<li>I read a book yesterday.</li>\n<li>She read a book yesterday.</li>\n<li>They read a book yesterday.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ read a book yesterday.\"<br />> <strong>Answer:</strong> She read a book yesterday.</div>",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ read a book yesterday.\" > **Answer:** She read a book yesterday."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.3. Simple Future Tense",
+   "id": "",
+   "html": "<p><strong>Simple Future Tense:</strong> Used to talk about planned or scheduled actions in the future.</p>\n<ul>\n<li><strong>Structure:</strong> Will + base form of the verb.</li>\n<li><strong>Examples:</strong></li>\n<li>I will read a book tomorrow.</li>\n<li>She will read a book tomorrow.</li>\n<li>They will read a book tomorrow.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ will read a book tomorrow.\"<br />> <strong>Answer:</strong> She will read a book tomorrow.</div>",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ will read a book tomorrow.\" > **Answer:** She will read a book tomorrow."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.4. Present Continuous Tense",
+   "id": "",
+   "html": "<p><strong>Present Continuous Tense:</strong> Used to talk about actions that are happening now or in the near future.</p>\n<ul>\n<li><strong>Structure:</strong> Subject + am/is/are + present participle (verb + -ing).</li>\n<li><strong>Examples:</strong></li>\n<li>I am reading a book now.</li>\n<li>She is reading a book now.</li>\n<li>They are reading a book now.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ are reading a book now.\"<br />> <strong>Answer:</strong> They are reading a book now.</div>",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ are reading a book now.\" > **Answer:** They are reading a book now."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.5. Past Continuous Tense",
+   "id": "",
+   "html": "<p><strong>Past Continuous Tense:</strong> Used to talk about actions in progress at a specific time in the past.</p>\n<ul>\n<li><strong>Structure:</strong> Subject + was/were + present participle (verb + -ing).</li>\n<li><strong>Examples:</strong></li>\n<li>I was reading a book yesterday.</li>\n<li>She was reading a book yesterday.</li>\n<li>They were reading a book yesterday.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ was reading a book yesterday.\"<br />> <strong>Answer:</strong> She was reading a book yesterday.</div>",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ was reading a book yesterday.\" > **Answer:** She was reading a book yesterday."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.6. Future Continuous Tense",
+   "id": "",
+   "html": "<p><strong>Future Continuous Tense:</strong> Used to talk about actions that will be in progress at a specific time in the future.</p>\n<ul>\n<li><strong>Structure:</strong> Will + be + present participle (verb + -ing).</li>\n<li><strong>Examples:</strong></li>\n<li>I will be reading a book tomorrow.</li>\n<li>She will be reading a book tomorrow.</li>\n<li>They will be reading a book tomorrow.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ will be reading a book tomorrow.\"<br />> <strong>Answer:</strong> She will be reading a book tomorrow.</div>",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ will be reading a book tomorrow.\" > **Answer:** She will be reading a book tomorrow."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.7. Present Perfect Tense",
+   "id": "",
+   "html": "<p><strong>Present Perfect Tense:</strong> Used to talk about actions that started in the past and continue to the present.</p>\n<ul>\n<li><strong>Structure:</strong> Have/Has + past participle (verb + -ed or -en).</li>\n<li><strong>Examples:</strong></li>\n<li>I have read a book.</li>\n<li>She has read a book.</li>\n<li>They have read a book.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ have read a book.\"<br />> <strong>Answer:</strong> They have read a book.</div>",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ have read a book.\" > **Answer:** They have read a book."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.8. Past Perfect Tense",
+   "id": "",
+   "html": "<p><strong>Past Perfect Tense:</strong> Used to talk about actions that were completed before another action in the past.</p>\n<ul>\n<li><strong>Structure:</strong> Had + past participle (verb + -ed or -en).</li>\n<li><strong>Examples:</strong></li>\n<li>I had read a book before.</li>\n<li>She had read a book before.</li>\n<li>They had read a book before.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ had read a book before.\"<br />> <strong>Answer:</strong> She had read a book before.</div>",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ had read a book before.\" > **Answer:** She had read a book before."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.9. Future Perfect Tense",
+   "id": "",
+   "html": "<p><strong>Future Perfect Tense:</strong> Used to talk about actions that will be completed before a specific time in the future.</p>\n<ul>\n<li><strong>Structure:</strong> Will + have + past participle (verb + -ed or -en).</li>\n<li><strong>Examples:</strong></li>\n<li>I will have read a book before tomorrow.</li>\n<li>She will have read a book before tomorrow.</li>\n<li>They will have read a book before tomorrow.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ will have read a book before tomorrow.\"<br />> <strong>Answer:</strong> She will have read a book before tomorrow.</div>",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ will have read a book before tomorrow.\" > **Answer:** She will have read a book before tomorrow."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.10. Present Perfect Continuous Tense",
+   "id": "",
+   "html": "<p><strong>Present Perfect Continuous Tense:</strong> Used to talk about actions that started in the past and continue to the present.</p>\n<ul>\n<li><strong>Structure:</strong> Have/Has + been + present participle (verb + -ing).</li>\n<li><strong>Examples:</strong></li>\n<li>I have been reading a book.</li>\n<li>She has been reading a book.</li>\n<li>They have been reading a book.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ have been reading a book.\"<br />> <strong>Answer:</strong> They have been reading a book.</div>",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ have been reading a book.\" > **Answer:** They have been reading a book."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.11. Past Perfect Continuous Tense",
+   "id": "",
+   "html": "<p><strong>Past Perfect Continuous Tense:</strong> Used to talk about actions that started in the past and continued up to another time in the past.</p>\n<ul>\n<li><strong>Structure:</strong> Had + been + present participle (verb + -ing).</li>\n<li><strong>Examples:</strong></li>\n<li>I had been reading a book before.</li>\n<li>She had been reading a book before.</li>\n<li>They had been reading a book before.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Complete the sentence with the correct form of the verb: \"___ had been reading a book before.\"<br />> <strong>Answer:</strong> She had been reading a book before.</div>\n<hr />",
+   "examples": [
+    "Complete the sentence with the correct form of the verb: \"___ had been reading a book before.\" > **Answer:** She had been reading a book before."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.1.1. Simple Present Tense",
+   "id": "",
+   "html": "<p>The <strong>Simple Present Tense</strong> is used to describe actions that are habitual, general truths, or ongoing states. It is formed by using the base form of the verb for most subjects, and -s or -es for third-person singular subjects.</p>\n<ul>\n<li><strong>Subject + Verb (Base form or -s/-es)</strong></li>\n<li><strong>Example:</strong> I write a letter every day.</li>\n<li><strong>Example:</strong> He reads a book every night.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.1.2. Present Continuous Tense",
+   "id": "",
+   "html": "<p>The <strong>Present Continuous Tense</strong> is used to describe actions that are happening now or are in progress. It is formed by using the present tense of the verb \"to be\" followed by the present participle (verb + -ing).</p>\n<ul>\n<li><strong>Subject + am/is/are + verb (base form) + -ing</strong></li>\n<li><strong>Example:</strong> She is writing a letter now.</li>\n<li><strong>Example:</strong> They are reading a book.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.1.3. Present Perfect Tense",
+   "id": "",
+   "html": "<p>The <strong>Present Perfect Tense</strong> is used to describe actions that have happened at an indefinite time in the past but are relevant to the present. It is formed by using \"have\" or \"has\" followed by the past participle (verb + -ed).</p>\n<ul>\n<li><strong>Subject + have/has + verb (past participle)</strong></li>\n<li><strong>Example:</strong> I have written a letter.</li>\n<li><strong>Example:</strong> They have read the book.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.1.4. Present Perfect Continuous Tense",
+   "id": "",
+   "html": "<p>The <strong>Present Perfect Continuous Tense</strong> is used to describe actions that started in the past and have continued up to the present. It is formed by using \"have\" or \"has\" followed by the present participle (verb + -ing).</p>\n<ul>\n<li><strong>Subject + have/has + been + verb (base form) + -ing</strong></li>\n<li><strong>Example:</strong> She has been writing a letter for an hour.</li>\n<li><strong>Example:</strong> They have been reading the book since morning.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />- She writes a letter every day. (Simple Present)<br />- She is writing a letter now. (Present Continuous)<br />- She has written a letter. (Present Perfect)<br />- She has been writing a letter for an hour. (Present Perfect Continuous)</div>",
+   "examples": [
+    "- She writes a letter every day. (Simple Present) - She is writing a letter now. (Present Continuous) - She has written a letter. (Present Perfect) - She has been writing a letter for an hour. (Present Perfect Continuous)"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.2.1. Simple Past Tense",
+   "id": "",
+   "html": "<p>The <strong>Simple Past Tense</strong> is used to describe actions that happened in the past, with no reference to the present. It is formed by using the past form of the verb.</p>\n<ul>\n<li><strong>Subject + verb (past form)</strong></li>\n<li><strong>Example:</strong> I wrote a letter yesterday.</li>\n<li><strong>Example:</strong> They read the book last night.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.2.2. Past Continuous Tense",
+   "id": "",
+   "html": "<p>The <strong>Past Continuous Tense</strong> is used to describe actions that were in progress at a specific time in the past. It is formed by using the past tense of the verb \"to be\" followed by the present participle (verb + -ing).</p>\n<ul>\n<li><strong>Subject + was/were + verb (base form) + -ing</strong></li>\n<li><strong>Example:</strong> She was writing a letter when I called.</li>\n<li><strong>Example:</strong> They were reading the book last night.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.2.3. Past Perfect Tense",
+   "id": "",
+   "html": "<p>The <strong>Past Perfect Tense</strong> is used to describe actions that happened before another past action. It is formed by using \"had\" followed by the past participle (verb + -ed).</p>\n<ul>\n<li><strong>Subject + had + verb (past participle)</strong></li>\n<li><strong>Example:</strong> I had written a letter before you called.</li>\n<li><strong>Example:</strong> They had read the book before we arrived.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />- I wrote a letter yesterday. (Simple Past)<br />- She was writing a letter when I called. (Past Continuous)<br />- I had written a letter before you called. (Past Perfect)</div>\n<hr />",
+   "examples": [
+    "- I wrote a letter yesterday. (Simple Past) - She was writing a letter when I called. (Past Continuous) - I had written a letter before you called. (Past Perfect)"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p>The <strong>future tense</strong> is used to describe actions or events that will happen in the future. It is essential for expressing intentions, predictions, and plans. The simple future tense is formed using the auxiliary verb <strong>will</strong> followed by the base form of the main verb.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Formation of Future Tense",
+   "id": "",
+   "html": "<ul>\n<li><strong>Positive Statements:</strong></li>\n<li>Subject + will + base form of the verb + object.</li>\n<li><strong>Example:</strong> She will go to the library tomorrow.</li>\n</ul>\n<ul>\n<li><strong>Negative Statements:</strong></li>\n<li>Subject + will + not + base form of the verb + object.</li>\n<li><strong>Example:</strong> They will not go to the park today.</li>\n</ul>\n<ul>\n<li><strong>Questions:</strong></li>\n<li>Will + subject + base form of the verb + object?</li>\n<li><strong>Example:</strong> Will you come to the meeting tomorrow?</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Usage in Different Contexts",
+   "id": "",
+   "html": "<ul>\n<li><strong>Intention or Plan:</strong></li>\n<li>The future tense can be used to express intentions or plans.</li>\n<li><strong>Example:</strong> I will finish my project by next week.</li>\n</ul>\n<ul>\n<li><strong>Prediction:</strong></li>\n<li>It can also be used to make predictions.</li>\n<li><strong>Example:</strong> It will rain tomorrow.</li>\n</ul>\n<ul>\n<li><strong>Promise or Offer:</strong></li>\n<li>The future tense can be used to make promises or offers.</li>\n<li><strong>Example:</strong> I will help you with your homework.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />- <strong>Positive Statement:</strong> She will go to the library tomorrow.<br />- <strong>Negative Statement:</strong> They will not go to the park today.<br />- <strong>Question:</strong> Will you come to the meeting tomorrow?</div>",
+   "examples": [
+    "- **Positive Statement:** She will go to the library tomorrow. - **Negative Statement:** They will not go to the park today. - **Question:** Will you come to the meeting tomorrow?"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Practice Exercise",
+   "id": "",
+   "html": "<ol>\n<li><strong>Positive Statement:</strong></li>\n</ol>\n<ul>\n<li>Subject: He</li>\n<li>Verb: visit</li>\n<li>Sentence: He will visit his parents next month.</li>\n</ul>\n<ol>\n<li><strong>Negative Statement:</strong></li>\n</ol>\n<ul>\n<li>Subject: We</li>\n<li>Verb: go</li>\n<li>Sentence: We will not go to the party tonight.</li>\n</ul>\n<ol>\n<li><strong>Question:</strong></li>\n</ol>\n<ul>\n<li>Subject: You</li>\n<li>Verb: stay</li>\n<li>Sentence: Will you stay at home tomorrow?</li>\n</ul>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Modal auxiliaries</strong> are helper verbs that express different shades of meaning, such as possibility, permission, obligation, and advice. They are crucial in effective communication and writing in English. This section will cover the usage of common modal auxiliaries: <strong>can, could, may, might, shall, should, will, would, must, have to, ought to</strong>.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Can and Could",
+   "id": "",
+   "html": "<ul>\n<li><strong>Usage:</strong></li>\n<li><strong>Can</strong> is used to express ability or possibility.</li>\n<li><strong>Could</strong> is used to express possibility in the past or to make polite requests.</li>\n<li><strong>Example:</strong></li>\n<li><strong>Can:</strong> She can speak three languages.</li>\n<li><strong>Could:</strong> Could you please pass the salt?</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "May and Might",
+   "id": "",
+   "html": "<ul>\n<li><strong>Usage:</strong></li>\n<li><strong>May</strong> is used to express permission or possibility.</li>\n<li><strong>Might</strong> is used to express less certainty than may.</li>\n<li><strong>Example:</strong></li>\n<li><strong>May:</strong> You may leave now.</li>\n<li><strong>Might:</strong> It might rain later.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Shall and Should",
+   "id": "",
+   "html": "<ul>\n<li><strong>Usage:</strong></li>\n<li><strong>Shall</strong> is used to make offers or promises.</li>\n<li><strong>Should</strong> is used to give advice.</li>\n<li><strong>Example:</strong></li>\n<li><strong>Shall:</strong> Shall we go for a walk?</li>\n<li><strong>Should:</strong> You should study more to improve your grades.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Will and Would",
+   "id": "",
+   "html": "<ul>\n<li><strong>Usage:</strong></li>\n<li><strong>Will</strong> is used to express intention or prediction.</li>\n<li><strong>Would</strong> is used to make polite requests or to express a past intention.</li>\n<li><strong>Example:</strong></li>\n<li><strong>Will:</strong> She will come to the party tomorrow.</li>\n<li><strong>Would:</strong> Would you like to join us for dinner?</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Must",
+   "id": "",
+   "html": "<ul>\n<li><strong>Usage:</strong></li>\n<li><strong>Must</strong> is used to express obligation or necessity.</li>\n<li><strong>Example:</strong></li>\n<li><strong>Must:</strong> You must submit your report by Friday.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Have to",
+   "id": "",
+   "html": "<ul>\n<li><strong>Usage:</strong></li>\n<li><strong>Have to</strong> is used to express necessity or obligation.</li>\n<li><strong>Example:</strong></li>\n<li><strong>Have to:</strong> I have to go to the doctor today.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Ought to",
+   "id": "",
+   "html": "<ul>\n<li><strong>Usage:</strong></li>\n<li><strong>Ought to</strong> is used to give advice.</li>\n<li><strong>Example:</strong></li>\n<li><strong>Ought to:</strong> You ought to start early if you want to arrive on time.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />- <strong>Can:</strong> She can play the piano.<br />- <strong>Could:</strong> Could you please help me with this task?<br />- <strong>May:</strong> You may leave the office now.<br />- <strong>Might:</strong> It might be a good idea to bring an umbrella.<br />- <strong>Shall:</strong> Shall we go for a coffee break?<br />- <strong>Should:</strong> You should practice more to improve your skills.<br />- <strong>Will:</strong> She will come to the meeting tomorrow.<br />- <strong>Would:</strong> Would you like to come with us?<br />- <strong>Must:</strong> You must complete this project by the deadline.<br />- <strong>Have to:</strong> I have to go to the bank.<br />- <strong>Ought to:</strong> You ought to take better care of your health.</div>",
+   "examples": [
+    "- **Can:** She can play the piano. - **Could:** Could you please help me with this task? - **May:** You may leave the office now. - **Might:** It might be a good idea to bring an umbrella. - **Shall:** Shall we go for a coffee break? - **Should:** You should practice more to improve your skills. - **Will:** She will come to the meeting tomorrow. - **Would:** Would you like to come with us? - **Must:** You must complete this project by the deadline. - **Have to:** I have to go to the bank. - **Ought to:** You ought to take better care of your health."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Practice Exercise",
+   "id": "",
+   "html": "<ol>\n<li><strong>Can:</strong></li>\n</ol>\n<ul>\n<li>Sentence: He can speak five languages.</li>\n</ul>\n<ol>\n<li><strong>Could:</strong></li>\n</ol>\n<ul>\n<li>Sentence: Could you please pass the salt?</li>\n</ul>\n<ol>\n<li><strong>May:</strong></li>\n</ol>\n<ul>\n<li>Sentence: You may leave now.</li>\n</ul>\n<ol>\n<li><strong>Might:</strong></li>\n</ol>\n<ul>\n<li>Sentence: It might rain tomorrow.</li>\n</ul>\n<ol>\n<li><strong>Shall:</strong></li>\n</ol>\n<ul>\n<li>Sentence: Shall we meet at the cafe?</li>\n</ul>\n<ol>\n<li><strong>Should:</strong></li>\n</ol>\n<ul>\n<li>Sentence: You should study harder.</li>\n</ul>\n<ol>\n<li><strong>Will:</strong></li>\n</ol>\n<ul>\n<li>Sentence: She will come to the party.</li>\n</ul>\n<ol>\n<li><strong>Would:</strong></li>\n</ol>\n<ul>\n<li>Sentence: Would you like to come with us?</li>\n</ul>\n<ol>\n<li><strong>Must:</strong></li>\n</ol>\n<ul>\n<li>Sentence: You must submit your report by Friday.</li>\n</ul>\n<ol>\n<li><strong>Have to:</strong></li>\n</ol>\n<ul>\n<li>Sentence: I have to go to the doctor today.</li>\n</ul>\n<ol>\n<li><strong>Ought to:</strong></li>\n</ol>\n<ul>\n<li>Sentence: You ought to exercise regularly.</li>\n</ul>\n<p>This comprehensive section covers the usage of future tense and modal auxiliaries, providing clear examples and practical exercises to aid understanding and application in day-to-day communication.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4. Subject- Verb Agreement",
+   "id": "",
+   "html": "<p>Subject-verb agreement is a fundamental aspect of English grammar. It involves ensuring that the subject and verb of a sentence agree in number (singular or plural). This agreement is crucial for clear and correct communication.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4.1. Defining Subject and Verb",
+   "id": "",
+   "html": "<ul>\n<li><strong>Subject:</strong> The subject is the person, place, thing, or idea that is doing or being something in the sentence. It is the part of the sentence that performs the action or is being described.</li>\n<li><strong>Verb:</strong> The verb is the action word or state of being in the sentence. It indicates what the subject is doing or being.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4.2. Singular and Plural Subjects",
+   "id": "",
+   "html": "<ul>\n<li><strong>Singular Subject:</strong> A single person, place, thing, or idea. Examples: \"The cat,\" \"John,\" \"The book.\"</li>\n<li><strong>Plural Subject:</strong> More than one person, place, thing, or idea. Examples: \"The cats,\" \"John and Mary,\" \"The books.\"</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4.3. Regular and Irregular Verbs",
+   "id": "",
+   "html": "<ul>\n<li><strong>Regular Verb:</strong> Verbs that form their past tense and past participle by adding -ed to the base form. Examples: \"walked,\" \"talked.\"</li>\n<li><strong>Irregular Verb:</strong> Verbs that do not follow the standard -ed rule. Examples: \"walked,\" \"talked.\"</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4.4. Subject-Verb Agreement Rules",
+   "id": "",
+   "html": "<ol>\n<li><strong>Singular Subject with Singular Verb:</strong></li>\n</ol>\n<ul>\n<li><strong>Example:</strong> \"The dog barks.\"</li>\n</ul>\n<ol>\n<li><strong>Plural Subject with Plural Verb:</strong></li>\n</ol>\n<ul>\n<li><strong>Example:</strong> \"The dogs bark.\"</li>\n</ul>\n<ol>\n<li><strong>Singular Subject with Collective Noun and Plural Verb:</strong></li>\n</ol>\n<ul>\n<li><strong>Example:</strong> \"The committee are discussing the issue.\"</li>\n</ul>\n<ol>\n<li><strong>Singular Subject with Non-Singular Verb:</strong></li>\n</ol>\n<ul>\n<li><strong>Example:</strong> \"The news is on the television.\"</li>\n</ul>\n<ol>\n<li><strong>Compound Subject with Plural Verb:</strong></li>\n</ol>\n<ul>\n<li><strong>Example:</strong> \"John and Mary are going to the park.\"</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4.5. Subject-Verb Agreement with Prepositional Phrases",
+   "id": "",
+   "html": "<ul>\n<li>A prepositional phrase can come between the subject and the verb, but the subject remains the same.</li>\n<li><strong>Example:</strong> \"The book on the table is new.\"</li>\n<li><strong>Example:</strong> \"The students in the class are from different countries.\"</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4.6. Subject-Verb Agreement with Indefinite Pronouns",
+   "id": "",
+   "html": "<ul>\n<li><strong>Indefinite Pronouns:</strong> Words like \"each,\" \"everyone,\" \"anyone,\" \"someone,\" \"everybody,\" \"nobody,\" \"somebody,\" \"anybody.\"</li>\n<li><strong>Example:</strong> \"Each student has completed the assignment.\"</li>\n<li><strong>Example:</strong> \"Everyone in the room is happy.\"</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4.7. Subject-Verb Agreement with Collective Nouns",
+   "id": "",
+   "html": "<ul>\n<li><strong>Collective Noun:</strong> A noun that refers to a group of people or things but can be treated as a singular or plural subject depending on the context.</li>\n<li><strong>Example:</strong> \"The team is ready to play.\"</li>\n<li><strong>Example:</strong> \"The team are divided on the issue.\"</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4.8. Subject-Verb Agreement with Indefinite Quantifiers",
+   "id": "",
+   "html": "<ul>\n<li><strong>Indefinite Quantifiers:</strong> Words like \"some,\" \"many,\" \"few,\" \"much.\"</li>\n<li><strong>Example:</strong> \"There is much to be done.\"</li>\n<li><strong>Example:</strong> \"There are many books on the shelf.\"</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.4.9. Subject-Verb Agreement with Compound Subjects",
+   "id": "",
+   "html": "<ul>\n<li><strong>Compound Subject:</strong> A subject that consists of two or more subjects joined by \"and,\" \"or,\" \"nor,\" \"but,\" \"for,\" \"so,\" \"yet.\"</li>\n<li><strong>Example:</strong> \"John and Mary are going to the park.\"</li>\n<li><strong>Example:</strong> \"Neither the students nor the teacher is late.\"</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />\"The students and teachers are going to the picnic.<br />The teachers and students are going to the picnic.\"</div>",
+   "examples": [
+    "\"The students and teachers are going to the picnic. The teachers and students are going to the picnic.\""
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.5.1. Defining Sentence Patterns",
+   "id": "",
+   "html": "<p>Basic sentence patterns in English are essential for forming clear and grammatically correct sentences. These patterns are categorized by the roles of the words in the sentence: subject (S), verb (V), object (O), adverbial (A), and complement (C).</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.5.2. Sentence Pattern S+V",
+   "id": "",
+   "html": "<ul>\n<li><strong>Structure:</strong> Subject + Verb</li>\n<li><strong>Explanation:</strong> This pattern is the simplest form of a sentence where the subject is performing the action described by the verb.</li>\n<li><strong>Example:</strong> \"The cat sleeps.\"</li>\n<li><strong>Mermaid Diagram:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Subject (S)] --> B[Verb (V)]"
+   ]
+  },
+  {
+   "heading": "2.5.3. Sentence Pattern S+V+O",
+   "id": "",
+   "html": "<ul>\n<li><strong>Structure:</strong> Subject + Verb + Object</li>\n<li><strong>Explanation:</strong> In this pattern, the subject performs the action on the object.</li>\n<li><strong>Example:</strong> \"The cat eats fish.\"</li>\n<li><strong>Mermaid Diagram:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)] --&gt; C[Object (O)]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)] --&gt; C[Object (O)]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)] --&gt; C[Object (O)]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Subject (S)] --> B[Verb (V)] --> C[Object (O)]"
+   ]
+  },
+  {
+   "heading": "2.5.4. Sentence Pattern S+V+A",
+   "id": "",
+   "html": "<ul>\n<li><strong>Structure:</strong> Subject + Verb + Adverbial</li>\n<li><strong>Explanation:</strong> The adverbial modifies the verb, providing more information about how the action is performed.</li>\n<li><strong>Example:</strong> \"The cat sleeps quietly.\"</li>\n<li><strong>Mermaid Diagram:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)] --&gt; C[Adverbial (A)]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)] --&gt; C[Adverbial (A)]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)] --&gt; C[Adverbial (A)]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Subject (S)] --> B[Verb (V)] --> C[Adverbial (A)]"
+   ]
+  },
+  {
+   "heading": "2.5.5. Sentence Pattern S+V+C",
+   "id": "",
+   "html": "<ul>\n<li><strong>Structure:</strong> Subject + Verb + Complement</li>\n<li><strong>Explanation:</strong> The complement provides additional information about the subject, often describing its state or condition.</li>\n<li><strong>Example:</strong> \"The cat is asleep.\"</li>\n<li><strong>Mermaid Diagram:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)] --&gt; C[Complement (C)]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)] --&gt; C[Complement (C)]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Subject (S)] --&gt; B[Verb (V)] --&gt; C[Complement (C)]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Subject (S)] --> B[Verb (V)] --> C[Complement (C)]"
+   ]
+  },
+  {
+   "heading": "2.5.6. Practical Application",
+   "id": "",
+   "html": "<p>To apply these sentence patterns correctly, let's consider a few examples:</p>\n<ul>\n<li><strong>Example:</strong> \"The students are studying.\"</li>\n<li><strong>Mermaid Diagram:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[The students (S)] --&gt; B[are studying (V)]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[The students (S)] --&gt; B[are studying (V)]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[The students (S)] --&gt; B[are studying (V)]</pre></noscript></div>\n<ul>\n<li><strong>Example:</strong> \"The students are studying hard.\"</li>\n<li><strong>Mermaid Diagram:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[The students (S)] --&gt; B[are studying (V)] --&gt; C[hard (A)]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[The students (S)] --&gt; B[are studying (V)] --&gt; C[hard (A)]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[The students (S)] --&gt; B[are studying (V)] --&gt; C[hard (A)]</pre></noscript></div>\n<ul>\n<li><strong>Example:</strong> \"The students are happy.\"</li>\n<li><strong>Mermaid Diagram:</strong></li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[The students (S)] --&gt; B[are (V)] --&gt; C[happy (C)]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[The students (S)] --&gt; B[are (V)] --&gt; C[happy (C)]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[The students (S)] --&gt; B[are (V)] --&gt; C[happy (C)]</pre></noscript></div>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />\"The students are studying hard in the library.<br />The library is a quiet place.\"</div>\n<p>These examples and diagrams should help in understanding and applying the basic sentence patterns of English effectively.</p>",
+   "examples": [
+    "\"The students are studying hard in the library. The library is a quiet place.\""
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[The students (S)] --> B[are studying (V)]",
+    "flowchart TD\n    A[The students (S)] --> B[are studying (V)] --> C[hard (A)]",
+    "flowchart TD\n    A[The students (S)] --> B[are (V)] --> C[happy (C)]"
+   ]
+  }
+ ]
+}

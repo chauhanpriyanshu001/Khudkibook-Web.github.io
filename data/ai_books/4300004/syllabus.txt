@@ -1,0 +1,811 @@
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 1 of 12
+GUJARAT TECHNOLOGICAL UNIVERSITY (GTU)
+Competency-focused Outcome-based Green Curriculum-2021 (COGC-2021)
+I &II – Semester
+Course Title: Applied Physics
+(Course Code: 4300004)
+Diploma programme in which this course is offered 	Semester in
+which offered
+Automobile Engineering, Ceramic Technology, Civil Engineering,
+Environment Engineering, Fabrication Engineering, Mechanical
+Engineering, Mechatronics Engineering, Mining Engineering,
+Chemical Engineering, Textile Manufacturing Technology,
+Marine Engineering, Printing Technology
+First
+Metallurgy Engineering, Plastic Engineering, Textile Processing
+Technology Second
+1. 	RATIONALE
+Physics is branch of science mainly deals with interaction of energy and matter and
+considered as the mother of all engineering disciplines. Diploma engineers (technologists)
+have to deal with various materials while using/ maintaining machines. More over the basic
+knowledge of principles of physics helps diploma students to lay foundations of core
+engineering courses. The laws and principles of physics, formulae and knowledge of physical
+phenomena and physical properties provides a means of estimating the behavior of
+things before we design and observe them. This course of applied physics has been
+designed as per program requirements to help students to study the relevant core
+engineering courses. The complicated derivations have been avoided and micro projects
+are introduced. This course will help the diploma engineers to use/apply the basic concepts
+and principles of physics solve well designed engineering problems and comprehend
+different technology-based applications.
+2. 	COMPETENCY
+The purpose of this course is to help the student to attain the following industry identified
+competency through various teaching learning experiences:
+• 	Use principles of physics to solve broadly defined engineering problems
+3. 	COURSE OUTCOMES (COs)
+The practical exercises, the underpinning knowledge and the relevant soft skills associated
+with this competency are to be developed in the student to display the following COs:
+a) Use relevant instruments with precision to measure the dimension of given physical
+quantities in various engineering situations.
+b) 	Solve various engineering problems by the concept of linear momentum and circular
+motion.
+c) 	Apply basic concepts of properties of matter in solving engineering problems
+efficiently.
+d) 	Apply the basic concepts of heat transfer and thermometric properties to provide
+solutions for various engineering problems.
+
+-- 1 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 2 of 12
+e) 	Use the concept of waves and sound waves for various acoustics and other
+engineering applications involving wave dynamics.
+4. 	TEACHING AND EXAMINATION SCHEME
+Teaching Scheme
+(In Hours)
+Total Credits
+(L+T+P/2)
+Examination Scheme
+Theory Marks 	Practical Marks 	Total
+Marks	L 	T 	P 	C 	CA 	ESE 	CA 	ESE
+3 	- 	2 	4 	30* 	70 	25 	25 	150
+(*): Out of 30 marks under the theory CA, 10 marks are for assessment of the micro-project
+to facilitate integration of COs and the remaining 20 marks is the average of 2 tests to be
+taken during the semester for the assessing the attainment of the cognitive domain UOs
+required for the attainment of the COs.
+Legends: L-Lecture; T – Tutorial/Teacher Guided Theory Practice; P - Practical; C – Credit, CA -
+Continuous Assessment; ESE - End Semester Examination.
+5. 	SUGGESTED PRACTICAL EXERCISES
+The following practical outcomes (PrOs) are the sub-components of the COs. Some of the
+PrOs marked ‘*’ are compulsory, as they are crucial for that particular CO. These PrOs need
+to be attained at least at the ‘Precision Level’ of Dave’s Taxonomy related to ‘Psychomotor
+Domain’.
+S.
+No. Practical Outcomes (PrOs) Unit
+No.
+Approx.
+Hrs.
+required
+1 	Use Vernier caliper to measure the dimensions of a given object. 	I 	02*
+2 Use micrometer screw gauge to measure diameter of a given wire
+and determine volume of a given metallic piece.
+I 	02
+3 	Use Hooke’s law to determine force constant of a given spring. 	III 	02
+4 Use Searle’s method to determine Youngs modulus of the given
+metallic wire.
+III 	02*
+5 Use capillary rise method and travelling microscope to determine
+the surface tension of a given liquid.
+III 	02*
+6 Use Stokes’ law to determine the viscosity of a given liquid (e.g.,
+glycerin).
+III 	02
+7 Use different types of thermometers to measure temperature of a
+hot bath and convert it into different scales.
+IV 	02*
+8 Use Searle’s method to measure the coefficient of thermal
+conductivity of a given metallic rod.
+IV 	02
+9 Use Searle’s method to determine the coefficient of linear
+expansion of the given metallic rod.
+IV 	02
+10 Determine acceleration due to gravity ‘g’ by using simple
+pendulum.
+V 	02
+11 	Use sonometer to find the frequency of given tuning fork. 	V 	02
+12 Use resonance tube to determine velocity of sound in air at room
+temperature.
+V 	02*
+13 Use ultrasonic interferometer to determine the velocity of
+ultrasonic waves in different liquids.
+V 	02
+
+-- 2 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 3 of 12
+S.
+No. Practical Outcomes (PrOs) Unit
+No.
+Approx.
+Hrs.
+required
+14 	Use electrical vibrator to find the frequency of AC mains. 	V 	02
+Total 	28
+Note
+i. More Practical Exercises can be designed and offered by the respective course teacher to
+develop the industry relevant skills/outcomes to match the COs. The above table is only a
+suggestive list.
+ii. The following are some sample ‘Process’ and ‘Product’ related skills (more may be
+added/deleted depending on the course) that occur in the above listed Practical Exercises
+of this course required which are embedded in the COs and ultimately the competency.
+S. No. 	Sample Performance Indicators for the PrOs 	Weightage in %
+1 	Prepare of experimental setup 	20
+2 	Operate the equipment setup or circuit 	20
+3 	Follow safe practices measures 	10
+4 	Record observations correctly 	20
+5 	Interpret the result and conclude 	30
+Total 	100
+6. 	MAJOR EQUIPMENT/ INSTRUMENTS AND SOFTWARE REQUIRED
+These major equipment/instruments and Software required to develop PrOs are given below
+with 	broad 	specifications 	to 	facilitate 	procurement 	of 	them 	by 	the
+administrators/management of the institutes. This will ensure conduction of practical in all
+institutions across the state in proper way so that the desired skills are developed in
+students.
+S.
+No. Equipment Name with Broad Specifications 	PrO. No.
+1 	Vernier caliper analog - least count 0.02 mm 	1, 4
+2 	Micrometer screw gauge analog (0-25 mm) – least count 0.01mm 	2, 4
+3 Rigid support, spring, 20 g hanger, six 20 g slotted weight, fine
+pointer, vertical wooden scale, hook 3
+4
+Young modulus apparatus (Searle's pattern): two aluminum
+graduated scales mounted on pillar supports, two pointers with
+clamps for attaching to specimen, brass and steel rod, cord and
+hook for carrying weight.
+4
+5
+Travelling microscope - high magnification power, stainless steel
+scale with Vernier least count - 0.02 mm for taking the recordings,
+horizontal scale graduated up to 20 cm, vertical scale graduated up
+to 15 cm.
+5
+6 One meter high and 5 cm broad glass cylindrical jar with
+millimeter graduations along its height, steel balls 6
+
+-- 3 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 4 of 12
+S.
+No. Equipment Name with Broad Specifications 	PrO. No.
+7 	Hot water bath 	7
+8
+Mercury filled glass thermometer 0-110 °C, Mercury filled glass
+thermometer 0-250 °C. digital food thermometer, bimetallic
+thermometer.
+7
+9
+Searle’s thermal conductivity apparatus - made up of pure copper
+and outer boxes are of wooden polished material, 04
+thermometers, steam generator, measuring cylinder, constant
+water level tank, pinch cork, rubber tube
+8
+10 Linear expansion apparatus, steam generator, rubber tubing,
+metal rods of aluminum, iron, copper, brass, and steel. 9
+11 	A bob 	10
+12 A sonometer with set of tuning forks, two sharp edge wedges and
+a weight box. 11
+13 Resonance tube apparatus, tuning forks of different frequencies,
+rubber pad, thermometer 12
+14 	Stop watch (least count = 1/100 s) 	8, 10
+15 	Clamp with stand. 	5
+16 	0.5 kg hanger, 0.5 kg slotted weight. 	4
+17 	Hot plate (1800 W) 	8, 9
+18
+Ultrasonic interferometer - gold plated quartz crystal, operating
+voltage - 220 Volt, display - analog, frequency - 2MHz with position
+control
+13
+19 Electrical Vibrator, uniform cord, weight pan, weight box, pulley,
+meter scale, sensitive balance 14
+7. 	AFFECTIVE DOMAIN OUTCOMES
+The following sample Affective Domain Outcomes (ADOs) are embedded in many of the
+above-mentioned COs and PrOs. More could be added to fulfil the development of this
+competency.
+a) 	Work as a leader/a team member.
+b) 	Follow ethical practices.
+c) 	Follow safe practices
+d) 	Handle equipment carefully
+e) 	Practice energy saving processes.
+f) 	Practice environmentally friendly methods and processes. (Environment related)
+The ADOs are best developed through the laboratory/field-based exercises. Moreover, the
+level of achievement of the ADOs according to Krathwohl’s ‘Affective Domain Taxonomy’
+should gradually increase as planned below:
+i. 	‘Valuing Level’ in 1st
+ii. 	‘Organization Level’ in 2
+year
+nd
+iii. ‘Characterization Level’ in 3
+year.
+rd year.
+
+-- 4 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 5 of 12
+8. 	UNDERPINNING THEORY
+The major underpinning theory is given below based on the higher level UOs of Revised
+Bloom’s taxonomy that are formulated for development of the COs and competency. If
+required, more such higher level UOs could be included by the course teacher to focus on
+attainment of COs and competency.
+Unit Unit Outcomes (UOs)
+(4 to 6 UOs at different levels) Topics and Sub-topics
+Unit – I
+Units and
+Measurem
+ents
+1.a Explain Physical quantities and
+their units.
+1.b Convert unit of a given physical
+quantity in one system of units
+into another systems of units.
+1.c Explain method to measure the
+dimensions of given object by
+using relevant instruments.
+1.d Estimate errors in the
+measurement.
+1.e Apply the concept of Least
+count, errors and significant
+figures to solve the given
+problems.
+1.1 	Measurement and units in
+engineering and science
+1.2 	Physical quantities; fundamental
+and derived quantities
+1.3 	Systems of units: CGS, MKS and SI,
+definition of units (only for
+information and not to be asked in
+examination), interconversion of
+units MKS to CGS and vice versa,
+Requirements of standard unit
+1.4 	Vernier caliper, Micrometer screw
+gauge
+1.5 	Accuracy, precision and error,
+estimation of errors - absolute
+error, relative error and percentage
+error, error propagation, significant
+figures
+Unit – II
+Circular
+motion
+2.a Apply the concept of linear
+momentum and its
+conservation to explain recoil of
+gun and rockets propulsion.
+2.b Apply the concept of centripetal
+and centrifugal forces to solve
+given engineering problems.
+2.1 Force, momentum, law of
+conservation of linear momentum,
+its applications such as recoil of
+gun, rocket propulsion, impulse and
+its applications
+2.2 Circular motion, angular
+displacement, angular velocity,
+angular acceleration and their
+interrelation
+2.3 Centripetal and centrifugal forces
+examples: banking of roads and
+bending of cyclist
+Unit– III
+General
+Properties
+of Matter
+3.a Explain the Hooke’s law, stress-
+strain curve and moduli of
+elasticity.
+3.b Explain surface tension,
+cohesive and adhesive forces.
+3.c Apply Ascent formula to
+determine surface tension of
+3.1 Elasticity
+3.1.1 Deforming and restoring Force
+3.1.2 Stress-Strain with their types
+3.1.3 Hooke’s law
+3.1.4 Moduli of elasticity, Young’s
+modulus, Bulk modulus, Shear
+modulus
+
+-- 5 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 6 of 12
+Unit Unit Outcomes (UOs)
+(4 to 6 UOs at different levels) Topics and Sub-topics
+the given liquid.
+3.d Explain viscosity, coefficient of
+viscosity, terminal velocity and
+Stokes’ law.
+3.e Apply the concept of viscosity in
+explaining hydraulic system.
+3.f Explain types of fluid motion and
+Reynold number
+3.1.5 Stress-Strain curve
+3.2 Surface Tension
+3.2.1 Surface tension; concept and units
+3.2.2 Cohesive and adhesive forces
+3.2.3 Molecular range and sphere of
+Influence
+3.2.4 Laplace’s molecular theory
+3.2.5 Angle of contact, Ascent Formula
+(No derivation)
+3.2.6 Surface energy
+3.2.7 Applications of surface tension
+3.2.8 Effect of temperature and impurity
+on surface tension
+3.3 Viscosity
+3.3.1 Viscosity and its SI units
+3.3.2 Newton’s law of Viscosity
+3.3.3 Viscous force, velocity gradient
+and coefficient of viscosity and its
+SI units, free fall of an object
+through viscous medium and
+terminal velocity
+3.3.4 	Types of fluid motion, stream line
+and turbulent flow, critical
+velocity, Reynold’s number
+3.3.5 Stokes’ law
+3.3.6 Effect of temperature on viscosity
+3.3.7 Applications of viscosity in
+hydraulic systems
+Unit– IV
+Heat and
+Thermometry
+4.a Distinguish between heat and
+temperature.
+4.b Explain modes of heat
+transmission.
+4.c Explain various temperature
+scales and conversion between
+them.
+4.d Explain heat capacity and
+specific heat.
+4.e Explain types of thermometers
+and their uses.
+4.f Apply the concept of coefficient
+of thermal conductivity to solve
+4.1 	Heat and temperature
+4.2 	Modes of Heat transfer:
+Conduction, Convection and
+Radiation
+4.3 	Temperature measurement scales:
+Kelvin, Celsius and Fahrenheit and
+interconversion between them
+4.4 	Heat capacity and specific heat
+4.5 	Types of thermometers: Mercury
+thermometer, Bimetallic
+thermometer, Platinum resistance
+thermometer, Pyrometer and their
+uses.
+
+-- 6 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 7 of 12
+Unit Unit Outcomes (UOs)
+(4 to 6 UOs at different levels) Topics and Sub-topics
+Engineering problems.
+4.g Explain expansion in solids and
+coefficient of linear expansions
+in solids.
+4.6 	Coefficient of thermal conductivity
+and its engineering applications.
+4.7 	Expansion of solids, coefficient of
+linear expansion
+Unit– V
+Wave
+motion and
+its
+applications
+5.a Explain wave and wave motion
+with example.
+5.b Distinguish between
+longitudinal and transverse
+waves.
+5.c Explain frequency, periodic
+time, amplitude, wave length
+and wave velocity
+5.d Explain sound waves, light
+waves and their properties
+5.e Explain amplitude, phase, phase
+difference and wave equation.
+5.f Explain principle of
+superposition of waves,
+interference and beat
+formation.
+5.g Explain reverberation,
+reverberation time, echo, noise
+and coefficient of absorption of
+sound.
+5.h Apply Sabine’s formula to
+calculate reverberation time.
+5.i Explain ultrasonic waves and
+their properties.
+5.j Explain engineering and
+medical applications of
+ultrasonic waves.
+5.1 Waves, wave motion, and types of
+waves: longitudinal and transverse
+waves
+5.2 Frequency, periodic time,
+amplitude, wave length and wave
+velocity and their relationship
+5.3 Properties of sound and light
+waves.
+5.4 Phase, phase difference and various
+terms of wave equation (𝑦 =
+𝐴𝑠𝑖𝑛(𝜔𝑡 + 𝜑)) [ derivation of
+equations of velocity and
+acceleration is not required]
+5.5 Superposition of waves,
+Interference: constructive and
+destructive interference ,conditions
+for stationary interference pattern,
+beat formation
+5.6 Reverberation, reverberation time,
+echo, noise and coefficient of
+absorption of sound
+5.7 Sabine’s formula ( derivation not
+required) for reverberation time,
+methods to control reverberation
+time and their applications
+5.8 Ultrasonic waves and their
+properties, applications of
+ultrasonic waves in the field of
+engineering and medical
+Note: The UOs need to be formulated at the ‘Applcation Level’ and above of Revised Bloom’s
+Taxonomy’ to accelerate the attainment of the COs and the competency.
+• 	‘Definition of units’ is only for information and not to be asked in
+examination.
+• 	Students can be introduced to system of units other than SI, MKS, CGS 	unit
+systems.
+• 	Application level based numerical should be given at the time of instructions
+and assessment in each unit
+• 	Derivation of Ascent formula is not required only statement and related terms
+have to be explained at the time of instruction and assessment.
+
+-- 7 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 8 of 12
+9. 	SUGGESTED SPECIFICATION TABLE FOR QUESTION PAPER DESIGN
+Unit
+No. Unit Title Teaching
+Hours
+Distribution of Theory Marks
+R
+Level
+U
+Level
+A
+Level
+Total
+Marks
+I 	Units and Measurements 	08 	4 	4 	5 	13
+II 	Circular motion 	06 	3 	3 	4 	10
+III 	General Properties of Matter 	12 	4 	7 	9 	20
+IV 	Heat and Thermometry 	08 	3 	4 	6 	13
+V 	Wave motion and its applications 	08 	4 	5 	5 	14
+Total 	42 	18 	23 	29 	70
+Legends: R=Remember, U=Understand, A=Apply and above (Revised Bloom’s taxonomy)
+Note: This specification table provides general guidelines to assist students for their learning
+and 	to 	teachers 	to 	teach 	and 	question 	paper 	designers/setters 	to 	formulate 	test
+items/questions to assess the attainment of the UOs. The actual distribution of marks at
+different taxonomy levels (of R, U and A) in the question paper may slightly vary from above
+table.
+10. 	SUGGESTED STUDENT ACTIVITIES
+Other than the classroom and laboratory learning, following are the suggested student-
+related co-curricular activities which can be undertaken to accelerate the attainment of the
+various outcomes in this course: Students should conduct following activities in group and
+prepare small reports of about 5 pages for each activity. They should also collect/record
+physical evidences such as photographs/videos of the activities for their (student’s) portfolio
+which will be useful for their placement interviews:
+a) 	Prepare model to demonstrate concepts of physics.
+b) 	Undertake micro-projects in teams
+c) 	Give seminar on any relevant topic.
+d) 	Measure physical quantities using smart phone.
+e) 	Prepare showcase portfolios.
+11. 	SUGGESTED SPECIAL INSTRUCTIONAL STRATEGIES (if any)
+These are sample strategies, which the teacher can use to accelerate the attainment of the
+various outcomes in this course:
+a) 	Massive open online courses (MOOCs) may be used to teach various topics/sub
+topics.
+b) 	Guide student(s) in undertaking micro-projects.
+c) 	‘L” in section No. 4 means different types of teaching methods that are to be
+employed by teachers to develop the outcomes.
+d) 	About 20% of the topics/sub-topics which are relatively simpler or descriptive in
+nature is to be given to the students for self-learning, but to be assessed using
+different assessment methods.
+e) 	With respect to section No.10, teachers need to ensure to create opportunities and
+provisions for co-curricular activities.
+f) 	Guide students on how to address issues on environment and sustainability using the
+knowledge of this course
+
+-- 8 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 9 of 12
+12. 	SUGGESTED MICRO-PROJECTS
+Only one micro-project is planned to be undertaken by a student that needs to be assigned
+to him/her in the beginning of the semester. In the first four semesters, the micro-projects
+are group-based (group of 3 to 5). However, in the fifth and sixth semesters, the number of
+students in the group should not exceed three.
+The micro-project could be industry application based, internet-based, workshop-
+based, laboratory-based or field-based. Each micro-project should encompass two or more
+COs which are in fact, an integration of PrOs, UOs and ADOs. Each student will have to
+maintain dated work diary consisting of individual contribution in the project work and give
+a seminar presentation of it before submission. The duration of the microproject should be
+about 14 - 16 (fourteen to sixteen) student engagement hours during the course. 	The
+students ought to submit micro-project by the end of the semester (so that they develop the
+industry-oriented COs).
+A suggestive list of micro-projects is given here. This should relate highly with
+competency of the course and the COs. Similar micro-projects could be added by the
+concerned course teacher:
+a) Measurement: Measure physical quantities using smart phone applications.
+b) Prepare proto type Vernier Calipers of given least count.
+c) Collect wires and sheets of different gauges from market and estimate errors in
+measurements using analog and digital Vernier Calipers.
+d) Elasticity: Prepare working model to demonstrate the stress – strain behavior of different
+wires of different thickness and material.
+e) Viscosity: Collect 3 to 5 liquids and prepare a working model to differentiate liquids based
+on viscosity and demonstrate their applications.
+f) Motion: Prepare model of ball rolling down on inclined plane to demonstrate the
+conservation of energy and motion of an object in inclined plane.
+g) Waves in string: standing waves in string using woofer loudspeaker.
+h) Noise Level measurement: measure noise Level at different places in campus.
+13. 	SUGGESTED LEARNING RESOURCES
+S.
+No. Title of Book Author 	Publication with place, year and
+ISBN
+1 	Text Book of Physics for
+Class XI (Part-I, Part-II)
+N.C.E.R.T., Delhi 	N.C.E.R.T., Delhi, 2019
+ISBN 81-7450-508-3(Part-I) & ISBN
+81-7450-566-0 (Part-II)
+2 	Text Book of Physics for
+Class XII (Part-I, Part-II)
+N.C.E.R.T., Delhi 	N.C.E.R.T., Delhi, 2019
+ISBN 81-7450-631-4 (Part-I) & ISBN
+81-7450-671-3 (Part II)
+3 	Applied Physics, Vol. I and
+Vol. II
+TTTI Publications 	Tata McGraw Hill, Delhi, 2019
+4 	Concepts in Physics Vol. I
+and Vol. II
+H C Verma 	Bharti Bhawan Ltd. New Delhi, 2019
+ISBN-13: 978-8177091878
+ISBN-13: 978-8177092325
+5 	Engineering Physics 	DK Bhattacharya 	Oxford University Press, New
+
+-- 9 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 10 of 12
+S.
+No. Title of Book Author 	Publication with place, year and
+ISBN
+& Poonam
+Tandon
+Delhi, ISBN:9781680158687
+6 	B. Sc. Practical Physics 	C. L. Arora 	S. Chand Publication, New Delhi,
+ISBN: 9788121909099
+7 	A Textbook of
+Engineering Physics
+M.N.
+Avadhanulu, P.G.
+Kshirsagar, TVS
+Arun Murthy
+S. Chand Publication, 11th
+ISBN-13: 978-9352833993
+edition
+,New Delhi, 2018
+8 	SEARS and ZEMANSKY’S
+University Physics with
+modern Physics
+Hugh D. Young &
+Roger A.
+Freedman
+Person Publication
+14th Edition, USA,
+ISBN 10: 0-321-97361-5;
+ISBN 13: 978-0-321-97361-0
+(Student edition)
+9 	Physics for Scientists and
+Engineers with Modern
+Physics
+John W. Jewett &
+Raymond A.
+Serway
+CENGAGE Learning, 10th edition,
+Boston, 2010, ISBN-10: 1337553298
+10 	University Physics
+(Volume I, II & III) (Open-
+source Material)
+William Moebs,
+Samuel J. Ling &
+Jeff Sanny
+OPENSTAX, Houston, Texas, 2016,
+ISBN-13: 1-947172-20-4
+11 	PHYSICS for SCIENTISTS &
+ENGINEERS with Modern
+Physics
+Douglas C.
+Giancoli
+Pearson, 7th
+ISBN-13: 978-1292057125
+edition, Delhi, 2015,
+12 	Principles of Physics 	Jearl Ealker, David
+Halliday, Robert
+Resnick
+Wiley India, Navi Mumbai 10th
+ISBN-13: 978-8126552566
+edition, 2015,
+13 	NCERT Physics 	NCERT 	NCERT Physics
+14 	Physics in Daily Life With
+illustrations
+L.J.F. Hermans &
+Wiebke
+Drenckhan
+EDP Sciences, France, 2012,
+ISBN: 978-2-7598-0705-5
+15 	Introductory Physics:
+Building Models to
+Describe Our World
+(Open-Source Material)
+Ryan Martin,
+Emma Neary,
+Joshua Rinaldo &
+Olivia Woodman
+Creative Commons license, 2019,
+GitHub
+14. 	SUGGESTED LEARNING WEBSITES
+a)
+b) 	https://www.einstein-online.info/en/category/elementary/
+https://ocw.mit.edu/courses/physics/
+c) 	https://academicearth.org/physics/
+d) 	www.nptel.iitm.ac.in
+e) 	http://phys23p.sl.psu.edu/phys_anim/Phys_anim.htm
+f) 	http://www.atoptics.co.uk/
+g) 	https://www.khanacademy.org/science/physics
+h) 	http://www.olabs.edu.in/
+
+-- 10 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 11 of 12
+i) 	http://vlabs.iitb.ac.in/vlab/
+j) 	https://phet.colorado.edu/
+k) 	http://physics.bu.edu/~duffy/vlabs.html
+l) 	https://virtuallabs.merlot.org/vl_physics.html
+m) 	www.datasheetcafe.com
+15. 	PO-COMPETENCY-CO MAPPING
+Legend: ‘3’ for high, ‘2’ for medium, ‘1’ for low or ‘-’ for no correlation with CO and PO
+16. 	COURSE CURRICULUM DEVELOPMENT COMMITTEE
+GTU Resource Persons
+S.
+No. Name and Designation 	Institute 	Contact No. 	Email
+1 Shri Dineshkumar V. Mehta
+Lecturer in Physics
+Government
+Polytechnic,
+Gandhinagar
+9879690825 dv_mehta@yahoo.com
+2 Lt (Dr.) Duhita B. Lakhatariya
+Lecturer in Physics
+Government
+Polytechnic,
+Ahmedabad
+9725201631 	duhita.167@gmail.com
+3 Shri Jignesh B. Chauhan
+Lecturer in Physics
+Government
+Polytechnic,
+Kheda
+9428486344 	jbclph@gmail.com
+4
+Shri Aditya kumar B. Patel
+Lecturer in Physics
+K.D. Polytechnic,
+Patan
+9979534522 	graquantum@gmail.com
+Semester I/II 	Applied Physics (Course Code: 4300004)
+POs
+Competency
+& Course Outcomes
+PO 1
+Basic &
+Discipline
+specific
+knowledge
+PO 2
+Problem
+Analysis
+PO 3
+Design/
+development
+of solutions
+PO 4
+Engineering
+Tools,
+Experimentation
+&Testing
+PO 5
+Engineering
+practices for
+society,
+sustainability
+& environment
+PO 6
+Project
+Management
+PO 7
+Life-
+long
+learning
+Competency
+Use principles of physics to solve broadly
+defined engineering problems
+3 	1 	1 	2 	1 	- 	1
+Course Outcomes
+CO a) Use relevant instruments with precision to
+measure the dimension of given physical
+quantities in various engineering
+situations.
+3 	1 	1 	2 	- 	- 	1
+CO b) Solve various engineering problems by the
+concept of linear and circular motion. 3 	1 	- 	- 	1 	- 	1
+CO c) Apply basic concepts of properties of
+matter in solving engineering problems
+efficiently
+3 	1 	- 	2 	- 	- 	1
+CO d)Apply the basic concepts of heat transfer
+and thermometric properties to provide
+solutions for various engineering
+problems.
+3 	1 	1 	2 	1 	- 	1
+CO e)Use the concept of waves and sound
+waves for various acoustics and other
+engineering applications involving wave
+dynamics
+3 	1 	1 	2 	1 	- 	1
+
+-- 11 of 12 --
+
+Applied Physics 	Course Code: 4300004
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 12 of 12
+S.
+No. Name and Designation 	Institute 	Contact No. 	Email
+5 	Late Dr. Gaurang S. Patel
+Lecturer in Physics
+Dr. S. & S. S.
+Ghandhy
+College of
+Engineering &
+Technology,
+Surat
+9909986859 	goru16686@gmail.com
+NITTTR Resource Person
+S.
+No. Name and Designation 	Department 	Contact No. 	Email
+1 Dr Hussain Jeevakhan
+Assistant Professor
+Department of
+Applied science
+and education
+0755-261600*360 	hjeevakhan@nitttrbpl.ac.in
+
+-- 12 of 12 --
+

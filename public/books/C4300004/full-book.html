@@ -1,0 +1,2297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Applied Physics Full Book – All 5 Units (C4300004) | KhudKibook</title>
+  <meta name="description" content="Complete AI-generated GTU self-study book for Applied Physics (C4300004) — all 5 units in one readable page. Diagrams, solved examples and unit-end questions included.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#4f46e5">
+  <link rel="canonical" href="https://khudkibook.in/books/C4300004/full-book.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&family=Noto+Sans+Gujarati:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="stylesheet" href="/be619.css?v=2.1" />
+  <link rel="icon" type="image/png" href="/assets/brand/favicon-32x32.png?v=2" />
+  <style>
+  /* ============ FIXED BASE (does not depend on unit-page vars) ============ */
+  .kb-book{max-width:920px;margin:0 auto;padding:0 16px 60px}
+  html{scroll-behavior:smooth}
+  .kb-progress-bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#4f46e5,#7c3aed);z-index:1200;transition:width .1s linear}
+
+  /* ---------- Book cover (reader-style) ---------- */
+  .kb-book-cover{background:linear-gradient(135deg,#312e81 0%,#4f46e5 45%,#7c3aed 100%);border-radius:20px;color:#fff;padding:0;margin:18px 0 24px;box-shadow:0 20px 44px rgba(79,70,229,.32);overflow:hidden;position:relative}
+  .kb-book-cover::before{content:"";position:absolute;inset:0;background:radial-gradient(1200px 400px at 85% -10%,rgba(255,255,255,.18),transparent 60%),radial-gradient(600px 300px at 0% 110%,rgba(124,58,237,.5),transparent 55%);pointer-events:none}
+  .kb-cover-inner{position:relative;padding:44px 40px 38px;text-align:center}
+  .kb-cover-kicker{font-size:.74rem;letter-spacing:.28em;text-transform:uppercase;opacity:.8;font-weight:700;margin-bottom:16px}
+  .kb-cover-title{font-family:'Outfit',sans-serif;font-size:clamp(1.7rem,4.5vw,2.8rem);font-weight:800;line-height:1.16;letter-spacing:-.01em}
+  .kb-cover-rule{width:64px;height:3px;border-radius:99px;background:rgba(255,255,255,.7);margin:18px auto}
+  .kb-cover-meta{font-size:.95rem;font-weight:600;opacity:.94;margin-top:2px}
+  .kb-cover-units{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-size:.82rem;font-weight:700;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.32);padding:7px 16px;border-radius:999px}
+  .kb-cover-badge{margin-top:18px;display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:600;background:rgba(0,0,0,.22);padding:8px 16px;border-radius:999px}
+
+  /* ---------- Toolbar ---------- */
+  .kb-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;justify-content:space-between;margin:0 0 18px}
+  .kb-toolbar .kb-tb-group{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+  .kb-tb-btn,.kb-print-btn{display:inline-flex;gap:8px;align-items:center;background:#fff;color:var(--accent,#4f46e5);border:1px solid var(--border,#e5e9f2);padding:9px 15px;border-radius:999px;font-weight:700;font-size:.82rem;text-decoration:none;box-shadow:0 1px 3px rgba(15,23,42,.08);transition:.15s}
+  .kb-tb-btn:hover,.kb-print-btn:hover{transform:translateY(-1px);border-color:var(--border-accent,rgba(79,70,229,.35));box-shadow:0 6px 16px rgba(15,23,42,.12)}
+  .kb-tb-stat{display:inline-flex;gap:8px;align-items:center;background:#fff;border:1px solid var(--border,#e5e9f2);padding:9px 14px;border-radius:999px;font-weight:600;font-size:.82rem;color:var(--text-secondary,#475569);box-shadow:0 1px 3px rgba(15,23,42,.08)}
+
+  /* ---------- Mobile chapter drawer ---------- */
+  #kb-mobile-toc{position:fixed;inset:0;background:rgba(15,23,42,.5);backdrop-filter:blur(2px);z-index:1500;opacity:0;pointer-events:none;transition:.25s}
+  #kb-mobile-toc.open{opacity:1;pointer-events:auto}
+  #kb-mobile-toc .mob-toc-panel{position:absolute;top:0;left:0;bottom:0;width:min(320px,84vw);background:#fff;box-shadow:20px 0 40px rgba(15,23,42,.2);overflow:auto;padding:20px 16px;transform:translateX(-100%);transition:.25s}
+  #kb-mobile-toc.open .mob-toc-panel{transform:translateX(0)}
+  #kb-mobile-toc .mob-toc-panel h4{margin:6px 4px;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted,#64748b)}
+  #kb-mobile-toc .mob-toc-panel .toc-item{display:flex;gap:8px;align-items:center;padding:8px 10px;border-radius:9px;color:var(--text-secondary,#475569);text-decoration:none;font-size:.88rem;font-weight:600;margin-bottom:4px}
+  #kb-mobile-toc .mob-toc-panel .toc-item:hover{background:var(--bg-soft,#eef1fb);color:var(--accent,#4f46e5)}
+  #kb-mobile-toc .mob-toc-panel .back-link{display:block;margin-top:12px;padding-top:12px;border-top:1px solid var(--border,#e5e9f2);font-size:.85rem;color:var(--accent,#4f46e5);text-decoration:none;font-weight:700}
+
+  /* ---------- Layout (book reading column) ---------- */
+  .kb-reader{background:var(--bg-page,#f6f8fc)}
+  .kb-layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:26px}
+  .kb-toc{position:sticky;top:86px;align-self:start;background:#fff;border:1px solid var(--border,#e5e9f2);border-radius:16px;padding:16px;box-shadow:0 1px 3px rgba(15,23,42,.08);max-height:calc(100vh - 112px);overflow:auto}
+  .kb-toc h4{margin:14px 0 8px;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted,#64748b)}
+  .kb-toc h4:first-child{margin-top:0}
+  .kb-toc .toc-item{display:flex;gap:8px;align-items:center;padding:9px 11px;border-radius:9px;color:var(--text-secondary,#475569);text-decoration:none;font-size:.88rem;font-weight:600;margin-bottom:4px;border:1px solid transparent;transition:.15s;line-height:1.35}
+  .kb-toc .toc-item:hover{background:var(--bg-soft,#eef1fb);color:var(--accent,#4f46e5)}
+  .kb-toc .toc-item.toc-active{background:var(--accent-gradient,linear-gradient(135deg,#4f46e5,#7c3aed));color:#fff;box-shadow:0 8px 24px rgba(79,70,229,.22)}
+  .kb-toc .toc-number{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;background:var(--bg-soft,#eef1fb);border-radius:8px;font-size:.72rem;font-weight:800;color:var(--accent,#4f46e5)}
+  .kb-toc .toc-item.toc-active .toc-number{background:rgba(255,255,255,.2);color:#fff}
+  .kb-toc .toc-sec{font-size:.8rem;padding:6px 8px;font-weight:500}
+  .kb-toc .back-link{display:block;margin-top:12px;padding-top:12px;border-top:1px solid var(--border,#e5e9f2);font-size:.85rem;color:var(--accent,#4f46e5);text-decoration:none;font-weight:700}
+  .kb-unit-block{margin-bottom:6px;border:1px solid var(--border,#e5e9f2);border-radius:10px;padding:4px 6px;background:var(--bg-soft,#eef1fb)}
+  .kb-unit-block summary{cursor:pointer;font-weight:700;padding:6px 8px;color:var(--text-primary,#0f172a);list-style:none}
+  .kb-unit-block summary::-webkit-details-marker{display:none}
+  .kb-unit-block .kb-unit-link{color:var(--accent,#4f46e5);text-decoration:none}
+
+  /* ---------- Reading column / articles ---------- */
+  .kb-articles{min-width:0}
+  .kb-article{background:#fff;border:1px solid var(--border,#e5e9f2);border-radius:16px;padding:28px 32px;box-shadow:0 1px 3px rgba(15,23,42,.08);line-height:1.75;color:var(--text-primary,#0f172a)}
+  .kb-article .kb-unit-head{display:flex;align-items:flex-start;gap:14px;border-bottom:2px solid var(--bg-soft,#eef1fb);padding-bottom:14px;margin-bottom:18px}
+  .kb-article .kb-unit-num{flex-shrink:0;width:54px;height:54px;border-radius:15px;background:var(--accent-gradient,linear-gradient(135deg,#4f46e5,#7c3aed));color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.15rem;box-shadow:0 8px 20px rgba(79,70,229,.28)}
+  .kb-article .kb-unit-title{font-family:'Outfit',sans-serif;font-size:clamp(1.2rem,2.4vw,1.55rem);font-weight:700;line-height:1.3;color:var(--accent-dark,#4338ca);margin:0}
+  .kb-article h2{font-family:'Outfit',sans-serif;font-size:1.3rem;margin:24px 0 10px;padding-bottom:8px;border-bottom:2px solid var(--bg-soft,#eef1fb);color:var(--accent-dark,#4338ca);scroll-margin-top:96px}
+  .kb-article h3{font-size:1.08rem;margin:20px 0 8px;color:var(--text-primary,#0f172a);scroll-margin-top:96px}
+  .kb-article h4{font-size:1rem;margin:16px 0 6px}
+  .kb-article p{margin:10px 0}
+  .kb-article ul,.kb-article ol{margin:10px 0 10px 22px}
+  .kb-article li{margin:5px 0}
+  .kb-article table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.92rem}
+  .kb-article th,.kb-article td{border:1px solid var(--border,#e5e9f2);padding:9px 11px;text-align:left}
+  .kb-article th{background:var(--bg-soft,#eef1fb);font-weight:700}
+  .kb-article code{background:var(--bg-soft,#eef1fb);padding:2px 6px;border-radius:6px;font-size:.9em}
+  .kb-article pre{background:#0f172a;color:#e2e8f0;border-radius:12px;padding:14px;overflow:auto}
+  .kb-article blockquote{border-left:4px solid var(--accent,#4f46e5);background:var(--bg-glass,rgba(99,102,241,.06));padding:10px 14px;border-radius:0 10px 10px 0;margin:12px 0;color:var(--text-secondary,#475569)}
+  .kb-article .fig-callout{background:var(--bg-soft,#eef1fb);border:1.5px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;padding:14px 16px;margin:14px 0;color:var(--text-secondary,#475569);font-size:.92rem;display:flex;gap:10px;align-items:flex-start}
+  .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
+  .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
+  .kb-article .mermaid-wrap{margin:16px 0}
+  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
+  .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+  .kb-article .mermaid svg{max-width:100%;height:auto}
+  .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted,#64748b)}
+  .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
+  .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
+  .kb-unit{margin-bottom:26px}
+  .kb-notice{display:flex;gap:10px;background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:12px;padding:12px 14px;font-size:.86rem;margin:22px 0 0;line-height:1.55}
+  .kb-notice i{color:#ea580c;margin-top:3px}
+  .kb-toast{position:fixed;bottom:66px;left:50%;transform:translateX(-50%) translateY(20px);background:#111827;color:#fff;padding:9px 16px;border-radius:999px;font-size:.82rem;font-weight:600;opacity:0;pointer-events:none;transition:.25s;z-index:1300}
+  .kb-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  .print-watermark{display:none}
+
+  @media (max-width:920px){
+    .kb-layout{grid-template-columns:1fr}
+    .kb-toc{display:none}
+    .kb-article{padding:20px 18px}
+    /* show mobile chapter button */
+    .kb-desktop-toc-toggle{display:inline-flex!important}
+  }
+  .kb-desktop-toc-toggle{display:none}
+  .kb-mobile-toggle-bar{display:flex;gap:10px;margin-bottom:16px}
+  @media (min-width:921px){.kb-mobile-toggle-bar{display:none}}
+
+  /* ============ PRINT / PDF LAYOUT ============ */
+  @media print{
+    body{background:#fff!important;padding:0!important}
+    .no-print,.kb-toc,.print-watermark,.kb-progress-bar,.kb-toast,.kb-toolbar,.kb-mobile-toggle-bar,#kb-mobile-toc,.kb-side-ad,.kb-tb-btn,.kb-print-btn{display:none!important}
+    .navbar-root,#nav,#footer,.footer{display:none!important}
+    .kb-book{max-width:100%;padding:0}
+    .kb-layout{display:block}
+    .kb-book-cover{border-radius:0;margin:0 0 14px;page-break-after:avoid;color-adjust:exact;-webkit-print-color-adjust:exact}
+    .kb-cover-inner{padding:30px 20px}
+    .kb-article{border:none;box-shadow:none;padding:0 2mm 0 0;line-height:1.6;font-size:11pt}
+    .kb-article{-webkit-user-select:text;-moz-user-select:text;user-select:text}
+    .kb-article table{font-size:9.5pt}
+    .kb-article pre{white-space:pre-wrap;word-break:break-word}
+    .kb-article{margin-bottom:0}
+    .kb-notice{page-break-inside:avoid;background:#fff;border-color:#ddd;color:#555}
+    h1,h2,h3{page-break-after:avoid}
+    p,li,blockquote,table,.kb-unit{page-break-inside:avoid}
+    @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in · Applied Physics";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
+  }
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Applied Physics – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":16767,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Applied Physics","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q14JJGGSPR');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yha6xlt986");
+  </script>
+</head>
+<body>
+  <nav id="nav" class="navbar-root no-print"></nav>
+  <div class="kb-progress-bar" id="kb-progress"></div>
+
+  <main class="kb-book">
+    <nav class="nv759 no-print" aria-label="Breadcrumb">
+      <div class="nvl153">
+        <a href="/">Home</a> &raquo; Gujarat Technological University Artificial Intelligence and Machine Learning Semester 2 &raquo; <a href="/ai-ml/sem2/applied-physics.html">Applied Physics</a> &raquo; Full Book
+      </div>
+    </nav>
+
+      
+    <div class="kb-book-cover">
+      <div class="kb-cover-inner">
+        <div class="kb-cover-kicker">KHUDKIBOOK · GTU AI SELF-STUDY BOOK</div>
+        <div class="kb-cover-title">Applied Physics</div>
+        <div class="kb-cover-rule"></div>
+        <div class="kb-cover-meta">Subject Code C4300004 · Gujarat Technological University Artificial Intelligence and Machine Learning Semester 2</div>
+        <div class="kb-cover-units">Complete Study Book · 5 Units</div>
+        <div class="kb-cover-badge"><i class="fas fa-robot"></i> AI-generated study material · cross-check with official syllabus</div>
+      </div>
+    </div>
+
+    <div class="kb-toolbar no-print">
+      <div class="kb-tb-group">
+        <button class="kb-tb-btn kb-desktop-toc-toggle" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
+        <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~81 min read</span>
+        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 16,767 words</span>
+      </div>
+      <div class="kb-tb-group">
+        <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
+      </div>
+    </div>
+
+    <div class="kb-mobile-toggle-bar no-print">
+      <button class="kb-tb-btn" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
+      <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> PDF</a>
+    </div>
+
+    <div class="kb-layout">
+      <aside class="kb-toc no-print">
+        <h4>Chapters</h4>
+        <details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u1-sec-1"><span class="toc-number">1</span> Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.</a></summary>
+      <a class="toc-item toc-sec" href="#u1-sec-1-1-measurement-and-units-in-engineering-and-science"><i class="fas fa-chevron-right"></i> 1.1 Measurement and units in engineering and science</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-2-physical-quantities-fundamental-and-derived-quantities"><i class="fas fa-chevron-right"></i> 1.2. Physical quantities; fundamental and derived quantities</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-3-systems-of-units-cgs-mks-and-si-definition-of-units-only-for-information-and-not-to-be-asked-in-examination-interconversion-of-units-mks-to-cgs-and-vice-versa-requirements-of-standard-unit"><i class="fas fa-chevron-right"></i> 1.3. Systems of units: CGS, MKS and SI, definition of units (only for information and not to be asked in examination), interconversion of units MKS to CGS and vice versa, Requirements of standard unit</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-4-vernier-caliper-micrometer-screw-gauge"><i class="fas fa-chevron-right"></i> 1.4. Vernier Caliper, Micrometer Screw Gauge</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-5-accuracy-precision-and-error-estimation-of-errors-absolute-error-relative-error-and-percentage-error-error-propagation-significant-figures"><i class="fas fa-chevron-right"></i> 1.5. Accuracy, precision and error, estimation of errors - absolute error, relative error and percentage error, error propagation, significant figures</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u2-sec-2"><span class="toc-number">2</span> Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve</a></summary>
+      <a class="toc-item toc-sec" href="#u2-sec-2-1-force-momentum-law-of-conservation-of-linear-momentum-its-applications-such-as-recoil-of-gun-rocket-propulsion-impulse-and-its-applications"><i class="fas fa-chevron-right"></i> 2.1 Force, momentum, law of conservation of linear momentum, its applications such as recoil of gun, rocket propulsion, impulse and its applications</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-2-circular-motion-angular-displacement-angular-velocity-angular-acceleration-and-their-interrelation"><i class="fas fa-chevron-right"></i> 2.2 Circular motion, angular displacement, angular velocity, angular acceleration and their interrelation</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-3-centripetal-and-centrifugal-forces-examples-banking-of-roads-and-bending-of-cyclist"><i class="fas fa-chevron-right"></i> 2.3. Centripetal and centrifugal forces examples: banking of roads and bending of cyclist</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u3-sec-3"><span class="toc-number">3</span> General Properties of Matter 3.a Explain the Hooke’s law, stress- strain curve and moduli of elasticity. 3.b Explain surface tension, cohesive and adhesive forces.</a></summary>
+      <a class="toc-item toc-sec" href="#u3-sec-3-1-elasticity"><i class="fas fa-chevron-right"></i> 3.1. Elasticity</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-2-stress-strain-with-their-types"><i class="fas fa-chevron-right"></i> 3.1.2. Stress-Strain with their Types</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-3-hooke-s-law"><i class="fas fa-chevron-right"></i> 3.1.3. Hooke’s Law</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-4-moduli-of-elasticity-young-s-modulus-bulk-modulus-shear-modulus"><i class="fas fa-chevron-right"></i> 3.1.4. Moduli of Elasticity, Young’s Modulus, Bulk Modulus, Shear Modulus</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-5-viscosity-coefficient-of-viscosity-terminal-velocity-and-stokes-law"><i class="fas fa-chevron-right"></i> 3.1.5. Viscosity, Coefficient of Viscosity, Terminal Velocity, and Stokes’ Law</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-6-types-of-fluid-motion-and-reynolds-number"><i class="fas fa-chevron-right"></i> 3.1.6. Types of Fluid Motion and Reynolds Number</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-5-stress-strain-curve"><i class="fas fa-chevron-right"></i> 3.1.5. Stress-Strain Curve</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-surface-tension"><i class="fas fa-chevron-right"></i> 3.2. Surface Tension</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-1-surface-tension-concept-and-units"><i class="fas fa-chevron-right"></i> 3.2.1. Surface Tension; Concept and Units</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-2-cohesive-and-adhesive-forces"><i class="fas fa-chevron-right"></i> 3.2.2. Cohesive and Adhesive Forces</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-3-molecular-range-and-sphere-of-influence"><i class="fas fa-chevron-right"></i> 3.2.3. Molecular Range and Sphere of Influence</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-4-laplace-s-molecular-theory"><i class="fas fa-chevron-right"></i> 3.2.4. Laplace’s Molecular Theory</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-5-angle-of-contact-ascent-formula-no-derivation"><i class="fas fa-chevron-right"></i> 3.2.5. Angle of Contact, Ascent Formula (No Derivation)</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-6-surface-energy"><i class="fas fa-chevron-right"></i> 3.2.6. Surface Energy</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-7-applications-of-surface-tension"><i class="fas fa-chevron-right"></i> 3.2.7. Applications of Surface Tension</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-8-effect-of-temperature-and-impurity-on-surface-tension"><i class="fas fa-chevron-right"></i> 3.2.8. Effect of Temperature and Impurity on Surface Tension</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-3-viscosity"><i class="fas fa-chevron-right"></i> 3.3. Viscosity</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-3-5-stokes-law"><i class="fas fa-chevron-right"></i> 3.3.5. Stokes’ Law</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-3-6-effect-of-temperature-on-viscosity"><i class="fas fa-chevron-right"></i> 3.3.6. Effect of Temperature on Viscosity</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-3-7-applications-of-viscosity-in-hydraulic-systems"><i class="fas fa-chevron-right"></i> 3.3.7. Applications of Viscosity in Hydraulic Systems</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u4-sec-4"><span class="toc-number">4</span> Heat and Thermometry 4.a Distinguish between heat and temperature. 4.b Explain modes of heat transmission. 4.c Explain various temperature scales and conversion between</a></summary>
+      <a class="toc-item toc-sec" href="#u4-sec-4-1-heat-and-temperature"><i class="fas fa-chevron-right"></i> 4.1. Heat and Temperature</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-2-modes-of-heat-transfer-conduction-convection-and-radiation"><i class="fas fa-chevron-right"></i> 4.2. Modes of Heat Transfer: Conduction, Convection, and Radiation</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-3-temperature-measurement-scales-kelvin-celsius-and-fahrenheit-and-interconversion-between-them"><i class="fas fa-chevron-right"></i> 4.3. Temperature measurement scales: Kelvin, Celsius and Fahrenheit and interconversion between them</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-5-types-of-thermometers-mercury-thermometer-bimetallic-thermometer-platinum-resistance-thermometer-pyrometer-and-their-uses"><i class="fas fa-chevron-right"></i> 4.5. Types of Thermometers: Mercury Thermometer, Bimetallic Thermometer, Platinum Resistance Thermometer, Pyrometer and their Uses</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-6-coefficient-of-thermal-conductivity-and-its-engineering-applications"><i class="fas fa-chevron-right"></i> 4.6. Coefficient of Thermal Conductivity and its Engineering Applications</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-7-expansion-of-solids-coefficient-of-linear-expansion"><i class="fas fa-chevron-right"></i> 4.7. Expansion of Solids, Coefficient of Linear Expansion</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u5-sec-5"><span class="toc-number">5</span> Wave motion and its applications 5.a Explain wave and wave motion with example. 5.b Distinguish between longitudinal and transverse</a></summary>
+      <a class="toc-item toc-sec" href="#u5-sec-5-1-waves-wave-motion-and-types-of-waves-longitudinal-and-transverse-waves"><i class="fas fa-chevron-right"></i> 5.1. Waves, wave motion, and types of waves: longitudinal and transverse waves</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-2-frequency-periodic-time-amplitude-wavelength-and-wave-velocity-and-their-relationship"><i class="fas fa-chevron-right"></i> 5.2. Frequency, periodic time, amplitude, wavelength and wave velocity and their relationship</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-3-properties-of-sound-and-light-waves"><i class="fas fa-chevron-right"></i> 5.3. Properties of sound and light waves.</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-4-phase-phase-difference-and-various-terms-of-wave-equation"><i class="fas fa-chevron-right"></i> 5.4. Phase, phase difference and various terms of wave equation (𝑦 = 𝐴𝑠𝑖𝑛(𝜔𝑡 + 𝜑))</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-5-superposition-of-waves-interference-constructive-and-destructive-interference-conditions-for-stationary-interference-pattern-beat-formation"><i class="fas fa-chevron-right"></i> 5.5. Superposition of Waves, Interference: Constructive and Destructive Interference, Conditions for Stationary Interference Pattern, Beat Formation</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-6-reverberation-reverberation-time-echo-noise-and-coefficient-of-absorption-of-sound"><i class="fas fa-chevron-right"></i> 5.6. Reverberation, Reverberation Time, Echo, Noise and Coefficient of Absorption of Sound</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-7-sabine-s-formula-derivation-not-required-for-reverberation-time-methods-to-control-reverberation-time-and-their-applications"><i class="fas fa-chevron-right"></i> 5.7. Sabine’s Formula (Derivation Not Required) for Reverberation Time, Methods to Control Reverberation Time, and Their Applications</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-8-ultrasonic-waves-and-their-properties-applications-of-ultrasonic-waves-in-the-field-of-engineering-and-medical"><i class="fas fa-chevron-right"></i> 5.8. Ultrasonic Waves and Their Properties, Applications of Ultrasonic Waves in the Field of Engineering and Medical</a>
+    </details>
+        <a class="back-link" href="/ai-ml/sem2/applied-physics.html"><i class="fas fa-arrow-left"></i> Back to Applied Physics</a>
+      </aside>
+
+      <div class="kb-articles">
+        <article class="kb-article kb-unit" id="unit-1">
+<div class="kb-unit-head">
+  <div class="kb-unit-num">1</div>
+  <div>
+    <h2 class="kb-unit-title" id="u1-sec-1">Unit I: Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.</h2>
+  </div>
+</div>
+<p><em>This unit carries approximately <strong>13 marks (4 Remember + 4 Understand + 5 Apply)</strong>.</em></p>
+
+        
+<p><em>(AI-generated self-study book for GTU, subject code C4300004 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>13 marks (4 Remember + 4 Understand + 5 Apply) (per syllabus)</strong>.</p>
+<h3 id="u1-sec-1-1-measurement-and-units-in-engineering-and-science">1.1 Measurement and units in engineering and science</h3>
+<h4>Definition of Physical Quantities and Units</h4>
+<p>A <strong>physical quantity</strong> is a property of a phenomenon, body, or substance that can be quantitatively expressed and is subject to measurement. The <strong>unit</strong> of a physical quantity is a standard for measuring that quantity. Units are crucial in engineering and science to ensure that measurements are consistent and comparable.</p>
+<h4>Importance of Units in Engineering and Science</h4>
+<p>Units provide a common language for scientists and engineers to communicate their findings. They ensure that calculations and experiments are reproducible and meaningful. Inconsistent or incorrect use of units can lead to significant errors in design and analysis. Therefore, understanding and applying appropriate units is critical in both theoretical and practical aspects of engineering and science.</p>
+<h4>Common Systems of Units</h4>
+<p>There are several systems of units used in engineering and science, including the <strong>International System of Units (SI)</strong>, the <strong>English System</strong>, and the <strong>American Engineering System (AES)</strong>. The SI system is the most widely used and is based on seven fundamental units.</p>
+<ul>
+<li><strong>Length</strong>: <strong>Meter (m)</strong></li>
+<li><strong>Mass</strong>: <strong>Kilogram (kg)</strong></li>
+<li><strong>Time</strong>: <strong>Second (s)</strong></li>
+<li><strong>Electric Current</strong>: <strong>Ampere (A)</strong></li>
+<li><strong>Thermodynamic Temperature</strong>: <strong>Kelvin (K)</strong></li>
+<li><strong>Amount of Substance</strong>: <strong>Mole (mol)</strong></li>
+<li><strong>Luminous Intensity</strong>: <strong>Candela (cd)</strong></li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert 1000 meters (m) to feet (ft), inches (in), and miles (mi).</div>
+<ol>
+<li><strong>Step 1: Convert meters to feet.</strong></li>
+</ol>
+<ul>
+<li>1 meter = 3.28084 feet</li>
+<li>1000 meters = 1000 × 3.28084 = 3280.84 feet</li>
+</ul>
+<ol>
+<li><strong>Step 2: Convert feet to inches.</strong></li>
+</ol>
+<ul>
+<li>1 foot = 12 inches</li>
+<li>3280.84 feet = 3280.84 × 12 = 39369.68 inches</li>
+</ul>
+<ol>
+<li><strong>Step 3: Convert feet to miles.</strong></li>
+</ol>
+<ul>
+<li>1 mile = 5280 feet</li>
+<li>3280.84 feet = 3280.84 ÷ 5280 = 0.621371 miles</li>
+</ul>
+<h4>Summary</h4>
+<p>Understanding and correctly applying units is essential in engineering and science. This example demonstrates the conversion of a physical quantity (length) from one unit (meters) to multiple units (feet, inches, miles) in the English system. Proper use of units ensures accurate and consistent measurements, which are critical in designing and analyzing engineering systems.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert 5000 kilograms (kg) to pounds (lb) and tons (t).</div>
+<ol>
+<li><strong>Step 1: Convert kilograms to pounds.</strong></li>
+</ol>
+<ul>
+<li>1 kilogram = 2.20462 pounds</li>
+<li>5000 kilograms = 5000 × 2.20462 = 11023.1 pounds</li>
+</ul>
+<ol>
+<li><strong>Step 2: Convert kilograms to tons.</strong></li>
+</ol>
+<ul>
+<li>1 ton = 1000 kilograms</li>
+<li>5000 kilograms = 5000 ÷ 1000 = 5 tons</li>
+</ul>
+<p>This example further illustrates the importance of converting between different systems of units, highlighting the practical application of units in engineering and scientific contexts.</p>
+<hr />
+<h3 id="u1-sec-1-2-physical-quantities-fundamental-and-derived-quantities">1.2. Physical quantities; fundamental and derived quantities</h3>
+<h4>1.2.1. Physical Quantities</h4>
+<p><strong>Physical quantities</strong> are measurable attributes of matter and energy that can be expressed as a number and a unit. These quantities are essential in formulating equations and solving problems in physics and engineering.</p>
+<h4>1.2.2. Fundamental Quantities</h4>
+<p><strong>Fundamental quantities</strong> are the basic physical quantities that are not defined in terms of other quantities. These are considered the building blocks of physics. The seven fundamental quantities are:</p>
+<ul>
+<li><strong>Length (L)</strong>: Measured in meters (m).</li>
+<li><strong>Mass (M)</strong>: Measured in kilograms (kg).</li>
+<li><strong>Time (T)</strong>: Measured in seconds (s).</li>
+<li><strong>Electric Current (I)</strong>: Measured in amperes (A).</li>
+<li><strong>Thermodynamic Temperature (T)</strong>: Measured in kelvins (K).</li>
+<li><strong>Amount of Substance (N)</strong>: Measured in moles (mol).</li>
+<li><strong>Luminous Intensity (Iv)</strong>: Measured in candelas (cd).</li>
+</ul>
+<h4>1.2.3. Derived Quantities</h4>
+<p><strong>Derived quantities</strong> are physical quantities that can be expressed in terms of the fundamental quantities. Some common derived quantities include:</p>
+<ul>
+<li><strong>Volume (V)</strong>: Derived from length (L). Volume is the amount of three-dimensional space occupied by a substance and is calculated as length × width × height. The unit is cubic meters (m³).</li>
+<li><strong>Density (ρ)</strong>: Derived from mass (M) and volume (V). Density is the mass per unit volume and is given by the formula ρ = M/V. The unit is kilograms per cubic meter (kg/m³).</li>
+<li><strong>Speed (v)</strong>: Derived from length (L) and time (T). Speed is the distance traveled per unit of time. The unit is meters per second (m/s).</li>
+<li><strong>Force (F)</strong>: Derived from mass (M) and acceleration (a). Force is the product of mass and acceleration. The unit is newtons (N), where 1 N = 1 kg·m/s².</li>
+<li><strong>Energy (E)</strong>: Derived from mass (M) and speed of light (c). Energy is the capacity to do work. The unit is joules (J), where 1 J = 1 kg·m²/s².</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A car travels 120 meters in 10 seconds. Calculate the speed of the car.</div>
+<p>Given:</p>
+<ul>
+<li>Distance (d) = 120 meters (m)</li>
+<li>Time (t) = 10 seconds (s)</li>
+</ul>
+<p>To find the speed (v), we use the formula:</p>
+<p>[ v = \frac{d}{t} ]</p>
+<p>Substituting the given values:</p>
+<p>[ v = \frac{120 \, \text{m}}{10 \, \text{s}} = 12 \, \text{m/s} ]</p>
+<p>Therefore, the speed of the car is 12 m/s.</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Length (L)] --&gt; B[Volume (V)]
+ A --&gt; C[Speed (v)]
+ A --&gt; D[Density (ρ)]
+ C --&gt; E[Force (F)]
+ E --&gt; F[Energy (E)]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Length (L)] --&gt; B[Volume (V)]
+ A --&gt; C[Speed (v)]
+ A --&gt; D[Density (ρ)]
+ C --&gt; E[Force (F)]
+ E --&gt; F[Energy (E)]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Length (L)] --&gt; B[Volume (V)]
+ A --&gt; C[Speed (v)]
+ A --&gt; D[Density (ρ)]
+ C --&gt; E[Force (F)]
+ E --&gt; F[Energy (E)]</pre></noscript></div>
+<p>This flowchart illustrates the relationship between the fundamental quantities and derived quantities.</p>
+<hr />
+<h3 id="u1-sec-1-3-systems-of-units-cgs-mks-and-si-definition-of-units-only-for-information-and-not-to-be-asked-in-examination-interconversion-of-units-mks-to-cgs-and-vice-versa-requirements-of-standard-unit">1.3. Systems of units: CGS, MKS and SI, definition of units (only for information and not to be asked in examination), interconversion of units MKS to CGS and vice versa, Requirements of standard unit</h3>
+<div class="ad-slot-wrapper no-print ad-inarticle">
+      <span class="ad-label">Advertisement</span>
+      <div class="ad-container ad-container--auto">
+        <ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-4211827566541334" data-ad-slot="4067607591" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+<h4>1.3.1. Introduction to Systems of Units</h4>
+<p>The system of units used to measure physical quantities can vary widely, but three major systems are frequently encountered: CGS (Centimeter-Gram-Second), MKS (Meter-Kilogram-Second), and SI (International System of Units). Understanding these systems is crucial for converting between different units and ensuring consistency in scientific and engineering calculations.</p>
+<h4>1.3.2. CGS System</h4>
+<ul>
+<li><strong>Definition</strong>: The CGS system uses centimeters (cm) for length, grams (g) for mass, and seconds (s) for time.</li>
+<li><strong>Example</strong>: In the CGS system, the unit of force is the dyne, where 1 dyne = 1 g cm/s².</li>
+</ul>
+<h4>1.3.3. MKS System</h4>
+<ul>
+<li><strong>Definition</strong>: The MKS system uses meters (m) for length, kilograms (kg) for mass, and seconds (s) for time.</li>
+<li><strong>Example</strong>: In the MKS system, the unit of force is the newton (N), where 1 N = 1 kg m/s².</li>
+</ul>
+<h4>1.3.4. SI System</h4>
+<ul>
+<li><strong>Definition</strong>: The SI system is the modern form of the metric system and is the internationally accepted system for measurements. It uses meters (m) for length, kilograms (kg) for mass, and seconds (s) for time.</li>
+<li><strong>Example</strong>: In the SI system, the unit of force is the newton (N), where 1 N = 1 kg m/s².</li>
+</ul>
+<h4>1.3.5. Interconversion of Units MKS to CGS and Vice Versa</h4>
+<p>Converting between the MKS and CGS systems involves understanding the relationships between the units. Here are the key conversions:</p>
+<ul>
+<li><strong>From MKS to CGS</strong>:</li>
+<li>1 meter = 100 centimeters</li>
+<li>1 kilogram = 1000 grams</li>
+<li>1 newton = 10^5 dynes</li>
+</ul>
+<ul>
+<li><strong>From CGS to MKS</strong>:</li>
+<li>1 centimeter = 0.01 meters</li>
+<li>1 gram = 0.001 kilograms</li>
+<li>1 dyne = 10^-5 newtons</li>
+</ul>
+<h5>Example</h5>
+<p>Convert 5 newtons to CGS units.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />Given: 1 newton = 10^5 dynes<br />To convert 5 newtons to CGS units:<br />5 newtons = 5 × 10^5 dynes<br />Therefore, 5 newtons = 500,000 dynes</div>
+<h4>1.3.6. Requirements of a Standard Unit</h4>
+<p>A standard unit must meet certain requirements to ensure its utility and reliability in various scientific and engineering applications. These requirements include:</p>
+<ul>
+<li><strong>Invariance</strong>: The unit should not change with time, location, or other factors.</li>
+<li><strong>Reproducibility</strong>: The unit should be capable of being reproduced and verified by different individuals and institutions.</li>
+<li><strong>Simplicity</strong>: The unit should be simple to use and understand.</li>
+<li><strong>Universality</strong>: The unit should be applicable to a wide range of physical quantities.</li>
+</ul>
+<h5>Example</h5>
+<p>Define a standard unit for length that meets the above requirements.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />A standard unit for length, such as the meter, is chosen because it is invariant (its length does not change with time or location), reproducible (can be accurately measured by multiple parties), simple (easy to understand and use), and universal (used worldwide in various scientific and engineering fields).</div>
+<h4>Summary</h4>
+<p>In this section, we have discussed the CGS, MKS, and SI systems of units, and provided examples for interconverting units between the MKS and CGS systems. Understanding these systems and their interconversions is essential for solving problems in physics and engineering. The requirements of a standard unit have also been highlighted, emphasizing the importance of choosing a unit that is invariant, reproducible, simple, and universal.</p>
+<hr />
+<h3 id="u1-sec-1-4-vernier-caliper-micrometer-screw-gauge">1.4. Vernier Caliper, Micrometer Screw Gauge</h3>
+<h4>1.4.1 Vernier Caliper</h4>
+<p>A <strong>Vernier caliper</strong> is an instrument used for making precise linear measurements. It consists of a main scale and a Vernier scale. The main scale is calibrated in millimeters (mm), and the Vernier scale is used to measure fractions of a millimeter. The accuracy of a Vernier caliper is typically 0.02 mm.</p>
+<p>The Vernier scale has a smaller number of divisions than the main scale, but each division on the Vernier scale is slightly shorter than the corresponding division on the main scale. This allows for more precise measurement by aligning the Vernier scale with the main scale.</p>
+<h5>Working of Vernier Caliper</h5>
+<ol>
+<li><strong>Zero Adjustment</strong>: Ensure that the zero mark on the Vernier scale aligns with the zero mark on the main scale. This is done by carefully aligning the jaws of the caliper.</li>
+<li><strong>Main Scale Reading</strong>: Read the whole number of millimeters from the main scale.</li>
+<li><strong>Vernier Scale Reading</strong>: Find the Vernier scale division that aligns perfectly with a main scale division. The value of this division in millimeters is added to the main scale reading.</li>
+<li><strong>Fractional Reading</strong>: The smallest division on the Vernier scale is 0.02 mm. If the alignment is at the 5th division, the fractional reading is 0.05 mm.</li>
+</ol>
+<h4>1.4.2 Micrometer Screw Gauge</h4>
+<p>A <strong>Micrometer screw gauge</strong> (also known as a micrometer) is a precision measuring instrument used to measure small dimensions, typically with an accuracy of 0.01 mm. It consists of a barrel, a spindle, a thimble, and a spindle screw.</p>
+<p>The micrometer screw gauge works on the principle of the screw thread, where the screw advances or retracts by a precise amount for each full turn. The thimble has a vernier scale that is used to read the fractional part of the measurement.</p>
+<h5>Working of Micrometer Screw Gauge</h5>
+<ol>
+<li><strong>Zero Adjustment</strong>: Adjust the micrometer so that the spindle touches the anvil (fixed block) without any pressure. This ensures that the zero mark on the thimble aligns with the reference line on the barrel.</li>
+<li><strong>Main Scale Reading</strong>: Read the whole number from the main scale.</li>
+<li><strong>Thimble Reading</strong>: The thimble has 50 divisions, each representing 0.01 mm. Rotate the thimble to find the division that aligns with a mark on the barrel. The value of this division in millimeters is added to the main scale reading.</li>
+<li><strong>Fractional Reading</strong>: If the thimble is rotated such that the 35th division aligns with the barrel mark, the fractional reading is 35 × 0.01 mm = 0.35 mm.</li>
+</ol>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />A micrometer screw gauge is used to measure the diameter of a small metal rod. The main scale reading is 3 mm, and the thimble reading is the 47th division. What is the diameter of the rod?</div>
+<ol>
+<li><strong>Main Scale Reading</strong>: 3 mm</li>
+<li><strong>Thimble Reading</strong>: 47 × 0.01 mm = 0.47 mm</li>
+<li><strong>Total Reading</strong>: 3 mm + 0.47 mm = 3.47 mm</li>
+</ol>
+<p>Therefore, the diameter of the rod is <strong>3.47 mm</strong>.</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Main Scale Reading] --&gt; B[3 mm]
+ A --&gt; C[Thimble Reading]
+ C --&gt; D[47 × 0.01 mm = 0.47 mm]
+ B --&gt; E[Total Reading]
+ D --&gt; E
+ E[3 mm + 0.47 mm = 3.47 mm]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Main Scale Reading] --&gt; B[3 mm]
+ A --&gt; C[Thimble Reading]
+ C --&gt; D[47 × 0.01 mm = 0.47 mm]
+ B --&gt; E[Total Reading]
+ D --&gt; E
+ E[3 mm + 0.47 mm = 3.47 mm]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Main Scale Reading] --&gt; B[3 mm]
+ A --&gt; C[Thimble Reading]
+ C --&gt; D[47 × 0.01 mm = 0.47 mm]
+ B --&gt; E[Total Reading]
+ D --&gt; E
+ E[3 mm + 0.47 mm = 3.47 mm]</pre></noscript></div>
+<p>This example demonstrates the step-by-step process of using a micrometer screw gauge to measure a precise dimension.</p>
+<hr />
+<h3 id="u1-sec-1-5-accuracy-precision-and-error-estimation-of-errors-absolute-error-relative-error-and-percentage-error-error-propagation-significant-figures">1.5. Accuracy, precision and error, estimation of errors - absolute error, relative error and percentage error, error propagation, significant figures</h3>
+<h4>1.5.1 Accuracy and Precision</h4>
+<p><strong>Accuracy</strong> refers to how close a measured value is to the true or accepted value. <strong>Precision</strong> indicates how close repeated measurements are to each other, regardless of their proximity to the true value. High accuracy implies that the measurements are correct, while high precision implies that the measurements are consistent.</p>
+<h4>1.5.2 Estimation of Errors</h4>
+<p>Errors can be classified into <strong>absolute error</strong>, <strong>relative error</strong>, and <strong>percentage error</strong>.</p>
+<ul>
+<li><strong>Absolute Error</strong>: This is the difference between the measured value and the true value. It is given by:</li>
+</ul>
+<p>[ \text{Absolute Error} = \text{Measured Value} - \text{True Value} ]</p>
+<ul>
+<li><strong>Relative Error</strong>: This is the absolute error divided by the true value. It is given by:</li>
+</ul>
+<p>[ \text{Relative Error} = \frac{\text{Absolute Error}}{\text{True Value}} ]</p>
+<ul>
+<li><strong>Percentage Error</strong>: This is the relative error expressed as a percentage. It is given by:</li>
+</ul>
+<p>[ \text{Percentage Error} = \left( \frac{\text{Absolute Error}}{\text{True Value}} \right) \times 100\% ]</p>
+<h4>1.5.3 Error Propagation</h4>
+<p>When measurements are combined, the errors in the individual measurements can propagate to the final result. The propagation of errors can be estimated using the following rules:</p>
+<ul>
+<li>For addition or subtraction:</li>
+</ul>
+<p>[ \Delta y = \sqrt{(\Delta x_1)^2 + (\Delta x_2)^2 + \cdots + (\Delta x_n)^2} ]</p>
+<ul>
+<li>For multiplication or division:</li>
+</ul>
+<p>[ \frac{\Delta y}{y} = \sqrt{\left( \frac{\Delta x_1}{x_1} \right)^2 + \left( \frac{\Delta x_2}{x_2} \right)^2 + \cdots + \left( \frac{\Delta x_n}{x_n} \right)^2} ]</p>
+<h4>1.5.4 Significant Figures</h4>
+<p>Significant figures are the digits in a number that carry meaning contributing to its precision. The following rules are used to determine significant figures:</p>
+<ul>
+<li><strong>Non-zero digits are always significant.</strong></li>
+<li><strong>Zeros between non-zero digits are significant.</strong></li>
+<li><strong>Leading zeros are not significant.</strong></li>
+<li><strong>Trailing zeros in a number containing a decimal point are significant.</strong></li>
+<li><strong>Trailing zeros in a whole number with no decimal point may or may not be significant.</strong></li>
+</ul>
+<h4>1.5.5 Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A laboratory measurement of the length of a metal rod is recorded as 123.45 cm. The true length of the rod is 123.50 cm. Calculate the absolute error, relative error, and percentage error.</div>
+<ol>
+<li><strong>Absolute Error</strong>:</li>
+</ol>
+<p>[ \text{Absolute Error} = \text{Measured Value} - \text{True Value} = 123.45 \, \text{cm} - 123.50 \, \text{cm} = -0.05 \, \text{cm} ]</p>
+<ol>
+<li><strong>Relative Error</strong>:</li>
+</ol>
+<p>[ \text{Relative Error} = \frac{\text{Absolute Error}}{\text{True Value}} = \frac{-0.05 \, \text{cm}}{123.50 \, \text{cm}} = -0.000405 ]</p>
+<ol>
+<li><strong>Percentage Error</strong>:</li>
+</ol>
+<p>[ \text{Percentage Error} = \left( \frac{\text{Absolute Error}}{\text{True Value}} \right) \times 100\% = \left( \frac{-0.05 \, \text{cm}}{123.50 \, \text{cm}} \right) \times 100\% = -0.0405\% ]</p>
+<p>These calculations help in understanding the accuracy and precision of the measurement.</p>
+
+        <nav class="kb-pn no-print"><span class="pn-btn disabled">Unit 1</span><span class="pn-btn disabled">Unit – Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (C4300004) for Applied Physics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      
+</article>
+
+<article class="kb-article kb-unit" id="unit-2">
+<div class="kb-unit-head">
+  <div class="kb-unit-num">2</div>
+  <div>
+    <h2 class="kb-unit-title" id="u2-sec-2">Unit II: Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve</h2>
+  </div>
+</div>
+<p><em>This unit carries approximately <strong>10 marks (3 Remember + 3 Understand + 4 Apply)</strong>.</em></p>
+
+        
+<p><em>(AI-generated self-study book for GTU, subject code C4300004 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>10 marks (3 Remember + 3 Understand + 4 Apply) (per syllabus)</strong>.</p>
+<h3 id="u2-sec-2-1-force-momentum-law-of-conservation-of-linear-momentum-its-applications-such-as-recoil-of-gun-rocket-propulsion-impulse-and-its-applications">2.1 Force, momentum, law of conservation of linear momentum, its applications such as recoil of gun, rocket propulsion, impulse and its applications</h3>
+<h4>2.1.1 Force</h4>
+<p><strong>Force:</strong> A push or pull on an object. It can change the object's velocity, direction, or shape. Forces are vectors, meaning they have both magnitude and direction.</p>
+<h4>2.1.2 Momentum</h4>
+<p><strong>Momentum (p):</strong> The product of an object's mass (m) and its velocity (v). It is a vector quantity. The formula for momentum is:</p>
+<p>[ p = m \cdot v ]</p>
+<h4>2.1.3 Law of Conservation of Linear Momentum</h4>
+<p><strong>Law of Conservation of Linear Momentum:</strong> In the absence of an external net force, the total linear momentum of a closed system remains constant. Mathematically, this can be expressed as:</p>
+<p>[ \sum p_{\text{initial}} = \sum p_{\text{final}} ]</p>
+<h4>2.1.4 Applications: Recoil of Gun</h4>
+<p><strong>Example:</strong> A gun with a mass of 2 kg fires a bullet of mass 0.01 kg at a velocity of 500 m/s. Calculate the recoil velocity of the gun.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />Given:<br />- Mass of the gun, m_g = 2 kg<br />- Mass of the bullet, m_b = 0.01 kg<br />- Velocity of the bullet, v_b = 500 m/s<br /><br />Using the law of conservation of linear momentum:<br /><br />[ \sum p_{\text{initial}} = \sum p_{\text{final}} ]<br /><br />Initially, both the gun and the bullet are at rest, so initial momentum is zero.<br /><br />[ 0 = m_g v_g + m_b v_b ]<br /><br />Rearranging for the recoil velocity v_g of the gun:<br /><br />[ v_g = -\frac{m_b v_b}{m_g} ]<br /><br />Substituting the values:<br /><br />[ v_g = -\frac{0.01 \, \text{kg} \times 500 \, \text{m/s}}{2 \, \text{kg}} ]<br /><br />[ v_g = -0.25 \, \text{m/s} ]</div>
+<p>The negative sign indicates the direction opposite to the bullet's direction. The gun recoils with a velocity of 0.25 m/s.</p>
+<h4>2.1.5 Rocket Propulsion</h4>
+<p><strong>Rocket Propulsion:</strong> The principle behind rocket propulsion is based on the conservation of linear momentum. A rocket expels mass in one direction, and the reaction force propels the rocket in the opposite direction.</p>
+<h4>2.1.6 Impulse</h4>
+<p><strong>Impulse (J):</strong> The change in momentum of an object due to an external force. Impulse is the product of the average force applied and the time for which it acts. Mathematically, impulse is given by:</p>
+<p>[ J = F_{\text{avg}} \cdot \Delta t = \Delta p ]</p>
+<h4>2.1.7 Applications: Rocket Propulsion (continued)</h4>
+<p><strong>Example:</strong> A rocket engine expels gases at a rate of 10 kg/s with a velocity of 3000 m/s. Calculate the thrust (force) generated by the engine.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />Given:<br />- Mass flow rate, m = 10 kg/s<br />- Velocity of the expelled gases, v = 3000 m/s<br /><br />Using the principle of conservation of linear momentum:<br /><br />The thrust F is the rate of change of momentum:<br /><br />[ F = \dot{m} \cdot v ]<br /><br />Substituting the values:<br /><br />[ F = 10 \, \text{kg/s} \times 3000 \, \text{m/s} ]<br /><br />[ F = 30000 \, \text{N} ]</div>
+<p>The thrust generated by the rocket engine is 30000 N.</p>
+<h4>2.1.8 Summary</h4>
+<ul>
+<li><strong>Force:</strong> A push or pull on an object.</li>
+<li><strong>Momentum:</strong> The product of mass and velocity.</li>
+<li><strong>Law of Conservation of Linear Momentum:</strong> Total linear momentum of a closed system remains constant.</li>
+<li><strong>Recoil of Gun:</strong> Gun recoils in the opposite direction of the bullet due to the conservation of momentum.</li>
+<li><strong>Rocket Propulsion:</strong> Thrust is generated by expelling mass at high velocity.</li>
+<li><strong>Impulse:</strong> Change in momentum due to an external force.</li>
+</ul>
+<p>These concepts are crucial for understanding and solving problems related to linear momentum and its applications.</p>
+<hr />
+<h3 id="u2-sec-2-2-circular-motion-angular-displacement-angular-velocity-angular-acceleration-and-their-interrelation">2.2 Circular motion, angular displacement, angular velocity, angular acceleration and their interrelation</h3>
+<h4>2.2.1 Introduction to Circular Motion</h4>
+<p>Circular motion refers to the movement of an object along a circular path. In this motion, the object always returns to the same position after completing one full revolution. A common example is the Earth orbiting the Sun.</p>
+<h4>2.2.2 Angular Displacement</h4>
+<p>Angular displacement (θ) is the angle through which a point or object moves on a circular path. It is measured in radians (rad). The relationship between angular displacement, arc length (s), and radius (r) is given by:</p>
+<p>[ s = r \theta ]</p>
+<ul>
+<li><strong>Example:</strong> If a point on a wheel with a radius of 1 meter moves through an arc length of 3.14 meters, the angular displacement is:</li>
+</ul>
+<p>[ \theta = \frac{s}{r} = \frac{3.14 \, \text{m}}{1 \, \text{m}} = 3.14 \, \text{rad} ]</p>
+<h4>2.2.3 Angular Velocity</h4>
+<p>Angular velocity (ω) is the rate of change of angular displacement with respect to time. It is measured in radians per second (rad/s). The formula for angular velocity is:</p>
+<p>[ \omega = \frac{\theta}{t} ]</p>
+<ul>
+<li><strong>Example:</strong> If an object completes an angular displacement of 2π radians in 4 seconds, the angular velocity is:</li>
+</ul>
+<p>[ \omega = \frac{2\pi \, \text{rad}}{4 \, \text{s}} = \frac{\pi}{2} \, \text{rad/s} ]</p>
+<h4>2.2.4 Angular Acceleration</h4>
+<p>Angular acceleration (α) is the rate of change of angular velocity with respect to time. It is measured in radians per second squared (rad/s²). The formula for angular acceleration is:</p>
+<p>[ \alpha = \frac{\omega}{t} ]</p>
+<ul>
+<li><strong>Example:</strong> If an object's angular velocity increases from 0 rad/s to π rad/s in 5 seconds, the angular acceleration is:</li>
+</ul>
+<p>[ \alpha = \frac{\pi \, \text{rad/s} - 0 \, \text{rad/s}}{5 \, \text{s}} = \frac{\pi}{5} \, \text{rad/s}^2 ]</p>
+<h4>2.2.5 Interrelation Between Angular Displacement, Velocity, and Acceleration</h4>
+<p>Angular displacement, velocity, and acceleration are related by the following kinematic equations:</p>
+<ul>
+<li>ω = Δ θ Δ t</li>
+<li>α = Δ ω Δ t</li>
+<li>ω = ω₀ + α t</li>
+<li>θ = θ₀ + ω₀ t + 1 2 α t²</li>
+<li>ω² = ω₀² + 2 α (θ - θ₀)</li>
+<li>θ = θ₀ + 1 2 (ω₀ + ω) t</li>
+</ul>
+<ul>
+<li><strong>Example:</strong> Consider a wheel with an initial angular velocity of 2 rad/s and an angular acceleration of 1 rad/s². After 3 seconds, the final angular velocity is:</li>
+</ul>
+<p>[ \omega = \omega_0 + \alpha t = 2 \, \text{rad/s} + 1 \, \text{rad/s}^2 \times 3 \, \text{s} = 5 \, \text{rad/s} ]</p>
+<h4>2.2.6 Practical Application: Pendulum Motion</h4>
+<p>Consider a simple pendulum with a length of 1 meter. The time period (T) of the pendulum can be calculated using the formula:</p>
+<p>[ T = 2\pi \sqrt{\frac{l}{g}} ]</p>
+<p>where l is the length of the pendulum and g is the acceleration due to gravity (approximately 9.81 m/s²).</p>
+<ul>
+<li><strong>Example:</strong> For a pendulum with a length of 1 meter, the time period is:</li>
+</ul>
+<p>[ T = 2\pi \sqrt{\frac{1 \, \text{m}}{9.81 \, \text{m/s}^2}} \approx 2\pi \times 0.319 \, \text{s} \approx 2 \times 0.997 \, \text{s} \approx 1.994 \, \text{s} ]</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Angular Displacement] --&gt; B[Angular Velocity]
+ A --&gt; C[Angular Acceleration]
+ B --&gt; D[Angular Displacement - Time]
+ C --&gt; E[Angular Velocity - Time]
+ D --&gt; F[Angular Acceleration - Time]
+ E --&gt; G[Angular Displacement - Velocity]
+ F --&gt; H[Angular Velocity - Acceleration]
+ G --&gt; I[Angular Acceleration - Velocity]
+ H --&gt; J[Angular Displacement - Acceleration]
+ I --&gt; K[Angular Displacement - Acceleration]
+ J --&gt; K[Angular Displacement - Acceleration]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Angular Displacement] --&gt; B[Angular Velocity]
+ A --&gt; C[Angular Acceleration]
+ B --&gt; D[Angular Displacement - Time]
+ C --&gt; E[Angular Velocity - Time]
+ D --&gt; F[Angular Acceleration - Time]
+ E --&gt; G[Angular Displacement - Velocity]
+ F --&gt; H[Angular Velocity - Acceleration]
+ G --&gt; I[Angular Acceleration - Velocity]
+ H --&gt; J[Angular Displacement - Acceleration]
+ I --&gt; K[Angular Displacement - Acceleration]
+ J --&gt; K[Angular Displacement - Acceleration]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Angular Displacement] --&gt; B[Angular Velocity]
+ A --&gt; C[Angular Acceleration]
+ B --&gt; D[Angular Displacement - Time]
+ C --&gt; E[Angular Velocity - Time]
+ D --&gt; F[Angular Acceleration - Time]
+ E --&gt; G[Angular Displacement - Velocity]
+ F --&gt; H[Angular Velocity - Acceleration]
+ G --&gt; I[Angular Acceleration - Velocity]
+ H --&gt; J[Angular Displacement - Acceleration]
+ I --&gt; K[Angular Displacement - Acceleration]
+ J --&gt; K[Angular Displacement - Acceleration]</pre></noscript></div>
+<p>This diagram helps visualize the interrelation between angular displacement, velocity, and acceleration.</p>
+<hr />
+<h3 id="u2-sec-2-3-centripetal-and-centrifugal-forces-examples-banking-of-roads-and-bending-of-cyclist">2.3. Centripetal and centrifugal forces examples: banking of roads and bending of cyclist</h3>
+
+<h4>Banking of Roads</h4>
+<p>In circular motion, the banking of roads is a common application of centripetal force to prevent skidding of vehicles. The road is inclined at an angle to the horizontal, providing a component of the normal force that acts towards the center of the circular path, thus counteracting the tendency of the vehicle to skid outward. The banking angle θ is determined by the radius of the curve R and the speed v of the vehicle.</p>
+<p>The centripetal force required to keep the vehicle moving in a circular path is given by:</p>
+<p>[ F_{c} = \frac{mv^2}{R} ]</p>
+<p>Where:</p>
+<ul>
+<li>m is the mass of the vehicle,</li>
+<li>v is the speed of the vehicle,</li>
+<li>R is the radius of the curve.</li>
+</ul>
+<p>The normal force N acting on the vehicle has a horizontal component N θ and a vertical component N θ. The vertical component must balance the weight of the vehicle mg, and the horizontal component provides the necessary centripetal force.</p>
+<p>The equations for the normal force components are:</p>
+<p>[ N \cos \theta = mg ]</p>
+<p>[ N \sin \theta = \frac{mv^2}{R} ]</p>
+<p>Dividing the second equation by the first:</p>
+<p>[ \tan \theta = \frac{v^2}{gR} ]</p>
+<p>Thus, the banking angle θ is:</p>
+<p>[ \theta = \tan^{-1} \left( \frac{v^2}{gR} \right) ]</p>
+<h4>Bending of Cyclist</h4>
+<p>When a cyclist turns, the centripetal force is provided by the friction between the tires and the road surface. The frictional force f must be enough to provide the necessary centripetal force to keep the cyclist moving in a circular path.</p>
+<p>The centripetal force required is:</p>
+<p>[ F_{c} = \frac{mv^2}{R} ]</p>
+<p>Where:</p>
+<ul>
+<li>m is the mass of the cyclist,</li>
+<li>v is the speed of the cyclist,</li>
+<li>R is the radius of the turn.</li>
+</ul>
+<p>The frictional force f is given by:</p>
+<p>[ f = \mu N ]</p>
+<p>Where:</p>
+<ul>
+<li>μ is the coefficient of friction between the tires and the road,</li>
+<li>N is the normal force, which is equal to the weight of the cyclist mg.</li>
+</ul>
+<p>Thus, the frictional force is:</p>
+<p>[ f = \mu mg ]</p>
+<p>For the cyclist to safely turn without skidding, the frictional force must be at least equal to the required centripetal force:</p>
+<p>[ \mu mg = \frac{mv^2}{R} ]</p>
+<p>Solving for the speed v:</p>
+<p>[ v = \sqrt{\mu g R} ]</p>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A cyclist is turning a curve of radius 30 meters at a speed of 10 m/s. The coefficient of friction between the tires and the road is 0.5. Determine the speed at which the cyclist can safely turn the curve without skidding.<br /><br />Given:<br />- Radius of the curve, R = 30 m,<br />- Speed, v = 10 m/s,<br />- Coefficient of friction, μ = 0.5.<br /><br />Using the formula for the maximum speed:<br />[ v = \sqrt{\mu g R} ]<br />[ v = \sqrt{0.5 \times 9.8 \times 30} ]<br />[ v = \sqrt{147} ]<br />[ v \approx 12.12 \, \text{m/s} ]<br /><br />Therefore, the cyclist can safely turn the curve without skidding at a speed of approximately 12.12 m/s.</div>
+<div class="mermaid-wrap"><div class="mermaid">flowchart LR
+ A[Given] --&gt; B[R = 30m, v = 10m/s, μ = 0.5]
+ B --&gt; C[Required: Maximum Speed v]
+ C --&gt; D[Formula: v = sqrt(μgR)]
+ D --&gt; E[v = sqrt(0.5 * 9.8 * 30)]
+ E --&gt; F[v = sqrt(147)]
+ F --&gt; G[v ≈ 12.12m/s]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[Given] --&gt; B[R = 30m, v = 10m/s, μ = 0.5]
+ B --&gt; C[Required: Maximum Speed v]
+ C --&gt; D[Formula: v = sqrt(μgR)]
+ D --&gt; E[v = sqrt(0.5 * 9.8 * 30)]
+ E --&gt; F[v = sqrt(147)]
+ F --&gt; G[v ≈ 12.12m/s]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[Given] --&gt; B[R = 30m, v = 10m/s, μ = 0.5]
+ B --&gt; C[Required: Maximum Speed v]
+ C --&gt; D[Formula: v = sqrt(μgR)]
+ D --&gt; E[v = sqrt(0.5 * 9.8 * 30)]
+ E --&gt; F[v = sqrt(147)]
+ F --&gt; G[v ≈ 12.12m/s]</pre></noscript></div>
+
+        <nav class="kb-pn no-print"><a class="pn-btn" href="unit-1.html"><i class="fas fa-chevron-left"></i> Unit 1</a><span class="pn-btn disabled">Unit – Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (C4300004) for Applied Physics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      
+</article>
+
+<article class="kb-article kb-unit" id="unit-3">
+<div class="kb-unit-head">
+  <div class="kb-unit-num">3</div>
+  <div>
+    <h2 class="kb-unit-title" id="u3-sec-3">Unit III: General Properties of Matter 3.a Explain the Hooke’s law, stress- strain curve and moduli of elasticity. 3.b Explain surface tension, cohesive and adhesive forces.</h2>
+  </div>
+</div>
+<p><em>This unit carries approximately <strong>20 marks (4 Remember + 7 Understand + 9 Apply)</strong>.</em></p>
+
+        
+<p><em>(AI-generated self-study book for GTU, subject code C4300004 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>20 marks (4 Remember + 7 Understand + 9 Apply) (per syllabus)</strong>.</p>
+<h3 id="u3-sec-3-1-elasticity">3.1. Elasticity</h3>
+<h4>3.1.1. Deforming and Restoring Force</h4>
+<p><strong>Deforming Force:</strong> This is the external force applied to a body that causes a change in its shape or size. It can be due to compression, tension, or shear.</p>
+<p><strong>Restoring Force:</strong> This is the internal force that acts to return the body to its original shape or size once the deforming force is removed. It is always opposite to the deforming force.</p>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A spring is stretched by a force of 10 N. If the spring constant (k) is 200 N/m, calculate the extension in the spring.</div>
+<p>Given:</p>
+<ul>
+<li>Deforming force (F) = 10 N</li>
+<li>Spring constant (k) = 200 N/m</li>
+</ul>
+<p>We know from Hooke’s law that the extension (x) of the spring is given by:</p>
+<p>[ x = \frac{F}{k} ]</p>
+<p>Substituting the given values:</p>
+<p>[ x = \frac{10 \, \text{N}}{200 \, \text{N/m}} = 0.05 \, \text{m} ]</p>
+<p>So, the extension in the spring is 0.05 m.</p>
+<h3 id="u3-sec-3-1-2-stress-strain-with-their-types">3.1.2. Stress-Strain with their Types</h3>
+<h4>3.1.2.1. Stress</h4>
+<p><strong>Stress:</strong> It is the internal force per unit area within a material that arises due to external forces. The units of stress are N/m² or Pa (Pascal).</p>
+<p>[ \text{Stress} = \frac{\text{Force}}{\text{Area}} ]</p>
+<h4>3.1.2.2. Types of Stress</h4>
+<ul>
+<li><strong>Tensile Stress:</strong> Force that tends to stretch or elongate a material.</li>
+<li><strong>Compressive Stress:</strong> Force that tends to compress or shorten a material.</li>
+<li><strong>Shear Stress:</strong> Force that tends to cause one layer of a material to slide over another.</li>
+</ul>
+<h4>3.1.2.3. Strain</h4>
+<p><strong>Strain:</strong> It is the measure of deformation of a body. It is dimensionless and is defined as the ratio of change in dimension to the original dimension.</p>
+<p>[ \text{Strain} = \frac{\text{Change in Dimension}}{\text{Original Dimension}} ]</p>
+<h4>3.1.2.4. Types of Strain</h4>
+<ul>
+<li><strong>Tensile Strain:</strong> Strain due to tensile stress.</li>
+<li><strong>Compressive Strain:</strong> Strain due to compressive stress.</li>
+<li><strong>Shear Strain:</strong> Strain due to shear stress.</li>
+</ul>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A metal rod of original length 10 m is subjected to a tensile force of 2000 N, causing it to stretch by 0.5 cm. Calculate the tensile strain.</div>
+<p>Given:</p>
+<ul>
+<li>Original length (L) = 10 m</li>
+<li>Change in length (ΔL) = 0.5 cm = 0.005 m</li>
+</ul>
+<p>Tensile strain (ε) is given by:</p>
+<p>[ \varepsilon = \frac{\Delta L}{L} = \frac{0.005 \, \text{m}}{10 \, \text{m}} = 0.0005 ]</p>
+<p>So, the tensile strain is 0.0005.</p>
+<h3 id="u3-sec-3-1-3-hooke-s-law">3.1.3. Hooke’s Law</h3>
+
+<p><strong>Hooke’s Law:</strong> This law states that the extension of a spring is directly proportional to the force applied, provided the elastic limit is not exceeded. Mathematically, it is expressed as:</p>
+<p>[ F = kx ]</p>
+<p>Where:</p>
+<ul>
+<li>F is the force applied,</li>
+<li>k is the spring constant (or modulus of elasticity for a material),</li>
+<li>x is the extension of the spring.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A spring has a spring constant of 150 N/m. If a force of 75 N is applied, calculate the extension of the spring.</div>
+<p>Given:</p>
+<ul>
+<li>Spring constant (k) = 150 N/m</li>
+<li>Force (F) = 75 N</li>
+</ul>
+<p>Using Hooke’s law:</p>
+<p>[ x = \frac{F}{k} = \frac{75 \, \text{N}}{150 \, \text{N/m}} = 0.5 \, \text{m} ]</p>
+<p>So, the extension of the spring is 0.5 m.</p>
+<h3 id="u3-sec-3-1-4-moduli-of-elasticity-young-s-modulus-bulk-modulus-shear-modulus">3.1.4. Moduli of Elasticity, Young’s Modulus, Bulk Modulus, Shear Modulus</h3>
+<h4>3.1.4.1. Young’s Modulus</h4>
+<p><strong>Young’s Modulus (E):</strong> It is a measure of a material’s stiffness or resistance to tensile deformation. It is defined as the ratio of tensile stress to tensile strain.</p>
+<p>[ E = \frac{\text{Tensile Stress}}{\text{Tensile Strain}} ]</p>
+<h4>3.1.4.2. Bulk Modulus</h4>
+<p><strong>Bulk Modulus (K):</strong> It is a measure of a material’s resistance to uniform compression. It is defined as the ratio of volumetric stress to volumetric strain.</p>
+<p>[ K = -\frac{\Delta p}{\Delta V / V} ]</p>
+<p>Where:</p>
+<ul>
+<li>Δ p is the change in pressure,</li>
+<li>Δ V is the change in volume,</li>
+<li>V is the original volume.</li>
+</ul>
+<h4>3.1.4.3. Shear Modulus</h4>
+<p><strong>Shear Modulus (G):</strong> It is a measure of a material’s resistance to shear deformation. It is defined as the ratio of shear stress to shear strain.</p>
+<p>[ G = \frac{\text{Shear Stress}}{\text{Shear Strain}} ]</p>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A material has a Young’s modulus of 200 GPa and a Shear Modulus of 80 GPa. If a tensile stress of 100 MPa is applied, calculate the tensile strain and the shear strain.</div>
+<p>Given:</p>
+<ul>
+<li>Young’s Modulus (E) = 200 GPa = 200,000 MPa</li>
+<li>Shear Modulus (G) = 80 GPa = 80,000 MPa</li>
+<li>Tensile Stress (σ) = 100 MPa</li>
+</ul>
+<p>Tensile strain (ε) is given by:</p>
+<p>[ \varepsilon = \frac{\sigma}{E} = \frac{100 \, \text{MPa}}{200,000 \, \text{MPa}} = 0.0005 ]</p>
+<p>Shear strain (γ) is given by:</p>
+<p>[ \gamma = \frac{\sigma}{G} = \frac{100 \, \text{MPa}}{80,000 \, \text{MPa}} = 0.00125 ]</p>
+<p>So, the tensile strain is 0.0005 and the shear strain is 0.00125.</p>
+<h3 id="u3-sec-3-1-5-viscosity-coefficient-of-viscosity-terminal-velocity-and-stokes-law">3.1.5. Viscosity, Coefficient of Viscosity, Terminal Velocity, and Stokes’ Law</h3>
+<h4>3.1.5.1. Viscosity</h4>
+<p><strong>Viscosity:</strong> It is a measure of a fluid’s resistance to flow. It is the internal friction between different layers of a moving fluid.</p>
+<h4>3.1.5.2. Coefficient of Viscosity</h4>
+<p><strong>Coefficient of Viscosity (η):</strong> It is a measure of a fluid’s resistance to flow. It is defined as the ratio of the shear stress to the velocity gradient.</p>
+<p>[ \eta = \frac{\tau}{\frac{du}{dy}} ]</p>
+<p>Where:</p>
+<ul>
+<li>τ is the shear stress,</li>
+<li>du dy is the velocity gradient.</li>
+</ul>
+<h4>3.1.5.3. Terminal Velocity</h4>
+<p><strong>Terminal Velocity:</strong> It is the constant velocity that a particle attains when the forces of drag and buoyancy balance the gravitational force. It is given by:</p>
+<p>[ v_t = \frac{2r^2 (\rho_f - \rho_p) g}{9 \eta} ]</p>
+<p>Where:</p>
+<ul>
+<li>r is the radius of the particle,</li>
+<li>_f is the density of the fluid,</li>
+<li>_p is the density of the particle,</li>
+<li>g is the acceleration due to gravity,</li>
+<li>is the coefficient of viscosity.</li>
+</ul>
+<h4>3.1.5.4. Stokes’ Law</h4>
+<p><strong>Stokes’ Law:</strong> It is used to calculate the terminal velocity of small spherical particles in a fluid. The law states that the drag force (F) on a spherical particle is directly proportional to the velocity of the particle and the viscosity of the fluid.</p>
+<p>[ F = 6 \pi \eta r v ]</p>
+<p>Where:</p>
+<ul>
+<li>r is the radius of the particle,</li>
+<li>is the coefficient of viscosity,</li>
+<li>v is the velocity of the particle.</li>
+</ul>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A small spherical particle of radius 0.5 mm and density 1200 kg/m³ is falling through water (density = 1000 kg/m³ and viscosity = 0.001 Pa·s). Calculate the terminal velocity of the particle.</div>
+<p>Given:</p>
+<ul>
+<li>Radius (r) = 0.5 mm = 0.5 × 10⁻³ m</li>
+<li>Density of the particle (_p) = 1200 kg/m³</li>
+<li>Density of the fluid (_f) = 1000 kg/m³</li>
+<li>Viscosity of the fluid () = 0.001 Pa·s</li>
+<li>Acceleration due to gravity (g) = 9.81 m/s²</li>
+</ul>
+<p>Using Stokes’ law:</p>
+<p>[ v_t = \frac{2r^2 (\rho_f - \rho_p) g}{9 \eta} = \frac{2 (0.5 \times 10^{-3})^2 (1000 - 1200) \times 9.81}{9 \times 0.001} ]</p>
+<p>[ v_t = \frac{2 \times (0.25 \times 10^{-6}) \times (-200) \times 9.81}{9 \times 0.001} = \frac{-0.000004905}{0.009} = -0.000545 \, \text{m/s} ]</p>
+<p>The negative sign indicates the direction of the velocity, but the magnitude of the terminal velocity is 0.000545 m/s.</p>
+<p>So, the terminal velocity of the particle is 0.000545 m/s.</p>
+<h3 id="u3-sec-3-1-6-types-of-fluid-motion-and-reynolds-number">3.1.6. Types of Fluid Motion and Reynolds Number</h3>
+<h4>3.1.6.1. Types of Fluid Motion</h4>
+<ul>
+<li><strong>Laminar Flow:</strong> Smooth, steady flow with no turbulence.</li>
+<li><strong>Turbulent Flow:</strong> Chaotic, irregular flow with high velocity and pressure fluctuations.</li>
+</ul>
+<h4>3.1.6.2. Reynolds Number</h4>
+<p><strong>Reynolds Number (Re):</strong> It is a dimensionless number used to predict flow patterns in different fluid flow situations. It is given by:</p>
+<p>[ Re = \frac{\rho v d}{\eta} ]</p>
+<p>Where:</p>
+<ul>
+<li>is the density of the fluid,</li>
+<li>v is the velocity of the fluid,</li>
+<li>d is the characteristic length (usually the pipe diameter),</li>
+<li>is the coefficient of viscosity.</li>
+</ul>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A fluid is flowing through a pipe with a diameter of 0.1 m at a velocity of 2 m/s. The density of the fluid is 800 kg/m³ and the viscosity is 0.001 Pa·s. Calculate the Reynolds number.</div>
+<p>Given:</p>
+<ul>
+<li>Diameter (d) = 0.1 m</li>
+<li>Velocity (v) = 2 m/s</li>
+<li>Density () = 800 kg/m³</li>
+<li>Viscosity () = 0.001 Pa·s</li>
+</ul>
+<p>Using the Reynolds number formula:</p>
+<p>[ Re = \frac{\rho v d}{\eta} = \frac{800 \times 2 \times 0.1}{0.001} = \frac{160}{0.001} = 160,000 ]</p>
+<p>So, the Reynolds number is 160,000.</p>
+<p>This completes the detailed coverage of the syllabus topics for "General Properties of Matter" in the context of Applied Physics for GTU students.</p>
+<hr />
+<h3 id="u3-sec-3-1-5-stress-strain-curve">3.1.5. Stress-Strain Curve</h3>
+<h4>Definition and Importance</h4>
+<p><strong>Stress-Strain curve:</strong> This curve represents the relationship between the stress applied to a material and the resulting strain (deformation). It is a fundamental tool in material science and engineering for understanding the mechanical behavior of materials under different loading conditions.</p>
+<h4>Stress and Strain</h4>
+<ul>
+<li><strong>Stress:</strong> Force per unit area, measured in Pascals (Pa) or Newtons per square meter (N/m²).</li>
+<li><strong>Strain:</strong> Dimensionless, representing the ratio of deformation to the original length. It can be either engineering strain or true strain.</li>
+</ul>
+<h4>Types of Stress</h4>
+<ul>
+<li><strong>Tensile Stress:</strong> Stress that tends to stretch or elongate a material.</li>
+<li><strong>Compressive Stress:</strong> Stress that tends to compress or shorten a material.</li>
+</ul>
+<h4>Types of Strain</h4>
+<ul>
+<li><strong>Engineering Strain:</strong> Change in length divided by the original length.</li>
+<li><strong>True Strain:</strong> Natural logarithm of the ratio of final length to the initial length.</li>
+</ul>
+<h4>Hooke's Law and Linear Region</h4>
+<ul>
+<li><strong>Hooke's Law:</strong> A linear relationship between stress and strain, where the material returns to its original shape when the stress is removed. Mathematically, it can be expressed as:</li>
+</ul>
+<p>[ \text{Stress} = E \times \text{Strain} ]</p>
+<p>Where E is the <strong>modulus of elasticity</strong>.</p>
+<h4>Elastic Limit and Yield Point</h4>
+<ul>
+<li><strong>Elastic Limit:</strong> The maximum stress that a material can withstand while still returning to its original shape without permanent deformation.</li>
+<li><strong>Yield Point:</strong> The stress at which a material begins to deform plastically, i.e., it does not return to its original shape after the load is removed.</li>
+</ul>
+<h4>Ultimate Strength and Fracture Point</h4>
+<ul>
+<li><strong>Ultimate Strength:</strong> The maximum stress a material can withstand before failing.</li>
+<li><strong>Fracture Point:</strong> The point at which the material completely fails and breaks.</li>
+</ul>
+<h4>Moduli of Elasticity</h4>
+<ul>
+<li><strong>Young's Modulus (E):</strong> Measures the stiffness of a material. Higher values indicate stiffer materials.</li>
+<li><strong>Shear Modulus (G):</strong> Measures a material's resistance to shear deformation.</li>
+<li><strong>Bulk Modulus (K):</strong> Measures a material's resistance to volume change under pressure.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A steel rod with a cross-sectional area of 50 mm² is subjected to a tensile force of 1000 N. The original length of the rod is 1000 mm. The rod elongates by 0.2 mm under the applied force. Calculate the stress, strain, and the Young's modulus of the steel if the Young's modulus is known to be 200 GPa.<br /><br />- <strong>Stress (σ):</strong></div>
+<p>[ \sigma = \frac{\text{Force}}{\text{Area}} = \frac{1000 \, \text{N}}{50 \, \text{mm}^2} = 20 \, \text{N/mm}^2 = 20 \, \text{MPa} ]</p>
+<blockquote><br />- <strong>Strain (ε):</strong></blockquote>
+<p>[ \varepsilon = \frac{\Delta L}{L} = \frac{0.2 \, \text{mm}}{1000 \, \text{mm}} = 0.0002 ]</p>
+<blockquote><br />- <strong>Young's Modulus (E):</strong></blockquote>
+<p>[ E = \frac{\sigma}{\varepsilon} = \frac{20 \, \text{MPa}}{0.0002} = 100 \, \text{MPa} ]</p>
+<blockquote><br />However, the known value of Young's Modulus for steel is 200 GPa (200,000 MPa), which indicates a discrepancy in the given data or calculation.</blockquote>
+<h4>Mermaid Diagram</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Stress-Strain Curve] --&gt; B[Linear Region]
+ B --&gt; C[Elastic Limit]
+ C --&gt; D[Yield Point]
+ D --&gt; E[Ultimate Strength]
+ E --&gt; F[Fracture Point]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Stress-Strain Curve] --&gt; B[Linear Region]
+ B --&gt; C[Elastic Limit]
+ C --&gt; D[Yield Point]
+ D --&gt; E[Ultimate Strength]
+ E --&gt; F[Fracture Point]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Stress-Strain Curve] --&gt; B[Linear Region]
+ B --&gt; C[Elastic Limit]
+ C --&gt; D[Yield Point]
+ D --&gt; E[Ultimate Strength]
+ E --&gt; F[Fracture Point]</pre></noscript></div>
+<h3 id="u3-sec-3-2-surface-tension">3.2. Surface Tension</h3>
+<h4>Concept and Units</h4>
+<p><strong>Surface Tension:</strong> The cohesive force between molecules at the surface of a liquid, causing the surface to behave as a stretched elastic membrane. It is a measure of the work done by the surface layer to increase the surface area by one unit.</p>
+<ul>
+<li><strong>Units:</strong> Newton per meter (N/m) or dyne per centimeter (dyne/cm).</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A mercury drop has a surface tension of 0.48 N/m. If the radius of the drop is 2 mm, calculate the excess pressure inside the drop.<br /><br />- <strong>Excess Pressure (ΔP):</strong></div>
+<p>[ \Delta P = \frac{2 \times \text{Surface Tension}}{r} = \frac{2 \times 0.48 \, \text{N/m}}{0.002 \, \text{m}} = 480 \, \text{Pa} ]</p>
+<h3 id="u3-sec-3-2-1-surface-tension-concept-and-units">3.2.1. Surface Tension; Concept and Units</h3>
+<h4>Concept</h4>
+<ul>
+<li><strong>Cohesive Forces:</strong> Attractive forces between molecules of the same substance.</li>
+<li><strong>Adhesive Forces:</strong> Attractive forces between molecules of different substances.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A drop of water (surface tension = 0.0728 N/m) is placed on a clean glass surface. If the contact angle is 0°, calculate the adhesion energy between the water and glass.<br /><br />- <strong>Adhesion Energy (E):</strong></div>
+<p>[ E = \text{Surface Tension} \times \text{Contact Angle} = 0.0728 \, \text{N/m} \times \cos(0°) = 0.0728 \, \text{N/m} ]</p>
+<h3 id="u3-sec-3-2-2-cohesive-and-adhesive-forces">3.2.2. Cohesive and Adhesive Forces</h3>
+<h4>Cohesive Forces</h4>
+<ul>
+<li><strong>Definition:</strong> Forces that hold molecules of the same substance together, leading to the cohesive nature of liquids.</li>
+<li><strong>Example:</strong> Water molecules are held together by cohesive forces, which is why water forms droplets.</li>
+</ul>
+<h4>Adhesive Forces</h4>
+<ul>
+<li><strong>Definition:</strong> Forces that attract molecules of different substances, leading to the adhesive nature of liquids.</li>
+<li><strong>Example:</strong> Water adheres to glass due to adhesive forces.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A small piece of wax is placed on the surface of a glass of water. The contact angle between the wax and water is 70°. Calculate the adhesive energy between the wax and water.<br /><br />- <strong>Adhesive Energy (E):</strong></div>
+<p>[ E = \text{Surface Tension} \times \cos(\text{Contact Angle}) = 0.0728 \, \text{N/m} \times \cos(70°) = 0.025 \, \text{N/m} ]</p>
+<h3 id="u3-sec-3-2-3-molecular-range-and-sphere-of-influence">3.2.3. Molecular Range and Sphere of Influence</h3>
+<h4>Molecular Range</h4>
+<ul>
+<li><strong>Definition:</strong> The distance over which the intermolecular forces of attraction are significant. This range is typically on the order of a few Ångströms (1 Å = 10^-10 m).</li>
+</ul>
+<h4>Sphere of Influence</h4>
+<ul>
+<li><strong>Definition:</strong> The region around a molecule where its interactions with other molecules are significant. This region is influenced by both cohesive and adhesive forces.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Consider a molecule of water in a liquid state. The cohesive forces are strongest within a distance of about 3 Å, while the adhesive forces extend up to 5 Å. Calculate the total range of interaction for this molecule.<br /><br />- <strong>Total Range of Interaction:</strong></div>
+<p>[ \text{Total Range} = \text{Cohesive Range} + \text{Adhesive Range} = 3 \, \text{Å} + 5 \, \text{Å} = 8 \, \text{Å} ]</p>
+<h4>Mermaid Diagram</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Molecular Range] --&gt; B[Cohesive Forces]
+ A --&gt; C[Adhesive Forces]
+ B --&gt; D[3 Å]
+ C --&gt; E[5 Å]
+ D --&gt; F[Total Range: 8 Å]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Molecular Range] --&gt; B[Cohesive Forces]
+ A --&gt; C[Adhesive Forces]
+ B --&gt; D[3 Å]
+ C --&gt; E[5 Å]
+ D --&gt; F[Total Range: 8 Å]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Molecular Range] --&gt; B[Cohesive Forces]
+ A --&gt; C[Adhesive Forces]
+ B --&gt; D[3 Å]
+ C --&gt; E[5 Å]
+ D --&gt; F[Total Range: 8 Å]</pre></noscript></div>
+<hr />
+<h3 id="u3-sec-3-2-4-laplace-s-molecular-theory">3.2.4. Laplace’s Molecular Theory</h3>
+<p>Laplace’s molecular theory is a fundamental concept in surface science that explains the behavior of liquids and their interfaces. According to this theory, the pressure difference across a curved liquid surface can be explained by the molecular forces between the liquid and the surrounding medium.</p>
+<h4>Explanation of Laplace’s Molecular Theory</h4>
+<p><strong>Laplace’s Law:</strong> The pressure difference (Δ P) across a curved liquid surface is given by the equation:</p>
+<p>[ \Delta P = \frac{2 \sigma}{R} ]</p>
+<p>where:</p>
+<ul>
+<li>σ is the surface tension of the liquid,</li>
+<li>R is the radius of curvature of the liquid surface.</li>
+</ul>
+<p>This law is applicable to any shape of the liquid surface, but it is most commonly used for spherical interfaces. The pressure difference is always higher inside the liquid compared to the external pressure, leading to a higher pressure inside a droplet or a bubble.</p>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A spherical droplet of water has a surface tension of 0.072 N/m and a radius of curvature of 1 cm. Calculate the pressure difference across the surface of the droplet.</div>
+<p>Solution:</p>
+<p>Given:</p>
+<ul>
+<li>Surface tension, σ = 0.072 N/m</li>
+<li>Radius of curvature, R = 1 cm = 0.01 m</li>
+</ul>
+<p>Using Laplace's law:</p>
+<p>[ \Delta P = \frac{2 \times 0.072 \, \text{N/m}}{0.01 \, \text{m}} = 14.4 \, \text{Pa} ]</p>
+<p>So, the pressure difference across the surface of the droplet is 14.4 Pa.</p>
+<h3 id="u3-sec-3-2-5-angle-of-contact-ascent-formula-no-derivation">3.2.5. Angle of Contact, Ascent Formula (No Derivation)</h3>
+<p>The angle of contact (θ) is the angle made by the liquid surface with the solid surface at the point of contact. It is a critical parameter in understanding the behavior of liquids on solid surfaces. The angle of contact can be used to determine whether a liquid will wet or not wet a solid surface.</p>
+<h4>Classification of Angle of Contact</h4>
+<ul>
+<li><strong>0°</strong>: Complete wetting, where the liquid spreads out completely on the solid surface.</li>
+<li><strong>90°</strong>: Neutral wetting, where the liquid does not spread out but forms a thin film.</li>
+<li><strong>180°</strong>: Non-wetting, where the liquid forms droplets on the surface.</li>
+</ul>
+<h4>Ascent Formula</h4>
+<p>The ascent formula is used to determine the height to which a liquid rises in a capillary tube. The formula is given by:</p>
+<p>[ h = \frac{2 \sigma \cos \theta}{\rho g d} ]</p>
+<p>where:</p>
+<ul>
+<li>h is the height of the liquid column,</li>
+<li>σ is the surface tension,</li>
+<li>θ is the angle of contact,</li>
+<li>is the density of the liquid,</li>
+<li>g is the acceleration due to gravity,</li>
+<li>d is the diameter of the capillary tube.</li>
+</ul>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A liquid with a surface tension of 0.072 N/m and an angle of contact of 30° is to be tested in a capillary tube with a diameter of 0.1 mm. If the density of the liquid is 1000 kg/m³, calculate the height to which the liquid rises.</div>
+<p>Solution:</p>
+<p>Given:</p>
+<ul>
+<li>Surface tension, σ = 0.072 N/m</li>
+<li>Angle of contact, θ = 30^</li>
+<li>Diameter of capillary tube, d = 0.1 mm = 0.0001 m</li>
+<li>Density of liquid, = 1000 kg/m³</li>
+<li>Acceleration due to gravity, g = 9.8 m/s²</li>
+</ul>
+<p>Using the ascent formula:</p>
+<p>[ h = \frac{2 \times 0.072 \, \text{N/m} \times \cos 30^\circ}{1000 \, \text{kg/m}^3 \times 9.8 \, \text{m/s}^2 \times 0.0001 \, \text{m}} ]</p>
+<p>[ h = \frac{2 \times 0.072 \, \text{N/m} \times 0.866}{1000 \, \text{kg/m}^3 \times 9.8 \, \text{m/s}^2 \times 0.0001 \, \text{m}} ]</p>
+<p>[ h = \frac{0.12384}{0.098} \, \text{m} ]</p>
+<p>[ h = 1.264 \, \text{mm} ]</p>
+<p>So, the height to which the liquid rises is 1.264 mm.</p>
+<h3 id="u3-sec-3-2-6-surface-energy">3.2.6. Surface Energy</h3>
+<p>Surface energy is the energy required to create a new surface in a material. It is a measure of the strength of the intermolecular forces at the surface. The surface energy (γ) is defined as the energy required to increase the surface area of a liquid by one unit of area.</p>
+<h4>Definition of Surface Energy</h4>
+<p>[ \gamma = \frac{\Delta E}{\Delta A} ]</p>
+<p>where:</p>
+<ul>
+<li>Δ E is the change in energy,</li>
+<li>Δ A is the change in surface area.</li>
+</ul>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the surface energy of water if 150 J of energy is required to increase the surface area of 10 m².</div>
+<p>Solution:</p>
+<p>Given:</p>
+<ul>
+<li>Energy required, Δ E = 150 J</li>
+<li>Change in surface area, Δ A = 10 m²</li>
+</ul>
+<p>Using the definition of surface energy:</p>
+<p>[ \gamma = \frac{150 \, \text{J}}{10 \, \text{m}^2} = 15 \, \text{J/m}^2 ]</p>
+<p>So, the surface energy of water is 15 J/m².</p>
+<h3 id="u3-sec-3-2-7-applications-of-surface-tension">3.2.7. Applications of Surface Tension</h3>
+<p>Surface tension has numerous practical applications in various fields, including everyday phenomena and industrial processes. Some common applications include:</p>
+<ul>
+<li><strong>Formation of Bubbles:</strong> Bubbles form due to the lower pressure inside the bubble compared to the external pressure.</li>
+<li><strong>Wetting and Adhesion:</strong> Liquids wet or adhere to solid surfaces based on the angle of contact.</li>
+<li><strong>Cleaning Agents:</strong> Soaps and detergents reduce surface tension, allowing them to clean effectively.</li>
+<li><strong>Capillary Action:</strong> Capillary action is used in devices like pipettes and in the movement of water in plants.</li>
+</ul>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A soap solution with a surface tension of 0.03 N/m is used to clean a 10 cm² area. If 0.3 J of energy is required to clean this area, calculate the efficiency of the soap solution.</div>
+<p>Solution:</p>
+<p>Given:</p>
+<ul>
+<li>Surface tension, σ = 0.03 N/m</li>
+<li>Area, A = 10 cm² = 0.001 m²</li>
+<li>Energy required, Δ E = 0.3 J</li>
+</ul>
+<p>Using the definition of surface energy:</p>
+<p>[ \gamma = \frac{\Delta E}{\Delta A} = \frac{0.3 \, \text{J}}{0.001 \, \text{m}^2} = 300 \, \text{J/m}^2 ]</p>
+<p>The efficiency of the soap solution can be calculated as:</p>
+<p>[ \text{Efficiency} = \frac{\gamma_{\text{solution}}}{\gamma_{\text{water}}} ]</p>
+<p>Assuming the surface tension of water is 0.072 N/m:</p>
+<p>[ \text{Efficiency} = \frac{300 \, \text{J/m}^2}{0.072 \, \text{N/m} \times 0.001 \, \text{m}^2} = \frac{300}{0.000072} = 4166.67\% ]</p>
+<p>So, the efficiency of the soap solution is 4166.67%.</p>
+<h3 id="u3-sec-3-2-8-effect-of-temperature-and-impurity-on-surface-tension">3.2.8. Effect of Temperature and Impurity on Surface Tension</h3>
+<p>The surface tension of a liquid can be affected by changes in temperature and the presence of impurities. Generally, the surface tension decreases with an increase in temperature and increases with the addition of impurities.</p>
+<h4>Effect of Temperature</h4>
+<ul>
+<li><strong>Increase in Temperature:</strong> As temperature increases, the kinetic energy of the molecules increases, leading to a decrease in the cohesive forces between the molecules, and thus a decrease in surface tension.</li>
+<li><strong>Decrease in Temperature:</strong> Conversely, as temperature decreases, the cohesive forces increase, leading to an increase in surface tension.</li>
+</ul>
+<h4>Effect of Impurities</h4>
+<ul>
+<li><strong>Increase in Impurities:</strong> The addition of impurities can disrupt the regular structure of the liquid, increasing the cohesive forces and thus increasing the surface tension.</li>
+<li><strong>Decrease in Impurities:</strong> Conversely, the removal of impurities can lead to a decrease in surface tension.</li>
+</ul>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A liquid with a surface tension of 0.07 N/m at 20°C is found to have a surface tension of 0.065 N/m at 30°C. Calculate the percentage change in surface tension.</div>
+<p>Solution:</p>
+<p>Given:</p>
+<ul>
+<li>Surface tension at 20°C, σ₂₀ = 0.07 N/m</li>
+<li>Surface tension at 30°C, σ₃₀ = 0.065 N/m</li>
+</ul>
+<p>Percentage change in surface tension:</p>
+<p>[ \text{Percentage change} = \left( \frac{\sigma_{20} - \sigma_{30}}{\sigma_{20}} \right) \times 100\% ]</p>
+<p>[ \text{Percentage change} = \left( \frac{0.07 \, \text{N/m} - 0.065 \, \text{N/m}}{0.07 \, \text{N/m}} \right) \times 100\% ]</p>
+<p>[ \text{Percentage change} = \left( \frac{0.005 \, \text{N/m}}{0.07 \, \text{N/m}} \right) \times 100\% ]</p>
+<p>[ \text{Percentage change} = 7.14\% ]</p>
+<p>So, the surface tension decreases by 7.14% with an increase in temperature from 20°C to 30°C.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A solution of salt in water has a surface tension of 0.07 N/m, while pure water has a surface tension of 0.072 N/m. Calculate the percentage increase in surface tension due to the addition of salt.</div>
+<p>Solution:</p>
+<p>Given:</p>
+<ul>
+<li>Surface tension of solution, ₙ = 0.07 N/m</li>
+<li>Surface tension of pure water, = 0.072 N/m</li>
+</ul>
+<p>Percentage increase in surface tension:</p>
+<p>[ \text{Percentage increase} = \left( \frac{\sigma_{\text{solution}} - \sigma_{\text{water}}}{\sigma_{\text{water}}} \right) \times 100\% ]</p>
+<p>[ \text{Percentage increase} = \left( \frac{0.07 \, \text{N/m} - 0.072 \, \text{N/m}}{0.072 \, \text{N/m}} \right) \times 100\% ]</p>
+<p>[ \text{Percentage increase} = \left( \frac{-0.002 \, \text{N/m}}{0.072 \, \text{N/m}} \right) \times 100\% ]</p>
+<p>[ \text{Percentage increase} = -2.78\% ]</p>
+<p>So, the surface tension decreases by 2.78% due to the addition of salt.</p>
+<hr />
+<h3 id="u3-sec-3-3-viscosity">3.3. Viscosity</h3>
+<h4>3.3.1. Viscosity and its SI Units</h4>
+<p><strong>Viscosity:</strong> Viscosity is a measure of a fluid's resistance to flow. It is a characteristic of fluids, both liquids and gases, that indicates how the fluid's molecules interact with each other. The more viscous a fluid is, the more it resists flowing.</p>
+<p><strong>SI Units:</strong> The SI unit of viscosity is the Pascal-second (Pa·s). However, it is often measured in poise (P) and centipoise (cP), where 1 P = 10 Pa·s and 1 cP = 0.01 Pa·s.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>The viscosity of water at 20°C is approximately 0.001 Pa·s or 1 cP.</div>
+<h4>3.3.2. Newton’s Law of Viscosity</h4>
+<p><strong>Newton’s Law of Viscosity:</strong> Newton's law of viscosity states that the shear stress (τ) between two layers of a fluid is directly proportional to the velocity gradient (dv/dy) between the layers. Mathematically, this can be expressed as:</p>
+<p>[ \tau = \eta \frac{dv}{dy} ]</p>
+<p>where:</p>
+<ul>
+<li>τ is the shear stress,</li>
+<li>is the coefficient of viscosity,</li>
+<li>dv dy is the velocity gradient.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Consider a fluid flowing between two parallel plates separated by a distance y. If the upper plate is moved with a velocity v, the velocity gradient dv dy = v y. The shear stress τ at the interface between the fluid and the plate is given by:</div>
+<p>[ \tau = \eta \frac{v}{y} ]</p>
+<h4>3.3.3. Viscous Force, Velocity Gradient and Coefficient of Viscosity and its SI Units, Free Fall of an Object Through Viscous Medium and Terminal Velocity</h4>
+<p><strong>Viscous Force:</strong> The viscous force (F) acting on an object moving through a fluid is given by:</p>
+<p>[ F = 6 \pi \eta r v ]</p>
+<p>where:</p>
+<ul>
+<li>r is the radius of the object,</li>
+<li>v is the velocity of the object.</li>
+</ul>
+<p><strong>Velocity Gradient:</strong> The velocity gradient dv dy is the rate of change of velocity with respect to distance. It is a measure of how quickly the velocity changes as you move through the fluid.</p>
+<p><strong>Coefficient of Viscosity:</strong> The coefficient of viscosity  is a measure of a fluid's internal friction. It is a constant that depends on the type of fluid and the temperature.</p>
+<p><strong>SI Units:</strong> The SI unit of the coefficient of viscosity is Pascal-second (Pa·s).</p>
+<p><strong>Free Fall Through Viscous Medium and Terminal Velocity:</strong> When an object is dropped in a viscous medium, it initially accelerates due to gravity. However, as it moves through the fluid, the viscous force opposes its motion. Eventually, the object reaches a constant velocity called the terminal velocity (v_t), where the viscous force equals the gravitational force.</p>
+<p>The terminal velocity v_t is given by:</p>
+<p>[ v_t = \frac{2mg}{9 \pi \eta r^2} ]</p>
+<p>where:</p>
+<ul>
+<li>m is the mass of the object,</li>
+<li>g is the acceleration due to gravity.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A sphere of radius 0.05 m and density 800 kg/m³ is dropped in water. The coefficient of viscosity of water is 0.001 Pa·s. Calculate the terminal velocity of the sphere.</div>
+<p>Given:</p>
+<ul>
+<li>m = 4 3 π r³ = 4 3 π (0.05)³ × 800 = 0.133 kg</li>
+<li>g = 9.81 m/s²</li>
+<li>= 0.001 Pa·s</li>
+<li>r = 0.05 m</li>
+</ul>
+<p>[ v_t = \frac{2 \times 0.133 \times 9.81}{9 \pi \times 0.001 \times (0.05)^2} = \frac{2.61}{0.000785} = 333.56 \text{ m/s} ]</p>
+<h4>3.3.4. Types of Fluid Motion, Stream Line and Turbulent Flow, Critical Velocity, Reynold’s Number</h4>
+<p><strong>Types of Fluid Motion:</strong></p>
+<ul>
+<li><strong>Stream Line Flow:</strong> In this type of flow, the fluid moves in smooth and continuous paths, and the velocity at any point in the flow remains constant over time.</li>
+<li><strong>Turbulent Flow:</strong> In this type of flow, the fluid moves in an irregular and chaotic manner, with eddies and swirls.</li>
+</ul>
+<p><strong>Stream Line:</strong> A stream line is a curve that is everywhere tangent to the velocity vector of the fluid. It represents the path that a fluid element would take if it were to move with the flow.</p>
+<p><strong>Turbulent Flow:</strong> Turbulent flow is characterized by chaotic and irregular fluid motion, with a high velocity gradient and a large Reynolds number.</p>
+<p><strong>Critical Velocity:</strong> The critical velocity is the velocity at which the flow transitions from laminar to turbulent. It is a function of the Reynolds number (Re).</p>
+<p><strong>Reynold’s Number (Re):</strong> Reynolds number is a dimensionless number that helps predict flow patterns in different fluid flow situations. It is given by:</p>
+<p>[ Re = \frac{\rho v L}{\eta} ]</p>
+<p>where:</p>
+<ul>
+<li>is the fluid density,</li>
+<li>v is the velocity of the fluid,</li>
+<li>L is a characteristic length (e.g., diameter of a pipe),</li>
+<li>is the coefficient of viscosity.</li>
+</ul>
+<p><strong>Flow Diagram:</strong></p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Re &lt; 2000] --&gt; B[Laminar Flow]
+ A --&gt; C[Turbulent Flow]
+ B --&gt; D[Smooth and Continuous Path]
+ C --&gt; E[Chaotic and Irregular Path]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Re &lt; 2000] --&gt; B[Laminar Flow]
+ A --&gt; C[Turbulent Flow]
+ B --&gt; D[Smooth and Continuous Path]
+ C --&gt; E[Chaotic and Irregular Path]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Re &lt; 2000] --&gt; B[Laminar Flow]
+ A --&gt; C[Turbulent Flow]
+ B --&gt; D[Smooth and Continuous Path]
+ C --&gt; E[Chaotic and Irregular Path]</pre></noscript></div>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Determine the Reynolds number for a flow of water through a pipe with a diameter of 0.1 m and a velocity of 2 m/s. The density of water is 1000 kg/m³ and the coefficient of viscosity of water is 0.001 Pa·s.</div>
+<p>[ Re = \frac{1000 \times 2 \times 0.1}{0.001} = 200000 ]</p>
+<p>Since Re > 2000, the flow is turbulent.</p>
+<p>This completes the detailed coverage of viscosity, its units, Newton's law of viscosity, and related concepts.</p>
+<hr />
+<h3 id="u3-sec-3-3-5-stokes-law">3.3.5. Stokes’ Law</h3>
+<h4>Definition and Explanation</h4>
+<p>Stokes’ law is a fundamental principle in fluid mechanics that describes the drag force exerted on a sphere moving through a viscous fluid. This law is crucial in understanding the behavior of small particles in fluids, such as in the sedimentation of colloidal particles or the movement of microorganisms in water.</p>
+<p><strong>Stokes’ Law:</strong> The drag force F_d on a small sphere of radius r moving at a velocity v through a fluid of dynamic viscosity  is given by:</p>
+<p>[ F_d = 6 \pi \eta r v ]</p>
+<h4>Derivation and Explanation</h4>
+<p>The derivation of Stokes’ law is based on the assumption that the flow around the sphere is laminar and the resistance to motion is primarily due to the viscous drag of the fluid. The derivation involves integrating the forces acting on the sphere over its surface.</p>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A small spherical particle with a radius of 1 μm is moving through water at a velocity of 0.1 m/s. The dynamic viscosity of water is approximately 1 × 10⁻³ Pa·s. Calculate the drag force on the particle.</div>
+<ol>
+<li><strong>Given:</strong></li>
+</ol>
+<ul>
+<li>Radius r = 1 μ m = 1 × 10⁻⁶ m</li>
+<li>Velocity v = 0.1 m/s</li>
+<li>Dynamic viscosity = 1 × 10⁻³ Pa·s</li>
+</ul>
+<ol>
+<li><strong>Using Stokes’ law:</strong></li>
+</ol>
+<p>[ F_d = 6 \pi \eta r v ]</p>
+<p>[ F_d = 6 \pi (1 \times 10^{-3}) (1 \times 10^{-6}) (0.1) ]</p>
+<p>[ F_d = 6 \pi \times 1 \times 10^{-10} \times 0.1 ]</p>
+<p>[ F_d = 6 \pi \times 1 \times 10^{-11} ]</p>
+<p>[ F_d \approx 1.88 \times 10^{-10}\, \text{N} ]</p>
+<h4>Diagram</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Stokes' Law] --&gt; B[Drag Force]
+ B --&gt; C[Dynamic Viscosity]
+ B --&gt; D[Radius]
+ B --&gt; E[Velocity]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Stokes' Law] --&gt; B[Drag Force]
+ B --&gt; C[Dynamic Viscosity]
+ B --&gt; D[Radius]
+ B --&gt; E[Velocity]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Stokes' Law] --&gt; B[Drag Force]
+ B --&gt; C[Dynamic Viscosity]
+ B --&gt; D[Radius]
+ B --&gt; E[Velocity]</pre></noscript></div>
+<h3 id="u3-sec-3-3-6-effect-of-temperature-on-viscosity">3.3.6. Effect of Temperature on Viscosity</h3>
+<h4>Definition and Explanation</h4>
+<p>Viscosity is a measure of a fluid's resistance to flow. The viscosity of a fluid changes with temperature. Generally, the viscosity of a liquid decreases as the temperature increases, while the viscosity of a gas increases as the temperature increases. This relationship is due to the thermal energy causing the molecules to move faster and collide more frequently.</p>
+<h4>Temperature-Viscosity Relationship</h4>
+<p>The relationship between temperature and viscosity can be described by the following empirical equations:</p>
+<ol>
+<li><strong>For liquids:</strong></li>
+</ol>
+<p>[ \mu_2 = \mu_1 \left(\frac{T_1}{T_2}\right)^n ]</p>
+<p>where μ₁ and μ₂ are the viscosities at temperatures T₁ and T₂, and n is a temperature exponent, typically between 0.3 and 0.7.</p>
+<ol>
+<li><strong>For gases:</strong></li>
+</ol>
+<p>[ \mu_2 = \mu_1 \left(\frac{T_1}{T_2}\right)^{0.7} ]</p>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A liquid has a viscosity of 0.01 Pa·s at 20°C. Calculate its viscosity at 30°C, assuming n = 0.6.</div>
+<ol>
+<li><strong>Given:</strong></li>
+</ol>
+<ul>
+<li>Initial viscosity μ₁ = 0.01 Pa·s</li>
+<li>Initial temperature T₁ = 20^ C</li>
+<li>Final temperature T₂ = 30^ C</li>
+<li>Temperature exponent n = 0.6</li>
+</ul>
+<ol>
+<li><strong>Using the empirical equation:</strong></li>
+</ol>
+<p>[ \mu_2 = \mu_1 \left(\frac{T_1}{T_2}\right)^n ]</p>
+<p>[ \mu_2 = 0.01 \left(\frac{20}{30}\right)^{0.6} ]</p>
+<p>[ \mu_2 = 0.01 \left(\frac{2}{3}\right)^{0.6} ]</p>
+<p>[ \mu_2 = 0.01 \times 0.63096 ]</p>
+<p>[ \mu_2 \approx 0.00631\, \text{Pa·s} ]</p>
+<h4>Diagram</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Effect of Temperature] --&gt; B[Viscosity of Liquids]
+ B --&gt; C[Decreases with Temperature]
+ A --&gt; D[Viscosity of Gases]
+ D --&gt; E[Increases with Temperature]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Effect of Temperature] --&gt; B[Viscosity of Liquids]
+ B --&gt; C[Decreases with Temperature]
+ A --&gt; D[Viscosity of Gases]
+ D --&gt; E[Increases with Temperature]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Effect of Temperature] --&gt; B[Viscosity of Liquids]
+ B --&gt; C[Decreases with Temperature]
+ A --&gt; D[Viscosity of Gases]
+ D --&gt; E[Increases with Temperature]</pre></noscript></div>
+<h3 id="u3-sec-3-3-7-applications-of-viscosity-in-hydraulic-systems">3.3.7. Applications of Viscosity in Hydraulic Systems</h3>
+<h4>Definition and Explanation</h4>
+<p>Viscosity plays a critical role in hydraulic systems, where it affects the performance, efficiency, and reliability of the system. Viscosity determines the fluid's ability to flow and the power losses due to friction.</p>
+<h4>Applications</h4>
+<ol>
+<li><strong>Transmission Fluids:</strong></li>
+</ol>
+<ul>
+<li><strong>Explanation:</strong> Transmission fluids are used in automatic transmissions to lubricate and cool the gears. The correct viscosity ensures smooth operation and prevents wear.</li>
+<li><strong>Example:</strong> A car's automatic transmission uses transmission fluid with a viscosity of 75W-90. If the temperature drops, the viscosity increases, which can lead to increased power losses and potential damage.</li>
+</ul>
+<ol>
+<li><strong>Pump Efficiency:</strong></li>
+</ol>
+<ul>
+<li><strong>Explanation:</strong> Higher viscosity fluids require more energy to pump, which can lead to increased power consumption and lower efficiency.</li>
+<li><strong>Example:</strong> In a hydraulic pump system, if the viscosity of the fluid is too high, it can cause the pump to work harder, increasing the power input required.</li>
+</ul>
+<ol>
+<li><strong>Pipe Flow:</strong></li>
+</ol>
+<ul>
+<li><strong>Explanation:</strong> In pipe systems, the flow of fluid is affected by its viscosity. Higher viscosity fluids flow more slowly and can lead to increased pressure drops.</li>
+<li><strong>Example:</strong> In a water distribution system, if the water is at a lower temperature and has a higher viscosity, it will flow more slowly, leading to increased pressure drops and potential clogging.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A hydraulic system uses oil with a viscosity of 20 cSt at 40°C. If the temperature drops to 20°C, the viscosity increases to 50 cSt. Calculate the percentage increase in viscosity.</div>
+<ol>
+<li><strong>Given:</strong></li>
+</ol>
+<ul>
+<li>Initial viscosity μ₁ = 20 cSt</li>
+<li>Final viscosity μ₂ = 50 cSt</li>
+</ul>
+<ol>
+<li><strong>Calculate the percentage increase:</strong></li>
+</ol>
+<p>[ \text{Percentage Increase} = \left(\frac{\mu_2 - \mu_1}{\mu_1}\right) \times 100 ]</p>
+<p>[ \text{Percentage Increase} = \left(\frac{50 - 20}{20}\right) \times 100 ]</p>
+<p>[ \text{Percentage Increase} = \left(\frac{30}{20}\right) \times 100 ]</p>
+<p>[ \text{Percentage Increase} = 1.5 \times 100 ]</p>
+<p>[ \text{Percentage Increase} = 150\% ]</p>
+<h4>Diagram</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Hydraulic System Applications] --&gt; B[Transmission Fluids]
+ B --&gt; C[Automatic Transmissions]
+ A --&gt; D[Pump Efficiency]
+ D --&gt; E[Power Consumption]
+ A --&gt; F[Pipe Flow]
+ F --&gt; G[Pressure Drops]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Hydraulic System Applications] --&gt; B[Transmission Fluids]
+ B --&gt; C[Automatic Transmissions]
+ A --&gt; D[Pump Efficiency]
+ D --&gt; E[Power Consumption]
+ A --&gt; F[Pipe Flow]
+ F --&gt; G[Pressure Drops]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Hydraulic System Applications] --&gt; B[Transmission Fluids]
+ B --&gt; C[Automatic Transmissions]
+ A --&gt; D[Pump Efficiency]
+ D --&gt; E[Power Consumption]
+ A --&gt; F[Pipe Flow]
+ F --&gt; G[Pressure Drops]</pre></noscript></div>
+<p>By understanding and applying the principles of Stokes’ law, the effect of temperature on viscosity, and the applications of viscosity in hydraulic systems, students can effectively analyze and optimize fluid behavior in various engineering contexts.</p>
+
+        <nav class="kb-pn no-print"><a class="pn-btn" href="unit-2.html"><i class="fas fa-chevron-left"></i> Unit 2</a><span class="pn-btn disabled">Unit – General Properties of Matter 3.a Explain the Hooke’s law, stress- strain curve and moduli of elasticity. 3.b Explain surface tension, cohesive and adhesive forces.</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (C4300004) for Applied Physics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      
+</article>
+
+<article class="kb-article kb-unit" id="unit-4">
+<div class="kb-unit-head">
+  <div class="kb-unit-num">4</div>
+  <div>
+    <h2 class="kb-unit-title" id="u4-sec-4">Unit IV: Heat and Thermometry 4.a Distinguish between heat and temperature. 4.b Explain modes of heat transmission. 4.c Explain various temperature scales and conversion between</h2>
+  </div>
+</div>
+<p><em>This unit carries approximately <strong>13 marks (3 Remember + 4 Understand + 6 Apply)</strong>.</em></p>
+
+        
+<p><em>(AI-generated self-study book for GTU, subject code C4300004 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>13 marks (3 Remember + 4 Understand + 6 Apply) (per syllabus)</strong>.</p>
+<h3 id="u4-sec-4-1-heat-and-temperature">4.1. Heat and Temperature</h3>
+<h4>Defining Heat and Temperature</h4>
+<ul>
+<li><strong>Heat</strong>: Heat is the form of energy transferred between two systems or substances due to a temperature difference. It is a measure of the total kinetic energy of particles in a substance.</li>
+<li><strong>Temperature</strong>: Temperature is a measure of the average kinetic energy of the particles in a substance. It is a scalar quantity that indicates the degree of hotness or coldness of a body.</li>
+</ul>
+<h4>Classification and Units</h4>
+<ul>
+<li><strong>Heat Units</strong>: Heat is measured in Joules (J), calories (cal), or kilocalories (kcal). 1 calorie is the amount of heat required to raise the temperature of 1 gram of water by 1°C.</li>
+<li><strong>Temperature Units</strong>: Temperature is measured in Celsius (°C), Fahrenheit (°F), and Kelvin (K). The relationship between these units is given by:</li>
+<li>T(K) = T(°C) + 273.15</li>
+<li>T(°F) = 9 5 × T(°C) + 32</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert 30°C to Kelvin.</div>
+<ul>
+<li>T(K) = 30 + 273.15 = 303.15 K</li>
+</ul>
+<h4>Relationship Between Heat and Temperature</h4>
+<ul>
+<li><strong>Specific Heat Capacity</strong>: The amount of heat required to raise the temperature of 1 gram of a substance by 1°C. It is denoted by c and is specific to each substance.</li>
+<li><strong>Heat Transfer Equation</strong>: The heat Q transferred to a substance can be calculated using:</li>
+<li>Q = mcΔ T</li>
+<li>Where m is the mass of the substance, c is the specific heat capacity, and Δ T is the change in temperature.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A 100 g block of copper initially at 20°C is heated until its temperature rises to 80°C. If the specific heat capacity of copper is 0.385 J/g°C, calculate the heat absorbed by the copper block.</div>
+<ul>
+<li>m = 100 g</li>
+<li>c = 0.385 J/g°C</li>
+<li>Δ T = 80 - 20 = 60 °C</li>
+<li>Q = 100 × 0.385 × 60 = 2310 J</li>
+</ul>
+<h3 id="u4-sec-4-2-modes-of-heat-transfer-conduction-convection-and-radiation">4.2. Modes of Heat Transfer: Conduction, Convection, and Radiation</h3>
+<h4>Conduction</h4>
+<ul>
+<li><strong>Definition</strong>: Conduction is the transfer of heat between particles of matter through direct contact. Heat is transferred from the more energetic particles to the less energetic ones.</li>
+<li><strong>Examples</strong>: A spoon in hot soup, metal rod in a fire.</li>
+<li><strong>Equation</strong>: Fourier's Law of Heat Conduction:</li>
+<li>Q = -kA dT dx</li>
+<li>Where k is the thermal conductivity, A is the cross-sectional area, and dT dx is the temperature gradient.</li>
+</ul>
+<h4>Convection</h4>
+<ul>
+<li><strong>Definition</strong>: Convection is the transfer of heat by the movement of fluids or gases. It involves the movement of particles from one place to another due to temperature differences.</li>
+<li><strong>Examples</strong>: Boiling water, wind blowing over a building.</li>
+<li><strong>Equation</strong>: Newton's Law of Cooling:</li>
+<li>Q = hA(T_s - T_a)</li>
+<li>Where h is the convective heat transfer coefficient, A is the surface area, T_s is the surface temperature, and T_a is the ambient temperature.</li>
+</ul>
+<h4>Radiation</h4>
+<ul>
+<li><strong>Definition</strong>: Radiation is the transfer of heat through electromagnetic waves. It does not require any medium and can occur in a vacuum.</li>
+<li><strong>Examples</strong>: Sun heating the Earth, infrared heaters.</li>
+<li><strong>Equation</strong>: Stefan-Boltzmann Law:</li>
+<li>P = σ A T⁴</li>
+<li>Where P is the power radiated, σ is the Stefan-Boltzmann constant,  is the emissivity, A is the surface area, and T is the absolute temperature.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A 2 m x 2 m flat surface is exposed to a temperature of 500 K. If the emissivity of the surface is 0.8, calculate the power radiated from the surface.</div>
+<ul>
+<li>σ = 5.67 × 10⁻⁸ W/m²K⁴</li>
+<li>A = 2 m × 2 m = 4 m²</li>
+<li>T = 500 K</li>
+<li>= 0.8</li>
+<li>P = 5.67 × 10⁻⁸ × 0.8 × 4 × 500⁴ = 1.12 × 10⁶ W</li>
+</ul>
+<h4>Summary</h4>
+<ul>
+<li><strong>Heat and Temperature</strong> are distinct but related concepts. Heat is the transfer of energy, while temperature is the measure of thermal energy.</li>
+<li><strong>Conduction</strong> occurs through direct particle contact, <strong>Convection</strong> involves fluid movement, and <strong>Radiation</strong> occurs through electromagnetic waves. Each mode of heat transfer has specific equations and applications.</li>
+</ul>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Heat Transfer] --&gt; B[Conduction]
+ A --&gt; C[Convection]
+ A --&gt; D[Radiation]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Heat Transfer] --&gt; B[Conduction]
+ A --&gt; C[Convection]
+ A --&gt; D[Radiation]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Heat Transfer] --&gt; B[Conduction]
+ A --&gt; C[Convection]
+ A --&gt; D[Radiation]</pre></noscript></div>
+<hr />
+<h3 id="u4-sec-4-3-temperature-measurement-scales-kelvin-celsius-and-fahrenheit-and-interconversion-between-them">4.3. Temperature measurement scales: Kelvin, Celsius and Fahrenheit and interconversion between them</h3>
+
+<h4>Definition and Overview</h4>
+<p><strong>Temperature:</strong> The degree or intensity of heat present in a substance or object. It is a measure of the average kinetic energy of the particles in a substance.</p>
+<p><strong>Temperature Scales:</strong> Different scales are used to measure temperature, such as Kelvin (K), Celsius (°C), and Fahrenheit (°F). Each scale has its origin and unit size defined differently.</p>
+<h4>Kelvin Scale</h4>
+<ul>
+<li><strong>Origin:</strong> Absolute zero (0 K), where molecular motion theoretically ceases.</li>
+<li><strong>Unit Size:</strong> 1 K is equivalent to 1°C.</li>
+<li><strong>Symbol:</strong> K</li>
+</ul>
+<h4>Celsius Scale</h4>
+<ul>
+<li><strong>Origin:</strong> The freezing point of water (0°C) and the boiling point of water (100°C) at standard atmospheric pressure.</li>
+<li><strong>Unit Size:</strong> 1°C is equivalent to 1 K.</li>
+<li><strong>Symbol:</strong> °C</li>
+</ul>
+<h4>Fahrenheit Scale</h4>
+<ul>
+<li><strong>Origin:</strong> 32°F is the freezing point of water and 212°F is the boiling point of water at standard atmospheric pressure.</li>
+<li><strong>Unit Size:</strong> 1°F is not equivalent to 1 K or 1°C. The unit size is different.</li>
+<li><strong>Symbol:</strong> °F</li>
+</ul>
+<h4>Conversion Between Temperature Scales</h4>
+<p><strong>Conversion from Celsius to Kelvin:</strong></p>
+<p>[ K = °C + 273.15 ]</p>
+<p><strong>Conversion from Kelvin to Celsius:</strong></p>
+<p>[ °C = K - 273.15 ]</p>
+<p><strong>Conversion from Celsius to Fahrenheit:</strong></p>
+<p>[ °F = \left( \frac{9}{5} \times °C \right) + 32 ]</p>
+<p><strong>Conversion from Fahrenheit to Celsius:</strong></p>
+<p>[ °C = \left( \frac{5}{9} \times (°F - 32) \right) ]</p>
+<p><strong>Conversion from Kelvin to Fahrenheit:</strong></p>
+<p>[ °F = \left( \frac{9}{5} \times (K - 273.15) \right) + 32 ]</p>
+<p><strong>Conversion from Fahrenheit to Kelvin:</strong></p>
+<p>[ K = \left( \frac{5}{9} \times (°F - 32) \right) + 273.15 ]</p>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert 25°C to Kelvin and Fahrenheit.<br /><br /><strong>Step 1:</strong> Convert 25°C to Kelvin.<br />[ K = 25 + 273.15 = 298.15 \, K ]<br /><br /><strong>Step 2:</strong> Convert 25°C to Fahrenheit.<br />[ °F = \left( \frac{9}{5} \times 25 \right) + 32 = 77 \, °F ]</div>
+<h4>4.4. Heat Capacity and Specific Heat</h4>
+<h4>Definition and Overview</h4>
+<ul>
+<li><strong>Heat Capacity:</strong> The amount of heat required to raise the temperature of an object by 1 K.</li>
+<li><strong>Specific Heat:</strong> The heat capacity per unit mass of a substance. It is a measure of how much heat is required to raise the temperature of a unit mass of a substance by 1 K.</li>
+</ul>
+<h4>Specific Heat Capacity</h4>
+<ul>
+<li><strong>Symbol:</strong> c</li>
+<li><strong>Unit:</strong> J/kg·K or J/g·K</li>
+<li><strong>Formula:</strong> Q = mcΔ T</li>
+<li>Q: Heat added or removed</li>
+<li>m: Mass of the substance</li>
+<li>c: Specific heat capacity</li>
+<li>Δ T: Change in temperature</li>
+</ul>
+<h4>Heat Capacity</h4>
+<ul>
+<li><strong>Symbol:</strong> C</li>
+<li><strong>Unit:</strong> J/K or J/°C</li>
+<li><strong>Formula:</strong> C = mc</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A 200 g sample of aluminum is heated from 20°C to 120°C. The specific heat capacity of aluminum is 0.9 J/g·K. Calculate the heat energy required.<br /><br /><strong>Step 1:</strong> Calculate the change in temperature.<br />[ \Delta T = 120 - 20 = 100 \, K ]<br /><br /><strong>Step 2:</strong> Use the formula Q = mcΔ T.<br />[ Q = 200 \times 0.9 \times 100 = 18000 \, \text{J} ]</div>
+<blockquote>The heat energy required to raise the temperature of the aluminum sample is 18000 J.</blockquote>
+<h4>Summary</h4>
+<ul>
+<li><strong>Temperature Scales:</strong> Understanding and converting between Kelvin, Celsius, and Fahrenheit is essential for various applications.</li>
+<li><strong>Heat Capacity and Specific Heat:</strong> These concepts are fundamental in thermodynamics and are used to calculate the amount of heat required to change the temperature of substances.</li>
+</ul>
+<p>These sections cover the necessary details for exam preparation and provide practical examples for better understanding.</p>
+<hr />
+<h3 id="u4-sec-4-5-types-of-thermometers-mercury-thermometer-bimetallic-thermometer-platinum-resistance-thermometer-pyrometer-and-their-uses">4.5. Types of Thermometers: Mercury Thermometer, Bimetallic Thermometer, Platinum Resistance Thermometer, Pyrometer and their Uses</h3>
+<h4>4.5.1 Mercury Thermometer</h4>
+<p>A <strong>mercury thermometer</strong> is a simple and commonly used type of thermometer that relies on the expansion and contraction of liquid mercury to measure temperature. The principle of operation is based on the <strong>linear expansion</strong> of the mercury column with changes in temperature. The mercury column rises or falls in a sealed glass tube, and the position of the mercury can be calibrated to indicate temperature.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A mercury thermometer has a mercury column of 10 cm at 0°C. If the mercury column rises to 30 cm at a certain temperature, what is the temperature?<br /><br />Solution:<br />The mercury column has expanded by 20 cm (30 cm - 10 cm). Since the expansion is linear, the temperature change can be calculated as:<br />[</div>
+<p>\text{Temperature change} = \frac{\text{Change in mercury column}}{\text{Initial mercury column}} \times \text{Temperature range} = \frac{20 \text{ cm}}{10 \text{ cm}} \times 100^\circ\text{C} = 200^\circ\text{C}</p>
+<p>]</p>
+<blockquote>Therefore, the temperature is 200^.</blockquote>
+<h4>4.5.2 Bimetallic Thermometer</h4>
+<p>A <strong>bimetallic thermometer</strong> consists of two different metal strips that are bonded together and wound into a coil. The two metals have different coefficients of thermal expansion. When the temperature changes, one strip expands more than the other, causing the coil to bend. This bending can be used to measure temperature.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A bimetallic strip made of steel and brass has a coefficient of thermal expansion of 12 × 10⁻⁶ per ^ for steel and 19 × 10⁻⁶ per ^ for brass. If the strip is 100 cm long at 0°C and is subjected to a temperature change of 50°C, by how much will it bend?<br /><br />Solution:<br />The expansion of each metal can be calculated as:<br />[</div>
+<p>\text{Expansion of steel} = 100 \, \text{cm} \times 12 \times 10^{-6} \, \text{per} \, ^\circ\text{C} \times 50^\circ\text{C} = 0.06 \, \text{cm}</p>
+<p>]</p>
+<blockquote>[</blockquote>
+<p>\text{Expansion of brass} = 100 \, \text{cm} \times 19 \times 10^{-6} \, \text{per} \, ^\circ\text{C} \times 50^\circ\text{C} = 0.095 \, \text{cm}</p>
+<p>]</p>
+<blockquote>The net expansion of the bimetallic strip is:<br />[</blockquote>
+<p>\text{Net expansion} = 0.095 \, \text{cm} - 0.06 \, \text{cm} = 0.035 \, \text{cm}</p>
+<p>]</p>
+<blockquote>Therefore, the strip will bend by 0.035 cm.</blockquote>
+<h4>4.5.3 Platinum Resistance Thermometer</h4>
+<p>A <strong>platinum resistance thermometer</strong> works on the principle that the resistance of platinum changes with temperature. As the temperature increases, the resistance of platinum increases. This change in resistance can be measured using an electric circuit, and the temperature can be determined from the resistance value.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A platinum resistance thermometer has a resistance of 100 Ω at 0°C and 150 Ω at 100°C. If the resistance measured is 125 Ω, what is the temperature?<br /><br />Solution:<br />The relationship between resistance and temperature for platinum can be approximated by the equation:<br />[</div>
+<p>R = R_0 (1 + \alpha T)</p>
+<p>]</p>
+<blockquote>Where R₀ is the resistance at 0°C, R is the resistance at temperature T, and α is the temperature coefficient of resistance. For platinum, α ≈ 3.9 × 10⁻³ per ^.<br />Plugging in the values:<br />[</blockquote>
+<p>125 = 100 (1 + 3.9 \times 10^{-3} T)</p>
+<p>]</p>
+<blockquote>[</blockquote>
+<p>1.25 = 1 + 3.9 \times 10^{-3} T</p>
+<p>]</p>
+<blockquote>[</blockquote>
+<p>0.25 = 3.9 \times 10^{-3} T</p>
+<p>]</p>
+<blockquote>[</blockquote>
+<p>T = \frac{0.25}{3.9 \times 10^{-3}} = 64.1^\circ\text{C}</p>
+<p>]</p>
+<blockquote>Therefore, the temperature is 64.1^.</blockquote>
+<h4>4.5.4 Pyrometer</h4>
+<p>A <strong>pyrometer</strong> is a type of thermometer used to measure high temperatures. It works by using the principle that the emissivity of a material changes with temperature, and the temperature can be determined from the emitted radiation.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A pyrometer measures the temperature of a hot object by detecting the emitted radiation. If the emissivity of the object is 0.8 and the emitted radiation is measured at 1000 W/m², what is the temperature of the object?<br /><br />Solution:<br />The Stefan-Boltzmann law states that the radiation emitted by a black body is given by:<br />[</div>
+<p>P = \sigma \epsilon T^4</p>
+<p>]</p>
+<blockquote>Where P is the emitted power, σ is the Stefan-Boltzmann constant (5.67 × 10⁻⁸ W/m²K⁴),  is the emissivity, and T is the temperature in Kelvin.<br />Plugging in the values:<br />[</blockquote>
+<p>1000 = 5.67 \times 10^{-8} \times 0.8 \times T^4</p>
+<p>]</p>
+<blockquote>[</blockquote>
+<p>1000 = 4.536 \times 10^{-8} \times T^4</p>
+<p>]</p>
+<blockquote>[</blockquote>
+<p>T^4 = \frac{1000}{4.536 \times 10^{-8}} = 2.203 \times 10^{10}</p>
+<p>]</p>
+<blockquote>[</blockquote>
+<p>T = \sqrt[4]{2.203 \times 10^{10}} = 379.6 \, \text{K}</p>
+<p>]</p>
+<blockquote>Therefore, the temperature is approximately 379.6 K or 106.5^.</blockquote>
+<h3 id="u4-sec-4-6-coefficient-of-thermal-conductivity-and-its-engineering-applications">4.6. Coefficient of Thermal Conductivity and its Engineering Applications</h3>
+<h4>4.6.1 Definition and Explanation</h4>
+<p>The <strong>coefficient of thermal conductivity</strong> (k) is a material property that quantifies how well a material conducts heat. It is defined as the amount of heat (in watts) conducted through a material of thickness 1 meter, with a temperature difference of 1 kelvin, in steady state, per unit area. The formula for thermal conductivity is:</p>
+<p>[</p>
+<p>q = -k \frac{dT}{dx}</p>
+<p>]</p>
+<p>Where q is the heat flux (W/m²), k is the thermal conductivity (W/m·K), dT is the temperature difference (K), and dx is the thickness (m).</p>
+<h4>4.6.2 Importance in Engineering</h4>
+<p>Thermal conductivity is crucial in various engineering applications, such as designing heat exchangers, insulation materials, and heat sinks. For example, in a heat exchanger, a material with high thermal conductivity is preferred to transfer heat efficiently.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A copper rod has a thermal conductivity of 385 W/m·K. If the temperature difference across a 1 m rod is 100^, and the area of the rod is 0.01 m², calculate the heat flow rate through the rod.<br /><br />Solution:<br />The heat flow rate q can be calculated using the formula:<br />[</div>
+<p>q = -k \frac{dT}{dx} = 385 \, \text{W/m·K} \times \frac{100 \, \text{K}}{1 \, \text{m}} = 38500 \, \text{W}</p>
+<p>]</p>
+<blockquote>Therefore, the heat flow rate is 38500 W.</blockquote>
+<h4>4.6.3 Applications in Design</h4>
+<p>Understanding thermal conductivity is essential in designing materials that can withstand high temperatures or that provide effective insulation. For instance, in designing a heat sink for an electronic component, a material with high thermal conductivity should be chosen to dissipate heat efficiently.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A heat sink is to be designed for a processor that generates 100 W of heat. If the heat sink is to be made of aluminum with a thermal conductivity of 237 W/m·K, and the temperature difference across the heat sink is 50^, what is the minimum area of the heat sink required to ensure the temperature does not exceed 70^?<br /><br />Solution:<br />The heat flow rate q is given by:<br />[</div>
+<p>q = -k \frac{dT}{dx} = 237 \, \text{W/m·K} \times \frac{50 \, \text{K}}{A} = 100 \, \text{W}</p>
+<p>]</p>
+<blockquote>Solving for A:<br />[</blockquote>
+<p>A = \frac{237 \times 50}{100} = 118.5 \, \text{m}^2</p>
+<p>]</p>
+<blockquote>Therefore, the minimum area of the heat sink required is 118.5 m².</blockquote>
+<h4>4.6.4 Conclusion</h4>
+<p>Understanding the types of thermometers and the coefficient of thermal conductivity is crucial for engineering applications. These principles are applied in designing efficient heat exchangers, insulation materials, and heat sinks, among other applications.</p>
+<hr />
+<h3 id="u4-sec-4-7-expansion-of-solids-coefficient-of-linear-expansion">4.7. Expansion of Solids, Coefficient of Linear Expansion</h3>
+<h4>Definition and Importance</h4>
+<p><strong>Expansion of solids</strong> refers to the increase in the dimensions of a solid material when it is heated. This phenomenon is crucial in various engineering applications, such as the design of bridges, buildings, and machinery. The <strong>coefficient of linear expansion (α)</strong> is a measure of the fractional increase in length of a material per degree increase in temperature. It is defined as:</p>
+<p>[ \alpha = \frac{\Delta L / L_0}{\Delta T} ]</p>
+<p>where Δ L is the change in length, L₀ is the original length, and Δ T is the change in temperature.</p>
+<h4>Understanding the Coefficient of Linear Expansion</h4>
+<p>The coefficient of linear expansion varies with the type of material. Common materials have different values of α. For instance, metals generally have higher coefficients of linear expansion compared to ceramics and plastics.</p>
+<h4>Factors Affecting Coefficient of Linear Expansion</h4>
+<p>The coefficient of linear expansion is influenced by the material's atomic structure and the strength of intermolecular forces. For example, metals with more mobile atoms, such as copper (Cu), have higher coefficients of linear expansion compared to less mobile atoms, like tungsten (W).</p>
+<h4>Examples of Coefficients of Linear Expansion</h4>
+<ul>
+<li>Copper (Cu): α = 1.7 × 10⁻⁵ ^ C⁻¹</li>
+<li>Steel: α = 1.2 × 10⁻⁵ ^ C⁻¹</li>
+<li>Aluminum (Al): α = 2.4 × 10⁻⁵ ^ C⁻¹</li>
+</ul>
+<h4>Calculation of Linear Expansion</h4>
+<p>The change in length (Δ L) of a solid due to a temperature change (Δ T) can be calculated using the formula:</p>
+<p>[ \Delta L = \alpha L_0 \Delta T ]</p>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A steel rod with an original length of 1 meter is heated from 20^ C to 120^ C. Calculate the change in length of the rod given that the coefficient of linear expansion for steel is 1.2 × 10⁻⁵ ^ C⁻¹.</div>
+<ol>
+<li><strong>Identify the given values:</strong></li>
+</ol>
+<ul>
+<li>Original length (L₀) = 1 meter</li>
+<li>Initial temperature (T₁) = 20^ C</li>
+<li>Final temperature (T₂) = 120^ C</li>
+<li>Coefficient of linear expansion (α) = 1.2 × 10⁻⁵ ^ C⁻¹</li>
+</ul>
+<ol>
+<li><strong>Calculate the change in temperature (Δ T):</strong></li>
+</ol>
+<p>[ \Delta T = T_2 - T_1 = 120^\circ C - 20^\circ C = 100^\circ C ]</p>
+<ol>
+<li><strong>Apply the formula for linear expansion:</strong></li>
+</ol>
+<p>[ \Delta L = \alpha L_0 \Delta T ]</p>
+<p>[ \Delta L = (1.2 \times 10^{-5} \, ^\circ C^{-1}) \times 1 \, \text{m} \times 100 \, ^\circ C ]</p>
+<p>[ \Delta L = 1.2 \times 10^{-3} \, \text{m} ]</p>
+<ol>
+<li><strong>Convert the change in length to millimeters (mm):</strong></li>
+</ol>
+<p>[ \Delta L = 1.2 \times 10^{-3} \, \text{m} \times 1000 \, \text{mm/m} = 1.2 \, \text{mm} ]</p>
+<p>Therefore, the change in length of the steel rod is 1.2 mm.</p>
+<h4>Summary</h4>
+<p>The expansion of solids, particularly the coefficient of linear expansion, is a fundamental concept in engineering and materials science. Understanding this helps in designing structures and machinery that can withstand temperature changes without significant deformation. The formula for linear expansion and the practical example provided can be directly applied in solving related problems in exams.</p>
+
+        <nav class="kb-pn no-print"><a class="pn-btn" href="unit-3.html"><i class="fas fa-chevron-left"></i> Unit 3</a><span class="pn-btn disabled">Unit – Heat and Thermometry 4.a Distinguish between heat and temperature. 4.b Explain modes of heat transmission. 4.c Explain various temperature scales and conversion between</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (C4300004) for Applied Physics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      
+</article>
+
+<article class="kb-article kb-unit" id="unit-5">
+<div class="kb-unit-head">
+  <div class="kb-unit-num">5</div>
+  <div>
+    <h2 class="kb-unit-title" id="u5-sec-5">Unit V: Wave motion and its applications 5.a Explain wave and wave motion with example. 5.b Distinguish between longitudinal and transverse</h2>
+  </div>
+</div>
+<p><em>This unit carries approximately <strong>14 marks (4 Remember + 5 Understand + 5 Apply)</strong>.</em></p>
+
+        
+<p><em>(AI-generated self-study book for GTU, subject code C4300004 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)</strong>.</p>
+<h3 id="u5-sec-5-1-waves-wave-motion-and-types-of-waves-longitudinal-and-transverse-waves">5.1. Waves, wave motion, and types of waves: longitudinal and transverse waves</h3>
+<h4>Definition and Classification of Waves</h4>
+<p>Waves are disturbances that propagate through a medium or space, transferring energy without transferring matter. Waves can be classified into two main types: <strong>longitudinal waves</strong> and <strong>transverse waves</strong>.</p>
+<ul>
+<li><strong>Waves</strong>: Disturbances that travel through a medium or space, transferring energy.</li>
+<li><strong>Wave Motion</strong>: The propagation of waves through a medium or space.</li>
+</ul>
+<h4>Longitudinal Waves</h4>
+<p><strong>Longitudinal waves</strong> are waves in which the particles of the medium vibrate in a direction parallel to the direction of the wave propagation. Examples of longitudinal waves include sound waves and seismic P-waves.</p>
+<ul>
+<li><strong>Particles Vibrations</strong>: Particles vibrate back and forth along the direction of wave travel.</li>
+<li><strong>Example of Longitudinal Wave</strong>: Sound waves in air. The air particles vibrate back and forth as the wave travels.</li>
+</ul>
+<h4>Transverse Waves</h4>
+<p><strong>Transverse waves</strong> are waves in which the particles of the medium vibrate in a direction perpendicular to the direction of wave propagation. Examples of transverse waves include waves on a string and electromagnetic waves.</p>
+<ul>
+<li><strong>Particles Vibrations</strong>: Particles vibrate up and down or side to side, perpendicular to the direction of wave travel.</li>
+<li><strong>Example of Transverse Wave</strong>: Waves on a guitar string. The string moves up and down as the wave travels along the string.</li>
+</ul>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />- <strong>Longitudinal Wave</strong>: Consider a sound wave in air. The particles of air vibrate back and forth along the direction of the wave, causing the pressure to vary periodically.<br />- <strong>Transverse Wave</strong>: Consider a wave on a string. The string particles move up and down, creating a pattern that travels along the string.</div>
+<h4>Mermaid Diagram for Longitudinal and Transverse Waves</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Longitudinal Wave] --&gt; B[Particles vibrate parallel to wave direction]
+ A --&gt; C[Example: Sound in air]
+ A --&gt; D[Example: Seismic P-waves]
+ A --&gt; E[Particles vibrate perpendicular to wave direction]
+ A --&gt; F[Transverse Wave]
+ F --&gt; G[Example: Waves on a string]
+ F --&gt; H[Example: Electromagnetic waves]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Longitudinal Wave] --&gt; B[Particles vibrate parallel to wave direction]
+ A --&gt; C[Example: Sound in air]
+ A --&gt; D[Example: Seismic P-waves]
+ A --&gt; E[Particles vibrate perpendicular to wave direction]
+ A --&gt; F[Transverse Wave]
+ F --&gt; G[Example: Waves on a string]
+ F --&gt; H[Example: Electromagnetic waves]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Longitudinal Wave] --&gt; B[Particles vibrate parallel to wave direction]
+ A --&gt; C[Example: Sound in air]
+ A --&gt; D[Example: Seismic P-waves]
+ A --&gt; E[Particles vibrate perpendicular to wave direction]
+ A --&gt; F[Transverse Wave]
+ F --&gt; G[Example: Waves on a string]
+ F --&gt; H[Example: Electromagnetic waves]</pre></noscript></div>
+<h3 id="u5-sec-5-2-frequency-periodic-time-amplitude-wavelength-and-wave-velocity-and-their-relationship">5.2. Frequency, periodic time, amplitude, wavelength and wave velocity and their relationship</h3>
+<h4>Basic Definitions</h4>
+<ul>
+<li><strong>Frequency (f)</strong>: The number of oscillations or cycles per second, measured in Hertz (Hz).</li>
+<li><strong>Periodic Time (T)</strong>: The time taken for one complete cycle of the wave, measured in seconds.</li>
+<li><strong>Amplitude (A)</strong>: The maximum displacement of the wave from its equilibrium position.</li>
+<li><strong>Wavelength (λ)</strong>: The distance between two consecutive identical points in a wave.</li>
+<li><strong>Wave Velocity (v)</strong>: The speed at which the wave travels through the medium, measured in meters per second.</li>
+</ul>
+<h4>Relationship Between Frequency and Periodic Time</h4>
+<ul>
+<li><strong>Relationship</strong>: The frequency and periodic time of a wave are inversely related.</li>
+<li><strong>Formula</strong>: f = 1 T or T = 1 f</li>
+</ul>
+<h4>Relationship Between Wave Velocity, Wavelength, and Frequency</h4>
+<ul>
+<li><strong>Relationship</strong>: The wave velocity, wavelength, and frequency of a wave are directly related.</li>
+<li><strong>Formula</strong>: v = f × λ</li>
+</ul>
+<h4>Example of Wave Velocity, Wavelength, and Frequency</h4>
+<ul>
+<li><strong>Example</strong>: A wave travels at a velocity of 300 meters per second and has a wavelength of 3 meters. Calculate the frequency of the wave.</li>
+</ul>
+<p>> <strong>Example:</strong></p>
+<p>> - Given: v = 300 m/s and λ = 3 m</p>
+<p>> - Using the formula v = f × λ:</p>
+<p>> - f = v λ = 300 m/s 3 m = 100 Hz</p>
+<p>> - Therefore, the frequency of the wave is 100 Hz.</p>
+<h4>Mermaid Diagram for Frequency, Periodic Time, Amplitude, Wavelength, and Wave Velocity</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Frequency(f)] --&gt; B[1/T]
+ A --&gt; C[Amplitude(A)]
+ A --&gt; D[Wavelength(λ)]
+ A --&gt; E[Wave Velocity(v)]
+ E --&gt; F[v = f × λ]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Frequency(f)] --&gt; B[1/T]
+ A --&gt; C[Amplitude(A)]
+ A --&gt; D[Wavelength(λ)]
+ A --&gt; E[Wave Velocity(v)]
+ E --&gt; F[v = f × λ]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Frequency(f)] --&gt; B[1/T]
+ A --&gt; C[Amplitude(A)]
+ A --&gt; D[Wavelength(λ)]
+ A --&gt; E[Wave Velocity(v)]
+ E --&gt; F[v = f × λ]</pre></noscript></div>
+<p>This section covers the fundamental concepts of waves, including their types (longitudinal and transverse), definitions, and key relationships. The worked examples provided will help students understand and apply these concepts effectively in exam scenarios.</p>
+<hr />
+<h3 id="u5-sec-5-3-properties-of-sound-and-light-waves">5.3. Properties of sound and light waves.</h3>
+
+<h4>5.3.1. Properties of Sound Waves</h4>
+<p><strong>Sound Waves:</strong> Sound waves are mechanical waves that propagate through a medium by the vibration of particles. They can travel through gases, liquids, and solids. Sound waves are longitudinal in nature.</p>
+<p><strong>Longitudinal Waves:</strong> In longitudinal waves, the particles of the medium vibrate parallel to the direction of wave propagation. An example of a longitudinal wave is a sound wave.</p>
+<ul>
+<li><strong>Characteristics of Sound Waves:</strong></li>
+<li><strong>Wavelength (λ):</strong> The distance between two consecutive compressions or rarefactions.</li>
+<li><strong>Frequency (f):</strong> The number of vibrations or compressions per second, measured in Hertz (Hz).</li>
+<li><strong>Amplitude (A):</strong> The maximum displacement of a particle from its equilibrium position.</li>
+<li><strong>Speed of Sound (v):</strong> The speed at which the sound wave travels through a medium, which depends on the medium's properties.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A sound wave has a frequency of 500 Hz and travels through air at a speed of 340 m/s. Calculate the wavelength of the sound wave.<br /><br />Solution:<br /><br />[<br />\lambda = \frac{v}{f} = \frac{340 \, \text{m/s}}{500 \, \text{Hz}} = 0.68 \, \text{m}<br />]</div>
+<h4>5.3.2. Properties of Light Waves</h4>
+<p><strong>Light Waves:</strong> Light waves are electromagnetic waves that propagate through space without a medium. They can travel through a vacuum and various media such as air, water, and glass.</p>
+<p><strong>Electromagnetic Waves:</strong> Electromagnetic waves are transverse waves where the electric and magnetic fields are perpendicular to each other and to the direction of wave propagation.</p>
+<ul>
+<li><strong>Characteristics of Light Waves:</strong></li>
+<li><strong>Wavelength (λ):</strong> The distance between two consecutive peaks or troughs.</li>
+<li><strong>Frequency (f):</strong> The number of vibrations per second, measured in Hertz (Hz).</li>
+<li><strong>Amplitude (A):</strong> The maximum displacement of the electric or magnetic field.</li>
+<li><strong>Speed of Light (c):</strong> The speed at which light travels in a vacuum, approximately 3 × 10⁸ m/s.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A light wave has a frequency of 6 × 10¹⁴ Hz. Calculate its wavelength in air.<br /><br />Solution:<br /><br />[<br />\lambda = \frac{c}{f} = \frac{3 \times 10^8 \, \text{m/s}}{6 \times 10^{14} \, \text{Hz}} = 5 \times 10^{-7} \, \text{m} = 500 \, \text{nm}<br />]</div>
+<h3 id="u5-sec-5-4-phase-phase-difference-and-various-terms-of-wave-equation">5.4. Phase, phase difference and various terms of wave equation (𝑦 = 𝐴𝑠𝑖𝑛(𝜔𝑡 + 𝜑))</h3>
+<h4>5.4.1. Phase and Phase Difference</h4>
+<p><strong>Phase:</strong> Phase is a measure of the position of a wave in its cycle. It is usually expressed in radians or degrees.</p>
+<p><strong>Phase Difference:</strong> Phase difference is the difference in the phase of two waves. It is the difference in their positions in their cycles.</p>
+<ul>
+<li><strong>Phase Equation:</strong></li>
+</ul>
+<p>[</p>
+<p>y = A \sin(\omega t + \phi)</p>
+<p>]</p>
+<p>where:</p>
+<ul>
+<li>A is the amplitude,</li>
+<li>ω is the angular frequency,</li>
+<li>t is the time,</li>
+<li>φ is the phase.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Two waves are given by y₁ = A (ω t + φ₁) and y₂ = A (ω t + φ₂). Calculate the phase difference between the two waves.<br /><br />Solution:<br /><br />The phase difference Δ φ is given by:<br /><br />[<br />\Delta \phi = \phi_2 - \phi_1<br />]</div>
+<h4>5.4.2. Various Terms of Wave Equation</h4>
+<p><strong>Wave Equation:</strong></p>
+<p>[</p>
+<p>y = A \sin(\omega t + \phi)</p>
+<p>]</p>
+<p>where:</p>
+<ul>
+<li>y is the displacement of the wave at any point in space and time,</li>
+<li>A is the amplitude of the wave,</li>
+<li>ω is the angular frequency,</li>
+<li>t is the time,</li>
+<li>φ is the phase.</li>
+</ul>
+<p><strong>Angular Frequency (ω):</strong></p>
+<p>[</p>
+<p>\omega = 2\pi f</p>
+<p>]</p>
+<p>where f is the frequency.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A wave has an angular frequency of 100 rad/s and a phase of π 4. Write the wave equation.<br /><br />Solution:<br /><br />[<br />y = A \sin(100t + \frac{\pi}{4})<br />]</div>
+<h4>5.4.3. Velocity and Acceleration</h4>
+<p><strong>Velocity of a Wave:</strong></p>
+<p>The velocity of a wave is given by:</p>
+<p>[</p>
+<p>v = \omega k</p>
+<p>]</p>
+<p>where k is the wave number.</p>
+<p><strong>Acceleration of a Wave:</strong></p>
+<p>The acceleration of a wave is given by:</p>
+<p>[</p>
+<p>a = -\omega^2 A \sin(\omega t + \phi)</p>
+<p>]</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A wave has an angular frequency of 100 rad/s and an amplitude of 0.1 m. Calculate the acceleration of the wave at time t = 0 if the phase is π 4.<br /><br />Solution:<br /><br />The acceleration is given by:<br /><br />[<br />a = -\omega^2 A \sin(\omega t + \phi)<br />]<br /><br />Substituting the values:<br /><br />[<br />a = -(100)^2 \times 0.1 \times \sin(100 \times 0 + \frac{\pi}{4})<br />]<br /><br />[<br />a = -10000 \times 0.1 \times \sin(\frac{\pi}{4})<br />]<br /><br />[<br />a = -1000 \times \frac{\sqrt{2}}{2} = -707.11 \, \text{m/s}^2<br />]</div>
+<p>By understanding the properties of sound and light waves, phase, and phase difference, students can better grasp the behavior and characteristics of waves in various applications.</p>
+<hr />
+<h3 id="u5-sec-5-5-superposition-of-waves-interference-constructive-and-destructive-interference-conditions-for-stationary-interference-pattern-beat-formation">5.5. Superposition of Waves, Interference: Constructive and Destructive Interference, Conditions for Stationary Interference Pattern, Beat Formation</h3>
+<h4>5.5.1. Superposition of Waves</h4>
+<p>When two or more waves travel in the same medium, they overlap and combine to produce a resultant wave. This phenomenon is known as the <strong>superposition of waves</strong>. The principle of superposition states that the resultant displacement of a medium at any point is the vector sum of the displacements caused by the individual waves.</p>
+<h5><strong>Example:</strong></h5>
+<p>Consider two waves, y₁ = 3 (2π t - π x) and y₂ = 2 (2π t - π x - π 2 ), where t is time and x is the position. The resultant wave is given by:</p>
+<p>[ y = y_1 + y_2 ]</p>
+<p>[ y = 3 \sin (2\pi t - \pi x) + 2 \sin \left(2\pi t - \pi x - \frac{\pi}{2}\right) ]</p>
+<p>Using the trigonometric identity (θ + π 2 ) = (θ), we can rewrite the second term:</p>
+<p>[ y = 3 \sin (2\pi t - \pi x) + 2 \cos (2\pi t - \pi x) ]</p>
+<p>Using the principle of superposition, we can combine these terms to find the resultant wave.</p>
+<h4>5.5.2. Interference: Constructive and Destructive Interference</h4>
+<p>Interference is the phenomenon that occurs when two or more waves overlap in a medium. It can be constructive or destructive based on the phase difference between the waves.</p>
+<ul>
+<li><strong>Constructive Interference:</strong> This occurs when the waves reinforce each other, leading to an increase in the amplitude of the resultant wave. This happens when the phase difference between the waves is an integer multiple of 2π.</li>
+</ul>
+<ul>
+<li><strong>Destructive Interference:</strong> This occurs when the waves cancel each other out, leading to a decrease in the amplitude of the resultant wave. This happens when the phase difference between the waves is an odd multiple of π.</li>
+</ul>
+<h5><strong>Example:</strong></h5>
+<p>Two waves traveling in the same direction with amplitudes A₁ and A₂ and a phase difference φ can be represented as:</p>
+<p>[ y_1 = A_1 \sin (kx - \omega t) ]</p>
+<p>[ y_2 = A_2 \sin (kx - \omega t + \phi) ]</p>
+<p>The resultant wave is:</p>
+<p>[ y = y_1 + y_2 = A_1 \sin (kx - \omega t) + A_2 \sin (kx - \omega t + \phi) ]</p>
+<p>Using the trigonometric identity for the sum of sines:</p>
+<p>[ y = A_1 \sin (kx - \omega t) + A_2 \sin (kx - \omega t + \phi) ]</p>
+<p>[ y = A_1 \sin (kx - \omega t) + A_2 \left[ \sin (kx - \omega t) \cos \phi + \cos (kx - \omega t) \sin \phi \right] ]</p>
+<p>[ y = (A_1 + A_2 \cos \phi) \sin (kx - \omega t) + A_2 \sin \phi \cos (kx - \omega t) ]</p>
+<p>The amplitude of the resultant wave is given by:</p>
+<p>[ A_{\text{resultant}} = \sqrt{(A_1 + A_2 \cos \phi)^2 + (A_2 \sin \phi)^2} ]</p>
+<h5>Conditions for Stationary Interference Pattern</h5>
+<ul>
+<li><strong>Constructive Interference:</strong> φ = 2nπ, where n is an integer.</li>
+<li><strong>Destructive Interference:</strong> φ = (2n+1)π, where n is an integer.</li>
+</ul>
+<h4>5.5.3. Beat Formation</h4>
+<p>When two waves of slightly different frequencies overlap, they produce a periodic variation in the amplitude of the resultant wave. This phenomenon is called <strong>beats</strong>.</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>Consider two waves with frequencies f₁ and f₂ and amplitudes A₁ and A₂. The resultant wave is:</p>
+<p>[ y = A_1 \sin (2\pi f_1 t) + A_2 \sin (2\pi f_2 t) ]</p>
+<p>Using the trigonometric identity for the sum of sines:</p>
+<p>[ y = 2A_1 A_2 \sin \left( \frac{2\pi (f_1 - f_2) t}{2} \right) \cos \left( \frac{2\pi (f_1 + f_2) t}{2} \right) ]</p>
+<p>The beat frequency is given by:</p>
+<p>[ f_{\text{beat}} = |f_1 - f_2| ]</p>
+<h4>5.5.4. Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Two sound waves of frequencies 440 Hz and 445 Hz travel in the same medium. Calculate the beat frequency and the time period of the beats.</div>
+<ul>
+<li><strong>Solution:</strong></li>
+</ul>
+<p>The beat frequency is:</p>
+<p>[ f_{\text{beat}} = |440 - 445| = 5 \text{ Hz} ]</p>
+<p>The time period of the beats is:</p>
+<p>[ T_{\text{beat}} = \frac{1}{f_{\text{beat}}} = \frac{1}{5} = 0.2 \text{ s} ]</p>
+<h3 id="u5-sec-5-6-reverberation-reverberation-time-echo-noise-and-coefficient-of-absorption-of-sound">5.6. Reverberation, Reverberation Time, Echo, Noise and Coefficient of Absorption of Sound</h3>
+<h4>5.6.1. Reverberation</h4>
+<p>Reverberation is the persistence of sound in a room after the original sound has ceased. It is caused by the multiple reflections of sound waves off the surfaces of the room.</p>
+<h5><strong>Example:</strong></h5>
+<p>Consider a room with a volume of 1000 m³. The sound intensity level at a distance of 1 m from the source is 80 dB. Calculate the reverberation time if the total absorption area of the room is 200 m².</p>
+<ul>
+<li><strong>Solution:</strong></li>
+</ul>
+<p>The sound absorption area per unit volume is:</p>
+<p>[ \alpha = \frac{200 \text{ m}^2}{1000 \text{ m}^3} = 0.2 \text{ m}^{-2} ]</p>
+<p>The reverberation time T is given by:</p>
+<p>[ T = \frac{0.161 \times V}{A \times S} ]</p>
+<p>where V is the volume of the room, A is the total absorption area, and S is the speed of sound in air (343 m/s).</p>
+<p>[ T = \frac{0.161 \times 1000}{0.2 \times 343} \approx 2.4 \text{ s} ]</p>
+<h4>5.6.2. Reverberation Time</h4>
+<p>Reverberation time is the time it takes for the sound level in a room to decay by 60 dB after the source has stopped. It is a measure of how long the sound persists in a room.</p>
+<ul>
+<li><strong>Formula:</strong></li>
+</ul>
+<p>[ T = \frac{0.161 \times V}{A \times S} ]</p>
+<p>where V is the volume of the room, A is the total absorption area, and S is the speed of sound in air.</p>
+<h5><strong>Example:</strong></h5>
+<p>A lecture hall has a volume of 5000 m³ and a total absorption area of 1000 m². Calculate the reverberation time.</p>
+<ul>
+<li><strong>Solution:</strong></li>
+</ul>
+<p>[ T = \frac{0.161 \times 5000}{1000 \times 343} \approx 0.24 \text{ s} ]</p>
+<h4>5.6.3. Echo</h4>
+<p>An echo is the reflection of sound from a distant surface. It is a discrete, distinguishable repetition of the original sound.</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>If the speed of sound in air is 343 m/s and the distance between the source and the reflecting surface is 171.5 m, calculate the time interval for the echo to be heard.</p>
+<ul>
+<li><strong>Solution:</strong></li>
+</ul>
+<p>The time interval for the echo is:</p>
+<p>[ t = \frac{2 \times 171.5 \text{ m}}{343 \text{ m/s}} = 1 \text{ s} ]</p>
+<h4>5.6.4. Noise</h4>
+<p>Noise is unwanted sound that can interfere with communication and cause discomfort.</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>Calculate the sound intensity level of a noise source with an intensity of 10⁻⁶ W/m².</p>
+<ul>
+<li><strong>Solution:</strong></li>
+</ul>
+<p>The sound intensity level L_I is given by:</p>
+<p>[ L_I = 10 \log \left( \frac{I}{10^{-12}} \right) ]</p>
+<p>[ L_I = 10 \log \left( \frac{10^{-6}}{10^{-12}} \right) = 10 \log (10^6) = 60 \text{ dB} ]</p>
+<h4>5.6.5. Coefficient of Absorption of Sound</h4>
+<p>The coefficient of absorption α is a measure of the fraction of sound energy absorbed by a material per unit area.</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>A material has a coefficient of absorption of 0.3. Calculate the sound energy absorbed by 2 m² of this material.</p>
+<ul>
+<li><strong>Solution:</strong></li>
+</ul>
+<p>The sound energy absorbed is:</p>
+<p>[ E_{\text{absorbed}} = \alpha \times A \times I ]</p>
+<p>where A is the area and I is the sound intensity.</p>
+<p>Assume the sound intensity I = 10⁻⁶ W/m²:</p>
+<p>[ E_{\text{absorbed}} = 0.3 \times 2 \text{ m}^2 \times 10^{-6} \text{ W/m}^2 = 6 \times 10^{-7} \text{ W} ]</p>
+<h4>5.6.6. Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A room has a total absorption area of 150 m². Calculate the reverberation time if the sound intensity in the room is 10⁻⁶ W/m².</div>
+<ul>
+<li><strong>Solution:</strong></li>
+</ul>
+<p>The reverberation time T is given by:</p>
+<p>[ T = \frac{0.161 \times V}{A \times S} ]</p>
+<p>Assuming the volume of the room is 1500 m³ and the speed of sound S = 343 m/s:</p>
+<p>[ T = \frac{0.161 \times 1500}{150 \times 343} \approx 0.24 \text{ s} ]</p>
+<hr />
+<h3 id="u5-sec-5-7-sabine-s-formula-derivation-not-required-for-reverberation-time-methods-to-control-reverberation-time-and-their-applications">5.7. Sabine’s Formula (Derivation Not Required) for Reverberation Time, Methods to Control Reverberation Time, and Their Applications</h3>
+<h4>Definition and Explanation of Reverberation Time</h4>
+<p>Reverberation time (T) is a measure of the time it takes for the sound energy in a room to decay by 60 dB after the source of the sound has stopped. It is a critical factor in the acoustic design of auditoriums, concert halls, and other large spaces.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>In a large hall, if the sound level drops from 80 dB to 20 dB in 3 seconds, the reverberation time (T) is 3 seconds.</div>
+<h4>Sabine’s Formula</h4>
+<p>Sabine’s formula is used to calculate the reverberation time in a room. The formula is given by:</p>
+<p>[ T = \frac{0.161 V}{A} ]</p>
+<p>where:</p>
+<ul>
+<li>V is the volume of the room in cubic meters (m³),</li>
+<li>A is the total absorption area of the surfaces in the room in square meters (m²).</li>
+</ul>
+<h4>Methods to Control Reverberation Time</h4>
+<p>Controlling reverberation time is essential for achieving good sound quality. There are several methods to manage reverberation time:</p>
+<ol>
+<li><strong>Absorption</strong>: Adding materials that absorb sound energy, such as carpets, curtains, and acoustic panels.</li>
+<li><strong>Diffusion</strong>: Using diffusors to scatter sound waves and reduce the decay time.</li>
+<li><strong>Reflection</strong>: Using reflective surfaces strategically to control sound distribution.</li>
+<li><strong>Volume Control</strong>: Adjusting the volume of the room by adding or removing partitions.</li>
+</ol>
+<h4>Applications of Controlling Reverberation Time</h4>
+<p>Controlling reverberation time is crucial in various fields:</p>
+<ul>
+<li><strong>Auditoriums and Concert Halls</strong>: Ensuring clear sound transmission and enhancing the listening experience.</li>
+<li><strong>Recording Studios</strong>: Achieving optimal sound quality for recording and mixing.</li>
+<li><strong>Theaters</strong>: Improving the acoustics for clear dialogue and music.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A concert hall has a volume of 2000 m³ and a total absorption area of 100 m². Using Sabine’s formula, calculate the reverberation time.</div>
+<p>[ T = \frac{0.161 \times 2000}{100} = 3.22 \text{ seconds} ]</p>
+<h3 id="u5-sec-5-8-ultrasonic-waves-and-their-properties-applications-of-ultrasonic-waves-in-the-field-of-engineering-and-medical">5.8. Ultrasonic Waves and Their Properties, Applications of Ultrasonic Waves in the Field of Engineering and Medical</h3>
+<h4>Definition of Ultrasonic Waves</h4>
+<p>Ultrasonic waves are sound waves with frequencies above the upper limit of human hearing, typically above 20,000 Hz. These waves have several unique properties and applications.</p>
+<h4>Properties of Ultrasonic Waves</h4>
+<ol>
+<li><strong>High Frequency</strong>: Ultrasonic waves have high frequencies, which give them short wavelengths.</li>
+<li><strong>High Directivity</strong>: They can be focused to a small area, making them useful for precise applications.</li>
+<li><strong>Longitudinal Nature</strong>: Ultrasonic waves are longitudinal, meaning the particles of the medium vibrate parallel to the direction of wave propagation.</li>
+<li><strong>High Energy</strong>: They can transmit a significant amount of energy, making them useful for various applications.</li>
+</ol>
+<h4>Applications of Ultrasonic Waves</h4>
+<p>Ultrasonic waves have numerous applications in both engineering and medical fields:</p>
+<h5>Engineering Applications</h5>
+<ol>
+<li><strong>Non-Destructive Testing (NDT)</strong>: Ultrasonic testing is used to inspect the integrity of materials without damaging them. It is used in industries like aerospace, automotive, and construction.</li>
+<li><strong>Cleaning</strong>: Ultrasonic waves can be used to clean parts and components effectively, especially in industries like jewelry and electronics.</li>
+<li><strong>Material Cutting</strong>: Ultrasonic waves can be used to cut materials like plastics and composites.</li>
+</ol>
+<h5>Medical Applications</h5>
+<ol>
+<li><strong>Ultrasonic Imaging (Ultrasound)</strong>: Used to visualize internal organs and tissues in the body, such as in obstetric and cardiac imaging.</li>
+<li><strong>Therapy</strong>: Used in physical therapy to treat pain, reduce inflammation, and promote healing.</li>
+<li><strong>Surgical Applications</strong>: Ultrasonic surgical instruments can cut and coagulate tissue simultaneously, reducing blood loss and improving surgical precision.</li>
+</ol>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>In a non-destructive testing scenario, an ultrasonic wave with a frequency of 5 MHz is used to inspect a metal component. The speed of sound in the metal is 5940 m/s. Calculate the wavelength of the ultrasonic wave.</div>
+<p>[ \lambda = \frac{v}{f} = \frac{5940}{5 \times 10^6} = 1.188 \times 10^{-3} \text{ meters} ]</p>
+<p>This example illustrates the practical application of ultrasonic waves in engineering testing and demonstrates the calculation of wavelength based on given frequency and speed of sound.</p>
+
+        <nav class="kb-pn no-print"><a class="pn-btn" href="unit-4.html"><i class="fas fa-chevron-left"></i> Unit 4</a><span class="pn-btn disabled">Unit – Wave motion and its applications 5.a Explain wave and wave motion with example. 5.b Distinguish between longitudinal and transverse</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (C4300004) for Applied Physics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      
+</article>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer" class="no-print"></footer>
+
+  <div id="kb-mobile-toc" class="kb-mobile-toc no-print" aria-hidden="true">
+    <div class="mob-toc-panel">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+        <strong style="font-size:.95rem">Chapters</strong>
+        <button id="kb-toc-close" class="kb-tb-btn" type="button" style="padding:6px 10px"><i class="fas fa-times"></i></button>
+      </div>
+      <details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u1-sec-1"><span class="toc-number">1</span> Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.</a></summary>
+      <a class="toc-item toc-sec" href="#u1-sec-1-1-measurement-and-units-in-engineering-and-science"><i class="fas fa-chevron-right"></i> 1.1 Measurement and units in engineering and science</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-2-physical-quantities-fundamental-and-derived-quantities"><i class="fas fa-chevron-right"></i> 1.2. Physical quantities; fundamental and derived quantities</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-3-systems-of-units-cgs-mks-and-si-definition-of-units-only-for-information-and-not-to-be-asked-in-examination-interconversion-of-units-mks-to-cgs-and-vice-versa-requirements-of-standard-unit"><i class="fas fa-chevron-right"></i> 1.3. Systems of units: CGS, MKS and SI, definition of units (only for information and not to be asked in examination), interconversion of units MKS to CGS and vice versa, Requirements of standard unit</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-4-vernier-caliper-micrometer-screw-gauge"><i class="fas fa-chevron-right"></i> 1.4. Vernier Caliper, Micrometer Screw Gauge</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-5-accuracy-precision-and-error-estimation-of-errors-absolute-error-relative-error-and-percentage-error-error-propagation-significant-figures"><i class="fas fa-chevron-right"></i> 1.5. Accuracy, precision and error, estimation of errors - absolute error, relative error and percentage error, error propagation, significant figures</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u2-sec-2"><span class="toc-number">2</span> Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve</a></summary>
+      <a class="toc-item toc-sec" href="#u2-sec-2-1-force-momentum-law-of-conservation-of-linear-momentum-its-applications-such-as-recoil-of-gun-rocket-propulsion-impulse-and-its-applications"><i class="fas fa-chevron-right"></i> 2.1 Force, momentum, law of conservation of linear momentum, its applications such as recoil of gun, rocket propulsion, impulse and its applications</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-2-circular-motion-angular-displacement-angular-velocity-angular-acceleration-and-their-interrelation"><i class="fas fa-chevron-right"></i> 2.2 Circular motion, angular displacement, angular velocity, angular acceleration and their interrelation</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-3-centripetal-and-centrifugal-forces-examples-banking-of-roads-and-bending-of-cyclist"><i class="fas fa-chevron-right"></i> 2.3. Centripetal and centrifugal forces examples: banking of roads and bending of cyclist</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u3-sec-3"><span class="toc-number">3</span> General Properties of Matter 3.a Explain the Hooke’s law, stress- strain curve and moduli of elasticity. 3.b Explain surface tension, cohesive and adhesive forces.</a></summary>
+      <a class="toc-item toc-sec" href="#u3-sec-3-1-elasticity"><i class="fas fa-chevron-right"></i> 3.1. Elasticity</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-2-stress-strain-with-their-types"><i class="fas fa-chevron-right"></i> 3.1.2. Stress-Strain with their Types</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-3-hooke-s-law"><i class="fas fa-chevron-right"></i> 3.1.3. Hooke’s Law</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-4-moduli-of-elasticity-young-s-modulus-bulk-modulus-shear-modulus"><i class="fas fa-chevron-right"></i> 3.1.4. Moduli of Elasticity, Young’s Modulus, Bulk Modulus, Shear Modulus</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-5-viscosity-coefficient-of-viscosity-terminal-velocity-and-stokes-law"><i class="fas fa-chevron-right"></i> 3.1.5. Viscosity, Coefficient of Viscosity, Terminal Velocity, and Stokes’ Law</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-6-types-of-fluid-motion-and-reynolds-number"><i class="fas fa-chevron-right"></i> 3.1.6. Types of Fluid Motion and Reynolds Number</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-1-5-stress-strain-curve"><i class="fas fa-chevron-right"></i> 3.1.5. Stress-Strain Curve</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-surface-tension"><i class="fas fa-chevron-right"></i> 3.2. Surface Tension</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-1-surface-tension-concept-and-units"><i class="fas fa-chevron-right"></i> 3.2.1. Surface Tension; Concept and Units</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-2-cohesive-and-adhesive-forces"><i class="fas fa-chevron-right"></i> 3.2.2. Cohesive and Adhesive Forces</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-3-molecular-range-and-sphere-of-influence"><i class="fas fa-chevron-right"></i> 3.2.3. Molecular Range and Sphere of Influence</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-4-laplace-s-molecular-theory"><i class="fas fa-chevron-right"></i> 3.2.4. Laplace’s Molecular Theory</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-5-angle-of-contact-ascent-formula-no-derivation"><i class="fas fa-chevron-right"></i> 3.2.5. Angle of Contact, Ascent Formula (No Derivation)</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-6-surface-energy"><i class="fas fa-chevron-right"></i> 3.2.6. Surface Energy</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-7-applications-of-surface-tension"><i class="fas fa-chevron-right"></i> 3.2.7. Applications of Surface Tension</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-8-effect-of-temperature-and-impurity-on-surface-tension"><i class="fas fa-chevron-right"></i> 3.2.8. Effect of Temperature and Impurity on Surface Tension</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-3-viscosity"><i class="fas fa-chevron-right"></i> 3.3. Viscosity</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-3-5-stokes-law"><i class="fas fa-chevron-right"></i> 3.3.5. Stokes’ Law</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-3-6-effect-of-temperature-on-viscosity"><i class="fas fa-chevron-right"></i> 3.3.6. Effect of Temperature on Viscosity</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-3-7-applications-of-viscosity-in-hydraulic-systems"><i class="fas fa-chevron-right"></i> 3.3.7. Applications of Viscosity in Hydraulic Systems</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u4-sec-4"><span class="toc-number">4</span> Heat and Thermometry 4.a Distinguish between heat and temperature. 4.b Explain modes of heat transmission. 4.c Explain various temperature scales and conversion between</a></summary>
+      <a class="toc-item toc-sec" href="#u4-sec-4-1-heat-and-temperature"><i class="fas fa-chevron-right"></i> 4.1. Heat and Temperature</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-2-modes-of-heat-transfer-conduction-convection-and-radiation"><i class="fas fa-chevron-right"></i> 4.2. Modes of Heat Transfer: Conduction, Convection, and Radiation</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-3-temperature-measurement-scales-kelvin-celsius-and-fahrenheit-and-interconversion-between-them"><i class="fas fa-chevron-right"></i> 4.3. Temperature measurement scales: Kelvin, Celsius and Fahrenheit and interconversion between them</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-5-types-of-thermometers-mercury-thermometer-bimetallic-thermometer-platinum-resistance-thermometer-pyrometer-and-their-uses"><i class="fas fa-chevron-right"></i> 4.5. Types of Thermometers: Mercury Thermometer, Bimetallic Thermometer, Platinum Resistance Thermometer, Pyrometer and their Uses</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-6-coefficient-of-thermal-conductivity-and-its-engineering-applications"><i class="fas fa-chevron-right"></i> 4.6. Coefficient of Thermal Conductivity and its Engineering Applications</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-7-expansion-of-solids-coefficient-of-linear-expansion"><i class="fas fa-chevron-right"></i> 4.7. Expansion of Solids, Coefficient of Linear Expansion</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u5-sec-5"><span class="toc-number">5</span> Wave motion and its applications 5.a Explain wave and wave motion with example. 5.b Distinguish between longitudinal and transverse</a></summary>
+      <a class="toc-item toc-sec" href="#u5-sec-5-1-waves-wave-motion-and-types-of-waves-longitudinal-and-transverse-waves"><i class="fas fa-chevron-right"></i> 5.1. Waves, wave motion, and types of waves: longitudinal and transverse waves</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-2-frequency-periodic-time-amplitude-wavelength-and-wave-velocity-and-their-relationship"><i class="fas fa-chevron-right"></i> 5.2. Frequency, periodic time, amplitude, wavelength and wave velocity and their relationship</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-3-properties-of-sound-and-light-waves"><i class="fas fa-chevron-right"></i> 5.3. Properties of sound and light waves.</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-4-phase-phase-difference-and-various-terms-of-wave-equation"><i class="fas fa-chevron-right"></i> 5.4. Phase, phase difference and various terms of wave equation (𝑦 = 𝐴𝑠𝑖𝑛(𝜔𝑡 + 𝜑))</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-5-superposition-of-waves-interference-constructive-and-destructive-interference-conditions-for-stationary-interference-pattern-beat-formation"><i class="fas fa-chevron-right"></i> 5.5. Superposition of Waves, Interference: Constructive and Destructive Interference, Conditions for Stationary Interference Pattern, Beat Formation</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-6-reverberation-reverberation-time-echo-noise-and-coefficient-of-absorption-of-sound"><i class="fas fa-chevron-right"></i> 5.6. Reverberation, Reverberation Time, Echo, Noise and Coefficient of Absorption of Sound</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-7-sabine-s-formula-derivation-not-required-for-reverberation-time-methods-to-control-reverberation-time-and-their-applications"><i class="fas fa-chevron-right"></i> 5.7. Sabine’s Formula (Derivation Not Required) for Reverberation Time, Methods to Control Reverberation Time, and Their Applications</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-8-ultrasonic-waves-and-their-properties-applications-of-ultrasonic-waves-in-the-field-of-engineering-and-medical"><i class="fas fa-chevron-right"></i> 5.8. Ultrasonic Waves and Their Properties, Applications of Ultrasonic Waves in the Field of Engineering and Medical</a>
+    </details>
+      <a class="back-link" href="/ai-ml/sem2/applied-physics.html"><i class="fas fa-arrow-left"></i> Back to Applied Physics</a>
+    </div>
+  </div>
+
+  <div class="print-watermark" aria-hidden="true">
+    <span>KHUDKIBOOK</span><span>KHUDKIBOOK</span><span>KHUDKIBOOK</span><span>KHUDKIBOOK</span>
+  </div>
+  <div class="kb-toast no-print" id="kb-toast">Protected by KhudKibook – please purchase the original.</div>
+
+  <script type="text/javascript" src="/ru444ts.js?v=2.1" defer></script>
+  <script type="text/javascript" src="/select.js?v=2.1" defer></script>
+  <script type="text/javascript" src="/ad-injector.js?v=2.1" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+(function () {
+  function kbSanitizeMermaid(src) {
+    return String(src || '')
+      .replace(/(-->|\+-->|==>)\s*([A-Za-z0-9_]+)\[([^\]]*)\]\s*\(([^)]*)\)/g, function (m, arrow, id, label, note) {
+        var noteT = (note || '').trim(), labelT = (label || '').trim();
+        var merged = noteT && labelT ? labelT + ' - ' + noteT : (labelT || noteT);
+        return arrow + ' ' + id + '[' + merged + ']';
+      })
+      .replace(/\(\)/g, '')
+      .replace(/[ \t]{2,}/g, ' ');
+  }
+  function init() {
+    if (!window.mermaid) return;
+    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', flowchart: { curve: 'basis', htmlLabels: true } });
+    var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
+    nodes.forEach(function (el) {
+      if (el.dataset.kbRun) return;
+      el.dataset.kbRun = '1';
+      el.textContent = kbSanitizeMermaid(el.textContent);
+      mermaid.run({ nodes: [el] }).catch(function () {
+        el.classList.add('mermaid-failed');
+        el.innerHTML = '<div style="padding:10px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>' + el.innerHTML;
+      });
+    });
+  }
+  if (document.readyState === 'complete') init();
+  else window.addEventListener('load', init);
+  setTimeout(init, 1400);
+  document.addEventListener('DOMContentLoaded', init);
+})();
+</script>
+  <script>
+  (function () {
+    var bar = document.getElementById('kb-progress');
+    function onScroll() {
+      var st = window.scrollY || document.documentElement.scrollTop;
+      var h = (document.documentElement.scrollHeight || document.body.scrollHeight) - window.innerHeight;
+      if (bar && h > 0) bar.style.width = Math.min(100, st / h * 100) + '%';
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    var links = [].slice.call(document.querySelectorAll('.kb-toc a.toc-sec'));
+    var heads = [].slice.call(document.querySelectorAll('.kb-article h2[id],.kb-article h3[id]'));
+    var map = {};
+    heads.forEach(function (s) { map['#' + s.id] = s; });
+    if ('IntersectionObserver' in window && links.length && heads.length) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          var t = '#' + e.target.id;
+          links.forEach(function (a) { a.classList.toggle('toc-active', a.getAttribute('href') === t); });
+        });
+      }, { rootMargin: '-15% 0px -75% 0px' });
+      heads.forEach(function (s) { io.observe(s); });
+    }
+
+    // Add class to body for sticky bottom toolbar behavior
+    var b = document.body;
+    b.classList.add('kb-reader');
+
+    // Mobile chapter drawer toggle
+    var tocDrawer = document.getElementById('kb-mobile-toc');
+    var tocOpen = document.getElementById('kb-toc-open');
+    var tocClose = document.getElementById('kb-toc-close');
+    if (tocOpen && tocDrawer) {
+      tocOpen.addEventListener('click', function () { tocDrawer.classList.add('open'); });
+    }
+    if (tocClose && tocDrawer) {
+      tocClose.addEventListener('click', function () { tocDrawer.classList.remove('open'); });
+    }
+
+    var art = document.querySelector('.kb-book');
+    var toastEl = document.getElementById('kb-toast');
+    function toast() {
+      if (!toastEl) return;
+      toastEl.classList.add('show');
+      clearTimeout(toastEl._h);
+      toastEl._h = setTimeout(function () { toastEl.classList.remove('show'); }, 1600);
+    }
+    function inArt(el) { return art && el && (el === art || art.contains(el)); }
+    document.addEventListener('contextmenu', function (e) { if (inArt(e.target)) { e.preventDefault(); toast(); } });
+    document.addEventListener('copy', function (e) { if (inArt(e.target)) { e.preventDefault(); toast(); } });
+    document.addEventListener('cut', function (e) { if (inArt(e.target)) { e.preventDefault(); toast(); } });
+  })();
+  </script>
+</body>
+</html>

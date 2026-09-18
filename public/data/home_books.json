@@ -12,7 +12,13 @@
       "https://drive.google.com/file/d/19kp-B4N3CltuXKNo90Ac7F0qv2VLvtnJ",
       "https://drive.google.com/file/d/19_aloooH_oJmjxhkNhvg7z83ZjsxPyOY",
       "https://drive.google.com/file/d/19_V6pdcHr-CY6-SNbuDK78jo5wBUBnVg",
-      "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G"
+      "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G",
+      "/books/4300001/unit-1.html",
+      "/books/4300001/unit-2.html",
+      "/books/4300001/unit-3.html",
+      "/books/4300001/unit-4.html",
+      "/books/4300001/unit-5.html",
+      "/books/4300001/full-book.html"
     ],
     "GujbooksLink": [
       "https://drive.google.com/file/d/170qwsdxWZxMeMHmhoXME1OUgW3bdXuNe",
@@ -58,7 +64,13 @@
       "https://drive.google.com/file/d/17FtILXd1pI8qvpCZ45ZjCtybUK9akWFd",
       "https://drive.google.com/file/d/179vdy76glH7op2vQ7BwykQQMgkRjI9-R",
       "https://drive.google.com/file/d/178HwIMRbW8fMBteZZ6YqJQ_T3-y3IrCi",
-      "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3"
+      "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3",
+      "/books/4300002/unit-1.html",
+      "/books/4300002/unit-2.html",
+      "/books/4300002/unit-3.html",
+      "/books/4300002/unit-4.html",
+      "/books/4300002/unit-5.html",
+      "/books/4300002/full-book.html"
     ],
     "GujbooksLink": [],
     "bookPapers": [
@@ -83,7 +95,7 @@
       "https://gtu.ac.in/uploads/S2026/DI/4300002.pdf",
       "Summer 2026 Exam Paper"
     ],
-    "syllabus": "https://drive.google.com/file/d/1PbEL53UarVv-NjqIZ2SdD-Z8Ybtw2GRN"
+    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/4300002.pdf"
   },
   {
     "bookName": "Python Programming",
@@ -129,7 +141,7 @@
       "https://gtu.ac.in/uploads/S2026/DI/4311601.pdf",
       "Summer 2026 Exam Paper"
     ],
-    "syllabus": "https://drive.google.com/file/d/13vnq7yujmZklvrTFrb_RYP0Ii2paSZN7"
+    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/4311601.pdf"
   },
   {
     "bookName": "Introduction to IT Systems",
@@ -170,17 +182,23 @@
       "https://gtu.ac.in/uploads/S2026/DI/4311602.pdf",
       "Summer 2026 Exam Paper"
     ],
-    "syllabus": "https://drive.google.com/file/d/18JZjqy8Lm1GPFf1ypewxgEifrZ8cARUw"
+    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/4311602.pdf"
   },
   {
     "bookName": "Mathematics",
     "bookCode": "C4300001",
-    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/maths.webp",
+    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/bg.webp",
     "bookCredit": "4",
     "sem": "sem1",
     "bookLink": "/it/sem1/mathematics.html",
     "booksLink": [
-      "/files/it/sem1/maths_book.pdf"
+      "/files/it/sem1/maths_book.pdf",
+      "/books/C4300001/unit-1.html",
+      "/books/C4300001/unit-2.html",
+      "/books/C4300001/unit-3.html",
+      "/books/C4300001/unit-4.html",
+      "/books/C4300001/unit-5.html",
+      "/books/C4300001/full-book.html"
     ],
     "GujbooksLink": [],
     "bookPapers": [
@@ -192,16 +210,22 @@
   {
     "bookName": "Communication Skills in English",
     "bookCode": "C4300002",
-    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/english.webp",
+    "bookImage": "https://chauhanpriyanshu001.github.io/pic.github.io/bg.webp",
     "bookCredit": "3",
     "sem": "sem1",
     "bookLink": "/it/sem1/english.html",
     "booksLink": [
-      "/files/it/sem1/english_book.pdf"
+      "/files/it/sem1/english_book.pdf",
+      "/books/C4300002/unit-1.html",
+      "/books/C4300002/unit-2.html",
+      "/books/C4300002/unit-3.html",
+      "/books/C4300002/unit-4.html",
+      "/books/C4300002/unit-5.html",
+      "/books/C4300002/full-book.html"
     ],
     "GujbooksLink": [],
     "bookPapers": [],
-    "syllabus": "https://drive.google.com/file/d/1PbEL53UarVv-NjqIZ2SdD-Z8Ybtw2GRN"
+    "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
   },
   {
     "bookName": "Environment and Sustainability",
@@ -216,7 +240,13 @@
       "https://drive.google.com/file/d/18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
       "https://drive.google.com/file/d/1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
       "https://drive.google.com/file/d/1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
-      "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
+      "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk",
+      "/books/4300003/unit-1.html",
+      "/books/4300003/unit-2.html",
+      "/books/4300003/unit-3.html",
+      "/books/4300003/unit-4.html",
+      "/books/4300003/unit-5.html",
+      "/books/4300003/full-book.html"
     ],
     "GujbooksLink": [
       "https://drive.google.com/file/d/1DJCDYyzTpah0GF_NI5wJBMGV8DkCPVmE",

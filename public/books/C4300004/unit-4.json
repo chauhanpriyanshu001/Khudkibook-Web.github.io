@@ -1,0 +1,299 @@
+{
+ "code": "C4300004",
+ "subject": "Applied Physics",
+ "unit": 4,
+ "lang": "en",
+ "title": "Unit – Heat and Thermometry 4.a Distinguish between heat and temperature. 4.b Explain modes of heat transmission. 4.c Explain various temperature scales and conversion between",
+ "url": "/books/C4300004/unit-4.html",
+ "guUrl": null,
+ "words": 2700,
+ "readingMin": 15,
+ "marks": "13 marks (3 Remember + 4 Understand + 6 Apply) (per syllabus)",
+ "sections": [
+  {
+   "heading": "Unit – IV: Heat and Thermometry 4.a Distinguish between heat and temperature. 4.b Explain modes of heat transmission. 4.c Explain various temperature scales and conversion between",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code C4300004 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately <strong>13 marks (3 Remember + 4 Understand + 6 Apply) (per syllabus)</strong>.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Defining Heat and Temperature",
+   "id": "",
+   "html": "<ul>\n<li><strong>Heat</strong>: Heat is the form of energy transferred between two systems or substances due to a temperature difference. It is a measure of the total kinetic energy of particles in a substance.</li>\n<li><strong>Temperature</strong>: Temperature is a measure of the average kinetic energy of the particles in a substance. It is a scalar quantity that indicates the degree of hotness or coldness of a body.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Classification and Units",
+   "id": "",
+   "html": "<ul>\n<li><strong>Heat Units</strong>: Heat is measured in Joules (J), calories (cal), or kilocalories (kcal). 1 calorie is the amount of heat required to raise the temperature of 1 gram of water by 1°C.</li>\n<li><strong>Temperature Units</strong>: Temperature is measured in Celsius (°C), Fahrenheit (°F), and Kelvin (K). The relationship between these units is given by:</li>\n<li>T(K) = T(°C) + 273.15</li>\n<li>T(°F) = 9 5 × T(°C) + 32</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 30°C to Kelvin.</div>\n<ul>\n<li>T(K) = 30 + 273.15 = 303.15 K</li>\n</ul>",
+   "examples": [
+    "Convert 30°C to Kelvin."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Relationship Between Heat and Temperature",
+   "id": "",
+   "html": "<ul>\n<li><strong>Specific Heat Capacity</strong>: The amount of heat required to raise the temperature of 1 gram of a substance by 1°C. It is denoted by c and is specific to each substance.</li>\n<li><strong>Heat Transfer Equation</strong>: The heat Q transferred to a substance can be calculated using:</li>\n<li>Q = mcΔ T</li>\n<li>Where m is the mass of the substance, c is the specific heat capacity, and Δ T is the change in temperature.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A 100 g block of copper initially at 20°C is heated until its temperature rises to 80°C. If the specific heat capacity of copper is 0.385 J/g°C, calculate the heat absorbed by the copper block.</div>\n<ul>\n<li>m = 100 g</li>\n<li>c = 0.385 J/g°C</li>\n<li>Δ T = 80 - 20 = 60 °C</li>\n<li>Q = 100 × 0.385 × 60 = 2310 J</li>\n</ul>",
+   "examples": [
+    "A 100 g block of copper initially at 20°C is heated until its temperature rises to 80°C. If the specific heat capacity of copper is 0.385 J/g°C, calculate the heat absorbed by the copper block."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conduction",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition</strong>: Conduction is the transfer of heat between particles of matter through direct contact. Heat is transferred from the more energetic particles to the less energetic ones.</li>\n<li><strong>Examples</strong>: A spoon in hot soup, metal rod in a fire.</li>\n<li><strong>Equation</strong>: Fourier's Law of Heat Conduction:</li>\n<li>Q = -kA dT dx</li>\n<li>Where k is the thermal conductivity, A is the cross-sectional area, and dT dx is the temperature gradient.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Convection",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition</strong>: Convection is the transfer of heat by the movement of fluids or gases. It involves the movement of particles from one place to another due to temperature differences.</li>\n<li><strong>Examples</strong>: Boiling water, wind blowing over a building.</li>\n<li><strong>Equation</strong>: Newton's Law of Cooling:</li>\n<li>Q = hA(T_s - T_a)</li>\n<li>Where h is the convective heat transfer coefficient, A is the surface area, T_s is the surface temperature, and T_a is the ambient temperature.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Radiation",
+   "id": "",
+   "html": "<ul>\n<li><strong>Definition</strong>: Radiation is the transfer of heat through electromagnetic waves. It does not require any medium and can occur in a vacuum.</li>\n<li><strong>Examples</strong>: Sun heating the Earth, infrared heaters.</li>\n<li><strong>Equation</strong>: Stefan-Boltzmann Law:</li>\n<li>P = σ A T⁴</li>\n<li>Where P is the power radiated, σ is the Stefan-Boltzmann constant,  is the emissivity, A is the surface area, and T is the absolute temperature.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A 2 m x 2 m flat surface is exposed to a temperature of 500 K. If the emissivity of the surface is 0.8, calculate the power radiated from the surface.</div>\n<ul>\n<li>σ = 5.67 × 10⁻⁸ W/m²K⁴</li>\n<li>A = 2 m × 2 m = 4 m²</li>\n<li>T = 500 K</li>\n<li>= 0.8</li>\n<li>P = 5.67 × 10⁻⁸ × 0.8 × 4 × 500⁴ = 1.12 × 10⁶ W</li>\n</ul>",
+   "examples": [
+    "A 2 m x 2 m flat surface is exposed to a temperature of 500 K. If the emissivity of the surface is 0.8, calculate the power radiated from the surface."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<ul>\n<li><strong>Heat and Temperature</strong> are distinct but related concepts. Heat is the transfer of energy, while temperature is the measure of thermal energy.</li>\n<li><strong>Conduction</strong> occurs through direct particle contact, <strong>Convection</strong> involves fluid movement, and <strong>Radiation</strong> occurs through electromagnetic waves. Each mode of heat transfer has specific equations and applications.</li>\n</ul>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Heat Transfer] --&gt; B[Conduction]\n A --&gt; C[Convection]\n A --&gt; D[Radiation]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Heat Transfer] --&gt; B[Conduction]\n A --&gt; C[Convection]\n A --&gt; D[Radiation]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Heat Transfer] --&gt; B[Conduction]\n A --&gt; C[Convection]\n A --&gt; D[Radiation]</pre></noscript></div>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Heat Transfer] --> B[Conduction]\n    A --> C[Convection]\n    A --> D[Radiation]"
+   ]
+  },
+  {
+   "heading": "Definition and Overview",
+   "id": "",
+   "html": "<p><strong>Temperature:</strong> The degree or intensity of heat present in a substance or object. It is a measure of the average kinetic energy of the particles in a substance.</p>\n<p><strong>Temperature Scales:</strong> Different scales are used to measure temperature, such as Kelvin (K), Celsius (°C), and Fahrenheit (°F). Each scale has its origin and unit size defined differently.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Kelvin Scale",
+   "id": "",
+   "html": "<ul>\n<li><strong>Origin:</strong> Absolute zero (0 K), where molecular motion theoretically ceases.</li>\n<li><strong>Unit Size:</strong> 1 K is equivalent to 1°C.</li>\n<li><strong>Symbol:</strong> K</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Celsius Scale",
+   "id": "",
+   "html": "<ul>\n<li><strong>Origin:</strong> The freezing point of water (0°C) and the boiling point of water (100°C) at standard atmospheric pressure.</li>\n<li><strong>Unit Size:</strong> 1°C is equivalent to 1 K.</li>\n<li><strong>Symbol:</strong> °C</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Fahrenheit Scale",
+   "id": "",
+   "html": "<ul>\n<li><strong>Origin:</strong> 32°F is the freezing point of water and 212°F is the boiling point of water at standard atmospheric pressure.</li>\n<li><strong>Unit Size:</strong> 1°F is not equivalent to 1 K or 1°C. The unit size is different.</li>\n<li><strong>Symbol:</strong> °F</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion Between Temperature Scales",
+   "id": "",
+   "html": "<p><strong>Conversion from Celsius to Kelvin:</strong></p>\n<p>[ K = °C + 273.15 ]</p>\n<p><strong>Conversion from Kelvin to Celsius:</strong></p>\n<p>[ °C = K - 273.15 ]</p>\n<p><strong>Conversion from Celsius to Fahrenheit:</strong></p>\n<p>[ °F = \\left( \\frac{9}{5} \\times °C \\right) + 32 ]</p>\n<p><strong>Conversion from Fahrenheit to Celsius:</strong></p>\n<p>[ °C = \\left( \\frac{5}{9} \\times (°F - 32) \\right) ]</p>\n<p><strong>Conversion from Kelvin to Fahrenheit:</strong></p>\n<p>[ °F = \\left( \\frac{9}{5} \\times (K - 273.15) \\right) + 32 ]</p>\n<p><strong>Conversion from Fahrenheit to Kelvin:</strong></p>\n<p>[ K = \\left( \\frac{5}{9} \\times (°F - 32) \\right) + 273.15 ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 25°C to Kelvin and Fahrenheit.<br /><br /><strong>Step 1:</strong> Convert 25°C to Kelvin.<br />[ K = 25 + 273.15 = 298.15 \\, K ]<br /><br /><strong>Step 2:</strong> Convert 25°C to Fahrenheit.<br />[ °F = \\left( \\frac{9}{5} \\times 25 \\right) + 32 = 77 \\, °F ]</div>",
+   "examples": [
+    "Convert 25°C to Kelvin and Fahrenheit. **Step 1:** Convert 25°C to Kelvin. [ K = 25 + 273.15 = 298.15 \\, K ] **Step 2:** Convert 25°C to Fahrenheit. [ °F = \\left( \\frac{9}{5} \\times 25 \\right) + 32 = 77 \\, °F ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Overview",
+   "id": "",
+   "html": "<ul>\n<li><strong>Heat Capacity:</strong> The amount of heat required to raise the temperature of an object by 1 K.</li>\n<li><strong>Specific Heat:</strong> The heat capacity per unit mass of a substance. It is a measure of how much heat is required to raise the temperature of a unit mass of a substance by 1 K.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Specific Heat Capacity",
+   "id": "",
+   "html": "<ul>\n<li><strong>Symbol:</strong> c</li>\n<li><strong>Unit:</strong> J/kg·K or J/g·K</li>\n<li><strong>Formula:</strong> Q = mcΔ T</li>\n<li>Q: Heat added or removed</li>\n<li>m: Mass of the substance</li>\n<li>c: Specific heat capacity</li>\n<li>Δ T: Change in temperature</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Heat Capacity",
+   "id": "",
+   "html": "<ul>\n<li><strong>Symbol:</strong> C</li>\n<li><strong>Unit:</strong> J/K or J/°C</li>\n<li><strong>Formula:</strong> C = mc</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A 200 g sample of aluminum is heated from 20°C to 120°C. The specific heat capacity of aluminum is 0.9 J/g·K. Calculate the heat energy required.<br /><br /><strong>Step 1:</strong> Calculate the change in temperature.<br />[ \\Delta T = 120 - 20 = 100 \\, K ]<br /><br /><strong>Step 2:</strong> Use the formula Q = mcΔ T.<br />[ Q = 200 \\times 0.9 \\times 100 = 18000 \\, \\text{J} ]</div>\n<blockquote>The heat energy required to raise the temperature of the aluminum sample is 18000 J.</blockquote>",
+   "examples": [
+    "A 200 g sample of aluminum is heated from 20°C to 120°C. The specific heat capacity of aluminum is 0.9 J/g·K. Calculate the heat energy required. **Step 1:** Calculate the change in temperature. [ \\Delta T = 120 - 20 = 100 \\, K ] **Step 2:** Use the formula Q = mcΔ T. [ Q = 200 \\times 0.9 \\times 100 = 18000 \\, \\text{J} ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<ul>\n<li><strong>Temperature Scales:</strong> Understanding and converting between Kelvin, Celsius, and Fahrenheit is essential for various applications.</li>\n<li><strong>Heat Capacity and Specific Heat:</strong> These concepts are fundamental in thermodynamics and are used to calculate the amount of heat required to change the temperature of substances.</li>\n</ul>\n<p>These sections cover the necessary details for exam preparation and provide practical examples for better understanding.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.1 Mercury Thermometer",
+   "id": "",
+   "html": "<p>A <strong>mercury thermometer</strong> is a simple and commonly used type of thermometer that relies on the expansion and contraction of liquid mercury to measure temperature. The principle of operation is based on the <strong>linear expansion</strong> of the mercury column with changes in temperature. The mercury column rises or falls in a sealed glass tube, and the position of the mercury can be calibrated to indicate temperature.</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A mercury thermometer has a mercury column of 10 cm at 0°C. If the mercury column rises to 30 cm at a certain temperature, what is the temperature?<br /><br />Solution:<br />The mercury column has expanded by 20 cm (30 cm - 10 cm). Since the expansion is linear, the temperature change can be calculated as:<br />[</div>\n<p>\\text{Temperature change} = \\frac{\\text{Change in mercury column}}{\\text{Initial mercury column}} \\times \\text{Temperature range} = \\frac{20 \\text{ cm}}{10 \\text{ cm}} \\times 100^\\circ\\text{C} = 200^\\circ\\text{C}</p>\n<p>]</p>\n<blockquote>Therefore, the temperature is 200^.</blockquote>",
+   "examples": [
+    "A mercury thermometer has a mercury column of 10 cm at 0°C. If the mercury column rises to 30 cm at a certain temperature, what is the temperature? Solution: The mercury column has expanded by 20 cm (30 cm - 10 cm). Since the expansion is linear, the temperature change can be calculated as: ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.2 Bimetallic Thermometer",
+   "id": "",
+   "html": "<p>A <strong>bimetallic thermometer</strong> consists of two different metal strips that are bonded together and wound into a coil. The two metals have different coefficients of thermal expansion. When the temperature changes, one strip expands more than the other, causing the coil to bend. This bending can be used to measure temperature.</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A bimetallic strip made of steel and brass has a coefficient of thermal expansion of 12 × 10⁻⁶ per ^ for steel and 19 × 10⁻⁶ per ^ for brass. If the strip is 100 cm long at 0°C and is subjected to a temperature change of 50°C, by how much will it bend?<br /><br />Solution:<br />The expansion of each metal can be calculated as:<br />[</div>\n<p>\\text{Expansion of steel} = 100 \\, \\text{cm} \\times 12 \\times 10^{-6} \\, \\text{per} \\, ^\\circ\\text{C} \\times 50^\\circ\\text{C} = 0.06 \\, \\text{cm}</p>\n<p>]</p>\n<blockquote>[</blockquote>\n<p>\\text{Expansion of brass} = 100 \\, \\text{cm} \\times 19 \\times 10^{-6} \\, \\text{per} \\, ^\\circ\\text{C} \\times 50^\\circ\\text{C} = 0.095 \\, \\text{cm}</p>\n<p>]</p>\n<blockquote>The net expansion of the bimetallic strip is:<br />[</blockquote>\n<p>\\text{Net expansion} = 0.095 \\, \\text{cm} - 0.06 \\, \\text{cm} = 0.035 \\, \\text{cm}</p>\n<p>]</p>\n<blockquote>Therefore, the strip will bend by 0.035 cm.</blockquote>",
+   "examples": [
+    "A bimetallic strip made of steel and brass has a coefficient of thermal expansion of 12 × 10⁻⁶ per ^ for steel and 19 × 10⁻⁶ per ^ for brass. If the strip is 100 cm long at 0°C and is subjected to a temperature change of 50°C, by how much will it bend? Solution: The expansion of each metal can be calculated as: ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.3 Platinum Resistance Thermometer",
+   "id": "",
+   "html": "<p>A <strong>platinum resistance thermometer</strong> works on the principle that the resistance of platinum changes with temperature. As the temperature increases, the resistance of platinum increases. This change in resistance can be measured using an electric circuit, and the temperature can be determined from the resistance value.</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A platinum resistance thermometer has a resistance of 100 Ω at 0°C and 150 Ω at 100°C. If the resistance measured is 125 Ω, what is the temperature?<br /><br />Solution:<br />The relationship between resistance and temperature for platinum can be approximated by the equation:<br />[</div>\n<p>R = R_0 (1 + \\alpha T)</p>\n<p>]</p>\n<blockquote>Where R₀ is the resistance at 0°C, R is the resistance at temperature T, and α is the temperature coefficient of resistance. For platinum, α ≈ 3.9 × 10⁻³ per ^.<br />Plugging in the values:<br />[</blockquote>\n<p>125 = 100 (1 + 3.9 \\times 10^{-3} T)</p>\n<p>]</p>\n<blockquote>[</blockquote>\n<p>1.25 = 1 + 3.9 \\times 10^{-3} T</p>\n<p>]</p>\n<blockquote>[</blockquote>\n<p>0.25 = 3.9 \\times 10^{-3} T</p>\n<p>]</p>\n<blockquote>[</blockquote>\n<p>T = \\frac{0.25}{3.9 \\times 10^{-3}} = 64.1^\\circ\\text{C}</p>\n<p>]</p>\n<blockquote>Therefore, the temperature is 64.1^.</blockquote>",
+   "examples": [
+    "A platinum resistance thermometer has a resistance of 100 Ω at 0°C and 150 Ω at 100°C. If the resistance measured is 125 Ω, what is the temperature? Solution: The relationship between resistance and temperature for platinum can be approximated by the equation: ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.5.4 Pyrometer",
+   "id": "",
+   "html": "<p>A <strong>pyrometer</strong> is a type of thermometer used to measure high temperatures. It works by using the principle that the emissivity of a material changes with temperature, and the temperature can be determined from the emitted radiation.</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A pyrometer measures the temperature of a hot object by detecting the emitted radiation. If the emissivity of the object is 0.8 and the emitted radiation is measured at 1000 W/m², what is the temperature of the object?<br /><br />Solution:<br />The Stefan-Boltzmann law states that the radiation emitted by a black body is given by:<br />[</div>\n<p>P = \\sigma \\epsilon T^4</p>\n<p>]</p>\n<blockquote>Where P is the emitted power, σ is the Stefan-Boltzmann constant (5.67 × 10⁻⁸ W/m²K⁴),  is the emissivity, and T is the temperature in Kelvin.<br />Plugging in the values:<br />[</blockquote>\n<p>1000 = 5.67 \\times 10^{-8} \\times 0.8 \\times T^4</p>\n<p>]</p>\n<blockquote>[</blockquote>\n<p>1000 = 4.536 \\times 10^{-8} \\times T^4</p>\n<p>]</p>\n<blockquote>[</blockquote>\n<p>T^4 = \\frac{1000}{4.536 \\times 10^{-8}} = 2.203 \\times 10^{10}</p>\n<p>]</p>\n<blockquote>[</blockquote>\n<p>T = \\sqrt[4]{2.203 \\times 10^{10}} = 379.6 \\, \\text{K}</p>\n<p>]</p>\n<blockquote>Therefore, the temperature is approximately 379.6 K or 106.5^.</blockquote>",
+   "examples": [
+    "A pyrometer measures the temperature of a hot object by detecting the emitted radiation. If the emissivity of the object is 0.8 and the emitted radiation is measured at 1000 W/m², what is the temperature of the object? Solution: The Stefan-Boltzmann law states that the radiation emitted by a black body is given by: ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.6.1 Definition and Explanation",
+   "id": "",
+   "html": "<p>The <strong>coefficient of thermal conductivity</strong> (k) is a material property that quantifies how well a material conducts heat. It is defined as the amount of heat (in watts) conducted through a material of thickness 1 meter, with a temperature difference of 1 kelvin, in steady state, per unit area. The formula for thermal conductivity is:</p>\n<p>[</p>\n<p>q = -k \\frac{dT}{dx}</p>\n<p>]</p>\n<p>Where q is the heat flux (W/m²), k is the thermal conductivity (W/m·K), dT is the temperature difference (K), and dx is the thickness (m).</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "4.6.2 Importance in Engineering",
+   "id": "",
+   "html": "<p>Thermal conductivity is crucial in various engineering applications, such as designing heat exchangers, insulation materials, and heat sinks. For example, in a heat exchanger, a material with high thermal conductivity is preferred to transfer heat efficiently.</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A copper rod has a thermal conductivity of 385 W/m·K. If the temperature difference across a 1 m rod is 100^, and the area of the rod is 0.01 m², calculate the heat flow rate through the rod.<br /><br />Solution:<br />The heat flow rate q can be calculated using the formula:<br />[</div>\n<p>q = -k \\frac{dT}{dx} = 385 \\, \\text{W/m·K} \\times \\frac{100 \\, \\text{K}}{1 \\, \\text{m}} = 38500 \\, \\text{W}</p>\n<p>]</p>\n<blockquote>Therefore, the heat flow rate is 38500 W.</blockquote>",
+   "examples": [
+    "A copper rod has a thermal conductivity of 385 W/m·K. If the temperature difference across a 1 m rod is 100^, and the area of the rod is 0.01 m², calculate the heat flow rate through the rod. Solution: The heat flow rate q can be calculated using the formula: ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.6.3 Applications in Design",
+   "id": "",
+   "html": "<p>Understanding thermal conductivity is essential in designing materials that can withstand high temperatures or that provide effective insulation. For instance, in designing a heat sink for an electronic component, a material with high thermal conductivity should be chosen to dissipate heat efficiently.</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A heat sink is to be designed for a processor that generates 100 W of heat. If the heat sink is to be made of aluminum with a thermal conductivity of 237 W/m·K, and the temperature difference across the heat sink is 50^, what is the minimum area of the heat sink required to ensure the temperature does not exceed 70^?<br /><br />Solution:<br />The heat flow rate q is given by:<br />[</div>\n<p>q = -k \\frac{dT}{dx} = 237 \\, \\text{W/m·K} \\times \\frac{50 \\, \\text{K}}{A} = 100 \\, \\text{W}</p>\n<p>]</p>\n<blockquote>Solving for A:<br />[</blockquote>\n<p>A = \\frac{237 \\times 50}{100} = 118.5 \\, \\text{m}^2</p>\n<p>]</p>\n<blockquote>Therefore, the minimum area of the heat sink required is 118.5 m².</blockquote>",
+   "examples": [
+    "A heat sink is to be designed for a processor that generates 100 W of heat. If the heat sink is to be made of aluminum with a thermal conductivity of 237 W/m·K, and the temperature difference across the heat sink is 50^, what is the minimum area of the heat sink required to ensure the temperature does not exceed 70^? Solution: The heat flow rate q is given by: ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "4.6.4 Conclusion",
+   "id": "",
+   "html": "<p>Understanding the types of thermometers and the coefficient of thermal conductivity is crucial for engineering applications. These principles are applied in designing efficient heat exchangers, insulation materials, and heat sinks, among other applications.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition and Importance",
+   "id": "",
+   "html": "<p><strong>Expansion of solids</strong> refers to the increase in the dimensions of a solid material when it is heated. This phenomenon is crucial in various engineering applications, such as the design of bridges, buildings, and machinery. The <strong>coefficient of linear expansion (α)</strong> is a measure of the fractional increase in length of a material per degree increase in temperature. It is defined as:</p>\n<p>[ \\alpha = \\frac{\\Delta L / L_0}{\\Delta T} ]</p>\n<p>where Δ L is the change in length, L₀ is the original length, and Δ T is the change in temperature.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Understanding the Coefficient of Linear Expansion",
+   "id": "",
+   "html": "<p>The coefficient of linear expansion varies with the type of material. Common materials have different values of α. For instance, metals generally have higher coefficients of linear expansion compared to ceramics and plastics.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Factors Affecting Coefficient of Linear Expansion",
+   "id": "",
+   "html": "<p>The coefficient of linear expansion is influenced by the material's atomic structure and the strength of intermolecular forces. For example, metals with more mobile atoms, such as copper (Cu), have higher coefficients of linear expansion compared to less mobile atoms, like tungsten (W).</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Examples of Coefficients of Linear Expansion",
+   "id": "",
+   "html": "<ul>\n<li>Copper (Cu): α = 1.7 × 10⁻⁵ ^ C⁻¹</li>\n<li>Steel: α = 1.2 × 10⁻⁵ ^ C⁻¹</li>\n<li>Aluminum (Al): α = 2.4 × 10⁻⁵ ^ C⁻¹</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Calculation of Linear Expansion",
+   "id": "",
+   "html": "<p>The change in length (Δ L) of a solid due to a temperature change (Δ T) can be calculated using the formula:</p>\n<p>[ \\Delta L = \\alpha L_0 \\Delta T ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A steel rod with an original length of 1 meter is heated from 20^ C to 120^ C. Calculate the change in length of the rod given that the coefficient of linear expansion for steel is 1.2 × 10⁻⁵ ^ C⁻¹.</div>\n<ol>\n<li><strong>Identify the given values:</strong></li>\n</ol>\n<ul>\n<li>Original length (L₀) = 1 meter</li>\n<li>Initial temperature (T₁) = 20^ C</li>\n<li>Final temperature (T₂) = 120^ C</li>\n<li>Coefficient of linear expansion (α) = 1.2 × 10⁻⁵ ^ C⁻¹</li>\n</ul>\n<ol>\n<li><strong>Calculate the change in temperature (Δ T):</strong></li>\n</ol>\n<p>[ \\Delta T = T_2 - T_1 = 120^\\circ C - 20^\\circ C = 100^\\circ C ]</p>\n<ol>\n<li><strong>Apply the formula for linear expansion:</strong></li>\n</ol>\n<p>[ \\Delta L = \\alpha L_0 \\Delta T ]</p>\n<p>[ \\Delta L = (1.2 \\times 10^{-5} \\, ^\\circ C^{-1}) \\times 1 \\, \\text{m} \\times 100 \\, ^\\circ C ]</p>\n<p>[ \\Delta L = 1.2 \\times 10^{-3} \\, \\text{m} ]</p>\n<ol>\n<li><strong>Convert the change in length to millimeters (mm):</strong></li>\n</ol>\n<p>[ \\Delta L = 1.2 \\times 10^{-3} \\, \\text{m} \\times 1000 \\, \\text{mm/m} = 1.2 \\, \\text{mm} ]</p>\n<p>Therefore, the change in length of the steel rod is 1.2 mm.</p>",
+   "examples": [
+    "A steel rod with an original length of 1 meter is heated from 20^ C to 120^ C. Calculate the change in length of the rod given that the coefficient of linear expansion for steel is 1.2 × 10⁻⁵ ^ C⁻¹."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>The expansion of solids, particularly the coefficient of linear expansion, is a fundamental concept in engineering and materials science. Understanding this helps in designing structures and machinery that can withstand temperature changes without significant deformation. The formula for linear expansion and the practical example provided can be directly applied in solving related problems in exams.</p>",
+   "examples": [],
+   "mermaid": []
+  }
+ ]
+}

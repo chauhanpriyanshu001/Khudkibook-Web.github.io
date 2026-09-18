@@ -1,0 +1,677 @@
+Environment and Sustainability Course Code: .................
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 1 of 10
+GUJARAT TECHNOLOGICAL UNIVERSITY (GTU)
+Competency-focused Outcome-based Green Curriculum-2021 (COGC-2021)
+I – Semester
+Course Title: Environment and Sustainability
+(Course Code: 4300003)
+Diploma programme in which this course is offered Semester in which offered
+Chemical, Mechatronics, Computer First
+Civil, Environment, Mining, Architectural Assistantship,
+Mechanical, Automobile, Marine, Metallurgy,
+Fabrication, Electrical, Electronics and Communication,
+Instrumentation and Control, Bio Medical, Power
+Electronics, IT, Textile Manufacturing, Textile
+Processing, Textile Design, Printing, Plastics, Ceramics,
+CACDDM , Computer Science and Engineering.
+Second
+1. RATIONALE
+For a country to progress, sustainable development is one of the key factors. Environment
+conservation and hazard management is of much importance to every citizen of India.
+Considerable amount of energy is being wasted. Energy saved is energy produced.
+Environmental pollution is on the rise due to rampant industrial mismanagement and
+indiscipline. Renewable energy is one of the answers to the energy crisis and also to reduce
+environmental pollution. Therefore this course has been designed to develop a general
+awareness of these and related issues so that the every student will start acting as a
+responsible citizen to make the country and the world a better place to live in.
+2. COMPETENCY
+The purpose of this course is to help the student to attain the following industry identified
+competency through various teaching learning experiences:
+ Adopt the sustainable practices to resolve the environment related issues.
+3. COURSE OUTCOMES (Cos)
+The practical exercises, the underpinning knowledge and the relevant soft skills associated
+with this competency are to be developed in the student to display the following COs:
+a) Adopt relevant ecofriendly product in the given situation to protect ecosystem
+b) use relevant method of pollution reduction in the given situation
+c) Use of renewable resources of energy for sustainable development
+d) Use the relevant techniques in given context to reduce impact due to climate change
+Use relevant laws and policies for developing the sustainable environmental
+development
+4. TEACHING AND EXAMINATION SCHEME
+Teaching Scheme
+(In Hours)
+Total Credits
+(L+T/2+P/2)
+Examination Scheme
+Theory Marks Practical Marks Total
+Marks	L T P C CA ESE CA ESE
+3 0 0 3 30* 70 0 0 100
+
+-- 1 of 10 --
+
+Environment and Sustainability Course Code: .................
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 2 of 10
+(*): Out of 30 marks under the theory CA, 10 marks are for assessment of the micro-
+project to facilitate integration of COs and the remaining 20 marks is the average of 2
+tests to be taken during the semester for the assessing the attainment of the cognitive
+domain UOs required for the attainment of the COs.
+Legends: L-Lecture; T – Tutorial/Teacher Guided Theory Practice; P - Practical; C –
+Credit, CA - Continuous Assessment; ESE - End Semester Examination.
+5. SUGGESTED PRACTICAL EXERCISES – Not Applicable
+The following practical outcomes (PrOs) that are the sub-components of the COs. Some of the
+PrOs marked ‘*’ are compulsory, as they are crucial for that particular CO at the ‘Precision
+Level’ of Dave’s Taxonomy related to ‘Psychomotor Domain’.
+S.
+No. Practical Outcomes (PrOs) Unit
+No.
+Approx.
+Hrs.
+required
+Total 44
+Note
+i. More Practical Exercises can be designed and offered by the respective course teacher to
+develop the industry relevant skills/outcomes to match the COs. The above table is only a
+suggestive list.
+ii. The following are some sample ‘Process’ and ‘Product’ related skills (more may be
+added/deleted depending on the course) that occur in the above listed Practical Exercises
+of this course required which are embedded in the COs and ultimately the competency..
+S. No. Sample Performance Indicators for the PrOs Weightage in %
+1 Prepare of experimental setup 20
+2 Operate the equipment setup or circuit 20
+3 Follow safe practices measures 10
+4 Record observations correctly 20
+5 Interpret the result and conclude 30
+Total 100
+6. MAJOR EQUIPMENT/ INSTRUMENTS REQUIRED – (Not Applicable)
+These major equipment with broad specifications for the PrOs is a guide to procure them by
+the administrators to usher in uniformity of practicals in all institutions across the state.
+S.
+No. Equipment Name with Broad Specifications PrO. No.
+1
+7. AFFECTIVE DOMAIN OUTCOMES
+The following sample Affective Domain Outcomes (ADOs) are embedded in many of the above
+mentioned COs and PrOs. More could be added to fulfil the development of this competency.
+a) Work as a leader/a team member.
+b) Follow ethical practices.
+c) Practice environmental friendly methods and processes. (Environment related)
+
+-- 2 of 10 --
+
+Environment and Sustainability Course Code: .................
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 3 of 10
+The ADOs are best developed through the laboratory/field based exercises. Moreover, the level
+of achievement of the ADOs according to Krathwohl’s ‘Affective Domain Taxonomy’ should
+gradually increase as planned below:
+i. ‘Valuing Level’ in 1st year
+ii. ‘Organization Level’ in 2nd year.
+iii. ‘Characterization Level’ in 3rd year.
+8. UNDERPINNING THEORY
+Only the major Underpinning Theory is formulated as higher level UOs of Revised Bloom’s
+taxonomy in order development of the COs and competency is not missed out by the students
+and teachers. If required, more such higher level UOs could be included by the course teacher
+to focus on attainment of COs and competency.
+Unit Unit Outcomes (UOs)
+(4 to 6 UOs at Application and
+above level)
+Topics and Sub-topics
+Unit – I
+Ecosystem
+1a. Explain the Structure with
+components of the given
+Ecosystem
+1b. Explain Carbon, Nitrogen,
+Sulphur and phosphorus cycle
+for the given ecosystem.
+1c. Justify the need to conserve the
+given Ecosystem on the w.r.t.
+following points:
+ carrying capacity of earth
+ Biomes,
+ Ecologically sensitive area
+1d. Explain the term biodiversity
+with its importance.
+1e. Illustrate the importance of
+IUCN red list in environmental
+engineering.
+1f. Calculate global ecological
+overshoot and virtual water
+requirement of given natural
+and man-made materials.
+1.1 Structure and components of
+ecosystem
+1.2 Types of Ecosystem, changes in
+ecosystem
+1.3 Various natural cycles like carbon,
+Nitrogen, Sulphur, Phosphorus
+1.4 Ecosystem conservation, carrying
+capacity of earth, Biomes in India,
+(ESA) Ecologically sensitive areas
+1.5 Bio diversity, its need and
+importance, International Union for
+Conservation of Nature (IUCN) red
+list
+1.6 Concept of Ecological foot print,
+virtual water, global ecological
+overshoot
+Unit – II
+Pollution
+and its
+types
+2a. Explain the term, “pollution
+and pollutant” in the given
+situation.
+2b. Classify the air pollution on the
+basis of its source
+2c. Use relevant equipment to
+control given type of air
+pollution.
+2.1. Definition of pollution and pollutant
+2.2. Air pollution, classification and its
+sources
+2.3. Air pollution control Equipments
+2.4. Water pollution, pollution
+parameters like BOD,COD, pH, Total
+suspended solids, Turbidity, Total
+Solids
+2.5. Waste water treatment like primary,
+
+-- 3 of 10 --
+
+Environment and Sustainability Course Code: .................
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 4 of 10
+Unit Unit Outcomes (UOs)
+(4 to 6 UOs at Application and
+above level)
+Topics and Sub-topics
+2d. Explain relevant techniques of
+treatment to deal with given
+type of water pollution.
+2e. Apply relevant techniques of
+Solid waste management based
+on its characteristics.
+2f. Explain drawbacks of noise
+pollution in given situation.
+2g. Describe the environmental
+degradation due to Plastic
+waste and E- waste
+secondary and tertiary
+2.6. Solid waste generation, sources and
+characteristics of Muncipal solid
+waste
+2.7. Collection and disposal of Muncipal
+waste and Hazardous waste
+2.8. Noise pollution- its effects, sources
+and measurement
+2.9. Plastic waste and its hazard
+2.10. E waste and its hazard
+Unit– III
+Renewable
+sources of
+energy
+3a. Justify the need of renewable
+energy adopting relevant
+energy policy in given situation.
+3b. Explain the working of the solar
+thermal and PV systems with
+sketch in given situation.
+3c. Justify the need of Advanced
+collector, Solar Pond, Solar
+water heater, Solar dryer in the
+given system.
+3d. Emphasize the importance of
+wind power in India
+3e. Select the relevant type of wind
+turbines in the given situation.
+3f. Identify the relevant types of
+Sources of biomass energy.
+3g. Draw the neat labelled diagram
+of simple biogas plant to
+explain its working.
+3h. Identify the sources of the
+energy generation for the given
+situation.
+3.1 Need of Renewable energy and energy
+policy
+3.2 Solar energy: National solar mission
+3.3 Features of solar thermal and PV
+systems
+Advanced collector, Solar Pond, Solar
+water heater, Solar dryer,
+polycrystalline, monocrystalline and
+thin film PV systems
+3.4 Wind Energy: Growth of wind power in
+India
+3.5 Types of wind turbines – Vertical axis
+wind turbines (VAWT) and horizontal
+axis wind turbines (HAWT)
+3.6 Types of HAWTs – drag and lift types
+3.7 Biomass: Overview of biomass as energy
+source. Thermal characteristics of
+biomass as fuel
+3.8 Anaerobic digestion, Biogas production
+mechanism, utilization and storage.
+3.9 New energy sources: Geothermal energy,
+Ocean energy sources, Tidal energy
+conversion, Hydrogen energy
+Unit– IV
+Climate
+Change
+4a. Explain the term, “climate
+change” in context of
+environment.
+4b. Describe the ill effects of Global
+warming due to various causes
+arising in the given situation.
+4c. Explain the term, “greenhouse
+effect” with its causes.
+4d. Relate the impact of Ozone
+depletion in climate change due
+to its causes.
+4.2 Definition of climate change
+4.3 Global warming-causes, effect,
+process
+4.4 Greenhouse effect
+4.5 Ozone depletion
+4.6 Factors affecting climate change
+4.7 Impact and mitigation
+4.8 Climate change management
+
+-- 4 of 10 --
+
+Environment and Sustainability Course Code: .................
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 5 of 10
+Unit Unit Outcomes (UOs)
+(4 to 6 UOs at Application and
+above level)
+Topics and Sub-topics
+4.1 Identify Factors affecting
+climate change in given locality.
+4e. Justify the need of relevant
+Climate change management
+system to reduce the impact of
+climate change in the given
+context.
+Unit– V
+Environme
+ntal
+legislation
+and
+sustainable
+practices
+5.a Use relevant policy or law in
+relation with environment in
+given situation
+5.b Relate the relevant provision of
+given act in given situation.
+5.c Explain the necessity of the
+Environmental management
+system in given situation.
+5.d Use the principle of Rain water
+harvesting in the given
+situation.
+5.e Justify the necessity of Green
+building in India.
+5.f. Adopt the relevant rating
+system for energy calculation
+for the given building.
+5.f Explain the terms, “Cradle to
+cradle concept” and “Life cycle
+analysis”
+5.g Emphasize the importance of
+Carbon credit system in India.
+5.h Explain the importance of 5R
+concept.
+5.1 Environmental policies in India
+5.2 Air act, water act, Environment
+protection act, wild life protection
+act, Forest conservation act,
+Biodiversity act
+5.3 Environmental management system:
+ISO 14000, definition and benefits
+5.4 Rain water harvesting
+5.5 Green building and rating system in
+India
+5.6 Cradle to cradle concept and Life
+cycle analysis
+5.7 Green label
+5.8 Carbon credit system its advantages
+and disadvantages
+5.9 Concept of 5R(Refuse, Reduce,
+Reuse, Repurpose, Recycle)
+5.10 Eco tourism: advantages and
+disadvantages
+Note: The UOs need to be formulated at the ‘Application Level’ and above of Revised Bloom’s
+Taxonomy’ to accelerate the attainment of the COs and the competency.
+9. SUGGESTED SPECIFICATION TABLE FOR QUESTION PAPER DESIGN
+Unit
+No.
+Unit Title Teaching
+Hours
+Distribution of Theory Marks
+R
+Level
+U
+Level
+A Total
+Marks
+I Ecosystem 08 6 6 2 14
+II Pollution and its types 10 4 6 6 16
+III Renewable sources of energy 10 4 6 6 16
+IV Climate Change 08 4 6 4 14
+
+-- 5 of 10 --
+
+Environment and Sustainability Course Code: .................
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 6 of 10
+Unit
+No.
+Unit Title Teaching
+Hours
+Distribution of Theory Marks
+R
+Level
+U
+Level
+A Total
+Marks
+V Environmental legislation and
+sustainable practices
+06 5 3 2 10
+Total 42 12 28 30 70
+Legends: R=Remember, U=Understand, A=Apply and above (Revised Bloom’s taxonomy)
+Note: This specification table provides general guidelines to assist student for their learning
+and to teachers to teach and question paper designers/setters to formulate test
+items/questions assess the attainment of the UOs. The actual distribution of marks at different
+taxonomy levels (of R, U and A) in the question paper may vary slightly from above table.
+10. SUGGESTED STUDENT ACTIVITIES
+Other than the classroom and laboratory learning, following are the suggested student-related
+co-curricular activities which can be undertaken to accelerate the attainment of the various
+outcomes in this course: Students should conduct following activities in group and prepare
+reports of about 5 pages for each activity, also collect/record physical evidences for their
+(student’s) portfolio which will be useful for their placement interviews:
+a) Prepare specification of some renewable sources of energy.
+b) Undertake micro-projects in teams
+c) Give seminar on any relevant topic.
+d) Undertake a market survey of different green materials.
+e) Prepare showcase portfolios.
+f) Prepare report on various issues related to environment and sustainable development
+g) Publish a research paper on themes related to environment and sustainable
+development.
+h) Compare the pollution (water, air and noise) data of various cities with standard values
+as laid by pollution control board.
+i) Undertake some small mini projects on various issues related to environment and
+sustainable development.
+j) Submit a report on visit to an energy park
+k) Prepare power point on clean and green technologies
+l) Submit a report on visit to garbage disposal system in your city/town.
+m) Submit a report on analysis of the life cycle of any one or two eco-friendly product/s.
+n) Calculate ecological footprint using various calculator available on web with a report
+recommending ways and means to reduce ecological footprint.
+o) Give seminar on relevant topic.
+p) Undertake micro-projects.
+11. SUGGESTED SPECIAL INSTRUCTIONAL STRATEGIES (if any)
+These are sample strategies, which the teacher can use to accelerate the attainment of the
+various outcomes in this course:
+a) Massive open online courses (MOOCs) may be used to teach various topics/sub topics.
+b) Guide student(s) in undertaking micro-projects.
+c) ‘L’ in section No. 4 means different types of teaching methods that are to be employed
+by teachers to develop the outcomes.
+
+-- 6 of 10 --
+
+Environment and Sustainability Course Code: .................
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 7 of 10
+d) About 20% of the topics/sub-topics which are relatively simpler or descriptive in
+nature is to be given to the students for self-learning, but to be assessed using
+different assessment methods.
+e) With respect to section No.10, teachers need to ensure to create opportunities and
+provisions for co-curricular activities.
+f) Guide students on how to address issues on environment and sustainability
+g) Guide students for using data manuals.
+h) Guide students for using data manuals.
+i) Arrange visit to nearby industries and workshops for understanding various sources of
+pollution.
+j) Use video/animation films to explain various processes related to environment and
+sustainable development
+k) Use different instructional strategies in classroom teaching.
+l) Write the report on properties of various eco-friendly construction materials like
+Stone, aggregate of different sizes, timber, lime, bitumen, Bricks, tiles, precast
+concrete products, Water proofing material, Termite proofing material, Thermal
+insulating material, plaster of Paris, paints, distemper, and varnishes.
+m) Display various technical brochures of recent projects/themes related to environment
+and sustainable development
+n) Visit the Pollution control board office and its various projects to demonstrate the
+various practices adopted for control of Pollution
+12. SUGGESTED MICRO-PROJECTS
+Only one micro-project is planned to be undertaken by a student that needs to be assigned to
+him/her in the beginning of the semester. In the first four semesters, the micro-project are
+group-based. However, in the fifth and sixth semesters, it should be preferably be individually
+undertaken to build up the skill and confidence in every student to become problem solver so
+that s/he contributes to the projects of the industry. In special situations where groups have
+to be formed for micro-projects, the number of students in the group should not exceed three.
+The micro-project could be industry application based, internet-based, workshop
+based, laboratory-based or field-based. Each micro-project should encompass two or more
+COs which are in fact, an integration of PrOs, UOs and ADOs. Each student will have to
+maintain dated work diary consisting of individual contribution in the project work and give a
+seminar presentation of it before submission. The total duration of the micro-project should
+not be less than 16 (sixteen) student engagement hours during the course. The student ought
+to submit micro-project by the end of the semester to develop the industry-oriented COs.
+A suggestive list of micro-projects is given here. This has to match the competency and
+the COs. Similar micro-projects could be added by the concerned course teacher:
+a) Natural cycles: Build a Chart showing different natural cycles like Carbon,
+Nitrogen,Sulphur and phosphorus cycle.)
+b) Solar Energy: Build a model of Solar water heater/Solar cooker
+c) Wind energy: Build a model of wind mill
+d) Best out of waste: Build useful items from waste materials like used plastic bottles,
+discarded pens etc.
+
+-- 7 of 10 --
+
+Environment and Sustainability Course Code: .................
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 8 of 10
+e) Compare the pollution (water, air and noise) data of various cities with standard values
+as laid by pollution control board.
+f) Surf different websites related environment and sustainable development, Pollution
+control.
+g) Prepare energy audit report of any residential building.
+h) Collect relevant information about the software used in pollution control.
+o) Visit to ongoing project and study various aspects related to environment and
+sustainable development
+13. SUGGESTED LEARNING RESOURCES
+S.
+No. Title of Book Author Publication with place, year and ISBN
+1 Renewable Energy
+Technologies: A Practical
+Guide for Beginners
+Solanki, Chetan
+Singh
+PHI Learning, New Delhi, 2010
+Print Book ISBN: 9788120334342
+eBook ISBN: 9789354437151
+2 Ecology and Control of the
+Natural Environment
+Izrael,Y.A. Kluwer Academic Publisher
+eBook ISBN: 978-94-011-3390-6
+Softcover ISBN: 978-94-010-5499-7
+3 Green Technologies and
+Environmental
+Sustainability
+Singh, Ritu,
+Kumar, Sanjeev
+Springer International Publishing, 2017
+ eBook ISBN 978-3-319-50654-8
+4 Environmental Noise
+Pollution and Its Control
+G.R. Chhatwal, M.
+Satake, M.C.
+Mehra, Mohan
+Katyal, T. Katyal,
+T. Nagahiro
+Anmol Publications, New Delhi
+ISBN: 8170411378
+ISBN: 8170411378
+5 Wind Power Plants and
+Project Development
+Earnest, Joshua &
+Wizelius, Tore
+PHI Learning, New Delhi, 2011
+ISBN-10: 8120351274
+ISBN-13: 978-8120351271
+6 Renewable Energy Sources
+and Emerging
+Technologies
+Kothari, D.P.
+Singal, K.C.,
+Ranjan, Rakesh
+PHI Learning, New Delhi, 2009
+ISBN-13 - 978-8120344709
+7 Environmental Studies Anandita Basak Pearson Publications
+ISBN 8131785688, 9788131785683
+ ISBN: 9788131721186, 8131721183
+8 Environmental Science and
+Engineering
+Aloka Debi University Press
+ISBN: 9788173718113
+ISBN-10: 8173716080
+ISBN-13: 978-8173716089
+9 Coping With Natural
+Hazards: Indian Context
+K. S. Valadia Orient Longman
+ISBN-10: 8125027351
+ISBN-13: 978-8125027355
+10 Introduction to Engineering
+and Environment
+Edward S. Rubin Mc Graw Hill Publications
+ISBN-10 : 0071181857
+ISBN-13 : 978-0071181853
+
+-- 8 of 10 --
+
+Environment and Sustainability Course Code: .................
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 9 of 10
+14. SOFTWARE/LEARNING WEBSITES
+a) www.nptel.iitm.ac.in
+b) www.khanacademy
+c) http://www1.eere.energy.gov/wind/wind_animation.html
+d) http://www.nrel.gov/learning/re_solar.html
+e) http://www.nrel.gov/learning/re_biomass.html
+f) http://www.mnre.gov.in/schemes/grid-connected/biomass-powercogen/
+g) http://www.epa.gov/climatestudents/
+h) http://www.climatecentral.org
+i) http://www.envis.nic.in/
+j) https://www.overshootday.org/
+k) http://www.footprintcalculator.org/
+l) https://www.carbonfootprint.com/calculator.aspx
+15. PO-COMPETENCY-CO MAPPING
+Legend: ‘3’ for high, ‘2’ for medium, ‘1’ for low or ‘-’ for the relevant correlation of each competency, CO, with PO/ PSO
+Semester II Environment and Sustainability (Course Code: …………………)
+POs and PSOs
+Competency
+& Course Outcomes
+PO 1
+Basic &
+Discipline
+specific
+knowledg
+e
+PO 2
+Proble
+m
+Analysi
+s
+PO 3
+Design/
+develop
+ment of
+solutio
+ns
+PO 4
+Engineering
+Tools,
+Experiment
+ation
+&Testing
+PO 5
+Engineering
+practices for
+society,
+sustainability
+&
+environment
+PO 6
+Project
+Manageme
+nt
+PO 7
+Life-long
+learning
+PSO 1
+Environm
+ental
+planning
+& deisgn
+PSO 2
+Execution
+&
+Maintenan
+ce
+Competency - Adopt the sustainable practices to resolve the environment related issues
+a. Adopt relevant ecofriendly
+product in the given situation
+to protect ecosystem 2 1 1 - 2 1 1 2 2
+b. use relevant method of
+pollution reduction in the
+given situation
+2 2 1 1 2 - 2 2 2
+c. Use of renewable resources of
+energy for sustainable
+development
+2 2 2 1 2 2 1 2 2
+d. Use the relevant techniques in
+given context to reduce
+impact due to climate change
+2 2 2 1 2 1 2 2 2
+e. Use relevant laws and policies
+for developing the sustainable
+environmental development
+2 2 2 1 1 1 1 2 2
+
+-- 9 of 10 --
+
+Environment and Sustainability Course Code: .................
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 10 of 10
+16. COURSE CURRICULUM DEVELOPMENT COMMITTEE
+GTU Resource Persons
+S.
+No. Name and Designation Institute Contact No. Email
+1 Dr. Jayesh Shah
+Ass. Dean GTU,
+Pacific School of
+Engineering, Surat
+9825436342 jayesh.shah.23021971
+@gmail.com
+2 Mrs. Jini Sunil
+Shri K.J.
+Polytechnic,
+Bharuch
+9601880636 jinivt@rediffmail.com
+NITTTR Resource Persons
+S.
+No Name and Designation Dept. Contact No. Email
+1 Dr. V.D.Patil,
+Associate Professor, DCEEE DCEEE 9422346736 vdpatil@nitttrbpl.ac.in
+2 Prof. M.C.Paliwal,
+Associate Professor, DCEEE DCEEE 9407271980 mcpaliwal@nitttrbpl.ac.in
+
+-- 10 of 10 --
+

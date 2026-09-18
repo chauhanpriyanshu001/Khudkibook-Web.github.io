@@ -1,0 +1,129 @@
+{
+ "code": "3110001",
+ "subject": "Chemistry",
+ "branchLabel": "Gujarat Technological University Aeronautical Engineering Semester 1",
+ "subjectPage": "/aeronautical/sem1/chemistry.html",
+ "units": [
+  {
+   "n": 1,
+   "label": "Unit – General Chemistry",
+   "file": "unit-1.html",
+   "guFile": null,
+   "words": 3603,
+   "readingMin": 20,
+   "marks": ""
+  },
+  {
+   "n": 2,
+   "label": "Unit – Water Technology",
+   "file": "unit-2.html",
+   "guFile": null,
+   "words": 3594,
+   "readingMin": 20,
+   "marks": ""
+  },
+  {
+   "n": 3,
+   "label": "Unit – Metals, Alloys and Corrosion",
+   "file": "unit-3.html",
+   "guFile": null,
+   "words": 3671,
+   "readingMin": 20,
+   "marks": ""
+  },
+  {
+   "n": 4,
+   "label": "Unit – Polymers and Fibers",
+   "file": "unit-4.html",
+   "guFile": null,
+   "words": 5127,
+   "readingMin": 28,
+   "marks": ""
+  },
+  {
+   "n": 5,
+   "label": "Unit – Nano material",
+   "file": "unit-5.html",
+   "guFile": null,
+   "words": 2936,
+   "readingMin": 16,
+   "marks": ""
+  },
+  {
+   "n": 6,
+   "label": "Unit – Fuel and Combustion",
+   "file": "unit-6.html",
+   "guFile": null,
+   "words": 3628,
+   "readingMin": 20,
+   "marks": ""
+  },
+  {
+   "n": 7,
+   "label": "Unit – Chemical aspect of Biotechnology",
+   "file": "unit-7.html",
+   "guFile": null,
+   "words": 3428,
+   "readingMin": 19,
+   "marks": ""
+  },
+  {
+   "n": 8,
+   "label": "Unit – Analytical Techniques",
+   "file": "unit-8.html",
+   "guFile": null,
+   "words": 2041,
+   "readingMin": 11,
+   "marks": ""
+  }
+ ],
+ "title": "Chemistry",
+ "titleGu": "Chemistry",
+ "pages": [
+  {
+   "n": 1,
+   "file": "unit-1.html",
+   "marks": "40% of the end-semester theory paper",
+   "hours": 5
+  },
+  {
+   "n": 2,
+   "file": "unit-2.html",
+   "hours": 5
+  },
+  {
+   "n": 3,
+   "file": "unit-3.html",
+   "hours": 6
+  },
+  {
+   "n": 4,
+   "file": "unit-4.html",
+   "marks": "40% of the end-semester theory paper",
+   "hours": 7
+  },
+  {
+   "n": 5,
+   "file": "unit-5.html",
+   "hours": 5
+  },
+  {
+   "n": 6,
+   "file": "unit-6.html",
+   "hours": 5
+  },
+  {
+   "n": 7,
+   "file": "unit-7.html",
+   "marks": "20% of the end-semester theory paper",
+   "hours": 5
+  },
+  {
+   "n": 8,
+   "file": "unit-8.html",
+   "hours": 4
+  }
+ ],
+ "full": "full-book.html",
+ "updatedAt": "2026-09-11T21:10:19.061Z"
+}

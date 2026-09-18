@@ -1,0 +1,182 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Degree
+Branch: All branches
+Course / Subject Code : BE01000031
+Course / Subject Name : Chemistry
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 1 | 4
+w. e. f. Academic Year: 2024-25
+Semester: Ist Year
+Category of the Course: BSC
+Prerequisite: Basic knowledge of general chemistry.
+Rationale: Every material is made up of atoms. Material is deeply integrated with engineering,
+therefore, basic chemistry is essential to understand the nature and properties of
+material. The selection, characterization, and suitability assessment of natural raw
+materials essentially requires principles and concepts of basic chemistry. Successful
+completion of this course content will enable engineers to understand, ascertain and
+analyze the various new materials and enable to solve engineering problems.
+Course Outcome:
+After Completion of the Course, Student will able to:
+No Course Outcomes RBT Level
+01 Define chemical properties of atom, molecule, metal, alloys and energy sources. R
+02 Relate atomic and molecular structure with their reactivity U
+03 Solve the engineering problems related to fuel, water and corrosion A
+04 Compare recent Nano-material, ecofriendly materials and energy storage
+devices
+E
+05 Analyze properties of materials by various tools. N
+*Revised Bloom’s Taxonomy (RBT)
+Teaching and Examination Scheme:
+Teaching Scheme
+(in Hours)
+Total
+Credits
+L+T+
+(PR/2)
+Assessment Pattern and Marks
+Total
+Marks
+L T PR C
+Theory Tutorial / Practical
+ESE
+(E)
+PA / CA
+(M) PA/CA (I) ESE (V)
+3 0 2 4 70 30 20 30 150
+
+-- 1 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Degree
+Branch: All branches
+Course / Subject Code : BE01000031
+Course / Subject Name : Chemistry
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 2 | 4
+Course Content:
+Unit
+No. Content No. of
+Hours
+% of
+Weightage
+1.
+Basic chemistry: Wave mechanical concept of structure of atom; de
+Broglie’s concept, Heisenberg’s uncertainty principle, Schrodinger’s
+wave equation.
+Shape and structure of diatomic molecules; types of hybridization (sp,
+sp2, sp3, sp3d and sp3d2). Hard soft acids and bases concept and its
+applications.
+8 18
+2.
+Water technology: Hardness of water, softening of water, boiler
+problems; caustic embrittlement, sludge, scale, priming and foaming.
+Corrosion: Introduction to corrosion, theories of corrosion, types of
+corrosion, protective measurements against corrosion; organic and
+inorganic materials, inhibitors, cathodic protection.
+10 22
+3.
+Material chemistry: Properties and applications of fullerenes,
+fullerols, carbon nanotubes, nanowires and metal nanoparticles. Top
+down and bottom up approaches for synthesis of nanomaterials.
+Biodegradable polymers. Bio-based feedstock.
+Metals and Alloys: properties and applications. Heat treatments of
+steel. Types of alloys, Alloys of copper, aluminum and nickel.
+10 22
+4.
+Fuel and batteries: Refining of petroleum, determination of calorific
+value by bombs calorimeter, Knocking and octane number. Ultimate and
+proximate analysis of coal. Biofuels; Biodiesel and biomass briquettes.
+Introduction to rechargeable cells, lithium batteries; construction and
+working. Photolysis of water.
+Fermentation: Synthesis of ethanol, acetic acid and pharma products
+by fermentation.
+10 22
+5.
+Instrumental analysis: Principle and working of UV-Visible, Infra-
+Red, and NMR spectroscopy and their applications. Introduction to
+chromatographic techniques; thin layer chromatography, gas
+chromatography, liquid chromatography.
+7 16
+Total 45 100
+
+-- 2 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Degree
+Branch: All branches
+Course / Subject Code : BE01000031
+Course / Subject Name : Chemistry
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 3 | 4
+Suggested Specification Table with Marks (Theory):
+Distribution of Theory Marks (in %)
+R Level U Level A Level N Level E Level C Level
+16 16 36 11 21 0
+Where R: Remember; U: Understanding; A: Application, N: Analyze and E: Evaluate C: Create (as per
+Revised Bloom’s Taxonomy)
+References/Suggested Learning Resources:
+(a) Books:
+1. Engineering Chemistry, Willey-India.
+2. Engineering Chemistry by Jain and Jain, Dhanpat Rai Publishing Co.
+3. Engineering Chemistry by Marry Jane Shultz, Cencage Learning.
+4. Engineering Chemistry by N. Krishnamurthy, P. Vallinaygam and D. Madhavan, PHI Learning.
+5. Engineering Chemistry by K. Sesha Maheswaramma and Mridula Chugh, Pearson India
+Education Pvt Ltd.
+6. Engineering Chemistry by B K. Sharma, Krishna, Prakashan Media (P) Ltd.
+7. A textbook of Engineering Chemistry by Shashi Chawla, Dhanpat Rai Publishing Co. Ltd.
+8. Fundamentals of Biotechnology by B D Singh, Kalyani Publisher. New Delhi.
+9. Essential of Physical Chemistry by Bahl and Tuli., S Chand & Co. Ltd, New Delhi.
+10. Introduction to Nano Science by N N. Lindsay, Oxford University Press.
+11. NANO: The Essentials by T Pradeep Tata McGraw-Hill Publishing Company, New Delhi.
+(b) Open source software and website:
+1. https://nptel.ac.in/
+2. https://chem.libretexts.org/Courses/Remixer_University/Download_Center
+3. https://ocw.uci.edu/collections/open_chemistry.html#
+4. https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/
+Suggested Course Practical List:
+1. To determine the total hardness of the given samples by EDTA titrimetric method.
+2. To estimate moisture content in the given coal sample.
+3. To determine the amount of alkalinity present in the given samples.
+4. To determine the amount of chloride present in the given water sample by Mohr’s method.
+5. To determine the saponification value of an oil sample.
+6. To determine the concentration of unknown solution by spectrophotometer.
+7. To determine the percentage of iron in the given steel sample.
+
+-- 3 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Degree
+Branch: All branches
+Course / Subject Code : BE01000031
+Course / Subject Name : Chemistry
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ P a g e 4 | 4
+8. To determine the amount of copper in a given brass sample.
+9. To study the rate of corrosion by weight loss method.
+10. To carry out analysis of pyrolusite ore.
+11. To determine the Rf value of given sample by TLC method.
+12. To synthesis of metal nanoparticles (silver, gold or copper etc.)
+(Minimum 8 experiments to be performed)
+List of Laboratory/Learning Resources Required:
+1. Spectrophotometer.
+2. Laboratory oven.
+3. Melting point Instrument.
+4. Electronic balance
+5. TLC plates
+6. Various chemicals and glassware
+Suggested Project List:
+1. Construction of bio-reactor
+2. Construction of Li-cell
+3. Set-up for photolysis of water
+4. Synthesis of bio-degradable polymers
+5. Design concept based on circular economy
+Any other suitable project suggested by mentor or students.
+Suggested Activities for Students:
+1. Industrial visit
+2. Organizing seminar and workshop
+3. Participate in technical events
+4. Participate and involve in startup
+* * * * * * *
+
+-- 4 of 4 --
+

@@ -116,7 +116,7 @@ function generateSite() {
         return `
             <a href="${href}" class="rec-book-card" style="text-decoration: none;">
                 <div class="rec-card-cover">
-                    ${coverArea(book, 'rec-cover-img', `${book.name} - GTU Book Cover`)}
+                    ${coverHTML(book)}
                 </div>
                 <div class="rec-card-info">
                     <h4 class="rec-card-title">${book.name}</h4>
@@ -769,7 +769,37 @@ function generateSite() {
                 urlPrefix: domUrlPrefix,
                 branches: branches
             };
-        })).filter(d => d.branches.length > 0)
+        })).filter(d => d.branches.length > 0),
+        universities: (db.universities || []).map(unv => ({
+            id: unv.id,
+            name: unv.name,
+            shortName: unv.shortName || '',
+            domains: (unv.domains || []).map(dom => {
+                const domUrlPrefix = dom.urlPrefix || '';
+                const domPrefix = domUrlPrefix ? `/${domUrlPrefix}` : '';
+                const branches = sortBranchesPriority((dom.branches || []).map(branch => {
+                    const semesters = (branch.semesters || []).map(sem => ({
+                        id: sem.id,
+                        name: sem.name,
+                        subjectCount: (sem.subjects || []).length
+                    }));
+                    return {
+                        id: branch.id,
+                        name: titleCase(branch.name),
+                        shortName: branch.shortName || titleCase(branch.name),
+                        urlPrefix: domUrlPrefix,
+                        homepage: `${domPrefix}/${branch.id}homepage.html`,
+                        semesters: semesters
+                    };
+                }).filter(b => b.semesters.length > 0))
+                return {
+                    id: dom.id,
+                    name: dom.name,
+                    urlPrefix: domUrlPrefix,
+                    branches: branches
+                };
+            }).filter(d => d.branches.length > 0)
+        })).filter(u => u.domains.length > 0)
     };
 
     // Generate domain landing pages (Diploma/BE/ME homepage links)

@@ -1,0 +1,326 @@
+{
+ "code": "4300003",
+ "subject": "Environment and Sustainability",
+ "unit": 3,
+ "lang": "en",
+ "title": "Unit – Renewable sources of energy",
+ "url": "/books/4300003/unit-3.html",
+ "guUrl": null,
+ "words": 4078,
+ "readingMin": 23,
+ "marks": "16 marks (4 Remember + 6 Understand + 6 Apply) (per syllabus)",
+ "sections": [
+  {
+   "heading": "Unit – III: Renewable sources of energy",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code 4300003 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately <strong>16 marks (4 Remember + 6 Understand + 6 Apply) (per syllabus)</strong>.</p>\n<p>Learning objectives covered by this module:</p>\n<ul>\n<li>3.a. Justify the need of renewable energy adopting relevant energy policy in given situation.</li>\n<li>3.b. Explain the working of the solar thermal and PV systems with sketch in given situation.</li>\n<li>3.c. Justify the need of Advanced collector, Solar Pond, Solar water heater, Solar dryer in the given system.</li>\n<li>3.d. Emphasize the importance of wind power in India</li>\n<li>3.e. Select the relevant type of wind turbines in the given situation.</li>\n<li>3.f. Identify the relevant types of Sources of biomass energy.</li>\n<li>3.g. Draw the neat labelled diagram of simple biogas plant to explain its working.</li>\n<li>3.h. Identify the sources of the energy generation for the given situation.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Renewable Energy",
+   "id": "",
+   "html": "<p>Renewable energy sources are essential to meet the growing global energy demands while minimizing environmental impact. These sources are sustainable, meaning they can be replenished naturally, unlike fossil fuels. The primary types of renewable energy include solar, wind, hydro, geothermal, and biomass.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Need for Renewable Energy",
+   "id": "",
+   "html": "<ol>\n<li><strong>Environmental Sustainability:</strong></li>\n</ol>\n<ul>\n<li><strong>Reduction in Greenhouse Gas Emissions:</strong> Renewable energy sources produce little to no greenhouse gases, which helps in mitigating climate change.</li>\n<li><strong>Air Quality Improvement:</strong> Reduces air pollution from burning fossil fuels, leading to better public health.</li>\n</ul>\n<ol>\n<li><strong>Economic Benefits:</strong></li>\n</ol>\n<ul>\n<li><strong>Job Creation:</strong> The renewable energy sector creates a large number of jobs, ranging from manufacturing and installation to maintenance and research.</li>\n<li><strong>Energy Security:</strong> Reduces reliance on imported fuels, enhancing national energy security.</li>\n</ul>\n<ol>\n<li><strong>Energy Independence:</strong></li>\n</ol>\n<ul>\n<li><strong>Reduced Dependency on Fossil Fuels:</strong> Countries can reduce their dependence on imported fossil fuels, which can be volatile in price and supply.</li>\n<li><strong>Stable Energy Prices:</strong> Renewable energy sources, especially solar and wind, have stable operating costs over their lifetime.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Energy Policy",
+   "id": "",
+   "html": "<p>An energy policy is a set of principles and actions that a government or organization follows to address its energy needs. The policy aims to ensure a stable and reliable energy supply, promote energy efficiency, and encourage the use of renewable energy sources.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Types of Energy Policies",
+   "id": "",
+   "html": "<ul>\n<li><strong>Renewable Energy Targets:</strong> Governments set targets for the percentage of energy to be generated from renewable sources by specific dates.</li>\n<li><strong>Subsidies and Incentives:</strong> Financial support for renewable energy projects, such as tax breaks and grants.</li>\n<li><strong>Regulatory Frameworks:</strong> Laws and regulations to ensure the safe and efficient use of energy, including standards for emissions and energy efficiency.</li>\n<li><strong>Research and Development:</strong> Funding for research to improve the efficiency and reduce the cost of renewable energy technologies.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />Suppose a country aims to reduce its carbon emissions by 50% by 2030. To achieve this, the government has implemented several policies:<br />- <strong>Renewable Energy Targets:</strong> The policy mandates that 25% of the country’s energy needs should come from renewable sources by 2030.<br />- <strong>Subsidies and Incentives:</strong> A 30% tax credit is offered to businesses and individuals who invest in solar panels and wind turbines.<br />- <strong>Regulatory Frameworks:</strong> New building codes require all new constructions to be equipped with solar water heaters.<br />- <strong>Research and Development:</strong> A $50 million grant is provided to the National Renewable Energy Laboratory for developing more efficient solar panels.</div>",
+   "examples": [
+    "Suppose a country aims to reduce its carbon emissions by 50% by 2030. To achieve this, the government has implemented several policies: - **Renewable Energy Targets:** The policy mandates that 25% of the country’s energy needs should come from renewable sources by 2030. - **Subsidies and Incentives:** A 30% tax credit is offered to businesses and individuals who invest in solar panels and wind turbines. - **Regulatory Frameworks:** New building codes require all new constructions to be equipped with solar water heaters. - **Research and Development:** A $50 million grant is provided to the National Renewable Energy Laboratory for developing more efficient solar panels."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Solar Energy",
+   "id": "",
+   "html": "<p>Solar energy is harnessed from the sun, which is a virtually infinite source of energy. It can be converted into thermal or electrical energy using various technologies.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "National Solar Mission",
+   "id": "",
+   "html": "<p>The National Solar Mission (NSM) is a major initiative by the Government of India to promote the use of solar energy. Launched in 2010, the NSM aims to make India a global leader in solar energy by 2030. The mission has set ambitious targets for the deployment of solar power.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Objectives of the National Solar Mission",
+   "id": "",
+   "html": "<ul>\n<li><strong>Grid Connected Solar Power:</strong> To achieve 40 GW of grid-connected solar power by 2022.</li>\n<li><strong>Off-Grid Solar Applications:</strong> To provide solar power to 5 million households by 2015 and 25 million by 2022.</li>\n<li><strong>Solar Parks and Clusters:</strong> To develop 10,000 MW of solar parks and clusters by 2017.</li>\n<li><strong>Research and Development:</strong> To establish a robust framework for research, development, and deployment of solar technologies.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Working of Solar Thermal Systems",
+   "id": "",
+   "html": "<p><strong>Solar Thermal Systems</strong> convert solar energy into heat, which can be used for water heating, space heating, or industrial processes.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />A typical solar thermal system consists of a collector, a storage tank, and a distribution system. The collector, which can be a flat-plate or a concentrating collector, absorbs solar radiation. The absorbed heat is transferred to a fluid (usually water or a glycol-based mixture) that circulates through the system. This heated fluid is then used to heat water or space in a building.</div>",
+   "examples": [
+    "A typical solar thermal system consists of a collector, a storage tank, and a distribution system. The collector, which can be a flat-plate or a concentrating collector, absorbs solar radiation. The absorbed heat is transferred to a fluid (usually water or a glycol-based mixture) that circulates through the system. This heated fluid is then used to heat water or space in a building."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Working of Photovoltaic (PV) Systems",
+   "id": "",
+   "html": "<p><strong>Photovoltaic (PV) Systems</strong> directly convert sunlight into electricity using semiconductor materials.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />A typical PV system consists of solar panels, an inverter, a battery bank (for off-grid systems), and a charge controller. The solar panels are made up of photovoltaic cells that convert light into direct current (DC) electricity. The inverter converts this DC into alternating current (AC) for use in homes and businesses. Batteries are used to store excess energy generated during the day for use at night.</div>",
+   "examples": [
+    "A typical PV system consists of solar panels, an inverter, a battery bank (for off-grid systems), and a charge controller. The solar panels are made up of photovoltaic cells that convert light into direct current (DC) electricity. The inverter converts this DC into alternating current (AC) for use in homes and businesses. Batteries are used to store excess energy generated during the day for use at night."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Sketch of Solar Thermal and PV Systems",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Solar Thermal System] --&gt; B[Collector]\n B --&gt; C[Fluid Circulation]\n C --&gt; D[Storage Tank]\n D --&gt; E[Distribution System]\n F[Photovoltaic System] --&gt; G[Photovoltaic Cells]\n G --&gt; H[Inverter]\n H --&gt; I[Battery Bank]\n I --&gt; J[Charge Controller]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Solar Thermal System] --&gt; B[Collector]\n B --&gt; C[Fluid Circulation]\n C --&gt; D[Storage Tank]\n D --&gt; E[Distribution System]\n F[Photovoltaic System] --&gt; G[Photovoltaic Cells]\n G --&gt; H[Inverter]\n H --&gt; I[Battery Bank]\n I --&gt; J[Charge Controller]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Solar Thermal System] --&gt; B[Collector]\n B --&gt; C[Fluid Circulation]\n C --&gt; D[Storage Tank]\n D --&gt; E[Distribution System]\n F[Photovoltaic System] --&gt; G[Photovoltaic Cells]\n G --&gt; H[Inverter]\n H --&gt; I[Battery Bank]\n I --&gt; J[Charge Controller]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Solar Thermal System] --> B[Collector]\n    B --> C[Fluid Circulation]\n    C --> D[Storage Tank]\n    D --> E[Distribution System]\n\n    F[Photovoltaic System] --> G[Photovoltaic Cells]\n    G --> H[Inverter]\n    H --> I[Battery Bank]\n    I --> J[Charge Controller]"
+   ]
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />A small office building in Ahmedabad, Gujarat, has installed a 10 kW PV system to reduce its reliance on grid electricity. The system consists of 40 solar panels, each with a power output of 250 W. The inverter converts the DC power generated by the panels into AC power. Excess energy is stored in a battery bank for use during peak hours. The system is expected to save the building approximately 20,000 units of electricity per year, reducing its electricity bill by 40%.</div>\n<p>By understanding and implementing the National Solar Mission, India can significantly reduce its carbon footprint and ensure a sustainable energy future.</p>\n<hr />",
+   "examples": [
+    "A small office building in Ahmedabad, Gujarat, has installed a 10 kW PV system to reduce its reliance on grid electricity. The system consists of 40 solar panels, each with a power output of 250 W. The inverter converts the DC power generated by the panels into AC power. Excess energy is stored in a battery bank for use during peak hours. The system is expected to save the building approximately 20,000 units of electricity per year, reducing its electricity bill by 40%."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "3.3.1 Solar Thermal Systems",
+   "id": "",
+   "html": "<p>Solar thermal systems are designed to harness the sun's energy for heating purposes. These systems can be classified into two main types: <strong>solar ponds and solar water heaters</strong>.</p>\n<ul>\n<li><strong>Solar Ponds</strong>: These systems use a salt gradient to concentrate the sun's energy. The salt gradient creates a thermal inversion layer, which helps in maintaining high temperatures even during nighttime. Solar ponds are particularly useful in areas with low sunshine duration and can be used for space heating, water heating, and process heat applications.</li>\n</ul>\n<ul>\n<li><strong>Solar Water Heaters</strong>: These systems use solar collectors to heat water. The heated water is then stored in a tank for later use. There are different types of solar water heaters, including <strong>flat plate collectors</strong> and <strong>evacuated tube collectors</strong>.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3.3.2 Photovoltaic Systems",
+   "id": "",
+   "html": "<p>Photovoltaic (PV) systems convert solar energy directly into electrical energy. There are three main types of PV systems: <strong>polycrystalline, monocrystalline, and thin film PV systems</strong>.</p>\n<ul>\n<li><strong>Polycrystalline PV Systems</strong>: These systems are made from multiple crystals and are generally cheaper than monocrystalline systems. They have an efficiency of around 15% and are suitable for residential applications.</li>\n</ul>\n<ul>\n<li><strong>Monocrystalline PV Systems</strong>: These systems are made from a single crystal and have a higher efficiency of around 20-22%. They are more expensive but offer better performance in low light conditions.</li>\n</ul>\n<ul>\n<li><strong>Thin Film PV Systems</strong>: These systems are made by depositing thin layers of photovoltaic material on a substrate. They are less efficient than polycrystalline and monocrystalline systems, with an efficiency of around 10-15%. However, they are lightweight, flexible, and can be integrated into building materials.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3.3.3 Advanced Collectors and Other Solar Systems",
+   "id": "",
+   "html": "<ul>\n<li><strong>Advanced Collectors</strong>: These are high-efficiency solar collectors designed to capture more of the sun's energy. Examples include <strong>parabolic trough collectors</strong> and <strong>solar dish collectors</strong>. Parabolic trough collectors are used in concentrated solar power systems, where they focus the sun's energy onto a receiver to generate heat, which can be used for power generation.</li>\n</ul>\n<ul>\n<li><strong>Solar Dryer</strong>: This system is used to dry agricultural products using solar energy. It typically consists of a box with a clear cover and a reflective surface to maximize solar absorption. The dried products can be used for food preservation and other purposes.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br /><strong>Problem:</strong> Design a solar water heater for a residential building with an average daily water consumption of 200 liters.<br /><br /><strong>Solution:</strong><br /><br />- <strong>Type of Collector</strong>: Choose a flat plate collector with an efficiency of 60%.<br />- <strong>Tank Capacity</strong>: Design a tank with a capacity of 200 liters to store the heated water.<br />- <strong>Collector Area</strong>: Calculate the required collector area using the formula A = Q · G, where Q is the heat load (200 liters <em> 4.2 kJ/L°C </em> 50°C = 420,000 kJ),  is the efficiency of the collector (0.60), and G is the solar irradiance (1000 W/m²). Thus, the required collector area is A = 420,000 kJ 0.60 × 1000 W/m² = 700 m².</div>",
+   "examples": [
+    "**Problem:** Design a solar water heater for a residential building with an average daily water consumption of 200 liters. **Solution:** - **Type of Collector**: Choose a flat plate collector with an efficiency of 60%. - **Tank Capacity**: Design a tank with a capacity of 200 liters to store the heated water. - **Collector Area**: Calculate the required collector area using the formula A = Q · G, where Q is the heat load (200 liters * 4.2 kJ/L°C * 50°C = 420,000 kJ),  is the efficiency of the collector (0.60), and G is the solar irradiance (1000 W/m²). Thus, the required collector area is A = 420,000 kJ 0.60 × 1000 W/m² = 700 m²."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "3.4. Wind Energy: Growth of wind power in India",
+   "id": "",
+   "html": "<p>India has made significant strides in harnessing wind energy, driven by favorable policies and increasing demand for renewable energy.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3.4.1 Growth of Wind Power in India",
+   "id": "",
+   "html": "<p>Wind energy has seen substantial growth in India over the past few decades. The total installed capacity of wind power in India has grown exponentially, with the first wind farm established in 1989. As of 2023, the total installed capacity of wind power in India is over 60,000 MW.</p>\n<ul>\n<li><strong>Key Policies and Initiatives</strong>: The government has introduced several policies and initiatives to promote wind energy, such as the National Wind Energy Policy (2015) and the Wind Energy (Utilization of Wind Energy) Rules (2016). These policies aim to create a favorable environment for the development of wind power projects.</li>\n</ul>\n<ul>\n<li><strong>Wind Turbine Types</strong>: India predominantly uses <strong>large-scale wind turbines</strong> with capacities ranging from 1 MW to 5 MW. The choice of turbine type depends on the wind speed and the availability of land. For example, in coastal areas with high wind speeds, larger turbines are more suitable.</li>\n</ul>\n<ul>\n<li><strong>Wind Energy Zones</strong>: The Ministry of New and Renewable Energy has identified several wind energy zones across the country, including the coastal zones of Gujarat, Tamil Nadu, and Karnataka, and the hilly regions of Jammu and Kashmir and Himachal Pradesh.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3.4.2 Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br /><strong>Problem:</strong> Determine the type of wind turbine suitable for a wind farm in Gujarat with an average wind speed of 6 m/s.<br /><br /><strong>Solution:</strong><br /><br />- <strong>Wind Speed Classification</strong>: According to the IEC 61400-1 standard, an average wind speed of 6 m/s falls into the class 2 category.<br />- <strong>Turbine Selection</strong>: For class 2 wind speeds, a <strong>1.5 MW to 2 MW</strong> turbine is typically suitable. The choice of the exact turbine model would depend on the specific site conditions, such as the local wind profile and terrain.<br />- <strong>Site Assessment</strong>: Conduct a detailed site assessment to ensure the selected turbine can operate efficiently under the local wind conditions. This includes measuring the wind speed distribution, turbulence, and temperature variations.</div>\n<p>This section provides a comprehensive understanding of the features of solar thermal and PV systems, as well as the growth of wind power in India, aligning with the GTU syllabus requirements.</p>\n<hr />",
+   "examples": [
+    "**Problem:** Determine the type of wind turbine suitable for a wind farm in Gujarat with an average wind speed of 6 m/s. **Solution:** - **Wind Speed Classification**: According to the IEC 61400-1 standard, an average wind speed of 6 m/s falls into the class 2 category. - **Turbine Selection**: For class 2 wind speeds, a **1.5 MW to 2 MW** turbine is typically suitable. The choice of the exact turbine model would depend on the specific site conditions, such as the local wind profile and terrain. - **Site Assessment**: Conduct a detailed site assessment to ensure the selected turbine can operate efficiently under the local wind conditions. This includes measuring the wind speed distribution, turbulence, and temperature variations."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "3.5. Types of wind turbines – Vertical axis wind turbines (VAWT) and horizontal axis wind turbines (HAWT)",
+   "id": "",
+   "html": "<p>Wind turbines are a crucial component of renewable energy systems, particularly in harnessing wind power. They are classified into two main types: <strong>Vertical axis wind turbines (VAWT)</strong> and <strong>Horizontal axis wind turbines (HAWT)</strong>.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3.5.1. Vertical Axis Wind Turbines (VAWT)",
+   "id": "",
+   "html": "<p>Vertical axis wind turbines have their rotor shaft aligned perpendicular to the ground, making them more versatile in terms of installation and maintenance. They are less affected by wind direction changes, which is a significant advantage over HAWTs.</p>\n<ul>\n<li><strong>Advantages</strong>:</li>\n<li>Can operate in both upwind and downwind conditions.</li>\n<li>Easier to install and maintain.</li>\n<li>Lower wind speed requirements.</li>\n<li>Suitable for urban areas and narrow spaces.</li>\n</ul>\n<ul>\n<li><strong>Disadvantages</strong>:</li>\n<li>Lower efficiency compared to HAWTs.</li>\n<li>More complex and expensive designs.</li>\n<li>Higher structural loads due to higher torque.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3.5.2. Horizontal Axis Wind Turbines (HAWT)",
+   "id": "",
+   "html": "<p>Horizontal axis wind turbines have their rotor shaft aligned parallel to the ground, making them more efficient in capturing wind energy. They are more common in large-scale wind farms.</p>\n<ul>\n<li><strong>Advantages</strong>:</li>\n<li>Higher efficiency and better energy capture.</li>\n<li>Lower structural loads.</li>\n<li>Can be more cost-effective for large-scale applications.</li>\n</ul>\n<ul>\n<li><strong>Disadvantages</strong>:</li>\n<li>Less versatile in terms of wind direction.</li>\n<li>Higher maintenance requirements due to the need to align the turbine with the wind.</li>\n<li>Larger footprint and space requirements.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3.5.3. Example of VAWT and HAWT",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />A wind farm is planning to install a wind turbine in a hilly terrain where the wind direction is inconsistent. They need to choose between a VAWT and an HAWT. Given the terrain and wind conditions, which type of turbine would be more suitable?<br /><br /><strong>Solution:</strong><br /><br />The terrain and inconsistent wind direction make a VAWT more suitable. VAWTs can operate efficiently in both upwind and downwind conditions, making them ideal for such environments. Thus, the wind farm should choose a VAWT.</div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[VAWT] --&gt; B[Operates in both upwind and downwind conditions]\n A --&gt; C[Easier to install and maintain]\n A --&gt; D[Lower wind speed requirements]\n A --&gt; E[Suitable for urban areas and narrow spaces]\n B --&gt; F[Wind farm installation]\n C --&gt; G[Maintenance]\n D --&gt; H[Wind farm efficiency]\n E --&gt; I[Space utilization]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[VAWT] --&gt; B[Operates in both upwind and downwind conditions]\n A --&gt; C[Easier to install and maintain]\n A --&gt; D[Lower wind speed requirements]\n A --&gt; E[Suitable for urban areas and narrow spaces]\n B --&gt; F[Wind farm installation]\n C --&gt; G[Maintenance]\n D --&gt; H[Wind farm efficiency]\n E --&gt; I[Space utilization]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[VAWT] --&gt; B[Operates in both upwind and downwind conditions]\n A --&gt; C[Easier to install and maintain]\n A --&gt; D[Lower wind speed requirements]\n A --&gt; E[Suitable for urban areas and narrow spaces]\n B --&gt; F[Wind farm installation]\n C --&gt; G[Maintenance]\n D --&gt; H[Wind farm efficiency]\n E --&gt; I[Space utilization]</pre></noscript></div>",
+   "examples": [
+    "A wind farm is planning to install a wind turbine in a hilly terrain where the wind direction is inconsistent. They need to choose between a VAWT and an HAWT. Given the terrain and wind conditions, which type of turbine would be more suitable? **Solution:** The terrain and inconsistent wind direction make a VAWT more suitable. VAWTs can operate efficiently in both upwind and downwind conditions, making them ideal for such environments. Thus, the wind farm should choose a VAWT."
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[VAWT] --> B[Operates in both upwind and downwind conditions]\n    A --> C[Easier to install and maintain]\n    A --> D[Lower wind speed requirements]\n    A --> E[Suitable for urban areas and narrow spaces]\n    B --> F[Wind farm installation]\n    C --> G[Maintenance]\n    D --> H[Wind farm efficiency]\n    E --> I[Space utilization]"
+   ]
+  },
+  {
+   "heading": "3.6. Types of HAWTs – drag and lift types",
+   "id": "",
+   "html": "<p>Horizontal axis wind turbines are further classified into drag and lift types based on their aerodynamic principles.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3.6.1. Drag Types",
+   "id": "",
+   "html": "<p>Drag types of HAWTs rely on the aerodynamic drag force to generate torque. These turbines are characterized by a design that maximizes the lift force perpendicular to the wind direction.</p>\n<ul>\n<li><strong>Advantages</strong>:</li>\n<li>Simpler and cheaper design.</li>\n<li>Lower structural loads.</li>\n<li>Suitable for lower wind speeds.</li>\n</ul>\n<ul>\n<li><strong>Disadvantages</strong>:</li>\n<li>Lower efficiency at high wind speeds.</li>\n<li>More complex blade design.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3.6.2. Lift Types",
+   "id": "",
+   "html": "<p>Lift types of HAWTs use the lift force to generate torque. These turbines are designed to maximize the lift force, which allows them to operate more efficiently at higher wind speeds.</p>\n<ul>\n<li><strong>Advantages</strong>:</li>\n<li>Higher efficiency and better energy capture.</li>\n<li>Suitable for higher wind speeds.</li>\n<li>More aerodynamically optimized.</li>\n</ul>\n<ul>\n<li><strong>Disadvantages</strong>:</li>\n<li>Higher structural loads.</li>\n<li>More complex design.</li>\n<li>Higher initial cost.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "3.6.3. Example of Drag and Lift HAWTs",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />A wind energy company is evaluating two types of HAWTs for a new wind farm project: a drag type and a lift type. They need to determine which type would be more suitable based on the wind speed and structural load requirements.<br /><br /><strong>Solution:</strong><br /><br />Given the high wind speeds expected in the region, a lift type HAWT would be more suitable. The lift type HAWT can operate more efficiently at higher wind speeds and has a higher energy capture rate. However, the company should also consider the structural load requirements and ensure that the turbine can handle the increased load.</div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Drag Type] --&gt; B[Lower structural loads]\n A --&gt; C[Simpler and cheaper design]\n A --&gt; D[Lower efficiency at high wind speeds]\n A --&gt; E[More complex blade design]\n B --&gt; F[Wind farm efficiency]\n C --&gt; G[Wind farm cost]\n D --&gt; H[Blade design]\n E --&gt; I[Structural integrity]\n A2[Lift Type] --&gt; B2[Higher efficiency and better energy capture]\n A2 --&gt; C2[Higher structural loads]\n A2 --&gt; D2[More complex design]\n A2 --&gt; E2[Higher initial cost]\n B2 --&gt; F2[Wind farm efficiency]\n C2 --&gt; G2[Wind farm cost]\n D2 --&gt; H2[Design complexity]\n E2 --&gt; I2[Initial investment]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Drag Type] --&gt; B[Lower structural loads]\n A --&gt; C[Simpler and cheaper design]\n A --&gt; D[Lower efficiency at high wind speeds]\n A --&gt; E[More complex blade design]\n B --&gt; F[Wind farm efficiency]\n C --&gt; G[Wind farm cost]\n D --&gt; H[Blade design]\n E --&gt; I[Structural integrity]\n A2[Lift Type] --&gt; B2[Higher efficiency and better energy capture]\n A2 --&gt; C2[Higher structural loads]\n A2 --&gt; D2[More complex design]\n A2 --&gt; E2[Higher initial cost]\n B2 --&gt; F2[Wind farm efficiency]\n C2 --&gt; G2[Wind farm cost]\n D2 --&gt; H2[Design complexity]\n E2 --&gt; I2[Initial investment]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Drag Type] --&gt; B[Lower structural loads]\n A --&gt; C[Simpler and cheaper design]\n A --&gt; D[Lower efficiency at high wind speeds]\n A --&gt; E[More complex blade design]\n B --&gt; F[Wind farm efficiency]\n C --&gt; G[Wind farm cost]\n D --&gt; H[Blade design]\n E --&gt; I[Structural integrity]\n A2[Lift Type] --&gt; B2[Higher efficiency and better energy capture]\n A2 --&gt; C2[Higher structural loads]\n A2 --&gt; D2[More complex design]\n A2 --&gt; E2[Higher initial cost]\n B2 --&gt; F2[Wind farm efficiency]\n C2 --&gt; G2[Wind farm cost]\n D2 --&gt; H2[Design complexity]\n E2 --&gt; I2[Initial investment]</pre></noscript></div>\n<p>By understanding the differences between VAWTs and HAWTs, and the specific types of HAWTs, students can better justify and select appropriate wind turbines for given situations.</p>\n<hr />",
+   "examples": [
+    "A wind energy company is evaluating two types of HAWTs for a new wind farm project: a drag type and a lift type. They need to determine which type would be more suitable based on the wind speed and structural load requirements. **Solution:** Given the high wind speeds expected in the region, a lift type HAWT would be more suitable. The lift type HAWT can operate more efficiently at higher wind speeds and has a higher energy capture rate. However, the company should also consider the structural load requirements and ensure that the turbine can handle the increased load."
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[Drag Type] --> B[Lower structural loads]\n    A --> C[Simpler and cheaper design]\n    A --> D[Lower efficiency at high wind speeds]\n    A --> E[More complex blade design]\n    B --> F[Wind farm efficiency]\n    C --> G[Wind farm cost]\n    D --> H[Blade design]\n    E --> I[Structural integrity]\n    A2[Lift Type] --> B2[Higher efficiency and better energy capture]\n    A2 --> C2[Higher structural loads]\n    A2 --> D2[More complex design]\n    A2 --> E2[Higher initial cost]\n    B2 --> F2[Wind farm efficiency]\n    C2 --> G2[Wind farm cost]\n    D2 --> H2[Design complexity]\n    E2 --> I2[Initial investment]"
+   ]
+  },
+  {
+   "heading": "Overview of Biomass as an Energy Source",
+   "id": "",
+   "html": "<p>Biomass is a renewable energy source derived from organic materials such as wood, agricultural crops, and other biological materials. These materials can be used directly as fuel or converted into other forms of energy like biofuels. Biomass is considered sustainable because the energy it produces can be replenished through natural processes, unlike finite resources such as fossil fuels.</p>\n<p><strong>Advantages of Biomass:</strong></p>\n<ul>\n<li><strong>Sustainability:</strong> Biomass can be produced from a wide variety of sources, including agricultural waste, forestry residue, and municipal solid waste.</li>\n<li><strong>Carbon Neutrality:</strong> The carbon dioxide released during the combustion of biomass is offset by the carbon dioxide absorbed during the plant's growth cycle.</li>\n<li><strong>Versatility:</strong> Biomass can be used for heat, electricity, and transportation fuels.</li>\n</ul>\n<p><strong>Disadvantages of Biomass:</strong></p>\n<ul>\n<li><strong>Land Use:</strong> Large-scale cultivation of biomass crops can compete with food production and can have environmental impacts.</li>\n<li><strong>Energy Intensive:</strong> The cultivation, collection, and transportation of biomass can be energy-intensive processes.</li>\n<li><strong>Environmental Impact:</strong> Emissions from the combustion of biomass can contribute to air pollution.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Thermal Characteristics of Biomass as Fuel",
+   "id": "",
+   "html": "<p>The thermal characteristics of biomass are crucial for its efficient use as an energy source. These characteristics include:</p>\n<ul>\n<li><strong>Calorific Value:</strong> The amount of heat released when a unit mass or volume of biomass is burned. It is typically measured in megajoules per kilogram (MJ/kg) or British thermal units per pound (Btu/lb).</li>\n<li><strong>Moisture Content:</strong> The percentage of water in the biomass. High moisture content can reduce the calorific value and increase the drying requirements before combustion.</li>\n<li><strong>Ash Content:</strong> The non-combustible residue left after the combustion of biomass. Ash content can affect the efficiency and emissions of the combustion process.</li>\n<li><strong>Density:</strong> The mass of biomass per unit volume. Higher density biomass is more efficient to transport and handle.</li>\n<li><strong>Ignition Temperature:</strong> The minimum temperature required to initiate combustion. Biomass typically has a lower ignition temperature compared to fossil fuels.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the calorific value of a biomass sample with a moisture content of 40% and a dry basis calorific value of 18,000 kJ/kg. The density of the biomass is 0.5 kg/L.<br /><br />Step 1: Determine the dry basis mass of the sample.<br />[ \\text{Dry basis mass} = \\frac{100 - \\text{moisture content}}{100} \\times \\text{total mass} ]<br /><br />Let the total mass be 1 kg.<br />[ \\text{Dry basis mass} = \\frac{100 - 40}{100} \\times 1 \\text{ kg} = 0.6 \\text{ kg} ]<br /><br />Step 2: Calculate the total calorific value.<br />[ \\text{Total calorific value} = \\text{calorific value of dry mass} \\times \\text{dry basis mass} ]<br />[ \\text{Total calorific value} = 18,000 \\text{ kJ/kg} \\times 0.6 \\text{ kg} = 10,800 \\text{ kJ} ]<br /><br />Therefore, the calorific value of the biomass sample is 10,800 kJ.</div>",
+   "examples": [
+    "Calculate the calorific value of a biomass sample with a moisture content of 40% and a dry basis calorific value of 18,000 kJ/kg. The density of the biomass is 0.5 kg/L. Step 1: Determine the dry basis mass of the sample. [ \\text{Dry basis mass} = \\frac{100 - \\text{moisture content}}{100} \\times \\text{total mass} ] Let the total mass be 1 kg. [ \\text{Dry basis mass} = \\frac{100 - 40}{100} \\times 1 \\text{ kg} = 0.6 \\text{ kg} ] Step 2: Calculate the total calorific value. [ \\text{Total calorific value} = \\text{calorific value of dry mass} \\times \\text{dry basis mass} ] [ \\text{Total calorific value} = 18,000 \\text{ kJ/kg} \\times 0.6 \\text{ kg} = 10,800 \\text{ kJ} ] Therefore, the calorific value of the biomass sample is 10,800 kJ."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Anaerobic Digestion",
+   "id": "",
+   "html": "<p>Anaerobic digestion is a biological process in which microorganisms break down biodegradable material in the absence of oxygen. This process produces biogas, a mixture of methane (CH4) and carbon dioxide (CO2), along with digestate, a nutrient-rich organic fertilizer. The process is widely used for the treatment of organic waste and the production of renewable energy.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Biogas Production Mechanism",
+   "id": "",
+   "html": "<p>The biogas production mechanism involves the following steps:</p>\n<ol>\n<li><strong>Substrate Preparation:</strong> Organic materials such as agricultural waste, manure, and food waste are collected and prepared for digestion.</li>\n<li><strong>Inoculation:</strong> A pre-existing population of anaerobic microorganisms is added to the substrate to initiate the process.</li>\n<li><strong>Digestion:</strong> The microorganisms break down the organic matter in the absence of oxygen. This process is divided into three main stages:</li>\n</ol>\n<ul>\n<li><strong>Hydrolysis:</strong> Complex organic compounds are broken down into simpler compounds.</li>\n<li><strong>Acetogenesis:</strong> Simple organic compounds are converted into volatile fatty acids (VFAs) and hydrogen (H2).</li>\n<li><strong>Methanogenesis:</strong> Hydrogen and carbon dioxide are converted into methane and water.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Utilization and Storage of Biogas",
+   "id": "",
+   "html": "<p>Biogas can be used in several applications, including:</p>\n<ul>\n<li><strong>Heating and Cooking:</strong> Biogas can be directly used as a fuel for cooking and heating purposes.</li>\n<li><strong>Electricity Generation:</strong> Biogas can be used in internal combustion engines or fuel cells to generate electricity.</li>\n<li><strong>Transportation Fuels:</strong> Biogas can be compressed or liquefied to be used as a transportation fuel.</li>\n</ul>\n<p><strong>Storage of Biogas:</strong></p>\n<p>Biogas can be stored in cylinders or tanks under pressure or at low temperatures. The storage capacity and duration depend on the demand and supply of biogas.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Biogas Production and Utilization",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A biogas plant produces biogas from cow manure. The plant has a daily capacity of 500 m³ of biogas. The biogas is used to generate electricity and heat for a nearby village. The village requires 250 kW of electricity and 100 kW of heat daily.<br /><br />Step 1: Calculate the energy content of the biogas.<br />[ \\text{Calorific value of biogas} = 21.5 \\text{ MJ/m}^3 ]<br />[ \\text{Daily biogas production} = 500 \\text{ m}^3 ]<br />[ \\text{Daily energy production} = 500 \\text{ m}^3 \\times 21.5 \\text{ MJ/m}^3 = 10,750 \\text{ MJ} ]<br /><br />Step 2: Convert the daily energy production into kilowatt-hours (kWh).<br />[ 1 \\text{ MJ} = 2.7778 \\text{ kWh} ]<br />[ \\text{Daily energy production in kWh} = 10,750 \\text{ MJ} \\times 2.7778 \\text{ kWh/MJ} = 29,924.5 \\text{ kWh} ]<br /><br />Step 3: Calculate the daily energy requirement for the village.<br />[ \\text{Electricity requirement} = 250 \\text{ kW} \\times 24 \\text{ hours} = 6,000 \\text{ kWh} ]<br />[ \\text{Heat requirement} = 100 \\text{ kW} \\times 24 \\text{ hours} = 2,400 \\text{ kWh} ]<br /><br />Step 4: Determine if the biogas plant can meet the village's energy requirements.<br />[ \\text{Total village requirement} = 6,000 \\text{ kWh} + 2,400 \\text{ kWh} = 8,400 \\text{ kWh} ]<br /><br />Since the biogas plant produces 29,924.5 kWh daily, it can easily meet the village's energy requirements.</div>",
+   "examples": [
+    "A biogas plant produces biogas from cow manure. The plant has a daily capacity of 500 m³ of biogas. The biogas is used to generate electricity and heat for a nearby village. The village requires 250 kW of electricity and 100 kW of heat daily. Step 1: Calculate the energy content of the biogas. [ \\text{Calorific value of biogas} = 21.5 \\text{ MJ/m}^3 ] [ \\text{Daily biogas production} = 500 \\text{ m}^3 ] [ \\text{Daily energy production} = 500 \\text{ m}^3 \\times 21.5 \\text{ MJ/m}^3 = 10,750 \\text{ MJ} ] Step 2: Convert the daily energy production into kilowatt-hours (kWh). [ 1 \\text{ MJ} = 2.7778 \\text{ kWh} ] [ \\text{Daily energy production in kWh} = 10,750 \\text{ MJ} \\times 2.7778 \\text{ kWh/MJ} = 29,924.5 \\text{ kWh} ] Step 3: Calculate the daily energy requirement for the village. [ \\text{Electricity requirement} = 250 \\text{ kW} \\times 24 \\text{ hours} = 6,000 \\text{ kWh} ] [ \\text{Heat requirement} = 100 \\text{ kW} \\times 24 \\text{ hours} = 2,400 \\text{ kWh} ] Step 4: Determine if the biogas plant can meet the village's energy requirements. [ \\text{Total village requirement} = 6,000 \\text{ kWh} + 2,400 \\text{ kWh} = 8,400 \\text{ kWh} ] Since the biogas plant produces 29,924.5 kWh daily, it can easily meet the village's energy requirements."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>Biomass is a renewable energy source with numerous applications, and its thermal characteristics are essential for its efficient use. Anaerobic digestion is a key process in the production of biogas, which can be utilized for various purposes, including electricity generation and heating. Understanding the production and utilization of biogas is crucial for sustainable energy solutions.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Geothermal Energy",
+   "id": "",
+   "html": "<p>Geothermal energy is harnessed from the heat generated within the Earth. This heat is used to generate electricity or for direct heating purposes. The Earth's core temperature is around 5500°C, and the geothermal gradient (the rate of temperature increase with depth) ranges from about 25°C to 30°C per kilometer in the upper crust.</p>\n<p><strong>Explanation:</strong></p>\n<ul>\n<li><strong>Exploration and Utilization:</strong> Geothermal energy can be accessed through geothermal reservoirs, which are found in areas where there is high volcanic activity. Exploration involves identifying these reservoirs through seismic surveys and drilling.</li>\n<li><strong>Working Principle:</strong> The heat from the Earth's core is transferred to water or other fluids, which are circulated through a closed loop system. The heated fluid then runs a turbine, generating electricity.</li>\n<li><strong>Advantages:</strong> Reliable and constant, low emissions, and minimal land use.</li>\n<li><strong>Disadvantages:</strong> High initial investment, limited to specific geographical areas, and potential environmental concerns such as ground subsidence and induced seismicity.</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A geothermal plant uses hot water from a geothermal reservoir at 150°C. The plant has a thermal-to-electrical efficiency of 10%. Calculate the electrical power output if the plant uses 1000 liters of water per minute.</div>",
+   "examples": [
+    "A geothermal plant uses hot water from a geothermal reservoir at 150°C. The plant has a thermal-to-electrical efficiency of 10%. Calculate the electrical power output if the plant uses 1000 liters of water per minute."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Ocean Energy Sources",
+   "id": "",
+   "html": "<p>Ocean energy sources are derived from the vast energy contained in the oceans. These include tidal energy, wave energy, and thermal energy.</p>\n<p><strong>Explanation:</strong></p>\n<ul>\n<li><strong>Tidal Energy:</strong> Tidal energy is generated from the rise and fall of ocean tides. Tidal power plants use the kinetic energy of the tide to generate electricity.</li>\n<li><strong>Wave Energy:</strong> Wave energy is harnessed from the motion of ocean waves. Devices such as oscillating water columns and wave buoys are used to convert wave energy into electricity.</li>\n<li><strong>Thermal Energy:</strong> Ocean thermal energy conversion (OTEC) utilizes the temperature difference between warm surface water and cold deep water to generate electricity.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Tidal Energy Conversion",
+   "id": "",
+   "html": "<p>Tidal energy conversion involves harnessing the energy from the movement of tides. This is achieved through tidal barrages, tidal stream generators, and dynamic tidal power.</p>\n<p><strong>Explanation:</strong></p>\n<ul>\n<li><strong>Tidal Barrages:</strong> These are structures that use the rise and fall of the tide to generate electricity. The Barrage captures the water during the high tide and releases it during low tide through turbines.</li>\n<li><strong>Tidal Stream Generators:</strong> These devices are similar to wind turbines but operate in the water. They capture the kinetic energy of the flowing tides and convert it into electricity.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Hydrogen Energy",
+   "id": "",
+   "html": "<p>Hydrogen energy is a clean and sustainable form of energy derived from the hydrogen element. It can be produced through various methods and used in fuel cells to generate electricity.</p>\n<p><strong>Explanation:</strong></p>\n<ul>\n<li><strong>Production:</strong> Hydrogen can be produced through electrolysis, steam reforming, and other methods.</li>\n<li><strong>Storage and Transportation:</strong> Hydrogen is stored and transported in high-pressure tanks or as a liquid at very low temperatures.</li>\n<li><strong>Applications:</strong> Hydrogen can be used in fuel cells to generate electricity, and it can also be used in vehicles as a fuel.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Classification of New Energy Sources",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Renewable Energy Sources] --&gt; B[Geothermal Energy]\n A --&gt; C[Ocean Energy Sources]\n C --&gt; D[Tidal Energy Conversion]\n C --&gt; E[Wave Energy]\n C --&gt; F[Thermal Energy]\n A --&gt; G[Hydrogen Energy]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Renewable Energy Sources] --&gt; B[Geothermal Energy]\n A --&gt; C[Ocean Energy Sources]\n C --&gt; D[Tidal Energy Conversion]\n C --&gt; E[Wave Energy]\n C --&gt; F[Thermal Energy]\n A --&gt; G[Hydrogen Energy]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Renewable Energy Sources] --&gt; B[Geothermal Energy]\n A --&gt; C[Ocean Energy Sources]\n C --&gt; D[Tidal Energy Conversion]\n C --&gt; E[Wave Energy]\n C --&gt; F[Thermal Energy]\n A --&gt; G[Hydrogen Energy]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Renewable Energy Sources] --> B[Geothermal Energy]\n    A --> C[Ocean Energy Sources]\n    C --> D[Tidal Energy Conversion]\n    C --> E[Wave Energy]\n    C --> F[Thermal Energy]\n    A --> G[Hydrogen Energy]"
+   ]
+  },
+  {
+   "heading": "Worked Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A tidal barrage with a cross-sectional area of 1000 m² generates electricity from a tidal flow of 2 m/s. If the efficiency of the turbines is 80%, calculate the power output of the barrage.</div>\n<p>This example demonstrates the practical application of the concepts covered in the section, aligning with the exam-oriented approach and ensuring comprehensive coverage of the syllabus topics.</p>",
+   "examples": [
+    "A tidal barrage with a cross-sectional area of 1000 m² generates electricity from a tidal flow of 2 m/s. If the efficiency of the turbines is 80%, calculate the power output of the barrage."
+   ],
+   "mermaid": []
+  }
+ ]
+}

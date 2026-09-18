@@ -1,0 +1,167 @@
+{
+  "code": "4300003",
+  "subject": "Environment and Sustainability",
+  "slug": "environment-and-sustainability",
+  "branchLabel": "Gujarat Technological University Artificial Intelligence and Data Science Semester 2",
+  "page": "/ai-data-science/sem2/environment-and-sustainability.html",
+  "semId": "sem2",
+  "level": "degree",
+  "references": {
+    "books": [],
+    "websites": []
+  },
+  "syllabusUrl": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/4300003.pdf",
+  "generatedAt": "2026-09-12T06:43:14.755Z",
+  "units": [
+    {
+      "n": 1,
+      "roman": "I",
+      "title": "Ecosystem",
+      "uos": [
+        "1.a. Explain the Structure with components of the given Ecosystem",
+        "1.b. Explain Carbon, Nitrogen, Sulphur and phosphorus cycle for the given ecosystem.",
+        "1.c. Justify the need to conserve the given Ecosystem on the w.r.t. following points:  carrying capacity of earth  Biomes,  Ecologically sensitive area",
+        "1.d. Explain the term biodiversity with its importance.",
+        "1.e. Illustrate the importance of IUCN red list in environmental engineering.",
+        "1.f. Calculate global ecological overshoot and virtual water requirement of given natural and man-made materials."
+      ],
+      "topics": [
+        "1.1. Structure and components of ecosystem",
+        "1.2. Types of Ecosystem, changes in ecosystem",
+        "1.3. Various natural cycles like carbon, Nitrogen, Sulphur, Phosphorus",
+        "1.4. Ecosystem conservation, carrying capacity of earth, Biomes in India, (ESA) Ecologically sensitive areas",
+        "1.5. Bio diversity, its need and importance, International Union for Conservation of Nature (IUCN) red list",
+        "1.6. Concept of Ecological foot print, virtual water, global ecological overshoot"
+      ],
+      "marks": "14 marks (6 Remember + 6 Understand + 2 Apply)",
+      "hours": 8,
+      "r": 6,
+      "u": 6,
+      "a": 2,
+      "totalMarks": 14,
+      "titleGu": null
+    },
+    {
+      "n": 2,
+      "roman": "II",
+      "title": "Pollution and its types",
+      "uos": [
+        "2.a. Explain the term, “pollution and pollutant” in the given situation.",
+        "2.b. Classify the air pollution on the basis of its source",
+        "2.c. Use relevant equipment to control given type of air pollution.",
+        "2.d. Explain relevant techniques of treatment to deal with given type of water pollution.",
+        "2.e. Apply relevant techniques of Solid waste management based on its characteristics.",
+        "2.f. Explain drawbacks of noise pollution in given situation.",
+        "2.g. Describe the environmental degradation due to Plastic waste and E- waste secondary and tertiary"
+      ],
+      "topics": [
+        "2.1. Definition of pollution and pollutant",
+        "2.2. Air pollution, classification and its sources",
+        "2.3. Air pollution control Equipments",
+        "2.4. Water pollution, pollution parameters like BOD,COD, pH, Total suspended solids, Turbidity, Total Solids",
+        "2.5. Waste water treatment like primary, Environment and Sustainability Course Code: ................. NITTTR Bhopal – GTU - COGC-2021 Curriculum above level) Topics and Sub-topics",
+        "2.6. Solid waste generation, sources and characteristics of Muncipal solid waste",
+        "2.7. Collection and disposal of Muncipal waste and Hazardous waste",
+        "2.8. Noise pollution- its effects, sources and measurement",
+        "2.9. Plastic waste and its hazard",
+        "2.10. E waste and its hazard"
+      ],
+      "marks": "16 marks (4 Remember + 6 Understand + 6 Apply)",
+      "hours": 10,
+      "r": 4,
+      "u": 6,
+      "a": 6,
+      "totalMarks": 16,
+      "titleGu": null
+    },
+    {
+      "n": 3,
+      "roman": "III",
+      "title": "Renewable sources of energy",
+      "uos": [
+        "3.a. Justify the need of renewable energy adopting relevant energy policy in given situation.",
+        "3.b. Explain the working of the solar thermal and PV systems with sketch in given situation.",
+        "3.c. Justify the need of Advanced collector, Solar Pond, Solar water heater, Solar dryer in the given system.",
+        "3.d. Emphasize the importance of wind power in India",
+        "3.e. Select the relevant type of wind turbines in the given situation.",
+        "3.f. Identify the relevant types of Sources of biomass energy.",
+        "3.g. Draw the neat labelled diagram of simple biogas plant to explain its working.",
+        "3.h. Identify the sources of the energy generation for the given situation."
+      ],
+      "topics": [
+        "3.1. Need of Renewable energy and energy policy",
+        "3.2. Solar energy: National solar mission",
+        "3.3. Features of solar thermal and PV systems Advanced collector, Solar Pond, Solar water heater, Solar dryer, polycrystalline, monocrystalline and thin film PV systems",
+        "3.4. Wind Energy: Growth of wind power in India",
+        "3.5. Types of wind turbines – Vertical axis wind turbines (VAWT) and horizontal axis wind turbines (HAWT)",
+        "3.6. Types of HAWTs – drag and lift types",
+        "3.7. Biomass: Overview of biomass as energy source. Thermal characteristics of biomass as fuel",
+        "3.8. Anaerobic digestion, Biogas production mechanism, utilization and storage.",
+        "3.9. New energy sources: Geothermal energy, Ocean energy sources, Tidal energy conversion, Hydrogen energy"
+      ],
+      "marks": "16 marks (4 Remember + 6 Understand + 6 Apply)",
+      "hours": 10,
+      "r": 4,
+      "u": 6,
+      "a": 6,
+      "totalMarks": 16,
+      "titleGu": null
+    },
+    {
+      "n": 4,
+      "roman": "IV",
+      "title": "Climate Change",
+      "uos": [
+        "4.a. Explain the term, “climate change” in context of environment.",
+        "4.b. Describe the ill effects of Global warming due to various causes arising in the given situation.",
+        "4.c. Explain the term, “greenhouse effect” with its causes.",
+        "4.d. Relate the impact of Ozone depletion in climate change due to its causes.",
+        "4.e. Justify the need of relevant Climate change management system to reduce the impact of climate change in the given context."
+      ],
+      "topics": [
+        "4.2. Definition of climate change",
+        "4.3. Global warming-causes, effect, process",
+        "4.4. Greenhouse effect",
+        "4.5. Ozone depletion",
+        "4.6. Factors affecting climate change",
+        "4.7. Impact and mitigation",
+        "4.8. Climate change management Environment and Sustainability Course Code: ................. NITTTR Bhopal – GTU - COGC-2021 Curriculum above level) Topics and Sub-topics",
+        "4.1. Identify Factors affecting climate change in given locality."
+      ],
+      "marks": "14 marks (4 Remember + 6 Understand + 4 Apply)",
+      "hours": 8,
+      "r": 4,
+      "u": 6,
+      "a": 4,
+      "totalMarks": 14,
+      "titleGu": null
+    },
+    {
+      "n": 5,
+      "roman": "V",
+      "title": "Environme ntal legislation and sustainable practices 5.a Use relevant policy or law in relation with environment in",
+      "uos": [
+        "5.f. Adopt the relevant rating system for energy calculation for the given building. 5.f Explain the terms, “Cradle to cradle concept” and “Life cycle analysis” 5.g Emphasize the importance of Carbon credit system in India. 5.h Explain the importance of 5R concept."
+      ],
+      "topics": [
+        "5.1. Environmental policies in India",
+        "5.2. Air act, water act, Environment protection act, wild life protection act, Forest conservation act, Biodiversity act",
+        "5.3. Environmental management system: ISO 14000, definition and benefits",
+        "5.4. Rain water harvesting",
+        "5.5. Green building and rating system in India",
+        "5.6. Cradle to cradle concept and Life cycle analysis",
+        "5.7. Green label",
+        "5.8. Carbon credit system its advantages and disadvantages",
+        "5.9. Concept of 5R(Refuse, Reduce, Reuse, Repurpose, Recycle)",
+        "5.10. Eco tourism: advantages and disadvantages Note: The UOs need to be formulated at the ‘Application Level’ and above of Revised Bloom’s Taxonomy’ to accelerate the attainment of the COs and the competency."
+      ],
+      "marks": "10 marks (5 Remember + 3 Understand + 2 Apply)",
+      "hours": 6,
+      "r": 5,
+      "u": 3,
+      "a": 2,
+      "totalMarks": 10,
+      "titleGu": null
+    }
+  ]
+}

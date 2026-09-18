@@ -10,97 +10,178 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        .ai-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 18px; margin-bottom: 22px; }
-        .ai-card h2 { font-size: 1rem; font-weight: 700; margin-bottom: 12px; color: var(--text); display: flex; align-items: center; gap: 8px; }
-        .control-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
-        .control-bar input[type=text], .control-bar select { background: rgba(255,255,255,.06); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 8px 12px; font-size: .85rem; }
-        .control-bar input[type=text] { width: 260px; }
-        .badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
+        .page-subhead { color: var(--text-muted); font-size: .85rem; margin-top: 4px; }
+
+        /* ------- summary cards ------- */
+        .ai-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 14px; margin-bottom: 22px; }
+        .ai-summary .stat-card { padding: 16px 18px; border-radius: var(--radius); }
+        .ai-summary .stat-card p { font-size: 1.7rem; margin-top: 6px; }
+        .ai-summary .stat-card.danger p { color: var(--danger); }
+        .ai-summary .stat-card.success p { color: var(--success); }
+        .ai-summary .stat-card.subtle p { color: var(--text); }
+        .ai-summary .stat-card.running { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+        .ai-summary .stat-card.running p { color: var(--accent); }
+        .ai-summary .stat-card.running .pulse-dot { display: inline-block; }
+
+        .pulse-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); animation: pulse 1.2s ease-in-out infinite; display: none; }
+        @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1);} 50% { opacity: .3; transform: scale(.7);} }
+
+        /* ------- jobs ------- */
+        .job-filter-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 14px; }
+        .job-filter-bar .chip-row { display: flex; gap: 6px; flex-wrap: wrap; }
+        .job-filter { font-size: .76rem; font-weight: 600; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--border); background: transparent; color: var(--text-muted); cursor: pointer; transition: all .15s; }
+        .job-filter:hover { color: var(--text); border-color: var(--border-strong); }
+        .job-filter.on { background: var(--accent); color: #14100a; border-color: var(--accent); }
+
+        .job-table { width: 100%; border-collapse: collapse; font-size: .8rem; }
+        .job-table th { text-align: left; color: var(--text-muted); font-size: .68rem; text-transform: uppercase; padding: 8px 10px; border-bottom: 1px solid var(--border); letter-spacing: .05em; }
+        .job-table td { padding: 9px 10px; border-bottom: 1px solid rgba(255,255,255,.05); vertical-align: middle; }
+        .job-table tr:hover td { background: rgba(255,255,255,.02); }
+        .job-table tr.current { background: rgba(255,157,0,.06); }
+        .job-table tr.current td { border-bottom-color: var(--accent); }
+
+        .status { font-size: .68rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+        .status i { font-size: .62rem; }
+        .status.queued { color: var(--text-muted); border: 1px solid var(--border); }
+        .status.running { color: var(--accent); border: 1px solid var(--accent); }
+        .status.done { color: var(--success); border: 1px solid var(--success); }
+        .status.error { color: var(--danger); border: 1px solid var(--danger); }
+        .status.cancelled, .status.interrupted { color: var(--text-muted); border: 1px solid var(--border); }
+
+        .pbar { height: 7px; background: rgba(255,255,255,.08); border-radius: 999px; overflow: hidden; min-width: 130px; position: relative; }
+        .pbar > div { height: 100%; background: linear-gradient(90deg, var(--accent), #ffca28); border-radius: 999px; width: 0%; transition: width .4s ease; }
+        .pbar.running > div { position: relative; overflow: hidden; }
+        .pbar.running > div::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, transparent, rgba(255,255,255,.35), transparent); animation: shimmer 1.4s infinite; }
+        @keyframes shimmer { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+
+        .job-log { background: #0a0c10; border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; font-size: .75rem; max-height: 320px; overflow: auto; white-space: pre-wrap; font-family: 'SF Mono', Menlo, Consolas, monospace; line-height: 1.5; color: #b5f0b5; }
+        .job-log .log-err { color: var(--danger); }
+        .metric { font-size: .72rem; color: var(--text-muted); white-space: nowrap; }
+        .code { font-weight: 700; color: var(--accent); }
+        .subj { font-weight: 500; }
+        .empty { text-align: center; color: var(--text-muted); padding: 30px; font-size: .85rem; }
+        .muted { color: var(--text-muted); }
+        .btn-x { background: transparent; border: 1px solid var(--border); color: var(--text-muted); }
+        .btn-x:hover { color: var(--danger); border-color: var(--danger); background: rgba(248,113,113,.08); }
+
+        /* ------- catalog ------- */
+        .cover-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .cover-chip { display: inline-flex; align-items: center; gap: 7px; font-size: .78rem; font-weight: 600; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--border); color: var(--text); background: var(--card-bg); }
+        .cover-chip b { color: var(--accent); font-size: 1rem; }
+        .cover-chip .chip-ico { opacity: .8; }
+
+        .ai-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 18px; padding: 22px; margin-bottom: 26px; backdrop-filter: blur(14px); }
+        .ai-card h2 { font-size: 1.05rem; font-weight: 700; margin-bottom: 14px; color: var(--text); display: flex; align-items: center; gap: 9px; }
+        .ai-card h2 .sub { font-weight: 400; font-size: .75rem; color: var(--text-muted); }
+        .control-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 14px; }
+        .control-bar input[type=text], .control-bar select { background: rgba(255,255,255,.06); border: 1px solid var(--border); color: var(--text); border-radius: 10px; padding: 8px 12px; font-size: .85rem; }
+        .control-bar input[type=text] { width: 250px; }
+        .badges { display: flex; flex-wrap: wrap; gap: 5px; }
         .badge { font-size: .7rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-muted); }
         .badge.on { border-color: var(--accent); color: var(--accent); }
-        .badge.ai { border-color: #7c4dff; color: #b388ff; }
         .badge.gu { border-color: #00c853; color: #69f0ae; }
+        .badge.degree { border-color: #4db8ff; color: #82d4ff; }
+        .badge.diploma { border-color: #ffb74d; color: #ffd08a; }
+        .badge.ai { border-color: #7c4dff; color: #b388ff; }
+        .branches { cursor: help; border-bottom: 1px dashed var(--text-muted); color: var(--text-muted); font-size: .72rem; }
+        .catalog-meta { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; font-size: .72rem; color: var(--text-muted); margin-bottom: 10px; }
+        .catalog-meta b { color: var(--text); font-weight: 700; }
+        .catalog-meta .refresh-tip { margin-left: auto; display: inline-flex; align-items: center; gap: 5px; }
+        .catalog-meta .refresh-tip a { color: var(--accent); cursor: pointer; text-decoration: none; }
+        .catalog-meta .refresh-tip a:hover { text-decoration: underline; }
         .catalog-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
         .catalog-table th { text-align: left; color: var(--text-muted); text-transform: uppercase; font-size: .68rem; letter-spacing: .06em; padding: 8px 10px; border-bottom: 1px solid var(--border); }
         .catalog-table td { padding: 9px 10px; border-bottom: 1px solid rgba(255,255,255,.05); vertical-align: middle; }
         .catalog-table tr:hover td { background: rgba(255,255,255,.03); }
-        .code { font-weight: 700; color: var(--accent); }
-        .subj { font-weight: 500; }
-        .actions { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
-        .actions button, .actions select { font-size: .72rem; padding: 4px 9px; border-radius: 7px; border: 1px solid var(--border); background: rgba(255,255,255,.05); color: var(--text); cursor: pointer; }
-        .actions button:hover { background: var(--accent); color: #000; }
-        .actions button:disabled { opacity: .4; cursor: not-allowed; }
-        .unit-chips { display: flex; flex-wrap: wrap; gap: 3px; }
+        .catalog-table .actions { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+        .catalog-table .actions button, .catalog-table .actions select { font-size: .72rem; padding: 5px 10px; border-radius: 8px; border: 1px solid var(--border); background: transparent; color: var(--text); cursor: pointer; }
+        .catalog-table .actions button:hover { background: var(--accent); color: #000; }
+        .catalog-table .actions button:disabled { opacity: .4; cursor: not-allowed; }
+        .unit-chips { display: flex; flex-wrap: wrap; gap: 4px; max-width: 280px; }
         .unit-chip { display: inline-flex; align-items: center; gap: 3px; font-size: .66rem; font-weight: 700; padding: 3px 7px; border-radius: 7px; border: 1px dashed var(--border); color: var(--text-muted); }
         .unit-chip.done { border-style: solid; border-color: var(--accent); color: var(--accent); background: rgba(255,157,0,.07); text-decoration: none; cursor: pointer; }
         .unit-chip .gu { color: #69f0ae; font-weight: 800; }
-        .legend { font-size: .66rem; color: var(--text-muted); margin-top: 5px; letter-spacing: .02em; }
-        .legend b { color: var(--accent); }
-        .legend .g { color: #69f0ae; }
+        .legend { font-size: .66rem; color: var(--text-muted); margin-top: 4px; letter-spacing: .02em; }
         .sel-unit { min-width: 62px; }
         .subj-link { color: var(--text); text-decoration: none; }
         .subj-link:hover { color: var(--accent); }
-        .btn-full { background: var(--accent); border: none; color: #000; font-weight: 700; }
+        .btn-full { background: var(--accent); border: none; color: #14100a; font-weight: 700; }
         .btn-gu { background: rgba(0,200,83,.15); color: #69f0ae; border-color: rgba(0,200,83,.4); }
-        .btn-regen { color: var(--danger); border-color: rgba(207,102,121,.4); }
-        .job-table { width: 100%; border-collapse: collapse; font-size: .8rem; }
-        .job-table th { text-align: left; color: var(--text-muted); font-size: .68rem; text-transform: uppercase; padding: 8px; border-bottom: 1px solid var(--border); }
-        .job-table td { padding: 8px; border-bottom: 1px solid rgba(255,255,255,.05); vertical-align: middle; }
-        .status { font-size: .7rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; }
-        .status.queued { color: var(--text-muted); border: 1px solid var(--border); }
-        .status.running { color: var(--accent); border: 1px solid var(--accent); }
-        .status.done { color: #69f0ae; border: 1px solid #00c853; }
-        .status.error { color: var(--danger); border: 1px solid var(--danger); }
-        .status.cancelled, .status.interrupted { color: var(--text-muted); border: 1px solid var(--border); }
-        .pbar { height: 6px; background: rgba(255,255,255,.08); border-radius: 999px; overflow: hidden; min-width: 120px; }
-        .pbar > div { height: 100%; background: var(--accent); width: 0%; transition: width .4s; }
-        .job-log { background: #0a0c10; border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; font-size: .75rem; max-height: 300px; overflow: auto; white-space: pre-wrap; font-family: Menlo, Consolas, monospace; line-height: 1.5; }
-        .empty { text-align: center; color: var(--text-muted); padding: 30px; font-size: .85rem; }
-        .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #111318; border: 1px solid var(--border); color: var(--text); padding: 10px 18px; border-radius: 10px; font-size: .8rem; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 99; }
+        .btn-regen { color: var(--danger); border-color: rgba(248,113,113,.4); }
+        .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #151821; border: 1px solid var(--border); color: var(--text); padding: 11px 20px; border-radius: 12px; font-size: .8rem; opacity: 0; transition: opacity .25s; pointer-events: none; z-index: 99; box-shadow: var(--shadow); }
         .toast.show { opacity: 1; }
-        .muted { color: var(--text-muted); }
-        .btn-x { margin-left: auto; font-size: .78rem;}
         .summary-line { font-size: .78rem; color: var(--text-muted); margin-bottom: 8px; }
+        .row-actions { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+        .clear-finished-btn { margin-left: auto; }
+
+        /* ------- generation backend toggle ------- */
+        .backend-switch { display: inline-flex; border: 1px solid var(--border); border-radius: 999px; padding: 3px; gap: 3px; background: rgba(255,255,255,.04); }
+        .backend-switch button { border: none; background: transparent; color: var(--text-muted); font-size: .78rem; font-weight: 700; padding: 6px 14px; border-radius: 999px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; transition: all .15s; }
+        .backend-switch button.on { background: var(--accent); color: #14100a; box-shadow: 0 2px 8px rgba(255,157,0,.35); }
+        .backend-hint { font-size: .72rem; color: var(--text-muted); opacity: .85; }
+        .backend-host { font-size: .7rem; color: var(--text-muted); max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <div class="logo">
-                <h1>Khudkibook AI Corner</h1>
-                <p style="color: var(--text-muted);">Generate AI self-study books from GTU syllabus (local Ollama).</p>
+                <div class="logo-mark"><i class="fas fa-wand-magic-sparkles"></i></div>
+                <div>
+                    <h1>AI Corner</h1>
+                    <p class="page-subhead">Generate AI self-study books from GTU syllabus (local Ollama).</p>
+                </div>
             </div>
             <div class="actions">
-                <a href="/admin/" class="secondary-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:8px;"><i class="fas fa-arrow-left"></i> Admin</a>
-                <a href="/" target="_blank" class="secondary-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:8px;"><i class="fas fa-external-link-alt"></i> View Site</a>
+                <div class="backend-switch" id="backend-switch" title="Where generation runs">
+                    <button id="backend-local" data-backend="local"><i class="fas fa-laptop"></i> Local</button>
+                    <button id="backend-race" data-backend="race"><i class="fas fa-cloud"></i> Race GPU</button>
+                </div>
+                <span id="backend-host" class="backend-host"></span>
+                <a href="/admin/" class="btn secondary-btn" style="text-decoration:none;"><i class="fas fa-arrow-left"></i> Admin</a>
+                <a href="/" target="_blank" class="btn secondary-btn" style="text-decoration:none;"><i class="fas fa-external-link-alt"></i> View Site</a>
                 <span id="ollama-status" class="badge">Ollama ?</span>
             </div>
         </header>
 
+        <!-- Job Summary -->
+        <div class="ai-summary" id="summary-cards"></div>
+
         <!-- Jobs -->
         <div class="ai-card">
-            <h2><i class="fas fa-tasks"></i> Jobs <span class="muted" style="font-weight:400; font-size:.75rem;" id="jobs-count"></span></h2>
+            <h2><i class="fas fa-tasks"></i> Jobs <span class="sub" id="jobs-count"></span></h2>
+            <div class="job-filter-bar">
+                <div class="chip-row" id="job-filters"></div>
+                <button class="btn-x clear-finished-btn" onclick="clearFinished()"><i class="fas fa-broom"></i> Clear finished</button>
+            </div>
             <div id="jobs-wrap"></div>
         </div>
 
         <!-- Catalog -->
         <div class="ai-card">
-            <h2><i class="fas fa-book-open"></i> Subject Catalog <span class="muted" style="font-weight:400; font-size:.75rem;" id="catalog-count"></span></h2>
+            <h2><i class="fas fa-book-open"></i> Subject Catalog <span class="sub" id="catalog-count"></span></h2>
+            <div class="cover-chips" id="cover-chips"></div>
             <div class="control-bar">
                 <input type="text" id="q" placeholder="Search code or subject name…" />
                 <select id="filter">
                     <option value="all">All subjects</option>
                     <option value="core">Core (real/syllabus/ai)</option>
                     <option value="missing">Missing AI book</option>
+                    <option value="diploma">Diploma (numeric)</option>
+                    <option value="degree">Degree (BE / ME)</option>
                 </select>
                 <select id="badge">
                     <option value="">Any badges</option>
                     <option value="ai">Has AI units</option>
+                    <option value="full">Full Book ✓</option>
+                    <option value="syllabus">Syllabus PDF</option>
+                    <option value="real">Real Book</option>
                     <option value="papers">Has question papers</option>
                 </select>
-                <button class="secondary-btn" onclick="reloadCatalog()"><i class="fas fa-sync-alt"></i> Refresh</button>
-                <span class="muted" style="font-size:.75rem;">Generation runs locally; only 1 job at a time.</span>
+                <button class="btn secondary-btn" onclick="reloadCatalog()"><i class="fas fa-sync-alt"></i> Refresh</button>
+                <span class="muted" style="font-size:.75rem;">Only 1 generation job runs at a time — the rest queue.</span>
             </div>
+            <div class="catalog-meta" id="catalog-meta"></div>
             <div id="catalog-wrap"></div>
         </div>
     </div>
@@ -111,9 +192,51 @@
     const $ = id => document.getElementById(id);
     let CATALOG = [];
     let JOBS = [];
+    let COVERAGE = { total: 0, placements: 0, withAI: 0, guUnits: 0, full: 0, missing: 0, guCodes: 0 };
     let pollTimer = null;
     let focusedJob = null;      // job currently streaming logs via SSE
     let focusedSource = null;
+    let jobFilter = 'all';
+    let logAnchor = null;       // holds last rendered log text so re-renders don't reset SSE buffer
+    let BACKEND = 'local';      // active generation backend (local | race)
+    let AI_CONFIG = null;
+
+    // ---------------- Generation backend (Local vs Race) ----------------
+    async function loadAiConfig() {
+        try {
+            const d = await api('/api/ai/config');
+            AI_CONFIG = d.config || { ai: {} };
+            setBackend((AI_CONFIG.ai && AI_CONFIG.ai.backend) || 'local', false);
+        } catch (_) { /* no config endpoint — default to local */ }
+    }
+
+    function setBackend(b, save = true) {
+        BACKEND = b === 'race' ? 'race' : 'local';
+        document.querySelectorAll('#backend-switch button').forEach(btn => {
+            btn.classList.toggle('on', btn.dataset.backend === BACKEND);
+        });
+        const ai = (AI_CONFIG && AI_CONFIG.ai) || {};
+        const cfg = ai[BACKEND] || {};
+        const host = cfg.host || (BACKEND === 'race' ? '(not set — add pod URL in server-config.json)' : 'localhost:11434');
+        const model = cfg.model || 'qwen2.5:7b';
+        $('backend-host').textContent = BACKEND === 'race' ? `Race GPU · ${host} · ${model}` : `Local · ${host} · ${model}`;
+        if (save) persistBackend(BACKEND);
+    }
+
+    async function persistBackend(b) {
+        try {
+            await api('/api/ai/config', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ai: { backend: b } })
+            });
+        } catch (e) { toast('Backend save failed: ' + e.message); }
+    }
+
+    $('backend-switch').addEventListener('click', (e) => {
+        const btn = e.target.closest('button[data-backend]');
+        if (btn) setBackend(btn.dataset.backend);
+    });
 
     function toast(msg) {
         const t = $('toast');
@@ -130,19 +253,29 @@
         return d;
     }
 
-    async function ollamaStatus() {
-        try {
-            const r = await fetch('http://localhost:11434/api/tags');
-            const d = await r.json();
-            const el = $('ollama-status');
-            el.textContent = 'Ollama ' + (d.models || []).map(m => m.name).slice(0, 3).join(', ') || 'online';
-            el.className = 'badge on';
-        } catch (_) {
-            const el = $('ollama-status');
-            el.textContent = 'Ollama offline';
-            el.className = 'badge';
-            if (pollTimer) clearInterval(pollTimer);
-        }
+    // ---------------- Summary cards ----------------
+    function renderSummary() {
+        const counts = { queued: 0, running: 0, done: 0, error: 0, cancelled: 0, interrupted: 0 };
+        JOBS.forEach(j => { if (counts.hasOwnProperty(j.status)) counts[j.status]++; });
+        const total = JOBS.length;
+        const running = counts.running;
+        const raceCount = JOBS.filter(j => j.backend === 'race').length;
+        $('summary-cards').innerHTML = `
+            <div class="stat-card running"><h3><i class="fas fa-play"></i> Running</h3><p>${running}<span class="pulse-dot"></span></p></div>
+            <div class="stat-card"><h3><i class="fas fa-clock"></i> Queued</h3><p>${counts.queued}</p></div>
+            <div class="stat-card success"><h3><i class="fas fa-check-circle"></i> Done</h3><p>${counts.done}</p></div>
+            <div class="stat-card danger"><h3><i class="fas fa-exclamation-circle"></i> Errors</h3><p>${counts.error}</p></div>
+            <div class="stat-card ${BACKEND === 'race' ? 'running' : ''}"><h3><i class="fas fa-${BACKEND === 'race' ? 'cloud' : 'laptop'}"></i> Active</h3><p>${BACKEND === 'race' ? 'Race GPU' : 'Local'}</p></div>
+            <div class="stat-card subtle"><h3><i class="fas fa-archive"></i> Finished</h3><p>${total - counts.queued - counts.running}</p></div>
+        `;
+    }
+
+    function renderJobFilters() {
+        const opts = [['all', 'All'], ['running', 'Running'], ['queued', 'Queued'], ['done', 'Done'],
+                      ['error', 'Errors'], ['cancelled', 'Cancelled'], ['interrupted', 'Interrupted']];
+        $('job-filters').innerHTML = opts.map(([v, label]) =>
+            `<button class="job-filter ${jobFilter === v ? 'on' : ''}" onclick="jobFilter='${v}'; renderJobs(); renderJobFilters();">${label}</button>`
+        ).join('');
     }
 
     // ---------------- Jobs ----------------
@@ -150,57 +283,92 @@
         let data;
         try { data = await api('/api/ai/jobs'); } catch (e) { return; }
         JOBS = data.jobs || [];
+        window.__aiRunning = data.running || null;
         $('jobs-count').textContent = '(' + JOBS.length + ')';
+        renderSummary();
+        renderJobFilters();
         renderJobs();
     }
 
     function statusPill(s) {
-        return `<span class="status ${s}">${s}</span>`;
+        const ico = s === 'running' ? 'fa-spin fa-circle-notch' : s === 'done' ? 'fa-check' : s === 'error' ? 'fa-exclamation' : s === 'queued' ? 'fa-clock' : 'fa-stop';
+        return `<span class="status ${s}"><i class="fas ${ico}"></i>${s}</span>`;
+    }
+
+    function guardPct(v) {
+        const n = Number(v);
+        return Number.isFinite(n) ? Math.max(0, Math.min(100, n)) : 0;
     }
 
     function renderJobs() {
         const w = $('jobs-wrap');
-        if (!JOBS.length) { w.innerHTML = '<div class="empty">No jobs yet — use the catalog below to launch one.</div>'; return; }
+        const list = JOBS.filter(j => jobFilter === 'all' || j.status === jobFilter).slice().reverse();
+        if (!list.length) {
+            w.innerHTML = `<div class="empty">${JOBS.length ? 'No jobs match this filter.' : 'No jobs yet — use the catalog below to launch one.'}</div>`;
+            return;
+        }
+        // Preserve currently-streaming log content across re-renders (SSE is the source of truth).
+        let prevLog = null, prevScroll = 0;
+        if (focusedJob) {
+            const el = $('joblog-' + focusedJob);
+            if (el) { prevLog = el.textContent; prevScroll = el.scrollTop; }
+        }
         let html = `<table class="job-table"><thead><tr>
-            <th>ID</th><th>Type</th><th>Code</th><th>Units</th><th>Status</th><th>Progress</th><th>Step</th><th>Created</th><th>Actions</th>
+            <th>ID</th><th>Type</th><th>Code</th><th>Unit</th><th>Backend</th><th>Status</th><th>Progress</th><th>Step</th><th>Created</th><th>Actions</th>
         </tr></thead><tbody>`;
-        for (const j of JOBS.slice().reverse()) {
-            const units = (j.units || []).join(',') || 'all';
+        for (const j of list) {
+            const units = (j.units || []).join(', ') || 'all';
             const isRunning = j.status === 'running';
-            const pct = (j.stepCount ? Math.round((j.stepIndex / j.stepCount) * 100) : 0);
-            const disp = isRunning ? pct : j.progress;
-            html += `<tr>
+            const pct = isRunning ? guardPct(j.stepCount ? Math.round((j.stepIndex / j.stepCount) * 100) : 0) : guardPct(j.progress);
+            const isCurrent = j.id === aiRunningId();
+            html += `<tr class="${isCurrent ? 'current' : ''}" data-jid="${j.id}">
                 <td class="muted">${j.id.replace(/ai_/, '')}</td>
-                <td>${j.type}${j.gu ? ' <span class="badge gu">GU</span>' : ''}</td>
+                <td>${j.type}${j.gu ? ' <span class="badge gu">ગુ</span>' : ''}</td>
                 <td class="code">${j.code}</td>
-                <td>${units}</td>
-                <td>${statusPill(j.status)}</td>
-                <td><div class="pbar"><div style="width:${disp}%"></div></div> ${disp}%</td>
-                <td class="muted" style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${(j.stepLabel || '').replace(/─/g, '')}</td>
-                <td class="muted">${new Date(j.createdAt).toLocaleTimeString()}</td>
-                <td>
-                    <button onclick="toggleLog('${j.id}')"><i class="fas fa-terminal"></i> Log</button>
-                    ${isRunning ? `<button class="btn-regen" onclick="cancelJob('${j.id}')"><i class="fas fa-ban"></i> Cancel</button>` : `<button onclick="retryJob('${j.id}')"><i class="fas fa-redo"></i> Retry</button>`}
-                    ${j.error && j.status === 'error' ? `<span class="muted">${j.error}</span>` : ''}
+                <td class="muted">${units}</td>
+                <td><span class="badge ${j.backend === 'race' ? 'degree' : ''}">${j.backend === 'race' ? '<i class="fas fa-cloud"></i> Race' : '<i class="fas fa-laptop"></i> Local'}</span></td>
+                <td class="st-status">${statusPill(j.status)}</td>
+                <td class="st-progress">
+                    ${isRunning ? `<div class="pbar running"><div style="width:${pct}%"></div></div> <span class="metric">${pct}%</span>`
+                        : `<div class="pbar"><div style="width:${pct}%"></div></div> <span class="metric">${pct}%</span>`}
+                    ${j.error ? `<div class="metric" style="color:var(--danger);">${j.error}</div>` : ''}
                 </td>
+                <td class="st-step muted" style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${(j.stepLabel || '').replace(/─/g, '')}">${(j.stepLabel || '').replace(/─/g, '')}</td>
+                <td class="metric">${new Date(j.createdAt).toLocaleTimeString()}</td>
+                <td class="st-actions"><div class="row-actions">
+                    <button onclick="toggleLog('${j.id}')" title="Toggle live log"><i class="fas fa-terminal"></i> Log</button>
+                    ${isRunning ? `<button class="btn-regen" onclick="cancelJob('${j.id}')"><i class="fas fa-ban"></i> Cancel</button>`
+                        : j.status === 'queued' ? `<button class="btn-regen" onclick="cancelJob('${j.id}')"><i class="fas fa-ban"></i> Cancel</button>`
+                        : `<button onclick="retryJob('${j.id}')" title="Re-queue this job"><i class="fas fa-redo"></i> Retry</button>`}
+                </div></td>
             </tr>`;
             if (focusedJob === j.id) {
-                html += `<tr><td colspan="9"><div class="job-log" id="joblog-${j.id}"></div></td></tr>`;
+                html += `<tr><td colspan="10"><div class="job-log" id="joblog-${j.id}"></div></td></tr>`;
             }
         }
         html += '</tbody></table>';
         w.innerHTML = html;
+
         if (focusedJob) {
             const jl = $('joblog-' + focusedJob);
             if (jl) {
-                const logs = (JOBS.find(x => x.id === focusedJob) || {}).logs || [];
-                if (logs.length) {
-                    jl.textContent = logs.join('\n');
+                const cur = JOBS.find(x => x.id === focusedJob);
+                if (prevLog !== null) {
+                    // Keep SSE-streamed content so poll re-renders don't blank/dupe it.
+                    jl.textContent = prevLog;
+                    jl.scrollTop = prevScroll;
+                } else if (cur && cur.logs && cur.logs.length) {
+                    jl.textContent = cur.logs.join('\n');
                     jl.scrollTop = jl.scrollHeight;
                 }
             }
             wireSse(focusedJob);
         }
+    }
+
+    function aiRunningId() {
+        // server 'running' field tells us which job is active
+        return window.__aiRunning || null;
     }
 
     function wireSse(jobId) {
@@ -209,18 +377,33 @@
         focusedJob = jobId;
         const jl = $('joblog-' + jobId);
         if (!jl) { focusedJob = null; return; }
-        jl.textContent = 'streaming…';
+        jl.textContent = jl.textContent || 'streaming…';
         const src = new EventSource(`/api/ai/jobs/${jobId}/events`);
         focusedSource = src;
         src.onmessage = (e) => {
-            const p = JSON.parse(e.data);
-            if (p.logs) {
-                const el = $('joblog-' + jobId);
-                if (el) { el.textContent = ((el.textContent || '').trim() === 'streaming…' ? '' : el.textContent) + ''.concat(...p.logs.map(l => l + '\n')); el.scrollTop = el.scrollHeight; }
+            let p; try { p = JSON.parse(e.data); } catch (_) { return; }
+            const el = $('joblog-' + jobId);
+            if (!el) { return; }
+            if (p.snapshot && p.logs) {
+                // Full snapshot replaces the buffer (source of truth).
+                el.textContent = p.logs.join('\n') + (p.status === 'running' && (canStream(jobId)) ? '\nstreaming…' : '');
+                el.scrollTop = el.scrollHeight;
+                return;
             }
-            if (p.status === 'running' && p.snapshot) { /* initial */ }
+            if (p.logs && p.logs.length) {
+                const marker = 'streaming…';
+                let base = el.textContent || '';
+                if (base.endsWith(marker)) base = base.slice(0, -marker.length);
+                el.textContent = base + ''.concat(...p.logs.map(l => l + '\n'));
+                el.scrollTop = el.scrollHeight;
+            }
         };
-        src.onerror = () => { src.close(); };
+        src.onerror = () => { /* wait for reconnect */ };
+    }
+
+    function canStream(jobId) {
+        const j = JOBS.find(x => x.id === jobId);
+        return j && /^(running|queued)$/.test(j.status || '');
     }
 
     function toggleLog(jobId) {
@@ -235,22 +418,81 @@
     async function retryJob(id) {
         try { await api('/api/ai/jobs/' + id + '/retry', { method: 'POST' }); toast('Re-queued'); loadJobs(); } catch (e) { toast(e.message); }
     }
+    async function clearFinished() {
+        if (!confirm('Remove all finished jobs (done/error/cancelled/interrupted) from the list?')) return;
+        try { const r = await api('/api/ai/jobs/finished', { method: 'DELETE' }); toast(`Cleared ${r.removed} finished job(s)`); loadJobs(); } catch (e) { toast(e.message); }
+    }
+
+    // ---------------- Ollama ----------------
+    async function ollamaStatus() {
+        const ai = (AI_CONFIG && AI_CONFIG.ai) || {};
+        const cfg = ai[BACKEND] || {};
+        const host = cfg.host || (BACKEND === 'race' ? '' : 'http://localhost:11434');
+        if (BACKEND === 'race' && !host) {
+            const el = $('ollama-status');
+            el.textContent = 'Race: set pod URL';
+            el.className = 'badge';
+            return;
+        }
+        try {
+            const r = await fetch(`${host.replace(/\/$/, '')}/api/tags`);
+            const d = await r.json();
+            const el = $('ollama-status');
+            const label = BACKEND === 'race' ? 'Race' : 'Ollama';
+            el.textContent = `${label} ${(d.models || []).map(m => m.name).slice(0, 2).join(', ') || 'online'}`;
+            el.className = 'badge on';
+        } catch (_) {
+            const el = $('ollama-status');
+            el.textContent = BACKEND === 'race' ? 'Race offline' : 'Ollama offline';
+            el.className = 'badge';
+            if (pollTimer) clearInterval(pollTimer);
+        }
+    }
 
     // ---------------- Catalog ----------------
+    async function loadCoverage() {
+        try {
+            const d = await api('/api/ai/catalog?q=&filter=all&badge=&limit=2000');
+            const subs = d.subjects || [];
+            COVERAGE.total = d.total || subs.length;
+            COVERAGE.placements = d.placements || 0;
+            COVERAGE.withAI = subs.filter(s => s.aiUnits && s.aiUnits.length).length;
+            COVERAGE.guUnits = subs.filter(s => s.aiGu && s.aiGu.length).length;
+            COVERAGE.full = subs.filter(s => s.aiFull).length;
+            COVERAGE.missing = subs.filter(s => !(s.aiUnits && s.aiUnits.length)).length;
+            renderCoverage();
+        } catch (_) { /* leave chips at defaults */ }
+    }
+
+    function renderCoverage() {
+        $('cover-chips').innerHTML = `
+            <span class="cover-chip"><i class="fas fa-book chip-ico"></i> Subjects <b>${COVERAGE.total}</b></span>
+            <span class="cover-chip"><i class="fas fa-file-code chip-ico"></i> With AI units <b>${COVERAGE.withAI}</b></span>
+            <span class="cover-chip"><i class="fas fa-language chip-ico"></i> GU translated <b>${COVERAGE.guUnits}</b></span>
+            <span class="cover-chip"><i class="fas fa-layer-group chip-ico"></i> Full books <b>${COVERAGE.full}</b></span>
+            <span class="cover-chip" style="border-color:rgba(248,113,113,.4); color:var(--danger);"><i class="fas fa-hourglass-half chip-ico"></i> Missing <b style="color:var(--danger);">${COVERAGE.missing}</b></span>
+        `;
+    }
+
     async function reloadCatalog() {
         const q = encodeURIComponent($('q').value.trim());
         const filter = $('filter').value;
         const badge = $('badge').value;
         try {
-            const d = await api(`/api/ai/catalog?q=${q}&filter=${filter}&badge=${badge}&limit=400`);
+            const d = await api(`/api/ai/catalog?q=${q}&filter=${filter}&badge=${badge}&limit=2000`);
             CATALOG = d.subjects || [];
-            $('catalog-count').textContent = '(' + d.total + ' matches, showing ' + CATALOG.length + ')';
+            const shown = CATALOG.length;
+            const placements = d.placements || 0;
+            const of = d.total;
+            $('catalog-count').textContent = '(' + shown + ' shown)';
+            $('catalog-meta').innerHTML =
+                `<span><b>${of}</b> unique subject codes${placements > of ? ` — <b>${placements}</b> branch placements (same code = 1 shared book)` : ''}</span>` +
+                `<span>${filter !== 'all' || badge ? '<i class="fas fa-filter"></i> filters active ·' : ''} showing ${shown}</span>` +
+                `&nbsp;·&nbsp;<span class="refresh-tip" title="Same subject code across branches shares one book">No clones: grouped by code</span>`;
             renderCatalog();
         } catch (e) { $('catalog-wrap').innerHTML = `<div class="empty">Catalog error: ${e.message}</div>`; }
     }
 
-    // Unit chips from the parsed syllabus (source of truth). Unknown count → prompt
-    // the admin to fetch the syllabus first.
     function unitChips(s) {
         const have = new Set(s.aiUnits);
         const guS = new Set(s.aiGu);
@@ -269,15 +511,25 @@
         }).join('');
     }
 
+    function branchCell(s) {
+        const list = (s.branchList || []).join('\n') || '—';
+        const escList = list.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/'/g, '&apos;');
+        if (s.branchCount > 1) {
+            return `<span class="branches" title="${escList}">${s.branchCount} branches</span>`;
+        }
+        return `<span class="muted" title="${escList}">${list.split('\n')[0] || '—'}</span>`;
+    }
+
     function renderCatalog() {
         const w = $('catalog-wrap');
         if (!CATALOG.length) { w.innerHTML = '<div class="empty">No subjects match.</div>'; return; }
         let html = `<table class="catalog-table"><thead><tr>
-            <th>Code</th><th>Subject</th><th>Branch / Sem</th><th>Badges</th>
+            <th>Code</th><th>Subject</th><th>Branches</th><th>Badges</th>
             <th>Units <span class="legend">from syllabus · ✓ EN · ગુ GU</span></th>
             <th>Actions</th></tr></thead><tbody>`;
         for (const s of CATALOG) {
             const badges = [];
+            if (s.kind) badges.push(`<span class="badge ${s.kind}">${s.kind === 'degree' ? 'Degree' : 'Diploma'}</span>`);
             badges.push(s.realBook
                 ? '<span class="badge on">Real Book</span>'
                 : (s.hasSyllabus ? '<span class="badge">Syllabus PDF</span>' : '<span class="badge">No Real Book</span>'));
@@ -298,7 +550,7 @@
             html += `<tr>
                 <td class="code">${s.code}</td>
                 <td class="subj"><a class="subj-link" href="${s.page}" target="_blank">${s.name}</a></td>
-                <td class="muted">${s.branch}<br/>${s.sem}</td>
+                <td>${branchCell(s)}</td>
                 <td>${badges.join('')}</td>
                 <td><div class="unit-chips">${unitChips(s)}</div></td>
                 <td class="actions">
@@ -322,7 +574,7 @@
     async function enqueueSyllabus(code, btn) {
         btn.disabled = true;
         try {
-            const r = await api('/api/ai/jobs', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: 'syllabus', code }) });
+            const r = await api('/api/ai/jobs', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: 'syllabus', code, backend: BACKEND }) });
             const jid = r.job.id;
             toast('Fetching syllabus for ' + code + '…');
             loadJobs();
@@ -335,6 +587,7 @@
                         clearInterval(t);
                         loadJobs();
                         reloadCatalog();
+                        loadCoverage();
                         toast(j.status === 'done' ? 'Syllabus parsed — units now known for ' + code : 'Syllabus fetch failed: ' + (j.error || 'unknown'));
                     }
                 } catch (_) { clearInterval(t); }
@@ -348,7 +601,7 @@
         const n = +selEl.value;
         btn.disabled = true;
         try {
-            await api('/api/ai/jobs', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type, code, units: [n], gu: type === 'gu' }) });
+            await api('/api/ai/jobs', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type, code, units: [n], gu: type === 'gu', backend: BACKEND }) });
             toast(`${type === 'regen' ? 'Re-generating' : 'Generating'} unit ${n} for ${code}…`);
             loadJobs();
         } catch (e) { toast(e.message); } finally { btn.disabled = false; }
@@ -357,7 +610,7 @@
     async function enqueueFull(code, btn) {
         btn.disabled = true;
         try {
-            await api('/api/ai/jobs', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: 'fullbook', code }) });
+            await api('/api/ai/jobs', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: 'fullbook', code, backend: BACKEND }) });
             toast('Full book job queued for ' + code);
             loadJobs();
         } catch (e) { toast(e.message); } finally { btn.disabled = false; }
@@ -369,10 +622,63 @@
     $('filter').addEventListener('change', reloadCatalog);
     $('badge').addEventListener('change', reloadCatalog);
 
-    setInterval(() => { loadJobs(); }, 2500);
-    ollamaStatus();
-    loadJobs();
-    reloadCatalog();
+    setInterval(async () => {
+        // Refresh running job id from server separately so jobs table can highlight it.
+        try {
+            const d = await fetch('/api/ai/jobs').then(r => r.json());
+            window.__aiRunning = d.running || null;
+            const prevCount = JOBS.length;
+            JOBS = d.jobs || [];
+            $('jobs-count').textContent = '(' + JOBS.length + ')';
+            renderSummary();
+            renderJobFilters();
+            // Full re-render only when the list changed (log preserved via prevLog);
+            // otherwise update cells in place to avoid log flicker.
+            if (!focusedJob || JOBS.length !== prevCount || !JOBS.some(x => x.id === focusedJob)) renderJobs();
+            else updateJobRows();
+        } catch (_) { /* ignore */ }
+    }, 2500);
+
+    function updateJobRows() {
+        const w = $('jobs-wrap');
+        if (!w.querySelector('table')) return renderJobs();
+        const byId = {};
+        JOBS.forEach(j => byId[j.id] = j);
+        w.querySelectorAll('tr[data-jid]').forEach(tr => {
+            const j = byId[tr.dataset.jid];
+            if (!j) { tr.remove(); return; }
+            // update the focused row's non-log cells
+            const isRunning = j.status === 'running';
+            const pct = isRunning ? guardPct(j.stepCount ? Math.round((j.stepIndex / j.stepCount) * 100) : 0) : guardPct(j.progress);
+            const st = tr.querySelector('.st-status'); if (st) st.innerHTML = statusPill(j.status);
+            const pr = tr.querySelector('.st-progress'); if (pr) pr.innerHTML = (isRunning
+                ? `<div class="pbar running"><div style="width:${pct}%"></div></div> <span class="metric">${pct}%</span>`
+                : `<div class="pbar"><div style="width:${pct}%"></div></div> <span class="metric">${pct}%</span>`)
+                + (j.error ? `<div class="metric" style="color:var(--danger);">${j.error}</div>` : '');
+            const sp = tr.querySelector('.st-step'); if (sp) { sp.textContent = (j.stepLabel || '').replace(/─/g, ''); }
+            tr.classList.toggle('current', j.id === window.__aiRunning);
+            const ac = tr.querySelector('.st-actions');
+            if (ac && (ac.dataset.status || '') !== j.status) {
+                ac.dataset.status = j.status;
+                ac.innerHTML = `<div class="row-actions">
+                    <button onclick="toggleLog('${j.id}')" title="Toggle live log"><i class="fas fa-terminal"></i> Log</button>
+                    ${isRunning || j.status === 'queued' ? `<button class="btn-regen" onclick="cancelJob('${j.id}')"><i class="fas fa-ban"></i> Cancel</button>`
+                        : `<button onclick="retryJob('${j.id}')" title="Re-queue this job"><i class="fas fa-redo"></i> Retry</button>`}
+                </div>`;
+            }
+        });
+    }
+
+    // autoreconnect SSE after re-render (silent)
+    window.__aiRunning = null;
+    (async function init() {
+        await loadAiConfig();   // sets BACKEND + AI_CONFIG before anything uses them
+        ollamaStatus();
+        loadJobs();
+        reloadCatalog();
+        loadCoverage();
+        setInterval(() => ollamaStatus(), 25000); // periodic status ping for the active backend
+    })();
     </script>
 </body>
 </html>

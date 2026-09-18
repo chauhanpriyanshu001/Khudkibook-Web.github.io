@@ -1,0 +1,183 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Bachelor of Engineering
+Level: UG
+Branch: ALL
+Course / Subject Code : BE01000071
+Course / Subject Name : Design Thinking
+W.e.f. 2024-25 http://syllabus.gtu.ac.in/ Page 1 of 4
+Prerequisite: NIL
+Rationale: This course is designed for students from all disciplines who seek to understand
+design thinking for brand, product, and service development. It covers essential
+concepts, methods, and techniques of design thinking, empowering students to drive
+innovation in both business and the social sector.
+Course Outcome:
+After Completion of the Course, the Student will be able to:
+No Course Outcomes RBT Level
+01 Understand the fundamental principles and importance of Design Thinking in
+fostering innovation and its relevance in engineering. UN
+02 Apply systematic problem identification, problem framing-articulation, and
+problem-solving approaches in the context of Design Thinking. AP
+03
+Analyze and evaluate different tools and methodologies used in Design
+Thinking, such as observation, ethnographic research, and mind mapping, to
+gain insights into user unmet needs.
+AN
+04
+Develop and refine product concepts by preparing product development
+canvases (PDC) that consider product experience, functions, features, and
+components. (Synthesis level)
+AP
+05
+Create a final working prototype or an alternative prototype for projects with
+limitations, showcasing the functionality and features, Viability, Impact,
+Sustainability, Scalability, Costing, and Resources for the Creation
+CR
+*Revised Bloom’s Taxonomy (RBT)
+W. e. f. Academic Year: 2024-25
+Semester: Ist Year
+Category of the Course: ESC
+
+-- 1 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Bachelor of Engineering
+Level: UG
+Branch: ALL
+Course / Subject Code : BE01000071
+Course / Subject Name : Design Thinking
+W.e.f. 2024-25 http://syllabus.gtu.ac.in/ Page 2 of 4
+Teaching and Examination Scheme:
+Teaching Scheme
+(in Hours)
+Total Credits
+L+T+ (PR/2) Assessment Pattern and Marks
+Total
+Marks
+L T PR C Theory Tutorial / Practical
+ESE (E) PA / CA (M) PA/CA (I) ESE (V)
+00 00 04 02 00 00 20 80 100
+Course Content:
+Unit
+No. Content No. of
+Hours
+% of
+Weightage
+1.
+Introduction to Design Thinking for Engineers
+What Sets Design Thinking Apart? Essential Design Thinking Skills,
+Core Principles of Design Thinking, Foundations of Design Thinking,
+Building an Effective Design Thinking Team, Design Thinking
+Workshops and Meetings
+Exercises and Case-Based Discussions
+08 13
+2.
+Stages of the Design Thinking Approach
+Class Exercise: Review the Case Study
+Observation: Role of observation in understanding product and process
+challenges, Techniques for effective product and process observation
+Exercise: Based on the AEIOU Framework
+Empathize with Customers/Users
+Exercise: Engage with Customers/Users
+Define the Problem, Exercise: Review and Follow-Up, Define the
+Point of View
+Ideate Exercise: Develop Potential Solutions
+Prototype Alternate Solutions Exercise: Create a Prototype of the
+Solution
+Test the Solutions Exercise: Prepare and Conduct Tests of the
+Prototype and Solution
+14 23
+
+-- 2 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Bachelor of Engineering
+Level: UG
+Branch: ALL
+Course / Subject Code : BE01000071
+Course / Subject Name : Design Thinking
+W.e.f. 2024-25 http://syllabus.gtu.ac.in/ Page 3 of 4
+Exploring Design Thinking in Innovation: Understanding the Role
+of Design Thinking in Product and Process Innovation, Differentiating
+Engineering Design and Design Thinking
+Contrasting Approaches: Engineering Design vs. Design Thinking
+Stanford Design thinking process and Double Diamond model
+3.
+Design Thinking Techniques
+Understanding Listening and Empathizing Techniques: Exploring
+observation methods, Utilizing a structured, open-ended approach for
+effective communication,
+Ideation Tools: Brainstorming techniques for idea generation,
+Applying innovation heuristics to foster creativity.
+Introduction to SCAMPER technique: Explanation of SCAMPER
+(Substitute, Combine, Adapt, Modify, put to another use, Eliminate,
+Reverse) and its application in diverse innovation contexts (product,
+system, process)
+Practical exercises and case studies demonstrating SCAMPER’s
+effectiveness in idea generation
+Prototype and Test Techniques: Type of Prototype (PoC), Forms of
+testing in Design Thinking, Prepare and A/B Test of the prototype
+14 23
+4.
+Methods and Tools for Design Thinking Practice
+Empathize: Ask five why questions, Empathy map, storytelling, critical
+items diagram, mind map, journey map
+Ideate: Brainstorming, 2X2 matrix, NABC Methods
+Prototype: Exploration map, Minimum Viable Product (MVP),
+Feasibility Testing, Viability Testing, Sustainability Testing
+Test: Collet Feedback, iterate and improve the ideas
+14 23
+5.
+Adopt and Adapt Design Thinking
+Cautions and Pitfalls: Assumptions
+Exercise: Assumptions
+Pitfalls and Cautions in Design Thinking Workgroups
+Application of Design Thinking in Academic Projects Across
+Disciplines
+10 18
+Total 60 100
+
+-- 3 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Bachelor of Engineering
+Level: UG
+Branch: ALL
+Course / Subject Code : BE01000071
+Course / Subject Name : Design Thinking
+W.e.f. 2024-25 http://syllabus.gtu.ac.in/ Page 4 of 4
+Suggested Specification Table with Marks (Theory):
+Distribution of Theory Marks (in %)
+R Level U Level A Level N Level E Level C Level
+0 15 40 15 20 10
+Where R: Remember; U: Understanding; A: Application, N: Analyze and E: Evaluate C: Create (as per
+Revised Bloom’s Taxonomy)
+References/Suggested Learning Resources:
+(a) Books:
+1. Pavan Soni (2020), Design Your Thinking: The Mindsets, Toolsets, and Skill Sets for Creative
+Problem-solving, Penguin Random House India Private Limited
+2. Gasparini, Andrea. "Perspective and use of empathy in design thinking." In ACHI, the Eight
+International Conference on Advances in Computer-Human Interactions, pp. 49-54. 2015.
+3. Defining a Problem Statement — Design Thinking by Priyanka Jeph in QED42
+4. Scamper: How to Use the Best Ideation Methods by Rikke Friis Dam and Teo Yu Siang in
+Interaction Design Foundation
+5. Design: Creation of Artifacts in Society by Prof. Karl Ulrich, U. Penn
+6. Tim Brown, "Change by Design: How Design Thinking Transforms Organizations and Inspires
+Innovation."
+7. Jeanne Liedtka, Tim Ogilvie, and Rachel Brozenske, "Design Thinking for the Greater Good:
+Innovation in the Social Sector."
+(b) Open-source software and website:
+1. Google Workspace: Docs, Sheets, & Slides
+2. Google Jamboard
+3. Storyboard
+4. Any other Relevant Tools
+(c) Suggestive MOOC Course
+1. B.K. Chakravarthy, Design Technology and Innovation, SWAYAM NPTEL (Online)
+2. B.K. Chakravarthy, Innovation by Design, SWAYAM NPTEL (Online)
+3. Nina Sabnani, Understanding Design, SWAYAM NPTEL (Online)
+4. R T Krishnan and V Dhabolkar, Managing Innovation, SWAYAM NPTEL (Online)
+Note:
+1. Based on Design Thinking, individual BoS may propose mini projects in the relevant subject in
+higher semesters.
+
+-- 4 of 4 --
+

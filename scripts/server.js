@@ -153,9 +153,32 @@ const { spawn } = require('child_process');
 const crypto = require('crypto');
 
 const AI_JOBS_FILE = path.join(__dirname, '../data/ai_jobs.json');
+const AI_CONFIG_FILE = path.join(__dirname, '../data/server-config.json');
 const AI_RUN_SCRIPT = path.join(__dirname, 'ai_book', 'run_subject.js');
 const AI_BOOK_DEFS = path.join(__dirname, '../data/ai_books');
 const AI_PUBLIC_BOOKS = path.join(__dirname, '../public/books');
+
+function loadAiConfig() {
+  try { return JSON.parse(fs.readFileSync(AI_CONFIG_FILE, 'utf8')); } catch (_) {
+    return { ai: { backend: 'local', local: { host: 'http://localhost:11434', model: 'qwen2.5:7b', guModel: 'aya-expanse:8b', retryBrokenDiagrams: true }, race: { host: '', model: 'qwen2.5:14b', guModel: 'aya-expanse:8b', retryBrokenDiagrams: true } } };
+  }
+}
+let aiConfig = loadAiConfig();
+function saveAiConfig() { fs.writeFileSync(AI_CONFIG_FILE, JSON.stringify(aiConfig, null, 2)); }
+
+// Resolve the effective Ollama host/model for a job backend.
+function backendSettings(job) {
+  const backend = String(job.backend === 'race' ? 'race' : 'local');
+  const cfg = (aiConfig.ai && aiConfig.ai[backend]) || {};
+  const host = cfg.host || (backend === 'race' ? '' : 'http://localhost:11434');
+  return {
+    backend,
+    host,                       // '' for race = not configured yet
+    model: cfg.model || process.env.OLLAMA_MODEL || 'qwen2.5:7b',
+    guModel: cfg.guModel || process.env.OLLAMA_GU_MODEL || 'aya-expanse:8b',
+    retry: cfg.retryBrokenDiagrams
+  };
+}
 
 const AI_STEP_SETS = {
     syllabus: ['syllabus'],
@@ -262,8 +285,20 @@ function spawnAiJob(job) {
     job.logs = job.logs || [];
     saveAiJobs();
 
+    const settings = backendSettings(job);
+    if (settings.backend === 'race' && !settings.host) {
+      return finishAiJob(job, 'error', 'Race GPU host not configured — add ai.race.host in data/server-config.json (e.g. http://<pod-ip>:11434)');
+    }
+
     const args = runJobArgs(job);
-    const child = spawn(process.execPath, args, { cwd: path.join(__dirname, '..') });
+    const childEnv = {
+      ...process.env,
+      OLLAMA_HOST: settings.host,
+      OLLAMA_MODEL: settings.model,
+      OLLAMA_GU_MODEL: settings.guModel,
+      RETRY_BROKEN_DIAGRAMS: settings.retry ? '1' : '0'
+    };
+    const child = spawn(process.execPath, args, { cwd: path.join(__dirname, '..'), env: childEnv });
     aiChilds[job.id] = child;
 
     emitAi(job.id, { status: 'running', startedAt: job.startedAt });
@@ -316,20 +351,25 @@ function enqueueAiJob(body) {
     const types = new Set(Object.keys(AI_STEP_SETS));
     const type = String(body.type || '');
     if (!types.has(type)) return { error: `type must be one of: ${[...types].join(', ')}` };
-    const code = String(body.code || '');
-    if (!/^\d{5,8}$/.test(code)) return { error: 'code must be the numeric GTU subject code' };
+    const code = String(body.code || '').trim();
+    // Numeric diploma codes (4300001) and alphanumeric degree codes (BE02000011) are both valid.
+    if (!/^[A-Za-z][A-Za-z0-9\-]{0,14}$/.test(code) && !/^\d{5,8}$/.test(code)) {
+        return { error: 'code must be a GTU subject code, e.g. 4360302 (diploma) or BE02000011 (degree)' };
+    }
     if (type === 'fullbook' && body.units) return { error: 'fullbook generates every unit — do not pass units' };
     const units = body.units && body.units.length ? body.units.map(Number).filter(Boolean) : null;
     if (type !== 'fullbook' && type !== 'syllabus' && (!units || !units.length)) return { error: `type ${type} needs --units (comma separated unit numbers)` };
     if (type === 'gu' && !body.gu) body.gu = true; // gu jobs imply gu
 
     const id = 'ai_' + Date.now() + '_' + Math.random().toString(36).slice(2, 8);
+    const backend = String(body.backend === 'race' ? 'race' : (aiConfig.ai && aiConfig.ai.backend) || 'local');
     const job = {
         id,
         type,
         code,
         units,
         gu: !!body.gu,
+        backend,
         status: 'queued',
         progress: 0,
         stepIndex: 0,
@@ -363,7 +403,6 @@ function buildAiCatalog() {
         };
     }
 
-    const out = [];
     // unitdef.json (parsed syllabus) is the source of truth for the unit list
     let aiDefs = {};
     try { for (const code of fs.readdirSync(AI_BOOK_DEFS)) {
@@ -371,34 +410,48 @@ function buildAiCatalog() {
         if (!fs.existsSync(p)) continue;
         try { const d = JSON.parse(fs.readFileSync(p, 'utf8')); if (d && Array.isArray(d.units) && d.units.length) aiDefs[code] = d; } catch (_) { /* ignore */ }
     } } catch (_) { /* ignore */ }
+
+    // Group placements by subject code. The same code (e.g. BE02000011 across
+    // 41 branches) shares ONE book and ONE syllabus — never clone per branch.
+    const groups = new Map();
     for (const u of db.universities || []) for (const d of u.domains || []) for (const b of d.branches || []) for (const s of b.semesters || []) {
         for (const sub of s.subjects || []) {
-            const code = String(sub.code || '');
+            const code = String(sub.code || '').trim();
             if (!code) continue;
+            let g = groups.get(code);
+            if (!g) {
+                g = { code, name: sub.name || `Subject ${code}`, slug: sub.slug || code, page: null, placements: 0, realBook: false, hasSyllabus: false, hasPapers: false, branchList: [] };
+                groups.set(code, g);
+            }
+            g.placements++;
             const mats = sub.materials || [];
-            const ai = aiState[code] || { units: [], gu: [], full: false, fullGu: false };
-            const realBook = mats.some(m => m.type === 'book' && !/syallbus/i.test(m.link || '') && !/syllabus/i.test(m.label || ''));
-            const syllabus = mats.some(m => /syallbus|syllabus/i.test((m.link || '') + ' ' + (m.label || '')));
-            const papers = mats.some(m => m.type === 'paper' || /paper/i.test(m.label || ''));
-            out.push({
-                code,
-                name: sub.name || `Subject ${code}`,
-                branch: `${u.name || ''} ${b.name || b.shortName || ''}`.trim(),
-                sem: s.name || '',
-                slug: sub.slug || code,
-                page: `/${b.id || ''}/${s.id || ''}/${(sub.slug || code)}.html`,
-                realBook: !!realBook,
-                hasSyllabus: !!syllabus,
-                hasPapers: !!papers,
-                aiUnits: ai.units,
-                aiGu: ai.gu,
-                aiFull: ai.full,
-                aiFullGu: ai.fullGu,
-                unitsKnown: !!aiDefs[code],
-                unitCount: aiDefs[code] ? aiDefs[code].units.length : (ai.units.length ? Math.max(...ai.units) : 0),
-                unitTitles: aiDefs[code] ? aiDefs[code].units.map(x => ({ n: x.n, title: x.title, marks: x.marks || null })) : []
-            });
+            if (mats.some(m => m.type === 'book' && !/syallbus/i.test(m.link || '') && !/syllabus/i.test(m.label || ''))) g.realBook = true;
+            if (mats.some(m => /syallbus|syllabus/i.test((m.link || '') + ' ' + (m.label || '')))) g.hasSyllabus = true;
+            if (mats.some(m => m.type === 'paper' || /paper/i.test(m.label || ''))) g.hasPapers = true;
+            if (g.page === null) g.page = `/${b.id || ''}/${s.id || ''}/${(sub.slug || code)}.html`;
+            const branchLabel = `${u.name || ''} ${b.name || b.shortName || ''}  ·  ${s.name || ''}`.trim();
+            if (g.branchList.length < 60 && !g.branchList.includes(branchLabel)) g.branchList.push(branchLabel);
         }
+    }
+
+    const out = [];
+    for (const g of groups.values()) {
+        const code = g.code;
+        const ai = aiState[code] || { units: [], gu: [], full: false, fullGu: false };
+        out.push({
+            ...g,
+            page: g.page || `#`,
+            branch: g.branchList.join(' · '),
+            branchCount: g.placements,
+            kind: /^\d+$/.test(code) ? 'diploma' : 'degree',
+            aiUnits: ai.units,
+            aiGu: ai.gu,
+            aiFull: ai.full,
+            aiFullGu: ai.fullGu,
+            unitsKnown: !!aiDefs[code],
+            unitCount: aiDefs[code] ? aiDefs[code].units.length : (ai.units.length ? Math.max(...ai.units) : 0),
+            unitTitles: aiDefs[code] ? aiDefs[code].units.map(x => ({ n: x.n, title: x.title, marks: x.marks || null })) : []
+        });
     }
     return out;
 }
@@ -408,21 +461,60 @@ app.get('/api/ai/catalog', (req, res) => {
     try {
         let cat = buildAiCatalog();
         const q = String(req.query.q || '').toLowerCase();
-        if (q) cat = cat.filter(x => x.code.includes(q) || x.name.toLowerCase().includes(q) || x.branch.toLowerCase().includes(q));
-        if (req.query.filter === 'missing') cat = cat.filter(x => !x.aiUnits.length);
-        if (req.query.filter === 'core') cat = cat.filter(x => x.realBook || x.aiUnits.length || x.hasSyllabus);
+        if (q) cat = cat.filter(x => String(x.code).toLowerCase().includes(q) || x.name.toLowerCase().includes(q) || x.branch.toLowerCase().includes(q));
+        const filter = String(req.query.filter || '');
+        if (filter === 'missing') cat = cat.filter(x => !x.aiUnits.length);
+        else if (filter === 'core') cat = cat.filter(x => x.realBook || x.aiUnits.length || x.hasSyllabus);
+        else if (filter === 'diploma') cat = cat.filter(x => x.kind === 'diploma');
+        else if (filter === 'degree') cat = cat.filter(x => x.kind === 'degree');
         const want = req.query.badge ? String(req.query.badge) : null;
         if (want === 'papers') cat = cat.filter(x => x.hasPapers);
         if (want === 'ai') cat = cat.filter(x => x.aiUnits.length);
-        cat.sort((a, b) => (b.realBook || 0) - (a.realBook || 0) || (b.aiUnits.length || 0) - (a.aiUnits.length || 0) || a.code.localeCompare(b.code));
+        if (want === 'full') cat = cat.filter(x => x.aiFull);
+        if (want === 'syllabus') cat = cat.filter(x => x.hasSyllabus);
+        if (want === 'real') cat = cat.filter(x => x.realBook);
+        cat.sort((a, b) => (b.realBook || 0) - (a.realBook || 0) || (b.aiUnits.length || 0) - (a.aiUnits.length || 0) || (b.branchCount || 0) - (a.branchCount || 0) || a.code.localeCompare(b.code));
         const limit = Math.max(1, Math.min(2000, parseInt(req.query.limit, 10) || 300));
-        res.json({ status: 'success', total: cat.length, subjects: cat.slice(0, limit) });
+        const placements = cat.reduce((t, x) => t + (x.branchCount || 0), 0);
+        res.json({ status: 'success', total: cat.length, placements, subjects: cat.slice(0, limit) });
     } catch (err) {
         res.status(500).json({ status: 'error', message: err.message });
     }
 });
 
 app.get('/api/ai/jobs', (req, res) => res.json({ status: 'success', running: aiRunning, jobs: aiJobs }));
+
+// ---- AI config (backend toggle: local vs race) ----
+app.get('/api/ai/config', (req, res) => {
+    res.json({ status: 'success', config: aiConfig });
+});
+
+app.post('/api/ai/config', (req, res) => {
+    try {
+        const body = req.body || {};
+        const ai = body.ai || {};
+        const cur = aiConfig.ai || {};
+        // sanitise: accept only known keys and valid backend
+        if (ai.backend !== undefined) {
+            if (!['local', 'race'].includes(ai.backend)) return res.status(400).json({ status: 'error', message: 'backend must be local or race' });
+            cur.backend = ai.backend;
+        }
+        for (const which of ['local', 'race']) {
+            if (ai[which] && typeof ai[which] === 'object') {
+                const s = cur[which] || (cur[which] = {});
+                if (ai[which].host !== undefined) s.host = String(ai[which].host).trim();
+                if (ai[which].model !== undefined) s.model = String(ai[which].model).trim();
+                if (ai[which].guModel !== undefined) s.guModel = String(ai[which].guModel).trim();
+                if (ai[which].retryBrokenDiagrams !== undefined) s.retryBrokenDiagrams = !!ai[which].retryBrokenDiagrams;
+            }
+        }
+        aiConfig.ai = cur;
+        saveAiConfig();
+        res.json({ status: 'success', config: aiConfig });
+    } catch (err) {
+        res.status(500).json({ status: 'error', message: err.message });
+    }
+});
 
 app.post('/api/ai/jobs', (req, res) => {
     const r = enqueueAiJob(req.body || {});
@@ -456,6 +548,14 @@ app.post('/api/ai/jobs/:id/retry', (req, res) => {
     saveAiJobs();
     sweepAi();
     res.json({ status: 'success', job });
+});
+
+app.delete('/api/ai/jobs/finished', (req, res) => {
+    const done = j => ['done', 'error', 'cancelled', 'interrupted'].includes(j.status);
+    const removed = aiJobs.filter(done).length;
+    aiJobs = aiJobs.filter(j => !done(j));
+    saveAiJobs();
+    res.json({ status: 'success', removed });
 });
 
 app.get('/api/ai/jobs/:id/events', (req, res) => {

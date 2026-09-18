@@ -1,0 +1,411 @@
+{
+ "code": "C4300001",
+ "subject": "Mathematics",
+ "unit": 2,
+ "lang": "en",
+ "title": "Unit – Trigonometry",
+ "url": "/books/C4300001/unit-2.html",
+ "guUrl": null,
+ "words": 2411,
+ "readingMin": 13,
+ "marks": "14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)",
+ "sections": [
+  {
+   "heading": "Unit – II: Trigonometry",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code C4300001 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately <strong>14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)</strong>.</p>\n<p>Learning objectives covered by this module:</p>\n<ul>\n<li>2.a. Apply the concept of Compound angle, Allied angle, and Multiple angles to solve the given simple engineering problem(s)</li>\n<li>2.b. Explain the concept of Sub- Multiple and solve related problem(s).</li>\n<li>2.c. Invoke the concept of Sum and Factor formulae to solve the given simple problem(s)</li>\n<li>2.d. Investigate given simple problems using inverse Trigonometric functions.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.1. Introduction to Units of Angles",
+   "id": "",
+   "html": "<p>Angles can be measured in different units. The most common units are <strong>degrees</strong> and <strong>radians</strong>. Both units are used in engineering problems, especially in trigonometric calculations.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Degree",
+   "id": "",
+   "html": "<ul>\n<li>A degree is a unit of angular measurement, where a full circle is divided into 360 degrees.</li>\n<li>The symbol for degree is ^.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Radian",
+   "id": "",
+   "html": "<ul>\n<li>A radian is the standard unit of angular measure in mathematics.</li>\n<li>One radian is the angle subtended at the center of a circle by an arc that is equal in length to the radius of the circle.</li>\n<li>The symbol for radian is rad.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.2. Relationship Between Degrees and Radians",
+   "id": "",
+   "html": "<p>The relationship between degrees and radians can be expressed as:</p>\n<p>[ 1 \\text{ radian} = \\frac{180}{\\pi} \\text{ degrees} ]</p>\n<p>[ 1 \\text{ degree} = \\frac{\\pi}{180} \\text{ radians} ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 120 degrees to radians.<br /><br />[<br />\\text{Radians} = \\frac{\\pi}{180} \\times 120 = \\frac{2\\pi}{3} \\text{ radians}<br />]</div>",
+   "examples": [
+    "Convert 120 degrees to radians. [ \\text{Radians} = \\frac{\\pi}{180} \\times 120 = \\frac{2\\pi}{3} \\text{ radians} ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.3. Practical Application of Degrees and Radians",
+   "id": "",
+   "html": "<p>Understanding the conversion between degrees and radians is crucial for solving engineering problems involving angles.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A wheel rotates through 270 degrees. Find the equivalent angle in radians.<br /><br />[<br />\\text{Radians} = \\frac{\\pi}{180} \\times 270 = \\frac{3\\pi}{2} \\text{ radians}<br />]</div>",
+   "examples": [
+    "A wheel rotates through 270 degrees. Find the equivalent angle in radians. [ \\text{Radians} = \\frac{\\pi}{180} \\times 270 = \\frac{3\\pi}{2} \\text{ radians} ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.1. Introduction to Trigonometric Functions",
+   "id": "",
+   "html": "<p>Trigonometric functions are fundamental in engineering and are used to solve problems involving angles and lengths. The primary trigonometric functions are <strong>sine (sin)</strong>, <strong>cosine (cos)</strong>, and <strong>tangent (tan)</strong>.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Sine Function (sin)",
+   "id": "",
+   "html": "<ul>\n<li>The sine of an angle is the ratio of the length of the opposite side to the hypotenuse in a right triangle.</li>\n<li>θ = opposite hypotenuse</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Cosine Function (cos)",
+   "id": "",
+   "html": "<ul>\n<li>The cosine of an angle is the ratio of the length of the adjacent side to the hypotenuse in a right triangle.</li>\n<li>θ = adjacent hypotenuse</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Tangent Function (tan)",
+   "id": "",
+   "html": "<ul>\n<li>The tangent of an angle is the ratio of the sine to the cosine of the angle.</li>\n<li>θ = θ θ = opposite adjacent</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.2. Trigonometric Identities",
+   "id": "",
+   "html": "<p>Trigonometric identities are essential for solving problems and simplifying expressions.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Pythagorean Identity",
+   "id": "",
+   "html": "<p>[ \\sin^2 \\theta + \\cos^2 \\theta = 1 ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Reciprocal Identities",
+   "id": "",
+   "html": "<p>[ \\csc \\theta = \\frac{1}{\\sin \\theta} ]</p>\n<p>[ \\sec \\theta = \\frac{1}{\\cos \\theta} ]</p>\n<p>[ \\cot \\theta = \\frac{1}{\\tan \\theta} ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Prove the identity ² θ + ² θ = 1.<br /><br />[<br />\\sin^2 \\theta + \\cos^2 \\theta = \\left(\\frac{\\text{opposite}}{\\text{hypotenuse}}\\right)^2 + \\left(\\frac{\\text{adjacent}}{\\text{hypotenuse}}\\right)^2<br />]<br /><br />[<br />= \\frac{\\text{opposite}^2}{\\text{hypotenuse}^2} + \\frac{\\text{adjacent}^2}{\\text{hypotenuse}^2} = \\frac{\\text{opposite}^2 + \\text{adjacent}^2}{\\text{hypotenuse}^2}<br />]<br /><br />[<br />= \\frac{\\text{hypotenuse}^2}{\\text{hypotenuse}^2} = 1<br />]</div>",
+   "examples": [
+    "Prove the identity ² θ + ² θ = 1. [ \\sin^2 \\theta + \\cos^2 \\theta = \\left(\\frac{\\text{opposite}}{\\text{hypotenuse}}\\right)^2 + \\left(\\frac{\\text{adjacent}}{\\text{hypotenuse}}\\right)^2 ] [ = \\frac{\\text{opposite}^2}{\\text{hypotenuse}^2} + \\frac{\\text{adjacent}^2}{\\text{hypotenuse}^2} = \\frac{\\text{opposite}^2 + \\text{adjacent}^2}{\\text{hypotenuse}^2} ] [ = \\frac{\\text{hypotenuse}^2}{\\text{hypotenuse}^2} = 1 ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.3. Application of Trigonometric Functions",
+   "id": "",
+   "html": "<p>Trigonometric functions are used in various engineering applications, such as calculating distances, angles, and forces.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A ladder leans against a wall, making an angle of 60 degrees with the ground. If the ladder is 10 meters long, find the height at which the ladder touches the wall.<br /><br />[<br />\\text{Height} = 10 \\times \\sin 60^\\circ = 10 \\times \\frac{\\sqrt{3}}{2} = 5\\sqrt{3} \\approx 8.66 \\text{ meters}<br />]</div>",
+   "examples": [
+    "A ladder leans against a wall, making an angle of 60 degrees with the ground. If the ladder is 10 meters long, find the height at which the ladder touches the wall. [ \\text{Height} = 10 \\times \\sin 60^\\circ = 10 \\times \\frac{\\sqrt{3}}{2} = 5\\sqrt{3} \\approx 8.66 \\text{ meters} ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.4. Inverse Trigonometric Functions",
+   "id": "",
+   "html": "<p>Inverse trigonometric functions are used to find the angle given the value of a trigonometric function.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Sine Inverse (arcsin)",
+   "id": "",
+   "html": "<ul>\n<li>x is the angle whose sine is x.</li>\n<li>θ = x</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Cosine Inverse (arccos)",
+   "id": "",
+   "html": "<ul>\n<li>x is the angle whose cosine is x.</li>\n<li>θ = x</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Tangent Inverse (arctan)",
+   "id": "",
+   "html": "<ul>\n<li>x is the angle whose tangent is x.</li>\n<li>θ = x</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the angle θ if θ = 0.5.<br /><br />[<br />\\theta = \\arcsin 0.5 = 30^\\circ<br />]</div>",
+   "examples": [
+    "Find the angle θ if θ = 0.5. [ \\theta = \\arcsin 0.5 = 30^\\circ ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.2.5. Summary",
+   "id": "",
+   "html": "<p>Trigonometric functions and their inverses are essential tools in solving engineering problems. Understanding the relationship between degrees and radians, and applying trigonometric identities, will help in solving various practical problems.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Relationship Between Degrees and Radians",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[1 Degree] --&gt; B[180/π Radians]\n A --&gt; C[π/180 Radians]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[1 Degree] --&gt; B[180/π Radians]\n A --&gt; C[π/180 Radians]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[1 Degree] --&gt; B[180/π Radians]\n A --&gt; C[π/180 Radians]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[1 Degree] --> B[180/π Radians]\n    A --> C[π/180 Radians]"
+   ]
+  },
+  {
+   "heading": "Mermaid Diagram: Trigonometric Functions",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Angle] --&gt; B[Sine(θ)] --&gt; C[Opposite/Hypotenuse]\n A --&gt; D[Cosine(θ)] --&gt; E[Adjacent/Hypotenuse]\n A --&gt; F[Tangent(θ)] --&gt; G[Opposite/Adjacent]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Angle] --&gt; B[Sine(θ)] --&gt; C[Opposite/Hypotenuse]\n A --&gt; D[Cosine(θ)] --&gt; E[Adjacent/Hypotenuse]\n A --&gt; F[Tangent(θ)] --&gt; G[Opposite/Adjacent]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Angle] --&gt; B[Sine(θ)] --&gt; C[Opposite/Hypotenuse]\n A --&gt; D[Cosine(θ)] --&gt; E[Adjacent/Hypotenuse]\n A --&gt; F[Tangent(θ)] --&gt; G[Opposite/Adjacent]</pre></noscript></div>\n<p>This section covers the fundamental concepts of units of angles and trigonometric functions, providing clear explanations and practical examples for GTU students.</p>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Angle] --> B[Sine(θ)] --> C[Opposite/Hypotenuse]\n    A --> D[Cosine(θ)] --> E[Adjacent/Hypotenuse]\n    A --> F[Tangent(θ)] --> G[Opposite/Adjacent]"
+   ]
+  },
+  {
+   "heading": "Allied Angles",
+   "id": "",
+   "html": "<p>Allied angles are angles which are related to each other in a way that they can be represented as A ± B, where A and B are angles. These angles are important in trigonometry because they help in simplifying and solving trigonometric expressions and equations.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the value of (150^) using the concept of allied angles.<br /><br />Since 150^ = 180^ - 30^, we can use the identity (180^ - A) = A. Therefore,<br />[<br />\\sin(150^\\circ) = \\sin(180^\\circ - 30^\\circ) = \\sin 30^\\circ = \\frac{1}{2}.<br />]</div>",
+   "examples": [
+    "Find the value of (150^) using the concept of allied angles. Since 150^ = 180^ - 30^, we can use the identity (180^ - A) = A. Therefore, [ \\sin(150^\\circ) = \\sin(180^\\circ - 30^\\circ) = \\sin 30^\\circ = \\frac{1}{2}. ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Compound Angles",
+   "id": "",
+   "html": "<p>Compound angles involve the sum or difference of two angles. The basic formulas for compound angles are:</p>\n<p>[</p>\n<p>\\sin(A \\pm B) = \\sin A \\cos B \\pm \\cos A \\sin B,</p>\n<p>]</p>\n<p>[</p>\n<p>\\cos(A \\pm B) = \\cos A \\cos B \\mp \\sin A \\sin B,</p>\n<p>]</p>\n<p>[</p>\n<p>\\tan(A \\pm B) = \\frac{\\tan A \\pm \\tan B}{1 \\mp \\tan A \\tan B}.</p>\n<p>]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the value of (75^) using the concept of compound angles.<br /><br />Since 75^ = 45^ + 30^, we can use the identity (A + B) = A B - A B. Therefore,<br />[<br />\\cos(75^\\circ) = \\cos(45^\\circ + 30^\\circ) = \\cos 45^\\circ \\cos 30^\\circ - \\sin 45^\\circ \\sin 30^\\circ.<br />]<br />Using the values 45^ = 45^ = 2 2, 30^ = 3 2, and 30^ = 1 2, we get<br />[<br />\\cos(75^\\circ) = \\left(\\frac{\\sqrt{2}}{2}\\right) \\left(\\frac{\\sqrt{3}}{2}\\right) - \\left(\\frac{\\sqrt{2}}{2}\\right) \\left(\\frac{1}{2}\\right) = \\frac{\\sqrt{6}}{4} - \\frac{\\sqrt{2}}{4} = \\frac{\\sqrt{6} - \\sqrt{2}}{4}.<br />]</div>",
+   "examples": [
+    "Find the value of (75^) using the concept of compound angles. Since 75^ = 45^ + 30^, we can use the identity (A + B) = A B - A B. Therefore, [ \\cos(75^\\circ) = \\cos(45^\\circ + 30^\\circ) = \\cos 45^\\circ \\cos 30^\\circ - \\sin 45^\\circ \\sin 30^\\circ. ] Using the values 45^ = 45^ = 2 2, 30^ = 3 2, and 30^ = 1 2, we get [ \\cos(75^\\circ) = \\left(\\frac{\\sqrt{2}}{2}\\right) \\left(\\frac{\\sqrt{3}}{2}\\right) - \\left(\\frac{\\sqrt{2}}{2}\\right) \\left(\\frac{1}{2}\\right) = \\frac{\\sqrt{6}}{4} - \\frac{\\sqrt{2}}{4} = \\frac{\\sqrt{6} - \\sqrt{2}}{4}. ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Multiple Angles",
+   "id": "",
+   "html": "<p>Multiple angles involve the trigonometric functions of angles that are multiples of a given angle. The basic formulas for multiple angles are:</p>\n<p>[</p>\n<p>\\sin 2A = 2 \\sin A \\cos A,</p>\n<p>]</p>\n<p>[</p>\n<p>\\cos 2A = \\cos^2 A - \\sin^2 A = 1 - 2 \\sin^2 A = 2 \\cos^2 A - 1,</p>\n<p>]</p>\n<p>[</p>\n<p>\\tan 2A = \\frac{2 \\tan A}{1 - \\tan^2 A}.</p>\n<p>]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the value of 120^ using the concept of multiple angles.<br /><br />Since 120^ = 2 × 60^, we can use the identity 2A = 2 A A. Therefore,<br />[<br />\\sin 120^\\circ = \\sin(2 \\times 60^\\circ) = 2 \\sin 60^\\circ \\cos 60^\\circ.<br />]<br />Using the values 60^ = 3 2 and 60^ = 1 2, we get<br />[<br />\\sin 120^\\circ = 2 \\left(\\frac{\\sqrt{3}}{2}\\right) \\left(\\frac{1}{2}\\right) = \\frac{\\sqrt{3}}{2}.<br />]</div>",
+   "examples": [
+    "Find the value of 120^ using the concept of multiple angles. Since 120^ = 2 × 60^, we can use the identity 2A = 2 A A. Therefore, [ \\sin 120^\\circ = \\sin(2 \\times 60^\\circ) = 2 \\sin 60^\\circ \\cos 60^\\circ. ] Using the values 60^ = 3 2 and 60^ = 1 2, we get [ \\sin 120^\\circ = 2 \\left(\\frac{\\sqrt{3}}{2}\\right) \\left(\\frac{1}{2}\\right) = \\frac{\\sqrt{3}}{2}. ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Submultiples",
+   "id": "",
+   "html": "<p>Submultiples are angles that are fractions of a given angle. The basic formulas for submultiples are:</p>\n<p>[</p>\n<p>\\sin \\left(\\frac{A}{2}\\right) = \\pm \\sqrt{\\frac{1 - \\cos A}{2}},</p>\n<p>]</p>\n<p>[</p>\n<p>\\cos \\left(\\frac{A}{2}\\right) = \\pm \\sqrt{\\frac{1 + \\cos A}{2}},</p>\n<p>]</p>\n<p>[</p>\n<p>\\tan \\left(\\frac{A}{2}\\right) = \\pm \\sqrt{\\frac{1 - \\cos A}{1 + \\cos A}}.</p>\n<p>]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the value of 30^ using the concept of submultiples.<br /><br />Since 30^ = 60^ 2, we can use the identity ( A 2 ) = 1 + A 2. Therefore,<br />[<br />\\cos 30^\\circ = \\cos \\left(\\frac{60^\\circ}{2}\\right) = \\sqrt{\\frac{1 + \\cos 60^\\circ}{2}}.<br />]<br />Using the value 60^ = 1 2, we get<br />[<br />\\cos 30^\\circ = \\sqrt{\\frac{1 + \\frac{1}{2}}{2}} = \\sqrt{\\frac{\\frac{3}{2}}{2}} = \\sqrt{\\frac{3}{4}} = \\frac{\\sqrt{3}}{2}.<br />]</div>",
+   "examples": [
+    "Find the value of 30^ using the concept of submultiples. Since 30^ = 60^ 2, we can use the identity ( A 2 ) = 1 + A 2. Therefore, [ \\cos 30^\\circ = \\cos \\left(\\frac{60^\\circ}{2}\\right) = \\sqrt{\\frac{1 + \\cos 60^\\circ}{2}}. ] Using the value 60^ = 1 2, we get [ \\cos 30^\\circ = \\sqrt{\\frac{1 + \\frac{1}{2}}{2}} = \\sqrt{\\frac{\\frac{3}{2}}{2}} = \\sqrt{\\frac{3}{4}} = \\frac{\\sqrt{3}}{2}. ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Graph of Sine Function",
+   "id": "",
+   "html": "<p>The graph of the sine function, y = x, is a periodic function with a period of 360^ (or 2π radians). The sine function oscillates between -1 and 1, and it crosses the x-axis at every integer multiple of 180^.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Sketch the graph of y = x for 0^ ≤ x ≤ 360^.<br /><br />The graph of y = x for 0^ ≤ x ≤ 360^ is a wave that starts at 0 at 0^, reaches 1 at 90^, returns to 0 at 180^, reaches -1 at 270^, and returns to 0 at 360^.</div>",
+   "examples": [
+    "Sketch the graph of y = x for 0^ ≤ x ≤ 360^. The graph of y = x for 0^ ≤ x ≤ 360^ is a wave that starts at 0 at 0^, reaches 1 at 90^, returns to 0 at 180^, reaches -1 at 270^, and returns to 0 at 360^."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Graph of Cosine Function",
+   "id": "",
+   "html": "<p>The graph of the cosine function, y = x, is also a periodic function with a period of 360^ (or 2π radians). The cosine function oscillates between -1 and 1, and it crosses the x-axis at every odd multiple of 90^.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Sketch the graph of y = x for 0^ ≤ x ≤ 360^.<br /><br />The graph of y = x for 0^ ≤ x ≤ 360^ is a wave that starts at 1 at 0^, reaches 0 at 90^, reaches -1 at 180^, reaches 0 at 270^, and returns to 1 at 360^.</div>",
+   "examples": [
+    "Sketch the graph of y = x for 0^ ≤ x ≤ 360^. The graph of y = x for 0^ ≤ x ≤ 360^ is a wave that starts at 1 at 0^, reaches 0 at 90^, reaches -1 at 180^, reaches 0 at 270^, and returns to 1 at 360^."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">graph TD\n A[Trigonometric Functions] --&gt; B[Sine Function]\n A --&gt; C[Cosine Function]\n B --&gt; D[Period: 360°]\n C --&gt; E[Period: 360°]\n D --&gt; F[Oscillates between -1 and 1]\n E --&gt; G[Oscillates between -1 and 1]\n F --&gt; H[Crosses x-axis at multiples of 180°]\n G --&gt; I[Crosses x-axis at multiples of 90°]\n H --&gt; J[Sketch of Sine Graph]\n I --&gt; K[Sketch of Cosine Graph]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>graph TD\n A[Trigonometric Functions] --&gt; B[Sine Function]\n A --&gt; C[Cosine Function]\n B --&gt; D[Period: 360°]\n C --&gt; E[Period: 360°]\n D --&gt; F[Oscillates between -1 and 1]\n E --&gt; G[Oscillates between -1 and 1]\n F --&gt; H[Crosses x-axis at multiples of 180°]\n G --&gt; I[Crosses x-axis at multiples of 90°]\n H --&gt; J[Sketch of Sine Graph]\n I --&gt; K[Sketch of Cosine Graph]</pre></details><noscript><pre class=\"mermaid-src\">graph TD\n A[Trigonometric Functions] --&gt; B[Sine Function]\n A --&gt; C[Cosine Function]\n B --&gt; D[Period: 360°]\n C --&gt; E[Period: 360°]\n D --&gt; F[Oscillates between -1 and 1]\n E --&gt; G[Oscillates between -1 and 1]\n F --&gt; H[Crosses x-axis at multiples of 180°]\n G --&gt; I[Crosses x-axis at multiples of 90°]\n H --&gt; J[Sketch of Sine Graph]\n I --&gt; K[Sketch of Cosine Graph]</pre></noscript></div>\n<p>This completes the detailed sections on Allied & Compound Angles, Multiple –Submultiples angles and the Graph of Sine and Cosine.</p>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "graph TD\n    A[Trigonometric Functions] --> B[Sine Function]\n    A --> C[Cosine Function]\n    B --> D[Period: 360°]\n    C --> E[Period: 360°]\n    D --> F[Oscillates between -1 and 1]\n    E --> G[Oscillates between -1 and 1]\n    F --> H[Crosses x-axis at multiples of 180°]\n    G --> I[Crosses x-axis at multiples of 90°]\n    H --> J[Sketch of Sine Graph]\n    I --> K[Sketch of Cosine Graph]"
+   ]
+  },
+  {
+   "heading": "Definition and Importance",
+   "id": "",
+   "html": "<p>A <strong>trigonometric function</strong> is periodic if it repeats its values in regular intervals or periods. The primary trigonometric functions—sine, cosine, and tangent—are periodic with a fundamental period of 2π. The period of a trigonometric function is the smallest positive number P such that the function repeats its values every P units.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Periodicity of Trigonometric Functions",
+   "id": "",
+   "html": "<ul>\n<li><strong>Sine Function (x)</strong>: The function x has a period of 2π. This means (x + 2π) = x for all x.</li>\n<li><strong>Cosine Function (x)</strong>: The function x also has a period of 2π. This means (x + 2π) = x for all x.</li>\n<li><strong>Tangent Function (x)</strong>: The function x has a period of π. This means (x + π) = x for all x.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties and Applications",
+   "id": "",
+   "html": "<p>Periodicity is crucial in various applications, such as signal processing, wave mechanics, and electromagnetic theory. For instance, the periodicity of these functions helps in analyzing alternating current (AC) signals in electrical engineering.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>If f(x) = (2x), determine the period of the function.<br /><br />Since (2x) is a sine function with a coefficient of 2 inside the argument, the period of (2x) is 2π 2 = π. Therefore, f(x + π) = (2(x + π)) = (2x + 2π) = (2x).</div>",
+   "examples": [
+    "If f(x) = (2x), determine the period of the function. Since (2x) is a sine function with a coefficient of 2 inside the argument, the period of (2x) is 2π 2 = π. Therefore, f(x + π) = (2(x + π)) = (2x + 2π) = (2x)."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Graphical Representation",
+   "id": "",
+   "html": "<p>The graphical representation of periodic functions can be visualized using mermaid diagrams. Here is a simple representation of the sine function:</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">graph TD\n A[Sine Function (y = sin(x))] --&gt; B[Period: 2π]\n A --&gt; C[Range: -1 to 1]\n A --&gt; D[Graph: Waveform]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>graph TD\n A[Sine Function (y = sin(x))] --&gt; B[Period: 2π]\n A --&gt; C[Range: -1 to 1]\n A --&gt; D[Graph: Waveform]</pre></details><noscript><pre class=\"mermaid-src\">graph TD\n A[Sine Function (y = sin(x))] --&gt; B[Period: 2π]\n A --&gt; C[Range: -1 to 1]\n A --&gt; D[Graph: Waveform]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "graph TD\n    A[Sine Function (y = sin(x))] --> B[Period: 2π]\n    A --> C[Range: -1 to 1]\n    A --> D[Graph: Waveform]"
+   ]
+  },
+  {
+   "heading": "Sum Formulae",
+   "id": "",
+   "html": "<p>Sum formulae are useful in simplifying and solving trigonometric expressions. These formulae are derived from the angle addition and subtraction formulas.</p>\n<ul>\n<li><strong>Sum of Sines</strong>: A + B = 2 ( A + B 2 ) ( A - B 2 )</li>\n<li><strong>Sum of Cosines</strong>: A + B = 2 ( A + B 2 ) ( A - B 2 )</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Factor Formulae",
+   "id": "",
+   "html": "<p>Factor formulae help in expressing the product of trigonometric functions as a sum or difference.</p>\n<ul>\n<li><strong>Product to Sum Formula</strong>:</li>\n</ul>\n<p>[</p>\n<p>\\sin A \\cos B = \\frac{1}{2} [\\sin(A + B) + \\sin(A - B)]</p>\n<p>]</p>\n<p>[</p>\n<p>\\cos A \\sin B = \\frac{1}{2} [\\sin(A + B) - \\sin(A - B)]</p>\n<p>]</p>\n<p>[</p>\n<p>\\cos A \\cos B = \\frac{1}{2} [\\cos(A + B) + \\cos(A - B)]</p>\n<p>]</p>\n<p>[</p>\n<p>\\sin A \\sin B = \\frac{1}{2} [\\cos(A - B) - \\cos(A + B)]</p>\n<p>]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications",
+   "id": "",
+   "html": "<p>These formulae are widely used in solving complex trigonometric equations, simplifying expressions, and in various engineering applications.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Simplify the expression 75^ + 15^.<br /><br />Using the sum formula for sine:<br />[</div>\n<p>\\sin 75^\\circ + \\sin 15^\\circ = 2 \\sin\\left(\\frac{75^\\circ + 15^\\circ}{2}\\right) \\cos\\left(\\frac{75^\\circ - 15^\\circ}{2}\\right)</p>\n<p>]</p>\n<p>[</p>\n<p>= 2 \\sin(45^\\circ) \\cos(30^\\circ)</p>\n<p>]</p>\n<p>[</p>\n<p>= 2 \\left(\\frac{\\sqrt{2}}{2}\\right) \\left(\\frac{\\sqrt{3}}{2}\\right)</p>\n<p>]</p>\n<p>[</p>\n<p>= \\frac{\\sqrt{6}}{2}</p>\n<p>]</p>",
+   "examples": [
+    "Simplify the expression 75^ + 15^. Using the sum formula for sine: ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Sum and Factor Formulae",
+   "id": "",
+   "html": "<p>Here is a mermaid diagram to summarize the sum and factor formulae:</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Sum of Sines] --&gt; B[2 sin((A+B)/2) cos((A-B)/2)]\n A --&gt; C[Example: sin 75° + sin 15° = 2 sin(45°) cos(30°) = √6/2]\n D[Product to Sum] --&gt; E[1/2 [sin(A+B) + sin(A-B)]]\n D --&gt; F[Example: sin 75° cos 15° = 1/2 [sin(90°) + sin(60°)] = 1/2 (1 + √3/2) = 1/2 + √3/4]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Sum of Sines] --&gt; B[2 sin((A+B)/2) cos((A-B)/2)]\n A --&gt; C[Example: sin 75° + sin 15° = 2 sin(45°) cos(30°) = √6/2]\n D[Product to Sum] --&gt; E[1/2 [sin(A+B) + sin(A-B)]]\n D --&gt; F[Example: sin 75° cos 15° = 1/2 [sin(90°) + sin(60°)] = 1/2 (1 + √3/2) = 1/2 + √3/4]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Sum of Sines] --&gt; B[2 sin((A+B)/2) cos((A-B)/2)]\n A --&gt; C[Example: sin 75° + sin 15° = 2 sin(45°) cos(30°) = √6/2]\n D[Product to Sum] --&gt; E[1/2 [sin(A+B) + sin(A-B)]]\n D --&gt; F[Example: sin 75° cos 15° = 1/2 [sin(90°) + sin(60°)] = 1/2 (1 + √3/2) = 1/2 + √3/4]</pre></noscript></div>\n<p>This section covers the periodicity of trigonometric functions and the application of sum and factor formulae, providing a clear understanding for exam preparation.</p>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Sum of Sines] --> B[2 sin((A+B)/2) cos((A-B)/2)]\n    A --> C[Example: sin 75° + sin 15° = 2 sin(45°) cos(30°) = √6/2]\n    D[Product to Sum] --> E[1/2 [sin(A+B) + sin(A-B)]]\n    D --> F[Example: sin 75° cos 15° = 1/2 [sin(90°) + sin(60°)] = 1/2 (1 + √3/2) = 1/2 + √3/4]"
+   ]
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Inverse Trigonometric functions</strong> are the functions that are the inverses of the basic trigonometric functions such as sine, cosine, tangent, etc. These functions are denoted as ⁻¹, ⁻¹, ⁻¹, etc. The inverse trigonometric functions are used to find the angle when the value of a trigonometric function is known.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Domain and Range",
+   "id": "",
+   "html": "<ul>\n<li><strong>⁻¹ x</strong>: The domain is [-1, 1] and the range is [- π 2 , π 2 ].</li>\n<li><strong>⁻¹ x</strong>: The domain is [-1, 1] and the range is [0, π].</li>\n<li><strong>⁻¹ x</strong>: The domain is R (all real numbers) and the range is (- π 2 , π 2 ].</li>\n<li><strong>⁻¹ x</strong>: The domain is R and the range is (0, π).</li>\n<li><strong>⁻¹ x</strong>: The domain is (-, -1] [1, ) and the range is [0, π] - \\ π 2 \\.</li>\n<li><strong>⁻¹ x</strong>: The domain is (-, -1] [1, ) and the range is [- π 2 , π 2 ] - \\ 0\\.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties and Identities",
+   "id": "",
+   "html": "<ul>\n<li><strong>Principal Values</strong>: The principal values of the inverse trigonometric functions are the values that lie within their specified ranges.</li>\n<li><strong>Complementary Angles</strong>:</li>\n<li>⁻¹ x + ⁻¹ x = π 2</li>\n<li>⁻¹ x + ⁻¹ x = π 2</li>\n<li><strong>Sum and Difference Identities</strong>:</li>\n<li>⁻¹ x + ⁻¹ y = ⁻¹ (x 1 - y² + y 1 - x² ) if x² + y² ≤ 1</li>\n<li>⁻¹ x - ⁻¹ y = ⁻¹ (x 1 - y² - y 1 - x² ) if x² + y² ≤ 1</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Solve for x in the equation ⁻¹ x + ⁻¹ x = π 2.</div>\n<ol>\n<li><strong>Step 1</strong>: Recall the complementary angle identity for inverse trigonometric functions.</li>\n</ol>\n<p>[</p>\n<p>\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}</p>\n<p>]</p>\n<p>This identity holds true for all x in the domain of ⁻¹ x and ⁻¹ x.</p>\n<ol>\n<li><strong>Step 2</strong>: Since the equation is already in the form of the identity, we can directly conclude that the equation is satisfied for any x in the domain of ⁻¹ x and ⁻¹ x.</li>\n</ol>\n<ol>\n<li><strong>Step 3</strong>: The domain of ⁻¹ x and ⁻¹ x is [-1, 1]. Therefore, the solution to the equation is:</li>\n</ol>\n<p>[</p>\n<p>x \\in [-1, 1]</p>\n<p>]</p>\n<p>Thus, the solution to the equation ⁻¹ x + ⁻¹ x = π 2 is any x in the interval [-1, 1].</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Inverse Trigonometric Functions] --&gt; B[Definition]\n B --&gt; C[Domain and Range]\n B --&gt; D[Properties and Identities]\n C --&gt; E[Principal Values]\n C --&gt; F[Complementary Angles]\n D --&gt; G[Sum and Difference Identities]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Inverse Trigonometric Functions] --&gt; B[Definition]\n B --&gt; C[Domain and Range]\n B --&gt; D[Properties and Identities]\n C --&gt; E[Principal Values]\n C --&gt; F[Complementary Angles]\n D --&gt; G[Sum and Difference Identities]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Inverse Trigonometric Functions] --&gt; B[Definition]\n B --&gt; C[Domain and Range]\n B --&gt; D[Properties and Identities]\n C --&gt; E[Principal Values]\n C --&gt; F[Complementary Angles]\n D --&gt; G[Sum and Difference Identities]</pre></noscript></div>",
+   "examples": [
+    "Solve for x in the equation ⁻¹ x + ⁻¹ x = π 2."
+   ],
+   "mermaid": [
+    "flowchart TD\n    A[Inverse Trigonometric Functions] --> B[Definition]\n    B --> C[Domain and Range]\n    B --> D[Properties and Identities]\n    C --> E[Principal Values]\n    C --> F[Complementary Angles]\n    D --> G[Sum and Difference Identities]"
+   ]
+  }
+ ]
+}

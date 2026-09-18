@@ -1,0 +1,595 @@
+Mathematics 	Course Code: 4300001
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 1 of 10
+GUJARAT TECHNOLOGICAL UNIVERSITY (GTU)
+Competency-focused Outcome-based Green Curriculum-2021 (COGC-2021)
+I– Semester
+CourseTitle: Mathematics
+(Course Code: 4300001)
+Diploma program in which this course is offered 	Semester in which
+offered
+Automobile 	Engineering, 	Architecture 	Assistantship, 	Biomedical
+Engineering, 	Ceramic, 	Engineering, 	Chemical 	Engineering, 	Civil
+Engineering, 	Computer 	Engineering, 	Electrical 	Engineering,
+Electronics &Communication Engineering, Environment Engineering,
+Fabrication Technology, Information Technology, Instrumentation &
+Control Engineering, Marine Engineering, Mechanical Engineering,
+Mechatronics 	Engineering, 	Metallurgy 	Engineering, 	Mining
+Engineering, Plastic Engineering, Power Electronics Engineering,
+Printing 	Technology, 	Textile 	Designing, 	Textile 	Manufacturing
+Technology, 	Textile 	Processing 	Technology, 	Computer
+Science 	& 	Engineering 	(All 	branches)
+First
+1. 	RATIONALE
+This course of Mathematics is being introduced as a foundation which will help students in
+developing competency and the requisite course outcomes in most of the Diploma
+Engineering programs. Components of Mathematics like Algebra, Geometry, Calculus,
+Computer computation work as a tool to describe physical phenomena and to evaluate the
+merit of different possible solutions. This course is an attempt to initiate the multi-
+dimensional logical thinking and reasoning capabilities. It will help the students to apply the
+basic principles of Mathematics to solve related technology problems. The course will give
+the students an insight to apply and analyse the Engineering problems scientifically based on
+the subject of Trigonometry, Differential Calculus and Basic elements of algebra and
+coordinate geometry to give a comprehensive coverage at an introductory level.
+2. 	COMPETENCY
+The purpose of this course is to help the student to attain the following industry identified
+competency through various teaching learning experiences:
+Solve broad-based technology problems using the principles of mathematics.
+3. 	COURSE OUTCOMES (COs)
+The practical exercises, the underpinning knowledge and the relevant soft skills associated
+with this competency are to be developed in the student to display the following COs:
+a) 	Interpret the function graphically, numerically and analytically.
+b) 	Demonstrate the ability to algebraically analyse basic functions used in Trigonometry.
+c) 	Demonstrate the ability to Crack engineering related problems based on concepts of
+Vectors.
+
+-- 1 of 10 --
+
+Mathematics 	Course Code: 4300001
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 2 of 10
+d) 	Solve basic engineering problems under given conditions of straight lines and circle.
+e) 	Demonstrate the ability to analyze and illustrate the Functions using the concept of
+Limit.
+4. 	TEACHING AND EXAMINATION SCHEME
+Teaching Scheme
+(In Hours)
+Total Credits
+(L+T+P/2)
+Examination Scheme
+Theory Marks 	Practical Marks 	Total
+Marks	L 	T 	P 	C 	CA 	ESE 	CA 	ESE
+3 	1 	- 	4 	30* 	70 	- 	- 	100
+(*):Out of 30 marks under the theory CA, 10 marks are for assessment of the micro-project to
+facilitate integration of COs and the remaining 20 marks is the average of 2 tests to be taken
+during the semester for the assessing the attainment of the cognitive domain UOs required
+for the attainment of the COs.
+Legends: L-Lecture; T – Tutorial/Teacher Guided Theory Practice; P -Practical; C – Credit, CA -
+Continuous Assessment; ESE -End Semester Examination.
+5. 	SUGGESTED PRACTICAL EXERCISES (During Tutorial Hours)
+The following practical outcomes (PrOs) are the sub-components of the COs. These PrOs
+need to be attained to achieve the Cos.
+S.
+No.
+Practical Outcomes (PrOs) 	Unit
+No.
+Approx.
+Hrs.
+required
+1 	Solve given problems of Determinant up to order 3*3. 	I 	1
+2 Use Open source mathematical software to demonstrate the
+graphs of given functions with its geometrical interpretation.
+I 	1
+3 Use Open source mathematical software to display given
+logarithmic functions showing basic laws.
+I 	1
+4 Solve the given examples based on conversion of units of Angles
+explaining the allied angles.
+II 	1
+5 Crack given problems based on the concept of Compound Angles,
+Multiple and Submultiples angles.
+II 	1
+6
+Plot the graph of sine and cosine functions with help of Open
+source mathematical software and justify problems related to sum
+and factor formulae.
+II 	1
+7 Use the concepts of Algebra to Solve given engineering related
+problems based on Magnitude of a vector.
+III 	1
+8 	Apply the concept of Dot Product to solve given engineering 	III 	1
+
+-- 2 of 10 --
+
+Mathematics 	Course Code: 4300001
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 3 of 10
+S.
+No.
+Practical Outcomes (PrOs) 	Unit
+No.
+Approx.
+Hrs.
+required
+related problems.
+9 Explain the physical significance of the Cross Product and apply the
+concept to solve given engineering related problems.
+III 	1
+10 Apply the concept of various forms of line, slope, intercept to solve
+simple problems.
+IV 	1
+11 Use the concepts of equations of Parallel lines and Perpendicular
+lines to solve specified problems.
+IV 	1
+12 Use the concept of Tangent and Normal to solve related
+engineering problems.
+IV 	1
+13 Explain Limit of a function graphically and solve the specified
+problems.
+V 	1
+14 Apply the Standard Formulae of Limit and crack the specified
+problems.
+V 	1
+Total 	14
+Note
+i. More Practical Exercises can be designed and offered by the respective course teacher to
+develop the industry relevant skills/outcomes to match the COs. The above table is only a
+suggestive list.
+ii. The following are some sample ‘Process’ and ‘Product’ related skills (more may be
+added/deleted depending on the course) that occur in the above listed Practical Exercises
+of this course required which are embedded in the COs and ultimately the competency.
+S.
+No.
+Sample Performance Indicators for the PrOs 	Weightage in %
+Geometric Thinking: Comprehend geometric concepts to
+prove theorems by applying apt results to solve well
+defined Engineering problems.
+1. 	Experiment with transformations in the plane. 	30
+2. 	Define trigonometric ratios and solve problems involving
+right triangles.
+30
+3. 	Apply theorems about circles. 	40
+Total 	100
+
+-- 3 of 10 --
+
+Mathematics 	Course Code: 4300001
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 4 of 10
+S.
+No.
+Sample Performance Indicators for the PrOs 	Weightage in %
+Algebraic Thinking: Create, interpret, use, and analyze
+expressions, equations, and inequalities in a variety of
+contexts.
+1. 	Represent, 	interpret, 	and 	solve 	variable 	expressions,
+equations, and inequalities.
+60
+2. 	Write expressions in equivalent forms to solve problems. 	40
+Total 	100
+6. 	MAJOR EQUIPMENT/ INSTRUMENTS AND SOFTWARE REQUIRED
+These major equipment/instruments and Software required to develop PrOs are given below
+with 	broad 	specifications 	to 	facilitate 	procurement 	of 	them 	by 	the
+administrators/management of the institutes. This will ensure conduction of practical in all
+institutions across the state in proper way so that the desired skills are developed in
+students.
+S.
+No. Equipment Name with Broad Specifications PrO.No.
+1 	Computer System & LCD Projector 	2,3,6,10,13
+2 	Scientific Calculator (Display type: Natural Display
+Algebraic input logic: Natural V.P.A.M.
+Significand function: 10+2.
+1,5,10
+7. 	AFFECTIVE DOMAIN OUTCOMES
+The following sample Affective Domain Outcomes (ADOs) are embedded in many of the
+above-mentioned COs and PrOs. More could be added to fulfill the development of this
+course competency.
+a) 	Work as a leader/a team member.
+b) 	Follow ethical practices.
+c) 	Practice environmentally friendly methods and processes. (Environment related)
+The ADOs are best developed through the laboratory/field-based exercises. Moreover, the
+level of achievement of the ADOs according to Krathwohl’s ‘Affective Domain Taxonomy’
+should gradually increase as planned below:
+i. 	‘Valuing Level’ in 1st
+ii. 	‘Organization Level’ in 2
+year
+nd
+iii. ‘Characterization Level’ in 3
+year.
+rd year.
+
+-- 4 of 10 --
+
+Mathematics 	Course Code: 4300001
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 5 of 10
+8. UNDERPINNING THEORY
+The major underpinning theory is given below based on the higher level UOs of Revised
+Bloom’s taxonomy that are formulated for development of the COs and competency. If
+required, more such UOs could be included by the course teacher to focus on attainment of
+COs and competency.
+Unit 	Unit Outcomes (UOs)
+(4 to 6 UOs at different levels)
+Topics and Sub-topics
+Unit – I
+Determinant
+and Function
+1a. Solve simple problems of
+Determinant up to order 3*3.
+1b. Explain graphically the given
+functions.
+1c. Solve simple problems using
+concepts of Logarithms
+1.1 	Determinant and its value 	up to
+3rd order (Without properties)
+1.2 	Function and simple examples.
+1.3 	Logarithm as a function
+1.4 	Laws of Logarithm and related
+Simple examples
+Unit– II
+Trigonometry
+2a. Apply the concept of
+Compound angle, Allied
+angle, and Multiple angles to
+solve the given simple
+engineering problem(s)
+2b. Explain the concept of Sub-
+Multiple and solve related
+problem(s).
+2c. Invoke the concept of Sum
+and Factor formulae to solve
+the given simple problem(s)
+2d. Investigate given simple
+problems using inverse
+Trigonometric functions.
+2.1 	Units of Angles (degree and radian)
+2.2 	Trigonometric Functions
+2.3 	Allied & Compound Angles,
+Multiple –Submultiples angles
+2.4 	Graph of Sine and Cosine,
+2.5 	Periodic Trigonometric function
+2.6 	Sum and factor formulae
+2.7 	Inverse Trigonometric function
+Unit– III
+Vectors
+3a. Apply the concept of
+algebraic operations of
+Vectors to solve given simple
+engineering problem(s)
+3b. Apply the concept of Scalar
+and Vector product to solve
+specified simple problem(s)
+3c. Solve problems of work done
+and moment of force using
+the concept of Vectors.
+3.1 	Vector, Addition, Subtraction,
+Magnitude and direction.
+3.2 	Scalar and Vector Product and it's
+properties
+3.3 	Angle between two Vectors
+3.4 	Applications of Scalar and Vector
+Product (Work Done and Moment
+of Force)
+Unit– IV
+Coordinate
+Geometry
+4a. Employ the equation of
+straight line to solve given
+simple problems.
+4b. Apply the concept of slope
+and its consequences to
+4.1 	Straight line (Two-point form) and
+slope of straight line
+4.2 	Slope point form, Intercept form,
+General form of line
+4.3 	Condition of parallel and
+
+-- 5 of 10 --
+
+Mathematics 	Course Code: 4300001
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 6 of 10
+Unit 	Unit Outcomes (UOs)
+(4 to 6 UOs at different levels)
+Topics and Sub-topics
+solve the given problems.
+4c. Find the angle between two
+lines using the concept of
+Parallel and Perpendicular
+lines.
+4d. Apply the concept of
+equation of circle with center
+and radius to solve the given
+problems.
+4e. Solve problems related to
+general equation of circle
+based on tangent and
+normal.
+perpendicular lines
+4.4 	Equations of Parallel lines and
+Perpendicular lines to the given
+lines
+4.5 	Angle between two lines.
+4.6 	Equation of circle with center and
+Radius.
+4.7 	General equation of circle.
+4.8 	Tangent and normal to a circle.
+Unit– V
+Limit
+5a. Analyse the characteristic of
+functions using the concept
+of Limit.
+5b. Solve the given problems
+using standard formulae of
+Limit
+5.1 	Limit of a Function.
+5.2 	Standard formulae of Limit and
+related simple examples.
+Note: The Unit Outcomes (UOs) need to be formulated at the ‘Application Level’ and above
+of Revised Bloom’s Taxonomy’ to accelerate the attainment of the COs and the competency.
+9. SUGGESTED SPECIFICATION TABLE FOR QUESTION PAPER DESIGN
+Unit
+No.
+Unit Title 	Teaching
+Hours
+Distribution of Theory Marks
+R
+Level
+U
+Level
+A
+Level
+Total
+Marks
+I 	Determinant and Function 	9 	4 	7 	5 	16
+II 	Trigonometry 	12 	4 	5 	5 	14
+III 	Vectors 	7 	4 	6 	4 	14
+IV 	Coordinate Geometry 	8 	4 	5 	5 	14
+V 	Limit 	6 	3 	4 	5 	12
+Total 	42 	19 	27 	24 	70
+Legends: R=Remember, U=Understand, A=Apply and above (Revised Bloom’s taxonomy)
+Note: This specification table provides general guidelines to assist students for their learning
+and to teachers to teach and question paper designers/setters to formulate test items/questions
+to assess the attainment of the UOs. The actual distribution of marks at different taxonomy
+levels (of R, U and A) in the question paper may slightly vary from above table.
+
+-- 6 of 10 --
+
+Mathematics 	Course Code: 4300001
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 7 of 10
+10. 	SUGGESTED STUDENT ACTIVITIES
+Other than the classroom and laboratory learning, following are the suggested student-
+related co-curricular activities which can be undertaken to accelerate the attainment of the
+various outcomes in this course: Students should perform following activities in group and
+prepare reports of about 5 pages for each activity. They should also collect/record physical
+evidences for their (student’s) portfolio which may be useful for their placement interviews:
+a) 	Identify engineering problems based on real world problems relevant to content
+of the unit and solve these problems in the light of free tutorials available on the
+internet.
+b) 	Explore the opportunity to visit Science city, ISRO or nearby Science centres.
+c) 	Explore the opportunity to visit Mathematics Lab Virtually.
+d) 	Prepare charts showing formulas of multiple and sub multiple trigonometric
+functions.
+e) 	Use Graphing calculator to plot the graph of functions showing Engineering
+applications.
+f) 	Collect set of problems based on concept of limit with real world applications and
+make a presentation.
+g) 	Communicate mathematical thinking coherently and clearly to other students,
+peers, and others.
+11. 	SUGGESTED SPECIAL INSTRUCTIONAL STRATEGIES (if any)
+These are sample strategies, which the teacher can use to accelerate the attainment of the
+various outcomes in this course:
+a) 	Massive open online courses (MOOCs) may be used to teach various topics/sub
+topics.
+b) 	Guide student(s) in undertaking micro-projects.
+c) 	‘L” in section No. 4means different types of teaching methods that are to be
+employed by teachers to develop the outcomes.
+d) 	About 20% of the topics/sub-topics which are relatively simpler or descriptive in
+nature is to be given to the students for self-learning, but to be assessed using
+different assessment methods.
+e) 	With respect to section No.10, teachers need to ensure to create opportunities and
+provisions for co-curricular activities.
+f) Explore the possibility for understanding the Biosphere through Mathematics
+g) Guide students for using data manuals.
+12.SUGGESTED MICRO-PROJECTS
+Only one micro-project is planned to be undertaken by a student that needs to be assigned
+to him/her in the beginning of the semester. In the first four semesters, the micro-project
+are group-based (group of 3 to 5). However, in the fifth and sixth semesters, the number of
+students in the group should not exceed three.
+The micro-project could be industry application based, internet-based, workshop-
+based, laboratory-based or field-based. Each micro-project should encompass two or more
+
+-- 7 of 10 --
+
+Mathematics 	Course Code: 4300001
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 8 of 10
+COs which are in fact, an integration of PrOs, UOs and ADOs. Each student will have to
+maintain dated work diary consisting of individual contribution in the project work and give
+a seminar presentation of it before submission. The duration of the microproject should be
+about 14-16 (fourteen to sixteen) student engagement hours during the course.The students
+ought to submit micro-project by the end of the semester (so that they develop the industry-
+oriented COs).
+A suggestive list of micro-projects is given here. This should relate highly with
+competency of the course and the COs. Similar micro-projects could be added by the
+concerned course teacher:
+a) 	Draw graphs of given Functions like 2
+2 	1, 	,sin 	, cos	x 	x 	x 	x	− 	etc and verify using
+suitable Open-source software like GeoGebra, DPLOT and GRAPH.
+b) 	Prepare the Charts of formulae for limit, Vector, Trigonometry, Co-ordinate
+Geometry, and Logarithm.
+c) 	Prepare the cardboard models based on Mathematical concepts.
+d) 	Draw various lines, circles using GeoGebra software.
+e) 	Prepare projects on height and distance using Trigonometry.
+f) 	Use PHET website for simulation of Vector Algebra.
+g) 	Prepare a presentation/seminar on any relevant topic of interdisciplinary nature.
+h) 	Prepare a write up on the Historical path of Calculus.
+i) 	Prepare models of graphical representation for the existence of limits of given
+functions.
+j) 	Prepare charts showing formulas of multiple and sub multiple trigonometric
+functions and its usefulness.
+k) 	Formulate models to describe mathematical relationships and analyze data.
+13.SUGGESTED LEARNING RESOURCES
+S.
+No. Title of Book Author 	Publication with place, year
+and ISBN
+1 	Engineering Mathematics
+(Third edition).
+Croft, Anthony 	Pearson Education, New Delhi,
+2014.
+ISBN 978-81-317-2605-1
+2 	A Text Book of Vector
+Analysis
+Narayan Shanti and
+Mittal P.K
+S. Chand Publication,
+ISBN 978-8121922432
+3 	Calculus and Analytic
+Geometry
+G. B. Thomas,
+R. L. Finney
+Addison Wesley, 9th Edition,
+1995.
+ISBN 978-8174906168
+4 	Understanding
+Engineering Mathematics
+John Bird 	Routledge; 1st edition
+ISBN 978-0415662840
+5 	Advanced Engineering
+Mathematics
+Krezig, Ervin 	Wiley Publ., New
+Delhi,2014,
+ISBN: 978-0-470-45836-5
+
+-- 8 of 10 --
+
+Mathematics 	Course Code: 4300001
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 9 of 10
+14.SUGGESTED LEARNING WEBSITES
+a. https://www.youtube.com/channel/UCLJVrQyPYsseCf78QWCDsvA/featured
+(YouTube Channel of DTEGUJ)
+b. https://www.geogebra.org/?lang=en
+c. https://phet.colorado.edu/
+d. www.dplot.com/ - DPlot
+e. www.wolfram.com/mathematica/
+f. https://www.khanacademy.org/
+g. www.easycalculation.com
+i. www.scilab.org/ - SCI Lab
+j. https://cnx.org/contents/cCXsMC7-@3.2:rOtjgdjI@5/Trigonometry
+k. https://www.embibe.com/exams/real-life-applications-of-trigonometry
+l. https://opentextbc.ca/calculusv1openstax/chapter/the-limit-of-a-function
+m.https://www.accessengineeringlibrary.com/?implicit-login=true
+15.PO-COMPETENCY-CO MAPPING
+Legend: ‘3’ for high, ‘2’ for medium, ‘1’ for low and ‘-’ for no correlation of each CO with PO.
+16. COURSE CURRICULUM DEVELOPMENT COMMITTEE
+GTU Resource Persons
+S.
+No.
+Name and Designation Institute 	Contact No. Email
+1 	Dr. N. R. Pandya
+I/C Principal (Retired)
+Head of Department
+Government Polytechnic,
+Kheda
+9099097990 	nrpandyagp@gmail.com
+Semester I 	Mathematics (Course Code: 4300001)
+POs and PSOs
+Competency
+& Course Outcomes
+PO 1
+Basic &
+Discipline
+specific
+knowledge
+PO 2
+Problem
+Analysis
+PO 3
+Design/
+development
+of solutions
+PO 4
+Engineering
+Tools,
+Experimentation
+&Testing
+PO 5
+Engineering
+practices for
+society,
+sustainability &
+environment
+PO 6
+Project
+Management
+PO 7
+Life-
+long
+learning
+Competency
+Solve broad-based technology problems
+using the principles of mathematics.
+3 	2 	1 	- 	- 	- 	1
+Course Outcomes
+CO a) Interpret the function graphically,
+numerically and analytically. 3 2 	1 	- 	- 	- 	-
+CO b) Demonstrate the ability to
+algebraically analyze basic
+functions used in Trigonometry.
+3 1 	1 	- 	- 	- 	1
+CO c) Demonstrate the ability to Crack
+engineering related problems
+based on concepts of Vectors.
+3 1 	1 	- 	- 	- 	1
+CO d) Solve basic engineering problems
+under given conditions of straight
+lines and circle.
+3 1 	- 	- 	- 	- 	-
+CO e) Demonstrate the ability to analyze
+and illustrate the Function using
+the concept of Limit.
+3 - 	- 	- 	- 	- 	-
+
+-- 9 of 10 --
+
+Mathematics 	Course Code: 4300001
+NITTTR Bhopal – GTU - COGC-2021 Curriculum
+Page 10 of 10
+2 	Dr. N. A. Dani
+Sr. Lecturer
+Government Polytechnic,
+Rajkot
+9427184187 	nilesh_a_d@yahoo.co.in
+3 	Mr. P. N. Joshi
+Sr. Lecturer
+A.V.P.T.I, Rajkot 	9924844699 	pnj2004@rediffmail.com
+4 	Dr. J. S. Prajapati
+Sr. Lecturer
+R.C.T.I, Ahmedabad 	9426469752 	jsprajapati26@gmail.com
+5 	Dr. Sachin J. Gajjar
+Lecturer
+Government Polytechnic,
+Gandhinagar
+9925362754 	gjr.sachin@gmail.com
+6 	Dr. Nirav H. Shah
+Lecturer
+Government Polytechnic,
+Jamnagar
+9327632570 	Nirav.hs@gmail.com
+NITTTR Resource Person
+S.
+No. Name and Designation 	Department 	Contact No. 	Email
+1 	Dr. Deepak Singh
+Associate Professor
+(Mathematics) Former
+Head, DAS
+Department of
+Applied Science
+Education,
+NITTTR, Bhopal
+9826991961 	dsingh@nitttrbpl.ac.in
+
+-- 10 of 10 --
+

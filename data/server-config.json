@@ -1,0 +1,18 @@
+{
+  "ai": {
+    "backend": "local",
+    "local": {
+      "host": "http://localhost:11434",
+      "model": "qwen2.5:7b",
+      "guModel": "aya-expanse:8b",
+      "retryBrokenDiagrams": true
+    },
+    "race": {
+      "host": "",
+      "model": "qwen2.5:14b",
+      "guModel": "aya-expanse:8b",
+      "retryBrokenDiagrams": true
+    },
+    "note": "Set ai.race.host to your Race Engineering pod, e.g. http://<pod-ip>:11434. backend is the global default ('local' or 'race')."
+  }
+}

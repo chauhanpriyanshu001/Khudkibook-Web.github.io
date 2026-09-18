@@ -1,0 +1,138 @@
+{
+  "code": "4300004",
+  "subject": "Applied Physics",
+  "slug": "applied-physics",
+  "branchLabel": "Gujarat Technological University Artificial Intelligence and Machine Learning Semester 2",
+  "page": "/ai-ml/sem2/applied-physics.html",
+  "semId": "sem2",
+  "level": "degree",
+  "references": {
+    "books": [],
+    "websites": []
+  },
+  "syllabusUrl": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/4300004.pdf",
+  "generatedAt": "2026-09-13T05:28:00.969Z",
+  "units": [
+    {
+      "n": 1,
+      "roman": "I",
+      "title": "Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.",
+      "uos": [],
+      "topics": [
+        "1.1. Measurement and units in engineering and science",
+        "1.2. Physical quantities; fundamental and derived quantities",
+        "1.3. Systems of units: CGS, MKS and SI, definition of units (only for information and not to be asked in examination), interconversion of units MKS to CGS and vice versa, Requirements of standard unit",
+        "1.4. Vernier caliper, Micrometer screw gauge",
+        "1.5. Accuracy, precision and error, estimation of errors - absolute error, relative error and percentage error, error propagation, significant figures"
+      ],
+      "marks": "13 marks (4 Remember + 4 Understand + 5 Apply)",
+      "hours": 8,
+      "r": 4,
+      "u": 4,
+      "a": 5,
+      "totalMarks": 13,
+      "titleGu": null
+    },
+    {
+      "n": 2,
+      "roman": "II",
+      "title": "Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve",
+      "uos": [],
+      "topics": [
+        "2.1. Force, momentum, law of conservation of linear momentum, its applications such as recoil of gun, rocket propulsion, impulse and its applications",
+        "2.2. Circular motion, angular displacement, angular velocity, angular acceleration and their interrelation",
+        "2.3. Centripetal and centrifugal forces examples: banking of roads and bending of cyclist"
+      ],
+      "marks": "10 marks (3 Remember + 3 Understand + 4 Apply)",
+      "hours": 6,
+      "r": 3,
+      "u": 3,
+      "a": 4,
+      "totalMarks": 10,
+      "titleGu": null
+    },
+    {
+      "n": 3,
+      "roman": "III",
+      "title": "General Properties of Matter 3.a Explain the Hooke’s law, stress- strain curve and moduli of elasticity. 3.b Explain surface tension, cohesive and adhesive forces.",
+      "uos": [],
+      "topics": [
+        "3.1. Elasticity",
+        "3.1.1. Deforming and restoring Force",
+        "3.1.2. Stress-Strain with their types",
+        "3.1.3. Hooke’s law",
+        "3.1.4. Moduli of elasticity, Young’s modulus, Bulk modulus, Shear modulus Applied Physics Course Code: 4300004 NITTTR Bhopal – GTU - COGC-2021 Curriculum the given liquid. 3.d Explain viscosity, coefficient of viscosity, terminal velocity and Stokes’ law. 3.e Apply the concept of viscosity in explaining hydraulic system. 3.f Explain types of fluid motion and Reynold number",
+        "3.1.5. Stress-Strain curve",
+        "3.2. Surface Tension",
+        "3.2.1. Surface tension; concept and units",
+        "3.2.2. Cohesive and adhesive forces",
+        "3.2.3. Molecular range and sphere of Influence",
+        "3.2.4. Laplace’s molecular theory",
+        "3.2.5. Angle of contact, Ascent Formula (No derivation)",
+        "3.2.6. Surface energy",
+        "3.2.7. Applications of surface tension",
+        "3.2.8. Effect of temperature and impurity on surface tension",
+        "3.3. Viscosity",
+        "3.3.1. Viscosity and its SI units",
+        "3.3.2. Newton’s law of Viscosity",
+        "3.3.3. Viscous force, velocity gradient and coefficient of viscosity and its SI units, free fall of an object through viscous medium and terminal velocity",
+        "3.3.4. Types of fluid motion, stream line and turbulent flow, critical velocity, Reynold’s number",
+        "3.3.5. Stokes’ law",
+        "3.3.6. Effect of temperature on viscosity",
+        "3.3.7. Applications of viscosity in hydraulic systems"
+      ],
+      "marks": "20 marks (4 Remember + 7 Understand + 9 Apply)",
+      "hours": 12,
+      "r": 4,
+      "u": 7,
+      "a": 9,
+      "totalMarks": 20,
+      "titleGu": null
+    },
+    {
+      "n": 4,
+      "roman": "IV",
+      "title": "Heat and Thermometry 4.a Distinguish between heat and temperature. 4.b Explain modes of heat transmission. 4.c Explain various temperature scales and conversion between",
+      "uos": [],
+      "topics": [
+        "4.1. Heat and temperature",
+        "4.2. Modes of Heat transfer: Conduction, Convection and Radiation",
+        "4.3. Temperature measurement scales: Kelvin, Celsius and Fahrenheit and interconversion between them",
+        "4.4. Heat capacity and specific heat",
+        "4.5. Types of thermometers: Mercury thermometer, Bimetallic thermometer, Platinum resistance thermometer, Pyrometer and their uses. Applied Physics Course Code: 4300004 NITTTR Bhopal – GTU - COGC-2021 Curriculum Engineering problems. 4.g Explain expansion in solids and coefficient of linear expansions in solids.",
+        "4.6. Coefficient of thermal conductivity and its engineering applications.",
+        "4.7. Expansion of solids, coefficient of linear expansion"
+      ],
+      "marks": "13 marks (3 Remember + 4 Understand + 6 Apply)",
+      "hours": 8,
+      "r": 3,
+      "u": 4,
+      "a": 6,
+      "totalMarks": 13,
+      "titleGu": null
+    },
+    {
+      "n": 5,
+      "roman": "V",
+      "title": "Wave motion and its applications 5.a Explain wave and wave motion with example. 5.b Distinguish between longitudinal and transverse",
+      "uos": [],
+      "topics": [
+        "5.1. Waves, wave motion, and types of waves: longitudinal and transverse waves",
+        "5.2. Frequency, periodic time, amplitude, wave length and wave velocity and their relationship",
+        "5.3. Properties of sound and light waves.",
+        "5.4. Phase, phase difference and various terms of wave equation (𝑦 = 𝐴𝑠𝑖𝑛(𝜔𝑡 + 𝜑)) [ derivation of equations of velocity and acceleration is not required]",
+        "5.5. Superposition of waves, Interference: constructive and destructive interference ,conditions for stationary interference pattern, beat formation",
+        "5.6. Reverberation, reverberation time, echo, noise and coefficient of absorption of sound",
+        "5.7. Sabine’s formula ( derivation not required) for reverberation time, methods to control reverberation time and their applications",
+        "5.8. Ultrasonic waves and their properties, applications of ultrasonic waves in the field of engineering and medical Note: The UOs need to be formulated at the ‘Applcation Level’ and above of Revised Bloom’s Taxonomy’ to accelerate the attainment of the COs and the competency. • ‘Definition of units’ is only for information and not to be asked in examination. • Students can be introduced to system of units other than SI, MKS, CGS unit systems. • Application level based numerical should be given at the time of instructions and assessment in each unit • Derivation of Ascent formula is not required only statement and related terms have to be explained at the time of instruction and assessment. Applied Physics Course Code: 4300004 NITTTR Bhopal – GTU - COGC-2021 Curriculum"
+      ],
+      "marks": "14 marks (4 Remember + 5 Understand + 5 Apply)",
+      "hours": 8,
+      "r": 4,
+      "u": 5,
+      "a": 5,
+      "totalMarks": 14,
+      "titleGu": null
+    }
+  ]
+}

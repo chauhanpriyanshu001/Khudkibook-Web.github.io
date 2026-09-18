@@ -1,0 +1,332 @@
+{
+ "code": "3110001",
+ "subject": "Chemistry",
+ "unit": 6,
+ "lang": "en",
+ "title": "Unit – Fuel and Combustion",
+ "url": "/books/3110001/unit-6.html",
+ "guUrl": null,
+ "words": 3628,
+ "readingMin": 20,
+ "marks": "",
+ "sections": [
+  {
+   "heading": "Unit – 6: Fuel and Combustion",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code 3110001 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately ****.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition",
+   "id": "",
+   "html": "<p><strong>Definition:</strong> A fuel is any material that can be made to undergo a chemical reaction with an oxidant, releasing heat and sometimes light in the process. This process is called combustion. Fuels are classified into different types based on their chemical composition, physical state, and the ease with which they can be ignited and burned.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Classification of Fuels",
+   "id": "",
+   "html": "<ul>\n<li><strong>Solid Fuels:</strong> These include materials like coal, wood, and charcoal. They are characterized by their solid form and are typically used in domestic and industrial heating applications. For example, coal is one of the most widely used solid fuels due to its high energy content and availability.</li>\n</ul>\n<ul>\n<li><strong>Liquid Fuels:</strong> These are typically hydrocarbons derived from petroleum, such as diesel, gasoline, and kerosene. They are easily transported and can be used in engines and heaters. For instance, diesel is used in heavy machinery and automobiles, while kerosene is commonly used in lamps and space heaters.</li>\n</ul>\n<ul>\n<li><strong>Gaseous Fuels:</strong> These are gases that can be used as fuels, such as natural gas, liquefied petroleum gas (LPG), and biogas. Gaseous fuels are often more convenient to handle and are widely used in urban areas for cooking and heating. For example, natural gas is a mixture of hydrocarbons and is commonly used in residential areas.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications of Fuels",
+   "id": "",
+   "html": "<ul>\n<li><strong>Solid Fuels:</strong> Coal is used in power plants for generating electricity. It is also used in metallurgical processes to smelt metals. Charcoal is used in grills and barbecues for cooking.</li>\n</ul>\n<ul>\n<li><strong>Liquid Fuels:</strong> Diesel is used in diesel engines of heavy vehicles, trucks, and buses. Gasoline is used in spark-ignition engines of automobiles. Kerosene is used in portable stoves and lamps.</li>\n</ul>\n<ul>\n<li><strong>Gaseous Fuels:</strong> Natural gas is used in urban areas for domestic heating and cooking. LPG is used in portable stoves and water heaters. Biogas, derived from organic waste, is used for cooking and generating electricity in rural areas.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A small town has decided to switch from using coal to using natural gas as its main fuel for domestic heating. The town currently uses 200 tons of coal per month. Given that 1 ton of coal has an energy content of approximately 25 GJ (gigajoules), calculate the energy content of the coal used per month and compare it to the energy content of an equivalent amount of natural gas (assuming natural gas has an energy content of 38 MJ per cubic meter).</div>\n<ol>\n<li><strong>Calculation for Coal:</strong></li>\n</ol>\n<p>[</p>\n<p>\\text{Energy content of 200 tons of coal} = 200 \\times 25 \\text{ GJ} = 5000 \\text{ GJ}</p>\n<p>]</p>\n<ol>\n<li><strong>Calculation for Natural Gas:</strong></li>\n</ol>\n<ul>\n<li>Convert the energy content from GJ to MJ (since 1 GJ = 1000 MJ):</li>\n</ul>\n<p>[</p>\n<p>5000 \\text{ GJ} = 5000 \\times 1000 \\text{ MJ} = 5,000,000 \\text{ MJ}</p>\n<p>]</p>\n<ul>\n<li>Determine the volume of natural gas required:</li>\n</ul>\n<p>[</p>\n<p>\\text{Volume of natural gas} = \\frac{5,000,000 \\text{ MJ}}{38 \\text{ MJ/m}^3} \\approx 131,579 \\text{ m}^3</p>\n<p>]</p>\n<p>Thus, the town would need approximately 131,579 cubic meters of natural gas per month to match the energy content of 200 tons of coal.</p>",
+   "examples": [
+    "A small town has decided to switch from using coal to using natural gas as its main fuel for domestic heating. The town currently uses 200 tons of coal per month. Given that 1 ton of coal has an energy content of approximately 25 GJ (gigajoules), calculate the energy content of the coal used per month and compare it to the energy content of an equivalent amount of natural gas (assuming natural gas has an energy content of 38 MJ per cubic meter)."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Solid Fuels",
+   "id": "",
+   "html": "<ul>\n<li><strong>Coal:</strong> Coal is the most abundant fossil fuel and is used extensively in power plants and metallurgical processes. It is classified into different types based on its carbon content, such as anthracite, bituminous, and lignite. For example, bituminous coal is used in large-scale power plants, while lignite is used in smaller, local power plants.</li>\n</ul>\n<ul>\n<li><strong>Wood:</strong> Wood is a renewable solid fuel used in domestic heating and cooking. It is also used in some industrial processes. For instance, wood chips are used in pellet stoves for efficient and clean heating.</li>\n</ul>\n<ul>\n<li><strong>Charcoal:</strong> Charcoal is a solid fuel derived from wood and is used in grills and barbecues. It burns more efficiently and produces less smoke than wood.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Liquid Fuels",
+   "id": "",
+   "html": "<ul>\n<li><strong>Diesel:</strong> Diesel is a heavy petroleum fraction used in diesel engines. It has a higher energy content compared to gasoline, making it more suitable for heavy-duty vehicles and equipment. For example, diesel is used in trucks and buses.</li>\n</ul>\n<ul>\n<li><strong>Gasoline:</strong> Gasoline is a lighter petroleum fraction used in spark-ignition engines of automobiles. It is highly volatile and burns quickly, making it suitable for smaller engines. For instance, gasoline is used in cars and motorcycles.</li>\n</ul>\n<ul>\n<li><strong>Kerosene:</strong> Kerosene is a liquid fuel used in portable stoves, lamps, and heaters. It has a lower energy content compared to diesel but is more convenient to handle. For example, kerosene is used in rural areas for cooking and lighting.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Gaseous Fuels",
+   "id": "",
+   "html": "<ul>\n<li><strong>Natural Gas:</strong> Natural gas is a mixture of hydrocarbons and is used in urban areas for domestic heating and cooking. It is clean-burning and efficient. For instance, natural gas is commonly used in residential areas and is also used in power plants for generating electricity.</li>\n</ul>\n<ul>\n<li><strong>Liquefied Petroleum Gas (LPG):</strong> LPG is a mixture of propane and butane and is used in portable stoves and water heaters. It is easy to transport and store. For example, LPG is used in urban areas for cooking and is also used in some industrial processes.</li>\n</ul>\n<ul>\n<li><strong>Biogas:</strong> Biogas is a renewable gaseous fuel derived from organic waste. It is used for cooking and generating electricity in rural areas. For instance, biogas can be produced from agricultural waste and used in small-scale power plants.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A power plant is considering switching from using coal to natural gas for its fuel source. The plant currently uses 10,000 tons of coal per month. Given that 1 ton of coal has an energy content of approximately 25 GJ, calculate the energy content of the coal used per month and compare it to the energy content of an equivalent amount of natural gas (assuming natural gas has an energy content of 38 MJ per cubic meter).</div>\n<ol>\n<li><strong>Calculation for Coal:</strong></li>\n</ol>\n<p>[</p>\n<p>\\text{Energy content of 10,000 tons of coal} = 10,000 \\times 25 \\text{ GJ} = 250,000 \\text{ GJ}</p>\n<p>]</p>\n<ol>\n<li><strong>Calculation for Natural Gas:</strong></li>\n</ol>\n<ul>\n<li>Convert the energy content from GJ to MJ (since 1 GJ = 1000 MJ):</li>\n</ul>\n<p>[</p>\n<p>250,000 \\text{ GJ} = 250,000 \\times 1000 \\text{ MJ} = 250,000,000 \\text{ MJ}</p>\n<p>]</p>\n<ul>\n<li>Determine the volume of natural gas required:</li>\n</ul>\n<p>[</p>\n<p>\\text{Volume of natural gas} = \\frac{250,000,000 \\text{ MJ}}{38 \\text{ MJ/m}^3} \\approx 6,578,947 \\text{ m}^3</p>\n<p>]</p>\n<p>Thus, the power plant would need approximately 6,578,947 cubic meters of natural gas per month to match the energy content of 10,000 tons of coal.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Energy Content] --&gt; B[Coal] --&gt; C[250,000 GJ]\n A --&gt; D[Natural Gas] --&gt; E[250,000,000 MJ]\n F[Volume of Natural Gas] --&gt; G[6,578,947 m^3]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Energy Content] --&gt; B[Coal] --&gt; C[250,000 GJ]\n A --&gt; D[Natural Gas] --&gt; E[250,000,000 MJ]\n F[Volume of Natural Gas] --&gt; G[6,578,947 m^3]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Energy Content] --&gt; B[Coal] --&gt; C[250,000 GJ]\n A --&gt; D[Natural Gas] --&gt; E[250,000,000 MJ]\n F[Volume of Natural Gas] --&gt; G[6,578,947 m^3]</pre></noscript></div>\n<hr />",
+   "examples": [
+    "A power plant is considering switching from using coal to natural gas for its fuel source. The plant currently uses 10,000 tons of coal per month. Given that 1 ton of coal has an energy content of approximately 25 GJ, calculate the energy content of the coal used per month and compare it to the energy content of an equivalent amount of natural gas (assuming natural gas has an energy content of 38 MJ per cubic meter)."
+   ],
+   "mermaid": [
+    "flowchart LR\n    A[Energy Content] --> B[Coal] --> C[250,000 GJ]\n    A --> D[Natural Gas] --> E[250,000,000 MJ]\n    F[Volume of Natural Gas] --> G[6,578,947 m^3]"
+   ]
+  },
+  {
+   "heading": "Definition and Importance",
+   "id": "",
+   "html": "<p><strong>Calorific Value (CV):</strong> The calorific value of a fuel is the amount of heat released during its complete combustion. It is an important characteristic for determining the efficiency of fuel usage and the amount of energy that can be obtained from a given quantity of fuel. It is usually expressed in units of energy per unit mass (J/kg, kJ/kg, or MJ/kg) or energy per unit volume (J/m³, kJ/m³, or MJ/m³).</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Types of Calorific Value",
+   "id": "",
+   "html": "<ul>\n<li><strong>Higher Heating Value (HHV):</strong> Also known as net calorific value, it is the amount of heat released when a fuel is completely burned and the water produced is in the liquid state. The latent heat of vaporization of water is not considered.</li>\n<li><strong>Lower Heating Value (LHV):</strong> Also known as gross calorific value, it is the amount of heat released when a fuel is completely burned and the water produced is in the vapor state. The latent heat of vaporization of water is considered.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Calculation of Calorific Value",
+   "id": "",
+   "html": "<p>The calorific value can be calculated using the following steps:</p>\n<ol>\n<li><strong>Determine the heat of combustion of the fuel.</strong> This can be measured experimentally or obtained from standard tables.</li>\n<li><strong>Subtract the latent heat of vaporization of water (if applicable) to get the lower heating value.</strong></li>\n</ol>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the lower heating value of a fuel with a heat of combustion of 45,000 kJ/kg.</div>\n<blockquote>```mermaid<br />flowchart TD<br />A[Heat of Combustion (Hc)] --> B[Subtract Latent Heat of Vaporization (LHV)]<br />B --> C[LHV = Hc - LHV]<br />```</blockquote>\n<blockquote>```mermaid<br />flowchart LR<br />A[45,000 kJ/kg] --> B[Subtract 2,260 kJ/kg(LHV of H2O)] --> C[LHV = 42,740 kJ/kg]<br />```</blockquote>",
+   "examples": [
+    "Calculate the lower heating value of a fuel with a heat of combustion of 45,000 kJ/kg."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Application",
+   "id": "",
+   "html": "<p>Calorific value is crucial in the design of combustion systems, such as boilers and engines, where the energy output needs to be optimized. For instance, in a steam power plant, the higher heating value of the fuel is used to determine the amount of steam produced and the subsequent energy output.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p>A good fuel should have certain desirable properties to ensure efficient and effective combustion. These characteristics include calorific value, density, combustion characteristics, and emissions.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Calorific Value",
+   "id": "",
+   "html": "<p>As discussed earlier, a high calorific value is essential for a good fuel. It ensures that more energy can be obtained from a given quantity of fuel.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Density",
+   "id": "",
+   "html": "<p>The density of a fuel affects its storage and transportation. A fuel with lower density is easier to handle and store. For example, liquid fuels like gasoline and diesel have densities around 750 to 850 kg/m³, while gaseous fuels like natural gas have densities around 0.717 kg/m³.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Combustion Characteristics",
+   "id": "",
+   "html": "<p>A good fuel should have the following combustion characteristics:</p>\n<ul>\n<li><strong>Good Ignition Properties:</strong> The fuel should ignite easily and quickly.</li>\n<li><strong>Complete Combustion:</strong> The fuel should burn completely to release all its energy.</li>\n<li><strong>Low Smoke and Ash Content:</strong> This reduces the pollution and maintenance costs.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Emissions",
+   "id": "",
+   "html": "<p>A good fuel should produce minimal harmful emissions during combustion. The emissions should comply with local and international environmental regulations.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Practical Example",
+   "id": "",
+   "html": "<p>Consider a fuel with the following properties:</p>\n<ul>\n<li>Calorific Value: 40,000 kJ/kg</li>\n<li>Density: 800 kg/m³</li>\n<li>Ignition Temperature: 300°C</li>\n<li>Ash Content: 0.5%</li>\n<li>Emissions: CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Evaluate the suitability of the fuel based on its characteristics.</div>\n<blockquote>```mermaid<br />flowchart TD<br />A[Calorific Value] --> B[High (40,000 kJ/kg)]<br />B --> C[Good for energy efficiency]<br />A --> D[Density] --> E[800 kg/m³]<br />E --> F[Easy storage and transport]<br />A --> G[Ignition Temperature] --> H[300°C]<br />H --> I[Good ignition properties]<br />A --> J[Ash Content] --> K[0.5%]<br />K --> L[Minimizes maintenance]<br />A --> M[Emissions] --> N[CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh]<br />N --> O[Meets environmental standards]<br />```</blockquote>",
+   "examples": [
+    "Evaluate the suitability of the fuel based on its characteristics."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conclusion",
+   "id": "",
+   "html": "<p>The characteristics of good fuel are essential for efficient and clean combustion. By considering factors such as calorific value, density, combustion properties, and emissions, we can select fuels that meet the requirements of various applications.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Ultimate Analysis of Coal",
+   "id": "",
+   "html": "<p><strong>Ultimate Analysis</strong> of coal involves determining the chemical composition of coal by weight. This analysis is crucial for understanding the quality and potential uses of coal.</p>\n<ul>\n<li><strong>Carbon (C)</strong>: This is the primary combustible component.</li>\n<li><strong>Hydrogen (H)</strong>: Provides the potential for moisture and other gases.</li>\n<li><strong>Oxygen (O)</strong>: Influences the combustibility and ash content.</li>\n<li><strong>Nitrogen (N)</strong>: Present in small amounts, affects the ash melting point.</li>\n<li><strong>Sulphur (S)</strong>: Affects the emissions and pollution control.</li>\n<li><strong>Water (H2O)</strong>: Present as moisture in the coal.</li>\n<li><strong>Ash</strong>: Inert mineral matter left after combustion.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />A sample of coal is analyzed and found to contain 60% carbon, 5% hydrogen, 8% oxygen, 1% nitrogen, 10% sulphur, and 16% moisture. Calculate the percentage of ash in the coal.<br /><br />Solution:<br />The total percentage of all components except ash is 60\\% + 5\\% + 8\\% + 1\\% + 10\\% + 16\\% = 100\\%.<br />Therefore, the percentage of ash is 100\\% - 100\\% = 0\\%.</div>",
+   "examples": [
+    "A sample of coal is analyzed and found to contain 60% carbon, 5% hydrogen, 8% oxygen, 1% nitrogen, 10% sulphur, and 16% moisture. Calculate the percentage of ash in the coal. Solution: The total percentage of all components except ash is 60\\% + 5\\% + 8\\% + 1\\% + 10\\% + 16\\% = 100\\%. Therefore, the percentage of ash is 100\\% - 100\\% = 0\\%."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Proximate Analysis of Coal",
+   "id": "",
+   "html": "<p><strong>Proximate Analysis</strong> of coal involves determining the physical and chemical properties that can be determined without heating the coal to high temperatures. The main components are:</p>\n<ul>\n<li><strong>Moisture (M)</strong>: Water content in the coal.</li>\n<li><strong>Ash (A)</strong>: Inert mineral matter left after combustion.</li>\n<li><strong>Volatile Matter (V)</strong>: Released gases and liquids when coal is heated.</li>\n<li><strong>Fixed Carbon (FC)</strong>: Remaining carbon after volatile matter is removed.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />A sample of coal has the following proximate analysis: 20% moisture, 35% volatile matter, and 40% fixed carbon. Calculate the percentage of ash in the coal.<br /><br />Solution:<br />The sum of the percentages of all components is 20\\% + 35\\% + 40\\% = 95\\%.<br />Therefore, the percentage of ash is 100\\% - 95\\% = 5\\%.</div>",
+   "examples": [
+    "A sample of coal has the following proximate analysis: 20% moisture, 35% volatile matter, and 40% fixed carbon. Calculate the percentage of ash in the coal. Solution: The sum of the percentages of all components is 20\\% + 35\\% + 40\\% = 95\\%. Therefore, the percentage of ash is 100\\% - 95\\% = 5\\%."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Liquefied Petroleum Gas (LPG)",
+   "id": "",
+   "html": "<p><strong>Liquefied Petroleum Gas (LPG)</strong> is a mixture of hydrocarbons, primarily propane (C3H8) and butane (C4H10). It is commonly used as a fuel in households and industries.</p>\n<ul>\n<li><strong>Propane (C3H8)</strong>: Boiling point is -42°C.</li>\n<li><strong>Butane (C4H10)</strong>: Boiling point is -0.5°C.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />Calculate the density of propane at 20°C and 1 atm pressure, given that the molar mass of propane is 44 g/mol and the density of propane at 0°C and 1 atm is 1.86 kg/m³.<br /><br />Solution:<br />Using the ideal gas law, PV = nRT, where P = 1 atm, T = 20 + 273 = 293 K, and R = 0.0821 L·atm/(mol·K):<br /><br />[<br />n = \\frac{PV}{RT} = \\frac{1 \\, \\text{atm} \\times 1000 \\, \\text{L}}{0.0821 \\, \\text{L·atm/(mol·K)} \\times 293 \\, \\text{K}} = 41.1 \\, \\text{mol}<br />]<br /><br />The volume of 41.1 moles of propane is 1000 L, so the mass is 41.1 mol × 44 g/mol = 1808.4 g = 1.8084 kg.<br /><br />The density is 1.8084 kg 1000 L = 1.8084 kg/m³.</div>",
+   "examples": [
+    "Calculate the density of propane at 20°C and 1 atm pressure, given that the molar mass of propane is 44 g/mol and the density of propane at 0°C and 1 atm is 1.86 kg/m³. Solution: Using the ideal gas law, PV = nRT, where P = 1 atm, T = 20 + 273 = 293 K, and R = 0.0821 L·atm/(mol·K): [ n = \\frac{PV}{RT} = \\frac{1 \\, \\text{atm} \\times 1000 \\, \\text{L}}{0.0821 \\, \\text{L·atm/(mol·K)} \\times 293 \\, \\text{K}} = 41.1 \\, \\text{mol} ] The volume of 41.1 moles of propane is 1000 L, so the mass is 41.1 mol × 44 g/mol = 1808.4 g = 1.8084 kg. The density is 1.8084 kg 1000 L = 1.8084 kg/m³."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Natural Gas",
+   "id": "",
+   "html": "<p><strong>Natural Gas</strong> is a mixture of hydrocarbons, primarily methane (CH4), ethane (C2H6), propane (C3H8), and butane (C4H10). It is a clean and efficient fuel.</p>\n<ul>\n<li><strong>Methane (CH4)</strong>: The main component, with a boiling point of -161.5°C.</li>\n<li><strong>Ethane (C2H6)</strong>: Boiling point is -88.6°C.</li>\n<li><strong>Propane (C3H8)</strong>: Boiling point is -42°C.</li>\n<li><strong>Butane (C4H10)</strong>: Boiling point is -0.5°C.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />Calculate the calorific value of methane (CH4) if 1 kg of methane is burned completely, producing 2.56 MJ of energy. What is the calorific value in MJ/kg?<br /><br />Solution:<br />The calorific value is the energy released per unit mass of the fuel.<br /><br />[</div>\n<p>\\text{Calorific value} = \\frac{2.56 \\, \\text{MJ}}{1 \\, \\text{kg}} = 2.56 \\, \\text{MJ/kg}</p>\n<p>]</p>",
+   "examples": [
+    "Calculate the calorific value of methane (CH4) if 1 kg of methane is burned completely, producing 2.56 MJ of energy. What is the calorific value in MJ/kg? Solution: The calorific value is the energy released per unit mass of the fuel. ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Biogas",
+   "id": "",
+   "html": "<p><strong>Biogas</strong> is a mixture of gases produced by the biological breakdown of organic matter in the absence of oxygen. The main components are:</p>\n<ul>\n<li><strong>Methane (CH4)</strong>: 60-70%</li>\n<li><strong>Carbon Dioxide (CO2)</strong>: 30-40%</li>\n<li><strong>Nitrogen (N2)</strong>: 1-2%</li>\n<li><strong>Other Gases</strong>: Trace amounts of hydrogen (H2), carbon monoxide (CO), and others.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />A biogas plant produces 1000 m³ of biogas per day, with 70% methane and 30% carbon dioxide. If the calorific value of methane is 35 MJ/m³ and carbon dioxide has a calorific value of 0 MJ/m³, calculate the total calorific value of the biogas produced per day.<br /><br />Solution:<br />The volume of methane is 1000 m³ × 0.70 = 700 m³.<br />The volume of carbon dioxide is 1000 m³ × 0.30 = 300 m³.<br /><br />The calorific value from methane is 700 m³ × 35 MJ/m³ = 24500 MJ.<br />The calorific value from carbon dioxide is 300 m³ × 0 MJ/m³ = 0 MJ.<br /><br />The total calorific value is 24500 MJ + 0 MJ = 24500 MJ.</div>",
+   "examples": [
+    "A biogas plant produces 1000 m³ of biogas per day, with 70% methane and 30% carbon dioxide. If the calorific value of methane is 35 MJ/m³ and carbon dioxide has a calorific value of 0 MJ/m³, calculate the total calorific value of the biogas produced per day. Solution: The volume of methane is 1000 m³ × 0.70 = 700 m³. The volume of carbon dioxide is 1000 m³ × 0.30 = 300 m³. The calorific value from methane is 700 m³ × 35 MJ/m³ = 24500 MJ. The calorific value from carbon dioxide is 300 m³ × 0 MJ/m³ = 0 MJ. The total calorific value is 24500 MJ + 0 MJ = 24500 MJ."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Refining of Petroleum by Fractional Distillation",
+   "id": "",
+   "html": "<p><strong>Fractional Distillation</strong> is a process used to separate the different components of petroleum based on their boiling points. The process is carried out in a distillation column, where the mixture is heated and the components are separated as they vaporize and condense at different temperatures.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Fractional Distillation Process",
+   "id": "",
+   "html": "<ol>\n<li><strong>Preheater</strong>: The crude oil is preheated to a temperature just below the boiling point of the lightest fraction.</li>\n<li><strong>Distillation Column</strong>: The preheated oil enters the column and is vaporized at the top.</li>\n<li><strong>Condenser</strong>: The vapor is cooled and condensed back into liquid form at the top of the column.</li>\n<li><strong>Reboiler</strong>: The liquid is heated at the bottom to vaporize the lightest fraction.</li>\n<li><strong>Collection of Fractions</strong>: The fractions are collected at different points in the column based on their boiling points.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />A sample of crude oil is distilled and the following fractions are collected:<br />- Gasoline: Boiling point range 30°C to 200°C<br />- Kerosene: Boiling point range 150°C to 270°C<br />- Diesel: Boiling point range 200°C to 350°C<br />- Lubricating Oil: Boiling point range 300°C to 450°C<br /><br />If 1000 kg of crude oil is fed into the distillation column, and the yield of gasoline is 30%, kerosene is 20%, diesel is 15%, and lubricating oil is 5%, calculate the total yield of these fractions.<br /><br />Solution:<br />The total yield of the fractions is 30\\% + 20\\% + 15\\% + 5\\% = 70\\%.<br /><br />The total mass of the fractions is 1000 kg × 70\\% = 700 kg.</div>\n<p>This section provides a clear and concise understanding of the key concepts related to the analysis of coal and the refining of petroleum, with relevant examples to aid in exam preparation.</p>\n<hr />",
+   "examples": [
+    "A sample of crude oil is distilled and the following fractions are collected: - Gasoline: Boiling point range 30°C to 200°C - Kerosene: Boiling point range 150°C to 270°C - Diesel: Boiling point range 200°C to 350°C - Lubricating Oil: Boiling point range 300°C to 450°C If 1000 kg of crude oil is fed into the distillation column, and the yield of gasoline is 30%, kerosene is 20%, diesel is 15%, and lubricating oil is 5%, calculate the total yield of these fractions. Solution: The total yield of the fractions is 30\\% + 20\\% + 15\\% + 5\\% = 70\\%. The total mass of the fractions is 1000 kg × 70\\% = 700 kg."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Octane number:</strong> The octane number is a measure of a gasoline's resistance to premature ignition in an internal combustion engine. A higher octane number indicates a lower tendency to ignite spontaneously when compressed.</p>\n<p><strong>Cetane number:</strong> The cetane number is a measure of the combustion quality of diesel fuel. A higher cetane number indicates a more rapid and complete combustion of the fuel.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance in Fuel",
+   "id": "",
+   "html": "<ul>\n<li><strong>Octane Number:</strong> It is crucial for preventing engine knocking, which can damage the engine. Knocking occurs when the fuel ignites prematurely before the spark plug fires, causing a rapid pressure rise.</li>\n<li><strong>Cetane Number:</strong> It ensures that diesel fuel ignites quickly and evenly, preventing engine knocking and ensuring efficient operation.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Measurement and Classification",
+   "id": "",
+   "html": "<ul>\n<li><strong>Octane Number Measurement:</strong> The octane number is determined by comparing the fuel to a standard of iso-octane (which has a high resistance to knocking) and n-heptane (which has a low resistance). The octane number is the percentage by volume of iso-octane in the standard mixture.</li>\n<li><strong>Cetane Number Measurement:</strong> The cetane number is measured by comparing the fuel to a standard of iso-octane (which has a high cetane number) and alpha-methylnaphthalene (which has a low cetane number). The cetane number is the percentage by volume of iso-octane in the standard mixture.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Effects of Octane Number on Engine Performance",
+   "id": "",
+   "html": "<ul>\n<li><strong>Knock Resistance:</strong> A higher octane number increases the fuel's resistance to knocking, allowing the engine to operate at higher compression ratios.</li>\n<li><strong>Engine Durability:</strong> Higher octane fuels can help reduce engine wear by reducing the risk of knocking.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Effects of Cetane Number on Engine Performance",
+   "id": "",
+   "html": "<ul>\n<li><strong>Combustion Quality:</strong> A higher cetane number ensures more rapid and complete combustion of the fuel, leading to better engine performance and efficiency.</li>\n<li><strong>Engine Emissions:</strong> Improved combustion quality can lead to reduced emissions and better fuel efficiency.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A fuel has an octane number of 87 and a cetane number of 50. If this fuel is mixed with 20% iso-octane and 80% n-heptane, what is the new octane number and cetane number of the fuel?</div>\n<p><strong>Solution:</strong></p>\n<ul>\n<li><strong>Octane Number Calculation:</strong></li>\n<li>Octane number = (20% of 100) + (80% of 0) = 20</li>\n<li>The new octane number of the fuel = 87 + 20 = 107</li>\n</ul>\n<ul>\n<li><strong>Cetane Number Calculation:</strong></li>\n<li>Cetane number = (20% of 0) + (80% of 100) = 80</li>\n<li>The new cetane number of the fuel = 50 + 80 = 130</li>\n</ul>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>If the octane number of a fuel is increased from 85 to 95, what is the percentage increase in the octane number?</div>\n<p><strong>Solution:</strong></p>\n<ul>\n<li>Percentage increase = 95 - 85 85 × 100\\% = 10 85 × 100\\% ≈ 11.76\\%</li>\n</ul>",
+   "examples": [
+    "A fuel has an octane number of 87 and a cetane number of 50. If this fuel is mixed with 20% iso-octane and 80% n-heptane, what is the new octane number and cetane number of the fuel?",
+    "If the octane number of a fuel is increased from 85 to 95, what is the percentage increase in the octane number?"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart of Octane and Cetane Number Calculation",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C[Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)]\n A --&gt; D[Higher octane number = Increased knock resistance]\n A --&gt; E[Engine durability improvement]\n A --&gt; F[Combustion quality improvement]\n A --&gt; G[Reduced emissions]\n A --&gt; H[Improved fuel efficiency]\n I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K[Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)]\n I --&gt; L[Higher cetane number = Improved combustion]\n I --&gt; M[Reduced engine knocking]\n I --&gt; N[Better engine performance]\n I --&gt; O[Reduced emissions]\n I --&gt; P[Improved fuel efficiency]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C[Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)]\n A --&gt; D[Higher octane number = Increased knock resistance]\n A --&gt; E[Engine durability improvement]\n A --&gt; F[Combustion quality improvement]\n A --&gt; G[Reduced emissions]\n A --&gt; H[Improved fuel efficiency]\n I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K[Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)]\n I --&gt; L[Higher cetane number = Improved combustion]\n I --&gt; M[Reduced engine knocking]\n I --&gt; N[Better engine performance]\n I --&gt; O[Reduced emissions]\n I --&gt; P[Improved fuel efficiency]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C[Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)]\n A --&gt; D[Higher octane number = Increased knock resistance]\n A --&gt; E[Engine durability improvement]\n A --&gt; F[Combustion quality improvement]\n A --&gt; G[Reduced emissions]\n A --&gt; H[Improved fuel efficiency]\n I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K[Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)]\n I --&gt; L[Higher cetane number = Improved combustion]\n I --&gt; M[Reduced engine knocking]\n I --&gt; N[Better engine performance]\n I --&gt; O[Reduced emissions]\n I --&gt; P[Improved fuel efficiency]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Octane Number] --> B[Compare with iso-octane and n-heptane] --> C[Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)]\n    A --> D[Higher octane number = Increased knock resistance]\n    A --> E[Engine durability improvement]\n    A --> F[Combustion quality improvement]\n    A --> G[Reduced emissions]\n    A --> H[Improved fuel efficiency]\n    I[Cetane Number] --> J[Compare with iso-octane and alpha-methylnaphthalene] --> K[Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)]\n    I --> L[Higher cetane number = Improved combustion]\n    I --> M[Reduced engine knocking]\n    I --> N[Better engine performance]\n    I --> O[Reduced emissions]\n    I --> P[Improved fuel efficiency]"
+   ]
+  },
+  {
+   "heading": "Introduction",
+   "id": "",
+   "html": "<p><strong>Unleaded Petrol:</strong> Unleaded petrol is a type of gasoline that contains no lead compounds. It is widely used in spark-ignition engines in automobiles and other vehicles.</p>\n<p><strong>Diesel:</strong> Diesel is a type of fuel used primarily in compression-ignition engines. It is known for its higher energy content and lower volatility compared to petrol.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Unleaded Petrol",
+   "id": "",
+   "html": "<ul>\n<li><strong>Chemical Composition:</strong> Unleaded petrol is composed of hydrocarbons, primarily alkanes and aromatic hydrocarbons.</li>\n<li><strong>Octane Number:</strong> Unleaded petrol typically has an octane number between 90 and 95, which is sufficient for most modern engines.</li>\n<li><strong>Environmental Impact:</strong> The removal of lead compounds in unleaded petrol has significantly reduced environmental pollution but can still release harmful hydrocarbons.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Properties of Diesel",
+   "id": "",
+   "html": "<ul>\n<li><strong>Chemical Composition:</strong> Diesel fuel is composed of longer hydrocarbon chains than petrol, with a higher energy content per volume.</li>\n<li><strong>Cetane Number:</strong> Diesel typically has a cetane number between 40 and 50, which ensures rapid and complete combustion.</li>\n<li><strong>Environmental Impact:</strong> Diesel engines are generally more efficient and produce less CO2 per unit of energy released compared to petrol engines, but they can emit more particulate matter and NOx.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A diesel engine requires a fuel with a cetane number of at least 45. If the current fuel has a cetane number of 40, what is the minimum percentage of iso-octane that needs to be added to achieve the required cetane number?</div>\n<p><strong>Solution:</strong></p>\n<ul>\n<li>Let x be the percentage of iso-octane to be added.</li>\n<li>The cetane number of the new fuel is given by:</li>\n</ul>\n<p>[ 40 + x = 45 ]</p>\n<ul>\n<li>Solving for x:</li>\n</ul>\n<p>[ x = 45 - 40 = 5 ]</p>\n<ul>\n<li>Therefore, the minimum percentage of iso-octane to be added is 5%.</li>\n</ul>",
+   "examples": [
+    "A diesel engine requires a fuel with a cetane number of at least 45. If the current fuel has a cetane number of 40, what is the minimum percentage of iso-octane that needs to be added to achieve the required cetane number?"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Flowchart of Unleaded Petrol and Diesel Properties",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Unleaded Petrol] --&gt; B[Chemical Composition: Alkanes and aromatics] --&gt; C[Octane Number: 90-95] --&gt; D[Environmental Impact: Reduced lead emissions, still hydrocarbons]\n A --&gt; E[Use in: Spark-ignition engines]\n A --&gt; F[Environmental Impact: Lower emissions compared to leaded petrol]\n A --&gt; G[Energy Content: Lower than diesel]\n A --&gt; H[Volatility: Lower than diesel]\n I[Diesel] --&gt; J[Chemical Composition: Longer hydrocarbon chains] --&gt; K[Cetane Number: 40-50] --&gt; L[Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions]\n I --&gt; M[Use in: Compression-ignition engines]\n I --&gt; N[Energy Content: Higher than unleaded petrol]\n I --&gt; O[Volatility: Higher than unleaded petrol]\n I --&gt; P[Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Unleaded Petrol] --&gt; B[Chemical Composition: Alkanes and aromatics] --&gt; C[Octane Number: 90-95] --&gt; D[Environmental Impact: Reduced lead emissions, still hydrocarbons]\n A --&gt; E[Use in: Spark-ignition engines]\n A --&gt; F[Environmental Impact: Lower emissions compared to leaded petrol]\n A --&gt; G[Energy Content: Lower than diesel]\n A --&gt; H[Volatility: Lower than diesel]\n I[Diesel] --&gt; J[Chemical Composition: Longer hydrocarbon chains] --&gt; K[Cetane Number: 40-50] --&gt; L[Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions]\n I --&gt; M[Use in: Compression-ignition engines]\n I --&gt; N[Energy Content: Higher than unleaded petrol]\n I --&gt; O[Volatility: Higher than unleaded petrol]\n I --&gt; P[Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Unleaded Petrol] --&gt; B[Chemical Composition: Alkanes and aromatics] --&gt; C[Octane Number: 90-95] --&gt; D[Environmental Impact: Reduced lead emissions, still hydrocarbons]\n A --&gt; E[Use in: Spark-ignition engines]\n A --&gt; F[Environmental Impact: Lower emissions compared to leaded petrol]\n A --&gt; G[Energy Content: Lower than diesel]\n A --&gt; H[Volatility: Lower than diesel]\n I[Diesel] --&gt; J[Chemical Composition: Longer hydrocarbon chains] --&gt; K[Cetane Number: 40-50] --&gt; L[Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions]\n I --&gt; M[Use in: Compression-ignition engines]\n I --&gt; N[Energy Content: Higher than unleaded petrol]\n I --&gt; O[Volatility: Higher than unleaded petrol]\n I --&gt; P[Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n    A[Unleaded Petrol] --> B[Chemical Composition: Alkanes and aromatics] --> C[Octane Number: 90-95] --> D[Environmental Impact: Reduced lead emissions, still hydrocarbons]\n    A --> E[Use in: Spark-ignition engines]\n    A --> F[Environmental Impact: Lower emissions compared to leaded petrol]\n    A --> G[Energy Content: Lower than diesel]\n    A --> H[Volatility: Lower than diesel]\n    I[Diesel] --> J[Chemical Composition: Longer hydrocarbon chains] --> K[Cetane Number: 40-50] --> L[Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions]\n    I --> M[Use in: Compression-ignition engines]\n    I --> N[Energy Content: Higher than unleaded petrol]\n    I --> O[Volatility: Higher than unleaded petrol]\n    I --> P[Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx]"
+   ]
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<ul>\n<li><strong>Unleaded Petrol:</strong> Used in spark-ignition engines, with an octane number between 90 and 95, and lower environmental impact due to reduced lead emissions.</li>\n<li><strong>Diesel:</strong> Used in compression-ignition engines, with a cetane number between 40 and 50, higher energy content, and lower CO2 emissions but potentially higher particulate matter and NOx emissions.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  }
+ ]
+}

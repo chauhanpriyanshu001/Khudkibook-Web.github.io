@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathematics Full Book – All 5 Units (C4300001) | KhudKibook</title>
+  <meta name="description" content="Complete AI-generated GTU self-study book for Mathematics (C4300001) — all 5 units in one readable page. Diagrams, solved examples and unit-end questions included.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#4f46e5">
+  <link rel="canonical" href="https://khudkibook.in/books/C4300001/full-book.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&family=Noto+Sans+Gujarati:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="stylesheet" href="/be619.css?v=2.1" />
+  <link rel="icon" type="image/png" href="/assets/brand/favicon-32x32.png?v=2" />
+  <style>
+  /* ============ FIXED BASE (does not depend on unit-page vars) ============ */
+  .kb-book{max-width:920px;margin:0 auto;padding:0 16px 60px}
+  html{scroll-behavior:smooth}
+  .kb-progress-bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#4f46e5,#7c3aed);z-index:1200;transition:width .1s linear}
+
+  /* ---------- Book cover (reader-style) ---------- */
+  .kb-book-cover{background:linear-gradient(135deg,#312e81 0%,#4f46e5 45%,#7c3aed 100%);border-radius:20px;color:#fff;padding:0;margin:18px 0 24px;box-shadow:0 20px 44px rgba(79,70,229,.32);overflow:hidden;position:relative}
+  .kb-book-cover::before{content:"";position:absolute;inset:0;background:radial-gradient(1200px 400px at 85% -10%,rgba(255,255,255,.18),transparent 60%),radial-gradient(600px 300px at 0% 110%,rgba(124,58,237,.5),transparent 55%);pointer-events:none}
+  .kb-cover-inner{position:relative;padding:44px 40px 38px;text-align:center}
+  .kb-cover-kicker{font-size:.74rem;letter-spacing:.28em;text-transform:uppercase;opacity:.8;font-weight:700;margin-bottom:16px}
+  .kb-cover-title{font-family:'Outfit',sans-serif;font-size:clamp(1.7rem,4.5vw,2.8rem);font-weight:800;line-height:1.16;letter-spacing:-.01em}
+  .kb-cover-rule{width:64px;height:3px;border-radius:99px;background:rgba(255,255,255,.7);margin:18px auto}
+  .kb-cover-meta{font-size:.95rem;font-weight:600;opacity:.94;margin-top:2px}
+  .kb-cover-units{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-size:.82rem;font-weight:700;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.32);padding:7px 16px;border-radius:999px}
+  .kb-cover-badge{margin-top:18px;display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:600;background:rgba(0,0,0,.22);padding:8px 16px;border-radius:999px}
+
+  /* ---------- Toolbar ---------- */
+  .kb-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;justify-content:space-between;margin:0 0 18px}
+  .kb-toolbar .kb-tb-group{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+  .kb-tb-btn,.kb-print-btn{display:inline-flex;gap:8px;align-items:center;background:#fff;color:var(--accent,#4f46e5);border:1px solid var(--border,#e5e9f2);padding:9px 15px;border-radius:999px;font-weight:700;font-size:.82rem;text-decoration:none;box-shadow:0 1px 3px rgba(15,23,42,.08);transition:.15s}
+  .kb-tb-btn:hover,.kb-print-btn:hover{transform:translateY(-1px);border-color:var(--border-accent,rgba(79,70,229,.35));box-shadow:0 6px 16px rgba(15,23,42,.12)}
+  .kb-tb-stat{display:inline-flex;gap:8px;align-items:center;background:#fff;border:1px solid var(--border,#e5e9f2);padding:9px 14px;border-radius:999px;font-weight:600;font-size:.82rem;color:var(--text-secondary,#475569);box-shadow:0 1px 3px rgba(15,23,42,.08)}
+
+  /* ---------- Mobile chapter drawer ---------- */
+  #kb-mobile-toc{position:fixed;inset:0;background:rgba(15,23,42,.5);backdrop-filter:blur(2px);z-index:1500;opacity:0;pointer-events:none;transition:.25s}
+  #kb-mobile-toc.open{opacity:1;pointer-events:auto}
+  #kb-mobile-toc .mob-toc-panel{position:absolute;top:0;left:0;bottom:0;width:min(320px,84vw);background:#fff;box-shadow:20px 0 40px rgba(15,23,42,.2);overflow:auto;padding:20px 16px;transform:translateX(-100%);transition:.25s}
+  #kb-mobile-toc.open .mob-toc-panel{transform:translateX(0)}
+  #kb-mobile-toc .mob-toc-panel h4{margin:6px 4px;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted,#64748b)}
+  #kb-mobile-toc .mob-toc-panel .toc-item{display:flex;gap:8px;align-items:center;padding:8px 10px;border-radius:9px;color:var(--text-secondary,#475569);text-decoration:none;font-size:.88rem;font-weight:600;margin-bottom:4px}
+  #kb-mobile-toc .mob-toc-panel .toc-item:hover{background:var(--bg-soft,#eef1fb);color:var(--accent,#4f46e5)}
+  #kb-mobile-toc .mob-toc-panel .back-link{display:block;margin-top:12px;padding-top:12px;border-top:1px solid var(--border,#e5e9f2);font-size:.85rem;color:var(--accent,#4f46e5);text-decoration:none;font-weight:700}
+
+  /* ---------- Layout (book reading column) ---------- */
+  .kb-reader{background:var(--bg-page,#f6f8fc)}
+  .kb-layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:26px}
+  .kb-toc{position:sticky;top:86px;align-self:start;background:#fff;border:1px solid var(--border,#e5e9f2);border-radius:16px;padding:16px;box-shadow:0 1px 3px rgba(15,23,42,.08);max-height:calc(100vh - 112px);overflow:auto}
+  .kb-toc h4{margin:14px 0 8px;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted,#64748b)}
+  .kb-toc h4:first-child{margin-top:0}
+  .kb-toc .toc-item{display:flex;gap:8px;align-items:center;padding:9px 11px;border-radius:9px;color:var(--text-secondary,#475569);text-decoration:none;font-size:.88rem;font-weight:600;margin-bottom:4px;border:1px solid transparent;transition:.15s;line-height:1.35}
+  .kb-toc .toc-item:hover{background:var(--bg-soft,#eef1fb);color:var(--accent,#4f46e5)}
+  .kb-toc .toc-item.toc-active{background:var(--accent-gradient,linear-gradient(135deg,#4f46e5,#7c3aed));color:#fff;box-shadow:0 8px 24px rgba(79,70,229,.22)}
+  .kb-toc .toc-number{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;background:var(--bg-soft,#eef1fb);border-radius:8px;font-size:.72rem;font-weight:800;color:var(--accent,#4f46e5)}
+  .kb-toc .toc-item.toc-active .toc-number{background:rgba(255,255,255,.2);color:#fff}
+  .kb-toc .toc-sec{font-size:.8rem;padding:6px 8px;font-weight:500}
+  .kb-toc .back-link{display:block;margin-top:12px;padding-top:12px;border-top:1px solid var(--border,#e5e9f2);font-size:.85rem;color:var(--accent,#4f46e5);text-decoration:none;font-weight:700}
+  .kb-unit-block{margin-bottom:6px;border:1px solid var(--border,#e5e9f2);border-radius:10px;padding:4px 6px;background:var(--bg-soft,#eef1fb)}
+  .kb-unit-block summary{cursor:pointer;font-weight:700;padding:6px 8px;color:var(--text-primary,#0f172a);list-style:none}
+  .kb-unit-block summary::-webkit-details-marker{display:none}
+  .kb-unit-block .kb-unit-link{color:var(--accent,#4f46e5);text-decoration:none}
+
+  /* ---------- Reading column / articles ---------- */
+  .kb-articles{min-width:0}
+  .kb-article{background:#fff;border:1px solid var(--border,#e5e9f2);border-radius:16px;padding:28px 32px;box-shadow:0 1px 3px rgba(15,23,42,.08);line-height:1.75;color:var(--text-primary,#0f172a)}
+  .kb-article .kb-unit-head{display:flex;align-items:flex-start;gap:14px;border-bottom:2px solid var(--bg-soft,#eef1fb);padding-bottom:14px;margin-bottom:18px}
+  .kb-article .kb-unit-num{flex-shrink:0;width:54px;height:54px;border-radius:15px;background:var(--accent-gradient,linear-gradient(135deg,#4f46e5,#7c3aed));color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.15rem;box-shadow:0 8px 20px rgba(79,70,229,.28)}
+  .kb-article .kb-unit-title{font-family:'Outfit',sans-serif;font-size:clamp(1.2rem,2.4vw,1.55rem);font-weight:700;line-height:1.3;color:var(--accent-dark,#4338ca);margin:0}
+  .kb-article h2{font-family:'Outfit',sans-serif;font-size:1.3rem;margin:24px 0 10px;padding-bottom:8px;border-bottom:2px solid var(--bg-soft,#eef1fb);color:var(--accent-dark,#4338ca);scroll-margin-top:96px}
+  .kb-article h3{font-size:1.08rem;margin:20px 0 8px;color:var(--text-primary,#0f172a);scroll-margin-top:96px}
+  .kb-article h4{font-size:1rem;margin:16px 0 6px}
+  .kb-article p{margin:10px 0}
+  .kb-article ul,.kb-article ol{margin:10px 0 10px 22px}
+  .kb-article li{margin:5px 0}
+  .kb-article table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.92rem}
+  .kb-article th,.kb-article td{border:1px solid var(--border,#e5e9f2);padding:9px 11px;text-align:left}
+  .kb-article th{background:var(--bg-soft,#eef1fb);font-weight:700}
+  .kb-article code{background:var(--bg-soft,#eef1fb);padding:2px 6px;border-radius:6px;font-size:.9em}
+  .kb-article pre{background:#0f172a;color:#e2e8f0;border-radius:12px;padding:14px;overflow:auto}
+  .kb-article blockquote{border-left:4px solid var(--accent,#4f46e5);background:var(--bg-glass,rgba(99,102,241,.06));padding:10px 14px;border-radius:0 10px 10px 0;margin:12px 0;color:var(--text-secondary,#475569)}
+  .kb-article .fig-callout{background:var(--bg-soft,#eef1fb);border:1.5px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;padding:14px 16px;margin:14px 0;color:var(--text-secondary,#475569);font-size:.92rem;display:flex;gap:10px;align-items:flex-start}
+  .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
+  .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
+  .kb-article .mermaid-wrap{margin:16px 0}
+  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
+  .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+  .kb-article .mermaid svg{max-width:100%;height:auto}
+  .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted,#64748b)}
+  .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
+  .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
+  .kb-unit{margin-bottom:26px}
+  .kb-notice{display:flex;gap:10px;background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:12px;padding:12px 14px;font-size:.86rem;margin:22px 0 0;line-height:1.55}
+  .kb-notice i{color:#ea580c;margin-top:3px}
+  .kb-toast{position:fixed;bottom:66px;left:50%;transform:translateX(-50%) translateY(20px);background:#111827;color:#fff;padding:9px 16px;border-radius:999px;font-size:.82rem;font-weight:600;opacity:0;pointer-events:none;transition:.25s;z-index:1300}
+  .kb-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  .print-watermark{display:none}
+
+  @media (max-width:920px){
+    .kb-layout{grid-template-columns:1fr}
+    .kb-toc{display:none}
+    .kb-article{padding:20px 18px}
+    /* show mobile chapter button */
+    .kb-desktop-toc-toggle{display:inline-flex!important}
+  }
+  .kb-desktop-toc-toggle{display:none}
+  .kb-mobile-toggle-bar{display:flex;gap:10px;margin-bottom:16px}
+  @media (min-width:921px){.kb-mobile-toggle-bar{display:none}}
+
+  /* ============ PRINT / PDF LAYOUT ============ */
+  @media print{
+    body{background:#fff!important;padding:0!important}
+    .no-print,.kb-toc,.print-watermark,.kb-progress-bar,.kb-toast,.kb-toolbar,.kb-mobile-toggle-bar,#kb-mobile-toc,.kb-side-ad,.kb-tb-btn,.kb-print-btn{display:none!important}
+    .navbar-root,#nav,#footer,.footer{display:none!important}
+    .kb-book{max-width:100%;padding:0}
+    .kb-layout{display:block}
+    .kb-book-cover{border-radius:0;margin:0 0 14px;page-break-after:avoid;color-adjust:exact;-webkit-print-color-adjust:exact}
+    .kb-cover-inner{padding:30px 20px}
+    .kb-article{border:none;box-shadow:none;padding:0 2mm 0 0;line-height:1.6;font-size:11pt}
+    .kb-article{-webkit-user-select:text;-moz-user-select:text;user-select:text}
+    .kb-article table{font-size:9.5pt}
+    .kb-article pre{white-space:pre-wrap;word-break:break-word}
+    .kb-article{margin-bottom:0}
+    .kb-notice{page-break-inside:avoid;background:#fff;border-color:#ddd;color:#555}
+    h1,h2,h3{page-break-after:avoid}
+    p,li,blockquote,table,.kb-unit{page-break-inside:avoid}
+    @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in · Mathematics";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
+  }
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Mathematics – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":11174,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Mathematics","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q14JJGGSPR');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yha6xlt986");
+  </script>
+</head>
+<body>
+  <nav id="nav" class="navbar-root no-print"></nav>
+  <div class="kb-progress-bar" id="kb-progress"></div>
+
+  <main class="kb-book">
+    <nav class="nv759 no-print" aria-label="Breadcrumb">
+      <div class="nvl153">
+        <a href="/">Home</a> &raquo; Gujarat Technological University Artificial Intelligence and Data Science Semester 1 &raquo; <a href="/ai-data-science/sem1/mathematics.html">Mathematics</a> &raquo; Full Book
+      </div>
+    </nav>
+
+      
+    <div class="kb-book-cover">
+      <div class="kb-cover-inner">
+        <div class="kb-cover-kicker">KHUDKIBOOK · GTU AI SELF-STUDY BOOK</div>
+        <div class="kb-cover-title">Mathematics</div>
+        <div class="kb-cover-rule"></div>
+        <div class="kb-cover-meta">Subject Code C4300001 · Gujarat Technological University Artificial Intelligence and Data Science Semester 1</div>
+        <div class="kb-cover-units">Complete Study Book · 5 Units</div>
+        <div class="kb-cover-badge"><i class="fas fa-robot"></i> AI-generated study material · cross-check with official syllabus</div>
+      </div>
+    </div>
+
+    <div class="kb-toolbar no-print">
+      <div class="kb-tb-group">
+        <button class="kb-tb-btn kb-desktop-toc-toggle" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
+        <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~52 min read</span>
+        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 11,174 words</span>
+      </div>
+      <div class="kb-tb-group">
+        <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
+      </div>
+    </div>
+
+    <div class="kb-mobile-toggle-bar no-print">
+      <button class="kb-tb-btn" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
+      <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> PDF</a>
+    </div>
+
+    <div class="kb-layout">
+      <aside class="kb-toc no-print">
+        <h4>Chapters</h4>
+        <details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u1-sec-1"><span class="toc-number">1</span> Determinant and Function</a></summary>
+      <a class="toc-item toc-sec" href="#u1-sec-1-1-determinant-and-its-value-up-to-3rd-order-without-properties"><i class="fas fa-chevron-right"></i> 1.1. Determinant and its value up to 3rd order (Without properties)</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-2-function-and-simple-examples"><i class="fas fa-chevron-right"></i> 1.2. Function and simple examples.</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-3-logarithm-as-a-function"><i class="fas fa-chevron-right"></i> 1.3. Logarithm as a function</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-4-laws-of-logarithm-and-related-simple-examples"><i class="fas fa-chevron-right"></i> 1.4. Laws of Logarithm and Related Simple Examples</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u2-sec-2"><span class="toc-number">2</span> Trigonometry</a></summary>
+      <a class="toc-item toc-sec" href="#u2-sec-2-1-units-of-angles-degree-and-radian"><i class="fas fa-chevron-right"></i> 2.1. Units of Angles (degree and radian)</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-2-trigonometric-functions"><i class="fas fa-chevron-right"></i> 2.2. Trigonometric Functions</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-3-allied-compound-angles-multiple-submultiples-angles"><i class="fas fa-chevron-right"></i> 2.3. Allied &amp;amp; Compound Angles, Multiple –Submultiples Angles</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-4-graph-of-sine-and-cosine"><i class="fas fa-chevron-right"></i> 2.4. Graph of Sine and Cosine</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-5-periodic-trigonometric-function"><i class="fas fa-chevron-right"></i> 2.5. Periodic Trigonometric Function</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-6-sum-and-factor-formulae"><i class="fas fa-chevron-right"></i> 2.6. Sum and Factor Formulae</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-7-inverse-trigonometric-function"><i class="fas fa-chevron-right"></i> 2.7. Inverse Trigonometric Function</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u3-sec-3"><span class="toc-number">3</span> Vectors</a></summary>
+      <a class="toc-item toc-sec" href="#u3-sec-3-1-vector-addition-subtraction-magnitude-and-direction"><i class="fas fa-chevron-right"></i> 3.1. Vector, Addition, Subtraction, Magnitude and Direction</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-scalar-and-vector-product-and-its-properties"><i class="fas fa-chevron-right"></i> 3.2. Scalar and Vector Product and its Properties</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-3-angle-between-two-vectors"><i class="fas fa-chevron-right"></i> 3.3. Angle between two Vectors</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-4-applications-of-scalar-and-vector-product-work-done-and-moment-of-force"><i class="fas fa-chevron-right"></i> 3.4. Applications of Scalar and Vector Product (Work Done and Moment of Force)</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u4-sec-4"><span class="toc-number">4</span> Coordinate Geometry</a></summary>
+      <a class="toc-item toc-sec" href="#u4-sec-4-1-straight-line-two-point-form-and-slope-of-straight-line"><i class="fas fa-chevron-right"></i> 4.1. Straight line (Two-point form) and slope of straight line</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-2-slope-point-form-intercept-form-general-form-of-line"><i class="fas fa-chevron-right"></i> 4.2. Slope Point Form, Intercept Form, General Form of Line</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-3-condition-of-parallel-and-mathematics-course-code-4300001-nitttr-bhopal-gtu-cogc-2021-curriculum-topics-and-sub-topics-solve-the-given-problems"><i class="fas fa-chevron-right"></i> 4.3. Condition of Parallel and Mathematics Course Code: 4300001 NITTTR Bhopal – GTU - COGC-2021 Curriculum Topics and Sub-topics Solve the Given Problems.</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-4-equations-of-parallel-lines-and-perpendicular-lines-to-the-given-lines"><i class="fas fa-chevron-right"></i> 4.4. Equations of Parallel Lines and Perpendicular Lines to the Given Lines</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-5-angle-between-two-lines"><i class="fas fa-chevron-right"></i> 4.5. Angle between two lines.</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-6-equation-of-circle-with-center-and-radius"><i class="fas fa-chevron-right"></i> 4.6. Equation of Circle with Center and Radius</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-7-general-equation-of-circle"><i class="fas fa-chevron-right"></i> 4.7. General Equation of Circle</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-8-tangent-and-normal-to-a-circle"><i class="fas fa-chevron-right"></i> 4.8. Tangent and Normal to a Circle</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u5-sec-5"><span class="toc-number">5</span> Limit</a></summary>
+      <a class="toc-item toc-sec" href="#u5-sec-5-1-limit-of-a-function"><i class="fas fa-chevron-right"></i> 5.1. Limit of a Function</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-2-standard-formulae-of-limit-and-related-simple-examples"><i class="fas fa-chevron-right"></i> 5.2. Standard Formulae of Limit and Related Simple Examples</a>
+    </details>
+        <a class="back-link" href="/ai-data-science/sem1/mathematics.html"><i class="fas fa-arrow-left"></i> Back to Mathematics</a>
+      </aside>
+
+      <div class="kb-articles">
+        <article class="kb-article kb-unit" id="unit-1">
+<div class="kb-unit-head">
+  <div class="kb-unit-num">1</div>
+  <div>
+    <h2 class="kb-unit-title" id="u1-sec-1">Unit I: Determinant and Function</h2>
+  </div>
+</div>
+<p><em>This unit carries approximately <strong>16 marks (4 Remember + 7 Understand + 5 Apply)</strong>.</em></p>
+
+        
+<p><em>(AI-generated self-study book for GTU, subject code C4300001 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>16 marks (4 Remember + 7 Understand + 5 Apply) (per syllabus)</strong>.</p>
+<p>Learning objectives covered by this module:</p>
+<ul>
+<li>1.a. Solve simple problems of Determinant up to order 3*3.</li>
+<li>1.b. Explain graphically the given functions.</li>
+<li>1.c. Solve simple problems using concepts of Logarithms</li>
+</ul>
+<h3 id="u1-sec-1-1-determinant-and-its-value-up-to-3rd-order-without-properties">1.1. Determinant and its value up to 3rd order (Without properties)</h3>
+<h4>Definition and Importance</h4>
+<p>A <strong>determinant</strong> is a scalar value that can be calculated from the elements of a square matrix. In the context of this chapter, we will focus on determinants of 2x2 and 3x3 matrices. The determinant provides important information about the matrix, such as whether it is invertible or not.</p>
+<h4>Determinant of a 2x2 Matrix</h4>
+<p>For a 2x2 matrix A given by:</p>
+<p>[ A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} ]</p>
+<p>the determinant, denoted as det(A) or |A|, is calculated as:</p>
+<p>[ \text{det}(A) = ad - bc ]</p>
+<h4>Determinant of a 3x3 Matrix</h4>
+<p>For a 3x3 matrix B given by:</p>
+<p>[ B = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix} ]</p>
+<p>the determinant, denoted as det(B) or |B|, is calculated as:</p>
+<p>[ \text{det}(B) = a(ei - fh) - b(di - fg) + c(dh - eg) ]</p>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the determinant of the following 3x3 matrix:</div>
+<p>[ C = \begin{bmatrix} 2 & 3 & 4 \\ 1 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix} ]</p>
+<p>To find the determinant of matrix C:</p>
+<p>[ \text{det}(C) = 2 \left( 5 \cdot 9 - 6 \cdot 8 \right) - 3 \left( 1 \cdot 9 - 6 \cdot 7 \right) + 4 \left( 1 \cdot 8 - 5 \cdot 7 \right) ]</p>
+<p>Calculate each term:</p>
+<p>[ 5 \cdot 9 = 45 ]</p>
+<p>[ 6 \cdot 8 = 48 ]</p>
+<p>[ 1 \cdot 9 = 9 ]</p>
+<p>[ 6 \cdot 7 = 42 ]</p>
+<p>[ 1 \cdot 8 = 8 ]</p>
+<p>[ 5 \cdot 7 = 35 ]</p>
+<p>Substitute these values back into the determinant formula:</p>
+<p>[ \text{det}(C) = 2(45 - 48) - 3(9 - 42) + 4(8 - 35) ]</p>
+<p>[ \text{det}(C) = 2(-3) - 3(-33) + 4(-27) ]</p>
+<p>[ \text{det}(C) = -6 + 99 - 108 ]</p>
+<p>[ \text{det}(C) = -15 ]</p>
+<p>Therefore, the determinant of matrix C is -15.</p>
+<h4>Summary</h4>
+<p>To find the determinant of a 2x2 matrix, use the formula ad - bc. For a 3x3 matrix, use the expanded form:</p>
+<p>[ \text{det}(B) = a(ei - fh) - b(di - fg) + c(dh - eg) ]</p>
+<p>This method is fundamental in solving systems of linear equations and understanding the properties of matrices.</p>
+<hr />
+<h3 id="u1-sec-1-2-function-and-simple-examples">1.2. Function and simple examples.</h3>
+<h4>Definition and Basic Concepts</h4>
+<p>A <strong>function</strong> is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output. In mathematics, functions are used to describe relationships where each element of the input set (domain) is mapped to exactly one element in the output set (range).</p>
+<h4>Types of Functions</h4>
+<p>Functions can be classified based on their input and output. Common types include:</p>
+<ul>
+<li><strong>Linear functions</strong>: Functions of the form f(x) = ax + b.</li>
+<li><strong>Quadratic functions</strong>: Functions of the form f(x) = ax² + bx + c.</li>
+<li><strong>Polynomial functions</strong>: Functions involving variables raised to non-negative integer powers.</li>
+<li><strong>Exponential functions</strong>: Functions of the form f(x) = aˣ.</li>
+<li><strong>Logarithmic functions</strong>: Functions of the form f(x) = _a x.</li>
+</ul>
+<h4>Graphical Representation</h4>
+<p>Functions can be represented graphically, which helps in understanding their behavior and properties. The <strong>graph</strong> of a function is the set of all points (x, y) such that y = f(x).</p>
+<h4>Simple Examples</h4>
+<p>Let's consider some simple examples to understand the graphical representation of functions.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />1. <strong>Linear Function</strong>: Consider the linear function f(x) = 2x + 3.<br /><br />- <strong>Graph</strong>: The graph of f(x) = 2x + 3 is a straight line. For x = 0, y = 3, and for x = 1, y = 5. The slope is 2, and the y-intercept is 3.<br /><br />2. <strong>Quadratic Function</strong>: Consider the quadratic function f(x) = x² - 4x + 4.<br /><br />- <strong>Graph</strong>: The graph of f(x) = x² - 4x + 4 is a parabola. It can be rewritten as (x-2)², which means the vertex is at (2, 0). The parabola opens upwards.<br /><br />3. <strong>Exponential Function</strong>: Consider the exponential function f(x) = 2ˣ.<br /><br />- <strong>Graph</strong>: The graph of f(x) = 2ˣ is a curve that increases rapidly as x increases. For x = 0, y = 1, and for x = 1, y = 2.<br /><br />4. <strong>Logarithmic Function</strong>: Consider the logarithmic function f(x) = ₂ x.<br /><br />- <strong>Graph</strong>: The graph of f(x) = ₂ x is a curve that increases slowly as x increases. For x = 1, y = 0, and for x = 2, y = 1.</div>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />Solve the following quadratic function graphically: f(x) = x² - 2x - 3.<br /><br />- <strong>Graph</strong>: The function f(x) = x² - 2x - 3 can be factored as (x - 3)(x + 1). The roots are x = 3 and x = -1. The graph is a parabola that opens upwards, with the vertex at x = 1 (since the vertex formula x = - b 2a gives x = 2 2 = 1). The y-intercept is f(0) = -3.<br /><br />- <strong>Graphical Solution</strong>: To find the roots, we set f(x) = 0. Solving x² - 2x - 3 = 0 gives (x - 3)(x + 1) = 0, hence x = 3 and x = -1.</div>
+<p>This example illustrates how to graphically solve a quadratic function and find its roots. Understanding these concepts will help in solving more complex problems in future sections.</p>
+<hr />
+<h3 id="u1-sec-1-3-logarithm-as-a-function">1.3. Logarithm as a function</h3>
+<div class="ad-slot-wrapper no-print ad-inarticle">
+      <span class="ad-label">Advertisement</span>
+      <div class="ad-container ad-container--auto">
+        <ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-4211827566541334" data-ad-slot="4067607591" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+<h4>Definition and Basic Properties</h4>
+<p><strong>Logarithm:</strong> The logarithm of a number to a given base is the exponent to which the base must be raised to produce that number. Mathematically, if _b a = c, then bc = a.</p>
+<ul>
+<li><strong>Common Logarithm (Base 10):</strong> ₁₀ a = a</li>
+<li><strong>Natural Logarithm (Base e):</strong> _e a = a</li>
+</ul>
+<h4>Key Properties of Logarithms</h4>
+<ul>
+<li><strong>Product Rule:</strong> _b (xy) = _b x + _b y</li>
+<li><strong>Quotient Rule:</strong> _b ( x y ) = _b x - _b y</li>
+<li><strong>Power Rule:</strong> _b (xⁿ) = n _b x</li>
+<li><strong>Change of Base Formula:</strong> _b a = _c a _c b</li>
+</ul>
+<h4>Graphical Representation of Logarithmic Functions</h4>
+<p>To graph a logarithmic function, consider the function y = _b x. The graph of a logarithmic function has the following characteristics:</p>
+<ul>
+<li><strong>Domain:</strong> x > 0</li>
+<li><strong>Range:</strong> All real numbers</li>
+<li><strong>Asymptote:</strong> The y-axis (x = 0) is a vertical asymptote.</li>
+<li><strong>Intercept:</strong> The function passes through the point (1, 0) since _b 1 = 0.</li>
+</ul>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Solve the following problem and graph the function y = ₂ x.</div>
+<ol>
+<li><strong>Solve ₂ 8 = x:</strong></li>
+</ol>
+<ul>
+<li>We need to find x such that 2ˣ = 8.</li>
+<li>Since 8 = 2³, we have x = 3.</li>
+<li>Therefore, ₂ 8 = 3.</li>
+</ul>
+<ol>
+<li><strong>Graph the function y = ₂ x:</strong></li>
+</ol>
+<ul>
+<li><strong>Key Points:</strong></li>
+<li>(1, 0) because ₂ 1 = 0</li>
+<li>(2, 1) because ₂ 2 = 1</li>
+<li>(4, 2) because ₂ 4 = 2</li>
+<li>(8, 3) because ₂ 8 = 3</li>
+<li><strong>Shape:</strong> The graph will be a curve that increases slowly as x increases, approaching the y-axis as x approaches 0.</li>
+</ul>
+<ol>
+<li><strong>Graph:</strong></li>
+</ol>
+<div class="mermaid-wrap"><div class="mermaid">graph TD
+ A[0] --&gt; B[1]
+ B --&gt; C[2]
+ C --&gt; D[3]
+ A --&gt; E[Vertical Asymptote: x = 0]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>graph TD
+ A[0] --&gt; B[1]
+ B --&gt; C[2]
+ C --&gt; D[3]
+ A --&gt; E[Vertical Asymptote: x = 0]</pre></details><noscript><pre class="mermaid-src">graph TD
+ A[0] --&gt; B[1]
+ B --&gt; C[2]
+ C --&gt; D[3]
+ A --&gt; E[Vertical Asymptote: x = 0]</pre></noscript></div>
+<h4>Additional Practice</h4>
+<ul>
+<li><strong>Problem 1:</strong> Solve ₃ 27 = x.</li>
+<li><strong>Problem 2:</strong> Graph the function y = ₃ x and identify its key points and asymptote.</li>
+</ul>
+<p>By solving these problems, you will gain a better understanding of logarithmic functions and their properties.</p>
+<hr />
+<h3 id="u1-sec-1-4-laws-of-logarithm-and-related-simple-examples">1.4. Laws of Logarithm and Related Simple Examples</h3>
+<h4>Definition of Logarithm</h4>
+<p>A <strong>logarithm</strong> is the power to which a number (the base) must be raised to get another number. For example, the logarithm of 100 to the base 10 is 2, because 10² = 100. This can be written as ₁₀(100) = 2.</p>
+<h4>Laws of Logarithm</h4>
+<p>The laws of logarithms are essential for solving logarithmic problems. There are four main laws of logarithms that we will cover:</p>
+<ol>
+<li><strong>Product Law</strong>: _b(mn) = _b(m) + _b(n)</li>
+<li><strong>Quotient Law</strong>: _b( m n ) = _b(m) - _b(n)</li>
+<li><strong>Power Law</strong>: _b(mⁿ) = n _b(m)</li>
+<li><strong>Change of Base Law</strong>: _b(m) = _k(m) _k(b)</li>
+</ol>
+<h5>Example Application of Laws of Logarithm</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Simplify the expression ₂(8 × 32).</div>
+<p>Using the product law:</p>
+<p>[</p>
+<p>\log_2(8 \times 32) = \log_2(8) + \log_2(32)</p>
+<p>]</p>
+<p>Next, we simplify the individual logarithms:</p>
+<p>[</p>
+<p>\log_2(8) = 3 \quad \text{(since } 2^3 = 8\text{)}</p>
+<p>]</p>
+<p>[</p>
+<p>\log_2(32) = 5 \quad \text{(since } 2^5 = 32\text{)}</p>
+<p>]</p>
+<p>Thus, the expression simplifies to:</p>
+<p>[</p>
+<p>\log_2(8 \times 32) = 3 + 5 = 8</p>
+<p>]</p>
+<h4>Worked Examples</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Simplify the expression ₃( 27 9 ).</div>
+<p>Using the quotient law:</p>
+<p>[</p>
+<p>\log_3\left(\frac{27}{9}\right) = \log_3(27) - \log_3(9)</p>
+<p>]</p>
+<p>Next, we simplify the individual logarithms:</p>
+<p>[</p>
+<p>\log_3(27) = 3 \quad \text{(since } 3^3 = 27\text{)}</p>
+<p>]</p>
+<p>[</p>
+<p>\log_3(9) = 2 \quad \text{(since } 3^2 = 9\text{)}</p>
+<p>]</p>
+<p>Thus, the expression simplifies to:</p>
+<p>[</p>
+<p>\log_3\left(\frac{27}{9}\right) = 3 - 2 = 1</p>
+<p>]</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Simplify the expression ₄(16²).</div>
+<p>Using the power law:</p>
+<p>[</p>
+<p>\log_4(16^2) = 2 \log_4(16)</p>
+<p>]</p>
+<p>Next, we simplify the individual logarithm:</p>
+<p>[</p>
+<p>\log_4(16) = 2 \quad \text{(since } 4^2 = 16\text{)}</p>
+<p>]</p>
+<p>Thus, the expression simplifies to:</p>
+<p>[</p>
+<p>\log_4(16^2) = 2 \times 2 = 4</p>
+<p>]</p>
+<h4>Change of Base Law</h4>
+<p>The <strong>Change of Base Law</strong> is useful when the base of the logarithm is not the same as the base of the calculator or the logarithm table. It allows us to express a logarithm in terms of a different base. For example, ₃(9) can be expressed in terms of base 10 logarithms:</p>
+<p>[</p>
+<p>\log_3(9) = \frac{\log_{10}(9)}{\log_{10}(3)}</p>
+<p>]</p>
+<h4>Worked Example Using Change of Base Law</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Evaluate ₅(125) using the change of base law.</div>
+<p>Using the change of base law:</p>
+<p>[</p>
+<p>\log_5(125) = \frac{\log_{10}(125)}{\log_{10}(5)}</p>
+<p>]</p>
+<p>Using a calculator to find the values:</p>
+<p>[</p>
+<p>\log_{10}(125) \approx 2.0969 \quad \text{and} \quad \log_{10}(5) \approx 0.6990</p>
+<p>]</p>
+<p>Thus, the expression evaluates to:</p>
+<p>[</p>
+<p>\log_5(125) = \frac{2.0969}{0.6990} \approx 3</p>
+<p>]</p>
+<h4>Summary</h4>
+<p>In this section, we have covered the fundamental laws of logarithms, including the product, quotient, power, and change of base laws. We have also provided several examples to illustrate how these laws can be applied to simplify and solve logarithmic expressions.</p>
+
+        <nav class="kb-pn no-print"><span class="pn-btn disabled">Unit 1</span><span class="pn-btn disabled">Unit – Determinant and Function</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (C4300001) for Mathematics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      
+</article>
+
+<article class="kb-article kb-unit" id="unit-2">
+<div class="kb-unit-head">
+  <div class="kb-unit-num">2</div>
+  <div>
+    <h2 class="kb-unit-title" id="u2-sec-2">Unit II: Trigonometry</h2>
+  </div>
+</div>
+<p><em>This unit carries approximately <strong>14 marks (4 Remember + 5 Understand + 5 Apply)</strong>.</em></p>
+
+        
+<p><em>(AI-generated self-study book for GTU, subject code C4300001 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)</strong>.</p>
+<p>Learning objectives covered by this module:</p>
+<ul>
+<li>2.a. Apply the concept of Compound angle, Allied angle, and Multiple angles to solve the given simple engineering problem(s)</li>
+<li>2.b. Explain the concept of Sub- Multiple and solve related problem(s).</li>
+<li>2.c. Invoke the concept of Sum and Factor formulae to solve the given simple problem(s)</li>
+<li>2.d. Investigate given simple problems using inverse Trigonometric functions.</li>
+</ul>
+<h3 id="u2-sec-2-1-units-of-angles-degree-and-radian">2.1. Units of Angles (degree and radian)</h3>
+<h4>2.1.1. Introduction to Units of Angles</h4>
+<p>Angles can be measured in different units. The most common units are <strong>degrees</strong> and <strong>radians</strong>. Both units are used in engineering problems, especially in trigonometric calculations.</p>
+<h5><strong>Degree</strong></h5>
+<ul>
+<li>A degree is a unit of angular measurement, where a full circle is divided into 360 degrees.</li>
+<li>The symbol for degree is ^.</li>
+</ul>
+<h5><strong>Radian</strong></h5>
+<ul>
+<li>A radian is the standard unit of angular measure in mathematics.</li>
+<li>One radian is the angle subtended at the center of a circle by an arc that is equal in length to the radius of the circle.</li>
+<li>The symbol for radian is rad.</li>
+</ul>
+<h4>2.1.2. Relationship Between Degrees and Radians</h4>
+<p>The relationship between degrees and radians can be expressed as:</p>
+<p>[ 1 \text{ radian} = \frac{180}{\pi} \text{ degrees} ]</p>
+<p>[ 1 \text{ degree} = \frac{\pi}{180} \text{ radians} ]</p>
+<h5><strong>Example:</strong></h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert 120 degrees to radians.<br /><br />[<br />\text{Radians} = \frac{\pi}{180} \times 120 = \frac{2\pi}{3} \text{ radians}<br />]</div>
+<h4>2.1.3. Practical Application of Degrees and Radians</h4>
+<p>Understanding the conversion between degrees and radians is crucial for solving engineering problems involving angles.</p>
+<h5><strong>Example:</strong></h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A wheel rotates through 270 degrees. Find the equivalent angle in radians.<br /><br />[<br />\text{Radians} = \frac{\pi}{180} \times 270 = \frac{3\pi}{2} \text{ radians}<br />]</div>
+<h3 id="u2-sec-2-2-trigonometric-functions">2.2. Trigonometric Functions</h3>
+<h4>2.2.1. Introduction to Trigonometric Functions</h4>
+<p>Trigonometric functions are fundamental in engineering and are used to solve problems involving angles and lengths. The primary trigonometric functions are <strong>sine (sin)</strong>, <strong>cosine (cos)</strong>, and <strong>tangent (tan)</strong>.</p>
+<h5><strong>Sine Function (sin)</strong></h5>
+<ul>
+<li>The sine of an angle is the ratio of the length of the opposite side to the hypotenuse in a right triangle.</li>
+<li>θ = opposite hypotenuse</li>
+</ul>
+<h5><strong>Cosine Function (cos)</strong></h5>
+<ul>
+<li>The cosine of an angle is the ratio of the length of the adjacent side to the hypotenuse in a right triangle.</li>
+<li>θ = adjacent hypotenuse</li>
+</ul>
+<h5><strong>Tangent Function (tan)</strong></h5>
+<ul>
+<li>The tangent of an angle is the ratio of the sine to the cosine of the angle.</li>
+<li>θ = θ θ = opposite adjacent</li>
+</ul>
+<h4>2.2.2. Trigonometric Identities</h4>
+<p>Trigonometric identities are essential for solving problems and simplifying expressions.</p>
+<h5><strong>Pythagorean Identity</strong></h5>
+<p>[ \sin^2 \theta + \cos^2 \theta = 1 ]</p>
+<h5><strong>Reciprocal Identities</strong></h5>
+<p>[ \csc \theta = \frac{1}{\sin \theta} ]</p>
+<p>[ \sec \theta = \frac{1}{\cos \theta} ]</p>
+<p>[ \cot \theta = \frac{1}{\tan \theta} ]</p>
+<h5><strong>Example:</strong></h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Prove the identity ² θ + ² θ = 1.<br /><br />[<br />\sin^2 \theta + \cos^2 \theta = \left(\frac{\text{opposite}}{\text{hypotenuse}}\right)^2 + \left(\frac{\text{adjacent}}{\text{hypotenuse}}\right)^2<br />]<br /><br />[<br />= \frac{\text{opposite}^2}{\text{hypotenuse}^2} + \frac{\text{adjacent}^2}{\text{hypotenuse}^2} = \frac{\text{opposite}^2 + \text{adjacent}^2}{\text{hypotenuse}^2}<br />]<br /><br />[<br />= \frac{\text{hypotenuse}^2}{\text{hypotenuse}^2} = 1<br />]</div>
+<h4>2.2.3. Application of Trigonometric Functions</h4>
+<p>Trigonometric functions are used in various engineering applications, such as calculating distances, angles, and forces.</p>
+<h5><strong>Example:</strong></h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A ladder leans against a wall, making an angle of 60 degrees with the ground. If the ladder is 10 meters long, find the height at which the ladder touches the wall.<br /><br />[<br />\text{Height} = 10 \times \sin 60^\circ = 10 \times \frac{\sqrt{3}}{2} = 5\sqrt{3} \approx 8.66 \text{ meters}<br />]</div>
+<h4>2.2.4. Inverse Trigonometric Functions</h4>
+<p>Inverse trigonometric functions are used to find the angle given the value of a trigonometric function.</p>
+<h5><strong>Sine Inverse (arcsin)</strong></h5>
+<ul>
+<li>x is the angle whose sine is x.</li>
+<li>θ = x</li>
+</ul>
+<h5><strong>Cosine Inverse (arccos)</strong></h5>
+<ul>
+<li>x is the angle whose cosine is x.</li>
+<li>θ = x</li>
+</ul>
+<h5><strong>Tangent Inverse (arctan)</strong></h5>
+<ul>
+<li>x is the angle whose tangent is x.</li>
+<li>θ = x</li>
+</ul>
+<h5><strong>Example:</strong></h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the angle θ if θ = 0.5.<br /><br />[<br />\theta = \arcsin 0.5 = 30^\circ<br />]</div>
+<h4>2.2.5. Summary</h4>
+<p>Trigonometric functions and their inverses are essential tools in solving engineering problems. Understanding the relationship between degrees and radians, and applying trigonometric identities, will help in solving various practical problems.</p>
+<h4>Mermaid Diagram: Relationship Between Degrees and Radians</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[1 Degree] --&gt; B[180/π Radians]
+ A --&gt; C[π/180 Radians]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[1 Degree] --&gt; B[180/π Radians]
+ A --&gt; C[π/180 Radians]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[1 Degree] --&gt; B[180/π Radians]
+ A --&gt; C[π/180 Radians]</pre></noscript></div>
+<h4>Mermaid Diagram: Trigonometric Functions</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Angle] --&gt; B[Sine(θ)] --&gt; C[Opposite/Hypotenuse]
+ A --&gt; D[Cosine(θ)] --&gt; E[Adjacent/Hypotenuse]
+ A --&gt; F[Tangent(θ)] --&gt; G[Opposite/Adjacent]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Angle] --&gt; B[Sine(θ)] --&gt; C[Opposite/Hypotenuse]
+ A --&gt; D[Cosine(θ)] --&gt; E[Adjacent/Hypotenuse]
+ A --&gt; F[Tangent(θ)] --&gt; G[Opposite/Adjacent]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Angle] --&gt; B[Sine(θ)] --&gt; C[Opposite/Hypotenuse]
+ A --&gt; D[Cosine(θ)] --&gt; E[Adjacent/Hypotenuse]
+ A --&gt; F[Tangent(θ)] --&gt; G[Opposite/Adjacent]</pre></noscript></div>
+<p>This section covers the fundamental concepts of units of angles and trigonometric functions, providing clear explanations and practical examples for GTU students.</p>
+<hr />
+<h3 id="u2-sec-2-3-allied-compound-angles-multiple-submultiples-angles">2.3. Allied & Compound Angles, Multiple –Submultiples Angles</h3>
+
+<h4>Allied Angles</h4>
+<p>Allied angles are angles which are related to each other in a way that they can be represented as A ± B, where A and B are angles. These angles are important in trigonometry because they help in simplifying and solving trigonometric expressions and equations.</p>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the value of (150^) using the concept of allied angles.<br /><br />Since 150^ = 180^ - 30^, we can use the identity (180^ - A) = A. Therefore,<br />[<br />\sin(150^\circ) = \sin(180^\circ - 30^\circ) = \sin 30^\circ = \frac{1}{2}.<br />]</div>
+<h4>Compound Angles</h4>
+<p>Compound angles involve the sum or difference of two angles. The basic formulas for compound angles are:</p>
+<p>[</p>
+<p>\sin(A \pm B) = \sin A \cos B \pm \cos A \sin B,</p>
+<p>]</p>
+<p>[</p>
+<p>\cos(A \pm B) = \cos A \cos B \mp \sin A \sin B,</p>
+<p>]</p>
+<p>[</p>
+<p>\tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A \tan B}.</p>
+<p>]</p>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the value of (75^) using the concept of compound angles.<br /><br />Since 75^ = 45^ + 30^, we can use the identity (A + B) = A B - A B. Therefore,<br />[<br />\cos(75^\circ) = \cos(45^\circ + 30^\circ) = \cos 45^\circ \cos 30^\circ - \sin 45^\circ \sin 30^\circ.<br />]<br />Using the values 45^ = 45^ = 2 2, 30^ = 3 2, and 30^ = 1 2, we get<br />[<br />\cos(75^\circ) = \left(\frac{\sqrt{2}}{2}\right) \left(\frac{\sqrt{3}}{2}\right) - \left(\frac{\sqrt{2}}{2}\right) \left(\frac{1}{2}\right) = \frac{\sqrt{6}}{4} - \frac{\sqrt{2}}{4} = \frac{\sqrt{6} - \sqrt{2}}{4}.<br />]</div>
+<h4>Multiple Angles</h4>
+<p>Multiple angles involve the trigonometric functions of angles that are multiples of a given angle. The basic formulas for multiple angles are:</p>
+<p>[</p>
+<p>\sin 2A = 2 \sin A \cos A,</p>
+<p>]</p>
+<p>[</p>
+<p>\cos 2A = \cos^2 A - \sin^2 A = 1 - 2 \sin^2 A = 2 \cos^2 A - 1,</p>
+<p>]</p>
+<p>[</p>
+<p>\tan 2A = \frac{2 \tan A}{1 - \tan^2 A}.</p>
+<p>]</p>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the value of 120^ using the concept of multiple angles.<br /><br />Since 120^ = 2 × 60^, we can use the identity 2A = 2 A A. Therefore,<br />[<br />\sin 120^\circ = \sin(2 \times 60^\circ) = 2 \sin 60^\circ \cos 60^\circ.<br />]<br />Using the values 60^ = 3 2 and 60^ = 1 2, we get<br />[<br />\sin 120^\circ = 2 \left(\frac{\sqrt{3}}{2}\right) \left(\frac{1}{2}\right) = \frac{\sqrt{3}}{2}.<br />]</div>
+<h4>Submultiples</h4>
+<p>Submultiples are angles that are fractions of a given angle. The basic formulas for submultiples are:</p>
+<p>[</p>
+<p>\sin \left(\frac{A}{2}\right) = \pm \sqrt{\frac{1 - \cos A}{2}},</p>
+<p>]</p>
+<p>[</p>
+<p>\cos \left(\frac{A}{2}\right) = \pm \sqrt{\frac{1 + \cos A}{2}},</p>
+<p>]</p>
+<p>[</p>
+<p>\tan \left(\frac{A}{2}\right) = \pm \sqrt{\frac{1 - \cos A}{1 + \cos A}}.</p>
+<p>]</p>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the value of 30^ using the concept of submultiples.<br /><br />Since 30^ = 60^ 2, we can use the identity ( A 2 ) = 1 + A 2. Therefore,<br />[<br />\cos 30^\circ = \cos \left(\frac{60^\circ}{2}\right) = \sqrt{\frac{1 + \cos 60^\circ}{2}}.<br />]<br />Using the value 60^ = 1 2, we get<br />[<br />\cos 30^\circ = \sqrt{\frac{1 + \frac{1}{2}}{2}} = \sqrt{\frac{\frac{3}{2}}{2}} = \sqrt{\frac{3}{4}} = \frac{\sqrt{3}}{2}.<br />]</div>
+<h3 id="u2-sec-2-4-graph-of-sine-and-cosine">2.4. Graph of Sine and Cosine</h3>
+<h4>Graph of Sine Function</h4>
+<p>The graph of the sine function, y = x, is a periodic function with a period of 360^ (or 2π radians). The sine function oscillates between -1 and 1, and it crosses the x-axis at every integer multiple of 180^.</p>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Sketch the graph of y = x for 0^ ≤ x ≤ 360^.<br /><br />The graph of y = x for 0^ ≤ x ≤ 360^ is a wave that starts at 0 at 0^, reaches 1 at 90^, returns to 0 at 180^, reaches -1 at 270^, and returns to 0 at 360^.</div>
+<h4>Graph of Cosine Function</h4>
+<p>The graph of the cosine function, y = x, is also a periodic function with a period of 360^ (or 2π radians). The cosine function oscillates between -1 and 1, and it crosses the x-axis at every odd multiple of 90^.</p>
+<h5>Example</h5>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Sketch the graph of y = x for 0^ ≤ x ≤ 360^.<br /><br />The graph of y = x for 0^ ≤ x ≤ 360^ is a wave that starts at 1 at 0^, reaches 0 at 90^, reaches -1 at 180^, reaches 0 at 270^, and returns to 1 at 360^.</div>
+<h4>Mermaid Diagram</h4>
+<div class="mermaid-wrap"><div class="mermaid">graph TD
+ A[Trigonometric Functions] --&gt; B[Sine Function]
+ A --&gt; C[Cosine Function]
+ B --&gt; D[Period: 360°]
+ C --&gt; E[Period: 360°]
+ D --&gt; F[Oscillates between -1 and 1]
+ E --&gt; G[Oscillates between -1 and 1]
+ F --&gt; H[Crosses x-axis at multiples of 180°]
+ G --&gt; I[Crosses x-axis at multiples of 90°]
+ H --&gt; J[Sketch of Sine Graph]
+ I --&gt; K[Sketch of Cosine Graph]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>graph TD
+ A[Trigonometric Functions] --&gt; B[Sine Function]
+ A --&gt; C[Cosine Function]
+ B --&gt; D[Period: 360°]
+ C --&gt; E[Period: 360°]
+ D --&gt; F[Oscillates between -1 and 1]
+ E --&gt; G[Oscillates between -1 and 1]
+ F --&gt; H[Crosses x-axis at multiples of 180°]
+ G --&gt; I[Crosses x-axis at multiples of 90°]
+ H --&gt; J[Sketch of Sine Graph]
+ I --&gt; K[Sketch of Cosine Graph]</pre></details><noscript><pre class="mermaid-src">graph TD
+ A[Trigonometric Functions] --&gt; B[Sine Function]
+ A --&gt; C[Cosine Function]
+ B --&gt; D[Period: 360°]
+ C --&gt; E[Period: 360°]
+ D --&gt; F[Oscillates between -1 and 1]
+ E --&gt; G[Oscillates between -1 and 1]
+ F --&gt; H[Crosses x-axis at multiples of 180°]
+ G --&gt; I[Crosses x-axis at multiples of 90°]
+ H --&gt; J[Sketch of Sine Graph]
+ I --&gt; K[Sketch of Cosine Graph]</pre></noscript></div>
+<p>This completes the detailed sections on Allied & Compound Angles, Multiple –Submultiples angles and the Graph of Sine and Cosine.</p>
+<hr />
+<h3 id="u2-sec-2-5-periodic-trigonometric-function">2.5. Periodic Trigonometric Function</h3>
+<h4>Definition and Importance</h4>
+<p>A <strong>trigonometric function</strong> is periodic if it repeats its values in regular intervals or periods. The primary trigonometric functions—sine, cosine, and tangent—are periodic with a fundamental period of 2π. The period of a trigonometric function is the smallest positive number P such that the function repeats its values every P units.</p>
+<h4>Periodicity of Trigonometric Functions</h4>
+<ul>
+<li><strong>Sine Function (x)</strong>: The function x has a period of 2π. This means (x + 2π) = x for all x.</li>
+<li><strong>Cosine Function (x)</strong>: The function x also has a period of 2π. This means (x + 2π) = x for all x.</li>
+<li><strong>Tangent Function (x)</strong>: The function x has a period of π. This means (x + π) = x for all x.</li>
+</ul>
+<h4>Properties and Applications</h4>
+<p>Periodicity is crucial in various applications, such as signal processing, wave mechanics, and electromagnetic theory. For instance, the periodicity of these functions helps in analyzing alternating current (AC) signals in electrical engineering.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>If f(x) = (2x), determine the period of the function.<br /><br />Since (2x) is a sine function with a coefficient of 2 inside the argument, the period of (2x) is 2π 2 = π. Therefore, f(x + π) = (2(x + π)) = (2x + 2π) = (2x).</div>
+<h4>Graphical Representation</h4>
+<p>The graphical representation of periodic functions can be visualized using mermaid diagrams. Here is a simple representation of the sine function:</p>
+<div class="mermaid-wrap"><div class="mermaid">graph TD
+ A[Sine Function (y = sin(x))] --&gt; B[Period: 2π]
+ A --&gt; C[Range: -1 to 1]
+ A --&gt; D[Graph: Waveform]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>graph TD
+ A[Sine Function (y = sin(x))] --&gt; B[Period: 2π]
+ A --&gt; C[Range: -1 to 1]
+ A --&gt; D[Graph: Waveform]</pre></details><noscript><pre class="mermaid-src">graph TD
+ A[Sine Function (y = sin(x))] --&gt; B[Period: 2π]
+ A --&gt; C[Range: -1 to 1]
+ A --&gt; D[Graph: Waveform]</pre></noscript></div>
+<h3 id="u2-sec-2-6-sum-and-factor-formulae">2.6. Sum and Factor Formulae</h3>
+<h4>Sum Formulae</h4>
+<p>Sum formulae are useful in simplifying and solving trigonometric expressions. These formulae are derived from the angle addition and subtraction formulas.</p>
+<ul>
+<li><strong>Sum of Sines</strong>: A + B = 2 ( A + B 2 ) ( A - B 2 )</li>
+<li><strong>Sum of Cosines</strong>: A + B = 2 ( A + B 2 ) ( A - B 2 )</li>
+</ul>
+<h4>Factor Formulae</h4>
+<p>Factor formulae help in expressing the product of trigonometric functions as a sum or difference.</p>
+<ul>
+<li><strong>Product to Sum Formula</strong>:</li>
+</ul>
+<p>[</p>
+<p>\sin A \cos B = \frac{1}{2} [\sin(A + B) + \sin(A - B)]</p>
+<p>]</p>
+<p>[</p>
+<p>\cos A \sin B = \frac{1}{2} [\sin(A + B) - \sin(A - B)]</p>
+<p>]</p>
+<p>[</p>
+<p>\cos A \cos B = \frac{1}{2} [\cos(A + B) + \cos(A - B)]</p>
+<p>]</p>
+<p>[</p>
+<p>\sin A \sin B = \frac{1}{2} [\cos(A - B) - \cos(A + B)]</p>
+<p>]</p>
+<h4>Applications</h4>
+<p>These formulae are widely used in solving complex trigonometric equations, simplifying expressions, and in various engineering applications.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Simplify the expression 75^ + 15^.<br /><br />Using the sum formula for sine:<br />[</div>
+<p>\sin 75^\circ + \sin 15^\circ = 2 \sin\left(\frac{75^\circ + 15^\circ}{2}\right) \cos\left(\frac{75^\circ - 15^\circ}{2}\right)</p>
+<p>]</p>
+<p>[</p>
+<p>= 2 \sin(45^\circ) \cos(30^\circ)</p>
+<p>]</p>
+<p>[</p>
+<p>= 2 \left(\frac{\sqrt{2}}{2}\right) \left(\frac{\sqrt{3}}{2}\right)</p>
+<p>]</p>
+<p>[</p>
+<p>= \frac{\sqrt{6}}{2}</p>
+<p>]</p>
+<h4>Mermaid Diagram for Sum and Factor Formulae</h4>
+<p>Here is a mermaid diagram to summarize the sum and factor formulae:</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Sum of Sines] --&gt; B[2 sin((A+B)/2) cos((A-B)/2)]
+ A --&gt; C[Example: sin 75° + sin 15° = 2 sin(45°) cos(30°) = √6/2]
+ D[Product to Sum] --&gt; E[1/2 [sin(A+B) + sin(A-B)]]
+ D --&gt; F[Example: sin 75° cos 15° = 1/2 [sin(90°) + sin(60°)] = 1/2 (1 + √3/2) = 1/2 + √3/4]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Sum of Sines] --&gt; B[2 sin((A+B)/2) cos((A-B)/2)]
+ A --&gt; C[Example: sin 75° + sin 15° = 2 sin(45°) cos(30°) = √6/2]
+ D[Product to Sum] --&gt; E[1/2 [sin(A+B) + sin(A-B)]]
+ D --&gt; F[Example: sin 75° cos 15° = 1/2 [sin(90°) + sin(60°)] = 1/2 (1 + √3/2) = 1/2 + √3/4]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Sum of Sines] --&gt; B[2 sin((A+B)/2) cos((A-B)/2)]
+ A --&gt; C[Example: sin 75° + sin 15° = 2 sin(45°) cos(30°) = √6/2]
+ D[Product to Sum] --&gt; E[1/2 [sin(A+B) + sin(A-B)]]
+ D --&gt; F[Example: sin 75° cos 15° = 1/2 [sin(90°) + sin(60°)] = 1/2 (1 + √3/2) = 1/2 + √3/4]</pre></noscript></div>
+<p>This section covers the periodicity of trigonometric functions and the application of sum and factor formulae, providing a clear understanding for exam preparation.</p>
+<hr />
+<h3 id="u2-sec-2-7-inverse-trigonometric-function">2.7. Inverse Trigonometric Function</h3>
+<h4>Definition</h4>
+<p><strong>Inverse Trigonometric functions</strong> are the functions that are the inverses of the basic trigonometric functions such as sine, cosine, tangent, etc. These functions are denoted as ⁻¹, ⁻¹, ⁻¹, etc. The inverse trigonometric functions are used to find the angle when the value of a trigonometric function is known.</p>
+<h4>Domain and Range</h4>
+<ul>
+<li><strong>⁻¹ x</strong>: The domain is [-1, 1] and the range is [- π 2 , π 2 ].</li>
+<li><strong>⁻¹ x</strong>: The domain is [-1, 1] and the range is [0, π].</li>
+<li><strong>⁻¹ x</strong>: The domain is R (all real numbers) and the range is (- π 2 , π 2 ].</li>
+<li><strong>⁻¹ x</strong>: The domain is R and the range is (0, π).</li>
+<li><strong>⁻¹ x</strong>: The domain is (-, -1] [1, ) and the range is [0, π] - \ π 2 \.</li>
+<li><strong>⁻¹ x</strong>: The domain is (-, -1] [1, ) and the range is [- π 2 , π 2 ] - \ 0\.</li>
+</ul>
+<h4>Properties and Identities</h4>
+<ul>
+<li><strong>Principal Values</strong>: The principal values of the inverse trigonometric functions are the values that lie within their specified ranges.</li>
+<li><strong>Complementary Angles</strong>:</li>
+<li>⁻¹ x + ⁻¹ x = π 2</li>
+<li>⁻¹ x + ⁻¹ x = π 2</li>
+<li><strong>Sum and Difference Identities</strong>:</li>
+<li>⁻¹ x + ⁻¹ y = ⁻¹ (x 1 - y² + y 1 - x² ) if x² + y² ≤ 1</li>
+<li>⁻¹ x - ⁻¹ y = ⁻¹ (x 1 - y² - y 1 - x² ) if x² + y² ≤ 1</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Solve for x in the equation ⁻¹ x + ⁻¹ x = π 2.</div>
+<ol>
+<li><strong>Step 1</strong>: Recall the complementary angle identity for inverse trigonometric functions.</li>
+</ol>
+<p>[</p>
+<p>\sin^{-1} x + \cos^{-1} x = \frac{\pi}{2}</p>
+<p>]</p>
+<p>This identity holds true for all x in the domain of ⁻¹ x and ⁻¹ x.</p>
+<ol>
+<li><strong>Step 2</strong>: Since the equation is already in the form of the identity, we can directly conclude that the equation is satisfied for any x in the domain of ⁻¹ x and ⁻¹ x.</li>
+</ol>
+<ol>
+<li><strong>Step 3</strong>: The domain of ⁻¹ x and ⁻¹ x is [-1, 1]. Therefore, the solution to the equation is:</li>
+</ol>
+<p>[</p>
+<p>x \in [-1, 1]</p>
+<p>]</p>
+<p>Thus, the solution to the equation ⁻¹ x + ⁻¹ x = π 2 is any x in the interval [-1, 1].</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Inverse Trigonometric Functions] --&gt; B[Definition]
+ B --&gt; C[Domain and Range]
+ B --&gt; D[Properties and Identities]
+ C --&gt; E[Principal Values]
+ C --&gt; F[Complementary Angles]
+ D --&gt; G[Sum and Difference Identities]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Inverse Trigonometric Functions] --&gt; B[Definition]
+ B --&gt; C[Domain and Range]
+ B --&gt; D[Properties and Identities]
+ C --&gt; E[Principal Values]
+ C --&gt; F[Complementary Angles]
+ D --&gt; G[Sum and Difference Identities]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Inverse Trigonometric Functions] --&gt; B[Definition]
+ B --&gt; C[Domain and Range]
+ B --&gt; D[Properties and Identities]
+ C --&gt; E[Principal Values]
+ C --&gt; F[Complementary Angles]
+ D --&gt; G[Sum and Difference Identities]</pre></noscript></div>
+
+        <nav class="kb-pn no-print"><a class="pn-btn" href="unit-1.html"><i class="fas fa-chevron-left"></i> Unit 1</a><span class="pn-btn disabled">Unit – Trigonometry</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (C4300001) for Mathematics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      
+</article>
+
+<article class="kb-article kb-unit" id="unit-3">
+<div class="kb-unit-head">
+  <div class="kb-unit-num">3</div>
+  <div>
+    <h2 class="kb-unit-title" id="u3-sec-3">Unit III: Vectors</h2>
+  </div>
+</div>
+<p><em>This unit carries approximately <strong>14 marks (4 Remember + 6 Understand + 4 Apply)</strong>.</em></p>
+
+        
+<p><em>(AI-generated self-study book for GTU, subject code C4300001 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>14 marks (4 Remember + 6 Understand + 4 Apply) (per syllabus)</strong>.</p>
+<p>Learning objectives covered by this module:</p>
+<ul>
+<li>3.a. Apply the concept of algebraic operations of Vectors to solve given simple engineering problem(s)</li>
+<li>3.b. Apply the concept of Scalar and Vector product to solve specified simple problem(s)</li>
+<li>3.c. Solve problems of work done and moment of force using the concept of Vectors.</li>
+</ul>
+<h3 id="u3-sec-3-1-vector-addition-subtraction-magnitude-and-direction">3.1. Vector, Addition, Subtraction, Magnitude and Direction</h3>
+<h4>Definition of Vector</h4>
+<p>A <strong>vector</strong> is a mathematical object that has both magnitude and direction. In engineering, vectors are used to represent physical quantities such as force, velocity, and displacement, which have both size and direction.</p>
+<h4>Vector Representation</h4>
+<p>Vectors can be represented in various ways. In this context, we will use the component form and graphical representation.</p>
+<h5>Component Form</h5>
+<p>A vector A in two dimensions can be written as A = A_x i + A_y j, where A_x and A_y are the components of the vector along the x and y axes, respectively, and i and j are unit vectors in the x and y directions, respectively.</p>
+<h5>Graphical Representation</h5>
+<p>Graphically, a vector is represented by an arrow. The length of the arrow represents the magnitude of the vector, and the direction of the arrow represents the direction of the vector.</p>
+<h4>Vector Addition</h4>
+<p>The addition of vectors is performed by adding their corresponding components. If A = A_x i + A_y j and B = B_x i + B_y j, then the sum C = A + B is given by:</p>
+<p>[ \mathbf{C} = (A_x + B_x) \hat{i} + (A_y + B_y) \hat{j} ]</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />Consider two vectors A = 3 i + 4 j and B = 5 i - 2 j.<br />Find the sum C = A + B.</div>
+<p>[ \mathbf{C} = (3 + 5) \hat{i} + (4 - 2) \hat{j} = 8 \hat{i} + 2 \hat{j} ]</p>
+<h4>Vector Subtraction</h4>
+<p>Subtraction of vectors is similar to addition but involves subtracting the corresponding components. If A = A_x i + A_y j and B = B_x i + B_y j, then the difference D = A - B is given by:</p>
+<p>[ \mathbf{D} = (A_x - B_x) \hat{i} + (A_y - B_y) \hat{j} ]</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />Consider the same vectors A = 3 i + 4 j and B = 5 i - 2 j.<br />Find the difference D = A - B.</div>
+<p>[ \mathbf{D} = (3 - 5) \hat{i} + (4 - (-2)) \hat{j} = -2 \hat{i} + 6 \hat{j} ]</p>
+<h4>Magnitude of a Vector</h4>
+<p>The magnitude of a vector A = A_x i + A_y j is given by:</p>
+<p>[ |\mathbf{A}| = \sqrt{A_x^2 + A_y^2} ]</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />Find the magnitude of the vector A = 3 i + 4 j.</div>
+<p>[ |\mathbf{A}| = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5 ]</p>
+<h4>Direction of a Vector</h4>
+<p>The direction of a vector A = A_x i + A_y j is given by the angle θ it makes with the positive x-axis. This angle can be found using:</p>
+<p>[ \theta = \tan^{-1}\left(\frac{A_y}{A_x}\right) ]</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />Find the direction of the vector A = 3 i + 4 j.</div>
+<p>[ \theta = \tan^{-1}\left(\frac{4}{3}\right) ]</p>
+<h4>Summary</h4>
+<p>In summary, vectors are essential in engineering for representing quantities with both magnitude and direction. Vector addition and subtraction involve adding or subtracting corresponding components, respectively. The magnitude of a vector is calculated using the Pythagorean theorem, and the direction is determined using the inverse tangent function.</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Vector] --&gt; B[Addition] --&gt; C[Component Form] --&gt; D[Subtraction] --&gt; E[Magnitude] --&gt; F[Direction]
+ A --&gt; G[Graphical Representation]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Vector] --&gt; B[Addition] --&gt; C[Component Form] --&gt; D[Subtraction] --&gt; E[Magnitude] --&gt; F[Direction]
+ A --&gt; G[Graphical Representation]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Vector] --&gt; B[Addition] --&gt; C[Component Form] --&gt; D[Subtraction] --&gt; E[Magnitude] --&gt; F[Direction]
+ A --&gt; G[Graphical Representation]</pre></noscript></div>
+<p>This diagram illustrates the flow from defining a vector to performing operations such as addition and subtraction, calculating magnitude, and finding direction.</p>
+<hr />
+<h3 id="u3-sec-3-2-scalar-and-vector-product-and-its-properties">3.2. Scalar and Vector Product and its Properties</h3>
+<h4>3.2.1. Introduction to Scalar and Vector Products</h4>
+<ul>
+<li><strong>Scalar Product (Dot Product):</strong> The scalar product of two vectors A and B is a scalar quantity denoted by A · B and is defined as:</li>
+</ul>
+<p>[</p>
+<p>\mathbf{A} \cdot \mathbf{B} = AB \cos \theta</p>
+<p>]</p>
+<p>where A and B are the magnitudes of vectors A and B respectively, and θ is the angle between the vectors.</p>
+<ul>
+<li><strong>Vector Product (Cross Product):</strong> The vector product of two vectors A and B is a vector quantity denoted by A × B and is defined as:</li>
+</ul>
+<p>[</p>
+<p>\mathbf{A} \times \mathbf{B} = AB \sin \theta \mathbf{n}</p>
+<p>]</p>
+<p>where n is a unit vector perpendicular to both A and B, following the right-hand rule.</p>
+<h4>3.2.2. Properties of Scalar Product</h4>
+<ul>
+<li><strong>Commutative Property:</strong> The scalar product is commutative, i.e.,</li>
+</ul>
+<p>[</p>
+<p>\mathbf{A} \cdot \mathbf{B} = \mathbf{B} \cdot \mathbf{A}</p>
+<p>]</p>
+<ul>
+<li><strong>Example:</strong> If A = 3i + 4j and B = 5i - 2j, then</li>
+</ul>
+<p>[</p>
+<p>\mathbf{A} \cdot \mathbf{B} = (3 \times 5) + (4 \times -2) = 15 - 8 = 7</p>
+<p>]</p>
+<p>and</p>
+<p>[</p>
+<p>\mathbf{B} \cdot \mathbf{A} = (5 \times 3) + (-2 \times 4) = 15 - 8 = 7</p>
+<p>]</p>
+<p>\></p>
+<p><strong>Example:</strong> If A = 3i + 4j and B = 5i - 2j, calculate A · B and B · A.</p>
+<h4>3.2.3. Properties of Vector Product</h4>
+<ul>
+<li><strong>Anti-Commutative Property:</strong> The vector product is anti-commutative, i.e.,</li>
+</ul>
+<p>[</p>
+<p>\mathbf{A} \times \mathbf{B} = -(\mathbf{B} \times \mathbf{A})</p>
+<p>]</p>
+<ul>
+<li><strong>Example:</strong> If A = 3i + 4j and B = 5i - 2j, then</li>
+</ul>
+<p>[</p>
+<p>\mathbf{A} \times \mathbf{B} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 3 & 4 & 0 \\ 5 & -2 & 0 \end{vmatrix} = (3 \times -2 - 4 \times 5)\mathbf{k} = -26\mathbf{k}</p>
+<p>]</p>
+<p>and</p>
+<p>[</p>
+<p>\mathbf{B} \times \mathbf{A} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 5 & -2 & 0 \\ 3 & 4 & 0 \end{vmatrix} = (5 \times 4 - (-2) \times 3)\mathbf{k} = 26\mathbf{k}</p>
+<p>]</p>
+<p>\></p>
+<p><strong>Example:</strong> If A = 3i + 4j and B = 5i - 2j, calculate A × B and B × A.</p>
+<h4>3.2.4. Geometric Interpretation of Scalar Product and Vector Product</h4>
+<ul>
+<li><strong>Scalar Product:</strong> The scalar product can be geometrically interpreted as the product of the magnitude of one vector and the projection of the other vector onto the first vector.</li>
+<li><strong>Example:</strong> If A = 3i + 4j and B = 5i - 2j, and θ = 60^, then</li>
+</ul>
+<p>[</p>
+<p>\mathbf{A} \cdot \mathbf{B} = AB \cos 60^\circ = \sqrt{3^2 + 4^2} \times \sqrt{5^2 + (-2)^2} \times \frac{1}{2} = 5 \times \sqrt{29} \times \frac{1}{2} \approx 7.21</p>
+<p>]</p>
+<ul>
+<li><strong>Vector Product:</strong> The magnitude of the vector product can be interpreted as the area of the parallelogram formed by the vectors. The direction is given by the right-hand rule.</li>
+<li><strong>Example:</strong> If A = 3i + 4j and B = 5i - 2j, then</li>
+</ul>
+<p>[</p>
+<p>|\mathbf{A} \times \mathbf{B}| = AB \sin 60^\circ = 5 \times \sqrt{29} \times \frac{\sqrt{3}}{2} \approx 12.52</p>
+<p>]</p>
+<p>The direction of A × B is k, following the right-hand rule.</p>
+<h4>3.2.5. Application to Work Done and Moment of Force</h4>
+<ul>
+<li><strong>Work Done:</strong> The work done by a force F along a displacement s is given by the scalar product F · s.</li>
+<li><strong>Example:</strong> If a force F = 2i + 3j acts on a displacement s = 4i - 2j, then</li>
+</ul>
+<p>[</p>
+<p>\mathbf{F} \cdot \mathbf{s} = (2 \times 4) + (3 \times -2) = 8 - 6 = 2 \text{ Joules}</p>
+<p>]</p>
+<ul>
+<li><strong>Moment of Force:</strong> The moment of a force F about a point is given by the vector product r × F, where r is the position vector from the point to the point of application of the force.</li>
+<li><strong>Example:</strong> If a force F = 2i + 3j acts at a point given by the position vector r = 3i + 4j, then</li>
+</ul>
+<p>[</p>
+<p>\mathbf{r} \times \mathbf{F} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 3 & 4 & 0 \\ 2 & 3 & 0 \end{vmatrix} = (3 \times 3 - 4 \times 2)\mathbf{k} = 1\mathbf{k} \text{ Nm}</p>
+<p>]</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>If a force F = 2i + 3j acts at a point given by the position vector r = 3i + 4j, calculate the moment of force r × F.</div>
+<hr />
+<h3 id="u3-sec-3-3-angle-between-two-vectors">3.3. Angle between two Vectors</h3>
+
+<h4>Definition of Angle between Vectors</h4>
+<p>The angle between two vectors A and B is the smallest angle θ formed by them when placed tail to tail. This angle can be found using the dot product (or scalar product) of the two vectors.</p>
+<h4>Formula for the Angle between Vectors</h4>
+<p>The formula to find the angle θ between two vectors A and B is given by:</p>
+<p>[ \mathbf{A} \cdot \mathbf{B} = |\mathbf{A}| |\mathbf{B}| \cos \theta ]</p>
+<p>Rearranging this formula, we get:</p>
+<p>[ \cos \theta = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}| |\mathbf{B}|} ]</p>
+<p>[ \theta = \cos^{-1} \left( \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}| |\mathbf{B}|} \right) ]</p>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div></div>
+<p>Suppose we have two vectors A = 2i + 3j - k and B = i - 2j + 2k. Find the angle between these vectors.</p>
+<ol>
+<li><strong>Calculate the dot product A · B:</strong></li>
+</ol>
+<p>[ \mathbf{A} \cdot \mathbf{B} = (2)(1) + (3)(-2) + (-1)(2) = 2 - 6 - 2 = -6 ]</p>
+<ol>
+<li><strong>Calculate the magnitudes of A and B:</strong></li>
+</ol>
+<p>[ |\mathbf{A}| = \sqrt{2^2 + 3^2 + (-1)^2} = \sqrt{4 + 9 + 1} = \sqrt{14} ]</p>
+<p>[ |\mathbf{B}| = \sqrt{1^2 + (-2)^2 + 2^2} = \sqrt{1 + 4 + 4} = \sqrt{9} = 3 ]</p>
+<ol>
+<li><strong>Substitute the values into the formula for θ:</strong></li>
+</ol>
+<p>[ \cos \theta = \frac{-6}{\sqrt{14} \cdot 3} = \frac{-6}{3\sqrt{14}} = \frac{-2}{\sqrt{14}} ]</p>
+<ol>
+<li><strong>Find θ using the inverse cosine function:</strong></li>
+</ol>
+<p>[ \theta = \cos^{-1} \left( \frac{-2}{\sqrt{14}} \right) ]</p>
+<p>Using a calculator, we get:</p>
+<p>[ \theta \approx 111.8^{\circ} ]</p>
+<p>Thus, the angle between the vectors A and B is approximately 111.8.</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Vector A] --&gt; B[Vector B]
+ A --&gt; C[Dot Product]
+ C --&gt; D[Angle Calculation]
+ D --&gt; E[Angle Between Vectors]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Vector A] --&gt; B[Vector B]
+ A --&gt; C[Dot Product]
+ C --&gt; D[Angle Calculation]
+ D --&gt; E[Angle Between Vectors]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Vector A] --&gt; B[Vector B]
+ A --&gt; C[Dot Product]
+ C --&gt; D[Angle Calculation]
+ D --&gt; E[Angle Between Vectors]</pre></noscript></div>
+<p>This flowchart illustrates the steps involved in finding the angle between two vectors, starting from the dot product and ending with the angle calculation.</p>
+<hr />
+<h3 id="u3-sec-3-4-applications-of-scalar-and-vector-product-work-done-and-moment-of-force">3.4. Applications of Scalar and Vector Product (Work Done and Moment of Force)</h3>
+<h4>Scalar Product (Dot Product)</h4>
+<p>The scalar product of two vectors A and B is defined as:</p>
+<p>[ \mathbf{A} \cdot \mathbf{B} = AB \cos \theta ]</p>
+<p>where θ is the angle between the vectors A and B. The scalar product results in a scalar quantity.</p>
+<h5>Work Done by a Force</h5>
+<p>Work done by a force F over a displacement s is given by the scalar product of the force and displacement vectors:</p>
+<p>[ W = \mathbf{F} \cdot \mathbf{s} ]</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A force F = 3 i + 4 j N acts on a particle, moving it from point A(1, 2) to point B(4, 6). Calculate the work done by the force.<br /><br />Solution:<br />First, find the displacement vector s:<br />[ \mathbf{s} = (4 - 1) \mathbf{i} + (6 - 2) \mathbf{j} = 3 \mathbf{i} + 4 \mathbf{j} ]<br />Now, calculate the work done:<br />[ W = \mathbf{F} \cdot \mathbf{s} = (3 \mathbf{i} + 4 \mathbf{j}) \cdot (3 \mathbf{i} + 4 \mathbf{j}) = 3 \cdot 3 + 4 \cdot 4 = 9 + 16 = 25 \, \text{J} ]</div>
+<h4>Vector Product (Cross Product)</h4>
+<p>The vector product of two vectors A and B is defined as:</p>
+<p>[ \mathbf{A} \times \mathbf{B} = AB \sin \theta \, \mathbf{n} ]</p>
+<p>where n is a unit vector perpendicular to both A and B, and θ is the angle between the vectors.</p>
+<h5>Moment of Force</h5>
+<p>The moment of a force F about a point is given by the vector product of the position vector r and the force vector F:</p>
+<p>[ \mathbf{M} = \mathbf{r} \times \mathbf{F} ]</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A force F = 2 i + 3 j - k N is applied at a point r = 4 i + 2 j - 3 k m. Calculate the moment of the force about the origin.<br /><br />Solution:<br />The moment vector M is given by:<br />[ \mathbf{M} = \mathbf{r} \times \mathbf{F} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 4 & 2 & -3 \\ 2 & 3 & -1 \end{vmatrix} ]<br />Calculate the determinant:<br />[ \mathbf{M} = \mathbf{i} (2 \cdot -1 - 3 \cdot -3) - \mathbf{j} (4 \cdot -1 - 2 \cdot -3) + \mathbf{k} (4 \cdot 3 - 2 \cdot 2) ]<br />[ \mathbf{M} = \mathbf{i} (-2 + 9) - \mathbf{j} (-4 + 6) + \mathbf{k} (12 - 4) ]<br />[ \mathbf{M} = 7 \mathbf{i} - 2 \mathbf{j} + 8 \mathbf{k} \, \text{Nm} ]</div>
+<p>In summary, the scalar and vector products have significant applications in engineering, particularly in calculating work done and moments of force. Understanding these concepts is crucial for solving various practical problems in mechanics.</p>
+
+        <nav class="kb-pn no-print"><a class="pn-btn" href="unit-2.html"><i class="fas fa-chevron-left"></i> Unit 2</a><span class="pn-btn disabled">Unit – Vectors</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (C4300001) for Mathematics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      
+</article>
+
+<article class="kb-article kb-unit" id="unit-4">
+<div class="kb-unit-head">
+  <div class="kb-unit-num">4</div>
+  <div>
+    <h2 class="kb-unit-title" id="u4-sec-4">Unit IV: Coordinate Geometry</h2>
+  </div>
+</div>
+<p><em>This unit carries approximately <strong>14 marks (4 Remember + 5 Understand + 5 Apply)</strong>.</em></p>
+
+        
+<p><em>(AI-generated self-study book for GTU, subject code C4300001 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)</strong>.</p>
+<p>Learning objectives covered by this module:</p>
+<ul>
+<li>4.a. Employ the equation of straight line to solve given simple problems.</li>
+<li>4.b. Apply the concept of slope and its consequences to</li>
+<li>4.c. Find the angle between two lines using the concept of Parallel and Perpendicular lines.</li>
+<li>4.d. Apply the concept of equation of circle with center and radius to solve the given problems.</li>
+<li>4.e. Solve problems related to general equation of circle based on tangent and normal. perpendicular lines</li>
+</ul>
+<h3 id="u4-sec-4-1-straight-line-two-point-form-and-slope-of-straight-line">4.1. Straight line (Two-point form) and slope of straight line</h3>
+<h4>4.1.1. Slope of a Straight Line</h4>
+<p>The slope of a straight line is a measure of its steepness. It is defined as the change in the vertical direction (rise) divided by the change in the horizontal direction (run). Mathematically, it is given by:</p>
+<p>[ m = \frac{y_2 - y_1}{x_2 - x_1} ]</p>
+<p>where (x₁, y₁) and (x₂, y₂) are any two points on the line.</p>
+<h4>4.1.2. Two-Point Form of the Equation of a Straight Line</h4>
+<p>The two-point form of the equation of a straight line can be derived using the slope formula. If two points (x₁, y₁) and (x₂, y₂) lie on the line, the equation of the line is:</p>
+<p>[ y - y_1 = m(x - x_1) ]</p>
+<p>where m is the slope of the line, calculated as:</p>
+<p>[ m = \frac{y_2 - y_1}{x_2 - x_1} ]</p>
+<h4>4.1.3. Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the equation of the straight line passing through the points (2, 3) and (4, 7).</div>
+<ol>
+<li>Calculate the slope m:</li>
+</ol>
+<p>[ m = \frac{7 - 3}{4 - 2} = \frac{4}{2} = 2 ]</p>
+<ol>
+<li>Use the two-point form equation:</li>
+</ol>
+<p>[ y - 3 = 2(x - 2) ]</p>
+<ol>
+<li>Simplify the equation:</li>
+</ol>
+<p>[ y - 3 = 2x - 4 ]</p>
+<p>[ y = 2x - 1 ]</p>
+<h4>4.1.4. Mermaid Diagram</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Two Points] --&gt; B[Slope]
+ B --&gt; C[Two-Point Form Equation]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Two Points] --&gt; B[Slope]
+ B --&gt; C[Two-Point Form Equation]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Two Points] --&gt; B[Slope]
+ B --&gt; C[Two-Point Form Equation]</pre></noscript></div>
+<h3 id="u4-sec-4-2-slope-point-form-intercept-form-general-form-of-line">4.2. Slope Point Form, Intercept Form, General Form of Line</h3>
+<h4>4.2.1. Slope Point Form of the Equation of a Straight Line</h4>
+<p>The slope point form of the equation of a straight line is:</p>
+<p>[ y - y_1 = m(x - x_1) ]</p>
+<p>where (x₁, y₁) is a point on the line and m is the slope of the line.</p>
+<h4>4.2.2. Intercept Form of the Equation of a Straight Line</h4>
+<p>The intercept form of the equation of a straight line is:</p>
+<p>[ \frac{x}{a} + \frac{y}{b} = 1 ]</p>
+<p>where a is the x-intercept and b is the y-intercept.</p>
+<h4>4.2.3. General Form of the Equation of a Straight Line</h4>
+<p>The general form of the equation of a straight line is:</p>
+<p>[ Ax + By + C = 0 ]</p>
+<p>where A, B, and C are constants, and A and B are not both zero.</p>
+<h4>4.2.4. Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the equation of the straight line in slope point form, intercept form, and general form passing through the points (3, 2) and (5, 6).</div>
+<ol>
+<li><strong>Slope Point Form:</strong></li>
+</ol>
+<ul>
+<li>Calculate the slope m:</li>
+</ul>
+<p>[ m = \frac{6 - 2}{5 - 3} = \frac{4}{2} = 2 ]</p>
+<ul>
+<li>Use the slope point form:</li>
+</ul>
+<p>[ y - 2 = 2(x - 3) ]</p>
+<ul>
+<li>Simplify:</li>
+</ul>
+<p>[ y - 2 = 2x - 6 ]</p>
+<p>[ y = 2x - 4 ]</p>
+<ol>
+<li><strong>Intercept Form:</strong></li>
+</ol>
+<ul>
+<li>Find the x-intercept a and y-intercept b:</li>
+<li>When y = 0:</li>
+</ul>
+<p>[ 0 = 2x - 4 ]</p>
+<p>[ x = 2 ]</p>
+<ul>
+<li>When x = 0:</li>
+</ul>
+<p>[ y = 2(0) - 4 = -4 ]</p>
+<ul>
+<li>Use the intercept form:</li>
+</ul>
+<p>[ \frac{x}{2} + \frac{y}{-4} = 1 ]</p>
+<p>[ \frac{x}{2} - \frac{y}{4} = 1 ]</p>
+<ol>
+<li><strong>General Form:</strong></li>
+</ol>
+<ul>
+<li>Rearrange the slope point form:</li>
+</ul>
+<p>[ y = 2x - 4 ]</p>
+<p>[ 2x - y - 4 = 0 ]</p>
+<h4>4.2.5. Mermaid Diagram</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Slope Point Form] --&gt; B[Intercept Form]
+ A --&gt; C[General Form]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Slope Point Form] --&gt; B[Intercept Form]
+ A --&gt; C[General Form]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Slope Point Form] --&gt; B[Intercept Form]
+ A --&gt; C[General Form]</pre></noscript></div>
+<p>By understanding and applying these forms, you can solve a variety of problems related to straight lines in your exams.</p>
+<hr />
+<h3 id="u4-sec-4-3-condition-of-parallel-and-mathematics-course-code-4300001-nitttr-bhopal-gtu-cogc-2021-curriculum-topics-and-sub-topics-solve-the-given-problems">4.3. Condition of Parallel and Mathematics Course Code: 4300001 NITTTR Bhopal – GTU - COGC-2021 Curriculum Topics and Sub-topics Solve the Given Problems.</h3>
+
+<h4>4.3.1. Condition for Parallel Lines</h4>
+<p>Two lines are parallel if and only if their slopes are equal. The slope of a line is the ratio of the change in y to the change in x, and can be represented as m. For two lines to be parallel, the equation of a line in slope-intercept form is given by y = mx + c, where m is the slope and c is the y-intercept.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Determine if the lines 2x + 3y = 6 and 4x + 6y = 12 are parallel.</div>
+<ol>
+<li>First, we convert the equations to slope-intercept form:</li>
+</ol>
+<ul>
+<li>For 2x + 3y = 6:</li>
+</ul>
+<p>[</p>
+<p>3y = -2x + 6 \implies y = -\frac{2}{3}x + 2</p>
+<p>]</p>
+<p>The slope m₁ = - 2 3.</p>
+<ul>
+<li>For 4x + 6y = 12:</li>
+</ul>
+<p>[</p>
+<p>6y = -4x + 12 \implies y = -\frac{2}{3}x + 2</p>
+<p>]</p>
+<p>The slope m₂ = - 2 3.</p>
+<ol>
+<li>Since m₁ = m₂, the lines are parallel.</li>
+</ol>
+<h4>4.3.2. Solving Problems Using the Condition of Parallel Lines</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>If the line 3x - 2y = 5 is parallel to the line 6x - 4y = k, find the value of k.</div>
+<ol>
+<li>Convert the equations to slope-intercept form:</li>
+</ol>
+<ul>
+<li>For 3x - 2y = 5:</li>
+</ul>
+<p>[</p>
+<p>-2y = -3x + 5 \implies y = \frac{3}{2}x - \frac{5}{2}</p>
+<p>]</p>
+<p>The slope m₁ = 3 2.</p>
+<ul>
+<li>For 6x - 4y = k:</li>
+</ul>
+<p>[</p>
+<p>-4y = -6x + k \implies y = \frac{3}{2}x - \frac{k}{4}</p>
+<p>]</p>
+<p>The slope m₂ = 3 2.</p>
+<ol>
+<li>Since the lines are parallel, m₁ = m₂:</li>
+</ol>
+<p>[</p>
+<p>\frac{3}{2} = \frac{3}{2} \implies k \text{ can be any value}</p>
+<p>]</p>
+<p>However, the problem is asking for the value of k such that the lines are parallel, which is already satisfied for any k. Thus, the specific value of k is not uniquely determined by the condition of parallelism alone.</p>
+<h3 id="u4-sec-4-4-equations-of-parallel-lines-and-perpendicular-lines-to-the-given-lines">4.4. Equations of Parallel Lines and Perpendicular Lines to the Given Lines</h3>
+<h4>4.4.1. Equations of Parallel Lines</h4>
+<p>If a line is parallel to another line, their slopes are equal. The equation of a line parallel to ax + by = c and passing through the point (x₁, y₁) can be written as ax + by = d, where d is a constant determined by substituting (x₁, y₁).</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the equation of the line parallel to 3x - 4y = 7 and passing through the point (2, -1).</div>
+<ol>
+<li>The slope of the line 3x - 4y = 7 is m = 3 4.</li>
+<li>The equation of the parallel line can be written as 3x - 4y = d.</li>
+<li>Substitute (2, -1) into the equation:</li>
+</ol>
+<p>[</p>
+<p>3(2) - 4(-1) = d \implies 6 + 4 = d \implies d = 10</p>
+<p>]</p>
+<ol>
+<li>Therefore, the equation of the line is 3x - 4y = 10.</li>
+</ol>
+<h4>4.4.2. Equations of Perpendicular Lines</h4>
+<p>If two lines are perpendicular, the product of their slopes is -1. The equation of a line perpendicular to ax + by = c and passing through the point (x₁, y₁) can be written as bx - ay = d, where d is a constant determined by substituting (x₁, y₁).</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the equation of the line perpendicular to 3x - 4y = 7 and passing through the point (2, -1).</div>
+<ol>
+<li>The slope of the line 3x - 4y = 7 is m = 3 4. The slope of the perpendicular line is m' = - 4 3.</li>
+<li>The equation of the perpendicular line can be written as -4x - 3y = d.</li>
+<li>Substitute (2, -1) into the equation:</li>
+</ol>
+<p>[</p>
+<p>-4(2) - 3(-1) = d \implies -8 + 3 = d \implies d = -5</p>
+<p>]</p>
+<ol>
+<li>Therefore, the equation of the line is -4x - 3y = -5 or 4x + 3y = 5.</li>
+</ol>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Determine if the lines 2x + 3y = 6 and 4x + 6y = 12 are parallel.</div>
+<ol>
+<li>Convert the equations to slope-intercept form:</li>
+</ol>
+<ul>
+<li>For 2x + 3y = 6:</li>
+</ul>
+<p>[</p>
+<p>3y = -2x + 6 \implies y = -\frac{2}{3}x + 2</p>
+<p>]</p>
+<p>The slope m₁ = - 2 3.</p>
+<ul>
+<li>For 4x + 6y = 12:</li>
+</ul>
+<p>[</p>
+<p>6y = -4x + 12 \implies y = -\frac{2}{3}x + 2</p>
+<p>]</p>
+<p>The slope m₂ = - 2 3.</p>
+<ol>
+<li>Since m₁ = m₂, the lines are parallel.</li>
+</ol>
+<hr />
+<h3 id="u4-sec-4-5-angle-between-two-lines">4.5. Angle between two lines.</h3>
+<h4>Definition and Concept</h4>
+<p>The angle between two lines is the smallest angle formed between their directions. This angle is measured from one line to the other and is always between 0° and 180°.</p>
+<h4>Slope of a Line</h4>
+<p>The slope (m) of a line is defined as the tangent of the angle (θ) that the line makes with the positive x-axis. The slope can be calculated from the coordinates of any two points on the line using the formula:</p>
+<p>[ m = \frac{y_2 - y_1}{x_2 - x_1} ]</p>
+<h4>Angle Between Two Lines</h4>
+<p>The angle (θ) between two lines with slopes m₁ and m₂ can be found using the following formula:</p>
+<p>[ \tan \theta = \left| \frac{m_1 - m_2}{1 + m_1 m_2} \right| ]</p>
+<p>From this, the angle θ can be calculated as:</p>
+<p>[ \theta = \tan^{-1} \left( \left| \frac{m_1 - m_2}{1 + m_1 m_2} \right| \right) ]</p>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the angle between the lines with equations 2x - 3y + 5 = 0 and 4x + 6y - 7 = 0.</div>
+<ol>
+<li>First, find the slopes of both lines.</li>
+<li>The slope of the line 2x - 3y + 5 = 0 is:</li>
+</ol>
+<p>[ m_1 = \frac{2}{3} ]</p>
+<ol>
+<li>The slope of the line 4x + 6y - 7 = 0 is:</li>
+</ol>
+<p>[ m_2 = -\frac{4}{6} = -\frac{2}{3} ]</p>
+<ol>
+<li>Substitute these values into the formula for the angle between the lines:</li>
+</ol>
+<p>[ \tan \theta = \left| \frac{\frac{2}{3} - \left(-\frac{2}{3}\right)}{1 + \left(\frac{2}{3}\right)\left(-\frac{2}{3}\right)} \right| = \left| \frac{\frac{4}{3}}{1 - \frac{4}{9}} \right| = \left| \frac{\frac{4}{3}}{\frac{5}{9}} \right| = \left| \frac{4}{3} \times \frac{9}{5} \right| = \left| \frac{12}{5} \right| = \frac{12}{5} ]</p>
+<ol>
+<li>Therefore, the angle θ is:</li>
+</ol>
+<p>[ \theta = \tan^{-1} \left( \frac{12}{5} \right) ]</p>
+<h4>Mermaid Diagram</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Lines] --&gt; B[Find Slopes]
+ B --&gt; C[Calculate Angle]
+ C --&gt; D[Angle between Lines]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Lines] --&gt; B[Find Slopes]
+ B --&gt; C[Calculate Angle]
+ C --&gt; D[Angle between Lines]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Lines] --&gt; B[Find Slopes]
+ B --&gt; C[Calculate Angle]
+ C --&gt; D[Angle between Lines]</pre></noscript></div>
+<h3 id="u4-sec-4-6-equation-of-circle-with-center-and-radius">4.6. Equation of Circle with Center and Radius</h3>
+<h4>Definition</h4>
+<p>The general equation of a circle with center (h, k) and radius r is given by:</p>
+<p>[ (x - h)^2 + (y - k)^2 = r^2 ]</p>
+<h4>Standard Form</h4>
+<p>The standard form of the equation of a circle with center (h, k) and radius r is:</p>
+<p>[ (x - h)^2 + (y - k)^2 = r^2 ]</p>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the equation of the circle with center (3, -4) and radius 5.</div>
+<ol>
+<li>Use the standard form of the equation of a circle:</li>
+</ol>
+<p>[ (x - h)^2 + (y - k)^2 = r^2 ]</p>
+<ol>
+<li>Substitute h = 3, k = -4, and r = 5:</li>
+</ol>
+<p>[ (x - 3)^2 + (y + 4)^2 = 5^2 ]</p>
+<ol>
+<li>Simplify the right-hand side:</li>
+</ol>
+<p>[ (x - 3)^2 + (y + 4)^2 = 25 ]</p>
+<h4>Mermaid Diagram</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Circle] --&gt; B[Center and Radius]
+ B --&gt; C[Equation of Circle]
+ C --&gt; D[Standard Form]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Circle] --&gt; B[Center and Radius]
+ B --&gt; C[Equation of Circle]
+ C --&gt; D[Standard Form]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Circle] --&gt; B[Center and Radius]
+ B --&gt; C[Equation of Circle]
+ C --&gt; D[Standard Form]</pre></noscript></div>
+<h4>Summary</h4>
+<ul>
+<li>The angle between two lines can be found using the slopes of the lines.</li>
+<li>The equation of a circle with center and radius can be written in standard form.</li>
+</ul>
+<p>These examples and explanations should help you in solving problems related to the angle between lines and the equation of a circle with center and radius.</p>
+<hr />
+<h3 id="u4-sec-4-7-general-equation-of-circle">4.7. General Equation of Circle</h3>
+<h4>Definition and Standard Form</h4>
+<p>A circle is the set of all points in a plane that are equidistant from a fixed point called the center. The distance from the center to any point on the circle is known as the radius. The general equation of a circle is given by the formula:</p>
+<p>[ x^2 + y^2 + 2gx + 2fy + c = 0 ]</p>
+<p>where g, f, and c are constants. This equation can be transformed into the standard form (x - h)² + (y - k)² = r² by completing the square.</p>
+<h4>Converting to Standard Form</h4>
+<p>To convert the general form to the standard form, follow these steps:</p>
+<ol>
+<li><strong>Group the x and y terms:</strong></li>
+</ol>
+<p>[ x^2 + 2gx + y^2 + 2fy + c = 0 ]</p>
+<ol>
+<li><strong>Complete the square for x and y:</strong></li>
+</ol>
+<p>[ (x^2 + 2gx) + (y^2 + 2fy) + c = 0 ]</p>
+<p>[ (x + g)^2 - g^2 + (y + f)^2 - f^2 + c = 0 ]</p>
+<p>[ (x + g)^2 + (y + f)^2 = g^2 + f^2 - c ]</p>
+<ol>
+<li><strong>Identify the center and radius:</strong></li>
+</ol>
+<p>[ (x + g)^2 + (y + f)^2 = r^2 ]</p>
+<p>Here, the center of the circle is (-g, -f) and the radius r is g² + f² - c.</p>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the center and radius of the circle given by the equation x² + y² - 6x + 4y - 12 = 0.</div>
+<ol>
+<li><strong>Group the x and y terms:</strong></li>
+</ol>
+<p>[ x^2 - 6x + y^2 + 4y = 12 ]</p>
+<ol>
+<li><strong>Complete the square:</strong></li>
+</ol>
+<p>For x: x² - 6x becomes (x - 3)² - 9.</p>
+<p>For y: y² + 4y becomes (y + 2)² - 4.</p>
+<p>[ (x - 3)^2 - 9 + (y + 2)^2 - 4 = 12 ]</p>
+<p>[ (x - 3)^2 + (y + 2)^2 - 13 = 12 ]</p>
+<p>[ (x - 3)^2 + (y + 2)^2 = 25 ]</p>
+<ol>
+<li><strong>Identify the center and radius:</strong></li>
+</ol>
+<p>The center is (3, -2) and the radius is 25 = 5.</p>
+<p>Thus, the center is (3, -2) and the radius is 5.</p>
+<h4>Applications of the General Equation</h4>
+<p>The general equation of a circle can be used in various applications, such as in physics to describe the motion of objects in a circular path, or in engineering to design circular structures.</p>
+<h3 id="u4-sec-4-8-tangent-and-normal-to-a-circle">4.8. Tangent and Normal to a Circle</h3>
+<h4>Definition of Tangent and Normal</h4>
+<ul>
+<li><strong>Tangent:</strong> A tangent to a circle is a line that touches the circle at exactly one point.</li>
+<li><strong>Normal:</strong> The normal to a circle at a point is a line that is perpendicular to the tangent at that point.</li>
+</ul>
+<h4>Equations of Tangent and Normal</h4>
+<p>To find the equations of the tangent and normal to a circle, consider the circle x² + y² + 2gx + 2fy + c = 0 and a point (x₁, y₁) on the circle.</p>
+<ol>
+<li><strong>Equation of the Tangent:</strong></li>
+</ol>
+<p>The equation of the tangent at (x₁, y₁) is given by:</p>
+<p>[ xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0 ]</p>
+<ol>
+<li><strong>Equation of the Normal:</strong></li>
+</ol>
+<p>The equation of the normal at (x₁, y₁) can be found by using the slope of the tangent. The slope of the tangent is - g + x₁ f + y₁, so the slope of the normal is the negative reciprocal, which is f + y₁ g + x₁.</p>
+<p>The equation of the normal is:</p>
+<p>[ y - y_1 = \frac{f + y_1}{g + x_1} (x - x_1) ]</p>
+<h4>Worked Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the equation of the tangent and normal to the circle x² + y² - 6x + 4y - 12 = 0 at the point (5, 2).</div>
+<ol>
+<li><strong>Equation of the Tangent:</strong></li>
+</ol>
+<p>The given circle is x² + y² - 6x + 4y - 12 = 0. The point is (5, 2).</p>
+<p>The equation of the tangent is:</p>
+<p>[ 5x + 2y - 3(5 + 5) + 2(2 + 2) - 12 = 0 ]</p>
+<p>[ 5x + 2y - 30 + 8 - 12 = 0 ]</p>
+<p>[ 5x + 2y - 34 = 0 ]</p>
+<ol>
+<li><strong>Equation of the Normal:</strong></li>
+</ol>
+<p>The slope of the tangent at (5, 2) is - -3 2 = 3 2. The slope of the normal is - 2 3.</p>
+<p>The equation of the normal is:</p>
+<p>[ y - 2 = -\frac{2}{3} (x - 5) ]</p>
+<p>[ 3(y - 2) = -2(x - 5) ]</p>
+<p>[ 3y - 6 = -2x + 10 ]</p>
+<p>[ 2x + 3y - 16 = 0 ]</p>
+<p>Thus, the equation of the tangent is 5x + 2y - 34 = 0 and the equation of the normal is 2x + 3y - 16 = 0.</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart LR
+ A[General Equation] --&gt; B[Convert to Standard Form]
+ B --&gt; C[Identify Center and Radius]
+ C --&gt; D[Example: Center and Radius]
+ D --&gt; E[Tangent Equation]
+ E --&gt; F[Normal Equation]
+ F --&gt; G[Example: Tangent and Normal]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[General Equation] --&gt; B[Convert to Standard Form]
+ B --&gt; C[Identify Center and Radius]
+ C --&gt; D[Example: Center and Radius]
+ D --&gt; E[Tangent Equation]
+ E --&gt; F[Normal Equation]
+ F --&gt; G[Example: Tangent and Normal]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[General Equation] --&gt; B[Convert to Standard Form]
+ B --&gt; C[Identify Center and Radius]
+ C --&gt; D[Example: Center and Radius]
+ D --&gt; E[Tangent Equation]
+ E --&gt; F[Normal Equation]
+ F --&gt; G[Example: Tangent and Normal]</pre></noscript></div>
+<p>This flowchart illustrates the process from the general form to finding the center and radius, and then to deriving the equations of the tangent and normal.</p>
+
+        <nav class="kb-pn no-print"><a class="pn-btn" href="unit-3.html"><i class="fas fa-chevron-left"></i> Unit 3</a><span class="pn-btn disabled">Unit – Coordinate Geometry</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (C4300001) for Mathematics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      
+</article>
+
+<article class="kb-article kb-unit" id="unit-5">
+<div class="kb-unit-head">
+  <div class="kb-unit-num">5</div>
+  <div>
+    <h2 class="kb-unit-title" id="u5-sec-5">Unit V: Limit</h2>
+  </div>
+</div>
+<p><em>This unit carries approximately <strong>12 marks (3 Remember + 4 Understand + 5 Apply)</strong>.</em></p>
+
+        
+<p><em>(AI-generated self-study book for GTU, subject code C4300001 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>12 marks (3 Remember + 4 Understand + 5 Apply) (per syllabus)</strong>.</p>
+<p>Learning objectives covered by this module:</p>
+<ul>
+<li>5.a. Analyse the characteristic of functions using the concept of Limit.</li>
+<li>5.b. Solve the given problems using standard formulae of Limit</li>
+</ul>
+<h3 id="u5-sec-5-1-limit-of-a-function">5.1. Limit of a Function</h3>
+<h4>Definition and Concept of Limit</h4>
+<p><strong>Limit of a function</strong> is a fundamental concept in calculus that describes the value that a function approaches as the input approaches some value. Formally, the limit of a function f(x) as x approaches a is denoted as:</p>
+<p>[ \lim_{x \to a} f(x) = L ]</p>
+<p>where L is the limit. This means that as x gets arbitrarily close to a, the value of f(x) gets arbitrarily close to L.</p>
+<h4>Importance of Limits</h4>
+<p>Understanding limits is crucial because they help in defining derivatives and integrals, which are core concepts in calculus. Limits are also used to solve indeterminate forms, such as 0 0 and , and to analyze the behavior of functions at specific points.</p>
+<h4>Types of Limits</h4>
+<ul>
+<li><strong>One-Sided Limits:</strong> These are limits where x approaches a from the left (x → a⁻) or from the right (x → a⁺).</li>
+<li><strong>Two-Sided Limits:</strong> These are limits where x approaches a from both sides.</li>
+</ul>
+<h4>Properties of Limits</h4>
+<ol>
+<li><strong>Constant Rule:</strong> If c is a constant, then</li>
+</ol>
+<p>[ \lim_{x \to a} c = c ]</p>
+<ol>
+<li><strong>Identity Rule:</strong> If f(x) = x, then</li>
+</ol>
+<p>[ \lim_{x \to a} x = a ]</p>
+<ol>
+<li><strong>Sum Rule:</strong> If f(x) and g(x) are functions, then</li>
+</ol>
+<p>[ \lim_{x \to a} [f(x) + g(x)] = \lim_{x \to a} f(x) + \lim_{x \to a} g(x) ]</p>
+<ol>
+<li><strong>Difference Rule:</strong> If f(x) and g(x) are functions, then</li>
+</ol>
+<p>[ \lim_{x \to a} [f(x) - g(x)] = \lim_{x \to a} f(x) - \lim_{x \to a} g(x) ]</p>
+<ol>
+<li><strong>Product Rule:</strong> If f(x) and g(x) are functions, then</li>
+</ol>
+<p>[ \lim_{x \to a} [f(x) \cdot g(x)] = \left( \lim_{x \to a} f(x) \right) \left( \lim_{x \to a} g(x) \right) ]</p>
+<ol>
+<li><strong>Quotient Rule:</strong> If f(x) and g(x) are functions and g(x) ≠ 0, then</li>
+</ol>
+<p>[ \lim_{x \to a} \left[ \frac{f(x)}{g(x)} \right] = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)} ]</p>
+<h4>Evaluating Limits</h4>
+<ul>
+<li><strong>Substitution Rule:</strong> If f(x) is a polynomial or a rational function and f(a) is defined, then</li>
+</ul>
+<p>[ \lim_{x \to a} f(x) = f(a) ]</p>
+<ul>
+<li><strong>Factorization and Simplification:</strong> If direct substitution leads to an indeterminate form, factorize or simplify the expression.</li>
+<li><strong>Rationalization:</strong> For limits involving square roots, rationalize the numerator or denominator.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Evaluate the limit:</div>
+<p>[ \lim_{x \to 2} (x^2 - 3x + 2) ]</p>
+<ol>
+<li><strong>Step 1:</strong> Direct substitution:</li>
+</ol>
+<p>[ \lim_{x \to 2} (x^2 - 3x + 2) = 2^2 - 3(2) + 2 = 4 - 6 + 2 = 0 ]</p>
+<p>Therefore, the limit is:</p>
+<p>[ \lim_{x \to 2} (x^2 - 3x + 2) = 0 ]</p>
+<h4>Flowchart of Evaluating Limits</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Is the function a polynomial or rational?]
+ B[Direct substitution]
+ C[Factorization or simplification]
+ D[Rationalization]
+ E[Indeterminate form?]
+ F[Substitution]
+ G[Substitution is possible?]
+ H[Final value]
+ A --&gt; B
+ A --&gt; C
+ A --&gt; D
+ B --&gt; F
+ C --&gt; F
+ D --&gt; E
+ E --&gt; F
+ F --&gt; G
+ G --&gt; H
+ E --&gt; D
+ D --&gt; G
+ G --&gt; H</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Is the function a polynomial or rational?]
+ B[Direct substitution]
+ C[Factorization or simplification]
+ D[Rationalization]
+ E[Indeterminate form?]
+ F[Substitution]
+ G[Substitution is possible?]
+ H[Final value]
+ A --&gt; B
+ A --&gt; C
+ A --&gt; D
+ B --&gt; F
+ C --&gt; F
+ D --&gt; E
+ E --&gt; F
+ F --&gt; G
+ G --&gt; H
+ E --&gt; D
+ D --&gt; G
+ G --&gt; H</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Is the function a polynomial or rational?]
+ B[Direct substitution]
+ C[Factorization or simplification]
+ D[Rationalization]
+ E[Indeterminate form?]
+ F[Substitution]
+ G[Substitution is possible?]
+ H[Final value]
+ A --&gt; B
+ A --&gt; C
+ A --&gt; D
+ B --&gt; F
+ C --&gt; F
+ D --&gt; E
+ E --&gt; F
+ F --&gt; G
+ G --&gt; H
+ E --&gt; D
+ D --&gt; G
+ G --&gt; H</pre></noscript></div>
+<p>This flowchart helps in systematically evaluating limits by considering different scenarios and methods.</p>
+<hr />
+<h3 id="u5-sec-5-2-standard-formulae-of-limit-and-related-simple-examples">5.2. Standard Formulae of Limit and Related Simple Examples</h3>
+<h4>5.2.1. Definition of Limit</h4>
+<p><strong>Limit:</strong> The limit of a function f(x) as x approaches a value a is the value L such that the values of f(x) get arbitrarily close to L as x gets closer to a.</p>
+<h4>5.2.2. Standard Formulae for Limits</h4>
+<h5>5.2.2.1. Limit of a Constant</h5>
+<p><strong>Definition:</strong> If c is a constant, then → a c = c.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find → ₃ 5.<br /><br />Solution: Since 5 is a constant, the limit as x approaches 3 is simply 5.<br />[<br />\lim_{x \to 3} 5 = 5<br />]</div>
+<h5>5.2.2.2. Limit of a Linear Function</h5>
+<p><strong>Definition:</strong> If f(x) = ax + b, then → a (ax + b) = a · a + b = aa + b.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find → ₂ (3x - 1).<br /><br />Solution: Substitute x = 2 into the expression 3x - 1:<br />[<br />\lim_{x \to 2} (3x - 1) = 3 \cdot 2 - 1 = 6 - 1 = 5<br />]</div>
+<h5>5.2.2.3. Limit of a Polynomial Function</h5>
+<p><strong>Definition:</strong> If f(x) = aₙ xⁿ + aₙ₋₁ xⁿ⁻¹ + + a₁ x + a₀, then → a f(x) = aₙ aⁿ + aₙ₋₁ aⁿ⁻¹ + + a₁ a + a₀.</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find → ₁ (2x² - 3x + 4).<br /><br />Solution: Substitute x = 1 into the polynomial:<br />[<br />\lim_{x \to 1} (2x^2 - 3x + 4) = 2(1)^2 - 3(1) + 4 = 2 - 3 + 4 = 3<br />]</div>
+<h5>5.2.2.4. Limit of a Rational Function</h5>
+<p><strong>Definition:</strong> If f(x) = p(x) q(x) and q(a) ≠ 0, then → a p(x) q(x) = p(a) q(a).</p>
+<p><strong>Example:</strong></p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find → ₂ x² - 4 x - 2.<br /><br />Solution: First, factor the numerator:<br />[<br />\lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x - 2)(x + 2)}{x - 2}<br />]<br />Simplify by canceling x - 2:<br />[<br />\lim_{x \to 2} (x + 2) = 2 + 2 = 4<br />]</div>
+<h4>5.2.3. Application of Limit Formulae</h4>
+<h5>5.2.3.1. Real-World Application</h5>
+<p>Suppose a chemical reaction has a rate of change given by R(x) = 100 x - 20 where x is time in seconds. Find the rate of change at x = 5 seconds.</p>
+<p><strong>Solution:</strong></p>
+<p>[</p>
+<p>R(x) = \frac{100}{x} - 20</p>
+<p>]</p>
+<p>To find the rate of change at x = 5:</p>
+<p>[</p>
+<p>R(5) = \frac{100}{5} - 20 = 20 - 20 = 0</p>
+<p>]</p>
+<p>Thus, the rate of change at x = 5 seconds is 0.</p>
+<h4>5.2.4. Practice Problems</h4>
+<ol>
+<li>Find → ₄ (2x² - 3x + 1).</li>
+<li>Evaluate → ₋₁ x² - 1 x + 1.</li>
+<li>Determine → ₂ 3x² - 5x + 2 x - 2.</li>
+</ol>
+<p>By solving these problems, students can apply the standard formulae of limits effectively and understand the practical implications of these concepts in engineering contexts.</p>
+
+        <nav class="kb-pn no-print"><a class="pn-btn" href="unit-4.html"><i class="fas fa-chevron-left"></i> Unit 4</a><span class="pn-btn disabled">Unit – Limit</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (C4300001) for Mathematics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      
+</article>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer" class="no-print"></footer>
+
+  <div id="kb-mobile-toc" class="kb-mobile-toc no-print" aria-hidden="true">
+    <div class="mob-toc-panel">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+        <strong style="font-size:.95rem">Chapters</strong>
+        <button id="kb-toc-close" class="kb-tb-btn" type="button" style="padding:6px 10px"><i class="fas fa-times"></i></button>
+      </div>
+      <details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u1-sec-1"><span class="toc-number">1</span> Determinant and Function</a></summary>
+      <a class="toc-item toc-sec" href="#u1-sec-1-1-determinant-and-its-value-up-to-3rd-order-without-properties"><i class="fas fa-chevron-right"></i> 1.1. Determinant and its value up to 3rd order (Without properties)</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-2-function-and-simple-examples"><i class="fas fa-chevron-right"></i> 1.2. Function and simple examples.</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-3-logarithm-as-a-function"><i class="fas fa-chevron-right"></i> 1.3. Logarithm as a function</a>
+<a class="toc-item toc-sec" href="#u1-sec-1-4-laws-of-logarithm-and-related-simple-examples"><i class="fas fa-chevron-right"></i> 1.4. Laws of Logarithm and Related Simple Examples</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u2-sec-2"><span class="toc-number">2</span> Trigonometry</a></summary>
+      <a class="toc-item toc-sec" href="#u2-sec-2-1-units-of-angles-degree-and-radian"><i class="fas fa-chevron-right"></i> 2.1. Units of Angles (degree and radian)</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-2-trigonometric-functions"><i class="fas fa-chevron-right"></i> 2.2. Trigonometric Functions</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-3-allied-compound-angles-multiple-submultiples-angles"><i class="fas fa-chevron-right"></i> 2.3. Allied &amp;amp; Compound Angles, Multiple –Submultiples Angles</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-4-graph-of-sine-and-cosine"><i class="fas fa-chevron-right"></i> 2.4. Graph of Sine and Cosine</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-5-periodic-trigonometric-function"><i class="fas fa-chevron-right"></i> 2.5. Periodic Trigonometric Function</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-6-sum-and-factor-formulae"><i class="fas fa-chevron-right"></i> 2.6. Sum and Factor Formulae</a>
+<a class="toc-item toc-sec" href="#u2-sec-2-7-inverse-trigonometric-function"><i class="fas fa-chevron-right"></i> 2.7. Inverse Trigonometric Function</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u3-sec-3"><span class="toc-number">3</span> Vectors</a></summary>
+      <a class="toc-item toc-sec" href="#u3-sec-3-1-vector-addition-subtraction-magnitude-and-direction"><i class="fas fa-chevron-right"></i> 3.1. Vector, Addition, Subtraction, Magnitude and Direction</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-2-scalar-and-vector-product-and-its-properties"><i class="fas fa-chevron-right"></i> 3.2. Scalar and Vector Product and its Properties</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-3-angle-between-two-vectors"><i class="fas fa-chevron-right"></i> 3.3. Angle between two Vectors</a>
+<a class="toc-item toc-sec" href="#u3-sec-3-4-applications-of-scalar-and-vector-product-work-done-and-moment-of-force"><i class="fas fa-chevron-right"></i> 3.4. Applications of Scalar and Vector Product (Work Done and Moment of Force)</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u4-sec-4"><span class="toc-number">4</span> Coordinate Geometry</a></summary>
+      <a class="toc-item toc-sec" href="#u4-sec-4-1-straight-line-two-point-form-and-slope-of-straight-line"><i class="fas fa-chevron-right"></i> 4.1. Straight line (Two-point form) and slope of straight line</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-2-slope-point-form-intercept-form-general-form-of-line"><i class="fas fa-chevron-right"></i> 4.2. Slope Point Form, Intercept Form, General Form of Line</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-3-condition-of-parallel-and-mathematics-course-code-4300001-nitttr-bhopal-gtu-cogc-2021-curriculum-topics-and-sub-topics-solve-the-given-problems"><i class="fas fa-chevron-right"></i> 4.3. Condition of Parallel and Mathematics Course Code: 4300001 NITTTR Bhopal – GTU - COGC-2021 Curriculum Topics and Sub-topics Solve the Given Problems.</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-4-equations-of-parallel-lines-and-perpendicular-lines-to-the-given-lines"><i class="fas fa-chevron-right"></i> 4.4. Equations of Parallel Lines and Perpendicular Lines to the Given Lines</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-5-angle-between-two-lines"><i class="fas fa-chevron-right"></i> 4.5. Angle between two lines.</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-6-equation-of-circle-with-center-and-radius"><i class="fas fa-chevron-right"></i> 4.6. Equation of Circle with Center and Radius</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-7-general-equation-of-circle"><i class="fas fa-chevron-right"></i> 4.7. General Equation of Circle</a>
+<a class="toc-item toc-sec" href="#u4-sec-4-8-tangent-and-normal-to-a-circle"><i class="fas fa-chevron-right"></i> 4.8. Tangent and Normal to a Circle</a>
+    </details>
+<details class="kb-unit-block" open>
+      <summary><a class="kb-unit-link" href="#u5-sec-5"><span class="toc-number">5</span> Limit</a></summary>
+      <a class="toc-item toc-sec" href="#u5-sec-5-1-limit-of-a-function"><i class="fas fa-chevron-right"></i> 5.1. Limit of a Function</a>
+<a class="toc-item toc-sec" href="#u5-sec-5-2-standard-formulae-of-limit-and-related-simple-examples"><i class="fas fa-chevron-right"></i> 5.2. Standard Formulae of Limit and Related Simple Examples</a>
+    </details>
+      <a class="back-link" href="/ai-data-science/sem1/mathematics.html"><i class="fas fa-arrow-left"></i> Back to Mathematics</a>
+    </div>
+  </div>
+
+  <div class="print-watermark" aria-hidden="true">
+    <span>KHUDKIBOOK</span><span>KHUDKIBOOK</span><span>KHUDKIBOOK</span><span>KHUDKIBOOK</span>
+  </div>
+  <div class="kb-toast no-print" id="kb-toast">Protected by KhudKibook – please purchase the original.</div>
+
+  <script type="text/javascript" src="/ru444ts.js?v=2.1" defer></script>
+  <script type="text/javascript" src="/select.js?v=2.1" defer></script>
+  <script type="text/javascript" src="/ad-injector.js?v=2.1" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+(function () {
+  function kbSanitizeMermaid(src) {
+    return String(src || '')
+      .replace(/(-->|\+-->|==>)\s*([A-Za-z0-9_]+)\[([^\]]*)\]\s*\(([^)]*)\)/g, function (m, arrow, id, label, note) {
+        var noteT = (note || '').trim(), labelT = (label || '').trim();
+        var merged = noteT && labelT ? labelT + ' - ' + noteT : (labelT || noteT);
+        return arrow + ' ' + id + '[' + merged + ']';
+      })
+      .replace(/\(\)/g, '')
+      .replace(/[ \t]{2,}/g, ' ');
+  }
+  function init() {
+    if (!window.mermaid) return;
+    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', flowchart: { curve: 'basis', htmlLabels: true } });
+    var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
+    nodes.forEach(function (el) {
+      if (el.dataset.kbRun) return;
+      el.dataset.kbRun = '1';
+      el.textContent = kbSanitizeMermaid(el.textContent);
+      mermaid.run({ nodes: [el] }).catch(function () {
+        el.classList.add('mermaid-failed');
+        el.innerHTML = '<div style="padding:10px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>' + el.innerHTML;
+      });
+    });
+  }
+  if (document.readyState === 'complete') init();
+  else window.addEventListener('load', init);
+  setTimeout(init, 1400);
+  document.addEventListener('DOMContentLoaded', init);
+})();
+</script>
+  <script>
+  (function () {
+    var bar = document.getElementById('kb-progress');
+    function onScroll() {
+      var st = window.scrollY || document.documentElement.scrollTop;
+      var h = (document.documentElement.scrollHeight || document.body.scrollHeight) - window.innerHeight;
+      if (bar && h > 0) bar.style.width = Math.min(100, st / h * 100) + '%';
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    var links = [].slice.call(document.querySelectorAll('.kb-toc a.toc-sec'));
+    var heads = [].slice.call(document.querySelectorAll('.kb-article h2[id],.kb-article h3[id]'));
+    var map = {};
+    heads.forEach(function (s) { map['#' + s.id] = s; });
+    if ('IntersectionObserver' in window && links.length && heads.length) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          var t = '#' + e.target.id;
+          links.forEach(function (a) { a.classList.toggle('toc-active', a.getAttribute('href') === t); });
+        });
+      }, { rootMargin: '-15% 0px -75% 0px' });
+      heads.forEach(function (s) { io.observe(s); });
+    }
+
+    // Add class to body for sticky bottom toolbar behavior
+    var b = document.body;
+    b.classList.add('kb-reader');
+
+    // Mobile chapter drawer toggle
+    var tocDrawer = document.getElementById('kb-mobile-toc');
+    var tocOpen = document.getElementById('kb-toc-open');
+    var tocClose = document.getElementById('kb-toc-close');
+    if (tocOpen && tocDrawer) {
+      tocOpen.addEventListener('click', function () { tocDrawer.classList.add('open'); });
+    }
+    if (tocClose && tocDrawer) {
+      tocClose.addEventListener('click', function () { tocDrawer.classList.remove('open'); });
+    }
+
+    var art = document.querySelector('.kb-book');
+    var toastEl = document.getElementById('kb-toast');
+    function toast() {
+      if (!toastEl) return;
+      toastEl.classList.add('show');
+      clearTimeout(toastEl._h);
+      toastEl._h = setTimeout(function () { toastEl.classList.remove('show'); }, 1600);
+    }
+    function inArt(el) { return art && el && (el === art || art.contains(el)); }
+    document.addEventListener('contextmenu', function (e) { if (inArt(e.target)) { e.preventDefault(); toast(); } });
+    document.addEventListener('copy', function (e) { if (inArt(e.target)) { e.preventDefault(); toast(); } });
+    document.addEventListener('cut', function (e) { if (inArt(e.target)) { e.preventDefault(); toast(); } });
+  })();
+  </script>
+</body>
+</html>

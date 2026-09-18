@@ -106,10 +106,10 @@
   .kb-article .fig-callout{background:var(--bg-soft,#eef1fb);border:1.5px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;padding:14px 16px;margin:14px 0;color:var(--text-secondary,#475569);font-size:.92rem;display:flex;gap:10px;align-items:flex-start}
   .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
   .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
-  .kb-article .mermaid-wrap{margin:16px 0}
-  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-  .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
-  .kb-article .mermaid svg{max-width:100%;height:auto}
+  .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+  .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+  .kb-article .mermaid svg foreignObject{overflow:visible}
   .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted,#64748b)}
   .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
   .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
@@ -153,7 +153,7 @@
     @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in · Mathematics";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
   }
   </style>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Mathematics – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":10829,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Mathematics","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Mathematics – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":10766,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Mathematics","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
   <script>
@@ -204,7 +204,7 @@
       <p class="kb-lead">A clear, exam-oriented self-study book for GTU students. Every chapter is arranged from the official syllabus into simple explanations, worked examples, diagrams, revision points and exam-style questions.</p>
       <div class="kb-front-grid">
         <div><strong>5</strong><span>syllabus units</span></div>
-        <div><strong>10,829</strong><span>study words</span></div>
+        <div><strong>10,766</strong><span>study words</span></div>
         <div><strong>22</strong><span>print pages approx.</span></div>
       </div>
       <h2>How to use this book</h2>
@@ -230,7 +230,7 @@
         <button class="kb-tb-btn kb-desktop-toc-toggle" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
         <button class="kb-tb-btn" id="kb-reader-toggle" type="button"><i class="fas fa-book-open"></i> Page view</button>
         <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~47 min read</span>
-        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 10,829 words</span>
+        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 10,766 words</span>
       </div>
       <div class="kb-tb-group">
         <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
@@ -949,27 +949,27 @@
 <p>Thus, the vector product A × B = 18i - 22j - 17k.</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Scalar Product] --&gt; B[Commutativity]
- A --&gt; C[Distributivity over Vector Addition]
+ A --&gt; C[&quot;Distributivity over&lt;br/&gt;Vector&lt;br/&gt;Addition&quot;]
  A --&gt; D[Scalar Multiplication]
  A --&gt; E[Scalar Product Definition]
  F[Vector Product] --&gt; G[Anti-Commutativity]
- F --&gt; H[Distributivity over Vector Addition]
+ F --&gt; H[&quot;Distributivity over&lt;br/&gt;Vector&lt;br/&gt;Addition&quot;]
  F --&gt; I[Scalar Multiplication]
  F --&gt; J[Vector Product Definition]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Scalar Product] --&gt; B[Commutativity]
- A --&gt; C[Distributivity over Vector Addition]
+ A --&gt; C[&quot;Distributivity over&lt;br/&gt;Vector&lt;br/&gt;Addition&quot;]
  A --&gt; D[Scalar Multiplication]
  A --&gt; E[Scalar Product Definition]
  F[Vector Product] --&gt; G[Anti-Commutativity]
- F --&gt; H[Distributivity over Vector Addition]
+ F --&gt; H[&quot;Distributivity over&lt;br/&gt;Vector&lt;br/&gt;Addition&quot;]
  F --&gt; I[Scalar Multiplication]
  F --&gt; J[Vector Product Definition]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Scalar Product] --&gt; B[Commutativity]
- A --&gt; C[Distributivity over Vector Addition]
+ A --&gt; C[&quot;Distributivity over&lt;br/&gt;Vector&lt;br/&gt;Addition&quot;]
  A --&gt; D[Scalar Multiplication]
  A --&gt; E[Scalar Product Definition]
  F[Vector Product] --&gt; G[Anti-Commutativity]
- F --&gt; H[Distributivity over Vector Addition]
+ F --&gt; H[&quot;Distributivity over&lt;br/&gt;Vector&lt;br/&gt;Addition&quot;]
  F --&gt; I[Scalar Multiplication]
  F --&gt; J[Vector Product Definition]</pre></noscript></div>
 <p>This section covers the essential properties of scalar and vector products, providing a clear understanding of both concepts and their applications.</p>
@@ -1309,28 +1309,28 @@
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
  A[Parallel Lines] --&gt; B[Same Slope]
  A --&gt; C[No Intersection]
- B --&gt; D['Equation of Line: y = mx + c']
- C --&gt; E['Example: 3x - 4y + 12 = 0']
- B --&gt; F['Example: 2x + 3y - 6 = 0']
+ B --&gt; D[&quot;Equation of Line: y = mx + c&quot;]
+ C --&gt; E[&quot;Example: 3x - 4y + 12 = 0&quot;]
+ B --&gt; F[&quot;Example: 2x + 3y - 6 = 0&quot;]
  F --&gt; G[Perpendicular Lines] --&gt; H[Product of Slopes is -1]
- F --&gt; I['Equation of Line: y = mx + c']
- H --&gt; J['Example: 2x + 3y - 6 = 0']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ F --&gt; I[&quot;Equation of Line: y = mx + c&quot;]
+ H --&gt; J[&quot;Example: 2x + 3y - 6 = 0&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
  A[Parallel Lines] --&gt; B[Same Slope]
  A --&gt; C[No Intersection]
- B --&gt; D['Equation of Line: y = mx + c']
- C --&gt; E['Example: 3x - 4y + 12 = 0']
- B --&gt; F['Example: 2x + 3y - 6 = 0']
+ B --&gt; D[&quot;Equation of Line: y = mx + c&quot;]
+ C --&gt; E[&quot;Example: 3x - 4y + 12 = 0&quot;]
+ B --&gt; F[&quot;Example: 2x + 3y - 6 = 0&quot;]
  F --&gt; G[Perpendicular Lines] --&gt; H[Product of Slopes is -1]
- F --&gt; I['Equation of Line: y = mx + c']
- H --&gt; J['Example: 2x + 3y - 6 = 0']</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ F --&gt; I[&quot;Equation of Line: y = mx + c&quot;]
+ H --&gt; J[&quot;Example: 2x + 3y - 6 = 0&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart LR
  A[Parallel Lines] --&gt; B[Same Slope]
  A --&gt; C[No Intersection]
- B --&gt; D['Equation of Line: y = mx + c']
- C --&gt; E['Example: 3x - 4y + 12 = 0']
- B --&gt; F['Example: 2x + 3y - 6 = 0']
+ B --&gt; D[&quot;Equation of Line: y = mx + c&quot;]
+ C --&gt; E[&quot;Example: 3x - 4y + 12 = 0&quot;]
+ B --&gt; F[&quot;Example: 2x + 3y - 6 = 0&quot;]
  F --&gt; G[Perpendicular Lines] --&gt; H[Product of Slopes is -1]
- F --&gt; I['Equation of Line: y = mx + c']
- H --&gt; J['Example: 2x + 3y - 6 = 0']</pre></noscript></div>
+ F --&gt; I[&quot;Equation of Line: y = mx + c&quot;]
+ H --&gt; J[&quot;Example: 2x + 3y - 6 = 0&quot;]</pre></noscript></div>
 <p>This section covers the condition for parallel lines, solving problems involving parallel lines, and finding equations of perpendicular lines, all tailored to the given syllabus requirements.</p>
 <hr />
 <h3 id="u4-sec-4-5-angle-between-two-lines">4.5. Angle between two lines.</h3>
@@ -1369,16 +1369,16 @@
 </ol>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Lines] --&gt; B['Parallel Lines: m₁ = m₂']
- A --&gt; C['Perpendicular Lines: m₁ · m₂ = -1']
+ A[Lines] --&gt; B[&quot;Parallel Lines: m₁ = m₂&quot;]
+ A --&gt; C[&quot;Perpendicular Lines: m₁ ·&lt;br/&gt;m₂&lt;br/&gt;= -1&quot;]
  B --&gt; D[Equal Slopes]
  C --&gt; E[Reciprocal and Opposite Slopes]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Lines] --&gt; B['Parallel Lines: m₁ = m₂']
- A --&gt; C['Perpendicular Lines: m₁ · m₂ = -1']
+ A[Lines] --&gt; B[&quot;Parallel Lines: m₁ = m₂&quot;]
+ A --&gt; C[&quot;Perpendicular Lines: m₁ ·&lt;br/&gt;m₂&lt;br/&gt;= -1&quot;]
  B --&gt; D[Equal Slopes]
  C --&gt; E[Reciprocal and Opposite Slopes]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Lines] --&gt; B['Parallel Lines: m₁ = m₂']
- A --&gt; C['Perpendicular Lines: m₁ · m₂ = -1']
+ A[Lines] --&gt; B[&quot;Parallel Lines: m₁ = m₂&quot;]
+ A --&gt; C[&quot;Perpendicular Lines: m₁ ·&lt;br/&gt;m₂&lt;br/&gt;= -1&quot;]
  B --&gt; D[Equal Slopes]
  C --&gt; E[Reciprocal and Opposite Slopes]</pre></noscript></div>
 <h3 id="u4-sec-4-6-equation-of-circle-with-center-and-radius">4.6. Equation of Circle with Center and Radius</h3>
@@ -1416,21 +1416,21 @@
 <p>]</p>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Circle Equation] --&gt; B['Standard Form: (x - h)² + (y - k)² = r²']
- B --&gt; C['Identify Center (h, k)']
+ A[Circle Equation] --&gt; B[&quot;Standard Form: (x - h)² +&lt;br/&gt;(y&lt;br/&gt;- k)² = r²&quot;]
+ B --&gt; C[&quot;Identify Center (h, k)&quot;]
  C --&gt; D[Identify Radius r]
  D --&gt; E[Substitute into Standard Form]
- E --&gt; F['Equation: (x - 3)² + (y + 2)² = 25']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Circle Equation] --&gt; B['Standard Form: (x - h)² + (y - k)² = r²']
- B --&gt; C['Identify Center (h, k)']
+ E --&gt; F[&quot;Equation: (x - 3)² + (y&lt;br/&gt;+&lt;br/&gt;2)² = 25&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Circle Equation] --&gt; B[&quot;Standard Form: (x - h)² +&lt;br/&gt;(y&lt;br/&gt;- k)² = r²&quot;]
+ B --&gt; C[&quot;Identify Center (h, k)&quot;]
  C --&gt; D[Identify Radius r]
  D --&gt; E[Substitute into Standard Form]
- E --&gt; F['Equation: (x - 3)² + (y + 2)² = 25']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Circle Equation] --&gt; B['Standard Form: (x - h)² + (y - k)² = r²']
- B --&gt; C['Identify Center (h, k)']
+ E --&gt; F[&quot;Equation: (x - 3)² + (y&lt;br/&gt;+&lt;br/&gt;2)² = 25&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Circle Equation] --&gt; B[&quot;Standard Form: (x - h)² +&lt;br/&gt;(y&lt;br/&gt;- k)² = r²&quot;]
+ B --&gt; C[&quot;Identify Center (h, k)&quot;]
  C --&gt; D[Identify Radius r]
  D --&gt; E[Substitute into Standard Form]
- E --&gt; F['Equation: (x - 3)² + (y + 2)² = 25']</pre></noscript></div>
+ E --&gt; F[&quot;Equation: (x - 3)² + (y&lt;br/&gt;+&lt;br/&gt;2)² = 25&quot;]</pre></noscript></div>
 <p>This section covers the essential concepts and provides worked examples to help students apply these concepts effectively.</p>
 <hr />
 <h3 id="u4-sec-4-7-general-equation-of-circle">4.7. General equation of circle.</h3>
@@ -1615,35 +1615,35 @@
 <p>To visualize the process of applying standard formulae, consider the following flowchart:</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Identify the type of function] --&gt; B[Polynomial Function]
- B --&gt; C['Use \lim_{x \to a} P(x) = P(a)']
+ B --&gt; C[&quot;Use \lim_{x \to a} P(x)&lt;br/&gt;=&lt;br/&gt;P(a)&quot;]
  A --&gt; D[Rational Function]
- D --&gt; E['Use \lim_{x \to a} (P(x)/Q(x)) = P(a)/Q(a)']
+ D --&gt; E[&quot;Use \lim_{x \to&lt;br/&gt;a}&lt;br/&gt;(P(x)/Q(x)) =&lt;br/&gt;P(a)/Q(a)&quot;]
  A --&gt; F[Trigonometric Function]
- F --&gt; G['Use \lim_{x \to 0} (sin x / x) = 1']
+ F --&gt; G[&quot;Use \lim_{x \to 0} (sin x&lt;br/&gt;/&lt;br/&gt;x) = 1&quot;]
  A --&gt; H[Exponential Function]
- H --&gt; I['Use \lim_{x \to 0} ((e^x - 1) / x) = 1']
+ H --&gt; I[&quot;Use \lim_{x \to 0} ((e^x&lt;br/&gt;-&lt;br/&gt;1) / x) = 1&quot;]
  A --&gt; J[Logarithmic Function]
- J --&gt; K['Use \lim_{x \to 0^+} (x ln x) = 0']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ J --&gt; K[&quot;Use \lim_{x \to 0^+} (x&lt;br/&gt;ln&lt;br/&gt;x) = 0&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Identify the type of function] --&gt; B[Polynomial Function]
- B --&gt; C['Use \lim_{x \to a} P(x) = P(a)']
+ B --&gt; C[&quot;Use \lim_{x \to a} P(x)&lt;br/&gt;=&lt;br/&gt;P(a)&quot;]
  A --&gt; D[Rational Function]
- D --&gt; E['Use \lim_{x \to a} (P(x)/Q(x)) = P(a)/Q(a)']
+ D --&gt; E[&quot;Use \lim_{x \to&lt;br/&gt;a}&lt;br/&gt;(P(x)/Q(x)) =&lt;br/&gt;P(a)/Q(a)&quot;]
  A --&gt; F[Trigonometric Function]
- F --&gt; G['Use \lim_{x \to 0} (sin x / x) = 1']
+ F --&gt; G[&quot;Use \lim_{x \to 0} (sin x&lt;br/&gt;/&lt;br/&gt;x) = 1&quot;]
  A --&gt; H[Exponential Function]
- H --&gt; I['Use \lim_{x \to 0} ((e^x - 1) / x) = 1']
+ H --&gt; I[&quot;Use \lim_{x \to 0} ((e^x&lt;br/&gt;-&lt;br/&gt;1) / x) = 1&quot;]
  A --&gt; J[Logarithmic Function]
- J --&gt; K['Use \lim_{x \to 0^+} (x ln x) = 0']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ J --&gt; K[&quot;Use \lim_{x \to 0^+} (x&lt;br/&gt;ln&lt;br/&gt;x) = 0&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Identify the type of function] --&gt; B[Polynomial Function]
- B --&gt; C['Use \lim_{x \to a} P(x) = P(a)']
+ B --&gt; C[&quot;Use \lim_{x \to a} P(x)&lt;br/&gt;=&lt;br/&gt;P(a)&quot;]
  A --&gt; D[Rational Function]
- D --&gt; E['Use \lim_{x \to a} (P(x)/Q(x)) = P(a)/Q(a)']
+ D --&gt; E[&quot;Use \lim_{x \to&lt;br/&gt;a}&lt;br/&gt;(P(x)/Q(x)) =&lt;br/&gt;P(a)/Q(a)&quot;]
  A --&gt; F[Trigonometric Function]
- F --&gt; G['Use \lim_{x \to 0} (sin x / x) = 1']
+ F --&gt; G[&quot;Use \lim_{x \to 0} (sin x&lt;br/&gt;/&lt;br/&gt;x) = 1&quot;]
  A --&gt; H[Exponential Function]
- H --&gt; I['Use \lim_{x \to 0} ((e^x - 1) / x) = 1']
+ H --&gt; I[&quot;Use \lim_{x \to 0} ((e^x&lt;br/&gt;-&lt;br/&gt;1) / x) = 1&quot;]
  A --&gt; J[Logarithmic Function]
- J --&gt; K['Use \lim_{x \to 0^+} (x ln x) = 0']</pre></noscript></div>
+ J --&gt; K[&quot;Use \lim_{x \to 0^+} (x&lt;br/&gt;ln&lt;br/&gt;x) = 0&quot;]</pre></noscript></div>
 <p>This flowchart helps in quickly identifying the appropriate standard formula for the given function type.</p>
 <h4>5.2.6. Summary</h4>
 <p>In this section, we have covered the standard formulae of limits and their application in solving problems. By recognizing the type of function and applying the correct formula, you can efficiently find limits. Practice these formulae and their applications to ensure a strong foundation in limit evaluation.</p>
@@ -1739,13 +1739,23 @@
   }
   function init() {
     if (!window.mermaid) return;
-    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', flowchart: { curve: 'basis', htmlLabels: true } });
+    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', securityLevel: 'strict', flowchart: { curve: 'basis', htmlLabels: true, useMaxWidth: true, nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
     var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
     nodes.forEach(function (el) {
       if (el.dataset.kbRun) return;
       el.dataset.kbRun = '1';
       el.textContent = kbSanitizeMermaid(el.textContent);
-      mermaid.run({ nodes: [el] }).catch(function () {
+      mermaid.run({ nodes: [el] }).then(function () {
+        var svg = el.querySelector('svg');
+        if (!svg) return;
+        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        svg.setAttribute('width', '100%');
+        svg.removeAttribute('height');
+        svg.style.width = '100%';
+        svg.style.height = 'auto';
+        svg.style.maxWidth = '100%';
+        svg.style.overflow = 'visible';
+      }).catch(function () {
         el.classList.add('mermaid-failed');
         el.innerHTML = '<div style="padding:10px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>' + el.innerHTML;
       });

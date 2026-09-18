@@ -6,8 +6,8 @@
  "title": "Unit – DESIGN",
  "url": "/books/310004/unit-6.html",
  "guUrl": null,
- "words": 1542,
- "readingMin": 9,
+ "words": 1529,
+ "readingMin": 8,
  "marks": "",
  "sections": [
   {
@@ -64,18 +64,20 @@
   {
    "heading": "Step 3: Design the Geometry",
    "id": "",
-   "html": "<p>The implant is designed as a cylindrical shape with a diameter of 3.5 mm and a length of 10 mm. The cross-sectional area (A) of the implant is calculated as:</p>\n<p>\\[ A = \\pi \\left(\\frac{d}{2}\\right)^2 = \\pi \\left(\\frac{3.5}{2}\\right)^2 = 9.62 \\, \\text{mm}^2 \\]</p>",
+   "html": "<p>The implant is designed as a cylindrical shape with a diameter of 3.5 mm and a length of 10 mm. The cross-sectional area (A) of the implant is calculated as:</p>\n<p>A = π ((d / 2))² = π ((3.5 / 2))² = 9.62 \\, mm²</p>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Step 4: Stress Analysis",
    "id": "",
-   "html": "<p>The stress (σ) in the implant can be calculated using the formula:</p>\n<p>\\[ \\sigma = \\frac{F}{A} \\]</p>\n<p>where \\( F \\) is the applied force (200 N) and \\( A \\) is the cross-sectional area (9.62 mm²).</p>\n<p>\\[ \\sigma = \\frac{200 \\, \\text{N}}{9.62 \\, \\text{mm}^2} = 20.78 \\, \\text{MPa} \\]</p>\n<p>This stress is within the safe limit for titanium, ensuring the implant will not fail under normal usage.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Consider a dental implant with a diameter of 3.5 mm and a length of 10 mm. If the applied force is 200 N, the stress in the implant is calculated as:<br /><br />```mermaid<br />flowchart LR<br />A[Stress Calculation] --> B[Stress = 200 N / 9.62 mm²]<br />B --> C[Stress = 20.78 MPa]<br />```</div>",
+   "html": "<p>The stress (σ) in the implant can be calculated using the formula:</p>\n<p>σ = (F / A)</p>\n<p>where F is the applied force (200 N) and A is the cross-sectional area (9.62 mm²).</p>\n<p>σ = (200 \\, N / 9.62 \\, mm²) = 20.78 \\, MPa</p>\n<p>This stress is within the safe limit for titanium, ensuring the implant will not fail under normal usage.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Consider a dental implant with a diameter of 3.5 mm and a length of 10 mm. If the applied force is 200 N, the stress in the implant is calculated as:<br /></div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Stress Calculation] --&gt; B['Stress = 200 N / 9.62 mm²']\n B --&gt; C[Stress = 20.78 MPa]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Stress Calculation] --&gt; B['Stress = 200 N / 9.62 mm²']\n B --&gt; C[Stress = 20.78 MPa]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Stress Calculation] --&gt; B['Stress = 200 N / 9.62 mm²']\n B --&gt; C[Stress = 20.78 MPa]</pre></noscript></div>",
    "examples": [
-    "Consider a dental implant with a diameter of 3.5 mm and a length of 10 mm. If the applied force is 200 N, the stress in the implant is calculated as: ```mermaid flowchart LR A[Stress Calculation] --> B[Stress = 200 N / 9.62 mm²] B --> C[Stress = 20.78 MPa] ```"
+    "Consider a dental implant with a diameter of 3.5 mm and a length of 10 mm. If the applied force is 200 N, the stress in the implant is calculated as:"
    ],
-   "mermaid": []
+   "mermaid": [
+    "flowchart LR\n A[Stress Calculation] --> B[\"Stress = 200 N / 9.62 mm²\"]\n B --> C[Stress = 20.78 MPa]"
+   ]
   },
   {
    "heading": "Summary",
@@ -104,7 +106,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Problem Identification and Analysis] --&gt; B[Requirement Specification]\n B --&gt; C[Conceptual Design]\n C --&gt; D[Prototype Development]\n D --&gt; E[Testing and Validation]\n E --&gt; F[Final Design and Production]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Problem Identification and Analysis] --&gt; B[Requirement Specification]\n B --&gt; C[Conceptual Design]\n C --&gt; D[Prototype Development]\n D --&gt; E[Testing and Validation]\n E --&gt; F[Final Design and Production]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Problem Identification and Analysis] --&gt; B[Requirement Specification]\n B --&gt; C[Conceptual Design]\n C --&gt; D[Prototype Development]\n D --&gt; E[Testing and Validation]\n E --&gt; F[Final Design and Production]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Problem Identification and Analysis] --> B[Requirement Specification]\n    B --> C[Conceptual Design]\n    C --> D[Prototype Development]\n    D --> E[Testing and Validation]\n    E --> F[Final Design and Production]"
+    "flowchart TD\n A[Problem Identification and Analysis] --> B[Requirement Specification]\n B --> C[Conceptual Design]\n C --> D[Prototype Development]\n D --> E[Testing and Validation]\n E --> F[Final Design and Production]"
    ]
   },
   {
@@ -161,7 +163,7 @@
    "html": "<p>To illustrate the process of reducing and enlargement of design, we can use a simple flowchart:</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Anatomical Space] --&gt; B[Design Too Large] --&gt; C[Reduce Design]\n A --&gt; D[Design Too Small] --&gt; E[Enlarge Design]\n C --&gt; F[New Reduced Dimensions]\n E --&gt; G[New Enlarged Dimensions]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Anatomical Space] --&gt; B[Design Too Large] --&gt; C[Reduce Design]\n A --&gt; D[Design Too Small] --&gt; E[Enlarge Design]\n C --&gt; F[New Reduced Dimensions]\n E --&gt; G[New Enlarged Dimensions]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Anatomical Space] --&gt; B[Design Too Large] --&gt; C[Reduce Design]\n A --&gt; D[Design Too Small] --&gt; E[Enlarge Design]\n C --&gt; F[New Reduced Dimensions]\n E --&gt; G[New Enlarged Dimensions]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Anatomical Space] --> B[Design Too Large] --> C[Reduce Design]\n    A --> D[Design Too Small] --> E[Enlarge Design]\n    C --> F[New Reduced Dimensions]\n    E --> G[New Enlarged Dimensions]"
+    "flowchart TD\n A[Anatomical Space] --> B[Design Too Large] --> C[Reduce Design]\n A --> D[Design Too Small] --> E[Enlarge Design]\n C --> F[New Reduced Dimensions]\n E --> G[New Enlarged Dimensions]"
    ]
   },
   {

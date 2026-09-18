@@ -21,15 +21,33 @@
   .kb-progress-bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#4f46e5,#7c3aed);z-index:1200;transition:width .1s linear}
 
   /* ---------- Book cover (reader-style) ---------- */
-  .kb-book-cover{background:linear-gradient(135deg,#312e81 0%,#4f46e5 45%,#7c3aed 100%);border-radius:20px;color:#fff;padding:0;margin:18px 0 24px;box-shadow:0 20px 44px rgba(79,70,229,.32);overflow:hidden;position:relative}
+  .kb-book-cover{background:linear-gradient(135deg,var(--kb-accent,#312e81) 0%,var(--kb-accent-2,#4f46e5) 100%);border-radius:20px;color:#fff;padding:0;margin:18px 0 24px;box-shadow:0 20px 44px color-mix(in srgb,var(--kb-accent,#4f46e5) 32%,transparent);overflow:hidden;position:relative;min-height:520px;display:flex;align-items:center}
   .kb-book-cover::before{content:"";position:absolute;inset:0;background:radial-gradient(1200px 400px at 85% -10%,rgba(255,255,255,.18),transparent 60%),radial-gradient(600px 300px at 0% 110%,rgba(124,58,237,.5),transparent 55%);pointer-events:none}
-  .kb-cover-inner{position:relative;padding:44px 40px 38px;text-align:center}
+  .kb-cover-inner{position:relative;padding:52px 40px 44px;text-align:center;width:100%;z-index:2}
+  .kb-brand-lockup{display:inline-flex;align-items:center;gap:8px;font-weight:800;letter-spacing:.18em;font-size:.78rem;margin-bottom:22px}
+  .kb-brand-mark{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:10px;background:#fff;color:var(--kb-accent,#4338ca);font-size:.72rem;letter-spacing:-.04em}
   .kb-cover-kicker{font-size:.74rem;letter-spacing:.28em;text-transform:uppercase;opacity:.8;font-weight:700;margin-bottom:16px}
+  .kb-cover-subject-icon{font-size:4rem;line-height:1;margin:0 auto 16px;text-shadow:0 8px 30px rgba(0,0,0,.25)}
   .kb-cover-title{font-family:'Outfit',sans-serif;font-size:clamp(1.7rem,4.5vw,2.8rem);font-weight:800;line-height:1.16;letter-spacing:-.01em}
   .kb-cover-rule{width:64px;height:3px;border-radius:99px;background:rgba(255,255,255,.7);margin:18px auto}
   .kb-cover-meta{font-size:.95rem;font-weight:600;opacity:.94;margin-top:2px}
   .kb-cover-units{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-size:.82rem;font-weight:700;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.32);padding:7px 16px;border-radius:999px}
+  .kb-cover-topics{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin:18px auto 0;max-width:720px}
+  .kb-cover-topic{font-size:.72rem;padding:5px 9px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .kb-cover-badge{margin-top:18px;display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:600;background:rgba(0,0,0,.22);padding:8px 16px;border-radius:999px}
+  .kb-motif{position:absolute;inset:0;opacity:.24;pointer-events:none}
+  .kb-motif-grid{background-image:linear-gradient(rgba(255,255,255,.35) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.35) 1px,transparent 1px);background-size:34px 34px;transform:perspective(420px) rotateX(58deg) translateY(45%);transform-origin:center bottom}
+  .kb-motif-wave{position:absolute;right:4%;bottom:7%;font-size:7rem;letter-spacing:-.35em;transform:rotate(-12deg);white-space:nowrap}
+  .kb-motif-gear{position:absolute;right:5%;top:8%;font-size:12rem;opacity:.16}
+  .kb-motif-blueprint{position:absolute;right:5%;bottom:5%;font-size:6rem;letter-spacing:1.2rem}
+  .kb-motif-circuit i,.kb-motif-circuit b,.kb-motif-molecule i,.kb-motif-molecule b{position:absolute;display:block;border-radius:50%;background:#fff;box-shadow:0 0 0 8px rgba(255,255,255,.08)}
+  .kb-motif-circuit i:nth-child(1),.kb-motif-molecule i:nth-child(1){width:14px;height:14px;left:10%;top:22%}.kb-motif-circuit i:nth-child(2),.kb-motif-molecule i:nth-child(2){width:10px;height:10px;right:14%;top:32%}.kb-motif-circuit i:nth-child(3),.kb-motif-molecule i:nth-child(3){width:18px;height:18px;right:24%;bottom:14%}
+  .kb-motif-circuit b,.kb-motif-molecule b{height:2px;width:40%;border-radius:0;opacity:.75}.kb-motif-circuit b:nth-of-type(1){left:10%;top:24%;transform:rotate(18deg)}.kb-motif-circuit b:nth-of-type(2){right:18%;top:34%;transform:rotate(48deg)}
+  .kb-motif-molecule b{width:24%;left:20%;top:46%;transform:rotate(-28deg)}.kb-motif-molecule b:nth-of-type(2){left:57%;top:46%;transform:rotate(28deg)}
+  .kb-paper{background:#fff;border:1px solid var(--border,#e5e9f2);border-radius:16px;padding:34px 38px;margin:0 0 22px;box-shadow:0 1px 3px rgba(15,23,42,.08);line-height:1.7;position:relative}
+  .kb-paper::after{content:"";position:absolute;inset:10px;border:1px solid rgba(79,70,229,.08);border-radius:11px;pointer-events:none}
+  .kb-brand-page-mark{font-size:.72rem;font-weight:800;letter-spacing:.18em;color:var(--kb-accent,#4338ca);margin-bottom:28px}.kb-brand-page-mark span{color:#94a3b8;font-weight:600;margin-left:8px}
+  .kb-eyebrow{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;font-weight:800;color:var(--kb-accent,#4338ca);margin-bottom:6px}.kb-paper h1,.kb-paper h2{font-family:'Outfit',sans-serif;color:#1e1b4b}.kb-paper h1{font-size:2rem;margin:0 0 12px}.kb-paper h2{font-size:1.35rem;border-bottom:2px solid #eef1fb;padding-bottom:8px;margin:24px 0 10px}.kb-paper h3{font-size:1.05rem;margin:22px 0 8px}.kb-lead{font-size:1.05rem;color:#475569;max-width:760px}.kb-muted{color:#64748b}.kb-front-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}.kb-front-grid div{border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fafc}.kb-front-grid strong{display:block;font-size:1.35rem;color:var(--kb-accent,#4338ca)}.kb-front-grid span{font-size:.78rem;color:#64748b}.kb-reading-steps{padding-left:22px}.kb-disclaimer{border-left:4px solid #f59e0b;background:#fffbeb;padding:12px 14px;border-radius:0 10px 10px 0;font-size:.86rem;color:#78350f;margin-top:22px}.kb-syllabus-table{width:100%;border-collapse:collapse;font-size:.88rem}.kb-syllabus-table th,.kb-syllabus-table td{border:1px solid #e2e8f0;padding:9px;text-align:left;vertical-align:top}.kb-syllabus-table th{background:#f1f5f9;color:#1e293b}.kb-keyword-row{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.kb-keyword-row .kb-cover-topic{color:var(--kb-accent,#4338ca);background:#eef2ff;border-color:#c7d2fe}
 
   /* ---------- Toolbar ---------- */
   .kb-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;justify-content:space-between;margin:0 0 18px}
@@ -37,6 +55,7 @@
   .kb-tb-btn,.kb-print-btn{display:inline-flex;gap:8px;align-items:center;background:#fff;color:var(--accent,#4f46e5);border:1px solid var(--border,#e5e9f2);padding:9px 15px;border-radius:999px;font-weight:700;font-size:.82rem;text-decoration:none;box-shadow:0 1px 3px rgba(15,23,42,.08);transition:.15s}
   .kb-tb-btn:hover,.kb-print-btn:hover{transform:translateY(-1px);border-color:var(--border-accent,rgba(79,70,229,.35));box-shadow:0 6px 16px rgba(15,23,42,.12)}
   .kb-tb-stat{display:inline-flex;gap:8px;align-items:center;background:#fff;border:1px solid var(--border,#e5e9f2);padding:9px 14px;border-radius:999px;font-weight:600;font-size:.82rem;color:var(--text-secondary,#475569);box-shadow:0 1px 3px rgba(15,23,42,.08)}
+  .kb-page-controls{display:flex;align-items:center;justify-content:center;gap:14px;margin:0 0 18px}.kb-page-label{font-size:.82rem;font-weight:800;color:#64748b;min-width:110px;text-align:center}
 
   /* ---------- Mobile chapter drawer ---------- */
   #kb-mobile-toc{position:fixed;inset:0;background:rgba(15,23,42,.5);backdrop-filter:blur(2px);z-index:1500;opacity:0;pointer-events:none;transition:.25s}
@@ -95,6 +114,7 @@
   .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
   .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
   .kb-unit{margin-bottom:26px}
+  .kb-page-mode .kb-articles{perspective:1600px}.kb-page-mode .kb-unit{display:none;min-height:72vh;margin-bottom:0;animation-duration:.42s;animation-fill-mode:both}.kb-page-mode .kb-unit.kb-page-active{display:block}.kb-page-mode .kb-unit.kb-turn-next{animation-name:kbTurnNext}.kb-page-mode .kb-unit.kb-turn-prev{animation-name:kbTurnPrev}@keyframes kbTurnNext{from{opacity:0;transform:rotateY(-7deg) translateX(26px)}to{opacity:1;transform:none}}@keyframes kbTurnPrev{from{opacity:0;transform:rotateY(7deg) translateX(-26px)}to{opacity:1;transform:none}}.kb-page-mode .kb-front-matter{display:none}.kb-page-mode .kb-book-cover{min-height:300px}.kb-page-mode .kb-unit{box-shadow:0 12px 30px rgba(15,23,42,.09);border-top:5px solid var(--kb-accent,#4338ca)}.kb-page-mode .kb-page-controls{position:sticky;bottom:12px;z-index:3;background:rgba(246,248,252,.92);padding:10px;border-radius:999px;backdrop-filter:blur(8px)}
   .kb-notice{display:flex;gap:10px;background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:12px;padding:12px 14px;font-size:.86rem;margin:22px 0 0;line-height:1.55}
   .kb-notice i{color:#ea580c;margin-top:3px}
   .kb-toast{position:fixed;bottom:66px;left:50%;transform:translateX(-50%) translateY(20px);background:#111827;color:#fff;padding:9px 16px;border-radius:999px;font-size:.82rem;font-weight:600;opacity:0;pointer-events:none;transition:.25s;z-index:1300}
@@ -105,6 +125,7 @@
     .kb-layout{grid-template-columns:1fr}
     .kb-toc{display:none}
     .kb-article{padding:20px 18px}
+    .kb-paper{padding:26px 20px}.kb-front-grid{grid-template-columns:1fr}.kb-page-controls{gap:7px}.kb-page-label{font-size:.75rem;min-width:84px}.kb-cover-inner{padding:42px 20px}.kb-book-cover{min-height:470px}
     /* show mobile chapter button */
     .kb-desktop-toc-toggle{display:inline-flex!important}
   }
@@ -149,7 +170,7 @@
     })(window, document, "clarity", "script", "yha6xlt986");
   </script>
 </head>
-<body>
+<body style="--kb-accent:#2563eb;--kb-accent-2:#7c3aed;" data-kb-theme="digital">
   <nav id="nav" class="navbar-root no-print"></nav>
   <div class="kb-progress-bar" id="kb-progress"></div>
 
@@ -162,25 +183,64 @@
 
       
     <div class="kb-book-cover">
+      <span class="kb-motif kb-motif-circuit" aria-hidden="true"><i></i><i></i><i></i><b></b><b></b></span>
       <div class="kb-cover-inner">
-        <div class="kb-cover-kicker">KHUDKIBOOK · GTU AI SELF-STUDY BOOK</div>
+        <div class="kb-brand-lockup"><span class="kb-brand-mark">KB</span><span>KHUDKIBOOK</span></div>
+        <div class="kb-cover-kicker">GTU DIGITAL · AI SELF-STUDY BOOK</div>
+        <div class="kb-cover-subject-icon">⌘</div>
         <div class="kb-cover-title">Communication Skills in English</div>
         <div class="kb-cover-rule"></div>
         <div class="kb-cover-meta">Subject Code 4300002 · Gujarat Technological University Artificial Intelligence and Data Science Semester 1</div>
         <div class="kb-cover-units">Complete Study Book · 5 Units</div>
+        <div class="kb-cover-topics"><span class="kb-cover-topic">Theory of Communi- cation</span><span class="kb-cover-topic">Concept of effective communication and communication skills</span><span class="kb-cover-topic">Basic communication model(S+M+C+R+F)</span><span class="kb-cover-topic">Types of communication</span><span class="kb-cover-topic">Barriers of effective communication</span><span class="kb-cover-topic">Grammar</span><span class="kb-cover-topic">Parts of Speech Noun, Pronoun, Verb, Adjective, Adverb and Interjection- Meaning and Examples (Recapitulation) Prepositions- In, into, On, At, for, Since, between, among, to, towards Connectors - If, Unless, Otherwise, Because, Therefore, Who, Which, Where, When, Why.</span></div>
         <div class="kb-cover-badge"><i class="fas fa-robot"></i> AI-generated study material · cross-check with official syllabus</div>
       </div>
     </div>
+    
+    <section class="kb-front-matter kb-paper" id="kb-overview">
+      <div class="kb-brand-page-mark">KHUDKIBOOK <span>STUDENT EDITION</span></div>
+      <p class="kb-eyebrow">About this book</p>
+      <h1>Communication Skills in English</h1>
+      <p class="kb-lead">A clear, exam-oriented self-study book for GTU students. Every chapter is arranged from the official syllabus into simple explanations, worked examples, diagrams, revision points and exam-style questions.</p>
+      <div class="kb-front-grid">
+        <div><strong>5</strong><span>syllabus units</span></div>
+        <div><strong>15,643</strong><span>study words</span></div>
+        <div><strong>32</strong><span>print pages approx.</span></div>
+      </div>
+      <h2>How to use this book</h2>
+      <ol class="kb-reading-steps">
+        <li>Read the unit overview before starting a chapter.</li>
+        <li>Study the worked examples and diagrams, then attempt the unit-end questions.</li>
+        <li>Use the page-turn reader for focused study or download the watermarked PDF for offline revision.</li>
+        <li>Always verify formulas, standards and exam requirements against the official GTU syllabus and prescribed textbooks.</li>
+      </ol>
+      <div class="kb-disclaimer"><strong>Academic note:</strong> This is a KhudKibook learning aid, not an official GTU publication. It is designed to make syllabus-aligned study easier, not to replace official references.</div>
+    </section>
+    <section class="kb-front-matter kb-paper" id="kb-syllabus">
+      <p class="kb-eyebrow">At a glance</p>
+      <h2>Syllabus and learning map</h2>
+      <p class="kb-muted">The chapters below are generated from the syllabus definition stored for subject code <strong>4300002</strong>.</p>
+      <table class="kb-syllabus-table"><thead><tr><th>Unit</th><th>Coverage</th><th>Weight / marks</th></tr></thead><tbody><tr><td>Unit 1</td><td>Theory of Communi- cation</td><td>As per GTU syllabus</td></tr><tr><td>Unit 2</td><td>Grammar</td><td>As per GTU syllabus</td></tr><tr><td>Unit 3</td><td>Prose and Poetry</td><td>As per GTU syllabus</td></tr><tr><td>Unit 4</td><td>Techniques of Writing</td><td>As per GTU syllabus</td></tr><tr><td>Unit 5</td><td>Mechanics of Speaking</td><td>As per GTU syllabus</td></tr></tbody></table>
+      
+      <div class="kb-keyword-row"><span class="kb-cover-topic">Theory of Communi- cation</span><span class="kb-cover-topic">Concept of effective communication and communication skills</span><span class="kb-cover-topic">Basic communication model(S+M+C+R+F)</span><span class="kb-cover-topic">Types of communication</span><span class="kb-cover-topic">Barriers of effective communication</span><span class="kb-cover-topic">Grammar</span><span class="kb-cover-topic">Parts of Speech Noun, Pronoun, Verb, Adjective, Adverb and Interjection- Meaning and Examples (Recapitulation) Prepositions- In, into, On, At, for, Since, between, among, to, towards Connectors - If, Unless, Otherwise, Because, Therefore, Who, Which, Where, When, Why.</span></div>
+    </section>
 
     <div class="kb-toolbar no-print">
       <div class="kb-tb-group">
         <button class="kb-tb-btn kb-desktop-toc-toggle" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
+        <button class="kb-tb-btn" id="kb-reader-toggle" type="button"><i class="fas fa-book-open"></i> Page view</button>
         <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~81 min read</span>
         <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 15,643 words</span>
       </div>
       <div class="kb-tb-group">
         <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
       </div>
+    </div>
+
+    <div class="kb-page-controls no-print" id="kb-page-controls" aria-label="Book page controls">
+      <button class="kb-tb-btn" id="kb-page-prev" type="button"><i class="fas fa-arrow-left"></i> Previous page</button>
+      <span id="kb-page-label" class="kb-page-label">Page 1 of 5</span>
+      <button class="kb-tb-btn" id="kb-page-next" type="button">Next page <i class="fas fa-arrow-right"></i></button>
     </div>
 
     <div class="kb-mobile-toggle-bar no-print">
@@ -1873,6 +1933,54 @@
     // Add class to body for sticky bottom toolbar behavior
     var b = document.body;
     b.classList.add('kb-reader');
+
+    // Reader mode turns chapters into substantial, book-like pages. The
+    // regular continuous layout remains the default for accessibility and
+    // printing; the toggle is a progressive enhancement for screen reading.
+    var readerToggle = document.getElementById('kb-reader-toggle');
+    var pageControls = document.getElementById('kb-page-controls');
+    var pages = [].slice.call(document.querySelectorAll('.kb-articles .kb-unit'));
+    var pageIndex = Math.max(0, Math.min(pages.length - 1, Number(localStorage.getItem('kb:' + "4300002" + ':page') || 0)));
+    var pageMode = false;
+    function paintPage(direction) {
+      if (!pages.length) return;
+      pages.forEach(function (p, i) { p.classList.toggle('kb-page-active', i === pageIndex); p.classList.remove('kb-turn-next', 'kb-turn-prev'); });
+      var current = pages[pageIndex];
+      if (current) { current.classList.add(direction === 'prev' ? 'kb-turn-prev' : 'kb-turn-next'); current.setAttribute('tabindex', '-1'); current.focus({ preventScroll: true }); }
+      var label = document.getElementById('kb-page-label');
+      if (label) label.textContent = 'Chapter ' + (pageIndex + 1) + ' of ' + pages.length;
+      var prev = document.getElementById('kb-page-prev'), next = document.getElementById('kb-page-next');
+      if (prev) prev.disabled = pageIndex === 0;
+      if (next) next.disabled = pageIndex === pages.length - 1;
+      localStorage.setItem('kb:' + "4300002" + ':page', String(pageIndex));
+    }
+    function setPageMode(on) {
+      pageMode = !!on;
+      b.classList.toggle('kb-page-mode', pageMode);
+      if (readerToggle) {
+        readerToggle.innerHTML = pageMode ? '<i class="fas fa-scroll"></i> Continuous view' : '<i class="fas fa-book-open"></i> Page view';
+        readerToggle.setAttribute('aria-pressed', pageMode ? 'true' : 'false');
+      }
+      if (pageControls) pageControls.style.display = pageMode ? 'flex' : 'none';
+      if (pageMode) paintPage('next');
+      else pages.forEach(function (p) { p.classList.add('kb-page-active'); p.removeAttribute('tabindex'); });
+    }
+    if (pageControls) pageControls.style.display = 'none';
+    if (readerToggle) readerToggle.addEventListener('click', function () { setPageMode(!pageMode); });
+    var prevBtn = document.getElementById('kb-page-prev'), nextBtn = document.getElementById('kb-page-next');
+    if (prevBtn) prevBtn.addEventListener('click', function () { if (pageIndex > 0) { pageIndex--; paintPage('prev'); } });
+    if (nextBtn) nextBtn.addEventListener('click', function () { if (pageIndex < pages.length - 1) { pageIndex++; paintPage('next'); } });
+    document.addEventListener('keydown', function (e) {
+      if (!pageMode || (e.target && /input|textarea|select/i.test(e.target.tagName))) return;
+      if (e.key === 'ArrowLeft' && pageIndex > 0) { pageIndex--; paintPage('prev'); }
+      if (e.key === 'ArrowRight' && pageIndex < pages.length - 1) { pageIndex++; paintPage('next'); }
+    });
+    document.querySelectorAll('.kb-unit-link').forEach(function (link, index) {
+      link.addEventListener('click', function (e) {
+        if (!pageMode) return;
+        e.preventDefault(); pageIndex = index; paintPage('next');
+      });
+    });
 
     // Mobile chapter drawer toggle
     var tocDrawer = document.getElementById('kb-mobile-toc');

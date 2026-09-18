@@ -1,0 +1,180 @@
+{
+ "code": "4300004",
+ "subject": "Applied Physics",
+ "unit": 2,
+ "lang": "en",
+ "title": "Unit – Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve",
+ "url": "/books/4300004/unit-2.html",
+ "guUrl": null,
+ "words": 1773,
+ "readingMin": 10,
+ "marks": "10 marks (3 Remember + 3 Understand + 4 Apply) (per syllabus)",
+ "sections": [
+  {
+   "heading": "Unit – II: Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code 4300004 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately <strong>10 marks (3 Remember + 3 Understand + 4 Apply) (per syllabus)</strong>.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.1. Force and Momentum",
+   "id": "",
+   "html": "<p><strong>Force</strong> is a push or pull acting on an object. It can change the velocity of an object, causing it to accelerate. <strong>Momentum</strong> is a measure of the quantity of motion and is defined as the product of an object's mass and its velocity. Mathematically, it is given by:</p>\n<p>[ Momentum = m × v ]</p>\n<p>where m is mass and v is velocity.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.2. Law of Conservation of Linear Momentum",
+   "id": "",
+   "html": "<p>The <strong>law of conservation of linear momentum</strong> states that the total linear momentum of a closed system remains constant if no external forces act on the system. This can be mathematically stated as:</p>\n<p>[ Initial Momentum = Final Momentum ]</p>\n<p>or</p>\n<p>[ m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂ ]</p>\n<p>where m₁, m₂ are the masses of the objects, u₁, u₂ are the initial velocities, and v₁, v₂ are the final velocities.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.2.1. Application: Recoil of Gun",
+   "id": "",
+   "html": "<p>Consider a gun firing a bullet. The gun and the bullet form a closed system. Let the mass of the gun be M and the mass of the bullet be m. The initial velocity of the gun and the bullet is zero. After firing, the velocity of the bullet is v_b and the recoil velocity of the gun is v_g. According to the conservation of momentum:</p>\n<p>[ 0 = Mv_g + mv_b ]</p>\n<p>Solving for v_g:</p>\n<p>[ v_g = -(mv_b / M) ]</p>\n<p>This equation shows that the gun recoils with a velocity opposite to that of the bullet.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A gun with a mass of 5 kg fires a bullet of mass 0.02 kg with a velocity of 300 m/s. Calculate the recoil velocity of the gun.<br /><br />> <strong>Example:</strong> Given M = 5 kg, m = 0.02 kg, and v_b = 300 m/s, the recoil velocity v_g is calculated as:<br />><br />> [ v_g = -(0.02 × 300 / 5) = -1.2 \\, m/s ]<br />><br />> The gun recoils with a velocity of 1.2 m/s in the opposite direction to the bullet.</div>",
+   "examples": [
+    "A gun with a mass of 5 kg fires a bullet of mass 0.02 kg with a velocity of 300 m/s. Calculate the recoil velocity of the gun. > **Example:** Given M = 5 kg, m = 0.02 kg, and v_b = 300 m/s, the recoil velocity v_g is calculated as: > > [ v_g = -(0.02 × 300 / 5) = -1.2 \\, m/s ] > > The gun recoils with a velocity of 1.2 m/s in the opposite direction to the bullet."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.3. Rocket Propulsion",
+   "id": "",
+   "html": "<p><strong>Rocket propulsion</strong> is another application of the conservation of linear momentum. In a rocket, the fuel is burned to produce hot exhaust gases. These gases are expelled at high velocity out of the rocket, providing a reaction force that propels the rocket forward. This is based on Newton's third law of motion: for every action, there is an equal and opposite reaction.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.3.1. Impulse and its Applications",
+   "id": "",
+   "html": "<p><strong>Impulse</strong> is the change in momentum produced by a force acting over a period of time. It is given by:</p>\n<p>[ Impulse = F × t = Δ p ]</p>\n<p>where F is the force, t is the time, and Δ p is the change in momentum.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "2.1.3.2. Application: Rocket Propulsion",
+   "id": "",
+   "html": "<p>Consider a rocket of mass M with a small mass Δ m of fuel being expelled at a velocity u relative to the rocket. The initial momentum of the system (rocket + fuel) is zero. After expelling the fuel, the momentum of the rocket is:</p>\n<p>[ Mv = -Δ m u ]</p>\n<p>Solving for v:</p>\n<p>[ v = -(Δ m u / M) ]</p>\n<p>The negative sign indicates that the rocket moves in the opposite direction to the expelled fuel.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Rocket Propulsion",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">sequenceDiagram\n participant Rocket\n participant Fuel\n Rocket-&gt;&gt;Fuel: Expel\n Fuel--&gt;&gt;Rocket: High velocity\n Rocket--&gt;&gt;Fuel: Forward</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>sequenceDiagram\n participant Rocket\n participant Fuel\n Rocket-&gt;&gt;Fuel: Expel\n Fuel--&gt;&gt;Rocket: High velocity\n Rocket--&gt;&gt;Fuel: Forward</pre></details><noscript><pre class=\"mermaid-src\">sequenceDiagram\n participant Rocket\n participant Fuel\n Rocket-&gt;&gt;Fuel: Expel\n Fuel--&gt;&gt;Rocket: High velocity\n Rocket--&gt;&gt;Fuel: Forward</pre></noscript></div>\n<p>This diagram illustrates the sequence of events in rocket propulsion, showing the expulsion of fuel and the resulting forward motion of the rocket.</p>",
+   "examples": [],
+   "mermaid": [
+    "sequenceDiagram\n participant Rocket\n participant Fuel\n Rocket->>Fuel: Expel\n Fuel-->>Rocket: High velocity\n Rocket-->>Fuel: Forward"
+   ]
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>The concept of linear momentum and its conservation is crucial in understanding various phenomena, including the recoil of a gun and rocket propulsion. The law of conservation of linear momentum and the concept of impulse are fundamental in analyzing these systems. Understanding these principles will help in solving related problems effectively.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Circular Motion",
+   "id": "",
+   "html": "<p>Circular motion is the movement of an object along a circular path. It is commonly observed in many physical phenomena such as the motion of a car on a roundabout, the orbit of a planet around the sun, and the motion of a satellite around Earth. In circular motion, the object moves at a constant speed but its velocity changes due to the direction of the motion changing continuously.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Angular Displacement",
+   "id": "",
+   "html": "<p>Angular displacement, denoted by θ, is the angle through which a point or line has been rotated in a specified sense about a specified axis. It is measured in radians (rad) or degrees (°). Angular displacement is a vector quantity, with direction given by the right-hand rule.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Angular Velocity",
+   "id": "",
+   "html": "<p>Angular velocity, denoted by ω, is the rate of change of angular displacement with respect to time. It is given by the formula:</p>\n<p>[</p>\n<p>ω = (dθ / dt)</p>\n<p>]</p>\n<p>Angular velocity is also a vector quantity, but in the context of circular motion, it is often treated as a scalar quantity, with the direction being tangential to the circle. The unit of angular velocity is radians per second (rad/s).</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Angular Acceleration",
+   "id": "",
+   "html": "<p>Angular acceleration, denoted by α, is the rate of change of angular velocity with respect to time. It is given by the formula:</p>\n<p>[</p>\n<p>α = (dω / dt)</p>\n<p>]</p>\n<p>Angular acceleration is a vector quantity, with the direction being the same as the change in angular velocity. The unit of angular acceleration is radians per second squared (rad/s²).</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Interrelation of Angular Displacement, Angular Velocity, and Angular Acceleration",
+   "id": "",
+   "html": "<p>The interrelation between angular displacement, angular velocity, and angular acceleration can be described using the following equations:</p>\n<p>[</p>\n<p>ω = (θ / t) (average angular velocity)</p>\n<p>]</p>\n<p>[</p>\n<p>α = (ω / t) (average angular acceleration)</p>\n<p>]</p>\n<p>For constant angular acceleration, the equations can be further simplified to:</p>\n<p>[</p>\n<p>ω = ω₀ + α t</p>\n<p>]</p>\n<p>[</p>\n<p>θ = θ₀ + ω₀ t + (1 / 2) α t²</p>\n<p>]</p>\n<p>where ω₀ and θ₀ are the initial angular velocity and angular displacement, respectively.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A car is moving in a circular path of radius 10 meters with an initial angular velocity of 2 rad/s. If the angular acceleration is 0.5 rad/s², find the angular displacement after 4 seconds.</div>\n<ol>\n<li><strong>Given:</strong></li>\n</ol>\n<ul>\n<li>Initial angular velocity, ω₀ = 2 rad/s</li>\n<li>Angular acceleration, α = 0.5 rad/s²</li>\n<li>Time, t = 4 s</li>\n</ul>\n<ol>\n<li><strong>Find:</strong></li>\n</ol>\n<ul>\n<li>Angular displacement, θ</li>\n</ul>\n<ol>\n<li><strong>Solution:</strong></li>\n</ol>\n<ul>\n<li>Using the equation for angular displacement under constant angular acceleration:</li>\n</ul>\n<p>[</p>\n<p>θ = θ₀ + ω₀ t + (1 / 2) α t²</p>\n<p>]</p>\n<p>Since the initial angular displacement θ₀ = 0, the equation simplifies to:</p>\n<p>[</p>\n<p>θ = ω₀ t + (1 / 2) α t²</p>\n<p>]</p>\n<p>Substituting the given values:</p>\n<p>[</p>\n<p>θ = (2 \\, rad/s) × (4 \\, s) + (1 / 2) × (0.5 \\, rad/s²) × (4 \\, s)²</p>\n<p>]</p>\n<p>[</p>\n<p>θ = 8 \\, rad + (1 / 2) × 0.5 × 16 \\, rad</p>\n<p>]</p>\n<p>[</p>\n<p>θ = 8 \\, rad + 4 \\, rad</p>\n<p>]</p>\n<p>[</p>\n<p>θ = 12 \\, rad</p>\n<p>]</p>\n<p>Thus, the angular displacement after 4 seconds is 12 rad.</p>\n<hr />",
+   "examples": [
+    "A car is moving in a circular path of radius 10 meters with an initial angular velocity of 2 rad/s. If the angular acceleration is 0.5 rad/s², find the angular displacement after 4 seconds."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Banking of Roads",
+   "id": "",
+   "html": "<p>When a vehicle moves on a curved road, it experiences a centripetal force directed towards the center of the curve. This force is provided by the normal reaction force of the road. To prevent skidding, the road is often banked at an appropriate angle. This banking helps in balancing the forces acting on the vehicle.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Explanation:",
+   "id": "",
+   "html": "<ul>\n<li><strong>Centripetal Force (F_c):</strong> The force that acts towards the center of a circular path and is necessary to keep an object moving in a circle.</li>\n<li><strong>Normal Reaction (N):</strong> The force exerted by the road on the vehicle, perpendicular to the surface of the road.</li>\n<li><strong>Gravitational Force (mg):</strong> The force due to gravity acting downwards.</li>\n</ul>\n<p>The banking angle θ is determined by the balance of forces in the vertical and horizontal directions.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A['Centripetal Force (F_c)'] --&gt; B['Normal Reaction (N)']\n A --&gt; C['Gravitational Force (mg)']\n B --&gt; D['Frictional Force (f)']\n A --&gt; E['Centrifugal Force (F_c)']\n C --&gt; F['Vertical Component (Ncosθ)']\n C --&gt; G['Horizontal Component (Nsinθ)']\n N --&gt; F\n N --&gt; G\n N --&gt; H['Normal Reaction (N)']\n mg --&gt; I['Vertical Component (mg)']\n mg --&gt; J['Horizontal Component (mg)']\n I --&gt; K['Vertical Component (mg)']\n J --&gt; L['Horizontal Component (F_c)']</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A['Centripetal Force (F_c)'] --&gt; B['Normal Reaction (N)']\n A --&gt; C['Gravitational Force (mg)']\n B --&gt; D['Frictional Force (f)']\n A --&gt; E['Centrifugal Force (F_c)']\n C --&gt; F['Vertical Component (Ncosθ)']\n C --&gt; G['Horizontal Component (Nsinθ)']\n N --&gt; F\n N --&gt; G\n N --&gt; H['Normal Reaction (N)']\n mg --&gt; I['Vertical Component (mg)']\n mg --&gt; J['Horizontal Component (mg)']\n I --&gt; K['Vertical Component (mg)']\n J --&gt; L['Horizontal Component (F_c)']</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A['Centripetal Force (F_c)'] --&gt; B['Normal Reaction (N)']\n A --&gt; C['Gravitational Force (mg)']\n B --&gt; D['Frictional Force (f)']\n A --&gt; E['Centrifugal Force (F_c)']\n C --&gt; F['Vertical Component (Ncosθ)']\n C --&gt; G['Horizontal Component (Nsinθ)']\n N --&gt; F\n N --&gt; G\n N --&gt; H['Normal Reaction (N)']\n mg --&gt; I['Vertical Component (mg)']\n mg --&gt; J['Horizontal Component (mg)']\n I --&gt; K['Vertical Component (mg)']\n J --&gt; L['Horizontal Component (F_c)']</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n A[\"Centripetal Force (F_c)\"] --> B[\"Normal Reaction (N)\"]\n A --> C[\"Gravitational Force (mg)\"]\n B --> D[\"Frictional Force (f)\"]\n A --> E[\"Centrifugal Force (F_c)\"]\n C --> F[\"Vertical Component (Ncosθ)\"]\n C --> G[\"Horizontal Component (Nsinθ)\"]\n N --> F\n N --> G\n N --> H[\"Normal Reaction (N)\"]\n mg --> I[\"Vertical Component (mg)\"]\n mg --> J[\"Horizontal Component (mg)\"]\n I --> K[\"Vertical Component (mg)\"]\n J --> L[\"Horizontal Component (F_c)\"]"
+   ]
+  },
+  {
+   "heading": "Banking of Roads Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A cyclist is moving on a curved road with a radius of 50 meters. If the cyclist is moving at a speed of 10 m/s, find the banking angle required to prevent skidding. Assume the coefficient of friction between the tire and the road is 0.2.</div>\n<ol>\n<li><strong>Given:</strong></li>\n</ol>\n<ul>\n<li>Radius of the curve, r = 50 meters.</li>\n<li>Speed of the cyclist, v = 10 m/s.</li>\n<li>Coefficient of friction, μ = 0.2.</li>\n</ul>\n<ol>\n<li><strong>Centripetal Acceleration:</strong></li>\n</ol>\n<p>[</p>\n<p>a_c = (v² / r) = ((10)² / 50) = 2 m/s²</p>\n<p>]</p>\n<ol>\n<li><strong>Forces in the Vertical Direction:</strong></li>\n</ol>\n<p>[</p>\n<p>Nθ = mg</p>\n<p>]</p>\n<p>[</p>\n<p>N = (mg / θ)</p>\n<p>]</p>\n<ol>\n<li><strong>Forces in the Horizontal Direction:</strong></li>\n</ol>\n<p>[</p>\n<p>Nθ = ma_c</p>\n<p>]</p>\n<p>[</p>\n<p>Nθ = m · 2</p>\n<p>]</p>\n<p>[</p>\n<p>(mg / θ) · θ = 2m</p>\n<p>]</p>\n<p>[</p>\n<p>gθ = 2</p>\n<p>]</p>\n<p>[</p>\n<p>θ = (2 / g)</p>\n<p>]</p>\n<p>[</p>\n<p>θ = (2 / 9.8) ≈ 0.204</p>\n<p>]</p>\n<p>[</p>\n<p>θ ≈ ⁻¹(0.204) ≈ 11.5^</p>\n<p>]</p>\n<p>Thus, the banking angle required to prevent skidding is approximately 11.5^.</p>",
+   "examples": [
+    "A cyclist is moving on a curved road with a radius of 50 meters. If the cyclist is moving at a speed of 10 m/s, find the banking angle required to prevent skidding. Assume the coefficient of friction between the tire and the road is 0.2."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Bending of Cyclist",
+   "id": "",
+   "html": "<p>When a cyclist takes a turn, the centripetal force required to change the direction of motion is provided by the frictional force between the tires and the road. If the speed is too high, the frictional force may not be sufficient, leading to skidding.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Explanation:",
+   "id": "",
+   "html": "<ul>\n<li><strong>Centripetal Force (F_c):</strong> The force required to keep the cyclist moving in a circular path.</li>\n<li><strong>Frictional Force (f):</strong> The force that prevents skidding and provides the necessary centripetal force.</li>\n</ul>\n<p>The maximum speed vmax at which the cyclist can safely take the turn without skidding can be found by balancing the centripetal force with the frictional force.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Bending of Cyclist Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A cyclist is moving on a curved path with a radius of 30 meters. If the coefficient of friction between the tire and the road is 0.4, find the maximum speed at which the cyclist can safely take the turn without skidding.</div>\n<ol>\n<li><strong>Given:</strong></li>\n</ol>\n<ul>\n<li>Radius of the curve, r = 30 meters.</li>\n<li>Coefficient of friction, μ = 0.4.</li>\n</ul>\n<ol>\n<li><strong>Maximum Speed Calculation:</strong></li>\n</ol>\n<ul>\n<li>The maximum frictional force is given by fmax = μ N = μ mg.</li>\n<li>The centripetal force required is F_c = mv² r.</li>\n<li>For safe turning, F_c = fmax.</li>\n</ul>\n<p>[</p>\n<p>(mv² / r) = μ mg</p>\n<p>]</p>\n<p>[</p>\n<p>(v² / r) = μ g</p>\n<p>]</p>\n<p>[</p>\n<p>v² = μ gr</p>\n<p>]</p>\n<p>[</p>\n<p>v = μ gr</p>\n<p>]</p>\n<p>[</p>\n<p>v = 0.4 · 9.8 · 30 ≈ 117.6 ≈ 10.84 m/s</p>\n<p>]</p>\n<p>Thus, the maximum speed at which the cyclist can safely take the turn without skidding is approximately 10.84 m/s.</p>",
+   "examples": [
+    "A cyclist is moving on a curved path with a radius of 30 meters. If the coefficient of friction between the tire and the road is 0.4, find the maximum speed at which the cyclist can safely take the turn without skidding."
+   ],
+   "mermaid": []
+  }
+ ]
+}

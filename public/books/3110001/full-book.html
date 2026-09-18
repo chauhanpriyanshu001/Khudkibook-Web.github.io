@@ -21,15 +21,33 @@
   .kb-progress-bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#4f46e5,#7c3aed);z-index:1200;transition:width .1s linear}
 
   /* ---------- Book cover (reader-style) ---------- */
-  .kb-book-cover{background:linear-gradient(135deg,#312e81 0%,#4f46e5 45%,#7c3aed 100%);border-radius:20px;color:#fff;padding:0;margin:18px 0 24px;box-shadow:0 20px 44px rgba(79,70,229,.32);overflow:hidden;position:relative}
+  .kb-book-cover{background:linear-gradient(135deg,var(--kb-accent,#312e81) 0%,var(--kb-accent-2,#4f46e5) 100%);border-radius:20px;color:#fff;padding:0;margin:18px 0 24px;box-shadow:0 20px 44px color-mix(in srgb,var(--kb-accent,#4f46e5) 32%,transparent);overflow:hidden;position:relative;min-height:520px;display:flex;align-items:center}
   .kb-book-cover::before{content:"";position:absolute;inset:0;background:radial-gradient(1200px 400px at 85% -10%,rgba(255,255,255,.18),transparent 60%),radial-gradient(600px 300px at 0% 110%,rgba(124,58,237,.5),transparent 55%);pointer-events:none}
-  .kb-cover-inner{position:relative;padding:44px 40px 38px;text-align:center}
+  .kb-cover-inner{position:relative;padding:52px 40px 44px;text-align:center;width:100%;z-index:2}
+  .kb-brand-lockup{display:inline-flex;align-items:center;gap:8px;font-weight:800;letter-spacing:.18em;font-size:.78rem;margin-bottom:22px}
+  .kb-brand-mark{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:10px;background:#fff;color:var(--kb-accent,#4338ca);font-size:.72rem;letter-spacing:-.04em}
   .kb-cover-kicker{font-size:.74rem;letter-spacing:.28em;text-transform:uppercase;opacity:.8;font-weight:700;margin-bottom:16px}
+  .kb-cover-subject-icon{font-size:4rem;line-height:1;margin:0 auto 16px;text-shadow:0 8px 30px rgba(0,0,0,.25)}
   .kb-cover-title{font-family:'Outfit',sans-serif;font-size:clamp(1.7rem,4.5vw,2.8rem);font-weight:800;line-height:1.16;letter-spacing:-.01em}
   .kb-cover-rule{width:64px;height:3px;border-radius:99px;background:rgba(255,255,255,.7);margin:18px auto}
   .kb-cover-meta{font-size:.95rem;font-weight:600;opacity:.94;margin-top:2px}
   .kb-cover-units{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-size:.82rem;font-weight:700;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.32);padding:7px 16px;border-radius:999px}
+  .kb-cover-topics{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin:18px auto 0;max-width:720px}
+  .kb-cover-topic{font-size:.72rem;padding:5px 9px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .kb-cover-badge{margin-top:18px;display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:600;background:rgba(0,0,0,.22);padding:8px 16px;border-radius:999px}
+  .kb-motif{position:absolute;inset:0;opacity:.24;pointer-events:none}
+  .kb-motif-grid{background-image:linear-gradient(rgba(255,255,255,.35) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.35) 1px,transparent 1px);background-size:34px 34px;transform:perspective(420px) rotateX(58deg) translateY(45%);transform-origin:center bottom}
+  .kb-motif-wave{position:absolute;right:4%;bottom:7%;font-size:7rem;letter-spacing:-.35em;transform:rotate(-12deg);white-space:nowrap}
+  .kb-motif-gear{position:absolute;right:5%;top:8%;font-size:12rem;opacity:.16}
+  .kb-motif-blueprint{position:absolute;right:5%;bottom:5%;font-size:6rem;letter-spacing:1.2rem}
+  .kb-motif-circuit i,.kb-motif-circuit b,.kb-motif-molecule i,.kb-motif-molecule b{position:absolute;display:block;border-radius:50%;background:#fff;box-shadow:0 0 0 8px rgba(255,255,255,.08)}
+  .kb-motif-circuit i:nth-child(1),.kb-motif-molecule i:nth-child(1){width:14px;height:14px;left:10%;top:22%}.kb-motif-circuit i:nth-child(2),.kb-motif-molecule i:nth-child(2){width:10px;height:10px;right:14%;top:32%}.kb-motif-circuit i:nth-child(3),.kb-motif-molecule i:nth-child(3){width:18px;height:18px;right:24%;bottom:14%}
+  .kb-motif-circuit b,.kb-motif-molecule b{height:2px;width:40%;border-radius:0;opacity:.75}.kb-motif-circuit b:nth-of-type(1){left:10%;top:24%;transform:rotate(18deg)}.kb-motif-circuit b:nth-of-type(2){right:18%;top:34%;transform:rotate(48deg)}
+  .kb-motif-molecule b{width:24%;left:20%;top:46%;transform:rotate(-28deg)}.kb-motif-molecule b:nth-of-type(2){left:57%;top:46%;transform:rotate(28deg)}
+  .kb-paper{background:#fff;border:1px solid var(--border,#e5e9f2);border-radius:16px;padding:34px 38px;margin:0 0 22px;box-shadow:0 1px 3px rgba(15,23,42,.08);line-height:1.7;position:relative}
+  .kb-paper::after{content:"";position:absolute;inset:10px;border:1px solid rgba(79,70,229,.08);border-radius:11px;pointer-events:none}
+  .kb-brand-page-mark{font-size:.72rem;font-weight:800;letter-spacing:.18em;color:var(--kb-accent,#4338ca);margin-bottom:28px}.kb-brand-page-mark span{color:#94a3b8;font-weight:600;margin-left:8px}
+  .kb-eyebrow{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;font-weight:800;color:var(--kb-accent,#4338ca);margin-bottom:6px}.kb-paper h1,.kb-paper h2{font-family:'Outfit',sans-serif;color:#1e1b4b}.kb-paper h1{font-size:2rem;margin:0 0 12px}.kb-paper h2{font-size:1.35rem;border-bottom:2px solid #eef1fb;padding-bottom:8px;margin:24px 0 10px}.kb-paper h3{font-size:1.05rem;margin:22px 0 8px}.kb-lead{font-size:1.05rem;color:#475569;max-width:760px}.kb-muted{color:#64748b}.kb-front-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}.kb-front-grid div{border:1px solid #e5e7eb;border-radius:12px;padding:14px;background:#f8fafc}.kb-front-grid strong{display:block;font-size:1.35rem;color:var(--kb-accent,#4338ca)}.kb-front-grid span{font-size:.78rem;color:#64748b}.kb-reading-steps{padding-left:22px}.kb-disclaimer{border-left:4px solid #f59e0b;background:#fffbeb;padding:12px 14px;border-radius:0 10px 10px 0;font-size:.86rem;color:#78350f;margin-top:22px}.kb-syllabus-table{width:100%;border-collapse:collapse;font-size:.88rem}.kb-syllabus-table th,.kb-syllabus-table td{border:1px solid #e2e8f0;padding:9px;text-align:left;vertical-align:top}.kb-syllabus-table th{background:#f1f5f9;color:#1e293b}.kb-keyword-row{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.kb-keyword-row .kb-cover-topic{color:var(--kb-accent,#4338ca);background:#eef2ff;border-color:#c7d2fe}
 
   /* ---------- Toolbar ---------- */
   .kb-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;justify-content:space-between;margin:0 0 18px}
@@ -37,6 +55,7 @@
   .kb-tb-btn,.kb-print-btn{display:inline-flex;gap:8px;align-items:center;background:#fff;color:var(--accent,#4f46e5);border:1px solid var(--border,#e5e9f2);padding:9px 15px;border-radius:999px;font-weight:700;font-size:.82rem;text-decoration:none;box-shadow:0 1px 3px rgba(15,23,42,.08);transition:.15s}
   .kb-tb-btn:hover,.kb-print-btn:hover{transform:translateY(-1px);border-color:var(--border-accent,rgba(79,70,229,.35));box-shadow:0 6px 16px rgba(15,23,42,.12)}
   .kb-tb-stat{display:inline-flex;gap:8px;align-items:center;background:#fff;border:1px solid var(--border,#e5e9f2);padding:9px 14px;border-radius:999px;font-weight:600;font-size:.82rem;color:var(--text-secondary,#475569);box-shadow:0 1px 3px rgba(15,23,42,.08)}
+  .kb-page-controls{display:flex;align-items:center;justify-content:center;gap:14px;margin:0 0 18px}.kb-page-label{font-size:.82rem;font-weight:800;color:#64748b;min-width:110px;text-align:center}
 
   /* ---------- Mobile chapter drawer ---------- */
   #kb-mobile-toc{position:fixed;inset:0;background:rgba(15,23,42,.5);backdrop-filter:blur(2px);z-index:1500;opacity:0;pointer-events:none;transition:.25s}
@@ -95,6 +114,7 @@
   .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
   .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
   .kb-unit{margin-bottom:26px}
+  .kb-page-mode .kb-articles{perspective:1600px}.kb-page-mode .kb-unit{display:none;min-height:72vh;margin-bottom:0;animation-duration:.42s;animation-fill-mode:both}.kb-page-mode .kb-unit.kb-page-active{display:block}.kb-page-mode .kb-unit.kb-turn-next{animation-name:kbTurnNext}.kb-page-mode .kb-unit.kb-turn-prev{animation-name:kbTurnPrev}@keyframes kbTurnNext{from{opacity:0;transform:rotateY(-7deg) translateX(26px)}to{opacity:1;transform:none}}@keyframes kbTurnPrev{from{opacity:0;transform:rotateY(7deg) translateX(-26px)}to{opacity:1;transform:none}}.kb-page-mode .kb-front-matter{display:none}.kb-page-mode .kb-book-cover{min-height:300px}.kb-page-mode .kb-unit{box-shadow:0 12px 30px rgba(15,23,42,.09);border-top:5px solid var(--kb-accent,#4338ca)}.kb-page-mode .kb-page-controls{position:sticky;bottom:12px;z-index:3;background:rgba(246,248,252,.92);padding:10px;border-radius:999px;backdrop-filter:blur(8px)}
   .kb-notice{display:flex;gap:10px;background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:12px;padding:12px 14px;font-size:.86rem;margin:22px 0 0;line-height:1.55}
   .kb-notice i{color:#ea580c;margin-top:3px}
   .kb-toast{position:fixed;bottom:66px;left:50%;transform:translateX(-50%) translateY(20px);background:#111827;color:#fff;padding:9px 16px;border-radius:999px;font-size:.82rem;font-weight:600;opacity:0;pointer-events:none;transition:.25s;z-index:1300}
@@ -105,6 +125,7 @@
     .kb-layout{grid-template-columns:1fr}
     .kb-toc{display:none}
     .kb-article{padding:20px 18px}
+    .kb-paper{padding:26px 20px}.kb-front-grid{grid-template-columns:1fr}.kb-page-controls{gap:7px}.kb-page-label{font-size:.75rem;min-width:84px}.kb-cover-inner{padding:42px 20px}.kb-book-cover{min-height:470px}
     /* show mobile chapter button */
     .kb-desktop-toc-toggle{display:inline-flex!important}
   }
@@ -132,9 +153,24 @@
     @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in · Chemistry";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
   }
   </style>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Chemistry – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":31462,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Chemistry","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Chemistry – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":31641,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Chemistry","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q14JJGGSPR');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yha6xlt986");
+  </script>
 </head>
-<body>
+<body style="--kb-accent:#4338ca;--kb-accent-2:#0891b2;" data-kb-theme="engineering">
   <nav id="nav" class="navbar-root no-print"></nav>
   <div class="kb-progress-bar" id="kb-progress"></div>
 
@@ -147,25 +183,64 @@
 
       
     <div class="kb-book-cover">
+      <span class="kb-motif kb-motif-blueprint" aria-hidden="true">＋ ◇ ＋</span>
       <div class="kb-cover-inner">
-        <div class="kb-cover-kicker">KHUDKIBOOK · GTU AI SELF-STUDY BOOK</div>
+        <div class="kb-brand-lockup"><span class="kb-brand-mark">KB</span><span>KHUDKIBOOK</span></div>
+        <div class="kb-cover-kicker">GTU ENGINEERING · AI SELF-STUDY BOOK</div>
+        <div class="kb-cover-subject-icon">▦</div>
         <div class="kb-cover-title">Chemistry</div>
         <div class="kb-cover-rule"></div>
         <div class="kb-cover-meta">Subject Code 3110001 · Gujarat Technological University Aeronautical Engineering Semester 1</div>
         <div class="kb-cover-units">Complete Study Book · 8 Units</div>
+        <div class="kb-cover-topics"><span class="kb-cover-topic">General Chemistry</span><span class="kb-cover-topic">Introduction to Chemical Sciences</span><span class="kb-cover-topic">Periodic properties</span><span class="kb-cover-topic">Effective nuclear charge</span><span class="kb-cover-topic">penetration of orbitals</span><span class="kb-cover-topic">variations of s, p, d and f orbital energies of atoms in the periodic table</span></div>
         <div class="kb-cover-badge"><i class="fas fa-robot"></i> AI-generated study material · cross-check with official syllabus</div>
       </div>
     </div>
+    
+    <section class="kb-front-matter kb-paper" id="kb-overview">
+      <div class="kb-brand-page-mark">KHUDKIBOOK <span>STUDENT EDITION</span></div>
+      <p class="kb-eyebrow">About this book</p>
+      <h1>Chemistry</h1>
+      <p class="kb-lead">A clear, exam-oriented self-study book for GTU students. Every chapter is arranged from the official syllabus into simple explanations, worked examples, diagrams, revision points and exam-style questions.</p>
+      <div class="kb-front-grid">
+        <div><strong>8</strong><span>syllabus units</span></div>
+        <div><strong>31,641</strong><span>study words</span></div>
+        <div><strong>64</strong><span>print pages approx.</span></div>
+      </div>
+      <h2>How to use this book</h2>
+      <ol class="kb-reading-steps">
+        <li>Read the unit overview before starting a chapter.</li>
+        <li>Study the worked examples and diagrams, then attempt the unit-end questions.</li>
+        <li>Use the page-turn reader for focused study or download the watermarked PDF for offline revision.</li>
+        <li>Always verify formulas, standards and exam requirements against the official GTU syllabus and prescribed textbooks.</li>
+      </ol>
+      <div class="kb-disclaimer"><strong>Academic note:</strong> This is a KhudKibook learning aid, not an official GTU publication. It is designed to make syllabus-aligned study easier, not to replace official references.</div>
+    </section>
+    <section class="kb-front-matter kb-paper" id="kb-syllabus">
+      <p class="kb-eyebrow">At a glance</p>
+      <h2>Syllabus and learning map</h2>
+      <p class="kb-muted">The chapters below are generated from the syllabus definition stored for subject code <strong>3110001</strong>.</p>
+      <table class="kb-syllabus-table"><thead><tr><th>Unit</th><th>Coverage</th><th>Weight / marks</th></tr></thead><tbody><tr><td>Unit 1</td><td>General Chemistry</td><td>40% of the end-semester theory paper</td></tr><tr><td>Unit 2</td><td>Water Technology</td><td>As per GTU syllabus</td></tr><tr><td>Unit 3</td><td>Metals, Alloys and Corrosion</td><td>As per GTU syllabus</td></tr><tr><td>Unit 4</td><td>Polymers and Fibers</td><td>40% of the end-semester theory paper</td></tr><tr><td>Unit 5</td><td>Nano material</td><td>As per GTU syllabus</td></tr><tr><td>Unit 6</td><td>Fuel and Combustion</td><td>As per GTU syllabus</td></tr><tr><td>Unit 7</td><td>Chemical aspect of Biotechnology</td><td>20% of the end-semester theory paper</td></tr><tr><td>Unit 8</td><td>Analytical Techniques</td><td>As per GTU syllabus</td></tr></tbody></table>
+      
+      <div class="kb-keyword-row"><span class="kb-cover-topic">General Chemistry</span><span class="kb-cover-topic">Introduction to Chemical Sciences</span><span class="kb-cover-topic">Periodic properties</span><span class="kb-cover-topic">Effective nuclear charge</span><span class="kb-cover-topic">penetration of orbitals</span><span class="kb-cover-topic">variations of s, p, d and f orbital energies of atoms in the periodic table</span></div>
+    </section>
 
     <div class="kb-toolbar no-print">
       <div class="kb-tb-group">
         <button class="kb-tb-btn kb-desktop-toc-toggle" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
+        <button class="kb-tb-btn" id="kb-reader-toggle" type="button"><i class="fas fa-book-open"></i> Page view</button>
         <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~154 min read</span>
-        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 31,462 words</span>
+        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 31,641 words</span>
       </div>
       <div class="kb-tb-group">
         <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
       </div>
+    </div>
+
+    <div class="kb-page-controls no-print" id="kb-page-controls" aria-label="Book page controls">
+      <button class="kb-tb-btn" id="kb-page-prev" type="button"><i class="fas fa-arrow-left"></i> Previous page</button>
+      <span id="kb-page-label" class="kb-page-label">Page 1 of 8</span>
+      <button class="kb-tb-btn" id="kb-page-next" type="button">Next page <i class="fas fa-arrow-right"></i></button>
     </div>
 
     <div class="kb-mobile-toggle-bar no-print">
@@ -440,11 +515,11 @@
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A water sample is tested using the EDTA titration method. The initial volume of water is 100 mL, and 15 mL of 0.002 M EDTA is used to reach the endpoint. Calculate the hardness of the water sample.<br /><br /><strong>Solution:</strong><br /><br />- <strong>Calcium Hardness (Ca²⁺):</strong></div>
 <p>[</p>
-<p>\text{Ca}^{2+} (\text{ppm}) = \frac{15 \, \text{mL} \times 0.002 \, \text{M} \times 40.08 \, \text{mg/mol}}{100 \, \text{mL}} = 1.2024 \, \text{mg/L}</p>
+<p>Ca²⁺ (ppm) = (15 \, mL × 0.002 \, M × 40.08 \, mg/mol / 100 \, mL) = 1.2024 \, mg/L</p>
 <p>]</p>
 <blockquote>- <strong>Magnesium Hardness (Mg²⁺):</strong> If the total hardness is 250 mg/L, then</blockquote>
 <p>[</p>
-<p>\text{Mg}^{2+} (\text{ppm}) = 250 \, \text{mg/L} - 1.2024 \, \text{mg/L} = 248.7976 \, \text{mg/L}</p>
+<p>Mg²⁺ (ppm) = 250 \, mg/L - 1.2024 \, mg/L = 248.7976 \, mg/L</p>
 <p>]</p>
 <p>In this example, we calculated the hardness of a water sample using the EDTA titration method, breaking down the steps to determine both calcium and magnesium hardness.</p>
 <hr />
@@ -459,7 +534,7 @@
 </ul>
 <p>> <strong>Example:</strong> If the hardness of the water is 300 ppm and the blowdown rate is 10%, the scale formation can be calculated as:</p>
 <p>[</p>
-<p>\text{Scale Formation} = \frac{300 \times 10}{100} = 30 \text{ ppm}</p>
+<p>Scale Formation = (300 × 10 / 100) = 30 ppm</p>
 <p>]</p>
 <ul>
 <li><strong>Foulings</strong>:</li>
@@ -468,7 +543,7 @@
 </ul>
 <p>> <strong>Example:</strong> If a boiler has a fouling factor of 0.1 and the heat transfer surface area is 50 m², the effective heat transfer area after fouling can be calculated as:</p>
 <p>[</p>
-<p>\text{Effective Heat Transfer Area} = 50 \times (1 - 0.1) = 45 \text{ m}^2</p>
+<p>Effective Heat Transfer Area = 50 × (1 - 0.1) = 45 m²</p>
 <p>]</p>
 <ul>
 <li><strong>Corrosion</strong>:</li>
@@ -477,7 +552,7 @@
 </ul>
 <p>> <strong>Example:</strong> If a boiler operates at a pressure of 15 bar and the pH of the boiler water is 6, the corrosion rate can be estimated as:</p>
 <p>[</p>
-<p>\text{Corrosion Rate} = 1.5 \times \left(\frac{1500 - 6}{10}\right)^{0.5} = 21.5 \text{ mm/year}</p>
+<p>Corrosion Rate = 1.5 × ((1500 - 6 / 10))⁰.⁵ = 21.5 mm/year</p>
 <p>]</p>
 <ul>
 <li><strong>Ash Formation</strong>:</li>
@@ -486,7 +561,7 @@
 </ul>
 <p>> <strong>Example:</strong> If a boiler burns 100 kg of coal per hour and the ash content of the coal is 15%, the amount of ash produced per hour can be calculated as:</p>
 <p>[</p>
-<p>\text{Ash Produced} = 100 \times 0.15 = 15 \text{ kg/hour}</p>
+<p>Ash Produced = 100 × 0.15 = 15 kg/hour</p>
 <p>]</p>
 <h4>Solutions to Boiler Problems</h4>
 <ul>
@@ -524,7 +599,7 @@
 </ul>
 <p>> <strong>Example:</strong> If the hardness of the water is 250 ppm and 500 liters of water is treated, the amount of sodium ions required can be calculated as:</p>
 <p>[</p>
-<p>\text{Sodium Ions Required} = 250 \times 500 \times 10^{-6} \times 2 = 0.25 \text{ kg}</p>
+<p>Sodium Ions Required = 250 × 500 × 10⁻⁶ × 2 = 0.25 kg</p>
 <p>]</p>
 <ul>
 <li><strong>Calcium Carbonate Precipitation Method</strong>:</li>
@@ -533,7 +608,7 @@
 </ul>
 <p>> <strong>Example:</strong> If 1000 liters of water with a hardness of 200 ppm is treated, the amount of lime (CaO) required can be calculated as:</p>
 <p>[</p>
-<p>\text{Lime Required} = \frac{200 \times 1000 \times 10^{-6} \times 74}{200} = 0.74 \text{ kg}</p>
+<p>Lime Required = 200 × 1000 × 10⁻⁶ × 74200 = 0.74 kg</p>
 <p>]</p>
 <h4>Internal Softening</h4>
 <ul>
@@ -543,7 +618,7 @@
 </ul>
 <p>> <strong>Example:</strong> If the hardness of the water is 300 ppm and 1000 liters of water is treated, the amount of sodium tripolyphosphate (STP) required can be calculated as:</p>
 <p>[</p>
-<p>\text{STP Required} = 300 \times 1000 \times 10^{-6} \times 1.2 = 0.36 \text{ kg}</p>
+<p>STP Required = 300 × 1000 × 10⁻⁶ × 1.2 = 0.36 kg</p>
 <p>]</p>
 <ul>
 <li><strong>Sodium Bicarbonate Treatment</strong>:</li>
@@ -552,7 +627,7 @@
 </ul>
 <p>> <strong>Example:</strong> If the hardness of the water is 250 ppm and 500 liters of water is treated, the amount of sodium bicarbonate required can be calculated as:</p>
 <p>[</p>
-<p>\text{Sodium Bicarbonate Required} = 250 \times 500 \times 10^{-6} \times 2 = 0.25 \text{ kg}</p>
+<p>Sodium Bicarbonate Required = 250 × 500 × 10⁻⁶ × 2 = 0.25 kg</p>
 <p>]</p>
 <h4>Summary</h4>
 <p>In this section, we have discussed the common boiler problems such as scale formation, fouling, corrosion, and ash formation. We have also covered the methods of softening water, both externally and internally. Proper softening ensures the efficient and safe operation of boilers.</p>
@@ -889,11 +964,11 @@
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A water sample is tested using the EDTA titration method. The initial volume of water is 100 mL, and 15 mL of 0.002 M EDTA is used to reach the endpoint. Calculate the hardness of the water sample.<br /><br /><strong>Solution:</strong><br /><br />- <strong>Calcium Hardness (Ca²⁺):</strong></div>
 <p>[</p>
-<p>\text{Ca}^{2+} (\text{ppm}) = \frac{15 \, \text{mL} \times 0.002 \, \text{M} \times 40.08 \, \text{mg/mol}}{100 \, \text{mL}} = 1.2024 \, \text{mg/L}</p>
+<p>Ca²⁺ (ppm) = (15 \, mL × 0.002 \, M × 40.08 \, mg/mol / 100 \, mL) = 1.2024 \, mg/L</p>
 <p>]</p>
 <blockquote>- <strong>Magnesium Hardness (Mg²⁺):</strong> If the total hardness is 250 mg/L, then</blockquote>
 <p>[</p>
-<p>\text{Mg}^{2+} (\text{ppm}) = 250 \, \text{mg/L} - 1.2024 \, \text{mg/L} = 248.7976 \, \text{mg/L}</p>
+<p>Mg²⁺ (ppm) = 250 \, mg/L - 1.2024 \, mg/L = 248.7976 \, mg/L</p>
 <p>]</p>
 <p>In this example, we calculated the hardness of a water sample using the EDTA titration method, breaking down the steps to determine both calcium and magnesium hardness.</p>
 <hr />
@@ -908,7 +983,7 @@
 </ul>
 <p>> <strong>Example:</strong> If the hardness of the water is 300 ppm and the blowdown rate is 10%, the scale formation can be calculated as:</p>
 <p>[</p>
-<p>\text{Scale Formation} = \frac{300 \times 10}{100} = 30 \text{ ppm}</p>
+<p>Scale Formation = (300 × 10 / 100) = 30 ppm</p>
 <p>]</p>
 <ul>
 <li><strong>Foulings</strong>:</li>
@@ -917,7 +992,7 @@
 </ul>
 <p>> <strong>Example:</strong> If a boiler has a fouling factor of 0.1 and the heat transfer surface area is 50 m², the effective heat transfer area after fouling can be calculated as:</p>
 <p>[</p>
-<p>\text{Effective Heat Transfer Area} = 50 \times (1 - 0.1) = 45 \text{ m}^2</p>
+<p>Effective Heat Transfer Area = 50 × (1 - 0.1) = 45 m²</p>
 <p>]</p>
 <ul>
 <li><strong>Corrosion</strong>:</li>
@@ -926,7 +1001,7 @@
 </ul>
 <p>> <strong>Example:</strong> If a boiler operates at a pressure of 15 bar and the pH of the boiler water is 6, the corrosion rate can be estimated as:</p>
 <p>[</p>
-<p>\text{Corrosion Rate} = 1.5 \times \left(\frac{1500 - 6}{10}\right)^{0.5} = 21.5 \text{ mm/year}</p>
+<p>Corrosion Rate = 1.5 × ((1500 - 6 / 10))⁰.⁵ = 21.5 mm/year</p>
 <p>]</p>
 <ul>
 <li><strong>Ash Formation</strong>:</li>
@@ -935,7 +1010,7 @@
 </ul>
 <p>> <strong>Example:</strong> If a boiler burns 100 kg of coal per hour and the ash content of the coal is 15%, the amount of ash produced per hour can be calculated as:</p>
 <p>[</p>
-<p>\text{Ash Produced} = 100 \times 0.15 = 15 \text{ kg/hour}</p>
+<p>Ash Produced = 100 × 0.15 = 15 kg/hour</p>
 <p>]</p>
 <h4>Solutions to Boiler Problems</h4>
 <ul>
@@ -973,7 +1048,7 @@
 </ul>
 <p>> <strong>Example:</strong> If the hardness of the water is 250 ppm and 500 liters of water is treated, the amount of sodium ions required can be calculated as:</p>
 <p>[</p>
-<p>\text{Sodium Ions Required} = 250 \times 500 \times 10^{-6} \times 2 = 0.25 \text{ kg}</p>
+<p>Sodium Ions Required = 250 × 500 × 10⁻⁶ × 2 = 0.25 kg</p>
 <p>]</p>
 <ul>
 <li><strong>Calcium Carbonate Precipitation Method</strong>:</li>
@@ -982,7 +1057,7 @@
 </ul>
 <p>> <strong>Example:</strong> If 1000 liters of water with a hardness of 200 ppm is treated, the amount of lime (CaO) required can be calculated as:</p>
 <p>[</p>
-<p>\text{Lime Required} = \frac{200 \times 1000 \times 10^{-6} \times 74}{200} = 0.74 \text{ kg}</p>
+<p>Lime Required = 200 × 1000 × 10⁻⁶ × 74200 = 0.74 kg</p>
 <p>]</p>
 <h4>Internal Softening</h4>
 <ul>
@@ -992,7 +1067,7 @@
 </ul>
 <p>> <strong>Example:</strong> If the hardness of the water is 300 ppm and 1000 liters of water is treated, the amount of sodium tripolyphosphate (STP) required can be calculated as:</p>
 <p>[</p>
-<p>\text{STP Required} = 300 \times 1000 \times 10^{-6} \times 1.2 = 0.36 \text{ kg}</p>
+<p>STP Required = 300 × 1000 × 10⁻⁶ × 1.2 = 0.36 kg</p>
 <p>]</p>
 <ul>
 <li><strong>Sodium Bicarbonate Treatment</strong>:</li>
@@ -1001,7 +1076,7 @@
 </ul>
 <p>> <strong>Example:</strong> If the hardness of the water is 250 ppm and 500 liters of water is treated, the amount of sodium bicarbonate required can be calculated as:</p>
 <p>[</p>
-<p>\text{Sodium Bicarbonate Required} = 250 \times 500 \times 10^{-6} \times 2 = 0.25 \text{ kg}</p>
+<p>Sodium Bicarbonate Required = 250 × 500 × 10⁻⁶ × 2 = 0.25 kg</p>
 <p>]</p>
 <h4>Summary</h4>
 <p>In this section, we have discussed the common boiler problems such as scale formation, fouling, corrosion, and ash formation. We have also covered the methods of softening water, both externally and internally. Proper softening ensures the efficient and safe operation of boilers.</p>
@@ -1226,7 +1301,7 @@
 <h4>Thermal Conductivity</h4>
 <p><strong>Thermal Conductivity:</strong> The ability of a material to conduct heat. Metals generally have high thermal conductivity, which is why they are used in heat exchangers and cooking utensils. Copper, with a thermal conductivity of 385 W/(m·K), is one of the best conductors of heat.</p>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the density of a metal block that has a mass of 100 grams and a volume of 5 cm³.<br /><br /><strong>Solution:</strong> The density (ρ) is given by the formula:<br /><br />[<br />\rho = \frac{\text{mass}}{\text{volume}}<br />]<br /><br />Substituting the given values:<br /><br />[<br />\rho = \frac{100 \text{ g}}{5 \text{ cm}^3} = 20 \text{ g/cm}^3<br />]</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the density of a metal block that has a mass of 100 grams and a volume of 5 cm³.<br /><br /><strong>Solution:</strong> The density (ρ) is given by the formula:<br /><br />[<br />= (mass / volume)<br />]<br /><br />Substituting the given values:<br /><br />[<br />= (100 g / 5 cm³) = 20 g/cm³<br />]</div>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Compare the melting points of iron and lead and discuss their implications for use in different applications.<br /><br /><strong>Solution:</strong> Iron has a higher melting point (1538°C) compared to lead (327°C). This difference means that iron can withstand higher temperatures without melting, making it suitable for use in high-temperature environments such as in furnaces. In contrast, lead's lower melting point makes it more suitable for applications where the material needs to remain solid at lower temperatures, such as in plumbing or radiation shielding.</div>
 <p>By understanding the physical properties of metals, engineers can select the most appropriate materials for various applications, ensuring safety, efficiency, and performance.</p>
@@ -1246,15 +1321,15 @@
 <h3 id="u3-sec-classification-of-alloys">Classification of alloys</h3>
 <p>Alloys can be classified based on their composition and the nature of the constituent elements. The following flowchart illustrates the classification of alloys:</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D[Example: Steel, Brass]
- A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G[Example: Nickel Alloys]
- A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J[Example: Stainless Steel]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D[Example: Steel, Brass]
- A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G[Example: Nickel Alloys]
- A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J[Example: Stainless Steel]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D[Example: Steel, Brass]
- A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G[Example: Nickel Alloys]
- A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J[Example: Stainless Steel]</pre></noscript></div>
+ A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D['Example: Steel, Brass']
+ A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G['Example: Nickel Alloys']
+ A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J['Example: Stainless Steel']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D['Example: Steel, Brass']
+ A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G['Example: Nickel Alloys']
+ A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J['Example: Stainless Steel']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D['Example: Steel, Brass']
+ A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G['Example: Nickel Alloys']
+ A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J['Example: Stainless Steel']</pre></noscript></div>
 <h4>Binary Alloys</h4>
 <ul>
 <li><strong>Definition:</strong> A binary alloy is composed of two elements, typically a metal and another metal or a metal and a non-metal.</li>
@@ -1361,7 +1436,7 @@
 <li><strong>Crevice Corrosion</strong>: This occurs in areas where the electrolyte is trapped, such as under bolts or in crevices. The concentration of chloride ions can be higher in these areas, leading to accelerated corrosion. For example, in a ship's hull, crevices can form under bolts, leading to localized corrosion.</li>
 </ul>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A mild steel bar is placed in a solution containing 1 M NaCl. The steel bar loses 2.5 mg of mass per day. Assuming the density of steel is 7.85 g/cm³, calculate the corrosion rate in mm/year.<br /><br /><strong>Solution:</strong><br /><br />1. Convert the mass loss to grams:<br /><br />[<br />2.5 \text{ mg/day} = 2.5 \times 10^{-3} \text{ g/day}<br />]<br /><br />2. Calculate the volume of steel lost per day:<br /><br />[<br />\text{Volume lost/day} = \frac{2.5 \times 10^{-3} \text{ g}}{7.85 \text{ g/cm}^3} = 3.18 \times 10^{-4} \text{ cm}^3/\text{day}<br />]<br /><br />3. Calculate the corrosion rate in cm/year:<br /><br />[<br />\text{Corrosion rate (cm/year)} = 3.18 \times 10^{-4} \text{ cm/day} \times 365 \text{ day/year} \times 100 \text{ mm/cm} = 117.57 \text{ mm/year}<br />]</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A mild steel bar is placed in a solution containing 1 M NaCl. The steel bar loses 2.5 mg of mass per day. Assuming the density of steel is 7.85 g/cm³, calculate the corrosion rate in mm/year.<br /><br /><strong>Solution:</strong><br /><br />1. Convert the mass loss to grams:<br /><br />[<br />2.5 mg/day = 2.5 × 10⁻³ g/day<br />]<br /><br />2. Calculate the volume of steel lost per day:<br /><br />[<br />Volume lost/day = 2.5 × 10⁻³ g7.85 g/cm³ = 3.18 × 10⁻⁴ cm³/day<br />]<br /><br />3. Calculate the corrosion rate in cm/year:<br /><br />[<br />Corrosion rate (cm/year) = 3.18 × 10⁻⁴ cm/day × 365 day/year × 100 mm/cm = 117.57 mm/year<br />]</div>
 <h3 id="u3-sec-protective-measurements-against-corrosion-organic-and-inorganic-materials">Protective measurements against corrosion – organic and inorganic materials</h3>
 <h4>Organic Coatings</h4>
 <p>Organic coatings are used to protect metals from corrosion by providing a barrier that prevents the metal from coming into contact with the electrolyte. These coatings include paints, varnishes, and epoxies.</p>
@@ -1379,7 +1454,7 @@
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A steel bridge is coated with a primer and a topcoat of paint. The bridge is exposed to a marine environment where it is subject to salt spray and moisture. Determine the effectiveness of the coating in preventing corrosion.<br /><br /><strong>Solution:</strong><br /><br />1. <strong>Primer</strong>: The primer provides a barrier that prevents the steel from coming into direct contact with the marine environment. It also improves the adhesion of the topcoat.<br /><br />2. <strong>Topcoat</strong>: The topcoat acts as a physical barrier that resists the penetration of moisture and salt. The effectiveness of the coating can be assessed by its ability to prevent the formation of rust and by its durability.<br /><br />3. <strong>Testing</strong>: Regular inspections and maintenance can be conducted to ensure that the coating remains intact. If the coating shows signs of degradation, such as cracking or peeling, it should be recoated to maintain protection.</div>
 <h4>Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A ship's hull is coated with an epoxy primer followed by a topcoat of polyurethane paint. The epoxy primer is applied to ensure a good adhesion surface, while the polyurethane topcoat provides a durable protective layer against the harsh marine environment. Calculate the expected service life of the coating if the epoxy primer has a service life of 10 years and the polyurethane topcoat has a service life of 5 years.<br /><br /><strong>Solution:</strong><br /><br />1. <strong>Service Life of Primer</strong>: The epoxy primer has a service life of 10 years.<br /><br />2. <strong>Service Life of Topcoat</strong>: The polyurethane topcoat has a service life of 5 years.<br /><br />3. <strong>Combined Service Life</strong>: The combined service life of the coating is the product of the service lives of the primer and the topcoat:<br /><br />[<br />\text{Combined Service Life} = 10 \text{ years} \times 5 \text{ years} = 50 \text{ years}<br />]</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A ship's hull is coated with an epoxy primer followed by a topcoat of polyurethane paint. The epoxy primer is applied to ensure a good adhesion surface, while the polyurethane topcoat provides a durable protective layer against the harsh marine environment. Calculate the expected service life of the coating if the epoxy primer has a service life of 10 years and the polyurethane topcoat has a service life of 5 years.<br /><br /><strong>Solution:</strong><br /><br />1. <strong>Service Life of Primer</strong>: The epoxy primer has a service life of 10 years.<br /><br />2. <strong>Service Life of Topcoat</strong>: The polyurethane topcoat has a service life of 5 years.<br /><br />3. <strong>Combined Service Life</strong>: The combined service life of the coating is the product of the service lives of the primer and the topcoat:<br /><br />[<br />Combined Service Life = 10 years × 5 years = 50 years<br />]</div>
 <p>By understanding the theories of corrosion and implementing appropriate protective measures, the life span and integrity of metal structures can be significantly extended.</p>
 <hr />
 <h3 id="u3-sec-inhibitors">Inhibitors</h3>
@@ -1494,12 +1569,12 @@
 <p>Polymers can be classified based on their source as natural or synthetic. Understanding the classification helps in identifying the properties and applications of different polymers and fibers.</p>
 <h4>Flowchart for Classification</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Sources] --&gt; B[Natural Polymers] --&gt; C[Examples: Cellulose, Chitin]
- A --&gt; D[Synthetic Polymers] --&gt; E[Examples: Polyethylene, Nylon]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Sources] --&gt; B[Natural Polymers] --&gt; C[Examples: Cellulose, Chitin]
- A --&gt; D[Synthetic Polymers] --&gt; E[Examples: Polyethylene, Nylon]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Sources] --&gt; B[Natural Polymers] --&gt; C[Examples: Cellulose, Chitin]
- A --&gt; D[Synthetic Polymers] --&gt; E[Examples: Polyethylene, Nylon]</pre></noscript></div>
+ A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']
+ A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']
+ A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']
+ A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</pre></noscript></div>
 <h4>Detailed Classification</h4>
 <ul>
 <li><strong>Natural Polymers</strong>: These polymers occur in nature and are derived from biological sources.</li>
@@ -1613,15 +1688,15 @@
  A[Natural Rubber] --&gt; B[Derived from latex]
  A --&gt; C[High elasticity and tensile strength]
  B --&gt; D[Hevea brasiliensis tree]
- C --&gt; E[Chemical structure: Polyisoprene]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ C --&gt; E['Chemical structure: Polyisoprene']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Natural Rubber] --&gt; B[Derived from latex]
  A --&gt; C[High elasticity and tensile strength]
  B --&gt; D[Hevea brasiliensis tree]
- C --&gt; E[Chemical structure: Polyisoprene]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ C --&gt; E['Chemical structure: Polyisoprene']</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Natural Rubber] --&gt; B[Derived from latex]
  A --&gt; C[High elasticity and tensile strength]
  B --&gt; D[Hevea brasiliensis tree]
- C --&gt; E[Chemical structure: Polyisoprene]</pre></noscript></div>
+ C --&gt; E['Chemical structure: Polyisoprene']</pre></noscript></div>
 <h3 id="u4-sec-vulcanization-of-rubber">Vulcanization of Rubber</h3>
 <h4>Introduction to Vulcanization</h4>
 <p><strong>Vulcanization</strong> is a process used to improve the properties of rubber by heating it in the presence of sulfur. This process crosslinks the polymer chains, enhancing the strength, elasticity, and durability of the rubber.</p>
@@ -1873,15 +1948,15 @@
  A[Polymerization] --&gt; B[Extraction of Cellulose]
  B --&gt; C[Acetylation]
  C --&gt; D[Spinning]
- D --&gt; E[Final Product: Cellulose Acetate Fiber]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ D --&gt; E['Final Product: Cellulose Acetate Fiber']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Polymerization] --&gt; B[Extraction of Cellulose]
  B --&gt; C[Acetylation]
  C --&gt; D[Spinning]
- D --&gt; E[Final Product: Cellulose Acetate Fiber]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ D --&gt; E['Final Product: Cellulose Acetate Fiber']</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Polymerization] --&gt; B[Extraction of Cellulose]
  B --&gt; C[Acetylation]
  C --&gt; D[Spinning]
- D --&gt; E[Final Product: Cellulose Acetate Fiber]</pre></noscript></div>
+ D --&gt; E['Final Product: Cellulose Acetate Fiber']</pre></noscript></div>
 <p>This flowchart illustrates the process of producing cellulose acetate fiber from cellulose to its final product.</p>
 <hr />
 <h3 id="u4-sec-viscose-rayon">Viscose Rayon</h3>
@@ -2057,7 +2132,7 @@
 <li><strong>Solution:</strong></li>
 <li>The peak angle in the intensity distribution corresponds to the hydrodynamic radius of the nano particles. By using the known refractive index of the dispersant and the angle, the researcher can calculate the size of the nano particles using the equation:</li>
 </ul>
-<p>[ R_h = \frac{1}{2} \left( \frac{\lambda}{1.22 \cdot \sin(\theta/2)} \right) ]</p>
+<p>[ R_h = (1 / 2) ( (λ / 1.22 · (θ/2)) ) ]</p>
 <p>where λ is the wavelength of the light and θ is the angle of the peak.</p>
 <ul>
 <li>This example illustrates how DLS can be used to measure the size of nano particles.</li>
@@ -2414,7 +2489,7 @@
 <li><strong>Calculation for Coal:</strong></li>
 </ol>
 <p>[</p>
-<p>\text{Energy content of 200 tons of coal} = 200 \times 25 \text{ GJ} = 5000 \text{ GJ}</p>
+<p>Energy content of 200 tons of coal = 200 × 25 GJ = 5000 GJ</p>
 <p>]</p>
 <ol>
 <li><strong>Calculation for Natural Gas:</strong></li>
@@ -2423,13 +2498,13 @@
 <li>Convert the energy content from GJ to MJ (since 1 GJ = 1000 MJ):</li>
 </ul>
 <p>[</p>
-<p>5000 \text{ GJ} = 5000 \times 1000 \text{ MJ} = 5,000,000 \text{ MJ}</p>
+<p>5000 GJ = 5000 × 1000 MJ = 5,000,000 MJ</p>
 <p>]</p>
 <ul>
 <li>Determine the volume of natural gas required:</li>
 </ul>
 <p>[</p>
-<p>\text{Volume of natural gas} = \frac{5,000,000 \text{ MJ}}{38 \text{ MJ/m}^3} \approx 131,579 \text{ m}^3</p>
+<p>Volume of natural gas = (5,000,000 MJ / 38 MJ/m³) ≈ 131,579 m³</p>
 <p>]</p>
 <p>Thus, the town would need approximately 131,579 cubic meters of natural gas per month to match the energy content of 200 tons of coal.</p>
 <h3 id="u6-sec-types-of-fuel-and-their-applications">Types of fuel and their applications</h3>
@@ -2469,7 +2544,7 @@
 <li><strong>Calculation for Coal:</strong></li>
 </ol>
 <p>[</p>
-<p>\text{Energy content of 10,000 tons of coal} = 10,000 \times 25 \text{ GJ} = 250,000 \text{ GJ}</p>
+<p>Energy content of 10,000 tons of coal = 10,000 × 25 GJ = 250,000 GJ</p>
 <p>]</p>
 <ol>
 <li><strong>Calculation for Natural Gas:</strong></li>
@@ -2478,25 +2553,25 @@
 <li>Convert the energy content from GJ to MJ (since 1 GJ = 1000 MJ):</li>
 </ul>
 <p>[</p>
-<p>250,000 \text{ GJ} = 250,000 \times 1000 \text{ MJ} = 250,000,000 \text{ MJ}</p>
+<p>250,000 GJ = 250,000 × 1000 MJ = 250,000,000 MJ</p>
 <p>]</p>
 <ul>
 <li>Determine the volume of natural gas required:</li>
 </ul>
 <p>[</p>
-<p>\text{Volume of natural gas} = \frac{250,000,000 \text{ MJ}}{38 \text{ MJ/m}^3} \approx 6,578,947 \text{ m}^3</p>
+<p>Volume of natural gas = (250,000,000 MJ / 38 MJ/m³) ≈ 6,578,947 m³</p>
 <p>]</p>
 <p>Thus, the power plant would need approximately 6,578,947 cubic meters of natural gas per month to match the energy content of 10,000 tons of coal.</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Energy Content] --&gt; B[Coal] --&gt; C[250,000 GJ]
- A --&gt; D[Natural Gas] --&gt; E[250,000,000 MJ]
- F[Volume of Natural Gas] --&gt; G[6,578,947 m^3]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Energy Content] --&gt; B[Coal] --&gt; C[250,000 GJ]
- A --&gt; D[Natural Gas] --&gt; E[250,000,000 MJ]
- F[Volume of Natural Gas] --&gt; G[6,578,947 m^3]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Energy Content] --&gt; B[Coal] --&gt; C[250,000 GJ]
- A --&gt; D[Natural Gas] --&gt; E[250,000,000 MJ]
- F[Volume of Natural Gas] --&gt; G[6,578,947 m^3]</pre></noscript></div>
+ A[Energy Content] --&gt; B[Coal] --&gt; C['250,000 GJ']
+ A --&gt; D[Natural Gas] --&gt; E['250,000,000 MJ']
+ F[Volume of Natural Gas] --&gt; G['6,578,947 m^3']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[Energy Content] --&gt; B[Coal] --&gt; C['250,000 GJ']
+ A --&gt; D[Natural Gas] --&gt; E['250,000,000 MJ']
+ F[Volume of Natural Gas] --&gt; G['6,578,947 m^3']</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[Energy Content] --&gt; B[Coal] --&gt; C['250,000 GJ']
+ A --&gt; D[Natural Gas] --&gt; E['250,000,000 MJ']
+ F[Volume of Natural Gas] --&gt; G['6,578,947 m^3']</pre></noscript></div>
 <hr />
 <h3 id="u6-sec-calorific-value">Calorific Value</h3>
 
@@ -2514,8 +2589,17 @@
 <li><strong>Subtract the latent heat of vaporization of water (if applicable) to get the lower heating value.</strong></li>
 </ol>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the lower heating value of a fuel with a heat of combustion of 45,000 kJ/kg.</div>
-<blockquote>```mermaid<br />flowchart TD<br />A[Heat of Combustion (Hc)] --> B[Subtract Latent Heat of Vaporization (LHV)]<br />B --> C[LHV = Hc - LHV]<br />```</blockquote>
-<blockquote>```mermaid<br />flowchart LR<br />A[45,000 kJ/kg] --> B[Subtract 2,260 kJ/kg(LHV of H2O)] --> C[LHV = 42,740 kJ/kg]<br />```</blockquote>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A['Heat of Combustion (Hc)'] --&gt; B['Subtract Latent Heat of Vaporization (LHV)']
+ B --&gt; C[LHV = Hc - LHV]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A['Heat of Combustion (Hc)'] --&gt; B['Subtract Latent Heat of Vaporization (LHV)']
+ B --&gt; C[LHV = Hc - LHV]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A['Heat of Combustion (Hc)'] --&gt; B['Subtract Latent Heat of Vaporization (LHV)']
+ B --&gt; C[LHV = Hc - LHV]</pre></noscript></div>
+<div class="mermaid-wrap"><div class="mermaid">flowchart LR
+ A['45,000 kJ/kg'] --&gt; B['Subtract 2,260 kJ/kg(LHV of H2O)'] --&gt; C['LHV = 42,740 kJ/kg']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A['45,000 kJ/kg'] --&gt; B['Subtract 2,260 kJ/kg(LHV of H2O)'] --&gt; C['LHV = 42,740 kJ/kg']</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A['45,000 kJ/kg'] --&gt; B['Subtract 2,260 kJ/kg(LHV of H2O)'] --&gt; C['LHV = 42,740 kJ/kg']</pre></noscript></div>
 <h4>Practical Application</h4>
 <p>Calorific value is crucial in the design of combustion systems, such as boilers and engines, where the energy output needs to be optimized. For instance, in a steam power plant, the higher heating value of the fuel is used to determine the amount of steam produced and the subsequent energy output.</p>
 <h3 id="u6-sec-characteristics-of-good-fuel">Characteristics of Good Fuel</h3>
@@ -2544,7 +2628,37 @@
 <li>Emissions: CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh</li>
 </ul>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Evaluate the suitability of the fuel based on its characteristics.</div>
-<blockquote>```mermaid<br />flowchart TD<br />A[Calorific Value] --> B[High (40,000 kJ/kg)]<br />B --> C[Good for energy efficiency]<br />A --> D[Density] --> E[800 kg/m³]<br />E --> F[Easy storage and transport]<br />A --> G[Ignition Temperature] --> H[300°C]<br />H --> I[Good ignition properties]<br />A --> J[Ash Content] --> K[0.5%]<br />K --> L[Minimizes maintenance]<br />A --> M[Emissions] --> N[CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh]<br />N --> O[Meets environmental standards]<br />```</blockquote>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Calorific Value] --&gt; B['High (40,000 kJ/kg)']
+ B --&gt; C[Good for energy efficiency]
+ A --&gt; D[Density] --&gt; E['800 kg/m³']
+ E --&gt; F[Easy storage and transport]
+ A --&gt; G[Ignition Temperature] --&gt; H[300°C]
+ H --&gt; I[Good ignition properties]
+ A --&gt; J[Ash Content] --&gt; K['0.5%']
+ K --&gt; L[Minimizes maintenance]
+ A --&gt; M[Emissions] --&gt; N['CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh']
+ N --&gt; O[Meets environmental standards]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Calorific Value] --&gt; B['High (40,000 kJ/kg)']
+ B --&gt; C[Good for energy efficiency]
+ A --&gt; D[Density] --&gt; E['800 kg/m³']
+ E --&gt; F[Easy storage and transport]
+ A --&gt; G[Ignition Temperature] --&gt; H[300°C]
+ H --&gt; I[Good ignition properties]
+ A --&gt; J[Ash Content] --&gt; K['0.5%']
+ K --&gt; L[Minimizes maintenance]
+ A --&gt; M[Emissions] --&gt; N['CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh']
+ N --&gt; O[Meets environmental standards]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Calorific Value] --&gt; B['High (40,000 kJ/kg)']
+ B --&gt; C[Good for energy efficiency]
+ A --&gt; D[Density] --&gt; E['800 kg/m³']
+ E --&gt; F[Easy storage and transport]
+ A --&gt; G[Ignition Temperature] --&gt; H[300°C]
+ H --&gt; I[Good ignition properties]
+ A --&gt; J[Ash Content] --&gt; K['0.5%']
+ K --&gt; L[Minimizes maintenance]
+ A --&gt; M[Emissions] --&gt; N['CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh']
+ N --&gt; O[Meets environmental standards]</pre></noscript></div>
 <h4>Conclusion</h4>
 <p>The characteristics of good fuel are essential for efficient and clean combustion. By considering factors such as calorific value, density, combustion properties, and emissions, we can select fuels that meet the requirements of various applications.</p>
 <hr />
@@ -2579,7 +2693,7 @@
 <li><strong>Butane (C4H10)</strong>: Boiling point is -0.5°C.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />Calculate the density of propane at 20°C and 1 atm pressure, given that the molar mass of propane is 44 g/mol and the density of propane at 0°C and 1 atm is 1.86 kg/m³.<br /><br />Solution:<br />Using the ideal gas law, PV = nRT, where P = 1 atm, T = 20 + 273 = 293 K, and R = 0.0821 L·atm/(mol·K):<br /><br />[<br />n = \frac{PV}{RT} = \frac{1 \, \text{atm} \times 1000 \, \text{L}}{0.0821 \, \text{L·atm/(mol·K)} \times 293 \, \text{K}} = 41.1 \, \text{mol}<br />]<br /><br />The volume of 41.1 moles of propane is 1000 L, so the mass is 41.1 mol × 44 g/mol = 1808.4 g = 1.8084 kg.<br /><br />The density is 1.8084 kg 1000 L = 1.8084 kg/m³.</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />Calculate the density of propane at 20°C and 1 atm pressure, given that the molar mass of propane is 44 g/mol and the density of propane at 0°C and 1 atm is 1.86 kg/m³.<br /><br />Solution:<br />Using the ideal gas law, PV = nRT, where P = 1 atm, T = 20 + 273 = 293 K, and R = 0.0821 L·atm/(mol·K):<br /><br />[<br />n = (PV / RT) = (1 \, atm × 1000 \, L / 0.0821 \, L·atm/(mol·K) × 293 \, K) = 41.1 \, mol<br />]<br /><br />The volume of 41.1 moles of propane is 1000 L, so the mass is 41.1 mol × 44 g/mol = 1808.4 g = 1.8084 kg.<br /><br />The density is 1.8084 kg 1000 L = 1.8084 kg/m³.</div>
 <h4>Natural Gas</h4>
 <p><strong>Natural Gas</strong> is a mixture of hydrocarbons, primarily methane (CH4), ethane (C2H6), propane (C3H8), and butane (C4H10). It is a clean and efficient fuel.</p>
 <ul>
@@ -2590,7 +2704,7 @@
 </ul>
 <p><strong>Example:</strong></p>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />Calculate the calorific value of methane (CH4) if 1 kg of methane is burned completely, producing 2.56 MJ of energy. What is the calorific value in MJ/kg?<br /><br />Solution:<br />The calorific value is the energy released per unit mass of the fuel.<br /><br />[</div>
-<p>\text{Calorific value} = \frac{2.56 \, \text{MJ}}{1 \, \text{kg}} = 2.56 \, \text{MJ/kg}</p>
+<p>Calorific value = (2.56 \, MJ / 1 \, kg) = 2.56 \, MJ/kg</p>
 <p>]</p>
 <h4>Biogas</h4>
 <p><strong>Biogas</strong> is a mixture of gases produced by the biological breakdown of organic matter in the absence of oxygen. The main components are:</p>
@@ -2660,37 +2774,37 @@
 </ul>
 <h4>Flowchart of Octane and Cetane Number Calculation</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C[Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)]
+ A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C['Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)']
  A --&gt; D[Higher octane number = Increased knock resistance]
  A --&gt; E[Engine durability improvement]
  A --&gt; F[Combustion quality improvement]
  A --&gt; G[Reduced emissions]
  A --&gt; H[Improved fuel efficiency]
- I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K[Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)]
+ I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K['Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)']
  I --&gt; L[Higher cetane number = Improved combustion]
  I --&gt; M[Reduced engine knocking]
  I --&gt; N[Better engine performance]
  I --&gt; O[Reduced emissions]
  I --&gt; P[Improved fuel efficiency]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C[Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)]
+ A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C['Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)']
  A --&gt; D[Higher octane number = Increased knock resistance]
  A --&gt; E[Engine durability improvement]
  A --&gt; F[Combustion quality improvement]
  A --&gt; G[Reduced emissions]
  A --&gt; H[Improved fuel efficiency]
- I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K[Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)]
+ I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K['Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)']
  I --&gt; L[Higher cetane number = Improved combustion]
  I --&gt; M[Reduced engine knocking]
  I --&gt; N[Better engine performance]
  I --&gt; O[Reduced emissions]
  I --&gt; P[Improved fuel efficiency]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C[Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)]
+ A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C['Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)']
  A --&gt; D[Higher octane number = Increased knock resistance]
  A --&gt; E[Engine durability improvement]
  A --&gt; F[Combustion quality improvement]
  A --&gt; G[Reduced emissions]
  A --&gt; H[Improved fuel efficiency]
- I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K[Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)]
+ I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K['Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)']
  I --&gt; L[Higher cetane number = Improved combustion]
  I --&gt; M[Reduced engine knocking]
  I --&gt; N[Better engine performance]
@@ -2729,36 +2843,36 @@
 </ul>
 <h4>Flowchart of Unleaded Petrol and Diesel Properties</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Unleaded Petrol] --&gt; B[Chemical Composition: Alkanes and aromatics] --&gt; C[Octane Number: 90-95] --&gt; D[Environmental Impact: Reduced lead emissions, still hydrocarbons]
- A --&gt; E[Use in: Spark-ignition engines]
- A --&gt; F[Environmental Impact: Lower emissions compared to leaded petrol]
- A --&gt; G[Energy Content: Lower than diesel]
- A --&gt; H[Volatility: Lower than diesel]
- I[Diesel] --&gt; J[Chemical Composition: Longer hydrocarbon chains] --&gt; K[Cetane Number: 40-50] --&gt; L[Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions]
- I --&gt; M[Use in: Compression-ignition engines]
- I --&gt; N[Energy Content: Higher than unleaded petrol]
- I --&gt; O[Volatility: Higher than unleaded petrol]
- I --&gt; P[Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Unleaded Petrol] --&gt; B[Chemical Composition: Alkanes and aromatics] --&gt; C[Octane Number: 90-95] --&gt; D[Environmental Impact: Reduced lead emissions, still hydrocarbons]
- A --&gt; E[Use in: Spark-ignition engines]
- A --&gt; F[Environmental Impact: Lower emissions compared to leaded petrol]
- A --&gt; G[Energy Content: Lower than diesel]
- A --&gt; H[Volatility: Lower than diesel]
- I[Diesel] --&gt; J[Chemical Composition: Longer hydrocarbon chains] --&gt; K[Cetane Number: 40-50] --&gt; L[Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions]
- I --&gt; M[Use in: Compression-ignition engines]
- I --&gt; N[Energy Content: Higher than unleaded petrol]
- I --&gt; O[Volatility: Higher than unleaded petrol]
- I --&gt; P[Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Unleaded Petrol] --&gt; B[Chemical Composition: Alkanes and aromatics] --&gt; C[Octane Number: 90-95] --&gt; D[Environmental Impact: Reduced lead emissions, still hydrocarbons]
- A --&gt; E[Use in: Spark-ignition engines]
- A --&gt; F[Environmental Impact: Lower emissions compared to leaded petrol]
- A --&gt; G[Energy Content: Lower than diesel]
- A --&gt; H[Volatility: Lower than diesel]
- I[Diesel] --&gt; J[Chemical Composition: Longer hydrocarbon chains] --&gt; K[Cetane Number: 40-50] --&gt; L[Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions]
- I --&gt; M[Use in: Compression-ignition engines]
- I --&gt; N[Energy Content: Higher than unleaded petrol]
- I --&gt; O[Volatility: Higher than unleaded petrol]
- I --&gt; P[Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx]</pre></noscript></div>
+ A[Unleaded Petrol] --&gt; B['Chemical Composition: Alkanes and aromatics'] --&gt; C['Octane Number: 90-95'] --&gt; D['Environmental Impact: Reduced lead emissions, still hydrocarbons']
+ A --&gt; E['Use in: Spark-ignition engines']
+ A --&gt; F['Environmental Impact: Lower emissions compared to leaded petrol']
+ A --&gt; G['Energy Content: Lower than diesel']
+ A --&gt; H['Volatility: Lower than diesel']
+ I[Diesel] --&gt; J['Chemical Composition: Longer hydrocarbon chains'] --&gt; K['Cetane Number: 40-50'] --&gt; L['Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions']
+ I --&gt; M['Use in: Compression-ignition engines']
+ I --&gt; N['Energy Content: Higher than unleaded petrol']
+ I --&gt; O['Volatility: Higher than unleaded petrol']
+ I --&gt; P['Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Unleaded Petrol] --&gt; B['Chemical Composition: Alkanes and aromatics'] --&gt; C['Octane Number: 90-95'] --&gt; D['Environmental Impact: Reduced lead emissions, still hydrocarbons']
+ A --&gt; E['Use in: Spark-ignition engines']
+ A --&gt; F['Environmental Impact: Lower emissions compared to leaded petrol']
+ A --&gt; G['Energy Content: Lower than diesel']
+ A --&gt; H['Volatility: Lower than diesel']
+ I[Diesel] --&gt; J['Chemical Composition: Longer hydrocarbon chains'] --&gt; K['Cetane Number: 40-50'] --&gt; L['Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions']
+ I --&gt; M['Use in: Compression-ignition engines']
+ I --&gt; N['Energy Content: Higher than unleaded petrol']
+ I --&gt; O['Volatility: Higher than unleaded petrol']
+ I --&gt; P['Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Unleaded Petrol] --&gt; B['Chemical Composition: Alkanes and aromatics'] --&gt; C['Octane Number: 90-95'] --&gt; D['Environmental Impact: Reduced lead emissions, still hydrocarbons']
+ A --&gt; E['Use in: Spark-ignition engines']
+ A --&gt; F['Environmental Impact: Lower emissions compared to leaded petrol']
+ A --&gt; G['Energy Content: Lower than diesel']
+ A --&gt; H['Volatility: Lower than diesel']
+ I[Diesel] --&gt; J['Chemical Composition: Longer hydrocarbon chains'] --&gt; K['Cetane Number: 40-50'] --&gt; L['Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions']
+ I --&gt; M['Use in: Compression-ignition engines']
+ I --&gt; N['Energy Content: Higher than unleaded petrol']
+ I --&gt; O['Volatility: Higher than unleaded petrol']
+ I --&gt; P['Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx']</pre></noscript></div>
 <h4>Summary</h4>
 <ul>
 <li><strong>Unleaded Petrol:</strong> Used in spark-ignition engines, with an octane number between 90 and 95, and lower environmental impact due to reduced lead emissions.</li>
@@ -3020,7 +3134,7 @@
 <li><strong>Carbon Dioxide</strong>: CO2</li>
 </ul>
 <p>The overall reaction for alcoholic fermentation can be represented as:</p>
-<p>[ \text{C}_6\text{H}_{12}\text{O}_6 \rightarrow 2\text{C}_2\text{H}_5\text{OH} + 2\text{CO}_2 ]</p>
+<p>[ C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ ]</p>
 <h4>Preparation of Ethanol</h4>
 <p>The preparation of ethanol involves several steps. The process begins with the conversion of sugar to ethanol using yeast.</p>
 <ul>
@@ -3036,7 +3150,7 @@
 <li><strong>Acetic Acid</strong>: CH3COOH</li>
 </ul>
 <p>The overall reaction for the production of acetic acid can be represented as:</p>
-<p>[ \text{C}_2\text{H}_5\text{OH} \rightarrow \text{CH}_3\text{COOH} + \text{H}_2\text{O} ]</p>
+<p>[ C₂H₅OH → CH₃COOH + H₂O ]</p>
 <h4>Flowchart of Ethanol and Acetic Acid Production</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
  A[Raw Materials] --&gt; B[Sugar Solution]
@@ -3139,31 +3253,31 @@
 <li><strong>Number of viable Rhizobium cells</strong>: Assume the weight of one viable Rhizobium cell is 1 microgram (μg).</li>
 </ol>
 <p>[</p>
-<p>\text{Number of viable Rhizobium cells} = \frac{0.5 \text{ kg}}{1 \text{ μg}} = 500 \times 10^3 \text{ cells} = 500,000 \text{ cells}</p>
+<p>Number of viable Rhizobium cells = (0.5 kg / 1 μg) = 500 × 10³ cells = 500,000 cells</p>
 <p>]</p>
 <ol>
 <li><strong>Number of viable Rhizobium cells per seed</strong>: The farmer uses 1000 kg of seeds.</li>
 </ol>
 <p>[</p>
-<p>\text{Number of viable Rhizobium cells per seed} = \frac{500,000 \text{ cells}}{1000 \text{ kg}} = 500 \text{ cells/kg}</p>
+<p>Number of viable Rhizobium cells per seed = (500,000 cells / 1000 kg) = 500 cells/kg</p>
 <p>]</p>
 <h4>Flowchart for Bio Fertilizer Application</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Soil Analysis] --&gt; B[Select Bio Fertilizer]
  B --&gt; C[Prepare Inoculum]
- C --&gt; D[Apply to Seeds/Soil]
+ C --&gt; D['Apply to Seeds/Soil']
  D --&gt; E[Monitor Crop Growth]
  E --&gt; F[Harvest Crops]
  F --&gt; G[Repeat Cycle]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Soil Analysis] --&gt; B[Select Bio Fertilizer]
  B --&gt; C[Prepare Inoculum]
- C --&gt; D[Apply to Seeds/Soil]
+ C --&gt; D['Apply to Seeds/Soil']
  D --&gt; E[Monitor Crop Growth]
  E --&gt; F[Harvest Crops]
  F --&gt; G[Repeat Cycle]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Soil Analysis] --&gt; B[Select Bio Fertilizer]
  B --&gt; C[Prepare Inoculum]
- C --&gt; D[Apply to Seeds/Soil]
+ C --&gt; D['Apply to Seeds/Soil']
  D --&gt; E[Monitor Crop Growth]
  E --&gt; F[Harvest Crops]
  F --&gt; G[Repeat Cycle]</pre></noscript></div>
@@ -3257,8 +3371,7 @@
 <p>> <strong>Example:</strong> Calculate the pH of a solution with [H⁺] = 1 × 10⁻⁴ M.</p>
 <p>></p>
 <p>> [</p>
-<p>> \text{pH} = -\log([H^+]) = -\log(1 \times 10^{-4}) = 4</p>
-<p>> ]</p>
+<blockquote>pH = -([H⁺]) = -(1 × 10⁻⁴) = 4<br />]</blockquote>
 <h4>Conductance Measurement and Understanding</h4>
 <p><strong>Conductance</strong> is a measure of the ability of a solution to pass an electric current. It is the reciprocal of resistance and is directly proportional to the concentration of ions in the solution. The unit of conductance is Siemens (S).</p>
 <ul>
@@ -3267,11 +3380,7 @@
 <p>> <strong>Example:</strong> A solution has a conductance of 0.5 S and a resistance of 2000 Ω. Calculate the resistance of the solution.</p>
 <p>></p>
 <p>> [</p>
-<p>> \text{Conductance} = \frac{1}{\text{Resistance}}</p>
-<p>> ]</p>
-<p>> [</p>
-<p>> \text{Resistance} = \frac{1}{\text{Conductance}} = \frac{1}{0.5} = 2 \, \Omega</p>
-<p>> ]</p>
+<blockquote>Conductance = (1 / Resistance)<br />]<br />[<br />Resistance = (1 / Conductance) = (1 / 0.5) = 2 \,<br />]</blockquote>
 <h4>Potential Measurement and Understanding</h4>
 <p><strong>Potential</strong> in this context typically refers to the cell potential (E) in electrochemical cells. The cell potential is the difference in electrical potential between the anode and the cathode of an electrochemical cell. It is measured in volts (V).</p>
 <ul>
@@ -3280,8 +3389,7 @@
 <p>> <strong>Example:</strong> In a galvanic cell, the reduction half-reaction is Cu²⁺ + 2e⁻ → Cu and the oxidation half-reaction is Zn → Zn²⁺ + 2e⁻. If the standard reduction potential of Cu²⁺ is +0.34 V and the standard reduction potential of Zn²⁺ is -0.76 V, calculate the cell potential.</p>
 <p>></p>
 <p>> [</p>
-<p>> E_{cell} = E_{cathode} - E_{anode} = 0.34 \, \text{V} - (-0.76 \, \text{V}) = 1.10 \, \text{V}</p>
-<p>> ]</p>
+<blockquote>Ecell = Ecathode - Eaₙode = 0.34 \, V - (-0.76 \, V) = 1.10 \, V<br />]</blockquote>
 <h4>Summary</h4>
 <p>In this section, we have discussed the fundamental concepts of pH, conductance, and potential, along with practical examples to aid understanding. Each of these measurements provides critical information about the nature and behavior of solutions in various chemical and electrochemical processes. Understanding these concepts is essential for analyzing and interpreting data in analytical chemistry and related fields.</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
@@ -3330,14 +3438,14 @@
 <li><strong>Solution</strong>: The allowed transition is from v = 0 to v = 1. This transition is significant because it corresponds to the absorption or emission of a specific amount of energy, which can be measured to determine the vibrational frequency of the molecule. The energy difference between these two states can be calculated using the formula:</li>
 </ul>
 <p>[</p>
-<p>E = \hbar \omega (v + \frac{1}{2})</p>
+<p>E = ω (v + (1 / 2))</p>
 <p>]</p>
 <p>where  is the reduced Planck's constant, and ω is the angular frequency of the vibration.</p>
 <h4>Mermaid Diagram for Vibrational Transitions</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Ground State (v=0)] --&gt; B[First Excited State (v=1)]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Ground State (v=0)] --&gt; B[First Excited State (v=1)]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Ground State (v=0)] --&gt; B[First Excited State (v=1)]</pre></noscript></div>
+ A['Ground State (v=0)'] --&gt; B['First Excited State (v=1)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A['Ground State (v=0)'] --&gt; B['First Excited State (v=1)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A['Ground State (v=0)'] --&gt; B['First Excited State (v=1)']</pre></noscript></div>
 <p>This diagram visually represents the allowed vibrational transition in a diatomic molecule, highlighting the change in vibrational quantum number.</p>
 <h4>Conclusion</h4>
 <p>Understanding the principles of spectroscopy and the selection rules is essential for interpreting and analyzing spectroscopic data. By applying these principles, students can accurately determine the molecular structure, composition, and properties of various substances.</p>
@@ -3370,23 +3478,23 @@
 </ul>
 <h4>Mermaid Diagram for UV-Visible Spectroscopy Process</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Light Source] --&gt; B[Deuterium/Tungsten Lamp]
+ A[Light Source] --&gt; B['Deuterium/Tungsten Lamp']
  B --&gt; C[Monochromator]
  C --&gt; D[Sample Cell]
  D --&gt; E[Detector]
  E --&gt; F[Data Display]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Light Source] --&gt; B[Deuterium/Tungsten Lamp]
+ A[Light Source] --&gt; B['Deuterium/Tungsten Lamp']
  B --&gt; C[Monochromator]
  C --&gt; D[Sample Cell]
  D --&gt; E[Detector]
  E --&gt; F[Data Display]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Light Source] --&gt; B[Deuterium/Tungsten Lamp]
+ A[Light Source] --&gt; B['Deuterium/Tungsten Lamp']
  B --&gt; C[Monochromator]
  C --&gt; D[Sample Cell]
  D --&gt; E[Detector]
  E --&gt; F[Data Display]</pre></noscript></div>
 <h4>Worked Example</h4>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A sample of an unknown solution is analyzed using UV-Visible spectroscopy. The absorbance at 260 nm is measured to be 0.50. The path length is 1 cm, and the molar absorptivity of the substance at this wavelength is 1.2 × 10⁴ L/(mol·cm). Calculate the concentration of the substance in the solution.<br /><br /><strong>Solution:</strong><br />Using the Beer-Lambert law, A = · c · l:<br />[ 0.50 = 1.2 \times 10^4 \cdot c \cdot 1 ]<br />[ c = \frac{0.50}{1.2 \times 10^4} ]<br />[ c = 4.17 \times 10^{-5} \, \text{M} ]</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A sample of an unknown solution is analyzed using UV-Visible spectroscopy. The absorbance at 260 nm is measured to be 0.50. The path length is 1 cm, and the molar absorptivity of the substance at this wavelength is 1.2 × 10⁴ L/(mol·cm). Calculate the concentration of the substance in the solution.<br /><br /><strong>Solution:</strong><br />Using the Beer-Lambert law, A = · c · l:<br />[ 0.50 = 1.2 × 10⁴ · c · 1 ]<br />[ c = (0.50 / 1.2 × 10⁴) ]<br />[ c = 4.17 × 10⁻⁵ \, M ]</div>
 <p>This example demonstrates the practical application of UV-Visible spectroscopy in determining the concentration of a substance.</p>
 <hr />
 <h3 id="u8-sec-vibrational-and-rotational-spectroscopy-ir-of-diatomic-molecules-and-its-application">Vibrational and Rotational spectroscopy (IR) of diatomic molecules and its application</h3>
@@ -3398,7 +3506,7 @@
 <li><strong>Vibrational Energy Levels:</strong> The energy of a diatomic molecule in the v-th vibrational state can be expressed as:</li>
 </ul>
 <p>[</p>
-<p>E_v = (v + \frac{1}{2})h\nu</p>
+<p>E_v = (v + (1 / 2))h</p>
 <p>]</p>
 <p>where h is Planck's constant and  is the vibrational frequency.</p>
 <ul>
@@ -3409,7 +3517,7 @@
 </ul>
 <p>> <strong>Example:</strong></p>
 <p>[</p>
-<p>\Delta E = h \nu = 6.626 \times 10^{-34} \, \text{Js} \times 10^{13} \, \text{Hz} = 6.626 \times 10^{-21} \, \text{J}</p>
+<p>Δ E = h = 6.626 × 10⁻³⁴ \, Js × 10¹³ \, Hz = 6.626 × 10⁻²¹ \, J</p>
 <p>]</p>
 <h4>Rotational Spectroscopy</h4>
 <p><strong>Rotational spectroscopy</strong> involves the absorption or emission of microwave radiation by molecules as they undergo rotational transitions. The rotational energy levels in a diatomic molecule can be described by the rotational quantum number J.</p>
@@ -3417,7 +3525,7 @@
 <li><strong>Rotational Energy Levels:</strong> The energy of a diatomic molecule in the J-th rotational state is given by:</li>
 </ul>
 <p>[</p>
-<p>E_J = \frac{J(J + 1) \mu \Omega}{2I}</p>
+<p>E_J = (J(J + 1) μ / 2I)</p>
 <p>]</p>
 <p>where μ is the reduced mass of the molecule,  is the rotational constant, and I is the moment of inertia.</p>
 <ul>
@@ -3428,15 +3536,15 @@
 </ul>
 <p>> <strong>Example:</strong></p>
 <p>[</p>
-<p>\Delta E = \frac{1 \times (1 + 1) \times \mu \Omega}{2I} = \frac{2 \mu \Omega}{2I} = \frac{\mu \Omega}{I}</p>
+<p>Δ E = (1 × (1 + 1) × μ / 2I) = (2 μ / 2I) = (μ / I)</p>
 <p>]</p>
 <p>Given = 10⁻² cm⁻¹, we need to convert  to energy units. Using = hc λ, where h is Planck's constant and c is the speed of light, we get:</p>
 <p>[</p>
-<p>\Omega = 10^{-2} \, \text{cm}^{-1} \times \frac{1.986 \times 10^{-23} \, \text{J} \cdot \text{cm}}{1 \, \text{cm}^{-1}} = 1.986 \times 10^{-25} \, \text{J}</p>
+<p>= 10⁻² \, cm⁻¹ × 1.986 × 10⁻²³ \, J · cm1 \, cm⁻¹ = 1.986 × 10⁻²⁵ \, J</p>
 <p>]</p>
 <p>Thus,</p>
 <p>[</p>
-<p>\Delta E = 1.986 \times 10^{-25} \, \text{J}</p>
+<p>Δ E = 1.986 × 10⁻²⁵ \, J</p>
 <p>]</p>
 <h4>Application of Vibrational and Rotational Spectroscopy</h4>
 <p><strong>Application of Vibrational and Rotational Spectroscopy:</strong> These techniques are widely used in chemical and physical analysis. For instance, in the identification of unknown substances, the vibrational and rotational frequencies can provide unique "fingerprint" spectra. Additionally, these spectroscopic methods can help in studying reaction dynamics, determining bond lengths, and understanding molecular structures.</p>
@@ -3660,6 +3768,54 @@
     // Add class to body for sticky bottom toolbar behavior
     var b = document.body;
     b.classList.add('kb-reader');
+
+    // Reader mode turns chapters into substantial, book-like pages. The
+    // regular continuous layout remains the default for accessibility and
+    // printing; the toggle is a progressive enhancement for screen reading.
+    var readerToggle = document.getElementById('kb-reader-toggle');
+    var pageControls = document.getElementById('kb-page-controls');
+    var pages = [].slice.call(document.querySelectorAll('.kb-articles .kb-unit'));
+    var pageIndex = Math.max(0, Math.min(pages.length - 1, Number(localStorage.getItem('kb:' + "3110001" + ':page') || 0)));
+    var pageMode = false;
+    function paintPage(direction) {
+      if (!pages.length) return;
+      pages.forEach(function (p, i) { p.classList.toggle('kb-page-active', i === pageIndex); p.classList.remove('kb-turn-next', 'kb-turn-prev'); });
+      var current = pages[pageIndex];
+      if (current) { current.classList.add(direction === 'prev' ? 'kb-turn-prev' : 'kb-turn-next'); current.setAttribute('tabindex', '-1'); current.focus({ preventScroll: true }); }
+      var label = document.getElementById('kb-page-label');
+      if (label) label.textContent = 'Chapter ' + (pageIndex + 1) + ' of ' + pages.length;
+      var prev = document.getElementById('kb-page-prev'), next = document.getElementById('kb-page-next');
+      if (prev) prev.disabled = pageIndex === 0;
+      if (next) next.disabled = pageIndex === pages.length - 1;
+      localStorage.setItem('kb:' + "3110001" + ':page', String(pageIndex));
+    }
+    function setPageMode(on) {
+      pageMode = !!on;
+      b.classList.toggle('kb-page-mode', pageMode);
+      if (readerToggle) {
+        readerToggle.innerHTML = pageMode ? '<i class="fas fa-scroll"></i> Continuous view' : '<i class="fas fa-book-open"></i> Page view';
+        readerToggle.setAttribute('aria-pressed', pageMode ? 'true' : 'false');
+      }
+      if (pageControls) pageControls.style.display = pageMode ? 'flex' : 'none';
+      if (pageMode) paintPage('next');
+      else pages.forEach(function (p) { p.classList.add('kb-page-active'); p.removeAttribute('tabindex'); });
+    }
+    if (pageControls) pageControls.style.display = 'none';
+    if (readerToggle) readerToggle.addEventListener('click', function () { setPageMode(!pageMode); });
+    var prevBtn = document.getElementById('kb-page-prev'), nextBtn = document.getElementById('kb-page-next');
+    if (prevBtn) prevBtn.addEventListener('click', function () { if (pageIndex > 0) { pageIndex--; paintPage('prev'); } });
+    if (nextBtn) nextBtn.addEventListener('click', function () { if (pageIndex < pages.length - 1) { pageIndex++; paintPage('next'); } });
+    document.addEventListener('keydown', function (e) {
+      if (!pageMode || (e.target && /input|textarea|select/i.test(e.target.tagName))) return;
+      if (e.key === 'ArrowLeft' && pageIndex > 0) { pageIndex--; paintPage('prev'); }
+      if (e.key === 'ArrowRight' && pageIndex < pages.length - 1) { pageIndex++; paintPage('next'); }
+    });
+    document.querySelectorAll('.kb-unit-link').forEach(function (link, index) {
+      link.addEventListener('click', function (e) {
+        if (!pageMode) return;
+        e.preventDefault(); pageIndex = index; paintPage('next');
+      });
+    });
 
     // Mobile chapter drawer toggle
     var tocDrawer = document.getElementById('kb-mobile-toc');

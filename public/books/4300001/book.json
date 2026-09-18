@@ -18,8 +18,8 @@
    "label": "Unit – Trigonometry",
    "file": "unit-2.html",
    "guFile": null,
-   "words": 1962,
-   "readingMin": 11,
+   "words": 1853,
+   "readingMin": 10,
    "marks": "14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)"
   },
   {
@@ -27,8 +27,8 @@
    "label": "Unit – Vectors",
    "file": "unit-3.html",
    "guFile": null,
-   "words": 1909,
-   "readingMin": 11,
+   "words": 1829,
+   "readingMin": 10,
    "marks": "14 marks (4 Remember + 6 Understand + 4 Apply) (per syllabus)"
   },
   {
@@ -36,7 +36,7 @@
    "label": "Unit – Coordinate Geometry",
    "file": "unit-4.html",
    "guFile": null,
-   "words": 2592,
+   "words": 2508,
    "readingMin": 14,
    "marks": "14 marks (4 Remember + 5 Understand + 5 Apply) (per syllabus)"
   },
@@ -45,7 +45,7 @@
    "label": "Unit – Limit",
    "file": "unit-5.html",
    "guFile": null,
-   "words": 954,
+   "words": 912,
    "readingMin": 5,
    "marks": "12 marks (3 Remember + 4 Understand + 5 Apply) (per syllabus)"
   }
@@ -85,5 +85,5 @@
   }
  ],
  "full": "full-book.html",
- "updatedAt": "2026-09-13T07:00:21.364Z"
+ "updatedAt": "2026-09-18T11:44:13.619Z"
 }

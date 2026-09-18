@@ -6,7 +6,7 @@
  "title": "Unit – Limit",
  "url": "/books/4300001/unit-5.html",
  "guUrl": null,
- "words": 954,
+ "words": 912,
  "readingMin": 5,
  "marks": "12 marks (3 Remember + 4 Understand + 5 Apply) (per syllabus)",
  "sections": [
@@ -20,7 +20,7 @@
   {
    "heading": "Definition and Concept",
    "id": "",
-   "html": "<p>The <strong>limit</strong> of a function is a fundamental concept in calculus. It is the value that a function approaches as the input (or variable) approaches a certain value. This concept is crucial for understanding continuity, derivatives, and integrals. Formally, the limit of a function f(x) as x approaches a is denoted as:</p>\n<p>[ \\lim_{x \\to a} f(x) = L ]</p>\n<p>where L is the value that f(x) gets arbitrarily close to as x gets closer to a.</p>",
+   "html": "<p>The <strong>limit</strong> of a function is a fundamental concept in calculus. It is the value that a function approaches as the input (or variable) approaches a certain value. This concept is crucial for understanding continuity, derivatives, and integrals. Formally, the limit of a function f(x) as x approaches a is denoted as:</p>\n<p>[ → a f(x) = L ]</p>\n<p>where L is the value that f(x) gets arbitrarily close to as x gets closer to a.</p>",
    "examples": [],
    "mermaid": []
   },
@@ -41,7 +41,7 @@
   {
    "heading": "Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the limit of the function f(x) = x² - 4 x - 2 as x approaches 2.</div>\n<p>To solve this, we first try direct substitution:</p>\n<p>[ \\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2} = \\frac{2^2 - 4}{2 - 2} = \\frac{0}{0} ]</p>\n<p>This results in an indeterminate form. Next, we factor the numerator:</p>\n<p>[ \\lim_{x \\to 2} \\frac{(x - 2)(x + 2)}{x - 2} = \\lim_{x \\to 2} (x + 2) ]</p>\n<p>Now, we can substitute x = 2:</p>\n<p>[ \\lim_{x \\to 2} (x + 2) = 2 + 2 = 4 ]</p>\n<p>Thus, the limit of the function as x approaches 2 is:</p>\n<p>[ \\boxed{4} ]</p>\n<hr />",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the limit of the function f(x) = x² - 4 x - 2 as x approaches 2.</div>\n<p>To solve this, we first try direct substitution:</p>\n<p>[ → ₂ (x² - 4 / x - 2) = (2² - 4 / 2 - 2) = (0 / 0) ]</p>\n<p>This results in an indeterminate form. Next, we factor the numerator:</p>\n<p>[ → ₂ ((x - 2)(x + 2) / x - 2) = → ₂ (x + 2) ]</p>\n<p>Now, we can substitute x = 2:</p>\n<p>[ → ₂ (x + 2) = 2 + 2 = 4 ]</p>\n<p>Thus, the limit of the function as x approaches 2 is:</p>\n<p>[ 4 ]</p>\n<hr />",
    "examples": [
     "Find the limit of the function f(x) = x² - 4 x - 2 as x approaches 2."
    ],
@@ -57,14 +57,14 @@
   {
    "heading": "5.2.2. Standard Formulae for Limits",
    "id": "",
-   "html": "<p>Below are some standard formulae of limits that are frequently used:</p>\n<ul>\n<li><strong>Formula for the limit of a polynomial function:</strong></li>\n</ul>\n<p>[</p>\n<p>\\lim_{x \\to a} (P(x)) = P(a)</p>\n<p>]</p>\n<p>where P(x) is a polynomial function.</p>\n<ul>\n<li><strong>Formula for the limit of a rational function:</strong></li>\n</ul>\n<p>[</p>\n<p>\\lim_{x \\to a} \\left(\\frac{P(x)}{Q(x)}\\right) = \\frac{P(a)}{Q(a)}, \\quad \\text{if } Q(a) \\neq 0</p>\n<p>]</p>\n<ul>\n<li><strong>Formula for the limit of a trigonometric function:</strong></li>\n</ul>\n<p>[</p>\n<p>\\lim_{x \\to 0} \\left(\\frac{\\sin x}{x}\\right) = 1</p>\n<p>]</p>\n<ul>\n<li><strong>Formula for the limit of the exponential function:</strong></li>\n</ul>\n<p>[</p>\n<p>\\lim_{x \\to 0} \\left(\\frac{e^x - 1}{x}\\right) = 1</p>\n<p>]</p>\n<ul>\n<li><strong>Formula for the limit of the logarithmic function:</strong></li>\n</ul>\n<p>[</p>\n<p>\\lim_{x \\to 0^+} \\left(x \\ln x\\right) = 0</p>\n<p>]</p>",
+   "html": "<p>Below are some standard formulae of limits that are frequently used:</p>\n<ul>\n<li><strong>Formula for the limit of a polynomial function:</strong></li>\n</ul>\n<p>[</p>\n<p>→ a (P(x)) = P(a)</p>\n<p>]</p>\n<p>where P(x) is a polynomial function.</p>\n<ul>\n<li><strong>Formula for the limit of a rational function:</strong></li>\n</ul>\n<p>[</p>\n<p>→ a ((P(x) / Q(x))) = (P(a) / Q(a)), if Q(a) ≠ 0</p>\n<p>]</p>\n<ul>\n<li><strong>Formula for the limit of a trigonometric function:</strong></li>\n</ul>\n<p>[</p>\n<p>→ ₀ ((x / x)) = 1</p>\n<p>]</p>\n<ul>\n<li><strong>Formula for the limit of the exponential function:</strong></li>\n</ul>\n<p>[</p>\n<p>→ ₀ ((eˣ - 1 / x)) = 1</p>\n<p>]</p>\n<ul>\n<li><strong>Formula for the limit of the logarithmic function:</strong></li>\n</ul>\n<p>[</p>\n<p>→ ₀⁺ (x x) = 0</p>\n<p>]</p>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "5.2.3. Application of Standard Formulae",
    "id": "",
-   "html": "<p>To solve problems using these standard formulae, it is crucial to recognize the type of function involved and apply the appropriate formula. Here is a worked example to illustrate the application of these formulae.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />Given the function f(x) = x² - 4 x - 2, find → ₂ f(x).</div>\n<p><strong>Solution:</strong></p>\n<p>First, we simplify the function:</p>\n<p>[</p>\n<p>f(x) = \\frac{x^2 - 4}{x - 2} = \\frac{(x - 2)(x + 2)}{x - 2} = x + 2 \\quad \\text{for } x \\neq 2</p>\n<p>]</p>\n<p>Now, we can find the limit:</p>\n<p>[</p>\n<p>\\lim_{x \\to 2} f(x) = \\lim_{x \\to 2} (x + 2) = 2 + 2 = 4</p>\n<p>]</p>",
+   "html": "<p>To solve problems using these standard formulae, it is crucial to recognize the type of function involved and apply the appropriate formula. Here is a worked example to illustrate the application of these formulae.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />Given the function f(x) = x² - 4 x - 2, find → ₂ f(x).</div>\n<p><strong>Solution:</strong></p>\n<p>First, we simplify the function:</p>\n<p>[</p>\n<p>f(x) = (x² - 4 / x - 2) = ((x - 2)(x + 2) / x - 2) = x + 2 for x ≠ 2</p>\n<p>]</p>\n<p>Now, we can find the limit:</p>\n<p>[</p>\n<p>→ ₂ f(x) = → ₂ (x + 2) = 2 + 2 = 4</p>\n<p>]</p>",
    "examples": [
     "Given the function f(x) = x² - 4 x - 2, find → ₂ f(x)."
    ],
@@ -73,7 +73,7 @@
   {
    "heading": "5.2.4. Advanced Application of Limit Formulae",
    "id": "",
-   "html": "<p>To further enhance your understanding and application, consider the following problem:</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />Evaluate → ₀ ( 3x x ).</div>\n<p><strong>Solution:</strong></p>\n<p>Using the standard formula for the limit of a trigonometric function:</p>\n<p>[</p>\n<p>\\lim_{x \\to 0} \\left(\\frac{\\sin 3x}{x}\\right) = \\lim_{x \\to 0} \\left(3 \\cdot \\frac{\\sin 3x}{3x}\\right) = 3 \\cdot \\lim_{x \\to 0} \\left(\\frac{\\sin 3x}{3x}\\right) = 3 \\cdot 1 = 3</p>\n<p>]</p>",
+   "html": "<p>To further enhance your understanding and application, consider the following problem:</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />Evaluate → ₀ ( 3x x ).</div>\n<p><strong>Solution:</strong></p>\n<p>Using the standard formula for the limit of a trigonometric function:</p>\n<p>[</p>\n<p>→ ₀ ((3x / x)) = → ₀ (3 · (3x / 3x)) = 3 · → ₀ ((3x / 3x)) = 3 · 1 = 3</p>\n<p>]</p>",
    "examples": [
     "Evaluate → ₀ ( 3x x )."
    ],
@@ -82,10 +82,10 @@
   {
    "heading": "5.2.5. Flowchart for Standard Formulae Application",
    "id": "",
-   "html": "<p>To visualize the process of applying standard formulae, consider the following flowchart:</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Identify the type of function] --&gt; B[Polynomial Function]\n B --&gt; C[Use \\lim_{x \\to a} P(x) = P(a)]\n A --&gt; D[Rational Function]\n D --&gt; E[Use \\lim_{x \\to a} (P(x)/Q(x)) = P(a)/Q(a)]\n A --&gt; F[Trigonometric Function]\n F --&gt; G[Use \\lim_{x \\to 0} (sin x / x) = 1]\n A --&gt; H[Exponential Function]\n H --&gt; I[Use \\lim_{x \\to 0} ((e^x - 1) / x) = 1]\n A --&gt; J[Logarithmic Function]\n J --&gt; K[Use \\lim_{x \\to 0^+} (x ln x) = 0]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Identify the type of function] --&gt; B[Polynomial Function]\n B --&gt; C[Use \\lim_{x \\to a} P(x) = P(a)]\n A --&gt; D[Rational Function]\n D --&gt; E[Use \\lim_{x \\to a} (P(x)/Q(x)) = P(a)/Q(a)]\n A --&gt; F[Trigonometric Function]\n F --&gt; G[Use \\lim_{x \\to 0} (sin x / x) = 1]\n A --&gt; H[Exponential Function]\n H --&gt; I[Use \\lim_{x \\to 0} ((e^x - 1) / x) = 1]\n A --&gt; J[Logarithmic Function]\n J --&gt; K[Use \\lim_{x \\to 0^+} (x ln x) = 0]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Identify the type of function] --&gt; B[Polynomial Function]\n B --&gt; C[Use \\lim_{x \\to a} P(x) = P(a)]\n A --&gt; D[Rational Function]\n D --&gt; E[Use \\lim_{x \\to a} (P(x)/Q(x)) = P(a)/Q(a)]\n A --&gt; F[Trigonometric Function]\n F --&gt; G[Use \\lim_{x \\to 0} (sin x / x) = 1]\n A --&gt; H[Exponential Function]\n H --&gt; I[Use \\lim_{x \\to 0} ((e^x - 1) / x) = 1]\n A --&gt; J[Logarithmic Function]\n J --&gt; K[Use \\lim_{x \\to 0^+} (x ln x) = 0]</pre></noscript></div>\n<p>This flowchart helps in quickly identifying the appropriate standard formula for the given function type.</p>",
+   "html": "<p>To visualize the process of applying standard formulae, consider the following flowchart:</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Identify the type of function] --&gt; B[Polynomial Function]\n B --&gt; C['Use \\lim_{x \\to a} P(x) = P(a)']\n A --&gt; D[Rational Function]\n D --&gt; E['Use \\lim_{x \\to a} (P(x)/Q(x)) = P(a)/Q(a)']\n A --&gt; F[Trigonometric Function]\n F --&gt; G['Use \\lim_{x \\to 0} (sin x / x) = 1']\n A --&gt; H[Exponential Function]\n H --&gt; I['Use \\lim_{x \\to 0} ((e^x - 1) / x) = 1']\n A --&gt; J[Logarithmic Function]\n J --&gt; K['Use \\lim_{x \\to 0^+} (x ln x) = 0']</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Identify the type of function] --&gt; B[Polynomial Function]\n B --&gt; C['Use \\lim_{x \\to a} P(x) = P(a)']\n A --&gt; D[Rational Function]\n D --&gt; E['Use \\lim_{x \\to a} (P(x)/Q(x)) = P(a)/Q(a)']\n A --&gt; F[Trigonometric Function]\n F --&gt; G['Use \\lim_{x \\to 0} (sin x / x) = 1']\n A --&gt; H[Exponential Function]\n H --&gt; I['Use \\lim_{x \\to 0} ((e^x - 1) / x) = 1']\n A --&gt; J[Logarithmic Function]\n J --&gt; K['Use \\lim_{x \\to 0^+} (x ln x) = 0']</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Identify the type of function] --&gt; B[Polynomial Function]\n B --&gt; C['Use \\lim_{x \\to a} P(x) = P(a)']\n A --&gt; D[Rational Function]\n D --&gt; E['Use \\lim_{x \\to a} (P(x)/Q(x)) = P(a)/Q(a)']\n A --&gt; F[Trigonometric Function]\n F --&gt; G['Use \\lim_{x \\to 0} (sin x / x) = 1']\n A --&gt; H[Exponential Function]\n H --&gt; I['Use \\lim_{x \\to 0} ((e^x - 1) / x) = 1']\n A --&gt; J[Logarithmic Function]\n J --&gt; K['Use \\lim_{x \\to 0^+} (x ln x) = 0']</pre></noscript></div>\n<p>This flowchart helps in quickly identifying the appropriate standard formula for the given function type.</p>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Identify the type of function] --> B[Polynomial Function]\n    B --> C[Use \\lim_{x \\to a} P(x) = P(a)]\n    A --> D[Rational Function]\n    D --> E[Use \\lim_{x \\to a} (P(x)/Q(x)) = P(a)/Q(a)]\n    A --> F[Trigonometric Function]\n    F --> G[Use \\lim_{x \\to 0} (sin x / x) = 1]\n    A --> H[Exponential Function]\n    H --> I[Use \\lim_{x \\to 0} ((e^x - 1) / x) = 1]\n    A --> J[Logarithmic Function]\n    J --> K[Use \\lim_{x \\to 0^+} (x ln x) = 0]"
+    "flowchart TD\n A[Identify the type of function] --> B[Polynomial Function]\n B --> C[\"Use \\lim_{x \\to a} P(x) = P(a)\"]\n A --> D[Rational Function]\n D --> E[\"Use \\lim_{x \\to a} (P(x)/Q(x)) = P(a)/Q(a)\"]\n A --> F[Trigonometric Function]\n F --> G[\"Use \\lim_{x \\to 0} (sin x / x) = 1\"]\n A --> H[Exponential Function]\n H --> I[\"Use \\lim_{x \\to 0} ((e^x - 1) / x) = 1\"]\n A --> J[Logarithmic Function]\n J --> K[\"Use \\lim_{x \\to 0^+} (x ln x) = 0\"]"
    ]
   },
   {

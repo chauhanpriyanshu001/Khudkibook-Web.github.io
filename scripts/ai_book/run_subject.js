@@ -190,8 +190,15 @@ function main() {
   const build = () => {
     const { wantUnits } = units();
     for (const n of wantUnits) {
+      const englishMd = path.join(dataDir, `unit-${n}.md`);
+      if (!fs.existsSync(englishMd)) {
+        console.warn(`[skip] unit ${n}: ${englishMd} is not generated yet`);
+        continue;
+      }
       run(`Build unit ${n} (EN)`, null, [SCRIPT('build_book_page.js'), '--code', code, '--unit', String(n)]);
-      if (o.gu) run(`Build unit ${n} (GU)`, null, [SCRIPT('build_book_page.js'), '--code', code, '--unit', String(n), '--lang', 'gu']);
+      if (o.gu && fs.existsSync(path.join(dataDir, `unit-${n}.gu.md`))) {
+        run(`Build unit ${n} (GU)`, null, [SCRIPT('build_book_page.js'), '--code', code, '--unit', String(n), '--lang', 'gu']);
+      }
     }
   };
 

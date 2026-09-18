@@ -72,9 +72,10 @@
     .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
     .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
     /* mermaid */
-    .kb-article .mermaid-wrap{margin:16px 0}
-    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-    .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+    .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+    .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+    .kb-article .mermaid svg foreignObject{overflow:visible}
     .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
     .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
     .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
@@ -281,15 +282,15 @@
 <p>]</p>
 <p>Thus, the power plant would need approximately 6,578,947 cubic meters of natural gas per month to match the energy content of 10,000 tons of coal.</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Energy Content] --&gt; B[Coal] --&gt; C['250,000 GJ']
- A --&gt; D[Natural Gas] --&gt; E['250,000,000 MJ']
- F[Volume of Natural Gas] --&gt; G['6,578,947 m^3']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Energy Content] --&gt; B[Coal] --&gt; C['250,000 GJ']
- A --&gt; D[Natural Gas] --&gt; E['250,000,000 MJ']
- F[Volume of Natural Gas] --&gt; G['6,578,947 m^3']</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Energy Content] --&gt; B[Coal] --&gt; C['250,000 GJ']
- A --&gt; D[Natural Gas] --&gt; E['250,000,000 MJ']
- F[Volume of Natural Gas] --&gt; G['6,578,947 m^3']</pre></noscript></div>
+ A[Energy Content] --&gt; B[Coal] --&gt; C[&quot;250,000 GJ&quot;]
+ A --&gt; D[Natural Gas] --&gt; E[&quot;250,000,000 MJ&quot;]
+ F[Volume of Natural Gas] --&gt; G[&quot;6,578,947 m^3&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[Energy Content] --&gt; B[Coal] --&gt; C[&quot;250,000 GJ&quot;]
+ A --&gt; D[Natural Gas] --&gt; E[&quot;250,000,000 MJ&quot;]
+ F[Volume of Natural Gas] --&gt; G[&quot;6,578,947 m^3&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[Energy Content] --&gt; B[Coal] --&gt; C[&quot;250,000 GJ&quot;]
+ A --&gt; D[Natural Gas] --&gt; E[&quot;250,000,000 MJ&quot;]
+ F[Volume of Natural Gas] --&gt; G[&quot;6,578,947 m^3&quot;]</pre></noscript></div>
 <hr />
 <h3 id="sec-calorific-value">Calorific Value</h3>
 <div class="ad-slot-wrapper no-print ad-inarticle">
@@ -313,16 +314,16 @@
 </ol>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the lower heating value of a fuel with a heat of combustion of 45,000 kJ/kg.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['Heat of Combustion (Hc)'] --&gt; B['Subtract Latent Heat of Vaporization (LHV)']
+ A[&quot;Heat of Combustion (Hc)&quot;] --&gt; B[&quot;Subtract Latent Heat&lt;br/&gt;of&lt;br/&gt;Vaporization (LHV)&quot;]
  B --&gt; C[LHV = Hc - LHV]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['Heat of Combustion (Hc)'] --&gt; B['Subtract Latent Heat of Vaporization (LHV)']
+ A[&quot;Heat of Combustion (Hc)&quot;] --&gt; B[&quot;Subtract Latent Heat&lt;br/&gt;of&lt;br/&gt;Vaporization (LHV)&quot;]
  B --&gt; C[LHV = Hc - LHV]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['Heat of Combustion (Hc)'] --&gt; B['Subtract Latent Heat of Vaporization (LHV)']
+ A[&quot;Heat of Combustion (Hc)&quot;] --&gt; B[&quot;Subtract Latent Heat&lt;br/&gt;of&lt;br/&gt;Vaporization (LHV)&quot;]
  B --&gt; C[LHV = Hc - LHV]</pre></noscript></div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A['45,000 kJ/kg'] --&gt; B['Subtract 2,260 kJ/kg(LHV of H2O)'] --&gt; C['LHV = 42,740 kJ/kg']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A['45,000 kJ/kg'] --&gt; B['Subtract 2,260 kJ/kg(LHV of H2O)'] --&gt; C['LHV = 42,740 kJ/kg']</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A['45,000 kJ/kg'] --&gt; B['Subtract 2,260 kJ/kg(LHV of H2O)'] --&gt; C['LHV = 42,740 kJ/kg']</pre></noscript></div>
+ A[&quot;45,000 kJ/kg&quot;] --&gt; B[&quot;Subtract 2,260 kJ/kg(LHV&lt;br/&gt;of&lt;br/&gt;H2O)&quot;] --&gt; C[&quot;LHV = 42,740 kJ/kg&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[&quot;45,000 kJ/kg&quot;] --&gt; B[&quot;Subtract 2,260 kJ/kg(LHV&lt;br/&gt;of&lt;br/&gt;H2O)&quot;] --&gt; C[&quot;LHV = 42,740 kJ/kg&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[&quot;45,000 kJ/kg&quot;] --&gt; B[&quot;Subtract 2,260 kJ/kg(LHV&lt;br/&gt;of&lt;br/&gt;H2O)&quot;] --&gt; C[&quot;LHV = 42,740 kJ/kg&quot;]</pre></noscript></div>
 <h4>Practical Application</h4>
 <p>Calorific value is crucial in the design of combustion systems, such as boilers and engines, where the energy output needs to be optimized. For instance, in a steam power plant, the higher heating value of the fuel is used to determine the amount of steam produced and the subsequent energy output.</p>
 <h3 id="sec-characteristics-of-good-fuel">Characteristics of Good Fuel</h3>
@@ -352,35 +353,35 @@
 </ul>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Evaluate the suitability of the fuel based on its characteristics.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Calorific Value] --&gt; B['High (40,000 kJ/kg)']
+ A[Calorific Value] --&gt; B[&quot;High (40,000 kJ/kg)&quot;]
  B --&gt; C[Good for energy efficiency]
- A --&gt; D[Density] --&gt; E['800 kg/m³']
+ A --&gt; D[Density] --&gt; E[&quot;800 kg/m³&quot;]
  E --&gt; F[Easy storage and transport]
  A --&gt; G[Ignition Temperature] --&gt; H[300°C]
  H --&gt; I[Good ignition properties]
- A --&gt; J[Ash Content] --&gt; K['0.5%']
+ A --&gt; J[Ash Content] --&gt; K[&quot;0.5%&quot;]
  K --&gt; L[Minimizes maintenance]
- A --&gt; M[Emissions] --&gt; N['CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh']
+ A --&gt; M[Emissions] --&gt; N[&quot;CO2 = 2.5 kg/kWh, NOx =&lt;br/&gt;0.1&lt;br/&gt;kg/kWh&quot;]
  N --&gt; O[Meets environmental standards]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Calorific Value] --&gt; B['High (40,000 kJ/kg)']
+ A[Calorific Value] --&gt; B[&quot;High (40,000 kJ/kg)&quot;]
  B --&gt; C[Good for energy efficiency]
- A --&gt; D[Density] --&gt; E['800 kg/m³']
+ A --&gt; D[Density] --&gt; E[&quot;800 kg/m³&quot;]
  E --&gt; F[Easy storage and transport]
  A --&gt; G[Ignition Temperature] --&gt; H[300°C]
  H --&gt; I[Good ignition properties]
- A --&gt; J[Ash Content] --&gt; K['0.5%']
+ A --&gt; J[Ash Content] --&gt; K[&quot;0.5%&quot;]
  K --&gt; L[Minimizes maintenance]
- A --&gt; M[Emissions] --&gt; N['CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh']
+ A --&gt; M[Emissions] --&gt; N[&quot;CO2 = 2.5 kg/kWh, NOx =&lt;br/&gt;0.1&lt;br/&gt;kg/kWh&quot;]
  N --&gt; O[Meets environmental standards]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Calorific Value] --&gt; B['High (40,000 kJ/kg)']
+ A[Calorific Value] --&gt; B[&quot;High (40,000 kJ/kg)&quot;]
  B --&gt; C[Good for energy efficiency]
- A --&gt; D[Density] --&gt; E['800 kg/m³']
+ A --&gt; D[Density] --&gt; E[&quot;800 kg/m³&quot;]
  E --&gt; F[Easy storage and transport]
  A --&gt; G[Ignition Temperature] --&gt; H[300°C]
  H --&gt; I[Good ignition properties]
- A --&gt; J[Ash Content] --&gt; K['0.5%']
+ A --&gt; J[Ash Content] --&gt; K[&quot;0.5%&quot;]
  K --&gt; L[Minimizes maintenance]
- A --&gt; M[Emissions] --&gt; N['CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh']
+ A --&gt; M[Emissions] --&gt; N[&quot;CO2 = 2.5 kg/kWh, NOx =&lt;br/&gt;0.1&lt;br/&gt;kg/kWh&quot;]
  N --&gt; O[Meets environmental standards]</pre></noscript></div>
 <h4>Conclusion</h4>
 <p>The characteristics of good fuel are essential for efficient and clean combustion. By considering factors such as calorific value, density, combustion properties, and emissions, we can select fuels that meet the requirements of various applications.</p>
@@ -497,38 +498,38 @@
 </ul>
 <h4>Flowchart of Octane and Cetane Number Calculation</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C['Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)']
- A --&gt; D[Higher octane number = Increased knock resistance]
+ A[Octane Number] --&gt; B[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;n-heptane&quot;] --&gt; C[&quot;Octane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;% of&lt;br/&gt;n-heptane)&quot;]
+ A --&gt; D[&quot;Higher octane number&lt;br/&gt;=&lt;br/&gt;Increased knock&lt;br/&gt;resistance&quot;]
  A --&gt; E[Engine durability improvement]
  A --&gt; F[Combustion quality improvement]
  A --&gt; G[Reduced emissions]
  A --&gt; H[Improved fuel efficiency]
- I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K['Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)']
- I --&gt; L[Higher cetane number = Improved combustion]
+ I[Cetane Number] --&gt; J[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;alpha-methylnaphthalene&quot;] --&gt; K[&quot;Cetane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;%&lt;br/&gt;of&lt;br/&gt;alpha-methylnaphthalene)&quot;]
+ I --&gt; L[&quot;Higher cetane number&lt;br/&gt;=&lt;br/&gt;Improved combustion&quot;]
  I --&gt; M[Reduced engine knocking]
  I --&gt; N[Better engine performance]
  I --&gt; O[Reduced emissions]
  I --&gt; P[Improved fuel efficiency]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C['Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)']
- A --&gt; D[Higher octane number = Increased knock resistance]
+ A[Octane Number] --&gt; B[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;n-heptane&quot;] --&gt; C[&quot;Octane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;% of&lt;br/&gt;n-heptane)&quot;]
+ A --&gt; D[&quot;Higher octane number&lt;br/&gt;=&lt;br/&gt;Increased knock&lt;br/&gt;resistance&quot;]
  A --&gt; E[Engine durability improvement]
  A --&gt; F[Combustion quality improvement]
  A --&gt; G[Reduced emissions]
  A --&gt; H[Improved fuel efficiency]
- I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K['Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)']
- I --&gt; L[Higher cetane number = Improved combustion]
+ I[Cetane Number] --&gt; J[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;alpha-methylnaphthalene&quot;] --&gt; K[&quot;Cetane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;%&lt;br/&gt;of&lt;br/&gt;alpha-methylnaphthalene)&quot;]
+ I --&gt; L[&quot;Higher cetane number&lt;br/&gt;=&lt;br/&gt;Improved combustion&quot;]
  I --&gt; M[Reduced engine knocking]
  I --&gt; N[Better engine performance]
  I --&gt; O[Reduced emissions]
  I --&gt; P[Improved fuel efficiency]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C['Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)']
- A --&gt; D[Higher octane number = Increased knock resistance]
+ A[Octane Number] --&gt; B[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;n-heptane&quot;] --&gt; C[&quot;Octane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;% of&lt;br/&gt;n-heptane)&quot;]
+ A --&gt; D[&quot;Higher octane number&lt;br/&gt;=&lt;br/&gt;Increased knock&lt;br/&gt;resistance&quot;]
  A --&gt; E[Engine durability improvement]
  A --&gt; F[Combustion quality improvement]
  A --&gt; G[Reduced emissions]
  A --&gt; H[Improved fuel efficiency]
- I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K['Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)']
- I --&gt; L[Higher cetane number = Improved combustion]
+ I[Cetane Number] --&gt; J[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;alpha-methylnaphthalene&quot;] --&gt; K[&quot;Cetane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;%&lt;br/&gt;of&lt;br/&gt;alpha-methylnaphthalene)&quot;]
+ I --&gt; L[&quot;Higher cetane number&lt;br/&gt;=&lt;br/&gt;Improved combustion&quot;]
  I --&gt; M[Reduced engine knocking]
  I --&gt; N[Better engine performance]
  I --&gt; O[Reduced emissions]
@@ -566,36 +567,36 @@
 </ul>
 <h4>Flowchart of Unleaded Petrol and Diesel Properties</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Unleaded Petrol] --&gt; B['Chemical Composition: Alkanes and aromatics'] --&gt; C['Octane Number: 90-95'] --&gt; D['Environmental Impact: Reduced lead emissions, still hydrocarbons']
- A --&gt; E['Use in: Spark-ignition engines']
- A --&gt; F['Environmental Impact: Lower emissions compared to leaded petrol']
- A --&gt; G['Energy Content: Lower than diesel']
- A --&gt; H['Volatility: Lower than diesel']
- I[Diesel] --&gt; J['Chemical Composition: Longer hydrocarbon chains'] --&gt; K['Cetane Number: 40-50'] --&gt; L['Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions']
- I --&gt; M['Use in: Compression-ignition engines']
- I --&gt; N['Energy Content: Higher than unleaded petrol']
- I --&gt; O['Volatility: Higher than unleaded petrol']
- I --&gt; P['Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Unleaded Petrol] --&gt; B['Chemical Composition: Alkanes and aromatics'] --&gt; C['Octane Number: 90-95'] --&gt; D['Environmental Impact: Reduced lead emissions, still hydrocarbons']
- A --&gt; E['Use in: Spark-ignition engines']
- A --&gt; F['Environmental Impact: Lower emissions compared to leaded petrol']
- A --&gt; G['Energy Content: Lower than diesel']
- A --&gt; H['Volatility: Lower than diesel']
- I[Diesel] --&gt; J['Chemical Composition: Longer hydrocarbon chains'] --&gt; K['Cetane Number: 40-50'] --&gt; L['Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions']
- I --&gt; M['Use in: Compression-ignition engines']
- I --&gt; N['Energy Content: Higher than unleaded petrol']
- I --&gt; O['Volatility: Higher than unleaded petrol']
- I --&gt; P['Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Unleaded Petrol] --&gt; B['Chemical Composition: Alkanes and aromatics'] --&gt; C['Octane Number: 90-95'] --&gt; D['Environmental Impact: Reduced lead emissions, still hydrocarbons']
- A --&gt; E['Use in: Spark-ignition engines']
- A --&gt; F['Environmental Impact: Lower emissions compared to leaded petrol']
- A --&gt; G['Energy Content: Lower than diesel']
- A --&gt; H['Volatility: Lower than diesel']
- I[Diesel] --&gt; J['Chemical Composition: Longer hydrocarbon chains'] --&gt; K['Cetane Number: 40-50'] --&gt; L['Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions']
- I --&gt; M['Use in: Compression-ignition engines']
- I --&gt; N['Energy Content: Higher than unleaded petrol']
- I --&gt; O['Volatility: Higher than unleaded petrol']
- I --&gt; P['Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx']</pre></noscript></div>
+ A[Unleaded Petrol] --&gt; B[&quot;Chemical&lt;br/&gt;Composition:&lt;br/&gt;Alkanes and&lt;br/&gt;aromatics&quot;] --&gt; C[&quot;Octane Number: 90-95&quot;] --&gt; D[&quot;Environmental&lt;br/&gt;Impact:&lt;br/&gt;Reduced lead&lt;br/&gt;emissions,&lt;br/&gt;still&lt;br/&gt;hydrocarbons&quot;]
+ A --&gt; E[&quot;Use in:&lt;br/&gt;Spark-ignition&lt;br/&gt;engines&quot;]
+ A --&gt; F[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to leaded&lt;br/&gt;petrol&quot;]
+ A --&gt; G[&quot;Energy Content: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ A --&gt; H[&quot;Volatility: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ I[Diesel] --&gt; J[&quot;Chemical Composition:&lt;br/&gt;Longer&lt;br/&gt;hydrocarbon&lt;br/&gt;chains&quot;] --&gt; K[&quot;Cetane Number: 40-50&quot;] --&gt; L[&quot;Environmental Impact:&lt;br/&gt;Higher&lt;br/&gt;efficiency, lower&lt;br/&gt;CO2,&lt;br/&gt;higher particulate&lt;br/&gt;matter,&lt;br/&gt;NOx emissions&quot;]
+ I --&gt; M[&quot;Use in:&lt;br/&gt;Compression-ignition&lt;br/&gt;engines&quot;]
+ I --&gt; N[&quot;Energy Content: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; O[&quot;Volatility: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; P[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to petrol&lt;br/&gt;in terms of&lt;br/&gt;CO2, higher in&lt;br/&gt;terms of&lt;br/&gt;particulate matter&lt;br/&gt;and&lt;br/&gt;NOx&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Unleaded Petrol] --&gt; B[&quot;Chemical&lt;br/&gt;Composition:&lt;br/&gt;Alkanes and&lt;br/&gt;aromatics&quot;] --&gt; C[&quot;Octane Number: 90-95&quot;] --&gt; D[&quot;Environmental&lt;br/&gt;Impact:&lt;br/&gt;Reduced lead&lt;br/&gt;emissions,&lt;br/&gt;still&lt;br/&gt;hydrocarbons&quot;]
+ A --&gt; E[&quot;Use in:&lt;br/&gt;Spark-ignition&lt;br/&gt;engines&quot;]
+ A --&gt; F[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to leaded&lt;br/&gt;petrol&quot;]
+ A --&gt; G[&quot;Energy Content: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ A --&gt; H[&quot;Volatility: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ I[Diesel] --&gt; J[&quot;Chemical Composition:&lt;br/&gt;Longer&lt;br/&gt;hydrocarbon&lt;br/&gt;chains&quot;] --&gt; K[&quot;Cetane Number: 40-50&quot;] --&gt; L[&quot;Environmental Impact:&lt;br/&gt;Higher&lt;br/&gt;efficiency, lower&lt;br/&gt;CO2,&lt;br/&gt;higher particulate&lt;br/&gt;matter,&lt;br/&gt;NOx emissions&quot;]
+ I --&gt; M[&quot;Use in:&lt;br/&gt;Compression-ignition&lt;br/&gt;engines&quot;]
+ I --&gt; N[&quot;Energy Content: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; O[&quot;Volatility: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; P[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to petrol&lt;br/&gt;in terms of&lt;br/&gt;CO2, higher in&lt;br/&gt;terms of&lt;br/&gt;particulate matter&lt;br/&gt;and&lt;br/&gt;NOx&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Unleaded Petrol] --&gt; B[&quot;Chemical&lt;br/&gt;Composition:&lt;br/&gt;Alkanes and&lt;br/&gt;aromatics&quot;] --&gt; C[&quot;Octane Number: 90-95&quot;] --&gt; D[&quot;Environmental&lt;br/&gt;Impact:&lt;br/&gt;Reduced lead&lt;br/&gt;emissions,&lt;br/&gt;still&lt;br/&gt;hydrocarbons&quot;]
+ A --&gt; E[&quot;Use in:&lt;br/&gt;Spark-ignition&lt;br/&gt;engines&quot;]
+ A --&gt; F[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to leaded&lt;br/&gt;petrol&quot;]
+ A --&gt; G[&quot;Energy Content: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ A --&gt; H[&quot;Volatility: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ I[Diesel] --&gt; J[&quot;Chemical Composition:&lt;br/&gt;Longer&lt;br/&gt;hydrocarbon&lt;br/&gt;chains&quot;] --&gt; K[&quot;Cetane Number: 40-50&quot;] --&gt; L[&quot;Environmental Impact:&lt;br/&gt;Higher&lt;br/&gt;efficiency, lower&lt;br/&gt;CO2,&lt;br/&gt;higher particulate&lt;br/&gt;matter,&lt;br/&gt;NOx emissions&quot;]
+ I --&gt; M[&quot;Use in:&lt;br/&gt;Compression-ignition&lt;br/&gt;engines&quot;]
+ I --&gt; N[&quot;Energy Content: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; O[&quot;Volatility: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; P[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to petrol&lt;br/&gt;in terms of&lt;br/&gt;CO2, higher in&lt;br/&gt;terms of&lt;br/&gt;particulate matter&lt;br/&gt;and&lt;br/&gt;NOx&quot;]</pre></noscript></div>
 <h4>Summary</h4>
 <ul>
 <li><strong>Unleaded Petrol:</strong> Used in spark-ignition engines, with an octane number between 90 and 95, and lower environmental impact due to reduced lead emissions.</li>
@@ -687,12 +688,26 @@
   (function () {
     function init() {
       if (!window.mermaid) return;
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, curve: 'basis' } });
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, useMaxWidth: true, curve: 'basis', nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
       var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
       nodes.forEach(function (el) {
         if (el.dataset.kbMermaidRun) return;
         el.dataset.kbMermaidRun = '1';
-        mermaid.run({ nodes: [el] }).catch(function () {
+        function fitDiagram() {
+          var svg = el.querySelector('svg');
+          if (!svg) return;
+          var vb = svg.viewBox && svg.viewBox.baseVal;
+          if (vb && vb.width && vb.height) {
+            svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            svg.setAttribute('width', '100%');
+            svg.removeAttribute('height');
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+            svg.style.maxWidth = '100%';
+            svg.style.overflow = 'visible';
+          }
+        }
+        mermaid.run({ nodes: [el] }).then(fitDiagram).catch(function () {
           el.classList.add('mermaid-failed');
           el.innerHTML = '<div style="padding:8px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>';
         });

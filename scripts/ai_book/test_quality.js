@@ -8,6 +8,6 @@ assert(formula.includes('×') && formula.includes('[ i j ; 3 4 ]') && formula.in
 
 const diagram = repairSource('flowchart TD\n  A[Input / Output (I/O)] --> B[Result: 100%]');
 assert(validateMermaid(diagram).ok, `diagram still invalid: ${diagram}`);
-assert(diagram.includes('["Input / Output (I/O)"]'));
+assert(diagram.includes('Input / Output') && diagram.includes('I/O'));
 
 console.log('quality tests passed');

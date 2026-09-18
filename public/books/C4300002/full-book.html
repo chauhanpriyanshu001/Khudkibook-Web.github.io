@@ -106,10 +106,10 @@
   .kb-article .fig-callout{background:var(--bg-soft,#eef1fb);border:1.5px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;padding:14px 16px;margin:14px 0;color:var(--text-secondary,#475569);font-size:.92rem;display:flex;gap:10px;align-items:flex-start}
   .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
   .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
-  .kb-article .mermaid-wrap{margin:16px 0}
-  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-  .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
-  .kb-article .mermaid svg{max-width:100%;height:auto}
+  .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+  .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+  .kb-article .mermaid svg foreignObject{overflow:visible}
   .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted,#64748b)}
   .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
   .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
@@ -1158,9 +1158,9 @@
 <li><strong>Mermaid Diagram:</strong></li>
 </ul>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)']</pre></noscript></div>
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;]</pre></noscript></div>
 <h4>2.5.3. Sentence Pattern S+V+O</h4>
 <ul>
 <li><strong>Structure:</strong> Subject + Verb + Object</li>
@@ -1169,9 +1169,9 @@
 <li><strong>Mermaid Diagram:</strong></li>
 </ul>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)'] --&gt; C['Object (O)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)'] --&gt; C['Object (O)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)'] --&gt; C['Object (O)']</pre></noscript></div>
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;] --&gt; C[&quot;Object (O)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;] --&gt; C[&quot;Object (O)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;] --&gt; C[&quot;Object (O)&quot;]</pre></noscript></div>
 <h4>2.5.4. Sentence Pattern S+V+A</h4>
 <ul>
 <li><strong>Structure:</strong> Subject + Verb + Adverbial</li>
@@ -1180,9 +1180,9 @@
 <li><strong>Mermaid Diagram:</strong></li>
 </ul>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)'] --&gt; C['Adverbial (A)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)'] --&gt; C['Adverbial (A)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)'] --&gt; C['Adverbial (A)']</pre></noscript></div>
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;] --&gt; C[&quot;Adverbial (A)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;] --&gt; C[&quot;Adverbial (A)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;] --&gt; C[&quot;Adverbial (A)&quot;]</pre></noscript></div>
 <h4>2.5.5. Sentence Pattern S+V+C</h4>
 <ul>
 <li><strong>Structure:</strong> Subject + Verb + Complement</li>
@@ -1191,9 +1191,9 @@
 <li><strong>Mermaid Diagram:</strong></li>
 </ul>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)'] --&gt; C['Complement (C)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)'] --&gt; C['Complement (C)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['Subject (S)'] --&gt; B['Verb (V)'] --&gt; C['Complement (C)']</pre></noscript></div>
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;] --&gt; C[&quot;Complement (C)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;] --&gt; C[&quot;Complement (C)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;Subject (S)&quot;] --&gt; B[&quot;Verb (V)&quot;] --&gt; C[&quot;Complement (C)&quot;]</pre></noscript></div>
 <h4>2.5.6. Practical Application</h4>
 <p>To apply these sentence patterns correctly, let's consider a few examples:</p>
 <ul>
@@ -1201,25 +1201,25 @@
 <li><strong>Mermaid Diagram:</strong></li>
 </ul>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['The students (S)'] --&gt; B['are studying (V)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['The students (S)'] --&gt; B['are studying (V)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['The students (S)'] --&gt; B['are studying (V)']</pre></noscript></div>
+ A[&quot;The students (S)&quot;] --&gt; B[&quot;are studying (V)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;The students (S)&quot;] --&gt; B[&quot;are studying (V)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;The students (S)&quot;] --&gt; B[&quot;are studying (V)&quot;]</pre></noscript></div>
 <ul>
 <li><strong>Example:</strong> "The students are studying hard."</li>
 <li><strong>Mermaid Diagram:</strong></li>
 </ul>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['The students (S)'] --&gt; B['are studying (V)'] --&gt; C['hard (A)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['The students (S)'] --&gt; B['are studying (V)'] --&gt; C['hard (A)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['The students (S)'] --&gt; B['are studying (V)'] --&gt; C['hard (A)']</pre></noscript></div>
+ A[&quot;The students (S)&quot;] --&gt; B[&quot;are studying (V)&quot;] --&gt; C[&quot;hard (A)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;The students (S)&quot;] --&gt; B[&quot;are studying (V)&quot;] --&gt; C[&quot;hard (A)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;The students (S)&quot;] --&gt; B[&quot;are studying (V)&quot;] --&gt; C[&quot;hard (A)&quot;]</pre></noscript></div>
 <ul>
 <li><strong>Example:</strong> "The students are happy."</li>
 <li><strong>Mermaid Diagram:</strong></li>
 </ul>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['The students (S)'] --&gt; B['are (V)'] --&gt; C['happy (C)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['The students (S)'] --&gt; B['are (V)'] --&gt; C['happy (C)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['The students (S)'] --&gt; B['are (V)'] --&gt; C['happy (C)']</pre></noscript></div>
+ A[&quot;The students (S)&quot;] --&gt; B[&quot;are (V)&quot;] --&gt; C[&quot;happy (C)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;The students (S)&quot;] --&gt; B[&quot;are (V)&quot;] --&gt; C[&quot;happy (C)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;The students (S)&quot;] --&gt; B[&quot;are (V)&quot;] --&gt; C[&quot;happy (C)&quot;]</pre></noscript></div>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />"The students are studying hard in the library.<br />The library is a quiet place."</div>
 <p>These examples and diagrams should help in understanding and applying the basic sentence patterns of English effectively.</p>
 
@@ -1752,13 +1752,23 @@
   }
   function init() {
     if (!window.mermaid) return;
-    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', flowchart: { curve: 'basis', htmlLabels: true } });
+    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', securityLevel: 'strict', flowchart: { curve: 'basis', htmlLabels: true, useMaxWidth: true, nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
     var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
     nodes.forEach(function (el) {
       if (el.dataset.kbRun) return;
       el.dataset.kbRun = '1';
       el.textContent = kbSanitizeMermaid(el.textContent);
-      mermaid.run({ nodes: [el] }).catch(function () {
+      mermaid.run({ nodes: [el] }).then(function () {
+        var svg = el.querySelector('svg');
+        if (!svg) return;
+        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        svg.setAttribute('width', '100%');
+        svg.removeAttribute('height');
+        svg.style.width = '100%';
+        svg.style.height = 'auto';
+        svg.style.maxWidth = '100%';
+        svg.style.overflow = 'visible';
+      }).catch(function () {
         el.classList.add('mermaid-failed');
         el.innerHTML = '<div style="padding:10px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>' + el.innerHTML;
       });

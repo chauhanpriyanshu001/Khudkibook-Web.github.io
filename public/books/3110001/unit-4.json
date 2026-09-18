@@ -50,10 +50,10 @@
   {
    "heading": "Flowchart for Classification",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Sources] --&gt; B[Natural Polymers] --&gt; C[Examples: Cellulose, Chitin]\n A --&gt; D[Synthetic Polymers] --&gt; E[Examples: Polyethylene, Nylon]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Sources] --&gt; B[Natural Polymers] --&gt; C[Examples: Cellulose, Chitin]\n A --&gt; D[Synthetic Polymers] --&gt; E[Examples: Polyethylene, Nylon]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Sources] --&gt; B[Natural Polymers] --&gt; C[Examples: Cellulose, Chitin]\n A --&gt; D[Synthetic Polymers] --&gt; E[Examples: Polyethylene, Nylon]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']\n A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']\n A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']\n A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Sources] --> B[Natural Polymers] --> C[Examples: Cellulose, Chitin]\n    A --> D[Synthetic Polymers] --> E[Examples: Polyethylene, Nylon]"
+    "flowchart TD\n A[Sources] --> B[Natural Polymers] --> C[\"Examples: Cellulose, Chitin\"]\n A --> D[Synthetic Polymers] --> E[\"Examples: Polyethylene, Nylon\"]"
    ]
   },
   {
@@ -193,7 +193,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Initiation] --&gt; B[Propagation]\n B --&gt; C[Chain Transfer or Termination]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Initiation] --&gt; B[Propagation]\n B --&gt; C[Chain Transfer or Termination]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Initiation] --&gt; B[Propagation]\n B --&gt; C[Chain Transfer or Termination]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Initiation] --> B[Propagation]\n    B --> C[Chain Transfer or Termination]"
+    "flowchart TD\n A[Initiation] --> B[Propagation]\n B --> C[Chain Transfer or Termination]"
    ]
   },
   {
@@ -229,10 +229,10 @@
   {
    "heading": "Mermaid Diagram for Types of Rubber",
    "id": "",
-   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Natural Rubber] --&gt; B[Derived from latex]\n A --&gt; C[High elasticity and tensile strength]\n B --&gt; D[Hevea brasiliensis tree]\n C --&gt; E[Chemical structure: Polyisoprene]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Natural Rubber] --&gt; B[Derived from latex]\n A --&gt; C[High elasticity and tensile strength]\n B --&gt; D[Hevea brasiliensis tree]\n C --&gt; E[Chemical structure: Polyisoprene]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Natural Rubber] --&gt; B[Derived from latex]\n A --&gt; C[High elasticity and tensile strength]\n B --&gt; D[Hevea brasiliensis tree]\n C --&gt; E[Chemical structure: Polyisoprene]</pre></noscript></div>",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Natural Rubber] --&gt; B[Derived from latex]\n A --&gt; C[High elasticity and tensile strength]\n B --&gt; D[Hevea brasiliensis tree]\n C --&gt; E['Chemical structure: Polyisoprene']</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Natural Rubber] --&gt; B[Derived from latex]\n A --&gt; C[High elasticity and tensile strength]\n B --&gt; D[Hevea brasiliensis tree]\n C --&gt; E['Chemical structure: Polyisoprene']</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Natural Rubber] --&gt; B[Derived from latex]\n A --&gt; C[High elasticity and tensile strength]\n B --&gt; D[Hevea brasiliensis tree]\n C --&gt; E['Chemical structure: Polyisoprene']</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Natural Rubber] --> B[Derived from latex]\n    A --> C[High elasticity and tensile strength]\n    B --> D[Hevea brasiliensis tree]\n    C --> E[Chemical structure: Polyisoprene]"
+    "flowchart TD\n A[Natural Rubber] --> B[Derived from latex]\n A --> C[High elasticity and tensile strength]\n B --> D[Hevea brasiliensis tree]\n C --> E[\"Chemical structure: Polyisoprene\"]"
    ]
   },
   {
@@ -257,7 +257,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Vulcanization] --&gt; B[Heating in the presence of sulfur]\n B --&gt; C[Crosslinking of polymer chains]\n C --&gt; D[Enhanced mechanical properties]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Vulcanization] --&gt; B[Heating in the presence of sulfur]\n B --&gt; C[Crosslinking of polymer chains]\n C --&gt; D[Enhanced mechanical properties]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Vulcanization] --&gt; B[Heating in the presence of sulfur]\n B --&gt; C[Crosslinking of polymer chains]\n C --&gt; D[Enhanced mechanical properties]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Vulcanization] --> B[Heating in the presence of sulfur]\n    B --> C[Crosslinking of polymer chains]\n    C --> D[Enhanced mechanical properties]"
+    "flowchart TD\n A[Vulcanization] --> B[Heating in the presence of sulfur]\n B --> C[Crosslinking of polymer chains]\n C --> D[Enhanced mechanical properties]"
    ]
   },
   {
@@ -566,12 +566,12 @@
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the tensile strength of a cellulose acetate fiber with a denier of 2.5 and a modulus of 2.0 g/denier.<br /><br /><strong>Answer:</strong><br />- Given: Denier = 2.5, Modulus = 2.0 g/denier<br />- Tensile Strength = Denier × Modulus = 2.5 × 2.0 = 5.0 g</div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Polymerization] --&gt; B[Extraction of Cellulose]\n B --&gt; C[Acetylation]\n C --&gt; D[Spinning]\n D --&gt; E[Final Product: Cellulose Acetate Fiber]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Polymerization] --&gt; B[Extraction of Cellulose]\n B --&gt; C[Acetylation]\n C --&gt; D[Spinning]\n D --&gt; E[Final Product: Cellulose Acetate Fiber]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Polymerization] --&gt; B[Extraction of Cellulose]\n B --&gt; C[Acetylation]\n C --&gt; D[Spinning]\n D --&gt; E[Final Product: Cellulose Acetate Fiber]</pre></noscript></div>\n<p>This flowchart illustrates the process of producing cellulose acetate fiber from cellulose to its final product.</p>\n<hr />",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Calculate the tensile strength of a cellulose acetate fiber with a denier of 2.5 and a modulus of 2.0 g/denier.<br /><br /><strong>Answer:</strong><br />- Given: Denier = 2.5, Modulus = 2.0 g/denier<br />- Tensile Strength = Denier × Modulus = 2.5 × 2.0 = 5.0 g</div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Polymerization] --&gt; B[Extraction of Cellulose]\n B --&gt; C[Acetylation]\n C --&gt; D[Spinning]\n D --&gt; E['Final Product: Cellulose Acetate Fiber']</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Polymerization] --&gt; B[Extraction of Cellulose]\n B --&gt; C[Acetylation]\n C --&gt; D[Spinning]\n D --&gt; E['Final Product: Cellulose Acetate Fiber']</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Polymerization] --&gt; B[Extraction of Cellulose]\n B --&gt; C[Acetylation]\n C --&gt; D[Spinning]\n D --&gt; E['Final Product: Cellulose Acetate Fiber']</pre></noscript></div>\n<p>This flowchart illustrates the process of producing cellulose acetate fiber from cellulose to its final product.</p>\n<hr />",
    "examples": [
     "Calculate the tensile strength of a cellulose acetate fiber with a denier of 2.5 and a modulus of 2.0 g/denier. **Answer:** - Given: Denier = 2.5, Modulus = 2.0 g/denier - Tensile Strength = Denier × Modulus = 2.5 × 2.0 = 5.0 g"
    ],
    "mermaid": [
-    "flowchart TD\n    A[Polymerization] --> B[Extraction of Cellulose]\n    B --> C[Acetylation]\n    C --> D[Spinning]\n    D --> E[Final Product: Cellulose Acetate Fiber]"
+    "flowchart TD\n A[Polymerization] --> B[Extraction of Cellulose]\n B --> C[Acetylation]\n C --> D[Spinning]\n D --> E[\"Final Product: Cellulose Acetate Fiber\"]"
    ]
   },
   {

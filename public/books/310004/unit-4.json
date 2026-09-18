@@ -73,7 +73,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Volume] --&gt; B[Size]\n A --&gt; C[Weight]\n B --&gt; D[Comfort]\n C --&gt; E[Usability]\n D --&gt; F[Perception of Space]\n E --&gt; G[Psychological Space]\n F --&gt; G</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Volume] --&gt; B[Size]\n A --&gt; C[Weight]\n B --&gt; D[Comfort]\n C --&gt; E[Usability]\n D --&gt; F[Perception of Space]\n E --&gt; G[Psychological Space]\n F --&gt; G</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Volume] --&gt; B[Size]\n A --&gt; C[Weight]\n B --&gt; D[Comfort]\n C --&gt; E[Usability]\n D --&gt; F[Perception of Space]\n E --&gt; G[Psychological Space]\n F --&gt; G</pre></noscript></div>\n<p>This diagram illustrates the relationship between volume, size, and weight, and how these factors influence comfort, usability, and the perception of space. Understanding these relationships is crucial in designing effective biomedical devices.</p>\n<hr />",
    "examples": [],
    "mermaid": [
-    "flowchart LR\n    A[Volume] --> B[Size]\n    A --> C[Weight]\n    B --> D[Comfort]\n    C --> E[Usability]\n    D --> F[Perception of Space]\n    E --> G[Psychological Space]\n    F --> G"
+    "flowchart LR\n A[Volume] --> B[Size]\n A --> C[Weight]\n B --> D[Comfort]\n C --> E[Usability]\n D --> F[Perception of Space]\n E --> G[Psychological Space]\n F --> G"
    ]
   },
   {

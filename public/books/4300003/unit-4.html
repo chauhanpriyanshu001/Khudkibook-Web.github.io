@@ -72,9 +72,10 @@
     .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
     .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
     /* mermaid */
-    .kb-article .mermaid-wrap{margin:16px 0}
-    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-    .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+    .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+    .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+    .kb-article .mermaid svg foreignObject{overflow:visible}
     .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
     .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
     .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
@@ -221,7 +222,7 @@
  F[Greenhouse Effect] --&gt; G[Trapping of Heat]
  G --&gt; H[Rising Temperature]
  H --&gt; I[Rising Sea Levels]
- H --&gt; J[Changes in Precipitation Patterns]
+ H --&gt; J[&quot;Changes in&lt;br/&gt;Precipitation&lt;br/&gt;Patterns&quot;]
  H --&gt; K[Extreme Weather Events]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
  A[Release of GHGs] --&gt; B[Burning of Fossil Fuels]
  B --&gt; C[Industrial Processes]
@@ -230,7 +231,7 @@
  F[Greenhouse Effect] --&gt; G[Trapping of Heat]
  G --&gt; H[Rising Temperature]
  H --&gt; I[Rising Sea Levels]
- H --&gt; J[Changes in Precipitation Patterns]
+ H --&gt; J[&quot;Changes in&lt;br/&gt;Precipitation&lt;br/&gt;Patterns&quot;]
  H --&gt; K[Extreme Weather Events]</pre></details><noscript><pre class="mermaid-src">flowchart LR
  A[Release of GHGs] --&gt; B[Burning of Fossil Fuels]
  B --&gt; C[Industrial Processes]
@@ -239,7 +240,7 @@
  F[Greenhouse Effect] --&gt; G[Trapping of Heat]
  G --&gt; H[Rising Temperature]
  H --&gt; I[Rising Sea Levels]
- H --&gt; J[Changes in Precipitation Patterns]
+ H --&gt; J[&quot;Changes in&lt;br/&gt;Precipitation&lt;br/&gt;Patterns&quot;]
  H --&gt; K[Extreme Weather Events]</pre></noscript></div>
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div></div>
@@ -384,7 +385,7 @@
 <h4>4.6.5. Flowchart of Factors Affecting Climate Change</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Solar Radiation] --&gt; B1[Increased Solar Output]
- A --&gt; B2[Variations in Earth-Sun Distance]
+ A --&gt; B2[&quot;Variations in&lt;br/&gt;Earth-Sun&lt;br/&gt;Distance&quot;]
  A --&gt; B3[Solar Cycles]
  B1 --&gt; C[Global Warming]
  B2 --&gt; C
@@ -400,7 +401,7 @@
  A --&gt; I --&gt; J3[Industrial Processes] --&gt; K3[CO₂ and Other Gases]
  A --&gt; I --&gt; J4[Transportation] --&gt; K4[CO₂ Emissions]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Solar Radiation] --&gt; B1[Increased Solar Output]
- A --&gt; B2[Variations in Earth-Sun Distance]
+ A --&gt; B2[&quot;Variations in&lt;br/&gt;Earth-Sun&lt;br/&gt;Distance&quot;]
  A --&gt; B3[Solar Cycles]
  B1 --&gt; C[Global Warming]
  B2 --&gt; C
@@ -416,7 +417,7 @@
  A --&gt; I --&gt; J3[Industrial Processes] --&gt; K3[CO₂ and Other Gases]
  A --&gt; I --&gt; J4[Transportation] --&gt; K4[CO₂ Emissions]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Solar Radiation] --&gt; B1[Increased Solar Output]
- A --&gt; B2[Variations in Earth-Sun Distance]
+ A --&gt; B2[&quot;Variations in&lt;br/&gt;Earth-Sun&lt;br/&gt;Distance&quot;]
  A --&gt; B3[Solar Cycles]
  B1 --&gt; C[Global Warming]
  B2 --&gt; C
@@ -465,7 +466,7 @@
  D --&gt; F[Reduces Energy Use]
  A --&gt; G[Carbon Capture and Storage] --&gt; H1[Captures CO₂]
  A --&gt; G --&gt; H2[Stops CO₂ Release]
- A --&gt; H[Afforestation and Reforestation] --&gt; I1[Increases Carbon Absorption]
+ A --&gt; H[&quot;Afforestation&lt;br/&gt;and&lt;br/&gt;Reforestation&quot;] --&gt; I1[Increases Carbon Absorption]
  A --&gt; H --&gt; I2[Reduces CO₂ Levels]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Renewable Energy] --&gt; B1[Solar Energy]
  A --&gt; B2[Wind Energy]
@@ -481,7 +482,7 @@
  D --&gt; F[Reduces Energy Use]
  A --&gt; G[Carbon Capture and Storage] --&gt; H1[Captures CO₂]
  A --&gt; G --&gt; H2[Stops CO₂ Release]
- A --&gt; H[Afforestation and Reforestation] --&gt; I1[Increases Carbon Absorption]
+ A --&gt; H[&quot;Afforestation&lt;br/&gt;and&lt;br/&gt;Reforestation&quot;] --&gt; I1[Increases Carbon Absorption]
  A --&gt; H --&gt; I2[Reduces CO₂ Levels]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Renewable Energy] --&gt; B1[Solar Energy]
  A --&gt; B2[Wind Energy]
@@ -497,7 +498,7 @@
  D --&gt; F[Reduces Energy Use]
  A --&gt; G[Carbon Capture and Storage] --&gt; H1[Captures CO₂]
  A --&gt; G --&gt; H2[Stops CO₂ Release]
- A --&gt; H[Afforestation and Reforestation] --&gt; I1[Increases Carbon Absorption]
+ A --&gt; H[&quot;Afforestation&lt;br/&gt;and&lt;br/&gt;Reforestation&quot;] --&gt; I1[Increases Carbon Absorption]
  A --&gt; H --&gt; I2[Reduces CO₂ Levels]</pre></noscript></div>
 <h4>Worked Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Describe a scenario where a city implements renewable energy sources and energy efficiency measures to mitigate climate change.<br /><br /><strong>Answer:</strong><br />- <strong>Renewable Energy</strong>: The city installs solar panels on rooftops and public buildings, and builds wind turbines in nearby rural areas.<br />- <strong>Energy Efficiency</strong>: The city encourages the use of energy-efficient appliances and promotes public transportation to reduce energy consumption.<br />- <strong>Carbon Capture and Storage</strong>: A local industrial plant invests in carbon capture technology to reduce its CO₂ emissions.<br />- <strong>Afforestation and Reforestation</strong>: The city plants new trees in parks and greenbelts, increasing the urban forest cover.</div>
@@ -699,12 +700,26 @@
   (function () {
     function init() {
       if (!window.mermaid) return;
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, curve: 'basis' } });
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, useMaxWidth: true, curve: 'basis', nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
       var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
       nodes.forEach(function (el) {
         if (el.dataset.kbMermaidRun) return;
         el.dataset.kbMermaidRun = '1';
-        mermaid.run({ nodes: [el] }).catch(function () {
+        function fitDiagram() {
+          var svg = el.querySelector('svg');
+          if (!svg) return;
+          var vb = svg.viewBox && svg.viewBox.baseVal;
+          if (vb && vb.width && vb.height) {
+            svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            svg.setAttribute('width', '100%');
+            svg.removeAttribute('height');
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+            svg.style.maxWidth = '100%';
+            svg.style.overflow = 'visible';
+          }
+        }
+        mermaid.run({ nodes: [el] }).then(fitDiagram).catch(function () {
           el.classList.add('mermaid-failed');
           el.innerHTML = '<div style="padding:8px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>';
         });

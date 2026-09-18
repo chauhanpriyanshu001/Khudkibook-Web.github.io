@@ -27,32 +27,32 @@
   {
    "heading": "Formula for 2x2 Matrix",
    "id": "",
-   "html": "<p>For a 2x2 matrix A = bmatrix a & b \\\\ c & d bmatrix, the determinant is calculated as:</p>\n<p>[ \\text{det}(A) = ad - bc ]</p>",
+   "html": "<p>For a 2x2 matrix A = bmatrix a & b \\\\ c & d bmatrix, the determinant is calculated as:</p>\n<p>[ det(A) = ad - bc ]</p>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the determinant of the matrix A = bmatrix 5 & 2 \\\\ 3 & 4 bmatrix.<br /><br />[<br />\\text{det}(A) = (5 \\cdot 4) - (2 \\cdot 3) = 20 - 6 = 14<br />]</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the determinant of the matrix A = bmatrix 5 & 2 \\\\ 3 & 4 bmatrix.<br /><br />[<br />det(A) = (5 · 4) - (2 · 3) = 20 - 6 = 14<br />]</div>",
    "examples": [
-    "Find the determinant of the matrix A = bmatrix 5 & 2 \\\\ 3 & 4 bmatrix. [ \\text{det}(A) = (5 \\cdot 4) - (2 \\cdot 3) = 20 - 6 = 14 ]"
+    "Find the determinant of the matrix A = bmatrix 5 & 2 \\\\ 3 & 4 bmatrix. [ det(A) = (5 · 4) - (2 · 3) = 20 - 6 = 14 ]"
    ],
    "mermaid": []
   },
   {
    "heading": "Formula for 3x3 Matrix",
    "id": "",
-   "html": "<p>For a 3x3 matrix B = bmatrix a & b & c \\\\ d & e & f \\\\ g & h & i bmatrix, the determinant is calculated using the formula:</p>\n<p>[ \\text{det}(B) = a(ei - fh) - b(di - fg) + c(dh - eg) ]</p>",
+   "html": "<p>For a 3x3 matrix B = bmatrix a & b & c \\\\ d & e & f \\\\ g & h & i bmatrix, the determinant is calculated using the formula:</p>\n<p>[ det(B) = a(ei - fh) - b(di - fg) + c(dh - eg) ]</p>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the determinant of the matrix B = bmatrix 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 bmatrix.<br /><br />[<br />\\text{det}(B) = 1(1 \\cdot 0 - 4 \\cdot 6) - 2(0 \\cdot 0 - 4 \\cdot 5) + 3(0 \\cdot 6 - 1 \\cdot 5)<br />]<br />[<br />= 1(0 - 24) - 2(0 - 20) + 3(0 - 5)<br />]<br />[<br />= -24 + 40 - 15 = 1<br />]</div>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the determinant of the matrix B = bmatrix 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 bmatrix.<br /><br />[<br />det(B) = 1(1 · 0 - 4 · 6) - 2(0 · 0 - 4 · 5) + 3(0 · 6 - 1 · 5)<br />]<br />[<br />= 1(0 - 24) - 2(0 - 20) + 3(0 - 5)<br />]<br />[<br />= -24 + 40 - 15 = 1<br />]</div>",
    "examples": [
-    "Find the determinant of the matrix B = bmatrix 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 bmatrix. [ \\text{det}(B) = 1(1 \\cdot 0 - 4 \\cdot 6) - 2(0 \\cdot 0 - 4 \\cdot 5) + 3(0 \\cdot 6 - 1 \\cdot 5) ] [ = 1(0 - 24) - 2(0 - 20) + 3(0 - 5) ] [ = -24 + 40 - 15 = 1 ]"
+    "Find the determinant of the matrix B = bmatrix 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 bmatrix. [ det(B) = 1(1 · 0 - 4 · 6) - 2(0 · 0 - 4 · 5) + 3(0 · 6 - 1 · 5) ] [ = 1(0 - 24) - 2(0 - 20) + 3(0 - 5) ] [ = -24 + 40 - 15 = 1 ]"
    ],
    "mermaid": []
   },
@@ -66,9 +66,9 @@
   {
    "heading": "Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Given the matrix C = bmatrix 2 & 3 & 1 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 bmatrix, find the determinant.<br /><br />[<br />\\text{det}(C) = 2(5 \\cdot 9 - 6 \\cdot 8) - 3(4 \\cdot 9 - 6 \\cdot 7) + 1(4 \\cdot 8 - 5 \\cdot 7)<br />]<br />[<br />= 2(45 - 48) - 3(36 - 42) + 1(32 - 35)<br />]<br />[<br />= 2(-3) - 3(-6) + 1(-3)<br />]<br />[<br />= -6 + 18 - 3 = 9<br />]</div>\n<p>By following these steps and examples, you can solve simple problems involving determinants up to the 3rd order.</p>\n<hr />",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Given the matrix C = bmatrix 2 & 3 & 1 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 bmatrix, find the determinant.<br /><br />[<br />det(C) = 2(5 · 9 - 6 · 8) - 3(4 · 9 - 6 · 7) + 1(4 · 8 - 5 · 7)<br />]<br />[<br />= 2(45 - 48) - 3(36 - 42) + 1(32 - 35)<br />]<br />[<br />= 2(-3) - 3(-6) + 1(-3)<br />]<br />[<br />= -6 + 18 - 3 = 9<br />]</div>\n<p>By following these steps and examples, you can solve simple problems involving determinants up to the 3rd order.</p>\n<hr />",
    "examples": [
-    "Given the matrix C = bmatrix 2 & 3 & 1 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 bmatrix, find the determinant. [ \\text{det}(C) = 2(5 \\cdot 9 - 6 \\cdot 8) - 3(4 \\cdot 9 - 6 \\cdot 7) + 1(4 \\cdot 8 - 5 \\cdot 7) ] [ = 2(45 - 48) - 3(36 - 42) + 1(32 - 35) ] [ = 2(-3) - 3(-6) + 1(-3) ] [ = -6 + 18 - 3 = 9 ]"
+    "Given the matrix C = bmatrix 2 & 3 & 1 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 bmatrix, find the determinant. [ det(C) = 2(5 · 9 - 6 · 8) - 3(4 · 9 - 6 · 7) + 1(4 · 8 - 5 · 7) ] [ = 2(45 - 48) - 3(36 - 42) + 1(32 - 35) ] [ = 2(-3) - 3(-6) + 1(-3) ] [ = -6 + 18 - 3 = 9 ]"
    ],
    "mermaid": []
   },
@@ -131,7 +131,7 @@
    "html": "<p>Graphically, the logarithmic function y = _b(x) is represented as a curve that increases slowly for x > 1 and decreases slowly for 0 < x < 1. The function is defined for x > 0 and passes through the point (1, 0). For example, the graph of y = ₂(x) is shown below.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">graph TD\n A[1] --&gt; B[0]\n A --&gt; C[2]\n A --&gt; D[4]\n A --&gt; E[8]\n B --&gt; F[0.5]\n B --&gt; G[1]\n B --&gt; H[2]\n F --&gt; I[0.25]\n F --&gt; J[0.5]\n F --&gt; K[1]\n I --&gt; L[0.125]\n I --&gt; M[0.25]\n I --&gt; N[0.5]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>graph TD\n A[1] --&gt; B[0]\n A --&gt; C[2]\n A --&gt; D[4]\n A --&gt; E[8]\n B --&gt; F[0.5]\n B --&gt; G[1]\n B --&gt; H[2]\n F --&gt; I[0.25]\n F --&gt; J[0.5]\n F --&gt; K[1]\n I --&gt; L[0.125]\n I --&gt; M[0.25]\n I --&gt; N[0.5]</pre></details><noscript><pre class=\"mermaid-src\">graph TD\n A[1] --&gt; B[0]\n A --&gt; C[2]\n A --&gt; D[4]\n A --&gt; E[8]\n B --&gt; F[0.5]\n B --&gt; G[1]\n B --&gt; H[2]\n F --&gt; I[0.25]\n F --&gt; J[0.5]\n F --&gt; K[1]\n I --&gt; L[0.125]\n I --&gt; M[0.25]\n I --&gt; N[0.5]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "graph TD\n    A[1] --> B[0]\n    A --> C[2]\n    A --> D[4]\n    A --> E[8]\n    B --> F[0.5]\n    B --> G[1]\n    B --> H[2]\n    F --> I[0.25]\n    F --> J[0.5]\n    F --> K[1]\n    I --> L[0.125]\n    I --> M[0.25]\n    I --> N[0.5]"
+    "graph TD\n A[1] --> B[0]\n A --> C[2]\n A --> D[4]\n A --> E[8]\n B --> F[0.5]\n B --> G[1]\n B --> H[2]\n F --> I[0.25]\n F --> J[0.5]\n F --> K[1]\n I --> L[0.125]\n I --> M[0.25]\n I --> N[0.5]"
    ]
   },
   {
@@ -144,9 +144,9 @@
   {
    "heading": "Example:",
    "id": "",
-   "html": "<p>Solve the equation 2ˣ = 32 using logarithms.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />To solve 2ˣ = 32, we can take the logarithm of both sides. Using the logarithm with base 2, we get:<br />[<br />\\log_2(2^x) = \\log_2(32)<br />]<br />Using the power rule of logarithms, ₂(2ˣ) = x ₂(2), and knowing that ₂(2) = 1, we have:<br />[<br />x = \\log_2(32)<br />]<br />Since 32 = 2⁵, we get:<br />[<br />x = 5<br />]<br />Therefore, the solution to the equation 2ˣ = 32 is x = 5.</div>",
+   "html": "<p>Solve the equation 2ˣ = 32 using logarithms.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />To solve 2ˣ = 32, we can take the logarithm of both sides. Using the logarithm with base 2, we get:<br />[<br />₂(2ˣ) = ₂(32)<br />]<br />Using the power rule of logarithms, ₂(2ˣ) = x ₂(2), and knowing that ₂(2) = 1, we have:<br />[<br />x = ₂(32)<br />]<br />Since 32 = 2⁵, we get:<br />[<br />x = 5<br />]<br />Therefore, the solution to the equation 2ˣ = 32 is x = 5.</div>",
    "examples": [
-    "To solve 2ˣ = 32, we can take the logarithm of both sides. Using the logarithm with base 2, we get: [ \\log_2(2^x) = \\log_2(32) ] Using the power rule of logarithms, ₂(2ˣ) = x ₂(2), and knowing that ₂(2) = 1, we have: [ x = \\log_2(32) ] Since 32 = 2⁵, we get: [ x = 5 ] Therefore, the solution to the equation 2ˣ = 32 is x = 5."
+    "To solve 2ˣ = 32, we can take the logarithm of both sides. Using the logarithm with base 2, we get: [ ₂(2ˣ) = ₂(32) ] Using the power rule of logarithms, ₂(2ˣ) = x ₂(2), and knowing that ₂(2) = 1, we have: [ x = ₂(32) ] Since 32 = 2⁵, we get: [ x = 5 ] Therefore, the solution to the equation 2ˣ = 32 is x = 5."
    ],
    "mermaid": []
   },

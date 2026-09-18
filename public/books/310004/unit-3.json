@@ -6,7 +6,7 @@
  "title": "Unit – TOPICS AND SUB-TOPICS",
  "url": "/books/310004/unit-3.html",
  "guUrl": null,
- "words": 4060,
+ "words": 4059,
  "readingMin": 23,
  "marks": "",
  "sections": [
@@ -48,7 +48,7 @@
     ""
    ],
    "mermaid": [
-    "flowchart LR\n    A[CPU] --> B[Memory]\n    B --> C[ROM]\n    B --> D[RAM]\n    A --> E[Input Devices]\n    A --> F[Output Devices]\n    A --> G[Storage Devices]\n    A --> H[Control Unit]"
+    "flowchart LR\n A[CPU] --> B[Memory]\n B --> C[ROM]\n B --> D[RAM]\n A --> E[Input Devices]\n A --> F[Output Devices]\n A --> G[Storage Devices]\n A --> H[Control Unit]"
    ]
   },
   {
@@ -98,7 +98,7 @@
     ""
    ],
    "mermaid": [
-    "sequenceDiagram\n    participant CPU\n    participant ALU\n    participant ControlUnit\n    CPU->>ALU: Perform addition\n    CPU->>ControlUnit: Execute instruction\n    ControlUnit->>ALU: Manage data flow\n    ALU->>CPU: Return result"
+    "sequenceDiagram\n participant CPU\n participant ALU\n participant ControlUnit\n CPU->>ALU: Perform addition\n CPU->>ControlUnit: Execute instruction\n ControlUnit->>ALU: Manage data flow\n ALU->>CPU: Return result"
    ]
   },
   {
@@ -145,9 +145,9 @@
   {
    "heading": "2.2.3. Window Explorer",
    "id": "",
-   "html": "<p><strong>Window Explorer</strong> is a file manager that allows you to view, organize, and manage files and folders on your computer. It is accessed by clicking the <strong>Start Button</strong> and then selecting <strong>File Explorer</strong> from the menu.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In Window Explorer, you can navigate to <code>C:\\Users\\YourUsername\\Documents</code> to view and manage your personal documents.</div>",
+   "html": "<p><strong>Window Explorer</strong> is a file manager that allows you to view, organize, and manage files and folders on your computer. It is accessed by clicking the <strong>Start Button</strong> and then selecting <strong>File Explorer</strong> from the menu.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In Window Explorer, you can navigate to <code>C:</code> to view and manage your personal documents.</div>",
    "examples": [
-    "In Window Explorer, you can navigate to `C:\\Users\\YourUsername\\Documents` to view and manage your personal documents."
+    "In Window Explorer, you can navigate to `C:` to view and manage your personal documents."
    ],
    "mermaid": []
   },
@@ -320,11 +320,11 @@
     "To draw a line, type `LINE` in the command line, then specify the starting and ending points. For example:"
    ],
    "mermaid": [
-    "flowchart TD\n    A[Start] --> B[Type LINE]\n    B --> C[Specify Start Point]\n    C --> D[Specify End Point]\n    D --> E[Line Drawn]",
-    "flowchart TD\n    A[Start] --> B[Type CIRCLE]\n    B --> C[Specify Center Point]\n    C --> D[Specify Radius]\n    D --> E[CIRCLE Drawn]",
-    "flowchart TD\n    A[Start] --> B[Type PLINE]\n    B --> C[Specify Vertices]\n    C --> D[Polyline Drawn]",
-    "flowchart TD\n    A[Start] --> B[Type OFFSET]\n    B --> C[Specify Distance]\n    C --> D[Specify Line]\n    D --> E[Line Offset]",
-    "flowchart TD\n    A[Start] --> B[Type HATCH]\n    B --> C[Select Area]\n    C --> D[Specify Pattern]\n    D --> E[Hatched Area]"
+    "flowchart TD\n A[Start] --> B[Type LINE]\n B --> C[Specify Start Point]\n C --> D[Specify End Point]\n D --> E[Line Drawn]",
+    "flowchart TD\n A[Start] --> B[Type CIRCLE]\n B --> C[Specify Center Point]\n C --> D[Specify Radius]\n D --> E[CIRCLE Drawn]",
+    "flowchart TD\n A[Start] --> B[Type PLINE]\n B --> C[Specify Vertices]\n C --> D[Polyline Drawn]",
+    "flowchart TD\n A[Start] --> B[Type OFFSET]\n B --> C[Specify Distance]\n C --> D[Specify Line]\n D --> E[Line Offset]",
+    "flowchart TD\n A[Start] --> B[Type HATCH]\n B --> C[Select Area]\n C --> D[Specify Pattern]\n D --> E[Hatched Area]"
    ]
   },
   {
@@ -459,12 +459,12 @@
   {
    "heading": "Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In Microsoft Word, the drawing toolbar might include the \"Rectangle\" button, which allows users to draw a rectangle. The \"Line\" button can be used to draw a straight line. The \"Text Box\" button can be used to add a text box to the document. The \"Fill Color\" button can be used to fill a shape with a color. Understanding these buttons is essential for creating visual aids and diagrams.</div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Biomaterial] --&gt; B[Metals]\n A --&gt; C[Ceramics]\n B --&gt; D[Bone plates, implants]\n C --&gt; E[Bone cement]\n D --&gt; F[Biocompatibility]\n E --&gt; F</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Biomaterial] --&gt; B[Metals]\n A --&gt; C[Ceramics]\n B --&gt; D[Bone plates, implants]\n C --&gt; E[Bone cement]\n D --&gt; F[Biocompatibility]\n E --&gt; F</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Biomaterial] --&gt; B[Metals]\n A --&gt; C[Ceramics]\n B --&gt; D[Bone plates, implants]\n C --&gt; E[Bone cement]\n D --&gt; F[Biocompatibility]\n E --&gt; F</pre></noscript></div>\n<hr />",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>In Microsoft Word, the drawing toolbar might include the \"Rectangle\" button, which allows users to draw a rectangle. The \"Line\" button can be used to draw a straight line. The \"Text Box\" button can be used to add a text box to the document. The \"Fill Color\" button can be used to fill a shape with a color. Understanding these buttons is essential for creating visual aids and diagrams.</div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Biomaterial] --&gt; B[Metals]\n A --&gt; C[Ceramics]\n B --&gt; D['Bone plates, implants']\n C --&gt; E[Bone cement]\n D --&gt; F[Biocompatibility]\n E --&gt; F</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Biomaterial] --&gt; B[Metals]\n A --&gt; C[Ceramics]\n B --&gt; D['Bone plates, implants']\n C --&gt; E[Bone cement]\n D --&gt; F[Biocompatibility]\n E --&gt; F</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Biomaterial] --&gt; B[Metals]\n A --&gt; C[Ceramics]\n B --&gt; D['Bone plates, implants']\n C --&gt; E[Bone cement]\n D --&gt; F[Biocompatibility]\n E --&gt; F</pre></noscript></div>\n<hr />",
    "examples": [
     "In Microsoft Word, the drawing toolbar might include the \"Rectangle\" button, which allows users to draw a rectangle. The \"Line\" button can be used to draw a straight line. The \"Text Box\" button can be used to add a text box to the document. The \"Fill Color\" button can be used to fill a shape with a color. Understanding these buttons is essential for creating visual aids and diagrams."
    ],
    "mermaid": [
-    "flowchart TD\n    A[Biomaterial] --> B[Metals]\n    A --> C[Ceramics]\n    B --> D[Bone plates, implants]\n    C --> E[Bone cement]\n    D --> F[Biocompatibility]\n    E --> F"
+    "flowchart TD\n A[Biomaterial] --> B[Metals]\n A --> C[Ceramics]\n B --> D[\"Bone plates, implants\"]\n C --> E[Bone cement]\n D --> F[Biocompatibility]\n E --> F"
    ]
   },
   {
@@ -641,7 +641,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Problem Identification] --&gt; B[Material Selection]\n B --&gt; C[Design Specifications]\n C --&gt; D[Prototype Development]\n D --&gt; E[Testing]\n E --&gt; F[Approval and Manufacturing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Problem Identification] --&gt; B[Material Selection]\n B --&gt; C[Design Specifications]\n C --&gt; D[Prototype Development]\n D --&gt; E[Testing]\n E --&gt; F[Approval and Manufacturing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Problem Identification] --&gt; B[Material Selection]\n B --&gt; C[Design Specifications]\n C --&gt; D[Prototype Development]\n D --&gt; E[Testing]\n E --&gt; F[Approval and Manufacturing]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Problem Identification] --> B[Material Selection]\n    B --> C[Design Specifications]\n    C --> D[Prototype Development]\n    D --> E[Testing]\n    E --> F[Approval and Manufacturing]"
+    "flowchart TD\n A[Problem Identification] --> B[Material Selection]\n B --> C[Design Specifications]\n C --> D[Prototype Development]\n D --> E[Testing]\n E --> F[Approval and Manufacturing]"
    ]
   },
   {
@@ -673,7 +673,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Documentation] --&gt; B[Materials Description]\n B --&gt; C[Design Parameters]\n C --&gt; D[Testing Details]\n D --&gt; E[Approval and Reporting]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Documentation] --&gt; B[Materials Description]\n B --&gt; C[Design Parameters]\n C --&gt; D[Testing Details]\n D --&gt; E[Approval and Reporting]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Documentation] --&gt; B[Materials Description]\n B --&gt; C[Design Parameters]\n C --&gt; D[Testing Details]\n D --&gt; E[Approval and Reporting]</pre></noscript></div>\n<p>These sections provide a comprehensive understanding of conventional design and textual design, which are crucial for the selection and implementation of appropriate bio-materials and implants.</p>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Documentation] --> B[Materials Description]\n    B --> C[Design Parameters]\n    C --> D[Testing Details]\n    D --> E[Approval and Reporting]"
+    "flowchart TD\n A[Documentation] --> B[Materials Description]\n B --> C[Design Parameters]\n C --> D[Testing Details]\n D --> E[Approval and Reporting]"
    ]
   }
  ]

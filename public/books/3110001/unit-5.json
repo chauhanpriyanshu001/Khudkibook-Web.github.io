@@ -6,7 +6,7 @@
  "title": "Unit – Nano material",
  "url": "/books/3110001/unit-5.html",
  "guUrl": null,
- "words": 2936,
+ "words": 2931,
  "readingMin": 16,
  "marks": "",
  "sections": [
@@ -43,7 +43,7 @@
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A researcher needs to determine the size and size distribution of a synthesized nano material using DLS. The researcher measures the intensity of scattered light at different angles and finds that the intensity peaks at a certain angle.</div>\n<ul>\n<li><strong>Solution:</strong></li>\n<li>The peak angle in the intensity distribution corresponds to the hydrodynamic radius of the nano particles. By using the known refractive index of the dispersant and the angle, the researcher can calculate the size of the nano particles using the equation:</li>\n</ul>\n<p>[ R_h = \\frac{1}{2} \\left( \\frac{\\lambda}{1.22 \\cdot \\sin(\\theta/2)} \\right) ]</p>\n<p>where λ is the wavelength of the light and θ is the angle of the peak.</p>\n<ul>\n<li>This example illustrates how DLS can be used to measure the size of nano particles.</li>\n</ul>\n<hr />",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A researcher needs to determine the size and size distribution of a synthesized nano material using DLS. The researcher measures the intensity of scattered light at different angles and finds that the intensity peaks at a certain angle.</div>\n<ul>\n<li><strong>Solution:</strong></li>\n<li>The peak angle in the intensity distribution corresponds to the hydrodynamic radius of the nano particles. By using the known refractive index of the dispersant and the angle, the researcher can calculate the size of the nano particles using the equation:</li>\n</ul>\n<p>[ R_h = (1 / 2) ( (λ / 1.22 · (θ/2)) ) ]</p>\n<p>where λ is the wavelength of the light and θ is the angle of the peak.</p>\n<ul>\n<li>This example illustrates how DLS can be used to measure the size of nano particles.</li>\n</ul>\n<hr />",
    "examples": [
     "A researcher needs to determine the size and size distribution of a synthesized nano material using DLS. The researcher measures the intensity of scattered light at different angles and finds that the intensity peaks at a certain angle."
    ],
@@ -152,7 +152,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Prepare Reagents] --&gt; B[HAuCl4 Solution]\n B --&gt; C[HAuCl4 Solution] --&gt; D[Add to Citrate Solution]\n D --&gt; E[Mix Solution] --&gt; F[Form Nanoparticles]\n F --&gt; G[Centrifuge] --&gt; H[Wash]\n H --&gt; I[Resuspend in Solvent]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Prepare Reagents] --&gt; B[HAuCl4 Solution]\n B --&gt; C[HAuCl4 Solution] --&gt; D[Add to Citrate Solution]\n D --&gt; E[Mix Solution] --&gt; F[Form Nanoparticles]\n F --&gt; G[Centrifuge] --&gt; H[Wash]\n H --&gt; I[Resuspend in Solvent]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Prepare Reagents] --&gt; B[HAuCl4 Solution]\n B --&gt; C[HAuCl4 Solution] --&gt; D[Add to Citrate Solution]\n D --&gt; E[Mix Solution] --&gt; F[Form Nanoparticles]\n F --&gt; G[Centrifuge] --&gt; H[Wash]\n H --&gt; I[Resuspend in Solvent]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Prepare Reagents] --> B[HAuCl4 Solution]\n    B --> C[HAuCl4 Solution] --> D[Add to Citrate Solution]\n    D --> E[Mix Solution] --> F[Form Nanoparticles]\n    F --> G[Centrifuge] --> H[Wash]\n    H --> I[Resuspend in Solvent]"
+    "flowchart TD\n A[Prepare Reagents] --> B[HAuCl4 Solution]\n B --> C[HAuCl4 Solution] --> D[Add to Citrate Solution]\n D --> E[Mix Solution] --> F[Form Nanoparticles]\n F --> G[Centrifuge] --> H[Wash]\n H --> I[Resuspend in Solvent]"
    ]
   },
   {
@@ -191,7 +191,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Prepare Reactor] --&gt; B[Deposit Metal Catalyst]\n B --&gt; C[Introduce Carbon Source]\n C --&gt; D[Heat Reactor] --&gt; E[Form CNTs]\n E --&gt; F[Cool Reactor] --&gt; G[Collect CNTs]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Prepare Reactor] --&gt; B[Deposit Metal Catalyst]\n B --&gt; C[Introduce Carbon Source]\n C --&gt; D[Heat Reactor] --&gt; E[Form CNTs]\n E --&gt; F[Cool Reactor] --&gt; G[Collect CNTs]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Prepare Reactor] --&gt; B[Deposit Metal Catalyst]\n B --&gt; C[Introduce Carbon Source]\n C --&gt; D[Heat Reactor] --&gt; E[Form CNTs]\n E --&gt; F[Cool Reactor] --&gt; G[Collect CNTs]</pre></noscript></div>\n<p>These sections provide a detailed overview of metal based nanoparticles and carbon nanotubes and nanowires, including their preparation methods and applications, along with worked examples.</p>\n<hr />",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Prepare Reactor] --> B[Deposit Metal Catalyst]\n    B --> C[Introduce Carbon Source]\n    C --> D[Heat Reactor] --> E[Form CNTs]\n    E --> F[Cool Reactor] --> G[Collect CNTs]"
+    "flowchart TD\n A[Prepare Reactor] --> B[Deposit Metal Catalyst]\n B --> C[Introduce Carbon Source]\n C --> D[Heat Reactor] --> E[Form CNTs]\n E --> F[Cool Reactor] --> G[Collect CNTs]"
    ]
   },
   {
@@ -232,7 +232,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Synthesis Techniques] --&gt; B[Top down approach]\n A --&gt; C[Bottom up approach]\n B --&gt; D[Lithography]\n B --&gt; E[Etching]\n C --&gt; F[Self-assembly]\n C --&gt; G[MBE]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Synthesis Techniques] --&gt; B[Top down approach]\n A --&gt; C[Bottom up approach]\n B --&gt; D[Lithography]\n B --&gt; E[Etching]\n C --&gt; F[Self-assembly]\n C --&gt; G[MBE]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Synthesis Techniques] --&gt; B[Top down approach]\n A --&gt; C[Bottom up approach]\n B --&gt; D[Lithography]\n B --&gt; E[Etching]\n C --&gt; F[Self-assembly]\n C --&gt; G[MBE]</pre></noscript></div>\n<p>This diagram illustrates the different synthesis techniques used in nanotechnology, showing the key methods in both top down and bottom up approaches.</p>\n<hr />",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Synthesis Techniques] --> B[Top down approach]\n    A --> C[Bottom up approach]\n    B --> D[Lithography]\n    B --> E[Etching]\n    C --> F[Self-assembly]\n    C --> G[MBE]"
+    "flowchart TD\n A[Synthesis Techniques] --> B[Top down approach]\n A --> C[Bottom up approach]\n B --> D[Lithography]\n B --> E[Etching]\n C --> F[Self-assembly]\n C --> G[MBE]"
    ]
   },
   {
@@ -275,7 +275,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Chemical Reaction] --&gt; B[High Surface Area]\n B --&gt; C[Enhanced Reactivity]\n C --&gt; D[Enhanced Selectivity]\n D --&gt; E[Improved Stability]\n E --&gt; F[Industrial Application]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Chemical Reaction] --&gt; B[High Surface Area]\n B --&gt; C[Enhanced Reactivity]\n C --&gt; D[Enhanced Selectivity]\n D --&gt; E[Improved Stability]\n E --&gt; F[Industrial Application]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Chemical Reaction] --&gt; B[High Surface Area]\n B --&gt; C[Enhanced Reactivity]\n C --&gt; D[Enhanced Selectivity]\n D --&gt; E[Improved Stability]\n E --&gt; F[Industrial Application]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Chemical Reaction] --> B[High Surface Area]\n    B --> C[Enhanced Reactivity]\n    C --> D[Enhanced Selectivity]\n    D --> E[Improved Stability]\n    E --> F[Industrial Application]"
+    "flowchart TD\n A[Chemical Reaction] --> B[High Surface Area]\n B --> C[Enhanced Reactivity]\n C --> D[Enhanced Selectivity]\n D --> E[Improved Stability]\n E --> F[Industrial Application]"
    ]
   },
   {
@@ -318,7 +318,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Textile] --&gt; B[Improved Fabric Performance]\n B --&gt; C[Durability]\n B --&gt; D[Moisture Resistance]\n B --&gt; E[Antimicrobial Properties]\n C --&gt; F[Industrial Use]\n D --&gt; F\n E --&gt; F\n G[Medical] --&gt; H[Drug Delivery Systems]\n H --&gt; I[Targeted Drug Delivery]\n H --&gt; J[Reduced Side Effects]\n G --&gt; K[Medical Diagnostics]\n K --&gt; L[High Sensitivity]\n K --&gt; M[Specificity]\n L --&gt; N[Early Detection]\n M --&gt; N</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Textile] --&gt; B[Improved Fabric Performance]\n B --&gt; C[Durability]\n B --&gt; D[Moisture Resistance]\n B --&gt; E[Antimicrobial Properties]\n C --&gt; F[Industrial Use]\n D --&gt; F\n E --&gt; F\n G[Medical] --&gt; H[Drug Delivery Systems]\n H --&gt; I[Targeted Drug Delivery]\n H --&gt; J[Reduced Side Effects]\n G --&gt; K[Medical Diagnostics]\n K --&gt; L[High Sensitivity]\n K --&gt; M[Specificity]\n L --&gt; N[Early Detection]\n M --&gt; N</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Textile] --&gt; B[Improved Fabric Performance]\n B --&gt; C[Durability]\n B --&gt; D[Moisture Resistance]\n B --&gt; E[Antimicrobial Properties]\n C --&gt; F[Industrial Use]\n D --&gt; F\n E --&gt; F\n G[Medical] --&gt; H[Drug Delivery Systems]\n H --&gt; I[Targeted Drug Delivery]\n H --&gt; J[Reduced Side Effects]\n G --&gt; K[Medical Diagnostics]\n K --&gt; L[High Sensitivity]\n K --&gt; M[Specificity]\n L --&gt; N[Early Detection]\n M --&gt; N</pre></noscript></div>\n<p>These sections provide a comprehensive overview of the applications of nanomaterials in catalysis, textiles, and medicine, along with relevant worked examples to aid understanding.</p>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Textile] --> B[Improved Fabric Performance]\n    B --> C[Durability]\n    B --> D[Moisture Resistance]\n    B --> E[Antimicrobial Properties]\n    C --> F[Industrial Use]\n    D --> F\n    E --> F\n    G[Medical] --> H[Drug Delivery Systems]\n    H --> I[Targeted Drug Delivery]\n    H --> J[Reduced Side Effects]\n    G --> K[Medical Diagnostics]\n    K --> L[High Sensitivity]\n    K --> M[Specificity]\n    L --> N[Early Detection]\n    M --> N"
+    "flowchart TD\n A[Textile] --> B[Improved Fabric Performance]\n B --> C[Durability]\n B --> D[Moisture Resistance]\n B --> E[Antimicrobial Properties]\n C --> F[Industrial Use]\n D --> F\n E --> F\n G[Medical] --> H[Drug Delivery Systems]\n H --> I[Targeted Drug Delivery]\n H --> J[Reduced Side Effects]\n G --> K[Medical Diagnostics]\n K --> L[High Sensitivity]\n K --> M[Specificity]\n L --> N[Early Detection]\n M --> N"
    ]
   }
  ]

@@ -72,9 +72,10 @@
     .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
     .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
     /* mermaid */
-    .kb-article .mermaid-wrap{margin:16px 0}
-    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-    .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+    .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+    .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+    .kb-article .mermaid svg foreignObject{overflow:visible}
     .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
     .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
     .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
@@ -256,34 +257,34 @@
  B --&gt; D[Angular Displacement - Time]
  C --&gt; E[Angular Velocity - Time]
  D --&gt; F[Angular Acceleration - Time]
- E --&gt; G[Angular Displacement - Velocity]
- F --&gt; H[Angular Velocity - Acceleration]
- G --&gt; I[Angular Acceleration - Velocity]
- H --&gt; J[Angular Displacement - Acceleration]
- I --&gt; K[Angular Displacement - Acceleration]
- J --&gt; K[Angular Displacement - Acceleration]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ E --&gt; G[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ F --&gt; H[&quot;Angular Velocity&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ G --&gt; I[&quot;Angular Acceleration&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ H --&gt; J[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ I --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ J --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Angular Displacement] --&gt; B[Angular Velocity]
  A --&gt; C[Angular Acceleration]
  B --&gt; D[Angular Displacement - Time]
  C --&gt; E[Angular Velocity - Time]
  D --&gt; F[Angular Acceleration - Time]
- E --&gt; G[Angular Displacement - Velocity]
- F --&gt; H[Angular Velocity - Acceleration]
- G --&gt; I[Angular Acceleration - Velocity]
- H --&gt; J[Angular Displacement - Acceleration]
- I --&gt; K[Angular Displacement - Acceleration]
- J --&gt; K[Angular Displacement - Acceleration]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ E --&gt; G[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ F --&gt; H[&quot;Angular Velocity&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ G --&gt; I[&quot;Angular Acceleration&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ H --&gt; J[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ I --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ J --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Angular Displacement] --&gt; B[Angular Velocity]
  A --&gt; C[Angular Acceleration]
  B --&gt; D[Angular Displacement - Time]
  C --&gt; E[Angular Velocity - Time]
  D --&gt; F[Angular Acceleration - Time]
- E --&gt; G[Angular Displacement - Velocity]
- F --&gt; H[Angular Velocity - Acceleration]
- G --&gt; I[Angular Acceleration - Velocity]
- H --&gt; J[Angular Displacement - Acceleration]
- I --&gt; K[Angular Displacement - Acceleration]
- J --&gt; K[Angular Displacement - Acceleration]</pre></noscript></div>
+ E --&gt; G[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ F --&gt; H[&quot;Angular Velocity&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ G --&gt; I[&quot;Angular Acceleration&lt;br/&gt;-&lt;br/&gt;Velocity&quot;]
+ H --&gt; J[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ I --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]
+ J --&gt; K[&quot;Angular Displacement&lt;br/&gt;-&lt;br/&gt;Acceleration&quot;]</pre></noscript></div>
 <p>This diagram helps visualize the interrelation between angular displacement, velocity, and acceleration.</p>
 <hr />
 <h3 id="sec-2-3-centripetal-and-centrifugal-forces-examples-banking-of-roads-and-bending-of-cyclist">2.3. Centripetal and centrifugal forces examples: banking of roads and bending of cyclist</h3>
@@ -337,24 +338,24 @@
 <h4>Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A cyclist is turning a curve of radius 30 meters at a speed of 10 m/s. The coefficient of friction between the tires and the road is 0.5. Determine the speed at which the cyclist can safely turn the curve without skidding.<br /><br />Given:<br />- Radius of the curve, R = 30 m,<br />- Speed, v = 10 m/s,<br />- Coefficient of friction, μ = 0.5.<br /><br />Using the formula for the maximum speed:<br />[ v = μ g R ]<br />[ v = 0.5 × 9.8 × 30 ]<br />[ v = 147 ]<br />[ v ≈ 12.12 \, m/s ]<br /><br />Therefore, the cyclist can safely turn the curve without skidding at a speed of approximately 12.12 m/s.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Given] --&gt; B['R = 30m, v = 10m/s, μ = 0.5']
- B --&gt; C['Required: Maximum Speed v']
- C --&gt; D['Formula: v = sqrt(μgR)']
- D --&gt; E['v = sqrt(0.5 * 9.8 * 30)']
- E --&gt; F['v = sqrt(147)']
- F --&gt; G['v ≈ 12.12m/s']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Given] --&gt; B['R = 30m, v = 10m/s, μ = 0.5']
- B --&gt; C['Required: Maximum Speed v']
- C --&gt; D['Formula: v = sqrt(μgR)']
- D --&gt; E['v = sqrt(0.5 * 9.8 * 30)']
- E --&gt; F['v = sqrt(147)']
- F --&gt; G['v ≈ 12.12m/s']</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Given] --&gt; B['R = 30m, v = 10m/s, μ = 0.5']
- B --&gt; C['Required: Maximum Speed v']
- C --&gt; D['Formula: v = sqrt(μgR)']
- D --&gt; E['v = sqrt(0.5 * 9.8 * 30)']
- E --&gt; F['v = sqrt(147)']
- F --&gt; G['v ≈ 12.12m/s']</pre></noscript></div>
+ A[Given] --&gt; B[&quot;R = 30m, v = 10m/s, μ = 0.5&quot;]
+ B --&gt; C[&quot;Required: Maximum Speed v&quot;]
+ C --&gt; D[&quot;Formula: v = sqrt(μgR)&quot;]
+ D --&gt; E[&quot;v = sqrt(0.5 * 9.8 * 30)&quot;]
+ E --&gt; F[&quot;v = sqrt(147)&quot;]
+ F --&gt; G[&quot;v ≈ 12.12m/s&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[Given] --&gt; B[&quot;R = 30m, v = 10m/s, μ = 0.5&quot;]
+ B --&gt; C[&quot;Required: Maximum Speed v&quot;]
+ C --&gt; D[&quot;Formula: v = sqrt(μgR)&quot;]
+ D --&gt; E[&quot;v = sqrt(0.5 * 9.8 * 30)&quot;]
+ E --&gt; F[&quot;v = sqrt(147)&quot;]
+ F --&gt; G[&quot;v ≈ 12.12m/s&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[Given] --&gt; B[&quot;R = 30m, v = 10m/s, μ = 0.5&quot;]
+ B --&gt; C[&quot;Required: Maximum Speed v&quot;]
+ C --&gt; D[&quot;Formula: v = sqrt(μgR)&quot;]
+ D --&gt; E[&quot;v = sqrt(0.5 * 9.8 * 30)&quot;]
+ E --&gt; F[&quot;v = sqrt(147)&quot;]
+ F --&gt; G[&quot;v ≈ 12.12m/s&quot;]</pre></noscript></div>
 
         <nav class="kb-pn no-print"><a class="pn-btn" href="unit-1.html"><i class="fas fa-chevron-left"></i> Unit 1</a><span class="pn-btn disabled">Unit – Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve</span></nav>
 
@@ -441,12 +442,26 @@
   (function () {
     function init() {
       if (!window.mermaid) return;
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, curve: 'basis' } });
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, useMaxWidth: true, curve: 'basis', nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
       var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
       nodes.forEach(function (el) {
         if (el.dataset.kbMermaidRun) return;
         el.dataset.kbMermaidRun = '1';
-        mermaid.run({ nodes: [el] }).catch(function () {
+        function fitDiagram() {
+          var svg = el.querySelector('svg');
+          if (!svg) return;
+          var vb = svg.viewBox && svg.viewBox.baseVal;
+          if (vb && vb.width && vb.height) {
+            svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            svg.setAttribute('width', '100%');
+            svg.removeAttribute('height');
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+            svg.style.maxWidth = '100%';
+            svg.style.overflow = 'visible';
+          }
+        }
+        mermaid.run({ nodes: [el] }).then(fitDiagram).catch(function () {
           el.classList.add('mermaid-failed');
           el.innerHTML = '<div style="padding:8px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>';
         });

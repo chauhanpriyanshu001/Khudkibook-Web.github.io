@@ -72,9 +72,10 @@
     .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
     .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
     /* mermaid */
-    .kb-article .mermaid-wrap{margin:16px 0}
-    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-    .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+    .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+    .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+    .kb-article .mermaid svg foreignObject{overflow:visible}
     .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
     .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
     .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
@@ -205,12 +206,12 @@
 <p>Polymers can be classified based on their source as natural or synthetic. Understanding the classification helps in identifying the properties and applications of different polymers and fibers.</p>
 <h4>Flowchart for Classification</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']
- A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']
- A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']
- A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</pre></noscript></div>
+ A[Sources] --&gt; B[Natural Polymers] --&gt; C[&quot;Examples: Cellulose, Chitin&quot;]
+ A --&gt; D[Synthetic Polymers] --&gt; E[&quot;Examples:&lt;br/&gt;Polyethylene,&lt;br/&gt;Nylon&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Sources] --&gt; B[Natural Polymers] --&gt; C[&quot;Examples: Cellulose, Chitin&quot;]
+ A --&gt; D[Synthetic Polymers] --&gt; E[&quot;Examples:&lt;br/&gt;Polyethylene,&lt;br/&gt;Nylon&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Sources] --&gt; B[Natural Polymers] --&gt; C[&quot;Examples: Cellulose, Chitin&quot;]
+ A --&gt; D[Synthetic Polymers] --&gt; E[&quot;Examples:&lt;br/&gt;Polyethylene,&lt;br/&gt;Nylon&quot;]</pre></noscript></div>
 <h4>Detailed Classification</h4>
 <ul>
 <li><strong>Natural Polymers</strong>: These polymers occur in nature and are derived from biological sources.</li>
@@ -327,17 +328,17 @@
 <h4>Mermaid Diagram for Types of Rubber</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Natural Rubber] --&gt; B[Derived from latex]
- A --&gt; C[High elasticity and tensile strength]
+ A --&gt; C[&quot;High elasticity and&lt;br/&gt;tensile&lt;br/&gt;strength&quot;]
  B --&gt; D[Hevea brasiliensis tree]
- C --&gt; E['Chemical structure: Polyisoprene']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ C --&gt; E[&quot;Chemical&lt;br/&gt;structure:&lt;br/&gt;Polyisoprene&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Natural Rubber] --&gt; B[Derived from latex]
- A --&gt; C[High elasticity and tensile strength]
+ A --&gt; C[&quot;High elasticity and&lt;br/&gt;tensile&lt;br/&gt;strength&quot;]
  B --&gt; D[Hevea brasiliensis tree]
- C --&gt; E['Chemical structure: Polyisoprene']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ C --&gt; E[&quot;Chemical&lt;br/&gt;structure:&lt;br/&gt;Polyisoprene&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Natural Rubber] --&gt; B[Derived from latex]
- A --&gt; C[High elasticity and tensile strength]
+ A --&gt; C[&quot;High elasticity and&lt;br/&gt;tensile&lt;br/&gt;strength&quot;]
  B --&gt; D[Hevea brasiliensis tree]
- C --&gt; E['Chemical structure: Polyisoprene']</pre></noscript></div>
+ C --&gt; E[&quot;Chemical&lt;br/&gt;structure:&lt;br/&gt;Polyisoprene&quot;]</pre></noscript></div>
 <h3 id="sec-vulcanization-of-rubber">Vulcanization of Rubber</h3>
 <h4>Introduction to Vulcanization</h4>
 <p><strong>Vulcanization</strong> is a process used to improve the properties of rubber by heating it in the presence of sulfur. This process crosslinks the polymer chains, enhancing the strength, elasticity, and durability of the rubber.</p>
@@ -346,13 +347,13 @@
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />The reaction for vulcanization can be represented as:<br /><br />R - S - R + R' - S - R' → R - S - S - R'</div>
 <h4>Mermaid Diagram for Vulcanization Mechanism</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Vulcanization] --&gt; B[Heating in the presence of sulfur]
+ A[Vulcanization] --&gt; B[&quot;Heating in the presence&lt;br/&gt;of&lt;br/&gt;sulfur&quot;]
  B --&gt; C[Crosslinking of polymer chains]
  C --&gt; D[Enhanced mechanical properties]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Vulcanization] --&gt; B[Heating in the presence of sulfur]
+ A[Vulcanization] --&gt; B[&quot;Heating in the presence&lt;br/&gt;of&lt;br/&gt;sulfur&quot;]
  B --&gt; C[Crosslinking of polymer chains]
  C --&gt; D[Enhanced mechanical properties]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Vulcanization] --&gt; B[Heating in the presence of sulfur]
+ A[Vulcanization] --&gt; B[&quot;Heating in the presence&lt;br/&gt;of&lt;br/&gt;sulfur&quot;]
  B --&gt; C[Crosslinking of polymer chains]
  C --&gt; D[Enhanced mechanical properties]</pre></noscript></div>
 <h4>Practical Application of Vulcanization</h4>
@@ -589,15 +590,15 @@
  A[Polymerization] --&gt; B[Extraction of Cellulose]
  B --&gt; C[Acetylation]
  C --&gt; D[Spinning]
- D --&gt; E['Final Product: Cellulose Acetate Fiber']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ D --&gt; E[&quot;Final Product:&lt;br/&gt;Cellulose&lt;br/&gt;Acetate Fiber&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Polymerization] --&gt; B[Extraction of Cellulose]
  B --&gt; C[Acetylation]
  C --&gt; D[Spinning]
- D --&gt; E['Final Product: Cellulose Acetate Fiber']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ D --&gt; E[&quot;Final Product:&lt;br/&gt;Cellulose&lt;br/&gt;Acetate Fiber&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Polymerization] --&gt; B[Extraction of Cellulose]
  B --&gt; C[Acetylation]
  C --&gt; D[Spinning]
- D --&gt; E['Final Product: Cellulose Acetate Fiber']</pre></noscript></div>
+ D --&gt; E[&quot;Final Product:&lt;br/&gt;Cellulose&lt;br/&gt;Acetate Fiber&quot;]</pre></noscript></div>
 <p>This flowchart illustrates the process of producing cellulose acetate fiber from cellulose to its final product.</p>
 <hr />
 <h3 id="sec-viscose-rayon">Viscose Rayon</h3>
@@ -786,12 +787,26 @@
   (function () {
     function init() {
       if (!window.mermaid) return;
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, curve: 'basis' } });
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, useMaxWidth: true, curve: 'basis', nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
       var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
       nodes.forEach(function (el) {
         if (el.dataset.kbMermaidRun) return;
         el.dataset.kbMermaidRun = '1';
-        mermaid.run({ nodes: [el] }).catch(function () {
+        function fitDiagram() {
+          var svg = el.querySelector('svg');
+          if (!svg) return;
+          var vb = svg.viewBox && svg.viewBox.baseVal;
+          if (vb && vb.width && vb.height) {
+            svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            svg.setAttribute('width', '100%');
+            svg.removeAttribute('height');
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+            svg.style.maxWidth = '100%';
+            svg.style.overflow = 'visible';
+          }
+        }
+        mermaid.run({ nodes: [el] }).then(fitDiagram).catch(function () {
           el.classList.add('mermaid-failed');
           el.innerHTML = '<div style="padding:8px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>';
         });

@@ -21,6 +21,21 @@ const DIAGRAM_KINDS = /^(flowchart|graph|sequenceDiagram|classDiagram|stateDiagr
 function repairSource(src) {
   let s = String(src || '');
 
+  // Models occasionally include the fence itself in a saved source block.
+  s = s.replace(/^\s*```(?:mermaid)?\s*/i, '').replace(/\s*```\s*$/i, '').trim();
+  // Mermaid treats a number of punctuation characters as syntax inside
+  // unquoted flowchart labels. Quote only labels that need it; this preserves
+  // short, clean labels while preventing parser failures for real syllabus
+  // names such as "Input / Output (I/O)".
+  s = s.split('\n').map(line => {
+    if (!/^\s*(?:flowchart|graph)\b/i.test(s) && !/-->|==>|-\.-|---/.test(line)) return line;
+    return line.replace(/([A-Za-z][A-Za-z0-9_]*)\[([^\]\n]*)\]/g, (m, id, label) => {
+      const clean = label.replace(/"/g, "'").trim();
+      if (!clean || /^\s*["'][\s\S]*["']\s*$/.test(clean)) return `${id}[${clean}]`;
+      return /[()[\]{}:;,/%#&/\\]/.test(clean) ? `${id}["${clean}"]` : `${id}[${clean}]`;
+    });
+  }).join('\n');
+
   // `--> X[Label] (annotation)` -> `--> X[Label: annotation]`
   s = s.replace(/(-->|\+-+>|==>|--->)\s*([A-Za-z0-9_]+)\[([^\]]*)\]\s*\(([^)]*)\)/g, (m, arrow, id, label, note) => {
     const n = (note || '').trim(), l = (label || '').trim();
@@ -31,7 +46,7 @@ function repairSource(src) {
   s = s.replace(/\(\)/g, '').replace(/\(\s*\)/g, '');
 
   // node labels must not contain double quotes, backticks, or stray semicolons
-  s = s.replace(/"([^"]*)"/g, (m, cap) => (cap || '').trim()).replace(/`([^`]*)`/g, (m, cap) => (cap || '').trim());
+  s = s.replace(/`([^`]*)`/g, (m, cap) => (cap || '').trim());
 
   // strip `>` prefixes that sometimes leak when a model indents a diagram as a quote
   s = s.split('\n').map(l => l.replace(/^\s*>\s?/, '')).join('\n');
@@ -56,6 +71,10 @@ function repairSource(src) {
   if (diff > 0) {
     for (let k = 0; k < diff; k++) s = s.replace(/\]/, '');
   }
+
+  // Mermaid IDs may not contain spaces. Repair the common "node id = label"
+  // pattern without touching legitimate edge labels.
+  s = s.split('\n').map(line => line.replace(/^\s*([^\s\[\]()-]+)\s*=\s*/g, '$1 ')).join('\n');
 
   return s;
 }
@@ -82,7 +101,7 @@ function validateMermaid(src, { allowErrors = false } = {}) {
   if (start === -1) errors.push('no flowchart/graph/sequenceDiagram/… starter line');
   else if (start > 0) issues.push(`${start} leading comment/non-diagram line(s)`);
 
-  let brackets = 0, parens = 0, quotesOpen = false;
+  let brackets = 0, parens = 0, braces = 0, quotesOpen = false;
   let edgeCount = 0, nodeCount = 0, isSeq = DIAGRAM_KINDS.test(text) && /^sequenceDiagram\b/m.test(text);
   for (const line of lines) {
     const t = line.trim();
@@ -92,6 +111,8 @@ function validateMermaid(src, { allowErrors = false } = {}) {
       else if (ch === ']') brackets--;
       else if (ch === '(') parens++;
       else if (ch === ')') parens--;
+      else if (ch === '{') braces++;
+      else if (ch === '}') braces--;
       else if (ch === '"') quotesOpen = !quotesOpen;
     }
     if (/-->|\+-+>|==>|--->/.test(t)) edgeCount++;
@@ -101,6 +122,7 @@ function validateMermaid(src, { allowErrors = false } = {}) {
   }
   if (brackets !== 0) issues.push(`unbalanced [ ] (${brackets})`);
   if (parens !== 0) issues.push(`unbalanced ( ) (${parens})`);
+  if (braces !== 0) issues.push(`unbalanced { } (${braces})`);
   if (quotesOpen) issues.push('unterminated double-quote');
   if (edgeCount === 0 && nodeCount === 0) issues.push('no nodes or edges');
 
@@ -133,27 +155,36 @@ function repairMarkdown(md) {
 
   const flush = () => {
     const clean = acc.join('\n').replace(/\n{3,}/g, '\n\n').trim();
-    out.push('```mermaid');
-    if (clean) out.push(clean);
-    out.push('```'); // always close
-    if (fenceLang !== 'mermaid') changed = true;
+    if (fenceLang === 'mermaid') {
+      out.push('```mermaid');
+      if (clean) out.push(repairSource(clean));
+      out.push('```'); // always close
+    } else {
+      // Preserve source code fences. Older code converted every fence into
+      // Mermaid, which made C/Python examples appear as broken diagrams.
+      out.push('```' + (fenceLang || ''));
+      if (clean) out.push(clean);
+      out.push('```');
+    }
   };
 
   for (const line of lines) {
     if (!inFence) {
-      if (/^\s*```/.test(line)) {
-        fenceLang = line.trim().replace(/^```/, '').trim().toLowerCase();
+      const blockFence = line.match(/^\s*>\s*```(.*)$/);
+      if (/^\s*```/.test(line) || blockFence) {
+        fenceLang = (blockFence ? blockFence[1] : line.trim().replace(/^```/, '')).trim().toLowerCase();
         inFence = true; acc = [];
         if (fenceLang === 'mermaid') { /* keep */ }
       } else out.push(line);
       continue;
     }
-    if (/^\s*```\s*$/.test(line)) { flush(); inFence = false; continue; }
-    if (/^\s*```/.test(line)) {
+    const contentLine = line.replace(/^\s*>\s?/, '');
+    if (/^\s*```\s*$/.test(contentLine)) { flush(); inFence = false; continue; }
+    if (/^\s*```/.test(contentLine)) {
       // an opening without content following — treat as nested opener, close current first
-      flush(); inFence = false; out.push(line); changed = true; continue;
+      flush(); inFence = false; out.push(contentLine); changed = true; continue;
     }
-    acc.push(line);
+    acc.push(contentLine);
   }
   if (inFence) { flush(); changed = true; } // unterminated fence at EOF
 

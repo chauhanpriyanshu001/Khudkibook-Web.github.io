@@ -1,77 +1,85 @@
 /**
- * LaTeX math -> readable plain-text cleanup for AI book content.
+ * Convert model-generated LaTeX fragments into readable textbook notation.
  *
- * The Ollama models frequently emit LaTeX math expressions (e.g. \( \text{CH}_4 \),
- * Z\*, \[He\]2s²2p²) that neither the Markdown renderer nor Mermaid understands,
- * so the reader sees raw source. This module rewrites the most common LaTeX math
- * constructs into unicode plain text (CH₄, Z*, CO₂, 3d⁴, etc.) so books read cleanly.
- *
- * Used post-generate (ollama_gen) and at build time (build_book_page, assemble_book).
+ * The generator is instructed not to emit LaTeX, but older cached chapters
+ * contain it. This pass is dependency-free and also runs at build time so a
+ * legacy chapter cannot ship raw `\\text{...}`, `\\mathbf{...}` or `\\-1`.
  */
 
-// Unicode subscript / superscript maps (covers what crops up in chemistry/physics).
-const SUB = { '0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄', '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉', '+': '₊', '-': '₋', 'n': 'ₙ' };
-const SUP = { '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹', '+': '⁺', '-': '⁻', 'x': 'ˣ', 'n': 'ⁿ' };
+const SUB = { '0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄', '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉', '+': '₊', '-': '₋', 'n': 'ₙ', 'i': 'ᵢ' };
+const SUP = { '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹', '+': '⁺', '-': '⁻', 'x': 'ˣ', 'n': 'ⁿ', 'i': 'ⁱ' };
 
-function mapChars(str, map) {
-  return String(str).replace(/./g, c => map[c] || c);
+function mapChars(value, map) {
+  return String(value).replace(/./g, c => map[c] || c);
 }
 
-// Convert a single \text{...}-\free expression body into readable text.
 function texExprToText(expr) {
   let s = String(expr || '');
 
-  // \text{...}, \mathrm{...}, \textrm{...}, \mathbf{...}, \ce{...}
-  s = s.replace(/\\(?:text|mathrm|textrm|mathbf|mathit|mathsf|ce|rm|it|bf)\s*\{([^{}]*)\}/g, (m, inner) => texExprToText(inner));
+  // Matrices and determinants become compact, readable textbook notation.
+  s = s.replace(/\\begin\{(?:v|b|p)?matrix\}([\s\S]*?)\\end\{(?:v|b|p)?matrix\}/gi, (_, body) => {
+    const rows = body.split(/\\\\/g)
+      .map(row => row.replace(/\s*&\s*/g, '  ').replace(/\s+/g, ' ').trim())
+      .filter(Boolean);
+    return rows.length ? `[ ${rows.join(' ; ')} ]` : '';
+  });
 
-  // superscripts ^ { ... } and ^x  -> unicode sup
-  s = s.replace(/\^\s*\{([^{}]*)\}/g, (m, inner) => mapChars(texExprToText(inner), SUP));
-  s = s.replace(/\^([0-9A-Za-z+\-])/g, (m, c) => mapChars(c, SUP));
-  // subscripts _ { ... } and _x -> unicode sub
-  s = s.replace(/_\s*\{([^{}]*)\}/g, (m, inner) => mapChars(texExprToText(inner), SUB));
-  s = s.replace(/_([0-9nN])/g, (m, c) => mapChars(c, SUB));
+  // Formatting commands: retain their content, never the command itself.
+  s = s.replace(/\\(?:text|mathrm|textrm|mathbf|mathit|mathsf|ce|rm|it|bf|operatorname)\s*\{([^{}]*)\}/g,
+    (_, inner) => texExprToText(inner));
+  s = s.replace(/\\(?:left|right|displaystyle)\b/g, '');
 
-  // inline \* -> *  (Z\* -> Z*)
-  s = s.replace(/\\\*/g, '*');
+  // Fractions need to run before generic brace cleanup.
+  s = s.replace(/\\frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}/g,
+    (_, a, b) => `(${texExprToText(a)} / ${texExprToText(b)})`);
 
-  // spacing commands
-  s = s.replace(/\\(?:;|,|!|quad|qquad)\s*/g, ' ').replace(/\\,\s*/g, ' ');
+  s = s.replace(/\^\s*\{([^{}]*)\}/g, (_, inner) => mapChars(texExprToText(inner), SUP));
+  s = s.replace(/\^([0-9A-Za-z+\-])/g, (_, c) => mapChars(c, SUP));
+  s = s.replace(/_\s*\{([^{}]*)\}/g, (_, inner) => mapChars(texExprToText(inner), SUB));
+  s = s.replace(/_([0-9nNi])/g, (_, c) => mapChars(c, SUB));
 
-  // common math symbols
-  const sym = {
+  const symbols = {
     times: '×', cdot: '·', pm: '±', approx: '≈', neq: '≠', leq: '≤', geq: '≥',
     to: '→', rightarrow: '→', leftarrow: '←', uparrow: '↑', downarrow: '↓',
     in: '∈', alpha: 'α', beta: 'β', gamma: 'γ', delta: 'δ', Delta: 'Δ',
     theta: 'θ', lambda: 'λ', mu: 'μ', pi: 'π', sigma: 'σ', tau: 'τ', phi: 'φ',
     omega: 'ω', Angstrom: 'Å', degree: '°'
   };
-  s = s.replace(/\\([A-Za-z]+)/g, (m, name) => sym[name] || '');
-
-  // \frac{a}{b}
-  s = s.replace(/\\frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}/g, (m, a, b) => `(${texExprToText(a)} / ${texExprToText(b)})`);
-
-  // chemical formula "*"
-  s = s.replace(/\*/g, '');
-
-  s = s.replace(/[{}\s]+/g, ' ').trim();
+  s = s.replace(/\\([A-Za-z]+)/g, (_, name) => symbols[name] || '');
+  s = s.replace(/\\([*{}+\-=/<>()[\]|])/g, '$1');
+  s = s.replace(/\\\\/g, ' ; ');
+  s = s.replace(/[{}]/g, '').replace(/\s+/g, ' ').trim();
   return s;
 }
 
-/**
- * Rewrite LaTeX inline/display math into readable text for the whole markdown.
- * Handles \( ... \), \[ ... \], $ ... $ and $$ ... $$ wrappers. Leaves regular
- * text untouched. Use on a unit's markdown before it is rendered or cached.
- */
+/** Clean delimited math and bare commands left by older generations. */
 function cleanLatexMath(md) {
-  return String(md || '')
-    .replace(/\$\$\s*([\s\S]*?)\s*\$\$/g, (m, inner) => texExprToText(inner))
-    .replace(/\\\(\s*([\s\S]*?)\s*\\\)/g, (m, inner) => texExprToText(inner))
-    .replace(/\$\s*([^$\n]*?)\s*\$/g, (m, inner) => texExprToText(inner).trim())
-    // \[ ... \] -> keep literal square brackets (e.g. \[He\]2s²2p²), stripping the backslashes
-    .replace(/\\\[/g, '[')
-    .replace(/\\\]/g, ']')
-    // stray LaTeX escaping left in plain text (Z\* -> Z*)
-    .replace(/\\([*{}])/g, '$1');
+  const lines = String(md || '').split(/\r?\n/);
+  let inMermaid = false;
+  return lines.map(line => {
+    if (/^\s*```mermaid\b/i.test(line)) { inMermaid = true; return line; }
+    if (inMermaid && /^\s*```\s*$/.test(line)) { inMermaid = false; return line; }
+    if (inMermaid) return line;
+
+    const hadLatex = /\\(?:[A-Za-z]+|[()[\]{}])|(?:\^|_)\s*[0-9{]/.test(line);
+    let out = line
+      .replace(/\$\$\s*([\s\S]*?)\s*\$\$/g, (_, inner) => texExprToText(inner))
+      .replace(/\\\(\s*([\s\S]*?)\s*\\\)/g, (_, inner) => texExprToText(inner))
+      .replace(/\\\[\s*([\s\S]*?)\s*\\\]/g, (_, inner) => texExprToText(inner))
+      .replace(/\$\s*([^$\n]*?)\s*\$/g, (_, inner) => texExprToText(inner));
+
+    if (hadLatex) out = texExprToText(out);
+
+    // Bare commands commonly occur when a model forgets the math delimiters.
+    out = out
+      .replace(/\\(?:text|mathrm|textrm|mathbf|mathit|mathsf|ce|rm|it|bf)\s*\{([^{}]*)\}/g, '$1')
+      .replace(/\\(?:times|cdot|pm|approx|neq|leq|geq|to|rightarrow|leftarrow)\b/g,
+        match => texExprToText(match))
+      .replace(/\\-([0-9])/g, '-$1')
+      .replace(/\\([*{}+\-])/g, '$1')
+      .replace(/(?<![A-Za-z])\\(?=[A-Za-z])/g, '');
+    return out;
+  }).join('\n');
 }
 
 module.exports = { cleanLatexMath, texExprToText };

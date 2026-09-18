@@ -144,7 +144,7 @@
       <h1>Unit – Vectors</h1>
       <div class="kb-sub">Mathematics (4300001) · Gujarat Technological University Artificial Intelligence and Data Science Semester 1</div>
       <div class="kb-meta">
-      <span><i class="fas fa-clock"></i> 11 min read</span>
+      <span><i class="fas fa-clock"></i> 10 min read</span>
       <span><i class="fas fa-bullseye"></i> 14 marks (4 Remember + 6 Understand + 4 Apply) (per syllabus)</span>
       
       <a class="kb-print-btn no-print" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
@@ -157,6 +157,9 @@
         <h4>Chapters</h4>
         <a class="toc-item " href="unit-1.html"><i class="fas fa-book-open"></i> Unit – Determinant and Function</a>
 <a class="toc-item " href="unit-2.html"><i class="fas fa-book-open"></i> Unit – Trigonometry</a>
+<a class="toc-item toc-active" href="unit-3.html"><i class="fas fa-book-open"></i> Unit – Vectors</a>
+<a class="toc-item " href="unit-4.html"><i class="fas fa-book-open"></i> Unit – Coordinate Geometry</a>
+<a class="toc-item " href="unit-5.html"><i class="fas fa-book-open"></i> Unit – Limit</a>
         <h4>In this chapter</h4>
         <a class="toc-item toc-sec" href="#sec-3-1-vector-addition-subtraction-magnitude-and-direction"><i class="fas fa-chevron-right"></i> 3.1 Vector, Addition, Subtraction, Magnitude and Direction</a>
 <a class="toc-item toc-sec" href="#sec-3-2-scalar-and-vector-product-and-its-properties"><i class="fas fa-chevron-right"></i> 3.2. Scalar and Vector Product and its Properties</a>
@@ -207,7 +210,7 @@
 </ul>
 <h4>3.1.5 Magnitude of a Vector</h4>
 <p>The <strong>magnitude</strong> of a vector A is the length of the vector and is denoted by | A |. The magnitude of a vector A = A_x i + A_y j + A_z k is calculated as:</p>
-<p>[ |\vec{A}| = \sqrt{A_x^2 + A_y^2 + A_z^2} ]</p>
+<p>[ |A| = A_x² + A_y² + A_z² ]</p>
 <p><strong>Example:</strong></p>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the magnitude of the vector A = 3 i + 4 j.</div>
 <ul>
@@ -216,7 +219,7 @@
 </ul>
 <h4>3.1.6 Direction of a Vector</h4>
 <p>The <strong>direction</strong> of a vector can be expressed in terms of its direction cosines or direction angles. The direction angles α, β, and γ are the angles that the vector makes with the positive x, y, and z axes, respectively. The direction cosines are given by:</p>
-<p>[ \cos \alpha = \frac{A_x}{|\vec{A}|}, \quad \cos \beta = \frac{A_y}{|\vec{A}|}, \quad \cos \gamma = \frac{A_z}{|\vec{A}|} ]</p>
+<p>[ α = A_x|A|, β = A_y|A|, γ = A_z|A| ]</p>
 <p><strong>Example:</strong></p>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the direction cosines and direction angles of the vector A = 3 i + 4 j.</div>
 <ul>
@@ -238,7 +241,7 @@
 <h4>3.2.1. Scalar Product (Dot Product)</h4>
 <p>The scalar product, also known as the dot product, is a binary operation that takes two vectors and returns a scalar. It is defined as:</p>
 <p>[</p>
-<p>\mathbf{A} \cdot \mathbf{B} = AB \cos \theta</p>
+<p>A · B = AB θ</p>
 <p>]</p>
 <p>where:</p>
 <ul>
@@ -259,41 +262,41 @@
 <li>Calculate the magnitudes of A and B:</li>
 </ol>
 <p>[</p>
-<p>A = \sqrt{3^2 + 4^2 + (-2)^2} = \sqrt{9 + 16 + 4} = \sqrt{29}</p>
+<p>A = 3² + 4² + (-2)² = 9 + 16 + 4 = 29</p>
 <p>]</p>
 <p>[</p>
-<p>B = \sqrt{2^2 + (-3)^2 + 6^2} = \sqrt{4 + 9 + 36} = \sqrt{49} = 7</p>
+<p>B = 2² + (-3)² + 6² = 4 + 9 + 36 = 49 = 7</p>
 <p>]</p>
 <ol>
 <li>Find the angle θ between the vectors A and B using the dot product formula:</li>
 </ol>
 <p>[</p>
-<p>\mathbf{A} \cdot \mathbf{B} = AB \cos \theta</p>
+<p>A · B = AB θ</p>
 <p>]</p>
 <p>[</p>
-<p>\mathbf{A} \cdot \mathbf{B} = (3\mathbf{i} + 4\mathbf{j} - 2\mathbf{k}) \cdot (2\mathbf{i} - 3\mathbf{j} + 6\mathbf{k})</p>
+<p>A · B = (3i + 4j - 2k) · (2i - 3j + 6k)</p>
 <p>]</p>
 <p>[</p>
-<p>= (3 \cdot 2) + (4 \cdot -3) + (-2 \cdot 6) = 6 - 12 - 12 = -18</p>
+<p>= (3 · 2) + (4 · -3) + (-2 · 6) = 6 - 12 - 12 = -18</p>
 <p>]</p>
 <ol>
 <li>Using the dot product formula:</li>
 </ol>
 <p>[</p>
-<p>-18 = \sqrt{29} \cdot 7 \cdot \cos \theta</p>
+<p>-18 = 29 · 7 · θ</p>
 <p>]</p>
 <p>[</p>
-<p>\cos \theta = \frac{-18}{7\sqrt{29}}</p>
+<p>θ = -18729</p>
 <p>]</p>
 <p>Thus, the scalar product A · B = -18.</p>
 <h4>3.2.2. Vector Product (Cross Product)</h4>
 <p>The vector product, also known as the cross product, is a binary operation that takes two vectors and returns a vector that is perpendicular to both input vectors. It is defined as:</p>
 <p>[</p>
-<p>\mathbf{A} \times \mathbf{B} = \left| \begin{array}{ccc}</p>
-<p>\mathbf{i} & \mathbf{j} & \mathbf{k} \\</p>
+<p>A × B = | arrayccc</p>
+<p>i & j & k ;</p>
 <p>A_x & A_y & A_z \\</p>
 <p>B_x & B_y & B_z \\</p>
-<p>\end{array} \right|</p>
+<p>array |</p>
 <p>]</p>
 <p>where:</p>
 <ul>
@@ -313,20 +316,20 @@
 <li>Using the determinant method:</li>
 </ol>
 <p>[</p>
-<p>\mathbf{A} \times \mathbf{B} = \left| \begin{array}{ccc}</p>
-<p>\mathbf{i} & \mathbf{j} & \mathbf{k} \\</p>
+<p>A × B = | arrayccc</p>
+<p>i & j & k ;</p>
 <p>3 & 4 & -2 \\</p>
 <p>2 & -3 & 6 \\</p>
-<p>\end{array} \right|</p>
+<p>array |</p>
 <p>]</p>
 <p>[</p>
-<p>= \mathbf{i} \left( 4 \cdot 6 - (-2) \cdot (-3) \right) - \mathbf{j} \left( 3 \cdot 6 - (-2) \cdot 2 \right) + \mathbf{k} \left( 3 \cdot (-3) - 4 \cdot 2 \right)</p>
+<p>= i ( 4 · 6 - (-2) · (-3) ) - j ( 3 · 6 - (-2) · 2 ) + k ( 3 · (-3) - 4 · 2 )</p>
 <p>]</p>
 <p>[</p>
-<p>= \mathbf{i} (24 - 6) - \mathbf{j} (18 + 4) + \mathbf{k} (-9 - 8)</p>
+<p>= i (24 - 6) - j (18 + 4) + k (-9 - 8)</p>
 <p>]</p>
 <p>[</p>
-<p>= 18\mathbf{i} - 22\mathbf{j} - 17\mathbf{k}</p>
+<p>= 18i - 22j - 17k</p>
 <p>]</p>
 <p>Thus, the vector product A × B = 18i - 22j - 17k.</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
@@ -368,7 +371,7 @@
 <h4>Definition</h4>
 <p>The angle θ between two vectors A and B can be found using the dot product (scalar product) formula:</p>
 <p>[</p>
-<p>\vec{A} \cdot \vec{B} = |\vec{A}| |\vec{B}| \cos \theta</p>
+<p>A · B = |A| |B| θ</p>
 <p>]</p>
 <p>where:</p>
 <ul>
@@ -379,39 +382,39 @@
 <h4>Finding the Angle</h4>
 <p>To find the angle θ, rearrange the formula:</p>
 <p>[</p>
-<p>\cos \theta = \frac{\vec{A} \cdot \vec{B}}{|\vec{A}| |\vec{B}|}</p>
+<p>θ = A · B|A| |B|</p>
 <p>]</p>
 <p>Then, θ can be determined by:</p>
 <p>[</p>
-<p>\theta = \cos^{-1} \left( \frac{\vec{A} \cdot \vec{B}}{|\vec{A}| |\vec{B}|} \right)</p>
+<p>θ = ⁻¹ ( A · B|A| |B| )</p>
 <p>]</p>
 <h4>Worked Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the angle between the vectors A = 2 i + 3 j - k and B = - i + 2 j + 3 k.</div>
 <p><strong>Step 1:</strong> Calculate the dot product A · B:</p>
 <p>[</p>
-<p>\vec{A} \cdot \vec{B} = (2)(-1) + (3)(2) + (-1)(3) = -2 + 6 - 3 = 1</p>
+<p>A · B = (2)(-1) + (3)(2) + (-1)(3) = -2 + 6 - 3 = 1</p>
 <p>]</p>
 <p><strong>Step 2:</strong> Calculate the magnitudes of A and B:</p>
 <p>[</p>
-<p>|\vec{A}| = \sqrt{(2)^2 + (3)^2 + (-1)^2} = \sqrt{4 + 9 + 1} = \sqrt{14}</p>
+<p>|A| = (2)² + (3)² + (-1)² = 4 + 9 + 1 = 14</p>
 <p>]</p>
 <p>[</p>
-<p>|\vec{B}| = \sqrt{(-1)^2 + (2)^2 + (3)^2} = \sqrt{1 + 4 + 9} = \sqrt{14}</p>
+<p>|B| = (-1)² + (2)² + (3)² = 1 + 4 + 9 = 14</p>
 <p>]</p>
 <p><strong>Step 3:</strong> Use the formula to find θ:</p>
 <p>[</p>
-<p>\cos \theta = \frac{\vec{A} \cdot \vec{B}}{|\vec{A}| |\vec{B}|} = \frac{1}{\sqrt{14} \cdot \sqrt{14}} = \frac{1}{14}</p>
+<p>θ = A · B|A| |B| = 114 · 14 = (1 / 14)</p>
 <p>]</p>
 <p><strong>Step 4:</strong> Find θ:</p>
 <p>[</p>
-<p>\theta = \cos^{-1} \left( \frac{1}{14} \right) \approx 85.94^\circ</p>
+<p>θ = ⁻¹ ( (1 / 14) ) ≈ 85.94^</p>
 <p>]</p>
 <p>Thus, the angle between the vectors A and B is approximately 85.94^.</p>
 <hr />
 <h3 id="sec-3-4-applications-of-scalar-and-vector-product-work-done-and-moment-of-force">3.4. Applications of Scalar and Vector Product (Work Done and Moment of Force)</h3>
 <h4>3.4.1. Work Done by a Force</h4>
 <p>Work done by a force is a scalar quantity and is defined as the dot product of the force vector and the displacement vector. The formula for work done W is given by:</p>
-<p>[ W = \vec{F} \cdot \vec{d} = Fd \cos \theta ]</p>
+<p>[ W = F · d = Fd θ ]</p>
 <p>where:</p>
 <ul>
 <li>F is the force vector,</li>
@@ -433,12 +436,12 @@
 <ol>
 <li><strong>Work Done:</strong></li>
 </ol>
-<p>[ W = \vec{F} \cdot \vec{d} = 50 \, \text{N} \times 8 \, \text{m} \times \cos 0^\circ ]</p>
-<p>[ W = 50 \times 8 \times 1 = 400 \, \text{J} ]</p>
+<p>[ W = F · d = 50 \, N × 8 \, m × 0^ ]</p>
+<p>[ W = 50 × 8 × 1 = 400 \, J ]</p>
 <p>So, the work done is 400 J.</p>
 <h4>3.4.2. Moment of Force</h4>
 <p>The moment of force, also known as torque, is a vector quantity and is defined as the cross product of the position vector and the force vector. The formula for the moment of force τ is given by:</p>
-<p>[ \vec{\tau} = \vec{r} \times \vec{F} = rF \sin \theta \, \vec{n} ]</p>
+<p>[ τ = r × F = rF θ \, n ]</p>
 <p>where:</p>
 <ul>
 <li>r is the position vector from the point of application to the point of rotation,</li>
@@ -461,8 +464,8 @@
 <ol>
 <li><strong>Moment of Force:</strong></li>
 </ol>
-<p>[ \vec{\tau} = \vec{r} \times \vec{F} = 4 \, \text{m} \times 10 \, \text{N} \times \sin 30^\circ ]</p>
-<p>[ \vec{\tau} = 4 \times 10 \times 0.5 = 20 \, \text{N} \cdot \text{m} ]</p>
+<p>[ τ = r × F = 4 \, m × 10 \, N × 30^ ]</p>
+<p>[ τ = 4 × 10 × 0.5 = 20 \, N · m ]</p>
 <p>So, the moment of force is 20 N · m.</p>
 <h4>Mermaid Diagram for Work Done and Moment of Force</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD

@@ -6,8 +6,8 @@
  "title": "Unit – Vectors",
  "url": "/books/4300001/unit-3.html",
  "guUrl": null,
- "words": 1909,
- "readingMin": 11,
+ "words": 1829,
+ "readingMin": 10,
  "marks": "14 marks (4 Remember + 6 Understand + 4 Apply) (per syllabus)",
  "sections": [
   {
@@ -52,7 +52,7 @@
   {
    "heading": "3.1.5 Magnitude of a Vector",
    "id": "",
-   "html": "<p>The <strong>magnitude</strong> of a vector A is the length of the vector and is denoted by | A |. The magnitude of a vector A = A_x i + A_y j + A_z k is calculated as:</p>\n<p>[ |\\vec{A}| = \\sqrt{A_x^2 + A_y^2 + A_z^2} ]</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the magnitude of the vector A = 3 i + 4 j.</div>\n<ul>\n<li>Using the formula:</li>\n<li>| A | = 3² + 4² = 9 + 16 = 25 = 5</li>\n</ul>",
+   "html": "<p>The <strong>magnitude</strong> of a vector A is the length of the vector and is denoted by | A |. The magnitude of a vector A = A_x i + A_y j + A_z k is calculated as:</p>\n<p>[ |A| = A_x² + A_y² + A_z² ]</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the magnitude of the vector A = 3 i + 4 j.</div>\n<ul>\n<li>Using the formula:</li>\n<li>| A | = 3² + 4² = 9 + 16 = 25 = 5</li>\n</ul>",
    "examples": [
     "Find the magnitude of the vector A = 3 i + 4 j."
    ],
@@ -61,7 +61,7 @@
   {
    "heading": "3.1.6 Direction of a Vector",
    "id": "",
-   "html": "<p>The <strong>direction</strong> of a vector can be expressed in terms of its direction cosines or direction angles. The direction angles α, β, and γ are the angles that the vector makes with the positive x, y, and z axes, respectively. The direction cosines are given by:</p>\n<p>[ \\cos \\alpha = \\frac{A_x}{|\\vec{A}|}, \\quad \\cos \\beta = \\frac{A_y}{|\\vec{A}|}, \\quad \\cos \\gamma = \\frac{A_z}{|\\vec{A}|} ]</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the direction cosines and direction angles of the vector A = 3 i + 4 j.</div>\n<ul>\n<li>Magnitude of A is 5.</li>\n<li>Direction cosines:</li>\n<li>α = 3 5</li>\n<li>β = 4 5</li>\n<li>γ = 0 (since there is no z-component)</li>\n</ul>\n<ul>\n<li>Direction angles:</li>\n<li>α = ⁻¹( 3 5 ) ≈ 53.13^</li>\n<li>β = ⁻¹( 4 5 ) ≈ 36.87^</li>\n<li>γ = ⁻¹(0) = 90^</li>\n</ul>\n<p>This section covers the fundamental concepts of vectors, including their addition, subtraction, magnitude, and direction, providing a solid foundation for solving engineering problems involving vectors.</p>\n<hr />",
+   "html": "<p>The <strong>direction</strong> of a vector can be expressed in terms of its direction cosines or direction angles. The direction angles α, β, and γ are the angles that the vector makes with the positive x, y, and z axes, respectively. The direction cosines are given by:</p>\n<p>[ α = A_x|A|, β = A_y|A|, γ = A_z|A| ]</p>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the direction cosines and direction angles of the vector A = 3 i + 4 j.</div>\n<ul>\n<li>Magnitude of A is 5.</li>\n<li>Direction cosines:</li>\n<li>α = 3 5</li>\n<li>β = 4 5</li>\n<li>γ = 0 (since there is no z-component)</li>\n</ul>\n<ul>\n<li>Direction angles:</li>\n<li>α = ⁻¹( 3 5 ) ≈ 53.13^</li>\n<li>β = ⁻¹( 4 5 ) ≈ 36.87^</li>\n<li>γ = ⁻¹(0) = 90^</li>\n</ul>\n<p>This section covers the fundamental concepts of vectors, including their addition, subtraction, magnitude, and direction, providing a solid foundation for solving engineering problems involving vectors.</p>\n<hr />",
    "examples": [
     "Find the direction cosines and direction angles of the vector A = 3 i + 4 j."
    ],
@@ -70,14 +70,14 @@
   {
    "heading": "3.2.1. Scalar Product (Dot Product)",
    "id": "",
-   "html": "<p>The scalar product, also known as the dot product, is a binary operation that takes two vectors and returns a scalar. It is defined as:</p>\n<p>[</p>\n<p>\\mathbf{A} \\cdot \\mathbf{B} = AB \\cos \\theta</p>\n<p>]</p>\n<p>where:</p>\n<ul>\n<li>A and B are vectors,</li>\n<li>A and B are the magnitudes of vectors A and B,</li>\n<li>θ is the angle between the vectors A and B.</li>\n</ul>\n<p>The scalar product has several important properties:</p>\n<ul>\n<li><strong>Commutativity</strong>: A · B = B · A</li>\n<li><strong>Distributivity over vector addition</strong>: A · (B + C) = A · B + A · C</li>\n<li><strong>Scalar multiplication</strong>: (cA) · B = c(A · B)</li>\n</ul>",
+   "html": "<p>The scalar product, also known as the dot product, is a binary operation that takes two vectors and returns a scalar. It is defined as:</p>\n<p>[</p>\n<p>A · B = AB θ</p>\n<p>]</p>\n<p>where:</p>\n<ul>\n<li>A and B are vectors,</li>\n<li>A and B are the magnitudes of vectors A and B,</li>\n<li>θ is the angle between the vectors A and B.</li>\n</ul>\n<p>The scalar product has several important properties:</p>\n<ul>\n<li><strong>Commutativity</strong>: A · B = B · A</li>\n<li><strong>Distributivity over vector addition</strong>: A · (B + C) = A · B + A · C</li>\n<li><strong>Scalar multiplication</strong>: (cA) · B = c(A · B)</li>\n</ul>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Given vectors A = 3i + 4j - 2k and B = 2i - 3j + 6k, find the scalar product A · B.</div>\n<p>Solution:</p>\n<ol>\n<li>Calculate the magnitudes of A and B:</li>\n</ol>\n<p>[</p>\n<p>A = \\sqrt{3^2 + 4^2 + (-2)^2} = \\sqrt{9 + 16 + 4} = \\sqrt{29}</p>\n<p>]</p>\n<p>[</p>\n<p>B = \\sqrt{2^2 + (-3)^2 + 6^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7</p>\n<p>]</p>\n<ol>\n<li>Find the angle θ between the vectors A and B using the dot product formula:</li>\n</ol>\n<p>[</p>\n<p>\\mathbf{A} \\cdot \\mathbf{B} = AB \\cos \\theta</p>\n<p>]</p>\n<p>[</p>\n<p>\\mathbf{A} \\cdot \\mathbf{B} = (3\\mathbf{i} + 4\\mathbf{j} - 2\\mathbf{k}) \\cdot (2\\mathbf{i} - 3\\mathbf{j} + 6\\mathbf{k})</p>\n<p>]</p>\n<p>[</p>\n<p>= (3 \\cdot 2) + (4 \\cdot -3) + (-2 \\cdot 6) = 6 - 12 - 12 = -18</p>\n<p>]</p>\n<ol>\n<li>Using the dot product formula:</li>\n</ol>\n<p>[</p>\n<p>-18 = \\sqrt{29} \\cdot 7 \\cdot \\cos \\theta</p>\n<p>]</p>\n<p>[</p>\n<p>\\cos \\theta = \\frac{-18}{7\\sqrt{29}}</p>\n<p>]</p>\n<p>Thus, the scalar product A · B = -18.</p>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Given vectors A = 3i + 4j - 2k and B = 2i - 3j + 6k, find the scalar product A · B.</div>\n<p>Solution:</p>\n<ol>\n<li>Calculate the magnitudes of A and B:</li>\n</ol>\n<p>[</p>\n<p>A = 3² + 4² + (-2)² = 9 + 16 + 4 = 29</p>\n<p>]</p>\n<p>[</p>\n<p>B = 2² + (-3)² + 6² = 4 + 9 + 36 = 49 = 7</p>\n<p>]</p>\n<ol>\n<li>Find the angle θ between the vectors A and B using the dot product formula:</li>\n</ol>\n<p>[</p>\n<p>A · B = AB θ</p>\n<p>]</p>\n<p>[</p>\n<p>A · B = (3i + 4j - 2k) · (2i - 3j + 6k)</p>\n<p>]</p>\n<p>[</p>\n<p>= (3 · 2) + (4 · -3) + (-2 · 6) = 6 - 12 - 12 = -18</p>\n<p>]</p>\n<ol>\n<li>Using the dot product formula:</li>\n</ol>\n<p>[</p>\n<p>-18 = 29 · 7 · θ</p>\n<p>]</p>\n<p>[</p>\n<p>θ = -18729</p>\n<p>]</p>\n<p>Thus, the scalar product A · B = -18.</p>",
    "examples": [
     "Given vectors A = 3i + 4j - 2k and B = 2i - 3j + 6k, find the scalar product A · B."
    ],
@@ -86,19 +86,19 @@
   {
    "heading": "3.2.2. Vector Product (Cross Product)",
    "id": "",
-   "html": "<p>The vector product, also known as the cross product, is a binary operation that takes two vectors and returns a vector that is perpendicular to both input vectors. It is defined as:</p>\n<p>[</p>\n<p>\\mathbf{A} \\times \\mathbf{B} = \\left| \\begin{array}{ccc}</p>\n<p>\\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\</p>\n<p>A_x & A_y & A_z \\\\</p>\n<p>B_x & B_y & B_z \\\\</p>\n<p>\\end{array} \\right|</p>\n<p>]</p>\n<p>where:</p>\n<ul>\n<li>A = A_xi + A_yj + A_zk,</li>\n<li>B = B_xi + B_yj + B_zk.</li>\n</ul>\n<p>The vector product has several important properties:</p>\n<ul>\n<li><strong>Anti-commutativity</strong>: A × B = -(B × A)</li>\n<li><strong>Distributivity over vector addition</strong>: A × (B + C) = A × B + A × C</li>\n<li><strong>Scalar multiplication</strong>: (cA) × B = c(A × B)</li>\n</ul>",
+   "html": "<p>The vector product, also known as the cross product, is a binary operation that takes two vectors and returns a vector that is perpendicular to both input vectors. It is defined as:</p>\n<p>[</p>\n<p>A × B = | arrayccc</p>\n<p>i & j & k ;</p>\n<p>A_x & A_y & A_z \\\\</p>\n<p>B_x & B_y & B_z \\\\</p>\n<p>array |</p>\n<p>]</p>\n<p>where:</p>\n<ul>\n<li>A = A_xi + A_yj + A_zk,</li>\n<li>B = B_xi + B_yj + B_zk.</li>\n</ul>\n<p>The vector product has several important properties:</p>\n<ul>\n<li><strong>Anti-commutativity</strong>: A × B = -(B × A)</li>\n<li><strong>Distributivity over vector addition</strong>: A × (B + C) = A × B + A × C</li>\n<li><strong>Scalar multiplication</strong>: (cA) × B = c(A × B)</li>\n</ul>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Given vectors A = 3i + 4j - 2k and B = 2i - 3j + 6k, find the vector product A × B.</div>\n<p>Solution:</p>\n<ol>\n<li>Using the determinant method:</li>\n</ol>\n<p>[</p>\n<p>\\mathbf{A} \\times \\mathbf{B} = \\left| \\begin{array}{ccc}</p>\n<p>\\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\</p>\n<p>3 & 4 & -2 \\\\</p>\n<p>2 & -3 & 6 \\\\</p>\n<p>\\end{array} \\right|</p>\n<p>]</p>\n<p>[</p>\n<p>= \\mathbf{i} \\left( 4 \\cdot 6 - (-2) \\cdot (-3) \\right) - \\mathbf{j} \\left( 3 \\cdot 6 - (-2) \\cdot 2 \\right) + \\mathbf{k} \\left( 3 \\cdot (-3) - 4 \\cdot 2 \\right)</p>\n<p>]</p>\n<p>[</p>\n<p>= \\mathbf{i} (24 - 6) - \\mathbf{j} (18 + 4) + \\mathbf{k} (-9 - 8)</p>\n<p>]</p>\n<p>[</p>\n<p>= 18\\mathbf{i} - 22\\mathbf{j} - 17\\mathbf{k}</p>\n<p>]</p>\n<p>Thus, the vector product A × B = 18i - 22j - 17k.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Scalar Product] --&gt; B[Commutativity]\n A --&gt; C[Distributivity over Vector Addition]\n A --&gt; D[Scalar Multiplication]\n A --&gt; E[Scalar Product Definition]\n F[Vector Product] --&gt; G[Anti-Commutativity]\n F --&gt; H[Distributivity over Vector Addition]\n F --&gt; I[Scalar Multiplication]\n F --&gt; J[Vector Product Definition]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Scalar Product] --&gt; B[Commutativity]\n A --&gt; C[Distributivity over Vector Addition]\n A --&gt; D[Scalar Multiplication]\n A --&gt; E[Scalar Product Definition]\n F[Vector Product] --&gt; G[Anti-Commutativity]\n F --&gt; H[Distributivity over Vector Addition]\n F --&gt; I[Scalar Multiplication]\n F --&gt; J[Vector Product Definition]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Scalar Product] --&gt; B[Commutativity]\n A --&gt; C[Distributivity over Vector Addition]\n A --&gt; D[Scalar Multiplication]\n A --&gt; E[Scalar Product Definition]\n F[Vector Product] --&gt; G[Anti-Commutativity]\n F --&gt; H[Distributivity over Vector Addition]\n F --&gt; I[Scalar Multiplication]\n F --&gt; J[Vector Product Definition]</pre></noscript></div>\n<p>This section covers the essential properties of scalar and vector products, providing a clear understanding of both concepts and their applications.</p>\n<hr />",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Given vectors A = 3i + 4j - 2k and B = 2i - 3j + 6k, find the vector product A × B.</div>\n<p>Solution:</p>\n<ol>\n<li>Using the determinant method:</li>\n</ol>\n<p>[</p>\n<p>A × B = | arrayccc</p>\n<p>i & j & k ;</p>\n<p>3 & 4 & -2 \\\\</p>\n<p>2 & -3 & 6 \\\\</p>\n<p>array |</p>\n<p>]</p>\n<p>[</p>\n<p>= i ( 4 · 6 - (-2) · (-3) ) - j ( 3 · 6 - (-2) · 2 ) + k ( 3 · (-3) - 4 · 2 )</p>\n<p>]</p>\n<p>[</p>\n<p>= i (24 - 6) - j (18 + 4) + k (-9 - 8)</p>\n<p>]</p>\n<p>[</p>\n<p>= 18i - 22j - 17k</p>\n<p>]</p>\n<p>Thus, the vector product A × B = 18i - 22j - 17k.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Scalar Product] --&gt; B[Commutativity]\n A --&gt; C[Distributivity over Vector Addition]\n A --&gt; D[Scalar Multiplication]\n A --&gt; E[Scalar Product Definition]\n F[Vector Product] --&gt; G[Anti-Commutativity]\n F --&gt; H[Distributivity over Vector Addition]\n F --&gt; I[Scalar Multiplication]\n F --&gt; J[Vector Product Definition]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Scalar Product] --&gt; B[Commutativity]\n A --&gt; C[Distributivity over Vector Addition]\n A --&gt; D[Scalar Multiplication]\n A --&gt; E[Scalar Product Definition]\n F[Vector Product] --&gt; G[Anti-Commutativity]\n F --&gt; H[Distributivity over Vector Addition]\n F --&gt; I[Scalar Multiplication]\n F --&gt; J[Vector Product Definition]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Scalar Product] --&gt; B[Commutativity]\n A --&gt; C[Distributivity over Vector Addition]\n A --&gt; D[Scalar Multiplication]\n A --&gt; E[Scalar Product Definition]\n F[Vector Product] --&gt; G[Anti-Commutativity]\n F --&gt; H[Distributivity over Vector Addition]\n F --&gt; I[Scalar Multiplication]\n F --&gt; J[Vector Product Definition]</pre></noscript></div>\n<p>This section covers the essential properties of scalar and vector products, providing a clear understanding of both concepts and their applications.</p>\n<hr />",
    "examples": [
     "Given vectors A = 3i + 4j - 2k and B = 2i - 3j + 6k, find the vector product A × B."
    ],
    "mermaid": [
-    "flowchart TD\n    A[Scalar Product] --> B[Commutativity]\n    A --> C[Distributivity over Vector Addition]\n    A --> D[Scalar Multiplication]\n    A --> E[Scalar Product Definition]\n    F[Vector Product] --> G[Anti-Commutativity]\n    F --> H[Distributivity over Vector Addition]\n    F --> I[Scalar Multiplication]\n    F --> J[Vector Product Definition]"
+    "flowchart TD\n A[Scalar Product] --> B[Commutativity]\n A --> C[Distributivity over Vector Addition]\n A --> D[Scalar Multiplication]\n A --> E[Scalar Product Definition]\n F[Vector Product] --> G[Anti-Commutativity]\n F --> H[Distributivity over Vector Addition]\n F --> I[Scalar Multiplication]\n F --> J[Vector Product Definition]"
    ]
   },
   {
@@ -111,21 +111,21 @@
   {
    "heading": "Definition",
    "id": "",
-   "html": "<p>The angle θ between two vectors A and B can be found using the dot product (scalar product) formula:</p>\n<p>[</p>\n<p>\\vec{A} \\cdot \\vec{B} = |\\vec{A}| |\\vec{B}| \\cos \\theta</p>\n<p>]</p>\n<p>where:</p>\n<ul>\n<li>A and B are the vectors,</li>\n<li>| A | and | B | are the magnitudes of vectors A and B,</li>\n<li>θ is the angle between the vectors.</li>\n</ul>",
+   "html": "<p>The angle θ between two vectors A and B can be found using the dot product (scalar product) formula:</p>\n<p>[</p>\n<p>A · B = |A| |B| θ</p>\n<p>]</p>\n<p>where:</p>\n<ul>\n<li>A and B are the vectors,</li>\n<li>| A | and | B | are the magnitudes of vectors A and B,</li>\n<li>θ is the angle between the vectors.</li>\n</ul>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Finding the Angle",
    "id": "",
-   "html": "<p>To find the angle θ, rearrange the formula:</p>\n<p>[</p>\n<p>\\cos \\theta = \\frac{\\vec{A} \\cdot \\vec{B}}{|\\vec{A}| |\\vec{B}|}</p>\n<p>]</p>\n<p>Then, θ can be determined by:</p>\n<p>[</p>\n<p>\\theta = \\cos^{-1} \\left( \\frac{\\vec{A} \\cdot \\vec{B}}{|\\vec{A}| |\\vec{B}|} \\right)</p>\n<p>]</p>",
+   "html": "<p>To find the angle θ, rearrange the formula:</p>\n<p>[</p>\n<p>θ = A · B|A| |B|</p>\n<p>]</p>\n<p>Then, θ can be determined by:</p>\n<p>[</p>\n<p>θ = ⁻¹ ( A · B|A| |B| )</p>\n<p>]</p>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Worked Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the angle between the vectors A = 2 i + 3 j - k and B = - i + 2 j + 3 k.</div>\n<p><strong>Step 1:</strong> Calculate the dot product A · B:</p>\n<p>[</p>\n<p>\\vec{A} \\cdot \\vec{B} = (2)(-1) + (3)(2) + (-1)(3) = -2 + 6 - 3 = 1</p>\n<p>]</p>\n<p><strong>Step 2:</strong> Calculate the magnitudes of A and B:</p>\n<p>[</p>\n<p>|\\vec{A}| = \\sqrt{(2)^2 + (3)^2 + (-1)^2} = \\sqrt{4 + 9 + 1} = \\sqrt{14}</p>\n<p>]</p>\n<p>[</p>\n<p>|\\vec{B}| = \\sqrt{(-1)^2 + (2)^2 + (3)^2} = \\sqrt{1 + 4 + 9} = \\sqrt{14}</p>\n<p>]</p>\n<p><strong>Step 3:</strong> Use the formula to find θ:</p>\n<p>[</p>\n<p>\\cos \\theta = \\frac{\\vec{A} \\cdot \\vec{B}}{|\\vec{A}| |\\vec{B}|} = \\frac{1}{\\sqrt{14} \\cdot \\sqrt{14}} = \\frac{1}{14}</p>\n<p>]</p>\n<p><strong>Step 4:</strong> Find θ:</p>\n<p>[</p>\n<p>\\theta = \\cos^{-1} \\left( \\frac{1}{14} \\right) \\approx 85.94^\\circ</p>\n<p>]</p>\n<p>Thus, the angle between the vectors A and B is approximately 85.94^.</p>\n<hr />",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the angle between the vectors A = 2 i + 3 j - k and B = - i + 2 j + 3 k.</div>\n<p><strong>Step 1:</strong> Calculate the dot product A · B:</p>\n<p>[</p>\n<p>A · B = (2)(-1) + (3)(2) + (-1)(3) = -2 + 6 - 3 = 1</p>\n<p>]</p>\n<p><strong>Step 2:</strong> Calculate the magnitudes of A and B:</p>\n<p>[</p>\n<p>|A| = (2)² + (3)² + (-1)² = 4 + 9 + 1 = 14</p>\n<p>]</p>\n<p>[</p>\n<p>|B| = (-1)² + (2)² + (3)² = 1 + 4 + 9 = 14</p>\n<p>]</p>\n<p><strong>Step 3:</strong> Use the formula to find θ:</p>\n<p>[</p>\n<p>θ = A · B|A| |B| = 114 · 14 = (1 / 14)</p>\n<p>]</p>\n<p><strong>Step 4:</strong> Find θ:</p>\n<p>[</p>\n<p>θ = ⁻¹ ( (1 / 14) ) ≈ 85.94^</p>\n<p>]</p>\n<p>Thus, the angle between the vectors A and B is approximately 85.94^.</p>\n<hr />",
    "examples": [
     "Find the angle between the vectors A = 2 i + 3 j - k and B = - i + 2 j + 3 k."
    ],
@@ -134,14 +134,14 @@
   {
    "heading": "3.4.1. Work Done by a Force",
    "id": "",
-   "html": "<p>Work done by a force is a scalar quantity and is defined as the dot product of the force vector and the displacement vector. The formula for work done W is given by:</p>\n<p>[ W = \\vec{F} \\cdot \\vec{d} = Fd \\cos \\theta ]</p>\n<p>where:</p>\n<ul>\n<li>F is the force vector,</li>\n<li>d is the displacement vector,</li>\n<li>F is the magnitude of the force,</li>\n<li>d is the magnitude of the displacement,</li>\n<li>θ is the angle between the force and displacement vectors.</li>\n</ul>",
+   "html": "<p>Work done by a force is a scalar quantity and is defined as the dot product of the force vector and the displacement vector. The formula for work done W is given by:</p>\n<p>[ W = F · d = Fd θ ]</p>\n<p>where:</p>\n<ul>\n<li>F is the force vector,</li>\n<li>d is the displacement vector,</li>\n<li>F is the magnitude of the force,</li>\n<li>d is the magnitude of the displacement,</li>\n<li>θ is the angle between the force and displacement vectors.</li>\n</ul>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A force of 50 N is applied to move an object 8 meters in the direction of the force. Calculate the work done.</div>\n<ol>\n<li><strong>Given:</strong></li>\n</ol>\n<ul>\n<li>Force, F = 50 N,</li>\n<li>Displacement, d = 8 m,</li>\n<li>Angle, θ = 0^ (since the force and displacement are in the same direction).</li>\n</ul>\n<ol>\n<li><strong>Work Done:</strong></li>\n</ol>\n<p>[ W = \\vec{F} \\cdot \\vec{d} = 50 \\, \\text{N} \\times 8 \\, \\text{m} \\times \\cos 0^\\circ ]</p>\n<p>[ W = 50 \\times 8 \\times 1 = 400 \\, \\text{J} ]</p>\n<p>So, the work done is 400 J.</p>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A force of 50 N is applied to move an object 8 meters in the direction of the force. Calculate the work done.</div>\n<ol>\n<li><strong>Given:</strong></li>\n</ol>\n<ul>\n<li>Force, F = 50 N,</li>\n<li>Displacement, d = 8 m,</li>\n<li>Angle, θ = 0^ (since the force and displacement are in the same direction).</li>\n</ul>\n<ol>\n<li><strong>Work Done:</strong></li>\n</ol>\n<p>[ W = F · d = 50 \\, N × 8 \\, m × 0^ ]</p>\n<p>[ W = 50 × 8 × 1 = 400 \\, J ]</p>\n<p>So, the work done is 400 J.</p>",
    "examples": [
     "A force of 50 N is applied to move an object 8 meters in the direction of the force. Calculate the work done."
    ],
@@ -150,14 +150,14 @@
   {
    "heading": "3.4.2. Moment of Force",
    "id": "",
-   "html": "<p>The moment of force, also known as torque, is a vector quantity and is defined as the cross product of the position vector and the force vector. The formula for the moment of force τ is given by:</p>\n<p>[ \\vec{\\tau} = \\vec{r} \\times \\vec{F} = rF \\sin \\theta \\, \\vec{n} ]</p>\n<p>where:</p>\n<ul>\n<li>r is the position vector from the point of application to the point of rotation,</li>\n<li>F is the force vector,</li>\n<li>r is the magnitude of the position vector,</li>\n<li>F is the magnitude of the force,</li>\n<li>θ is the angle between the position and force vectors,</li>\n<li>n is the unit vector perpendicular to the plane of r and F.</li>\n</ul>",
+   "html": "<p>The moment of force, also known as torque, is a vector quantity and is defined as the cross product of the position vector and the force vector. The formula for the moment of force τ is given by:</p>\n<p>[ τ = r × F = rF θ \\, n ]</p>\n<p>where:</p>\n<ul>\n<li>r is the position vector from the point of application to the point of rotation,</li>\n<li>F is the force vector,</li>\n<li>r is the magnitude of the position vector,</li>\n<li>F is the magnitude of the force,</li>\n<li>θ is the angle between the position and force vectors,</li>\n<li>n is the unit vector perpendicular to the plane of r and F.</li>\n</ul>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Example:",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A force of 10 N is applied at a point 4 meters away from the pivot, at an angle of 30^ with respect to the line joining the pivot to the point of application. Calculate the moment of force.</div>\n<ol>\n<li><strong>Given:</strong></li>\n</ol>\n<ul>\n<li>Force, F = 10 N,</li>\n<li>Position, r = 4 m,</li>\n<li>Angle, θ = 30^.</li>\n</ul>\n<ol>\n<li><strong>Moment of Force:</strong></li>\n</ol>\n<p>[ \\vec{\\tau} = \\vec{r} \\times \\vec{F} = 4 \\, \\text{m} \\times 10 \\, \\text{N} \\times \\sin 30^\\circ ]</p>\n<p>[ \\vec{\\tau} = 4 \\times 10 \\times 0.5 = 20 \\, \\text{N} \\cdot \\text{m} ]</p>\n<p>So, the moment of force is 20 N · m.</p>",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A force of 10 N is applied at a point 4 meters away from the pivot, at an angle of 30^ with respect to the line joining the pivot to the point of application. Calculate the moment of force.</div>\n<ol>\n<li><strong>Given:</strong></li>\n</ol>\n<ul>\n<li>Force, F = 10 N,</li>\n<li>Position, r = 4 m,</li>\n<li>Angle, θ = 30^.</li>\n</ul>\n<ol>\n<li><strong>Moment of Force:</strong></li>\n</ol>\n<p>[ τ = r × F = 4 \\, m × 10 \\, N × 30^ ]</p>\n<p>[ τ = 4 × 10 × 0.5 = 20 \\, N · m ]</p>\n<p>So, the moment of force is 20 N · m.</p>",
    "examples": [
     "A force of 10 N is applied at a point 4 meters away from the pivot, at an angle of 30^ with respect to the line joining the pivot to the point of application. Calculate the moment of force."
    ],
@@ -169,7 +169,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Force Vector] --&gt; B[Work Done]\n A --&gt; C[Moment of Force]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Force Vector] --&gt; B[Work Done]\n A --&gt; C[Moment of Force]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Force Vector] --&gt; B[Work Done]\n A --&gt; C[Moment of Force]</pre></noscript></div>\n<p>This diagram visually represents the relationship between the force vector and the scalar quantities of work done and the vector quantity of moment of force.</p>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Force Vector] --> B[Work Done]\n    A --> C[Moment of Force]"
+    "flowchart TD\n A[Force Vector] --> B[Work Done]\n A --> C[Moment of Force]"
    ]
   }
  ]

@@ -106,10 +106,10 @@
   .kb-article .fig-callout{background:var(--bg-soft,#eef1fb);border:1.5px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;padding:14px 16px;margin:14px 0;color:var(--text-secondary,#475569);font-size:.92rem;display:flex;gap:10px;align-items:flex-start}
   .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
   .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
-  .kb-article .mermaid-wrap{margin:16px 0}
-  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-  .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
-  .kb-article .mermaid svg{max-width:100%;height:auto}
+  .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+  .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+  .kb-article .mermaid svg foreignObject{overflow:visible}
   .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted,#64748b)}
   .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
   .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
@@ -153,7 +153,7 @@
     @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in · Chemistry";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
   }
   </style>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Chemistry – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":31641,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Chemistry","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Chemistry – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":31407,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Chemistry","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
   <script>
@@ -204,8 +204,8 @@
       <p class="kb-lead">A clear, exam-oriented self-study book for GTU students. Every chapter is arranged from the official syllabus into simple explanations, worked examples, diagrams, revision points and exam-style questions.</p>
       <div class="kb-front-grid">
         <div><strong>8</strong><span>syllabus units</span></div>
-        <div><strong>31,641</strong><span>study words</span></div>
-        <div><strong>64</strong><span>print pages approx.</span></div>
+        <div><strong>31,407</strong><span>study words</span></div>
+        <div><strong>63</strong><span>print pages approx.</span></div>
       </div>
       <h2>How to use this book</h2>
       <ol class="kb-reading-steps">
@@ -230,7 +230,7 @@
         <button class="kb-tb-btn kb-desktop-toc-toggle" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
         <button class="kb-tb-btn" id="kb-reader-toggle" type="button"><i class="fas fa-book-open"></i> Page view</button>
         <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~154 min read</span>
-        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 31,641 words</span>
+        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 31,407 words</span>
       </div>
       <div class="kb-tb-group">
         <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
@@ -1321,15 +1321,15 @@
 <h3 id="u3-sec-classification-of-alloys">Classification of alloys</h3>
 <p>Alloys can be classified based on their composition and the nature of the constituent elements. The following flowchart illustrates the classification of alloys:</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D['Example: Steel, Brass']
- A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G['Example: Nickel Alloys']
- A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J['Example: Stainless Steel']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D['Example: Steel, Brass']
- A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G['Example: Nickel Alloys']
- A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J['Example: Stainless Steel']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D['Example: Steel, Brass']
- A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G['Example: Nickel Alloys']
- A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J['Example: Stainless Steel']</pre></noscript></div>
+ A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D[&quot;Example: Steel, Brass&quot;]
+ A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G[&quot;Example: Nickel Alloys&quot;]
+ A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J[&quot;Example: Stainless Steel&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D[&quot;Example: Steel, Brass&quot;]
+ A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G[&quot;Example: Nickel Alloys&quot;]
+ A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J[&quot;Example: Stainless Steel&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Alloy] --&gt; B[Binary] --&gt; C[Two elements] --&gt; D[&quot;Example: Steel, Brass&quot;]
+ A --&gt; E[Ternary] --&gt; F[Three elements] --&gt; G[&quot;Example: Nickel Alloys&quot;]
+ A --&gt; H[Quaternary] --&gt; I[Four or more elements] --&gt; J[&quot;Example: Stainless Steel&quot;]</pre></noscript></div>
 <h4>Binary Alloys</h4>
 <ul>
 <li><strong>Definition:</strong> A binary alloy is composed of two elements, typically a metal and another metal or a metal and a non-metal.</li>
@@ -1569,12 +1569,12 @@
 <p>Polymers can be classified based on their source as natural or synthetic. Understanding the classification helps in identifying the properties and applications of different polymers and fibers.</p>
 <h4>Flowchart for Classification</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']
- A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']
- A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Sources] --&gt; B[Natural Polymers] --&gt; C['Examples: Cellulose, Chitin']
- A --&gt; D[Synthetic Polymers] --&gt; E['Examples: Polyethylene, Nylon']</pre></noscript></div>
+ A[Sources] --&gt; B[Natural Polymers] --&gt; C[&quot;Examples: Cellulose, Chitin&quot;]
+ A --&gt; D[Synthetic Polymers] --&gt; E[&quot;Examples:&lt;br/&gt;Polyethylene,&lt;br/&gt;Nylon&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Sources] --&gt; B[Natural Polymers] --&gt; C[&quot;Examples: Cellulose, Chitin&quot;]
+ A --&gt; D[Synthetic Polymers] --&gt; E[&quot;Examples:&lt;br/&gt;Polyethylene,&lt;br/&gt;Nylon&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Sources] --&gt; B[Natural Polymers] --&gt; C[&quot;Examples: Cellulose, Chitin&quot;]
+ A --&gt; D[Synthetic Polymers] --&gt; E[&quot;Examples:&lt;br/&gt;Polyethylene,&lt;br/&gt;Nylon&quot;]</pre></noscript></div>
 <h4>Detailed Classification</h4>
 <ul>
 <li><strong>Natural Polymers</strong>: These polymers occur in nature and are derived from biological sources.</li>
@@ -1686,17 +1686,17 @@
 <h4>Mermaid Diagram for Types of Rubber</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Natural Rubber] --&gt; B[Derived from latex]
- A --&gt; C[High elasticity and tensile strength]
+ A --&gt; C[&quot;High elasticity and&lt;br/&gt;tensile&lt;br/&gt;strength&quot;]
  B --&gt; D[Hevea brasiliensis tree]
- C --&gt; E['Chemical structure: Polyisoprene']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ C --&gt; E[&quot;Chemical&lt;br/&gt;structure:&lt;br/&gt;Polyisoprene&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Natural Rubber] --&gt; B[Derived from latex]
- A --&gt; C[High elasticity and tensile strength]
+ A --&gt; C[&quot;High elasticity and&lt;br/&gt;tensile&lt;br/&gt;strength&quot;]
  B --&gt; D[Hevea brasiliensis tree]
- C --&gt; E['Chemical structure: Polyisoprene']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ C --&gt; E[&quot;Chemical&lt;br/&gt;structure:&lt;br/&gt;Polyisoprene&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Natural Rubber] --&gt; B[Derived from latex]
- A --&gt; C[High elasticity and tensile strength]
+ A --&gt; C[&quot;High elasticity and&lt;br/&gt;tensile&lt;br/&gt;strength&quot;]
  B --&gt; D[Hevea brasiliensis tree]
- C --&gt; E['Chemical structure: Polyisoprene']</pre></noscript></div>
+ C --&gt; E[&quot;Chemical&lt;br/&gt;structure:&lt;br/&gt;Polyisoprene&quot;]</pre></noscript></div>
 <h3 id="u4-sec-vulcanization-of-rubber">Vulcanization of Rubber</h3>
 <h4>Introduction to Vulcanization</h4>
 <p><strong>Vulcanization</strong> is a process used to improve the properties of rubber by heating it in the presence of sulfur. This process crosslinks the polymer chains, enhancing the strength, elasticity, and durability of the rubber.</p>
@@ -1705,13 +1705,13 @@
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />The reaction for vulcanization can be represented as:<br /><br />R - S - R + R' - S - R' → R - S - S - R'</div>
 <h4>Mermaid Diagram for Vulcanization Mechanism</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Vulcanization] --&gt; B[Heating in the presence of sulfur]
+ A[Vulcanization] --&gt; B[&quot;Heating in the presence&lt;br/&gt;of&lt;br/&gt;sulfur&quot;]
  B --&gt; C[Crosslinking of polymer chains]
  C --&gt; D[Enhanced mechanical properties]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Vulcanization] --&gt; B[Heating in the presence of sulfur]
+ A[Vulcanization] --&gt; B[&quot;Heating in the presence&lt;br/&gt;of&lt;br/&gt;sulfur&quot;]
  B --&gt; C[Crosslinking of polymer chains]
  C --&gt; D[Enhanced mechanical properties]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Vulcanization] --&gt; B[Heating in the presence of sulfur]
+ A[Vulcanization] --&gt; B[&quot;Heating in the presence&lt;br/&gt;of&lt;br/&gt;sulfur&quot;]
  B --&gt; C[Crosslinking of polymer chains]
  C --&gt; D[Enhanced mechanical properties]</pre></noscript></div>
 <h4>Practical Application of Vulcanization</h4>
@@ -1948,15 +1948,15 @@
  A[Polymerization] --&gt; B[Extraction of Cellulose]
  B --&gt; C[Acetylation]
  C --&gt; D[Spinning]
- D --&gt; E['Final Product: Cellulose Acetate Fiber']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ D --&gt; E[&quot;Final Product:&lt;br/&gt;Cellulose&lt;br/&gt;Acetate Fiber&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Polymerization] --&gt; B[Extraction of Cellulose]
  B --&gt; C[Acetylation]
  C --&gt; D[Spinning]
- D --&gt; E['Final Product: Cellulose Acetate Fiber']</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ D --&gt; E[&quot;Final Product:&lt;br/&gt;Cellulose&lt;br/&gt;Acetate Fiber&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Polymerization] --&gt; B[Extraction of Cellulose]
  B --&gt; C[Acetylation]
  C --&gt; D[Spinning]
- D --&gt; E['Final Product: Cellulose Acetate Fiber']</pre></noscript></div>
+ D --&gt; E[&quot;Final Product:&lt;br/&gt;Cellulose&lt;br/&gt;Acetate Fiber&quot;]</pre></noscript></div>
 <p>This flowchart illustrates the process of producing cellulose acetate fiber from cellulose to its final product.</p>
 <hr />
 <h3 id="u4-sec-viscose-rayon">Viscose Rayon</h3>
@@ -2563,15 +2563,15 @@
 <p>]</p>
 <p>Thus, the power plant would need approximately 6,578,947 cubic meters of natural gas per month to match the energy content of 10,000 tons of coal.</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Energy Content] --&gt; B[Coal] --&gt; C['250,000 GJ']
- A --&gt; D[Natural Gas] --&gt; E['250,000,000 MJ']
- F[Volume of Natural Gas] --&gt; G['6,578,947 m^3']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Energy Content] --&gt; B[Coal] --&gt; C['250,000 GJ']
- A --&gt; D[Natural Gas] --&gt; E['250,000,000 MJ']
- F[Volume of Natural Gas] --&gt; G['6,578,947 m^3']</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Energy Content] --&gt; B[Coal] --&gt; C['250,000 GJ']
- A --&gt; D[Natural Gas] --&gt; E['250,000,000 MJ']
- F[Volume of Natural Gas] --&gt; G['6,578,947 m^3']</pre></noscript></div>
+ A[Energy Content] --&gt; B[Coal] --&gt; C[&quot;250,000 GJ&quot;]
+ A --&gt; D[Natural Gas] --&gt; E[&quot;250,000,000 MJ&quot;]
+ F[Volume of Natural Gas] --&gt; G[&quot;6,578,947 m^3&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[Energy Content] --&gt; B[Coal] --&gt; C[&quot;250,000 GJ&quot;]
+ A --&gt; D[Natural Gas] --&gt; E[&quot;250,000,000 MJ&quot;]
+ F[Volume of Natural Gas] --&gt; G[&quot;6,578,947 m^3&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[Energy Content] --&gt; B[Coal] --&gt; C[&quot;250,000 GJ&quot;]
+ A --&gt; D[Natural Gas] --&gt; E[&quot;250,000,000 MJ&quot;]
+ F[Volume of Natural Gas] --&gt; G[&quot;6,578,947 m^3&quot;]</pre></noscript></div>
 <hr />
 <h3 id="u6-sec-calorific-value">Calorific Value</h3>
 
@@ -2590,16 +2590,16 @@
 </ol>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Calculate the lower heating value of a fuel with a heat of combustion of 45,000 kJ/kg.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['Heat of Combustion (Hc)'] --&gt; B['Subtract Latent Heat of Vaporization (LHV)']
+ A[&quot;Heat of Combustion (Hc)&quot;] --&gt; B[&quot;Subtract Latent Heat&lt;br/&gt;of&lt;br/&gt;Vaporization (LHV)&quot;]
  B --&gt; C[LHV = Hc - LHV]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['Heat of Combustion (Hc)'] --&gt; B['Subtract Latent Heat of Vaporization (LHV)']
+ A[&quot;Heat of Combustion (Hc)&quot;] --&gt; B[&quot;Subtract Latent Heat&lt;br/&gt;of&lt;br/&gt;Vaporization (LHV)&quot;]
  B --&gt; C[LHV = Hc - LHV]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['Heat of Combustion (Hc)'] --&gt; B['Subtract Latent Heat of Vaporization (LHV)']
+ A[&quot;Heat of Combustion (Hc)&quot;] --&gt; B[&quot;Subtract Latent Heat&lt;br/&gt;of&lt;br/&gt;Vaporization (LHV)&quot;]
  B --&gt; C[LHV = Hc - LHV]</pre></noscript></div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A['45,000 kJ/kg'] --&gt; B['Subtract 2,260 kJ/kg(LHV of H2O)'] --&gt; C['LHV = 42,740 kJ/kg']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A['45,000 kJ/kg'] --&gt; B['Subtract 2,260 kJ/kg(LHV of H2O)'] --&gt; C['LHV = 42,740 kJ/kg']</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A['45,000 kJ/kg'] --&gt; B['Subtract 2,260 kJ/kg(LHV of H2O)'] --&gt; C['LHV = 42,740 kJ/kg']</pre></noscript></div>
+ A[&quot;45,000 kJ/kg&quot;] --&gt; B[&quot;Subtract 2,260 kJ/kg(LHV&lt;br/&gt;of&lt;br/&gt;H2O)&quot;] --&gt; C[&quot;LHV = 42,740 kJ/kg&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[&quot;45,000 kJ/kg&quot;] --&gt; B[&quot;Subtract 2,260 kJ/kg(LHV&lt;br/&gt;of&lt;br/&gt;H2O)&quot;] --&gt; C[&quot;LHV = 42,740 kJ/kg&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[&quot;45,000 kJ/kg&quot;] --&gt; B[&quot;Subtract 2,260 kJ/kg(LHV&lt;br/&gt;of&lt;br/&gt;H2O)&quot;] --&gt; C[&quot;LHV = 42,740 kJ/kg&quot;]</pre></noscript></div>
 <h4>Practical Application</h4>
 <p>Calorific value is crucial in the design of combustion systems, such as boilers and engines, where the energy output needs to be optimized. For instance, in a steam power plant, the higher heating value of the fuel is used to determine the amount of steam produced and the subsequent energy output.</p>
 <h3 id="u6-sec-characteristics-of-good-fuel">Characteristics of Good Fuel</h3>
@@ -2629,35 +2629,35 @@
 </ul>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Evaluate the suitability of the fuel based on its characteristics.</div>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Calorific Value] --&gt; B['High (40,000 kJ/kg)']
+ A[Calorific Value] --&gt; B[&quot;High (40,000 kJ/kg)&quot;]
  B --&gt; C[Good for energy efficiency]
- A --&gt; D[Density] --&gt; E['800 kg/m³']
+ A --&gt; D[Density] --&gt; E[&quot;800 kg/m³&quot;]
  E --&gt; F[Easy storage and transport]
  A --&gt; G[Ignition Temperature] --&gt; H[300°C]
  H --&gt; I[Good ignition properties]
- A --&gt; J[Ash Content] --&gt; K['0.5%']
+ A --&gt; J[Ash Content] --&gt; K[&quot;0.5%&quot;]
  K --&gt; L[Minimizes maintenance]
- A --&gt; M[Emissions] --&gt; N['CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh']
+ A --&gt; M[Emissions] --&gt; N[&quot;CO2 = 2.5 kg/kWh, NOx =&lt;br/&gt;0.1&lt;br/&gt;kg/kWh&quot;]
  N --&gt; O[Meets environmental standards]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Calorific Value] --&gt; B['High (40,000 kJ/kg)']
+ A[Calorific Value] --&gt; B[&quot;High (40,000 kJ/kg)&quot;]
  B --&gt; C[Good for energy efficiency]
- A --&gt; D[Density] --&gt; E['800 kg/m³']
+ A --&gt; D[Density] --&gt; E[&quot;800 kg/m³&quot;]
  E --&gt; F[Easy storage and transport]
  A --&gt; G[Ignition Temperature] --&gt; H[300°C]
  H --&gt; I[Good ignition properties]
- A --&gt; J[Ash Content] --&gt; K['0.5%']
+ A --&gt; J[Ash Content] --&gt; K[&quot;0.5%&quot;]
  K --&gt; L[Minimizes maintenance]
- A --&gt; M[Emissions] --&gt; N['CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh']
+ A --&gt; M[Emissions] --&gt; N[&quot;CO2 = 2.5 kg/kWh, NOx =&lt;br/&gt;0.1&lt;br/&gt;kg/kWh&quot;]
  N --&gt; O[Meets environmental standards]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Calorific Value] --&gt; B['High (40,000 kJ/kg)']
+ A[Calorific Value] --&gt; B[&quot;High (40,000 kJ/kg)&quot;]
  B --&gt; C[Good for energy efficiency]
- A --&gt; D[Density] --&gt; E['800 kg/m³']
+ A --&gt; D[Density] --&gt; E[&quot;800 kg/m³&quot;]
  E --&gt; F[Easy storage and transport]
  A --&gt; G[Ignition Temperature] --&gt; H[300°C]
  H --&gt; I[Good ignition properties]
- A --&gt; J[Ash Content] --&gt; K['0.5%']
+ A --&gt; J[Ash Content] --&gt; K[&quot;0.5%&quot;]
  K --&gt; L[Minimizes maintenance]
- A --&gt; M[Emissions] --&gt; N['CO2 = 2.5 kg/kWh, NOx = 0.1 kg/kWh']
+ A --&gt; M[Emissions] --&gt; N[&quot;CO2 = 2.5 kg/kWh, NOx =&lt;br/&gt;0.1&lt;br/&gt;kg/kWh&quot;]
  N --&gt; O[Meets environmental standards]</pre></noscript></div>
 <h4>Conclusion</h4>
 <p>The characteristics of good fuel are essential for efficient and clean combustion. By considering factors such as calorific value, density, combustion properties, and emissions, we can select fuels that meet the requirements of various applications.</p>
@@ -2774,38 +2774,38 @@
 </ul>
 <h4>Flowchart of Octane and Cetane Number Calculation</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C['Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)']
- A --&gt; D[Higher octane number = Increased knock resistance]
+ A[Octane Number] --&gt; B[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;n-heptane&quot;] --&gt; C[&quot;Octane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;% of&lt;br/&gt;n-heptane)&quot;]
+ A --&gt; D[&quot;Higher octane number&lt;br/&gt;=&lt;br/&gt;Increased knock&lt;br/&gt;resistance&quot;]
  A --&gt; E[Engine durability improvement]
  A --&gt; F[Combustion quality improvement]
  A --&gt; G[Reduced emissions]
  A --&gt; H[Improved fuel efficiency]
- I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K['Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)']
- I --&gt; L[Higher cetane number = Improved combustion]
+ I[Cetane Number] --&gt; J[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;alpha-methylnaphthalene&quot;] --&gt; K[&quot;Cetane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;%&lt;br/&gt;of&lt;br/&gt;alpha-methylnaphthalene)&quot;]
+ I --&gt; L[&quot;Higher cetane number&lt;br/&gt;=&lt;br/&gt;Improved combustion&quot;]
  I --&gt; M[Reduced engine knocking]
  I --&gt; N[Better engine performance]
  I --&gt; O[Reduced emissions]
  I --&gt; P[Improved fuel efficiency]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C['Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)']
- A --&gt; D[Higher octane number = Increased knock resistance]
+ A[Octane Number] --&gt; B[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;n-heptane&quot;] --&gt; C[&quot;Octane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;% of&lt;br/&gt;n-heptane)&quot;]
+ A --&gt; D[&quot;Higher octane number&lt;br/&gt;=&lt;br/&gt;Increased knock&lt;br/&gt;resistance&quot;]
  A --&gt; E[Engine durability improvement]
  A --&gt; F[Combustion quality improvement]
  A --&gt; G[Reduced emissions]
  A --&gt; H[Improved fuel efficiency]
- I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K['Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)']
- I --&gt; L[Higher cetane number = Improved combustion]
+ I[Cetane Number] --&gt; J[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;alpha-methylnaphthalene&quot;] --&gt; K[&quot;Cetane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;%&lt;br/&gt;of&lt;br/&gt;alpha-methylnaphthalene)&quot;]
+ I --&gt; L[&quot;Higher cetane number&lt;br/&gt;=&lt;br/&gt;Improved combustion&quot;]
  I --&gt; M[Reduced engine knocking]
  I --&gt; N[Better engine performance]
  I --&gt; O[Reduced emissions]
  I --&gt; P[Improved fuel efficiency]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Octane Number] --&gt; B[Compare with iso-octane and n-heptane] --&gt; C['Octane Number = (Volume % of iso-octane) + (Volume % of n-heptane)']
- A --&gt; D[Higher octane number = Increased knock resistance]
+ A[Octane Number] --&gt; B[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;n-heptane&quot;] --&gt; C[&quot;Octane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;% of&lt;br/&gt;n-heptane)&quot;]
+ A --&gt; D[&quot;Higher octane number&lt;br/&gt;=&lt;br/&gt;Increased knock&lt;br/&gt;resistance&quot;]
  A --&gt; E[Engine durability improvement]
  A --&gt; F[Combustion quality improvement]
  A --&gt; G[Reduced emissions]
  A --&gt; H[Improved fuel efficiency]
- I[Cetane Number] --&gt; J[Compare with iso-octane and alpha-methylnaphthalene] --&gt; K['Cetane Number = (Volume % of iso-octane) + (Volume % of alpha-methylnaphthalene)']
- I --&gt; L[Higher cetane number = Improved combustion]
+ I[Cetane Number] --&gt; J[&quot;Compare with iso-octane&lt;br/&gt;and&lt;br/&gt;alpha-methylnaphthalene&quot;] --&gt; K[&quot;Cetane Number = (Volume %&lt;br/&gt;of&lt;br/&gt;iso-octane) + (Volume&lt;br/&gt;%&lt;br/&gt;of&lt;br/&gt;alpha-methylnaphthalene)&quot;]
+ I --&gt; L[&quot;Higher cetane number&lt;br/&gt;=&lt;br/&gt;Improved combustion&quot;]
  I --&gt; M[Reduced engine knocking]
  I --&gt; N[Better engine performance]
  I --&gt; O[Reduced emissions]
@@ -2843,36 +2843,36 @@
 </ul>
 <h4>Flowchart of Unleaded Petrol and Diesel Properties</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Unleaded Petrol] --&gt; B['Chemical Composition: Alkanes and aromatics'] --&gt; C['Octane Number: 90-95'] --&gt; D['Environmental Impact: Reduced lead emissions, still hydrocarbons']
- A --&gt; E['Use in: Spark-ignition engines']
- A --&gt; F['Environmental Impact: Lower emissions compared to leaded petrol']
- A --&gt; G['Energy Content: Lower than diesel']
- A --&gt; H['Volatility: Lower than diesel']
- I[Diesel] --&gt; J['Chemical Composition: Longer hydrocarbon chains'] --&gt; K['Cetane Number: 40-50'] --&gt; L['Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions']
- I --&gt; M['Use in: Compression-ignition engines']
- I --&gt; N['Energy Content: Higher than unleaded petrol']
- I --&gt; O['Volatility: Higher than unleaded petrol']
- I --&gt; P['Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Unleaded Petrol] --&gt; B['Chemical Composition: Alkanes and aromatics'] --&gt; C['Octane Number: 90-95'] --&gt; D['Environmental Impact: Reduced lead emissions, still hydrocarbons']
- A --&gt; E['Use in: Spark-ignition engines']
- A --&gt; F['Environmental Impact: Lower emissions compared to leaded petrol']
- A --&gt; G['Energy Content: Lower than diesel']
- A --&gt; H['Volatility: Lower than diesel']
- I[Diesel] --&gt; J['Chemical Composition: Longer hydrocarbon chains'] --&gt; K['Cetane Number: 40-50'] --&gt; L['Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions']
- I --&gt; M['Use in: Compression-ignition engines']
- I --&gt; N['Energy Content: Higher than unleaded petrol']
- I --&gt; O['Volatility: Higher than unleaded petrol']
- I --&gt; P['Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Unleaded Petrol] --&gt; B['Chemical Composition: Alkanes and aromatics'] --&gt; C['Octane Number: 90-95'] --&gt; D['Environmental Impact: Reduced lead emissions, still hydrocarbons']
- A --&gt; E['Use in: Spark-ignition engines']
- A --&gt; F['Environmental Impact: Lower emissions compared to leaded petrol']
- A --&gt; G['Energy Content: Lower than diesel']
- A --&gt; H['Volatility: Lower than diesel']
- I[Diesel] --&gt; J['Chemical Composition: Longer hydrocarbon chains'] --&gt; K['Cetane Number: 40-50'] --&gt; L['Environmental Impact: Higher efficiency, lower CO2, higher particulate matter, NOx emissions']
- I --&gt; M['Use in: Compression-ignition engines']
- I --&gt; N['Energy Content: Higher than unleaded petrol']
- I --&gt; O['Volatility: Higher than unleaded petrol']
- I --&gt; P['Environmental Impact: Lower emissions compared to petrol in terms of CO2, higher in terms of particulate matter and NOx']</pre></noscript></div>
+ A[Unleaded Petrol] --&gt; B[&quot;Chemical&lt;br/&gt;Composition:&lt;br/&gt;Alkanes and&lt;br/&gt;aromatics&quot;] --&gt; C[&quot;Octane Number: 90-95&quot;] --&gt; D[&quot;Environmental&lt;br/&gt;Impact:&lt;br/&gt;Reduced lead&lt;br/&gt;emissions,&lt;br/&gt;still&lt;br/&gt;hydrocarbons&quot;]
+ A --&gt; E[&quot;Use in:&lt;br/&gt;Spark-ignition&lt;br/&gt;engines&quot;]
+ A --&gt; F[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to leaded&lt;br/&gt;petrol&quot;]
+ A --&gt; G[&quot;Energy Content: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ A --&gt; H[&quot;Volatility: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ I[Diesel] --&gt; J[&quot;Chemical Composition:&lt;br/&gt;Longer&lt;br/&gt;hydrocarbon&lt;br/&gt;chains&quot;] --&gt; K[&quot;Cetane Number: 40-50&quot;] --&gt; L[&quot;Environmental Impact:&lt;br/&gt;Higher&lt;br/&gt;efficiency, lower&lt;br/&gt;CO2,&lt;br/&gt;higher particulate&lt;br/&gt;matter,&lt;br/&gt;NOx emissions&quot;]
+ I --&gt; M[&quot;Use in:&lt;br/&gt;Compression-ignition&lt;br/&gt;engines&quot;]
+ I --&gt; N[&quot;Energy Content: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; O[&quot;Volatility: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; P[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to petrol&lt;br/&gt;in terms of&lt;br/&gt;CO2, higher in&lt;br/&gt;terms of&lt;br/&gt;particulate matter&lt;br/&gt;and&lt;br/&gt;NOx&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Unleaded Petrol] --&gt; B[&quot;Chemical&lt;br/&gt;Composition:&lt;br/&gt;Alkanes and&lt;br/&gt;aromatics&quot;] --&gt; C[&quot;Octane Number: 90-95&quot;] --&gt; D[&quot;Environmental&lt;br/&gt;Impact:&lt;br/&gt;Reduced lead&lt;br/&gt;emissions,&lt;br/&gt;still&lt;br/&gt;hydrocarbons&quot;]
+ A --&gt; E[&quot;Use in:&lt;br/&gt;Spark-ignition&lt;br/&gt;engines&quot;]
+ A --&gt; F[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to leaded&lt;br/&gt;petrol&quot;]
+ A --&gt; G[&quot;Energy Content: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ A --&gt; H[&quot;Volatility: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ I[Diesel] --&gt; J[&quot;Chemical Composition:&lt;br/&gt;Longer&lt;br/&gt;hydrocarbon&lt;br/&gt;chains&quot;] --&gt; K[&quot;Cetane Number: 40-50&quot;] --&gt; L[&quot;Environmental Impact:&lt;br/&gt;Higher&lt;br/&gt;efficiency, lower&lt;br/&gt;CO2,&lt;br/&gt;higher particulate&lt;br/&gt;matter,&lt;br/&gt;NOx emissions&quot;]
+ I --&gt; M[&quot;Use in:&lt;br/&gt;Compression-ignition&lt;br/&gt;engines&quot;]
+ I --&gt; N[&quot;Energy Content: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; O[&quot;Volatility: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; P[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to petrol&lt;br/&gt;in terms of&lt;br/&gt;CO2, higher in&lt;br/&gt;terms of&lt;br/&gt;particulate matter&lt;br/&gt;and&lt;br/&gt;NOx&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Unleaded Petrol] --&gt; B[&quot;Chemical&lt;br/&gt;Composition:&lt;br/&gt;Alkanes and&lt;br/&gt;aromatics&quot;] --&gt; C[&quot;Octane Number: 90-95&quot;] --&gt; D[&quot;Environmental&lt;br/&gt;Impact:&lt;br/&gt;Reduced lead&lt;br/&gt;emissions,&lt;br/&gt;still&lt;br/&gt;hydrocarbons&quot;]
+ A --&gt; E[&quot;Use in:&lt;br/&gt;Spark-ignition&lt;br/&gt;engines&quot;]
+ A --&gt; F[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to leaded&lt;br/&gt;petrol&quot;]
+ A --&gt; G[&quot;Energy Content: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ A --&gt; H[&quot;Volatility: Lower&lt;br/&gt;than&lt;br/&gt;diesel&quot;]
+ I[Diesel] --&gt; J[&quot;Chemical Composition:&lt;br/&gt;Longer&lt;br/&gt;hydrocarbon&lt;br/&gt;chains&quot;] --&gt; K[&quot;Cetane Number: 40-50&quot;] --&gt; L[&quot;Environmental Impact:&lt;br/&gt;Higher&lt;br/&gt;efficiency, lower&lt;br/&gt;CO2,&lt;br/&gt;higher particulate&lt;br/&gt;matter,&lt;br/&gt;NOx emissions&quot;]
+ I --&gt; M[&quot;Use in:&lt;br/&gt;Compression-ignition&lt;br/&gt;engines&quot;]
+ I --&gt; N[&quot;Energy Content: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; O[&quot;Volatility: Higher&lt;br/&gt;than&lt;br/&gt;unleaded petrol&quot;]
+ I --&gt; P[&quot;Environmental Impact:&lt;br/&gt;Lower&lt;br/&gt;emissions compared&lt;br/&gt;to petrol&lt;br/&gt;in terms of&lt;br/&gt;CO2, higher in&lt;br/&gt;terms of&lt;br/&gt;particulate matter&lt;br/&gt;and&lt;br/&gt;NOx&quot;]</pre></noscript></div>
 <h4>Summary</h4>
 <ul>
 <li><strong>Unleaded Petrol:</strong> Used in spark-ignition engines, with an octane number between 90 and 95, and lower environmental impact due to reduced lead emissions.</li>
@@ -3090,7 +3090,7 @@
  B1 --&gt; C
  B1 --&gt; D
  E[Monoclonal Antibodies] --&gt; F[Treatment of Lymphoma]
- E --&gt; G[Treatment of Rheumatoid Arthritis]
+ E --&gt; G[&quot;Treatment of&lt;br/&gt;Rheumatoid&lt;br/&gt;Arthritis&quot;]
  E --&gt; H[Treatment of Cancer]
  F1[Biopharmaceuticals] --&gt; F
  F1 --&gt; G
@@ -3102,7 +3102,7 @@
  B1 --&gt; C
  B1 --&gt; D
  E[Monoclonal Antibodies] --&gt; F[Treatment of Lymphoma]
- E --&gt; G[Treatment of Rheumatoid Arthritis]
+ E --&gt; G[&quot;Treatment of&lt;br/&gt;Rheumatoid&lt;br/&gt;Arthritis&quot;]
  E --&gt; H[Treatment of Cancer]
  F1[Biopharmaceuticals] --&gt; F
  F1 --&gt; G
@@ -3114,7 +3114,7 @@
  B1 --&gt; C
  B1 --&gt; D
  E[Monoclonal Antibodies] --&gt; F[Treatment of Lymphoma]
- E --&gt; G[Treatment of Rheumatoid Arthritis]
+ E --&gt; G[&quot;Treatment of&lt;br/&gt;Rheumatoid&lt;br/&gt;Arthritis&quot;]
  E --&gt; H[Treatment of Cancer]
  F1[Biopharmaceuticals] --&gt; F
  F1 --&gt; G
@@ -3265,19 +3265,19 @@
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Soil Analysis] --&gt; B[Select Bio Fertilizer]
  B --&gt; C[Prepare Inoculum]
- C --&gt; D['Apply to Seeds/Soil']
+ C --&gt; D[&quot;Apply to Seeds/Soil&quot;]
  D --&gt; E[Monitor Crop Growth]
  E --&gt; F[Harvest Crops]
  F --&gt; G[Repeat Cycle]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Soil Analysis] --&gt; B[Select Bio Fertilizer]
  B --&gt; C[Prepare Inoculum]
- C --&gt; D['Apply to Seeds/Soil']
+ C --&gt; D[&quot;Apply to Seeds/Soil&quot;]
  D --&gt; E[Monitor Crop Growth]
  E --&gt; F[Harvest Crops]
  F --&gt; G[Repeat Cycle]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Soil Analysis] --&gt; B[Select Bio Fertilizer]
  B --&gt; C[Prepare Inoculum]
- C --&gt; D['Apply to Seeds/Soil']
+ C --&gt; D[&quot;Apply to Seeds/Soil&quot;]
  D --&gt; E[Monitor Crop Growth]
  E --&gt; F[Harvest Crops]
  F --&gt; G[Repeat Cycle]</pre></noscript></div>
@@ -3443,9 +3443,9 @@
 <p>where  is the reduced Planck's constant, and ω is the angular frequency of the vibration.</p>
 <h4>Mermaid Diagram for Vibrational Transitions</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['Ground State (v=0)'] --&gt; B['First Excited State (v=1)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['Ground State (v=0)'] --&gt; B['First Excited State (v=1)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['Ground State (v=0)'] --&gt; B['First Excited State (v=1)']</pre></noscript></div>
+ A[&quot;Ground State (v=0)&quot;] --&gt; B[&quot;First Excited State (v=1)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;Ground State (v=0)&quot;] --&gt; B[&quot;First Excited State (v=1)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;Ground State (v=0)&quot;] --&gt; B[&quot;First Excited State (v=1)&quot;]</pre></noscript></div>
 <p>This diagram visually represents the allowed vibrational transition in a diatomic molecule, highlighting the change in vibrational quantum number.</p>
 <h4>Conclusion</h4>
 <p>Understanding the principles of spectroscopy and the selection rules is essential for interpreting and analyzing spectroscopic data. By applying these principles, students can accurately determine the molecular structure, composition, and properties of various substances.</p>
@@ -3478,17 +3478,17 @@
 </ul>
 <h4>Mermaid Diagram for UV-Visible Spectroscopy Process</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart LR
- A[Light Source] --&gt; B['Deuterium/Tungsten Lamp']
+ A[Light Source] --&gt; B[&quot;Deuterium/Tungsten Lamp&quot;]
  B --&gt; C[Monochromator]
  C --&gt; D[Sample Cell]
  D --&gt; E[Detector]
  E --&gt; F[Data Display]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
- A[Light Source] --&gt; B['Deuterium/Tungsten Lamp']
+ A[Light Source] --&gt; B[&quot;Deuterium/Tungsten Lamp&quot;]
  B --&gt; C[Monochromator]
  C --&gt; D[Sample Cell]
  D --&gt; E[Detector]
  E --&gt; F[Data Display]</pre></details><noscript><pre class="mermaid-src">flowchart LR
- A[Light Source] --&gt; B['Deuterium/Tungsten Lamp']
+ A[Light Source] --&gt; B[&quot;Deuterium/Tungsten Lamp&quot;]
  B --&gt; C[Monochromator]
  C --&gt; D[Sample Cell]
  D --&gt; E[Detector]
@@ -3721,13 +3721,23 @@
   }
   function init() {
     if (!window.mermaid) return;
-    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', flowchart: { curve: 'basis', htmlLabels: true } });
+    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', securityLevel: 'strict', flowchart: { curve: 'basis', htmlLabels: true, useMaxWidth: true, nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
     var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
     nodes.forEach(function (el) {
       if (el.dataset.kbRun) return;
       el.dataset.kbRun = '1';
       el.textContent = kbSanitizeMermaid(el.textContent);
-      mermaid.run({ nodes: [el] }).catch(function () {
+      mermaid.run({ nodes: [el] }).then(function () {
+        var svg = el.querySelector('svg');
+        if (!svg) return;
+        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        svg.setAttribute('width', '100%');
+        svg.removeAttribute('height');
+        svg.style.width = '100%';
+        svg.style.height = 'auto';
+        svg.style.maxWidth = '100%';
+        svg.style.overflow = 'visible';
+      }).catch(function () {
         el.classList.add('mermaid-failed');
         el.innerHTML = '<div style="padding:10px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>' + el.innerHTML;
       });

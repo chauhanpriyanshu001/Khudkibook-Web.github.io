@@ -106,10 +106,10 @@
   .kb-article .fig-callout{background:var(--bg-soft,#eef1fb);border:1.5px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;padding:14px 16px;margin:14px 0;color:var(--text-secondary,#475569);font-size:.92rem;display:flex;gap:10px;align-items:flex-start}
   .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
   .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
-  .kb-article .mermaid-wrap{margin:16px 0}
-  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-  .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
-  .kb-article .mermaid svg{max-width:100%;height:auto}
+  .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+  .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent,rgba(79,70,229,.35));border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+  .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+  .kb-article .mermaid svg foreignObject{overflow:visible}
   .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted,#64748b)}
   .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
   .kb-article hr{border:none;border-top:1px dashed var(--border,#e5e9f2);margin:24px 0}
@@ -153,7 +153,7 @@
     @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in · Applied Physics";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
   }
   </style>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Applied Physics – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":13273,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Applied Physics","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Applied Physics – Complete AI Self-Study Book","inLanguage":"en","numberOfPages":"1","wordCount":13204,"publisher":{"@type":"Organization","name":"KhudKibook"},"about":"Applied Physics","author":{"@type":"Organization","name":"KhudKibook AI "}}</script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
   <script>
@@ -204,7 +204,7 @@
       <p class="kb-lead">A clear, exam-oriented self-study book for GTU students. Every chapter is arranged from the official syllabus into simple explanations, worked examples, diagrams, revision points and exam-style questions.</p>
       <div class="kb-front-grid">
         <div><strong>4</strong><span>syllabus units</span></div>
-        <div><strong>13,273</strong><span>study words</span></div>
+        <div><strong>13,204</strong><span>study words</span></div>
         <div><strong>27</strong><span>print pages approx.</span></div>
       </div>
       <h2>How to use this book</h2>
@@ -230,7 +230,7 @@
         <button class="kb-tb-btn kb-desktop-toc-toggle" id="kb-toc-open" type="button"><i class="fas fa-list"></i> Chapters</button>
         <button class="kb-tb-btn" id="kb-reader-toggle" type="button"><i class="fas fa-book-open"></i> Page view</button>
         <span class="kb-tb-stat"><i class="fas fa-clock"></i> ~63 min read</span>
-        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 13,273 words</span>
+        <span class="kb-tb-stat"><i class="fas fa-file-lines"></i> 13,204 words</span>
       </div>
       <div class="kb-tb-group">
         <a class="kb-print-btn" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
@@ -352,36 +352,36 @@
 </ol>
 <h4>Mermaid Diagram for Units and Systems</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[SI Units] --&gt; B['Length: Meter']
- A --&gt; C['Mass: Kilogram']
- A --&gt; D['Time: Second']
- A --&gt; E['Electric Current: Ampere']
- A --&gt; F['Thermodynamic Temperature: Kelvin']
- A --&gt; G['Amount of Substance: Mole']
- A --&gt; H['Luminous Intensity: Candela']
+ A[SI Units] --&gt; B[&quot;Length: Meter&quot;]
+ A --&gt; C[&quot;Mass: Kilogram&quot;]
+ A --&gt; D[&quot;Time: Second&quot;]
+ A --&gt; E[&quot;Electric Current: Ampere&quot;]
+ A --&gt; F[&quot;Thermodynamic&lt;br/&gt;Temperature:&lt;br/&gt;Kelvin&quot;]
+ A --&gt; G[&quot;Amount of Substance: Mole&quot;]
+ A --&gt; H[&quot;Luminous Intensity: Candela&quot;]
  B --&gt; I[Derived Units]
- I --&gt; J['Force: Newton']
- I --&gt; K['Pressure: Pascal']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[SI Units] --&gt; B['Length: Meter']
- A --&gt; C['Mass: Kilogram']
- A --&gt; D['Time: Second']
- A --&gt; E['Electric Current: Ampere']
- A --&gt; F['Thermodynamic Temperature: Kelvin']
- A --&gt; G['Amount of Substance: Mole']
- A --&gt; H['Luminous Intensity: Candela']
+ I --&gt; J[&quot;Force: Newton&quot;]
+ I --&gt; K[&quot;Pressure: Pascal&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[SI Units] --&gt; B[&quot;Length: Meter&quot;]
+ A --&gt; C[&quot;Mass: Kilogram&quot;]
+ A --&gt; D[&quot;Time: Second&quot;]
+ A --&gt; E[&quot;Electric Current: Ampere&quot;]
+ A --&gt; F[&quot;Thermodynamic&lt;br/&gt;Temperature:&lt;br/&gt;Kelvin&quot;]
+ A --&gt; G[&quot;Amount of Substance: Mole&quot;]
+ A --&gt; H[&quot;Luminous Intensity: Candela&quot;]
  B --&gt; I[Derived Units]
- I --&gt; J['Force: Newton']
- I --&gt; K['Pressure: Pascal']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[SI Units] --&gt; B['Length: Meter']
- A --&gt; C['Mass: Kilogram']
- A --&gt; D['Time: Second']
- A --&gt; E['Electric Current: Ampere']
- A --&gt; F['Thermodynamic Temperature: Kelvin']
- A --&gt; G['Amount of Substance: Mole']
- A --&gt; H['Luminous Intensity: Candela']
+ I --&gt; J[&quot;Force: Newton&quot;]
+ I --&gt; K[&quot;Pressure: Pascal&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[SI Units] --&gt; B[&quot;Length: Meter&quot;]
+ A --&gt; C[&quot;Mass: Kilogram&quot;]
+ A --&gt; D[&quot;Time: Second&quot;]
+ A --&gt; E[&quot;Electric Current: Ampere&quot;]
+ A --&gt; F[&quot;Thermodynamic&lt;br/&gt;Temperature:&lt;br/&gt;Kelvin&quot;]
+ A --&gt; G[&quot;Amount of Substance: Mole&quot;]
+ A --&gt; H[&quot;Luminous Intensity: Candela&quot;]
  B --&gt; I[Derived Units]
- I --&gt; J['Force: Newton']
- I --&gt; K['Pressure: Pascal']</pre></noscript></div>
+ I --&gt; J[&quot;Force: Newton&quot;]
+ I --&gt; K[&quot;Pressure: Pascal&quot;]</pre></noscript></div>
 <p>This diagram illustrates the base units of the SI system and their derived units.</p>
 <h4>Summary</h4>
 <p>Understanding and correctly using units is fundamental in engineering and science. The International System of Units (SI) provides a standardized framework for measurements, ensuring consistency and accuracy. Converting between different systems of units, such as meters to feet, is a critical skill in interdisciplinary work.</p>
@@ -726,45 +726,45 @@
 <p>The banking angle θ is determined by the balance of forces in the vertical and horizontal directions.</p>
 <h4>Mermaid Diagram</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A['Centripetal Force (F_c)'] --&gt; B['Normal Reaction (N)']
- A --&gt; C['Gravitational Force (mg)']
- B --&gt; D['Frictional Force (f)']
- A --&gt; E['Centrifugal Force (F_c)']
- C --&gt; F['Vertical Component (Ncosθ)']
- C --&gt; G['Horizontal Component (Nsinθ)']
+ A[&quot;Centripetal Force (F_c)&quot;] --&gt; B[&quot;Normal Reaction (N)&quot;]
+ A --&gt; C[&quot;Gravitational Force (mg)&quot;]
+ B --&gt; D[&quot;Frictional Force (f)&quot;]
+ A --&gt; E[&quot;Centrifugal Force (F_c)&quot;]
+ C --&gt; F[&quot;Vertical Component (Ncosθ)&quot;]
+ C --&gt; G[&quot;Horizontal Component (Nsinθ)&quot;]
  N --&gt; F
  N --&gt; G
- N --&gt; H['Normal Reaction (N)']
- mg --&gt; I['Vertical Component (mg)']
- mg --&gt; J['Horizontal Component (mg)']
- I --&gt; K['Vertical Component (mg)']
- J --&gt; L['Horizontal Component (F_c)']</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A['Centripetal Force (F_c)'] --&gt; B['Normal Reaction (N)']
- A --&gt; C['Gravitational Force (mg)']
- B --&gt; D['Frictional Force (f)']
- A --&gt; E['Centrifugal Force (F_c)']
- C --&gt; F['Vertical Component (Ncosθ)']
- C --&gt; G['Horizontal Component (Nsinθ)']
+ N --&gt; H[&quot;Normal Reaction (N)&quot;]
+ mg --&gt; I[&quot;Vertical Component (mg)&quot;]
+ mg --&gt; J[&quot;Horizontal Component (mg)&quot;]
+ I --&gt; K[&quot;Vertical Component (mg)&quot;]
+ J --&gt; L[&quot;Horizontal Component (F_c)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;Centripetal Force (F_c)&quot;] --&gt; B[&quot;Normal Reaction (N)&quot;]
+ A --&gt; C[&quot;Gravitational Force (mg)&quot;]
+ B --&gt; D[&quot;Frictional Force (f)&quot;]
+ A --&gt; E[&quot;Centrifugal Force (F_c)&quot;]
+ C --&gt; F[&quot;Vertical Component (Ncosθ)&quot;]
+ C --&gt; G[&quot;Horizontal Component (Nsinθ)&quot;]
  N --&gt; F
  N --&gt; G
- N --&gt; H['Normal Reaction (N)']
- mg --&gt; I['Vertical Component (mg)']
- mg --&gt; J['Horizontal Component (mg)']
- I --&gt; K['Vertical Component (mg)']
- J --&gt; L['Horizontal Component (F_c)']</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A['Centripetal Force (F_c)'] --&gt; B['Normal Reaction (N)']
- A --&gt; C['Gravitational Force (mg)']
- B --&gt; D['Frictional Force (f)']
- A --&gt; E['Centrifugal Force (F_c)']
- C --&gt; F['Vertical Component (Ncosθ)']
- C --&gt; G['Horizontal Component (Nsinθ)']
+ N --&gt; H[&quot;Normal Reaction (N)&quot;]
+ mg --&gt; I[&quot;Vertical Component (mg)&quot;]
+ mg --&gt; J[&quot;Horizontal Component (mg)&quot;]
+ I --&gt; K[&quot;Vertical Component (mg)&quot;]
+ J --&gt; L[&quot;Horizontal Component (F_c)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;Centripetal Force (F_c)&quot;] --&gt; B[&quot;Normal Reaction (N)&quot;]
+ A --&gt; C[&quot;Gravitational Force (mg)&quot;]
+ B --&gt; D[&quot;Frictional Force (f)&quot;]
+ A --&gt; E[&quot;Centrifugal Force (F_c)&quot;]
+ C --&gt; F[&quot;Vertical Component (Ncosθ)&quot;]
+ C --&gt; G[&quot;Horizontal Component (Nsinθ)&quot;]
  N --&gt; F
  N --&gt; G
- N --&gt; H['Normal Reaction (N)']
- mg --&gt; I['Vertical Component (mg)']
- mg --&gt; J['Horizontal Component (mg)']
- I --&gt; K['Vertical Component (mg)']
- J --&gt; L['Horizontal Component (F_c)']</pre></noscript></div>
+ N --&gt; H[&quot;Normal Reaction (N)&quot;]
+ mg --&gt; I[&quot;Vertical Component (mg)&quot;]
+ mg --&gt; J[&quot;Horizontal Component (mg)&quot;]
+ I --&gt; K[&quot;Vertical Component (mg)&quot;]
+ J --&gt; L[&quot;Horizontal Component (F_c)&quot;]</pre></noscript></div>
 <h4>Banking of Roads Example</h4>
 <div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>A cyclist is moving on a curved road with a radius of 50 meters. If the cyclist is moving at a speed of 10 m/s, find the banking angle required to prevent skidding. Assume the coefficient of friction between the tire and the road is 0.2.</div>
 <ol>
@@ -1205,15 +1205,15 @@
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Definition of Surface Tension] --&gt; B[Cohesive Forces]
  B --&gt; C[Adhesive Forces]
- C --&gt; D[Liquid Surface as Elastic Membrane]
+ C --&gt; D[&quot;Liquid Surface as&lt;br/&gt;Elastic&lt;br/&gt;Membrane&quot;]
  D --&gt; E[Laplace’s Law]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Definition of Surface Tension] --&gt; B[Cohesive Forces]
  B --&gt; C[Adhesive Forces]
- C --&gt; D[Liquid Surface as Elastic Membrane]
+ C --&gt; D[&quot;Liquid Surface as&lt;br/&gt;Elastic&lt;br/&gt;Membrane&quot;]
  D --&gt; E[Laplace’s Law]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Definition of Surface Tension] --&gt; B[Cohesive Forces]
  B --&gt; C[Adhesive Forces]
- C --&gt; D[Liquid Surface as Elastic Membrane]
+ C --&gt; D[&quot;Liquid Surface as&lt;br/&gt;Elastic&lt;br/&gt;Membrane&quot;]
  D --&gt; E[Laplace’s Law]</pre></noscript></div>
 <h3 id="u3-sec-3-2-5-angle-of-contact-ascent-formula-no-derivation">3.2.5. Angle of Contact, Ascent Formula (No Derivation)</h3>
 <h4>Angle of Contact</h4>
@@ -1545,45 +1545,45 @@
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Conduction] --&gt; B[Metals]
  A --&gt; C[Insulators]
- A --&gt; D['Examples: Spoons, Copper Pots']
- A --&gt; E['Principle: Particle Collision']
+ A --&gt; D[&quot;Examples: Spoons,&lt;br/&gt;Copper&lt;br/&gt;Pots&quot;]
+ A --&gt; E[&quot;Principle:&lt;br/&gt;Particle&lt;br/&gt;Collision&quot;]
  A --&gt; F[Heat Conductors]
  A --&gt; G[Poor Insulators]
- A --&gt; H['Examples: Glass, Plastic']
- B --&gt; I['Principle: Movement of Fluids']
- B --&gt; J['Examples: Boiling Water, Warm Air']
+ A --&gt; H[&quot;Examples: Glass, Plastic&quot;]
+ B --&gt; I[&quot;Principle: Movement&lt;br/&gt;of&lt;br/&gt;Fluids&quot;]
+ B --&gt; J[&quot;Examples: Boiling&lt;br/&gt;Water,&lt;br/&gt;Warm Air&quot;]
  B --&gt; K[Convection]
- B --&gt; L['Principle: Circulation of Heated and Cooler Particles']
- B --&gt; M['Principle: Electromagnetic Waves']
- B --&gt; N['Examples: Sun, Light Bulbs']
+ B --&gt; L[&quot;Principle: Circulation&lt;br/&gt;of&lt;br/&gt;Heated and Cooler&lt;br/&gt;Particles&quot;]
+ B --&gt; M[&quot;Principle:&lt;br/&gt;Electromagnetic&lt;br/&gt;Waves&quot;]
+ B --&gt; N[&quot;Examples: Sun, Light Bulbs&quot;]
  B --&gt; O[Radiation]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Conduction] --&gt; B[Metals]
  A --&gt; C[Insulators]
- A --&gt; D['Examples: Spoons, Copper Pots']
- A --&gt; E['Principle: Particle Collision']
+ A --&gt; D[&quot;Examples: Spoons,&lt;br/&gt;Copper&lt;br/&gt;Pots&quot;]
+ A --&gt; E[&quot;Principle:&lt;br/&gt;Particle&lt;br/&gt;Collision&quot;]
  A --&gt; F[Heat Conductors]
  A --&gt; G[Poor Insulators]
- A --&gt; H['Examples: Glass, Plastic']
- B --&gt; I['Principle: Movement of Fluids']
- B --&gt; J['Examples: Boiling Water, Warm Air']
+ A --&gt; H[&quot;Examples: Glass, Plastic&quot;]
+ B --&gt; I[&quot;Principle: Movement&lt;br/&gt;of&lt;br/&gt;Fluids&quot;]
+ B --&gt; J[&quot;Examples: Boiling&lt;br/&gt;Water,&lt;br/&gt;Warm Air&quot;]
  B --&gt; K[Convection]
- B --&gt; L['Principle: Circulation of Heated and Cooler Particles']
- B --&gt; M['Principle: Electromagnetic Waves']
- B --&gt; N['Examples: Sun, Light Bulbs']
+ B --&gt; L[&quot;Principle: Circulation&lt;br/&gt;of&lt;br/&gt;Heated and Cooler&lt;br/&gt;Particles&quot;]
+ B --&gt; M[&quot;Principle:&lt;br/&gt;Electromagnetic&lt;br/&gt;Waves&quot;]
+ B --&gt; N[&quot;Examples: Sun, Light Bulbs&quot;]
  B --&gt; O[Radiation]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Conduction] --&gt; B[Metals]
  A --&gt; C[Insulators]
- A --&gt; D['Examples: Spoons, Copper Pots']
- A --&gt; E['Principle: Particle Collision']
+ A --&gt; D[&quot;Examples: Spoons,&lt;br/&gt;Copper&lt;br/&gt;Pots&quot;]
+ A --&gt; E[&quot;Principle:&lt;br/&gt;Particle&lt;br/&gt;Collision&quot;]
  A --&gt; F[Heat Conductors]
  A --&gt; G[Poor Insulators]
- A --&gt; H['Examples: Glass, Plastic']
- B --&gt; I['Principle: Movement of Fluids']
- B --&gt; J['Examples: Boiling Water, Warm Air']
+ A --&gt; H[&quot;Examples: Glass, Plastic&quot;]
+ B --&gt; I[&quot;Principle: Movement&lt;br/&gt;of&lt;br/&gt;Fluids&quot;]
+ B --&gt; J[&quot;Examples: Boiling&lt;br/&gt;Water,&lt;br/&gt;Warm Air&quot;]
  B --&gt; K[Convection]
- B --&gt; L['Principle: Circulation of Heated and Cooler Particles']
- B --&gt; M['Principle: Electromagnetic Waves']
- B --&gt; N['Examples: Sun, Light Bulbs']
+ B --&gt; L[&quot;Principle: Circulation&lt;br/&gt;of&lt;br/&gt;Heated and Cooler&lt;br/&gt;Particles&quot;]
+ B --&gt; M[&quot;Principle:&lt;br/&gt;Electromagnetic&lt;br/&gt;Waves&quot;]
+ B --&gt; N[&quot;Examples: Sun, Light Bulbs&quot;]
  B --&gt; O[Radiation]</pre></noscript></div>
 <h4>Summary</h4>
 <ul>
@@ -1780,20 +1780,20 @@
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
  A[Expansion of Solids] --&gt; B[Definition]
  B --&gt; C[Importance in Engineering]
- C --&gt; D[Definition of Coefficient of Linear Expansion]
- D --&gt; E[Factors Affecting Coefficient of Linear Expansion]
+ C --&gt; D[&quot;Definition of Coefficient&lt;br/&gt;of&lt;br/&gt;Linear Expansion&quot;]
+ D --&gt; E[&quot;Factors&lt;br/&gt;Affecting&lt;br/&gt;Coefficient of&lt;br/&gt;Linear&lt;br/&gt;Expansion&quot;]
  E --&gt; F[Measurement and Calculation]
  F --&gt; G[Practical Example]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
  A[Expansion of Solids] --&gt; B[Definition]
  B --&gt; C[Importance in Engineering]
- C --&gt; D[Definition of Coefficient of Linear Expansion]
- D --&gt; E[Factors Affecting Coefficient of Linear Expansion]
+ C --&gt; D[&quot;Definition of Coefficient&lt;br/&gt;of&lt;br/&gt;Linear Expansion&quot;]
+ D --&gt; E[&quot;Factors&lt;br/&gt;Affecting&lt;br/&gt;Coefficient of&lt;br/&gt;Linear&lt;br/&gt;Expansion&quot;]
  E --&gt; F[Measurement and Calculation]
  F --&gt; G[Practical Example]</pre></details><noscript><pre class="mermaid-src">flowchart TD
  A[Expansion of Solids] --&gt; B[Definition]
  B --&gt; C[Importance in Engineering]
- C --&gt; D[Definition of Coefficient of Linear Expansion]
- D --&gt; E[Factors Affecting Coefficient of Linear Expansion]
+ C --&gt; D[&quot;Definition of Coefficient&lt;br/&gt;of&lt;br/&gt;Linear Expansion&quot;]
+ D --&gt; E[&quot;Factors&lt;br/&gt;Affecting&lt;br/&gt;Coefficient of&lt;br/&gt;Linear&lt;br/&gt;Expansion&quot;]
  E --&gt; F[Measurement and Calculation]
  F --&gt; G[Practical Example]</pre></noscript></div>
 
@@ -1884,13 +1884,23 @@
   }
   function init() {
     if (!window.mermaid) return;
-    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', flowchart: { curve: 'basis', htmlLabels: true } });
+    mermaid.initialize({ startOnLoad: false, theme: 'neutral', fontFamily: 'inherit', securityLevel: 'strict', flowchart: { curve: 'basis', htmlLabels: true, useMaxWidth: true, nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
     var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
     nodes.forEach(function (el) {
       if (el.dataset.kbRun) return;
       el.dataset.kbRun = '1';
       el.textContent = kbSanitizeMermaid(el.textContent);
-      mermaid.run({ nodes: [el] }).catch(function () {
+      mermaid.run({ nodes: [el] }).then(function () {
+        var svg = el.querySelector('svg');
+        if (!svg) return;
+        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        svg.setAttribute('width', '100%');
+        svg.removeAttribute('height');
+        svg.style.width = '100%';
+        svg.style.height = 'auto';
+        svg.style.maxWidth = '100%';
+        svg.style.overflow = 'visible';
+      }).catch(function () {
         el.classList.add('mermaid-failed');
         el.innerHTML = '<div style="padding:10px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>' + el.innerHTML;
       });

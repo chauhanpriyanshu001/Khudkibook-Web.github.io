@@ -6,7 +6,7 @@
  "title": "Unit – PRINCIPLES OF DESIGN",
  "url": "/books/310004/unit-5.html",
  "guUrl": null,
- "words": 2463,
+ "words": 2462,
  "readingMin": 14,
  "marks": "",
  "sections": [
@@ -53,7 +53,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart LR\n A[Harmony] --&gt; B[Biocompatibility]\n A --&gt; C[Degradation Rate]\n A --&gt; D[Mechanical Compatibility]\n B --&gt; E[Stainless Steel]\n B --&gt; F[Titanium]\n B --&gt; G[Ceramics]\n C --&gt; H[Non-degradable]\n C --&gt; I[Degradable]\n D --&gt; J[Orthopedic Implants]\n D --&gt; K[Cardiovascular Implants]\n H --&gt; L[Stainless Steel]\n H --&gt; M[Titanium]\n I --&gt; N[PLA]\n I --&gt; O[PGA]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart LR\n A[Harmony] --&gt; B[Biocompatibility]\n A --&gt; C[Degradation Rate]\n A --&gt; D[Mechanical Compatibility]\n B --&gt; E[Stainless Steel]\n B --&gt; F[Titanium]\n B --&gt; G[Ceramics]\n C --&gt; H[Non-degradable]\n C --&gt; I[Degradable]\n D --&gt; J[Orthopedic Implants]\n D --&gt; K[Cardiovascular Implants]\n H --&gt; L[Stainless Steel]\n H --&gt; M[Titanium]\n I --&gt; N[PLA]\n I --&gt; O[PGA]</pre></details><noscript><pre class=\"mermaid-src\">flowchart LR\n A[Harmony] --&gt; B[Biocompatibility]\n A --&gt; C[Degradation Rate]\n A --&gt; D[Mechanical Compatibility]\n B --&gt; E[Stainless Steel]\n B --&gt; F[Titanium]\n B --&gt; G[Ceramics]\n C --&gt; H[Non-degradable]\n C --&gt; I[Degradable]\n D --&gt; J[Orthopedic Implants]\n D --&gt; K[Cardiovascular Implants]\n H --&gt; L[Stainless Steel]\n H --&gt; M[Titanium]\n I --&gt; N[PLA]\n I --&gt; O[PGA]</pre></noscript></div>\n<p>This diagram helps visualize the classification of biomaterials based on their key attributes related to harmony.</p>",
    "examples": [],
    "mermaid": [
-    "flowchart LR\n    A[Harmony] --> B[Biocompatibility]\n    A --> C[Degradation Rate]\n    A --> D[Mechanical Compatibility]\n    B --> E[Stainless Steel]\n    B --> F[Titanium]\n    B --> G[Ceramics]\n    C --> H[Non-degradable]\n    C --> I[Degradable]\n    D --> J[Orthopedic Implants]\n    D --> K[Cardiovascular Implants]\n    H --> L[Stainless Steel]\n    H --> M[Titanium]\n    I --> N[PLA]\n    I --> O[PGA]"
+    "flowchart LR\n A[Harmony] --> B[Biocompatibility]\n A --> C[Degradation Rate]\n A --> D[Mechanical Compatibility]\n B --> E[Stainless Steel]\n B --> F[Titanium]\n B --> G[Ceramics]\n C --> H[Non-degradable]\n C --> I[Degradable]\n D --> J[Orthopedic Implants]\n D --> K[Cardiovascular Implants]\n H --> L[Stainless Steel]\n H --> M[Titanium]\n I --> N[PLA]\n I --> O[PGA]"
    ]
   },
   {
@@ -94,14 +94,14 @@
   {
    "heading": "Example 1: Calculating Proportion",
    "id": "",
-   "html": "<p><strong>Problem:</strong> A dental implant has a length of 15 mm and a diameter of 3 mm. Calculate the linear proportion and the area proportion of the implant.</p>\n<p><strong>Solution:</strong></p>\n<ol>\n<li><strong>Linear Proportion:</strong></li>\n</ol>\n<ul>\n<li>Linear proportion = Length / Diameter</li>\n<li>Linear proportion = 15 mm / 3 mm = 5</li>\n</ul>\n<ol>\n<li><strong>Area Proportion:</strong></li>\n</ol>\n<ul>\n<li>Area of the implant (cylinder) = π * (Diameter/2)^2</li>\n<li>Area of the implant = π <em> (3 mm / 2)^2 = π </em> (1.5 mm)^2 = 2.25π mm²</li>\n<li>Area proportion = Cross-sectional area of the implant / Area of the root canal</li>\n<li>Assuming the area of the root canal is 1.5 mm² (for simplicity)</li>\n<li>Area proportion = 2.25π mm² / 1.5 mm² ≈ 4.71</li>\n</ul>",
+   "html": "<p><strong>Problem:</strong> A dental implant has a length of 15 mm and a diameter of 3 mm. Calculate the linear proportion and the area proportion of the implant.</p>\n<p><strong>Solution:</strong></p>\n<ol>\n<li><strong>Linear Proportion:</strong></li>\n</ol>\n<ul>\n<li>Linear proportion = Length / Diameter</li>\n<li>Linear proportion = 15 mm / 3 mm = 5</li>\n</ul>\n<ol>\n<li><strong>Area Proportion:</strong></li>\n</ol>\n<ul>\n<li>Area of the implant (cylinder) = π * (Diameter/2)²</li>\n<li>Area of the implant = π <em> (3 mm / 2)² = π </em> (1.5 mm)² = 2.25π mm²</li>\n<li>Area proportion = Cross-sectional area of the implant / Area of the root canal</li>\n<li>Assuming the area of the root canal is 1.5 mm² (for simplicity)</li>\n<li>Area proportion = 2.25π mm² / 1.5 mm² ≈ 4.71</li>\n</ul>",
    "examples": [],
    "mermaid": []
   },
   {
    "heading": "Example 2: Application of Proportion",
    "id": "",
-   "html": "<p><strong>Example:</strong> A bone plate is designed to fit a bone defect. The bone defect has a cross-sectional area of 20 cm². The bone plate is to be designed such that its cross-sectional area is 1.5 times the area of the bone defect.</p>\n<p><strong>Solution:</strong></p>\n<ol>\n<li><strong>Determine the required cross-sectional area of the bone plate:</strong></li>\n</ol>\n<ul>\n<li>Required area of the bone plate = 1.5 * Area of the bone defect</li>\n<li>Required area of the bone plate = 1.5 * 20 cm² = 30 cm²</li>\n</ul>\n<ol>\n<li><strong>Design the bone plate:</strong></li>\n</ol>\n<ul>\n<li>Let the diameter of the bone plate be \\(d\\).</li>\n<li>Cross-sectional area of the bone plate = π * (d/2)^2</li>\n<li>30 cm² = π * (d/2)^2</li>\n<li>(d/2)^2 = 30 cm² / π</li>\n<li>(d/2)^2 ≈ 9.55 cm²</li>\n<li>d/2 ≈ √9.55 cm = 3.09 cm</li>\n<li>d ≈ 2 * 3.09 cm = 6.18 cm</li>\n</ul>\n<p>Thus, the diameter of the bone plate should be approximately 6.18 cm to ensure it has a cross-sectional area 1.5 times that of the bone defect.</p>",
+   "html": "<p><strong>Example:</strong> A bone plate is designed to fit a bone defect. The bone defect has a cross-sectional area of 20 cm². The bone plate is to be designed such that its cross-sectional area is 1.5 times the area of the bone defect.</p>\n<p><strong>Solution:</strong></p>\n<ol>\n<li><strong>Determine the required cross-sectional area of the bone plate:</strong></li>\n</ol>\n<ul>\n<li>Required area of the bone plate = 1.5 * Area of the bone defect</li>\n<li>Required area of the bone plate = 1.5 * 20 cm² = 30 cm²</li>\n</ul>\n<ol>\n<li><strong>Design the bone plate:</strong></li>\n</ol>\n<ul>\n<li>Let the diameter of the bone plate be d.</li>\n<li>Cross-sectional area of the bone plate = π * (d/2)²</li>\n<li>30 cm² = π * (d/2)²</li>\n<li>(d/2)² = 30 cm² / π</li>\n<li>(d/2)² ≈ 9.55 cm²</li>\n<li>d/2 ≈ √9.55 cm = 3.09 cm</li>\n<li>d ≈ 2 * 3.09 cm = 6.18 cm</li>\n</ul>\n<p>Thus, the diameter of the bone plate should be approximately 6.18 cm to ensure it has a cross-sectional area 1.5 times that of the bone defect.</p>",
    "examples": [],
    "mermaid": []
   },
@@ -154,7 +154,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Identify Required Property] --&gt; B[Choose Emphasis Technique] --&gt; C[Apply Technique]\n B --&gt; D[Surface Modification]\n B --&gt; E[Incorporate Additives]\n C --&gt; F[Monitor Performance] --&gt; G[Adjust if Necessary]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Identify Required Property] --&gt; B[Choose Emphasis Technique] --&gt; C[Apply Technique]\n B --&gt; D[Surface Modification]\n B --&gt; E[Incorporate Additives]\n C --&gt; F[Monitor Performance] --&gt; G[Adjust if Necessary]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Identify Required Property] --&gt; B[Choose Emphasis Technique] --&gt; C[Apply Technique]\n B --&gt; D[Surface Modification]\n B --&gt; E[Incorporate Additives]\n C --&gt; F[Monitor Performance] --&gt; G[Adjust if Necessary]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Identify Required Property] --> B[Choose Emphasis Technique] --> C[Apply Technique]\n    B --> D[Surface Modification]\n    B --> E[Incorporate Additives]\n    C --> F[Monitor Performance] --> G[Adjust if Necessary]"
+    "flowchart TD\n A[Identify Required Property] --> B[Choose Emphasis Technique] --> C[Apply Technique]\n B --> D[Surface Modification]\n B --> E[Incorporate Additives]\n C --> F[Monitor Performance] --> G[Adjust if Necessary]"
    ]
   },
   {
@@ -204,7 +204,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Formal Balance] --&gt; B[Symmetrical elements]\n A --&gt; C[Harmonious and stable]\n B --&gt; D[Equal weight or value on either side]\n A --&gt; E[Informal Balance] --&gt; F[Asymmetrical elements]\n A --&gt; G[More natural and visually interesting]\n F --&gt; H[Elements of different weights or values]\n F --&gt; I[Sense of equilibrium]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Formal Balance] --&gt; B[Symmetrical elements]\n A --&gt; C[Harmonious and stable]\n B --&gt; D[Equal weight or value on either side]\n A --&gt; E[Informal Balance] --&gt; F[Asymmetrical elements]\n A --&gt; G[More natural and visually interesting]\n F --&gt; H[Elements of different weights or values]\n F --&gt; I[Sense of equilibrium]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Formal Balance] --&gt; B[Symmetrical elements]\n A --&gt; C[Harmonious and stable]\n B --&gt; D[Equal weight or value on either side]\n A --&gt; E[Informal Balance] --&gt; F[Asymmetrical elements]\n A --&gt; G[More natural and visually interesting]\n F --&gt; H[Elements of different weights or values]\n F --&gt; I[Sense of equilibrium]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Formal Balance] --> B[Symmetrical elements]\n    A --> C[Harmonious and stable]\n    B --> D[Equal weight or value on either side]\n    A --> E[Informal Balance] --> F[Asymmetrical elements]\n    A --> G[More natural and visually interesting]\n    F --> H[Elements of different weights or values]\n    F --> I[Sense of equilibrium]"
+    "flowchart TD\n A[Formal Balance] --> B[Symmetrical elements]\n A --> C[Harmonious and stable]\n B --> D[Equal weight or value on either side]\n A --> E[Informal Balance] --> F[Asymmetrical elements]\n A --> G[More natural and visually interesting]\n F --> H[Elements of different weights or values]\n F --> I[Sense of equilibrium]"
    ]
   },
   {

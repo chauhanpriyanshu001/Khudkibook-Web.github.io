@@ -1,0 +1,302 @@
+{
+ "code": "4300004",
+ "subject": "Applied Physics",
+ "unit": 1,
+ "lang": "en",
+ "title": "Unit – Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.",
+ "url": "/books/4300004/unit-1.html",
+ "guUrl": null,
+ "words": 2564,
+ "readingMin": 14,
+ "marks": "13 marks (4 Remember + 4 Understand + 5 Apply) (per syllabus)",
+ "sections": [
+  {
+   "heading": "Unit – I: Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code 4300004 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately <strong>13 marks (4 Remember + 4 Understand + 5 Apply) (per syllabus)</strong>.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Definition of Physical Quantities and Units",
+   "id": "",
+   "html": "<p>A <strong>physical quantity</strong> is a property that can be quantitatively described or measured. Physical quantities are the fundamental elements used in the science and engineering of measurement. <strong>Units</strong> are the standard quantities used to express the magnitude of a physical quantity.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Importance of Units in Engineering and Science",
+   "id": "",
+   "html": "<p>Consistent and accurate use of units is crucial in engineering and science for several reasons:</p>\n<ul>\n<li><strong>Standardization</strong>: Units provide a common language for scientists and engineers from different regions and backgrounds.</li>\n<li><strong>Consistency</strong>: Units ensure that measurements and calculations are consistent, allowing for reliable and reproducible results.</li>\n<li><strong>Precision and Accuracy</strong>: Units help in expressing the precision and accuracy of measurements.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "International System of Units (SI)",
+   "id": "",
+   "html": "<p>The <strong>International System of Units (SI)</strong> is the most widely used system of measurement in the world. It consists of seven base units:</p>\n<ul>\n<li><strong>Length</strong>: Meter (m)</li>\n<li><strong>Mass</strong>: Kilogram (kg)</li>\n<li><strong>Time</strong>: Second (s)</li>\n<li><strong>Electric Current</strong>: Ampere (A)</li>\n<li><strong>Thermodynamic Temperature</strong>: Kelvin (K)</li>\n<li><strong>Amount of Substance</strong>: Mole (mol)</li>\n<li><strong>Luminous Intensity</strong>: Candela (cd)</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Derived Units",
+   "id": "",
+   "html": "<p>Derived units are combinations of base units. For example, the <strong>unit of force</strong>, <strong>Newton (N)</strong>, is derived from the base units of mass, length, and time:</p>\n<p>[ 1 N = 1 kg · m/s² ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Common Systems of Units",
+   "id": "",
+   "html": "<p>Besides the SI system, other commonly used systems include:</p>\n<ul>\n<li><strong>British Imperial System</strong>: Still used in some countries for certain measurements.</li>\n<li><strong>U.S. Customary System</strong>: Used in the United States for everyday measurements.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion Between Systems",
+   "id": "",
+   "html": "<p>Converting units from one system to another is essential in interdisciplinary work. For example, converting between meters (SI) and feet (British Imperial):</p>\n<p>[ 1 \\, m = 3.28084 \\, ft ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 150 meters to feet.</div>\n<ol>\n<li><strong>Identify the conversion factor</strong>: 1 meter = 3.28084 feet.</li>\n<li><strong>Set up the conversion</strong>:</li>\n</ol>\n<p>[ 150 \\, m × 3.28084 \\, ft/m = 492.126 \\, ft ]</p>\n<ol>\n<li><strong>Final answer</strong>: 150 meters is approximately 492.13 feet.</li>\n</ol>",
+   "examples": [
+    "Convert 150 meters to feet."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram for Units and Systems",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[SI Units] --&gt; B['Length: Meter']\n A --&gt; C['Mass: Kilogram']\n A --&gt; D['Time: Second']\n A --&gt; E['Electric Current: Ampere']\n A --&gt; F['Thermodynamic Temperature: Kelvin']\n A --&gt; G['Amount of Substance: Mole']\n A --&gt; H['Luminous Intensity: Candela']\n B --&gt; I[Derived Units]\n I --&gt; J['Force: Newton']\n I --&gt; K['Pressure: Pascal']</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[SI Units] --&gt; B['Length: Meter']\n A --&gt; C['Mass: Kilogram']\n A --&gt; D['Time: Second']\n A --&gt; E['Electric Current: Ampere']\n A --&gt; F['Thermodynamic Temperature: Kelvin']\n A --&gt; G['Amount of Substance: Mole']\n A --&gt; H['Luminous Intensity: Candela']\n B --&gt; I[Derived Units]\n I --&gt; J['Force: Newton']\n I --&gt; K['Pressure: Pascal']</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[SI Units] --&gt; B['Length: Meter']\n A --&gt; C['Mass: Kilogram']\n A --&gt; D['Time: Second']\n A --&gt; E['Electric Current: Ampere']\n A --&gt; F['Thermodynamic Temperature: Kelvin']\n A --&gt; G['Amount of Substance: Mole']\n A --&gt; H['Luminous Intensity: Candela']\n B --&gt; I[Derived Units]\n I --&gt; J['Force: Newton']\n I --&gt; K['Pressure: Pascal']</pre></noscript></div>\n<p>This diagram illustrates the base units of the SI system and their derived units.</p>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n A[SI Units] --> B[\"Length: Meter\"]\n A --> C[\"Mass: Kilogram\"]\n A --> D[\"Time: Second\"]\n A --> E[\"Electric Current: Ampere\"]\n A --> F[\"Thermodynamic Temperature: Kelvin\"]\n A --> G[\"Amount of Substance: Mole\"]\n A --> H[\"Luminous Intensity: Candela\"]\n B --> I[Derived Units]\n I --> J[\"Force: Newton\"]\n I --> K[\"Pressure: Pascal\"]"
+   ]
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>Understanding and correctly using units is fundamental in engineering and science. The International System of Units (SI) provides a standardized framework for measurements, ensuring consistency and accuracy. Converting between different systems of units, such as meters to feet, is a critical skill in interdisciplinary work.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Review",
+   "id": "",
+   "html": "<ul>\n<li><strong>Define</strong> the term <strong>physical quantity</strong> and explain its importance.</li>\n<li><strong>Classify</strong> the SI base units.</li>\n<li><strong>Apply</strong> the conversion factor to convert 150 meters to feet.</li>\n</ul>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Physical Quantities",
+   "id": "",
+   "html": "<p>Physical quantities are measurable attributes of matter and energy. They can be classified into two main categories: fundamental quantities and derived quantities.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Fundamental Quantities",
+   "id": "",
+   "html": "<p><strong>Definition:</strong> Fundamental quantities are those quantities that cannot be defined in terms of other quantities. They are the basic building blocks from which other quantities can be derived. The seven fundamental quantities in the International System of Units (SI) are:</p>\n<ul>\n<li><strong>Length (L):</strong> The base unit is the meter (m).</li>\n<li><strong>Mass (M):</strong> The base unit is the kilogram (kg).</li>\n<li><strong>Time (T):</strong> The base unit is the second (s).</li>\n<li><strong>Electric current (I):</strong> The base unit is the ampere (A).</li>\n<li><strong>Temperature (Θ):</strong> The base unit is the kelvin (K).</li>\n<li><strong>Amount of substance (N):</strong> The base unit is the mole (mol).</li>\n<li><strong>Luminous intensity (J):</strong> The base unit is the candela (cd).</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Derived Quantities",
+   "id": "",
+   "html": "<p><strong>Definition:</strong> Derived quantities are physical quantities that can be expressed in terms of the fundamental quantities. Common examples include:</p>\n<ul>\n<li><strong>Area (A):</strong> Derived from length (m²).</li>\n<li><strong>Volume (V):</strong> Derived from length (m³).</li>\n<li><strong>Density (ρ):</strong> Derived from mass and volume (kg/m³).</li>\n<li><strong>Force (F):</strong> Derived from mass and acceleration (N = kg·m/s²).</li>\n<li><strong>Pressure (P):</strong> Derived from force and area (N/m² or Pa).</li>\n<li><strong>Energy (E):</strong> Derived from mass, length, and time (J = kg·m²/s²).</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Given a mass of 2 kg and an acceleration due to gravity of 9.8 m/s², calculate the force acting on the object.<br /><br /><strong>Solution:</strong> The force F can be calculated using the formula F = m · a, where m is mass and a is acceleration.<br /><br />[<br />F = 2 \\, kg × 9.8 \\, m/s² = 19.6 \\, N</div>\n<p>]</p>",
+   "examples": [
+    "Given a mass of 2 kg and an acceleration due to gravity of 9.8 m/s², calculate the force acting on the object. **Solution:** The force F can be calculated using the formula F = m · a, where m is mass and a is acceleration. [ F = 2 \\, kg × 9.8 \\, m/s² = 19.6 \\, N"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion of Units",
+   "id": "",
+   "html": "<p>To convert the units of a given physical quantity from one system to another, it is necessary to understand the relationships between the units of the different systems. For instance, converting from the metric system to the imperial system, or from the SI system to the CGS system.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 5000 meters to kilometers.<br /><br /><strong>Solution:</strong> Since 1 kilometer (km) is equal to 1000 meters (m), the conversion can be done as follows:<br /><br />[<br />5000 \\, m = (5000 \\, m / 1000) = 5 \\, km</div>\n<p>]</p>",
+   "examples": [
+    "Convert 5000 meters to kilometers. **Solution:** Since 1 kilometer (km) is equal to 1000 meters (m), the conversion can be done as follows: [ 5000 \\, m = (5000 \\, m / 1000) = 5 \\, km"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 2 kg·m/s² to N·s/m.<br /><br /><strong>Solution:</strong> The unit of force N (newton) is defined as kg·m/s². Therefore, the conversion is straightforward:<br /><br />[<br />2 \\, kg·m/s² = 2 \\, N</div>\n<p>]</p>\n<p>Since the unit of time s is the same in both units, the conversion is:</p>\n<blockquote><br />[<br />2 \\, N·s/m = 2 \\, N·s/m</blockquote>\n<p>]</p>",
+   "examples": [
+    "Convert 2 kg·m/s² to N·s/m. **Solution:** The unit of force N (newton) is defined as kg·m/s². Therefore, the conversion is straightforward: [ 2 \\, kg·m/s² = 2 \\, N"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<p>In this section, we have defined and explained physical quantities, focusing on the distinction between fundamental and derived quantities. We have also provided examples to demonstrate the practical application of these concepts and the process of unit conversion. Understanding these fundamentals is crucial for solving problems in physics and engineering.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.1. Introduction to Systems of Units",
+   "id": "",
+   "html": "<p>In the field of engineering, the choice of a system of units is crucial. The three most commonly used systems are the CGS (Centimeter-Gram-Second), MKS (Meter-Kilogram-Second), and SI (International System of Units). These systems differ in their base units, which are the fundamental units used to define other units.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.2. Definition of Units (Informational Only)",
+   "id": "",
+   "html": "<ul>\n<li><strong>CGS System</strong>: This system uses the centimeter (cm) as the unit of length, the gram (g) as the unit of mass, and the second (s) as the unit of time.</li>\n<li><strong>MKS System</strong>: This system uses the meter (m) as the unit of length, the kilogram (kg) as the unit of mass, and the second (s) as the unit of time.</li>\n<li><strong>SI System</strong>: This is the most widely used system today. It includes the meter (m) as the unit of length, the kilogram (kg) as the unit of mass, the second (s) as the unit of time, and many other derived units.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.33.1. Conversion from MKS to CGS",
+   "id": "",
+   "html": "<p>To convert from MKS to CGS, we need to know the following conversion factors:</p>\n<ul>\n<li>1 meter (m) = 100 centimeters (cm)</li>\n<li>1 kilogram (kg) = 1000 grams (g)</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 5 meters to centimeters.<br /><br />To convert 5 meters to centimeters, we use the conversion factor 1 meter = 100 centimeters.<br /><br />[ 5 m × 100 cm/m = 500 cm ]</div>",
+   "examples": [
+    "Convert 5 meters to centimeters. To convert 5 meters to centimeters, we use the conversion factor 1 meter = 100 centimeters. [ 5 m × 100 cm/m = 500 cm ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.33.2. Conversion from CGS to MKS",
+   "id": "",
+   "html": "<p>To convert from CGS to MKS, we use the inverse of the above factors:</p>\n<ul>\n<li>1 centimeter (cm) = 0.01 meters (m)</li>\n<li>1 gram (g) = 0.001 kilograms (kg)</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 1000 grams to kilograms.<br /><br />To convert 1000 grams to kilograms, we use the conversion factor 1 gram = 0.001 kilograms.<br /><br />[ 1000 g × 0.001 kg/g = 1 kg ]</div>",
+   "examples": [
+    "Convert 1000 grams to kilograms. To convert 1000 grams to kilograms, we use the conversion factor 1 gram = 0.001 kilograms. [ 1000 g × 0.001 kg/g = 1 kg ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.4. Requirements of Standard Unit",
+   "id": "",
+   "html": "<p>A standard unit must meet the following requirements:</p>\n<ul>\n<li><strong>Uniqueness</strong>: Each physical quantity should have a unique unit.</li>\n<li><strong>Simplicity</strong>: Units should be easy to use and understand.</li>\n<li><strong>Precision</strong>: Units should allow for precise measurements.</li>\n<li><strong>Consistency</strong>: Units should be consistent across different systems.</li>\n<li><strong>Reproducibility</strong>: Units should be reproducible and universally accepted.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.5. Example of Interconversion",
+   "id": "",
+   "html": "<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert 2 meters per second (m/s) to centimeters per second (cm/s).<br /><br />To convert 2 meters per second to centimeters per second, we use the conversion factor 1 meter = 100 centimeters.<br /><br />[ 2 m/s × 100 cm/m = 200 cm/s ]</div>",
+   "examples": [
+    "Convert 2 meters per second (m/s) to centimeters per second (cm/s). To convert 2 meters per second to centimeters per second, we use the conversion factor 1 meter = 100 centimeters. [ 2 m/s × 100 cm/m = 200 cm/s ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.3.6. Summary",
+   "id": "",
+   "html": "<p>In summary, the choice of a system of units is critical in engineering and scientific calculations. Understanding how to convert between different systems, such as MKS to CGS and vice versa, is essential. The requirements for a standard unit ensure that units are unique, simple, precise, consistent, and reproducible. This knowledge will help you in solving problems involving different units and systems of measurement.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.4.1 Vernier Caliper",
+   "id": "",
+   "html": "<p><strong>Vernier caliper</strong> is a precision measuring tool used to measure internal and external dimensions, depth, and length of an object. It consists of a main scale and a vernier scale. The main scale is calibrated in millimeters, and the vernier scale has 10 or 20 divisions that correspond to 9 or 19 main scale divisions, respectively, allowing for more precise measurements.</p>\n<p><strong>How Vernier Caliper Works:</strong></p>\n<ul>\n<li>The main scale is usually marked in millimeters (mm) and sometimes in smaller units like tenths of a millimeter (0.1 mm).</li>\n<li>The vernier scale is calibrated to provide a more accurate reading by aligning one division of the vernier scale with 9 or 19 divisions of the main scale.</li>\n<li>The difference between these divisions gives the least count (LC) of the vernier caliper. For a 20-division vernier scale, the LC is 0.05 mm, and for a 10-division vernier scale, the LC is 0.02 mm.</li>\n</ul>\n<p><strong>Reading a Vernier Caliper:</strong></p>\n<ul>\n<li>First, measure the object using the main scale.</li>\n<li>Align the zero of the vernier scale with the main scale and read the closest main scale division.</li>\n<li>Look for the vernier scale division that aligns exactly with a main scale division. This gives the fractional part of the measurement.</li>\n<li>The total reading is the sum of the main scale reading and the vernier scale reading.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A vernier caliper with a 20-division vernier scale is used to measure the internal diameter of a pipe. The main scale reading is 12 mm, and the 13th vernier scale division aligns with a main scale division. Calculate the total reading.</div>\n<ul>\n<li>Main scale reading = 12 mm</li>\n<li>Vernier scale reading = 13 × 0.05 mm = 0.65 mm</li>\n<li>Total reading = 12 mm + 0.65 mm = 12.65 mm</li>\n</ul>",
+   "examples": [
+    "A vernier caliper with a 20-division vernier scale is used to measure the internal diameter of a pipe. The main scale reading is 12 mm, and the 13th vernier scale division aligns with a main scale division. Calculate the total reading."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "1.4.2 Micrometer Screw Gauge",
+   "id": "",
+   "html": "<p><strong>Micrometer screw gauge</strong> is a high-precision measuring instrument used to measure very small lengths, typically in the range of 0.01 mm to 10 mm. It consists of a screw with a linear scale and a thimble with a circular scale.</p>\n<p><strong>How Micrometer Screw Gauge Works:</strong></p>\n<ul>\n<li>The screw has a pitch, which is the distance it moves in one complete rotation.</li>\n<li>The thimble has 50 or 100 divisions that correspond to the screw's pitch.</li>\n<li>The barrel scale is marked in millimeters, and the circular scale provides finer divisions for accurate readings.</li>\n</ul>\n<p><strong>Reading a Micrometer Screw Gauge:</strong></p>\n<ul>\n<li>Align the screw so that the anvil is just touching the object.</li>\n<li>Read the main scale (barrel scale) and the thimble scale.</li>\n<li>Each division on the thimble scale corresponds to 0.01 mm or 0.001 mm, depending on the micrometer.</li>\n<li>The total reading is the sum of the main scale reading and the thimble scale reading.</li>\n</ul>\n<p><strong>Example:</strong></p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>A micrometer screw gauge with a 50-division thimble scale is used to measure the thickness of a thin metal sheet. The main scale reading is 3 mm, and the 28th thimble scale division aligns with the barrel scale. Calculate the total reading.</div>\n<ul>\n<li>Main scale reading = 3 mm</li>\n<li>Vernier scale reading = 28 × 0.02 mm = 0.56 mm</li>\n<li>Total reading = 3 mm + 0.56 mm = 3.56 mm</li>\n</ul>",
+   "examples": [
+    "A micrometer screw gauge with a 50-division thimble scale is used to measure the thickness of a thin metal sheet. The main scale reading is 3 mm, and the 28th thimble scale division aligns with the barrel scale. Calculate the total reading."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<ul>\n<li><strong>Vernier Caliper</strong> is used for measuring internal and external dimensions with a least count of 0.02 mm or 0.05 mm.</li>\n<li><strong>Micrometer Screw Gauge</strong> is used for measuring very small lengths with a least count of 0.01 mm or 0.001 mm.</li>\n</ul>\n<p>These tools are essential in various engineering applications where precision measurements are required.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.1 Accuracy and Precision",
+   "id": "",
+   "html": "<p>Accuracy and precision are two fundamental concepts in measurements. <strong>Accuracy</strong> refers to how close a measured value is to the true or accepted value. <strong>Precision</strong>, on the other hand, refers to the degree of agreement among several measurements of the same quantity. For example, if you measure the length of a table multiple times and get values that are very close to each other, the measurements are precise. However, if the measurements are close to the true length, they are also accurate.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.2 Estimation of Errors",
+   "id": "",
+   "html": "<p>Errors in measurements can arise due to various factors such as instrument limitations, environmental conditions, and human mistakes. The estimation of errors is crucial to understand the reliability of the measurements.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.2.1 Absolute Error",
+   "id": "",
+   "html": "<p>The <strong>absolute error</strong> is the magnitude of the difference between the measured value and the true value. It is given by:</p>\n<p>[ Absolute Error = | Measured Value - True Value | ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.2.2 Relative Error",
+   "id": "",
+   "html": "<p>The <strong>relative error</strong> is the absolute error divided by the true value. It provides a measure of the error in terms of the true value. It is expressed as a fraction or a percentage:</p>\n<p>[ Relative Error = (Absolute Error / True Value) ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.2.3 Percentage Error",
+   "id": "",
+   "html": "<p>The <strong>percentage error</strong> is the relative error expressed as a percentage. It is calculated as:</p>\n<p>[ Percentage Error = ( (Absolute Error / True Value) ) × 100\\% ]</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.3 Error Propagation",
+   "id": "",
+   "html": "<p>Error propagation refers to the way errors in the input quantities affect the output quantity. For example, if you are calculating the area of a rectangle, the error in the length and the width will affect the error in the area. The formula for error propagation in multiplication or division is given by:</p>\n<p>[ (Δ z / z) = ( (Δ x / x) )² + ( (Δ y / y) )² ]</p>\n<p>where z = xy, Δ z is the error in z, and Δ x and Δ y are the errors in x and y, respectively.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.4 Significant Figures",
+   "id": "",
+   "html": "<p>Significant figures are used to indicate the reliability of a measurement. The number of significant figures in a measurement is the number of digits that are known with certainty plus one digit that is estimated. For example, if a measurement is 12.34 meters, it has four significant figures.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.4.1 Rules for Determining Significant Figures",
+   "id": "",
+   "html": "<ol>\n<li><strong>Non-zero digits are always significant.</strong></li>\n<li><strong>Zeros between non-zero digits are significant.</strong></li>\n<li><strong>Leading zeros are not significant.</strong></li>\n<li><strong>Trailing zeros in a number containing a decimal point are significant.</strong></li>\n<li><strong>Trailing zeros in a number without a decimal point are not significant unless otherwise indicated.</strong></li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "1.5.5 Example",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br />Consider a length measurement of 12.34 meters and the true length is 12.35 meters.<br /><br />- <strong>Absolute Error:</strong><br />[ Absolute Error = |12.34 - 12.35| = 0.01 meters ]<br /><br />- <strong>Relative Error:</strong><br />[ Relative Error = (0.01 / 12.35) ≈ 0.000809 ]<br /><br />- <strong>Percentage Error:</strong><br />[ Percentage Error = ( (0.01 / 12.35) ) × 100\\% ≈ 0.000809 × 100\\% = 0.0809\\% ]<br /><br />- <strong>Error Propagation:</strong><br />If the length is used in the calculation of the area of a square with the same length, the area would be:<br />[ Area = (12.34 m)² = 152.2756 m² ]<br />The error in the area can be calculated using the error propagation formula:<br />[ (Δ A / A) = ( (Δ l / l) )² = ( (0.01 / 12.35) )² = 0.000809² ≈ 0.000809 ]<br />The absolute error in the area would be:<br />[ Δ A = A × Relative Error = 152.2756 × 0.000809 ≈ 0.123 m² ]<br /><br />- <strong>Significant Figures:</strong><br />The length 12.34 meters has four significant figures. If this value is used in calculations, the result should be reported with the same number of significant figures, unless otherwise specified.</div>\n<p>This example demonstrates the calculation of absolute and relative errors, percentage errors, and error propagation, as well as the use of significant figures in reporting measurements.</p>",
+   "examples": [
+    "Consider a length measurement of 12.34 meters and the true length is 12.35 meters. - **Absolute Error:** [ Absolute Error = |12.34 - 12.35| = 0.01 meters ] - **Relative Error:** [ Relative Error = (0.01 / 12.35) ≈ 0.000809 ] - **Percentage Error:** [ Percentage Error = ( (0.01 / 12.35) ) × 100\\% ≈ 0.000809 × 100\\% = 0.0809\\% ] - **Error Propagation:** If the length is used in the calculation of the area of a square with the same length, the area would be: [ Area = (12.34 m)² = 152.2756 m² ] The error in the area can be calculated using the error propagation formula: [ (Δ A / A) = ( (Δ l / l) )² = ( (0.01 / 12.35) )² = 0.000809² ≈ 0.000809 ] The absolute error in the area would be: [ Δ A = A × Relative Error = 152.2756 × 0.000809 ≈ 0.123 m² ] - **Significant Figures:** The length 12.34 meters has four significant figures. If this value is used in calculations, the result should be reported with the same number of significant figures, unless otherwise specified."
+   ],
+   "mermaid": []
+  }
+ ]
+}

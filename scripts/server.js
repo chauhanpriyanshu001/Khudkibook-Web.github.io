@@ -157,6 +157,7 @@ const AI_CONFIG_FILE = path.join(__dirname, '../data/server-config.json');
 const AI_RUN_SCRIPT = path.join(__dirname, 'ai_book', 'run_subject.js');
 const AI_BOOK_DEFS = path.join(__dirname, '../data/ai_books');
 const AI_PUBLIC_BOOKS = path.join(__dirname, '../public/books');
+const { analyzeMermaid, repairMarkdown } = require('./ai_book/mermaid_fix');
 
 function loadAiConfig() {
   try { return JSON.parse(fs.readFileSync(AI_CONFIG_FILE, 'utf8')); } catch (_) {
@@ -178,6 +179,40 @@ function backendSettings(job) {
     guModel: cfg.guModel || process.env.OLLAMA_GU_MODEL || 'aya-expanse:8b',
     retry: cfg.retryBrokenDiagrams
   };
+}
+
+// Fast, read-only quality probe used by the admin catalog. It intentionally
+// checks the source files and the rendered full book, not just job status:
+// cached generations can be "done" while a malformed diagram or raw LaTeX is
+// still present.
+function scanBookQuality(code) {
+  const dataDir = path.join(AI_BOOK_DEFS, String(code));
+  const publicDir = path.join(AI_PUBLIC_BOOKS, String(code));
+  const sourceFiles = [];
+  try {
+    for (const f of fs.readdirSync(dataDir)) if (/\.md$/i.test(f)) sourceFiles.push(path.join(dataDir, f));
+  } catch (_) {}
+  const raw = sourceFiles.map(p => { try { return fs.readFileSync(p, 'utf8'); } catch (_) { return ''; } }).join('\n');
+    const rawLatex = /\\(?:text|mathbf|mathrm|frac|begin\{|end\{|times|cdot)|\\-[0-9]/.test(raw);
+  let diagrams = 0, brokenDiagrams = 0;
+  try {
+    const report = analyzeMermaid(repairMarkdown(raw).md);
+    diagrams = report.count;
+    brokenDiagrams = report.blocks.filter(b => !b.ok).length;
+  } catch (_) {}
+  const full = path.join(publicDir, 'full-book.html');
+  let hasCover = false, hasFrontMatter = false;
+  try {
+    const html = fs.readFileSync(full, 'utf8');
+    hasCover = html.includes('kb-book-cover') && html.includes('KHUDKIBOOK');
+    hasFrontMatter = html.includes('kb-overview') && html.includes('kb-syllabus');
+  } catch (_) {}
+  const issues = [];
+  if (rawLatex) issues.push('raw-formula');
+  if (brokenDiagrams) issues.push(`${brokenDiagrams}-diagram${brokenDiagrams === 1 ? '' : 's'}`);
+  if (fs.existsSync(full) && !hasCover) issues.push('missing-cover');
+  if (fs.existsSync(full) && !hasFrontMatter) issues.push('missing-overview');
+  return { status: issues.length ? 'review' : 'ready', issues, diagrams, brokenDiagrams, hasCover, hasFrontMatter };
 }
 
 const AI_STEP_SETS = {
@@ -451,6 +486,7 @@ function buildAiCatalog() {
             unitsKnown: !!aiDefs[code],
             unitCount: aiDefs[code] ? aiDefs[code].units.length : (ai.units.length ? Math.max(...ai.units) : 0),
             unitTitles: aiDefs[code] ? aiDefs[code].units.map(x => ({ n: x.n, title: x.title, marks: x.marks || null })) : []
+            ,quality: scanBookQuality(code)
         });
     }
     return out;
@@ -477,6 +513,14 @@ app.get('/api/ai/catalog', (req, res) => {
         const limit = Math.max(1, Math.min(2000, parseInt(req.query.limit, 10) || 300));
         const placements = cat.reduce((t, x) => t + (x.branchCount || 0), 0);
         res.json({ status: 'success', total: cat.length, placements, subjects: cat.slice(0, limit) });
+    } catch (err) {
+        res.status(500).json({ status: 'error', message: err.message });
+    }
+});
+
+app.get('/api/ai/books/:code/quality', (req, res) => {
+    try {
+        res.json({ status: 'success', code: String(req.params.code), quality: scanBookQuality(req.params.code) });
     } catch (err) {
         res.status(500).json({ status: 'error', message: err.message });
     }

@@ -111,6 +111,21 @@
       @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
     }
   </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q14JJGGSPR');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yha6xlt986");
+  </script>
 </head>
 <body>
   <nav id="nav" class="navbar-root no-print"></nav>
@@ -129,7 +144,7 @@
       <h1>Unit – DESIGN</h1>
       <div class="kb-sub">Effective Technical Communication (310004) · Gujarat Technological University Information Technology Semester 3</div>
       <div class="kb-meta">
-      <span><i class="fas fa-clock"></i> 9 min read</span>
+      <span><i class="fas fa-clock"></i> 8 min read</span>
       
       
       <a class="kb-print-btn no-print" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
@@ -188,14 +203,21 @@
 <p>Titanium is a common choice for dental implants due to its strength and biocompatibility. The modulus of elasticity for titanium is about 110 GPa.</p>
 <h5>Step 3: Design the Geometry</h5>
 <p>The implant is designed as a cylindrical shape with a diameter of 3.5 mm and a length of 10 mm. The cross-sectional area (A) of the implant is calculated as:</p>
-<p>\[ A = \pi \left(\frac{d}{2}\right)^2 = \pi \left(\frac{3.5}{2}\right)^2 = 9.62 \, \text{mm}^2 \]</p>
+<p>A = π ((d / 2))² = π ((3.5 / 2))² = 9.62 \, mm²</p>
 <h5>Step 4: Stress Analysis</h5>
 <p>The stress (σ) in the implant can be calculated using the formula:</p>
-<p>\[ \sigma = \frac{F}{A} \]</p>
-<p>where \( F \) is the applied force (200 N) and \( A \) is the cross-sectional area (9.62 mm²).</p>
-<p>\[ \sigma = \frac{200 \, \text{N}}{9.62 \, \text{mm}^2} = 20.78 \, \text{MPa} \]</p>
+<p>σ = (F / A)</p>
+<p>where F is the applied force (200 N) and A is the cross-sectional area (9.62 mm²).</p>
+<p>σ = (200 \, N / 9.62 \, mm²) = 20.78 \, MPa</p>
 <p>This stress is within the safe limit for titanium, ensuring the implant will not fail under normal usage.</p>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Consider a dental implant with a diameter of 3.5 mm and a length of 10 mm. If the applied force is 200 N, the stress in the implant is calculated as:<br /><br />```mermaid<br />flowchart LR<br />A[Stress Calculation] --> B[Stress = 200 N / 9.62 mm²]<br />B --> C[Stress = 20.78 MPa]<br />```</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Consider a dental implant with a diameter of 3.5 mm and a length of 10 mm. If the applied force is 200 N, the stress in the implant is calculated as:<br /></div>
+<div class="mermaid-wrap"><div class="mermaid">flowchart LR
+ A[Stress Calculation] --&gt; B['Stress = 200 N / 9.62 mm²']
+ B --&gt; C[Stress = 20.78 MPa]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart LR
+ A[Stress Calculation] --&gt; B['Stress = 200 N / 9.62 mm²']
+ B --&gt; C[Stress = 20.78 MPa]</pre></details><noscript><pre class="mermaid-src">flowchart LR
+ A[Stress Calculation] --&gt; B['Stress = 200 N / 9.62 mm²']
+ B --&gt; C[Stress = 20.78 MPa]</pre></noscript></div>
 <h4>Summary</h4>
 <p>Structural design is a critical aspect of biomedical engineering, ensuring that implants and biomaterials can withstand the mechanical stresses they will encounter. By considering factors such as material properties, load analysis, and biomechanical environment, engineers can design robust and effective implants.</p>
 <hr />

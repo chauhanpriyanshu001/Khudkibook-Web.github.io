@@ -46,7 +46,7 @@
     ""
    ],
    "mermaid": [
-    "flowchart TD\n    A[Observation] --> B[Proportion and Scale]\n    B --> C[Shading and Texture]\n    C --> D[Detailing]"
+    "flowchart TD\n A[Observation] --> B[Proportion and Scale]\n B --> C[Shading and Texture]\n C --> D[Detailing]"
    ]
   },
   {
@@ -106,7 +106,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Prosthesis] --&gt; B[Front View]\n A --&gt; C[Side View]\n A --&gt; D[Top View]\n B --&gt; E[Isometric Line]\n C --&gt; E\n D --&gt; E\n E --&gt; F[Detailed Drawing]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Prosthesis] --&gt; B[Front View]\n A --&gt; C[Side View]\n A --&gt; D[Top View]\n B --&gt; E[Isometric Line]\n C --&gt; E\n D --&gt; E\n E --&gt; F[Detailed Drawing]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Prosthesis] --&gt; B[Front View]\n A --&gt; C[Side View]\n A --&gt; D[Top View]\n B --&gt; E[Isometric Line]\n C --&gt; E\n D --&gt; E\n E --&gt; F[Detailed Drawing]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Prosthesis] --> B[Front View]\n    A --> C[Side View]\n    A --> D[Top View]\n    B --> E[Isometric Line]\n    C --> E\n    D --> E\n    E --> F[Detailed Drawing]"
+    "flowchart TD\n A[Prosthesis] --> B[Front View]\n A --> C[Side View]\n A --> D[Top View]\n B --> E[Isometric Line]\n C --> E\n D --> E\n E --> F[Detailed Drawing]"
    ]
   },
   {
@@ -115,7 +115,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Prosthesis] --&gt; B[Front View]\n A --&gt; C[Side View]\n A --&gt; D[Top View]\n B --&gt; E[Detailed Front View]\n C --&gt; F[Detailed Side View]\n D --&gt; G[Detailed Top View]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Prosthesis] --&gt; B[Front View]\n A --&gt; C[Side View]\n A --&gt; D[Top View]\n B --&gt; E[Detailed Front View]\n C --&gt; F[Detailed Side View]\n D --&gt; G[Detailed Top View]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Prosthesis] --&gt; B[Front View]\n A --&gt; C[Side View]\n A --&gt; D[Top View]\n B --&gt; E[Detailed Front View]\n C --&gt; F[Detailed Side View]\n D --&gt; G[Detailed Top View]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Prosthesis] --> B[Front View]\n    A --> C[Side View]\n    A --> D[Top View]\n    B --> E[Detailed Front View]\n    C --> F[Detailed Side View]\n    D --> G[Detailed Top View]"
+    "flowchart TD\n A[Prosthesis] --> B[Front View]\n A --> C[Side View]\n A --> D[Top View]\n B --> E[Detailed Front View]\n C --> F[Detailed Side View]\n D --> G[Detailed Top View]"
    ]
   },
   {
@@ -158,11 +158,13 @@
   {
    "heading": "Example",
    "id": "",
-   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br /><strong>Step 1: Understanding the Requirement</strong><br /><br />You are required to draw a free hand sketch of a knee prosthesis.<br /><br /><strong>Step 2: Sketching the Basic Outline</strong><br /><br />Start with a light guide line of the knee joint. Draw the femur and tibia bones, and the patella. Use a light pencil to make the initial sketch.<br /><br />```mermaid<br />flowchart TD<br />A[Initial Sketch] --> B[Refine Outline] --> C[Add Details] --> D[Review and Revise]<br />```<br /><br /><strong>Step 3: Adding Details</strong><br /><br />Add the prosthesis components, such as the femoral stem, tibial base, and polyethylene insert. Label the key parts and add measurements.<br /><br /><strong>Step 4: Review and Revise</strong><br /><br />Check the drawing for any errors or missing details. Make sure all dimensions and labels are correct. Revise as necessary to improve the clarity and detail.</div>\n<p>In this example, the initial sketch, refinement, adding details, and reviewing the drawing are clearly outlined, ensuring a comprehensive and accurate free hand drawing.</p>\n<hr />",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br /><strong>Step 1: Understanding the Requirement</strong><br /><br />You are required to draw a free hand sketch of a knee prosthesis.<br /><br /><strong>Step 2: Sketching the Basic Outline</strong><br /><br />Start with a light guide line of the knee joint. Draw the femur and tibia bones, and the patella. Use a light pencil to make the initial sketch.<br /></div>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Initial Sketch] --&gt; B[Refine Outline] --&gt; C[Add Details] --&gt; D[Review and Revise]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Initial Sketch] --&gt; B[Refine Outline] --&gt; C[Add Details] --&gt; D[Review and Revise]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Initial Sketch] --&gt; B[Refine Outline] --&gt; C[Add Details] --&gt; D[Review and Revise]</pre></noscript></div>\n<blockquote><br /><strong>Step 3: Adding Details</strong><br /><br />Add the prosthesis components, such as the femoral stem, tibial base, and polyethylene insert. Label the key parts and add measurements.<br /><br /><strong>Step 4: Review and Revise</strong><br /><br />Check the drawing for any errors or missing details. Make sure all dimensions and labels are correct. Revise as necessary to improve the clarity and detail.</blockquote>\n<p>In this example, the initial sketch, refinement, adding details, and reviewing the drawing are clearly outlined, ensuring a comprehensive and accurate free hand drawing.</p>\n<hr />",
    "examples": [
-    "**Step 1: Understanding the Requirement** You are required to draw a free hand sketch of a knee prosthesis. **Step 2: Sketching the Basic Outline** Start with a light guide line of the knee joint. Draw the femur and tibia bones, and the patella. Use a light pencil to make the initial sketch. ```mermaid flowchart TD A[Initial Sketch] --> B[Refine Outline] --> C[Add Details] --> D[Review and Revise] ``` **Step 3: Adding Details** Add the prosthesis components, such as the femoral stem, tibial base, and polyethylene insert. Label the key parts and add measurements. **Step 4: Review and Revise** Check the drawing for any errors or missing details. Make sure all dimensions and labels are correct. Revise as necessary to improve the clarity and detail."
+    "**Step 1: Understanding the Requirement** You are required to draw a free hand sketch of a knee prosthesis. **Step 2: Sketching the Basic Outline** Start with a light guide line of the knee joint. Draw the femur and tibia bones, and the patella. Use a light pencil to make the initial sketch."
    ],
-   "mermaid": []
+   "mermaid": [
+    "flowchart TD\n A[Initial Sketch] --> B[Refine Outline] --> C[Add Details] --> D[Review and Revise]"
+   ]
   },
   {
    "heading": "Definition and Importance",
@@ -200,7 +202,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Memory Drawing] --&gt; B[Thermosensitive Materials]\n B --&gt; C[Polymers]\n B --&gt; D[Shape-Memory Alloys]\n A --&gt; E[Applications]\n E --&gt; F[Stents]\n E --&gt; G[Dental Implants]\n E --&gt; H[Vascular Grafts]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Memory Drawing] --&gt; B[Thermosensitive Materials]\n B --&gt; C[Polymers]\n B --&gt; D[Shape-Memory Alloys]\n A --&gt; E[Applications]\n E --&gt; F[Stents]\n E --&gt; G[Dental Implants]\n E --&gt; H[Vascular Grafts]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Memory Drawing] --&gt; B[Thermosensitive Materials]\n B --&gt; C[Polymers]\n B --&gt; D[Shape-Memory Alloys]\n A --&gt; E[Applications]\n E --&gt; F[Stents]\n E --&gt; G[Dental Implants]\n E --&gt; H[Vascular Grafts]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Memory Drawing] --> B[Thermosensitive Materials]\n    B --> C[Polymers]\n    B --> D[Shape-Memory Alloys]\n    A --> E[Applications]\n    E --> F[Stents]\n    E --> G[Dental Implants]\n    E --> H[Vascular Grafts]"
+    "flowchart TD\n A[Memory Drawing] --> B[Thermosensitive Materials]\n B --> C[Polymers]\n B --> D[Shape-Memory Alloys]\n A --> E[Applications]\n E --> F[Stents]\n E --> G[Dental Implants]\n E --> H[Vascular Grafts]"
    ]
   },
   {

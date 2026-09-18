@@ -74,7 +74,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[NEP] --&gt; B[NEAA]\n A --&gt; C[NAPCC]\n A --&gt; D[NBSAP]\n A --&gt; E[NFP]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[NEP] --&gt; B[NEAA]\n A --&gt; C[NAPCC]\n A --&gt; D[NBSAP]\n A --&gt; E[NFP]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[NEP] --&gt; B[NEAA]\n A --&gt; C[NAPCC]\n A --&gt; D[NBSAP]\n A --&gt; E[NFP]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[NEP] --> B[NEAA]\n    A --> C[NAPCC]\n    A --> D[NBSAP]\n    A --> E[NFP]"
+    "flowchart TD\n A[NEP] --> B[NEAA]\n A --> C[NAPCC]\n A --> D[NBSAP]\n A --> E[NFP]"
    ]
   },
   {
@@ -134,7 +134,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Air Act] --&gt; B[Water Act]\n A --&gt; C[Environment Protection Act]\n A --&gt; D[Wild Life Protection Act]\n A --&gt; E[Forest Conservation Act]\n A --&gt; F[Biodiversity Act]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Air Act] --&gt; B[Water Act]\n A --&gt; C[Environment Protection Act]\n A --&gt; D[Wild Life Protection Act]\n A --&gt; E[Forest Conservation Act]\n A --&gt; F[Biodiversity Act]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Air Act] --&gt; B[Water Act]\n A --&gt; C[Environment Protection Act]\n A --&gt; D[Wild Life Protection Act]\n A --&gt; E[Forest Conservation Act]\n A --&gt; F[Biodiversity Act]</pre></noscript></div>\n<p>By understanding and implementing these policies and acts, companies and individuals can ensure sustainable practices and environmental conservation.</p>\n<hr />",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Air Act] --> B[Water Act]\n    A --> C[Environment Protection Act]\n    A --> D[Wild Life Protection Act]\n    A --> E[Forest Conservation Act]\n    A --> F[Biodiversity Act]"
+    "flowchart TD\n A[Air Act] --> B[Water Act]\n A --> C[Environment Protection Act]\n A --> D[Wild Life Protection Act]\n A --> E[Forest Conservation Act]\n A --> F[Biodiversity Act]"
    ]
   },
   {
@@ -182,7 +182,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Identify] --&gt; B[Plan]\n B --&gt; C[Do]\n C --&gt; D[Check]\n D --&gt; E[Act]\n A --&gt; F[Review and Improve]\n F --&gt; B</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Identify] --&gt; B[Plan]\n B --&gt; C[Do]\n C --&gt; D[Check]\n D --&gt; E[Act]\n A --&gt; F[Review and Improve]\n F --&gt; B</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Identify] --&gt; B[Plan]\n B --&gt; C[Do]\n C --&gt; D[Check]\n D --&gt; E[Act]\n A --&gt; F[Review and Improve]\n F --&gt; B</pre></noscript></div>\n<p>This flowchart illustrates the key steps in the ISO 14001 process, which are:</p>\n<ol>\n<li><strong>Identify:</strong> Understanding the environmental aspects and impacts of the organization.</li>\n<li><strong>Plan:</strong> Setting objectives, targets, and action plans.</li>\n<li><strong>Do:</strong> Implementing the EMS.</li>\n<li><strong>Check:</strong> Monitoring and measuring the EMS.</li>\n<li><strong>Act:</strong> Correcting and improving the EMS.</li>\n<li><strong>Review and Improve:</strong> Regularly reviewing and improving the EMS.</li>\n</ol>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Identify] --> B[Plan]\n    B --> C[Do]\n    C --> D[Check]\n    D --> E[Act]\n    A --> F[Review and Improve]\n    F --> B"
+    "flowchart TD\n A[Identify] --> B[Plan]\n B --> C[Do]\n C --> D[Check]\n D --> E[Act]\n A --> F[Review and Improve]\n F --> B"
    ]
   },
   {
@@ -415,7 +415,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Company Exceeds Emission Limits] --&gt; B[Buy Carbon Credits]\n B --&gt; C[Reduce Emissions]\n A --&gt; D[Sell Excess Credits]\n D --&gt; E[Support Sustainable Projects]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Company Exceeds Emission Limits] --&gt; B[Buy Carbon Credits]\n B --&gt; C[Reduce Emissions]\n A --&gt; D[Sell Excess Credits]\n D --&gt; E[Support Sustainable Projects]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Company Exceeds Emission Limits] --&gt; B[Buy Carbon Credits]\n B --&gt; C[Reduce Emissions]\n A --&gt; D[Sell Excess Credits]\n D --&gt; E[Support Sustainable Projects]</pre></noscript></div>\n<p>In this flowchart, the company can either reduce emissions and sell excess credits or buy credits to offset its emissions, thereby promoting sustainable projects.</p>\n<hr />",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Company Exceeds Emission Limits] --> B[Buy Carbon Credits]\n    B --> C[Reduce Emissions]\n    A --> D[Sell Excess Credits]\n    D --> E[Support Sustainable Projects]"
+    "flowchart TD\n A[Company Exceeds Emission Limits] --> B[Buy Carbon Credits]\n B --> C[Reduce Emissions]\n A --> D[Sell Excess Credits]\n D --> E[Support Sustainable Projects]"
    ]
   },
   {
@@ -433,7 +433,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Refuse] --&gt; B[Reduce]\n A --&gt; C[Reuse]\n A --&gt; D[Repurpose]\n A --&gt; E[Recycle]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Refuse] --&gt; B[Reduce]\n A --&gt; C[Reuse]\n A --&gt; D[Repurpose]\n A --&gt; E[Recycle]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Refuse] --&gt; B[Reduce]\n A --&gt; C[Reuse]\n A --&gt; D[Repurpose]\n A --&gt; E[Recycle]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Refuse] --> B[Reduce]\n    A --> C[Reuse]\n    A --> D[Repurpose]\n    A --> E[Recycle]"
+    "flowchart TD\n A[Refuse] --> B[Reduce]\n A --> C[Reuse]\n A --> D[Repurpose]\n A --> E[Recycle]"
    ]
   },
   {
@@ -470,7 +470,7 @@
    "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Environmental Protection] --&gt; B[Community Development]\n A --&gt; C[Education and Awareness]\n A --&gt; D[Support for Local Businesses]\n E[Overcrowding and Degradation] --&gt; F[Environmental Disruption]\n E --&gt; G[Cultural Imposition]\n E --&gt; H[Economic Dependence]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Environmental Protection] --&gt; B[Community Development]\n A --&gt; C[Education and Awareness]\n A --&gt; D[Support for Local Businesses]\n E[Overcrowding and Degradation] --&gt; F[Environmental Disruption]\n E --&gt; G[Cultural Imposition]\n E --&gt; H[Economic Dependence]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Environmental Protection] --&gt; B[Community Development]\n A --&gt; C[Education and Awareness]\n A --&gt; D[Support for Local Businesses]\n E[Overcrowding and Degradation] --&gt; F[Environmental Disruption]\n E --&gt; G[Cultural Imposition]\n E --&gt; H[Economic Dependence]</pre></noscript></div>",
    "examples": [],
    "mermaid": [
-    "flowchart TD\n    A[Environmental Protection] --> B[Community Development]\n    A --> C[Education and Awareness]\n    A --> D[Support for Local Businesses]\n    E[Overcrowding and Degradation] --> F[Environmental Disruption]\n    E --> G[Cultural Imposition]\n    E --> H[Economic Dependence]"
+    "flowchart TD\n A[Environmental Protection] --> B[Community Development]\n A --> C[Education and Awareness]\n A --> D[Support for Local Businesses]\n E[Overcrowding and Degradation] --> F[Environmental Disruption]\n E --> G[Cultural Imposition]\n E --> H[Economic Dependence]"
    ]
   },
   {

@@ -72,9 +72,10 @@
     .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
     .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
     /* mermaid */
-    .kb-article .mermaid-wrap{margin:16px 0}
-    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-    .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+    .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+    .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+    .kb-article .mermaid svg foreignObject{overflow:visible}
     .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
     .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
     .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
@@ -155,7 +156,11 @@
     <div class="kb-layout">
       <aside class="kb-toc no-print">
         <h4>Chapters</h4>
-        <a class="toc-item toc-active" href="unit-1.html"><i class="fas fa-book-open"></i> Unit – I</a>
+        <a class="toc-item toc-active" href="unit-1.html"><i class="fas fa-book-open"></i> Unit – Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.</a>
+<a class="toc-item " href="unit-2.html"><i class="fas fa-book-open"></i> Unit – Circular motion 2.a Apply the concept of linear momentum and its conservation to explain recoil of gun and rockets propulsion. 2.b Apply the concept of centripetal and centrifugal forces to solve</a>
+<a class="toc-item " href="unit-3.html"><i class="fas fa-book-open"></i> Unit – General Properties of Matter 3.a Explain the Hooke’s law, stress- strain curve and moduli of elasticity. 3.b Explain surface tension, cohesive and adhesive forces.</a>
+<a class="toc-item " href="unit-4.html"><i class="fas fa-book-open"></i> Unit – Heat and Thermometry 4.a Distinguish between heat and temperature. 4.b Explain modes of heat transmission. 4.c Explain various temperature scales and conversion between</a>
+<a class="toc-item " href="unit-5.html"><i class="fas fa-book-open"></i> Unit – Wave motion and its applications 5.a Explain wave and wave motion with example. 5.b Distinguish between longitudinal and transverse</a>
         <h4>In this chapter</h4>
         <a class="toc-item toc-sec" href="#sec-1-1-measurement-and-units-in-engineering-and-science"><i class="fas fa-chevron-right"></i> 1.1 Measurement and units in engineering and science</a>
 <a class="toc-item toc-sec" href="#sec-1-2-physical-quantities-fundamental-and-derived-quantities"><i class="fas fa-chevron-right"></i> 1.2. Physical quantities; fundamental and derived quantities</a>
@@ -258,26 +263,26 @@
 <li>Time (t) = 10 seconds (s)</li>
 </ul>
 <p>To find the speed (v), we use the formula:</p>
-<p>[ v = \frac{d}{t} ]</p>
+<p>[ v = (d / t) ]</p>
 <p>Substituting the given values:</p>
-<p>[ v = \frac{120 \, \text{m}}{10 \, \text{s}} = 12 \, \text{m/s} ]</p>
+<p>[ v = (120 \, m / 10 \, s) = 12 \, m/s ]</p>
 <p>Therefore, the speed of the car is 12 m/s.</p>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Length (L)] --&gt; B[Volume (V)]
- A --&gt; C[Speed (v)]
- A --&gt; D[Density (ρ)]
- C --&gt; E[Force (F)]
- E --&gt; F[Energy (E)]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Length (L)] --&gt; B[Volume (V)]
- A --&gt; C[Speed (v)]
- A --&gt; D[Density (ρ)]
- C --&gt; E[Force (F)]
- E --&gt; F[Energy (E)]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Length (L)] --&gt; B[Volume (V)]
- A --&gt; C[Speed (v)]
- A --&gt; D[Density (ρ)]
- C --&gt; E[Force (F)]
- E --&gt; F[Energy (E)]</pre></noscript></div>
+ A[&quot;Length (L)&quot;] --&gt; B[&quot;Volume (V)&quot;]
+ A --&gt; C[&quot;Speed (v)&quot;]
+ A --&gt; D[&quot;Density (ρ)&quot;]
+ C --&gt; E[&quot;Force (F)&quot;]
+ E --&gt; F[&quot;Energy (E)&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[&quot;Length (L)&quot;] --&gt; B[&quot;Volume (V)&quot;]
+ A --&gt; C[&quot;Speed (v)&quot;]
+ A --&gt; D[&quot;Density (ρ)&quot;]
+ C --&gt; E[&quot;Force (F)&quot;]
+ E --&gt; F[&quot;Energy (E)&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[&quot;Length (L)&quot;] --&gt; B[&quot;Volume (V)&quot;]
+ A --&gt; C[&quot;Speed (v)&quot;]
+ A --&gt; D[&quot;Density (ρ)&quot;]
+ C --&gt; E[&quot;Force (F)&quot;]
+ E --&gt; F[&quot;Energy (E)&quot;]</pre></noscript></div>
 <p>This flowchart illustrates the relationship between the fundamental quantities and derived quantities.</p>
 <hr />
 <h3 id="sec-1-3-systems-of-units-cgs-mks-and-si-definition-of-units-only-for-information-and-not-to-be-asked-in-examination-interconversion-of-units-mks-to-cgs-and-vice-versa-requirements-of-standard-unit">1.3. Systems of units: CGS, MKS and SI, definition of units (only for information and not to be asked in examination), interconversion of units MKS to CGS and vice versa, Requirements of standard unit</h3>
@@ -310,7 +315,7 @@
 <li><strong>From MKS to CGS</strong>:</li>
 <li>1 meter = 100 centimeters</li>
 <li>1 kilogram = 1000 grams</li>
-<li>1 newton = 10^5 dynes</li>
+<li>1 newton = 10⁵ dynes</li>
 </ul>
 <ul>
 <li><strong>From CGS to MKS</strong>:</li>
@@ -320,7 +325,7 @@
 </ul>
 <h5>Example</h5>
 <p>Convert 5 newtons to CGS units.</p>
-<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />Given: 1 newton = 10^5 dynes<br />To convert 5 newtons to CGS units:<br />5 newtons = 5 × 10^5 dynes<br />Therefore, 5 newtons = 500,000 dynes</div>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br />Given: 1 newton = 10⁵ dynes<br />To convert 5 newtons to CGS units:<br />5 newtons = 5 × 10⁵ dynes<br />Therefore, 5 newtons = 500,000 dynes</div>
 <h4>1.3.6. Requirements of a Standard Unit</h4>
 <p>A standard unit must meet certain requirements to ensure its utility and reliability in various scientific and engineering applications. These requirements include:</p>
 <ul>
@@ -393,25 +398,25 @@
 <ul>
 <li><strong>Absolute Error</strong>: This is the difference between the measured value and the true value. It is given by:</li>
 </ul>
-<p>[ \text{Absolute Error} = \text{Measured Value} - \text{True Value} ]</p>
+<p>[ Absolute Error = Measured Value - True Value ]</p>
 <ul>
 <li><strong>Relative Error</strong>: This is the absolute error divided by the true value. It is given by:</li>
 </ul>
-<p>[ \text{Relative Error} = \frac{\text{Absolute Error}}{\text{True Value}} ]</p>
+<p>[ Relative Error = (Absolute Error / True Value) ]</p>
 <ul>
 <li><strong>Percentage Error</strong>: This is the relative error expressed as a percentage. It is given by:</li>
 </ul>
-<p>[ \text{Percentage Error} = \left( \frac{\text{Absolute Error}}{\text{True Value}} \right) \times 100\% ]</p>
+<p>[ Percentage Error = ( (Absolute Error / True Value) ) × 100\% ]</p>
 <h4>1.5.3 Error Propagation</h4>
 <p>When measurements are combined, the errors in the individual measurements can propagate to the final result. The propagation of errors can be estimated using the following rules:</p>
 <ul>
 <li>For addition or subtraction:</li>
 </ul>
-<p>[ \Delta y = \sqrt{(\Delta x_1)^2 + (\Delta x_2)^2 + \cdots + (\Delta x_n)^2} ]</p>
+<p>[ Δ y = (Δ x₁)² + (Δ x₂)² + + (Δ xₙ)² ]</p>
 <ul>
 <li>For multiplication or division:</li>
 </ul>
-<p>[ \frac{\Delta y}{y} = \sqrt{\left( \frac{\Delta x_1}{x_1} \right)^2 + \left( \frac{\Delta x_2}{x_2} \right)^2 + \cdots + \left( \frac{\Delta x_n}{x_n} \right)^2} ]</p>
+<p>[ (Δ y / y) = ( (Δ x₁ / x₁) )² + ( (Δ x₂ / x₂) )² + + ( (Δ xₙ / xₙ) )² ]</p>
 <h4>1.5.4 Significant Figures</h4>
 <p>Significant figures are the digits in a number that carry meaning contributing to its precision. The following rules are used to determine significant figures:</p>
 <ul>
@@ -426,15 +431,15 @@
 <ol>
 <li><strong>Absolute Error</strong>:</li>
 </ol>
-<p>[ \text{Absolute Error} = \text{Measured Value} - \text{True Value} = 123.45 \, \text{cm} - 123.50 \, \text{cm} = -0.05 \, \text{cm} ]</p>
+<p>[ Absolute Error = Measured Value - True Value = 123.45 \, cm - 123.50 \, cm = -0.05 \, cm ]</p>
 <ol>
 <li><strong>Relative Error</strong>:</li>
 </ol>
-<p>[ \text{Relative Error} = \frac{\text{Absolute Error}}{\text{True Value}} = \frac{-0.05 \, \text{cm}}{123.50 \, \text{cm}} = -0.000405 ]</p>
+<p>[ Relative Error = (Absolute Error / True Value) = (-0.05 \, cm / 123.50 \, cm) = -0.000405 ]</p>
 <ol>
 <li><strong>Percentage Error</strong>:</li>
 </ol>
-<p>[ \text{Percentage Error} = \left( \frac{\text{Absolute Error}}{\text{True Value}} \right) \times 100\% = \left( \frac{-0.05 \, \text{cm}}{123.50 \, \text{cm}} \right) \times 100\% = -0.0405\% ]</p>
+<p>[ Percentage Error = ( (Absolute Error / True Value) ) × 100\% = ( (-0.05 \, cm / 123.50 \, cm) ) × 100\% = -0.0405\% ]</p>
 <p>These calculations help in understanding the accuracy and precision of the measurement.</p>
 
         <nav class="kb-pn no-print"><span class="pn-btn disabled">Unit 1</span><span class="pn-btn disabled">Unit – Units and Measurem ents 1.a Explain Physical quantities and their units. 1.b Convert unit of a given physical quantity in one system of units into another systems of units.</span></nav>
@@ -522,12 +527,26 @@
   (function () {
     function init() {
       if (!window.mermaid) return;
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, curve: 'basis' } });
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, useMaxWidth: true, curve: 'basis', nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
       var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
       nodes.forEach(function (el) {
         if (el.dataset.kbMermaidRun) return;
         el.dataset.kbMermaidRun = '1';
-        mermaid.run({ nodes: [el] }).catch(function () {
+        function fitDiagram() {
+          var svg = el.querySelector('svg');
+          if (!svg) return;
+          var vb = svg.viewBox && svg.viewBox.baseVal;
+          if (vb && vb.width && vb.height) {
+            svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            svg.setAttribute('width', '100%');
+            svg.removeAttribute('height');
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+            svg.style.maxWidth = '100%';
+            svg.style.overflow = 'visible';
+          }
+        }
+        mermaid.run({ nodes: [el] }).then(fitDiagram).catch(function () {
           el.classList.add('mermaid-failed');
           el.innerHTML = '<div style="padding:8px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>';
         });

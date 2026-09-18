@@ -72,9 +72,10 @@
     .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
     .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
     /* mermaid */
-    .kb-article .mermaid-wrap{margin:16px 0}
-    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:flex;justify-content:center}
-    .kb-article .mermaid svg{max-width:100%;height:auto!important;min-width:0}
+    .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+    .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+    .kb-article .mermaid svg foreignObject{overflow:visible}
     .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
     .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
     .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
@@ -111,6 +112,21 @@
       @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
     }
   </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q14JJGGSPR');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yha6xlt986");
+  </script>
 </head>
 <body>
   <nav id="nav" class="navbar-root no-print"></nav>
@@ -144,6 +160,7 @@
 <a class="toc-item " href="unit-2.html"><i class="fas fa-book-open"></i> Unit – Pollution and its types</a>
 <a class="toc-item " href="unit-3.html"><i class="fas fa-book-open"></i> Unit – Renewable sources of energy</a>
 <a class="toc-item " href="unit-4.html"><i class="fas fa-book-open"></i> Unit – Climate Change</a>
+<a class="toc-item toc-active" href="unit-5.html"><i class="fas fa-book-open"></i> Unit – Environme ntal legislation and sustainable practices 5.a Use relevant policy or law in relation with environment in</a>
         <h4>In this chapter</h4>
         <a class="toc-item toc-sec" href="#sec-5-1-environmental-policies-in-india"><i class="fas fa-chevron-right"></i> 5.1. Environmental Policies in India</a>
 <a class="toc-item toc-sec" href="#sec-5-2-air-act-water-act-environment-protection-act-wild-life-protection-act-forest-conservation-act-biodiversity-act"><i class="fas fa-chevron-right"></i> 5.2. Air Act, Water Act, Environment Protection Act, Wild Life Protection Act, Forest Conservation Act, Biodiversity Act</a>
@@ -515,15 +532,15 @@
 <p>A manufacturing company is required to reduce its CO2 emissions by 50,000 tons. Instead of making significant changes to its operations, the company decides to buy carbon credits. It purchases 50,000 tons of carbon credits from a forestry project that has planted trees and is certified to absorb CO2. This purchase helps the company meet its emission reduction targets while supporting sustainable forestry practices.</p>
 <h4>Flowchart of Carbon Credit System</h4>
 <div class="mermaid-wrap"><div class="mermaid">flowchart TD
- A[Company Exceeds Emission Limits] --&gt; B[Buy Carbon Credits]
+ A[&quot;Company Exceeds&lt;br/&gt;Emission&lt;br/&gt;Limits&quot;] --&gt; B[Buy Carbon Credits]
  B --&gt; C[Reduce Emissions]
  A --&gt; D[Sell Excess Credits]
  D --&gt; E[Support Sustainable Projects]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
- A[Company Exceeds Emission Limits] --&gt; B[Buy Carbon Credits]
+ A[&quot;Company Exceeds&lt;br/&gt;Emission&lt;br/&gt;Limits&quot;] --&gt; B[Buy Carbon Credits]
  B --&gt; C[Reduce Emissions]
  A --&gt; D[Sell Excess Credits]
  D --&gt; E[Support Sustainable Projects]</pre></details><noscript><pre class="mermaid-src">flowchart TD
- A[Company Exceeds Emission Limits] --&gt; B[Buy Carbon Credits]
+ A[&quot;Company Exceeds&lt;br/&gt;Emission&lt;br/&gt;Limits&quot;] --&gt; B[Buy Carbon Credits]
  B --&gt; C[Reduce Emissions]
  A --&gt; D[Sell Excess Credits]
  D --&gt; E[Support Sustainable Projects]</pre></noscript></div>
@@ -701,12 +718,26 @@
   (function () {
     function init() {
       if (!window.mermaid) return;
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, curve: 'basis' } });
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, useMaxWidth: true, curve: 'basis', nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
       var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
       nodes.forEach(function (el) {
         if (el.dataset.kbMermaidRun) return;
         el.dataset.kbMermaidRun = '1';
-        mermaid.run({ nodes: [el] }).catch(function () {
+        function fitDiagram() {
+          var svg = el.querySelector('svg');
+          if (!svg) return;
+          var vb = svg.viewBox && svg.viewBox.baseVal;
+          if (vb && vb.width && vb.height) {
+            svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            svg.setAttribute('width', '100%');
+            svg.removeAttribute('height');
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+            svg.style.maxWidth = '100%';
+            svg.style.overflow = 'visible';
+          }
+        }
+        mermaid.run({ nodes: [el] }).then(fitDiagram).catch(function () {
           el.classList.add('mermaid-failed');
           el.innerHTML = '<div style="padding:8px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>';
         });

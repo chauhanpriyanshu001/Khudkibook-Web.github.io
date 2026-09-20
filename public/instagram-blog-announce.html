@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khudkibook - Blog Announcement Instagram Post (1080x1080)</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700;800;900&family=Kalam:wght@700&family=Outfit:wght@600;700;800;900&family=Permanent+Marker&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- html2canvas for 1-click high-res export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      background: #0f172a;
+      color: #ffffff;
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 15px;
+    }
+
+    body.capture-mode {
+      padding: 0;
+      background: #111625;
+    }
+
+    /* Control Bar */
+    .controls-bar {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 24px;
+      background: #1e293b;
+      padding: 12px 24px;
+      border-radius: 16px;
+      border: 1px solid #334155;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    body.capture-mode .controls-bar { display: none; }
+
+    .btn-download {
+      background: linear-gradient(135deg, #CD5D33 0%, #F0A66E 100%);
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 700;
+      border: none;
+      padding: 12px 26px;
+      border-radius: 12px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 4px 16px rgba(205,93,51,0.4);
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+
+    .btn-download:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(205,93,51,0.6);
+    }
+
+    /* 1080 x 1080 Canvas Wrapper */
+    .post-canvas-wrapper {
+      box-shadow: 0 25px 60px -12px rgba(0, 0, 0, 0.7);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    body.capture-mode .post-canvas-wrapper {
+      border-radius: 0;
+      box-shadow: none;
+      overflow: hidden;
+    }
+
+    #post-canvas {
+      width: 1080px;
+      height: 1080px;
+      min-width: 1080px;
+      min-height: 1080px;
+      position: relative;
+      background:
+        radial-gradient(circle at 50% 22%, rgba(205,93,51,0.18) 0%, transparent 60%),
+        linear-gradient(to bottom, #111625 0%, #171d30 40%, #1f2740 70%, #2a1f18 100%);
+      overflow: hidden;
+    }
+
+    /* Desk surface */
+    .desk-surface {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 380px;
+      background: linear-gradient(to bottom, #3d2719 0%, #2b1a10 50%, #1c1009 100%);
+      border-top: 3px solid #5a3a24;
+      box-shadow: inset 0 20px 40px rgba(0,0,0,0.6);
+    }
+
+    /* Ambient Warm Glow */
+    .ambient-glow {
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 850px;
+      height: 650px;
+      background: radial-gradient(circle, rgba(217,116,74,0.22) 0%, rgba(245, 158, 11, 0.08) 50%, transparent 70%);
+      pointer-events: none;
+    }
+
+    /* ========================================================
+       TOP SECTION: LOGO, HERO BADGE, HANDWRITING
+       ======================================================== */
+    /* Top Left Logo */
+    .brand-badge {
+      position: absolute;
+      top: 36px;
+      left: 36px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      z-index: 50;
+      background: rgba(74,60,50,0.65);
+      backdrop-filter: blur(12px);
+      padding: 10px 20px;
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .brand-logo-img {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(205,93,51,0.4);
+    }
+
+    .brand-title-text {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.75rem;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      line-height: 1.1;
+    }
+
+    .brand-tagline {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #a5b4fc;
+      letter-spacing: 0.02em;
+    }
+
+    /* Top Right Handwriting */
+    .top-right-note {
+      position: absolute;
+      top: 40px;
+      right: 44px;
+      text-align: right;
+      font-family: 'Caveat', cursive;
+      color: #f1f5f9;
+      font-size: 2.1rem;
+      line-height: 1.15;
+      transform: rotate(2deg);
+      z-index: 50;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .top-right-note span {
+      display: block;
+      color: #fbbf24;
+    }
+
+    /* Top Center Big Punchy Banner */
+    .hero-punch-banner {
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%) rotate(-2deg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 40;
+    }
+
+    .punch-tag-yellow {
+      background: #f59e0b;
+      color: #111827;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 1.95rem;
+      padding: 4px 28px;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(245, 158, 11, 0.4);
+      transform: rotate(-3deg);
+      letter-spacing: 0.05em;
+    }
+
+    .punch-tag-blue {
+      background: #A64B27;
+      color: #ffffff;
+      font-family: 'Outfit', sans-serif;
+      font-size: 4rem;
+      font-weight: 900;
+      padding: 2px 34px;
+      border-radius: 12px;
+      letter-spacing: 0.02em;
+      margin-top: -6px;
+      box-shadow: 0 14px 35px rgba(67, 56, 202, 0.6), 0 0 0 3px #D9744A;
+      transform: rotate(1deg);
+      text-transform: uppercase;
+    }
+
+    .punch-tag-sub {
+      color: #e2e8f0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 1.08rem;
+      font-weight: 800;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      margin-top: 6px;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+    }
+
+    /* ========================================================
+       LEFT: STICKY NOTE, BOOK STACK, NOTEBOOK
+       ======================================================== */
+    .sticky-note {
+      position: absolute;
+      top: 205px;
+      left: 42px;
+      width: 175px;
+      background: #fef08a;
+      color: #1e293b;
+      padding: 18px 16px;
+      font-family: 'Caveat', cursive;
+      font-size: 1.55rem;
+      font-weight: 700;
+      line-height: 1.25;
+      border-radius: 4px;
+      box-shadow: 0 12px 24px rgba(0,0,0,0.35);
+      transform: rotate(-6deg);
+      z-index: 45;
+    }
+
+    .sticky-note::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 18px;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 2px;
+    }
+
+    /* Book Stack */
+    .book-stack {
+      position: absolute;
+      bottom: 118px;
+      left: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      z-index: 30;
+      transform: rotate(-2deg);
+    }
+
+    .spine-book {
+      height: 38px;
+      width: 218px;
+      border-radius: 4px;
+      padding: 0 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #ffffff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      font-family: 'Inter', sans-serif;
+      box-shadow: 2px 4px 10px rgba(0,0,0,0.4);
+      letter-spacing: 0.02em;
+    }
+
+    .spine-1 { background: linear-gradient(to right, #4A3A2C, #4A3A2C); }
+    .spine-2 { background: linear-gradient(to right, #831843, #9d174d); }
+    .spine-3 { background: linear-gradient(to right, #064e3b, #047857); }
+    .spine-4 { background: linear-gradient(to right, #713f12, #a16207); }
+    .spine-5 { background: linear-gradient(to right, #1e293b, #334155); }
+
+    /* Notebook Checklist Bottom Left */
+    .notebook-card {
+      position: absolute;
+      bottom: 30px;
+      left: 36px;
+      width: 260px;
+      background: #fdfbf7;
+      color: #1e293b;
+      padding: 16px 18px;
+      border-radius: 10px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+      transform: rotate(-4deg);
+      z-index: 45;
+      border-left: 6px solid #cbd5e1;
+    }
+
+    .notebook-title {
+      font-family: 'Caveat', cursive;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #A64B27;
+      margin-bottom: 8px;
+      border-bottom: 1.5px dashed #cbd5e1;
+      padding-bottom: 4px;
+    }
+
+    .notebook-item {
+      font-family: 'Caveat', cursive;
+      font-size: 1.32rem;
+      font-weight: 700;
+      line-height: 1.3;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #0f172a;
+    }
+
+    .notebook-item i {
+      color: #16a34a;
+      font-size: 1.05rem;
+    }
+
+    /* ========================================================
+       CENTER: BLOG ARTICLE CARD (REAL KHUDKIBOOK BLOG)
+       ======================================================== */
+    .article-card {
+      position: absolute;
+      bottom: 150px;
+      left: 50%;
+      transform: translateX(-50%) rotate(-1.2deg);
+      width: 480px;
+      background: #fdfbf7;
+      color: #0f172a;
+      border-radius: 16px;
+      box-shadow: 0 30px 50px rgba(0,0,0,0.65), 0 0 0 1px rgba(255,255,255,0.08);
+      padding: 22px 24px 18px;
+      z-index: 40;
+    }
+
+    .article-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .article-head-brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 900;
+      font-size: 0.98rem;
+      color: #A64B27;
+      letter-spacing: 0.02em;
+    }
+
+    .article-head-brand i {
+      color: #CD5D33;
+      font-size: 1.1rem;
+    }
+
+    .article-head-url {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #94a3b8;
+      letter-spacing: 0.01em;
+    }
+
+    .article-divider {
+      border: none;
+      border-top: 2px dashed #e2e8f0;
+      margin: 0 0 14px;
+    }
+
+    /* Featured post */
+    .featured-post {
+      position: relative;
+      border: 1px solid #e8d9c9;
+      background: #fffdf9;
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.62rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-bottom: 8px;
+    }
+
+    .chip-orange { background: #f3d9c8; color: #A64B27; }
+
+    .featured-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.18rem;
+      font-weight: 900;
+      line-height: 1.25;
+      color: #0f172a;
+      margin-bottom: 9px;
+      max-width: 300px;
+    }
+
+    .bar {
+      height: 7px;
+      border-radius: 4px;
+      background: #e5dccf;
+      margin-bottom: 6px;
+    }
+    .bar-1 { width: 92%; }
+    .bar-2 { width: 82%; }
+    .bar-3 { width: 55%; }
+
+    .featured-read {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 9px;
+      font-size: 0.75rem;
+      font-weight: 800;
+      color: #CD5D33;
+    }
+
+    /* Red NEW stamp */
+    .stamp-new {
+      position: absolute;
+      top: 12px;
+      right: 14px;
+      transform: rotate(12deg);
+      border: 3px solid #dc2626;
+      color: #dc2626;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 1.55rem;
+      line-height: 1;
+      padding: 5px 12px;
+      border-radius: 7px;
+      opacity: 0.88;
+    }
+
+    /* Small post rows */
+    .small-post {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #ffffff;
+      border: 1px solid #eef2f6;
+      border-radius: 10px;
+      padding: 9px 12px;
+      margin-bottom: 8px;
+    }
+
+    .small-post .chip { margin-bottom: 0; }
+    .chip-green { background: #d6f0e2; color: #047857; }
+    .chip-blue { background: #dbeafe; color: #1d4ed8; }
+    .chip-purple { background: #ede9fe; color: #6d28d9; }
+
+    .small-post-title {
+      flex: 1;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #14304d;
+      line-height: 1.25;
+    }
+
+    .small-post i.fa-arrow-right {
+      color: #94a3b8;
+      font-size: 0.75rem;
+    }
+
+    .article-more {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding-top: 10px;
+      font-family: 'Caveat', cursive;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #CD5D33;
+      border-top: 1.5px dashed #e2e8f0;
+    }
+
+    /* ========================================================
+       RIGHT: POSTER, PHONE, MUG
+       ======================================================== */
+    /* Poster in background */
+    .bg-frame {
+      position: absolute;
+      top: 258px;
+      right: 40px;
+      width: 140px;
+      background: #ffffff;
+      color: #0f172a;
+      padding: 16px 12px;
+      border-radius: 6px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      border: 4px solid #1e293b;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 900;
+      font-size: 1.05rem;
+      line-height: 1.15;
+      text-align: center;
+      letter-spacing: -0.02em;
+      transform: rotate(2deg);
+      z-index: 25;
+      opacity: 0.85;
+    }
+
+    .bg-frame span {
+      display: block;
+      color: #f59e0b;
+      border-top: 2px solid #f59e0b;
+      margin-top: 6px;
+      padding-top: 4px;
+    }
+
+    /* Phone Mockup */
+    .phone-container {
+      position: absolute;
+      bottom: 78px;
+      right: 60px;
+      width: 170px;
+      height: 345px;
+      background: #000000;
+      border-radius: 32px;
+      border: 4px solid #475569;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.7);
+      padding: 6px;
+      z-index: 40;
+    }
+
+    .phone-notch {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 12px;
+      background: #000000;
+      border-radius: 10px;
+      z-index: 50;
+    }
+
+    .phone-screen {
+      background: #f6f8fc;
+      border-radius: 26px;
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .phone-nav {
+      background: #ffffff;
+      padding: 18px 10px 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    .phone-nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .phone-nav-brand img {
+      width: 18px;
+      height: 18px;
+      border-radius: 4px;
+    }
+
+    .phone-nav-brand span {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 0.75rem;
+      background: linear-gradient(135deg, #CD5D33, #F0A66E);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .phone-body {
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .phone-blog-hero {
+      background: linear-gradient(135deg, #CD5D33 0%, #F0A66E 100%);
+      color: #ffffff;
+      border-radius: 8px;
+      padding: 8px 9px;
+      text-align: center;
+    }
+
+    .phone-blog-kicker {
+      font-size: 0.45rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      background: rgba(255,255,255,0.2);
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 10px;
+      margin-bottom: 3px;
+    }
+
+    .phone-blog-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+
+    .phone-blog-desc {
+      font-size: 0.5rem;
+      line-height: 1.3;
+      opacity: 0.92;
+      margin-bottom: 6px;
+    }
+
+    .phone-btn {
+      background: #ffffff;
+      color: #A64B27;
+      font-size: 0.55rem;
+      font-weight: 700;
+      padding: 4px 9px;
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    .phone-notif {
+      display: flex;
+      align-items: flex-start;
+      gap: 7px;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 7px 8px;
+      position: relative;
+    }
+
+    .phone-notif > i {
+      color: #CD5D33;
+      font-size: 0.8rem;
+      margin-top: 1px;
+    }
+
+    .phone-notif b {
+      display: block;
+      font-size: 0.52rem;
+      color: #0f172a;
+    }
+
+    .phone-notif .phone-notif-sub {
+      font-size: 0.46rem;
+      color: #64748b;
+      line-height: 1.2;
+    }
+
+    .phone-dot {
+      position: absolute;
+      top: 7px;
+      right: 7px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #dc2626;
+    }
+
+    .phone-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px;
+    }
+
+    .phone-stat-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 5px 2px;
+      text-align: center;
+      font-size: 0.52rem;
+      font-weight: 700;
+      color: #334155;
+    }
+
+    /* Coffee Mug */
+    .coffee-mug {
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+      width: 120px;
+      height: 130px;
+      background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%);
+      border-radius: 8px 8px 30px 30px;
+      box-shadow: 0 20px 35px rgba(0,0,0,0.6);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+      z-index: 45;
+    }
+
+    .mug-handle {
+      position: absolute;
+      top: 25px;
+      right: -24px;
+      width: 32px;
+      height: 65px;
+      border: 12px solid #e2e8f0;
+      border-left: none;
+      border-radius: 0 24px 24px 0;
+    }
+
+    .mug-text {
+      font-family: 'Caveat', cursive;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #334155;
+      line-height: 1.15;
+    }
+
+    /* ========================================================
+       BOTTOM CENTER: URL PILL, CTA, INSTAGRAM HANDLE
+       ======================================================== */
+    .url-badge-container {
+      position: absolute;
+      bottom: 62px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 50;
+    }
+
+    .url-pill {
+      background: #ffffff;
+      color: #0f172a;
+      padding: 12px 28px;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+      border: 2px solid #D9744A;
+    }
+
+    .url-pill i.fa-book-open {
+      color: #D9744A;
+      font-size: 1.15rem;
+    }
+
+    .url-pill-text {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+
+    .url-cursor {
+      position: absolute;
+      right: -8px;
+      bottom: -8px;
+      font-size: 1.5rem;
+      color: #ffffff;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+      animation: pulseCursor 1.5s infinite;
+    }
+
+    @keyframes pulseCursor {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+
+    .check-now-badge {
+      font-family: 'Permanent Marker', cursive;
+      color: #fbbf24;
+      font-size: 1.3rem;
+      margin-top: 8px;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+      letter-spacing: 0.05em;
+      border-bottom: 3px solid #fbbf24;
+      padding-bottom: 2px;
+    }
+
+    /* Instagram handle pill */
+    .insta-pill {
+      margin-top: 9px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.09);
+      border: 1px solid rgba(255,255,255,0.28);
+      backdrop-filter: blur(8px);
+      padding: 7px 16px;
+      border-radius: 999px;
+      font-size: 0.86rem;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: 0.02em;
+    }
+
+    .insta-pill i.fa-instagram {
+      font-size: 1.05rem;
+      color: #f59e0b;
+    }
+
+    .insta-pill span {
+      color: #a5b4fc;
+      font-weight: 600;
+    }
+
+    /* Bottom Feature Icons Bar */
+    .footer-features-bar {
+      position: absolute;
+      bottom: 14px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      z-index: 50;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #e2e8f0;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+    }
+
+    .footer-feature-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .footer-feature-item i {
+      color: #a5b4fc;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Controls -->
+  <div class="controls-bar">
+    <button class="btn-download" id="download-btn">
+      <i class="fas fa-download"></i> Download High-Res Instagram Post (PNG)
+    </button>
+    <span style="color: #94a3b8; font-size: 0.9rem;">
+      <i class="fas fa-info-circle"></i> 1080 x 1080 Khudkibook Blog Announcement
+    </span>
+  </div>
+
+  <!-- 1080 x 1080 Instagram Canvas -->
+  <div class="post-canvas-wrapper">
+    <div id="post-canvas">
+      <div class="ambient-glow"></div>
+      <div class="desk-surface"></div>
+
+      <!-- Top Left Brand Badge with Official Logo -->
+      <div class="brand-badge">
+        <img src="assets/brand/khudkibook-logo.png" alt="Khudkibook Official Logo" class="brand-logo-img" />
+        <div>
+          <div class="brand-title-text">KhudKiBook</div>
+          <div class="brand-tagline">For Every Student</div>
+        </div>
+      </div>
+
+      <!-- Top Center Big Punchy Headline -->
+      <div class="hero-punch-banner">
+        <div class="punch-tag-yellow">MORE CONTENT</div>
+        <div class="punch-tag-blue">NEW BLOGS</div>
+        <div class="punch-tag-sub">ADDED EVERY WEEK &middot; 100% FREE</div>
+      </div>
+
+      <!-- Top Right Handwritten Slogan -->
+      <div class="top-right-note">
+        More blogs.
+        <span>New posts weekly &#9825;</span>
+      </div>
+
+      <!-- Left Yellow Sticky Note -->
+      <div class="sticky-note">
+        Fresh ideas<br/>
+        every week.<br/>
+        No spam &#9786;
+      </div>
+
+      <!-- Left Book Spine Stack -->
+      <div class="book-stack">
+        <div class="spine-book spine-1"><span>Study Tips</span> <i class="fas fa-lightbulb"></i></div>
+        <div class="spine-book spine-2"><span>Exam Guides</span> <i class="fas fa-file-alt"></i></div>
+        <div class="spine-book spine-3"><span>DDCET Prep</span> <i class="fas fa-graduation-cap"></i></div>
+        <div class="spine-book spine-4"><span>GTU News</span> <i class="fas fa-newspaper"></i></div>
+        <div class="spine-book spine-5"><span>Past Papers</span> <i class="fas fa-scroll"></i></div>
+      </div>
+
+      <!-- Left Bottom Notebook Checklist -->
+      <div class="notebook-card">
+        <div class="notebook-title">What's coming:</div>
+        <div class="notebook-item"><i class="fas fa-check-square"></i> Study Tips &amp; Tricks</div>
+        <div class="notebook-item"><i class="fas fa-check-square"></i> Exam Guides</div>
+        <div class="notebook-item"><i class="fas fa-check-square"></i> GTU News &amp; Results</div>
+        <div class="notebook-item"><i class="fas fa-check-square"></i> More every week</div>
+      </div>
+
+      <!-- CENTER: BLOG ARTICLE CARD -->
+      <div class="article-card">
+
+        <div class="article-head">
+          <div class="article-head-brand"><i class="fas fa-pen-nib"></i> KHUDKIBOOK BLOG</div>
+          <div class="article-head-url">khudkibook.in/blog</div>
+        </div>
+        <hr class="article-divider" />
+
+        <!-- Featured post -->
+        <div class="featured-post">
+          <div class="stamp-new">NEW</div>
+          <span class="chip chip-orange"><i class="fas fa-lightbulb"></i> Study Tips</span>
+          <div class="featured-title">GTU Exam Prep &ndash; 8 Practical Tips To Score Well</div>
+          <div class="bar bar-1"></div>
+          <div class="bar bar-2"></div>
+          <div class="bar bar-3"></div>
+          <span class="featured-read">Read guide <i class="fas fa-arrow-right"></i></span>
+        </div>
+
+        <!-- Small posts -->
+        <div class="small-post">
+          <span class="chip chip-green"><i class="fas fa-download"></i> Guides</span>
+          <div class="small-post-title">How to Download GTU Textbooks Free (2026 Guide)</div>
+          <i class="fas fa-arrow-right"></i>
+        </div>
+        <div class="small-post">
+          <span class="chip chip-blue"><i class="fas fa-graduation-cap"></i> Exams</span>
+          <div class="small-post-title">DDCET 2026 &mdash; Eligibility, Pattern &amp; Prep</div>
+          <i class="fas fa-arrow-right"></i>
+        </div>
+        <div class="small-post">
+          <span class="chip chip-purple"><i class="fas fa-newspaper"></i> GTU News</span>
+          <div class="small-post-title">GTU Summer 2026 Result &amp; Re-Check Steps</div>
+          <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="article-more"><i class="fas fa-pen"></i> More articles being written right now&hellip;</div>
+      </div>
+
+      <!-- RIGHT: REAL PHONE MOCKUP -->
+      <div class="phone-container">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="phone-nav">
+            <div class="phone-nav-brand">
+              <img src="assets/brand/khudkibook-logo.png" alt="Logo" />
+              <span>Khudkibook</span>
+            </div>
+            <div style="font-size: 0.65rem; color: #64748b; display: flex; gap: 6px;">
+              <i class="fas fa-search"></i>
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+          <div class="phone-body">
+            <div class="phone-blog-hero">
+              <span class="phone-blog-kicker"><i class="fas fa-pen-nib"></i> Blog</span>
+              <div class="phone-blog-title">New articles<br/>every week</div>
+              <div class="phone-blog-desc">Study tips, exam guides &amp; GTU news &mdash; all free.</div>
+              <span class="phone-btn"><i class="fas fa-book-open"></i> Read the Blog</span>
+            </div>
+            <div class="phone-notif">
+              <i class="fas fa-bell"></i>
+              <div>
+                <b>New blog posted</b>
+                <div class="phone-notif-sub">GTU Summer 2026 Result: how to check &amp; re-check</div>
+              </div>
+              <span class="phone-dot"></span>
+            </div>
+            <div class="phone-stats">
+              <div class="phone-stat-card"><i class="fas fa-pen-nib" style="color:#CD5D33;"></i><br/>Blog Posts</div>
+              <div class="phone-stat-card"><i class="fas fa-download" style="color:#CD5D33;"></i><br/>100% Free</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Mug -->
+      <div class="coffee-mug">
+        <div class="mug-handle"></div>
+        <div class="mug-text">
+          Fresh<br/>
+          Ideas<br/>
+          Daily<br/>
+          &#9749;
+        </div>
+      </div>
+
+      <!-- Right Wall Frame -->
+      <div class="bg-frame">
+        LEARN<br/>
+        SMART<br/>
+        <span>NOT HARD</span>
+      </div>
+
+      <!-- Bottom Center Blog Link -->
+      <div class="url-badge-container">
+        <div class="url-pill">
+          <i class="fas fa-book-open"></i>
+          <span class="url-pill-text">khudkibook.in/blog</span>
+          <i class="fas fa-mouse-pointer url-cursor"></i>
+        </div>
+        <div class="check-now-badge">READ THE LATEST &mdash; FREE</div>
+        <div class="insta-pill"><i class="fab fa-instagram"></i> @khudkibook <span>&middot; follow for blog updates</span></div>
+      </div>
+
+      <!-- Bottom Footer Features -->
+      <div class="footer-features-bar">
+        <div class="footer-feature-item"><i class="fas fa-pen-nib"></i> Blog Posts</div>
+        <div class="footer-feature-item"><i class="fas fa-lightbulb"></i> Study Tips</div>
+        <div class="footer-feature-item"><i class="fas fa-file-alt"></i> Exam Guides</div>
+        <div class="footer-feature-item"><i class="fas fa-download"></i> 100% Free</div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // Enter capture mode (used for headless screenshotting): hide controls, flush layout.
+    if (new URLSearchParams(location.search).has('capture')) {
+      document.body.classList.add('capture-mode');
+    }
+
+    // 1-Click High-Res Download Handler
+    document.getElementById('download-btn').addEventListener('click', function () {
+      const btn = this;
+      btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Rendering 1080x1080 High-Res Post...';
+      btn.disabled = true;
+
+      const element = document.getElementById('post-canvas');
+
+      html2canvas(element, {
+        scale: 2,
+        useCORS: true,
+        allowTaint: true,
+        backgroundColor: '#111625',
+        logging: false
+      }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = 'khudkibook-new-blogs-instagram-post.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+
+        btn.innerHTML = '<i class="fas fa-check"></i> Downloaded Successfully!';
+        setTimeout(() => {
+          btn.innerHTML = '<i class="fas fa-download"></i> Download High-Res Instagram Post (PNG)';
+          btn.disabled = false;
+        }, 3000);
+      }).catch(err => {
+        console.error(err);
+        alert('Could not render image automatically. You can take a screenshot or right-click to save.');
+        btn.innerHTML = '<i class="fas fa-download"></i> Download High-Res Instagram Post (PNG)';
+        btn.disabled = false;
+      });
+    });
+  </script>
+</body>
+</html>

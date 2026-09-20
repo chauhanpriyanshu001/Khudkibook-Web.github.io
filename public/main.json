@@ -899,14 +899,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ai-data-science/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -939,14 +932,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ai-data-science/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -1093,14 +1079,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ai-data-science/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -1112,14 +1091,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ai-data-science/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -1503,14 +1475,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/ai-data-science/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -3214,17 +3179,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/ai-data-science/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -5587,14 +5542,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ai-ml/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -5627,14 +5575,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ai-ml/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -5781,14 +5722,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ai-ml/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -6151,14 +6085,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/ai-ml/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -6334,14 +6261,7 @@
       "bookCredit": "4",
       "sem": "sem2",
       "bookLink": "/ai-ml/sem2/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -8187,17 +8107,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/ai-ml/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -10478,14 +10388,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/automobile/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -10518,14 +10421,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/automobile/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -10558,14 +10454,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/automobile/sem1/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -10700,14 +10589,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/automobile/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -10719,14 +10601,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/automobile/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -13583,17 +13458,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/automobile/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -17560,14 +17425,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/biomedical/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -17600,14 +17458,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/biomedical/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -17742,14 +17593,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/biomedical/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -17761,14 +17605,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/biomedical/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -18139,14 +17976,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/biomedical/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -22981,14 +22811,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ceramic-technology/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -23021,14 +22844,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ceramic-technology/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -23175,14 +22991,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ceramic-technology/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -23194,14 +23003,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ceramic-technology/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -23213,14 +23015,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ceramic-technology/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -23564,14 +23359,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/ceramic-technology/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -25170,14 +24958,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/chemical-green/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -25210,14 +24991,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/chemical-green/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -25250,14 +25024,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/chemical-green/sem1/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -25392,14 +25159,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/chemical-green/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -25411,14 +25171,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/chemical-green/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -27038,17 +26791,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/chemical-green/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -29250,13 +28993,7 @@
         "https://drive.google.com/file/d/19kp-B4N3CltuXKNo90Ac7F0qv2VLvtnJ",
         "https://drive.google.com/file/d/19_aloooH_oJmjxhkNhvg7z83ZjsxPyOY",
         "https://drive.google.com/file/d/19_V6pdcHr-CY6-SNbuDK78jo5wBUBnVg",
-        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G",
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
+        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/170qwsdxWZxMeMHmhoXME1OUgW3bdXuNe",
@@ -29302,13 +29039,7 @@
         "https://drive.google.com/file/d/17FtILXd1pI8qvpCZ45ZjCtybUK9akWFd",
         "https://drive.google.com/file/d/179vdy76glH7op2vQ7BwykQQMgkRjI9-R",
         "https://drive.google.com/file/d/178HwIMRbW8fMBteZZ6YqJQ_T3-y3IrCi",
-        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3",
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
+        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3"
       ],
       "GujbooksLink": [],
       "bookPapers": [
@@ -29617,13 +29348,7 @@
         "https://drive.google.com/file/d/18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
         "https://drive.google.com/file/d/1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
         "https://drive.google.com/file/d/1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
-        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk",
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
+        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/1DJCDYyzTpah0GF_NI5wJBMGV8DkCPVmE",
@@ -31309,17 +31034,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/civil/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -35838,13 +35553,7 @@
         "https://drive.google.com/file/d/19kp-B4N3CltuXKNo90Ac7F0qv2VLvtnJ",
         "https://drive.google.com/file/d/19_aloooH_oJmjxhkNhvg7z83ZjsxPyOY",
         "https://drive.google.com/file/d/19_V6pdcHr-CY6-SNbuDK78jo5wBUBnVg",
-        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G",
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
+        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/170qwsdxWZxMeMHmhoXME1OUgW3bdXuNe",
@@ -35890,13 +35599,7 @@
         "https://drive.google.com/file/d/17FtILXd1pI8qvpCZ45ZjCtybUK9akWFd",
         "https://drive.google.com/file/d/179vdy76glH7op2vQ7BwykQQMgkRjI9-R",
         "https://drive.google.com/file/d/178HwIMRbW8fMBteZZ6YqJQ_T3-y3IrCi",
-        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3",
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
+        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3"
       ],
       "GujbooksLink": [],
       "bookPapers": [
@@ -35936,13 +35639,7 @@
         "https://drive.google.com/file/d/18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
         "https://drive.google.com/file/d/1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
         "https://drive.google.com/file/d/1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
-        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk",
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
+        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/1DJCDYyzTpah0GF_NI5wJBMGV8DkCPVmE",
@@ -36183,14 +35880,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/computer/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -36202,14 +35892,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/computer/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -36221,14 +35904,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/computer/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -37887,14 +37563,7 @@
       "bookCredit": "3",
       "sem": "sem4",
       "bookLink": "/computer/sem4/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -39689,17 +39358,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/computer/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -43505,14 +43164,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/cse/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -43545,14 +43197,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/cse/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -43714,14 +43359,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/cse/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -43733,14 +43371,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/cse/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -43752,14 +43383,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/cse/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -44124,14 +43748,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/cse/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -46326,17 +45943,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/cse/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -50101,14 +49708,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/cs-ai/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -50141,14 +49741,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/cs-ai/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -50314,14 +49907,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/cs-ai/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -50333,14 +49919,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/cs-ai/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -50698,14 +50277,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/cs-ai/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -50904,14 +50476,7 @@
       "bookCredit": "4",
       "sem": "sem2",
       "bookLink": "/cs-ai/sem2/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -52834,14 +52399,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ds/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -52874,14 +52432,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ds/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -53015,14 +52566,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ds/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -53034,14 +52578,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ds/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -53280,14 +52817,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/ds/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -54626,13 +54156,7 @@
         "https://drive.google.com/file/d/19kp-B4N3CltuXKNo90Ac7F0qv2VLvtnJ",
         "https://drive.google.com/file/d/19_aloooH_oJmjxhkNhvg7z83ZjsxPyOY",
         "https://drive.google.com/file/d/19_V6pdcHr-CY6-SNbuDK78jo5wBUBnVg",
-        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G",
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
+        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/170qwsdxWZxMeMHmhoXME1OUgW3bdXuNe",
@@ -54678,13 +54202,7 @@
         "https://drive.google.com/file/d/17FtILXd1pI8qvpCZ45ZjCtybUK9akWFd",
         "https://drive.google.com/file/d/179vdy76glH7op2vQ7BwykQQMgkRjI9-R",
         "https://drive.google.com/file/d/178HwIMRbW8fMBteZZ6YqJQ_T3-y3IrCi",
-        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3",
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
+        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3"
       ],
       "GujbooksLink": [],
       "bookPapers": [
@@ -54955,14 +54473,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/electrical/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -54974,14 +54485,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/electrical/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -55371,13 +54875,7 @@
         "https://drive.google.com/file/d/18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
         "https://drive.google.com/file/d/1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
         "https://drive.google.com/file/d/1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
-        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk",
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
+        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/1DJCDYyzTpah0GF_NI5wJBMGV8DkCPVmE",
@@ -57947,14 +57445,7 @@
       "bookCredit": "5",
       "sem": "sem6",
       "bookLink": "/electrical/sem6/biomaterials-and-implants.html",
-      "booksLink": [
-        "/books/4360302/unit-1.html",
-        "/books/4360302/unit-2.html",
-        "/books/4360302/unit-3.html",
-        "/books/4360302/unit-4.html",
-        "/books/4360302/unit-5.html",
-        "/books/4360302/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/S2024/DI/4360302.pdf",
@@ -58422,17 +57913,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/electrical/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -62281,14 +61762,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ec/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -62321,14 +61795,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ec/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -62475,14 +61942,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ec/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -62494,14 +61954,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ec/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -62906,14 +62359,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/ec/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -65427,14 +64873,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/electronics-telecom/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -65467,14 +64906,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/electronics-telecom/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -65621,14 +65053,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/electronics-telecom/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -65640,14 +65065,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/electronics-telecom/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -65659,14 +65077,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/electronics-telecom/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -65983,14 +65394,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/electronics-telecom/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -67203,14 +66607,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/electronics/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -67243,14 +66640,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/electronics/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -67397,14 +66787,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/electronics/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -67416,14 +66799,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/electronics/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -67435,14 +66811,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/electronics/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -67829,14 +67198,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/electronics/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -70884,17 +70246,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/electronics/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -74733,14 +74085,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/fabrication-technology/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -74773,14 +74118,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/fabrication-technology/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -74927,14 +74265,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/fabrication-technology/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -74946,14 +74277,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/fabrication-technology/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -74965,14 +74289,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/fabrication-technology/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -75324,14 +74641,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/fabrication-technology/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -77725,14 +77035,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ics/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -77765,14 +77068,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ics/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -77940,14 +77236,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ics/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -77959,14 +77248,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ics/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -77978,14 +77260,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/ics/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -78314,14 +77589,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/ics/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -80455,14 +79723,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ict-iot/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -80624,14 +79885,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/ict-iot/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -80938,14 +80192,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/ict-iot/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -82919,13 +82166,7 @@
         "https://drive.google.com/file/d/19kp-B4N3CltuXKNo90Ac7F0qv2VLvtnJ",
         "https://drive.google.com/file/d/19_aloooH_oJmjxhkNhvg7z83ZjsxPyOY",
         "https://drive.google.com/file/d/19_V6pdcHr-CY6-SNbuDK78jo5wBUBnVg",
-        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G",
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
+        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/170qwsdxWZxMeMHmhoXME1OUgW3bdXuNe",
@@ -82971,13 +82212,7 @@
         "https://drive.google.com/file/d/17FtILXd1pI8qvpCZ45ZjCtybUK9akWFd",
         "https://drive.google.com/file/d/179vdy76glH7op2vQ7BwykQQMgkRjI9-R",
         "https://drive.google.com/file/d/178HwIMRbW8fMBteZZ6YqJQ_T3-y3IrCi",
-        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3",
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
+        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3"
       ],
       "GujbooksLink": [],
       "bookPapers": [
@@ -83099,13 +82334,7 @@
       "sem": "sem1",
       "bookLink": "/it/sem1/mathematics.html",
       "booksLink": [
-        "/files/it/sem1/maths_book.pdf",
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
+        "/files/it/sem1/maths_book.pdf"
       ],
       "GujbooksLink": [],
       "bookPapers": [
@@ -83122,13 +82351,7 @@
       "sem": "sem1",
       "bookLink": "/it/sem1/english.html",
       "booksLink": [
-        "/files/it/sem1/english_book.pdf",
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
+        "/files/it/sem1/english_book.pdf"
       ],
       "GujbooksLink": [],
       "bookPapers": [],
@@ -83147,13 +82370,7 @@
         "https://drive.google.com/file/d/18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
         "https://drive.google.com/file/d/1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
         "https://drive.google.com/file/d/1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
-        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk",
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
+        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/1DJCDYyzTpah0GF_NI5wJBMGV8DkCPVmE",
@@ -84154,17 +83371,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/it/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -87936,14 +87143,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/instrumentation/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -87976,14 +87176,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/instrumentation/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -88151,14 +87344,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/instrumentation/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -88170,14 +87356,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/instrumentation/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -88546,14 +87725,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/instrumentation/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -91107,17 +90279,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/instrumentation/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -94468,14 +93630,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/marine/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -94508,14 +93663,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/marine/sem1/communication-skills-with-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -94605,14 +93753,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/marine/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -94624,14 +93765,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/marine/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -94865,14 +93999,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/marine/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -96106,13 +95233,7 @@
         "https://drive.google.com/file/d/19kp-B4N3CltuXKNo90Ac7F0qv2VLvtnJ",
         "https://drive.google.com/file/d/19_aloooH_oJmjxhkNhvg7z83ZjsxPyOY",
         "https://drive.google.com/file/d/19_V6pdcHr-CY6-SNbuDK78jo5wBUBnVg",
-        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G",
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
+        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/170qwsdxWZxMeMHmhoXME1OUgW3bdXuNe",
@@ -96158,13 +95279,7 @@
         "https://drive.google.com/file/d/17FtILXd1pI8qvpCZ45ZjCtybUK9akWFd",
         "https://drive.google.com/file/d/179vdy76glH7op2vQ7BwykQQMgkRjI9-R",
         "https://drive.google.com/file/d/178HwIMRbW8fMBteZZ6YqJQ_T3-y3IrCi",
-        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3",
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
+        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3"
       ],
       "GujbooksLink": [],
       "bookPapers": [
@@ -96198,14 +95313,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/mechanical/sem1/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -96391,14 +95499,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mechanical/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -96410,14 +95511,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/mechanical/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -96441,14 +95535,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mechanical/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -96830,13 +95917,7 @@
         "https://drive.google.com/file/d/18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
         "https://drive.google.com/file/d/1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
         "https://drive.google.com/file/d/1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
-        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk",
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
+        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/1DJCDYyzTpah0GF_NI5wJBMGV8DkCPVmE",
@@ -97186,13 +96267,7 @@
       "sem": "sem2",
       "bookLink": "/mechanical/sem2/MD.html",
       "booksLink": [
-        "https://drive.google.com/file/d/18nYtCeaN9ItYcNDll5MFaYbd1Z2SyXOG",
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
+        "https://drive.google.com/file/d/18nYtCeaN9ItYcNDll5MFaYbd1Z2SyXOG"
       ],
       "GujbooksLink": [],
       "bookPapers": [
@@ -100101,17 +99176,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/mechanical/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -104207,14 +103272,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mechanical-engineering-cad-cam/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -104247,14 +103305,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/mechanical-engineering-cad-cam/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -104368,14 +103419,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mechanical-engineering-cad-cam/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -104387,14 +103431,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/mechanical-engineering-cad-cam/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -104406,14 +103443,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mechanical-engineering-cad-cam/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -104635,14 +103665,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/mechanical-engineering-cad-cam/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -107194,14 +106217,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mechatronics/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -107234,14 +106250,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/mechatronics/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -107388,14 +106397,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mechatronics/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -107407,14 +106409,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/mechatronics/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -107426,14 +106421,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mechatronics/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -107804,14 +106792,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/mechatronics/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -110935,17 +109916,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/mechatronics/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -115134,14 +114105,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mining/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -115174,14 +114138,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/mining/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -115328,14 +114285,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mining/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -115347,14 +114297,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/mining/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -115366,14 +114309,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/mining/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -115760,14 +114696,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/mining/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -118077,17 +117006,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/mining/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -121204,14 +120123,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/nano/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -121244,14 +120156,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/nano/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -121384,14 +120289,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/nano/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -121403,14 +120301,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/nano/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -121671,14 +120562,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/nano/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -123160,17 +122044,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/nano/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -125081,14 +123955,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/power-electronics/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -125121,14 +123988,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/power-electronics/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -125275,14 +124135,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/power-electronics/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -125294,14 +124147,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/power-electronics/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -125656,14 +124502,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/power-electronics/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -128047,17 +126886,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/power-electronics/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -132789,14 +131618,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/printing-technology/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -132829,14 +131651,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/printing-technology/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -133000,14 +131815,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/printing-technology/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -133019,14 +131827,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/printing-technology/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -133038,14 +131839,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/printing-technology/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -133378,14 +132172,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/printing-technology/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -135203,14 +133990,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/production/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -135243,14 +134023,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/production/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -135283,14 +134056,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/production/sem1/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -135425,14 +134191,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/production/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -135444,14 +134203,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/production/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -135475,14 +134227,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/production/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -138283,17 +137028,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/production/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -141378,14 +140113,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/renewable-energy/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -141418,14 +140146,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/renewable-energy/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -141548,14 +140269,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/renewable-energy/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -141567,14 +140281,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/renewable-energy/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -141586,14 +140293,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/renewable-energy/sem1/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -141776,14 +140476,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/renewable-energy/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -143110,14 +141803,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/rubber/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -143150,14 +141836,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/rubber/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -143321,14 +142000,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/rubber/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -143340,14 +142012,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/rubber/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300002.pdf"
@@ -143699,14 +142364,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/rubber/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -143894,14 +142552,7 @@
       "bookCredit": "4",
       "sem": "sem2",
       "bookLink": "/rubber/sem2/applied-physics.html",
-      "booksLink": [
-        "/books/C4300004/unit-1.html",
-        "/books/C4300004/unit-2.html",
-        "/books/C4300004/unit-3.html",
-        "/books/C4300004/unit-4.html",
-        "/books/C4300004/unit-5.html",
-        "/books/C4300004/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300004.pdf"
@@ -145773,17 +144424,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/rubber/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -149206,17 +147847,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/smart-energy/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -149996,14 +148627,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/textile-designing/sem1/mathematics.html",
-      "booksLink": [
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300001.pdf",
@@ -150036,14 +148660,7 @@
       "bookCredit": "3",
       "sem": "sem1",
       "bookLink": "/textile-designing/sem1/communication-skills-in-english.html",
-      "booksLink": [
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300002.pdf",
@@ -150195,14 +148812,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/textile-designing/sem1/mathematics.html",
-      "booksLink": [
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [],
       "syllabus": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/C4300001.pdf"
@@ -150509,14 +149119,7 @@
       "bookCredit": "3",
       "sem": "sem2",
       "bookLink": "/textile-designing/sem2/environment-and-sustainability.html",
-      "booksLink": [
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/DI/4300003.pdf",
@@ -153307,17 +151910,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/aeronautical/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -156839,17 +155432,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/biotechnology/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -159720,17 +158303,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/chemical/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -163446,17 +162019,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/chemical-technology/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -166141,17 +164704,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/civil-infra/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -168363,16 +166916,7 @@
       "sem": "sem1",
       "bookLink": "/BE/common/sem1/chemistry.html",
       "booksLink": [
-        "https://drive.google.com/file/d/1gcxmZ2Ih34-bZwwiEaAxk2pNFvvtrbT3",
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
+        "https://drive.google.com/file/d/1gcxmZ2Ih34-bZwwiEaAxk2pNFvvtrbT3"
       ],
       "GujbooksLink": [],
       "bookPapers": [
@@ -169027,17 +167571,7 @@
       "bookCredit": "4",
       "sem": "sem2",
       "bookLink": "/BE/common/sem2/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -170303,17 +168837,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/cs-design/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -172581,17 +171105,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/cs-ai-ml/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -174760,17 +173274,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/cs-cyber/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -176811,17 +175315,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/cs-data-science/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -178561,17 +177055,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/cs-iot-cyber/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -181893,17 +180377,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/ec-cs/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -184410,17 +182884,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/ece/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -188194,17 +186658,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/ei/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -192136,17 +190590,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/environmental/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -195352,17 +193796,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/env-science-tech/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -198028,17 +196462,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/food-eng/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -200162,17 +198586,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/food-processing/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -202238,17 +200652,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/industrial/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -205142,17 +203546,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/ict/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -208514,17 +206908,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/manufacturing/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -211917,17 +210301,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/metallurgy/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -215222,17 +213596,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/plastic/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -218298,17 +216662,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/plastics/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -220632,17 +218986,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/robotics/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -224449,17 +222793,7 @@
       "bookCredit": "4",
       "sem": "sem1",
       "bookLink": "/BE/textile/sem1/chemistry.html",
-      "booksLink": [
-        "/books/3110001/unit-1.html",
-        "/books/3110001/unit-2.html",
-        "/books/3110001/unit-3.html",
-        "/books/3110001/unit-4.html",
-        "/books/3110001/unit-5.html",
-        "/books/3110001/unit-6.html",
-        "/books/3110001/unit-7.html",
-        "/books/3110001/unit-8.html",
-        "/books/3110001/full-book.html"
-      ],
+      "booksLink": [],
       "GujbooksLink": [],
       "bookPapers": [
         "https://gtu.ac.in/uploads/W2021/BE/3110001.pdf",
@@ -306916,13 +305250,7 @@
         "https://drive.google.com/file/d/19kp-B4N3CltuXKNo90Ac7F0qv2VLvtnJ",
         "https://drive.google.com/file/d/19_aloooH_oJmjxhkNhvg7z83ZjsxPyOY",
         "https://drive.google.com/file/d/19_V6pdcHr-CY6-SNbuDK78jo5wBUBnVg",
-        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G",
-        "/books/4300001/unit-1.html",
-        "/books/4300001/unit-2.html",
-        "/books/4300001/unit-3.html",
-        "/books/4300001/unit-4.html",
-        "/books/4300001/unit-5.html",
-        "/books/4300001/full-book.html"
+        "https://drive.google.com/file/d/19Vo8u7jfXDeyx5CyMszOhE7CMFG2Zi8G"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/170qwsdxWZxMeMHmhoXME1OUgW3bdXuNe",
@@ -306968,13 +305296,7 @@
         "https://drive.google.com/file/d/17FtILXd1pI8qvpCZ45ZjCtybUK9akWFd",
         "https://drive.google.com/file/d/179vdy76glH7op2vQ7BwykQQMgkRjI9-R",
         "https://drive.google.com/file/d/178HwIMRbW8fMBteZZ6YqJQ_T3-y3IrCi",
-        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3",
-        "/books/4300002/unit-1.html",
-        "/books/4300002/unit-2.html",
-        "/books/4300002/unit-3.html",
-        "/books/4300002/unit-4.html",
-        "/books/4300002/unit-5.html",
-        "/books/4300002/full-book.html"
+        "https://drive.google.com/file/d/173VaFoh2hpT1wJNEiAcvzNlPBbWLzTf3"
       ],
       "GujbooksLink": [],
       "bookPapers": [
@@ -307096,13 +305418,7 @@
       "sem": "sem1",
       "bookLink": "/it/sem1/mathematics.html",
       "booksLink": [
-        "/files/it/sem1/maths_book.pdf",
-        "/books/C4300001/unit-1.html",
-        "/books/C4300001/unit-2.html",
-        "/books/C4300001/unit-3.html",
-        "/books/C4300001/unit-4.html",
-        "/books/C4300001/unit-5.html",
-        "/books/C4300001/full-book.html"
+        "/files/it/sem1/maths_book.pdf"
       ],
       "GujbooksLink": [],
       "bookPapers": [
@@ -307119,13 +305435,7 @@
       "sem": "sem1",
       "bookLink": "/it/sem1/english.html",
       "booksLink": [
-        "/files/it/sem1/english_book.pdf",
-        "/books/C4300002/unit-1.html",
-        "/books/C4300002/unit-2.html",
-        "/books/C4300002/unit-3.html",
-        "/books/C4300002/unit-4.html",
-        "/books/C4300002/unit-5.html",
-        "/books/C4300002/full-book.html"
+        "/files/it/sem1/english_book.pdf"
       ],
       "GujbooksLink": [],
       "bookPapers": [],
@@ -307144,13 +305454,7 @@
         "https://drive.google.com/file/d/18dvvFIdVwor6raQ6QoMkUt2Uk-3zfH-b",
         "https://drive.google.com/file/d/1byMHCVJ8dlNoOJoGPEHhQXGC1cRZjACD",
         "https://drive.google.com/file/d/1n_l4KezQbyZan9r8-GJm0hR6DMt_RwLY",
-        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk",
-        "/books/4300003/unit-1.html",
-        "/books/4300003/unit-2.html",
-        "/books/4300003/unit-3.html",
-        "/books/4300003/unit-4.html",
-        "/books/4300003/unit-5.html",
-        "/books/4300003/full-book.html"
+        "https://drive.google.com/file/d/19mG9PrcAhBF_V7PErUq_l3aMNtlvDdyk"
       ],
       "GujbooksLink": [
         "https://drive.google.com/file/d/1DJCDYyzTpah0GF_NI5wJBMGV8DkCPVmE",

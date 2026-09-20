@@ -354,11 +354,11 @@ function buildPage({ code, unitInfo, contentHtml, toc, title, description, stats
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${esc(title)}</title>
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="robots" content="noindex, nofollow" />
   <meta name="keywords" content="GTU ${info.title.toLowerCase()}, ${code}, ${unitInfo.label.toLowerCase()}, ${isGu ? 'gtu ગુજરાતી અભ્યાસ સામગ્રી' : 'diploma biomedical engineering'}, ai book, khudkibook" />
   <meta name="description" content="${esc(description)}" />
   <meta name="author" content="KhudKibook" />
-  <meta name="theme-color" content="#4f46e5" />
+  <meta name="theme-color" content="#CD5D33" />
   <link rel="canonical" href="${canonical}" />
   ${hreflang}
   <meta property="og:type" content="article" />
@@ -371,22 +371,6 @@ function buildPage({ code, unitInfo, contentHtml, toc, title, description, stats
   <meta name="twitter:description" content="${esc(description)}" />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/brand/favicon-32x32.png?v=2" />
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/brand/khudkibook-logo.png?v=2" />
-  <script type="application/ld+json">${JSON.stringify({
-    "@context": "https://schema.org", "@type": "Article",
-    headline: title, description, url: canonical,
-    author: { "@type": "Organization", name: "KhudKibook" },
-    about: { "@type": "Course", name: info.title, courseCode: code },
-    publisher: { "@type": "Organization", name: "KhudKibook" },
-    inLanguage: htmlLang, isAccessibleForFree: true
-  })}</script>
-  <script type="application/ld+json">${JSON.stringify({
-    "@context": "https://schema.org", "@type": "Book",
-    name: `${info.title} – ${unitInfo.label}`,
-    url: canonical, inLanguage: htmlLang,
-    author: { "@type": "Organization", name: "KhudKibook" },
-    isbn: undefined, numberOfPages: Math.max(1, Math.ceil(stats.words / 500)),
-    about: { "@type": "Course", name: info.title, courseCode: code }
-  })}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -396,9 +380,9 @@ function buildPage({ code, unitInfo, contentHtml, toc, title, description, stats
   <style>
     html{scroll-behavior:smooth}
     body{font-family:${isGu ? "'Inter','Noto Sans Gujarati',sans-serif" : "'Inter',sans-serif"}}
-    .kb-progress-bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#4f46e5,#7c3aed);z-index:1200;transition:width .1s linear}
+    .kb-progress-bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#CD5D33,#F0A66E);z-index:1200;transition:width .1s linear}
     .kb-book{max-width:880px;margin:0 auto;padding:0 16px 60px}
-    .kb-book-head{background:linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%);border-radius:18px;padding:26px 26px 22px;color:#fff;margin:18px 0 20px;box-shadow:var(--shadow-glow)}
+    .kb-book-head{background:linear-gradient(135deg,#CD5D33 0%,#F0A66E 100%);border-radius:18px;padding:26px 26px 22px;color:#fff;margin:18px 0 20px;box-shadow:var(--shadow-glow)}
     .kb-book-head .kb-kicker{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
     .kb-book-head h1{font-family:'Outfit',sans-serif;font-size:clamp(1.35rem,3.5vw,2rem);margin:6px 0 4px;line-height:1.25}
     .kb-book-head .kb-sub{opacity:.92;font-size:.95rem;font-weight:600}

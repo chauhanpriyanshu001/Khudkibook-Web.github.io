@@ -159,6 +159,7 @@ const modernNavbarHTML = `
 
         <li><a href="/BE/behomepage.html" class="nav-item-link"><i class="fas fa-university"></i> Degree (BE)</a></li>
         <li><a href="/ddcet.html" class="nav-item-link"><i class="fas fa-book-reader"></i> DDCET</a></li>
+        <li><a href="/blog/" class="nav-item-link"><i class="fas fa-pen-nib"></i> Blog</a></li>
     </ul>
 
     <!-- Right Controls (Symmetrical alignment for Search & Hamburger) -->
@@ -185,6 +186,8 @@ const modernNavbarHTML = `
         <a href="/" class="drawer-link"><i class="fas fa-home"></i> Home</a>
         <a href="/BE/behomepage.html" class="drawer-link"><i class="fas fa-university"></i> Degree (BE)</a>
         <a href="/ddcet.html" class="drawer-link"><i class="fas fa-book-reader"></i> DDCET Preparation</a>
+        <a href="/blog/" class="drawer-link"><i class="fas fa-pen-nib"></i> Blog</a>
+        <a href="/contact.html" class="drawer-link"><i class="fas fa-envelope"></i> Contact Us</a>
         
         <div class="drawer-section-title"><i class="fas fa-graduation-cap"></i> Diploma Branches</div>
         <div class="drawer-branch-list">
@@ -253,7 +256,7 @@ const modernFooterHTML = `
 <div class="ftrreviwwrap">
     <div class="about">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
-            <img src="/assets/brand/khudkibook-logo.png" alt="Khudkibook Logo" width="38" height="38" style="border-radius:10px;background:#4338ca;padding:2px;" />
+            <img src="/assets/brand/khudkibook-logo.png" alt="Khudkibook Logo" width="38" height="38" style="border-radius:10px;background:#A64B27;padding:2px;" />
             <span class="textl" style="font-size:1.3rem;">Khudkibook</span>
         </div>
         <h3 class="fotthead"><i class="fas fa-graduation-cap" style="color:#a5b4fc; margin-right:8px;"></i> ABOUT KHUDKIBOOK</h3>
@@ -268,6 +271,14 @@ const modernFooterHTML = `
             <input type="email" required placeholder="Your Student Email *" id="fedbackemail" />
             <textarea required placeholder="How can we make Khudkibook better for you? *" id="fedback" rows="3"></textarea>
             <button id="postfeed" type="button"><i class="fas fa-paper-plane"></i> Submit Feedback</button>
+        </div>
+    </div>
+    <div class="social">
+        <h3 class="fotthead"><i class="fas fa-compass" style="color:#a5b4fc; margin-right:8px;"></i> QUICK LINKS</h3>
+        <div class="col">
+            <a href="/about.html"><i class="fas fa-info-circle"></i> About Us</a>
+            <a href="/blog/"><i class="fas fa-pen-nib"></i> Blog</a>
+            <a href="/contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
         </div>
     </div>
     <div class="social">
@@ -479,7 +490,7 @@ function initSiteSearch() {
         }
         resultsBox.innerHTML = list.slice(0, 12).map(item => `
             <a href="${item.url}" class="kb-sr-item">
-                <span class="sr-cover" style="background:${item.color || '#4f46e5'}"><i class="fas fa-book" style="color:#fff;font-size:0.8rem;line-height:44px;text-align:center;display:block;"></i></span>
+                <span class="sr-cover" style="background:${item.color || '#CD5D33'}"><i class="fas fa-book" style="color:#fff;font-size:0.8rem;line-height:44px;text-align:center;display:block;"></i></span>
                 <span style="flex:1;min-width:0;">
                     <span class="sr-title" style="display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${item.name}</span>
                     <span class="sr-sub">${item.code ? `<strong>${item.code}</strong> &middot; ` : ''}${item.branch || ''} &middot; ${item.sem || ''}</span>

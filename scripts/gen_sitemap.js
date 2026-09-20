@@ -52,6 +52,19 @@ function isNoindex(html) {
     return !!m && /noindex/i.test(m[1]);
 }
 
+// A page is a "thin placeholder" when its book material is still a "Coming Soon"
+// stub AND it has no real book link (AI reader pages under /books/ or Google Drive
+// PDFs). Such pages add no unique value and drag down content quality signals.
+// Only generated subject pages qualify — never blog posts, indexes or other pages,
+// which may legitimately mention "Coming Soon" or ship it inside inline scripts.
+function isThinPlaceholder(html) {
+    if (!/id="modal-(?:book|papers|gujbook)"/i.test(html)) return false;
+    if (!/Coming Soon/i.test(html)) return false;
+    if (/\/(books|pdfs)\//i.test(html)) return false;
+    if (/drive\.google\.com/i.test(html)) return false;
+    return true;
+}
+
 function w3cDate(ms) {
     return new Date(ms).toISOString().split('T')[0];
 }
@@ -78,6 +91,7 @@ const seen = new Map();
 for (const file of files) {
     const html = fs.readFileSync(file, 'utf8');
     if (isNoindex(html)) continue;
+    if (isThinPlaceholder(html)) continue;
     let canonical = extractCanonical(html);
     if (!canonical) continue;
 

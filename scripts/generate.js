@@ -60,14 +60,14 @@ function generateSite() {
     // Deterministic cover gradient palette derived from a string seed
     function coverGradient(seed) {
         const palettes = [
-            ['linear-gradient(160deg,#4f46e5 0%,#7c3aed 55%,#1e1b4b 140%)', '#4f46e5'],
-            ['linear-gradient(160deg,#0ea5e9 0%,#6366f1 55%,#1e1b4b 140%)', '#0ea5e9'],
-            ['linear-gradient(160deg,#059669 0%,#0ea5e9 55%,#0f172a 140%)', '#059669'],
-            ['linear-gradient(160deg,#d97706 0%,#dc2626 55%,#1e1b4b 140%)', '#d97706'],
-            ['linear-gradient(160deg,#7c3aed 0%,#db2777 55%,#1e1b4b 140%)', '#7c3aed'],
-            ['linear-gradient(160deg,#0d9488 0%,#2563eb 55%,#0f172a 140%)', '#0d9488'],
-            ['linear-gradient(160deg,#db2777 0%,#7c3aed 55%,#1e1b4b 140%)', '#db2777'],
-            ['linear-gradient(160deg,#2563eb 0%,#14b8a6 55%,#0f172a 140%)', '#2563eb']
+            ['linear-gradient(160deg,#CD5D33 0%,#F8C885 55%,#4A3A2C 140%)', '#CD5D33'],
+            ['linear-gradient(160deg,#C7643B 0%,#EFAE78 55%,#4A3A2C 140%)', '#C7643B'],
+            ['linear-gradient(160deg,#A84E2A 0%,#E3915A 55%,#3E352B 140%)', '#A84E2A'],
+            ['linear-gradient(160deg,#B9532C 0%,#F0B877 55%,#4A3A2C 140%)', '#B9532C'],
+            ['linear-gradient(160deg,#C05A32 0%,#E89A5E 55%,#4A3A2C 140%)', '#C05A32'],
+            ['linear-gradient(160deg,#B0532B 0%,#DD8950 55%,#3E352B 140%)', '#B0532B'],
+            ['linear-gradient(160deg,#C65E36 0%,#EFAA75 55%,#4A3A2C 140%)', '#C65E36'],
+            ['linear-gradient(160deg,#A94F29 0%,#E08A4F 55%,#3E352B 140%)', '#A94F29']
         ];
         let h = 0;
         for (let i = 0; i < (seed || '').length; i++) h = (h * 31 + (seed.charCodeAt(i) || 0)) >>> 0;
@@ -130,21 +130,8 @@ function generateSite() {
         `;
     }
 
-    // In-content Ad Slot HTML
-    const inContentAdHTML = `
-        <div class="ad-slot-wrapper" style="margin: 35px auto;">
-            <span class="ad-label">Advertisement</span>
-            <div class="ad-container ad-in-content">
-                <ins class="adsbygoogle"
-                     style="display:block; width:100%; text-align:center;"
-                     data-ad-client="${AD_PUB_ID}"
-                     data-ad-slot="4067607591"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            </div>
-        </div>
-    `;
+    // In-content Ad Slot HTML (ads temporarily disabled — empty template)
+    const inContentAdHTML = ``;
 
     // Iterate through Universities
     db.universities.forEach(unv => {

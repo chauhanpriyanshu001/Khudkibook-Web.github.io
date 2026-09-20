@@ -10,7 +10,7 @@
 
   // Global AdSense Placement Configuration
   var AD_CONFIG = {
-    enabled: true,
+    enabled: false, // TEMP: ads disabled site-wide. Flip to true to re-enable.
     client: 'ca-pub-4211827566541334', // Your AdSense Publisher ID
     debug: false, // Set to true to log injection events in browser console
     lazyLoad: true, // Use IntersectionObserver to lazy load ads on scroll

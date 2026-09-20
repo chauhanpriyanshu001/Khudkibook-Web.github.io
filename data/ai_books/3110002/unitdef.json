@@ -1,0 +1,119 @@
+{
+  "code": "3110002",
+  "subject": "English",
+  "slug": "english",
+  "branchLabel": "Gujarat Technological University Aeronautical Engineering Semester 1",
+  "page": "/aeronautical/sem1/english.html",
+  "semId": "sem1",
+  "level": "degree",
+  "references": {
+    "books": [],
+    "websites": []
+  },
+  "syllabusUrl": null,
+  "generatedAt": "2026-09-18T12:32:39.433Z",
+  "units": [
+    {
+      "n": 1,
+      "roman": "1",
+      "title": "Vocabulary building",
+      "uos": [],
+      "topics": [
+        "Introduction to Word Formation Types of word formation processes: compounding",
+        "clipping",
+        "blending",
+        "derivation",
+        "creative respelling",
+        "coining and borrowing Acquaintance with prefixes and suffixes Synonyms",
+        "antonyms, and standard abbreviations"
+      ],
+      "hours": 6,
+      "weightage": "20%",
+      "titleGu": null,
+      "marks": "20% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    },
+    {
+      "n": 2,
+      "roman": "2",
+      "title": "Phonetics",
+      "uos": [],
+      "topics": [
+        "IPA Transcription Introduction to different accents"
+      ],
+      "hours": 4,
+      "weightage": "10%",
+      "titleGu": null,
+      "marks": "10% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    },
+    {
+      "n": 3,
+      "roman": "3",
+      "title": "Identifying Common Errors in Writing",
+      "uos": [],
+      "topics": [
+        "Tenses Subject-verb agreement Noun-pronoun agreement Misplaced modifiers Articles Prepositions Modal Auxiliaries Redundancies"
+      ],
+      "hours": 6,
+      "weightage": "20%",
+      "titleGu": null,
+      "marks": "20% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    },
+    {
+      "n": 4,
+      "roman": "4",
+      "title": "Basic Writing Skills",
+      "uos": [],
+      "topics": [
+        "Sentence Structures Use of phrases and clauses in sentences Importance of proper punctuation Creating coherence Organizing principles of paragraphs in documents"
+      ],
+      "hours": 4,
+      "weightage": "10%",
+      "titleGu": null,
+      "marks": "10% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    },
+    {
+      "n": 5,
+      "roman": "5",
+      "title": "Nature and Style of Writing",
+      "uos": [],
+      "topics": [
+        "Describing Defining Classifying Writing introduction and conclusion"
+      ],
+      "hours": 6,
+      "weightage": "20%",
+      "titleGu": null,
+      "marks": "20% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    },
+    {
+      "n": 6,
+      "roman": "6",
+      "title": "Writing Practices",
+      "uos": [],
+      "topics": [
+        "Comprehension Précis Writing Letter Writing Email etiquettes Abstract Memo writing"
+      ],
+      "hours": 6,
+      "weightage": "20%",
+      "titleGu": null,
+      "marks": "20% of the end-semester theory paper",
+      "a": null,
+      "u": null,
+      "r": null
+    }
+  ]
+}

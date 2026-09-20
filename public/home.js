@@ -8,11 +8,11 @@
     }
     function coverHTML(book) {
         const palettes = [
-            'linear-gradient(160deg,#4f46e5 0%,#7c3aed 55%,#1e1b4b 140%)',
-            'linear-gradient(160deg,#0ea5e9 0%,#6366f1 55%,#1e1b4b 140%)',
-            'linear-gradient(160deg,#059669 0%,#0ea5e9 55%,#0f172a 140%)',
-            'linear-gradient(160deg,#d97706 0%,#dc2626 55%,#1e1b4b 140%)',
-            'linear-gradient(160deg,#7c3aed 0%,#db2777 55%,#1e1b4b 140%)'
+            'linear-gradient(160deg,#CD5D33 0%,#F8C885 55%,#4A3A2C 140%)',
+            'linear-gradient(160deg,#C7643B 0%,#EFAE78 55%,#4A3A2C 140%)',
+            'linear-gradient(160deg,#A84E2A 0%,#E3915A 55%,#3E352B 140%)',
+            'linear-gradient(160deg,#B9532C 0%,#F0B877 55%,#4A3A2C 140%)',
+            'linear-gradient(160deg,#C05A32 0%,#E89A5E 55%,#4A3A2C 140%)'
         ];
         let h = 0;
         for (let i = 0; i < (book.bookName || '').length; i++) h = (h * 31 + (book.bookName || '').charCodeAt(i)) >>> 0;

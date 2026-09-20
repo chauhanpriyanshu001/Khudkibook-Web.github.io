@@ -1,0 +1,29 @@
+{
+ "code": "3110002",
+ "subject": "English",
+ "branchLabel": "Gujarat Technological University Aeronautical Engineering Semester 1",
+ "subjectPage": "/aeronautical/sem1/english.html",
+ "units": [
+  {
+   "n": 1,
+   "label": "Unit – Vocabulary building",
+   "file": "unit-1.html",
+   "guFile": null,
+   "words": 2061,
+   "readingMin": 11,
+   "marks": ""
+  }
+ ],
+ "title": "English",
+ "titleGu": "English",
+ "pages": [
+  {
+   "n": 1,
+   "file": "unit-1.html",
+   "marks": "20% of the end-semester theory paper",
+   "hours": 6
+  }
+ ],
+ "full": null,
+ "updatedAt": "2026-09-18T12:52:32.658Z"
+}

@@ -106,7 +106,7 @@ jobs:
           git push origin HEAD:${{ github.event.repository.default_branch }}
 
       - name: Deploy to Firebase Hosting
-        if: steps.commit.outputs.changed == 'true' || inputs.force_deploy == 'true'
+        if: steps.commit.outputs.changed == 'true' || inputs.force_deploy == true
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |

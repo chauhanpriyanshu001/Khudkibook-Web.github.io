@@ -444,6 +444,37 @@ async function main() {
     ok('announced date admits when GTU states none', () =>
         assert.strictEqual(blogGen.announcedLabel({ members: [{ date: '' }] }), 'date not stated by GTU'));
 
+    // --rebuild-posts re-renders existing posts from the archive. It must never
+    // invent a page, never move a publish date, and must carry the new labels.
+    const rbBefore = JSON.parse(fs.readFileSync(P('public/blog/posts.json'), 'utf8'));
+    const rb = await gtuWatch.rebuildPosts({ log: () => {} });
+    const after = JSON.parse(fs.readFileSync(P('public/blog/posts.json'), 'utf8'));
+    ok('rebuild re-renders the posts that already exist', () =>
+        assert.ok(rb.rebuilt.length > 0, JSON.stringify(rb)));
+    ok('rebuild invents no new post', () =>
+        assert.deepStrictEqual(after.map(p => p.slug).sort(), rbBefore.map(p => p.slug).sort()));
+    ok('rebuild preserves every publish date', () =>
+        assert.deepStrictEqual(
+            after.map(p => [p.slug, p.date]).sort(),
+            rbBefore.map(p => [p.slug, p.date]).sort()));
+    ok('rebuild writes a file for every post it re-rendered', () => {
+        assert.ok(rb.written.length > 0, 'wrote nothing');
+        for (const rel of rb.written) assert.ok(fs.existsSync(path.join(TMP, rel)), rel);
+    });
+    const rebuiltFile = path.join(TMP, rb.written[0]);
+    ok('rebuilt post states the GTU announcement date', () => {
+        const html = fs.readFileSync(rebuiltFile, 'utf8');
+        assert.ok(/Announced by GTU:/.test(html), 'missing announcement label');
+        assert.ok(/Published here:/.test(html), 'missing publish label');
+        assert.ok(!/Posted \d/.test(html), 'ambiguous "Posted" label survived');
+    });
+    // ok() is synchronous, so the second rebuild is awaited out here rather than
+    // inside the assertion — otherwise its tail would run after TMP is removed.
+    const snap = fs.readFileSync(rebuiltFile, 'utf8');
+    await gtuWatch.rebuildPosts({ log: () => {} });
+    ok('rebuild is idempotent', () =>
+        assert.strictEqual(fs.readFileSync(rebuiltFile, 'utf8'), snap));
+
     console.log(`\n${checks} checks passed.`);
     fs.rmSync(TMP, { recursive: true, force: true });
 }

@@ -435,6 +435,15 @@ async function main() {
     });
 
     globalThis.fetch = realFetch;
+
+    const blogGen = require('./blog_gen');
+    ok('announced date collapses to a single date', () =>
+        assert.strictEqual(blogGen.announcedLabel({ members: [{ date: '2026-09-25' }, { date: '2026-09-25' }] }), '25 September 2026'));
+    ok('announced date spans a range when circulars differ', () =>
+        assert.strictEqual(blogGen.announcedLabel({ members: [{ date: '2026-09-20' }, { date: '2026-09-25' }] }), '20 September 2026 to 25 September 2026'));
+    ok('announced date admits when GTU states none', () =>
+        assert.strictEqual(blogGen.announcedLabel({ members: [{ date: '' }] }), 'date not stated by GTU'));
+
     console.log(`\n${checks} checks passed.`);
     fs.rmSync(TMP, { recursive: true, force: true });
 }

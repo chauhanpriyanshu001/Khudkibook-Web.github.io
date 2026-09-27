@@ -34,6 +34,23 @@ function prettyDate(iso) {
     return `${d} ${MONTHS[m - 1] || ''} ${y}`;
 }
 
+/**
+ * The date GTU itself announced the circulars behind a post, which is NOT the
+ * date this post went live. A single date reads plainly; several collapse to a
+ * range so the reader can see the window the circulars actually cover.
+ */
+function announcedLabel(group) {
+    const dates = (group.members || [])
+        .map(m => m.date)
+        .filter(d => /^\d{4}-\d{2}-\d{2}$/.test(String(d || '')))
+        .sort();
+    if (!dates.length) return 'date not stated by GTU';
+    const first = dates[0];
+    const last = dates[dates.length - 1];
+    if (first === last) return prettyDate(first);
+    return `${prettyDate(first)} to ${prettyDate(last)}`;
+}
+
 /** "Sem 1, 2, 3" from [1,2,3]; collapses ranges like 1-6. */
 function formatSemesters(list) {
     const nums = Array.from(new Set(list.filter(n => Number.isFinite(n)))).sort((a, b) => a - b);
@@ -113,7 +130,7 @@ function documentList(members) {
     if (!items.length) return '';
     const rows = items.map(it => `            <li>
               <a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a>
-              ${it.date ? `<br /><span style="font-size:0.82rem; color:var(--text-muted,#6b7280);">Posted ${esc(prettyDate(it.date))}</span>` : ''}
+              ${it.date ? `<br /><span style="font-size:0.82rem; color:var(--text-muted,#6b7280);">Announced by GTU on ${esc(prettyDate(it.date))}</span>` : ''}
             </li>`).join('\n');
     return `<h2>Official Circulars (PDF)</h2>
           <p>These are the exact circulars published by GTU, in the order they were released. Download and read the one that matches your programme.</p>
@@ -123,7 +140,7 @@ ${rows}
 }
 
 const DISCLAIMER = (asOf) => `          <p style="font-size:0.82rem; color:var(--text-muted,#6b7280);">
-            This article was generated automatically from official GTU circulars, latest as of ${esc(prettyDate(asOf))}.
+            This article was generated automatically from official GTU circulars, newest of which GTU announced on ${esc(prettyDate(asOf))}.
             GTU changes dates, fees and deadlines from time to time &mdash; always confirm the current position in the
             official PDF or on your student portal before you act.
           </p>`;
@@ -765,7 +782,8 @@ ${ARTICLE_CSS}
         <div class="kb-article-head">
           <h1>${esc(title)}</h1>
           <div class="kb-article-meta">
-            <span><i class="far fa-calendar-alt"></i> ${esc(prettyDate(date))}</span>
+            <span><i class="far fa-calendar-alt"></i> Announced by GTU: ${esc(announcedLabel(group))}</span>
+            <span><i class="fas fa-pen-nib"></i> Published here: ${esc(prettyDate(date))}</span>
             <span><i class="far fa-clock"></i> ${esc(readTime)} read</span>
             <span><i class="fas fa-tag"></i> ${esc(tagList)}</span>
             <span><i class="fas fa-file-pdf"></i> ${group.members.length} official circular${group.members.length === 1 ? '' : 's'}</span>
@@ -920,6 +938,7 @@ module.exports = {
     summariseCoverage,
     formatSemesters,
     prettyDate,
+    announcedLabel,
     slugFor,
     titleFor,
     excerptFor,

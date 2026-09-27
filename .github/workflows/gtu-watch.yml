@@ -21,6 +21,11 @@ on:
         type: boolean
         required: false
         default: false
+      force_deploy:
+        description: 'Deploy to Firebase even when this run finds nothing new'
+        type: boolean
+        required: false
+        default: false
 
 # One run at a time; queue rather than cancel, so a slow run is not lost.
 concurrency:
@@ -101,7 +106,7 @@ jobs:
           git push origin HEAD:${{ github.event.repository.default_branch }}
 
       - name: Deploy to Firebase Hosting
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.changed == 'true' || inputs.force_deploy == 'true'
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |

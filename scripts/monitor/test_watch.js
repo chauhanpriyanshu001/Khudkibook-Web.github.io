@@ -493,6 +493,8 @@ async function main() {
         assert.strictEqual(d.day, '05');
         assert.strictEqual(d.mon, 'Sep');
     });
+    ok('splitDate labels a single-digit day exactly as the tile shows it', () =>
+        assert.strictEqual(splitDate('2026-12-05').full, '05 Dec 2026'));
     ok('notices page makes no claim about how often it is checked', () => {
         const visible = noticesHtml.replace(/<!--[\s\S]*?-->/g, '');
         assert.ok(!/every 15 minutes|15-minute/i.test(visible.replace(/^\s*\/\/.*$/gm, '')),

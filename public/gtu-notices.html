@@ -224,7 +224,7 @@
           return {
             day: m[3],
             mon: MONTHS[parseInt(m[2], 10) - 1] || '',
-            full: parseInt(m[3], 10) + ' ' + (MONTHS[parseInt(m[2], 10) - 1] || '') + ' ' + m[1]
+            full: m[3] + ' ' + (MONTHS[parseInt(m[2], 10) - 1] || '') + ' ' + m[1]
           };
         }
 

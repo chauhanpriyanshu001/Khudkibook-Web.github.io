@@ -475,6 +475,30 @@ async function main() {
     ok('rebuild is idempotent', () =>
         assert.strictEqual(fs.readFileSync(rebuiltFile, 'utf8'), snap));
 
+    // The notices board is plain client-side JS, so lift splitDate out of the
+    // page and run it. It once returned `full: m[1]`, which is only the year.
+    const noticesHtml = fs.readFileSync(path.join(__dirname, '../../public/gtu-notices.html'), 'utf8');
+    // The closing brace must be followed by a newline, not a semicolon, or the
+    // match stops inside the returned object literal.
+    const splitSrc = /function splitDate\(iso\)\s*\{[\s\S]*?\n\s*\}\s*\n/.exec(noticesHtml);
+    ok('notices page defines splitDate', () => assert.ok(splitSrc, 'could not find splitDate'));
+    const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const splitDate = new Function('MONTHS', `${splitSrc[0]}; return splitDate;`)(MONTHS);
+    ok('splitDate spells out the full announcement date', () =>
+        assert.strictEqual(splitDate('2026-09-25').full, '25 Sep 2026'));
+    ok('splitDate no longer reduces the date to a year', () =>
+        assert.notStrictEqual(splitDate('2026-09-25').full, '2026'));
+    ok('splitDate keeps the day and month tile', () => {
+        const d = splitDate('2026-09-05');
+        assert.strictEqual(d.day, '05');
+        assert.strictEqual(d.mon, 'Sep');
+    });
+    ok('notices page makes no claim about how often it is checked', () => {
+        const visible = noticesHtml.replace(/<!--[\s\S]*?-->/g, '');
+        assert.ok(!/every 15 minutes|15-minute/i.test(visible.replace(/^\s*\/\/.*$/gm, '')),
+            'user-facing copy still advertises a 15-minute interval');
+    });
+
     console.log(`\n${checks} checks passed.`);
     fs.rmSync(TMP, { recursive: true, force: true });
 }

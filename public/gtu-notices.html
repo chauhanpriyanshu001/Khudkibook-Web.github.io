@@ -9,7 +9,7 @@
     <!-- SEO Meta Tags -->
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="keywords" content="gtu notices, gtu circulars, gtu result 2026, gtu exam form, gtu syllabus update, gtu academic calendar, gtu news today" />
-    <meta name="description" content="Every official GTU circular in one place — results, exam forms, term extension, syllabus changes and academic calendar — checked against gtu.ac.in every 15 minutes. Free PDF links, no login." />
+    <meta name="description" content="Every official GTU circular in one place — results, exam forms, term extension, syllabus changes and academic calendar — checked against gtu.ac.in automatically. Free PDF links, no login." />
     <meta name="author" content="Khudkibook" />
     <meta name="generator" content="Khudkibook" />
     <meta name="theme-color" content="#CD5D33" />
@@ -26,7 +26,7 @@
     <meta property="og:site_name" content="Khudkibook" />
     <meta property="og:locale" content="en_IN" />
     <meta property="og:title" content="GTU Notices 2026 — Results, Exam Forms, Syllabus &amp; Circulars" />
-    <meta property="og:description" content="Official GTU circulars checked every 15 minutes. Results, exam forms, syllabus changes and the academic calendar, with free PDF links." />
+    <meta property="og:description" content="Official GTU circulars checked automatically. Results, exam forms, syllabus changes and the academic calendar, with free PDF links." />
     <meta property="og:image" content="https://chauhanpriyanshu001.github.io/pic.github.io/bg.webp" />
     <meta property="og:image:type" content="image/webp" />
     <meta property="og:image:width" content="1200" />
@@ -37,7 +37,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@khudkibook" />
     <meta name="twitter:title" content="GTU Notices 2026 — Results, Exam Forms, Syllabus &amp; Circulars" />
-    <meta name="twitter:description" content="Official GTU circulars checked every 15 minutes, with free PDF links." />
+    <meta name="twitter:description" content="Official GTU circulars checked automatically, with free PDF links." />
     <meta name="twitter:image" content="https://chauhanpriyanshu001.github.io/pic.github.io/bg.webp" />
     <meta name="twitter:url" content="https://khudkibook.in/gtu-notices.html" />
 
@@ -139,9 +139,10 @@
         <div class="kn-head">
           <h1><i class="fas fa-bullhorn" style="margin-right: 10px;"></i>GTU Notices &amp; Circulars</h1>
           <p>
-            Khudkibook checks the official GTU circular feed every 15 minutes. Anything new &mdash; a result
+            Khudkibook checks the official GTU circular feed automatically. Anything new &mdash; a result
             declaration, an exam form circular, a syllabus revision &mdash; shows up here with a direct link to the
-            original PDF. No login, no waiting for a college notice board.
+            original PDF. No login, no waiting for a college notice board. GTU records no clock time on its circulars,
+            so each entry shows the announcement date only.
           </p>
           <span class="kn-live"><span class="kn-dot"></span> Monitored live from gtu.ac.in</span>
           <a href="/gtu-notices.xml" style="display:inline-flex; align-items:center; gap:6px; margin-left:8px; background:rgba(255,255,255,0.16); border:1px solid rgba(255,255,255,0.3); color:#fff; padding:6px 14px; border-radius:999px; font-size:0.78rem; font-weight:700; text-decoration:none;">
@@ -220,7 +221,11 @@
         function splitDate(iso) {
           var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || ''));
           if (!m) return { day: '--', mon: '', full: iso || '' };
-          return { day: m[3], mon: MONTHS[parseInt(m[2], 10) - 1] || '', full: m[1] };
+          return {
+            day: m[3],
+            mon: MONTHS[parseInt(m[2], 10) - 1] || '',
+            full: parseInt(m[3], 10) + ' ' + (MONTHS[parseInt(m[2], 10) - 1] || '') + ' ' + m[1]
+          };
         }
 
         function matchesQuery(n, q) {

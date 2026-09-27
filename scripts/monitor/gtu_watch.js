@@ -202,7 +202,7 @@ function buildRss(notices) {
     <title>GTU Notices — Khudkibook</title>
     <link>${SITE_URL}/gtu-notices.html</link>
     <atom:link href="${SITE_URL}/gtu-notices.xml" rel="self" type="application/rss+xml" />
-    <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes.</description>
+    <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
     <lastBuildDate>${new Date(newest || Date.now()).toUTCString()}</lastBuildDate>
 ${items}

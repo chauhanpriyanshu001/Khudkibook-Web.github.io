@@ -175,6 +175,69 @@ function toPublicNotice(n) {
     };
 }
 
+const MONTHS_SHORT = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+function escHtml(s) {
+    return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+/** "25 Sep 2026" from "2026-09-25". Mirrors splitDate() in the notices page. */
+function noticeDateLabel(iso) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || ''));
+    if (!m) return String(iso || '');
+    return `${m[3]} ${MONTHS_SHORT[Number(m[2]) - 1] || ''} ${m[1]}`;
+}
+
+/**
+ * Write the newest notices straight into gtu-notices.html between the
+ * kn-static markers. The page otherwise builds its list in JavaScript, so a
+ * crawler that does not run scripts — and any reader with JS disabled — would
+ * see an empty page. The client script replaces this block on load, so the
+ * interactive behaviour is unchanged.
+ */
+function renderNoticesIntoPage(notices, limit = 25) {
+    const page = path.join(PUBLIC_DIR, 'gtu-notices.html');
+    if (!fs.existsSync(page)) return null;
+
+    const start = '<!-- kn-static:start -->';
+    const end = '<!-- kn-static:end -->';
+    const html = fs.readFileSync(page, 'utf8');
+    const a = html.indexOf(start);
+    const b = html.indexOf(end);
+    if (a === -1 || b === -1 || b < a) return null;
+
+    const items = notices.slice(0, limit).map(n => {
+        const d = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(n.date || ''));
+        const day = d ? d[3] : '--';
+        const mon = d ? (MONTHS_SHORT[Number(d[2]) - 1] || '') : '';
+        const pdf = (n.documents && n.documents.length) ? n.documents[0].url : n.link;
+        const cat = n.category || 'General';
+        return `          <div class="kn-item">
+            <div class="kn-when"><div class="kn-day">${escHtml(day)}</div><div class="kn-mon">${escHtml(mon)}</div></div>
+            <div class="kn-body">
+              <h3>${escHtml(n.title)}</h3>
+              <div class="kn-meta">
+                <span class="kn-cat">${escHtml(cat)}</span>
+                <span>Announced by GTU on ${escHtml(noticeDateLabel(n.date))}</span>
+              </div>
+              <div class="kn-acts">
+                ${pdf ? `<a class="kn-btn kn-btn-pdf" href="${escHtml(pdf)}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Official PDF</a>` : ''}
+                ${n.post ? `<a class="kn-btn kn-btn-post" href="${escHtml(n.post)}"><i class="fas fa-newspaper"></i> Read our guide</a>` : ''}
+              </div>
+            </div>
+          </div>`;
+    }).join('\n');
+
+    // Everything between the markers is replaced, so the previous build's
+    // static list (or the loading placeholder) never lingers.
+    const out = html.slice(0, a + start.length) + '\n' + items + '\n          ' + html.slice(b);
+    if (out === html) return null;
+    fs.writeFileSync(page, out);
+    return path.relative(ROOT, page);
+}
+
 function buildRss(notices) {
     const items = notices.slice(0, 100).map(n => {
         const link = n.link || n.sourcePage || 'https://gtu.ac.in/academics/circulars';
@@ -383,6 +446,12 @@ async function runOnce(opts = {}) {
     // ---- 4. RSS ------------------------------------------------------------
     fs.writeFileSync(RSS_FILE, buildRss(publicNotices));
     result.written.push(path.relative(ROOT, RSS_FILE));
+
+    // ---- 4b. Server-render the newest notices into the page ---------------
+    // Keeps the board readable for crawlers and no-JS visitors; the client
+    // script takes over from there.
+    const pageTouched = renderNoticesIntoPage(publicNotices);
+    if (pageTouched) result.written.push(pageTouched);
 
     // ---- 5. Category list (used by the notices page filter) ---------------
     const catMap = new Map();
@@ -612,4 +681,4 @@ if (require.main === module) {
     });
 }
 
-module.exports = { runOnce, backfill, rebuildPosts, watchLoop, loadState, loadTopics, STATE_FILE, TOPICS_FILE, ARCHIVE_FILE, PUBLIC_NOTICES, RSS_FILE, DEFAULTS, TOPIC_ALIASES };
+module.exports = { runOnce, backfill, rebuildPosts, renderNoticesIntoPage, noticeDateLabel, watchLoop, loadState, loadTopics, STATE_FILE, TOPICS_FILE, ARCHIVE_FILE, PUBLIC_NOTICES, RSS_FILE, DEFAULTS, TOPIC_ALIASES };

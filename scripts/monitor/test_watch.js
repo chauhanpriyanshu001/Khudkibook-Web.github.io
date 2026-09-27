@@ -501,6 +501,49 @@ async function main() {
             'user-facing copy still advertises a 15-minute interval');
     });
 
+    // ---- icons, social cards and crawlable content ------------------------
+    const realNoticesPage = fs.readFileSync(path.join(__dirname, '../../public/gtu-notices.html'), 'utf8');
+    ok('notices page declares a favicon', () =>
+        assert.ok(/rel="icon"[^>]*favicon-32x32\.png/.test(realNoticesPage)));
+    ok('notices page declares an apple-touch icon and a manifest', () =>
+        assert.ok(/rel="apple-touch-icon"/.test(realNoticesPage) && /rel="manifest"/.test(realNoticesPage)));
+    ok('a root favicon.ico exists for browsers that request it unprompted', () =>
+        assert.ok(fs.existsSync(path.join(__dirname, '../../public/favicon.ico'))));
+    ok('notices page points og:image at a khudkibook.in asset', () => {
+        const imgs = [...realNoticesPage.matchAll(/og:image" content="([^"]+)"/g)].map(m => m[1]);
+        assert.ok(imgs.length > 0, 'no og:image');
+        for (const u of imgs) assert.ok(u.startsWith('https://khudkibook.in/'), u);
+    });
+    ok('notices page no longer references the dead pic.github.io host', () =>
+        assert.ok(!/pic\.github\.io/.test(realNoticesPage), 'dead og:image host still referenced'));
+    ok('notices page server-renders its newest notices for non-JS crawlers', () => {
+        const a = realNoticesPage.indexOf('<!-- kn-static:start -->');
+        const b = realNoticesPage.indexOf('<!-- kn-static:end -->');
+        assert.ok(a !== -1 && b > a, 'static markers missing');
+        const block = realNoticesPage.slice(a, b);
+        const items = (block.match(/class="kn-item"/g) || []).length;
+        assert.ok(items > 0, 'no notices in the static block');
+        assert.ok(!/kn-loading/.test(block), 'loading placeholder still in the static block');
+        assert.ok(/Announced by GTU on/.test(block), 'static notices carry no date');
+    });
+    ok('generated posts declare the same icons and a reachable og:image', () => {
+        const html = fs.readFileSync(rebuiltFile, 'utf8');
+        assert.ok(/rel="icon"[^>]*favicon-32x32\.png/.test(html), 'post has no favicon');
+        assert.ok(/rel="apple-touch-icon"/.test(html), 'post has no apple-touch icon');
+        const imgs = [...html.matchAll(/og:image" content="([^"]+)"/g)].map(m => m[1]);
+        assert.ok(imgs.length > 0 && imgs.every(u => u.startsWith('https://khudkibook.in/')), imgs.join(', '));
+        assert.ok(/og:image:alt/.test(html), 'og:image has no alt text');
+    });
+    ok('a post reports the newest GTU circular as its modified date', () => {
+        const html = fs.readFileSync(rebuiltFile, 'utf8');
+        const pub = /"datePublished": "([\d-]+)"/.exec(html);
+        const mod = /"dateModified": "([\d-]+)"/.exec(html);
+        assert.ok(pub && mod, 'missing dates in JSON-LD');
+        assert.ok(mod[1] >= pub[1], `dateModified ${mod[1]} precedes datePublished ${pub[1]}`);
+    });
+    ok('notice date label pads a single-digit day like the tile', () =>
+        assert.strictEqual(gtuWatch.noticeDateLabel('2026-12-05'), '05 Dec 2026'));
+
     console.log(`\n${checks} checks passed.`);
     fs.rmSync(TMP, { recursive: true, force: true });
 }

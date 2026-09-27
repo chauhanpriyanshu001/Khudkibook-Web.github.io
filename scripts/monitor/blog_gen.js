@@ -20,7 +20,7 @@ const { esc } = require('./gtu_source');
 
 const SITE_URL = 'https://khudkibook.in';
 const BLOG_DIR = path.join(__dirname, '../../public/blog');
-const OG_IMAGE = 'https://chauhanpriyanshu001.github.io/pic.github.io/bg.webp';
+const OG_IMAGE = 'https://khudkibook.in/assets/brand/og-gtu-notices.png';
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
@@ -648,6 +648,9 @@ function renderArticle(group) {
     const description = excerpt.replace(/\s+/g, ' ').trim();
     const keywords = keywordsFor(group);
     const date = group.publishDate || today();
+    // Google reads dateModified as freshness. The publish date understates it:
+    // the post is rewritten each time a new circular joins its topic.
+    const modified = (group.latestDate && group.latestDate > date) ? group.latestDate : date;
     const category = CATEGORY_BY_TYPE[group.type] || 'GTU News';
     const tags = TAGS_BY_TYPE[group.type] || ['GTU News'];
     const canonical = `${SITE_URL}/blog/${group.slug}.html`;
@@ -693,6 +696,13 @@ function renderArticle(group) {
     <meta name="format-detection" content="telephone=no" />
     <link rel="canonical" href="${esc(canonical)}" />
 
+    <!-- Icons: the browser falls back to /favicon.ico, which is also provided. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/brand/favicon-32x32.png?v=2" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/brand/favicon-16x16.png?v=2" />
+    <link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg?v=2" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/brand/khudkibook-logo.png?v=2" />
+    <link rel="manifest" href="/assets/brand/site.webmanifest?v=2" />
+
     <!-- Open Graph -->
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Khudkibook" />
@@ -700,12 +710,13 @@ function renderArticle(group) {
     <meta property="og:title" content="${esc(title)}" />
     <meta property="og:description" content="${esc(description)}" />
     <meta property="og:image" content="${OG_IMAGE}" />
+    <meta property="og:image:alt" content="${esc(title)} — Khudkibook" />
     <meta property="og:image:type" content="image/webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:url" content="${esc(canonical)}" />
     <meta property="article:published_time" content="${date}" />
-    <meta property="article:modified_time" content="${date}" />
+    <meta property="article:modified_time" content="${modified}" />
     <meta property="article:section" content="${esc(category)}" />
 
     <!-- Twitter Card -->
@@ -715,6 +726,7 @@ function renderArticle(group) {
     <meta name="twitter:title" content="${esc(title)}" />
     <meta name="twitter:description" content="${esc(description)}" />
     <meta name="twitter:image" content="${OG_IMAGE}" />
+    <meta name="twitter:image:alt" content="${esc(title)} — Khudkibook" />
     <meta name="twitter:url" content="${esc(canonical)}" />
 
     <!-- Article Schema.org JSON-LD -->
@@ -725,7 +737,7 @@ function renderArticle(group) {
         "headline": ${JSON.stringify(title)},
         "description": ${JSON.stringify(description)},
         "datePublished": "${date}",
-        "dateModified": "${date}",
+        "dateModified": "${modified}",
         "author": { "@type": "Organization", "name": "Khudkibook", "url": "${SITE_URL}" },
         "publisher": { "@type": "Organization", "name": "Khudkibook", "url": "${SITE_URL}" },
         "mainEntityOfPage": ${JSON.stringify(canonical)},
@@ -746,7 +758,6 @@ function renderArticle(group) {
     <!-- Core Stylesheets -->
     <link rel="stylesheet" href="/be619.css?v=2.1" />
     <link rel="stylesheet" href="/cd651.css?v=2.1" />
-    <link rel="icon" type="image/x-icon" href="${OG_IMAGE}" />
 
     <style>
 ${ARTICLE_CSS}

@@ -9,7 +9,7 @@ on:
   schedule:
     # Every 15 minutes. GitHub queues scheduled runs, so a busy period can delay
     # a tick slightly — harmless here, because each run diffs by notice id.
-    - cron: '3,18,33,48 * * * *'
+    - cron: '* * * * *'
   workflow_dispatch:
     inputs:
       max_posts:

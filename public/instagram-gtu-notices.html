@@ -35,7 +35,6 @@
     background: radial-gradient(closest-side, rgba(205,93,51,0.15) 0%, transparent 100%);
   }
 
-  /* ---------- masthead ---------- */
   .masthead {
     position: absolute; top: 82px; left: var(--margin); right: var(--margin);
     display: flex; align-items: center; justify-content: space-between;
@@ -46,7 +45,6 @@
   .rule-top { position: absolute; top: 172px; left: var(--margin); right: var(--margin); height: 1px; background: var(--hairline); }
   .launch { font-size: 15px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--accent); }
 
-  /* ---------- stage ---------- */
   .stage {
     position: absolute; left: var(--margin); right: var(--margin); top: 232px;
     display: flex; align-items: center; gap: 64px;
@@ -72,52 +70,16 @@
   }
   .standfirst strong { color: var(--paper); font-weight: 600; }
 
-  /* ---------- device, showing the page at three widths ---------- */
+  /* ---------- the phone, showing the real page ---------- */
   .device {
     flex: 0 0 360px; width: 360px; height: 664px;
     padding: 8px; border-radius: 46px;
     background: linear-gradient(150deg, #F2EEE7 0%, #D9D4CB 55%, #C7C2B9 100%);
     box-shadow: 0 44px 90px rgba(0,0,0,0.62);
   }
-  .screen {
-    width: 100%; height: 100%; border-radius: 38px; overflow: hidden;
-    background: #F1EFEB; padding: 26px 0;
-    display: flex; flex-direction: column; align-items: center; gap: 16px;
-  }
+  .screen { width: 100%; height: 100%; border-radius: 38px; overflow: hidden; background: #fff; }
+  .screen img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top center; }
 
-  .mini {
-    background: #fff; border-radius: 7px; overflow: hidden;
-    border: 1px solid rgba(0,0,0,0.07);
-    box-shadow: 0 5px 16px rgba(0,0,0,0.10);
-    display: flex; flex-direction: column; flex: 0 0 188px;
-  }
-  .wide  { width: 300px; }
-  .mid   { width: 244px; }
-  .narrow{ width: 152px; }
-
-  .mhead {
-    height: 23px; flex: 0 0 23px;
-    display: flex; align-items: center; gap: 6px; padding: 0 10px;
-    border-bottom: 1px solid #EDEAE5; background: #FCFBFA;
-  }
-  .mhead img { width: 13px; height: 13px; border-radius: 4px; }
-  .mhead b { font-size: 6.4px; font-weight: 800; letter-spacing: 1.5px; color: #23231F; text-transform: uppercase; }
-  .mhead i { margin-left: auto; font-style: normal; font-size: 5.6px; font-weight: 700; letter-spacing: 0.9px; color: var(--accent); text-transform: uppercase; }
-
-  .mbody { flex: 1; padding: 8px 10px; display: grid; gap: 7px; align-content: start; }
-  .wide .mbody { grid-template-columns: 1fr 1fr; gap: 8px 12px; }
-
-  .mrow { display: flex; gap: 6px; align-items: flex-start; }
-  .mwhen { flex: 0 0 18px; text-align: center; }
-  .mday  { font-size: 9.5px; font-weight: 800; color: var(--accent); line-height: 1; }
-  .mmon  { font-size: 5.4px; font-weight: 700; letter-spacing: 0.6px; color: var(--accent); text-transform: uppercase; }
-  .mtext {
-    font-size: 6.2px; line-height: 1.38; color: #3A3A35;
-    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
-  }
-  .narrow .mtext { -webkit-line-clamp: 4; }
-
-  /* ---------- footer ---------- */
   .footer { position: absolute; left: var(--margin); right: var(--margin); bottom: 76px; }
   .cta { font-size: 25px; font-weight: 600; letter-spacing: 0.6px; }
   .cta span { color: var(--accent); }
@@ -149,33 +111,7 @@
 
       <div class="device">
         <div class="screen">
-          <div class="mini wide">
-            <div class="mhead"><img src="/assets/brand/khudkibook-logo.png" alt="" /><b>Khudkibook</b><i>GTU Notices</i></div>
-            <div class="mbody">
-              <div class="mrow"><div class="mwhen"><div class="mday">25</div><div class="mmon">Sep</div></div><div class="mtext">Instructions for filling the Remedial Exam Forms of Winter-2026 Examination</div></div>
-              <div class="mrow"><div class="mwhen"><div class="mday">25</div><div class="mmon">Sep</div></div><div class="mtext">Notification for Result Declaration of Bachelor of Business Administration Sem 04</div></div>
-              <div class="mrow"><div class="mwhen"><div class="mday">25</div><div class="mmon">Sep</div></div><div class="mtext">Notification for Result Declaration of Diploma in Engineering Sem 4</div></div>
-              <div class="mrow"><div class="mwhen"><div class="mday">24</div><div class="mmon">Sep</div></div><div class="mtext">PhD Notification No. 263/2026 for Pandya Ghanshyam Tansukhlal</div></div>
-            </div>
-          </div>
-
-          <div class="mini mid">
-            <div class="mhead"><img src="/assets/brand/khudkibook-logo.png" alt="" /><b>Khudkibook</b><i>GTU Notices</i></div>
-            <div class="mbody">
-              <div class="mrow"><div class="mwhen"><div class="mday">25</div><div class="mmon">Sep</div></div><div class="mtext">Instructions for filling the Remedial Exam Forms of Winter-2026 Examination</div></div>
-              <div class="mrow"><div class="mwhen"><div class="mday">25</div><div class="mmon">Sep</div></div><div class="mtext">Notification for Result Declaration of Bachelor of Business Administration Sem 04</div></div>
-              <div class="mrow"><div class="mwhen"><div class="mday">25</div><div class="mmon">Sep</div></div><div class="mtext">Notification for Result Declaration of Diploma in Engineering Sem 4</div></div>
-            </div>
-          </div>
-
-          <div class="mini narrow">
-            <div class="mhead"><img src="/assets/brand/khudkibook-logo.png" alt="" /><i style="margin-left:0">Notices</i></div>
-            <div class="mbody">
-              <div class="mrow"><div class="mwhen"><div class="mday">25</div><div class="mmon">Sep</div></div><div class="mtext">Instructions for filling the Remedial Exam Forms of Winter-2026</div></div>
-              <div class="mrow"><div class="mwhen"><div class="mday">25</div><div class="mmon">Sep</div></div><div class="mtext">Result Declaration of BBA Sem 04</div></div>
-              <div class="mrow"><div class="mwhen"><div class="mday">25</div><div class="mmon">Sep</div></div><div class="mtext">Result Declaration of Diploma in Engineering Sem 4</div></div>
-            </div>
-          </div>
+          <img src="/assets/brand/gtu-notices-mobile.png" alt="khudkibook.in/gtu-notices on mobile" />
         </div>
       </div>
     </div>

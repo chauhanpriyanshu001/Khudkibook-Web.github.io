@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Khudkibook — GTU Notices</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: #111625; }
+
+  #post-canvas {
+    width: 1080px;
+    height: 1080px;
+    min-width: 1080px;
+    min-height: 1080px;
+    position: relative;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 50% 22%, rgba(205,93,51,0.20) 0%, transparent 62%),
+      linear-gradient(to bottom, #111625 0%, #171d30 42%, #1f2740 72%, #2a1f18 100%);
+    font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: #ffffff;
+  }
+
+  .ambient-glow {
+    position: absolute; top: -120px; left: 50%; transform: translateX(-50%);
+    width: 860px; height: 640px;
+    background: radial-gradient(circle, rgba(217,116,74,0.22) 0%, rgba(245,158,11,0.08) 50%, transparent 70%);
+    pointer-events: none;
+  }
+  .desk-surface {
+    position: absolute; bottom: 0; left: 0; width: 100%; height: 250px;
+    background: linear-gradient(to bottom, #3d2719 0%, #2b1a10 50%, #1c1009 100%);
+    border-top: 3px solid #5a3a24;
+    box-shadow: inset 0 20px 40px rgba(0,0,0,0.6);
+  }
+
+  /* ---------- brand badge ---------- */
+  .brand-badge { position: absolute; top: 40px; left: 44px; display: flex; align-items: center; gap: 16px; }
+  .brand-logo-img { width: 74px; height: 74px; border-radius: 18px; background: #fff; padding: 5px; }
+  .brand-title-text { font-size: 40px; font-weight: 800; letter-spacing: -0.5px; }
+  .brand-tagline { font-size: 19px; font-weight: 600; color: #F0A66E; letter-spacing: 2.4px; text-transform: uppercase; margin-top: 2px; }
+
+  .new-badge {
+    position: absolute; top: 52px; right: 44px;
+    background: linear-gradient(135deg, #CD5D33 0%, #F0A66E 100%);
+    padding: 13px 26px; border-radius: 999px;
+    font-size: 21px; font-weight: 800; letter-spacing: 1.6px; text-transform: uppercase;
+  }
+
+  /* ---------- hero ---------- */
+  .hero { position: absolute; top: 152px; left: 0; width: 100%; text-align: center; }
+  .punch-row { display: flex; justify-content: center; gap: 18px; }
+  .punch {
+    font-size: 47px; font-weight: 900; letter-spacing: -0.6px;
+    padding: 13px 34px; border-radius: 14px; transform: rotate(-1.6deg);
+  }
+  .punch-a { background: #FACC15; color: #1a1408; transform: rotate(-2deg); }
+  .punch-b { background: #38BDF8; color: #05202e; transform: rotate(1.6deg); }
+  .punch-c { background: #A3E635; color: #14210a; transform: rotate(-1deg); }
+  .hero-sub { margin-top: 20px; font-size: 31px; font-weight: 700; color: #E8E2D9; }
+
+  /* ---------- page mock ---------- */
+  .mock {
+    position: absolute; top: 330px; left: 66px; width: 948px;
+    background: #1e293b; border: 1px solid #334155; border-radius: 20px;
+    box-shadow: 0 30px 70px rgba(0,0,0,0.55); overflow: hidden;
+  }
+  .mock-bar { display: flex; align-items: center; gap: 11px; padding: 16px 22px; background: #0f172a; border-bottom: 1px solid #334155; }
+  .dot { width: 15px; height: 15px; border-radius: 50%; }
+  .url {
+    flex: 1; text-align: center; font-size: 19px; color: #94A3B8; font-weight: 600;
+    background: #1e293b; border-radius: 999px; padding: 8px 0;
+  }
+  .mock-head { padding: 16px 26px 12px; background: linear-gradient(135deg, #CD5D33 0%, #F0A66E 100%); }
+  .mock-title { font-size: 33px; font-weight: 900; letter-spacing: -0.4px; }
+  .mock-sub { font-size: 19px; font-weight: 600; margin-top: 5px; color: rgba(255,255,255,0.94); }
+
+  .rows { padding: 6px 0; }
+  .row { display: flex; align-items: center; gap: 18px; padding: 11px 26px; border-bottom: 1px solid #263449; }
+  .row:last-child { border-bottom: none; }
+  .date-chip {
+    width: 88px; flex: 0 0 88px; text-align: center;
+    background: #0f172a; border: 1px solid #3b4a63; border-radius: 12px; padding: 9px 0;
+  }
+  .d-day { font-size: 27px; font-weight: 900; color: #F0A66E; line-height: 1.05; }
+  .d-mon { font-size: 14px; font-weight: 800; color: #94A3B8; letter-spacing: 1.5px; }
+  .row-title { font-size: 20px; font-weight: 600; color: #E2E8F0; line-height: 1.35; }
+  .pdf-pill {
+    margin-left: auto; flex: 0 0 auto;
+    background: #7F1D1D; color: #FCA5A5; border: 1px solid #991B1B;
+    font-size: 15px; font-weight: 800; letter-spacing: 0.8px;
+    padding: 8px 15px; border-radius: 9px;
+  }
+
+  /* ---------- sticky note ---------- */
+  .sticky {
+    position: absolute; right: 40px; top: 794px; width: 268px;
+    background: #FACC15; color: #1a1408; padding: 22px 20px;
+    font-size: 25px; font-weight: 800; line-height: 1.28; text-align: center;
+    transform: rotate(4deg); box-shadow: 0 16px 34px rgba(0,0,0,0.45);
+  }
+
+  .points { position: absolute; left: 66px; top: 796px; width: 640px; }
+  .point { display: flex; align-items: center; gap: 14px; font-size: 26px; font-weight: 700; color: #E8E2D9; margin-bottom: 13px; }
+  .tick {
+    width: 38px; height: 38px; flex: 0 0 38px; border-radius: 50%;
+    background: linear-gradient(135deg, #CD5D33 0%, #F0A66E 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px; font-weight: 900; color: #fff;
+  }
+
+  /* ---------- footer ---------- */
+  .footer { position: absolute; left: 0; bottom: 0; width: 100%; padding: 30px 0 40px; text-align: center; }
+  .cta {
+    display: inline-block;
+    background: linear-gradient(135deg, #CD5D33 0%, #F0A66E 100%);
+    font-size: 35px; font-weight: 900; letter-spacing: -0.3px;
+    padding: 15px 44px; border-radius: 999px; color: #fff;
+    box-shadow: 0 14px 30px rgba(205,93,51,0.4);
+  }
+  .foot-note { margin-top: 16px; font-size: 21px; font-weight: 600; color: #C4B9A9; letter-spacing: 0.6px; }
+</style>
+</head>
+<body>
+  <div id="post-canvas">
+    <div class="ambient-glow"></div>
+    <div class="desk-surface"></div>
+
+    <div class="brand-badge">
+      <img src="/assets/brand/khudkibook-logo.png" alt="Khudkibook" class="brand-logo-img" />
+      <div>
+        <div class="brand-title-text">KhudKiBook</div>
+        <div class="brand-tagline">For Every Student</div>
+      </div>
+    </div>
+    <div class="new-badge">Just Launched</div>
+
+    <div class="hero">
+      <div class="punch-row">
+        <div class="punch punch-a">GTU RESULTS</div>
+        <div class="punch punch-b">EXAM FORMS</div>
+        <div class="punch punch-c">EVERY CIRCULAR</div>
+      </div>
+      <div class="hero-sub">Now in one live feed &mdash; straight from gtu.ac.in</div>
+    </div>
+
+    <div class="mock">
+      <div class="mock-bar">
+        <div class="dot" style="background:#EF4444"></div>
+        <div class="dot" style="background:#FACC15"></div>
+        <div class="dot" style="background:#22C55E"></div>
+        <div class="url">khudkibook.in/gtu-notices</div>
+      </div>
+      <div class="mock-head">
+        <div class="mock-title">GTU Notices &amp; Circulars</div>
+        <div class="mock-sub">Results, exam forms, syllabus &amp; academic calendar &mdash; with the original PDF</div>
+      </div>
+      <div class="rows">
+        <div class="row">
+          <div class="date-chip"><div class="d-day">25</div><div class="d-mon">SEP</div></div>
+          <div class="row-title">Result Declaration &mdash; BBA Sem 4 Recheck, Summer 2026</div>
+          <div class="pdf-pill">PDF</div>
+        </div>
+        <div class="row">
+          <div class="date-chip"><div class="d-day">25</div><div class="d-mon">SEP</div></div>
+          <div class="row-title">Result Declaration &mdash; Diploma in Engineering Sem 4, Summer 2026</div>
+          <div class="pdf-pill">PDF</div>
+        </div>
+        <div class="row">
+          <div class="date-chip"><div class="d-day">25</div><div class="d-mon">SEP</div></div>
+          <div class="row-title">Instructions &mdash; Remedial Exam Form, Winter 2026</div>
+          <div class="pdf-pill">PDF</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="points">
+      <div class="point"><div class="tick">&#10003;</div> Checked against GTU automatically</div>
+      <div class="point"><div class="tick">&#10003;</div> Original PDF link on every notice</div>
+      <div class="point"><div class="tick">&#10003;</div> No login, no fees, no college board</div>
+    </div>
+
+    <div class="sticky">Always free.<br />No login.</div>
+
+    <div class="footer">
+      <div class="cta">khudkibook.in/gtu-notices</div>
+      <div class="foot-note">Tap the link in bio &middot; Save this for your next result</div>
+    </div>
+  </div>
+</body>
+</html>

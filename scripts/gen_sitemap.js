@@ -7,6 +7,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 
 // KB_ROOT lets the monitor's test harness regenerate a sitemap for a temp tree
 // instead of the live public/ directory.
@@ -112,14 +113,72 @@ for (const file of files) {
     }
 
     if (!seen.has(canonical)) {
-        seen.set(canonical, fs.statSync(file).mtimeMs);
+        seen.set(canonical, file);
     }
 }
 
+/**
+ * When each file's CONTENT last changed, from git history.
+ *
+ * Deliberately not fs.mtime: `actions/checkout` writes every file fresh on each
+ * CI run, so an mtime-based <lastmod> is rewritten with the checkout time every
+ * 15 minutes. That makes the sitemap dirty on every run (a commit and a 33k-file
+ * Firebase deploy each time) and, worse, tells search engines every page on the
+ * site changed just now.
+ *
+ * One `git log` pass builds the whole map, so this costs ~0.3s rather than a
+ * subprocess per file. Files git has never seen (freshly generated) fall back to
+ * their mtime, which is correct for them: they genuinely are new.
+ */
+function buildLastmodMap() {
+    const map = new Map();
+    let out = '';
+    try {
+        out = execFileSync('git', ['log', '--pretty=format:%cI', '--name-only', '--no-merges'], {
+            cwd: ROOT_DIR,
+            encoding: 'utf8',
+            maxBuffer: 256 * 1024 * 1024,
+            stdio: ['ignore', 'pipe', 'ignore']
+        });
+    } catch (e) {
+        // No git available (tarball export, fresh shallow CI checkout with no
+        // history). Fall back to mtimes rather than failing the build.
+        return null;
+    }
+    let date = null;
+    for (const line of out.split('\n')) {
+        if (!line) { date = null; continue; }
+        if (/^\d{4}-\d{2}-\d{2}T/.test(line)) { date = line.trim(); continue; }
+        if (!date) continue;
+        // git log walks newest-first, so the first sighting of a path is the most
+        // recent commit that touched it.
+        if (!map.has(line)) map.set(line, date);
+    }
+    return map;
+}
+
+const lastmodByPath = buildLastmodMap();
+const lastmodFor = (file, fallbackMs) => {
+    if (!lastmodByPath) return fallbackMs;
+    const rel = path.relative(ROOT_DIR, file);
+    const iso = lastmodByPath.get(rel);
+    if (iso) {
+        const t = Date.parse(iso);
+        if (Number.isFinite(t)) return t;
+    }
+    return fallbackMs;
+};
+
 const entries = [...seen.entries()]
     .sort((a, b) => a[0].localeCompare(b[0]))
-    .map(([loc, mtime]) => {
+    .map(([loc, file]) => {
         const isRoot = loc === SITE_URL + '/';
+        let mtime;
+        try {
+            mtime = lastmodFor(file, fs.statSync(file).mtimeMs);
+        } catch (e) {
+            mtime = Date.now();
+        }
         return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${w3cDate(mtime)}</lastmod>\n    <changefreq>${changeFreqFor(loc, isRoot)}</changefreq>\n    <priority>${priorityFor(loc, isRoot)}</priority>\n  </url>`;
     });
 

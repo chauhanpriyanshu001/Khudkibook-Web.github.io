@@ -24,7 +24,6 @@ const CRAWL_STATE_FILE = path.join(DATA_DIR, 'crawl_state.json');
 const GTU_BASE = 'https://gtu.ac.in';
 const SYLLABUS_PAGE = `${GTU_BASE}/Syllabus/Syllabus.aspx`;
 const PAPERS_PAGE = `${GTU_BASE}/Download1.aspx`;
-const CIRCULAR_PAGE = `${GTU_BASE}/Circular.aspx`;
 const SYLLABUS_S3_PREFIX = 'https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/';
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36';
@@ -229,81 +228,39 @@ function pickExType(code = '', exTypesOverride = []) {
 // ========================================================
 // 1. CIRCULARS / NOTICES
 // ========================================================
-const NOISE_RE = /(more|read more|click here|view all|all circular|circular|notification\s*$|^[\s\-|]*$)/i;
-
-function extractDateFromString(text) {
-    if (!text) return '';
-    const m = String(text).match(/(20\d{2})(\d{2})(\d{2})/);
-    if (m) return `${m[1]}-${m[2]}-${m[3]}`;
-    const d = String(text).match(/(\d{1,2})\s*[-/.]\s*([A-Za-z]{3,9})\s*[-/.]\s*(\d{2,4})/);
-    if (d) {
-        const months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
-        const mon = months.findIndex(x => d[2].toLowerCase().startsWith(x)) + 1;
-        const yr = d[3].length === 2 ? `20${d[3]}` : d[3];
-        return `${yr}-${String(mon).padStart(2, '0')}-${String(d[1]).padStart(2, '0')}`;
-    }
-    return '';
-}
-
-function isNoiseLink(href, text) {
-    const h = String(href || '').toLowerCase();
-    const t = String(text || '').trim();
-    if (!h || h === '#' || h.startsWith('javascript') || h.startsWith('mailto')) return true;
-    if (h.includes('circular.aspx') || h.includes('syllabus.aspx') || h.includes('download1.aspx')) return true;
-    if (!h.includes('amazonaws.com') || !h.includes('gtusitecirculars')) return true;
-    if (!h.toLowerCase().endsWith('.pdf')) return true;
-    if (!t || t.length < 5 || NOISE_RE.test(t)) return true;
-    return false;
-}
-
-function categorizeNotice(title = '') {
-    const t = title.toLowerCase();
-    if (t.includes('result') || t.includes('declaration')) return 'Result & Notifications';
-    if (t.includes('exam') || t.includes('examination')) return 'Exam';
-    if (t.includes('timetable') || t.includes('schedule') || t.includes('time table')) return 'Timetable';
-    if (t.includes('syllabus') || t.includes('curriculum')) return 'Academic';
-    if (t.includes('fee')) return 'Fees';
-    if (t.includes('admission')) return 'Admission';
-    return 'General';
-}
+// GTU rebuilt gtu.ac.in as a React SPA; the old Circular.aspx page now 404s and
+// the S3 link scraping below no longer finds anything. The public JSON feed
+// behind the new site is the supported source, so use it and keep this crawler's
+// notice output in the shape the rest of the project expects.
+const { fetchCirculars: fetchGtuApiCirculars, enrich: enrichGtuNotice } = require('../monitor/gtu_source');
 
 async function crawlCirculars(options = {}) {
     const log = options.log || (msg => console.log(msg));
     const limit = options.limit || 100;
-    log(`[Circulars] Fetching ${CIRCULAR_PAGE}`);
-    const res = await fetchHTML(CIRCULAR_PAGE);
-    if (res.status !== 200) throw new Error(`Circular page returned ${res.status}`);
+    log(`[Circulars] Fetching GTU circular feed (API v1)…`);
 
-    const $ = cheerio.load(res.body);
-    const notices = [];
-    const seen = new Set();
+    const pages = Math.max(1, Math.ceil(limit / 50));
+    const raw = await fetchGtuApiCirculars(pages, { log, delay: options.delay });
 
-    $('a').each((i, el) => {
-        if (notices.length >= limit) return;
-        const href = $(el).attr('href') || '';
-        let title = $(el).text().replace(/\s+/g, ' ').trim();
-        if (!title && href) title = decodeURIComponent(href.split('/').pop().replace(/\.pdf$/i, '')).replace(/[_-]+/g, ' ');
-        if (isNoiseLink(href, title)) return;
-
-        let link = href;
-        if (!/^https?:\/\//i.test(link)) {
-            link = link.startsWith('//') ? `https:${link}` : `${GTU_BASE}/${link.replace(/^\//, '')}`;
-        }
-        const key = link.toLowerCase();
-        if (seen.has(key)) return;
-        seen.add(key);
-
-        const fileName = decodeURIComponent(link.split('/').pop() || '');
-        const date = extractDateFromString(fileName) || extractDateFromString(title) || '';
-
-        notices.push({
-            title,
-            date,
-            category: categorizeNotice(title),
-            link,
-            source: 'gtu.ac.in',
+    // Enriched so this stays byte-compatible with what scripts/monitor writes
+    // to the same file — the two can then share it without clobbering each other.
+    const notices = raw.slice(0, limit).map(n => {
+        const e = enrichGtuNotice(n);
+        return {
+            id: e.id,
+            title: e.title,
+            date: e.date,
+            postedAt: e.postedAt,
+            category: e.category,
+            link: e.link,
+            documents: e.documents,
+            important: e.important,
+            source: e.source,
+            sourcePage: e.sourcePage,
+            facts: e.facts,
+            topic: e.topic,
             scrapedAt: new Date().toISOString()
-        });
+        };
     });
 
     fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -973,6 +930,5 @@ module.exports = {
     collectSubjectCodes,
     fetchHTML,
     postForm,
-    checkLink,
-    extractDateFromString
+    checkLink
 };

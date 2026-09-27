@@ -159,6 +159,7 @@ const modernNavbarHTML = `
 
         <li><a href="/BE/behomepage.html" class="nav-item-link"><i class="fas fa-university"></i> Degree (BE)</a></li>
         <li><a href="/ddcet.html" class="nav-item-link"><i class="fas fa-book-reader"></i> DDCET</a></li>
+        <li><a href="/gtu-notices.html" class="nav-item-link"><i class="fas fa-bullhorn"></i> GTU Notices</a></li>
         <li><a href="/blog/" class="nav-item-link"><i class="fas fa-pen-nib"></i> Blog</a></li>
     </ul>
 
@@ -186,6 +187,7 @@ const modernNavbarHTML = `
         <a href="/" class="drawer-link"><i class="fas fa-home"></i> Home</a>
         <a href="/BE/behomepage.html" class="drawer-link"><i class="fas fa-university"></i> Degree (BE)</a>
         <a href="/ddcet.html" class="drawer-link"><i class="fas fa-book-reader"></i> DDCET Preparation</a>
+        <a href="/gtu-notices.html" class="drawer-link"><i class="fas fa-bullhorn"></i> GTU Notices</a>
         <a href="/blog/" class="drawer-link"><i class="fas fa-pen-nib"></i> Blog</a>
         <a href="/contact.html" class="drawer-link"><i class="fas fa-envelope"></i> Contact Us</a>
         
@@ -277,6 +279,7 @@ const modernFooterHTML = `
         <h3 class="fotthead"><i class="fas fa-compass" style="color:#a5b4fc; margin-right:8px;"></i> QUICK LINKS</h3>
         <div class="col">
             <a href="/about.html"><i class="fas fa-info-circle"></i> About Us</a>
+            <a href="/gtu-notices.html"><i class="fas fa-bullhorn"></i> GTU Notices</a>
             <a href="/blog/"><i class="fas fa-pen-nib"></i> Blog</a>
             <a href="/contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
         </div>

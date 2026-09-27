@@ -1,0 +1,113 @@
+name: GTU Watch
+
+# Polls the official GTU circular feed every 15 minutes and publishes anything new
+# to the site: a notice entry, a refreshed blog post, the RSS feed and the
+# sitemap. Nothing is committed and nothing is deployed on a run that finds
+# nothing new, so a quiet day costs one API call and one no-op commit check.
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub queues scheduled runs, so a busy period can delay
+    # a tick slightly — harmless here, because each run diffs by notice id.
+    - cron: '3,18,33,48 * * * *'
+  workflow_dispatch:
+    inputs:
+      max_posts:
+        description: 'Maximum blog posts to publish in this run'
+        required: false
+        default: '4'
+      force:
+        description: 'Ignore saved state and republish from scratch'
+        type: boolean
+        required: false
+        default: false
+
+# One run at a time; queue rather than cancel, so a slow run is not lost.
+concurrency:
+  group: gtu-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    # Skip entirely on forks, which have no FIREBASE_TOKEN. Deliberately NOT a
+    # hardcoded owner/repo comparison: this repository was renamed (NEO2708 ->
+    # chauhanpriyanshu001) and such a check silently skipped every run.
+    if: github.event.repository.fork == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          # Required so the commit-and-push step can push back.
+          fetch-depth: 0
+          ref: ${{ github.event.repository.default_branch }}
+
+      # gtu_watch.js, blog_gen.js, gtu_source.js and gen_sitemap.js all run on
+      # Node's built-in fetch and the standard library, so there is deliberately
+      # no `npm ci` here — the job starts in a couple of seconds.
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Poll GTU and publish updates
+        id: watch
+        run: |
+          ARGS="--json --pages 2"
+          if [ "${{ inputs.max_posts }}" != "" ]; then ARGS="$ARGS --max-posts ${{ inputs.max_posts }}"; fi
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          # Captured to a file so the summary can be reused by later steps. In
+          # --json mode the watcher suppresses its human-readable log, so stdout
+          # is exactly one JSON document.
+          node scripts/monitor/gtu_watch.js $ARGS > "$RUNNER_TEMP/watch.json" || {
+            echo "::error::gtu_watch exited non-zero"
+            cat "$RUNNER_TEMP/watch.json" || true
+            exit 1
+          }
+          cat "$RUNNER_TEMP/watch.json"
+          echo "PUBLISHED=$(node -e "const r=require('$RUNNER_TEMP/watch.json');console.log(r.postsPublished.length)")" >> "$GITHUB_OUTPUT"
+          echo "REFRESHED=$(node -e "const r=require('$RUNNER_TEMP/watch.json');console.log(r.postsRefreshed.length)")" >> "$GITHUB_OUTPUT"
+          echo "NEW_NOTICES=$(node -e "const r=require('$RUNNER_TEMP/watch.json');console.log(r.newNotices)")" >> "$GITHUB_OUTPUT"
+
+      - name: Commit published updates
+        id: commit
+        run: |
+          git config user.name  "khudkibook-bot"
+          git config user.email "bot@khudkibook.in"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No new GTU updates — nothing to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          # Include the post slugs in the message so the history reads as a
+          # changelog of what went live.
+          SLUGS=$(node -e "
+            const r=require('$RUNNER_TEMP/watch.json');
+            const s=[...r.postsPublished,...r.postsRefreshed].map(p=>p.slug);
+            console.log(s.slice(0,3).join(', '));
+          ")
+          if [ "${{ steps.watch.outputs.PUBLISHED }}" != "0" ]; then
+            git commit -m "GTU update: publish ${{ steps.watch.outputs.PUBLISHED }} new post(s) — $SLUGS"
+          else
+            git commit -m "GTU update: refresh ${{ steps.watch.outputs.REFRESHED }} post(s) — $SLUGS"
+          fi
+          git push origin HEAD:${{ github.event.repository.default_branch }}
+
+      - name: Deploy to Firebase Hosting
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          if [ -z "$FIREBASE_TOKEN" ]; then
+            echo "::warning::FIREBASE_TOKEN secret is not set. The update is committed but not deployed."
+            exit 0
+          fi
+          npm install --no-save --no-audit --no-fund firebase-tools@13
+          npx firebase deploy --only hosting:main --project khudkibook --non-interactive

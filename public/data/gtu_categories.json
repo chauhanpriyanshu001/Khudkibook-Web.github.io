@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Circular",
+    "count": 54
+  },
+  {
+    "name": "PHD",
+    "count": 45
+  },
+  {
+    "name": "Exam",
+    "count": 28
+  },
+  {
+    "name": "Tender",
+    "count": 8
+  },
+  {
+    "name": "Recruitment",
+    "count": 4
+  },
+  {
+    "name": "Academic",
+    "count": 4
+  },
+  {
+    "name": "Institute Transfer",
+    "count": 2
+  },
+  {
+    "name": "Affiliation",
+    "count": 1
+  },
+  {
+    "name": "Potential Funding Resources",
+    "count": 1
+  },
+  {
+    "name": "College Activity",
+    "count": 1
+  },
+  {
+    "name": "UFM",
+    "count": 1
+  },
+  {
+    "name": "Industry-Led Minor / Hons. Programs",
+    "count": 1
+  }
+]

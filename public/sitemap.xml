@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://khudkibook.in/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -43699,8 +43699,20 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://khudkibook.in/blog/gtu-summer-result-2026-how-to-check-recheck.html</loc>
-    <lastmod>2026-09-20</lastmod>
+    <loc>https://khudkibook.in/blog/gtu-recheck-result-summer-2026.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://khudkibook.in/blog/gtu-winter-2026-exam-form-instructions.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://khudkibook.in/blog/gtu-winter-2026-term-extension-form.html</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -52193,6 +52205,12 @@
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://khudkibook.in/gtu-notices.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://khudkibook.in/home-science/sem5/child-care-and-education.html</loc>

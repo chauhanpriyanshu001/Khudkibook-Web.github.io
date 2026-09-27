@@ -8,7 +8,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROOT_DIR = path.join(__dirname, '..');
+// KB_ROOT lets the monitor's test harness regenerate a sitemap for a temp tree
+// instead of the live public/ directory.
+const ROOT_DIR = process.env.KB_ROOT || path.join(__dirname, '..');
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 const SITEMAP_PATH = path.join(PUBLIC_DIR, 'sitemap.xml');
 const DB_PATH = path.join(ROOT_DIR, 'data', 'site_db.json');
@@ -73,13 +75,18 @@ function priorityFor(loc, isRoot) {
     const pathOnly = loc.replace(SITE_URL, '');
     if (isRoot || loc === SITE_URL + '/') return '1.0';
     if (/^\/(syllabus|papers|ddcet)\.html?$/.test(pathOnly)) return '0.9';
+    // The live GTU notices page is the site's news surface and is rewritten
+    // whenever GTU publishes a circular, so it deserves to be recrawled often.
+    if (/^\/gtu-notices\.html?$/.test(pathOnly)) return '0.9';
     if (/homepage\.html$/.test(loc)) return '0.8';
     if (/\/index\.html$/.test(loc)) return '0.7';
     return '0.6';
 }
 
 function changeFreqFor(loc, isRoot) {
+    const pathOnly = loc.replace(SITE_URL, '');
     if (isRoot || loc === SITE_URL + '/') return 'weekly';
+    if (/^\/gtu-notices\.html?$/.test(pathOnly)) return 'hourly';
     if (/homepage\.html$/.test(loc)) return 'weekly';
     if (/\/index\.html$/.test(loc)) return 'weekly';
     return 'monthly';

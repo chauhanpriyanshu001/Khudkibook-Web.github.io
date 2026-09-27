@@ -4,19 +4,23 @@
   "main": "index.js",
   "scripts": {
     "start": "node scripts/server.js",
-    "test": "node scripts/ai_book/test_quality.js"
+    "test": "node scripts/ai_book/test_quality.js && node scripts/monitor/test_watch.js",
+    "gtu:watch": "node scripts/monitor/gtu_watch.js",
+    "gtu:watch:loop": "node scripts/monitor/gtu_watch.js --watch",
+    "gtu:backfill": "node scripts/monitor/gtu_watch.js --backfill 100",
+    "sitemap": "node scripts/gen_sitemap.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NEO2708/Khudkibook-Web.github.io.git"
+    "url": "git+https://github.com/chauhanpriyanshu001/Khudkibook-Web.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NEO2708/Khudkibook-Web.github.io/issues"
+    "url": "https://github.com/chauhanpriyanshu001/Khudkibook-Web.github.io/issues"
   },
-  "homepage": "https://github.com/NEO2708/Khudkibook-Web.github.io#readme",
+  "homepage": "https://github.com/chauhanpriyanshu001/Khudkibook-Web.github.io#readme",
   "description": "",
   "dependencies": {
     "cheerio": "^1.2.0",

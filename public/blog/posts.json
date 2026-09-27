@@ -1,12 +1,43 @@
 [
   {
-    "slug": "gtu-summer-result-2026-how-to-check-recheck",
-    "title": "GTU Summer 2026 Result Declared: How To Check Scorecard & Apply For Re-Check",
-    "excerpt": "GTU released the Summer 2026 results for Diploma Sem 2, BE Sem 3 and more. Learn how to check your scorecard online, plus the re-check / re-assessment fees, steps and deadlines.",
-    "date": "2026-09-20",
+    "slug": "gtu-recheck-result-summer-2026",
+    "title": "GTU Summer 2026 Recheck Result: How To Check Scorecard & Re-Check",
+    "excerpt": "GTU published 35 result notifications for the Summer 2026 examination, covering Engineering, Diploma in Architecture, Business Administration and more. Check your scorecard, the re-check window and what it costs.",
+    "date": "2026-09-27",
+    "category": "GTU News",
+    "readTime": "7 min",
+    "tags": [
+      "GTU News",
+      "GTU Result",
+      "Recheck",
+      "Scorecard"
+    ]
+  },
+  {
+    "slug": "gtu-winter-2026-term-extension-form",
+    "title": "GTU Winter 2026 Term Extension Form: Who Can Apply & How",
+    "excerpt": "GTU has opened term extension forms for the Winter 2026 examination for Diploma in Engineering, Architecture, Engineering and more. Who is eligible, what it costs, and how to apply before the deadline.",
+    "date": "2026-09-27",
     "category": "GTU News",
     "readTime": "5 min",
-    "tags": ["GTU Result", "Summer 2026", "Recheck", "GTU News"]
+    "tags": [
+      "GTU News",
+      "Term Extension",
+      "Exam Form"
+    ]
+  },
+  {
+    "slug": "gtu-winter-2026-exam-form-instructions",
+    "title": "GTU Winter 2026 Exam Form Instructions: Dates, Fees & How To Apply",
+    "excerpt": "Exam forms for the GTU Winter 2026 examination are open for Engineering, Pharmacy, Diploma in Engineering and more. Last dates, fees, and the exact steps to fill the form online.",
+    "date": "2026-09-27",
+    "category": "GTU News",
+    "readTime": "5 min",
+    "tags": [
+      "GTU News",
+      "Exam Form",
+      "Exam Registration"
+    ]
   },
   {
     "slug": "gtu-academic-calendar-2026-27-winter-exams",
@@ -15,7 +46,12 @@
     "date": "2026-09-20",
     "category": "GTU News",
     "readTime": "5 min",
-    "tags": ["GTU News", "Academic Calendar", "Winter 2026", "Exams"]
+    "tags": [
+      "GTU News",
+      "Academic Calendar",
+      "Winter 2026",
+      "Exams"
+    ]
   },
   {
     "slug": "how-to-download-gtu-textbooks-free",
@@ -24,7 +60,12 @@
     "date": "2026-09-19",
     "category": "Guides",
     "readTime": "4 min",
-    "tags": ["GTU", "Download", "Textbooks", "Beginners"]
+    "tags": [
+      "GTU",
+      "Download",
+      "Textbooks",
+      "Beginners"
+    ]
   },
   {
     "slug": "gtu-exam-preparation-tips",
@@ -33,7 +74,12 @@
     "date": "2026-09-19",
     "category": "Study Tips",
     "readTime": "6 min",
-    "tags": ["Exam", "Study Tips", "GTU", "Viva"]
+    "tags": [
+      "Exam",
+      "Study Tips",
+      "GTU",
+      "Viva"
+    ]
   },
   {
     "slug": "how-to-use-gtu-previous-year-question-papers",
@@ -42,7 +88,12 @@
     "date": "2026-09-19",
     "category": "Study Tips",
     "readTime": "5 min",
-    "tags": ["Question Papers", "Exam", "Past Papers", "GTU"]
+    "tags": [
+      "Question Papers",
+      "Exam",
+      "Past Papers",
+      "GTU"
+    ]
   },
   {
     "slug": "ddcet-2026-complete-guide",
@@ -51,6 +102,11 @@
     "date": "2026-09-19",
     "category": "Exams",
     "readTime": "7 min",
-    "tags": ["DDCET", "Entrance Exam", "Diploma to Degree", "GTU"]
+    "tags": [
+      "DDCET",
+      "Entrance Exam",
+      "Diploma to Degree",
+      "GTU"
+    ]
   }
 ]

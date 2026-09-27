@@ -19,7 +19,6 @@
         "**/.*",
         "**/node_modules/**",
         "**/site_db*.json",
-        "**/gtu_*.json",
         "**/crawled_*.json",
         "**/*_backup.json"
       ],

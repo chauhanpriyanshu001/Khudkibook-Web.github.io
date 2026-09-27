@@ -196,7 +196,19 @@
         </div>
       </section>
 
-      <!-- 6. Latest From The Blog -->
+      <!-- 6. Latest GTU Updates (live, monitored from gtu.ac.in) -->
+      <section class="domain-section" id="gtu-updates-section">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+          <h2 class="kl789123" style="margin: 0;"><i class="fas fa-bullhorn"></i> Latest GTU Updates</h2>
+          <a href="/gtu-notices.html" style="font-size:0.9rem; font-weight:700; color: var(--accent); text-decoration:none;">All Notices <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <p style="font-size:0.86rem; color:var(--text-muted,#6b7280); margin:6px 0 0;">
+          Results, exam forms, syllabus changes and circulars — checked against gtu.ac.in every 15 minutes.
+        </p>
+        <div id="kb-notice-list" style="margin-top: 15px;"></div>
+      </section>
+
+      <!-- 7. Latest From The Blog -->
       <section class="domain-section" id="blog-section">
         <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
           <h2 class="kl789123" style="margin: 0;"><i class="fas fa-newspaper"></i> Latest From The Blog</h2>
@@ -225,6 +237,78 @@
     <script type="text/javascript" src="/select.js?v=2.1" defer></script>
     <script type="text/javascript" src="/ad-injector.js?v=2.1" defer></script>
     <script type="text/javascript" src="/home.js?v=2.1" defer></script>
+    <script>
+      (function () {
+        var noticeEl = document.getElementById("kb-notice-list");
+        if (noticeEl) {
+          var TOPIC_LABELS = {
+            result: "Result", "exam-form": "Exam Form", "term-extension": "Term Extension",
+            "exam-schedule": "Exam Dates", "academic-calendar": "Calendar", syllabus: "Syllabus",
+            admission: "Admission", fee: "Fees", "calendar-holiday": "Holidays",
+            other: "Circular", noise: "Notice"
+          };
+          var MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+          function esc(s) {
+            return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+              .replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+          }
+          var ncss = "";
+          ncss += ".kb-notice{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid var(--border,#e5e7eb);border-radius:14px;padding:14px 16px;margin-top:10px;text-decoration:none;transition:border-color .15s,box-shadow .15s;}";
+          ncss += ".kb-notice:hover{border-color:#eccfb8;box-shadow:0 6px 18px rgba(0,0,0,.05);}";
+          ncss += ".kb-notice-when{flex:0 0 52px;text-align:center;}";
+          ncss += ".kb-notice-day{font-family:'Outfit',sans-serif;font-size:1.15rem;font-weight:800;color:#CD5D33;line-height:1;}";
+          ncss += ".kb-notice-mon{font-size:.65rem;font-weight:700;text-transform:uppercase;color:var(--text-muted,#6b7280);letter-spacing:.04em;}";
+          ncss += ".kb-notice-body{flex:1;min-width:0;}";
+          ncss += ".kb-notice-body h3{font-family:'Outfit',sans-serif;font-size:.95rem;color:var(--text-primary,#111827);margin:0 0 5px;line-height:1.45;}";
+          ncss += ".kb-notice-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.72rem;font-weight:600;color:var(--text-muted,#6b7280);}";
+          ncss += ".kb-notice-cat{color:#CD5D33;background:#f9ece2;padding:3px 10px;border-radius:999px;}";
+          ncss += ".kb-notice-topic{color:#3730a3;background:#eef2ff;padding:3px 10px;border-radius:999px;}";
+          ncss += "@media (max-width:560px){.kb-notice-when{flex:0 0 42px;}}";
+          var nst = document.createElement("style");
+          nst.textContent = ncss;
+          document.head.appendChild(nst);
+
+          fetch("/data/gtu_notices.json", { cache: "no-store" })
+            .then(function (r) { return r.ok ? r.json() : Promise.reject(new Error("HTTP " + r.status)); })
+            .then(function (notices) {
+              if (!Array.isArray(notices) || !notices.length) throw new Error("empty");
+              // Lead with the highest-signal updates rather than raw recency:
+              // GTU's newest items are often PhD viva notices, which nobody
+              // searching "gtu result" is looking for.
+              var rank = { result: 0, "exam-form": 1, "exam-schedule": 2, "academic-calendar": 3,
+                           syllabus: 4, admission: 5, fee: 6, "term-extension": 7, "calendar-holiday": 8 };
+              var picked = notices.filter(function (n) { return rank[n.topic] !== undefined; });
+              if (picked.length < 4) picked = notices.slice();
+              picked.sort(function (a, b) {
+                var d = (rank[a.topic] === undefined ? 99 : rank[a.topic]) - (rank[b.topic] === undefined ? 99 : rank[b.topic]);
+                if (d) return d;
+                return String(b.postedAt || b.date).localeCompare(String(a.postedAt || a.date));
+              });
+              noticeEl.innerHTML = picked.slice(0, 5).map(function (n) {
+                var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(n.date || ""));
+                var day = m ? m[3] : "--", mon = m ? (MONTHS[parseInt(m[2], 10) - 1] || "") : "";
+                var pdf = (n.documents && n.documents.length) ? n.documents[0].url : n.link;
+                var inner =
+                  '<div class="kb-notice-when"><div class="kb-notice-day">' + esc(day) + '</div><div class="kb-notice-mon">' + esc(mon) + '</div></div>' +
+                  '<div class="kb-notice-body"><h3>' + esc(n.title) + '</h3>' +
+                  '<div class="kb-notice-meta"><span class="kb-notice-cat">' + esc(n.category || "General") + '</span>' +
+                  '<span class="kb-notice-topic">' + esc(TOPIC_LABELS[n.topic] || "Circular") + '</span>' +
+                  (pdf ? '<span><i class="far fa-file-pdf"></i> PDF</span>' : '') + '</div></div>';
+                // Link the card itself at the post when we have written a guide,
+                // otherwise straight to the official GTU PDF.
+                return n.post
+                  ? '<a class="kb-notice" href="' + esc(n.post) + '">' + inner + '</a>'
+                  : '<a class="kb-notice" href="' + esc(pdf || "#") + '" target="_blank" rel="noopener noreferrer">' + inner + '</a>';
+              }).join("");
+            })
+            .catch(function () {
+              noticeEl.innerHTML = '<div class="kb-notice" style="cursor:default;"><div class="kb-notice-body"><h3>GTU notices are temporarily unavailable</h3>' +
+                '<p style="font-size:.86rem;color:var(--text-muted,#6b7280);margin:4px 0 0;">Read the official circulars at ' +
+                '<a href="https://gtu.ac.in/academics/circulars" target="_blank" rel="noopener noreferrer" style="color:#CD5D33;font-weight:700;">gtu.ac.in</a>.</p></div></div>';
+            });
+        }
+      })();
+    </script>
     <script>
       (function () {
         var listEl = document.getElementById("kb-blog-list");

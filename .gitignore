@@ -65,3 +65,6 @@ node_modules/
 # dotenv environment variables file
 .env
 unpublic/img
+
+# GTU monitor per-run telemetry (timestamps/counters) — never committed, keeps idle polls diff-free
+data/gtu_monitor_status.json

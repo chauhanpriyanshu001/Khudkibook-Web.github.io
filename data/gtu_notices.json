@@ -1,5 +1,50 @@
 [
   {
+    "id": 59233,
+    "title": "PhD Notification No. 264/2026 for Dhangar Dharmeshkumar Natthuram (219999913039)",
+    "rawTitle": "PhD Notification No. 264/2026 for Dhangar Dharmeshkumar Natthuram (219999913039)",
+    "date": "2026-09-28",
+    "postedAt": "2026-09-28T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Dharmesh%20Dhangar_506403.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Dharmesh%20Dhangar_506403.pdf",
+        "name": "PhD Notification No. 264/2026 for Dhangar Dharmeshkumar Natthuram (219999913039)"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Full%20Thesis%20Signed%20Copy_334906.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Synopsis-Final_735498.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 59232,
     "title": "Student Associate Program 2026–27 - Invitation for Applications from Students of Gujarat Technological University",
     "rawTitle": "Student Associate Program 2026–27 - Invitation for Applications from Students of Gujarat Technological University",

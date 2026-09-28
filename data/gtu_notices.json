@@ -1,5 +1,41 @@
 [
   {
+    "id": 59234,
+    "title": "Pre-Submission Seminar of Siddiqui Mohammedirfan Ikbalbhai (199999914527); Electrical Engineering Discipline) on 30/09/2026",
+    "rawTitle": "Pre-Submission Seminar of Siddiqui Mohammedirfan Ikbalbhai (199999914527); Electrical Engineering Discipline) on 30/09/2026",
+    "date": "2026-09-28",
+    "postedAt": "2026-09-28T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Siddiqui%20Mohammedirfan_OS_636311.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Siddiqui%20Mohammedirfan_OS_636311.pdf",
+        "name": "Pre-Submission Seminar of Siddiqui Mohammedirfan Ikbalbhai (199999914527); Electrical Engineering Discipline) on 30/09/2026"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-09-30"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 59233,
     "title": "PhD Notification No. 264/2026 for Dhangar Dharmeshkumar Natthuram (219999913039)",
     "rawTitle": "PhD Notification No. 264/2026 for Dhangar Dharmeshkumar Natthuram (219999913039)",

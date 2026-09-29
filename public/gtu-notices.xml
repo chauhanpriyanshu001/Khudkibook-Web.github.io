@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Mon, 28 Sep 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER. 2O26 EXAMINATION M. PHARM Sem 1 &amp; 2 [REMEDIAL/LESS50/TERM EXTENSION STUDENTS]</title>
+      <link>https://khudkibook.in/gtu-notices.html#n59239</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n59239</guid>
+      <pubDate>Tue, 29 Sep 2026 06:30:00 GMT</pubDate>
+      <category>Exam</category>
+      <description>INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER. 2O26 EXAMINATION M. PHARM Sem 1 &amp; 2 [REMEDIAL/LESS50/TERM EXTENSION STUDENTS] — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/instruction-for-filling-the-remedial-exam-forms-of-winter.2o-abfc90d644.pdf</description>
+    </item>
     <item>
       <title>Notification for result declaration of Bachelor of Engineering Sem 5 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination</title>
       <link>https://khudkibook.in/gtu-notices.html#n59238</link>
@@ -798,14 +806,6 @@
       <pubDate>Thu, 10 Sep 2026 06:30:00 GMT</pubDate>
       <category>Circular</category>
       <description>Instructions for filling the TERM EXTENSION REGULAR/ REMEDIAL Exam Forms of Master of Engineering (ME), Master of Arts (Hindu Studies), PG Diploma in Bioinformatics and M. Sc. (Industrial Biotechnology) for Winter – 2026 Examination — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20260910-17130772-e3659ef0b3.pdf</description>
-    </item>
-    <item>
-      <title>Notification for Result Declaration of Master of Business Administration Sem 01 (Remedial) of Summer-2026 Examination</title>
-      <link>https://khudkibook.in/gtu-notices.html#n49124</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n49124</guid>
-      <pubDate>Thu, 10 Sep 2026 06:30:00 GMT</pubDate>
-      <category>Circular</category>
-      <description>Notification for Result Declaration of Master of Business Administration Sem 01 (Remedial) of Summer-2026 Examination — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20260910191151-743725ab29.pdf</description>
     </item>
   </channel>
 </rss>

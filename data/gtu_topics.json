@@ -93,5 +93,16 @@
     ],
     "firstSeen": "2026-09-27T04:22:49.878Z",
     "lastPublished": "2026-09-27T04:22:49.878Z"
+  },
+  "term-extension:unspecified": {
+    "key": "term-extension:unspecified",
+    "type": "term-extension",
+    "slug": "gtu-current-term-extension-form",
+    "title": "GTU Current Term Extension Form: Who Can Apply & How",
+    "noticeIds": [
+      59239
+    ],
+    "firstSeen": "2026-09-29T06:01:50.971Z",
+    "lastPublished": "2026-09-29T06:01:50.971Z"
   }
 }

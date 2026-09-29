@@ -1,5 +1,45 @@
 [
   {
+    "id": 59239,
+    "title": "INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER. 2O26 EXAMINATION M. PHARM Sem 1 & 2 [REMEDIAL/LESS50/TERM EXTENSION STUDENTS]",
+    "rawTitle": "INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER.2O26 EXAMINATION M.PHARM SEM-1 & 2 [REMEDIAL/LESS50/TERM EXTENSION STUDENTS]",
+    "date": "2026-09-29",
+    "postedAt": "2026-09-29T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/instruction-for-filling-the-remedial-exam-forms-of-winter.2o-abfc90d644.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/instruction-for-filling-the-remedial-exam-forms-of-winter.2o-abfc90d644.pdf",
+        "name": "INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER.2O26 EXAMINATION - M.PHARM SEM-1 & 2 [REMEDIAL-LESS50-TERM EXTENSION STUDENTS] (1).pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "semester": 1,
+      "semesterFrom": 1,
+      "semesterTo": 2,
+      "program": "Master of Pharmacy",
+      "programShort": "M.Pharm",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": true,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "term-extension",
+      "key": "term-extension:unspecified",
+      "label": "Term extension — current session",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
     "id": 59238,
     "title": "Notification for result declaration of Bachelor of Engineering Sem 5 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",
     "rawTitle": "Notification for result declaration of Bachelor of Engineering Sem - 5 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",

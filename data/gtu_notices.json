@@ -1,5 +1,45 @@
 [
   {
+    "id": 59240,
+    "title": "Public Viva-Voce of Arpita Majumdar (179999903001) on 05/10/2026",
+    "rawTitle": "Public Viva-Voce of Arpita Majumdar (179999903001) on 05/10/2026",
+    "date": "2026-09-29",
+    "postedAt": "2026-09-29T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Arpita%20Majumdar%20%281%29_589576.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Arpita%20Majumdar%20%281%29_589576.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract%20of%20the%20Thesis%2015.09.2026%20%282%29_998942.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-05"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 59239,
     "title": "INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER. 2O26 EXAMINATION M. PHARM Sem 1 & 2 [REMEDIAL/LESS50/TERM EXTENSION STUDENTS]",
     "rawTitle": "INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER.2O26 EXAMINATION M.PHARM SEM-1 & 2 [REMEDIAL/LESS50/TERM EXTENSION STUDENTS]",

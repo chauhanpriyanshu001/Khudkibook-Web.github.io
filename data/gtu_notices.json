@@ -1,5 +1,48 @@
 [
   {
+    "id": 59238,
+    "title": "Notification for result declaration of Bachelor of Engineering Sem 5 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",
+    "rawTitle": "Notification for result declaration of Bachelor of Engineering Sem - 5 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",
+    "date": "2026-09-28",
+    "postedAt": "2026-09-28T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-5-rem.-recheck-reassessment-88cb48f2c2.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-5-rem.-recheck-reassessment-88cb48f2c2.pdf",
+        "name": "BE Sem - 5 Rem. Recheck Reassessment.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 5,
+      "program": "Bachelor of Engineering",
+      "programShort": "BE",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
     "id": 59235,
     "title": "Quotation in sealed cover are invited for “undertake orchestra Party for Navratri Program at GTU-ITR, Mevad, Mehsana”",
     "rawTitle": "Quotation in sealed cover are invited for “undertake orchestra Party for Navratri Program at GTU-ITR, Mevad, Mehsana”",

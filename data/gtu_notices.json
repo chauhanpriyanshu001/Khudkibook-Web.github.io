@@ -1,5 +1,40 @@
 [
   {
+    "id": 59241,
+    "title": "GEM/2026/B/8068055 for Supply of Tracksuit, T-Shirt (V3), Shorts-Sports, Sports and Gym Kit Bag",
+    "rawTitle": "GEM/2026/B/8068055 for Supply of Tracksuit, T-Shirt (V3), Shorts-Sports, Sports and Gym Kit Bag",
+    "date": "2026-09-29",
+    "postedAt": "2026-09-29T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/GeM-Bidding-9929083%20%281%29_428590.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/GeM-Bidding-9929083%20%281%29_428590.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/GeM-Bidding-9929083%20%281%29_428590.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 59240,
     "title": "Public Viva-Voce of Arpita Majumdar (179999903001) on 05/10/2026",
     "rawTitle": "Public Viva-Voce of Arpita Majumdar (179999903001) on 05/10/2026",

@@ -1,5 +1,138 @@
 [
   {
+    "id": 59244,
+    "title": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF BBA INTEGRATED Sem 3 & 5 WINTER-2026 EXAMINATION",
+    "rawTitle": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF BBA INTEGRATED SEM- 3 & 5 WINTER-2026 EXAMINATION",
+    "date": "2026-09-29",
+    "postedAt": "2026-09-29T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bba-exam-form-3-5-winter-26-4756fea0c7.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bba-exam-form-3-5-winter-26-4756fea0c7.pdf",
+        "name": "BBA Exam Form - 3 & 5 (Winter-26).pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 3,
+      "semesterFrom": 3,
+      "semesterTo": 5,
+      "program": "Bachelor of Business Administration",
+      "programShort": "BBA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 59243,
+    "title": "INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF BBA Sem 1 TO 6 OF WINTER-2026 EXAMINATION",
+    "rawTitle": "INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF BBA SEM-1 TO 6 OF WINTER-2026 EXAMINATION",
+    "date": "2026-09-29",
+    "postedAt": "2026-09-29T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bba-exam-form-1-to-6-winter-26-3da59f8f5a.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bba-exam-form-1-to-6-winter-26-3da59f8f5a.pdf",
+        "name": "BBA Exam Form - 1 to 6 (Winter-26).pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 1,
+      "semesterFrom": 1,
+      "semesterTo": 6,
+      "program": "Bachelor of Business Administration",
+      "programShort": "BBA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 59242,
+    "title": "PhD Notification No. 266/2026 for Jani Raxit Girishkumar (179999913026)",
+    "rawTitle": "PhD Notification No. 266/2026 for Jani Raxit Girishkumar (179999913026)",
+    "date": "2026-09-29",
+    "postedAt": "2026-09-29T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Raxit%20Jani%20%281%29_192132.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Raxit%20Jani%20%281%29_192132.pdf",
+        "name": "PhD Notification No. 266/2026 for Jani Raxit Girishkumar (179999913026)"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/1.%20Thesis%20of%20179999913026_994133.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2.%20Synopsis%20of%20179999913026_155069.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 59241,
     "title": "GEM/2026/B/8068055 for Supply of Tracksuit, T-Shirt (V3), Shorts-Sports, Sports and Gym Kit Bag",
     "rawTitle": "GEM/2026/B/8068055 for Supply of Tracksuit, T-Shirt (V3), Shorts-Sports, Sports and Gym Kit Bag",

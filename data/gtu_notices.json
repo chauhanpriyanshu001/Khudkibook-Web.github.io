@@ -1,5 +1,45 @@
 [
   {
+    "id": 69242,
+    "title": "Public Viva-Voce of Jhala Dhara Pradumansinh (199999903510) on 12/10/2026",
+    "rawTitle": "Public Viva-Voce of Jhala Dhara Pradumansinh (199999903510) on 12/10/2026",
+    "date": "2026-09-30",
+    "postedAt": "2026-09-30T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Dhara%20Jhala_482324.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Dhara%20Jhala_482324.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract%20of%20the%20Thesis_submitted%20for%20final%20viva_443177.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-12"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69241,
     "title": "Notification for result declaration of Bachelor of Engineering Sem 4 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",
     "rawTitle": "Notification for result declaration of Bachelor of Engineering Sem - 4 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",

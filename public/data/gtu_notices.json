@@ -1,5 +1,22 @@
 [
   {
+    "id": 69241,
+    "title": "Notification for result declaration of Bachelor of Engineering Sem 4 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",
+    "date": "2026-09-30",
+    "postedAt": "2026-09-30T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-4-rem.-recheck-reassessment-1ad0ab8b44.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-4-rem.-recheck-reassessment-1ad0ab8b44.pdf",
+        "name": "BE Sem - 4 Rem. Recheck Reassessment.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 69240,
     "title": "Pre-Submission Seminar of Solanki Jayrajsinh Balvantsinh (199999914529); Electrical Engineering Discipline) on 05/10/2026",
     "date": "2026-09-30",

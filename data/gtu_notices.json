@@ -1,8 +1,53 @@
 [
   {
+    "id": 69244,
+    "title": "PhD Notification No. 267/2026 for Shaikh Ayeshabanu Sibgatulla (179999913028)",
+    "rawTitle": "PhD Notification No. 267/2026 for Shaikh Ayeshabanu Sibgatulla (179999913028)",
+    "date": "2026-09-30",
+    "postedAt": "2026-09-30T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Ayeshabanu%20Shaikh_900274.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Ayeshabanu%20Shaikh_900274.pdf",
+        "name": "PhD Notification No. 267/2026 for Shaikh Ayeshabanu Sibgatulla (179999913028)"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/179999913028_AYESHA_Full%20Thesis_941696.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/179999913028_Synopsis_257849.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69243,
-    "title": "Invitation for Sponsorship of Gold Medals for GTU Convocation CeremonySBI/Payment Instruction/Guideline",
-    "rawTitle": "Invitation for Sponsorship of Gold Medals for GTU Convocation CeremonySBI/Payment Instruction/Guideline",
+    "title": "Invitation for Sponsorship of Gold Medals for GTU Convocation Ceremony",
+    "rawTitle": "Invitation for Sponsorship of Gold Medals for GTU Convocation Ceremony",
     "date": "2026-09-30",
     "postedAt": "2026-09-30T12:00:00+05:30",
     "category": "Academic",
@@ -11,7 +56,11 @@
     "documents": [
       {
         "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular-Gold%20Medal%20Sponership_610776.pdf",
-        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular-Gold%20Medal%20Sponership_610776.pdf"
+        "name": "Invitation for Sponsorship of Gold Medals for GTU Convocation Ceremony"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/SBIPayment%20Instructions_118320.pdf",
+        "name": "SBI Payment Instruction/Guideline"
       }
     ],
     "important": false,

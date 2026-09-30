@@ -1,5 +1,40 @@
 [
   {
+    "id": 69243,
+    "title": "Invitation for Sponsorship of Gold Medals for GTU Convocation CeremonySBI/Payment Instruction/Guideline",
+    "rawTitle": "Invitation for Sponsorship of Gold Medals for GTU Convocation CeremonySBI/Payment Instruction/Guideline",
+    "date": "2026-09-30",
+    "postedAt": "2026-09-30T12:00:00+05:30",
+    "category": "Academic",
+    "categoryId": 10,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular-Gold%20Medal%20Sponership_610776.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular-Gold%20Medal%20Sponership_610776.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular-Gold%20Medal%20Sponership_610776.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:69243",
+      "label": "Academic",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 69242,
     "title": "Public Viva-Voce of Jhala Dhara Pradumansinh (199999903510) on 12/10/2026",
     "rawTitle": "Public Viva-Voce of Jhala Dhara Pradumansinh (199999903510) on 12/10/2026",

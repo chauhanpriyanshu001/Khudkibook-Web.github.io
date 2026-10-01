@@ -1,5 +1,42 @@
 [
   {
+    "id": 69250,
+    "title": "Download Hall Ticket for Ph. D. Entrance Test, 2026",
+    "rawTitle": "Download Hall Ticket for Ph.D. Entrance Test, 2026",
+    "date": "2026-10-01",
+    "postedAt": "2026-10-01T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://gtuadm.samarth.edu.in",
+    "documents": [
+      {
+        "url": "https://gtuadm.samarth.edu.in",
+        "name": "https://gtuadm.samarth.edu.in"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69247,
     "title": "List of Eligible Candidates for Ph. D. Entrance Test 2026",
     "rawTitle": "List of Eligible Candidates for Ph.D. Entrance Test 2026",

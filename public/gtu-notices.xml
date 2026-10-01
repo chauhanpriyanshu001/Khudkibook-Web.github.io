@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Wed, 30 Sep 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Download Hall Ticket for Ph. D. Entrance Test, 2026</title>
+      <link>https://khudkibook.in/gtu-notices.html#n69250</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n69250</guid>
+      <pubDate>Thu, 01 Oct 2026 06:30:00 GMT</pubDate>
+      <category>PHD</category>
+      <description>Download Hall Ticket for Ph. D. Entrance Test, 2026 — official GTU circular. Source: https://gtuadm.samarth.edu.in</description>
+    </item>
     <item>
       <title>List of Eligible Candidates for Ph. D. Entrance Test 2026</title>
       <link>https://khudkibook.in/gtu-notices.html#n69247</link>
@@ -798,14 +806,6 @@
       <pubDate>Mon, 14 Sep 2026 06:30:00 GMT</pubDate>
       <category>PHD</category>
       <description>Public Viva-Voce of Dhangar Dharmeshkumar Natthuram (219999913039) on 22/09/2026 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public Viva Voce Notice- Dharmesh Dhangar_436329.pdf</description>
-    </item>
-    <item>
-      <title>Pre-Submission Seminar of Chauhan Pareshbhai Mansangbhai (199999913509); Computer/IT Engineering Discipline) on 21/09/2026</title>
-      <link>https://khudkibook.in/gtu-notices.html#n49144</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n49144</guid>
-      <pubDate>Mon, 14 Sep 2026 06:30:00 GMT</pubDate>
-      <category>PHD</category>
-      <description>Pre-Submission Seminar of Chauhan Pareshbhai Mansangbhai (199999913509); Computer/IT Engineering Discipline) on 21/09/2026 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Paresh Chauhan_OS_789800.pdf</description>
     </item>
   </channel>
 </rss>

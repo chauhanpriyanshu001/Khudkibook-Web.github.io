@@ -1,5 +1,48 @@
 [
   {
+    "id": 69252,
+    "title": "Notification for Result Declaration of Bachelor of Business Administration Sem 03 (Remedial) Recheck/Reassessment of Summer-2026 Examination.",
+    "rawTitle": "Notification for Result Declaration of Bachelor of Business Administration Sem-03 (Remedial) Recheck/Reassessment of Summer-2026 Examination.",
+    "date": "2026-10-01",
+    "postedAt": "2026-10-01T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bb-3-remedial-recheck-reassessment-8f9a96d9f9.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bb-3-remedial-recheck-reassessment-8f9a96d9f9.pdf",
+        "name": "BB-3 (Remedial) Recheck-Reassessment.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 3,
+      "program": "Bachelor of Business Administration",
+      "programShort": "BBA",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
     "id": 69251,
     "title": "Pre-Submission Seminar of Nisha Harendra Khobragade (229999901022); Pharmacy Discipline) on 05/10/2026",
     "rawTitle": "Pre-Submission Seminar of Nisha Harendra Khobragade (229999901022); Pharmacy Discipline) on 05/10/2026",

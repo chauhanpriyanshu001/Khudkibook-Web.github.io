@@ -1,5 +1,41 @@
 [
   {
+    "id": 69251,
+    "title": "Pre-Submission Seminar of Nisha Harendra Khobragade (229999901022); Pharmacy Discipline) on 05/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Nisha Harendra Khobragade (229999901022); Pharmacy Discipline) on 05/10/2026",
+    "date": "2026-10-01",
+    "postedAt": "2026-10-01T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Nisha%20Khobragade_OS_428933.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Nisha%20Khobragade_OS_428933.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Nisha%20Khobragade_OS_428933.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-05"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69250,
     "title": "Download Hall Ticket for Ph. D. Entrance Test, 2026",
     "rawTitle": "Download Hall Ticket for Ph.D. Entrance Test, 2026",

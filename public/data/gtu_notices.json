@@ -1,5 +1,81 @@
 [
   {
+    "id": 69256,
+    "title": "Invite Application for Full-Time Post-Doctoral Fellow under AICTE Post-Doctoral Fellowship",
+    "date": "2026-10-01",
+    "postedAt": "2026-10-01T12:00:00+05:30",
+    "category": "Circular",
+    "topic": "other",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Advertisement_Application_AICTE_Post-Doctoral_Fellowship_984998.jpeg",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Advertisement_Application_AICTE_Post-Doctoral_Fellowship_984998.jpeg",
+        "name": "Invite Application for Full-Time Post-Doctoral Fellow under AICTE Post-Doctoral Fellowship"
+      },
+      {
+        "url": "https://forms.gle/PxYJapuyybhuSbVE6",
+        "name": "Registration Link: https://forms.gle/PxYJapuyybhuSbVE6"
+      },
+      {
+        "url": "https://pdf.aicte.gov.in/assets/home_page_documents/AICTE_PDF_scheme_Guidelines.pdf",
+        "name": "AICTE Post-Doctoral Fellowship Guideline"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
+    "id": 69255,
+    "title": "Notification for Result Declaration of Master of Pharmacy Semester 1 (Remedial) Recheck/Reassessment Summer 2026 Examination",
+    "date": "2026-10-01",
+    "postedAt": "2026-10-01T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261001-0006-e94c50ee80.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261001-0006-e94c50ee80.pdf",
+        "name": "IMG_20261001_0006.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 69254,
+    "title": "Notification for Result Declaration of Master of Pharmacy Semester 2 (Regular) Recheck/Reassessment Summer 2026 Examination",
+    "date": "2026-10-01",
+    "postedAt": "2026-10-01T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261001-0005-f75646e7ad.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261001-0005-f75646e7ad.pdf",
+        "name": "IMG_20261001_0005.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 69253,
+    "title": "Notification for Result Declaration of Master of Pharmacy Semester 2 (Remedial) Recheck/Reassessment Summer 2026 Examination",
+    "date": "2026-10-01",
+    "postedAt": "2026-10-01T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261001-0004-d684dc71b2.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261001-0004-d684dc71b2.pdf",
+        "name": "IMG_20261001_0004.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 69252,
     "title": "Notification for Result Declaration of Bachelor of Business Administration Sem 03 (Remedial) Recheck/Reassessment of Summer-2026 Examination.",
     "date": "2026-10-01",

@@ -1,5 +1,200 @@
 [
   {
+    "id": 69274,
+    "title": "Research Week-2026 schedule for Textile Engineering discipline",
+    "rawTitle": "Research Week-2026 schedule for Textile Engineering discipline",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/7.%20Textile%20Engineering_2026_307614.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/7.%20Textile%20Engineering_2026_307614.pdf",
+        "name": "Research Week-2026 schedule for Textile Engineering discipline"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/8.%20Science-Chemistry_2026_354093.pdf",
+        "name": "Research Week-2026 schedule for Science-Chemistry discipline"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/9.%20Humanity-English_2026_509500.pdf",
+        "name": "Research Week-2026 schedule for Humanity-English discipline"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/10.%20Environment%20Engineering_2026_388009.pdf",
+        "name": "Research Week-2026 schedule for Environment Engineering discipline"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69273,
+    "title": "Public Viva-Voce of Rathod Abhijit Ramjibhai (209999912005) on 13/10/2026",
+    "rawTitle": "Public Viva-Voce of Rathod Abhijit Ramjibhai (209999912005) on 13/10/2026",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Abhijit%20Rathod_465900.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Abhijit%20Rathod_465900.pdf",
+        "name": "Public Viva-Voce of Rathod Abhijit Ramjibhai (209999912005) on 13/10/2026"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract%20of%20the%20Thesis_209999912005_173610.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-13"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69272,
+    "title": "Pre-Submission Seminar of Amitkumar Ambalal Amin (Enrollment No. : 189999912005; Civil Engineering Discipline) on 08/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Amitkumar Ambalal Amin (Enrollment No.: 189999912005 ; Civil Engineering Discipline) on 08/10/2026",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Amit%20Amin_OS_509919.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Amit%20Amin_OS_509919.pdf",
+        "name": "Pre-Submission Seminar of Amitkumar Ambalal Amin (Enrollment No.: 189999912005 ; Civil Engineering Discipline) on 08/10/2026"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-08"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69271,
+    "title": "Pre-Submission Seminar of Dhanalakshmi J (Enrollment No. : 199999913536; Computer/It Engineering Discipline) on 14/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Dhanalakshmi J (Enrollment No.: 199999913536 ; Computer/It Engineering Discipline) on 14/10/2026",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Dhanlakshmi%20J_OS_198099.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Dhanlakshmi%20J_OS_198099.pdf",
+        "name": "Pre-Submission Seminar of Dhanalakshmi J (Enrollment No.: 199999913536 ; Computer/It Engineering Discipline) on 14/10/2026"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-14"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69270,
+    "title": "Pre-Submission Seminar of Mehta Amiben Maheshbhai (Enrollment No. : 199999913569; Computer/It Engineering Discipline) on 12/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Mehta Amiben Maheshbhai (Enrollment No.: 199999913569 ; Computer/It Engineering Discipline) on 12/10/2026",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Mehta%20Amiben_OS_499599.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Mehta%20Amiben_OS_499599.pdf",
+        "name": "Pre-Submission Seminar of Mehta Amiben Maheshbhai (Enrollment No.: 199999913569 ; Computer/It Engineering Discipline) on 12/10/2026"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-12"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69269,
     "title": "Procedure & Guidelines for Pre-VIVA Thesis Submission in the form of Soft Copy for Master of Engineering (ME) Dissertation (Only for DP-II students) (Applicable only for Winter-2026)",
     "rawTitle": "Procedure & Guidelines for Pre-VIVA Thesis Submission in the form of Soft Copy for Master of Engineering (ME) Dissertation (Only for DP-II students) (Applicable only for Winter-2026)",

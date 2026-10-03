@@ -1,5 +1,46 @@
 [
   {
+    "id": 69269,
+    "title": "Procedure & Guidelines for Pre-VIVA Thesis Submission in the form of Soft Copy for Master of Engineering (ME) Dissertation (Only for DP-II students) (Applicable only for Winter-2026)",
+    "rawTitle": "Procedure & Guidelines for Pre-VIVA Thesis Submission in the form of Soft Copy for Master of Engineering (ME) Dissertation (Only for DP-II students) (Applicable only for Winter-2026)",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261003-15221657-1-ffb83f53a1.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261003-15221657-1-ffb83f53a1.pdf",
+        "name": "img20261003_15221657 (1).pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "program": "Master of Engineering",
+      "programShort": "ME",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:69269",
+      "label": "Exam",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 69268,
     "title": "Notification for Result Declaration of Result of Doctor of Pharmacy Year- 1 (Remedial) (Recheck-Re-assessment) Summer - 2026 Examination",
     "rawTitle": "Notification for Result Declaration of Result of Doctor of Pharmacy Year- 1 (Remedial) (Recheck-Re-assessment) Summer - 2026 Examination",

@@ -1,5 +1,56 @@
 [
   {
+    "id": 69268,
+    "title": "Notification for Result Declaration of Result of Doctor of Pharmacy Year- 1 (Remedial) (Recheck-Re-assessment) Summer - 2026 Examination",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261003-0005-7d494b3870.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261003-0005-7d494b3870.pdf",
+        "name": "IMG_20261003_0005.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 69267,
+    "title": "Notification for Result Declaration of Result of Doctor of Pharmacy Year- 1 (Regular) (Recheck-Re-assessment) Summer - 2026 Examination.",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261003-0003-f7dfd7b5d9.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261003-0003-f7dfd7b5d9.pdf",
+        "name": "IMG_20261003_0003.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 69266,
+    "title": "Notification for Result Declaration of Result of Doctor of Pharmacy Year- 2 (Regular) (Recheck-Re-assessment) Summer - 2026 Examination.",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261003-0002-c225f471e7.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261003-0002-c225f471e7.pdf",
+        "name": "IMG_20261003_0002.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 69260,
     "title": "Instructions for filling the Regular Exam Forms of Diploma in Engineering (DE) (Sem – 3 & 5) (For NCC as General Elective Course Students) Winter-2026 Examination",
     "date": "2026-10-03",
@@ -49,6 +100,23 @@
     ],
     "important": false,
     "post": null
+  },
+  {
+    "id": 69265,
+    "title": "Notification for Result Declaration of Result of Doctor of Pharmacy Year- 2 (Remedial) (Recheck-Re-assessment) Summer - 2026 Examination.",
+    "date": "2026-10-01",
+    "postedAt": "2026-10-01T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261003-0001-6bd33cd0f4.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261003-0001-6bd33cd0f4.pdf",
+        "name": "IMG_20261003_0001.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
   },
   {
     "id": 69256,

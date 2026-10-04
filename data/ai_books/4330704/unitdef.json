@@ -1,0 +1,16 @@
+{
+  "subject": "Data Structures and Algorithms",
+  "branchLabel": "Diploma Computer Engineering",
+  "page": "/computer/sem3/DSA.html",
+  "code": "4330704",
+  "syllabusUrl": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/4330704.pdf",
+  "syllabusEdition": "GTU COGC-2022",
+  "units": [
+    {"n": 1, "title": "Basic Concepts of Data Structures", "examWeight": 7, "teachingHours": 4},
+    {"n": 2, "title": "Strings", "examWeight": 7, "teachingHours": 4},
+    {"n": 3, "title": "Stack and Queues", "examWeight": 14, "teachingHours": 8},
+    {"n": 4, "title": "Linked List", "examWeight": 14, "teachingHours": 9},
+    {"n": 5, "title": "Trees", "examWeight": 14, "teachingHours": 7},
+    {"n": 6, "title": "Sorting and Hashing", "examWeight": 14, "teachingHours": 10}
+  ]
+}

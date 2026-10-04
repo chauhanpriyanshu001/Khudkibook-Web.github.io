@@ -1,5 +1,56 @@
 [
   {
+    "id": 69277,
+    "title": "Notification for Result Declaration of Master of Engineering Sem 2 (Remedial) (Recheck/Reassessment) Summer - 2026 Examination.",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261003-18105429-ce8fac6e61.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261003-18105429-ce8fac6e61.pdf",
+        "name": "img20261003_18105429.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 69276,
+    "title": "Notification for Result Declaration of Master of Engineering Sem 2 (Regular) (Recheck/Reassessment) Summer - 2026 Examination.",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261003-18140397-cbcff9ab64.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261003-18140397-cbcff9ab64.pdf",
+        "name": "img20261003_18140397.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 69275,
+    "title": "Notification for Result Declaration of Master of Engineering Sem 1 (Remedial) (Recheck/Reassessment) Summer - 2026 Examination.",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261003-18150717-5d9990cb36.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261003-18150717-5d9990cb36.pdf",
+        "name": "img20261003_18150717.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 69274,
     "title": "Research Week-2026 schedule for Textile Engineering discipline",
     "date": "2026-10-03",

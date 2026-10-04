@@ -1,5 +1,35 @@
 [
   {
+    "id": 69278,
+    "title": "OMR Sheet_Ph. D. Entrance, 2026",
+    "rawTitle": "OMR Sheet_Ph.D. Entrance, 2026",
+    "date": "2026-10-04",
+    "postedAt": "2026-10-04T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "",
+    "documents": [],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69277,
     "title": "Notification for Result Declaration of Master of Engineering Sem 2 (Remedial) (Recheck/Reassessment) Summer - 2026 Examination.",
     "rawTitle": "Notification for Result Declaration of Master of Engineering Sem-2 (Remedial) (Recheck/Reassessment) Summer - 2026 Examination.",

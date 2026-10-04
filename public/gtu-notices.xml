@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Sat, 03 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>OMR Sheet_Ph. D. Entrance, 2026</title>
+      <link>https://khudkibook.in/gtu-notices.html#n69278</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n69278</guid>
+      <pubDate>Sun, 04 Oct 2026 06:30:00 GMT</pubDate>
+      <category>PHD</category>
+      <description>OMR Sheet_Ph. D. Entrance, 2026 — official GTU circular. Source: https://gtu.ac.in/academics/circulars</description>
+    </item>
     <item>
       <title>Notification for Result Declaration of Master of Engineering Sem 2 (Remedial) (Recheck/Reassessment) Summer - 2026 Examination.</title>
       <link>https://khudkibook.in/gtu-notices.html#n69277</link>
@@ -798,14 +806,6 @@
       <pubDate>Fri, 18 Sep 2026 06:30:00 GMT</pubDate>
       <category>Circular</category>
       <description>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MBA INTEGRATED Sem 3, 5, 7 AND MBA INTEGRATED- 9 [REGULAR / TERM EXTENSION REGULAR] WINTER-2026 EXAMINATION — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mam-reg-20260917210131-0b3dcd82d1.pdf</description>
-    </item>
-    <item>
-      <title>INSTRUCTION FOR FILLING THE REMEDIAL / TERM EXTENSION REMEDIAL EXAM FORMS OF MBA INTEGRATED Sem 1 TO 10 OF WINTER-2026 EXAMINATION</title>
-      <link>https://khudkibook.in/gtu-notices.html#n49174</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n49174</guid>
-      <pubDate>Fri, 18 Sep 2026 06:30:00 GMT</pubDate>
-      <category>Circular</category>
-      <description>INSTRUCTION FOR FILLING THE REMEDIAL / TERM EXTENSION REMEDIAL EXAM FORMS OF MBA INTEGRATED Sem 1 TO 10 OF WINTER-2026 EXAMINATION — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mam-rem-20260917210117-ff0a3f44e7.pdf</description>
     </item>
   </channel>
 </rss>

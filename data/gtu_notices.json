@@ -1,5 +1,75 @@
 [
   {
+    "id": 69281,
+    "title": "Information about some research grants available during Oct-Nov. 26",
+    "rawTitle": "Information about some research grants available during Oct-Nov. 26",
+    "date": "2026-10-05",
+    "postedAt": "2026-10-05T12:00:00+05:30",
+    "category": "Potential Funding Resources",
+    "categoryId": 24,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Nov_26_728442.docx",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Nov_26_728442.docx",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Nov_26_728442.docx"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:potential funding resources",
+      "label": "Potential Funding Resources",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69280,
+    "title": "Notification No. 268/2026 – List of Selected Candidates for the Post of Project Associate-I under ISRO Project at GTU-SET, Ahmedabad",
+    "rawTitle": "Notification No. 268/2026 – List of Selected Candidates for the Post of Project Associate-I under ISRO Project at GTU-SET, Ahmedabad",
+    "date": "2026-10-05",
+    "postedAt": "2026-10-05T12:00:00+05:30",
+    "category": "Recruitment",
+    "categoryId": 8,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/GTU-SET_ISRO_PA_Notificatiion_191872.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/GTU-SET_ISRO_PA_Notificatiion_191872.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/GTU-SET_ISRO_PA_Notificatiion_191872.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:recruitment",
+      "label": "Recruitment",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69278,
     "title": "OMR Sheet_Ph. D. Entrance, 2026",
     "rawTitle": "OMR Sheet_Ph.D. Entrance, 2026",

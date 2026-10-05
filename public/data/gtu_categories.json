@@ -16,12 +16,16 @@
     "count": 11
   },
   {
+    "name": "Recruitment",
+    "count": 5
+  },
+  {
     "name": "Academic",
     "count": 5
   },
   {
-    "name": "Recruitment",
-    "count": 4
+    "name": "Potential Funding Resources",
+    "count": 2
   },
   {
     "name": "Institute Transfer",
@@ -29,10 +33,6 @@
   },
   {
     "name": "Affiliation",
-    "count": 1
-  },
-  {
-    "name": "Potential Funding Resources",
     "count": 1
   },
   {

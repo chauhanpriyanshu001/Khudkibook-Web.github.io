@@ -188,6 +188,113 @@ const PAGE_MARK_RE = /^\s*--\s*\d+\s+of\s+\d+\s*--\s*$/;
 const NOISE_RE = /^(Course Code\s*:|GTU\s*[-\u2013]|Page\s+\d+\s+of\s+\d+|Unit\s+Unit\s+Outcomes|\s*\(?4 to 6 UOs?|S\.\s*No\.\s*Practical|Unit\s+No\.?\s*$)/i;
 const UNIT_STOP_RE = /^\s*(?:\d{1,2}\s*[.)]\s*)?(References?\/?Suggested\s+Learning|References?\s*:|Suggested\s+Specification|Course\s+Outcomes?|Affective\s+Domain\s+Outcomes|Suggested\s+Student\s+Activities|Learning\s+Resources|Software\s*\/?\s*Learning\s+Websites|PO[- ]Competency[- ]CO\s+Mapping|Course\s+Curriculum\s+Development\s+Committee|List\s+of\s+Documents|Unit\s+Unit\s+Outcomes|Unit\s+No\.?|LIST\s+OF\s+(?:PRACTICALS|EXPERIMENTS)|List\s+of\s+(?:Experiments|Practicals|Tutorials))/i;
 
+// ----------------------------------------------------------------
+// "5. COURSE DETAILS." table (newer GTU curriculum documents, e.g.
+// 3316301): three columns reflowed by pdf-parse as
+//
+//    Unit– III
+//    <unit title, possibly wrapped over several lines>
+//    <Unit Outcome prose>
+//    <topic lines, unnumbered and dash-prefixed>
+//
+// UNIT_RE matches the "Unit– III" headers, but every topic below them is
+// unnumbered ("Tenses", "- Present Tense (…)"), so TOPIC_RE never fires and
+// parseUnits() discards every unit for having no topics. This layout needs its
+// own reader: the title is whatever sits between the header and the first
+// topic-shaped line, and every line after that is content.
+// ----------------------------------------------------------------
+const COURSE_DETAILS_RE = /^\s*\d+\.?\s*COURSE\s+DETAILS\s*\.?\s*$/i;
+const COURSE_DETAILS_END_RE = /^\s*\d+\.?\s*(?:SUGGESTED\s+LIST\s+OF|LIST\s+OF\s+(?:PRACTICALS|EXPERIMENTS|TUTORIALS|TUTORIAL\s+EXERCISES)|SUGGESTED\s+INSTRUCTIONAL|REFERENCES?\b|LIST\s+OF\s+BOOKS)/i;
+const BULLET_RE = /^\s*[-–•*]\s+/;
+const COLUMN_HEADER_RE = /^\s*Unit\s*(?:Outcomes?)?\b.*$/i;
+
+function parseUnitsCourseDetails(text) {
+  const lines = text.split(/\r?\n/).map(l => l.trim());
+  const start = lines.findIndex(l => COURSE_DETAILS_RE.test(l));
+  if (start === -1) return [];
+
+  const units = [];
+  let cur = null;
+  // A topic line is either dash-bulleted or numbered; the title is neither.
+  const isTopicLine = (l) => BULLET_RE.test(l) || /^\d+(?:\.\d+)*\.?\s+\S/.test(l);
+  // Column headers and running page furniture repeat down the table.
+  const isFurniture = (l) =>
+    !l || PAGE_MARK_RE.test(l) || NOISE_RE.test(l) || PAGE_HEADER_RE.test(l) ||
+    COLUMN_HEADER_RE.test(l) || /^Major\s+Learning\s+Topics/i.test(l) ||
+    /^(Unit\s+)?Outcomes?\s*\(in\s+cognitive/i.test(l) || /<[A-Za-z]+>\s*Course Code/i.test(l);
+
+  const flush = () => {
+    if (!cur) return;
+    const title = (cur.titleLines[0] || '').replace(/\s+/g, ' ').trim();
+    // A unit with a title and at least one topic is real content; without
+    // either it is a header artefact.
+    if (title && cur.topics.length) {
+      units.push({ n: units.length + 1, roman: cur.roman, title, uos: cur.uos, topics: cur.topics });
+    }
+    cur = null;
+  };
+
+  for (const raw of lines.slice(start + 1)) {
+    if (COURSE_DETAILS_END_RE.test(raw)) { flush(); break; }
+
+    // The unit header is tested before the furniture filter: the table's column
+    // heading is literally the word "Unit", which the heading regex below would
+    // otherwise match as a header on every "Unit– IV" row and drop it.
+    const um = raw.match(UNIT_RE);
+    if (um) {
+      flush();
+      cur = { roman: um[1], titleLines: [], topics: [], uos: [], inTopics: false };
+      continue;
+    }
+    if (isFurniture(raw)) continue;
+    if (!cur) continue;
+
+    // This layout is a three-column table (Unit title | Unit Outcomes | Major
+    // Learning Topics) that pdf-parse reflows line by line, so the columns
+    // arrive in order: the title first, then the outcome prose, then the topics.
+    // Bulleted and numbered lines are unambiguously topics. The one column
+    // that needs detecting is the topic block of a unit whose topics are a plain
+    // comma-separated list -- the first line containing a comma marks where the
+    // topic column starts, everything between title and there is outcome prose.
+    if (isTopicLine(raw)) {
+      const text = raw.replace(BULLET_RE, '').replace(/\s+/g, ' ').trim();
+      if (text) cur.topics.push(text);
+      cur.inTopics = true;
+      continue;
+    }
+
+    const line = raw.replace(/\s+/g, ' ').trim();
+    if (!cur.titleLines.length) {
+      cur.titleLines.push(line);
+      continue;
+    }
+    // The title column is short and title-cased; outcome prose is a sentence.
+    // Grow the title while the candidate still reads like a heading.
+    if (cur.titleLines.length < 3 && !cur.inTopics) {
+      const joined = cur.titleLines.join(' ');
+      const looksLikeHeading = (s) =>
+        s.length <= 70 && !/[.!?,]$/.test(s) &&
+        s.split(/\s+/).every(w => /^[A-Z0-9][\w'&()\/-]*$/.test(w) || /^(and|of|in|for|the|to|with|-\s*)$/i.test(w));
+      if (!cur.uos.length && looksLikeHeading(line) && !/[a-z]{4,}\s+[a-z]{4,}/.test(line)) {
+        cur.titleLines.push(line);
+        continue;
+      }
+      cur.uos.push(joined);
+      cur.titleLines = [joined];
+    }
+    if (cur.inTopics || /,/.test(line)) {
+      if (line) cur.topics.push(line);
+      cur.inTopics = true;
+      continue;
+    }
+    if (cur.uos.length < 6 && /[a-z]{3}/i.test(line) && line.length < 300) {
+      cur.uos.push(line);
+    }
+  }
+  flush();
+  return units;
+}
+
 function parseUnits(text) {
   const lines = text.split(/\r?\n/);
   const units = [];
@@ -619,6 +726,10 @@ function main() {
       units = parseUnitsTabular(text);
     }
     if (!units.length) {
+      console.log('No tabular contents; trying "COURSE DETAILS" table format…');
+      units = parseUnitsCourseDetails(text);
+    }
+    if (!units.length) {
       console.error('No units found — is this really a GTU syllabus text?');
       process.exit(2);
     }
@@ -677,4 +788,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { parseUnits, parseUnitsLegacy, parseUnitsDegree, parseUnitsTabular, parseMarks, parseReferences, pdfToText, findSubjectMetadata, splitSubTopics };
+module.exports = { parseUnits, parseUnitsLegacy, parseUnitsDegree, parseUnitsTabular, parseUnitsCourseDetails, parseMarks, parseReferences, pdfToText, findSubjectMetadata, splitSubTopics };

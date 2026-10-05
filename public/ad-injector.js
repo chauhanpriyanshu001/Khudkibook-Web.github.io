@@ -10,10 +10,22 @@
 
   // Global AdSense Placement Configuration
   var AD_CONFIG = {
-    enabled: false, // TEMP: ads disabled site-wide. Flip to true to re-enable.
+    // Ads are back on now that placement is unified: every ad unit on the site
+    // comes from injectAds() below, so pageHasPublishableContent() is the single
+    // gate deciding where ads may appear. Before this, 110 pages carried
+    // hardcoded <ins> slots that pushed at parse time and ignored that gate.
+    enabled: true,
     client: 'ca-pub-4211827566541334', // Your AdSense Publisher ID
     debug: false, // Set to true to log injection events in browser console
     lazyLoad: true, // Use IntersectionObserver to lazy load ads on scroll
+    // Serve ads only where the page actually has content to monetise. See
+    // pageHasPublishableContent() for what counts.
+    guardContent: true,
+    // The self-study books are labelled "AI-generated study material" in their
+    // own <title> and <h1>. Google's "automatically generated content" guidance
+    // is that such pages need manual review before they carry ads, so they are
+    // excluded too. Flip to false once each one has been read and signed off.
+    guardAiGenerated: true,
     slots: {
       // 1. Top High-Viewability Leaderboard (Desktop / Tablet only)
       topLeaderboard: {
@@ -79,6 +91,34 @@
   }
 
   /**
+   * Load the AdSense library, once, on demand.
+   *
+   * `public/templates/base.html` loads this file but deliberately does NOT load
+   * pagead/js/adsbygoogle.js itself, and the hand-written pages (about, contact,
+   * ddcet, papers, syllabus) used to carry their own <script> tag for it. Pushing
+   * to a window.adsbygoogle queue with no library behind it renders nothing, so
+   * ownership of the tag belongs here, next to the code that pushes.
+   *
+   * It is fetched on first push rather than at load, so a page that fails
+   * pageHasPublishableContent() costs no AdSense request at all.
+   */
+  var libraryRequested = false;
+
+  function ensureLibrary() {
+    if (libraryRequested) return;
+    if (document.querySelector('script[src*="pagead/js/adsbygoogle.js"]')) {
+      libraryRequested = true;
+      return;
+    }
+    libraryRequested = true;
+    var s = document.createElement('script');
+    s.async = true;
+    s.crossOrigin = 'anonymous';
+    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + AD_CONFIG.client;
+    document.head.appendChild(s);
+  }
+
+  /**
    * Safely trigger AdSense push
    */
   function pushAd(insElement) {
@@ -91,6 +131,7 @@
     if (insElement.getAttribute('data-adsbygoogle-status')) {
       return; // Already pushed
     }
+    ensureLibrary();
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
       if (AD_CONFIG.debug) {
@@ -129,10 +170,69 @@
   }
 
   /**
+   * Is there anything on this page worth putting an ad next to?
+   *
+   * AdSense does not allow ads on "screens without publisher-content or with
+   * low-value content", and a subject page for a subject we have not scanned
+   * yet is exactly that: a title, a breadcrumb, a Syllabus button and two
+   * "Coming Soon" empty states wrapped around ~96 words of boilerplate. Serving
+   * a leaderboard and two more slots there is what drew the low value content
+   * finding, so those pages get no ad units at all.
+   *
+   * The three rules, in order:
+   *
+   *  1. Never place ads on a page the build marked `noindex`. The build already
+   *     decided the page has nothing worth showing a reader, so it has nothing
+   *     worth showing an advertiser either. This also covers 404s and the stale
+   *     artifacts swept by scripts/noindex_orphans.js, which no structural check
+   *     here would otherwise recognise.
+   *  2. A subject page offering neither a textbook nor question papers is an
+   *     empty stub. Mirrors `isThinPlaceholder()` in scripts/lib/seo.js.
+   *  3. Self-declared AI study material is held back until reviewed.
+   *
+   * Rules 1 and 2 answer the same question as each other, so they must be
+   * changed together.
+   */
+  function pageHasPublishableContent() {
+    var robotsMeta = document.querySelector('meta[name="robots"]');
+    if (robotsMeta && /noindex/i.test(robotsMeta.getAttribute('content') || '')) return false;
+
+    // `base.html` renders <main id="main-content">; some pages still on disk
+    // predate that and carry a bare <main>, so fall back to the tag name.
+    var main = document.getElementById('main-content') || document.querySelector('main');
+    // Not a generated subject page (homepage, blog post, notices, search).
+    // Those carry their own content; nothing here to judge.
+    if (!main || !main.querySelector('.materials-section')) return true;
+
+    var noBook = false;
+    var noPapers = false;
+    var buttons = main.querySelectorAll('.materials-section .mdbtn');
+    for (var i = 0; i < buttons.length; i++) {
+      var label = buttons[i].textContent || '';
+      if (!/\(Soon\)/i.test(label)) continue;
+      if (/book/i.test(label)) noBook = true;
+      if (/paper/i.test(label)) noPapers = true;
+    }
+
+    // A subject with neither a textbook nor question papers is an empty stub.
+    if (noBook && noPapers) return false;
+
+    if (AD_CONFIG.guardAiGenerated && /AI-generated study material/i.test(document.title || '')) {
+      return false;
+    }
+    return true;
+  }
+
+  /**
    * Initialize and place ad units across existing DOM anchors
    */
   function injectAds() {
     if (!AD_CONFIG.enabled) return;
+
+    if (AD_CONFIG.guardContent && !pageHasPublishableContent()) {
+      if (AD_CONFIG.debug) console.log('[AdInjector] Skipped: no publisher content on this page');
+      return;
+    }
 
     var isMobile = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth) <= 768;
 

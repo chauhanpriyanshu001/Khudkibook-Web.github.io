@@ -1,0 +1,116 @@
+{
+  "code": "3130607",
+  "subject": "Building Construction Technology",
+  "slug": "3130607",
+  "branchLabel": "Gujarat Technological University Civil Engineering Semester 3",
+  "page": "/civil/sem3/3130607.html",
+  "semId": "sem3",
+  "level": "degree",
+  "references": {
+    "books": [],
+    "websites": []
+  },
+  "syllabusUrl": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/3130607.pdf",
+  "generatedAt": "2026-10-01T05:55:20.828Z",
+  "units": [
+    {
+      "n": 1,
+      "roman": "1",
+      "title": "Foundations",
+      "uos": [],
+      "topics": [
+        "Subsurface Investigation Shallow Foundation : Necessity",
+        "Types",
+        "setting out, excavation",
+        "construction",
+        "failures of foundation and remedial measures",
+        "Deep Foundation: Pile Foundation: Introduction",
+        "uses",
+        "selection of pile",
+        "types of piles",
+        "pile cap and pile shoe",
+        "pile driving/ boring methods",
+        "causes of failures of piles",
+        "IS Code of piling IS2911 (Part I to IV)",
+        "Caissons: Definition",
+        "uses",
+        "construction material",
+        "types of caissons",
+        "loads on caisson",
+        "design features of caissons",
+        "floating of caissons",
+        "cutting edges",
+        "sinking of caisson",
+        "tilting of caisson",
+        "shifting of caisson",
+        "caisson diseases"
+      ],
+      "hours": 13,
+      "weightage": null,
+      "titleGu": null,
+      "marks": null
+    },
+    {
+      "n": 2,
+      "roman": "2",
+      "title": "Masonry Construction",
+      "uos": [],
+      "topics": [
+        "a) Stone masonry: Technical terms",
+        "joints",
+        "Classification of Stone masonry. b) Brick masonry: Technical terms",
+        "bonds in brick work. c) Other Masonry: Composite masonry",
+        "Hollow blocks masonry",
+        "Partition Wall",
+        "Cavity walls d) Lintels & arches: Lintels – types",
+        "construction",
+        "Arches – technical terms",
+        "types",
+        "construction. e) Wall Finishes: Plastering",
+        "pointing and painting"
+      ],
+      "hours": 8,
+      "weightage": null,
+      "titleGu": null,
+      "marks": null
+    },
+    {
+      "n": 3,
+      "roman": "3",
+      "title": "Plain and Reinforced Concrete Construction",
+      "uos": [],
+      "topics": [
+        "Pre-cast and cast-in-situ Construction",
+        "Concrete 3D printing Form work: Form work for R.C.C",
+        "Wall",
+        "slab",
+        "beam and column",
+        "centering for arches of large spans",
+        "slip formwork – Horizontal & Vertical"
+      ],
+      "hours": null,
+      "weightage": null,
+      "titleGu": null,
+      "marks": null
+    },
+    {
+      "n": 4,
+      "roman": "4",
+      "title": "Building Components",
+      "uos": [],
+      "topics": [
+        "Doors and Windows a) Doors: Location",
+        "technical terms",
+        "size",
+        "types",
+        "construction",
+        "suitability. 16 Subject Code: 3130607 w.e.f",
+        "AY 2018-19"
+      ],
+      "hours": null,
+      "weightage": null,
+      "titleGu": null,
+      "marks": null
+    }
+  ]
+}

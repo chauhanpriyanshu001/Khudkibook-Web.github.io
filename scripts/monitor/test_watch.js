@@ -149,7 +149,10 @@ async function main() {
     });
     ok('sitemap contains the post', () => {
         const sm = fs.readFileSync(P('public/sitemap.xml'), 'utf8');
-        assert.ok(sm.includes('/blog/gtu-recheck-result-summer-2026.html'));
+        // Firebase serves with cleanUrls, so the `.html` form 301s and must never
+        // be submitted. gen_sitemap.js writes the slashless form.
+        assert.ok(sm.includes('<loc>https://khudkibook.in/blog/gtu-recheck-result-summer-2026</loc>'));
+        assert.ok(!sm.includes('/blog/gtu-recheck-result-summer-2026.html'));
     });
 
     const firstDate = posts1[0].date;

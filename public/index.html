@@ -122,7 +122,7 @@
         <p>Instant access to official syllabus, English &amp; Gujarati textbook PDFs, and previous year exam question papers for every engineering student.</p>
         <div class="hero-cta-row">
           <a href="#diploma" class="hero-btn hero-btn-primary"><i class="fas fa-book-open"></i> Explore Diploma</a>
-          <a href="/BE/behomepage.html" class="hero-btn hero-btn-ghost"><i class="fas fa-university"></i> Degree (BE)</a>
+          <a href="/BE/behomepage" class="hero-btn hero-btn-ghost"><i class="fas fa-university"></i> Degree (BE)</a>
         </div>
       </div>
     </section>
@@ -153,12 +153,12 @@
         <h2 class="kl789123" id="diploma"><i class="fas fa-graduation-cap"></i> GTU Diploma Engineering</h2>
         <div id="diploma-branches" data-branch-grid="diploma" class="branch-grid-container">
           <div class="maniwrraper">
-            <a class="navlink" href="/ithomepage.html"><span>Information Technology</span></a>
-            <a class="navlink" href="/computerhomepage.html"><span>Computer Engineering</span></a>
-            <a class="navlink" href="/civilhomepage.html"><span>Civil Engineering</span></a>
-            <a class="navlink" href="/electricalhomepage.html"><span>Electrical Engineering</span></a>
-            <a class="navlink" href="/mechanicalhomepage.html"><span>Mechanical Engineering</span></a>
-            <a class="navlink kb-branch-extra" href="/chemicalhomepage.html"><span>Chemical Engineering</span></a>
+            <a class="navlink" href="/ithomepage"><span>Information Technology</span></a>
+            <a class="navlink" href="/computerhomepage"><span>Computer Engineering</span></a>
+            <a class="navlink" href="/civilhomepage"><span>Civil Engineering</span></a>
+            <a class="navlink" href="/electricalhomepage"><span>Electrical Engineering</span></a>
+            <a class="navlink" href="/mechanicalhomepage"><span>Mechanical Engineering</span></a>
+            <a class="navlink kb-branch-extra" href="/chemicalhomepage"><span>Chemical Engineering</span></a>
           </div>
         </div>
       </section>
@@ -167,8 +167,8 @@
       <section class="domain-section" id="be-section">
         <h2 class="kl789123" id="be"><i class="fas fa-university"></i> Bachelor of Engineering (BE Degree)</h2>
         <div class="maniwrraper" style="margin-bottom: 16px;">
-          <a class="navlink" href="/BE/behomepage.html" style="background: linear-gradient(145deg, #f4e2d3 0%, #ffffff 70%, #f7e3d3 100%);"><span><i class="fas fa-university" style="margin-right: 6px; color: var(--accent);"></i> Explore All BE Degree Branches &rarr;</span></a>
-          <a class="navlink" href="/ddcet.html" style="background: linear-gradient(145deg, #fef3c7 0%, #ffffff 70%, #fef9c3 100%);"><span><i class="fas fa-book-reader" style="margin-right: 6px; color: #d97706;"></i> DDCET Entrance Preparation &rarr;</span></a>
+          <a class="navlink" href="/BE/behomepage" style="background: linear-gradient(145deg, #f4e2d3 0%, #ffffff 70%, #f7e3d3 100%);"><span><i class="fas fa-university" style="margin-right: 6px; color: var(--accent);"></i> Explore All BE Degree Branches &rarr;</span></a>
+          <a class="navlink" href="/ddcet" style="background: linear-gradient(145deg, #fef3c7 0%, #ffffff 70%, #fef9c3 100%);"><span><i class="fas fa-book-reader" style="margin-right: 6px; color: #d97706;"></i> DDCET Entrance Preparation &rarr;</span></a>
         </div>
         <div id="be-branches" data-branch-grid="be" class="branch-grid-container"></div>
       </section>
@@ -200,7 +200,7 @@
       <section class="domain-section" id="gtu-updates-section">
         <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
           <h2 class="kl789123" style="margin: 0;"><i class="fas fa-bullhorn"></i> Latest GTU Updates</h2>
-          <a href="/gtu-notices.html" style="font-size:0.9rem; font-weight:700; color: var(--accent); text-decoration:none;">All Notices <i class="fas fa-arrow-right"></i></a>
+          <a href="/gtu-notices" style="font-size:0.9rem; font-weight:700; color: var(--accent); text-decoration:none;">All Notices <i class="fas fa-arrow-right"></i></a>
         </div>
         <p style="font-size:0.86rem; color:var(--text-muted,#6b7280); margin:6px 0 0;">
           Results, exam forms, syllabus changes and circulars — checked against gtu.ac.in every 15 minutes.
@@ -212,7 +212,7 @@
       <section class="domain-section" id="blog-section">
         <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
           <h2 class="kl789123" style="margin: 0;"><i class="fas fa-newspaper"></i> Latest From The Blog</h2>
-          <a href="/blog/index.html" style="font-size:0.9rem; font-weight:700; color: var(--accent); text-decoration:none;">View All Posts <i class="fas fa-arrow-right"></i></a>
+          <a href="/blog" style="font-size:0.9rem; font-weight:700; color: var(--accent); text-decoration:none;">View All Posts <i class="fas fa-arrow-right"></i></a>
         </div>
         <div id="kb-blog-list" style="margin-top: 15px;"></div>
       </section>
@@ -349,7 +349,7 @@
             }
             listEl.innerHTML = posts.slice(0, 3).map(function (p, i) {
               var c = covers[i % covers.length];
-              return '<a class="kb-post" href="/blog/' + encodeURIComponent(p.slug) + '.html">' +
+              return '<a class="kb-post" href="/blog/' + encodeURIComponent(p.slug) + '">' +
                 '<div class="kb-post-cover" style="background:' + c.bg + ';"><i class="fas ' + c.icon + '"></i></div>' +
                 '<div class="kb-post-body">' +
                   '<div class="kb-post-meta"><span class="kb-cat">' + (p.category || "Guides") + '</span><span><i class="far fa-calendar-alt"></i> ' + fmtDate(p.date) + '</span><span><i class="far fa-clock"></i> ' + (p.readTime || "5 min") + ' read</span></div>' +
@@ -359,7 +359,7 @@
                 '</div></a>';
             }).join("") +
             '<div style="text-align:center; margin-top:24px;">' +
-              '<a href="/blog/index.html" class="hero-btn hero-btn-primary" style="display:inline-flex;"><i class="fas fa-newspaper"></i> Visit The Blog</a>' +
+              '<a href="/blog" class="hero-btn hero-btn-primary" style="display:inline-flex;"><i class="fas fa-newspaper"></i> Visit The Blog</a>' +
             '</div>';
           })
           .catch(function () {

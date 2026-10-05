@@ -17,6 +17,7 @@
 const fs = require('fs');
 const path = require('path');
 const { esc } = require('./gtu_source');
+const { cleanUrl, cleanInternalLinks } = require('../lib/seo');
 
 const SITE_URL = 'https://khudkibook.in';
 const BLOG_DIR = path.join(__dirname, '../../public/blog');
@@ -653,7 +654,9 @@ function renderArticle(group) {
     const modified = (group.latestDate && group.latestDate > date) ? group.latestDate : date;
     const category = CATEGORY_BY_TYPE[group.type] || 'GTU News';
     const tags = TAGS_BY_TYPE[group.type] || ['GTU News'];
-    const canonical = `${SITE_URL}/blog/${group.slug}.html`;
+    // cleanUrls 301s the `.html` form, so a canonical ending in `.html` would
+    // point at a redirect instead of the page itself.
+    const canonical = cleanUrl(`${SITE_URL}/blog/${group.slug}.html`, SITE_URL);
 
     const bodyBuilder = BUILDERS[group.type];
     let body = bodyBuilder ? bodyBuilder(group) : '';
@@ -902,7 +905,10 @@ function expandGroups(groups, archive) {
 function buildPost(group) {
     if (!group.newsworthy) return null;
     if (!BUILDERS[group.type]) return null;
-    return renderArticle(group);
+    const post = renderArticle(group);
+    // Same-site links in the body would otherwise 301 on every click.
+    post.html = cleanInternalLinks(post.html, SITE_URL);
+    return post;
 }
 
 /** Merge a freshly built post into public/blog/posts.json, newest first. */

@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const { cleanUrl, cleanInternalLinks, isThinPlaceholder } = require('./lib/seo');
+const { renderSyllabusSection } = require('./lib/syllabus_render');
 
 // Configuration
 const ROOT_DIR = path.join(__dirname, '..');
@@ -22,6 +24,35 @@ function generateSite() {
     const SITE_URL = (db.config && db.config.siteUrl) || DEFAULT_SITE_URL;
     const AD_PUB_ID = (db.config && db.config.adPubId) || DEFAULT_AD_PUB_ID;
     const template = fs.readFileSync(TEMPLATE_FILE, 'utf-8').replace(/ca-pub-\d{16}/g, AD_PUB_ID);
+
+    // Firebase cleanUrls 301s the `.html` form of every page, so a canonical
+    // ending in `.html` points at a redirect and shows up in Search Console as
+    // "Page with redirect". Build every declared URL through cleanUrl() so the
+    // canonical is the one form that answers 200.
+    const canonicalFor = (relPath) => cleanUrl(`${SITE_URL}${relPath}`, SITE_URL);
+
+    // Subject pages with no real material are thin "Coming Soon" stubs. They are
+    // still linked from the semester index (and the PDFs they name are still
+    // worth crawling), so they get `noindex, follow` rather than being blocked.
+    const ROBOTS_DEFAULT = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+    const ROBOTS_THIN = 'noindex, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+    // Every page goes out through here: thin stubs get `noindex, follow`, and
+    // same-site links are pointed at the clean (non-redirecting) form.
+    //
+    // `indexable: false` is for pages that are deliberately the SECOND copy of
+    // something already generated -- the `homepage.html` twin of a semester
+    // `index.html`, and the GTU-code twin of a subject slug. Those carry a
+    // canonical that points at their better twin, so they must not also compete
+    // for it: left indexable they turn one subject into three or four indexable
+    // URLs for identical content, which is what produced the AdSense
+    // "low value content" finding. See scripts/dedupe_canonicals.js.
+    const finish = (html, { indexable = true } = {}) => {
+        const robots = (!indexable || isThinPlaceholder(html)) ? ROBOTS_THIN : ROBOTS_DEFAULT;
+        return cleanInternalLinks(
+            html.replace(/<meta name="robots" content="[^"]*" \/>/i, `<meta name="robots" content="${robots}" />`),
+            SITE_URL
+        );
+    };
 
     console.log("Starting site generation with 100% design consistency, SEO & AdSense...");
 
@@ -52,6 +83,21 @@ function generateSite() {
             return list;
         }
         return unv.branches || [];
+    }
+
+    // Short degree qualifier for a domain name, used to give each level of study
+    // its own <title>: "Diploma Engineering" -> "Diploma",
+    // "Bachelor of Engineering test" -> "B.E.", "Master of Engineering / M.Tech" ->
+    // "M.E.". Anything unrecognised returns '' and titles are left as they were.
+    // The stray " test" suffix on the BE domain name is dropped rather than
+    // surfaced to readers.
+    function degreeLevel(domainName) {
+        const d = String(domainName || '').toLowerCase().replace(/\btest\b/g, '').trim();
+        if (!d) return '';
+        if (/^diploma/.test(d)) return 'Diploma';
+        if (/bachelor|\bb\.?e\b/.test(d)) return 'B.E.';
+        if (/master|\bm\.?e\b|m\.tech/.test(d)) return 'M.E.';
+        return '';
     }
 
     // Default generic placeholder used when no real image exists
@@ -148,6 +194,17 @@ function generateSite() {
             const branchName = titleCase(branch.name);
             const branchDisplay = branch.shortName || branchName;
 
+            // The same branch name exists at all three levels of study, so
+            // `/computerhomepage`, `/BE/computerhomepage` and
+            // `/ME/computer-engineeringhomepage` are three different pages that
+            // all rendered the identical <title> "GTU Computer Engineering - Free
+            // Books...". They are not duplicates -- their subject lists differ --
+            // but three indexable pages sharing one title reads as templated
+            // content to both Search Console and AdSense, so the degree level is
+            // folded into the title to give each page its own.
+            const branchLevel = degreeLevel(branch.domainName || '');
+            const branchTitleName = branchLevel ? `${branchName} (${branchLevel})` : branchName;
+
             // --- 0. Generate Branch Homepage (e.g. ithomepage.html) ---
             const allBranchSubjects = [];
             (branch.semesters || []).forEach(s => {
@@ -213,18 +270,18 @@ function generateSite() {
             };
 
             let branchRendered = template
-                .replace(/{{TITLE}}/g, `GTU ${branchName} - Free Books, Syllabus & Solved Papers | Khudkibook`)
-                .replace(/{{KEYWORDS}}/g, `gtu ${branchName.toLowerCase()}, gtu ${branchDisplay.toLowerCase()}, diploma engineering books, syllabus, papers`)
-                .replace(/{{DESCRIPTION}}/g, `Download free GTU study material for ${branchName}. Textbooks, notes, previous year question papers, and official syllabus.`)
-                .replace(/{{CANONICAL_URL}}/g, `${SITE_URL}${branchHomeRel}`)
+                .replace(/{{TITLE}}/g, `GTU ${branchTitleName} - Free Books, Syllabus & Solved Papers | Khudkibook`)
+                .replace(/{{KEYWORDS}}/g, `gtu ${branchName.toLowerCase()}, gtu ${branchDisplay.toLowerCase()}${branchLevel ? `, gtu ${branchLevel.toLowerCase()} ${branchName.toLowerCase()}` : ''}, ${branchLevel ? branchLevel.toLowerCase() + ' ' : ''}engineering books, syllabus, papers`)
+                .replace(/{{DESCRIPTION}}/g, `Download free GTU study material for ${branchTitleName}. Textbooks, notes, previous year question papers, and official syllabus.`)
+                .replace(/{{CANONICAL_URL}}/g, canonicalFor(branchHomeRel))
                 .replace(/{{OG_IMAGE}}/g, branch.image || DEFAULT_COVER)
                 .replace(/{{SCHEMA_JSON}}/g, `<script type="application/ld+json">${JSON.stringify(branchSchema)}</script><script type="application/ld+json">${JSON.stringify(branchBreadcrumbJson)}</script>`)
-                .replace(/{{PAGE_HEADER}}/g, `GTU ${branchName}`)
+                .replace(/{{PAGE_HEADER}}/g, `GTU ${branchTitleName}`)
                 .replace(/{{BREADCRUMBS}}/g, branchBreadcrumbs)
                 .replace(/{{CONTENT}}/g, branchContent)
                 .replace(/{{SCRIPTS}}/g, "");
 
-            fs.writeFileSync(branchHomeFilePath, branchRendered);
+            fs.writeFileSync(branchHomeFilePath, finish(branchRendered));
             console.log(`Generated Branch Homepage: ${branchHomeRel}`);
 
             // Iterate through Semesters
@@ -320,7 +377,7 @@ function generateSite() {
                     .replace(/{{TITLE}}/g, sem.seo.title || `GTU ${branchName} ${sem.name} - Books, Syllabus & Papers | Khudkibook`)
                     .replace(/{{KEYWORDS}}/g, sem.seo.keywords || `gtu ${branchName.toLowerCase()}, ${sem.name.toLowerCase()}, gtu diploma books, gtu old papers`)
                     .replace(/{{DESCRIPTION}}/g, sem.seo.description || `Download free study material for GTU ${branchName} ${sem.name}. Books, Notes, Papers, Solutions & More.`)
-                    .replace(/{{CANONICAL_URL}}/g, semUrl)
+                    .replace(/{{CANONICAL_URL}}/g, cleanUrl(semUrl, SITE_URL))
                     .replace(/{{OG_IMAGE}}/g, branch.image || DEFAULT_COVER)
                     .replace(/{{SCHEMA_JSON}}/g, `<script type="application/ld+json">${JSON.stringify(semSchema)}</script><script type="application/ld+json">${JSON.stringify(semBreadcrumbJson)}</script>`)
                     .replace(/{{PAGE_HEADER}}/g, `GTU ${branchDisplay} - ${sem.name}`)
@@ -328,9 +385,13 @@ function generateSite() {
                     .replace(/{{CONTENT}}/g, semesterContent)
                     .replace(/{{SCRIPTS}}/g, "");
 
-                fs.writeFileSync(path.join(semDirPath, 'index.html'), semRendered);
-                // Also write homepage.html for complete backward compatibility
-                fs.writeFileSync(path.join(semDirPath, 'homepage.html'), semRendered);
+                fs.writeFileSync(path.join(semDirPath, 'index.html'), finish(semRendered));
+                // Also write homepage.html for complete backward compatibility.
+                // With cleanUrls, `/<branch>/<sem>` is served by index.html, so
+                // homepage.html is reachable only at `/<branch>/<sem>/homepage`
+                // and is a pure copy of index.html under the same canonical.
+                // noindex so the semester is one URL, not two.
+                fs.writeFileSync(path.join(semDirPath, 'homepage.html'), finish(semRendered, { indexable: false }));
                 console.log(`Generated Semester: /${unv.id}/${branch.id}/${sem.id}/index.html`);
 
                 // --- 2. Generate Individual Subject (Book) Pages ---
@@ -543,6 +604,8 @@ function generateSite() {
                                 ${papersModalHTML}
                                 ${otherModalHTML}
 
+                                ${renderSyllabusSection(sub.code, { branch: branchDisplay, semester: sem.name })}
+
                                 <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid var(--border);">
                                     <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">Study on Android App:</p>
                                     <a href="https://play.google.com/store/apps/details?id=web.app.khudkibook" target="_blank" rel="noopener noreferrer">
@@ -607,7 +670,7 @@ function generateSite() {
                         .replace(/{{TITLE}}/g, sub.seo?.title || `${sub.name} (${sub.code}) - GTU ${branchDisplay} Free Books | Khudkibook`)
                         .replace(/{{KEYWORDS}}/g, sub.seo?.keywords || `gtu ${sub.name.toLowerCase()}, ${sub.code}, ${branchDisplay.toLowerCase()}, diploma engineering books`)
                         .replace(/{{DESCRIPTION}}/g, sub.seo?.description || `Download free ${sub.name} study material for GTU ${branchDisplay} ${sem.name}. Books, Notes, Papers, Solutions & More at Khudkibook.`)
-                        .replace(/{{CANONICAL_URL}}/g, subUrl)
+                        .replace(/{{CANONICAL_URL}}/g, cleanUrl(subUrl, SITE_URL))
                         .replace(/{{OG_IMAGE}}/g, sub.image || DEFAULT_COVER)
                         .replace(/{{SCHEMA_JSON}}/g, `<script type="application/ld+json">${JSON.stringify(subjectSchema)}</script><script type="application/ld+json">${JSON.stringify(subBreadcrumbJson)}</script>`)
                         .replace(/{{PAGE_HEADER}}/g, `${sub.name}`)
@@ -636,10 +699,15 @@ function generateSite() {
                             </script>
                         `);
 
-                    fs.writeFileSync(path.join(semDirPath, `${subFile}.html`), subRendered);
-                    // Also write code.html if slug is different from code
+                    fs.writeFileSync(path.join(semDirPath, `${subFile}.html`), finish(subRendered));
+                    // Also write code.html if slug is different from code.
+                    // GTU lists the same subject under several code schemes
+                    // (4xxxxx, legacy 3xxxxx, C4xxxxx, DI0xxxxxx paper code), so
+                    // this file is usually one of several byte-identical copies
+                    // of the slug page above. The canonical on all of them is the
+                    // slug URL, so only the slug page may be indexable.
                     if (sub.code && sub.code !== subFile) {
-                        fs.writeFileSync(path.join(semDirPath, `${sub.code}.html`), subRendered);
+                        fs.writeFileSync(path.join(semDirPath, `${sub.code}.html`), finish(subRendered, { indexable: false }));
                     }
                     console.log(`Generated Subject: /${unv.id}/${branch.id}/${sem.id}/${subFile}.html`);
                 });
@@ -831,7 +899,7 @@ function generateSite() {
             .replace(/{{TITLE}}/g, title)
             .replace(/{{KEYWORDS}}/g, `gtu ${dom.name.toLowerCase()}, gtu ${dom.urlPrefix.toLowerCase()} branches, gtu engineering books, gtu syllabus, gtu papers`)
             .replace(/{{DESCRIPTION}}/g, `Browse all ${dom.name} branches at Khudkibook. Free GTU textbooks, syllabus curricula, and previous year solved question papers for every branch & semester.`)
-            .replace(/{{CANONICAL_URL}}/g, landingUrl)
+            .replace(/{{CANONICAL_URL}}/g, cleanUrl(landingUrl, SITE_URL))
             .replace(/{{OG_IMAGE}}/g, DEFAULT_COVER)
             .replace(/{{SCHEMA_JSON}}/g, `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Organization", "name": "Khudkibook", "description": `GTU ${dom.name} study material`, "url": SITE_URL })}</script><script type="application/ld+json">${JSON.stringify(landingBreadcrumbJson)}</script>`)
             .replace(/{{PAGE_HEADER}}/g, headPrefix)
@@ -840,7 +908,7 @@ function generateSite() {
             .replace(/{{SCRIPTS}}/g, "");
 
         fs.mkdirSync(path.dirname(landingPath), { recursive: true });
-        fs.writeFileSync(landingPath, page);
+        fs.writeFileSync(landingPath, finish(page));
         console.log(`Generated Domain Landing: ${landingPath.replace(PUBLIC_DIR, '')}`);
     });
 

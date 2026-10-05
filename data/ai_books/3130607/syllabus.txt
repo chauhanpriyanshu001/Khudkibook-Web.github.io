@@ -1,0 +1,145 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3130607
+Page 1 of 4
+w.e.f. AY 2018-19
+Semester – III
+Subject Name: Building Construction Technology
+Type of course: Civil Engineering
+Prerequisite: Introduction to Civil Engineering Structures, Construction Materials
+Rationale: The development of a basic understanding about the construction of different type of Structures
+and application of the basic principles of Engineering to solve real life problems in construction practices is
+necessary for civil engineers.
+Teaching and Examination Scheme:
+Teaching Scheme Credits Examination Marks Total
+Marks	L T P C Theory Marks Practical Marks
+ESE (E) PA (M) ESE (V) PA (I)
+4 0 2 5 70 30 30 20 150
+Content:
+Sr. No. Content Total Hrs
+1 Foundations:
+Subsurface Investigation
+Shallow Foundation : Necessity, Types, setting out, excavation, construction, failures of
+foundation and remedial measures,
+Deep Foundation: Pile Foundation: Introduction, uses, selection of pile, types of piles, pile
+cap and pile shoe, pile driving/ boring methods, causes of failures of piles, IS Code of
+piling IS2911 (Part I to IV) ; Caissons: Definition, uses, construction material, types of
+caissons, loads on caisson, design features of caissons, floating of caissons, cutting edges,
+sinking of caisson, tilting of caisson, shifting of caisson, caisson diseases
+13
+2 Masonry Construction :
+a) Stone masonry: Technical terms, joints, Classification of Stone masonry.
+b) Brick masonry: Technical terms, bonds in brick work.
+c) Other Masonry: Composite masonry, Hollow blocks masonry, Partition Wall, Cavity
+walls
+d) Lintels & arches: Lintels – types, construction. Arches – technical terms, types,
+construction.
+e) Wall Finishes: Plastering, pointing and painting
+08
+3 Plain and Reinforced Concrete Construction: Pre-cast and cast-in-situ Construction,
+Concrete 3D printing
+Form work: Form work for R.C.C. Wall, slab, beam and column, centering for arches of
+large spans, slip formwork – Horizontal & Vertical.
+04
+4 Building Components:
+Doors and Windows :
+a) Doors: Location, technical terms, size, types, construction, suitability.
+16
+
+-- 1 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3130607
+Page 2 of 4
+w.e.f. AY 2018-19
+Suggested Specification table with Marks (Theory): (For BE only)
+Distribution of Theory Marks
+R Level U Level A Level N Level E Level C Level
+20% 25% 25% 10% 10% 10%
+Legends: R: Remembrance; U: Understanding; A: Application, N: Analyze and E: Evaluate C:
+Create and above Levels (Revised Bloom’s Taxonomy)
+Note: This specification table shall be treated as a general guideline for students and teachers. The actual
+distribution of marks in the question paper may vary slightly from above table.
+Reference Books:
+1. Building Construction by B. C. Punamia
+2. Building Construction by S. C. Rangwala
+3. Building Construction by Gurucharan Singh
+4. Heavy Construction by Vazirani & Chandola
+5. Building Construction by Sushil Kumar
+6. Building Construction by P.C Varghese,Prentice-Hall of India, New Delhi
+7. Hand book of Heavy construction: O’Brien, Havers & Stubb
+8. Burea of Indian Standard
+b) Windows: Factors affecting selection of size, shape, location and no. of windows, types,
+construction, suitability, fixtures and fastenings, Ventilators
+Stairs and Staircases: Definition, technical terms, requirements of good stair, fixing of
+going and rise of a step, types of steps, classification, example – stair design/planning,
+elevators, escalators.
+Floorings: Introduction, essential requirements of a floor, factors affecting selection of
+flooring material, types of ground floors and upper floor, pre cast concrete floor.
+Roofs and Roof Coverings: Introduction, requirements of good roof technical terms,
+classification, types of roof coverings for pitched roof. A.C. sheet roofs – fixing of A.C.
+sheets, G.I. Sheets roofs, slates, flat roof – advantages, dis-advantages, types of flat
+terraced roofing.
+5 Special Works: Timbering in trenches, Control of Ground water in excavation, types of
+scaffoldings, shoring, underpinning, Coffer Dams, Diaphragm Walls, Demolition of
+structures.
+Special Treatments: Fire resistant, water resistant, thermal insulation, acoustical
+construction and anti-termite treatment.
+10
+6 Green Building as a solution to sustainable future, rating system for green building.
+Principles, Concepts and Case study
+05
+
+-- 2 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3130607
+Page 3 of 4
+w.e.f. AY 2018-19
+Course Outcomes: At the end of the course, Student will be able
+Sr.
+No. CO statement Marks %
+weightage
+CO-1 Develop in- depth understanding about construction materials, building
+components, its construction process etc., and apply the knowledge to
+execute normal sized building construction project. 25
+CO-2 Recognize the associated entities involved in building construction process. 20
+CO-3 Identify the factors to be considered in planning and construction of
+buildings. 25
+CO-4 Understand the practices and techniques for Temporary/Special
+construction Works. 15
+CO-5 Able to apply learning to further research in sustainable civil engineering
+materials, construction technology and construction management field. 15
+List of Practical:
+A) Site visit
+The student shall visit the construction site under supervision of faculty member /Site In-charge and
+prepare a brief report containing sketches and photographs of site visits based on the following
+assignments.
+B) Assignment (Must contain Sketches)
+(1) Assignment -1: Foundations & Setting Out work
+(2) Assignment -2: Masonry Construction
+(3) Assignment -3: Plain and Reinforced Concrete Construction
+(4) Assignment -4: Doors and Windows
+(5) Assignment -5: Stairs and Staircases
+(6) Assignment -6: Floorings
+(7) Assignment -7: Roofs and Roof Coverings
+(8) Assignment -8: Temporary/Special Works
+
+-- 3 of 4 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Bachelor of Engineering
+Subject Code: 3130607
+Page 4 of 4
+w.e.f. AY 2018-19
+(9) Assignment -9: Special Treatments
+(10) Assignment -10: Green Building
+Major Equipment:
+Working models / Chart of various construction Activities.
+List of Open Source Software/learning website:
+1. http://www.nptel.iitm.ac.in/courses/
+
+-- 4 of 4 --
+

@@ -8,6 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { cleanUrl, isThinPlaceholder } = require('./lib/seo');
 
 // KB_ROOT lets the monitor's test harness regenerate a sitemap for a temp tree
 // instead of the live public/ directory.
@@ -56,50 +57,56 @@ function isNoindex(html) {
 }
 
 // A page is a "thin placeholder" when its book material is still a "Coming Soon"
-// stub AND it has no real book link (AI reader pages under /books/ or Google Drive
-// PDFs). Such pages add no unique value and drag down content quality signals.
-// Only generated subject pages qualify — never blog posts, indexes or other pages,
-// which may legitimately mention "Coming Soon" or ship it inside inline scripts.
-function isThinPlaceholder(html) {
-    if (!/id="modal-(?:book|papers|gujbook)"/i.test(html)) return false;
-    if (!/Coming Soon/i.test(html)) return false;
-    if (/\/(books|pdfs)\//i.test(html)) return false;
-    if (/drive\.google\.com/i.test(html)) return false;
-    return true;
-}
+// stub with no real book or paper link. Such pages add no unique value and drag
+// down content quality signals, so they stay out of the sitemap; `noindex_pass`
+// puts the matching directive in the page itself.
+// Only generated subject pages qualify -- never blog posts, indexes or other
+// pages, which may legitimately mention "Coming Soon" or ship it inside inline
+// scripts.
 
 function w3cDate(ms) {
     return new Date(ms).toISOString().split('T')[0];
 }
 
+// Priority/changefreq are matched against clean (slashless) paths, since that is
+// the form every <loc> now carries.
 function priorityFor(loc, isRoot) {
     const pathOnly = loc.replace(SITE_URL, '');
     if (isRoot || loc === SITE_URL + '/') return '1.0';
-    if (/^\/(syllabus|papers|ddcet)\.html?$/.test(pathOnly)) return '0.9';
+    if (/^\/(syllabus|papers|ddcet)$/.test(pathOnly)) return '0.9';
     // The live GTU notices page is the site's news surface and is rewritten
     // whenever GTU publishes a circular, so it deserves to be recrawled often.
-    if (/^\/gtu-notices\.html?$/.test(pathOnly)) return '0.9';
-    if (/homepage\.html$/.test(loc)) return '0.8';
-    if (/\/index\.html$/.test(loc)) return '0.7';
+    if (/^\/gtu-notices$/.test(pathOnly)) return '0.9';
+    if (/homepage$/.test(pathOnly)) return '0.8';
     return '0.6';
 }
 
 function changeFreqFor(loc, isRoot) {
     const pathOnly = loc.replace(SITE_URL, '');
     if (isRoot || loc === SITE_URL + '/') return 'weekly';
-    if (/^\/gtu-notices\.html?$/.test(pathOnly)) return 'hourly';
-    if (/homepage\.html$/.test(loc)) return 'weekly';
-    if (/\/index\.html$/.test(loc)) return 'weekly';
+    if (/^\/gtu-notices$/.test(pathOnly)) return 'hourly';
+    if (/homepage$/.test(pathOnly)) return 'weekly';
     return 'monthly';
 }
 
 const files = walk(PUBLIC_DIR);
 const seen = new Map();
 
+/**
+ * The file that actually answers a canonical URL once cleanUrls has redirected
+ * the `.html` form away.
+ */
+function servedFileFor(canonical) {
+    const rel = canonical.slice(SITE_URL.length).replace(/^\/+/, '');
+    if (!rel) return path.join(PUBLIC_DIR, 'index.html');
+    const direct = path.join(PUBLIC_DIR, `${rel}.html`);
+    if (fs.existsSync(direct)) return direct;
+    return path.join(PUBLIC_DIR, rel, 'index.html');
+}
+
 for (const file of files) {
     const html = fs.readFileSync(file, 'utf8');
     if (isNoindex(html)) continue;
-    if (isThinPlaceholder(html)) continue;
     let canonical = extractCanonical(html);
     if (!canonical) continue;
 
@@ -107,14 +114,23 @@ for (const file of files) {
     canonical = canonical.replace(/^https?:\/\/(?:www\.)?(?:khudkibook\.in|khudkibook\.web\.app|khudkibook\.com)/i, SITE_URL);
     if (!canonical.startsWith(SITE_URL)) continue;
 
-    // Normalize root index.html to /
-    if (canonical === `${SITE_URL}/index.html`) {
-        canonical = `${SITE_URL}/`;
-    }
+    // Firebase cleanUrls 301s every `.html` to its slashless form, so a `.html`
+    // <loc> would submit a redirect for every URL on the site. Normalize to the
+    // form that actually answers 200. This also folds `/index.html` into `/`.
+    canonical = cleanUrl(canonical, SITE_URL);
+    if (!canonical.startsWith(SITE_URL)) continue;
+    if (seen.has(canonical)) continue;
 
-    if (!seen.has(canonical)) {
-        seen.set(canonical, file);
-    }
+    // Judge the page that will actually be served at this URL, not whichever
+    // alias happened to be walked first. A code-named twin can carry real
+    // material while the slug-named file it canonicalises to is an empty stub;
+    // submitting the canonical in that state would advertise a Coming Soon page.
+    const served = servedFileFor(canonical);
+    if (!fs.existsSync(served)) continue;
+    const servedHtml = served === file ? html : fs.readFileSync(served, 'utf8');
+    if (isNoindex(servedHtml) || isThinPlaceholder(servedHtml)) continue;
+
+    seen.set(canonical, served);
 }
 
 /**

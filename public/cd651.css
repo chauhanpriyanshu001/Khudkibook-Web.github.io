@@ -146,3 +146,110 @@
         width: 290px;
     }
 }
+/* ------------------------------------------------------------------
+   Syllabus content section (kb-syllabus)
+   Rendered on subject pages from the official GTU syllabus document by
+   scripts/lib/syllabus_render.js. Unstyled it would inherit the modal
+   card styles, so it gets its own block here.
+   ------------------------------------------------------------------ */
+.kb-syllabus {
+    margin: 26px 0 8px;
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--surface, rgba(127, 127, 127, 0.04));
+}
+
+.kb-syllabus > h2 {
+    margin: 0 0 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.kb-syllabus-intro {
+    margin: 0 0 14px;
+    font-size: 0.93rem;
+    line-height: 1.65;
+    color: var(--text-muted);
+}
+
+.kb-syllabus-pdf {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+    padding: 9px 16px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #f43f5e, #ec4899);
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.88rem;
+    text-decoration: none;
+}
+
+.kb-syllabus-pdf:hover {
+    filter: brightness(1.06);
+}
+
+.kb-unit {
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px dashed var(--border);
+}
+
+.kb-unit:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.kb-unit-title {
+    margin: 0 0 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.4;
+}
+
+.kb-unit-n {
+    display: inline-block;
+    margin-right: 6px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+}
+
+.kb-unit-meta {
+    margin: 0 0 8px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+}
+
+.kb-topics {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.kb-topics li {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text);
+}
+
+@media (max-width: 600px) {
+    .kb-syllabus {
+        padding: 16px;
+    }
+    .kb-syllabus > h2 {
+        font-size: 1.1rem;
+    }
+}

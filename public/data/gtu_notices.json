@@ -12,6 +12,23 @@
     "post": null
   },
   {
+    "id": 69279,
+    "title": "Notification for Result Declaration of Diploma in Engineering Sem 3 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
+    "date": "2026-10-03",
+    "postedAt": "2026-10-03T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261003150526-1-be00e8bab2.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261003150526-1-be00e8bab2.pdf",
+        "name": "20261003150526 (1).pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 69277,
     "title": "Notification for Result Declaration of Master of Engineering Sem 2 (Remedial) (Recheck/Reassessment) Summer - 2026 Examination.",
     "date": "2026-10-03",

@@ -1,5 +1,40 @@
 [
   {
+    "id": 69282,
+    "title": "UFM Notification No: 270/2026",
+    "rawTitle": "UFM Notification No: 270/2026",
+    "date": "2026-10-06",
+    "postedAt": "2026-10-06T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ow7681-notification-270-2026-compressed-2ede0aac49.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ow7681-notification-270-2026-compressed-2ede0aac49.pdf",
+        "name": "OW7681 Notification 270-2026-compressed.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:69282",
+      "label": "Exam",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 69281,
     "title": "Information about some research grants available during Oct-Nov. 26",
     "rawTitle": "Information about some research grants available during Oct-Nov. 26",

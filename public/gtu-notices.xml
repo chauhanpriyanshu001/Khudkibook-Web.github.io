@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Mon, 05 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>UFM Notification No: 270/2026</title>
+      <link>https://khudkibook.in/gtu-notices.html#n69282</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n69282</guid>
+      <pubDate>Tue, 06 Oct 2026 06:30:00 GMT</pubDate>
+      <category>Exam</category>
+      <description>UFM Notification No: 270/2026 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ow7681-notification-270-2026-compressed-2ede0aac49.pdf</description>
+    </item>
     <item>
       <title>Information about some research grants available during Oct-Nov. 26</title>
       <link>https://khudkibook.in/gtu-notices.html#n69281</link>
@@ -798,14 +806,6 @@
       <pubDate>Fri, 18 Sep 2026 06:30:00 GMT</pubDate>
       <category>PHD</category>
       <description>PhD Notification No. 258/2026 for Trivedi Naimisha Shashikantbhai (179999913019) — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Naimisha%20Trivedi_203872.pdf</description>
-    </item>
-    <item>
-      <title>&quot;International Conference on Management &amp; Health Care, Innovation, and Artificial Intelligence&apos;&apos; dated on 29. 11. 2026. Organised by Metas Adventist College, Surat.</title>
-      <link>https://khudkibook.in/gtu-notices.html#n49178</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n49178</guid>
-      <pubDate>Fri, 18 Sep 2026 06:30:00 GMT</pubDate>
-      <category>College Activity</category>
-      <description>&quot;International Conference on Management &amp; Health Care, Innovation, and Artificial Intelligence&apos;&apos; dated on 29. 11. 2026. Organised by Metas Adventist College, Surat. — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Inernational%20Seminar%20September%202026_418742.pdf</description>
     </item>
   </channel>
 </rss>

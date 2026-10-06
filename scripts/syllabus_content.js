@@ -21,9 +21,15 @@
  *   node scripts/syllabus_content.js              # fetch whatever is missing
  *   node scripts/syllabus_content.js --limit 50   # trial run on 50 codes
  *   node scripts/syllabus_content.js --concurrency 8
+ *   node scripts/syllabus_content.js --retry-failed   # re-parse lowquality/missing
+ *   node scripts/syllabus_content.js --only 4310002,4300005
  *
  * Re-running is cheap: completed codes are skipped, so the script can be
  * interrupted and resumed.
+ *
+ * --retry-failed exists because a failed parse is a snapshot of the parser, not
+ * of the document. When the parser improves, the cached "lowquality" verdict is
+ * stale and would otherwise block that code forever.
  */
 'use strict';
 
@@ -36,6 +42,12 @@ const OUT_PATH = path.join(ROOT, 'data', 'syllabus_content.json');
 const CACHE_DIR = path.join(ROOT, 'data', 'syllabus_cache');
 const SYL_URL = (code) => `https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/Syallbus/${code}.pdf`;
 
+// Longest unit title we keep. Some curricula put a whole descriptive sentence in
+// the title cell; truncating is fine, but the truncation and the quality gate in
+// processOne() must agree on the same number or long titles get silently thrown
+// away after they have already been parsed correctly.
+const MAX_TITLE = 140;
+
 function arg(name, fallback) {
     const i = process.argv.indexOf(name);
     return i === -1 ? fallback : process.argv[i + 1];
@@ -43,6 +55,9 @@ function arg(name, fallback) {
 
 const LIMIT = parseInt(arg('--limit', '0'), 10) || 0;
 const CONCURRENCY = Math.max(1, parseInt(arg('--concurrency', '6'), 10) || 6);
+const RETRY_FAILED = process.argv.includes('--retry-failed');
+const ONLY = (arg('--only', '') || '')
+    .split(',').map(s => s.trim()).filter(Boolean);
 
 /**
  * Every distinct subject code on the site, with the syllabus link recorded for
@@ -118,7 +133,11 @@ function cleanUnit(u) {
     let title = String(u.title || '').replace(/\s+/g, ' ').trim();
     // Some layouts leave the title as bare numbering or a stray page number.
     if (!title || /^\d+$/.test(title) || title.length < 3) return null;
-    if (title.length > 140) title = title.slice(0, 140).trim() + '...';
+    // Truncate to MAX_TITLE so the result is <= MAX_TITLE. The old slice(0,140)+'...'
+    // produced 143 chars, which the quality gate below then rejected outright --
+    // so every unit with a long title was guaranteed to be discarded as lowquality
+    // even when its topics parsed perfectly. Keep the two limits in agreement.
+    if (title.length > MAX_TITLE) title = title.slice(0, MAX_TITLE - 3).trim() + '...';
 
     return {
         n: u.n || null,
@@ -174,10 +193,22 @@ async function fetchWithRetry(url, tries = 3) {
 async function processOne(entry) {
     const cacheFile = path.join(CACHE_DIR, `${entry.code}.json`);
 
-    // Already done in a previous run.
-    if (fs.existsSync(cacheFile)) {
+    // Already done in a previous run. A cached failure is only honoured on a
+    // normal run: --retry-failed ignores it, because the failure describes the
+    // parser that produced it, not the document.
+    if (fs.existsSync(cacheFile) && !RETRY_FAILED) {
         try {
             return { code: entry.code, status: 'cached' };
+        } catch (e) { /* fall through and refetch */ }
+    }
+
+    // A "missing" cache entry means the PDF answered 403/404, which is a property
+    // of the object in the bucket and not of the parser, so re-requesting it on
+    // every --retry-failed run is pure waste. --only forces the refetch.
+    if (fs.existsSync(cacheFile) && RETRY_FAILED && !ONLY.length) {
+        try {
+            const prev = JSON.parse(fs.readFileSync(cacheFile, 'utf8'));
+            if (prev.status === 'missing') return { code: entry.code, status: 'missing' };
         } catch (e) { /* fall through and refetch */ }
     }
 
@@ -229,14 +260,14 @@ async function processOne(entry) {
     // reads as machine-generated filler, which is the thing being fixed here.
     //
     // The title limit is generous because some curricula put a full descriptive
-    // sentence in the title cell; cleanUnit() truncates at 140 chars, so this
+    // sentence in the title cell; cleanUnit() truncates at MAX_TITLE, so this
     // only rejects rows that are pure noise.
     const avgTopicLen = units.length
         ? units.reduce((n, u) => n + (u.topics.length ? u.topics.reduce((m, t) => m + t.length, 0) / u.topics.length : 0), 0) / units.length
         : 0;
     const quality =
         units.length >= 2 && words >= 120 && avgTopicLen >= 12 &&
-        units.every((u) => u.title.length <= 140);
+        units.every((u) => u.title.length <= MAX_TITLE);
 
     if (!quality) {
         fs.writeFileSync(cacheFile, JSON.stringify({ code: entry.code, status: 'lowquality', layout, units: units.length, words, avgTopicLen: Math.round(avgTopicLen) }));
@@ -261,8 +292,19 @@ async function processOne(entry) {
 async function main() {
     if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
 
-    const all = collectCodes();
+    let all = collectCodes();
+    // Kept separate from the queue: the roll-up below must always rebuild the
+    // merged file from every code on the site, otherwise a partial run (--only,
+    // --limit) would replace syllabus_content.json with just the handful of codes
+    // it happened to touch and silently drop the other 5,000+ entries.
+    const allCodes = all.slice();
+    if (ONLY.length) {
+        const want = new Set(ONLY);
+        all = all.filter(e => want.has(e.code));
+        console.log(`Restricted to ${ONLY.length} requested code(s); ${all.length} are on the site`);
+    }
     console.log(`Subject codes on site: ${all.length}`);
+    if (RETRY_FAILED) console.log('Re-parsing previously failed codes');
     if (LIMIT) console.log(`Limiting this run to ${LIMIT}`);
 
     const queue = LIMIT ? all.slice(0, LIMIT) : all;
@@ -302,7 +344,7 @@ async function main() {
     // Roll the per-code cache files up into one file the generator reads, so it
     // does not have to open 8,000 of them on every run.
     const merged = {};
-    for (const entry of all) {
+    for (const entry of allCodes) {
         const f = path.join(CACHE_DIR, `${entry.code}.json`);
         if (!fs.existsSync(f)) continue;
         try {

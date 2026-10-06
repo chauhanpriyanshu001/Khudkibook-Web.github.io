@@ -7,7 +7,9 @@
     "academicYears": [
       "2025-2026",
       "2024-2025",
-      "2023-2024"
+      "2023-2024",
+      "2022-2023",
+      "2021-2022"
     ]
   },
   "domains": [
@@ -26,32 +28,32 @@
             {
               "id": "sem1",
               "name": "Semester 1",
-              "subjectCount": 10
+              "subjectCount": 29
             },
             {
               "id": "sem2",
               "name": "Semester 2",
-              "subjectCount": 12
+              "subjectCount": 30
             },
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 10
+              "subjectCount": 18
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 11
+              "subjectCount": 24
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 15
+              "subjectCount": 29
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 15
+              "subjectCount": 16
             }
           ]
         },
@@ -65,32 +67,32 @@
             {
               "id": "sem1",
               "name": "Semester 1",
-              "subjectCount": 32
+              "subjectCount": 29
             },
             {
               "id": "sem2",
               "name": "Semester 2",
-              "subjectCount": 35
+              "subjectCount": 31
             },
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 22
+              "subjectCount": 6
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 31
+              "subjectCount": 28
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 29
+              "subjectCount": 31
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 28
+              "subjectCount": 23
             }
           ]
         },
@@ -109,27 +111,27 @@
             {
               "id": "sem2",
               "name": "Semester 2",
-              "subjectCount": 33
+              "subjectCount": 30
             },
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 17
+              "subjectCount": 18
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 25
+              "subjectCount": 26
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 32
+              "subjectCount": 35
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 15
+              "subjectCount": 19
             }
           ]
         },
@@ -187,27 +189,27 @@
             {
               "id": "sem1",
               "name": "Semester 1",
-              "subjectCount": 30
+              "subjectCount": 31
             },
             {
               "id": "sem2",
               "name": "Semester 2",
-              "subjectCount": 36
+              "subjectCount": 39
             },
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 22
+              "subjectCount": 29
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 28
+              "subjectCount": 39
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 34
+              "subjectCount": 43
             },
             {
               "id": "sem6",
@@ -265,32 +267,32 @@
             {
               "id": "sem1",
               "name": "Semester 1",
-              "subjectCount": 31
+              "subjectCount": 29
             },
             {
               "id": "sem2",
               "name": "Semester 2",
-              "subjectCount": 34
+              "subjectCount": 31
             },
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 20
+              "subjectCount": 17
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 27
+              "subjectCount": 24
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 31
+              "subjectCount": 28
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 28
+              "subjectCount": 22
             }
           ]
         },
@@ -318,27 +320,27 @@
             {
               "id": "sem1",
               "name": "Semester 1",
-              "subjectCount": 6
+              "subjectCount": 21
             },
             {
               "id": "sem2",
               "name": "Semester 2",
-              "subjectCount": 5
+              "subjectCount": 24
             },
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 4
+              "subjectCount": 12
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 7
+              "subjectCount": 18
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 4
+              "subjectCount": 16
             },
             {
               "id": "sem6",
@@ -527,17 +529,17 @@
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 27
+              "subjectCount": 26
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 32
+              "subjectCount": 23
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 24
+              "subjectCount": 22
             }
           ]
         },
@@ -551,7 +553,7 @@
             {
               "id": "sem1",
               "name": "Semester 1",
-              "subjectCount": 27
+              "subjectCount": 29
             },
             {
               "id": "sem2",
@@ -561,12 +563,12 @@
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 17
+              "subjectCount": 16
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 23
+              "subjectCount": 22
             },
             {
               "id": "sem5",
@@ -576,7 +578,7 @@
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 17
+              "subjectCount": 20
             }
           ]
         },
@@ -774,12 +776,12 @@
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 23
+              "subjectCount": 26
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 32
+              "subjectCount": 35
             },
             {
               "id": "sem6",
@@ -995,32 +997,32 @@
             {
               "id": "sem1",
               "name": "Semester 1",
-              "subjectCount": 29
+              "subjectCount": 34
             },
             {
               "id": "sem2",
               "name": "Semester 2",
-              "subjectCount": 31
+              "subjectCount": 38
             },
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 19
+              "subjectCount": 29
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 27
+              "subjectCount": 41
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 29
+              "subjectCount": 43
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 13
+              "subjectCount": 14
             },
             {
               "id": "sem7",
@@ -1093,17 +1095,17 @@
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 27
+              "subjectCount": 29
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 34
+              "subjectCount": 33
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 23
+              "subjectCount": 25
             }
           ]
         },
@@ -1122,27 +1124,27 @@
             {
               "id": "sem2",
               "name": "Semester 2",
-              "subjectCount": 23
+              "subjectCount": 15
             },
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 11
+              "subjectCount": 7
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 19
+              "subjectCount": 9
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 18
+              "subjectCount": 8
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 1
+              "subjectCount": 5
             }
           ]
         },
@@ -1171,17 +1173,17 @@
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 27
+              "subjectCount": 26
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 37
+              "subjectCount": 36
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 48
+              "subjectCount": 47
             }
           ]
         },
@@ -1195,32 +1197,32 @@
             {
               "id": "sem1",
               "name": "Semester 1",
-              "subjectCount": 29
+              "subjectCount": 31
             },
             {
               "id": "sem2",
               "name": "Semester 2",
-              "subjectCount": 32
+              "subjectCount": 35
             },
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 17
+              "subjectCount": 23
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 23
+              "subjectCount": 37
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 28
+              "subjectCount": 42
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 21
+              "subjectCount": 26
             }
           ]
         },
@@ -1283,22 +1285,22 @@
             {
               "id": "sem3",
               "name": "Semester 3",
-              "subjectCount": 18
+              "subjectCount": 17
             },
             {
               "id": "sem4",
               "name": "Semester 4",
-              "subjectCount": 28
+              "subjectCount": 24
             },
             {
               "id": "sem5",
               "name": "Semester 5",
-              "subjectCount": 31
+              "subjectCount": 27
             },
             {
               "id": "sem6",
               "name": "Semester 6",
-              "subjectCount": 15
+              "subjectCount": 8
             }
           ]
         },
@@ -6359,32 +6361,32 @@
                 {
                   "id": "sem1",
                   "name": "Semester 1",
-                  "subjectCount": 10
+                  "subjectCount": 29
                 },
                 {
                   "id": "sem2",
                   "name": "Semester 2",
-                  "subjectCount": 12
+                  "subjectCount": 30
                 },
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 10
+                  "subjectCount": 18
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 11
+                  "subjectCount": 24
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 15
+                  "subjectCount": 29
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 15
+                  "subjectCount": 16
                 }
               ]
             },
@@ -6398,32 +6400,32 @@
                 {
                   "id": "sem1",
                   "name": "Semester 1",
-                  "subjectCount": 32
+                  "subjectCount": 29
                 },
                 {
                   "id": "sem2",
                   "name": "Semester 2",
-                  "subjectCount": 35
+                  "subjectCount": 31
                 },
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 22
+                  "subjectCount": 6
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 31
+                  "subjectCount": 28
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 29
+                  "subjectCount": 31
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 28
+                  "subjectCount": 23
                 }
               ]
             },
@@ -6442,27 +6444,27 @@
                 {
                   "id": "sem2",
                   "name": "Semester 2",
-                  "subjectCount": 33
+                  "subjectCount": 30
                 },
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 17
+                  "subjectCount": 18
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 25
+                  "subjectCount": 26
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 32
+                  "subjectCount": 35
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 15
+                  "subjectCount": 19
                 }
               ]
             },
@@ -6520,27 +6522,27 @@
                 {
                   "id": "sem1",
                   "name": "Semester 1",
-                  "subjectCount": 30
+                  "subjectCount": 31
                 },
                 {
                   "id": "sem2",
                   "name": "Semester 2",
-                  "subjectCount": 36
+                  "subjectCount": 39
                 },
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 22
+                  "subjectCount": 29
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 28
+                  "subjectCount": 39
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 34
+                  "subjectCount": 43
                 },
                 {
                   "id": "sem6",
@@ -6598,32 +6600,32 @@
                 {
                   "id": "sem1",
                   "name": "Semester 1",
-                  "subjectCount": 31
+                  "subjectCount": 29
                 },
                 {
                   "id": "sem2",
                   "name": "Semester 2",
-                  "subjectCount": 34
+                  "subjectCount": 31
                 },
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 20
+                  "subjectCount": 17
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 27
+                  "subjectCount": 24
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 31
+                  "subjectCount": 28
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 28
+                  "subjectCount": 22
                 }
               ]
             },
@@ -6651,27 +6653,27 @@
                 {
                   "id": "sem1",
                   "name": "Semester 1",
-                  "subjectCount": 6
+                  "subjectCount": 21
                 },
                 {
                   "id": "sem2",
                   "name": "Semester 2",
-                  "subjectCount": 5
+                  "subjectCount": 24
                 },
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 4
+                  "subjectCount": 12
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 7
+                  "subjectCount": 18
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 4
+                  "subjectCount": 16
                 },
                 {
                   "id": "sem6",
@@ -6860,17 +6862,17 @@
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 27
+                  "subjectCount": 26
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 32
+                  "subjectCount": 23
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 24
+                  "subjectCount": 22
                 }
               ]
             },
@@ -6884,7 +6886,7 @@
                 {
                   "id": "sem1",
                   "name": "Semester 1",
-                  "subjectCount": 27
+                  "subjectCount": 29
                 },
                 {
                   "id": "sem2",
@@ -6894,12 +6896,12 @@
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 17
+                  "subjectCount": 16
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 23
+                  "subjectCount": 22
                 },
                 {
                   "id": "sem5",
@@ -6909,7 +6911,7 @@
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 17
+                  "subjectCount": 20
                 }
               ]
             },
@@ -7107,12 +7109,12 @@
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 23
+                  "subjectCount": 26
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 32
+                  "subjectCount": 35
                 },
                 {
                   "id": "sem6",
@@ -7328,32 +7330,32 @@
                 {
                   "id": "sem1",
                   "name": "Semester 1",
-                  "subjectCount": 29
+                  "subjectCount": 34
                 },
                 {
                   "id": "sem2",
                   "name": "Semester 2",
-                  "subjectCount": 31
+                  "subjectCount": 38
                 },
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 19
+                  "subjectCount": 29
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 27
+                  "subjectCount": 41
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 29
+                  "subjectCount": 43
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 13
+                  "subjectCount": 14
                 },
                 {
                   "id": "sem7",
@@ -7426,17 +7428,17 @@
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 27
+                  "subjectCount": 29
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 34
+                  "subjectCount": 33
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 23
+                  "subjectCount": 25
                 }
               ]
             },
@@ -7455,27 +7457,27 @@
                 {
                   "id": "sem2",
                   "name": "Semester 2",
-                  "subjectCount": 23
+                  "subjectCount": 15
                 },
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 11
+                  "subjectCount": 7
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 19
+                  "subjectCount": 9
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 18
+                  "subjectCount": 8
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 1
+                  "subjectCount": 5
                 }
               ]
             },
@@ -7504,17 +7506,17 @@
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 27
+                  "subjectCount": 26
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 37
+                  "subjectCount": 36
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 48
+                  "subjectCount": 47
                 }
               ]
             },
@@ -7528,32 +7530,32 @@
                 {
                   "id": "sem1",
                   "name": "Semester 1",
-                  "subjectCount": 29
+                  "subjectCount": 31
                 },
                 {
                   "id": "sem2",
                   "name": "Semester 2",
-                  "subjectCount": 32
+                  "subjectCount": 35
                 },
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 17
+                  "subjectCount": 23
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 23
+                  "subjectCount": 37
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 28
+                  "subjectCount": 42
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 21
+                  "subjectCount": 26
                 }
               ]
             },
@@ -7616,22 +7618,22 @@
                 {
                   "id": "sem3",
                   "name": "Semester 3",
-                  "subjectCount": 18
+                  "subjectCount": 17
                 },
                 {
                   "id": "sem4",
                   "name": "Semester 4",
-                  "subjectCount": 28
+                  "subjectCount": 24
                 },
                 {
                   "id": "sem5",
                   "name": "Semester 5",
-                  "subjectCount": 31
+                  "subjectCount": 27
                 },
                 {
                   "id": "sem6",
                   "name": "Semester 6",
-                  "subjectCount": 15
+                  "subjectCount": 8
                 }
               ]
             },

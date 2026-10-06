@@ -1,0 +1,262 @@
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Diploma
+Branch: Power Electronics
+Course / Subject Code: DI03024031
+Course / Subject Name: Digital Electronics
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ Page 1 of 6
+w. e. f. Academic Year: 2024-25
+Semester: 3rd
+Category of the Course: PCC
+Prerequisite: Fundamental Knowledge of Electronics
+Rationale:
+The aim of introducing this course on digital electronics to impart knowledge
+of basic building blocks of digital logic circuits. This will enable the student to
+become aware of various number systems, logic gates and logic families,
+combinational and sequential logic circuits, which is the foundation for
+understanding the digital controls, microprocessors and computer systems.
+Through this course the student will be able to apply the same in almost all
+areas of electronic control and develop the testing skills.
+Course Outcome:
+After Completion of the Course, Student will able to:
+No Course Outcomes RBT Level
+01 Use number systems for requirements in digital circuits. R,U,A
+02 Implement simplified Boolean equations using logic gates. R,U,A
+03 Test different types of combinational logic circuits. R,U,A
+04 Test different types of sequential logic circuits. R,U,A
+05 Classify logic families. R,U,A
+*Revised Bloom’s Taxonomy (RBT)
+Teaching and Examination Scheme:
+Teaching Scheme
+(in Hours)
+Total
+Credits
+L+T+
+(PR/2)
+Assessment Pattern and Marks
+Total
+Marks
+L T PR C
+Theory Tutorial / Practical
+ESE
+(E) PA(M) PA(I) ESE (V)
+3 0 2 4 70 30 20 30 150
+
+-- 1 of 6 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Diploma
+Branch: Power Electronics
+Course / Subject Code: DI03024031
+Course / Subject Name: Digital Electronics
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ Page 2 of 6
+Course Content:
+Unit
+No. Content No. of
+Hours
+% of
+Weightage
+1.
+Number System and Binary Codes
+1.1 Introduction to Number Systems:
+Binary, Octal, Decimal, Hexadecimal
+1.2 Number Conversion:
+Decimal Number system: Decimal to Binary/Hexadecimal/Octal
+number conversation.
+Binary number system: Binary to Decimal/Hexadecimal/Octal
+number conversation.
+Complements: 1’s Complement, 2’s Complement
+Binary Addition, Subtraction, Multiplication
+Binary Codes: Gray Code, BCD Code. Code conversation.
+Hexadecimal Number system: Hexadecimal to
+Decimal/Binary/Octal number conversation.
+Octal Number system: Octal to Decimal/Binary/Hexadecimal
+number conversation.
+10 22%
+2.
+Boolean Algebra and Functions
+2.1 Logic Gates:
+AND, OR, NOT, NAND, NOR, EX-OR, EX-NOR. 7400 series
+IC.
+2.2 Boolean Algebra:
+Laws, Duality Theorem, De-Morgan’s Theorems, Boolean
+Expression and functions.
+2.3 The Map method.
+Representation of Logic Expression: SOP, POS.
+K-Map Representation: Two, Three and Four Variable K-map,
+SOP, POS; simplification, K-Map using Don’t care condition.
+10 22%
+3.
+Combinational Logic Circuits
+3.1 Combinational Circuits:
+Arithmetic Circuits: Half Adder, Full Adder, Half Subtractor, Full
+Subtractor
+Magnitude comparator: 1-bit, 2-bit and 4-bit
+Decoders: 2-to 4-line, 3-to-8-line decoder
+Demultiplexers: 1-to 4-line, 1-to-8-line demultiplexer.
+Encoders: 4-to-2-line, 8-to-3-line encoder.
+Multiplexers: 4-to 1-line, 8-to 1-line multiplexer.
+10 22%
+
+-- 2 of 6 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Diploma
+Branch: Power Electronics
+Course / Subject Code: DI03024031
+Course / Subject Name: Digital Electronics
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ Page 3 of 6
+4.
+Sequential Logic circuits
+4.1 Sequential Circuit: Definition, Block Diagram.
+Latches: S - R (NOR, NAND)
+Edge triggered Flip Flops: S – R, D, J – K and T.
+8 18%
+5.
+Basics of Logic Families
+5.1 Logic Families: Significance, related parameters and Types.
+5.2 Logic gates using different logics
+Logic gates using Diode logic,
+Logic gates using Resistor Transistor Logic,
+Logic gates using Diode Transistor logic,
+Logic gates using Transistor-Transistor logic.
+7 16%
+Total 45 100
+Suggested Specification Table with Marks (Theory):
+Distribution of Theory Marks (in %)
+R Level U Level A Level N Level E Level C Level
+20 60 20 -- -- --
+Where R: Remember; U: Understanding; A: Application, N: Analyze and E: Evaluate C: Create (as
+per Revised Bloom’s Taxonomy)
+References/Suggested Learning Resources:
+(a) Books:
+S.
+No. Title of Book Author Publication with place, year and
+ISBN
+1 Digital Logic and Computer
+Design
+M. Morris Mano Pearson Education India,
+ISBN-10: 933254252X
+2 Fundamentals of Digital Circuits A. Anand Kumar PHI Learning,
+ISBN-10: 8120352688
+3 Digital Electronics Principles,
+Devices and Applications Anil K. Maini John Wiley & Sons Ltd,
+ISBN 978-0-470-03214-5
+4 Digital Electronics and Logic
+Design Dr. Sharma Sanjay S. K. Kataria & Sons,
+ISBN 978-93-5014-199-1
+
+-- 3 of 6 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Diploma
+Branch: Power Electronics
+Course / Subject Code: DI03024031
+Course / Subject Name: Digital Electronics
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ Page 4 of 6
+(b) Open-source software and website:
+1. www.youtube.com
+2. https://nptel.ac.in/courses/108105132
+3. www.vlab.co.in
+Suggested Course Practical List:
+S. No. Practical List
+1. Study various number system.
+2. Build/Test the basic logic gates (AND, OR and NOT).
+3. Build/Test the EX-OR, EX-NOR logic gates.
+4. Build/Test NAND and NOR as universal gate.
+5. Test the De- Morgan’s theorem.
+6. Build/Test half adder circuit
+7. Build/Test full adder circuit
+8. Build/Test half subtractor circuit
+9. Build/Test full subtractor circuit
+10. Build/Test decoder circuit.
+11. Build/Test the encoder circuit.
+12. Build/Test the comparator circuit.
+13. Build/Test multiplexer circuit.
+14. Build/Test D e multiplexer circuit.
+15. Build/Test SR flip-flop.
+16. Build/Test D flip-flop.
+17. Build/Test JK flip-flop.
+18. Build/Test T flip-flop.
+19. Built/Test various logic gates using diode logic/RTL logic/DTL logic/TTL logic.
+List of Laboratory/Learning Resources Required:
+S.
+No. Equipment Name with Broad Specifications
+1
+Digital Electronics Trainer
+Trainer should have Features of Logic symbol/ Schematic Diagram indicated on board
+mimic, On Board DC Power Supplies, Onboard Pulse Generator (TTL), Pulser Switches, 8-
+bit Data Switches (TTL), 8-bit bicolor LED display, Logic Probe, BCD to seven segment
+display
+Scope of Learning: Test the performance of Logic AND, OR, NOT, NAND, NOR, RS Flip-
+flop, JK Flip-flop, D Flip-flop and verify its Truth table, Study of Logic algebra.
+
+-- 4 of 6 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Diploma
+Branch: Power Electronics
+Course / Subject Code: DI03024031
+Course / Subject Name: Digital Electronics
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ Page 5 of 6
+S.
+No. Equipment Name with Broad Specifications
+Study the application of logic gate circuit, Study the implementation of simple logic
+design., Test the performance of digital combinational logic circuits, Study the application
+of D Flip-flops as Shift Register, Study the application of JK Flip-flops
+Technical Specifications:
+DC Power Supplies: + 5V, 1A; +3V to +15V, 500 mA (variable)- 3V to -15V, 500 mA
+(variable), Pulse Generator: 1Hz to 1MHz Amplitude: 5V (TTL)Duty Cycle:50 %, TTL
+output Mains:230V AC ±10%
+2
+Digital Work Station
+The Trainer should have Feature of Graphical LCD to show the menu of experiment and
+gate level diagram for selected experiment, Solderless breadboard, On Board DC Power
+Supply, On board Pulse Generator.
+Scope of Learning: Test the performance of Not gate, OR gate & AND gate, Universal gate,
+NAND Gate, XOR and XNOR gate, NOT Gate Using NAND Gate, OR Gate Using NAND
+Gate, AND Gate Using NAND Gate, AND-OR Gate, AND-NOR Gate, NAND-OR Gate,
+NAND-NOR Gate, NAND-NAND Gate, NOR-NOR Gate, Half Adder, Full Adder, Half
+Subtractor, Full Subtractor, 4-1 MUX, 1-4 DMUX, 4-2 Encoder.
+Technical Specification:
+DC Supply: +5 V, 500 mA, Clock Frequency: 1 Hz, 100 Hz, 1 KHz, 100 KHz, Amplitude:
+3.3V, Duty cycle: 50 %, TTL output, Main Supply: 100V - 240V AC, 50/60Hz
+3
+Flip Flop Trainer
+Trainer Should have Features of Adaptable illustration of Flip-Flops, +5V SMPS Adaptor
+provided with the trainer for power supply.
+Scope of Learning: Study of S-R, J-K, D and T Flip-Flop and to verify their Transition
+table. Input: +5V DC, Main Supply: 100V - 240V AC, 50/60Hz
+4
+4½ Digit Multimeter
+Function Range and Resolution Basic Accuracy:
+DC volts, AC volts, Accuracy: 0.025 %, 0.4 % (true-rms)
+DC current, AC current, Accuracy: 0.15 %, 0.7 % (true-rms)
+Temperature: -200.0 °C to 1350.0 °C Accuracy:1.0 %
+Resistance, capacitance and frequency measurement. Accuracy: .005%
+Suggested Project List:
+1. Design universal test board for Digital Circuits to verify different Gates.
+2. Design various Combinational and sequential logic Circuit board.
+
+-- 5 of 6 --
+
+GUJARAT TECHNOLOGICAL UNIVERSITY
+Program Name: Engineering
+Level: Diploma
+Branch: Power Electronics
+Course / Subject Code: DI03024031
+Course / Subject Name: Digital Electronics
+w.e.f. 2024-25 http://syllabus.gtu.ac.in/ Page 6 of 6
+Suggested Activities for Students:
+1. Chart and Project Model Presentations: Demonstrate project models or deliver seminars on
+various topics covered in the course content.
+2. Numerical Problem Solving: Solve the numerical problems provided by the subject faculty in
+tutorial and Prepare their solutions Book.
+* * * * * * *
+
+-- 6 of 6 --
+

@@ -115,6 +115,14 @@ function renderSyllabusSection(code, ctx = {}) {
         ? `as prescribed for ${esc(where)}`
         : 'as prescribed by GTU';
 
+    // Stamped per (branch, semester, code) placement by the effective-from
+    // backfill. Gated on ctx so pages without it (BE/ME, or subjects GTU has no
+    // intake year for) render byte-identically to before.
+    const effFrom = String(ctx.effFrom || '').trim();
+    const intake = effFrom
+        ? ` This curriculum applies from the <strong>${esc(effFrom)}</strong> intake.`
+        : '';
+
     return `
                     <section class="kb-syllabus" aria-labelledby="kb-syllabus-h">
                         <h2 id="kb-syllabus-h">${esc(subjectName)} Syllabus — Unit-wise Content</h2>
@@ -122,7 +130,7 @@ function renderSyllabusSection(code, ctx = {}) {
                             The official GTU curriculum for <strong>${esc(subjectName)}</strong> (subject code
                             ${esc(entry.code)}) ${scope} divides the course into
                             ${entry.units.length} unit${entry.units.length === 1 ? '' : 's'}, covering ${topicsTotal} listed
-                            topic${topicsTotal === 1 ? '' : 's'}. The unit-wise breakdown below is read from the GTU syllabus
+                            topic${topicsTotal === 1 ? '' : 's'}.${intake} The unit-wise breakdown below is read from the GTU syllabus
                             document for this subject code, so you can check what the course actually covers before
                             deciding which papers to attempt.
                         </p>

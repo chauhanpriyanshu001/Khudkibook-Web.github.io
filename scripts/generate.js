@@ -604,7 +604,7 @@ function generateSite() {
                                 ${papersModalHTML}
                                 ${otherModalHTML}
 
-                                ${renderSyllabusSection(sub.code, { branch: branchDisplay, semester: sem.name })}
+                                ${renderSyllabusSection(sub.code, { branch: branchDisplay, semester: sem.name, effFrom: sub.effFrom })}
 
                                 <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid var(--border);">
                                     <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">Study on Android App:</p>

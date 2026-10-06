@@ -1,7 +1,7 @@
 [
   {
     "name": "PHD",
-    "count": 65
+    "count": 68
   },
   {
     "name": "Circular",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Exam",
-    "count": 50
+    "count": 54
   },
   {
     "name": "Tender",
@@ -24,16 +24,16 @@
     "count": 5
   },
   {
+    "name": "Affiliation",
+    "count": 2
+  },
+  {
     "name": "Potential Funding Resources",
     "count": 2
   },
   {
     "name": "Institute Transfer",
     "count": 2
-  },
-  {
-    "name": "Affiliation",
-    "count": 1
   },
   {
     "name": "College Activity",

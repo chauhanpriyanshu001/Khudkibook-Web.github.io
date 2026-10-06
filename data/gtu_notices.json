@@ -1,5 +1,331 @@
 [
   {
+    "id": 69290,
+    "title": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester 4 (Remedial) (Recheck/Reassessment) Summer 2026 Examination",
+    "rawTitle": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester - 4 (Remedial) (Recheck/Reassessment) Summer 2026 Examination",
+    "date": "2026-10-06",
+    "postedAt": "2026-10-06T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261006-0002-a99af2a2ef.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261006-0002-a99af2a2ef.pdf",
+        "name": "IMG_20261006_0002.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 4,
+      "program": "Bachelor of Pharmacy",
+      "programShort": "B.Pharm",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
+    "id": 69289,
+    "title": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester 4 (Regular) (Recheck/Reassessment) Summer 2026 Examination",
+    "rawTitle": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester - 4 (Regular) (Recheck/Reassessment) Summer 2026 Examination",
+    "date": "2026-10-06",
+    "postedAt": "2026-10-06T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261006-0001-10d26e8688.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261006-0001-10d26e8688.pdf",
+        "name": "IMG_20261006_0001.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 4,
+      "program": "Bachelor of Pharmacy",
+      "programShort": "B.Pharm",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
+    "id": 69288,
+    "title": "Instructions for filling the Remedial Exam Forms of BE Minor Course (Sem – 4 to 7) and BE Minor Industry-Led Minor Course (Sem – 4 to 6) Winter-2026 Examinatio",
+    "rawTitle": "Instructions for filling the Remedial Exam Forms of BE Minor Course (Sem – 4 to 7) and BE Minor Industry-Led Minor Course (Sem – 4 to 6) Winter-2026 Examinatio",
+    "date": "2026-10-06",
+    "postedAt": "2026-10-06T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mn-remedial-3524158887.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mn-remedial-3524158887.pdf",
+        "name": "MN Remedial.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 4,
+      "semesterFrom": 4,
+      "semesterTo": 7,
+      "program": "Bachelor of Engineering",
+      "programShort": "BE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 69287,
+    "title": "Instructions for filling the Regular Exam Forms of BE (Minor Course/ Industry-Led Minor Course Only (Sem – 5 & 7)) Winter – 2026 Examination",
+    "rawTitle": "Instructions for filling the Regular Exam Forms of BE (Minor Course/ Industry-Led Minor Course Only (Sem – 5 & 7)) Winter – 2026 Examination",
+    "date": "2026-10-06",
+    "postedAt": "2026-10-06T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mn-regular-0991eeb5ff.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mn-regular-0991eeb5ff.pdf",
+        "name": "MN Regular.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 5,
+      "semesterFrom": 5,
+      "semesterTo": 7,
+      "program": "Bachelor of Engineering",
+      "programShort": "BE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 69286,
+    "title": "Pre-Submission Seminar of Urvi Amit Zalavadia (Enrollment No. : 229999903034; Management Discipline) on 17/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Urvi Amit Zalavadia (Enrollment No.: 229999903034; Management Discipline) on 17/10/2026",
+    "date": "2026-10-06",
+    "postedAt": "2026-10-06T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Urvi%20Zalavadia_Os_844905.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Urvi%20Zalavadia_Os_844905.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Urvi%20Zalavadia_Os_844905.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-17"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69285,
+    "title": "Public Viva-Voce of Thacker Smit Mahendrabhai (219999913010) on 15/10/2026",
+    "rawTitle": "Public Viva-Voce of Thacker Smit Mahendrabhai (219999913010) on 15/10/2026",
+    "date": "2026-10-06",
+    "postedAt": "2026-10-06T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Smit%20Thacker_860146.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Smit%20Thacker_860146.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract%20of%20the%20Thesis%20_Smit%20Thacker_889702.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-15"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69284,
+    "title": "Public Viva-Voce of Jitendra Bapurao Patil (189999903016) on 15/10/2026",
+    "rawTitle": "Public Viva-Voce of Jitendra Bapurao Patil (189999903016) on 15/10/2026",
+    "date": "2026-10-06",
+    "postedAt": "2026-10-06T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Jitendra%20Patil%20%281%29_867897.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Jitendra%20Patil%20%281%29_867897.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract_Jitendra%20Patil_710041.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-15"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69283,
+    "title": "Implementation of Disaster Risk Reduction and Management (DRRM) initiatives and establishment of DRR Clubs in GTU affiliated institutions-Academic Year 2026-27",
+    "rawTitle": "Implementation of Disaster Risk Reduction and Management (DRRM) initiatives and establishment of DRR Clubs in GTU affiliated institutions-Academic Year 2026-27",
+    "date": "2026-10-06",
+    "postedAt": "2026-10-06T12:00:00+05:30",
+    "category": "Affiliation",
+    "categoryId": 15,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/DRRM%20Circular_203575.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/DRRM%20Circular_203575.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/DRRM%20Circular_203575.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-27",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:69283",
+      "label": "Affiliation",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 69282,
     "title": "UFM Notification No: 270/2026",
     "rawTitle": "UFM Notification No: 270/2026",

@@ -1,5 +1,161 @@
 [
   {
+    "id": 69298,
+    "title": "Pre-Submission Seminar of Prajapati Keyur Prahladbhai (Enrollment No. : 199999913553; Computer/It Engineering Discipline) on 22/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Prajapati Keyur Prahladbhai (Enrollment No.: 199999913553; Computer/It Engineering Discipline) on 22/10/2026",
+    "date": "2026-10-07",
+    "postedAt": "2026-10-07T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Prajapati%20Keyur-Os_120150.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Prajapati%20Keyur-Os_120150.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Prajapati%20Keyur-Os_120150.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-22"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69297,
+    "title": "Public Viva-Voce of Pushparaj Ramesh Jiwanapurkar (199999919557) on 17/10/2026",
+    "rawTitle": "Public Viva-Voce of Pushparaj Ramesh Jiwanapurkar (199999919557) on 17/10/2026",
+    "date": "2026-10-07",
+    "postedAt": "2026-10-07T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Pushparaj%20Jiwanapurkar_394669.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Pushparaj%20Jiwanapurkar_394669.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-199999919557%20Abstract%20of%20the%20Thesis%20GTU_628369.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-17"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69296,
+    "title": "Public Viva-Voce of Rahul Dhirajbhai Lalwani (229999901024) on 16/10/2026",
+    "rawTitle": "Public Viva-Voce of Rahul Dhirajbhai Lalwani (229999901024) on 16/10/2026",
+    "date": "2026-10-07",
+    "postedAt": "2026-10-07T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Rahul%20Lalwani_723450.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Rahul%20Lalwani_723450.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-%20Abstract-%20Rahul%20Lalwani_825617.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-16"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69295,
+    "title": "Public Viva-Voce of Mehta Amit Umeshbhai (189999919026) on 16/10/2026",
+    "rawTitle": "Public Viva-Voce of Mehta Amit Umeshbhai (189999919026) on 16/10/2026",
+    "date": "2026-10-07",
+    "postedAt": "2026-10-07T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Amit%20Mehta_206217.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Amit%20Mehta_206217.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-189999919026_Abstract%20of%20the%20Thesis_759870.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-16"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69294,
     "title": "PhD Notification No. 272/2026 for Sarika Sanjay Kanojia (189999914015)",
     "rawTitle": "PhD Notification No. 272/2026 for Sarika Sanjay Kanojia (189999914015)",

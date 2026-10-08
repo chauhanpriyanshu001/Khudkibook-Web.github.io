@@ -1,5 +1,56 @@
 [
   {
+    "id": 69309,
+    "title": "Notification for result declaration of Bachelor of Architecture Sem 1 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination.",
+    "date": "2026-10-08",
+    "postedAt": "2026-10-08T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-1-rem-9cc627f8e6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-1-rem-9cc627f8e6.pdf",
+        "name": "BA_1_REM.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 69308,
+    "title": "Notification for result declaration of Bachelor of Architecture Sem 2 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination.",
+    "date": "2026-10-08",
+    "postedAt": "2026-10-08T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-2-rem-640bd64d0d.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-2-rem-640bd64d0d.pdf",
+        "name": "BA_2_REM.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 69307,
+    "title": "Notification for result declaration of Bachelor of Architecture Sem 2 (Regular) Recheck/ Reassessment of Summer - 2026 Examination.",
+    "date": "2026-10-08",
+    "postedAt": "2026-10-08T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-2-reg-2a2cc07065.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-2-reg-2a2cc07065.pdf",
+        "name": "BA_2_REG.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 69306,
     "title": "Pre-Submission Seminar of Parekh Aarti Manojkumar (Enrollment No. : 219999913025; Computer / It Engineering Discipline) on 16/10/2026",
     "date": "2026-10-08",

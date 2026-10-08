@@ -1,5 +1,134 @@
 [
   {
+    "id": 69309,
+    "title": "Notification for result declaration of Bachelor of Architecture Sem 1 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination.",
+    "rawTitle": "Notification for result declaration of Bachelor of Architecture Sem - 1 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination.",
+    "date": "2026-10-08",
+    "postedAt": "2026-10-08T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-1-rem-9cc627f8e6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-1-rem-9cc627f8e6.pdf",
+        "name": "BA_1_REM.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 1,
+      "program": "Bachelor of Architecture",
+      "programShort": "B.Arch",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
+    "id": 69308,
+    "title": "Notification for result declaration of Bachelor of Architecture Sem 2 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination.",
+    "rawTitle": "Notification for result declaration of Bachelor of Architecture Sem - 2 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination.",
+    "date": "2026-10-08",
+    "postedAt": "2026-10-08T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-2-rem-640bd64d0d.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-2-rem-640bd64d0d.pdf",
+        "name": "BA_2_REM.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 2,
+      "program": "Bachelor of Architecture",
+      "programShort": "B.Arch",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
+    "id": 69307,
+    "title": "Notification for result declaration of Bachelor of Architecture Sem 2 (Regular) Recheck/ Reassessment of Summer - 2026 Examination.",
+    "rawTitle": "Notification for result declaration of Bachelor of Architecture Sem - 2 (Regular) Recheck/ Reassessment of Summer - 2026 Examination.",
+    "date": "2026-10-08",
+    "postedAt": "2026-10-08T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-2-reg-2a2cc07065.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-2-reg-2a2cc07065.pdf",
+        "name": "BA_2_REG.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 2,
+      "program": "Bachelor of Architecture",
+      "programShort": "B.Arch",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
     "id": 69306,
     "title": "Pre-Submission Seminar of Parekh Aarti Manojkumar (Enrollment No. : 219999913025; Computer / It Engineering Discipline) on 16/10/2026",
     "rawTitle": "Pre-Submission Seminar of Parekh Aarti Manojkumar (Enrollment No.: 219999913025; Computer / It Engineering Discipline) on 16/10/2026",

@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Wed, 07 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Public Viva-Voce of Sahitya Sumit Kishanlal (179999919048) on 19/10/2026</title>
+      <link>https://khudkibook.in/gtu-notices.html#n69302</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n69302</guid>
+      <pubDate>Thu, 08 Oct 2026 06:30:00 GMT</pubDate>
+      <category>PHD</category>
+      <description>Public Viva-Voce of Sahitya Sumit Kishanlal (179999919048) on 19/10/2026 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Sumit%20Sahitya_318569.pdf</description>
+    </item>
     <item>
       <title>Instructions for filling the Regular Exam Form of B. Arch (Sem 3) Winter-2026 Examination</title>
       <link>https://khudkibook.in/gtu-notices.html#n69301</link>
@@ -798,14 +806,6 @@
       <pubDate>Tue, 22 Sep 2026 06:30:00 GMT</pubDate>
       <category>PHD</category>
       <description>List of Doctoral Progress Committee Members_Batch 2025-26 (January 2026 session) — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Doctoral%20Progress%20Committee%20Members_Batch-2025-26%20%28January%202026%20session%29_657726.pdf</description>
-    </item>
-    <item>
-      <title>Public Viva-Voce of Gevariya Rinkuben Jayantibhai (219999903024) on 03/10/2026</title>
-      <link>https://khudkibook.in/gtu-notices.html#n49197</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n49197</guid>
-      <pubDate>Tue, 22 Sep 2026 06:30:00 GMT</pubDate>
-      <category>PHD</category>
-      <description>Public Viva-Voce of Gevariya Rinkuben Jayantibhai (219999903024) on 03/10/2026 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Rinku%20Gevariya_784605.pdf</description>
     </item>
   </channel>
 </rss>

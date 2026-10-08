@@ -1,5 +1,77 @@
 [
   {
+    "id": 69304,
+    "title": "Circular for Queries related to Answer Key of Ph. D. Entrance Test, 2026",
+    "rawTitle": "Circular for Queries related to Answer Key of Ph.D. Entrance Test, 2026",
+    "date": "2026-10-08",
+    "postedAt": "2026-10-08T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular-Queries%20related%20to%20Answer%20Key%20of%20Ph.D.%20Entrance%20Test,%202026_110751.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular-Queries%20related%20to%20Answer%20Key%20of%20Ph.D.%20Entrance%20Test,%202026_110751.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular-Queries%20related%20to%20Answer%20Key%20of%20Ph.D.%20Entrance%20Test,%202026_110751.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69303,
+    "title": "Invite Applications from Affiliated Degree Engineering and Management Institutes for AICTE Post-Doctoral Fellowship (APDF) under Gujarat Technological University",
+    "rawTitle": "Invite Applications from Affiliated Degree Engineering and Management Institutes for AICTE Post-Doctoral Fellowship (APDF) under Gujarat Technological University",
+    "date": "2026-10-08",
+    "postedAt": "2026-10-08T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/GTUCIrcular_320981.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/GTUCIrcular_320981.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/GTUCIrcular_320981.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:69303",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 69302,
     "title": "Public Viva-Voce of Sahitya Sumit Kishanlal (179999919048) on 19/10/2026",
     "rawTitle": "Public Viva-Voce of Sahitya Sumit Kishanlal (179999919048) on 19/10/2026",

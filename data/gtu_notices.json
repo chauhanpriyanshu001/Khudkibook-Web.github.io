@@ -431,6 +431,46 @@
     }
   },
   {
+    "id": 69314,
+    "title": "Public Viva-Voce of Khudaiwala Ashish Nathalal (219999919003) on 17/10/2026",
+    "rawTitle": "Public Viva-Voce of Khudaiwala Ashish Nathalal (219999919003) on 17/10/2026",
+    "date": "2026-10-07",
+    "postedAt": "2026-10-07T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Ashish%20Khudaiwala_102395.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Ashish%20Khudaiwala_102395.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-219999919003_Abstract%20of%20the%20Thesis_09-09-2026_198689.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-17"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69301,
     "title": "Instructions for filling the Regular Exam Form of B. Arch (Sem 3) Winter-2026 Examination",
     "rawTitle": "Instructions for filling the Regular Exam Form of B.Arch (Sem-3) Winter-2026 Examination",

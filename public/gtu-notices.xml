@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Fri, 09 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER-2026 EXAMINATION B. PHARM Sem 3 (REGULAR STUDENT) (EXCEPT D to D STUDENTS) &amp; B. PHARM Sem 1 to 4 (REMEDIAL STUDENT)</title>
+      <link>https://khudkibook.in/gtu-notices.html#n69316</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n69316</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 GMT</pubDate>
+      <category>Exam</category>
+      <description>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER-2026 EXAMINATION B. PHARM Sem 3 (REGULAR STUDENT) (EXCEPT D to D STUDENTS) &amp; B. PHARM Sem 1 to 4 (REMEDIAL STUDENT) — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/instruction-for-filling-the-exam-forms-of-winter-26-examinat-8c12029c15.pdf</description>
+    </item>
     <item>
       <title>Extension date notice: - Quotations in sealed cover are invited for “undertake orchestra Party for Navratri Program at GTU Chandkheda Campus</title>
       <link>https://khudkibook.in/gtu-notices.html#n69315</link>
@@ -798,14 +806,6 @@
       <pubDate>Thu, 24 Sep 2026 06:30:00 GMT</pubDate>
       <category>PHD</category>
       <description>Pre-Submission Seminar of Kulkarni Prajakta Uday (199999901513); Pharmacy Discipline) on 03/10/2026 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Prajakta%20Kulkarni_OS_464045.pdf</description>
-    </item>
-    <item>
-      <title>Corrigendum Public Viva-Voce of Sarika Sanjay Kanojia (189999914015)</title>
-      <link>https://khudkibook.in/gtu-notices.html#n49215</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n49215</guid>
-      <pubDate>Thu, 24 Sep 2026 06:30:00 GMT</pubDate>
-      <category>PHD</category>
-      <description>Corrigendum Public Viva-Voce of Sarika Sanjay Kanojia (189999914015) — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Corrigendum%20Public%20Viva%20Voce%20Notice-%20Sarika%20kanojia_555598.pdf</description>
     </item>
   </channel>
 </rss>

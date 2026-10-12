@@ -1,5 +1,40 @@
 [
   {
+    "id": 69320,
+    "title": "Extension of last date for submission of MOOCs for Batch 2025 (Regular) and 2024 & 2023 (Remedial)",
+    "rawTitle": "Extension of last date for submission of MOOCs for Batch 2025 (Regular) and 2024 & 2023 (Remedial)",
+    "date": "2026-10-12",
+    "postedAt": "2026-10-12T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Extension%20of%20last%20date%20for%20submission%20of%20MOOCs%20for%20Batch%202025%20%28Regular%29%20and%202024%20&%202023%20%28Remedial%29_0001_275775.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Extension%20of%20last%20date%20for%20submission%20of%20MOOCs%20for%20Batch%202025%20%28Regular%29%20and%202024%20&%202023%20%28Remedial%29_0001_275775.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Extension%20of%20last%20date%20for%20submission%20of%20MOOCs%20for%20Batch%202025%20%28Regular%29%20and%202024%20&%202023%20%28Remedial%29_0001_275775.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69319,
     "title": "PhD Notification No. 275/2026 for Gevariya Rinkuben Jayantibhai (219999903024)",
     "rawTitle": "PhD Notification No. 275/2026 for Gevariya Rinkuben Jayantibhai (219999903024)",

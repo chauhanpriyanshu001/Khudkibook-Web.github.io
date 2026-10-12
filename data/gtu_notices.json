@@ -1,5 +1,45 @@
 [
   {
+    "id": 69321,
+    "title": "Public Viva-Voce of Joshi Parth Harkishan (189999912027) on 23/10/2026",
+    "rawTitle": "Public Viva-Voce of Joshi Parth Harkishan (189999912027) on 23/10/2026",
+    "date": "2026-10-12",
+    "postedAt": "2026-10-12T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce-%20Parth%20Joshi_746892.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce-%20Parth%20Joshi_746892.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Format_Abstract%20of%20the%20Thesis%20189999912027_964868.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-23"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69320,
     "title": "Extension of last date for submission of MOOCs for Batch 2025 (Regular) and 2024 & 2023 (Remedial)",
     "rawTitle": "Extension of last date for submission of MOOCs for Batch 2025 (Regular) and 2024 & 2023 (Remedial)",

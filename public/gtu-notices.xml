@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Mon, 12 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Corrigendum Pre-Submission Seminar of Modi Arpit Harivadan (Enrollment No. : 199999919558; Mechanical Engineering Discipline) on 30/10/2026</title>
+      <link>https://khudkibook.in/gtu-notices.html#n69322</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n69322</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 GMT</pubDate>
+      <category>PHD</category>
+      <description>Corrigendum Pre-Submission Seminar of Modi Arpit Harivadan (Enrollment No. : 199999919558; Mechanical Engineering Discipline) on 30/10/2026 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Corrigendum%20Pre-Submission%20Seminar%20Notice%20Modi%20Arpit_Os_268886.pdf</description>
+    </item>
     <item>
       <title>Public Viva-Voce of Joshi Parth Harkishan (189999912027) on 23/10/2026</title>
       <link>https://khudkibook.in/gtu-notices.html#n69321</link>
@@ -798,14 +806,6 @@
       <pubDate>Thu, 24 Sep 2026 06:30:00 GMT</pubDate>
       <category>Circular</category>
       <description>Notification for result declaration of Bachelor of Architecture Sem 2 (Regular) Recheck/ Reassessment of Summer - 2026 Examination — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/1-ba-2-reg-1ec397cc86.pdf</description>
-    </item>
-    <item>
-      <title>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF BCA Sem 1 to 4 [REM] WINTER-2026 EXAMINATION</title>
-      <link>https://khudkibook.in/gtu-notices.html#n49221</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n49221</guid>
-      <pubDate>Thu, 24 Sep 2026 06:30:00 GMT</pubDate>
-      <category>Circular</category>
-      <description>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF BCA Sem 1 to 4 [REM] WINTER-2026 EXAMINATION — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bca-1-to-4-exam-form-w26-358aa3e024.pdf</description>
     </item>
   </channel>
 </rss>

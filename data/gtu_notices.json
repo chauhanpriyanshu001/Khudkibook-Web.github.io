@@ -1,5 +1,50 @@
 [
   {
+    "id": 69326,
+    "title": "PhD Notification No. 276/2026 for Arpita Majumdar (179999903001)",
+    "rawTitle": "PhD Notification No. 276/2026 for Arpita Majumdar (179999903001)",
+    "date": "2026-10-14",
+    "postedAt": "2026-10-14T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Arpita%20Majumdar_119537.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Arpita%20Majumdar_119537.pdf",
+        "name": "PhD Notification No. 276/2026 for Arpita Majumdar (179999903001)"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/ARPITA%20MAJUMDAR%20179999903001%20FINAL%20SIGNED%20THESIS_687021.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/ARPITA%20MAJUMDAR%20179999903001%20Synopsis%20final%20-%2005.10.26_956151.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69324,
     "title": "Notification for result declaration of Bachelor of Engineering Sem 4 (Regular) Recheck/ Reassessment of Summer - 2026 Examination",
     "rawTitle": "Notification for result declaration of Bachelor of Engineering Sem - 4 (Regular) Recheck/ Reassessment of Summer - 2026 Examination",

@@ -1,5 +1,30 @@
 [
   {
+    "id": 69332,
+    "title": "PhD Notification No. 277/2026 for Jethva Monica Jayeshbhai (199999901510)",
+    "date": "2026-10-15",
+    "postedAt": "2026-10-15T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Monica%20Jethva_308329.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Monica%20Jethva_308329.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/PhD%20Thesis%20Jethva%20Monica%20Jayeshbhai%20(1)_155840.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/PhD%20Synopsis%20Jethva%20Monica%20Jayeshbhai%20(1)_581123.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 69331,
     "title": "Tender No. 07/2026-27 Event Management including mandap decoration & allied services for 16th Convocation of Gujarat Technological University",
     "date": "2026-10-15",

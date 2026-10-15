@@ -1,5 +1,93 @@
 [
   {
+    "id": 69339,
+    "title": "INSTRUCTIONS FOR FILLING THE EXAM FORMS (UFM RELEASED) OF WINTER 2026 EXAMINATION Diploma in Engineering (DE) Sem 5 to 8 (Remedial/Term Extension Remedial) Diploma in Engineering (Working Professional) Sem 5 & 6 (Remedial)",
+    "rawTitle": "INSTRUCTIONS FOR FILLING THE EXAM FORMS (UFM RELEASED) OF WINTER 2026 EXAMINATION Diploma in Engineering (DE) Sem- 5 to 8 (Remedial/Term Extension Remedial) Diploma in Engineering (Working Professional) Sem-5 & 6 (Remedial)",
+    "date": "2026-10-15",
+    "postedAt": "2026-10-15T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261015190822-e58bd20252.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261015190822-e58bd20252.pdf",
+        "name": "20261015190822.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 5,
+      "semesterFrom": 5,
+      "semesterTo": 8,
+      "program": "Diploma in Engineering",
+      "programShort": "DE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": true,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "term-extension",
+      "key": "term-extension:winter-2026",
+      "label": "Term extension — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 69338,
+    "title": "INSTRUCTIONS FOR FILLING THE EXAM FORMS (UFM RELEASED) OF WINTER 2026 EXAMINATION Diploma in Engineering (DE) Sem 5 & 7 (Regular/Term Extension Regular) Diploma in Engineering (Working Professional) Sem 5 (Regular)",
+    "rawTitle": "INSTRUCTIONS FOR FILLING THE EXAM FORMS (UFM RELEASED) OF WINTER 2026 EXAMINATION Diploma in Engineering (DE) Sem- 5 & 7 (Regular/Term Extension Regular) Diploma in Engineering (Working Professional) Sem- 5 (Regular)",
+    "date": "2026-10-15",
+    "postedAt": "2026-10-15T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261015190750-6fad5abfb6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261015190750-6fad5abfb6.pdf",
+        "name": "20261015190750.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 5,
+      "semesterFrom": 5,
+      "semesterTo": 7,
+      "program": "Diploma in Engineering",
+      "programShort": "DE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": true,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "term-extension",
+      "key": "term-extension:winter-2026",
+      "label": "Term extension — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
     "id": 69337,
     "title": "PhD Notification No. 281/2026 for Patel Anjali Kalidas (209999903013)",
     "rawTitle": "PhD Notification No. 281/2026 for Patel Anjali Kalidas (209999903013)",

@@ -1,5 +1,77 @@
 [
   {
+    "id": 69329,
+    "title": "Pre-Submission Seminar of Prajapati Piyush Manharbhai (Enrollment No. : 219999913034; Computer/It Engineering Discipline) on 16/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Prajapati Piyush Manharbhai (Enrollment No.: 219999913034; Computer/It Engineering Discipline) on 16/10/2026",
+    "date": "2026-10-15",
+    "postedAt": "2026-10-15T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Prajapati%20Piyush%20Manharbhai_OS_872728.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Prajapati%20Piyush%20Manharbhai_OS_872728.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Prajapati%20Piyush%20Manharbhai_OS_872728.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-16"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 69328,
+    "title": "Pre-Submission Seminar of Ram Kamleshkumar Ukabhai (Enrollment No. : 209999919049; Mechanical Engineering Discipline) on 27/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Ram Kamleshkumar Ukabhai (Enrollment No.: 209999919049; Mechanical Engineering Discipline) on 27/10/2026",
+    "date": "2026-10-14",
+    "postedAt": "2026-10-14T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Ram%20Kamleshkumar%20Ukabhai_OS_187145.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Ram%20Kamleshkumar%20Ukabhai_OS_187145.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Ram%20Kamleshkumar%20Ukabhai_OS_187145.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-27"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 69327,
     "title": "Notification for result declaration of Bachelor of Engineering Sem 3 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",
     "rawTitle": "Notification for result declaration of Bachelor of Engineering Sem - 3 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",

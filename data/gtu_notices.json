@@ -1,5 +1,86 @@
 [
   {
+    "id": 79331,
+    "title": "PhD Notification No. 282/2026 for Rathod Abhijit Ramjibhai (209999912005)",
+    "rawTitle": "PhD Notification No. 282/2026 for Rathod Abhijit Ramjibhai (209999912005)",
+    "date": "2026-10-16",
+    "postedAt": "2026-10-16T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Abhijit%20Rathod_309834.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Abhijit%20Rathod_309834.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Signed_Thesis_209999912005_607372.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/SYNOPSIS_209999912005_308131.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79330,
+    "title": "Pre-Submission Seminar of Butani Ashvini Kishanbhai (Enrollment No. : 209999902001; Computer Science Discipline) on 17/11/2026",
+    "rawTitle": "Pre-Submission Seminar of Butani Ashvini Kishanbhai (Enrollment No.: 209999902001; Computer Science Discipline) on 17/11/2026",
+    "date": "2026-10-16",
+    "postedAt": "2026-10-16T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Butani%20Ashvini_OS_761304.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Butani%20Ashvini_OS_761304.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Butani%20Ashvini_OS_761304.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-11-17"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79329,
     "title": "INSTRUCTIONS FOR FILLING THE REMEDIAL & TERM EXTENSION REMEDIAL EXAM FORMS OF MBA Sem 1 TO 4 OF WINTER-2026 EXAMINATION",
     "rawTitle": "INSTRUCTIONS FOR FILLING THE REMEDIAL & TERM EXTENSION REMEDIAL EXAM FORMS OF MBA SEM-1 TO 4 OF WINTER-2026 EXAMINATION",

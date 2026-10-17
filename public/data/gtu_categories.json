@@ -1,7 +1,7 @@
 [
   {
     "name": "PHD",
-    "count": 97
+    "count": 99
   },
   {
     "name": "Exam",
@@ -16,12 +16,12 @@
     "count": 16
   },
   {
-    "name": "Recruitment",
+    "name": "Academic",
     "count": 6
   },
   {
-    "name": "Academic",
-    "count": 5
+    "name": "Recruitment",
+    "count": 6
   },
   {
     "name": "Affiliation",

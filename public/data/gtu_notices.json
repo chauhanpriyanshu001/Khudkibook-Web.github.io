@@ -1,5 +1,22 @@
 [
   {
+    "id": 79342,
+    "title": "Notification for Result Declaration of Diploma in Engineering Sem 1 (Remedial) Recheck/Reassessment of Summer-2026 Examination.",
+    "date": "2026-10-17",
+    "postedAt": "2026-10-17T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261017195614-c7dbff17a5.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261017195614-c7dbff17a5.pdf",
+        "name": "20261017195614.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 79341,
     "title": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MBA Sem 3 [REGULAR & TERM EXTENSION REGULAR] WINTER-2026 EXAMINATION",
     "date": "2026-10-17",

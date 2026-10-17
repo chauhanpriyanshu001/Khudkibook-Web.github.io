@@ -1,5 +1,48 @@
 [
   {
+    "id": 79343,
+    "title": "Notification for Result Declaration of Bachelor of Pharmacy Semester 3 (Remedial) Recheck - Reassessment - Summer 2026 Examinatio",
+    "rawTitle": "Notification for Result Declaration of Bachelor of Pharmacy Semester-3 (Remedial) Recheck - Reassessment - Summer 2026 Examinatio",
+    "date": "2026-10-17",
+    "postedAt": "2026-10-17T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/sem-3-remedial-recheck-reassessment-708-6e69f3d0d9.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/sem-3-remedial-recheck-reassessment-708-6e69f3d0d9.pdf",
+        "name": "Sem-3 Remedial Recheck Reassessment 708.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 3,
+      "program": "Bachelor of Pharmacy",
+      "programShort": "B.Pharm",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
     "id": 79342,
     "title": "Notification for Result Declaration of Diploma in Engineering Sem 1 (Remedial) Recheck/Reassessment of Summer-2026 Examination.",
     "rawTitle": "Notification for Result Declaration of Diploma in Engineering Sem-1 (Remedial) Recheck/Reassessment of Summer-2026 Examination.",

@@ -1,5 +1,47 @@
 [
   {
+    "id": 79341,
+    "title": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MBA Sem 3 [REGULAR & TERM EXTENSION REGULAR] WINTER-2026 EXAMINATION",
+    "rawTitle": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MBA SEM-3 [REGULAR & TERM EXTENSION REGULAR] WINTER-2026 EXAMINATION",
+    "date": "2026-10-17",
+    "postedAt": "2026-10-17T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mba-3-regular-exam-form-winter-26-dc85021150.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mba-3-regular-exam-form-winter-26-dc85021150.pdf",
+        "name": "MBA - 3 Regular Exam form (Winter-26).pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 3,
+      "program": "Master of Business Administration",
+      "programShort": "MBA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": true,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "term-extension",
+      "key": "term-extension:winter-2026",
+      "label": "Term extension — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
     "id": 79340,
     "title": "Notification for Result Declaration of Diploma in Engineering Sem 2 (Regular) Recheck/Reassessment of Summer-2026 Examination.",
     "rawTitle": "Notification for Result Declaration of Diploma in Engineering Sem-2 (Regular) Recheck/Reassessment of Summer-2026 Examination.",

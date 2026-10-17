@@ -1,5 +1,56 @@
 [
   {
+    "id": 79335,
+    "title": "Notification for result declaration of Bachelor of Engineering Sem 1 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",
+    "date": "2026-10-17",
+    "postedAt": "2026-10-17T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-1-rem.-recheck-reassessment-1-e4e58d0e99.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-1-rem.-recheck-reassessment-1-e4e58d0e99.pdf",
+        "name": "BE Sem - 1 Rem. Recheck-Reassessment (1).pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 79334,
+    "title": "Notification for result declaration of Bachelor of Engineering Sem 2 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination",
+    "date": "2026-10-17",
+    "postedAt": "2026-10-17T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-2-rem.-recheck-reassessment-1-de6c3ad42e.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-2-rem.-recheck-reassessment-1-de6c3ad42e.pdf",
+        "name": "BE Sem - 2 Rem. Recheck-Reassessment (1).pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 79333,
+    "title": "Notification for result declaration of Bachelor of Engineering Sem 2 (Regular) Recheck/ Reassessment of Summer - 2026 Examination",
+    "date": "2026-10-17",
+    "postedAt": "2026-10-17T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-2-reg.-recheck-reassessment-32c1221dcc.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-2-reg.-recheck-reassessment-32c1221dcc.pdf",
+        "name": "BE Sem - 2 Reg. Recheck-Reassessment.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 79331,
     "title": "PhD Notification No. 282/2026 for Rathod Abhijit Ramjibhai (209999912005)",
     "date": "2026-10-16",

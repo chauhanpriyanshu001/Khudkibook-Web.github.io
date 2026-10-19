@@ -1,5 +1,87 @@
 [
   {
+    "id": 79354,
+    "title": "Notification for Result Declaration of Diploma in Vocation Sem 2 (Regular) Recheck/Reassessment of Summer-2026 Examination.",
+    "rawTitle": "Notification for Result Declaration of Diploma in Vocation Sem-2 (Regular) Recheck/Reassessment of Summer-2026 Examination.",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261019191026-bb3b6d6db6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261019191026-bb3b6d6db6.pdf",
+        "name": "20261019191026.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 2,
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
+    "id": 79353,
+    "title": "Notification for Result Declaration of Diploma in Vocation Sem 2 (Remedial) Recheck/Reassessment of Summer-2026 Examination.",
+    "rawTitle": "Notification for Result Declaration of Diploma in Vocation Sem-2 (Remedial) Recheck/Reassessment of Summer-2026 Examination.",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261019191010-19557cd5df.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261019191010-19557cd5df.pdf",
+        "name": "20261019191010.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 2,
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
     "id": 79352,
     "title": "Advertisement for the post of Junior Research Fellow (1 positions)",
     "rawTitle": "Advertisement for the post of Junior Research Fellow (1 positions)",

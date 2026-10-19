@@ -1,5 +1,39 @@
 [
   {
+    "id": 79354,
+    "title": "Notification for Result Declaration of Diploma in Vocation Sem 2 (Regular) Recheck/Reassessment of Summer-2026 Examination.",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261019191026-bb3b6d6db6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261019191026-bb3b6d6db6.pdf",
+        "name": "20261019191026.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 79353,
+    "title": "Notification for Result Declaration of Diploma in Vocation Sem 2 (Remedial) Recheck/Reassessment of Summer-2026 Examination.",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261019191010-19557cd5df.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261019191010-19557cd5df.pdf",
+        "name": "20261019191010.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 79352,
     "title": "Advertisement for the post of Junior Research Fellow (1 positions)",
     "date": "2026-10-19",

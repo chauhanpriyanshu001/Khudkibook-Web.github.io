@@ -1,5 +1,134 @@
 [
   {
+    "id": 79360,
+    "title": "Notification for Result Declaration of Master of Computer Applications Sem 1 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
+    "rawTitle": "Notification for Result Declaration of Master of Computer Applications Sem-1 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-1-rem-recheck-6f93684a14.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-1-rem-recheck-6f93684a14.pdf",
+        "name": "MCA sem 1 REm_RECHECK.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 1,
+      "program": "Master of Computer Applications",
+      "programShort": "MCA",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
+    "id": 79359,
+    "title": "Notification for Result Declaration of Master of Computer Applications Sem 2 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
+    "rawTitle": "Notification for Result Declaration of Master of Computer Applications Sem-2 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-2-rem-recheck-13d4fb0bd6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-2-rem-recheck-13d4fb0bd6.pdf",
+        "name": "MCA sem 2 rem_recheck.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 2,
+      "program": "Master of Computer Applications",
+      "programShort": "MCA",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
+    "id": 79358,
+    "title": "Notification for Result Declaration of Master of Computer Applications Sem 2 (Regular) Recheck/Reassessment of Summer-2026 Examination",
+    "rawTitle": "Notification for Result Declaration of Master of Computer Applications Sem-2 (Regular) Recheck/Reassessment of Summer-2026 Examination",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-2-reg-recheck-fb88c23732.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-2-reg-recheck-fb88c23732.pdf",
+        "name": "MCA sem 2 Reg_recheck.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 2,
+      "program": "Master of Computer Applications",
+      "programShort": "MCA",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
     "id": 79357,
     "title": "Notification for Result Declaration of Bachelor of Business Administration Sem 02 (Regular) Recheck/Reassessment of Summer-2026 Examination.",
     "rawTitle": "Notification for Result Declaration of Bachelor of Business Administration Sem-02 (Regular) Recheck/Reassessment of Summer-2026 Examination.",

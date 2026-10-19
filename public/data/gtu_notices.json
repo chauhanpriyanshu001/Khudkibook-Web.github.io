@@ -1,5 +1,56 @@
 [
   {
+    "id": 79360,
+    "title": "Notification for Result Declaration of Master of Computer Applications Sem 1 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-1-rem-recheck-6f93684a14.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-1-rem-recheck-6f93684a14.pdf",
+        "name": "MCA sem 1 REm_RECHECK.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 79359,
+    "title": "Notification for Result Declaration of Master of Computer Applications Sem 2 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-2-rem-recheck-13d4fb0bd6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-2-rem-recheck-13d4fb0bd6.pdf",
+        "name": "MCA sem 2 rem_recheck.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 79358,
+    "title": "Notification for Result Declaration of Master of Computer Applications Sem 2 (Regular) Recheck/Reassessment of Summer-2026 Examination",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-2-reg-recheck-fb88c23732.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mca-sem-2-reg-recheck-fb88c23732.pdf",
+        "name": "MCA sem 2 Reg_recheck.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 79357,
     "title": "Notification for Result Declaration of Bachelor of Business Administration Sem 02 (Regular) Recheck/Reassessment of Summer-2026 Examination.",
     "date": "2026-10-19",

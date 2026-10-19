@@ -1,5 +1,206 @@
 [
   {
+    "id": 79352,
+    "title": "Advertisement for the post of Junior Research Fellow (1 positions)",
+    "rawTitle": "Advertisement for the post of Junior Research Fellow (1 positions)",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Recruitment",
+    "categoryId": 8,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20261013164107_693303.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20261013164107_693303.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20261013164107_693303.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:recruitment",
+      "label": "Recruitment",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79351,
+    "title": "Public Viva-Voce of Hetal Ranjitsingh Chauhan (189999919017) on 30/10/2026",
+    "rawTitle": "Public Viva-Voce of Hetal Ranjitsingh Chauhan (189999919017) on 30/10/2026",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Hetal%20Chauhan_214454.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Hetal%20Chauhan_214454.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract%20of%20the%20Thesis%20%284%29_552146.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-30"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79350,
+    "title": "Pre-Submission Seminar of Patel Alpaben Rameshbhai (Enrollment No. : 219999902002; Computer Science Discipline) on 02/11/2026",
+    "rawTitle": "Pre-Submission Seminar of Patel Alpaben Rameshbhai (Enrollment No.: 219999902002; Computer Science Discipline) on 02/11/2026",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Patel%20Alpaben_OS_369797.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Patel%20Alpaben_OS_369797.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Patel%20Alpaben_OS_369797.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-11-02"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79349,
+    "title": "PhD Notification No. 284/2026 for Jhala Dhara Pradumansinh (199999903510)",
+    "rawTitle": "PhD Notification No. 284/2026 for Jhala Dhara Pradumansinh (199999903510)",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Dhara%20Jhala_371664.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Dhara%20Jhala_371664.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Thesis%20Final_199999903510_849924.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Synopsis_Dhara%20Jhala_199999903510_984408.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79348,
+    "title": "PhD Notification No. 283/2026 for Patel Dhruvisha Pravinbhai (229999906001)",
+    "rawTitle": "PhD Notification No. 283/2026 for Patel Dhruvisha Pravinbhai (229999906001)",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-Dhruvisha%20Patel_194039.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-Dhruvisha%20Patel_194039.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Final%20thesis%20viva%20voce_961688.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Final%20Synopsis%20%281%29_474028.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79347,
     "title": "Public Viva-Voce of Prajapati Swati Vinodchandra (189999919068) on 28/10/2026",
     "rawTitle": "Public Viva-Voce of Prajapati Swati Vinodchandra (189999919068) on 28/10/2026",

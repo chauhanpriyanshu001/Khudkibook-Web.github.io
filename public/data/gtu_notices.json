@@ -1,5 +1,47 @@
 [
   {
+    "id": 79347,
+    "title": "Public Viva-Voce of Prajapati Swati Vinodchandra (189999919068) on 28/10/2026",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Swati%20Prajapati_494957.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Swati%20Prajapati_494957.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract_Swati%20Vinodchandra%20Prajapati_189999919068_192744.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
+    "id": 79346,
+    "title": "Public Viva-Voce of Seth Mridul Shammi (209999912006) on 27/10/2026",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Mridul%20Seth_904046.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Mridul%20Seth_904046.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract%20of%20the%20Thesis_209999912006_394787.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79345,
     "title": "Instructions for filling the Regular Exam Forms of BE (Minor Course/ Industry-Led Minor Course Only (Sem – 4 to 7)) Winter – 2026 Examination",
     "date": "2026-10-19",

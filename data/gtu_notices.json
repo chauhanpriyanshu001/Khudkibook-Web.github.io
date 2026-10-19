@@ -1,5 +1,49 @@
 [
   {
+    "id": 79345,
+    "title": "Instructions for filling the Regular Exam Forms of BE (Minor Course/ Industry-Led Minor Course Only (Sem – 4 to 7)) Winter – 2026 Examination",
+    "rawTitle": "Instructions for filling the Regular Exam Forms of BE (Minor Course/ Industry-Led Minor Course Only (Sem – 4 to 7)) Winter – 2026 Examination",
+    "date": "2026-10-19",
+    "postedAt": "2026-10-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mn-extesnion-edcee6983f.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mn-extesnion-edcee6983f.pdf",
+        "name": "MN Extesnion.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 4,
+      "semesterFrom": 4,
+      "semesterTo": 7,
+      "program": "Bachelor of Engineering",
+      "programShort": "BE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
     "id": 79344,
     "title": "Enrollment Process (A. Y. 2026-27) (Phase-1)",
     "rawTitle": "Enrollment Process (A.Y. 2026-27) (Phase-1)",

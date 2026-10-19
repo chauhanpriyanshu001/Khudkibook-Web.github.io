@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Sat, 17 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Instructions for filling the Regular Exam Forms of BE (Minor Course/ Industry-Led Minor Course Only (Sem – 4 to 7)) Winter – 2026 Examination</title>
+      <link>https://khudkibook.in/gtu-notices.html#n79345</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79345</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 GMT</pubDate>
+      <category>Exam</category>
+      <description>Instructions for filling the Regular Exam Forms of BE (Minor Course/ Industry-Led Minor Course Only (Sem – 4 to 7)) Winter – 2026 Examination — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mn-extesnion-edcee6983f.pdf</description>
+    </item>
     <item>
       <title>Enrollment Process (A. Y. 2026-27) (Phase-1)</title>
       <link>https://khudkibook.in/gtu-notices.html#n79344</link>
@@ -798,14 +806,6 @@
       <pubDate>Wed, 30 Sep 2026 06:30:00 GMT</pubDate>
       <category>PHD</category>
       <description>PhD Notification No. 267/2026 for Shaikh Ayeshabanu Sibgatulla (179999913028) — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Ayeshabanu%20Shaikh_900274.pdf</description>
-    </item>
-    <item>
-      <title>Invitation for Sponsorship of Gold Medals for GTU Convocation Ceremony</title>
-      <link>https://khudkibook.in/gtu-notices.html#n69243</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n69243</guid>
-      <pubDate>Wed, 30 Sep 2026 06:30:00 GMT</pubDate>
-      <category>Academic</category>
-      <description>Invitation for Sponsorship of Gold Medals for GTU Convocation Ceremony — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular-Gold%20Medal%20Sponership_610776.pdf</description>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,30 @@
 [
   {
+    "id": 79363,
+    "title": "PhD Notification No. 286/2026 for Mehta Amit Umeshbhai (189999919026)",
+    "date": "2026-10-21",
+    "postedAt": "2026-10-21T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Amit%20Mehta_868500.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Amit%20Mehta_868500.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Thesis_189999919026_Mehta%20Amit%20Umeshbhai_917760.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Synopsis_189999919026_Mehta%20Amit%20Umeshbhai_681349.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79362,
     "title": "Instructions for filling the Regular Exam Forms of BE NCC (Sem 3 & 5) (For NCC as General Elective Course Students) Winter – 2026 Examination",
     "date": "2026-10-21",

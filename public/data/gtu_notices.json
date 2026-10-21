@@ -1,5 +1,22 @@
 [
   {
+    "id": 79368,
+    "title": "Test",
+    "date": "2026-10-21",
+    "postedAt": "2026-10-21T12:00:00+05:30",
+    "category": "Academic",
+    "topic": "other",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-abhijit-rathod-309834-d0caf56952.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-abhijit-rathod-309834-d0caf56952.pdf",
+        "name": "Notification- Abhijit Rathod_309834.pdf"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79367,
     "title": "Notification for Result Declaration of Master of Business Administration-Integrated Sem 01 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
     "date": "2026-10-21",

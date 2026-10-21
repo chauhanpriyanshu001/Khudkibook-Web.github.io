@@ -1,5 +1,40 @@
 [
   {
+    "id": 79368,
+    "title": "Test",
+    "rawTitle": "Test",
+    "date": "2026-10-21",
+    "postedAt": "2026-10-21T12:00:00+05:30",
+    "category": "Academic",
+    "categoryId": 10,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-abhijit-rathod-309834-d0caf56952.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-abhijit-rathod-309834-d0caf56952.pdf",
+        "name": "Notification- Abhijit Rathod_309834.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79368",
+      "label": "Academic",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79367,
     "title": "Notification for Result Declaration of Master of Business Administration-Integrated Sem 01 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
     "rawTitle": "Notification for Result Declaration of Master of Business Administration-Integrated Sem-01 (Remedial) Recheck/Reassessment of Summer-2026 Examination",

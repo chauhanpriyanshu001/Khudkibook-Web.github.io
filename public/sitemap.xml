@@ -37706,7 +37706,13 @@
   </url>
   <url>
     <loc>https://khudkibook.in/blog/gtu-recheck-result-summer-2026</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://khudkibook.in/blog/gtu-result-declaration-summer-2026</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

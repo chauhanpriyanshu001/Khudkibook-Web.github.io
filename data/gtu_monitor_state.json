@@ -1,5 +1,7 @@
 {
   "seenIds": [
+    79373,
+    79372,
     79371,
     79370,
     79369,
@@ -298,7 +300,7 @@
     49066,
     49065
   ],
-  "lastMaxId": 79371,
-  "published": 7,
-  "lastPublishedAt": "2026-09-29T06:01:54.344Z"
+  "lastMaxId": 79373,
+  "published": 8,
+  "lastPublishedAt": "2026-10-22T09:16:12.297Z"
 }

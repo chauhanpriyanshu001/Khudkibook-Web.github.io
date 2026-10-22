@@ -1,5 +1,134 @@
 [
   {
+    "id": 79376,
+    "title": "PhD Notification No. 288/2026 for Rahul Dhirajbhai Lalwani (229999901024)",
+    "rawTitle": "PhD Notification No. 288/2026 for Rahul Dhirajbhai Lalwani (229999901024)",
+    "date": "2026-10-22",
+    "postedAt": "2026-10-22T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Rahul%20Lalwani_438472.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Rahul%20Lalwani_438472.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Approved_229999901024_Rahul_PhDthesis_121611.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/229999901024_PhD_synopsis_568301.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79375,
+    "title": "Public Viva-Voce of Sneha Chacko (199999901530) on 29/10/2026",
+    "rawTitle": "Public Viva-Voce of Sneha Chacko (199999901530) on 29/10/2026",
+    "date": "2026-10-22",
+    "postedAt": "2026-10-22T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Sneha%20Chacko_165417.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Sneha%20Chacko_165417.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract%20of%20the%20Thesis_SnehaChacko_731824.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-29"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79374,
+    "title": "EXTENSION IN SCHEDULE FOR FILLING THE EXAM FORMS OF WINTER-2026 EXAMINATION B. PHARM Sem 6 & 8 (REMEDIAL STUDENT)",
+    "rawTitle": "EXTENSION IN SCHEDULE FOR FILLING THE EXAM FORMS OF WINTER-2026 EXAMINATION B.PHARM SEM- 6 & 8 (REMEDIAL STUDENT)",
+    "date": "2026-10-22",
+    "postedAt": "2026-10-22T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/date-extension-bph-sem-6-8-remedial-w26-1-1637880646.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/date-extension-bph-sem-6-8-remedial-w26-1-1637880646.pdf",
+        "name": "Date Extension BPH Sem 6 & 8 Remedial W26 (1).pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 6,
+      "semesterFrom": 6,
+      "semesterTo": 8,
+      "program": "Bachelor of Pharmacy",
+      "programShort": "B.Pharm",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
     "id": 79373,
     "title": "Notification for result declaration of Bachelor of Engineering Minor Sem 4 (Regular) Recheck-Reassessment of Summer - 2026 Examination",
     "rawTitle": "Notification for result declaration of Bachelor of Engineering Minor Sem - 4 (Regular) Recheck-Reassessment of Summer - 2026 Examination",

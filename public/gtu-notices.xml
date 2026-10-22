@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Wed, 21 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Guidelines and Instructions Regarding Online Marks Entry For Bachelor of Engineering (Semester 8 Remedial) &amp; Bachelor of Engineering Working Professional (Semester 8 Remedial) Winter -2026 Examination</title>
+      <link>https://khudkibook.in/gtu-notices.html#n79369</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79369</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 GMT</pubDate>
+      <category>Exam</category>
+      <description>Guidelines and Instructions Regarding Online Marks Entry For Bachelor of Engineering (Semester 8 Remedial) &amp; Bachelor of Engineering Working Professional (Semester 8 Remedial) Winter -2026 Examination — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261022130914-54eb650af8.pdf</description>
+    </item>
     <item>
       <title>Test</title>
       <link>https://khudkibook.in/gtu-notices.html#n79368</link>
@@ -798,14 +806,6 @@
       <pubDate>Sat, 03 Oct 2026 06:30:00 GMT</pubDate>
       <category>Exam</category>
       <description>Notification for Result Declaration of Master of Engineering Sem 2 (Remedial) (Recheck/Reassessment) Summer - 2026 Examination. — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261003-18105429-ce8fac6e61.pdf</description>
-    </item>
-    <item>
-      <title>Notification for Result Declaration of Master of Engineering Sem 2 (Regular) (Recheck/Reassessment) Summer - 2026 Examination.</title>
-      <link>https://khudkibook.in/gtu-notices.html#n69276</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n69276</guid>
-      <pubDate>Sat, 03 Oct 2026 06:30:00 GMT</pubDate>
-      <category>Exam</category>
-      <description>Notification for Result Declaration of Master of Engineering Sem 2 (Regular) (Recheck/Reassessment) Summer - 2026 Examination. — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261003-18140397-cbcff9ab64.pdf</description>
     </item>
   </channel>
 </rss>

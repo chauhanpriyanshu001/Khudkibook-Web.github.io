@@ -1,5 +1,44 @@
 [
   {
+    "id": 79377,
+    "title": "Obliterate/Pulping of GTU Theory Examination Answer Books of Summer-2026.",
+    "rawTitle": "Obliterate/Pulping of GTU Theory Examination Answer Books of Summer-2026.",
+    "date": "2026-10-22",
+    "postedAt": "2026-10-22T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/pulping-2936ed067a.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/pulping-2936ed067a.pdf",
+        "name": "Pulping.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79377",
+      "label": "Exam",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79376,
     "title": "PhD Notification No. 288/2026 for Rahul Dhirajbhai Lalwani (229999901024)",
     "rawTitle": "PhD Notification No. 288/2026 for Rahul Dhirajbhai Lalwani (229999901024)",

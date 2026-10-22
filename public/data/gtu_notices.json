@@ -1,5 +1,39 @@
 [
   {
+    "id": 79371,
+    "title": "Notification for Result Declaration of Master of Business Administration Sem 02 (Regular) Recheck/Reassessment of Summer-2026 Examination",
+    "date": "2026-10-22",
+    "postedAt": "2026-10-22T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mba-2-regular-recheck-reassessment-a85cee14aa.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mba-2-regular-recheck-reassessment-a85cee14aa.pdf",
+        "name": "MBA-2 (Regular) Recheck-Reassessment.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 79370,
+    "title": "Notification for Result Declaration of Master of Business Administration Sem 02 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
+    "date": "2026-10-22",
+    "postedAt": "2026-10-22T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mba-2-remedial-recheck-reassessment-13e1e9c830.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mba-2-remedial-recheck-reassessment-13e1e9c830.pdf",
+        "name": "MBA-2 (Remedial) Recheck-Reassessment.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
     "id": 79369,
     "title": "Guidelines and Instructions Regarding Online Marks Entry For Bachelor of Engineering (Semester 8 Remedial) & Bachelor of Engineering Working Professional (Semester 8 Remedial) Winter -2026 Examination",
     "date": "2026-10-22",

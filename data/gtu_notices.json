@@ -1,5 +1,193 @@
 [
   {
+    "id": 79388,
+    "title": "Public Viva-Voce of Nair Greeshma Unni (209999911005) on 02/11/2026",
+    "rawTitle": "Public Viva-Voce of Nair Greeshma Unni (209999911005) on 02/11/2026",
+    "date": "2026-10-23",
+    "postedAt": "2026-10-23T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Greeshma%20Nair_542139.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Greeshma%20Nair_542139.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract%20of%20the%20Thesis_209999911005_358706.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-11-02"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79387,
+    "title": "Public Viva-Voce of Prajapati Sejal Somabhai (229999906003) on 02/11/2026",
+    "rawTitle": "Public Viva-Voce of Prajapati Sejal Somabhai (229999906003) on 02/11/2026",
+    "date": "2026-10-23",
+    "postedAt": "2026-10-23T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Sejal%20Prajapati_824822.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Sejal%20Prajapati_824822.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract%20of%20the%20Thesis_Sejal_229999906003_829808.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-11-02"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79386,
+    "title": "Pre-Submission Seminar of Shitole Grishma Nimit (Enrollment No. : 229999903030; Management Discipline) on 28/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Shitole Grishma Nimit (Enrollment No.: 229999903030; Management Discipline) on 28/10/2026",
+    "date": "2026-10-23",
+    "postedAt": "2026-10-23T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Shitole%20Grishma_OS_663161.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Shitole%20Grishma_OS_663161.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Shitole%20Grishma_OS_663161.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-28"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79385,
+    "title": "Pre-Submission Seminar of Kaushalkumar Rameshbhai Patel (Enrollment No. : 179999915018; Electronics & Communication Engineering Discipline) on 26/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Kaushalkumar Rameshbhai Patel (Enrollment No.: 179999915018; Electronics & Communication Engineering Discipline) on 26/10/2026",
+    "date": "2026-10-23",
+    "postedAt": "2026-10-23T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Kaushalkumar%20Rameshbhai%20Patel_OS_324115.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Kaushalkumar%20Rameshbhai%20Patel_OS_324115.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Kaushalkumar%20Rameshbhai%20Patel_OS_324115.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-26"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79384,
+    "title": "Pre-Submission Seminar of Shah Payal Dineshkumar (Enrollment No. : 179999915018; Electronics & Communication Engineering Discipline) on 26/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Shah Payal Dineshkumar (Enrollment No.: 179999915018; Electronics & Communication Engineering Discipline) on 26/10/2026",
+    "date": "2026-10-23",
+    "postedAt": "2026-10-23T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Shah%20Payal%20DineshKumar_OS_480931.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Shah%20Payal%20DineshKumar_OS_480931.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Shah%20Payal%20DineshKumar_OS_480931.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-26"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79382,
     "title": "Photo upload circular for 16th Annual Convocation (For Students)",
     "rawTitle": "Photo upload circular for 16th Annual Convocation (For Students)",

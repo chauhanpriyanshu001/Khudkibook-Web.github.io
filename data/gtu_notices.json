@@ -472,6 +472,42 @@
     }
   },
   {
+    "id": 79380,
+    "title": "Tender No. 05/2026-27 Aluminium Section Partition and Electrification Work for Development of Center of Excellence at GTU-ITR, Village Mevad, Dist. Mehsana",
+    "rawTitle": "Tender No. 05/2026-27 Aluminium Section Partition and Electrification Work for Development of Center of Excellence at GTU-ITR, Village Mevad, Dist. Mehsana",
+    "date": "2026-10-21",
+    "postedAt": "2026-10-21T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notice%20Inviting%20Tender%202__586152.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notice%20Inviting%20Tender%202__586152.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notice%20Inviting%20Tender%202__586152.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-27",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79368,
     "title": "Test",
     "rawTitle": "Test",

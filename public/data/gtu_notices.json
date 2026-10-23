@@ -1,5 +1,39 @@
 [
   {
+    "id": 79382,
+    "title": "Photo upload circular for 16th Annual Convocation (For Students)",
+    "date": "2026-10-23",
+    "postedAt": "2026-10-23T12:00:00+05:30",
+    "category": "Convocation",
+    "topic": "other",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/photo-upload-circular-for-16th-annual-convocation-for-studen-698003dce9.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/photo-upload-circular-for-16th-annual-convocation-for-studen-698003dce9.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/photo-upload-circular-for-16th-annual-convocation-for-studen-698003dce9.pdf"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
+    "id": 79381,
+    "title": "Photo upload circular for 16th Annual Convocation (For Institutes)",
+    "date": "2026-10-23",
+    "postedAt": "2026-10-23T12:00:00+05:30",
+    "category": "Convocation",
+    "topic": "other",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/photo-upload-circular-for-16th-annual-convocation-for-instit-0f32e41dec.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/photo-upload-circular-for-16th-annual-convocation-for-instit-0f32e41dec.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/photo-upload-circular-for-16th-annual-convocation-for-instit-0f32e41dec.pdf"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79379,
     "title": "PhD Notification No. 289/2026 for Jitendra Bapurao Patil (189999903016)",
     "date": "2026-10-22",

@@ -1,5 +1,47 @@
 [
   {
+    "id": 79391,
+    "title": "Public Viva-Voce of Rathod Niravkumar Bhupatsinh (209999919008) on 03/11/2026",
+    "date": "2026-10-23",
+    "postedAt": "2026-10-23T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Nirav%20Rathod_217942.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Nirav%20Rathod_217942.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Abstract_of_the_Thesis_Rathod_Niravkumar_209999919008_976817.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
+    "id": 79390,
+    "title": "Public Viva-Voce of Chapatwala Neeta H (199999915505) on 03/11/2026",
+    "date": "2026-10-23",
+    "postedAt": "2026-10-23T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Neeta%20Chapatwala_964391.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Neeta%20Chapatwala_964391.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-199999915505_Abstract%20of%20the%20Thesis%20%282%29_906617.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79388,
     "title": "Public Viva-Voce of Nair Greeshma Unni (209999911005) on 02/11/2026",
     "date": "2026-10-23",

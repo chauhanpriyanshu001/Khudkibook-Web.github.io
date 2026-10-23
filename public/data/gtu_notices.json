@@ -249,6 +249,31 @@
     "post": null
   },
   {
+    "id": 79383,
+    "title": "PhD Notification No. 287/2026 for Thacker Smit Mahendrabhai (219999913010)",
+    "date": "2026-10-21",
+    "postedAt": "2026-10-21T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Smit%20Thacker_379974.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notification-%20Smit%20Thacker_379974.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Signed_Thesis%20%281%29_206393.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/219999913010GTU_PhD_Synopsis_Smit_Thacker_964190.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79380,
     "title": "Tender No. 05/2026-27 Aluminium Section Partition and Electrification Work for Development of Center of Excellence at GTU-ITR, Village Mevad, Dist. Mehsana",
     "date": "2026-10-21",

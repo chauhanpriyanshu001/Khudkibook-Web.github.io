@@ -1,5 +1,83 @@
 [
   {
+    "id": 79397,
+    "title": "Notice Inviting Quotation for Designing, Providing and Fixing Various Signage boards at GTU-ITR Campus, Village Mevad, District Mahesana.",
+    "rawTitle": "Notice Inviting Quotation for Designing, Providing and Fixing Various Signage boards at GTU-ITR Campus, Village Mevad, District Mahesana.",
+    "date": "2026-10-26",
+    "postedAt": "2026-10-26T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notice%20Inviting%20Quotation_GTU-ITR%20%281%29_651904.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notice%20Inviting%20Quotation_GTU-ITR%20%281%29_651904.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notice%20Inviting%20Quotation_GTU-ITR%20%281%29_651904.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79397",
+      "label": "Exam",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79396,
+    "title": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester 2 (Remedial) Recheck - Reassessment Summer 2026 Examination.",
+    "rawTitle": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester-2 (Remedial) Recheck - Reassessment Summer 2026 Examination.",
+    "date": "2026-10-26",
+    "postedAt": "2026-10-26T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/sem-2-remedial-recheck-reassessment-726-62b5553cb6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/sem-2-remedial-recheck-reassessment-726-62b5553cb6.pdf",
+        "name": "Sem-2 Remedial Recheck Reassessment 726.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 2,
+      "program": "Bachelor of Pharmacy",
+      "programShort": "B.Pharm",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
     "id": 79395,
     "title": "Notice Inviting Quotation for Designing, Providing and Fixing Various Signage boards at GTU-ITR Campus, Village Mevad, District Mahesana.",
     "rawTitle": "Notice Inviting Quotation for Designing, Providing and Fixing Various Signage boards at GTU-ITR Campus, Village Mevad, District Mahesana.",

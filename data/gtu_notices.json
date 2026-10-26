@@ -1,5 +1,48 @@
 [
   {
+    "id": 79398,
+    "title": "Invitation to Showcase Your Research/Innovation at University Level – AIU Anveshan–2026",
+    "rawTitle": "Invitation to Showcase Your Research/Innovation at University Level – AIU Anveshan–2026",
+    "date": "2026-10-26",
+    "postedAt": "2026-10-26T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-invitation-for-participation-in-anveshan-2026-stude-4fa6e2a3aa.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-invitation-for-participation-in-anveshan-2026-stude-4fa6e2a3aa.pdf",
+        "name": "Circular"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/step-by-step-guideline-2026-1-e2c08e2a3a.pdf",
+        "name": "Student Participation Guideline"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/anveshan-sop-for-universities-general-c3fea57854.pdf",
+        "name": "Guideline for Uploading Poster / PPT"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79398",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79397,
     "title": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester 2 (Regular) Recheck - Reassessment Summer 2026 Examination.",
     "rawTitle": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester-2 (Regular) Recheck - Reassessment Summer 2026 Examination.",

@@ -1,5 +1,40 @@
 [
   {
+    "id": 79395,
+    "title": "Notice Inviting Quotation for Designing, Providing and Fixing Various Signage boards at GTU-ITR Campus, Village Mevad, District Mahesana.",
+    "rawTitle": "Notice Inviting Quotation for Designing, Providing and Fixing Various Signage boards at GTU-ITR Campus, Village Mevad, District Mahesana.",
+    "date": "2026-10-26",
+    "postedAt": "2026-10-26T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notice%20Inviting%20Quotation_GTU-ITR_561189.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notice%20Inviting%20Quotation_GTU-ITR_561189.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Notice%20Inviting%20Quotation_GTU-ITR_561189.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79394,
     "title": "Circular for 16th Annual convocation_ Summer-2026_Passout Name Correction",
     "rawTitle": "Circular for 16th Annual convocation_ Summer-2026_Passout Name Correction",

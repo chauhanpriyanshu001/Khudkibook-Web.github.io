@@ -1,5 +1,83 @@
 [
   {
+    "id": 79412,
+    "title": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester 1 (Remedial) Recheck - Reassessment Summer 2026 Examination.",
+    "rawTitle": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester-1 (Remedial) Recheck - Reassessment Summer 2026 Examination.",
+    "date": "2026-10-27",
+    "postedAt": "2026-10-27T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/sem-1-remedial-recheck-reassessment-727-b990066fad.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/sem-1-remedial-recheck-reassessment-727-b990066fad.pdf",
+        "name": "Sem-1 Remedial Recheck Reassessment 727.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 1,
+      "program": "Bachelor of Pharmacy",
+      "programShort": "B.Pharm",
+      "isRecheck": true,
+      "isReassessment": true,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "recheck"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:recheck",
+      "label": "Recheck result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 10
+    }
+  },
+  {
+    "id": 79411,
+    "title": "Research Week-2026 schedule for Mechanical Engineering discipline",
+    "rawTitle": "Research Week-2026 schedule for Mechanical Engineering discipline",
+    "date": "2026-10-27",
+    "postedAt": "2026-10-27T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/15.-mechanical-engineering-2026-029ebec2ff.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/15.-mechanical-engineering-2026-029ebec2ff.pdf",
+        "name": "15. Mechanical Engineering_2026.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79410,
     "title": "Instructions for filling the Regular Exam Forms of Bachelor of Engineering (Sem 3) (Except 2026 D2D Enrolled) Winter-2026 Examination",
     "rawTitle": "Instructions for filling the Regular Exam Forms of Bachelor of Engineering (Sem - 3) (Except 2026 D2D Enrolled) Winter-2026 Examination",

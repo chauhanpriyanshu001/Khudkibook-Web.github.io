@@ -1,5 +1,39 @@
 [
   {
+    "id": 79412,
+    "title": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester 1 (Remedial) Recheck - Reassessment Summer 2026 Examination.",
+    "date": "2026-10-27",
+    "postedAt": "2026-10-27T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/sem-1-remedial-recheck-reassessment-727-b990066fad.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/sem-1-remedial-recheck-reassessment-727-b990066fad.pdf",
+        "name": "Sem-1 Remedial Recheck Reassessment 727.pdf"
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-summer-2026.html"
+  },
+  {
+    "id": 79411,
+    "title": "Research Week-2026 schedule for Mechanical Engineering discipline",
+    "date": "2026-10-27",
+    "postedAt": "2026-10-27T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/15.-mechanical-engineering-2026-029ebec2ff.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/15.-mechanical-engineering-2026-029ebec2ff.pdf",
+        "name": "15. Mechanical Engineering_2026.pdf"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79410,
     "title": "Instructions for filling the Regular Exam Forms of Bachelor of Engineering (Sem 3) (Except 2026 D2D Enrolled) Winter-2026 Examination",
     "date": "2026-10-27",

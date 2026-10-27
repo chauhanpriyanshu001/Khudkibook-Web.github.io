@@ -179,19 +179,23 @@
    * a leaderboard and two more slots there is what drew the low value content
    * finding, so those pages get no ad units at all.
    *
-   * The three rules, in order:
+   * The rules, in order:
    *
    *  1. Never place ads on a page the build marked `noindex`. The build already
    *     decided the page has nothing worth showing a reader, so it has nothing
    *     worth showing an advertiser either. This also covers 404s and the stale
    *     artifacts swept by scripts/noindex_orphans.js, which no structural check
    *     here would otherwise recognise.
-   *  2. A subject page offering neither a textbook nor question papers is an
-   *     empty stub. Mirrors `isThinPlaceholder()` in scripts/lib/seo.js.
+   *  2. A generated subject page needs real value on the page itself: either a
+   *     textbook attached or reviewed editorial copy (`.kb-subject-editorial`).
+   *     Question papers alone do not count -- nearly every subject has them, and
+   *     serving ads on thousands of syllabus-only pages is the low-value shape
+   *     AdSense flags. This mirrors `isLowValueSubjectPage()` in
+   *     scripts/lib/seo.js, which drives indexing and the sitemap.
    *  3. Self-declared AI study material is held back until reviewed.
    *
-   * Rules 1 and 2 answer the same question as each other, so they must be
-   * changed together.
+   * Rules 1 and 2 must move together with the build so a page can never be
+   * indexed but refused ads, or vice versa.
    */
   function pageHasPublishableContent() {
     var robotsMeta = document.querySelector('meta[name="robots"]');
@@ -204,18 +208,17 @@
     // Those carry their own content; nothing here to judge.
     if (!main || !main.querySelector('.materials-section')) return true;
 
-    var noBook = false;
-    var noPapers = false;
+    // Reviewed editorial copy written for this subject.
+    if (main.querySelector('.kb-subject-editorial')) return true;
+
+    // A real textbook attached (not the "Book (Soon)" empty state).
+    var hasBook = false;
     var buttons = main.querySelectorAll('.materials-section .mdbtn');
     for (var i = 0; i < buttons.length; i++) {
       var label = buttons[i].textContent || '';
-      if (!/\(Soon\)/i.test(label)) continue;
-      if (/book/i.test(label)) noBook = true;
-      if (/paper/i.test(label)) noPapers = true;
+      if (/book/i.test(label) && !/\(Soon\)/i.test(label)) hasBook = true;
     }
-
-    // A subject with neither a textbook nor question papers is an empty stub.
-    if (noBook && noPapers) return false;
+    if (!hasBook) return false;
 
     if (AD_CONFIG.guardAiGenerated && /AI-generated study material/i.test(document.title || '')) {
       return false;

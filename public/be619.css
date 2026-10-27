@@ -119,7 +119,7 @@ nav#nav, .navbar-root {
     padding: 10px 24px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     position: relative;
     overflow: visible;
 }
@@ -141,7 +141,7 @@ nav#nav, .navbar-root {
 
 .textl {
     font-family: 'Outfit', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 800;
     background: var(--accent-gradient);
     -webkit-background-clip: text;
@@ -154,7 +154,7 @@ nav#nav, .navbar-root {
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 6px;
+    gap: 4px;
     margin-left: auto;
     flex-shrink: 0;
 }
@@ -162,16 +162,17 @@ nav#nav, .navbar-root {
 .nav-item-link, .nav-dropdown-btn {
     color: var(--text-secondary);
     font-weight: 600;
-    font-size: 0.92rem;
-    padding: 9px 15px;
+    font-size: 0.85rem;
+    padding: 8px 9px;
     border-radius: 10px;
     background: transparent;
     border: none;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     font-family: inherit;
+    white-space: nowrap;
 }
 
 .nav-item-link:hover, .nav-dropdown-btn:hover {
@@ -281,7 +282,7 @@ nav#nav, .navbar-root {
 .nav-right-actions {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     margin-left: auto;
 }
 
@@ -313,6 +314,106 @@ nav#nav, .navbar-root {
     display: none;
 }
 
+/* App Bar Auth: Login button & logged-in user chip */
+.nav-login-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 16px;
+    border-radius: 10px;
+    background: var(--accent-gradient);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    white-space: nowrap;
+    box-shadow: 0 6px 16px rgba(205, 93, 51, 0.25);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+}
+
+.nav-login-btn:hover {
+    transform: translateY(-1px);
+    color: #ffffff;
+    filter: brightness(1.04);
+    box-shadow: 0 10px 22px rgba(205, 93, 51, 0.32);
+}
+
+.nav-user-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 14px 5px 5px;
+    border-radius: 999px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border-accent);
+    color: var(--text-primary);
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-user-chip:hover {
+    background: var(--bg-surface);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.kb-user-avatar {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    border-radius: 50%;
+    background: var(--accent-gradient);
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 800;
+    font-family: 'Outfit', 'Inter', sans-serif;
+}
+
+.kb-nav-user-name {
+    max-width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Drawer logout button (renders like a drawer link) */
+.drawer-link.drawer-logout-btn {
+    width: 100%;
+    border: none;
+    background: none;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+    color: var(--danger);
+}
+
+.drawer-link.drawer-logout-btn:hover {
+    background: #fef2f2;
+    color: var(--danger);
+}
+
+@media (max-width: 1180px) {
+    .nav-login-btn {
+        padding: 8px 13px;
+        font-size: 0.85rem;
+        border-radius: 9px;
+    }
+
+    .nav-user-chip {
+        padding: 4px;
+        border-radius: 50%;
+    }
+
+    .kb-nav-user-name {
+        display: none;
+    }
+}
+
 /* Mobile Off-Canvas Drawer */
 .mobile-drawer {
     position: fixed;
@@ -321,13 +422,37 @@ nav#nav, .navbar-root {
     width: 85%;
     max-width: 380px;
     height: 100vh;
+    height: 100dvh;
     background: var(--bg-surface);
     box-shadow: -10px 0 30px rgba(74,60,50,0.15);
     border-left: 1px solid var(--border);
     z-index: 10000;
     padding: 24px;
+    padding-top: calc(24px + env(safe-area-inset-top));
     overflow-y: auto;
+    overscroll-behavior: contain;
     animation: drawerSlide 0.25s ease-out;
+}
+
+.mobile-drawer.is-open {
+    display: block;
+}
+
+/* Dimmed backdrop behind the drawer + page scroll lock */
+.drawer-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.45);
+    z-index: 9999;
+}
+
+.drawer-backdrop.show {
+    display: block;
+}
+
+body.drawer-open {
+    overflow: hidden;
 }
 
 @keyframes drawerSlide {
@@ -428,7 +553,7 @@ nav#nav, .navbar-root {
     background: rgba(255, 255, 255, 0.6);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1180px) {
     .nav-links-desktop {
         display: none !important;
     }
@@ -439,8 +564,63 @@ nav#nav, .navbar-root {
         display: none !important;
     }
     .navwrap {
-        padding: 10px 16px;
+        padding: 10px 14px;
         justify-content: space-between;
+        gap: 6px;
+    }
+    .nav-right-actions {
+        gap: 6px;
+    }
+}
+
+/* Full desktop bar: hide decorative link icons — labels only, to fit the
+   brand + search + 7 links + Login inside the 1192px nav container */
+@media (min-width: 1181px) {
+    .nav-item-link > i,
+    .nav-dropdown-btn > i:not(.nav-chevron) {
+        display: none;
+    }
+}
+
+/* Small phones */
+@media (max-width: 560px) {
+    .navwrap {
+        padding: 8px 12px;
+    }
+    .brand-link {
+        gap: 8px;
+    }
+    .lohh {
+        width: 32px;
+        height: 32px;
+        border-radius: 9px;
+    }
+    .textl {
+        font-size: 1.15rem;
+    }
+    .nav-login-btn {
+        padding: 8px 11px;
+        font-size: 0.8rem;
+        gap: 6px;
+    }
+    .mobile-nav-btn {
+        width: 38px;
+        height: 38px;
+        min-width: 38px;
+        min-height: 38px;
+    }
+}
+
+/* Very small phones — icon-only login */
+@media (max-width: 400px) {
+    .kb-login-label {
+        display: none;
+    }
+    .nav-login-btn {
+        padding: 9px;
+    }
+    .textl {
+        font-size: 1.05rem;
     }
 }
 
@@ -1591,9 +1771,9 @@ footer#footer {
 .site-search-wrap {
     flex: 1 1 auto;
     position: relative;
-    margin: 0 12px;
-    max-width: 420px;
-    min-width: 180px;
+    margin: 0 10px;
+    max-width: 260px;
+    min-width: 160px;
 }
 
 .site-search {
@@ -1662,7 +1842,7 @@ footer#footer {
    MOBILE RESPONSIVE SEARCH:
    Collapse to a search icon; tapping expands full width.
    ======================================================== */
-@media (max-width: 900px) {
+@media (max-width: 1180px) {
     .navwrap .site-search-wrap {
         max-width: 44px;
         min-width: 44px;
@@ -1691,9 +1871,10 @@ footer#footer {
         font-size: 1.05rem;
         padding: 11px;
     }
+}
 
-    /* Expanded: full-width search bar overlaying the nav row */
-    .site-search-wrap.expanded {
+/* Expanded: full-width search bar overlaying the nav row (any width) */
+.site-search-wrap.expanded {
         position: absolute;
         left: 12px;
         right: 12px;
@@ -1765,7 +1946,6 @@ footer#footer {
         top: calc(100% + 8px);
         max-height: calc(100vh - 90px);
     }
-}
 
 .search-results {
     position: absolute;
@@ -1832,7 +2012,7 @@ footer#footer {
 
 @media (max-width: 1100px) {
     .site-search-wrap {
-        max-width: 280px;
+        max-width: 240px;
         min-width: 140px;
     }
     .site-search input {

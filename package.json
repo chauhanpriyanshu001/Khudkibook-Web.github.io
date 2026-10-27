@@ -8,7 +8,18 @@
     "gtu:watch": "node scripts/monitor/gtu_watch.js",
     "gtu:watch:loop": "node scripts/monitor/gtu_watch.js --watch",
     "gtu:backfill": "node scripts/monitor/gtu_watch.js --backfill 100",
-    "sitemap": "node scripts/gen_sitemap.js"
+    "sitemap": "node scripts/gen_sitemap.js",
+    "enrich": "node scripts/enrich_pages.js",
+    "enrich-subjects": "node scripts/enrich_subjects.js",
+    "prune": "node scripts/prune_stubs.js",
+    "prune-junk": "node scripts/prune_junk.js",
+    "dedupe": "node scripts/dedupe_canonicals.js",
+    "dedupe-subjects": "node scripts/dedupe_subjects.js",
+    "audit": "node scripts/content_audit.js",
+    "quality-gate": "node scripts/quality_gate.js",
+    "adsense-fix": "node scripts/prune_junk.js && node scripts/dedupe_subjects.js && node scripts/enrich_subjects.js && node scripts/fix_indexing.js && node scripts/enrich_pages.js && node scripts/gen_sitemap.js",
+    "indexing": "node scripts/fix_indexing.js",
+    "noindex-orphans": "node scripts/noindex_orphans.js"
   },
   "repository": {
     "type": "git",

@@ -17,8 +17,25 @@ app.use((req, res, next) => {
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
+const PUBLIC_DIR = path.join(__dirname, '../public');
+
+// Clean URLs (mirrors Firebase Hosting "cleanUrls": true) — /login serves login.html
+app.use((req, res, next) => {
+    if (req.method !== 'GET' && req.method !== 'HEAD') return next();
+    const q = req.url.indexOf('?');
+    const pathname = q === -1 ? req.url : req.url.slice(0, q);
+    const query = q === -1 ? '' : req.url.slice(q);
+    if (path.extname(pathname)) return next();
+    const rel = path.normalize(pathname).replace(/^[/\\]+/, '');
+    const candidate = path.join(PUBLIC_DIR, rel + '.html');
+    if (candidate.startsWith(PUBLIC_DIR) && fs.existsSync(candidate) && fs.statSync(candidate).isFile()) {
+        req.url = pathname.replace(/\/$/, '') + '.html' + query;
+    }
+    next();
+});
+
 // Serve the public folder for content (site_db.json, generated pages)
-app.use(express.static(path.join(__dirname, '../public'), {
+app.use(express.static(PUBLIC_DIR, {
     maxAge: 0,
     setHeaders: (res, filePath) => {
         res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');

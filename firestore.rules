@@ -1,0 +1,146 @@
+rules_version = '2';
+
+// KhudkiBook security rules — Student Contribution System (see docs/CONTRIBUTIONS-PLAN.md)
+// Deploy: firebase deploy --only firestore:rules
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isVerified() {
+      return isSignedIn() && request.auth.token.email_verified == true;
+    }
+
+    function isAdmin() {
+      return isSignedIn()
+        && exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+
+    // ---- Admins (existence of doc = admin; seeded manually in console) ----
+    match /admins/{uid} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    // ---- Users ----
+    match /users/{uid} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      allow create: if isVerified()
+        && request.auth.uid == uid
+        && request.resource.data.email is string;
+      // Students may only edit profile-ish fields; points/badges/counters are admin-only.
+      allow update: if isAdmin()
+        || (isSignedIn()
+            && request.auth.uid == uid
+            && request.resource.data.diff(resource.data).affectedKeys()
+                 .hasOnly(['displayName', 'college', 'username', 'university', 'course',
+                           'courseName', 'branch', 'branchName', 'semester', 'semesterName',
+                           'homepage']));
+      allow delete: if isAdmin();
+    }
+
+    // ---- Personal library (saved subjects) — mirrors the local library ----
+    match /users/{uid}/bookmarks/{code} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      allow create, update: if isVerified()
+        && request.auth.uid == uid
+        && request.resource.data.code is string;
+      allow delete: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+    }
+
+    // ---- Dashboard state mirror (feed preferences, study progress) ----
+    // Private per student: `feed` holds the feed mix + interests, `study`
+    // holds the planner checklist. Only the owner can read or write it.
+    match /users/{uid}/state/{key} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+      allow create, update: if isVerified()
+        && request.auth.uid == uid
+        && key in ['feed', 'study'];
+      allow delete: if isAdmin() || (isSignedIn() && request.auth.uid == uid);
+    }
+
+    // ---- Contributions (student submissions, admin-moderated) ----
+    match /contributions/{id} {
+      allow read: if isAdmin()
+        || (isSignedIn() && resource.data.uid == request.auth.uid)
+        || resource.data.status == 'approved';
+
+      allow create: if isVerified()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.status == 'pending'
+        && request.resource.data.title is string
+        && request.resource.data.title.size() > 0
+        && request.resource.data.title.size() <= 200
+        && request.resource.data.type in ['notes', 'practical', 'paper-solution', 'pyq']
+        && request.resource.data.subjectCode is string
+        && request.resource.data.subjectCode.size() > 0
+        && request.resource.data.branchId is string
+        && request.resource.data.sem is string
+        && request.resource.data.domain in ['diploma', 'be', 'me']
+        && request.resource.data.filePath is string
+        && request.resource.data.createdAt is int;
+
+      // Owner may fix details only while pending; status transitions are admin-only.
+      allow update: if isAdmin()
+        || (isSignedIn()
+            && resource.data.uid == request.auth.uid
+            && resource.data.status == 'pending'
+            && request.resource.data.diff(resource.data).affectedKeys()
+                 .hasOnly(['title', 'description', 'academicYear', 'subjectName', 'branchId', 'sem', 'domain', 'college']));
+
+      // Owner may withdraw a pending submission; admin may remove any.
+      allow delete: if isAdmin()
+        || (isSignedIn()
+            && resource.data.uid == request.auth.uid
+            && resource.data.status == 'pending');
+    }
+
+    // ---- Points ledger (append-only) ----
+    match /pointTransactions/{id} {
+      allow read: if isAdmin() || (isSignedIn() && resource.data.uid == request.auth.uid);
+      allow create: if isAdmin();
+      allow update, delete: if false;
+    }
+
+    // ---- Rewards catalog (public read) ----
+    match /rewards/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // ---- Redemptions ----
+    match /redemptions/{id} {
+      allow read: if isAdmin() || (isSignedIn() && resource.data.uid == request.auth.uid);
+      allow create: if isVerified()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.status == 'requested';
+      // Owner may cancel while still requested; admin fulfills/rejects.
+      allow update: if isAdmin()
+        || (isSignedIn()
+            && resource.data.uid == request.auth.uid
+            && resource.data.status == 'requested'
+            && request.resource.data.status == 'cancelled'
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status']));
+      allow delete: if isAdmin();
+    }
+
+    // ---- Existing forms: lock down to create-only ----
+    match /contacts/{id} {
+      allow create: if request.resource.data.keys()
+        .hasOnly(['name', 'email', 'subject', 'message', 'timestamp']);
+      allow read, update, delete: if isAdmin();
+    }
+
+    match /feedbacks/{id} {
+      allow create: if request.resource.data.keys().hasOnly(['email', 'feedback', 'timestamp']);
+      allow read, update, delete: if isAdmin();
+    }
+
+    // Legacy dead collection — sealed
+    match /feedback/{id} {
+      allow read, write: if isAdmin();
+    }
+  }
+}

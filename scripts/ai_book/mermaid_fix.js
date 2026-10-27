@@ -14,7 +14,7 @@
  * and assemble_book so every unit sees the same sane diagram behaviour.
  */
 
-const DIAGRAM_KINDS = /^(flowchart|graph|sequenceDiagram|classDiagram|stateDiagram(-v2)?|erDiagram|journey|gantt|pie|mindmap|timeline|xychart-beta)/;
+const DIAGRAM_KINDS = /^(flowchart|graph|sequenceDiagram|classDiagram|stateDiagram(-v2)?|erDiagram|journey|gantt|pie|mindmap|timeline|quadrantChart|xychart-beta)/;
 
 // Regex-heavy repairs, applied line-by-line and globally, from most common AI
 // mistakes to least. Order matters (number -> arrow -> edge ops).
@@ -71,8 +71,13 @@ function repairSource(src) {
   // strip `>` prefixes that sometimes leak when a model indents a diagram as a quote
   s = s.split('\n').map(l => l.replace(/^\s*>\s?/, '')).join('\n');
 
-  // collapse runs of spaces inside edge definitions but keep axis-separated labels
-  s = s.split('\n').map(l => l.trimEnd().replace(/[ \t]{2,}/g, ' ')).join('\n');
+  // collapse runs of spaces inside edge definitions but keep axis-separated
+  // labels — and keep leading indentation, which is hierarchy for mindmaps
+  // and harmless structure elsewhere.
+  s = s.split('\n').map(l => {
+    const m = l.match(/^(\s*)([\s\S]*)$/);
+    return m[1] + m[2].replace(/[ \t]{2,}/g, ' ').trimEnd();
+  }).join('\n');
 
   // close dangling opening brackets left by a truncated output (label cut mid-way).
   // Only clamp when every trailing '[' sits after the last ']' — i.e. an
@@ -119,10 +124,17 @@ function validateMermaid(src, { allowErrors = false } = {}) {
   const lines = text.split('\n');
   const start = findDiagramStart(lines, 0);
   if (start === -1) errors.push('no flowchart/graph/sequenceDiagram/… starter line');
-  else if (start > 0) issues.push(`${start} leading comment/non-diagram line(s)`);
+  else if (start > 0) {
+    // Mermaid ignores %% comments before the starter line — only flag real junk.
+    const junk = lines.slice(0, start).filter(l => l.trim() && !l.trim().startsWith('%%'));
+    if (junk.length) issues.push(`${junk.length} leading non-diagram line(s)`);
+  }
 
   let brackets = 0, parens = 0, braces = 0, quotesOpen = false;
-  let edgeCount = 0, nodeCount = 0, isSeq = DIAGRAM_KINDS.test(text) && /^sequenceDiagram\b/m.test(text);
+  // Kind of the diagram taken from its starter line (works even when leading
+  // comments precede it — DIAGRAM_KINDS is ^-anchored without the m flag).
+  const kind = start === -1 ? '' : ((lines[start] || '').trim().match(/^[A-Za-z]+/) || [''])[0].toLowerCase();
+  let edgeCount = 0, nodeCount = 0, isSeq = kind === 'sequencediagram';
   for (const line of lines) {
     const t = line.trim();
     if (!t || t.startsWith('%%')) continue;
@@ -142,9 +154,23 @@ function validateMermaid(src, { allowErrors = false } = {}) {
   }
   if (brackets !== 0) issues.push(`unbalanced [ ] (${brackets})`);
   if (parens !== 0) issues.push(`unbalanced ( ) (${parens})`);
-  if (braces !== 0) issues.push(`unbalanced { } (${braces})`);
+  // erDiagram relationship notation uses lone { and } (||--o{ …}o--||), so
+  // brace balance is meaningless there.
+  if (braces !== 0 && kind !== 'erdiagram') issues.push(`unbalanced { } (${braces})`);
   if (quotesOpen) issues.push('unterminated double-quote');
-  if (edgeCount === 0 && nodeCount === 0) issues.push('no nodes or edges');
+  // Structural kinds (flowchart/graph/sequence/state) are defined by their
+  // edges and nodes. Data and annotation kinds (pie, timeline, journey, gantt,
+  // mindmap, class, er, quadrant, xychart) have no arrow syntax — require
+  // content after the starter line instead so title-only or empty blocks fail.
+  if (kind === 'flowchart' || kind === 'graph' || kind === 'sequencediagram' || kind === 'statediagram') {
+    if (edgeCount === 0 && nodeCount === 0) issues.push('no nodes or edges');
+  } else if (start !== -1) {
+    const contentLines = lines.slice(start + 1).filter(l => {
+      const t = l.trim();
+      return t && !t.startsWith('%%') && !/^(title|showdata)\b/i.test(t);
+    });
+    if (!contentLines.length) issues.push('no diagram content after the type line');
+  }
 
   // A "half-cut" diagram: last line is empty or ends mid-edge (dangling arrow).
   const last = lines[lines.length - 1] || '';

@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
-const { cleanUrl, isThinPlaceholder } = require('./lib/seo');
+const { cleanUrl, isThinPlaceholder, isLowValueSubjectPage } = require('./lib/seo');
 
 // KB_ROOT lets the monitor's test harness regenerate a sitemap for a temp tree
 // instead of the live public/ directory.
@@ -128,7 +128,7 @@ for (const file of files) {
     const served = servedFileFor(canonical);
     if (!fs.existsSync(served)) continue;
     const servedHtml = served === file ? html : fs.readFileSync(served, 'utf8');
-    if (isNoindex(servedHtml) || isThinPlaceholder(servedHtml)) continue;
+    if (isNoindex(servedHtml) || isThinPlaceholder(servedHtml) || isLowValueSubjectPage(servedHtml)) continue;
 
     seen.set(canonical, served);
 }

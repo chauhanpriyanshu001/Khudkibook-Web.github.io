@@ -1,0 +1,98 @@
+[
+ {
+  "code": "310004",
+  "subject": "Effective Technical Communication",
+  "subjectPage": "/it/sem3/ETC.html",
+  "units": 14,
+  "readingMin": 302,
+  "url": "/books/310004/full-book.html"
+ },
+ {
+  "code": "3110001",
+  "subject": "Chemistry",
+  "subjectPage": "/aeronautical/sem1/chemistry.html",
+  "units": 8,
+  "readingMin": 154,
+  "url": "/books/3110001/full-book.html"
+ },
+ {
+  "code": "3110002",
+  "subject": "English",
+  "subjectPage": "/aeronautical/sem1/english.html",
+  "units": 1,
+  "readingMin": 11,
+  "url": "/books/3110002/full-book.html"
+ },
+ {
+  "code": "4300001",
+  "subject": "Mathematics",
+  "subjectPage": "/ai-data-science/sem1/mathematics.html",
+  "units": 5,
+  "readingMin": 47,
+  "url": "/books/4300001/full-book.html"
+ },
+ {
+  "code": "4300002",
+  "subject": "Communication Skills in English",
+  "subjectPage": "/ai-data-science/sem1/communication-skills-in-english.html",
+  "units": 5,
+  "readingMin": 81,
+  "url": "/books/4300002/full-book.html"
+ },
+ {
+  "code": "4300003",
+  "subject": "Environment and Sustainability",
+  "subjectPage": "/ai-data-science/sem2/environment-and-sustainability.html",
+  "units": 5,
+  "readingMin": 101,
+  "url": "/books/4300003/full-book.html"
+ },
+ {
+  "code": "4300004",
+  "subject": "Applied Physics",
+  "subjectPage": "/ai-ml/sem2/applied-physics.html",
+  "units": 4,
+  "readingMin": 63,
+  "url": "/books/4300004/full-book.html"
+ },
+ {
+  "code": "4360302",
+  "subject": "Biomaterials & Implants",
+  "subjectPage": "/electrical/sem6/biomaterials-and-implants.html",
+  "units": 5,
+  "readingMin": 91,
+  "url": "/books/4360302/full-book.html"
+ },
+ {
+  "code": "C4300001",
+  "subject": "Mathematics",
+  "subjectPage": "/ai-data-science/sem1/mathematics.html",
+  "units": 5,
+  "readingMin": 52,
+  "url": "/books/C4300001/full-book.html"
+ },
+ {
+  "code": "C4300002",
+  "subject": "Communication Skills in English",
+  "subjectPage": "/ai-data-science/sem1/communication-skills-in-english.html",
+  "units": 5,
+  "readingMin": 71,
+  "url": "/books/C4300002/full-book.html"
+ },
+ {
+  "code": "C4300004",
+  "subject": "Applied Physics",
+  "subjectPage": "/ai-ml/sem2/applied-physics.html",
+  "units": 5,
+  "readingMin": 81,
+  "url": "/books/C4300004/full-book.html"
+ },
+ {
+  "code": "DI03024031",
+  "subject": "Digital Electronics",
+  "subjectPage": "/ai-data-science/sem3/digital-electronics.html",
+  "units": 1,
+  "readingMin": 24,
+  "url": "/books/DI03024031/full-book.html"
+ }
+]

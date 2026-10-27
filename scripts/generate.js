@@ -1,7 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-const { cleanUrl, cleanInternalLinks, isThinPlaceholder } = require('./lib/seo');
+const { cleanUrl, cleanInternalLinks, isThinPlaceholder, isLowValueSubjectPage } = require('./lib/seo');
 const { renderSyllabusSection } = require('./lib/syllabus_render');
+const { renderSubjectEditorial } = require('./lib/subject_editorial');
+const { renderBranchBlock, renderSemesterBlock } = require('./lib/rich_content');
 
 // Configuration
 const ROOT_DIR = path.join(__dirname, '..');
@@ -47,7 +49,10 @@ function generateSite() {
     // URLs for identical content, which is what produced the AdSense
     // "low value content" finding. See scripts/dedupe_canonicals.js.
     const finish = (html, { indexable = true } = {}) => {
-        const robots = (!indexable || isThinPlaceholder(html)) ? ROBOTS_THIN : ROBOTS_DEFAULT;
+        // A subject page is only indexable when it has a real textbook or
+        // reviewed editorial copy; the syllabus alone is not enough. This mirrors
+        // isLowValueSubjectPage() in scripts/lib/seo.js.
+        const robots = (!indexable || isThinPlaceholder(html) || isLowValueSubjectPage(html)) ? ROBOTS_THIN : ROBOTS_DEFAULT;
         return cleanInternalLinks(
             html.replace(/<meta name="robots" content="[^"]*" \/>/i, `<meta name="robots" content="${robots}" />`),
             SITE_URL
@@ -211,6 +216,21 @@ function generateSite() {
                 (s.subjects || []).forEach(sub => allBranchSubjects.push({ ...sub, semId: s.id, semName: s.name }));
             });
 
+            // Curated editorial block (data/rich_content.json). Prepended to the
+            // content so the original text sits above the link lists -- the same
+            // block scripts/enrich_pages.js stamps onto the committed tree.
+            const branchLevelWord = branch.urlPrefix === 'BE' ? 'degree' : branch.urlPrefix === 'ME' ? 'postgraduate' : 'diploma';
+            const branchRichBlock = renderBranchBlock({
+                branchId: branch.id,
+                branchName,
+                level: branchLevel === 'Diploma' ? 'Diploma' : branchLevel === 'M.E.' ? 'ME' : 'BE Degree',
+                levelWord: branchLevelWord,
+                subjectNames: allBranchSubjects.map(sub => sub.name).filter(Boolean),
+                semesters: (branch.semesters || []).map(s => ({ id: s.id, name: s.name, nSubjects: (s.subjects || []).length })),
+                nSubjects: allBranchSubjects.length,
+                semesterHrefPrefix: `${branch.urlPrefix ? branch.urlPrefix + '/' : ''}${branch.id}/`
+            });
+
             let branchContent = `
                 <div style="width: 100%; max-width: 1100px; margin-bottom: 40px;">
                     <h2 class="kl789123"><i class="fas fa-graduation-cap" style="color: var(--accent); margin-right: 8px;"></i> Select Your Semester</h2>
@@ -240,6 +260,8 @@ function generateSite() {
                         }).join('')}
                     </div>
                 </div>
+
+                ${branchRichBlock}
             `;
 
             let branchBreadcrumbs = `
@@ -297,6 +319,18 @@ function generateSite() {
                 // --- 1. Generate Semester Index Page ---
                 const semSubjects = (sem.subjects || []);
 
+                // Curated editorial block for this semester (data/rich_content.json),
+                // prepended so original text sits above the subject table -- the same
+                // block scripts/enrich_pages.js stamps onto the committed tree.
+                const semRichBlock = renderSemesterBlock({
+                    branchId: branch.id,
+                    branchName,
+                    levelWord: branchLevelWord,
+                    semId: sem.id,
+                    semName: sem.name,
+                    subjects: semSubjects.map(sub => ({ code: sub.code, name: sub.name, credit: sub.credit }))
+                });
+
                 let semesterContent = `
                     <div class="sydrp">
                         <div class="syhdd">
@@ -341,6 +375,8 @@ function generateSite() {
                             `;}).join('')}
                         </div>
                     </div>
+
+                    ${semRichBlock}
                 `;
 
                 let semBreadcrumbs = `
@@ -593,7 +629,7 @@ function generateSite() {
                                 </div>
                                 <h1>${sub.name}</h1>
                                 <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.5;">
-                                    Get the full GTU study material, English & Gujarati textbook PDFs, syllabus curriculum, and solved previous year question papers.
+                                    Get the full GTU study material for this subject: official syllabus, textbook links (Gujarati-medium books included where available), and previous year question papers.
                                 </p>
                                 
                                 <div class="materials-section">
@@ -604,7 +640,10 @@ function generateSite() {
                                 ${papersModalHTML}
                                 ${otherModalHTML}
 
+                                ${renderSubjectEditorial(sub.code, { name: sub.name })}
                                 ${renderSyllabusSection(sub.code, { branch: branchDisplay, semester: sem.name, effFrom: sub.effFrom })}
+
+                                <div class="kb-contribs-section" data-subject-contribs="${sub.code || ''}"></div>
 
                                 <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid var(--border);">
                                     <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">Study on Android App:</p>
@@ -697,6 +736,7 @@ function generateSite() {
                                     }
                                 }
                             </script>
+                            <!-- Student contributions via app only -->
                         `);
 
                     fs.writeFileSync(path.join(semDirPath, `${subFile}.html`), finish(subRendered));

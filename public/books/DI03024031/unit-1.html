@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit – Number System and Binary Codes 1.1 Introduction to Number Systems – Digital Electronics (DI03024031) | KhudKibook AI Book</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="keywords" content="GTU digital electronics, DI03024031, unit – number system and binary codes 1.1 introduction to number systems, diploma biomedical engineering, ai book, khudkibook" />
+  <meta name="description" content="AI-generated self study book | Digital Electronics | Unit – Number System and Binary Codes 1.1 Introduction to Number Systems – GTU study material on KhudKibook." />
+  <meta name="author" content="KhudKibook" />
+  <meta name="theme-color" content="#CD5D33" />
+  <link rel="canonical" href="https://khudkibook.in/books/DI03024031/unit-1" />
+  
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="KhudKibook" />
+  <meta property="og:title" content="Unit – Number System and Binary Codes 1.1 Introduction to Number Systems – Digital Electronics (DI03024031) | KhudKibook AI Book" />
+  <meta property="og:description" content="AI-generated self study book | Digital Electronics | Unit – Number System and Binary Codes 1.1 Introduction to Number Systems – GTU study material on KhudKibook." />
+  <meta property="og:url" content="https://khudkibook.in/books/DI03024031/unit-1" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Unit – Number System and Binary Codes 1.1 Introduction to Number Systems – Digital Electronics (DI03024031) | KhudKibook AI Book" />
+  <meta name="twitter:description" content="AI-generated self study book | Digital Electronics | Unit – Number System and Binary Codes 1.1 Introduction to Number Systems – GTU study material on KhudKibook." />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/brand/favicon-32x32.png?v=2" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/brand/khudkibook-logo.png?v=2" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet" />
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="stylesheet" href="/be619.css?v=2.3" />
+  <style>
+    html{scroll-behavior:smooth}
+    body{font-family:'Inter',sans-serif}
+    .kb-progress-bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#CD5D33,#F0A66E);z-index:1200;transition:width .1s linear}
+    .kb-book{max-width:880px;margin:0 auto;padding:0 16px 60px}
+    .kb-book-head{background:linear-gradient(135deg,#CD5D33 0%,#F0A66E 100%);border-radius:18px;padding:26px 26px 22px;color:#fff;margin:18px 0 20px;box-shadow:var(--shadow-glow)}
+    .kb-book-head .kb-kicker{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+    .kb-book-head h1{font-family:'Outfit',sans-serif;font-size:clamp(1.35rem,3.5vw,2rem);margin:6px 0 4px;line-height:1.25}
+    .kb-book-head .kb-sub{opacity:.92;font-size:.95rem;font-weight:600}
+    .kb-meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:10px;font-size:.85rem;font-weight:600}
+    .kb-meta span{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:5px 11px;border-radius:999px}
+    .kb-badge{display:inline-flex;gap:6px;align-items:center;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:4px 10px;border-radius:999px;font-size:.72rem;font-weight:700;margin-top:10px}
+    .kb-lang-btn,.kb-print-btn{display:inline-flex;gap:6px;align-items:center;background:#fff;color:var(--accent-darca,#3730a3);padding:6px 13px;border-radius:999px;font-weight:700;font-size:.8rem;text-decoration:none;border:1px solid rgba(255,255,255,.4);transition:.15s}
+    .kb-lang-btn:hover,.kb-print-btn:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(0,0,0,.18)}
+    .kb-layout{display:grid;grid-template-columns:240px 1fr;gap:22px}
+    .kb-toc{position:sticky;top:84px;align-self:start;background:#fff;border:1px solid var(--border);border-radius:14px;padding:14px;box-shadow:var(--shadow-sm);max-height:calc(100vh - 110px);overflow:auto}
+    .kb-toc h4{margin:14px 0 8px;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted)}
+    .kb-toc h4:first-child{margin-top:0}
+    .kb-toc .toc-item{display:flex;gap:8px;align-items:center;padding:8px 10px;border-radius:9px;color:var(--text-secondary);text-decoration:none;font-size:.88rem;font-weight:600;margin-bottom:4px;border:1px solid transparent;transition:.15s}
+    .kb-toc .toc-item:hover{background:var(--bg-soft);color:var(--accent)}
+    .kb-toc .toc-item.toc-active{background:var(--accent-gradient);color:#fff;box-shadow:var(--shadow-glow)}
+    .kb-toc .toc-sec{font-size:.8rem;padding:5px 8px;font-weight:500}
+    .kb-toc .back-link{display:block;margin-top:10px;padding-top:10px;border-top:1px solid var(--border);font-size:.85rem;color:var(--accent);text-decoration:none;font-weight:700}
+    .kb-article{background:#fff;border:1px solid var(--border);border-radius:16px;padding:26px 30px;box-shadow:var(--shadow-sm);line-height:1.75;color:var(--text-primary);min-width:0}
+    .kb-article h2{font-family:'Outfit',sans-serif;font-size:1.35rem;margin:26px 0 10px;padding-bottom:8px;border-bottom:2px solid var(--bg-soft);color:var(--accent-dark);scroll-margin-top:90px}
+    .kb-article h3{font-size:1.1rem;margin:20px 0 8px;color:var(--text-primary);scroll-margin-top:90px}
+    .kb-article h4{font-size:1rem;margin:16px 0 6px}
+    .kb-article p{margin:10px 0}
+    .kb-article ul,.kb-article ol{margin:10px 0 10px 22px}
+    .kb-article li{margin:5px 0}
+    .kb-article strong{color:var(--text-primary)}
+    .kb-article table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.92rem}
+    .kb-article th,.kb-article td{border:1px solid var(--border);padding:8px 10px;text-align:left}
+    .kb-article th{background:var(--bg-soft);font-weight:700;color:var(--text-primary)}
+    .kb-article code{background:var(--bg-soft);padding:2px 6px;border-radius:6px;font-size:.9em}
+    .kb-article pre{background:#0f172a;color:#e2e8f0;border-radius:12px;padding:14px;overflow:auto}
+    .kb-article blockquote{border-left:4px solid var(--accent);background:var(--bg-glass);padding:10px 14px;border-radius:0 10px 10px 0;margin:12px 0;color:var(--text-secondary)}
+    .kb-article .fig-callout{background:var(--bg-soft);border:1.5px dashed var(--border-accent);border-radius:12px;padding:14px 16px;margin:14px 0;color:var(--text-secondary);font-size:.92rem;display:flex;gap:10px;align-items:flex-start}
+    .kb-article .fig-callout i{color:var(--accent);margin-top:3px}
+    /* example cards */
+    .kb-article .kb-example{background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid #10b981;border-radius:0 14px 14px 0;padding:14px 16px;margin:14px 0;color:#064e3b;line-height:1.7}
+    .kb-article .kb-example .kb-example-badge{display:inline-flex;gap:6px;align-items:center;background:#10b981;color:#fff;font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
+    /* mermaid */
+    .kb-article .mermaid-wrap{margin:16px 0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+    .kb-article .mermaid{text-align:center;overflow:visible;padding:14px 10px;border:1px dashed var(--border-accent);border-radius:12px;background:#fbfcff;display:block;min-height:24px}
+    .kb-article .mermaid svg{display:block;width:100%!important;max-width:100%!important;height:auto!important;min-width:0;margin:0 auto;overflow:visible}
+    .kb-article .mermaid svg foreignObject{overflow:visible}
+    .kb-article .mermaid-src summary{cursor:pointer;font-size:.78rem;color:var(--text-muted)}
+    .kb-article .mermaid-src pre{font-size:.72rem;padding:10px;margin-top:6px}
+    .kb-article hr{border:none;border-top:1px dashed var(--border);margin:24px 0}
+    /* copy protection */
+    .kb-article{-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-touch-callout:none}
+    .kb-pn{display:flex;justify-content:space-between;gap:12px;margin-top:22px}
+    .pn-btn{flex:1;display:flex;align-items:center;gap:8px;justify-content:center;padding:12px;border-radius:12px;background:#fff;border:1px solid var(--border);color:var(--accent);text-decoration:none;font-weight:700;font-size:.9rem;box-shadow:var(--shadow-sm);transition:.15s}
+    .pn-btn:hover{border-color:var(--border-accent);background:var(--bg-glass)}
+    .pn-btn.disabled{opacity:.55;cursor:not-allowed;color:var(--text-muted)}
+    .kb-notice{display:flex;gap:10px;background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:12px;padding:12px 14px;font-size:.88rem;margin:18px 0 0;line-height:1.55}
+    .kb-notice i{color:#ea580c;margin-top:3px}
+    .kb-side-ad{border:1px solid var(--border);border-radius:14px;background:#fff;padding:10px;text-align:center;margin-top:14px;box-shadow:var(--shadow-sm)}
+    .ad-inarticle{margin:18px 0}
+    .kb-toast{position:fixed;bottom:66px;left:50%;transform:translateX(-50%) translateY(20px);background:#111827;color:#fff;padding:9px 16px;border-radius:999px;font-size:.82rem;font-weight:600;opacity:0;pointer-events:none;transition:.25s;z-index:1300}
+    .kb-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+    /* watermark (screen: hidden; print: per-page diagonal tiles) */
+    .print-watermark{display:none}
+    @media (max-width:900px){.kb-layout{grid-template-columns:1fr}.kb-toc{position:static;max-height:none}.kb-article{padding:18px 16px}}
+    @media print{
+      body{background:#fff;padding:0!important}
+      .no-print,.kb-toc,.kb-pn,.kb-side-ad,.kb-lang-btn,.kb-print-btn,.kb-meta span{display:none!important}
+      .kb-book{max-width:100%;padding:0}
+      .kb-layout{display:block}
+      .kb-book-head{border-radius:0;margin:0 0 12px;color-adjust:exact;-webkit-print-color-adjust:exact}
+      .kb-article{border:none;box-shadow:none;padding:0 2mm 0 0;line-height:1.6;font-size:11pt}
+      .kb-article{-webkit-user-select:text;-moz-user-select:text;user-select:text}
+      .kb-article table{font-size:9.5pt}
+      .kb-article pre{white-space:pre-wrap;word-break:break-word}
+      .kb-notice{page-break-inside:avoid;background:#fff;border-color:#ddd;color:#555;margin:14px 0}
+      .print-watermark{display:flex;position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;flex-direction:column;justify-content:space-between;pointer-events:none}
+      .print-watermark span{display:block;transform:rotate(-28deg);font-size:84px;font-weight:800;color:#000;opacity:.06;letter-spacing:10px;white-space:nowrap;font-family:'Outfit',sans-serif}
+      h2,h3{page-break-after:avoid}
+      p,li,blockquote,table{page-break-inside:avoid}
+      @page{size:A4;margin:13mm 11mm;@bottom-center{content:"KhudKibook · khudkibook.in";font-size:8pt;color:#666;}@bottom-right{content:"Page " counter(page) " of " counter(pages);font-size:8pt;color:#666;}}
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q14JJGGSPR');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yha6xlt986");
+  </script>
+</head>
+<body>
+  <nav id="nav" class="navbar-root no-print"></nav>
+  <div class="kb-progress-bar" id="kb-progress"></div>
+
+  <main class="kb-book">
+    <nav class="nv759 no-print" aria-label="Breadcrumb">
+      <div class="nvl153">
+        <a href="/">Home</a> &raquo; <a href="/diplomahomepage">Diploma</a> &raquo;
+        <a href="/ai-data-science/sem3/digital-electronics">Digital Electronics</a> &raquo; Unit – Number System and Binary Codes 1.1 Introduction to Number Systems
+      </div>
+    </nav>
+
+    <div class="kb-book-head">
+      <div class="kb-kicker">KhudKibook · GTU AI Self Study Book</div>
+      <h1>Unit – Number System and Binary Codes 1.1 Introduction to Number Systems</h1>
+      <div class="kb-sub">Digital Electronics (DI03024031) · Gujarat Technological University Artificial Intelligence and Data Science Semester 3</div>
+      <div class="kb-meta">
+      <span><i class="fas fa-clock"></i> 24 min read</span>
+      
+      
+      <a class="kb-print-btn no-print" href="javascript:window.print()"><i class="fas fa-download"></i> Download PDF</a>
+    </div>
+      <div style="margin-top:10px"><span class="kb-badge"><i class="fas fa-robot"></i> AI-generated study material · always cross-check with official syllabus</span></div>
+    </div>
+
+    <div class="kb-layout">
+      <aside class="kb-toc no-print">
+        <h4>Chapters</h4>
+        <a class="toc-item toc-active" href="unit-1.html"><i class="fas fa-book-open"></i> Unit – I</a>
+        <h4>In this chapter</h4>
+        <a class="toc-item toc-sec" href="#sec-binary"><i class="fas fa-chevron-right"></i> Binary</a>
+<a class="toc-item toc-sec" href="#sec-octal"><i class="fas fa-chevron-right"></i> Octal</a>
+<a class="toc-item toc-sec" href="#sec-decimal"><i class="fas fa-chevron-right"></i> Decimal</a>
+<a class="toc-item toc-sec" href="#sec-summary"><i class="fas fa-chevron-right"></i> Summary</a>
+<a class="toc-item toc-sec" href="#sec-hexadecimal"><i class="fas fa-chevron-right"></i> Hexadecimal</a>
+<a class="toc-item toc-sec" href="#sec-binary-number-system-binary-to-decimal-hexadecimal-octal-number-conversation"><i class="fas fa-chevron-right"></i> Binary Number System: Binary to Decimal/Hexadecimal/Octal Number Conversation</a>
+<a class="toc-item toc-sec" href="#sec-complements-1-s-complement"><i class="fas fa-chevron-right"></i> Complements: 1’s Complement</a>
+<a class="toc-item toc-sec" href="#sec-2-s-complement-binary-addition"><i class="fas fa-chevron-right"></i> 2’s Complement Binary Addition</a>
+<a class="toc-item toc-sec" href="#sec-subtraction"><i class="fas fa-chevron-right"></i> Subtraction</a>
+<a class="toc-item toc-sec" href="#sec-multiplication-binary-codes-gray-code"><i class="fas fa-chevron-right"></i> Multiplication Binary Codes: Gray Code</a>
+<a class="toc-item toc-sec" href="#sec-bcd-code"><i class="fas fa-chevron-right"></i> BCD Code</a>
+<a class="toc-item toc-sec" href="#sec-code-conversation"><i class="fas fa-chevron-right"></i> Code Conversation</a>
+<a class="toc-item toc-sec" href="#sec-hexadecimal-number-system-hexadecimal-to-decimal-binary-octal-number-conversation"><i class="fas fa-chevron-right"></i> Hexadecimal Number System: Hexadecimal to Decimal/Binary/Octal Number Conversation</a>
+<a class="toc-item toc-sec" href="#sec-octal-number-system-octal-to-decimal-binary-hexadecimal-number-conversion"><i class="fas fa-chevron-right"></i> Octal Number System: Octal to Decimal/Binary/Hexadecimal Number Conversion</a>
+        <a class="back-link" href="/ai-data-science/sem3/digital-electronics"><i class="fas fa-arrow-left"></i> Back to Digital Electronics</a>
+      </aside>
+
+      <article class="kb-article">
+        
+<p><em>(AI-generated self-study book for GTU, subject code DI03024031 — generated locally with Ollama.)</em></p>
+<p>This module carries approximately <strong>22% of the end-semester theory paper (per syllabus)</strong>.</p>
+<p>Recommended textbooks from the GTU syllabus (align your terminology and approach with these):</p>
+<ul>
+<li>www.youtube.com</li>
+<li>www.vlab.co.in Suggested Course Practical List: S. No. Practical List</li>
+<li>Study various number system</li>
+<li>Build/Test the basic logic gates (AND, OR and NOT)</li>
+<li>Build/Test the EX-OR, EX-NOR logic gates</li>
+<li>Build/Test NAND and NOR as universal gate</li>
+<li>Test the De- Morgan’s theorem</li>
+<li>Build/Test half adder circuit</li>
+<li>Build/Test full adder circuit</li>
+<li>Build/Test half subtractor circuit</li>
+<li>Build/Test full subtractor circuit</li>
+<li>Build/Test decoder circuit</li>
+<li>Build/Test the encoder circuit</li>
+<li>Build/Test the comparator circuit</li>
+<li>Build/Test multiplexer circuit</li>
+<li>Build/Test D e multiplexer circuit</li>
+<li>Build/Test SR flip-flop</li>
+<li>Build/Test D flip-flop</li>
+<li>Build/Test JK flip-flop</li>
+<li>Build/Test T flip-flop</li>
+<li>Built/Test various logic gates using diode logic/RTL logic/DTL logic/TTL logic List of Laboratory/Learning Resources Required: S No. Equipment Name with Broad Specifications 1 Digital Electronics Trainer Trainer should have Features of Logic symbol/ Schematic Diagram indicated on board mimic, On Board DC Power Supplies, Onboard Pulse Generator (TTL), Pulser Switches, 8- bit Data Switches (TTL), 8-bit bicolor LED display, Logic Probe, BCD to seven segment display Scope of Learning: Test the performance of Logic AND, OR, NOT, NAND, NOR, RS Flip- flop, JK Flip-flop, D Flip-flop and verify its Truth table, Study of Logic algebra GUJARAT TECHNOLOGICAL UNIVERSITY Program Name: Engineering Level: Diploma Branch: Power Electronics Course / Subject Code: DI03024031 Course / Subject Name: Digital Electronics S No. Equipment Name with Broad Specifications Study the application of logic gate circuit, Study the implementation of simple logic design., Test the performance of digital combinational logic circuits, Study the application of D Flip-flops as Shift Register, Study the application of JK Flip-flops Technical Specifications: DC Power Supplies: + 5V, 1A; +3V to +15V, 500 mA (variable)- 3V to -15V, 500 mA (variable), Pulse Generator: 1Hz to 1MHz Amplitude: 5V (TTL)Duty Cycle:50 %, TTL output Mains:230V AC ±10% 2 Digital Work Station The Trainer should have Feature of Graphical LCD to show the menu of experiment and gate level diagram for selected experiment, Solderless breadboard, On Board DC Power Supply, On board Pulse Generator Scope of Learning: Test the performance of Not gate, OR gate & AND gate, Universal gate, NAND Gate, XOR and XNOR gate, NOT Gate Using NAND Gate, OR Gate Using NAND Gate, AND Gate Using NAND Gate, AND-OR Gate, AND-NOR Gate, NAND-OR Gate, NAND-NOR Gate, NAND-NAND Gate, NOR-NOR Gate, Half Adder, Full Adder, Half Subtractor, Full Subtractor, 4-1 MUX, 1-4 DMUX, 4-2 Encoder Technical Specification: DC Supply: +5 V, 500 mA, Clock Frequency: 1 Hz, 100 Hz, 1 KHz, 100 KHz, Amplitude: 3.3V, Duty cycle: 50 %, TTL output, Main Supply: 100V - 240V AC, 50/60Hz 3 Flip Flop Trainer Trainer Should have Features of Adaptable illustration of Flip-Flops, +5V SMPS Adaptor provided with the trainer for power supply Scope of Learning: Study of S-R, J-K, D and T Flip-Flop and to verify their Transition table. Input: +5V DC, Main Supply: 100V - 240V AC, 50/60Hz 4 4½ Digit Multimeter Function Range and Resolution Basic Accuracy: DC volts, AC volts, Accuracy: 0.025 %, 0.4 % (true-rms) DC current, AC current, Accuracy: 0.15 %, 0.7 % (true-rms) Temperature: -200.0 °C to 1350.0 °C Accuracy:1.0 % Resistance, capacitance and frequency measurement. Accuracy: .005% Suggested Project List:</li>
+<li>Design universal test board for Digital Circuits to verify different Gates</li>
+<li>Design various Combinational and sequential logic Circuit board GUJARAT TECHNOLOGICAL UNIVERSITY Program Name: Engineering Level: Diploma Branch: Power Electronics Course / Subject Code: DI03024031 Course / Subject Name: Digital Electronics Suggested Activities for Students:</li>
+<li>Chart and Project Model Presentations: Demonstrate project models or deliver seminars on various topics covered in the course content</li>
+<li>Numerical Problem Solving: Solve the numerical problems provided by the subject faculty in tutorial and Prepare their solutions Book <em> </em> <em> </em> <em> </em> *</li>
+</ul>
+<h3 id="sec-binary">Binary</h3>
+<h4>Introduction to Binary System</h4>
+<p>The <strong>binary system</strong> is a base-2 number system that uses only two digits, 0 and 1. It is the foundation of digital electronics and computer systems. Binary digits, or bits, are the smallest units of data in digital systems.</p>
+<h4>Binary Representation</h4>
+<p>Each binary digit (bit) can represent two states: 0 and 1. For example, the binary number 1011 can be read as 1, 0, 1, 1, where each position represents a power of 2.</p>
+<h4>Conversion from Binary to Decimal</h4>
+<p>To convert a binary number to its decimal equivalent, we can use the positional notation method. Each digit in a binary number represents a power of 2, starting from 0 on the right.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the binary number 1011 to its decimal equivalent.<br /><br />[<br />1011₂ = 1 × 2³ + 0 × 2² + 1 × 2¹ + 1 × 2⁰ = 8 + 0 + 2 + 1 = 11₁₀<br />]</div>
+<h4>Conversion from Decimal to Binary</h4>
+<p>To convert a decimal number to its binary equivalent, we repeatedly divide the number by 2 and record the remainders.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the decimal number 11 to its binary equivalent.<br /><br />[</div>
+<p>align*</p>
+<p>11 2 & = 5 remainder 1 ;</p>
+<p>5 2 & = 2 remainder 1 ;</p>
+<p>2 2 & = 1 remainder 0 ;</p>
+<p>1 2 & = 0 remainder 1 ;</p>
+<p>align*</p>
+<p>]</p>
+<blockquote><br />Reading the remainders from bottom to top, we get 1011₂.</blockquote>
+<h4>Binary Arithmetic</h4>
+<p>Binary arithmetic includes addition, subtraction, multiplication, and division. These operations follow similar rules to decimal arithmetic but are simpler due to the limited set of digits (0 and 1).</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Add the binary numbers 1011 and 1101.<br /><br />[</div>
+<p>arrayc@c@c@c@c</p>
+<p>& & 1 & 0 & 1 & 1 \\</p>
+<p>+ & & 1 & 1 & 0 & 1 \\</p>
+<p>& & 1 & 1 & 0 & 0 & 0 \\</p>
+<p>array</p>
+<p>]</p>
+<blockquote><br />Here, the result is 10000₂.</blockquote>
+<h4>Applications of Binary</h4>
+<p>Binary is used extensively in digital electronics and computer systems for data storage, processing, and transmission. Understanding binary is crucial for designing digital circuits and understanding how computers operate.</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Binary System] --&gt; B[Base-2]
+ B --&gt; C[Uses 0 and 1]
+ B --&gt; D[&quot;Smallest Unit: Bit&quot;]
+ C --&gt; E[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 2&quot;]
+ B --&gt; F[&quot;Foundational for&lt;br/&gt;Digital&lt;br/&gt;Electronics&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Binary System] --&gt; B[Base-2]
+ B --&gt; C[Uses 0 and 1]
+ B --&gt; D[&quot;Smallest Unit: Bit&quot;]
+ C --&gt; E[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 2&quot;]
+ B --&gt; F[&quot;Foundational for&lt;br/&gt;Digital&lt;br/&gt;Electronics&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Binary System] --&gt; B[Base-2]
+ B --&gt; C[Uses 0 and 1]
+ B --&gt; D[&quot;Smallest Unit: Bit&quot;]
+ C --&gt; E[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 2&quot;]
+ B --&gt; F[&quot;Foundational for&lt;br/&gt;Digital&lt;br/&gt;Electronics&quot;]</pre></noscript></div>
+<h3 id="sec-octal">Octal</h3>
+<h4>Introduction to Octal System</h4>
+<p>The <strong>octal system</strong> is a base-8 number system that uses digits from 0 to 7. It is used as a shorthand for binary numbers, simplifying the representation of large binary numbers.</p>
+<h4>Octal Representation</h4>
+<p>Each octal digit represents three bits, making it easier to convert between binary and octal. For example, the octal number 127 can be read as 1, 2, 7, where each position represents a power of 8.</p>
+<h4>Conversion from Octal to Decimal</h4>
+<p>To convert an octal number to its decimal equivalent, we can use the positional notation method. Each digit in an octal number represents a power of 8.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the octal number 127 to its decimal equivalent.<br /><br />[<br />127₈ = 1 × 8² + 2 × 8¹ + 7 × 8⁰ = 64 + 16 + 7 = 87₁₀<br />]</div>
+<h4>Conversion from Decimal to Octal</h4>
+<p>To convert a decimal number to its octal equivalent, we repeatedly divide the number by 8 and record the remainders.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the decimal number 87 to its octal equivalent.<br /><br />[</div>
+<p>align*</p>
+<p>87 8 & = 10 remainder 7 ;</p>
+<p>10 8 & = 1 remainder 2 ;</p>
+<p>1 8 & = 0 remainder 1 ;</p>
+<p>align*</p>
+<p>]</p>
+<blockquote><br />Reading the remainders from bottom to top, we get 127₈.</blockquote>
+<h4>Octal Arithmetic</h4>
+<p>Octal arithmetic includes addition, subtraction, multiplication, and division. These operations follow similar rules to decimal and binary arithmetic.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Add the octal numbers 127 and 345.<br /><br />[</div>
+<p>arrayc@c@c@c@c</p>
+<p>& & 1 & 2 & 7 \\</p>
+<p>+ & & 3 & 4 & 5 \\</p>
+<p>& & 5 & 1 & 2 \\</p>
+<p>array</p>
+<p>]</p>
+<blockquote><br />Here, the result is 512₈.</blockquote>
+<h4>Applications of Octal</h4>
+<p>Octal is used in various applications, including file permissions in Unix-like operating systems and as a shorthand for groups of three bits in binary data.</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Octal System] --&gt; B[Base-8]
+ B --&gt; C[Uses Digits 0-7]
+ B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;Three&lt;br/&gt;Bits&quot;]
+ B --&gt; E[&quot;Foundational for Binary&lt;br/&gt;Data&lt;br/&gt;Shorthand&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Octal System] --&gt; B[Base-8]
+ B --&gt; C[Uses Digits 0-7]
+ B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;Three&lt;br/&gt;Bits&quot;]
+ B --&gt; E[&quot;Foundational for Binary&lt;br/&gt;Data&lt;br/&gt;Shorthand&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Octal System] --&gt; B[Base-8]
+ B --&gt; C[Uses Digits 0-7]
+ B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;Three&lt;br/&gt;Bits&quot;]
+ B --&gt; E[&quot;Foundational for Binary&lt;br/&gt;Data&lt;br/&gt;Shorthand&quot;]</pre></noscript></div>
+<h3 id="sec-decimal">Decimal</h3>
+<div class="ad-slot-wrapper no-print ad-inarticle">
+      <span class="ad-label">Advertisement</span>
+      <div class="ad-container ad-container--auto">
+        <ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-4211827566541334" data-ad-slot="4067607591" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+<h4>Introduction to Decimal System</h4>
+<p>The <strong>decimal system</strong> is a base-10 number system that uses digits from 0 to 9. It is the most commonly used number system in everyday life and in most practical applications.</p>
+<h4>Decimal Representation</h4>
+<p>Each decimal digit represents a power of 10. For example, the decimal number 123 can be read as 1, 2, 3, where each position represents a power of 10.</p>
+<h4>Conversion from Decimal to Binary</h4>
+<p>To convert a decimal number to its binary equivalent, we repeatedly divide the number by 2 and record the remainders.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the decimal number 123 to its binary equivalent.<br /><br />[</div>
+<p>align*</p>
+<p>123 2 & = 61 remainder 1 ;</p>
+<p>61 2 & = 30 remainder 1 ;</p>
+<p>30 2 & = 15 remainder 0 ;</p>
+<p>15 2 & = 7 remainder 1 ;</p>
+<p>7 2 & = 3 remainder 1 ;</p>
+<p>3 2 & = 1 remainder 1 ;</p>
+<p>1 2 & = 0 remainder 1 ;</p>
+<p>align*</p>
+<p>]</p>
+<blockquote><br />Reading the remainders from bottom to top, we get 1111011₂.</blockquote>
+<h4>Conversion from Decimal to Octal</h4>
+<p>To convert a decimal number to its octal equivalent, we repeatedly divide the number by 8 and record the remainders.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the decimal number 123 to its octal equivalent.<br /><br />[</div>
+<p>align*</p>
+<p>123 8 & = 15 remainder 3 ;</p>
+<p>15 8 & = 1 remainder 7 ;</p>
+<p>1 8 & = 0 remainder 1 ;</p>
+<p>align*</p>
+<p>]</p>
+<blockquote><br />Reading the remainders from bottom to top, we get 173₈.</blockquote>
+<h4>Applications of Decimal</h4>
+<p>Decimal is the most common number system used in everyday life and in most practical applications, such as financial calculations, measurements, and everyday counting.</p>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Decimal System] --&gt; B[Base-10]
+ B --&gt; C[Uses Digits 0-9]
+ B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 10&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Decimal System] --&gt; B[Base-10]
+ B --&gt; C[Uses Digits 0-9]
+ B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 10&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Decimal System] --&gt; B[Base-10]
+ B --&gt; C[Uses Digits 0-9]
+ B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 10&quot;]</pre></noscript></div>
+<h3 id="sec-summary">Summary</h3>
+<ul>
+<li><strong>Binary</strong> is a base-2 number system used in digital electronics and computer systems.</li>
+<li><strong>Octal</strong> is a base-8 number system used as a shorthand for binary numbers.</li>
+<li><strong>Decimal</strong> is a base-10 number system used in everyday life and practical applications.</li>
+</ul>
+<p>Each system has its unique applications and is essential for understanding digital systems.</p>
+<hr />
+<h3 id="sec-hexadecimal">Hexadecimal</h3>
+<p>Hexadecimal is a base-16 number system that is widely used in digital electronics for representing binary numbers in a more compact and readable form. It simplifies the representation of binary data and is particularly useful in programming and digital circuit design.</p>
+<h4>1.2 Number Conversion: Decimal Number system: Decimal to Binary/Hexadecimal/Octal number conversation</h4>
+<h5>Decimal to Binary</h5>
+<p>To convert a decimal number to binary, we repeatedly divide the number by 2 and record the remainders. The binary number is formed by the remainders read in reverse order.</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>> <strong>Example:</strong> Convert the decimal number 25 to binary.</p>
+<p>></p>
+<p>> 1. 25 ÷ 2 = 12 remainder 1</p>
+<p>> 2. 12 ÷ 2 = 6 remainder 0</p>
+<p>> 3. 6 ÷ 2 = 3 remainder 0</p>
+<p>> 4. 3 ÷ 2 = 1 remainder 1</p>
+<p>> 5. 1 ÷ 2 = 0 remainder 1</p>
+<p>></p>
+<p>> Reading the remainders in reverse order: 11001</p>
+<p>Thus, the binary equivalent of the decimal number 25 is 11001.</p>
+<h5>Decimal to Hexadecimal</h5>
+<p>To convert a decimal number to hexadecimal, we repeatedly divide the number by 16 and record the remainders. The hexadecimal number is formed by the remainders read in reverse order, where 10-15 are represented as A-F.</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>> <strong>Example:</strong> Convert the decimal number 123 to hexadecimal.</p>
+<p>></p>
+<p>> 1. 123 ÷ 16 = 7 remainder 11 (B)</p>
+<p>> 2. 7 ÷ 16 = 0 remainder 7</p>
+<p>></p>
+<p>> Reading the remainders in reverse order: 7B</p>
+<p>Thus, the hexadecimal equivalent of the decimal number 123 is 7B.</p>
+<h5>Decimal to Octal</h5>
+<p>To convert a decimal number to octal, we repeatedly divide the number by 8 and record the remainders. The octal number is formed by the remainders read in reverse order.</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>> <strong>Example:</strong> Convert the decimal number 123 to octal.</p>
+<p>></p>
+<p>> 1. 123 ÷ 8 = 15 remainder 3</p>
+<p>> 2. 15 ÷ 8 = 1 remainder 7</p>
+<p>> 3. 1 ÷ 8 = 0 remainder 1</p>
+<p>></p>
+<p>> Reading the remainders in reverse order: 173</p>
+<p>Thus, the octal equivalent of the decimal number 123 is 173.</p>
+<h4>Mermaid Diagram: Number Conversion Flow</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Decimal to Binary] --&gt; B[&quot;Divide by 2,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]
+ A --&gt; C[Decimal to Hexadecimal] --&gt; D[&quot;Divide by 16,&lt;br/&gt;Record&lt;br/&gt;Remainder, A-F&lt;br/&gt;for 10-15,&lt;br/&gt;Reverse Order&quot;]
+ A --&gt; E[Decimal to Octal] --&gt; F[&quot;Divide by 8,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Decimal to Binary] --&gt; B[&quot;Divide by 2,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]
+ A --&gt; C[Decimal to Hexadecimal] --&gt; D[&quot;Divide by 16,&lt;br/&gt;Record&lt;br/&gt;Remainder, A-F&lt;br/&gt;for 10-15,&lt;br/&gt;Reverse Order&quot;]
+ A --&gt; E[Decimal to Octal] --&gt; F[&quot;Divide by 8,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Decimal to Binary] --&gt; B[&quot;Divide by 2,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]
+ A --&gt; C[Decimal to Hexadecimal] --&gt; D[&quot;Divide by 16,&lt;br/&gt;Record&lt;br/&gt;Remainder, A-F&lt;br/&gt;for 10-15,&lt;br/&gt;Reverse Order&quot;]
+ A --&gt; E[Decimal to Octal] --&gt; F[&quot;Divide by 8,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]</pre></noscript></div>
+<h3 id="sec-binary-number-system-binary-to-decimal-hexadecimal-octal-number-conversation">Binary Number System: Binary to Decimal/Hexadecimal/Octal Number Conversation</h3>
+<h5>Binary to Decimal</h5>
+<p>To convert a binary number to decimal, we multiply each digit by 2 raised to the power of its position index (starting from 0 on the right) and sum the results.</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>> <strong>Example:</strong> Convert the binary number 11001 to decimal.</p>
+<p>></p>
+<blockquote>1. 1 × 2⁴ = 16<br />2. 1 × 2³ = 8<br />3. 0 × 2² = 0<br />4. 0 × 2¹ = 0<br />5. 1 × 2⁰ = 1<br /><br />Sum: 16 + 8 + 0 + 0 + 1 = 25</blockquote>
+<p>Thus, the decimal equivalent of the binary number 11001 is 25.</p>
+<h5>Binary to Hexadecimal</h5>
+<p>To convert a binary number to hexadecimal, we divide the binary number into groups of 4 bits (starting from the right) and convert each group to its hexadecimal equivalent.</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>> <strong>Example:</strong> Convert the binary number 11001101 to hexadecimal.</p>
+<p>></p>
+<p>> 1. Group the binary number: 1100 1101</p>
+<p>> 2. Convert each group: 1100 = C, 1101 = D</p>
+<p>></p>
+<p>> Thus, the hexadecimal equivalent of the binary number 11001101 is CD.</p>
+<h5>Binary to Octal</h5>
+<p>To convert a binary number to octal, we divide the binary number into groups of 3 bits (starting from the right) and convert each group to its octal equivalent.</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>> <strong>Example:</strong> Convert the binary number 11001101 to octal.</p>
+<p>></p>
+<p>> 1. Group the binary number: 110 011 01</p>
+<p>> 2. Convert each group: 110 = 6, 011 = 3, 010 = 2</p>
+<p>></p>
+<p>> Thus, the octal equivalent of the binary number 11001101 is 325.</p>
+<h4>Mermaid Diagram: Binary to Other Number Systems Flow</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[Binary to Decimal] --&gt; B[&quot;Group by 1, Multiply&lt;br/&gt;by&lt;br/&gt;2^Index, Sum Results&quot;]
+ A --&gt; C[Binary to Hexadecimal] --&gt; D[&quot;Group by 4, Convert&lt;br/&gt;to&lt;br/&gt;Hexadecimal&quot;]
+ A --&gt; E[Binary to Octal] --&gt; F[&quot;Group by 3, Convert to Octal&quot;]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[Binary to Decimal] --&gt; B[&quot;Group by 1, Multiply&lt;br/&gt;by&lt;br/&gt;2^Index, Sum Results&quot;]
+ A --&gt; C[Binary to Hexadecimal] --&gt; D[&quot;Group by 4, Convert&lt;br/&gt;to&lt;br/&gt;Hexadecimal&quot;]
+ A --&gt; E[Binary to Octal] --&gt; F[&quot;Group by 3, Convert to Octal&quot;]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[Binary to Decimal] --&gt; B[&quot;Group by 1, Multiply&lt;br/&gt;by&lt;br/&gt;2^Index, Sum Results&quot;]
+ A --&gt; C[Binary to Hexadecimal] --&gt; D[&quot;Group by 4, Convert&lt;br/&gt;to&lt;br/&gt;Hexadecimal&quot;]
+ A --&gt; E[Binary to Octal] --&gt; F[&quot;Group by 3, Convert to Octal&quot;]</pre></noscript></div>
+<h3 id="sec-complements-1-s-complement">Complements: 1’s Complement</h3>
+<p>1’s Complement is a method used to represent negative numbers in binary. To find the 1’s complement of a binary number, we simply invert all the bits (change 0s to 1s and 1s to 0s).</p>
+<ul>
+<li><strong>Example:</strong></li>
+</ul>
+<p>> <strong>Example:</strong> Find the 1’s complement of the binary number 10101101.</p>
+<p>></p>
+<p>> 1. Invert each bit: 01010010</p>
+<p>></p>
+<p>> Thus, the 1’s complement of the binary number 10101101 is 01010010.</p>
+<h4>Mermaid Diagram: 1’s Complement</h4>
+<div class="mermaid-wrap"><div class="mermaid">sequenceDiagram
+ participant User
+ participant BinaryNumber
+ participant Complement
+ User -&gt;&gt; BinaryNumber: 10101101
+ BinaryNumber -&gt;&gt; Complement: Invert each bit
+ Complement -&gt;&gt; User: 01010010</div><details class="mermaid-src"><summary>Diagram source</summary><pre>sequenceDiagram
+ participant User
+ participant BinaryNumber
+ participant Complement
+ User -&gt;&gt; BinaryNumber: 10101101
+ BinaryNumber -&gt;&gt; Complement: Invert each bit
+ Complement -&gt;&gt; User: 01010010</pre></details><noscript><pre class="mermaid-src">sequenceDiagram
+ participant User
+ participant BinaryNumber
+ participant Complement
+ User -&gt;&gt; BinaryNumber: 10101101
+ BinaryNumber -&gt;&gt; Complement: Invert each bit
+ Complement -&gt;&gt; User: 01010010</pre></noscript></div>
+<h4>Summary</h4>
+<ul>
+<li><strong>Decimal to Binary/Hexadecimal/Octal Conversion:</strong></li>
+<li>Decimal to Binary: Repeatedly divide by 2 and record remainders.</li>
+<li>Decimal to Hexadecimal: Repeatedly divide by 16 and record remainders.</li>
+<li>Decimal to Octal: Repeatedly divide by 8 and record remainders.</li>
+<li><strong>Binary to Decimal/Hexadecimal/Octal Conversion:</strong></li>
+<li>Binary to Decimal: Multiply each bit by 2^Index and sum the results.</li>
+<li>Binary to Hexadecimal: Group by 4 and convert each group.</li>
+<li>Binary to Octal: Group by 3 and convert each group.</li>
+<li><strong>1’s Complement:</strong></li>
+<li>Invert all bits of the binary number.</li>
+</ul>
+<p>These conversions are essential for understanding and working with digital systems and are frequently tested in exams.</p>
+<hr />
+<h3 id="sec-2-s-complement-binary-addition">2’s Complement Binary Addition</h3>
+<h4>Introduction to 2’s Complement</h4>
+<p><strong>2’s complement</strong> is a method used in digital electronics and computing to represent both positive and negative numbers in binary form. This method is particularly useful in arithmetic operations such as addition and subtraction. In 2’s complement, the most significant bit (MSB) is used as a sign bit: 0 for positive numbers and 1 for negative numbers.</p>
+<h4>Steps to Find 2’s Complement</h4>
+<ol>
+<li><strong>1’s Complement</strong>: First, find the 1’s complement by inverting all the bits of the binary number.</li>
+<li><strong>2’s Complement</strong>: Next, add 1 to the 1’s complement to get the 2’s complement.</li>
+</ol>
+<h4>Example: Finding 2’s Complement</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Find the 2’s complement of the binary number 0101.<br /><br />1. <strong>1’s Complement</strong>: Invert all the bits: 1010.<br />2. <strong>2’s Complement</strong>: Add 1 to the 1’s complement: 1010 + 1 = 1011.<br /><br />The 2’s complement of 0101 is 1011.</div>
+<h4>Addition of 2’s Complement Numbers</h4>
+<p>When adding two 2’s complement numbers, if there is a carry out of the MSB, it is discarded. The result is the 2’s complement of the difference of the two numbers.</p>
+<h4>Example: 2’s Complement Binary Addition</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Perform the 2’s complement addition of 0101 (5) and 1011 (-5).<br /><br />Step 1: Convert the numbers to their 2’s complement form if they are negative.<br />- 0101 (5) is already positive.<br />- 1011 (-5) is in 2’s complement form.<br /><br />Step 2: Add the numbers.<br />- 0101<br />+ 1011<br />- - - -<br />- 11000<br /><br />Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference.<br />- 11000 - 1 = 10111 (11 in decimal, but this is not the final result as the MSB is 1, indicating an overflow).<br /><br />The result is 10111, which is the 2’s complement of 00000 (0 in decimal).</div>
+<h4>Worked Example: 2’s Complement Addition</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Add the 2’s complement numbers 0110 (6) and 1001 (-7).<br /><br />Step 1: Convert the numbers to their 2’s complement form if they are negative.<br />- 0110 (6) is already positive.<br />- 1001 (-7) is in 2’s complement form.<br /><br />Step 2: Add the numbers.<br />- 0110<br />+ 1001<br />- - - -<br />- 10111<br /><br />Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference.<br />- 10111 - 1 = 10110 (22 in decimal, but this is not the final result as the MSB is 1, indicating an overflow).<br /><br />The result is 10110, which is the 2’s complement of 00010 (2 in decimal).</div>
+<h3 id="sec-subtraction">Subtraction</h3>
+<h4>Introduction to Subtraction</h4>
+<p>Subtraction in digital systems can be performed using 2’s complement addition. The concept is based on the fact that subtracting a number is equivalent to adding its 2’s complement.</p>
+<h4>Steps to Perform Subtraction Using 2’s Complement</h4>
+<ol>
+<li><strong>Find the 2’s Complement</strong>: Find the 2’s complement of the number to be subtracted.</li>
+<li><strong>Add the Numbers</strong>: Add the result to the minuend.</li>
+<li><strong>Handle Overflow</strong>: If there is a carry out of the MSB, discard it. The result is the 2’s complement of the difference.</li>
+</ol>
+<h4>Example: Subtraction Using 2’s Complement</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Subtract 0110 (6) from 1001 (-7).<br /><br />Step 1: Find the 2’s complement of the number to be subtracted.<br />- 0110 (6) is positive, so find the 2’s complement of 0110.<br />- 1’s complement: 1001.<br />- 2’s complement: 1001 + 1 = 1010.<br /><br />Step 2: Add the result to the minuend.<br />- 1001<br />+ 1010<br />- - - -<br />- 00111<br /><br />Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference.<br />- 00111 - 1 = 00110 (22 in decimal, but this is not the final result as the MSB is 0, indicating no overflow).<br /><br />The result is 00110, which is 2 in decimal.</div>
+<h4>Worked Example: Subtraction Using 2’s Complement</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Subtract 1010 (10) from 0111 (-9).<br /><br />Step 1: Find the 2’s complement of the number to be subtracted.<br />- 1010 (10) is positive, so find the 2’s complement of 1010.<br />- 1’s complement: 0101.<br />- 2’s complement: 0101 + 1 = 0110.<br /><br />Step 2: Add the result to the minuend.<br />- 0111<br />+ 0110<br />- - - -<br />- 10101<br /><br />Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference.<br />- 10101 - 1 = 10100 (20 in decimal, but this is not the final result as the MSB is 1, indicating an overflow).<br /><br />The result is 10100, which is the 2’s complement of 01100 (12 in decimal).</div>
+<h3 id="sec-multiplication-binary-codes-gray-code">Multiplication Binary Codes: Gray Code</h3>
+<h4>Introduction to Gray Code</h4>
+<p><strong>Gray Code</strong> is a non-weighted binary code where only one bit changes between consecutive numbers. This feature makes it useful in applications where errors can occur during transitions, such as in encoders and digital displays.</p>
+<h4>Gray Code Representation</h4>
+<p>The Gray code for a binary number can be generated by reflecting the binary number and adding 1 to the result. For example, the Gray code for 0001 is 0001, and the Gray code for 0010 is 0011.</p>
+<h4>Example: Generating Gray Code</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Generate the Gray code for the binary number 0011.<br /><br />Step 1: Reflect the binary number.<br />- 0011 reflected is 1100.<br /><br />Step 2: Add 1 to the reflected number.<br />- 1100 + 1 = 1101.<br /><br />The Gray code for 0011 is 1101.</div>
+<h4>Worked Example: Gray Code</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Generate the Gray code for the binary number 0110.<br /><br />Step 1: Reflect the binary number.<br />- 0110 reflected is 0110.<br /><br />Step 2: Add 1 to the reflected number.<br />- 0110 + 1 = 0111.<br /><br />The Gray code for 0110 is 0111.</div>
+<h4>Mermaid Diagram: Gray Code Transition</h4>
+<div class="mermaid-wrap"><div class="mermaid">flowchart TD
+ A[0000] --&gt; B[0001]
+ B --&gt; C[0011]
+ C --&gt; D[0010]
+ D --&gt; E[0110]
+ E --&gt; F[0111]
+ F --&gt; G[0101]
+ G --&gt; H[0100]
+ H --&gt; I[1100]
+ I --&gt; J[1101]
+ J --&gt; K[1111]
+ K --&gt; L[1110]
+ L --&gt; M[1010]
+ M --&gt; N[1011]</div><details class="mermaid-src"><summary>Diagram source</summary><pre>flowchart TD
+ A[0000] --&gt; B[0001]
+ B --&gt; C[0011]
+ C --&gt; D[0010]
+ D --&gt; E[0110]
+ E --&gt; F[0111]
+ F --&gt; G[0101]
+ G --&gt; H[0100]
+ H --&gt; I[1100]
+ I --&gt; J[1101]
+ J --&gt; K[1111]
+ K --&gt; L[1110]
+ L --&gt; M[1010]
+ M --&gt; N[1011]</pre></details><noscript><pre class="mermaid-src">flowchart TD
+ A[0000] --&gt; B[0001]
+ B --&gt; C[0011]
+ C --&gt; D[0010]
+ D --&gt; E[0110]
+ E --&gt; F[0111]
+ F --&gt; G[0101]
+ G --&gt; H[0100]
+ H --&gt; I[1100]
+ I --&gt; J[1101]
+ J --&gt; K[1111]
+ K --&gt; L[1110]
+ L --&gt; M[1010]
+ M --&gt; N[1011]</pre></noscript></div>
+<p>This diagram shows the transition of binary numbers to their corresponding Gray codes. Each step shows the transformation from binary to Gray code by reflection and addition of 1.</p>
+<hr />
+<h3 id="sec-bcd-code">BCD Code</h3>
+<h4>Introduction to BCD Code</h4>
+<p>BCD (Binary-Coded Decimal) is a form of binary encoding where each decimal digit is represented by a four-bit binary number. BCD is widely used in digital systems, particularly in applications where direct decimal input and output are required, such as in calculators, digital clocks, and some types of computer systems.</p>
+<p><strong>BCD Representation:</strong></p>
+<ul>
+<li>Each decimal digit (0-9) is represented by a 4-bit binary number.</li>
+<li>For example, the decimal digit 5 is represented as 0101 in BCD.</li>
+</ul>
+<h4>Types of BCD Codes</h4>
+<ol>
+<li><strong>8421 BCD:</strong></li>
+</ol>
+<ul>
+<li>The most commonly used BCD code.</li>
+<li>Each decimal digit is represented by a 4-bit binary number where the weights of the bits are 8, 4, 2, and 1.</li>
+<li>For example, the decimal number 5 is represented as 0101 in 8421 BCD.</li>
+</ul>
+<ol>
+<li><strong>4210 BCD:</strong></li>
+</ol>
+<ul>
+<li>Each decimal digit is represented by a 4-bit binary number where the weights of the bits are 4, 2, 1, and 0.</li>
+<li>For example, the decimal number 5 is represented as 0100 in 4210 BCD.</li>
+</ul>
+<ol>
+<li><strong>5421 BCD:</strong></li>
+</ol>
+<ul>
+<li>Each decimal digit is represented by a 4-bit binary number where the weights of the bits are 5, 4, 2, and 1.</li>
+<li>For example, the decimal number 5 is represented as 0101 in 5421 BCD.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the decimal number 125 to 8421 BCD.<br /><br />- The decimal number 125 can be broken down as 125 = 120 + 5.<br />- 120 is 114 in decimal, which is 10010100 in 8421 BCD.<br />- 5 is 0101 in 8421 BCD.<br />- Therefore, the 8421 BCD representation of 125 is 100101000101.</div>
+<h4>Applications of BCD Code</h4>
+<ul>
+<li><strong>Calculator Displays:</strong> BCD is used to display decimal numbers directly without the need for complex conversion algorithms.</li>
+<li><strong>Digital Clocks:</strong> BCD is used to display time in hours, minutes, and seconds.</li>
+<li><strong>Computer Systems:</strong> BCD is used in systems where direct decimal input and output are required.</li>
+</ul>
+<h3 id="sec-code-conversation">Code Conversation</h3>
+<h4>Introduction to Code Conversation</h4>
+<p>Code conversation refers to the process of converting a number from one number system to another. This process is essential in digital systems where data needs to be transmitted, stored, or processed in different formats.</p>
+<h4>Steps for Code Conversation</h4>
+<ol>
+<li><strong>Identify the Source and Destination Number Systems:</strong></li>
+</ol>
+<ul>
+<li>Determine the number system of the source (input) and the number system of the destination (output).</li>
+</ul>
+<ol>
+<li><strong>Convert to a Common Intermediate Base:</strong></li>
+</ol>
+<ul>
+<li>Convert the source number to a common intermediate base, such as binary, before converting it to the destination number system.</li>
+</ul>
+<ol>
+<li><strong>Perform the Conversion:</strong></li>
+</ol>
+<ul>
+<li>Convert the intermediate base number to the destination number system.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the hexadecimal number 3F to binary, then convert the binary number to decimal.<br /><br />- <strong>Step 1: Convert Hexadecimal to Binary</strong><br />- Hexadecimal 3F can be broken down as 3 and F.<br />- 3 in binary is 0011.<br />- F (15 in decimal) in binary is 1111.<br />- Therefore, the binary representation of 3F is 00111111.<br /><br />- <strong>Step 2: Convert Binary to Decimal</strong><br />- The binary number 00111111 can be converted to decimal by summing the values of the bits that are set to 1.<br />- 00111111 = 2⁶ + 2⁵ + 2⁴ + 2³ + 2² + 2¹ + 2⁰ = 64 + 32 + 16 + 8 + 4 + 2 + 1 = 127.<br />- Therefore, the decimal representation of 3F is 127.</div>
+<h4>Applications of Code Conversation</h4>
+<ul>
+<li><strong>Data Transmission:</strong> Code conversation is used in digital communication systems to ensure data is transmitted in the correct format.</li>
+<li><strong>Data Storage:</strong> Code conversation is used in memory systems to store data in various formats.</li>
+<li><strong>Data Processing:</strong> Code conversation is used in digital systems to process data in different formats.</li>
+</ul>
+<h3 id="sec-hexadecimal-number-system-hexadecimal-to-decimal-binary-octal-number-conversation">Hexadecimal Number System: Hexadecimal to Decimal/Binary/Octal Number Conversation</h3>
+<h4>Introduction to Hexadecimal Number System</h4>
+<p>The hexadecimal number system is a base-16 number system. It uses 16 distinct symbols, 0-9 and A-F, where A-F represent the decimal values 10-15.</p>
+<h4>Conversion from Hexadecimal to Decimal</h4>
+<ol>
+<li><strong>Identify the Position of Each Digit:</strong></li>
+</ol>
+<ul>
+<li>Each position in a hexadecimal number has a power of 16.</li>
+<li>The rightmost digit has a position of 16⁰, the next digit to the left has a position of 16¹, and so on.</li>
+</ul>
+<ol>
+<li><strong>Multiply Each Digit by Its Position Value:</strong></li>
+</ol>
+<ul>
+<li>Multiply each digit by its position value and sum the results.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the hexadecimal number A2 to decimal.<br /><br />- The position values are: 2 (16⁰) and A (16¹).<br />- A in decimal is 10.<br />- A2 = 10 <em> 16¹ + 2 </em> 16⁰ = 160 + 2 = 162.<br />- Therefore, the decimal representation of A2 is 162.</div>
+<h4>Conversion from Hexadecimal to Binary</h4>
+<ol>
+<li><strong>Convert Each Hexadecimal Digit to 4-bit Binary:</strong></li>
+</ol>
+<ul>
+<li>Each hexadecimal digit can be directly converted to a 4-bit binary number.</li>
+<li>For example, A in binary is 1010.</li>
+</ul>
+<ol>
+<li><strong>Concatenate the Binary Representations:</strong></li>
+</ol>
+<ul>
+<li>Concatenate the binary representations of each hexadecimal digit.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the hexadecimal number A2 to binary.<br /><br />- A in binary is 1010.<br />- 2 in binary is 0010.<br />- Therefore, the binary representation of A2 is 10100010.</div>
+<h4>Conversion from Hexadecimal to Octal</h4>
+<ol>
+<li><strong>Convert Each Hexadecimal Digit to 3-bit Binary:</strong></li>
+</ol>
+<ul>
+<li>Each hexadecimal digit can be converted to a 3-bit binary number.</li>
+<li>For example, A in binary is 1010, which can be grouped as 1010 (101 010).</li>
+</ul>
+<ol>
+<li><strong>Group the Binary Digits into Sets of 3:</strong></li>
+</ol>
+<ul>
+<li>Group the binary digits into sets of 3, starting from the right.</li>
+<li>If necessary, add leading zeros to make complete groups of 3.</li>
+</ul>
+<ol>
+<li><strong>Convert Each Group to Octal:</strong></li>
+</ol>
+<ul>
+<li>Convert each group of 3 binary digits to its octal equivalent.</li>
+</ul>
+<h4>Example</h4>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div>Convert the hexadecimal number A2 to octal.<br /><br />- A2 in binary is 10100010.<br />- Group the binary digits into sets of 3: 010 100 010.<br />- Convert each group to octal: 010 = 2, 100 = 4, 010 = 2.<br />- Therefore, the octal representation of A2 is 242.</div>
+<h4>Applications of Hexadecimal Number System</h4>
+<ul>
+<li><strong>Memory Addressing:</strong> Hexadecimal is used to represent memory addresses in computer systems.</li>
+<li><strong>Color Codes:</strong> Hexadecimal is used to represent colors in web design and computer graphics.</li>
+<li><strong>Data Representation:</strong> Hexadecimal is used in data transmission and storage for compact representation.</li>
+</ul>
+<h4>Summary</h4>
+<ul>
+<li><strong>BCD Code:</strong> BCD is a binary encoding of decimal digits. Each decimal digit is represented by a 4-bit binary number.</li>
+<li><strong>Code Conversation:</strong> Code conversation involves converting a number from one number system to another.</li>
+<li><strong>Hexadecimal Number System:</strong> Hexadecimal is a base-16 number system used in various applications such as memory addressing and color codes.</li>
+</ul>
+<p>By understanding these concepts, students will be well-prepared to handle number system conversions and related applications in digital electronics.</p>
+<hr />
+<h3 id="sec-octal-number-system-octal-to-decimal-binary-hexadecimal-number-conversion">Octal Number System: Octal to Decimal/Binary/Hexadecimal Number Conversion</h3>
+<h4>Introduction to Octal Number System</h4>
+<p>The octal number system is a base-8 numeral system that uses the digits 0 to 7. It is often used in digital systems as a shorthand for binary numbers, since each octal digit corresponds to exactly three binary digits (bits).</p>
+<h4>Conversion from Octal to Decimal</h4>
+<p>To convert an octal number to its decimal equivalent, each digit in the octal number is multiplied by 8 raised to the power of its position, starting from 0 on the right.</p>
+<h5>Example</h5>
+<p>Convert the octal number 752 to its decimal equivalent.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />Given octal number: 752<br /><br />Step 1: Write down the positional values:<br /><br />[<br />752₈ = 7 · 8² + 5 · 8¹ + 2 · 8⁰<br />]<br /><br />Step 2: Calculate each term:<br /><br />[<br />7 · 8² = 7 · 64 = 448<br />]<br /><br />[<br />5 · 8¹ = 5 · 8 = 40<br />]<br /><br />[<br />2 · 8⁰ = 2 · 1 = 2<br />]<br /><br />Step 3: Sum the results:<br /><br />[<br />448 + 40 + 2 = 490<br />]<br /><br />Therefore, 752₈ = 490₁₀.</div>
+<h4>Conversion from Octal to Binary</h4>
+<p>To convert an octal number to binary, each octal digit is replaced by its 3-bit binary equivalent.</p>
+<h5>Example</h5>
+<p>Convert the octal number 752 to its binary equivalent.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />Given octal number: 752<br /><br />Step 1: Convert each octal digit to 3-bit binary:<br /><br />[<br />7₈ = 111₂<br />]<br /><br />[<br />5₈ = 101₂<br />]<br /><br />[<br />2₈ = 010₂<br />]<br /><br />Step 2: Combine the binary digits:<br /><br />[<br />752₈ = 111101010₂<br />]<br /><br />Therefore, 752₈ = 111101010₂.</div>
+<h4>Conversion from Octal to Hexadecimal</h4>
+<p>To convert an octal number to hexadecimal, first convert the octal number to binary, and then group the binary digits into sets of four, starting from the right. If necessary, pad with zeros to make complete groups. Each group of four binary digits is then converted to its hexadecimal equivalent.</p>
+<h5>Example</h5>
+<p>Convert the octal number 752 to its hexadecimal equivalent.</p>
+<div class="kb-example"><div class="kb-example-badge"><i class="fas fa-pen"></i> Example</div><br /><br />Given octal number: 752<br /><br />Step 1: Convert to binary:<br /><br />[<br />752₈ = 111101010₂<br />]<br /><br />Step 2: Group binary digits into sets of four:<br /><br />[<br />1111 \ 0101 \ 0000₂<br />]<br /><br />Step 3: Convert each group to hexadecimal:<br /><br />[<br />1111₂ = F₁₆<br />]<br /><br />[<br />0101₂ = 5₁₆<br />]<br /><br />[<br />0000₂ = 0₁₆<br />]<br /><br />Step 4: Combine the hexadecimal digits:<br /><br />[<br />752₈ = F50₁₆<br />]<br /><br />Therefore, 752₈ = F50₁₆.</div>
+<h4>Summary</h4>
+<ul>
+<li>Octal to Decimal: Multiply each digit by 8posⁱtⁱoⁿ and sum.</li>
+<li>Octal to Binary: Replace each octal digit with its 3-bit binary equivalent.</li>
+<li>Octal to Hexadecimal: Convert to binary first, then group into 4-bit segments and convert.</li>
+</ul>
+<p>These conversions are essential for understanding and working with digital systems, particularly in their binary and hexadecimal representations.</p>
+
+        <nav class="kb-pn no-print"><span class="pn-btn disabled">Unit 1</span><span class="pn-btn disabled">Unit – Number System and Binary Codes 1.1 Introduction to Number Systems</span></nav>
+
+        <div class="kb-notice">
+          <i class="fas fa-info-circle"></i>
+          <div><strong>Note:</strong> This chapter is AI-generated as a self-study aid mapped to the GTU syllabus (DI03024031) for Digital Electronics. It is not an official GTU publication. Verify details against your official syllabus PDF and textbooks before examinations.</div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer id="footer" class="no-print"></footer>
+
+  <div class="print-watermark" aria-hidden="true">
+    <span>KHUDKIBOOK</span><span>KHUDKIBOOK</span><span>KHUDKIBOOK</span><span>KHUDKIBOOK</span>
+  </div>
+  <div class="kb-toast no-print" id="kb-toast">Protected by KhudKibook – please purchase the original.</div>
+
+  <script type="text/javascript" src="/ru444ts.js?v=2.5" defer></script>
+  <script type="text/javascript" src="/select.js?v=2.1" defer></script>
+  <script type="text/javascript" src="/ad-injector.js?v=2.1" defer></script>
+  <script>
+  (function () {
+    var art = document.querySelector('.kb-article');
+    var bar = document.getElementById('kb-progress');
+    function onScroll() {
+      var st = window.scrollY || document.documentElement.scrollTop;
+      var h = (document.documentElement.scrollHeight || document.body.scrollHeight) - window.innerHeight;
+      if (bar && h > 0) bar.style.width = Math.min(100, st / h * 100) + '%';
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    var links = [].slice.call(document.querySelectorAll('.toc-sections a,.toc-sec'));
+    if ('IntersectionObserver' in window && links.length) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            var t = '#sec-' + (e.target.id || '');
+            links.forEach(function (a) { a.classList.toggle('toc-active', a.getAttribute('href') === t); });
+          }
+        });
+      }, { rootMargin: '-15% 0px -75% 0px' });
+      [].slice.call(document.querySelectorAll('.kb-article h2[id],.kb-article h3[id]')).forEach(function (s) { io.observe(s); });
+    }
+
+    var lazy = [].slice.call(document.querySelectorAll('.ad-lazy'));
+    if ('IntersectionObserver' in window && lazy.length && !(window.KB_AdInjector && window.KB_AdInjector.config)) {
+      // ad-injector.js owns all ad placement/hydration on modern pages; only
+      // fall back to manual pushes when the injector is absent.
+      var io2 = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          var el = e.target;
+          io2.unobserve(el);
+          var s = document.createElement('script');
+          s.async = true;
+          s.text = '(adsbygoogle = window.adsbygoogle || []).push({});';
+          el.appendChild(s);
+        });
+      }, { rootMargin: '260px' });
+      lazy.forEach(function (el) { io2.observe(el); });
+    }
+
+    var toastEl = document.getElementById('kb-toast');
+    function toast() {
+      if (!toastEl) return;
+      toastEl.classList.add('show');
+      clearTimeout(toastEl._h);
+      toastEl._h = setTimeout(function () { toastEl.classList.remove('show'); }, 1600);
+    }
+    function inArt(el) { return art && el && (el === art || art.contains(el)); }
+    document.addEventListener('contextmenu', function (e) { if (inArt(e.target)) { e.preventDefault(); toast(); } });
+    document.addEventListener('copy', function (e) { if (inArt(e.target)) { e.preventDefault(); toast(); } });
+    document.addEventListener('cut', function (e) { if (inArt(e.target)) { e.preventDefault(); toast(); } });
+    document.addEventListener('selectstart', function (e) { if (inArt(e.target)) { /* CSS handles; no-op */ } });
+    document.addEventListener('keydown', function (e) {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'c' && inArt(document.activeElement)) { e.preventDefault(); toast(); }
+    });
+  })();
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+  <script>
+  (function () {
+    function init() {
+      if (!window.mermaid) return;
+      mermaid.initialize({ startOnLoad: false, theme: 'neutral', securityLevel: 'strict', flowchart: { htmlLabels: true, useMaxWidth: true, curve: 'basis', nodeSpacing: 28, rankSpacing: 32, padding: 18 } });
+      var nodes = [].slice.call(document.querySelectorAll('.mermaid'));
+      nodes.forEach(function (el) {
+        if (el.dataset.kbMermaidRun) return;
+        el.dataset.kbMermaidRun = '1';
+        function fitDiagram() {
+          var svg = el.querySelector('svg');
+          if (!svg) return;
+          var vb = svg.viewBox && svg.viewBox.baseVal;
+          if (vb && vb.width && vb.height) {
+            svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+            svg.setAttribute('width', '100%');
+            svg.removeAttribute('height');
+            svg.style.width = '100%';
+            svg.style.height = 'auto';
+            svg.style.maxWidth = '100%';
+            svg.style.overflow = 'visible';
+          }
+        }
+        mermaid.run({ nodes: [el] }).then(fitDiagram).catch(function () {
+          el.classList.add('mermaid-failed');
+          el.innerHTML = '<div style="padding:8px;color:#9ca3af;font-style:italic;font-size:.85rem">Diagram could not render — see source below.</div>';
+        });
+      });
+    }
+    if (document.readyState === 'complete') init();
+    else window.addEventListener('load', init);
+    setTimeout(init, 1400);
+  })();
+  </script>
+</body>
+</html>

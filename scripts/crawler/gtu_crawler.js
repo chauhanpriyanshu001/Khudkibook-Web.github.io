@@ -41,6 +41,54 @@ function esc(s) {
 // ========================================================
 // HTTP helpers (native fetch)
 // ========================================================
+
+/**
+ * Resolve a paper link the way the browser would, against the page we actually
+ * landed on.
+ *
+ * GTU serves the paper archive from a host that is not the one you typed:
+ * https://gtu.ac.in/Download1.aspx 302-redirects to https://old26.gtu.ac.in/
+ * Download1.aspx, and the result rows link to their PDFs RELATIVELY
+ * (`uploads/S2024/BE/3160617.pdf`). Resolving those against a hardcoded base
+ * produces links on the wrong host, which then 404 -- the archive silently
+ * rots every time GTU moves its servers.
+ *
+ * So: resolve against the final URL after redirects, and only fall back to the
+ * requested base when the server hands back something unresolvable.
+ */
+function resolvePaperHref(href, pageUrl, fallbackBase) {
+    const raw = String(href || '').trim();
+    if (!raw) return '';
+    if (/^https?:\/\//i.test(raw)) return raw;
+    const base = pageUrl || fallbackBase;
+    try {
+        return new URL(raw.replace(/^\/+/, ''), base).href;
+    } catch (e) {
+        if (raw.startsWith('//')) return `https:${raw}`;
+        return `${String(fallbackBase || '').replace(/\/+$/, '')}/${raw.replace(/^\/+/, '')}`;
+    }
+}
+
+/**
+ * Collect the cookies a response set, as a `Cookie:` request header.
+ *
+ * GTU sits behind an AWS load balancer, and the ASP.NET form on the download
+ * page carries a __VIEWSTATE and an antiforgery token that are bound to the
+ * backend that issued them. If the POST that uses them lands on a different
+ * backend, the server answers 500 -- intermittently, which is far worse than a
+ * clean failure because a crawl silently comes back half empty. Sending the
+ * balancer's cookie back on the POST pins both requests to the same backend.
+ */
+function collectCookies(res) {
+    const raw = typeof res.headers.getSetCookie === 'function'
+        ? res.headers.getSetCookie()
+        : (res.headers.get('set-cookie') ? [res.headers.get('set-cookie')] : []);
+    return raw
+        .map(c => String(c).split(';')[0].trim())
+        .filter(Boolean)
+        .join('; ');
+}
+
 async function fetchHTML(url, opts = {}) {
     const { retries = 2, timeoutMs = 25000 } = opts;
     let lastErr;
@@ -56,13 +104,22 @@ async function fetchHTML(url, opts = {}) {
                 }
             });
             clearTimeout(timer);
+            // `res.url` is the URL the redirect chain ended on, which is the one
+            // relative links on the page are relative to.
+            const finalUrl = res.url || url;
             if (!res.ok) {
-                if (res.status === 404) return { status: res.status, body: '' };
+                if (res.status === 404) return { status: res.status, body: '', url: finalUrl, cookies: '' };
                 lastErr = new Error(`HTTP ${res.status} for ${url}`);
                 continue;
             }
             const body = await res.text();
-            return { status: res.status, body, type: res.headers.get('content-type') || '' };
+            return {
+                status: res.status,
+                body,
+                url: finalUrl,
+                cookies: collectCookies(res),
+                type: res.headers.get('content-type') || ''
+            };
         } catch (e) {
             clearTimeout(timer);
             lastErr = e;
@@ -80,7 +137,6 @@ async function postForm(url, fields = {}, buttonField, opts = {}) {
         try {
             const getRes = await fetchHTML(url, { retries: 1, timeoutMs });
             if (getRes.status !== 200 || !getRes.body) throw new Error(`GET ${url} -> ${getRes.status}`);
-
             const $ = cheerio.load(getRes.body);
             const body = new URLSearchParams();
 
@@ -103,26 +159,37 @@ async function postForm(url, fields = {}, buttonField, opts = {}) {
             }
             if (buttonField) body.set(buttonField, 'Search');
 
-            const res = await fetch(url, {
+            // POST to the host the GET actually landed on. Asking for
+            // gtu.ac.in and posting there works only while gtu.ac.in serves the
+            // form directly: once it redirects, the 302 turns the POST into a
+            // bodyless GET and the search silently returns nothing. The
+            // __VIEWSTATE we just read belongs to the redirected host anyway.
+            const postUrl = getRes.url || url;
+            const headers = {
+                'User-Agent': UA,
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'Origin': new URL(postUrl).origin,
+                'Referer': postUrl,
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+            };
+            // Keep the GET and the POST on the same backend (see collectCookies).
+            if (getRes.cookies) headers.Cookie = getRes.cookies;
+            const res = await fetch(postUrl, {
                 method: 'POST',
                 signal: controller.signal,
                 redirect: 'follow',
-                headers: {
-                    'User-Agent': UA,
-                    'Content-Type': 'application/x-www-form-urlencoded',
-                    'Origin': new URL(url).origin,
-                    'Referer': url,
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
-                },
+                headers,
                 body: body.toString()
             });
             clearTimeout(timer);
             if (!res.ok) {
-                lastErr = new Error(`POST ${url} -> ${res.status}`);
+                lastErr = new Error(`POST ${postUrl} -> ${res.status}`);
                 continue;
             }
             const html = await res.text();
-            return html;
+            // Attach the URL the redirect chain ended on, so callers can
+            // resolve the page's relative links against the right host.
+            return { html, url: res.url || url };
         } catch (e) {
             clearTimeout(timer);
             lastErr = e;
@@ -287,7 +354,7 @@ function scoreTable($, table) {
 
 async function crawlSyllabusByCode(code, options = {}) {
     const log = options.log || (msg => console.log(msg));
-    const html = await postForm(SYLLABUS_PAGE, {
+    const { html } = await postForm(SYLLABUS_PAGE, {
         'ctl00$ContentPlaceHolder1$txtsubcode': String(code)
     }, 'ctl00$ContentPlaceHolder1$btn_search', options);
 
@@ -382,7 +449,7 @@ async function crawlSyllabus(codes = [], options = {}) {
 // ========================================================
 async function searchQuestionPapersForCode(code, session, extype, options = {}) {
     const log = options.log || (msg => console.log(msg));
-    const html = await postForm(PAPERS_PAGE, {
+    const { html, url: pageUrl } = await postForm(PAPERS_PAGE, {
         'ctl00$ContentPlaceHolder1$ddlsession': session,
         'ctl00$ContentPlaceHolder1$drpextype': extype,
         'ctl00$ContentPlaceHolder1$txtsearch': String(code)
@@ -396,7 +463,7 @@ async function searchQuestionPapersForCode(code, session, extype, options = {}) 
     $('a[href*="uploads"]').each((i, el) => {
         let href = $(el).attr('href') || '';
         if (!/^https?:\/\//i.test(href)) {
-            href = href.startsWith('//') ? `https:${href}` : `${GTU_BASE}/${href.replace(/^\/+/, '')}`;
+            href = resolvePaperHref(href, pageUrl, GTU_BASE);
         }
         const m = href.match(paperUrlRe);
         if (!m) return;
@@ -930,5 +997,6 @@ module.exports = {
     collectSubjectCodes,
     fetchHTML,
     postForm,
-    checkLink
+    checkLink,
+    resolvePaperHref
 };

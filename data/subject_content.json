@@ -1,0 +1,363 @@
+{
+  "_readme": "Original, reviewed editorial copy keyed by GTU course code. scripts/enrich_subjects.js injects this as a .kb-subject-editorial block. Only subjects listed here (or with a real textbook) stay indexable and ad-bearing. Add entries deliberately; do not generate them in bulk.",
+  "3110014": {
+    "overview": "Mathematics-1 is the foundation course for the whole engineering degree. It covers differential calculus, sequences and series, multivariable calculus, and matrices, and later subjects such as electrical circuits, mechanics and signal processing assume you are fluent with these tools. The GTU syllabus moves quickly, so the aim is not to memorise formulae but to recognise which technique a problem needs.",
+    "examPattern": "The end-semester theory paper is normally 70 marks over three hours, with internal assessment (mid-semester exam plus tutorials/assignments) making up the rest. Expect a mix of short definitions, 3-4 mark derivations and 7-mark worked problems, spread across the units roughly in proportion to teaching hours. Confirm the exact split in your branch scheme.",
+    "studyPlan": [
+      "Work every solved example in the unit before attempting exercises; the examples show the expected method and notation.",
+      "Keep one formula notebook with the conditions under which each result is valid, not just the formula.",
+      "Solve the last four or five GTU papers for the code under a timer in the final two weeks.",
+      "Write full solutions by hand, because the exam rewards correct steps, not just the final answer."
+    ],
+    "pitfalls": [
+      "Memorising a formula without its conditions (for example, when a series test applies).",
+      "Skipping matrices because it looks easy; it carries reliable marks.",
+      "Reading solutions instead of writing them, which hides algebra and sign errors."
+    ]
+  },
+  "3110015": {
+    "overview": "Mathematics-2 builds directly on Mathematics-1: integral calculus, ordinary differential equations, Laplace transforms, Fourier series and complex numbers. These are the tools used in electrical networks, control systems and mechanical vibrations, so the emphasis is on setting up and solving engineering problems rather than pure proof.",
+    "examPattern": "Usually a 70-mark, three-hour end-semester paper plus internal assessment. Questions tend to pair a short conceptual part with a longer computation; transforms and differential equations usually carry the largest weight.",
+    "studyPlan": [
+      "Practise the standard forms of integrals and transforms until you can recognise them instantly.",
+      "For differential equations, classify the equation first, then choose the method.",
+      "Maintain a table of Laplace and Fourier standard pairs and derive the common ones once.",
+      "Attempt full past papers in the last two weeks and mark yourself against the syllabus."
+    ],
+    "pitfalls": [
+      "Applying a transform without checking the initial conditions.",
+      "Losing marks on limits of integration and constants of integration.",
+      "Ignoring the complex-number unit because it looks unfamiliar."
+    ]
+  },
+  "3110005": {
+    "overview": "Basic Electrical Engineering introduces DC and AC circuit analysis, network theorems, single-phase and three-phase systems, transformers and rotating machines. It is the subject that makes later electrical and electronics courses readable, and most of its marks come from applying standard methods to numerical circuits.",
+    "examPattern": "The theory paper is typically 70 marks with a three-hour duration, plus internal assessment and a practical component. Numerical problems on KVL/KCL, network theorems, AC power and transformers are regulars; theory questions ask you to explain characteristics and applications.",
+    "studyPlan": [
+      "Drill KVL, KCL, mesh and nodal analysis on small circuits until the setup is automatic.",
+      "Draw phasor diagrams for every AC topic; they make power and impedance questions much faster.",
+      "Learn the difference between real, reactive and apparent power with one worked example each.",
+      "Use past papers to practise time-boxed numericals, then check units and signs."
+    ],
+    "pitfalls": [
+      "Mixing RMS and peak values in AC calculations.",
+      "Forgetting power factor when computing power.",
+      "Writing formulas without showing the circuit or the assumed directions."
+    ]
+  },
+  "3110016": {
+    "overview": "Basic Electronics covers semiconductor devices and the circuits built from them: diodes and rectifiers, bipolar transistors, field-effect devices, amplifiers and op-amps, with an introduction to digital logic. The goal is to read a device characteristic and predict how the circuit behaves.",
+    "examPattern": "Generally a 70-mark theory paper plus internal assessment and practical work. Expect characteristic-curve questions, biasing calculations, amplifier configurations and op-amp applications, with short numericals mixed into theory.",
+    "studyPlan": [
+      "Sketch the input and output characteristics of each device from memory.",
+      "Practise DC bias calculations for BJT and FET circuits.",
+      "Learn one op-amp application circuit each for inverting, non-inverting, summing and comparator use.",
+      "Revise practicals alongside theory; viva questions often come straight from them."
+    ],
+    "pitfalls": [
+      "Confusing cutoff, active and saturation regions.",
+      "Ignoring the ideal-vs-real assumptions in op-amp problems.",
+      "Memorising circuit diagrams without being able to explain the current path."
+    ]
+  },
+  "BE01000111": {
+    "overview": "Basic Electronics Engineering is the degree-level introduction to semiconductor devices and electronic circuits. It moves from diode behaviour through transistors and amplifiers to operational amplifiers and digital building blocks, with an emphasis on analysis rather than assembly.",
+    "examPattern": "Normally a 70-mark end-semester paper in three hours, plus internal assessment and laboratory work. Numerical questions on biasing, gain and op-amp circuits are common, alongside descriptive questions on device operation and applications.",
+    "studyPlan": [
+      "Build a one-page summary of each device: symbol, terminals, regions of operation and one application.",
+      "Practise load-line and bias calculations by hand.",
+      "Compare amplifier configurations (common emitter, base, collector) in a table.",
+      "Solve past papers and redo every wrong numerical after correcting the concept."
+    ],
+    "pitfalls": [
+      "Treating the transistor as a simple switch in every context.",
+      "Forgetting input and output impedance when comparing amplifiers.",
+      "Not practising the practical circuit before the viva."
+    ]
+  },
+  "3110003": {
+    "overview": "Programming for Problem Solving is the first programming course for most GTU students. It teaches C: data types, control flow, functions, arrays, strings, pointers, structures and file handling, with the larger aim of learning to break a problem into steps and translate them into working code.",
+    "examPattern": "The paper is usually 70 marks over three hours plus internal assessment and a practical exam. Expect algorithm/pseudocode questions, output prediction, error finding and short programs, alongside theory on language features.",
+    "studyPlan": [
+      "Type and run every program from the syllabus instead of reading it.",
+      "Write the algorithm and dry-run it on paper before coding; this is what the exam asks for.",
+      "Keep a notebook of compiler errors you hit and how you fixed them.",
+      "Practise writing small programs by hand, because the theory paper has no compiler."
+    ],
+    "pitfalls": [
+      "Confusing arrays with pointers, especially in function arguments.",
+      "Using uninitialised variables and ignoring compiler warnings.",
+      "Skipping dry runs, which hides off-by-one and boundary errors."
+    ]
+  },
+  "3134201": {
+    "overview": "Data Structures and Algorithms is where programming becomes engineering. It covers arrays, linked lists, stacks, queues, trees, graphs, hashing, sorting, searching and complexity analysis, and it is the subject most likely to appear in placement interviews.",
+    "examPattern": "Usually a 70-mark theory paper with internal assessment and a practical/lab component. Questions ask you to trace operations, write algorithms, compare structures and analyse time complexity, rather than produce long compilable programs.",
+    "studyPlan": [
+      "Implement each structure once in C or C++ so the operations are concrete.",
+      "For every structure, write down the cost of insert, delete, search and traversal.",
+      "Trace algorithms on a small example before writing the final answer.",
+      "Solve past papers by hand, since the exam is written, not run."
+    ],
+    "pitfalls": [
+      "Memorising code without knowing the time complexity.",
+      "Ignoring edge cases: empty structure, single element, duplicates.",
+      "Confusing depth-first and breadth-first traversal orders."
+    ]
+  },
+  "3130703": {
+    "overview": "Database Management System covers how data is modelled, stored, queried and kept consistent: the relational model, ER design, SQL, normalisation, transactions, indexing and concurrency. It is a core subject for software roles and one of the most practical courses in the programme.",
+    "examPattern": "Normally a 70-mark theory paper plus internal assessment and practical SQL work. Expect ER diagrams, normalisation exercises, SQL queries, transaction/ACID questions and indexing trade-offs.",
+    "studyPlan": [
+      "Practise SQL on a small schema until joins, grouping and subqueries are comfortable.",
+      "Normalise the same relation step by step from 1NF to 3NF/BCNF to see where each rule bites.",
+      "Draw ER diagrams for common systems (library, hospital, railway) and convert them to tables.",
+      "Revise transaction properties and concurrency problems with a concrete schedule example."
+    ],
+    "pitfalls": [
+      "Confusing partial and transitive dependencies when normalising.",
+      "Writing SQL without checking it against sample rows.",
+      "Describing ACID in the abstract without linking it to a failure scenario."
+    ]
+  },
+  "3140702": {
+    "overview": "Operating System explains how a computer shares its CPU, memory and devices among processes. It covers process states and scheduling, synchronisation, deadlock, memory management and paging, file systems and I/O, and it underpins every later systems course.",
+    "examPattern": "Typically a 70-mark theory paper with internal assessment and a practical component. Numerical questions on scheduling, page replacement and deadlock avoidance are common, alongside diagrams and short explanations.",
+    "studyPlan": [
+      "Draw the process state diagram and the resource-allocation graph until they are automatic.",
+      "Practise FCFS, SJF, priority and round-robin scheduling numericals with a table.",
+      "Work through Banker's algorithm and page-replacement algorithms on paper.",
+      "Compare policies in a table: what each optimises and what it can starve."
+    ],
+    "pitfalls": [
+      "Mixing up waiting time, turnaround time and response time.",
+      "Forgetting the assumptions (for example, arrival time) in scheduling questions.",
+      "Describing deadlock prevention and avoidance as if they were the same thing."
+    ]
+  },
+  "3150710": {
+    "overview": "Computer Networks covers how data moves between machines: the OSI and TCP/IP models, physical and data-link layers, IP addressing and routing, transport protocols, and application-layer services. It is essential for networking, security and backend roles.",
+    "examPattern": "Usually a 70-mark theory paper plus internal assessment and lab work. Expect layered-model questions, protocol comparisons, subnetting and addressing numericals, and short explanations of common services.",
+    "studyPlan": [
+      "Keep a one-page map of each layer with its protocols, devices and data unit.",
+      "Practise subnetting and CIDR calculations daily until they are quick and error-free.",
+      "Compare TCP and UDP, IPv4 and IPv6, and the common routing protocols in tables.",
+      "Use past papers to practise framing answers around the layer model."
+    ],
+    "pitfalls": [
+      "Subnet-mask and host-count errors.",
+      "Confusing the responsibilities of adjacent layers.",
+      "Memorising protocol names without knowing where they sit or what they solve."
+    ]
+  },
+  "3140707": {
+    "overview": "Computer Organization and Architecture connects the programmer's view of a machine to the hardware that executes it: instruction sets, addressing modes, CPU datapath and control, pipelining, the memory hierarchy and I/O organisation.",
+    "examPattern": "Normally a 70-mark theory paper plus internal assessment. Numerical questions on pipeline speedup, cache mapping and memory performance are regulars, alongside diagrams and explanatory answers.",
+    "studyPlan": [
+      "Draw the datapath and control-unit diagrams for the instruction types in your syllabus.",
+      "Practise pipeline timing diagrams and speedup calculations.",
+      "Work through direct, associative and set-associative cache mapping with address splits.",
+      "Summarise addressing modes with one instruction example each."
+    ],
+    "pitfalls": [
+      "Confusing addressing modes and their effective-address calculations.",
+      "Describing pipeline hazards without saying how each is handled.",
+      "Forgetting that cache and pipeline formulas have assumptions."
+    ]
+  },
+  "3110007": {
+    "overview": "Environmental Sciences introduces ecosystems, natural resources, pollution, waste management, sustainability and environmental regulation. It is a university-mandated course with a strong general-awareness component, so concrete Indian examples matter more than abstract definitions.",
+    "examPattern": "Usually a 70-mark theory paper plus internal assessment. Expect definition-and-explain questions, diagrams of cycles and treatment processes, and case-study or policy questions.",
+    "studyPlan": [
+      "Learn the major biogeochemical cycles with a simple diagram each.",
+      "Keep one local or Indian example for each pollution type and control measure.",
+      "Revise environmental laws and institutions with dates and one-line purposes.",
+      "Practise writing balanced answers: definition, cause, effect, control, example."
+    ],
+    "pitfalls": [
+      "Giving vague, slogan-style answers without mechanisms.",
+      "Ignoring Indian examples and legislation.",
+      "Skipping diagrams, which carry easy marks."
+    ]
+  },
+  "2110013": {
+    "overview": "Engineering Graphics teaches the language of technical drawing: projection systems, orthographic and isometric views, sections, conventions and development of surfaces. Marks are won by accurate construction and correct conventions, not by prose.",
+    "examPattern": "Normally a 70-mark paper plus internal assessment and a drawing practical. Most questions are drawing problems; a few ask you to explain conventions or choose the right view.",
+    "studyPlan": [
+      "Draw something every day; graphics improves through repetition, not reading.",
+      "Memorise line types, dimensioning rules and standard symbols.",
+      "Practise orthographic-to-isometric and isometric-to-orthographic conversions in both directions.",
+      "Time yourself on past papers, because drafting is the bottleneck in the exam."
+    ],
+    "pitfalls": [
+      "Wrong line thickness and missing hidden/centre lines.",
+      "Incorrect projection angle or placement of views.",
+      "Not using instruments carefully, which turns correct ideas into messy drawings."
+    ]
+  },
+  "2110002": {
+    "overview": "Communication Skills develops the English a diploma engineer actually needs: comprehension, grammar and vocabulary, technical writing, correspondence, presentations and group discussion. It is a skill subject, so practice and feedback matter more than memorising rules.",
+    "examPattern": "Usually a 70-mark theory paper plus internal assessment, with a strong practical/oral component. Expect comprehension, grammar exercises, letter and report writing, and short answer questions.",
+    "studyPlan": [
+      "Read one short article a day and summarise it in five sentences.",
+      "Practise the standard formats for business letters, emails and reports.",
+      "Record yourself giving a two-minute presentation and fix one weakness at a time.",
+      "Do the past papers under time, especially the writing sections."
+    ],
+    "pitfalls": [
+      "Memorising essays instead of learning structure.",
+      "Ignoring listening and speaking because they are not in the written paper.",
+      "Formatting errors in letters and reports that cost easy marks."
+    ]
+  },
+  "4300004": {
+    "overview": "Applied Physics gives diploma students the physical principles behind engineering: units and measurement, optics, electricity and magnetism, modern physics and semiconductors. It is a bridge between school physics and the devices and machines studied later.",
+    "examPattern": "Normally a 70-mark theory paper plus internal assessment and practical work. Expect definitions, derivations, numerical problems and diagrams, with viva questions drawn from the experiments.",
+    "studyPlan": [
+      "Build a formula sheet with units and the conditions for each formula.",
+      "Practise numericals unit by unit, paying attention to unit conversion.",
+      "Learn each practical's aim, principle, diagram and one source of error.",
+      "Solve past papers and redo the derivations you cannot reproduce from memory."
+    ],
+    "pitfalls": [
+      "Unit-conversion errors in numericals.",
+      "Memorising derivations without understanding the starting assumption.",
+      "Neglecting the practical file and viva."
+    ]
+  },
+  "4300002": {
+    "overview": "Communication Skills in English is the diploma-level functional English course. It covers comprehension, grammar, vocabulary, business correspondence, technical writing and oral communication, with an emphasis on using English confidently in class, at work and in interviews.",
+    "examPattern": "Usually a 70-mark theory paper plus internal assessment, with practical/oral assessment. Expect grammar and vocabulary exercises, comprehension, letter/report writing and short composition tasks.",
+    "studyPlan": [
+      "Write a short paragraph or email every day and correct one recurring error.",
+      "Learn the formats for enquiry, complaint, application and report writing.",
+      "Practise comprehension under a time limit, underlining evidence in the passage.",
+      "Prepare and deliver short talks on technical topics to build fluency."
+    ],
+    "pitfalls": [
+      "Treating English as a theory subject and never speaking it.",
+      "Losing marks on format and tone in letters.",
+      "Using long, unclear sentences instead of plain ones."
+    ]
+  },
+  "3170717": {
+    "overview": "Cloud Computing explains how computing is delivered as a service: the IaaS/PaaS/SaaS model, public/private/hybrid deployment, virtualisation, storage, elasticity, security and the major provider platforms. It is a current, industry-relevant subject with a lot of scope for concrete examples.",
+    "examPattern": "Typically a 70-mark theory paper plus internal assessment. Expect comparisons of service and deployment models, architecture diagrams, security and pricing questions, and short case-study answers.",
+    "studyPlan": [
+      "Make a grid of service models against deployment models and fill in one real example per cell.",
+      "Learn the virtualisation stack and the difference between hypervisor types.",
+      "Study one provider's core services (for example AWS or Azure) as a concrete reference.",
+      "Revise security, SLA and cost models with short, example-led answers."
+    ],
+    "pitfalls": [
+      "Confusing service models (IaaS/PaaS/SaaS) with deployment models (public/private/hybrid).",
+      "Giving marketing-level answers without architecture or examples.",
+      "Ignoring security and compliance topics, which carry steady marks."
+    ]
+  },
+  "3170724": {
+    "overview": "Machine Learning introduces the methods that let a program improve from data: regression, classification, clustering, model evaluation and the bias-variance trade-off. The subject is mathematical but practical, and marks come from understanding when and why an algorithm works.",
+    "examPattern": "Normally a 70-mark theory paper plus internal assessment and a lab/project component. Expect algorithm explanations, worked examples on small datasets, evaluation-metric questions and comparisons between methods.",
+    "studyPlan": [
+      "Work through one small dataset by hand for each algorithm family.",
+      "Learn the confusion matrix and derive precision, recall and F1 from it.",
+      "Explain overfitting and regularisation with a concrete example.",
+      "Compare supervised and unsupervised methods in a table of assumptions and use cases."
+    ],
+    "pitfalls": [
+      "Confusing precision with recall and accuracy.",
+      "Describing an algorithm without its assumptions or cost.",
+      "Ignoring data preprocessing, which is where most practical accuracy comes from."
+    ]
+  },
+  "3140705": {
+    "overview": "Object Oriented Programming -I introduces the C++ object model: classes and objects, constructors and destructors, operator overloading, inheritance, polymorphism, templates and exception handling. The aim is to design code around objects rather than procedures.",
+    "examPattern": "Usually a 70-mark theory paper plus internal assessment and a practical exam. Expect output-prediction questions, class-design problems, inheritance/polymorphism explanations and short programs.",
+    "studyPlan": [
+      "Write a small class for each concept and compile it; C++ errors teach the rules quickly.",
+      "Trace constructors and destructors through inheritance to understand order of execution.",
+      "Practise virtual functions and show the difference with and without `virtual`.",
+      "Solve past papers by hand, especially output and error-spotting questions."
+    ],
+    "pitfalls": [
+      "Forgetting a virtual destructor in a polymorphic base class.",
+      "Confusing overloaded operators with overloaded functions.",
+      "Ignoring copy semantics and shallow vs deep copies."
+    ]
+  },
+  "3151108": {
+    "overview": "Python Programming covers the language from syntax to useful libraries: data types, control flow, functions, modules, files, exceptions, object-oriented Python and common standard-library tools. It is a practical course that rewards regular coding.",
+    "examPattern": "Normally a 70-mark theory paper plus internal assessment and a practical exam. Expect output prediction, short programs, library/module questions and explanations of Python-specific behaviour.",
+    "studyPlan": [
+      "Code every example, then modify it to test edge cases.",
+      "Learn Python's data model: lists vs tuples vs sets vs dicts and when each is appropriate.",
+      "Practise file handling and exception handling with small scripts.",
+      "Write past-paper programs by hand and dry-run them."
+    ],
+    "pitfalls": [
+      "Indentation and block errors.",
+      "Mutable default arguments and shallow copies.",
+      "Assuming Python behaves like C for integer division, scope or references."
+    ]
+  },
+  "3141008": {
+    "overview": "Microprocessor and Microcontroller covers the architecture, instruction set, programming and interfacing of a representative processor and microcontroller. It connects digital logic to real embedded systems: timers, interrupts, memory and I/O ports.",
+    "examPattern": "Usually a 70-mark theory paper plus internal assessment and practical work. Expect architecture diagrams, instruction-set questions, short assembly programs and interfacing explanations.",
+    "studyPlan": [
+      "Memorise the register set, flags and pin functions with a diagram.",
+      "Write small assembly programs by hand and trace the registers step by step.",
+      "Practise timing, interrupt and interfacing questions with clear diagrams.",
+      "Revise the lab programs, because viva questions often come from them."
+    ],
+    "pitfalls": [
+      "Confusing addressing modes and flag effects.",
+      "Writing assembly without tracing it for off-by-one or timing errors.",
+      "Ignoring interrupts and timers until the exam."
+    ]
+  },
+  "4340704": {
+    "overview": "Introduction to Web Development covers how a website is built and served: HTML structure, CSS layout and responsive design, JavaScript behaviour, forms, accessibility and a first look at the server side. It is best learned by building pages, not by reading about them.",
+    "examPattern": "Typically a 70-mark theory paper plus internal assessment and a practical/lab component. Expect markup and CSS questions, small JavaScript tasks, form handling and short explanations of web concepts.",
+    "studyPlan": [
+      "Rebuild two or three real pages from scratch and compare them with the originals.",
+      "Learn CSS layout (flexbox/grid) by changing one property at a time in the browser.",
+      "Practise JavaScript DOM tasks: select, change, validate, respond to events.",
+      "Test every page at mobile width and with the keyboard only."
+    ],
+    "pitfalls": [
+      "Relying on inline styles and copy-pasted snippets you cannot explain.",
+      "Ignoring accessibility and responsive behaviour.",
+      "Not testing forms and error states."
+    ]
+  },
+  "4340702": {
+    "overview": "Introduction to Software Engineering explains how software is planned, specified, designed, built, tested and maintained. It covers the software development life cycle, requirements, design principles, testing levels, project management and agile practice.",
+    "examPattern": "Normally a 70-mark theory paper plus internal assessment. Expect comparisons of process models, requirements and design questions, testing terminology and short case-study or diagram questions.",
+    "studyPlan": [
+      "Learn each process model with one project type where it fits best.",
+      "Practise drawing use-case, class and sequence diagrams for a small system.",
+      "Distinguish verification from validation and the testing levels clearly.",
+      "Use a single running example (for example a library app) throughout revision."
+    ],
+    "pitfalls": [
+      "Reciting definitions without applying them to an example.",
+      "Confusing process models and their trade-offs.",
+      "Treating testing as a phase rather than an activity across the life cycle."
+    ]
+  },
+  "4320703": {
+    "overview": "Basics of Digital Electronics covers the logic underneath every computer: number systems and codes, Boolean algebra, logic gates, combinational circuits, flip-flops and sequential circuits. It is a foundational subject that rewards careful, table-driven practice.",
+    "examPattern": "Usually a 70-mark theory paper plus internal assessment and practical work. Expect number-system conversions, Boolean simplification, K-maps, circuit design and timing/state-table questions.",
+    "studyPlan": [
+      "Practise number-system and code conversions until they are quick.",
+      "Simplify Boolean expressions by algebra and by K-map, then check that both agree.",
+      "Derive and remember flip-flop excitation tables and characteristic equations.",
+      "Design small sequential circuits from a state diagram on paper."
+    ],
+    "pitfalls": [
+      "Careless K-map grouping and wrong don't-care handling.",
+      "Confusing combinational and sequential behaviour.",
+      "Ignoring timing hazards and race conditions in sequential design."
+    ]
+  }
+}

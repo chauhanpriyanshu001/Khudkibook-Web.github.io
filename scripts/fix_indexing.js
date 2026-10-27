@@ -21,7 +21,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { cleanUrl, cleanInternalLinks, isThinPlaceholder, DEFAULT_SITE_URL } = require('./lib/seo');
+const { cleanUrl, cleanInternalLinks, isThinPlaceholder, isLowValueSubjectPage, DEFAULT_SITE_URL } = require('./lib/seo');
 
 const ROOT_DIR = process.env.KB_ROOT || path.join(__dirname, '..');
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
@@ -105,7 +105,10 @@ for (const file of walk(PUBLIC_DIR)) {
     const current = rm ? rm[2] : null;
     if (current && /noindex/i.test(current)) {
         stats.skippedNoindex++;
-    } else if (isSelfCanonical && isThinPlaceholder(after)) {
+    } else if (isSelfCanonical && (isThinPlaceholder(after) || isLowValueSubjectPage(after))) {
+        // A subject page whose body is only the scraped syllabus and download
+        // links adds no unique value to the index, even when it has papers. Only
+        // a real textbook or reviewed editorial copy clears this gate.
         after = after.replace(reRobots, `$1${ROBOTS_THIN}$3`);
         stats.noindexed++;
         touched = true;

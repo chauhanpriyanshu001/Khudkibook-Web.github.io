@@ -1,0 +1,45 @@
+rules_version = '2';
+
+// KhudkiBook Cloud Storage rules — contribution PDF uploads.
+// Requires Blaze plan (Storage on Firebase requires billing since Feb 2026).
+// Deploy: firebase deploy --only storage
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isVerified() {
+      return isSignedIn() && request.auth.token.email_verified == true;
+    }
+
+    function isAdmin() {
+      return isSignedIn()
+        && firestore.exists(/databases/(default)/documents/admins/$(request.auth.uid));
+    }
+
+    match /contributions/{uid}/{fileName} {
+      // Approved files are public; owner sees own pending file; admin sees all.
+      allow read: if (resource.metadata.status == 'approved')
+        || isAdmin()
+        || (isSignedIn() && resource.metadata.uid == request.auth.uid);
+
+      // Verified users may upload a PDF (≤20 MB) into their own folder only.
+      allow create: if isVerified()
+        && request.auth.uid == uid
+        && request.resource.metadata.uid == request.auth.uid
+        && request.resource.metadata.status == 'pending'
+        && request.resource.contentType == 'application/pdf'
+        && request.resource.size <= 20 * 1024 * 1024
+        && fileName.matches('^[A-Za-z0-9][A-Za-z0-9._-]{0,120}\\.pdf$');
+
+      // Only admin flips metadata (status pending → approved on approval).
+      allow update: if isAdmin();
+
+      // Owner may delete own file (withdraw submission); admin may purge.
+      allow delete: if isAdmin()
+        || (isSignedIn() && resource.metadata.uid == request.auth.uid);
+    }
+  }
+}

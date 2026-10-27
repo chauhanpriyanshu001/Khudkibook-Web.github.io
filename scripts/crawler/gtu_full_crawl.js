@@ -36,7 +36,7 @@ async function fetchHTML(url) {
         signal: AbortSignal.timeout(25000)
     });
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-    return await res.text();
+    return { html: await res.text(), url: res.url || url };
 }
 
 function buildFormBody($) {
@@ -54,15 +54,38 @@ function buildFormBody($) {
     return body;
 }
 
-async function postPage(body) {
-    const res = await fetch(SYLLABUS_PAGE, {
-        method: 'POST',
-        headers: { 'User-Agent': UA, 'Content-Type': 'application/x-www-form-urlencoded', 'Origin': 'https://gtu.ac.in', 'Referer': SYLLABUS_PAGE },
-        body: body.toString(),
-        signal: AbortSignal.timeout(30000)
-    });
-    if (!res.ok) throw new Error(`POST ${res.status}`);
-    return await res.text();
+async function postPage(formUrl, body) {
+    const url = new URL(formUrl);
+    let lastErr;
+    for (let attempt = 0; attempt < 4; attempt++) {
+        try {
+            const res = await fetch(formUrl, {
+                method: 'POST',
+                headers: { 'User-Agent': UA, 'Content-Type': 'application/x-www-form-urlencoded', 'Origin': url.origin, 'Referer': formUrl },
+                body: body.toString(),
+                signal: AbortSignal.timeout(30000)
+            });
+            if (!res.ok) throw new Error(`POST ${res.status}`);
+            return { html: await res.text(), url: res.url || formUrl };
+        } catch (e) {
+            lastErr = e;
+            await delay(500 + attempt * 750);
+        }
+    }
+    throw lastErr;
+}
+
+// Load a fresh course-selected form. GTU invalidates the viewstate after a
+// failed search, so a retry has to start from a clean page rather than replay
+// the body that just failed.
+async function loadCourseForm(course) {
+    const html0 = await fetchHTML(SYLLABUS_PAGE);
+    const $ = cheerio.load(html0.html);
+    const body = buildFormBody($);
+    body.set('__EVENTTARGET', 'ctl00$ContentPlaceHolder1$ddcourse');
+    body.set('__EVENTARGUMENT', '');
+    body.set('ctl00$ContentPlaceHolder1$ddcourse', course);
+    return postPage(html0.url, body);
 }
 
 function parseGrid(html) {
@@ -166,17 +189,9 @@ async function main() {
 
         log(`\n--- COURSE ${course} ---`);
 
-        // Step 1: Course selection postback (once per course)
-        const html0 = await fetchHTML(SYLLABUS_PAGE);
-        let $ = cheerio.load(html0);
-        let courseHtml = await postPage((() => {
-            const body = buildFormBody($);
-            body.set('__EVENTTARGET', 'ctl00$ContentPlaceHolder1$ddcourse');
-            body.set('ctl00$ContentPlaceHolder1$ddcourse', course);
-            return body;
-        })());
-        let lastFormHtml = courseHtml;
-
+        // GTU redirects gtu.ac.in to whichever backend currently serves the
+        // archive, and a postback sent to the host that only redirects loses its
+        // body -- so every POST goes to the URL the previous request landed on.
         for (const br of prog.branches) {
             if (SKIP_BRANCHES.has(br.code)) continue;
             if (limit <= doneCombos) break;
@@ -197,32 +212,41 @@ async function main() {
                 const rate = doneCombos > 0 ? (doneCombos / (Date.now() - startTs) * 1000).toFixed(1) : 0;
                 process.stdout.write(`[${doneCombos}/${totalCombos}] [${elapsed}s @${rate}/s] ${course}/${br.code}/sem${sem}... `);
 
-                try {
-                    $ = cheerio.load(lastFormHtml);
-                    const body = buildFormBody($);
-                    body.set('ctl00$ContentPlaceHolder1$ddcourse', course);
-                    body.set('ctl00$ContentPlaceHolder1$ddlbrcode', actualBranch);
-                    body.set('ctl00$ContentPlaceHolder1$ddsem', String(sem));
-                    body.set('ctl00$ContentPlaceHolder1$ddl_effFrom', '');
-                    body.set('ctl00$ContentPlaceHolder1$ddl_iselective', '');
-                    body.set('ctl00$ContentPlaceHolder1$btn_search', 'Search');
+                let subs = null;
+                let lastError = null;
+                for (let attempt = 0; attempt < 3 && subs === null; attempt++) {
+                    try {
+                        const form = await loadCourseForm(course);
+                        const $form = cheerio.load(form.html);
+                        const body = buildFormBody($form);
+                        body.set('__EVENTTARGET', '');
+                        body.set('__EVENTARGUMENT', '');
+                        body.set('ctl00$ContentPlaceHolder1$ddcourse', course);
+                        body.set('ctl00$ContentPlaceHolder1$ddlbrcode', actualBranch);
+                        body.set('ctl00$ContentPlaceHolder1$ddsem', String(sem));
+                        body.set('ctl00$ContentPlaceHolder1$ddl_effFrom', '');
+                        body.set('ctl00$ContentPlaceHolder1$ddl_iselective', '');
+                        body.set('ctl00$ContentPlaceHolder1$btn_search', 'Search');
 
-                    const searchHtml = await postPage(body);
-                    const subs = parseGrid(searchHtml);
-                    lastFormHtml = searchHtml;
+                        const searchPage = await postPage(form.url, body);
+                        subs = parseGrid(searchPage.html);
+                    } catch (e) {
+                        lastError = e;
+                        await delay(400 + attempt * 600);
+                    }
+                }
 
+                if (subs === null) {
+                    log(`ERROR: ${lastError ? lastError.message : 'unknown'}`);
+                } else {
                     if (!progress.results[course]) progress.results[course] = {};
                     if (!progress.results[course][actualBranch]) progress.results[course][actualBranch] = {};
                     progress.results[course][actualBranch][sem] = subs;
                     totalSubjects += subs.length;
-                    progress.completed.push(key);
-                    completedSet.add(key);
                     console.log(`${subs.length} subjects`);
-                } catch (e) {
-                    log(`ERROR: ${e.message}`);
-                    progress.completed.push(key);
-                    completedSet.add(key);
                 }
+                progress.completed.push(key);
+                completedSet.add(key);
 
                 if (doneCombos % 20 === 0) {
                     saveProgress(progress);

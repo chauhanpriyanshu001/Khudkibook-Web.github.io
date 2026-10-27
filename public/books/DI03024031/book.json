@@ -1,0 +1,29 @@
+{
+ "code": "DI03024031",
+ "subject": "Digital Electronics",
+ "branchLabel": "Gujarat Technological University Artificial Intelligence and Data Science Semester 3",
+ "subjectPage": "/ai-data-science/sem3/digital-electronics.html",
+ "units": [
+  {
+   "n": 1,
+   "label": "Unit – Number System and Binary Codes 1.1 Introduction to Number Systems",
+   "file": "unit-1.html",
+   "guFile": null,
+   "words": 4373,
+   "readingMin": 24,
+   "marks": ""
+  }
+ ],
+ "title": "Digital Electronics",
+ "titleGu": "Digital Electronics",
+ "pages": [
+  {
+   "n": 1,
+   "file": "unit-1.html",
+   "marks": "22% of the end-semester theory paper",
+   "hours": 10
+  }
+ ],
+ "full": null,
+ "updatedAt": "2026-10-06T13:55:39.589Z"
+}

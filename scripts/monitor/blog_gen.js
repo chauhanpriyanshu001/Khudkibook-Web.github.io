@@ -149,8 +149,8 @@ const DISCLAIMER = (asOf) => `          <p style="font-size:0.82rem; color:var(-
 const AUTHOR_BOX = `          <div class="kb-author-box">
             <img src="/assets/brand/khudkibook-logo.png" alt="Khudkibook" />
             <div>
-              <p style="font-size:0.9rem; font-weight:700; color:#111827; margin-bottom:2px;">Khudkibook Team</p>
-              <p>We build free study tools for GTU engineering students. Have a topic you want us to cover? <a href="/contact.html">Tell us</a>.</p>
+              <p style="font-size:0.9rem; font-weight:700; color:#111827; margin-bottom:2px;">Chauhan Priyanshu</p>
+              <p>GTU engineering graduate. I build free study resources to help Diploma and BE students find syllabus, past papers and textbook links in one place. Follow on <a href="https://github.com/chauhanpriyanshu001" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
             </div>
           </div>`;
 
@@ -689,7 +689,7 @@ function renderArticle(group) {
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="keywords" content="${esc(keywords)}" />
     <meta name="description" content="${esc(description)}" />
-    <meta name="author" content="Khudkibook" />
+    <meta name="author" content="Chauhan Priyanshu" />
     <meta name="generator" content="Khudkibook" />
     <meta name="theme-color" content="#CD5D33" />
     <meta name="application-name" content="Khudkibook" />
@@ -741,7 +741,7 @@ function renderArticle(group) {
         "description": ${JSON.stringify(description)},
         "datePublished": "${date}",
         "dateModified": "${modified}",
-        "author": { "@type": "Organization", "name": "Khudkibook", "url": "${SITE_URL}" },
+        "author": { "@type": "Person", "name": "Chauhan Priyanshu", "url": "${SITE_URL}/about" },
         "publisher": { "@type": "Organization", "name": "Khudkibook", "url": "${SITE_URL}" },
         "mainEntityOfPage": ${JSON.stringify(canonical)},
         "image": "${OG_IMAGE}",

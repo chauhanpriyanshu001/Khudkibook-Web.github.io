@@ -1,30 +1,70 @@
 // Analytics Bootstrap (GA4 + Clarity — guarded so it never double-injects)
+// A lightweight bot guard keeps headless scrapers out of GA4/Clarity and skips
+// expensive work for them. Anything flagged stays fully usable for humans.
 (function () {
   'use strict';
-  if (window.gtag || document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
+
+  var KB_BOT = (function () {
+    try {
+      var nav = window.navigator || {};
+      var ua = String(nav.userAgent || '');
+      var crawler = /bot|crawl|spider|slurp|scrapy|curl|wget|python|java\/|go-http|headless|phantom|puppeteer|playwright|selenium|lighthouse|pingdom|uptime|monitor|facebookexternalhit|preview/i;
+      if (!ua) return true;                     // no UA = automated
+      if (crawler.test(ua)) return true;
+      if (nav.webdriver === true) return true;  // Selenium / CDP driven
+      if (nav.languages && nav.languages.length === 0) return true;
+      if (window.callPhantom || window._phantom || window.__nightmare) return true;
+      // Headless Chrome often reports 0 outer dimensions or an odd default size.
+      if (typeof window.outerWidth === 'number' && typeof window.outerHeight === 'number') {
+        if (window.outerWidth === 0 || window.outerHeight === 0) return true;
+        if (window.outerWidth <= 800 && window.outerHeight <= 600 && (window.screen && window.screen.width > 1000)) return true;
+      }
+      // A 0.5s "direct" hit pattern rarely has touch support on desktop-sized UAs.
+      return false;
+    } catch (e) { return false; }
+  })();
+
+  // Expose so feature code can skip heavy work, but never hide the page.
+  window.KB_IS_BOT = KB_BOT;
+
+  function loadGA() {
     window.dataLayer = window.dataLayer || [];
     if (typeof window.gtag !== 'function') {
       window.gtag = function () { window.dataLayer.push(arguments); };
-      window.gtag('js', new Date());
-      window.gtag('config', 'G-Q14JJGGSPR');
     }
-  } else {
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { window.dataLayer.push(arguments); };
     window.gtag('js', new Date());
     window.gtag('config', 'G-Q14JJGGSPR');
-    var gs = document.createElement('script');
-    gs.async = true;
-    gs.src = 'https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR';
-    document.head.appendChild(gs);
+    if (!document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
+      var gs = document.createElement('script');
+      gs.async = true;
+      gs.src = 'https://www.googletagmanager.com/gtag/js?id=G-Q14JJGGSPR';
+      document.head.appendChild(gs);
+    }
   }
-  if (!window.clarity && !document.querySelector('script[src*="clarity.ms/tag"]')) {
+
+  function loadClarity() {
+    if (window.clarity && document.querySelector('script[src*="clarity.ms/tag"]')) return;
     (function (c, l, a, r, i, t, y) {
       c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
       t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
       y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
     })(window, document, 'clarity', 'script', 'yha6xlt986');
   }
+
+  if (KB_BOT) {
+    // Do not emit analytics for automated traffic. Also strip the GA/Clarity
+    // tags that may have been hard-coded into the page markup.
+    try {
+      document.querySelectorAll('script[src*="googletagmanager.com"], script[src*="clarity.ms"]').forEach(function (s) {
+        s.parentNode && s.parentNode.removeChild(s);
+      });
+      window['ga-disable-G-Q14JJGGSPR'] = true;
+    } catch (e) { }
+    return;
+  }
+
+  loadGA();
+  loadClarity();
 })();
 
 // Firebase Configuration (Loaded On-Demand for Feedback)
@@ -39,23 +79,75 @@ const firebaseConfig = {
     measurementId: "G-XRLK80TM3J"
 };
 
+function loadScript(src) {
+    return new Promise((resolve, reject) => {
+        const existing = document.querySelector('script[src="' + src + '"]');
+        if (existing) {
+            if (existing.getAttribute('data-loaded') === '1') { resolve(); return; }
+            // Tag already in the page: its load event fires only if it is still
+            // in-flight. If it already executed long ago, fall through via timeout.
+            let settled = false;
+            const finish = () => {
+                if (settled) return;
+                settled = true;
+                existing.setAttribute('data-loaded', '1');
+                resolve();
+            };
+            existing.addEventListener('load', finish);
+            existing.addEventListener('error', () => { if (!settled) { settled = true; reject(new Error('failed: ' + src)); } });
+            setTimeout(finish, 4000);
+            return;
+        }
+        const s = document.createElement('script');
+        s.src = src;
+        s.onload = () => { s.setAttribute('data-loaded', '1'); resolve(); };
+        s.onerror = reject;
+        document.head.appendChild(s);
+    });
+}
+
 function ensureFirebase(callback) {
-    if (typeof firebase !== 'undefined' && firebase.apps && firebase.apps.length) {
-        callback();
-        return;
-    }
-    const s1 = document.createElement('script');
-    s1.src = "https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-app.js";
-    s1.onload = () => {
-        const s2 = document.createElement('script');
-        s2.src = "https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-firestore.js";
-        s2.onload = () => {
-            if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
-            callback();
-        };
-        document.head.appendChild(s2);
-    };
-    document.head.appendChild(s1);
+    const hasApp = () =>
+        typeof firebase !== 'undefined' &&
+        firebase.apps && firebase.apps.length;
+    const hasAuth = () => typeof firebase !== 'undefined' && typeof firebase.auth === 'function';
+    const hasFirestore = () => typeof firebase !== 'undefined' && typeof firebase.firestore === 'function';
+    const ready = () => hasApp() && hasAuth() && hasFirestore();
+
+    if (ready()) { callback(); return; }
+
+    // Best-effort: always invoke the callback so consumers never hang forever
+    // (they guard their own firebase usage with try/catch).
+    const done = () => { try { callback(); } catch (e) { console.error(e); } };
+
+    // Load only the pieces that are actually missing. Pages that already include
+    // a <script> for a product (e.g. subject pages load app+firestore directly)
+    // must not wait on its load event again — it has already fired.
+    Promise.resolve()
+        .then(() => hasApp() ? null : loadScript("https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-app.js"))
+        .then(() => {
+            if (typeof firebase !== 'undefined' && !firebase.apps.length) firebase.initializeApp(firebaseConfig);
+        })
+        .then(() => hasAuth() ? null : loadScript("https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-auth.js"))
+        .then(() => hasFirestore() ? null : loadScript("https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-firestore.js"))
+        .then(done, err => { console.error("Firebase failed to load:", err); done(); });
+}
+
+// ---------- Instant session cache ----------
+// Paints the logged-in app bar from localStorage before Firebase finishes
+// restoring auth, then reconciles (and enriches with the Firestore username).
+const KB_SESSION_KEY = "kb_session_v1";
+
+function kbSessionRead() {
+    try { return JSON.parse(localStorage.getItem(KB_SESSION_KEY) || "null"); } catch (e) { return null; }
+}
+
+function kbSessionWrite(data) {
+    try { localStorage.setItem(KB_SESSION_KEY, JSON.stringify(data)); } catch (e) {}
+}
+
+function kbSessionClear() {
+    try { localStorage.removeItem(KB_SESSION_KEY); } catch (e) {}
 }
 
 // Master Navbar HTML Template
@@ -161,6 +253,7 @@ const modernNavbarHTML = `
         <li><a href="/ddcet.html" class="nav-item-link"><i class="fas fa-book-reader"></i> DDCET</a></li>
         <li><a href="/gtu-notices.html" class="nav-item-link"><i class="fas fa-bullhorn"></i> GTU Notices</a></li>
         <li><a href="/blog/" class="nav-item-link"><i class="fas fa-pen-nib"></i> Blog</a></li>
+        <li><a href="/contribute" class="nav-item-link"><i class="fas fa-hands-helping"></i> Contribute</a></li>
     </ul>
 
     <!-- Right Controls (Symmetrical alignment for Search & Hamburger) -->
@@ -168,7 +261,7 @@ const modernNavbarHTML = `
         <button class="mobile-nav-btn" id="mobile-search-toggle" aria-label="Open Search" type="button">
             <i class="fas fa-search"></i>
         </button>
-        <button class="mobile-nav-btn" id="mobile-menu-toggle" aria-label="Toggle Mobile Menu" type="button">
+        <button class="mobile-nav-btn" id="mobile-menu-toggle" aria-label="Toggle Mobile Menu" type="button" aria-expanded="false" aria-controls="mobile-drawer">
             <i class="fas fa-bars"></i>
         </button>
     </div>
@@ -189,6 +282,7 @@ const modernNavbarHTML = `
         <a href="/ddcet.html" class="drawer-link"><i class="fas fa-book-reader"></i> DDCET Preparation</a>
         <a href="/gtu-notices.html" class="drawer-link"><i class="fas fa-bullhorn"></i> GTU Notices</a>
         <a href="/blog/" class="drawer-link"><i class="fas fa-pen-nib"></i> Blog</a>
+        <a href="/rewards" class="drawer-link"><i class="fas fa-gift"></i> Rewards</a>
         <a href="/contact.html" class="drawer-link"><i class="fas fa-envelope"></i> Contact Us</a>
         
         <div class="drawer-section-title"><i class="fas fa-graduation-cap"></i> Diploma Branches</div>
@@ -288,7 +382,10 @@ const modernFooterHTML = `
         <h3 class="fotthead"><i class="fas fa-shield-alt" style="color:#a5b4fc; margin-right:8px;"></i> LEGAL & SOCIAL</h3>
         <div class="col">
             <a href="/privacypolicy.html"><i class="fas fa-user-shield"></i> Privacy Policy</a>
+            <a href="/editorial-policy.html"><i class="fas fa-scroll"></i> Editorial Policy</a>
             <a href="/termsofservice.html"><i class="fas fa-file-contract"></i> Terms of Service</a>
+            <a href="/disclaimer.html"><i class="fas fa-exclamation-triangle"></i> Disclaimer</a>
+            <a href="/dmca.html"><i class="fas fa-copyright"></i> DMCA Policy</a>
             <a href="https://www.instagram.com/khudkibook/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Follow on Instagram</a>
             <a href="https://play.google.com/store/apps/details?id=web.app.khudkibook" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play"></i> Rate on Play Store</a>
         </div>
@@ -413,7 +510,7 @@ function initSiteSearch() {
     // Mobile: tapping the search icon expands the bar to full width;
     // tapping again (or Escape) collapses it back to an icon.
     function isMobileSearch() {
-        return window.matchMedia("(max-width: 900px)").matches;
+        return window.matchMedia("(max-width: 1180px)").matches;
     }
 
     function expandSearch() {
@@ -579,6 +676,10 @@ function initSiteSearch() {
     });
 }
 
+// Auth-aware app bar: Login button (logged out) vs user chip + logout (logged in)
+
+// Auth removed from web
+
 // Initialize UI
 function initKhudkibookUI() {
     const navbar = document.getElementById("nav");
@@ -606,19 +707,50 @@ function initKhudkibookUI() {
                 .catch(() => {});
         } catch (e) {}
 
-        // Setup Mobile Menu Toggle
+        // Setup Mobile Menu Toggle (backdrop + scroll lock + Esc)
         const mobileToggle = document.getElementById("mobile-menu-toggle");
         const drawer = document.getElementById("mobile-drawer");
         const drawerClose = document.getElementById("drawer-close-btn");
 
-        if (mobileToggle && drawer) {
-            mobileToggle.addEventListener("click", () => {
-                drawer.style.display = drawer.style.display === "none" ? "block" : "none";
-            });
-        }
-        if (drawerClose && drawer) {
-            drawerClose.addEventListener("click", () => {
+        if (drawer) {
+            function openDrawer() {
+                drawer.style.display = "block";
+                drawer.classList.add("is-open");
+                const backdrop = document.getElementById("drawer-backdrop");
+                if (backdrop) backdrop.classList.add("show");
+                document.body.classList.add("drawer-open");
+                if (mobileToggle) mobileToggle.setAttribute("aria-expanded", "true");
+            }
+
+            function closeDrawer() {
                 drawer.style.display = "none";
+                drawer.classList.remove("is-open");
+                const backdrop = document.getElementById("drawer-backdrop");
+                if (backdrop) backdrop.classList.remove("show");
+                document.body.classList.remove("drawer-open");
+                if (mobileToggle) mobileToggle.setAttribute("aria-expanded", "false");
+            }
+
+            let backdrop = document.getElementById("drawer-backdrop");
+            if (!backdrop) {
+                backdrop = document.createElement("div");
+                backdrop.id = "drawer-backdrop";
+                backdrop.className = "drawer-backdrop";
+                document.body.appendChild(backdrop);
+            }
+            backdrop.addEventListener("click", closeDrawer);
+
+            if (mobileToggle) {
+                mobileToggle.addEventListener("click", () => {
+                    drawer.style.display === "none" ? openDrawer() : closeDrawer();
+                });
+            }
+            if (drawerClose) drawerClose.addEventListener("click", closeDrawer);
+            document.addEventListener("keydown", (e) => {
+                if (e.key === "Escape" && drawer.style.display !== "none") closeDrawer();
+            });
+            drawer.querySelectorAll("a.drawer-link").forEach(link => {
+                link.addEventListener("click", closeDrawer);
             });
         }
 
@@ -636,6 +768,8 @@ function initKhudkibookUI() {
                 }
             });
         });
+
+        // Auth removed from web
     }
 
     if (footer) {
@@ -687,6 +821,22 @@ function initKhudkibookUI() {
 
     initSiteSearch();
     }
+
+// Warm up Firebase the moment this script runs so auth restore overlaps
+// page rendering instead of starting after it (kills the ~2s "checking
+// session" gap on contribute).
+ensureFirebase(function () {});
+
+// Personal library (saved subjects, recently viewed). Loaded on every page so
+// the "Save" button and the dashboard feed share the same store.
+(function () {
+    if (window.KBLib) return;
+    var s = document.createElement("script");
+    s.src = "/kb-library.js?v=1.0";
+    s.async = false;
+    s.onerror = function () { console.error("kb-library.js failed to load"); };
+    document.head.appendChild(s);
+})();
 
 // Run when DOM is ready
 if (document.readyState === "loading") {

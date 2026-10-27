@@ -95,24 +95,27 @@ function cleanUrl(input, siteUrl = DEFAULT_SITE_URL) {
 const SUBJECT_PAGE = /class="materials-section"/;
 const NO_BOOK = />\s*(?:ENG-)?Book\s*\(Soon\)\s*</i;
 const NO_PAPERS = />\s*Papers?\s*\(Soon\)\s*</i;
-const SYLLABUS_PROSE = /unit-wise content|official GTU curriculum for|syllabus-section/i;
 
 /**
- * True when a generated subject page has no study material worth indexing.
+ * True when a generated subject page is a thin, low-value stub.
  *
- * A stub offers neither a textbook nor question papers and has no syllabus
- * breakdown to fall back on, so its body is ~96 words of the same boilerplate.
- * It renders a title and a breadcrumb around an empty body, so indexing it
- * dilutes the site rather than adding a result.
+ * A stub offers neither a textbook nor question papers, so the only body on the
+ * page is ~96 words of the same boilerplate wrapped around the scraped GTU
+ * syllabus topics. That syllabus text is not ours and is near-identical on the
+ * ~11,700 other subject pages, so the page adds no unique value to the index --
+ * it is the "thin content" / "scaled content" shape an AdSense reviewer looks
+ * for, no matter how many of them there are.
  *
- * Indexing and monetizing are deliberately graded, not identical. A page with
- * no book and no papers but a full unit-wise syllabus breakdown is still worth
- * indexing -- it answers "what does this subject cover", which is the question
- * most of these are searched for -- so it is kept here. It is not, however,
- * allowed to carry ad units; `pageHasPublishableContent()` in public/ad-injector.js
- * asks the stricter question and suppresses ads on those pages. Narrowing this
- * function any further re-noindexes working pages, which is what left the site
- * looking empty to AdSense the first time round.
+ * The syllabus breakdown used to be treated as enough to index on. It is not:
+ * the volume of duplicated, externally-sourced pages is itself the finding, and
+ * keeping them indexed is what produced the recurring "low value content"
+ * verdict. Pages that DO carry a textbook or past papers keep indexing and are
+ * the ones the site should be judged on. See scripts/fix_indexing.js for the
+ * pass that applies this across the committed tree.
+ *
+ * Indexing and monetizing ask the same question here, so they stay in step:
+ * `pageHasPublishableContent()` in public/ad-injector.js suppresses ad units on
+ * exactly these pages (and any other `noindex` page) too.
  */
 function isThinPlaceholder(html) {
     if (!html) return false;
@@ -121,8 +124,75 @@ function isThinPlaceholder(html) {
     if (!SUBJECT_PAGE.test(html)) return false;
     if (!NO_BOOK.test(html)) return false;
     if (!NO_PAPERS.test(html)) return false;
-    if (SYLLABUS_PROSE.test(html)) return false;
     return true;
+}
+
+// A subject page that carries hand-written (or reviewed) editorial copy. The
+// marker is emitted by scripts/lib/subject_editorial.js and generate.js, so the
+// indexing pass, the sitemap and the ad guard all agree on what counts as
+// "original value on this page".
+const SUBJECT_EDITORIAL = /class="kb-subject-editorial"/;
+
+/**
+ * True when a subject page has a real textbook attached (not a "Book (Soon)"
+ * empty state). Papers alone are not enough: almost every subject links a past
+ * paper, so treating papers as value is what let thousands of syllabus-only
+ * pages stay indexed.
+ */
+function hasRealBook(html) {
+    if (!html || !SUBJECT_PAGE.test(html)) return false;
+    return !NO_BOOK.test(html);
+}
+
+function hasRealPapers(html) {
+    if (!html || !SUBJECT_PAGE.test(html)) return false;
+    return !NO_PAPERS.test(html);
+}
+
+function hasOriginalEditorial(html) {
+    return !!html && SUBJECT_EDITORIAL.test(html);
+}
+
+function isSubjectPage(html) {
+    return !!html && SUBJECT_PAGE.test(html);
+}
+
+/**
+ * The content-quality gate used for indexing, the sitemap and ads.
+ *
+ * A generated subject page is low value when its body is only the scraped GTU
+ * syllabus plus download links. That is the "scaled content" shape AdSense
+ * flags: thousands of near-identical pages, each adding nothing a reader could
+ * not get from the PDF. A page clears the gate when it either carries a real
+ * textbook or has reviewed editorial copy written for that subject.
+ *
+ * Deliberately stricter than `isThinPlaceholder()` (which only catches pages
+ * with neither book nor papers). `isThinPlaceholder()` still drives the
+ * stub-to-redirect pass because redirecting a page that has papers would break
+ * a reader's download; this gate only decides indexing, sitemap and ads.
+ */
+function isLowValueSubjectPage(html) {
+    if (!html || !SUBJECT_PAGE.test(html)) return false;
+    return !hasOriginalEditorial(html) && !hasRealBook(html);
+}
+
+/**
+ * Visible word count of the page body, ignoring scripts, styles and markup.
+ * Used by the audit and quality gate. Not a ranking signal by itself -- a short
+ * page can still be valuable -- but it catches empty generated shells.
+ */
+function visibleWordCount(html) {
+    if (!html) return 0;
+    const body = /<body[^>]*>([\s\S]*?)<\/body>/i.exec(html);
+    const text = (body ? body[1] : html)
+        .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+        .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+        .replace(/<!--[\s\S]*?-->/g, ' ')
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/&[a-z#0-9]+;/gi, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    return text ? text.split(' ').length : 0;
 }
 
 /**
@@ -143,4 +213,15 @@ function cleanInternalLinks(html, siteUrl = DEFAULT_SITE_URL) {
     });
 }
 
-module.exports = { cleanUrl, cleanInternalLinks, isThinPlaceholder, DEFAULT_SITE_URL };
+module.exports = {
+    cleanUrl,
+    cleanInternalLinks,
+    isThinPlaceholder,
+    isLowValueSubjectPage,
+    isSubjectPage,
+    hasRealBook,
+    hasRealPapers,
+    hasOriginalEditorial,
+    visibleWordCount,
+    DEFAULT_SITE_URL
+};

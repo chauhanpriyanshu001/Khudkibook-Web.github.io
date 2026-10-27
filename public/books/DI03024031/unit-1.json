@@ -1,0 +1,585 @@
+{
+ "code": "DI03024031",
+ "subject": "Digital Electronics",
+ "unit": 1,
+ "lang": "en",
+ "title": "Unit – Number System and Binary Codes 1.1 Introduction to Number Systems",
+ "url": "/books/DI03024031/unit-1.html",
+ "guUrl": null,
+ "words": 4373,
+ "readingMin": 24,
+ "marks": "",
+ "sections": [
+  {
+   "heading": "Unit – 1: Number System and Binary Codes 1.1 Introduction to Number Systems",
+   "id": "",
+   "html": "<p><em>(AI-generated self-study book for GTU, subject code DI03024031 — generated locally with Ollama.)</em></p>\n<p>This module carries approximately <strong>22% of the end-semester theory paper (per syllabus)</strong>.</p>\n<p>Recommended textbooks from the GTU syllabus (align your terminology and approach with these):</p>\n<ul>\n<li>www.youtube.com</li>\n<li>www.vlab.co.in Suggested Course Practical List: S. No. Practical List</li>\n<li>Study various number system</li>\n<li>Build/Test the basic logic gates (AND, OR and NOT)</li>\n<li>Build/Test the EX-OR, EX-NOR logic gates</li>\n<li>Build/Test NAND and NOR as universal gate</li>\n<li>Test the De- Morgan’s theorem</li>\n<li>Build/Test half adder circuit</li>\n<li>Build/Test full adder circuit</li>\n<li>Build/Test half subtractor circuit</li>\n<li>Build/Test full subtractor circuit</li>\n<li>Build/Test decoder circuit</li>\n<li>Build/Test the encoder circuit</li>\n<li>Build/Test the comparator circuit</li>\n<li>Build/Test multiplexer circuit</li>\n<li>Build/Test D e multiplexer circuit</li>\n<li>Build/Test SR flip-flop</li>\n<li>Build/Test D flip-flop</li>\n<li>Build/Test JK flip-flop</li>\n<li>Build/Test T flip-flop</li>\n<li>Built/Test various logic gates using diode logic/RTL logic/DTL logic/TTL logic List of Laboratory/Learning Resources Required: S No. Equipment Name with Broad Specifications 1 Digital Electronics Trainer Trainer should have Features of Logic symbol/ Schematic Diagram indicated on board mimic, On Board DC Power Supplies, Onboard Pulse Generator (TTL), Pulser Switches, 8- bit Data Switches (TTL), 8-bit bicolor LED display, Logic Probe, BCD to seven segment display Scope of Learning: Test the performance of Logic AND, OR, NOT, NAND, NOR, RS Flip- flop, JK Flip-flop, D Flip-flop and verify its Truth table, Study of Logic algebra GUJARAT TECHNOLOGICAL UNIVERSITY Program Name: Engineering Level: Diploma Branch: Power Electronics Course / Subject Code: DI03024031 Course / Subject Name: Digital Electronics S No. Equipment Name with Broad Specifications Study the application of logic gate circuit, Study the implementation of simple logic design., Test the performance of digital combinational logic circuits, Study the application of D Flip-flops as Shift Register, Study the application of JK Flip-flops Technical Specifications: DC Power Supplies: + 5V, 1A; +3V to +15V, 500 mA (variable)- 3V to -15V, 500 mA (variable), Pulse Generator: 1Hz to 1MHz Amplitude: 5V (TTL)Duty Cycle:50 %, TTL output Mains:230V AC ±10% 2 Digital Work Station The Trainer should have Feature of Graphical LCD to show the menu of experiment and gate level diagram for selected experiment, Solderless breadboard, On Board DC Power Supply, On board Pulse Generator Scope of Learning: Test the performance of Not gate, OR gate & AND gate, Universal gate, NAND Gate, XOR and XNOR gate, NOT Gate Using NAND Gate, OR Gate Using NAND Gate, AND Gate Using NAND Gate, AND-OR Gate, AND-NOR Gate, NAND-OR Gate, NAND-NOR Gate, NAND-NAND Gate, NOR-NOR Gate, Half Adder, Full Adder, Half Subtractor, Full Subtractor, 4-1 MUX, 1-4 DMUX, 4-2 Encoder Technical Specification: DC Supply: +5 V, 500 mA, Clock Frequency: 1 Hz, 100 Hz, 1 KHz, 100 KHz, Amplitude: 3.3V, Duty cycle: 50 %, TTL output, Main Supply: 100V - 240V AC, 50/60Hz 3 Flip Flop Trainer Trainer Should have Features of Adaptable illustration of Flip-Flops, +5V SMPS Adaptor provided with the trainer for power supply Scope of Learning: Study of S-R, J-K, D and T Flip-Flop and to verify their Transition table. Input: +5V DC, Main Supply: 100V - 240V AC, 50/60Hz 4 4½ Digit Multimeter Function Range and Resolution Basic Accuracy: DC volts, AC volts, Accuracy: 0.025 %, 0.4 % (true-rms) DC current, AC current, Accuracy: 0.15 %, 0.7 % (true-rms) Temperature: -200.0 °C to 1350.0 °C Accuracy:1.0 % Resistance, capacitance and frequency measurement. Accuracy: .005% Suggested Project List:</li>\n<li>Design universal test board for Digital Circuits to verify different Gates</li>\n<li>Design various Combinational and sequential logic Circuit board GUJARAT TECHNOLOGICAL UNIVERSITY Program Name: Engineering Level: Diploma Branch: Power Electronics Course / Subject Code: DI03024031 Course / Subject Name: Digital Electronics Suggested Activities for Students:</li>\n<li>Chart and Project Model Presentations: Demonstrate project models or deliver seminars on various topics covered in the course content</li>\n<li>Numerical Problem Solving: Solve the numerical problems provided by the subject faculty in tutorial and Prepare their solutions Book <em> </em> <em> </em> <em> </em> *</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Binary System",
+   "id": "",
+   "html": "<p>The <strong>binary system</strong> is a base-2 number system that uses only two digits, 0 and 1. It is the foundation of digital electronics and computer systems. Binary digits, or bits, are the smallest units of data in digital systems.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Binary Representation",
+   "id": "",
+   "html": "<p>Each binary digit (bit) can represent two states: 0 and 1. For example, the binary number 1011 can be read as 1, 0, 1, 1, where each position represents a power of 2.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Binary to Decimal",
+   "id": "",
+   "html": "<p>To convert a binary number to its decimal equivalent, we can use the positional notation method. Each digit in a binary number represents a power of 2, starting from 0 on the right.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the binary number 1011 to its decimal equivalent.<br /><br />[<br />1011₂ = 1 × 2³ + 0 × 2² + 1 × 2¹ + 1 × 2⁰ = 8 + 0 + 2 + 1 = 11₁₀<br />]</div>",
+   "examples": [
+    "Convert the binary number 1011 to its decimal equivalent. [ 1011₂ = 1 × 2³ + 0 × 2² + 1 × 2¹ + 1 × 2⁰ = 8 + 0 + 2 + 1 = 11₁₀ ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Decimal to Binary",
+   "id": "",
+   "html": "<p>To convert a decimal number to its binary equivalent, we repeatedly divide the number by 2 and record the remainders.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the decimal number 11 to its binary equivalent.<br /><br />[</div>\n<p>align*</p>\n<p>11 2 & = 5 remainder 1 ;</p>\n<p>5 2 & = 2 remainder 1 ;</p>\n<p>2 2 & = 1 remainder 0 ;</p>\n<p>1 2 & = 0 remainder 1 ;</p>\n<p>align*</p>\n<p>]</p>\n<blockquote><br />Reading the remainders from bottom to top, we get 1011₂.</blockquote>",
+   "examples": [
+    "Convert the decimal number 11 to its binary equivalent. ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Binary Arithmetic",
+   "id": "",
+   "html": "<p>Binary arithmetic includes addition, subtraction, multiplication, and division. These operations follow similar rules to decimal arithmetic but are simpler due to the limited set of digits (0 and 1).</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Add the binary numbers 1011 and 1101.<br /><br />[</div>\n<p>arrayc@c@c@c@c</p>\n<p>& & 1 & 0 & 1 & 1 \\\\</p>\n<p>+ & & 1 & 1 & 0 & 1 \\\\</p>\n<p>& & 1 & 1 & 0 & 0 & 0 \\\\</p>\n<p>array</p>\n<p>]</p>\n<blockquote><br />Here, the result is 10000₂.</blockquote>",
+   "examples": [
+    "Add the binary numbers 1011 and 1101. ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications of Binary",
+   "id": "",
+   "html": "<p>Binary is used extensively in digital electronics and computer systems for data storage, processing, and transmission. Understanding binary is crucial for designing digital circuits and understanding how computers operate.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Binary System] --&gt; B[Base-2]\n B --&gt; C[Uses 0 and 1]\n B --&gt; D[&quot;Smallest Unit: Bit&quot;]\n C --&gt; E[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 2&quot;]\n B --&gt; F[&quot;Foundational for&lt;br/&gt;Digital&lt;br/&gt;Electronics&quot;]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Binary System] --&gt; B[Base-2]\n B --&gt; C[Uses 0 and 1]\n B --&gt; D[&quot;Smallest Unit: Bit&quot;]\n C --&gt; E[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 2&quot;]\n B --&gt; F[&quot;Foundational for&lt;br/&gt;Digital&lt;br/&gt;Electronics&quot;]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Binary System] --&gt; B[Base-2]\n B --&gt; C[Uses 0 and 1]\n B --&gt; D[&quot;Smallest Unit: Bit&quot;]\n C --&gt; E[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 2&quot;]\n B --&gt; F[&quot;Foundational for&lt;br/&gt;Digital&lt;br/&gt;Electronics&quot;]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n A[Binary System] --> B[Base-2]\n B --> C[Uses 0 and 1]\n B --> D[\"Smallest Unit: Bit\"]\n C --> E[\"Each Digit Represents a<br/>Power of 2\"]\n B --> F[\"Foundational for Digital<br/>Electronics\"]"
+   ]
+  },
+  {
+   "heading": "Introduction to Octal System",
+   "id": "",
+   "html": "<p>The <strong>octal system</strong> is a base-8 number system that uses digits from 0 to 7. It is used as a shorthand for binary numbers, simplifying the representation of large binary numbers.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Octal Representation",
+   "id": "",
+   "html": "<p>Each octal digit represents three bits, making it easier to convert between binary and octal. For example, the octal number 127 can be read as 1, 2, 7, where each position represents a power of 8.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Octal to Decimal",
+   "id": "",
+   "html": "<p>To convert an octal number to its decimal equivalent, we can use the positional notation method. Each digit in an octal number represents a power of 8.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the octal number 127 to its decimal equivalent.<br /><br />[<br />127₈ = 1 × 8² + 2 × 8¹ + 7 × 8⁰ = 64 + 16 + 7 = 87₁₀<br />]</div>",
+   "examples": [
+    "Convert the octal number 127 to its decimal equivalent. [ 127₈ = 1 × 8² + 2 × 8¹ + 7 × 8⁰ = 64 + 16 + 7 = 87₁₀ ]"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Decimal to Octal",
+   "id": "",
+   "html": "<p>To convert a decimal number to its octal equivalent, we repeatedly divide the number by 8 and record the remainders.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the decimal number 87 to its octal equivalent.<br /><br />[</div>\n<p>align*</p>\n<p>87 8 & = 10 remainder 7 ;</p>\n<p>10 8 & = 1 remainder 2 ;</p>\n<p>1 8 & = 0 remainder 1 ;</p>\n<p>align*</p>\n<p>]</p>\n<blockquote><br />Reading the remainders from bottom to top, we get 127₈.</blockquote>",
+   "examples": [
+    "Convert the decimal number 87 to its octal equivalent. ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Octal Arithmetic",
+   "id": "",
+   "html": "<p>Octal arithmetic includes addition, subtraction, multiplication, and division. These operations follow similar rules to decimal and binary arithmetic.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Add the octal numbers 127 and 345.<br /><br />[</div>\n<p>arrayc@c@c@c@c</p>\n<p>& & 1 & 2 & 7 \\\\</p>\n<p>+ & & 3 & 4 & 5 \\\\</p>\n<p>& & 5 & 1 & 2 \\\\</p>\n<p>array</p>\n<p>]</p>\n<blockquote><br />Here, the result is 512₈.</blockquote>",
+   "examples": [
+    "Add the octal numbers 127 and 345. ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications of Octal",
+   "id": "",
+   "html": "<p>Octal is used in various applications, including file permissions in Unix-like operating systems and as a shorthand for groups of three bits in binary data.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Octal System] --&gt; B[Base-8]\n B --&gt; C[Uses Digits 0-7]\n B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;Three&lt;br/&gt;Bits&quot;]\n B --&gt; E[&quot;Foundational for Binary&lt;br/&gt;Data&lt;br/&gt;Shorthand&quot;]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Octal System] --&gt; B[Base-8]\n B --&gt; C[Uses Digits 0-7]\n B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;Three&lt;br/&gt;Bits&quot;]\n B --&gt; E[&quot;Foundational for Binary&lt;br/&gt;Data&lt;br/&gt;Shorthand&quot;]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Octal System] --&gt; B[Base-8]\n B --&gt; C[Uses Digits 0-7]\n B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;Three&lt;br/&gt;Bits&quot;]\n B --&gt; E[&quot;Foundational for Binary&lt;br/&gt;Data&lt;br/&gt;Shorthand&quot;]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n A[Octal System] --> B[Base-8]\n B --> C[Uses Digits 0-7]\n B --> D[\"Each Digit Represents Three<br/>Bits\"]\n B --> E[\"Foundational for Binary Data<br/>Shorthand\"]"
+   ]
+  },
+  {
+   "heading": "Introduction to Decimal System",
+   "id": "",
+   "html": "<p>The <strong>decimal system</strong> is a base-10 number system that uses digits from 0 to 9. It is the most commonly used number system in everyday life and in most practical applications.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Decimal Representation",
+   "id": "",
+   "html": "<p>Each decimal digit represents a power of 10. For example, the decimal number 123 can be read as 1, 2, 3, where each position represents a power of 10.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Decimal to Binary",
+   "id": "",
+   "html": "<p>To convert a decimal number to its binary equivalent, we repeatedly divide the number by 2 and record the remainders.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the decimal number 123 to its binary equivalent.<br /><br />[</div>\n<p>align*</p>\n<p>123 2 & = 61 remainder 1 ;</p>\n<p>61 2 & = 30 remainder 1 ;</p>\n<p>30 2 & = 15 remainder 0 ;</p>\n<p>15 2 & = 7 remainder 1 ;</p>\n<p>7 2 & = 3 remainder 1 ;</p>\n<p>3 2 & = 1 remainder 1 ;</p>\n<p>1 2 & = 0 remainder 1 ;</p>\n<p>align*</p>\n<p>]</p>\n<blockquote><br />Reading the remainders from bottom to top, we get 1111011₂.</blockquote>",
+   "examples": [
+    "Convert the decimal number 123 to its binary equivalent. ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Decimal to Octal",
+   "id": "",
+   "html": "<p>To convert a decimal number to its octal equivalent, we repeatedly divide the number by 8 and record the remainders.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the decimal number 123 to its octal equivalent.<br /><br />[</div>\n<p>align*</p>\n<p>123 8 & = 15 remainder 3 ;</p>\n<p>15 8 & = 1 remainder 7 ;</p>\n<p>1 8 & = 0 remainder 1 ;</p>\n<p>align*</p>\n<p>]</p>\n<blockquote><br />Reading the remainders from bottom to top, we get 173₈.</blockquote>",
+   "examples": [
+    "Convert the decimal number 123 to its octal equivalent. ["
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications of Decimal",
+   "id": "",
+   "html": "<p>Decimal is the most common number system used in everyday life and in most practical applications, such as financial calculations, measurements, and everyday counting.</p>\n<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Decimal System] --&gt; B[Base-10]\n B --&gt; C[Uses Digits 0-9]\n B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 10&quot;]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Decimal System] --&gt; B[Base-10]\n B --&gt; C[Uses Digits 0-9]\n B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 10&quot;]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Decimal System] --&gt; B[Base-10]\n B --&gt; C[Uses Digits 0-9]\n B --&gt; D[&quot;Each Digit Represents&lt;br/&gt;a&lt;br/&gt;Power of 10&quot;]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n A[Decimal System] --> B[Base-10]\n B --> C[Uses Digits 0-9]\n B --> D[\"Each Digit Represents a<br/>Power of 10\"]"
+   ]
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<ul>\n<li><strong>Binary</strong> is a base-2 number system used in digital electronics and computer systems.</li>\n<li><strong>Octal</strong> is a base-8 number system used as a shorthand for binary numbers.</li>\n<li><strong>Decimal</strong> is a base-10 number system used in everyday life and practical applications.</li>\n</ul>\n<p>Each system has its unique applications and is essential for understanding digital systems.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Hexadecimal",
+   "id": "",
+   "html": "<p>Hexadecimal is a base-16 number system that is widely used in digital electronics for representing binary numbers in a more compact and readable form. It simplifies the representation of binary data and is particularly useful in programming and digital circuit design.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Decimal to Binary",
+   "id": "",
+   "html": "<p>To convert a decimal number to binary, we repeatedly divide the number by 2 and record the remainders. The binary number is formed by the remainders read in reverse order.</p>\n<ul>\n<li><strong>Example:</strong></li>\n</ul>\n<p>> <strong>Example:</strong> Convert the decimal number 25 to binary.</p>\n<p>></p>\n<p>> 1. 25 ÷ 2 = 12 remainder 1</p>\n<p>> 2. 12 ÷ 2 = 6 remainder 0</p>\n<p>> 3. 6 ÷ 2 = 3 remainder 0</p>\n<p>> 4. 3 ÷ 2 = 1 remainder 1</p>\n<p>> 5. 1 ÷ 2 = 0 remainder 1</p>\n<p>></p>\n<p>> Reading the remainders in reverse order: 11001</p>\n<p>Thus, the binary equivalent of the decimal number 25 is 11001.</p>",
+   "examples": [
+    "Convert the decimal number 25 to binary. 1. 25 ÷ 2 = 12 remainder 1 2. 12 ÷ 2 = 6 remainder 0 3. 6 ÷ 2 = 3 remainder 0 4. 3 ÷ 2 = 1 remainder 1 5. 1 ÷ 2 = 0 remainder 1 Reading the remainders in reverse order: 11001"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Decimal to Hexadecimal",
+   "id": "",
+   "html": "<p>To convert a decimal number to hexadecimal, we repeatedly divide the number by 16 and record the remainders. The hexadecimal number is formed by the remainders read in reverse order, where 10-15 are represented as A-F.</p>\n<ul>\n<li><strong>Example:</strong></li>\n</ul>\n<p>> <strong>Example:</strong> Convert the decimal number 123 to hexadecimal.</p>\n<p>></p>\n<p>> 1. 123 ÷ 16 = 7 remainder 11 (B)</p>\n<p>> 2. 7 ÷ 16 = 0 remainder 7</p>\n<p>></p>\n<p>> Reading the remainders in reverse order: 7B</p>\n<p>Thus, the hexadecimal equivalent of the decimal number 123 is 7B.</p>",
+   "examples": [
+    "Convert the decimal number 123 to hexadecimal. 1. 123 ÷ 16 = 7 remainder 11 (B) 2. 7 ÷ 16 = 0 remainder 7 Reading the remainders in reverse order: 7B"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Decimal to Octal",
+   "id": "",
+   "html": "<p>To convert a decimal number to octal, we repeatedly divide the number by 8 and record the remainders. The octal number is formed by the remainders read in reverse order.</p>\n<ul>\n<li><strong>Example:</strong></li>\n</ul>\n<p>> <strong>Example:</strong> Convert the decimal number 123 to octal.</p>\n<p>></p>\n<p>> 1. 123 ÷ 8 = 15 remainder 3</p>\n<p>> 2. 15 ÷ 8 = 1 remainder 7</p>\n<p>> 3. 1 ÷ 8 = 0 remainder 1</p>\n<p>></p>\n<p>> Reading the remainders in reverse order: 173</p>\n<p>Thus, the octal equivalent of the decimal number 123 is 173.</p>",
+   "examples": [
+    "Convert the decimal number 123 to octal. 1. 123 ÷ 8 = 15 remainder 3 2. 15 ÷ 8 = 1 remainder 7 3. 1 ÷ 8 = 0 remainder 1 Reading the remainders in reverse order: 173"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Number Conversion Flow",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Decimal to Binary] --&gt; B[&quot;Divide by 2,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]\n A --&gt; C[Decimal to Hexadecimal] --&gt; D[&quot;Divide by 16,&lt;br/&gt;Record&lt;br/&gt;Remainder, A-F&lt;br/&gt;for 10-15,&lt;br/&gt;Reverse Order&quot;]\n A --&gt; E[Decimal to Octal] --&gt; F[&quot;Divide by 8,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Decimal to Binary] --&gt; B[&quot;Divide by 2,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]\n A --&gt; C[Decimal to Hexadecimal] --&gt; D[&quot;Divide by 16,&lt;br/&gt;Record&lt;br/&gt;Remainder, A-F&lt;br/&gt;for 10-15,&lt;br/&gt;Reverse Order&quot;]\n A --&gt; E[Decimal to Octal] --&gt; F[&quot;Divide by 8,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Decimal to Binary] --&gt; B[&quot;Divide by 2,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]\n A --&gt; C[Decimal to Hexadecimal] --&gt; D[&quot;Divide by 16,&lt;br/&gt;Record&lt;br/&gt;Remainder, A-F&lt;br/&gt;for 10-15,&lt;br/&gt;Reverse Order&quot;]\n A --&gt; E[Decimal to Octal] --&gt; F[&quot;Divide by 8,&lt;br/&gt;Record&lt;br/&gt;Remainder,&lt;br/&gt;Reverse Order&quot;]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n A[Decimal to Binary] --> B[\"Divide by 2, Record<br/>Remainder, Reverse Order\"]\n A --> C[Decimal to Hexadecimal] --> D[\"Divide by 16, Record<br/>Remainder, A-F for 10-15,<br/>Reverse Order\"]\n A --> E[Decimal to Octal] --> F[\"Divide by 8, Record<br/>Remainder, Reverse Order\"]"
+   ]
+  },
+  {
+   "heading": "Binary to Decimal",
+   "id": "",
+   "html": "<p>To convert a binary number to decimal, we multiply each digit by 2 raised to the power of its position index (starting from 0 on the right) and sum the results.</p>\n<ul>\n<li><strong>Example:</strong></li>\n</ul>\n<p>> <strong>Example:</strong> Convert the binary number 11001 to decimal.</p>\n<p>></p>\n<blockquote>1. 1 × 2⁴ = 16<br />2. 1 × 2³ = 8<br />3. 0 × 2² = 0<br />4. 0 × 2¹ = 0<br />5. 1 × 2⁰ = 1<br /><br />Sum: 16 + 8 + 0 + 0 + 1 = 25</blockquote>\n<p>Thus, the decimal equivalent of the binary number 11001 is 25.</p>",
+   "examples": [
+    "Convert the binary number 11001 to decimal. 1. 1 × 2⁴ = 16 2. 1 × 2³ = 8 3. 0 × 2² = 0 4. 0 × 2¹ = 0 5. 1 × 2⁰ = 1 Sum: 16 + 8 + 0 + 0 + 1 = 25"
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Binary to Hexadecimal",
+   "id": "",
+   "html": "<p>To convert a binary number to hexadecimal, we divide the binary number into groups of 4 bits (starting from the right) and convert each group to its hexadecimal equivalent.</p>\n<ul>\n<li><strong>Example:</strong></li>\n</ul>\n<p>> <strong>Example:</strong> Convert the binary number 11001101 to hexadecimal.</p>\n<p>></p>\n<p>> 1. Group the binary number: 1100 1101</p>\n<p>> 2. Convert each group: 1100 = C, 1101 = D</p>\n<p>></p>\n<p>> Thus, the hexadecimal equivalent of the binary number 11001101 is CD.</p>",
+   "examples": [
+    "Convert the binary number 11001101 to hexadecimal. 1. Group the binary number: 1100 1101 2. Convert each group: 1100 = C, 1101 = D Thus, the hexadecimal equivalent of the binary number 11001101 is CD."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Binary to Octal",
+   "id": "",
+   "html": "<p>To convert a binary number to octal, we divide the binary number into groups of 3 bits (starting from the right) and convert each group to its octal equivalent.</p>\n<ul>\n<li><strong>Example:</strong></li>\n</ul>\n<p>> <strong>Example:</strong> Convert the binary number 11001101 to octal.</p>\n<p>></p>\n<p>> 1. Group the binary number: 110 011 01</p>\n<p>> 2. Convert each group: 110 = 6, 011 = 3, 010 = 2</p>\n<p>></p>\n<p>> Thus, the octal equivalent of the binary number 11001101 is 325.</p>",
+   "examples": [
+    "Convert the binary number 11001101 to octal. 1. Group the binary number: 110 011 01 2. Convert each group: 110 = 6, 011 = 3, 010 = 2 Thus, the octal equivalent of the binary number 11001101 is 325."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Binary to Other Number Systems Flow",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[Binary to Decimal] --&gt; B[&quot;Group by 1, Multiply&lt;br/&gt;by&lt;br/&gt;2^Index, Sum Results&quot;]\n A --&gt; C[Binary to Hexadecimal] --&gt; D[&quot;Group by 4, Convert&lt;br/&gt;to&lt;br/&gt;Hexadecimal&quot;]\n A --&gt; E[Binary to Octal] --&gt; F[&quot;Group by 3, Convert to Octal&quot;]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[Binary to Decimal] --&gt; B[&quot;Group by 1, Multiply&lt;br/&gt;by&lt;br/&gt;2^Index, Sum Results&quot;]\n A --&gt; C[Binary to Hexadecimal] --&gt; D[&quot;Group by 4, Convert&lt;br/&gt;to&lt;br/&gt;Hexadecimal&quot;]\n A --&gt; E[Binary to Octal] --&gt; F[&quot;Group by 3, Convert to Octal&quot;]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[Binary to Decimal] --&gt; B[&quot;Group by 1, Multiply&lt;br/&gt;by&lt;br/&gt;2^Index, Sum Results&quot;]\n A --&gt; C[Binary to Hexadecimal] --&gt; D[&quot;Group by 4, Convert&lt;br/&gt;to&lt;br/&gt;Hexadecimal&quot;]\n A --&gt; E[Binary to Octal] --&gt; F[&quot;Group by 3, Convert to Octal&quot;]</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n A[Binary to Decimal] --> B[\"Group by 1, Multiply by<br/>2^Index, Sum Results\"]\n A --> C[Binary to Hexadecimal] --> D[\"Group by 4, Convert to<br/>Hexadecimal\"]\n A --> E[Binary to Octal] --> F[\"Group by 3, Convert to Octal\"]"
+   ]
+  },
+  {
+   "heading": "Complements: 1’s Complement",
+   "id": "",
+   "html": "<p>1’s Complement is a method used to represent negative numbers in binary. To find the 1’s complement of a binary number, we simply invert all the bits (change 0s to 1s and 1s to 0s).</p>\n<ul>\n<li><strong>Example:</strong></li>\n</ul>\n<p>> <strong>Example:</strong> Find the 1’s complement of the binary number 10101101.</p>\n<p>></p>\n<p>> 1. Invert each bit: 01010010</p>\n<p>></p>\n<p>> Thus, the 1’s complement of the binary number 10101101 is 01010010.</p>",
+   "examples": [
+    "Find the 1’s complement of the binary number 10101101. 1. Invert each bit: 01010010 Thus, the 1’s complement of the binary number 10101101 is 01010010."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: 1’s Complement",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">sequenceDiagram\n participant User\n participant BinaryNumber\n participant Complement\n User -&gt;&gt; BinaryNumber: 10101101\n BinaryNumber -&gt;&gt; Complement: Invert each bit\n Complement -&gt;&gt; User: 01010010</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>sequenceDiagram\n participant User\n participant BinaryNumber\n participant Complement\n User -&gt;&gt; BinaryNumber: 10101101\n BinaryNumber -&gt;&gt; Complement: Invert each bit\n Complement -&gt;&gt; User: 01010010</pre></details><noscript><pre class=\"mermaid-src\">sequenceDiagram\n participant User\n participant BinaryNumber\n participant Complement\n User -&gt;&gt; BinaryNumber: 10101101\n BinaryNumber -&gt;&gt; Complement: Invert each bit\n Complement -&gt;&gt; User: 01010010</pre></noscript></div>",
+   "examples": [],
+   "mermaid": [
+    "sequenceDiagram\n participant User\n participant BinaryNumber\n participant Complement\n User ->> BinaryNumber: 10101101\n BinaryNumber ->> Complement: Invert each bit\n Complement ->> User: 01010010"
+   ]
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<ul>\n<li><strong>Decimal to Binary/Hexadecimal/Octal Conversion:</strong></li>\n<li>Decimal to Binary: Repeatedly divide by 2 and record remainders.</li>\n<li>Decimal to Hexadecimal: Repeatedly divide by 16 and record remainders.</li>\n<li>Decimal to Octal: Repeatedly divide by 8 and record remainders.</li>\n<li><strong>Binary to Decimal/Hexadecimal/Octal Conversion:</strong></li>\n<li>Binary to Decimal: Multiply each bit by 2^Index and sum the results.</li>\n<li>Binary to Hexadecimal: Group by 4 and convert each group.</li>\n<li>Binary to Octal: Group by 3 and convert each group.</li>\n<li><strong>1’s Complement:</strong></li>\n<li>Invert all bits of the binary number.</li>\n</ul>\n<p>These conversions are essential for understanding and working with digital systems and are frequently tested in exams.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to 2’s Complement",
+   "id": "",
+   "html": "<p><strong>2’s complement</strong> is a method used in digital electronics and computing to represent both positive and negative numbers in binary form. This method is particularly useful in arithmetic operations such as addition and subtraction. In 2’s complement, the most significant bit (MSB) is used as a sign bit: 0 for positive numbers and 1 for negative numbers.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps to Find 2’s Complement",
+   "id": "",
+   "html": "<ol>\n<li><strong>1’s Complement</strong>: First, find the 1’s complement by inverting all the bits of the binary number.</li>\n<li><strong>2’s Complement</strong>: Next, add 1 to the 1’s complement to get the 2’s complement.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Finding 2’s Complement",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Find the 2’s complement of the binary number 0101.<br /><br />1. <strong>1’s Complement</strong>: Invert all the bits: 1010.<br />2. <strong>2’s Complement</strong>: Add 1 to the 1’s complement: 1010 + 1 = 1011.<br /><br />The 2’s complement of 0101 is 1011.</div>",
+   "examples": [
+    "Find the 2’s complement of the binary number 0101. 1. **1’s Complement**: Invert all the bits: 1010. 2. **2’s Complement**: Add 1 to the 1’s complement: 1010 + 1 = 1011. The 2’s complement of 0101 is 1011."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Addition of 2’s Complement Numbers",
+   "id": "",
+   "html": "<p>When adding two 2’s complement numbers, if there is a carry out of the MSB, it is discarded. The result is the 2’s complement of the difference of the two numbers.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: 2’s Complement Binary Addition",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Perform the 2’s complement addition of 0101 (5) and 1011 (-5).<br /><br />Step 1: Convert the numbers to their 2’s complement form if they are negative.<br />- 0101 (5) is already positive.<br />- 1011 (-5) is in 2’s complement form.<br /><br />Step 2: Add the numbers.<br />- 0101<br />+ 1011<br />- - - -<br />- 11000<br /><br />Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference.<br />- 11000 - 1 = 10111 (11 in decimal, but this is not the final result as the MSB is 1, indicating an overflow).<br /><br />The result is 10111, which is the 2’s complement of 00000 (0 in decimal).</div>",
+   "examples": [
+    "Perform the 2’s complement addition of 0101 (5) and 1011 (-5). Step 1: Convert the numbers to their 2’s complement form if they are negative. - 0101 (5) is already positive. - 1011 (-5) is in 2’s complement form. Step 2: Add the numbers. - 0101 + 1011 - - - - - 11000 Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference. - 11000 - 1 = 10111 (11 in decimal, but this is not the final result as the MSB is 1, indicating an overflow). The result is 10111, which is the 2’s complement of 00000 (0 in decimal)."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example: 2’s Complement Addition",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Add the 2’s complement numbers 0110 (6) and 1001 (-7).<br /><br />Step 1: Convert the numbers to their 2’s complement form if they are negative.<br />- 0110 (6) is already positive.<br />- 1001 (-7) is in 2’s complement form.<br /><br />Step 2: Add the numbers.<br />- 0110<br />+ 1001<br />- - - -<br />- 10111<br /><br />Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference.<br />- 10111 - 1 = 10110 (22 in decimal, but this is not the final result as the MSB is 1, indicating an overflow).<br /><br />The result is 10110, which is the 2’s complement of 00010 (2 in decimal).</div>",
+   "examples": [
+    "Add the 2’s complement numbers 0110 (6) and 1001 (-7). Step 1: Convert the numbers to their 2’s complement form if they are negative. - 0110 (6) is already positive. - 1001 (-7) is in 2’s complement form. Step 2: Add the numbers. - 0110 + 1001 - - - - - 10111 Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference. - 10111 - 1 = 10110 (22 in decimal, but this is not the final result as the MSB is 1, indicating an overflow). The result is 10110, which is the 2’s complement of 00010 (2 in decimal)."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Subtraction",
+   "id": "",
+   "html": "<p>Subtraction in digital systems can be performed using 2’s complement addition. The concept is based on the fact that subtracting a number is equivalent to adding its 2’s complement.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps to Perform Subtraction Using 2’s Complement",
+   "id": "",
+   "html": "<ol>\n<li><strong>Find the 2’s Complement</strong>: Find the 2’s complement of the number to be subtracted.</li>\n<li><strong>Add the Numbers</strong>: Add the result to the minuend.</li>\n<li><strong>Handle Overflow</strong>: If there is a carry out of the MSB, discard it. The result is the 2’s complement of the difference.</li>\n</ol>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Subtraction Using 2’s Complement",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Subtract 0110 (6) from 1001 (-7).<br /><br />Step 1: Find the 2’s complement of the number to be subtracted.<br />- 0110 (6) is positive, so find the 2’s complement of 0110.<br />- 1’s complement: 1001.<br />- 2’s complement: 1001 + 1 = 1010.<br /><br />Step 2: Add the result to the minuend.<br />- 1001<br />+ 1010<br />- - - -<br />- 00111<br /><br />Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference.<br />- 00111 - 1 = 00110 (22 in decimal, but this is not the final result as the MSB is 0, indicating no overflow).<br /><br />The result is 00110, which is 2 in decimal.</div>",
+   "examples": [
+    "Subtract 0110 (6) from 1001 (-7). Step 1: Find the 2’s complement of the number to be subtracted. - 0110 (6) is positive, so find the 2’s complement of 0110. - 1’s complement: 1001. - 2’s complement: 1001 + 1 = 1010. Step 2: Add the result to the minuend. - 1001 + 1010 - - - - - 00111 Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference. - 00111 - 1 = 00110 (22 in decimal, but this is not the final result as the MSB is 0, indicating no overflow). The result is 00110, which is 2 in decimal."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example: Subtraction Using 2’s Complement",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Subtract 1010 (10) from 0111 (-9).<br /><br />Step 1: Find the 2’s complement of the number to be subtracted.<br />- 1010 (10) is positive, so find the 2’s complement of 1010.<br />- 1’s complement: 0101.<br />- 2’s complement: 0101 + 1 = 0110.<br /><br />Step 2: Add the result to the minuend.<br />- 0111<br />+ 0110<br />- - - -<br />- 10101<br /><br />Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference.<br />- 10101 - 1 = 10100 (20 in decimal, but this is not the final result as the MSB is 1, indicating an overflow).<br /><br />The result is 10100, which is the 2’s complement of 01100 (12 in decimal).</div>",
+   "examples": [
+    "Subtract 1010 (10) from 0111 (-9). Step 1: Find the 2’s complement of the number to be subtracted. - 1010 (10) is positive, so find the 2’s complement of 1010. - 1’s complement: 0101. - 2’s complement: 0101 + 1 = 0110. Step 2: Add the result to the minuend. - 0111 + 0110 - - - - - 10101 Step 3: Discard the carry out (1) and consider the result as the 2’s complement of the difference. - 10101 - 1 = 10100 (20 in decimal, but this is not the final result as the MSB is 1, indicating an overflow). The result is 10100, which is the 2’s complement of 01100 (12 in decimal)."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Gray Code",
+   "id": "",
+   "html": "<p><strong>Gray Code</strong> is a non-weighted binary code where only one bit changes between consecutive numbers. This feature makes it useful in applications where errors can occur during transitions, such as in encoders and digital displays.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Gray Code Representation",
+   "id": "",
+   "html": "<p>The Gray code for a binary number can be generated by reflecting the binary number and adding 1 to the result. For example, the Gray code for 0001 is 0001, and the Gray code for 0010 is 0011.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example: Generating Gray Code",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Generate the Gray code for the binary number 0011.<br /><br />Step 1: Reflect the binary number.<br />- 0011 reflected is 1100.<br /><br />Step 2: Add 1 to the reflected number.<br />- 1100 + 1 = 1101.<br /><br />The Gray code for 0011 is 1101.</div>",
+   "examples": [
+    "Generate the Gray code for the binary number 0011. Step 1: Reflect the binary number. - 0011 reflected is 1100. Step 2: Add 1 to the reflected number. - 1100 + 1 = 1101. The Gray code for 0011 is 1101."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Worked Example: Gray Code",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Generate the Gray code for the binary number 0110.<br /><br />Step 1: Reflect the binary number.<br />- 0110 reflected is 0110.<br /><br />Step 2: Add 1 to the reflected number.<br />- 0110 + 1 = 0111.<br /><br />The Gray code for 0110 is 0111.</div>",
+   "examples": [
+    "Generate the Gray code for the binary number 0110. Step 1: Reflect the binary number. - 0110 reflected is 0110. Step 2: Add 1 to the reflected number. - 0110 + 1 = 0111. The Gray code for 0110 is 0111."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Mermaid Diagram: Gray Code Transition",
+   "id": "",
+   "html": "<div class=\"mermaid-wrap\"><div class=\"mermaid\">flowchart TD\n A[0000] --&gt; B[0001]\n B --&gt; C[0011]\n C --&gt; D[0010]\n D --&gt; E[0110]\n E --&gt; F[0111]\n F --&gt; G[0101]\n G --&gt; H[0100]\n H --&gt; I[1100]\n I --&gt; J[1101]\n J --&gt; K[1111]\n K --&gt; L[1110]\n L --&gt; M[1010]\n M --&gt; N[1011]</div><details class=\"mermaid-src\"><summary>Diagram source</summary><pre>flowchart TD\n A[0000] --&gt; B[0001]\n B --&gt; C[0011]\n C --&gt; D[0010]\n D --&gt; E[0110]\n E --&gt; F[0111]\n F --&gt; G[0101]\n G --&gt; H[0100]\n H --&gt; I[1100]\n I --&gt; J[1101]\n J --&gt; K[1111]\n K --&gt; L[1110]\n L --&gt; M[1010]\n M --&gt; N[1011]</pre></details><noscript><pre class=\"mermaid-src\">flowchart TD\n A[0000] --&gt; B[0001]\n B --&gt; C[0011]\n C --&gt; D[0010]\n D --&gt; E[0110]\n E --&gt; F[0111]\n F --&gt; G[0101]\n G --&gt; H[0100]\n H --&gt; I[1100]\n I --&gt; J[1101]\n J --&gt; K[1111]\n K --&gt; L[1110]\n L --&gt; M[1010]\n M --&gt; N[1011]</pre></noscript></div>\n<p>This diagram shows the transition of binary numbers to their corresponding Gray codes. Each step shows the transformation from binary to Gray code by reflection and addition of 1.</p>\n<hr />",
+   "examples": [],
+   "mermaid": [
+    "flowchart TD\n A[0000] --> B[0001]\n B --> C[0011]\n C --> D[0010]\n D --> E[0110]\n E --> F[0111]\n F --> G[0101]\n G --> H[0100]\n H --> I[1100]\n I --> J[1101]\n J --> K[1111]\n K --> L[1110]\n L --> M[1010]\n M --> N[1011]"
+   ]
+  },
+  {
+   "heading": "Introduction to BCD Code",
+   "id": "",
+   "html": "<p>BCD (Binary-Coded Decimal) is a form of binary encoding where each decimal digit is represented by a four-bit binary number. BCD is widely used in digital systems, particularly in applications where direct decimal input and output are required, such as in calculators, digital clocks, and some types of computer systems.</p>\n<p><strong>BCD Representation:</strong></p>\n<ul>\n<li>Each decimal digit (0-9) is represented by a 4-bit binary number.</li>\n<li>For example, the decimal digit 5 is represented as 0101 in BCD.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Types of BCD Codes",
+   "id": "",
+   "html": "<ol>\n<li><strong>8421 BCD:</strong></li>\n</ol>\n<ul>\n<li>The most commonly used BCD code.</li>\n<li>Each decimal digit is represented by a 4-bit binary number where the weights of the bits are 8, 4, 2, and 1.</li>\n<li>For example, the decimal number 5 is represented as 0101 in 8421 BCD.</li>\n</ul>\n<ol>\n<li><strong>4210 BCD:</strong></li>\n</ol>\n<ul>\n<li>Each decimal digit is represented by a 4-bit binary number where the weights of the bits are 4, 2, 1, and 0.</li>\n<li>For example, the decimal number 5 is represented as 0100 in 4210 BCD.</li>\n</ul>\n<ol>\n<li><strong>5421 BCD:</strong></li>\n</ol>\n<ul>\n<li>Each decimal digit is represented by a 4-bit binary number where the weights of the bits are 5, 4, 2, and 1.</li>\n<li>For example, the decimal number 5 is represented as 0101 in 5421 BCD.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the decimal number 125 to 8421 BCD.<br /><br />- The decimal number 125 can be broken down as 125 = 120 + 5.<br />- 120 is 114 in decimal, which is 10010100 in 8421 BCD.<br />- 5 is 0101 in 8421 BCD.<br />- Therefore, the 8421 BCD representation of 125 is 100101000101.</div>",
+   "examples": [
+    "Convert the decimal number 125 to 8421 BCD. - The decimal number 125 can be broken down as 125 = 120 + 5. - 120 is 114 in decimal, which is 10010100 in 8421 BCD. - 5 is 0101 in 8421 BCD. - Therefore, the 8421 BCD representation of 125 is 100101000101."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications of BCD Code",
+   "id": "",
+   "html": "<ul>\n<li><strong>Calculator Displays:</strong> BCD is used to display decimal numbers directly without the need for complex conversion algorithms.</li>\n<li><strong>Digital Clocks:</strong> BCD is used to display time in hours, minutes, and seconds.</li>\n<li><strong>Computer Systems:</strong> BCD is used in systems where direct decimal input and output are required.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Code Conversation",
+   "id": "",
+   "html": "<p>Code conversation refers to the process of converting a number from one number system to another. This process is essential in digital systems where data needs to be transmitted, stored, or processed in different formats.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Steps for Code Conversation",
+   "id": "",
+   "html": "<ol>\n<li><strong>Identify the Source and Destination Number Systems:</strong></li>\n</ol>\n<ul>\n<li>Determine the number system of the source (input) and the number system of the destination (output).</li>\n</ul>\n<ol>\n<li><strong>Convert to a Common Intermediate Base:</strong></li>\n</ol>\n<ul>\n<li>Convert the source number to a common intermediate base, such as binary, before converting it to the destination number system.</li>\n</ul>\n<ol>\n<li><strong>Perform the Conversion:</strong></li>\n</ol>\n<ul>\n<li>Convert the intermediate base number to the destination number system.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the hexadecimal number 3F to binary, then convert the binary number to decimal.<br /><br />- <strong>Step 1: Convert Hexadecimal to Binary</strong><br />- Hexadecimal 3F can be broken down as 3 and F.<br />- 3 in binary is 0011.<br />- F (15 in decimal) in binary is 1111.<br />- Therefore, the binary representation of 3F is 00111111.<br /><br />- <strong>Step 2: Convert Binary to Decimal</strong><br />- The binary number 00111111 can be converted to decimal by summing the values of the bits that are set to 1.<br />- 00111111 = 2⁶ + 2⁵ + 2⁴ + 2³ + 2² + 2¹ + 2⁰ = 64 + 32 + 16 + 8 + 4 + 2 + 1 = 127.<br />- Therefore, the decimal representation of 3F is 127.</div>",
+   "examples": [
+    "Convert the hexadecimal number 3F to binary, then convert the binary number to decimal. - **Step 1: Convert Hexadecimal to Binary** - Hexadecimal 3F can be broken down as 3 and F. - 3 in binary is 0011. - F (15 in decimal) in binary is 1111. - Therefore, the binary representation of 3F is 00111111. - **Step 2: Convert Binary to Decimal** - The binary number 00111111 can be converted to decimal by summing the values of the bits that are set to 1. - 00111111 = 2⁶ + 2⁵ + 2⁴ + 2³ + 2² + 2¹ + 2⁰ = 64 + 32 + 16 + 8 + 4 + 2 + 1 = 127. - Therefore, the decimal representation of 3F is 127."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications of Code Conversation",
+   "id": "",
+   "html": "<ul>\n<li><strong>Data Transmission:</strong> Code conversation is used in digital communication systems to ensure data is transmitted in the correct format.</li>\n<li><strong>Data Storage:</strong> Code conversation is used in memory systems to store data in various formats.</li>\n<li><strong>Data Processing:</strong> Code conversation is used in digital systems to process data in different formats.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Hexadecimal Number System",
+   "id": "",
+   "html": "<p>The hexadecimal number system is a base-16 number system. It uses 16 distinct symbols, 0-9 and A-F, where A-F represent the decimal values 10-15.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Hexadecimal to Decimal",
+   "id": "",
+   "html": "<ol>\n<li><strong>Identify the Position of Each Digit:</strong></li>\n</ol>\n<ul>\n<li>Each position in a hexadecimal number has a power of 16.</li>\n<li>The rightmost digit has a position of 16⁰, the next digit to the left has a position of 16¹, and so on.</li>\n</ul>\n<ol>\n<li><strong>Multiply Each Digit by Its Position Value:</strong></li>\n</ol>\n<ul>\n<li>Multiply each digit by its position value and sum the results.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the hexadecimal number A2 to decimal.<br /><br />- The position values are: 2 (16⁰) and A (16¹).<br />- A in decimal is 10.<br />- A2 = 10 <em> 16¹ + 2 </em> 16⁰ = 160 + 2 = 162.<br />- Therefore, the decimal representation of A2 is 162.</div>",
+   "examples": [
+    "Convert the hexadecimal number A2 to decimal. - The position values are: 2 (16⁰) and A (16¹). - A in decimal is 10. - A2 = 10 * 16¹ + 2 * 16⁰ = 160 + 2 = 162. - Therefore, the decimal representation of A2 is 162."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Hexadecimal to Binary",
+   "id": "",
+   "html": "<ol>\n<li><strong>Convert Each Hexadecimal Digit to 4-bit Binary:</strong></li>\n</ol>\n<ul>\n<li>Each hexadecimal digit can be directly converted to a 4-bit binary number.</li>\n<li>For example, A in binary is 1010.</li>\n</ul>\n<ol>\n<li><strong>Concatenate the Binary Representations:</strong></li>\n</ol>\n<ul>\n<li>Concatenate the binary representations of each hexadecimal digit.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the hexadecimal number A2 to binary.<br /><br />- A in binary is 1010.<br />- 2 in binary is 0010.<br />- Therefore, the binary representation of A2 is 10100010.</div>",
+   "examples": [
+    "Convert the hexadecimal number A2 to binary. - A in binary is 1010. - 2 in binary is 0010. - Therefore, the binary representation of A2 is 10100010."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Hexadecimal to Octal",
+   "id": "",
+   "html": "<ol>\n<li><strong>Convert Each Hexadecimal Digit to 3-bit Binary:</strong></li>\n</ol>\n<ul>\n<li>Each hexadecimal digit can be converted to a 3-bit binary number.</li>\n<li>For example, A in binary is 1010, which can be grouped as 1010 (101 010).</li>\n</ul>\n<ol>\n<li><strong>Group the Binary Digits into Sets of 3:</strong></li>\n</ol>\n<ul>\n<li>Group the binary digits into sets of 3, starting from the right.</li>\n<li>If necessary, add leading zeros to make complete groups of 3.</li>\n</ul>\n<ol>\n<li><strong>Convert Each Group to Octal:</strong></li>\n</ol>\n<ul>\n<li>Convert each group of 3 binary digits to its octal equivalent.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div>Convert the hexadecimal number A2 to octal.<br /><br />- A2 in binary is 10100010.<br />- Group the binary digits into sets of 3: 010 100 010.<br />- Convert each group to octal: 010 = 2, 100 = 4, 010 = 2.<br />- Therefore, the octal representation of A2 is 242.</div>",
+   "examples": [
+    "Convert the hexadecimal number A2 to octal. - A2 in binary is 10100010. - Group the binary digits into sets of 3: 010 100 010. - Convert each group to octal: 010 = 2, 100 = 4, 010 = 2. - Therefore, the octal representation of A2 is 242."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Applications of Hexadecimal Number System",
+   "id": "",
+   "html": "<ul>\n<li><strong>Memory Addressing:</strong> Hexadecimal is used to represent memory addresses in computer systems.</li>\n<li><strong>Color Codes:</strong> Hexadecimal is used to represent colors in web design and computer graphics.</li>\n<li><strong>Data Representation:</strong> Hexadecimal is used in data transmission and storage for compact representation.</li>\n</ul>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<ul>\n<li><strong>BCD Code:</strong> BCD is a binary encoding of decimal digits. Each decimal digit is represented by a 4-bit binary number.</li>\n<li><strong>Code Conversation:</strong> Code conversation involves converting a number from one number system to another.</li>\n<li><strong>Hexadecimal Number System:</strong> Hexadecimal is a base-16 number system used in various applications such as memory addressing and color codes.</li>\n</ul>\n<p>By understanding these concepts, students will be well-prepared to handle number system conversions and related applications in digital electronics.</p>\n<hr />",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Introduction to Octal Number System",
+   "id": "",
+   "html": "<p>The octal number system is a base-8 numeral system that uses the digits 0 to 7. It is often used in digital systems as a shorthand for binary numbers, since each octal digit corresponds to exactly three binary digits (bits).</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Octal to Decimal",
+   "id": "",
+   "html": "<p>To convert an octal number to its decimal equivalent, each digit in the octal number is multiplied by 8 raised to the power of its position, starting from 0 on the right.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<p>Convert the octal number 752 to its decimal equivalent.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />Given octal number: 752<br /><br />Step 1: Write down the positional values:<br /><br />[<br />752₈ = 7 · 8² + 5 · 8¹ + 2 · 8⁰<br />]<br /><br />Step 2: Calculate each term:<br /><br />[<br />7 · 8² = 7 · 64 = 448<br />]<br /><br />[<br />5 · 8¹ = 5 · 8 = 40<br />]<br /><br />[<br />2 · 8⁰ = 2 · 1 = 2<br />]<br /><br />Step 3: Sum the results:<br /><br />[<br />448 + 40 + 2 = 490<br />]<br /><br />Therefore, 752₈ = 490₁₀.</div>",
+   "examples": [
+    "Given octal number: 752 Step 1: Write down the positional values: [ 752₈ = 7 · 8² + 5 · 8¹ + 2 · 8⁰ ] Step 2: Calculate each term: [ 7 · 8² = 7 · 64 = 448 ] [ 5 · 8¹ = 5 · 8 = 40 ] [ 2 · 8⁰ = 2 · 1 = 2 ] Step 3: Sum the results: [ 448 + 40 + 2 = 490 ] Therefore, 752₈ = 490₁₀."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Octal to Binary",
+   "id": "",
+   "html": "<p>To convert an octal number to binary, each octal digit is replaced by its 3-bit binary equivalent.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<p>Convert the octal number 752 to its binary equivalent.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />Given octal number: 752<br /><br />Step 1: Convert each octal digit to 3-bit binary:<br /><br />[<br />7₈ = 111₂<br />]<br /><br />[<br />5₈ = 101₂<br />]<br /><br />[<br />2₈ = 010₂<br />]<br /><br />Step 2: Combine the binary digits:<br /><br />[<br />752₈ = 111101010₂<br />]<br /><br />Therefore, 752₈ = 111101010₂.</div>",
+   "examples": [
+    "Given octal number: 752 Step 1: Convert each octal digit to 3-bit binary: [ 7₈ = 111₂ ] [ 5₈ = 101₂ ] [ 2₈ = 010₂ ] Step 2: Combine the binary digits: [ 752₈ = 111101010₂ ] Therefore, 752₈ = 111101010₂."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Conversion from Octal to Hexadecimal",
+   "id": "",
+   "html": "<p>To convert an octal number to hexadecimal, first convert the octal number to binary, and then group the binary digits into sets of four, starting from the right. If necessary, pad with zeros to make complete groups. Each group of four binary digits is then converted to its hexadecimal equivalent.</p>",
+   "examples": [],
+   "mermaid": []
+  },
+  {
+   "heading": "Example:",
+   "id": "",
+   "html": "<p>Convert the octal number 752 to its hexadecimal equivalent.</p>\n<div class=\"kb-example\"><div class=\"kb-example-badge\"><i class=\"fas fa-pen\"></i> Example</div><br /><br />Given octal number: 752<br /><br />Step 1: Convert to binary:<br /><br />[<br />752₈ = 111101010₂<br />]<br /><br />Step 2: Group binary digits into sets of four:<br /><br />[<br />1111 \\ 0101 \\ 0000₂<br />]<br /><br />Step 3: Convert each group to hexadecimal:<br /><br />[<br />1111₂ = F₁₆<br />]<br /><br />[<br />0101₂ = 5₁₆<br />]<br /><br />[<br />0000₂ = 0₁₆<br />]<br /><br />Step 4: Combine the hexadecimal digits:<br /><br />[<br />752₈ = F50₁₆<br />]<br /><br />Therefore, 752₈ = F50₁₆.</div>",
+   "examples": [
+    "Given octal number: 752 Step 1: Convert to binary: [ 752₈ = 111101010₂ ] Step 2: Group binary digits into sets of four: [ 1111 \\ 0101 \\ 0000₂ ] Step 3: Convert each group to hexadecimal: [ 1111₂ = F₁₆ ] [ 0101₂ = 5₁₆ ] [ 0000₂ = 0₁₆ ] Step 4: Combine the hexadecimal digits: [ 752₈ = F50₁₆ ] Therefore, 752₈ = F50₁₆."
+   ],
+   "mermaid": []
+  },
+  {
+   "heading": "Summary",
+   "id": "",
+   "html": "<ul>\n<li>Octal to Decimal: Multiply each digit by 8posⁱtⁱoⁿ and sum.</li>\n<li>Octal to Binary: Replace each octal digit with its 3-bit binary equivalent.</li>\n<li>Octal to Hexadecimal: Convert to binary first, then group into 4-bit segments and convert.</li>\n</ul>\n<p>These conversions are essential for understanding and working with digital systems, particularly in their binary and hexadecimal representations.</p>",
+   "examples": [],
+   "mermaid": []
+  }
+ ]
+}

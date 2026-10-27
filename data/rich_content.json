@@ -1,0 +1,513 @@
+{
+  "version": 1,
+  "_readme": [
+    "SINGLE SOURCE OF TRUTH FOR SITE-WIDE EDITORIAL COPY.",
+    "Everything an AdSense content reviewer reads that is NOT a subject's own",
+    "textbook/papers/syllabus lives here: the homepage, every branch landing page,",
+    "every semester index, and the papers/syllabus/tools pages.",
+    "",
+    "HOW TO USE:",
+    "  1. Edit any string below. Keep {{placeholders}} intact -- they are filled in",
+    "     per page from that page's real data (branch name, subject count, etc.).",
+    "  2. Run:  npm run enrich",
+    "     This rewrites every generated page in public/ in place. It is idempotent,",
+    "     so you can run it as often as you like and only the copy changes.",
+    "  3. Commit. Next `node scripts/generate.js` also renders from this file, so",
+    "     newly generated pages carry the same copy.",
+    "",
+    "RULES OF THUMB FOR ADMITTING NEW COPY:",
+    "  - Say something a student could not get from a bare list of links.",
+    "  - Never claim a resource exists unless it really does on this site.",
+    "  - One idea per sentence; short paragraphs. Readers skim, Google reads.",
+    "  - Do not paste the same paragraph into two page types; each block below is",
+    "    rendered once per page type and made unique by its placeholders."
+  ],
+
+  "site": {
+    "name": "Khudkibook",
+    "siteUrl": "https://khudkibook.in",
+    "university": "Gujarat Technological University",
+    "universityShort": "GTU",
+    "region": "Gujarat, India",
+    "email": "khudkibook.in@gmail.com",
+    "instagram": "https://www.instagram.com/khudkibook/"
+  },
+
+  "thresholds": {
+    "minWords": 250,
+    "_comment": "Any indexable page with fewer visible words than this is considered thin. scripts/enrich_pages.js enriches the page types it knows; anything still under the line is noindexed so it cannot trigger a low-value finding."
+  },
+
+  "shared": {
+    "whatYouGet": {
+      "title": "What You Get On Every Subject Page",
+      "intro": "Each subject page is built from the official GTU record, not from guesswork. Before you open a PDF, you can see the subject code, the credit value, the total marks, and which previous years have a paper on file.",
+      "points": [
+        {
+          "icon": "fa-file-pdf",
+          "heading": "Previous year question papers",
+          "body": "Papers are linked straight from the official GTU question-paper archive wherever one exists. Solving the last four or five sittings of a paper is the single most reliable way to learn GTU's question pattern and the marks weightage it actually uses."
+        },
+        {
+          "icon": "fa-book-open",
+          "heading": "Textbook links where they exist",
+          "body": "Some subjects have a full textbook PDF attached. Where one is not available yet, the button says so plainly instead of pretending otherwise. The official syllabus PDF is always one click away so you can buy or borrow the right edition."
+        },
+        {
+          "icon": "fa-list-ol",
+          "heading": "Unit-wise syllabus breakdown",
+          "body": "The unit list on each subject page comes from the GTU syllabus document itself. Use it to turn a whole subject into a checklist of units and tick them off as you revise."
+        },
+        {
+          "icon": "fa-share-alt",
+          "heading": "One-tap sharing",
+          "body": "Every page has a share button. Send the subject page to your group instead of forwarding a mystery PDF link, so everyone lands on the same, current version."
+        }
+      ]
+    },
+    "howToUse": {
+      "title": "How To Use This Site In Four Steps",
+      "steps": [
+        {
+          "n": "1",
+          "heading": "Pick your branch and semester",
+          "body": "Start from the home page, choose Diploma, BE or ME, then your branch. Each branch page lists every semester with the number of subjects it holds, so you can jump straight to the semester you are sitting."
+        },
+        {
+          "n": "2",
+          "heading": "Read the subject table",
+          "body": "The semester page opens with a table of subject codes, names, credits and total marks. Match the codes against your GTU exam timetable or hall ticket so you download the right paper."
+        },
+        {
+          "n": "3",
+          "heading": "Open a subject and take the papers",
+          "body": "On the subject page, use the Paper button for previous year papers and the Syllabus button for the official GTU syllabus PDF. The Book button is enabled only when a textbook PDF is actually attached."
+        },
+        {
+          "n": "4",
+          "heading": "Attempt papers before you revise",
+          "body": "Attempt a past paper closed-book first, then mark it against the syllabus units you have not covered yet. That tells you what to revise far faster than reading a textbook cover to cover."
+        }
+      ]
+    },
+    "faq": [
+      {
+        "q": "Is Khudkibook free to use?",
+        "a": "Yes. Every syllabus, textbook link and previous year paper on this site is free, with no login wall and no payment step. The site is run by students, and its only aim is to keep GTU study material in one place that is easy to search."
+      },
+      {
+        "q": "Are the question papers official GTU papers?",
+        "a": "The papers linked from subject pages come from Gujarat Technological University's own question-paper archive. We link to the source rather than hosting a copy, so what you open is the paper as the university published it."
+      },
+      {
+        "q": "Why does some material say Coming Soon?",
+        "a": "We only publish a link once we have verified that the file exists and opens. When a subject has neither a textbook nor a paper on file yet, the page says Coming Soon instead of sending you to a dead link. Those subjects still carry the official syllabus PDF, which is enough to start."
+      },
+      {
+        "q": "Do you provide solutions or notes for the papers?",
+        "a": "We publish the question papers themselves and the official syllabus. Treat the papers as your practice material: attempt them under a timer, then compare answers with your textbook. Group discussion with the same paper is usually more useful than a read-made solution PDF."
+      },
+      {
+        "q": "Which branches and semesters are covered?",
+        "a": "The site covers GTU Diploma, BE Degree and ME programmes across every branch GTU offers, with a semester page for each one. Coverage depth varies by branch because paper availability varies; each semester page shows the exact subject count it currently holds."
+      }
+    ]
+  },
+
+  "homepage": {
+    "title": "Free GTU Study Material, Organised The Way Your Syllabus Is",
+    "intro": "Khudkibook gathers the study material a Gujarat Technological University engineering student actually needs — the official syllabus PDF, the previous year question papers, and textbook links where they exist — and files every one of them under the branch and semester it belongs to. There is no login, no download limit and no paywall. You land on a subject page, take what you need, and close the tab.",
+    "intro2": "The reason the material is organised by branch and semester rather than in one long list is simple: GTU's exam system is semester-wise, and so is the way students revise. A student sitting Sem-3 Information Technology papers does not want Sem-5 Mechanical subjects in the way. Choosing Diploma, BE or ME, then your branch, then your semester, puts the correct subject table in front of you in three clicks.",
+    "sections": [
+      {
+        "icon": "fa-compass",
+        "heading": "Why this site exists",
+        "body": "GTU publishes syllabus documents and question papers, but they live in different places, in different formats, and older sittings go deep in the archive. Students end up trading PDFs in WhatsApp groups, where a file named with the wrong subject code is common and nobody can tell which version is current. Khudkibook solves that one problem: one subject, one page, the correct code, and the papers that belong to it."
+      },
+      {
+        "icon": "fa-shield-alt",
+        "heading": "How we keep the material honest",
+        "body": "Nothing is published until the file is verified to open and to match the subject code on this page. When a resource is missing we say Coming Soon rather than linking somewhere unverified. The syllabus PDF on every page is the one GTU issued, so the units you revise are the units you will be examined on."
+      },
+      {
+        "icon": "fa-mobile-alt",
+        "heading": "Study from a phone, mid-commute",
+        "body": "Every page is built to load on a mid-range Android phone over a weak connection, and the branch grid, subject table and paper links are readable without zooming. There is also an Android app if you would rather keep saved subjects offline."
+      },
+      {
+        "icon": "fa-infinity",
+        "heading": "Free, and staying free",
+        "body": "There is no premium tier. The material stays free because the cost of running it is small and because the person who built this site sat the same GTU papers a few years ago. If a link ever breaks, the contact page is the fastest way to get it fixed."
+      }
+    ],
+    "numbers": {
+      "intro": "What is on the site right now",
+      "note": "Counts below are generated from the site's own subject database, so they move as material is added."
+    },
+    "faqTitle": "Common Questions From GTU Students"
+  },
+
+  "branch": {
+    "default": {
+      "heading": "About GTU {{branch}} ({{level}})",
+      "semListNote": "Each semester below opens a table of subject codes, credits and total marks, and every subject name links to its own page.",
+      "about": "This page collects every semester of GTU {{branch}} {{level}} that we have on file, with the subject code, credit value and total marks for each one. It is meant to be the single tab you keep open while the semester runs, so you can check a code against your timetable, open the syllabus for a unit, and pull the last few years of papers without searching for them again.",
+      "whatIs": "{{branch}} at {{university}} is a semester-wise programme. The early semesters carry the shared engineering foundation — mathematics, applied physics or chemistry, and communication skills — while the later semesters move into the branch's own core and electives. The subject table on each semester page reflects that split, so you can see at a glance which papers are core and which are electives.",
+      "careersNote": "Students of {{branch}} usually head into one of a few directions after graduation: a technical role in an engineering firm, a software or systems role if the degree carried enough computing, or further study through GATE, an ME programme, or a competitive exam. Which direction suits you is easier to judge once you know which subjects you actually enjoyed, and the semester pages are the fastest way to find that out.",
+      "focus": [
+        "Start every semester by reading the official syllabus unit list once, end to end, before opening any textbook. It takes ten minutes and tells you exactly how much ground the paper covers.",
+        "Attempt at least one full previous year paper under a two-hour clock before your first revision round. The gap between what you can write and what the paper asks is your real revision list.",
+        "Keep the credit value and total marks in view while planning. A four-credit subject deserves roughly twice the revision time of a two-credit one, and students routinely get that ratio backwards.",
+        "Re-attempt every paper you got wrong, a week later, from a blank sheet. Re-reading a marked paper feels like revision but is closer to recognition."
+      ]
+    },
+    "profiles": {
+      "computer": {
+        "about": "This page collects every semester of GTU Computer {{level}} that we have on file, with the subject code, credit value and total marks for each one. Computer is one of the most subscribed branches in Gujarat, which also means its previous year papers are among the most useful to solve: the question pattern has been stable for years, and the same data-structure, operating-system and database questions recur across sittings.",
+        "careersNote": "Computer graduates from GTU typically move into software development, testing, data or infrastructure roles, or continue into an ME/M.Tech. Campus placement drives usually start from the sixth semester, so the branch core subjects you master by Sem-5 and Sem-6 are the ones most likely to be interviewed on.",
+        "focus": [
+          "Data Structures and Algorithms is the subject that decides most technical interviews. Solve its previous year papers first, then re-solve the questions you could not answer.",
+          "Operating Systems, DBMS and Computer Networks carry heavy theory weight in GTU papers. Write out the definitions and diagrams by hand at least once; reading them is not enough for a three-hour theory paper.",
+          "The programming-lab subjects are marked on the record you submit. Keep a running file of programs from each unit instead of rebuilding them the night before.",
+          "Mathematics subjects in Sem-1 to Sem-3 decide your CPI early. Treat them as high-stakes even when they feel unrelated to your branch."
+        ]
+      },
+      "it": {
+        "about": "This page collects every semester of GTU Information Technology {{level}} that we have on file, with the subject code, credit value and total marks for each one. IT shares much of its syllabus with Computer Engineering, so if a paper is missing here, check the Computer branch page as well before assuming it does not exist.",
+        "careersNote": "IT graduates usually move into software, support, networking, web or cloud roles, or into further study. Because the syllabus overlaps heavily with Computer Engineering, students are often interviewed for the same positions, which makes the shared core subjects worth preparing properly rather than treating them as easy credits.",
+        "focus": [
+          "The shared Computer core — Data Structures, DBMS, Operating Systems, Networks — appears in IT papers with the same weightage. Prepare them exactly as a Computer student would.",
+          "Web and internet-technology subjects are the easiest to revise by building something small rather than by reading. Write the code the syllabus asks for once and keep it.",
+          "Theory-heavy subjects carry most of the marks in Sem-5 to Sem-7. Attempt their previous year papers under a clock so you learn how much writing a three-hour paper actually expects.",
+          "The final-year project is worth real credits and is marked continuously. Start it in the semester it is assigned, not in the last month."
+        ]
+      },
+      "civ": {
+        "about": "This page collects every semester of GTU Civil {{level}} that we have on file, with the subject code, credit value and total marks for each one. Civil carries a heavier drawing and design load than most branches, so the papers that students find hardest are usually the ones that ask for a sketch or a design, not the pure theory ones.",
+        "careersNote": "Civil graduates commonly move into site execution, surveying, structural design, quality or government roles through competitive exams. Site work rewards the subjects that are practical — Surveying, Estimation, Construction Technology — while design roles reward Structural Analysis and Concrete Design.",
+        "focus": [
+          "Surveying and Geotechnical subjects are marked on method as much as on the final number. Write the procedure steps out in order; examiners award method marks.",
+          "Structural Analysis and Concrete/Steel Design need practice on paper, not reading. Redo the same problem until the steps are automatic.",
+          "Estimation and Costing papers are usually the most scoring in the branch because the method is fixed. Solve the last four sittings and the pattern becomes obvious.",
+          "Bring a scale and drafting basics into your revision for the drawing subjects; a diagram done correctly earns more than a paragraph describing it."
+        ]
+      },
+      "elect": {
+        "about": "This page collects every semester of GTU Electrical {{level}} that we have on file, with the subject code, credit value and total marks for each one. Electrical is a broad branch — machines, power systems, electronics, control and measurement all appear — so the trick to a good CPI is knowing which subjects feed which, rather than treating every semester as eight unrelated papers.",
+        "careersNote": "Electrical graduates typically move into power distribution, panel or plant work, manufacturing, electronics, or government electrical services. GATE in Electrical Engineering is a common route to PSU roles, and the subjects it tests are the same branch-core subjects you sit in Sem-3 to Sem-7.",
+        "focus": [
+          "Circuit and Network Analysis is the foundation half the later subjects assume. If it is shaky, fix it before the machines subjects pile on.",
+          "Machines and Power Systems papers reward neat circuit diagrams and clearly stated assumptions. Draw the circuit even when the question does not ask for one.",
+          "Measurements and Instrumentation is scoring and practical. Learn the instrument names and their uses exactly as the syllabus states them.",
+          "Numerical problems in Electrical carry a lot of marks. Practise them timed; most students run out of paper, not time."
+        ]
+      },
+      "mech": {
+        "about": "This page collects every semester of GTU Mechanical {{level}} that we have on file, with the subject code, credit value and total marks for each one. Mechanical is the broadest branch in terms of subject variety — thermal, manufacturing, design, automotive and automation all appear — so the semester pages here are a useful map of which direction each semester is pulling you in.",
+        "careersNote": "Mechanical graduates commonly move into production, quality, design, maintenance, automotive or thermal plant roles, and into government engineering services. Design roles value the Sem-4 to Sem-6 subjects on machine design and thermodynamics, while production roles value manufacturing and metrology.",
+        "focus": [
+          "Thermodynamics, Fluid Mechanics and Heat Transfer share the same formula sheet mentally. Learn which variables belong to which, instead of memorising each formula separately.",
+          "Manufacturing and Workshop subjects are marked on process knowledge. Name the machine, the process and the tool, in that order.",
+          "Machine Design problems award method marks heavily. Write the given data, the formula, the substitution, and then the answer.",
+          "Engineering drawing is easiest marks in the branch if you practise projections regularly; it is a skill, not a subject you can revise by reading."
+        ]
+      },
+      "auto": {
+        "about": "This page collects every semester of GTU Automobile {{level}} that we have on file, with the subject code, credit value and total marks for each one. Automobile sits on top of the Mechanical fundamentals, so the first few semesters look similar to Mechanical and the branch-specific papers — vehicle systems, chassis, engine auxiliaries, two-wheeler technology — arrive from Sem-4 onwards.",
+        "careersNote": "Automobile graduates typically move into vehicle manufacturing and assembly, dealership service and technical support, component suppliers, or fleet and workshop management. OEM plants in Gujarat hire heavily from this branch, and the interview almost always covers engine and vehicle systems.",
+        "focus": [
+          "Automobile chassis and vehicle engineering papers want component names and functions, not derivation. Build a labelled sketch of each system you study.",
+          "Engine-related subjects are best revised from a cut-section or a workshop manual alongside the textbook; the diagrams carry the marks.",
+          "The mechanical fundamentals in Sem-1 to Sem-3 are shared with Mechanical and appear in the same form. Prepare them as if you were a Mechanical student.",
+          "Electrical and electronics subjects appear here too. Even a basic grounding in wiring diagrams helps a lot in both the paper and the placement interview."
+        ]
+      },
+      "chm": {
+        "about": "This page collects every semester of GTU Chemical {{level}} that we have on file, with the subject code, credit value and total marks for each one. Chemical is numerically heavy — process calculations, mass and energy balances, reaction engineering — so the students who do well are the ones who solve problems by hand rather than reading solutions.",
+        "careersNote": "Chemical graduates typically move into process plants, quality and analytical roles, production, environmental compliance, or design and simulation. Plant roles in Gujarat's refinery and pharmaceutical belt recruit from this branch every year, and the interview focuses on process safety and unit operations.",
+        "focus": [
+          "Mass and energy balance is the subject everything else leans on. Practise it until balancing an entire plant flow sheet is routine.",
+          "Process calculation problems award marks for the setup as much as the answer. Write the basis, the formula and the units every single time.",
+          "Chemical reaction engineering and process dynamics are the papers students leave for last and then struggle with. Attempt their previous year papers early.",
+          "The laboratory subjects are marked on the record you submit. Keep the observation and result tables in the format the record asks for."
+        ]
+      },
+      "elec_comm": {
+        "about": "This page collects every semester of GTU Electronics and Communication {{level}} that we have on file, with the subject code, credit value and total marks for each one. ECE is one of the wider branches — analog and digital electronics, signals and systems, communication, microwave and even some programming — so the semester pages are the quickest way to see how the branch is weighted.",
+        "careersNote": "ECE graduates typically move into embedded systems, VLSI and chip design, telecom and network roles, software, or further study through GATE in Electronics. Semiconductor and embedded firms recruit specifically from this branch, and they test signals, digital electronics and microprocessors.",
+        "focus": [
+          "Signals and Systems is the subject most ECE students find hardest. Attempt its previous year papers early, and re-attempt the numericals until the transforms are automatic.",
+          "Digital Electronics and Microprocessors carry high weightage and are scoring once the logic families, flip-flops and instruction sets are memorised properly.",
+          "Analog Electronics wants both derivation and circuit intuition. Draw the circuit for every problem, even when the paper does not ask for it.",
+          "Communication theory is formula-heavy. Build one revision sheet per unit during the semester rather than in the last week."
+        ]
+      },
+      "ai": {
+        "about": "This page collects every semester of GTU {{branch}} {{level}} that we have on file, with the subject code, credit value and total marks for each one. This is a newer branch in the GTU programme, so the syllabus changes more often than the older branches do. Always cross-check a subject code against the current GTU syllabus PDF on the subject page before you buy a textbook for it.",
+        "careersNote": "Graduates of the AI, Data Science and Machine Learning branches typically move into data analysis, machine-learning engineering, data engineering, or software roles. Because the fundamentals are shared with Computer Engineering, students remain eligible for the same campus software roles as well.",
+        "focus": [
+          "Statistics and linear algebra are the real foundation of the branch, not the frameworks. Practise them by hand; the papers test the maths.",
+          "Programming subjects in these branches are marked on the program you submit. Keep one clean, commented solution per unit.",
+          "Machine learning subjects reward knowing why a method is chosen, not only how to apply it. Write one line of justification in every numerical answer.",
+          "Because the syllabus changes, treat the subject-page syllabus PDF as the authority and the textbook as a supporting reference."
+        ]
+      },
+      "civil_diploma": {
+        "about": "This page collects every semester of GTU Civil Diploma that we have on file, with the subject code, credit value and total marks for each one. The diploma in Civil is practice-oriented: surveying, estimation, materials and site documentation carry as much weight as the theory subjects, and the papers reflect that.",
+        "careersNote": "Civil diploma holders typically move into site supervision, surveying, quality testing, estimation and drafting roles, often on infrastructure and building projects. Site roles reward the practical subjects heavily, so the surveying and estimation papers are worth scoring well in.",
+        "focus": [
+          "Surveying is the most directly employable subject in the diploma. Learn the instrument procedures in order, and practise the field work if you have access to an instrument.",
+          "Estimation and valuation papers follow a fixed method. Solve the last four sittings and the pattern becomes predictable.",
+          "Construction materials and concrete technology are scoring. Learn the test names, what each test measures and the standard values the syllabus quotes.",
+          "The drawing subjects are easier marks than students expect. Practise projections weekly rather than the night before."
+        ]
+      },
+      "computer_diploma": {
+        "about": "This page collects every semester of GTU Computer Diploma that we have on file, with the subject code, credit value and total marks for each one. The diploma is more application-focused than the BE programme: programming, database, web and networking subjects appear earlier and with more practical marking.",
+        "careersNote": "Computer diploma holders typically move into software support, web development, networking, database administration, or testing roles, and many continue into the BE degree later. Because the practical subjects are marked on the work you submit, consistent lab records matter as much as the theory paper.",
+        "focus": [
+          "Programming subjects carry practical marks. Submit clean, working programs for every unit as the semester goes on, not a batch at the end.",
+          "Networking and operating system subjects are the most memorisation-heavy. Learn port numbers, commands and topologies in short daily sets.",
+          "Web development subjects are the easiest to revise by building. Recreate each practical once, from a blank file.",
+          "Mathematics in the early semesters decides your CPI early. Do not treat it as a subject you can pass on the last day."
+        ]
+      },
+      "electrical_diploma": {
+        "about": "This page collects every semester of GTU Electrical Diploma that we have on file, with the subject code, credit value and total marks for each one. The diploma keeps a strong practical core — wiring, machines, measurement and maintenance — alongside the circuit theory papers.",
+        "careersNote": "Electrical diploma holders typically move into panel wiring, maintenance, plant operation, testing, or electrical supervision roles. Industrial electrician and technician hiring in Gujarat prefers candidates who can both solve a circuit problem and wire it correctly.",
+        "focus": [
+          "Wiring and installation subjects are marked practically. Practise the circuit layouts on paper before the lab session.",
+          "Machines papers want the equivalent circuit and the phasor diagram, not just the final value. Draw them every time.",
+          "Measurement and instrumentation is the most scoring subject in the diploma. Learn which instrument measures which quantity.",
+          "Electrical drawing symbols are worth memorising on their own; several papers award marks purely for a correctly labelled diagram."
+        ]
+      },
+      "mechanical_diploma": {
+        "about": "This page collects every semester of GTU Mechanical Diploma that we have on file, with the subject code, credit value and total marks for each one. The diploma is workshop-heavy: machining, welding, drafting and maintenance appear alongside the theory, and the practical record is worth real marks.",
+        "careersNote": "Mechanical diploma holders typically move into production, maintenance, quality inspection, CNC operation or drafting roles. Production and maintenance hiring in Gujarat's manufacturing belt prefers candidates who can read a drawing and set a machine, so the workshop and drafting papers matter more than they look.",
+        "focus": [
+          "Engineering drawing is the most reusable skill in this diploma. Practise projections and sectioning weekly, not the night before.",
+          "Workshop technology wants process names and tool names in the right order. Write them as a sequence.",
+          "Thermodynamics and strength of materials carry the highest theory weightage. Attempt their previous year papers early.",
+          "The practical record is marked as submitted. Keep the observation tables in the format the record asks for from day one."
+        ]
+      }
+    }
+  },
+
+  "profileAliases": {
+    "_comment": "Branch id -> profile key in branch.profiles. Add a line here when a new branch should reuse an existing profile instead of the default.",
+    "ece": "elec_comm",
+    "ec": "elec_comm",
+    "ec-cs": "elec_comm",
+    "electronics": "elec_comm",
+    "electronics-telecom": "elec_comm",
+    "eee": "electrical",
+    "electrical-engineering-dlm": "electrical_diploma",
+    "civil-engineering-dlm": "civil_diploma",
+    "mechanical-engineering-dlm": "mechanical_diploma",
+    "mechanical-engineering-cad-cam": "mechanical",
+    "automobile-engineering": "auto",
+    "aeronautical": "mech",
+    "chemical-technology": "chm",
+    "chemical-green": "chm",
+    "power-electronics": "electrical",
+    "instrumentation": "electrical",
+    "automation-and-robotics": "mech",
+    "mechatronics": "mech",
+    "production": "mech",
+    "metallurgy": "mech",
+    "mining": "civil_diploma",
+    "transportation-engineering": "civil_diploma",
+    "cs-design": "computer",
+    "cse": "computer",
+    "cs-ai": "ai",
+    "cs-ai-ml": "ai",
+    "cs-cyber": "computer",
+    "cs-data-science": "ai",
+    "cs-iot-cyber": "computer",
+    "ai-data-science": "ai",
+    "ai-ml": "ai",
+    "ds": "ai",
+    "ict-iot": "it",
+    "ics": "it",
+    "it": "it",
+    "biomedical": "mech",
+    "biotechnology": "chm",
+    "environmental": "chm",
+    "renewable-energy": "electrical",
+    "smart-energy": "electrical",
+    "plastics": "chm",
+    "rubber": "chm",
+    "nano": "chm",
+    "textile-manufacturing": "mech",
+    "textile-processing": "chm",
+    "textile-designing": "mech",
+    "printing-technology": "mech",
+    "fabrication-technology": "mech",
+    "ceramic-technology": "chm",
+    "fire-technology": "mech",
+    "fire-technology-and-safety": "mech",
+    "home-science": "mech",
+    "commercial-practice": "it",
+    "commercial-art": "it",
+    "costume-design": "it",
+    "fashion-and-design": "it",
+    "film-technology-and-tv-production-cinematography": "it",
+    "animation-and-multimedia-technology": "it",
+    "artificial-intelligence-ai-and-machine-learning": "ai"
+  },
+
+  "semester": {
+    "default": {
+      "title": "{{semName}} Of GTU {{branch}} {{level}}",
+      "intro": "This is the subject list for {{semName}} of GTU {{branch}} {{level}}. The table gives you the GTU subject code, the credit value and the total marks for each subject, and each subject name links to its own page with the syllabus PDF and any previous year papers we have verified. Match the codes on this page against your timetable or hall ticket before you download anything, because two subjects with similar names can carry entirely different codes.",
+      "workload": "Semesters in this programme carry between {{minCredits}} and {{maxCredits}} credits in total across {{nSubjects}} subjects. The credit value printed next to each subject is the honest guide to how much revision time it deserves; students routinely spend a week on a two-credit elective and two days on a four-credit core, then wonder why the core paper went badly.",
+      "adviceTitle": "How To Work Through This Semester",
+      "advice": [
+        "Download the syllabus PDF for every subject in this table in the first week. It is free, it is official, and it is the only document that tells you exactly which units you will be examined on.",
+        "Attempt one previous year paper per subject before your first revision round. The difference between what you can write and what the paper asks is your actual revision list, and it is almost always shorter than you fear.",
+        "Group the subjects by exam date rather than by difficulty. GTU papers fall close together, and the subject you find easy still needs a full pass the night before.",
+        "Keep the credit column in view while planning. It is the closest thing the syllabus gives you to a fair weightage."
+      ],
+      "emptyNote": "Some subjects in this table still show Coming Soon for books or papers. That means we have not verified a file yet, not that none exists. The official syllabus PDF is available on every subject page regardless, so you can start revising immediately."
+    },
+    "bySem": {
+      "sem1": {
+        "title": "Semester 1 Of GTU {{branch}} {{level}}: Where Every Branch Shares The Same Foundation",
+        "intro": "Semester 1 of the GTU engineering programme is common across branches on purpose. Whatever you eventually specialise in, the first two semesters give you the mathematics, applied science, communication and basic computing that every later subject quietly assumes. That has a practical consequence for revision: the marks you score here stay in your CPI for all eight semesters, and the subjects you coast through here tend to cost you in Sem-3 and Sem-4 when the branch subjects lean on them.",
+        "workload": "Semester 1 carries {{minCredits}} to {{maxCredits}} credits across {{nSubjects}} subjects. Mathematics and the applied science papers usually hold the highest credit value, which makes them the highest-return revision in the semester even though they are rarely the ones students enjoy most.",
+        "advice": [
+          "Treat Mathematics-1 and the applied physics or chemistry papers as the real subjects of this semester. Everything in Sem-3 onwards assumes you can differentiate, integrate and balance an equation without hesitating.",
+          "Communication and English papers are among the most scoring in the entire programme because the marking is on structure and clarity rather than on specialist knowledge. Write full answers with an introduction and a conclusion.",
+          "The programming or computer utilisation subject, where your branch has one, is best revised by typing the programs once rather than reading them. The practical record carries marks that are easy to collect and easy to lose.",
+          "Engineering Graphics is a skill subject. Fifteen minutes of projection practice a day beats a five-hour session the night before the paper."
+        ]
+      },
+      "sem2": {
+        "title": "Semester 2 Of GTU {{branch}} {{level}}: Finishing The Common Foundation",
+        "intro": "Semester 2 closes the common engineering foundation. It carries the second half of the mathematics sequence, the second applied science paper, and in most branches the first subjects that hint at the specialisation to come. Because Sem-1 and Sem-2 together set most of your early CPI, and because the branch subjects from Sem-3 assume this material, Semester 2 is the last cheap opportunity to fix a weak foundation before it starts costing you marks in harder subjects.",
+        "workload": "Semester 2 carries {{minCredits}} to {{maxCredits}} credits across {{nSubjects}} subjects. Check the table carefully: some branches introduce their first branch-specific subject here, and those papers are usually the ones students under-revision because they do not feel like core subjects yet.",
+        "advice": [
+          "Finish the mathematics sequence properly. Sem-3 branch subjects quietly assume you can apply the methods from Sem-1 and Sem-2 without re-deriving them.",
+          "Where this semester introduces a first branch subject, attempt its previous year paper early. Early exposure to the branch vocabulary makes Sem-3 far less of a shock.",
+          "Intellectual Property Rights and similar short-credit subjects are free marks if you read the syllabus units once. They are also easy to forget entirely, so put them in your revision calendar now.",
+          "Use the mid-semester break to re-attempt every paper you scored poorly on. Re-doing a paper from a blank sheet a week later is the fastest fix available."
+        ]
+      },
+      "sem3": {
+        "title": "Semester 3 Of GTU {{branch}} {{level}}: The Branch Properly Starts",
+        "intro": "Semester 3 is where the common foundation ends and the branch subjects take over. The jump catches students out every year: the subjects are more numerous, the syllabus is denser, and the previous year papers stop being predictable in the way the Sem-1 and Sem-2 papers were. This is also the semester where the difference between a subject with papers on file and a subject without them starts to matter, so it is worth checking the paper availability on every subject page before you plan your revision.",
+        "workload": "Semester 3 carries {{minCredits}} to {{maxCredits}} credits across {{nSubjects}} subjects. This is typically one of the heaviest semesters in the programme, so start earlier than you did in Sem-1 and Sem-2 rather than later.",
+        "advice": [
+          "Attempt every previous year paper on file before you open a textbook for any subject this semester. The branch subjects have their own vocabulary and you need to hear it in the examiner's words first.",
+          "Group the subjects by how much writing they demand, not by how hard they feel. A theory paper that expects six long answers needs a different preparation than a numerical paper that expects eight problems.",
+          "Core subjects this semester carry forward into Sem-4, Sem-5 and the project. A weak Sem-3 core shows up as a weak final year, so do not trade it for an easy elective mark.",
+          "Join or form a group of four or five. Branch subjects are the ones where discussing a problem with someone who understood it saves the most time."
+        ]
+      },
+      "sem4": {
+        "title": "Semester 4 Of GTU {{branch}} {{level}}: Where The Branch Core Sets Your CPI",
+        "intro": "Semester 4 is the middle of the programme and, in most GTU branches, the semester that decides your final CPI band. It carries the second half of the branch core, the subjects that later electives and the final-year project assume, and a credit load close to Semester 3. Students who have kept a decent CPI by now tend to protect it in this semester; students who have not tend to find that Sem-4 is where recovery becomes expensive.",
+        "workload": "Semester 4 carries {{minCredits}} to {{maxCredits}} credits across {{nSubjects}} subjects. Check the credit column carefully: the core subjects this semester are usually the four-credit ones, and they are the ones that move your CPI most.",
+        "advice": [
+          "Solve the previous year papers for every core subject this semester under a real clock. Sem-4 core papers are where the length of the paper catches students out, not the difficulty.",
+          "The subjects you pass here feed directly into the final-year project and the electives in Sem-5 to Sem-7. A hollow pass costs you later, so give the core subjects the time the credit value asks for.",
+          "Keep one running document per subject through the semester, with one page of formulas and definitions per unit. It becomes your entire revision kit in the last week.",
+          "If a subject has no papers on file, use the syllabus unit list as your structure and prepare five expected questions per unit. That is roughly what a GTU paper asks."
+        ]
+      },
+      "sem5": {
+        "title": "Semester 5 Of GTU {{branch}} {{level}}: Specialisation And The First Placement Season",
+        "intro": "Semester 5 is where the programme opens up. The branch core is largely behind you, electives and specialised subjects appear, and for the first time the syllabus leaves room to go deeper in the direction you actually want to work in. It is also the semester most students begin preparing for placement drives, which means the same weeks carry both the exam preparation and the interview preparation.",
+        "workload": "Semester 5 carries {{minCredits}} to {{maxCredits}} credits across {{nSubjects}} subjects. Electives this semester are worth choosing on interest rather than on ease, because they are the subjects a placement interviewer is most likely to ask you about.",
+        "advice": [
+          "Choose electives on genuine interest. They are the only subjects in the programme you get to pick, and they are the ones an interviewer will assume you know well.",
+          "Attempt previous year papers for the specialised subjects early. They are less predictable than the core papers, so early exposure matters more here than in any earlier semester.",
+          "If placement preparation is running alongside exam preparation, keep them separate by time of day. Splitting attention across both usually damages both.",
+          "Start keeping a one-page note per subject that you could revise in fifteen minutes. Sem-5 to Sem-7 carry enough subjects that the last week before exams becomes a scheduling problem before it becomes a knowledge problem."
+        ]
+      },
+      "sem6": {
+        "title": "Semester 6 Of GTU {{branch}} {{level}}: The Heaviest Semester For Most Branches",
+        "intro": "Semester 6 is, for most GTU branches, the busiest semester of the programme. It carries the last of the specialised core, the electives that complete the branch picture, and in many branches a mini-project or seminar that is marked continuously rather than in a single exam. It is also the semester immediately before the final-year project, which makes the subject list here the working toolkit you will rely on for the next year.",
+        "workload": "Semester 6 carries {{minCredits}} to {{maxCredits}} credits across {{nSubjects}} subjects. With this many subjects, the risk is not difficulty but scheduling: two hard papers falling on consecutive days is the failure mode, and only an early start protects against it.",
+        "advice": [
+          "Build the revision calendar in the first week of the semester, not in the last. With this many subjects the constraint is the exam timetable, not the syllabus.",
+          "Treat the seminar or mini-project, where your branch has one, as a subject with a deadline rather than as an extra. It is marked across the semester and cannot be crammed.",
+          "Attempt previous year papers for the specialised subjects under a clock. They are the papers where running out of time costs the most.",
+          "The subjects you pass here are the ones the final-year project will draw on. Learn them properly even when a shallow pass would raise the CPI."
+        ]
+      },
+      "sem7": {
+        "title": "Semester 7 Of GTU {{branch}} {{level}}: Project Work Begins In Earnest",
+        "intro": "Semester 7 is where the programme stops being entirely exam-driven. Alongside the elective and specialised subjects, most GTU branches carry major project work that is evaluated across the year rather than in a three-hour paper. The semester is also when placement activity is heaviest, so the students who handle Sem-7 well are the ones who decided early in the semester how the three commitments — project, exams and interviews — would share the year.",
+        "workload": "Semester 7 carries {{minCredits}} to {{maxCredits}} credits across {{nSubjects}} subjects, plus the project credits that most branches attach to this year. The subject list is usually shorter than Sem-6 but each subject is deeper.",
+        "advice": [
+          "Fix the project topic and guide in the first weeks. A project that drifts into November consumes the exact weeks the elective papers need.",
+          "The specialised subjects this semester are the ones an interviewer will treat as your speciality. Prepare them as if they were a technical interview, because effectively they are.",
+          "Attempt previous year papers early and write full answers. Sem-7 papers expect longer, more argued responses than the earlier semesters.",
+          "Keep the subject list here short in your head and deep in your notes. It is better to revise four subjects properly than seven superficially."
+        ]
+      },
+      "sem8": {
+        "title": "Semester 8 Of GTU {{branch}} {{level}}: The Last Semester",
+        "intro": "Semester 8 of the GTU programme is mostly the final-year project, with a small number of elective or professional subjects alongside it. It is the only semester where the largest share of your marks comes from work submitted across the year rather than from a written paper, which changes how the whole semester should be planned. The subject table below still matters — those papers are real and they still count — but the project is the larger commitment.",
+        "workload": "Semester 8 carries {{minCredits}} to {{maxCredits}} credits across {{nSubjects}} subjects, most of them electives, alongside the final-year project. Check the table carefully: some of these subjects are shared across branches and their papers look identical from branch to branch.",
+        "advice": [
+          "Treat the project report as a subject with weekly deadlines. GTU project evaluation rewards a report that was assembled as the work was done, not one written in the final fortnight.",
+          "Do not leave the last-semester electives unprepared. They are frequently the easiest papers in the programme and students still lose CPI on them.",
+          "Attempt the previous year papers for every subject in this table. Elective papers often repeat closely across sittings, which makes them unusually predictable.",
+          "Prepare the project presentation as carefully as the report. The viva is where the marks that the report alone cannot secure are decided."
+        ]
+      }
+    },
+    "sharedNote": {
+      "heading": "About The Papers On This Page",
+      "body": "Every paper linked from a subject page in this semester comes from GTU's own question-paper archive. We link to the source rather than hosting a copy, so what you open is the paper as the university published it. Where a subject shows Coming Soon, we have not verified a file for it yet — the official syllabus PDF is still available on that subject's page, which is enough to begin."
+    }
+  },
+
+  "tools": {
+    "papers": {
+      "title": "Find GTU Previous Year Question Papers",
+      "intro": "This page finds the previous year question papers for your branch and semester. Choose a branch, choose a semester, and you land on that semester's subject table, where each subject page carries the papers GTU has published for it. The papers are linked straight from the university's own archive rather than re-hosted here, so what you open is the original.",
+      "whyTitle": "Why Past Papers Are Worth More Than Notes",
+      "why": [
+        "A GTU paper tells you the real question pattern: how many long answers are expected, how the marks split between sections, and which units the examiner keeps returning to. No textbook states that as plainly.",
+        "Attempting a paper under a two-hour clock is the only realistic way to find out whether you can actually write an answer in the time available. Reading a chapter feels like preparation; writing an answer under a clock is preparation.",
+        "GTU repeats concepts across sittings more often than it repeats questions. Solving four or five years of papers exposes the concepts that keep coming back, which is close to a revision list.",
+        "Papers also show you the format of marks allocation inside a question — how many marks for the derivation, how many for the diagram — which changes how much you should write."
+      ],
+      "howTitle": "How To Use The Selector",
+      "how": [
+        "Pick your branch from the first list. If you are unsure, match it against the branch printed on your hall ticket or timetable.",
+        "Pick your semester from the second list. GTU semesters are numbered, so Sem-3 is the third semester of your programme, not the third year.",
+        "You land on the semester's subject table. Open a subject and use the Paper button to see every previous year paper we have verified for it.",
+        "Attempt the paper before you open the syllabus or the textbook. Then use the syllabus units on the same page to mark the gaps."
+      ]
+    },
+    "syllabus": {
+      "title": "Find The Official GTU Syllabus For Any Subject",
+      "intro": "This page finds the official GTU syllabus document for your branch and semester. Choose a branch and a semester to reach that semester's subject table, and use the Syllabus button on any subject page to open the syllabus PDF that GTU issued for that subject code. The syllabus is the only document that states exactly which units you will be examined on, and it is worth reading once, end to end, before you open any textbook.",
+      "whyTitle": "Why The Syllabus Comes Before The Textbook",
+      "why": [
+        "The syllabus unit list tells you how much ground a paper covers. Students who skip it routinely revise for a five-unit paper as if it were three units, and lose marks on the two they never opened.",
+        "GTU syllabus documents also carry the marks weightage per unit. That is the closest thing to a revision priority list the university publishes.",
+        "Buying or borrowing a textbook becomes cheaper once you know the unit list, because you can check whether one edition actually covers it.",
+        "Where a subject page shows a unit-wise breakdown, that breakdown comes from this syllabus PDF. If the two ever disagree, the PDF is the authority."
+      ],
+      "howTitle": "How To Use The Selector",
+      "how": [
+        "Choose your branch, then your semester, to reach the subject table for that semester.",
+        "Open any subject page and use the Syllabus button to open the official GTU syllabus PDF for that subject code.",
+        "Read the unit list once before you start revising, then turn it into a checklist you can tick off.",
+        "Where the subject page also lists previous year papers, attempt one before you begin the checklist."
+      ]
+    },
+    "blog": {
+      "title": "Study Guides For GTU Students",
+      "intro": "These are practical guides written for students sitting GTU exams, not rewritten encyclopedia entries. Each one answers a question students actually ask — how to plan a month before winter exams, what a backlog really does to your CPI, how DDCET preparation differs from the semester routine, and how to read a previous year paper for what it is actually telling you. Every guide is written to be read once and acted on the same day."
+    }
+  }
+}

@@ -45,6 +45,7 @@ function parseArgs(argv) {
         else if (a === '--delay') opts.delay = parseInt(argv[++i], 10) || 0;
         else if (a === '--dry-run') opts.dryRun = true;
         else if (a === '--max') opts.max = parseInt(argv[++i], 10) || 0;
+        else if (a === '--only') opts.only = String(argv[++i]).split(',').map(s => s.trim()).filter(Boolean);
     }
     if (!opts.years) {
         const years = [];
@@ -78,6 +79,12 @@ async function searchCodeSessions(code, extype, sessions, opts = {}) {
     const html = await crawler.fetchHTML(GTU_BASE + '/Download1.aspx', { retries: 1, timeoutMs: 30000 });
     if (html.status !== 200 || !html.body) throw new Error(`GET Download1.aspx -> ${html.status}`);
 
+    // GTU redirects the download page to whichever host currently serves the
+    // archive. The hidden form fields came from that host, so the search has to
+    // be POSTed back to it -- posting to gtu.ac.in just earns another redirect,
+    // which turns the POST into a bodyless GET and returns nothing.
+    const formUrl = html.url || GTU_BASE + '/Download1.aspx';
+
     const $ = cheerio.load(html.body);
     const baseBody = new URLSearchParams();
     $('input[type="hidden"]').each((i, el) => {
@@ -101,16 +108,20 @@ async function searchCodeSessions(code, extype, sessions, opts = {}) {
 
         let res;
         try {
-            res = await fetch(GTU_BASE + '/Download1.aspx', {
+            const headers = {
+                'User-Agent': UA,
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'Origin': new URL(formUrl).origin,
+                'Referer': formUrl,
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+            };
+            // Pin the POST to the backend that issued the form, or the server
+            // intermittently answers 500 and the code comes back with no papers.
+            if (html.cookies) headers.Cookie = html.cookies;
+            res = await fetch(formUrl, {
                 method: 'POST',
                 redirect: 'follow',
-                headers: {
-                    'User-Agent': UA,
-                    'Content-Type': 'application/x-www-form-urlencoded',
-                    'Origin': GTU_BASE,
-                    'Referer': GTU_BASE + '/Download1.aspx',
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
-                },
+                headers,
                 body: body.toString()
             });
         } catch (e) {
@@ -119,12 +130,16 @@ async function searchCodeSessions(code, extype, sessions, opts = {}) {
         }
         if (!res.ok) { log(`  ✗ ${code} ${session}: HTTP ${res.status}`); continue; }
         const respHtml = await res.text();
+        // GTU redirects the download page to whichever host currently serves the
+        // archive, and the result rows link to their PDFs relatively. Resolve
+        // against the URL we actually landed on, not the one we asked for.
+        const pageUrl = res.url || GTU_BASE + '/Download1.aspx';
         const $r = cheerio.load(respHtml);
         const wanted = String(session).toUpperCase();
         $r('a[href*="uploads"]').each((i, el) => {
             let href = $r(el).attr('href') || '';
             if (!/^https?:\/\//i.test(href)) {
-                href = href.startsWith('//') ? `https:${href}` : `${GTU_BASE}/${href.replace(/^\/+/, '')}`;
+                href = crawler.resolvePaperHref(href, pageUrl, GTU_BASE);
             }
             const m = href.match(paperUrlRe);
             if (!m) return;
@@ -189,6 +204,12 @@ async function main() {
     for (const [code, extype] of codeExtype) {
         if (progress.queried[code]) continue;
         todo.push({ code, extype });
+    }
+    // --only <codes> targets specific subjects, for a spot check or a targeted
+    // backfill of one branch.
+    if (opts.only && opts.only.length) {
+        const want = new Set(opts.only.map(String));
+        todo = todo.filter(t => want.has(t.code));
     }
     if (opts.max) todo = todo.slice(0, opts.max);
 

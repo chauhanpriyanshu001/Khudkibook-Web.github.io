@@ -1,0 +1,611 @@
+/* ========================================================
+   KHUDKIBOOK AUTH PAGES (LOGIN / SIGNUP)
+   Matches the master design system in be619.css
+   ======================================================== */
+
+.auth-page {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 48px 24px 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 460px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    box-shadow: var(--shadow-lg);
+    padding: 36px 34px 30px;
+    position: relative;
+    overflow: hidden;
+    animation: authCardIn 0.35s ease-out;
+}
+
+.auth-card.auth-wide {
+    max-width: 640px;
+}
+
+.auth-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: var(--accent-gradient);
+}
+
+@keyframes authCardIn {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Brand header inside card */
+.auth-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 26px;
+}
+
+.auth-logo {
+    width: 66px;
+    height: 66px;
+    border-radius: 20px;
+    background: var(--accent-gradient);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    box-shadow: var(--shadow-glow);
+}
+
+.auth-title {
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--text-primary);
+    margin-top: 4px;
+}
+
+.auth-sub {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+/* Fields (scoped to .auth-card so the forgot-password panel — outside the
+   <form> element — gets the same styling as .auth-form fields) */
+.auth-card .field {
+    margin-bottom: 16px;
+}
+
+.auth-card label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-bottom: 7px;
+    letter-spacing: 0.01em;
+}
+
+.auth-input-wrap {
+    position: relative;
+}
+
+.auth-input-wrap > i.auth-ic {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    pointer-events: none;
+    transition: color 0.2s ease;
+    z-index: 1;
+}
+
+.auth-card input:not([type="submit"]),
+.auth-card select {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg-page);
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    font-family: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.auth-card .auth-input-wrap input:not([type="submit"]) {
+    padding-left: 43px;
+}
+
+.auth-card input:not([type="submit"])::placeholder {
+    color: var(--text-muted);
+    opacity: 0.75;
+}
+
+.auth-card input:not([type="submit"]):focus,
+.auth-card select:focus {
+    background: var(--bg-surface);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-glow);
+}
+
+.auth-input-wrap:focus-within > i.auth-ic {
+    color: var(--accent);
+}
+
+/* Valid / invalid states (set by login.js / signup.js) */
+.auth-card .is-ok {
+    border-color: var(--success) !important;
+}
+
+.auth-card .is-err {
+    border-color: var(--danger) !important;
+}
+
+.auth-input-wrap:has(> .is-ok) > i.auth-ic {
+    color: var(--success);
+}
+
+.auth-input-wrap:has(> .is-err) > i.auth-ic {
+    color: var(--danger);
+}
+
+.error {
+    display: none;
+    text-align: left;
+    width: 100%;
+    color: var(--danger);
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 6px;
+    line-height: 1.4;
+}
+
+.error.show {
+    display: block;
+}
+
+/* Selects with chevron */
+.auth-select-wrap {
+    position: relative;
+}
+
+.auth-select-wrap::after {
+    content: "\f078";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.auth-select-wrap select {
+    cursor: pointer;
+    padding-right: 38px;
+}
+
+.auth-select-wrap select:invalid,
+.auth-select-wrap select[data-placeholder="true"] {
+    color: var(--text-muted);
+}
+
+.auth-select-wrap select option {
+    color: var(--text-primary);
+}
+
+.auth-card select:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+.auth-card select:disabled:focus {
+    border-color: var(--border);
+    box-shadow: none;
+}
+
+/* Select grid (signup) */
+.auth-select-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 14px;
+    margin-bottom: 16px;
+}
+
+.auth-select-grid .field {
+    margin-bottom: 0;
+}
+
+/* Password toggle */
+.auth-input-wrap.has-toggle input {
+    padding-right: 48px;
+}
+
+.pw-toggle {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 1rem;
+    border-radius: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    z-index: 2;
+}
+
+.pw-toggle:hover {
+    color: var(--accent);
+    background: var(--bg-soft);
+}
+
+/* Form-level message (auth errors from Firebase) */
+.auth-form-msg {
+    display: none;
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    color: var(--danger);
+    font-size: 0.87rem;
+    font-weight: 600;
+    padding: 11px 14px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    line-height: 1.45;
+}
+
+.auth-form-msg.show {
+    display: block;
+}
+
+.auth-form-msg.info {
+    background: var(--bg-soft);
+    border-color: var(--border-accent);
+    color: var(--accent-dark);
+}
+
+/* Submit button */
+.auth-submit {
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 12px;
+    background: var(--accent-gradient);
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    box-shadow: 0 8px 24px rgba(205, 93, 51, 0.25);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+    margin-top: 6px;
+}
+
+.auth-submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(205, 93, 51, 0.34);
+    filter: brightness(1.03);
+}
+
+.auth-submit:active {
+    transform: translateY(0);
+}
+
+.auth-submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Secondary rows */
+.auth-alt {
+    text-align: center;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-top: 20px;
+}
+
+/* Forgot-password link + reset panel */
+.auth-forgot-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+}
+
+.auth-link-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    font-size: 0.83rem;
+    font-weight: 700;
+    color: var(--accent);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.auth-link-btn:hover {
+    color: var(--accent-dark);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.auth-link-btn i {
+    font-size: 0.75rem;
+    margin-right: 3px;
+}
+
+.auth-reset {
+    display: none;
+}
+
+/* Hide the login form + its "New to Khudkibook?" row while resetting.
+   Only direct children — the Back-to-login .auth-alt INSIDE .auth-reset stays visible. */
+.auth-card.show-reset .auth-form,
+.auth-card.show-reset > .auth-alt {
+    display: none;
+}
+
+.auth-card.show-reset .auth-reset {
+    display: block;
+    animation: authCardIn 0.25s ease-out;
+}
+
+.auth-reset-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.auth-logo-sm {
+    width: 54px;
+    height: 54px;
+    border-radius: 16px;
+    font-size: 1.35rem;
+}
+
+.auth-reset-title {
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.auth-alt a {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.auth-alt a:hover {
+    text-decoration: underline;
+}
+
+.auth-legal {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 14px;
+}
+
+.auth-legal a {
+    color: var(--text-secondary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.auth-legal a:hover {
+    color: var(--accent);
+}
+
+/* Decorative soft glow behind the card */
+.auth-shell {
+    position: relative;
+    width: 100%;
+    max-width: 460px;
+    z-index: 1;
+}
+
+.auth-shell.auth-wide {
+    max-width: 640px;
+}
+
+.auth-shell::before {
+    content: "";
+    position: absolute;
+    inset: -30px -40px auto;
+    height: 220px;
+    background: radial-gradient(ellipse at center, rgba(205, 93, 51, 0.12) 0%, transparent 70%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Spacer removed — .auth-page centers the card and grows to fill the column */
+
+/* ========================================================
+   BACKGROUND DECOR (students, floating icons, soft blobs)
+   ======================================================== */
+
+.auth-decor {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.auth-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(70px);
+    opacity: 0.55;
+}
+
+.auth-blob-1 {
+    width: 380px;
+    height: 380px;
+    top: -90px;
+    left: -110px;
+    background: radial-gradient(circle, rgba(240, 166, 110, 0.35) 0%, transparent 70%);
+}
+
+.auth-blob-2 {
+    width: 420px;
+    height: 420px;
+    bottom: -120px;
+    right: -120px;
+    background: radial-gradient(circle, rgba(205, 93, 51, 0.22) 0%, transparent 70%);
+}
+
+.auth-float {
+    position: absolute;
+    color: var(--accent);
+    opacity: 0.3;
+    animation: kbFloatY 6s ease-in-out infinite;
+    font-size: 1.3rem;
+}
+
+@keyframes kbFloatY {
+    0%, 100% { transform: translateY(0) rotate(-4deg); }
+    50% { transform: translateY(-16px) rotate(4deg); }
+}
+
+.auth-char {
+    position: absolute;
+    bottom: 3%;
+    width: clamp(150px, 17vw, 230px);
+    height: auto;
+    filter: drop-shadow(0 16px 22px rgba(43, 45, 66, 0.14));
+    animation: kbCharBob 5.5s ease-in-out infinite;
+}
+
+.auth-char-left {
+    left: 3.5%;
+}
+
+.auth-char-right {
+    right: 3.5%;
+    animation-delay: -2.75s;
+}
+
+@keyframes kbCharBob {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@media (max-width: 1120px) {
+    .auth-char,
+    .auth-float {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .auth-page {
+        padding: 22px 16px 48px;
+    }
+
+    .auth-card {
+        padding: 28px 20px 24px;
+        border-radius: 20px;
+    }
+
+    .auth-select-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .auth-page {
+        padding: 16px 12px 40px;
+    }
+
+    .auth-card {
+        padding: 24px 18px 20px;
+        border-radius: 18px;
+    }
+
+    .auth-logo {
+        width: 54px;
+        height: 54px;
+        border-radius: 16px;
+        font-size: 1.4rem;
+    }
+
+    .auth-logo-sm {
+        width: 46px;
+        height: 46px;
+        font-size: 1.15rem;
+    }
+
+    .auth-title {
+        font-size: 1.35rem;
+    }
+
+    .auth-reset-title {
+        font-size: 1.15rem;
+    }
+
+    .auth-sub {
+        font-size: 0.87rem;
+    }
+
+    .auth-card input:not([type="submit"]),
+    .auth-card select {
+        padding: 12px 13px;
+        font-size: 0.92rem;
+    }
+
+    .auth-card .auth-input-wrap input:not([type="submit"]) {
+        padding-left: 40px;
+    }
+
+    .auth-submit {
+        padding: 13px 16px;
+        font-size: 0.95rem;
+    }
+}

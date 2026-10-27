@@ -1,5 +1,40 @@
 [
   {
+    "id": 79406,
+    "title": "Notice Inviting Quotation for Repairing & Maintenance work of the Electrical Substation of GTU-Institute of Technology & Research (GTU-ITR), Village. Mevad, Dist. Mehsana.",
+    "rawTitle": "Notice Inviting Quotation for Repairing & Maintenance work of the Electrical Substation of GTU-Institute of Technology & Research (GTU-ITR), Village. Mevad, Dist.Mehsana .",
+    "date": "2026-10-27",
+    "postedAt": "2026-10-27T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notice-invite-quotation-46c3fe05de.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notice-invite-quotation-46c3fe05de.pdf",
+        "name": "Notice Invite Quotation.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79405,
     "title": "INSTRUCTION FOR FILLING THE REMEDIAL / TERM EXTENSION REMEDIAL EXAM FORMS OF PGDHM & PGDDM Sem 1 & 2 AND MBA (PART TIME) Sem 1 TO 6 OF WINTER-2026 EXAMINATION",
     "rawTitle": "INSTRUCTION FOR FILLING THE REMEDIAL / TERM EXTENSION REMEDIAL EXAM FORMS OF PGDHM & PGDDM SEM-1 & 2 AND MBA (PART TIME) SEM-1 TO 6 OF WINTER-2026 EXAMINATION",

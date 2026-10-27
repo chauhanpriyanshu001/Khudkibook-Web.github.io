@@ -1,5 +1,46 @@
 [
   {
+    "id": 79408,
+    "title": "Extension in Dates for filling the REGULAR/TERM EXTENSION REGULAR Exam Forms of Master of Engineering (ME), Master of Architecture (M. Arch), Bachelor of Science (Honours/ Honours with Research), Master of Science (Industrial Biotechnology), Master of Science (Integrated) Biotechnology and Master of Arts (Hindu Studies) for Winter – 2026 Examination",
+    "rawTitle": "Extension in Dates for filling the REGULAR/TERM EXTENSION REGULAR Exam Forms of Master of Engineering (ME), Master of Architecture (M. Arch), Bachelor of Science (Honours/ Honours with Research), Master of Science (Industrial Biotechnology), Master of Science (Integrated) Biotechnology and Master of Arts (Hindu Studies) for Winter – 2026 Examination",
+    "date": "2026-10-27",
+    "postedAt": "2026-10-27T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261027-15060317-667bddceb6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261027-15060317-667bddceb6.pdf",
+        "name": "img20261027_15060317.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "program": "Master of Engineering",
+      "programShort": "ME",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": true,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "term-extension",
+      "key": "term-extension:winter-2026",
+      "label": "Term extension — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
     "id": 79407,
     "title": "Extension in Dates for filling the REMEDIAL/TERM EXTENSION REMEDIAL Exam Forms of Master of Engineering (ME), Master of Architecture (M. Arch), Bachelor of Science (Honours/ Honours with Research), Master of Science (Industrial Biotechnology), Master of Science (Integrated) Biotechnology, Master of Arts (Hindu Studies), PG Diploma in Bioinformatics and PG Diploma in Intellectual Property Rights for Winter – 2026 Examination",
     "rawTitle": "Extension in Dates for filling the REMEDIAL/TERM EXTENSION REMEDIAL Exam Forms of Master of Engineering (ME), Master of Architecture (M. Arch), Bachelor of Science (Honours/ Honours with Research), Master of Science (Industrial Biotechnology), Master of Science (Integrated) Biotechnology, Master of Arts (Hindu Studies), PG Diploma in Bioinformatics and PG Diploma in Intellectual Property Rights for Winter – 2026 Examination",

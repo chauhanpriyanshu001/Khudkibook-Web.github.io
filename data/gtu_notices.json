@@ -1,5 +1,47 @@
 [
   {
+    "id": 79410,
+    "title": "Instructions for filling the Regular Exam Forms of Bachelor of Engineering (Sem 3) (Except 2026 D2D Enrolled) Winter-2026 Examination",
+    "rawTitle": "Instructions for filling the Regular Exam Forms of Bachelor of Engineering (Sem - 3) (Except 2026 D2D Enrolled) Winter-2026 Examination",
+    "date": "2026-10-27",
+    "postedAt": "2026-10-27T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-3-01986c0afa.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-3-01986c0afa.pdf",
+        "name": "BE sem-3.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 3,
+      "program": "Bachelor of Engineering",
+      "programShort": "BE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
     "id": 79409,
     "title": "LIST OF VACANT SEATS DECLARED BY REGISTERED SUPERVISORS OF THE UNIVERSITY FOR THE ACADEMIC YEAR 2026-27 - Updated",
     "rawTitle": "LIST OF VACANT SEATS DECLARED BY REGISTERED SUPERVISORS OF THE UNIVERSITY FOR THE ACADEMIC YEAR 2026-27 - Updated",

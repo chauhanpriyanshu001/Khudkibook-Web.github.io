@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Mon, 26 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Enrollment Process (A. Y. 2026-27) (Phase-l)</title>
+      <link>https://khudkibook.in/gtu-notices.html#n79400</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79400</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 GMT</pubDate>
+      <category>Academic</category>
+      <description>Enrollment Process (A. Y. 2026-27) (Phase-l) — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/enrollment-process-2026-27-mba-mca-7db0ef5eee.pdf</description>
+    </item>
     <item>
       <title>Notification No: 291/2026 — List of Selected Candidates for 6-week to 8-week Internship Students under ISEA Project Phase III at GTU</title>
       <link>https://khudkibook.in/gtu-notices.html#n79399</link>
@@ -798,14 +806,6 @@
       <pubDate>Thu, 08 Oct 2026 06:30:00 GMT</pubDate>
       <category>Exam</category>
       <description>Notification for result declaration of Bachelor of Architecture Sem 2 (Remedial) Recheck/ Reassessment of Summer - 2026 Examination. — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-2-rem-640bd64d0d.pdf</description>
-    </item>
-    <item>
-      <title>Notification for result declaration of Bachelor of Architecture Sem 2 (Regular) Recheck/ Reassessment of Summer - 2026 Examination.</title>
-      <link>https://khudkibook.in/gtu-notices.html#n69307</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n69307</guid>
-      <pubDate>Thu, 08 Oct 2026 06:30:00 GMT</pubDate>
-      <category>Exam</category>
-      <description>Notification for result declaration of Bachelor of Architecture Sem 2 (Regular) Recheck/ Reassessment of Summer - 2026 Examination. — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ba-2-reg-2a2cc07065.pdf</description>
     </item>
   </channel>
 </rss>

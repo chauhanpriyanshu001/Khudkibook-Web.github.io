@@ -1,5 +1,41 @@
 [
   {
+    "id": 79409,
+    "title": "LIST OF VACANT SEATS DECLARED BY REGISTERED SUPERVISORS OF THE UNIVERSITY FOR THE ACADEMIC YEAR 2026-27 - Updated",
+    "rawTitle": "LIST OF VACANT SEATS DECLARED BY REGISTERED SUPERVISORS OF THE UNIVERSITY FOR THE ACADEMIC YEAR 2026-27 - Updated",
+    "date": "2026-10-27",
+    "postedAt": "2026-10-27T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/2.-declaration-of-vacant-seats-by-registered-supervisors-of--dbd9c437a6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/2.-declaration-of-vacant-seats-by-registered-supervisors-of--dbd9c437a6.pdf",
+        "name": "2. DECLARATION OF VACANT SEATS BY REGISTERED SUPERVISORS OF THE UNIVERSITY FOR THE ACADEMIC YEAR 2026-27_compressed.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-27",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79408,
     "title": "Extension in Dates for filling the REGULAR/TERM EXTENSION REGULAR Exam Forms of Master of Engineering (ME), Master of Architecture (M. Arch), Bachelor of Science (Honours/ Honours with Research), Master of Science (Industrial Biotechnology), Master of Science (Integrated) Biotechnology and Master of Arts (Hindu Studies) for Winter – 2026 Examination",
     "rawTitle": "Extension in Dates for filling the REGULAR/TERM EXTENSION REGULAR Exam Forms of Master of Engineering (ME), Master of Architecture (M. Arch), Bachelor of Science (Honours/ Honours with Research), Master of Science (Industrial Biotechnology), Master of Science (Integrated) Biotechnology and Master of Arts (Hindu Studies) for Winter – 2026 Examination",

@@ -1,5 +1,48 @@
 [
   {
+    "id": 79419,
+    "title": "Notification for result declaration of Bachelor of Engineering Sem 1 (Regular) (Bi-Annual) of Summer - 2026 Examination",
+    "rawTitle": "Notification for result declaration of Bachelor of Engineering Sem - 1 (Regular) (Bi-Annual) of Summer - 2026 Examination",
+    "date": "2026-10-28",
+    "postedAt": "2026-10-28T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-1-reg.-bi-annual-986d2bba10.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-1-reg.-bi-annual-986d2bba10.pdf",
+        "name": "BE Sem - 1 Reg. (Bi-Annual).pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 1,
+      "program": "Bachelor of Engineering",
+      "programShort": "BE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": true,
+      "isSupplementary": false,
+      "resultKind": "main"
+    },
+    "topic": {
+      "type": "result",
+      "key": "result:summer-2026:main",
+      "label": "Result declared — Summer 2026",
+      "newsworthy": true,
+      "priority": 11
+    }
+  },
+  {
     "id": 79417,
     "title": "PhD Notification No. 295/2026 for Raval Akash Rajeshkumar (199999911505)",
     "rawTitle": "PhD Notification No. 295/2026 for Raval Akash Rajeshkumar (199999911505)",

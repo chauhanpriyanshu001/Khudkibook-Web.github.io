@@ -1,5 +1,41 @@
 [
   {
+    "id": 79414,
+    "title": "Pre-Submission Seminar of Pandya Harshil Utpalbhai (Enrollment No. : 219999906001; Science-Mathematics Discipline) on 30/10/2026",
+    "rawTitle": "Pre-Submission Seminar of Pandya Harshil Utpalbhai (Enrollment No.: 219999906001; Science-Mathematics Discipline) on 30/10/2026",
+    "date": "2026-10-28",
+    "postedAt": "2026-10-28T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/pandya-harshil-os-a7276e6f40.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/pandya-harshil-os-a7276e6f40.pdf",
+        "name": "Pandya Harshil_OS.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-10-30"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79413,
     "title": "Corrigendum Public Viva-Voce of Prajapati Sejal Somabhai (229999906003)",
     "rawTitle": "Corrigendum Public Viva-Voce of Prajapati Sejal Somabhai (229999906003)",

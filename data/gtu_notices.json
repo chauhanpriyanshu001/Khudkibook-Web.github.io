@@ -1,5 +1,40 @@
 [
   {
+    "id": 79413,
+    "title": "Corrigendum Public Viva-Voce of Prajapati Sejal Somabhai (229999906003)",
+    "rawTitle": "Corrigendum Public Viva-Voce of Prajapati Sejal Somabhai (229999906003)",
+    "date": "2026-10-28",
+    "postedAt": "2026-10-28T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/corrigendum-viva-voce-notice-sejal-prajapati-3b14a4a6fb.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/corrigendum-viva-voce-notice-sejal-prajapati-3b14a4a6fb.pdf",
+        "name": "Corrigendum Viva Voce Notice- Sejal Prajapati.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79412,
     "title": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester 1 (Remedial) Recheck - Reassessment Summer 2026 Examination.",
     "rawTitle": "Notification for Result Declaration of BACHELOR OF PHARMACY Semester-1 (Remedial) Recheck - Reassessment Summer 2026 Examination.",

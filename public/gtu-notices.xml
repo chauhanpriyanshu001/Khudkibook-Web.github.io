@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Tue, 27 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Corrigendum Public Viva-Voce of Prajapati Sejal Somabhai (229999906003)</title>
+      <link>https://khudkibook.in/gtu-notices.html#n79413</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79413</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 GMT</pubDate>
+      <category>PHD</category>
+      <description>Corrigendum Public Viva-Voce of Prajapati Sejal Somabhai (229999906003) — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/corrigendum-viva-voce-notice-sejal-prajapati-3b14a4a6fb.pdf</description>
+    </item>
     <item>
       <title>Notification for Result Declaration of BACHELOR OF PHARMACY Semester 1 (Remedial) Recheck - Reassessment Summer 2026 Examination.</title>
       <link>https://khudkibook.in/gtu-notices.html#n79412</link>
@@ -798,14 +806,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 GMT</pubDate>
       <category>PHD</category>
       <description>Public Viva-Voce of Joshi Parth Harkishan (189999912027) on 23/10/2026 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce-%20Parth%20Joshi_746892.pdf</description>
-    </item>
-    <item>
-      <title>Extension of last date for submission of MOOCs for Batch 2025 (Regular) and 2024 &amp; 2023 (Remedial)</title>
-      <link>https://khudkibook.in/gtu-notices.html#n69320</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n69320</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 GMT</pubDate>
-      <category>PHD</category>
-      <description>Extension of last date for submission of MOOCs for Batch 2025 (Regular) and 2024 &amp; 2023 (Remedial) — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Extension%20of%20last%20date%20for%20submission%20of%20MOOCs%20for%20Batch%202025%20%28Regular%29%20and%202024%20&amp;%202023%20%28Remedial%29_0001_275775.pdf</description>
     </item>
   </channel>
 </rss>

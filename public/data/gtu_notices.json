@@ -1,5 +1,80 @@
 [
   {
+    "id": 79417,
+    "title": "PhD Notification No. 295/2026 for Raval Akash Rajeshkumar (199999911505)",
+    "date": "2026-10-28",
+    "postedAt": "2026-10-28T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-akash-raval-5a87a3a019.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-akash-raval-5a87a3a019.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/1-final-thesis-ar-compressed-d7fd276b62.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/2-synopsis-final-ar-4b3b2a4c28.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
+    "id": 79416,
+    "title": "PhD Notification No. 294/2026 for Sahitya Sumit Kishanlal (179999919048)",
+    "date": "2026-10-28",
+    "postedAt": "2026-10-28T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-sumit-sahitya-560f53034f.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-sumit-sahitya-560f53034f.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/signed-phd-tesisf-8493a2e148.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/synopsis-f-3-65af3ab1f4.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
+    "id": 79415,
+    "title": "PhD Notification No. 293/2026 for Khudaiwala Ashish Nathalal (219999919003)",
+    "date": "2026-10-28",
+    "postedAt": "2026-10-28T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-ashish-khudaiwala-c21e62ce6b.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-ashish-khudaiwala-c21e62ce6b.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/01-thesis-219999919003-ashish-khudaiwala-2026-10-17-r4-f8ae767304.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/02-synopsis-219999919003-ashish-khudaiwala-2026-10-07-cd5ed5c569.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79414,
     "title": "Pre-Submission Seminar of Pandya Harshil Utpalbhai (Enrollment No. : 219999906001; Science-Mathematics Discipline) on 30/10/2026",
     "date": "2026-10-28",

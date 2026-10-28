@@ -1,5 +1,50 @@
 [
   {
+    "id": 79420,
+    "title": "PhD Notification No. 296/2026 for Joshi Parth Harkishan (189999912027)",
+    "rawTitle": "PhD Notification No. 296/2026 for Joshi Parth Harkishan (189999912027)",
+    "date": "2026-10-28",
+    "postedAt": "2026-10-28T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-parth-joshi-01a7ade436.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-parth-joshi-01a7ade436.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://gtusitecirculars.s3.ap-southeast-1.amazonaws.com/circulars/Full%20Signed%20Thesis-compressed.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/synopsis-phj-23-10-2026-e34a8ba71a.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79419,
     "title": "Notification for result declaration of Bachelor of Engineering Sem 1 (Regular) (Bi-Annual) of Summer - 2026 Examination",
     "rawTitle": "Notification for result declaration of Bachelor of Engineering Sem - 1 (Regular) (Bi-Annual) of Summer - 2026 Examination",

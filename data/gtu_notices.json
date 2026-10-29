@@ -1,5 +1,49 @@
 [
   {
+    "id": 79423,
+    "title": "Instructions for filling the REMEDIAL/ TERM EXTENSION REMEDIAL Exam Forms of Master of Engineering (ME) Sem 1 & 2 for Winter-2026 Examination",
+    "rawTitle": "Instructions for filling the REMEDIAL/ TERM EXTENSION REMEDIAL Exam Forms of Master of Engineering (ME) Sem - 1 & 2 for Winter-2026 Examination",
+    "date": "2026-10-29",
+    "postedAt": "2026-10-29T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261029-15435762-54e73a51ac.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261029-15435762-54e73a51ac.pdf",
+        "name": "img20261029_15435762.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 1,
+      "semesterFrom": 1,
+      "semesterTo": 2,
+      "program": "Master of Engineering",
+      "programShort": "ME",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": true,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "term-extension",
+      "key": "term-extension:winter-2026",
+      "label": "Term extension — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
     "id": 79422,
     "title": "Subject Selection for B. E. (Semester 1 Regular Students) Winter 2026 Examination",
     "rawTitle": "Subject Selection for B.E. (Semester - 1 Regular Students) Winter 2026 Examination",

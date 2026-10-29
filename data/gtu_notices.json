@@ -1,5 +1,87 @@
 [
   {
+    "id": 79429,
+    "title": "EXTENSION IN FILLING THE EXAM FORMS OF MCA AND M. SC (IT) INTEGRATED WINTER-2026 EXAMINATION",
+    "rawTitle": "EXTENSION IN FILLING THE EXAM FORMS OF MCA AND M.SC (IT) INTEGRATED WINTER-2026 EXAMINATION",
+    "date": "2026-10-29",
+    "postedAt": "2026-10-29T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0414-261029164241-001-3b5b78854b.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0414-261029164241-001-3b5b78854b.pdf",
+        "name": "0414_261029164241_001.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "program": "Master of Computer Applications",
+      "programShort": "MCA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 79428,
+    "title": "EXTENSION IN FILLING THE EXAM FORMS OF BCA AND MCA INTEGRATED WINTER-2026 EXAMINATION",
+    "rawTitle": "EXTENSION IN FILLING THE EXAM FORMS OF BCA AND MCA INTEGRATED WINTER-2026 EXAMINATION",
+    "date": "2026-10-29",
+    "postedAt": "2026-10-29T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0415-261029164308-001-1d5e4a0c9d.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0415-261029164308-001-1d5e4a0c9d.pdf",
+        "name": "0415_261029164308_001.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "program": "Master of Computer Applications",
+      "programShort": "MCA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
     "id": 79427,
     "title": "Notification for Result Declaration of Master of Business Administration Sem 01 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
     "rawTitle": "Notification for Result Declaration of Master of Business Administration Sem-01 (Remedial) Recheck/Reassessment of Summer-2026 Examination",

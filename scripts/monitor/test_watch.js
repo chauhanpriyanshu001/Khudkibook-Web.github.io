@@ -18,6 +18,17 @@ const os = require('os');
 const path = require('path');
 const assert = require('assert');
 
+// These fixtures describe the Summer 2026 result season. Pin "now" inside that
+// season so the freshness guard (topics older than maxTopicAgeDays are history)
+// does not turn every fixture stale as wall-clock time moves on.
+const RealDate = Date;
+const FIXED_NOW = RealDate.parse('2026-09-27T12:00:00Z');
+class FakeDate extends RealDate {
+    constructor(...args) { super(...(args.length ? args : [FIXED_NOW])); }
+    static now() { return FIXED_NOW; }
+}
+global.Date = FakeDate;
+
 const TMP = fs.mkdtempSync(path.join(os.tmpdir(), 'kb-gtu-watch-'));
 
 // Everything the pipeline writes goes into the temp dir.

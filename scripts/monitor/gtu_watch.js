@@ -27,7 +27,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { fetchCirculars, enrich } = require('./gtu_source');
+const { fetchCirculars, enrich, isTransientError } = require('./gtu_source');
 const blogGen = require('./blog_gen');
 
 // KB_ROOT lets the test harness point the whole pipeline at a temp directory.
@@ -649,6 +649,48 @@ GTU Watch — monitor gtu.ac.in and publish updates to Khudkibook
   node scripts/monitor/gtu_watch.js --force          ignore state and republish
 `;
 
+/**
+ * A summary with the same shape as a real run, so callers that parse --json
+ * output (the CI workflow, dashboards) keep working during an outage.
+ */
+function upstreamSummary(err) {
+    return {
+        ok: false,
+        throttled: !!(err && err.throttled),
+        upstreamUnavailable: true,
+        error: err && err.message ? err.message : String(err),
+        fetched: 0,
+        newNotices: 0,
+        topics: 0,
+        newsworthyTopics: 0,
+        postsPublished: [],
+        postsRefreshed: [],
+        written: [],
+        skipped: []
+    };
+}
+
+/**
+ * GTU throttling or an unreachable feed is an upstream condition, not a bug in
+ * this repository. A scheduled poll that hits a 429/502/503/504 window (or a
+ * timeout) should log the miss and exit successfully — the next tick retries —
+ * rather than marking the workflow red. Every other failure still exits
+ * non-zero.
+ */
+function handleUpstreamFailure(err, opts) {
+    const summary = upstreamSummary(err);
+    writeStatus({
+        lastRunAt: new Date().toISOString(),
+        lastError: { message: summary.error, at: new Date().toISOString(), throttled: summary.throttled, upstreamUnavailable: true }
+    });
+    if (opts.json) {
+        process.stdout.write(JSON.stringify(summary, null, 2) + '\n');
+    } else {
+        console.warn(`[watch] GTU feed unavailable (${summary.error}); skipping this poll.`);
+    }
+    if (!opts.json) console.warn('[watch] will retry on the next interval.');
+}
+
 async function main() {
     const opts = parseArgs(process.argv.slice(2));
     if (opts.help) {
@@ -656,7 +698,12 @@ async function main() {
         return;
     }
     if (opts.backfill) {
-        await backfill(opts.backfill, { log: opts.json ? () => {} : console.log, dryRun: opts.dryRun });
+        try {
+            await backfill(opts.backfill, { log: opts.json ? () => {} : console.log, dryRun: opts.dryRun });
+        } catch (err) {
+            if (!isTransientError(err)) throw err;
+            handleUpstreamFailure(err, opts);
+        }
         return;
     }
     if (opts.rebuildPosts) {
@@ -668,7 +715,14 @@ async function main() {
         await watchLoop(opts);
         return;
     }
-    const result = await runOnce(opts);
+    let result;
+    try {
+        result = await runOnce(opts);
+    } catch (err) {
+        if (!isTransientError(err)) throw err;
+        handleUpstreamFailure(err, opts);
+        return;
+    }
     if (opts.json) {
         process.stdout.write(JSON.stringify(result, null, 2) + '\n');
     }

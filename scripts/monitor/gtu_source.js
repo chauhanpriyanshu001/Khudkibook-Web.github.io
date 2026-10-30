@@ -49,14 +49,19 @@ function tidyTitle(title) {
         .trim();
 }
 
-// The public API sits behind something that intermittently answers 502 even at
-// a single sequential request, so every call gets a generous retry budget with
-// exponential backoff. Empirically 2-3 attempts is almost always enough.
+const THROTTLE_STATUSES = new Set([429, 502, 503, 504]);
+
+// The public API sits behind something that intermittently answers 502/503 even
+// at a single sequential request, so every call gets a generous retry budget
+// with exponential backoff. Empirically 2-3 attempts is almost always enough;
+// the long tail exists for the multi-minute throttling windows GTU sometimes
+// opens on datacenter IPs (GitHub Actions).
 async function apiGet(path, { retries = 6, timeoutMs = 25000, minDelayMs = 900 } = {}) {
     let lastErr;
     for (let attempt = 0; attempt <= retries; attempt++) {
         const controller = new AbortController();
         const timer = setTimeout(() => controller.abort(), timeoutMs);
+        let retryAfterMs = 0;
         try {
             const res = await fetch(`${API_BASE}${path}`, {
                 signal: controller.signal,
@@ -67,10 +72,17 @@ async function apiGet(path, { retries = 6, timeoutMs = 25000, minDelayMs = 900 }
                 }
             });
             clearTimeout(timer);
-            if (res.status === 502 || res.status === 503 || res.status === 429 || res.status === 504) {
+            if (THROTTLE_STATUSES.has(res.status)) {
                 lastErr = new Error(`HTTP ${res.status} (throttled) for ${path}`);
+                lastErr.status = res.status;
+                lastErr.throttled = true;
+                // A Retry-After header is GTU telling us exactly how long to wait.
+                const ra = parseInt(res.headers.get('retry-after') || '', 10);
+                if (Number.isFinite(ra) && ra > 0) retryAfterMs = Math.min(ra * 1000, 45000);
             } else if (!res.ok) {
-                throw new Error(`HTTP ${res.status} for ${path}`);
+                const err = new Error(`HTTP ${res.status} for ${path}`);
+                err.status = res.status;
+                throw err;
             } else {
                 return await res.json();
             }
@@ -79,12 +91,34 @@ async function apiGet(path, { retries = 6, timeoutMs = 25000, minDelayMs = 900 }
             lastErr = e;
         }
         if (attempt < retries) {
-            const backoff = Math.min(minDelayMs * Math.pow(2, attempt), 12000) + Math.floor(Math.random() * 600);
-            await new Promise(r => setTimeout(r, backoff));
+            const backoff = Math.min(minDelayMs * Math.pow(2, attempt), 20000) + Math.floor(Math.random() * 600);
+            await new Promise(r => setTimeout(r, Math.max(backoff, retryAfterMs)));
         }
     }
     throw lastErr || new Error(`Failed to fetch ${path}`);
 }
+
+const TRANSIENT_CODES = new Set([
+    'ECONNRESET', 'ECONNREFUSED', 'ETIMEDOUT', 'ENETUNREACH', 'EAI_AGAIN', 'ENOTFOUND'
+]);
+
+/**
+ * True when a failure means "GTU (or the network to it) said not right now",
+ * not "the pipeline is broken". Callers use this to skip a poll and retry on
+ * the next tick instead of turning the whole run red.
+ */
+function isTransientError(err) {
+    if (!err) return false;
+    if (err.throttled) return true;
+    if (THROTTLE_STATUSES.has(Number(err.status))) return true;
+    if (err.name === 'AbortError' || err.name === 'TimeoutError') return true;
+    const code = err.code || (err.cause && err.cause.code);
+    if (TRANSIENT_CODES.has(code)) return true;
+    return /fetch failed|network|socket hang up|timed out/i.test(err.message || '');
+}
+
+// Backwards-compatible name: the original helper only knew about HTTP throttling.
+const isThrottleError = isTransientError;
 
 /** Normalise one raw API record into the shape the site stores. */
 function normalizeNotice(raw) {
@@ -412,6 +446,8 @@ module.exports = {
     esc,
     tidyTitle,
     apiGet,
+    isThrottleError,
+    isTransientError,
     fetchCirculars,
     fetchCategories,
     normalizeNotice,

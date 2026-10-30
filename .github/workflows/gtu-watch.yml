@@ -75,6 +75,13 @@ jobs:
             exit 1
           }
           cat "$RUNNER_TEMP/watch.json"
+          # GTU throttles datacenter IPs with 429/502/503 windows and sometimes
+          # stops answering entirely. The watcher exits 0 with an
+          # upstreamUnavailable summary for those, so surface it without failing
+          # the job — the next scheduled tick retries.
+          if [ "$(node -e "const r=require('$RUNNER_TEMP/watch.json');console.log(r.upstreamUnavailable===true?'true':'false')")" = "true" ]; then
+            echo "::warning::GTU feed is unavailable or throttling this runner; skipped this poll and will retry on the next interval."
+          fi
           echo "PUBLISHED=$(node -e "const r=require('$RUNNER_TEMP/watch.json');console.log(r.postsPublished.length)")" >> "$GITHUB_OUTPUT"
           echo "REFRESHED=$(node -e "const r=require('$RUNNER_TEMP/watch.json');console.log(r.postsRefreshed.length)")" >> "$GITHUB_OUTPUT"
           echo "NEW_NOTICES=$(node -e "const r=require('$RUNNER_TEMP/watch.json');console.log(r.newNotices)")" >> "$GITHUB_OUTPUT"

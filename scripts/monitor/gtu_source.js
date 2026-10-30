@@ -50,6 +50,8 @@ function tidyTitle(title) {
 }
 
 const THROTTLE_STATUSES = new Set([429, 502, 503, 504]);
+// A WAF/CDN answering 403 to a datacenter IP is a block, not a bad request.
+const BLOCKED_STATUSES = new Set([401, 403]);
 
 // The public API sits behind something that intermittently answers 502/503 even
 // at a single sequential request, so every call gets a generous retry budget
@@ -67,7 +69,9 @@ async function apiGet(path, { retries = 6, timeoutMs = 25000, minDelayMs = 900 }
                 signal: controller.signal,
                 headers: {
                     'User-Agent': UA,
-                    'Accept': 'application/json',
+                    'Accept': 'application/json, text/plain, */*',
+                    'Accept-Language': 'en-IN,en;q=0.9',
+                    'Origin': GTU_ORIGIN,
                     'Referer': `${GTU_ORIGIN}/academics/circulars`
                 }
             });
@@ -79,6 +83,14 @@ async function apiGet(path, { retries = 6, timeoutMs = 25000, minDelayMs = 900 }
                 // A Retry-After header is GTU telling us exactly how long to wait.
                 const ra = parseInt(res.headers.get('retry-after') || '', 10);
                 if (Number.isFinite(ra) && ra > 0) retryAfterMs = Math.min(ra * 1000, 45000);
+            } else if (BLOCKED_STATUSES.has(res.status)) {
+                // Retrying a WAF block only burns the run timeout — the block is
+                // usually pinned to the runner's IP, so fail fast and let the
+                // next scheduled tick try from a fresh runner.
+                lastErr = new Error(`HTTP ${res.status} (blocked) for ${path}`);
+                lastErr.status = res.status;
+                lastErr.blocked = true;
+                break;
             } else if (!res.ok) {
                 const err = new Error(`HTTP ${res.status} for ${path}`);
                 err.status = res.status;
@@ -109,8 +121,9 @@ const TRANSIENT_CODES = new Set([
  */
 function isTransientError(err) {
     if (!err) return false;
-    if (err.throttled) return true;
+    if (err.throttled || err.blocked) return true;
     if (THROTTLE_STATUSES.has(Number(err.status))) return true;
+    if (BLOCKED_STATUSES.has(Number(err.status))) return true;
     if (err.name === 'AbortError' || err.name === 'TimeoutError') return true;
     const code = err.code || (err.cause && err.cause.code);
     if (TRANSIENT_CODES.has(code)) return true;

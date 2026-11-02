@@ -1,5 +1,209 @@
 [
   {
+    "id": 79439,
+    "title": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER-2026 MCA Sem 1 & 2 (REMEDIAL/TERM EXTENSION REMEDIAL STUDENTS)",
+    "rawTitle": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER-2026 MCA SEM-1 & 2 (REMEDIAL/TERM EXTENSION REMEDIAL STUDENTS)",
+    "date": "2026-11-02",
+    "postedAt": "2026-11-02T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0417-261102180832-001-d750f5ffb7.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0417-261102180832-001-d750f5ffb7.pdf",
+        "name": "0417_261102180832_001.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 1,
+      "semesterFrom": 1,
+      "semesterTo": 2,
+      "program": "Master of Computer Applications",
+      "programShort": "MCA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": true,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "term-extension",
+      "key": "term-extension:winter-2026",
+      "label": "Term extension — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 79438,
+    "title": "Result Notification_Ph. D. Admission 2026-27",
+    "rawTitle": "Result Notification_Ph.D. Admission 2026-27",
+    "date": "2026-11-02",
+    "postedAt": "2026-11-02T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/result-ph.d.-entrance-test-2026-compressed-0dd047e228.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/result-ph.d.-entrance-test-2026-compressed-0dd047e228.pdf",
+        "name": "Result Notification_Ph.D. Admission 2026-27"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-27",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "resultKind": "main"
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79437,
+    "title": "Circular - UFM Hearing of student SUMMER-2026 (Phase-IV)",
+    "rawTitle": "Circular - UFM Hearing of student SUMMER-2026 (Phase-IV)",
+    "date": "2026-11-02",
+    "postedAt": "2026-11-02T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/o-w-no-8565-dtd-02-11-26-ufm-circular-phase-4-s-26-afb6928f5-5ff6dc66b1.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/o-w-no-8565-dtd-02-11-26-ufm-circular-phase-4-s-26-afb6928f5-5ff6dc66b1.pdf",
+        "name": "o-w-no-8565-dtd-02-11-26-ufm-circular-phase-4-s-26-afb6928f5b.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79437",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79436,
+    "title": "Public Viva Voce Notice & Abstract on PhD Portal Govilkar Srushti Shirish (209999903008) on 18/11/2026",
+    "rawTitle": "Public Viva Voce Notice & Abstract on PhD Portal Govilkar Srushti Shirish (209999903008) on 18/11/2026",
+    "date": "2026-11-02",
+    "postedAt": "2026-11-02T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-srushti-govilkar-3074e598cd.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-srushti-govilkar-3074e598cd.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0-abstract-srushti-thesis-fb20fa00dd.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-11-18"
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79436",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79435,
+    "title": "Public Viva Voce Notice & Abstract on PhD Portal Patel Anoop Pravinkumar (189999913026) on 17/11/2026",
+    "rawTitle": "Public Viva Voce Notice & Abstract on PhD Portal Patel Anoop Pravinkumar (189999913026) on 17/11/2026",
+    "date": "2026-11-02",
+    "postedAt": "2026-11-02T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-anoop-patel-aea20f4d97.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-anoop-patel-aea20f4d97.pdf",
+        "name": "Viva-Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0-abstract-of-the-thesis-app-final-629cb2e6b3.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-11-17"
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79435",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79433,
     "title": "Pre-submission Seminar Notice- Kum. Soni Hima Kamlesh (219999913040)",
     "rawTitle": "Pre-submission Seminar Notice- Kum. Soni Hima Kamlesh (219999913040)",

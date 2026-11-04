@@ -1,19 +1,19 @@
 [
   {
     "name": "PHD",
-    "count": 131
+    "count": 134
   },
   {
     "name": "Exam",
-    "count": 121
+    "count": 124
   },
   {
     "name": "Circular",
-    "count": 65
+    "count": 67
   },
   {
     "name": "Tender",
-    "count": 19
+    "count": 20
   },
   {
     "name": "Academic",
@@ -32,16 +32,16 @@
     "count": 3
   },
   {
+    "name": "College Activity",
+    "count": 2
+  },
+  {
     "name": "Potential Funding Resources",
     "count": 2
   },
   {
     "name": "Institute Transfer",
     "count": 2
-  },
-  {
-    "name": "College Activity",
-    "count": 1
   },
   {
     "name": "UFM",

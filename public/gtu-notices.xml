@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Wed, 04 Nov 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Extension in dates regarding Subject Selection for B. E. (Semester 1 Regular Students) Winter 2026 Examination</title>
+      <link>https://khudkibook.in/gtu-notices.html#n79458</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79458</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 GMT</pubDate>
+      <category>Exam</category>
+      <description>Extension in dates regarding Subject Selection for B. E. (Semester 1 Regular Students) Winter 2026 Examination — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ext-sub-selection-w2026-cbd1154a2a.pdf</description>
+    </item>
     <item>
       <title>Pre-Submission Seminar of Patel Jigneshkumar Jethabhai (Enrollment No. : 189999919045; Mechanical Engineering Discipline)</title>
       <link>https://khudkibook.in/gtu-notices.html#n79457</link>
@@ -798,14 +806,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 GMT</pubDate>
       <category>PHD</category>
       <description>Public Viva-Voce of Hetal Ranjitsingh Chauhan (189999919017) on 30/10/2026 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Hetal%20Chauhan_214454.pdf</description>
-    </item>
-    <item>
-      <title>Pre-Submission Seminar of Patel Alpaben Rameshbhai (Enrollment No. : 219999902002; Computer Science Discipline) on 02/11/2026</title>
-      <link>https://khudkibook.in/gtu-notices.html#n79350</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79350</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 GMT</pubDate>
-      <category>PHD</category>
-      <description>Pre-Submission Seminar of Patel Alpaben Rameshbhai (Enrollment No. : 219999902002; Computer Science Discipline) on 02/11/2026 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Patel%20Alpaben_OS_369797.pdf</description>
     </item>
   </channel>
 </rss>

@@ -1,19 +1,19 @@
 [
   {
     "name": "PHD",
-    "count": 134
+    "count": 139
   },
   {
     "name": "Exam",
-    "count": 125
+    "count": 127
   },
   {
     "name": "Circular",
-    "count": 67
+    "count": 69
   },
   {
     "name": "Tender",
-    "count": 20
+    "count": 28
   },
   {
     "name": "Academic",
@@ -21,10 +21,18 @@
   },
   {
     "name": "Recruitment",
-    "count": 7
+    "count": 8
   },
   {
     "name": "Affiliation",
+    "count": 5
+  },
+  {
+    "name": "College Activity",
+    "count": 3
+  },
+  {
+    "name": "Potential Funding Resources",
     "count": 3
   },
   {
@@ -32,20 +40,12 @@
     "count": 3
   },
   {
-    "name": "College Activity",
-    "count": 2
-  },
-  {
-    "name": "Potential Funding Resources",
+    "name": "UFM",
     "count": 2
   },
   {
     "name": "Institute Transfer",
     "count": 2
-  },
-  {
-    "name": "UFM",
-    "count": 1
   },
   {
     "name": "Industry-Led Minor / Hons. Programs",

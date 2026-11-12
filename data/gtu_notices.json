@@ -1,5 +1,883 @@
 [
   {
+    "id": 79481,
+    "title": "GTU Affiliated Institutes List withNAAC Accreditation",
+    "rawTitle": "GTU Affiliated Institutes List withNAAC Accreditation",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "Affiliation",
+    "categoryId": 15,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-withnaac-accreditation-31-10--17b4c7d0ab.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-withnaac-accreditation-31-10--17b4c7d0ab.pdf",
+        "name": "GTU Affiliated Institutes List withNAAC Accreditation _31_10_2026.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "institute-admin",
+      "key": "institute-admin:unspecified",
+      "label": "Institute administration",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79480,
+    "title": "GTU Affiliated Institutes List with NBA Accreditation",
+    "rawTitle": "GTU Affiliated Institutes List with NBA Accreditation",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "Affiliation",
+    "categoryId": 15,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-with-nba-accreditation-31-10--0d523f5675.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-with-nba-accreditation-31-10--0d523f5675.pdf",
+        "name": "GTU Affiliated Institutes List with NBA Accreditation _31_10_2026.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "institute-admin",
+      "key": "institute-admin:unspecified",
+      "label": "Institute administration",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79479,
+    "title": "UFM Notification No: 309/2026",
+    "rawTitle": "UFM Notification No: 309/2026",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "UFM",
+    "categoryId": 14,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ow-8779-notification-309-2026-dtd-07-11-2026-e2573e8a06.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/ow-8779-notification-309-2026-dtd-07-11-2026-e2573e8a06.pdf",
+        "name": "OW 8779 Notification 309-2026 Dtd 07-11-2026.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79479",
+      "label": "UFM",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79478,
+    "title": "Elective Entry for B. Voc Sem 1 (Regular Students) Winter-2026 Examination",
+    "rawTitle": "Elective Entry for B.Voc sem-1 (Regular Students) Winter-2026 Examination",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bvoc-sem-1-w2026-143f6658cd.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bvoc-sem-1-w2026-143f6658cd.pdf",
+        "name": "bvoc sem-1 W2026.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 1,
+      "program": "Bachelor of Vocational",
+      "programShort": "B.Voc",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79478",
+      "label": "Exam",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79477,
+    "title": "Advt GEM/2026/B/8214162 Catering Service– Food & Beverages for 16th GTU Convocation GEM/2026/B/8210682 Gold Plated Silver Medal GEM/2026/B/8233684 Printing and Supply of Secure Degree Certificate",
+    "rawTitle": "Advt GEM/2026/B/8214162 Catering Service– Food & Beverages for 16th GTU Convocation GEM/2026/B/8210682 Gold Plated Silver Medal GEM/2026/B/8233684 Printing and Supply of Secure Degree Certificate",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/advt-1-5a5fafc3cc.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/advt-1-5a5fafc3cc.pdf",
+        "name": "ADVT (1).pdf"
+      }
+    ],
+    "important": true,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79476,
+    "title": "GeM Bid: GEM/2026/B/8233684 for Printing and Supply of Degree Certificates",
+    "rawTitle": "GeM Bid : GEM/2026/B/8233684 for Printing and Supply of Degree Certificates",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10119602-9a78c7a6b6.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10119602-9a78c7a6b6.pdf",
+        "name": "GeM-Bidding-10119602.pdf"
+      }
+    ],
+    "important": true,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "Bachelor of Interior Design",
+      "programShort": "BID",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79475,
+    "title": "Corrigendum-1 with Reference to Tender No. 07/2026-27 Event Management including mandap decoration & allied services for 16th Convocation of Gujarat Technological University, Chandkheda, Ahmedabad",
+    "rawTitle": "Corrigendum-1 with Reference to Tender No. 07/2026-27 Event Management including mandap decoration & allied services for 16th Convocation of Gujarat Technological University, Chandkheda, Ahmedabad",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/corrigendum-1-convocation-2026-d3e9dd1206.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/corrigendum-1-convocation-2026-d3e9dd1206.pdf",
+        "name": "Corrigendum_1_Convocation 2026.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-27",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79474,
+    "title": "International Conference on Management & Health Care, Innovation, and Artificial Intelligence, scheduled to be held on 29, November 2026. Organise by METAS Adventist College, Surat",
+    "rawTitle": "International Conference on Management & Health Care, Innovation, and Artificial Intelligence, scheduled to be held on 29, November 2026. Organise by METAS Adventist College, Surat",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "College Activity",
+    "categoryId": 5,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/metas-brochure-2a6d1ffa6c.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/metas-brochure-2a6d1ffa6c.pdf",
+        "name": "METAS Brochure.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "Bachelor of Engineering",
+      "programShort": "BE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:college activity",
+      "label": "College Activity",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79473,
+    "title": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER 2026 Diploma in Engineering (DE) Sem 1 (Regular) Students Diploma in Engineering (DE) Sem 1 (C2D) (Regular) Students Diploma in Architecture (DA) Sem 1 (Regular) Students Diploma in Engineering (DE) Sem 3 Regular (Newly 2026 Enrolled C2D Students Only) Diploma in Engineering (DE) Working Professionals Sem 3 (Regular) Students",
+    "rawTitle": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER 2026 Diploma in Engineering (DE) SEM- 1 (Regular) Students Diploma in Engineering (DE) SEM- 1 (C2D) (Regular) Students Diploma in Architecture (DA) SEM-1 (Regular) Students Diploma in Engineering (DE) SEM- 3 Regular (Newly 2026 Enrolled C2D Students Only) Diploma in Engineering (DE) Working Professionals Sem- 3 (Regular) Students",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261107143651-c16b60432e.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261107143651-c16b60432e.pdf",
+        "name": "20261107143651.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 1,
+      "program": "Diploma in Engineering",
+      "programShort": "DE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 79472,
+    "title": "PhD Notification No. 308/2026 for Nair Greeshma Unni (209999911005)",
+    "rawTitle": "PhD Notification No. 308/2026 for Nair Greeshma Unni (209999911005)",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-greeshma-nair-a60054950b.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-greeshma-nair-a60054950b.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/1.-thesis-gn-final-2-11-2026-209999911005-copy-signed-0bb0630010.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/2.-synopsis-209999911005-final-cb40293dbc.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79472",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79471,
+    "title": "GeM Bid: GEM/2026/B/8200602 for BOQ bid of Purchase of EC Equipment for GTU-SET",
+    "rawTitle": "GeM Bid : GEM/2026/B/8200602 for BOQ bid of Purchase of EC Equipment for GTU-SET",
+    "date": "2026-11-07",
+    "postedAt": "2026-11-07T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10081136-2-b4c6d180bc.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10081136-2-b4c6d180bc.pdf",
+        "name": "GeM-Bidding-10081136 (2).pdf"
+      }
+    ],
+    "important": true,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "Bachelor of Interior Design",
+      "programShort": "BID",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79470,
+    "title": "Course Work Schedule for Batch 2025 (January 2026 session)",
+    "rawTitle": "Course Work Schedule for Batch 2025 (January 2026 session)",
+    "date": "2026-11-06",
+    "postedAt": "2026-11-06T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/course-work-schedule-for-batch-2025-january-2026-session-res-d7f7e05992.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/course-work-schedule-for-batch-2025-january-2026-session-res-d7f7e05992.pdf",
+        "name": "Course Work Schedule for Batch 2025 (January 2026 session)_Research Methodology [PHD2401] _ All Engineering & Computer Science"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/course-work-schedule-for-batch-2025-january-2026-session-res-6f08c7b397.pdf",
+        "name": "Course Work Schedule for Batch 2025 (January 2026 session)_Research Methodology [PHD2401] _ Pharmacy & Biotechnology"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/course-work-schedule-for-batch-2025-january-2026-session-res-44f03738b7.pdf",
+        "name": "Course Work Schedule for Batch 2025 (January 2026 session)_Research Methodology [PHD2401] _ Sciences"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/course-work-schedule-for-batch-2025-january-2026-session-res-4097eb5eb8.pdf",
+        "name": "Course Work Schedule for Batch 2025 (January 2026 session)_Research Methodology [PHD2401] _ Management & Humanity-English"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/course-work-schedule-for-batch-2025-january-2026-session-res-1e86009982.pdf",
+        "name": "Course Work Schedule for Batch 2025 (January 2026 session)_Research and Publication Ethics [PHD2402] _All Disciplines"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79469,
+    "title": "Recruitment Advertisement of ICMR funded project – Applications Invited for Various Research Positions at GTU",
+    "rawTitle": "Recruitment Advertisement of ICMR funded project – Applications Invited for Various Research Positions at GTU",
+    "date": "2026-11-06",
+    "postedAt": "2026-11-06T12:00:00+05:30",
+    "category": "Recruitment",
+    "categoryId": 8,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/advertisement-icmr-1-494932028f.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/advertisement-icmr-1-494932028f.pdf",
+        "name": "Advertisement_ICMR (1).pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:recruitment",
+      "label": "Recruitment",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79468,
+    "title": "GeM Bid: GEM/2026/B/8210682 for CUSTOM bid of Purchase of Gold Plated Silver Medal",
+    "rawTitle": "GeM Bid : GEM/2026/B/8210682 for CUSTOM bid of Purchase of Gold Plated Silver Medal",
+    "date": "2026-11-06",
+    "postedAt": "2026-11-06T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10092848-1-dfc701da53.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10092848-1-dfc701da53.pdf",
+        "name": "GeM-Bidding-10092848 (1).pdf"
+      }
+    ],
+    "important": true,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "Bachelor of Interior Design",
+      "programShort": "BID",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79467,
+    "title": "PhD Notification No. 305/2026 for Chapatwala Neeta H (199999915505)",
+    "rawTitle": "PhD Notification No. 305/2026 for Chapatwala Neeta H (199999915505)",
+    "date": "2026-11-06",
+    "postedAt": "2026-11-06T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-nirav-rathod-2c294d8259.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-nirav-rathod-2c294d8259.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/1-thesis-209999919008-nirav-rathod-1eada7b262.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/2-synopsis-209999919008-nirav-rathod-a83b296cb3.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79466,
+    "title": "PhD Notification No. 305/2026 for Chapatwala Neeta H (199999915505)",
+    "rawTitle": "PhD Notification No. 305/2026 for Chapatwala Neeta H (199999915505)",
+    "date": "2026-11-06",
+    "postedAt": "2026-11-06T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-neeta-chapatwala-b0f451bbe1.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-neeta-chapatwala-b0f451bbe1.pdf",
+        "name": "Notification"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/199999915505-full-thesissigned-thesis-1811253e96.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/199999915505-synopsis-82f18a47c7.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79466",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79465,
+    "title": "Information about some research grants available during Nov. -Dec. 26",
+    "rawTitle": "Information about some research grants available during Nov.-Dec. 26",
+    "date": "2026-11-06",
+    "postedAt": "2026-11-06T12:00:00+05:30",
+    "category": "Potential Funding Resources",
+    "categoryId": 24,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/dec-26-f1c235cb9f.docx",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/dec-26-f1c235cb9f.docx",
+        "name": "Dec_26.docx"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:potential funding resources",
+      "label": "Potential Funding Resources",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79464,
+    "title": "GeM Bid Number: GEM/2026/B/8164184 for Purchase of Books for GTU-CENTRAL LIBRARY - Bid 2",
+    "rawTitle": "GeM Bid Number: GEM/2026/B/8164184 for Purchase of Books for GTU-CENTRAL LIBRARY - Bid 2",
+    "date": "2026-11-06",
+    "postedAt": "2026-11-06T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10038897-bid2-95f1b69770.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10038897-bid2-95f1b69770.pdf",
+        "name": "GeM-Bidding-10038897 - BID2.pdf"
+      }
+    ],
+    "important": true,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "Bachelor of Interior Design",
+      "programShort": "BID",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79463,
+    "title": "GeM Bid Number: GEM/2026/B/8152704 for Purchase of Books for GTU-CENTRAL LIBRARY",
+    "rawTitle": "GeM Bid Number: GEM/2026/B/8152704 for Purchase of Books for GTU-CENTRAL LIBRARY",
+    "date": "2026-11-06",
+    "postedAt": "2026-11-06T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10026067-bid1-3bcbaf4daf.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10026067-bid1-3bcbaf4daf.pdf",
+        "name": "GeM-Bidding-10026067 - BID1.pdf"
+      }
+    ],
+    "important": true,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "Bachelor of Interior Design",
+      "programShort": "BID",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79462,
+    "title": "Pre-Submission Seminar of Patel Shreyaskumar G (Enrollment No. : 199999913576; Computer/IT Engineering Discipline)",
+    "rawTitle": "Pre-Submission Seminar of Patel Shreyaskumar G (Enrollment No.: 199999913576; Computer/IT Engineering Discipline)",
+    "date": "2026-11-05",
+    "postedAt": "2026-11-05T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/patel-shreyaskumar-g-os-e4f274dfba.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/patel-shreyaskumar-g-os-e4f274dfba.pdf",
+        "name": "Patel Shreyaskumar G_OS.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79461,
+    "title": "Pre-Submission Seminar of Gohil Amitkumar Chandubhai (Enrollment No. : 219999919010; Mechanical Engineering Discipline)",
+    "rawTitle": "Pre-Submission Seminar of Gohil Amitkumar Chandubhai (Enrollment No.: 219999919010; Mechanical Engineering Discipline)",
+    "date": "2026-11-05",
+    "postedAt": "2026-11-05T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gohil-amit-chandubhai-os-50bdb7adfa.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gohil-amit-chandubhai-os-50bdb7adfa.pdf",
+        "name": "Gohil Amit Chandubhai_OS.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79460,
+    "title": "Pre-Submission Seminar of Rathod Akshay Kanubhai (Enrollment No. : 209999912001; Civil Engineering Discipline)",
+    "rawTitle": "Pre-Submission Seminar of Rathod Akshay Kanubhai (Enrollment No.: 209999912001; Civil Engineering Discipline)",
+    "date": "2026-11-05",
+    "postedAt": "2026-11-05T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/rathod-akshay-kanubhai-os-9558e69f63.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/rathod-akshay-kanubhai-os-9558e69f63.pdf",
+        "name": "Rathod Akshay Kanubhai_OS.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79459,
+    "title": "GEM/2026/B/8233978 for Purchase of Micropipette Set (1-channel) for GTU-SP",
+    "rawTitle": "GEM/2026/B/8233978 for Purchase of Micropipette Set (1-channel) for GTU-SP",
+    "date": "2026-11-05",
+    "postedAt": "2026-11-05T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10119933-1-4dc1a26c4f.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gem-bidding-10119933-1-4dc1a26c4f.pdf",
+        "name": "GeM-Bidding-10119933 (1).pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79458,
     "title": "Extension in dates regarding Subject Selection for B. E. (Semester 1 Regular Students) Winter 2026 Examination",
     "rawTitle": "Extension in dates regarding Subject Selection for B.E. (Semester - 1 Regular Students) Winter 2026 Examination",

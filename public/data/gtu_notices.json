@@ -1,5 +1,22 @@
 [
   {
+    "id": 79483,
+    "title": "Pre-submission Seminar Notice- Patel Nileshkumar Kishorbhai (199999915518)",
+    "date": "2026-11-16",
+    "postedAt": "2026-11-16T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/patel-nileshkumar-os-54aca5326d.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/patel-nileshkumar-os-54aca5326d.pdf",
+        "name": "Patel Nileshkumar_OS.pdf"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79482,
     "title": "Ph. D. Research Proposal Presentation Schedule 2026-27",
     "date": "2026-11-16",
@@ -13,15 +30,15 @@
   },
   {
     "id": 79481,
-    "title": "GTU Affiliated Institutes List withNAAC Accreditation",
+    "title": "GTU Affiliated Institutes List with NAAC Accreditation",
     "date": "2026-11-07",
     "postedAt": "2026-11-07T12:00:00+05:30",
     "category": "Affiliation",
     "topic": "institute-admin",
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-withnaac-accreditation-31-10--17b4c7d0ab.pdf",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-withnaac-accreditation-31-10--53e4591c57.pdf",
     "documents": [
       {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-withnaac-accreditation-31-10--17b4c7d0ab.pdf",
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-withnaac-accreditation-31-10--53e4591c57.pdf",
         "name": "GTU Affiliated Institutes List withNAAC Accreditation _31_10_2026.pdf"
       }
     ],
@@ -7443,22 +7460,5 @@
     ],
     "important": false,
     "post": "/blog/gtu-winter-2026-term-extension-form.html"
-  },
-  {
-    "id": 49071,
-    "title": "Notification for Result Declaration of Master of Science (Integrated) Information Technology Sem 2 (Regular) Recheck/Reassessment of Summer-2026 Examination",
-    "date": "2026-08-29",
-    "postedAt": "2026-08-29T12:00:00+05:30",
-    "category": "Exam",
-    "topic": "result",
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/CS%20sem%202%20REG_REASSESSMENT_345359.pdf",
-    "documents": [
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/CS%20sem%202%20REG_REASSESSMENT_345359.pdf",
-        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/CS%20sem%202%20REG_REASSESSMENT_345359.pdf"
-      }
-    ],
-    "important": false,
-    "post": "/blog/gtu-recheck-result-summer-2026.html"
   }
 ]

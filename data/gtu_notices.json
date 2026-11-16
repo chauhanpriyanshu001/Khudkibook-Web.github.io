@@ -1,5 +1,40 @@
 [
   {
+    "id": 79483,
+    "title": "Pre-submission Seminar Notice- Patel Nileshkumar Kishorbhai (199999915518)",
+    "rawTitle": "Pre-submission Seminar Notice- Patel Nileshkumar Kishorbhai (199999915518)",
+    "date": "2026-11-16",
+    "postedAt": "2026-11-16T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/patel-nileshkumar-os-54aca5326d.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/patel-nileshkumar-os-54aca5326d.pdf",
+        "name": "Patel Nileshkumar_OS.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79482,
     "title": "Ph. D. Research Proposal Presentation Schedule 2026-27",
     "rawTitle": "Ph.D. Research Proposal Presentation Schedule 2026-27",
@@ -34,16 +69,16 @@
   },
   {
     "id": 79481,
-    "title": "GTU Affiliated Institutes List withNAAC Accreditation",
-    "rawTitle": "GTU Affiliated Institutes List withNAAC Accreditation",
+    "title": "GTU Affiliated Institutes List with NAAC Accreditation",
+    "rawTitle": "GTU Affiliated Institutes List with NAAC Accreditation",
     "date": "2026-11-07",
     "postedAt": "2026-11-07T12:00:00+05:30",
     "category": "Affiliation",
     "categoryId": 15,
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-withnaac-accreditation-31-10--17b4c7d0ab.pdf",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-withnaac-accreditation-31-10--53e4591c57.pdf",
     "documents": [
       {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-withnaac-accreditation-31-10--17b4c7d0ab.pdf",
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-affiliated-institutes-list-withnaac-accreditation-31-10--53e4591c57.pdf",
         "name": "GTU Affiliated Institutes List withNAAC Accreditation _31_10_2026.pdf"
       }
     ],

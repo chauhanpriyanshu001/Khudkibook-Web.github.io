@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Sat, 07 Nov 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Ph. D. Research Proposal Presentation Schedule 2026-27</title>
+      <link>https://khudkibook.in/gtu-notices.html#n79482</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79482</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 GMT</pubDate>
+      <category>PHD</category>
+      <description>Ph. D. Research Proposal Presentation Schedule 2026-27 — official GTU circular. Source: https://gtu.ac.in/academics/circulars</description>
+    </item>
     <item>
       <title>GTU Affiliated Institutes List withNAAC Accreditation</title>
       <link>https://khudkibook.in/gtu-notices.html#n79481</link>
@@ -798,14 +806,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 GMT</pubDate>
       <category>Exam</category>
       <description>Notification for result declaration of Bachelor of Engineering Minor Sem 4 (Regular) Recheck-Reassessment of Summer - 2026 Examination — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-mn-sem-4-reg.-recheck-reassessment-37c492e8a9.pdf</description>
-    </item>
-    <item>
-      <title>Notification for result declaration of Bachelor of Engineering Minor Sem 5 (Remedial) Recheck-Reassessment of Summer - 2026 Examination</title>
-      <link>https://khudkibook.in/gtu-notices.html#n79372</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79372</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 GMT</pubDate>
-      <category>Exam</category>
-      <description>Notification for result declaration of Bachelor of Engineering Minor Sem 5 (Remedial) Recheck-Reassessment of Summer - 2026 Examination — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-mn-sem-5-rem.-recheck-reassessment-de1c6b9114.pdf</description>
     </item>
   </channel>
 </rss>

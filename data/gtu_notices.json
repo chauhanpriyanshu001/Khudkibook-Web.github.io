@@ -1,5 +1,38 @@
 [
   {
+    "id": 79482,
+    "title": "Ph. D. Research Proposal Presentation Schedule 2026-27",
+    "rawTitle": "Ph.D. Research Proposal Presentation Schedule 2026-27",
+    "date": "2026-11-16",
+    "postedAt": "2026-11-16T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "",
+    "documents": [],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-27",
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79481,
     "title": "GTU Affiliated Institutes List withNAAC Accreditation",
     "rawTitle": "GTU Affiliated Institutes List withNAAC Accreditation",

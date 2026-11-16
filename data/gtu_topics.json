@@ -208,5 +208,16 @@
     ],
     "firstSeen": "2026-10-22T09:16:07.089Z",
     "lastPublished": "2026-10-28T11:31:22.464Z"
+  },
+  "exam-schedule:winter-2026": {
+    "key": "exam-schedule:winter-2026",
+    "type": "exam-schedule",
+    "slug": "gtu-winter-2026-exam-dates-schedule",
+    "title": "GTU Winter 2026 Exam Dates & Schedule: Complete Programme-wise List",
+    "noticeIds": [
+      79484
+    ],
+    "firstSeen": "2026-11-16T09:01:38.948Z",
+    "lastPublished": "2026-11-16T09:01:38.948Z"
   }
 }

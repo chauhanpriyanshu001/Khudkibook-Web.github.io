@@ -1,5 +1,40 @@
 [
   {
+    "id": 79486,
+    "title": "Circular for 16th Annual convocation - Option to Select In-person or Absentia to attend the convocation ceremony",
+    "rawTitle": "Circular for 16th Annual convocation - Option to Select In-person or Absentia to attend the convocation ceremony",
+    "date": "2026-11-17",
+    "postedAt": "2026-11-17T12:00:00+05:30",
+    "category": "Convocation",
+    "categoryId": 19,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-for-16th-annual-convocation-option-to-select-in-per-8c5bedcc22.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-for-16th-annual-convocation-option-to-select-in-per-8c5bedcc22.pdf",
+        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-for-16th-annual-convocation-option-to-select-in-per-8c5bedcc22.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79486",
+      "label": "Convocation",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79484,
     "title": "Master of Engineering Sem 3 Regular / Remedial Practical Exam Time Table for Winter 2026 Exam",
     "rawTitle": "Master of Engineering Sem-3 Regular / Remedial Practical Exam Time Table for Winter 2026 Exam",

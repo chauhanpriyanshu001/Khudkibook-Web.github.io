@@ -1,5 +1,40 @@
 [
   {
+    "id": 79488,
+    "title": "Participation of Students of GTU PG Schools and GTU-ITR, Mehsana in Kashi Tamil Sangamam (KTS) 5. 0 – Students’ Engagement Programme",
+    "rawTitle": "Participation of Students of GTU PG Schools and GTU-ITR, Mehsana in Kashi Tamil Sangamam (KTS) 5.0 – Students’ Engagement Programme",
+    "date": "2026-11-17",
+    "postedAt": "2026-11-17T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-kts-5.0-circular-741158aa5d.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/gtu-kts-5.0-circular-741158aa5d.pdf",
+        "name": "GTU_KTS_5.0_Circular.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79488",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79486,
     "title": "Circular for 16th Annual convocation - Option to Select In-person or Absentia to attend the convocation ceremony",
     "rawTitle": "Circular for 16th Annual convocation - Option to Select In-person or Absentia to attend the convocation ceremony",
@@ -1922,6 +1957,42 @@
       "label": "Circular",
       "newsworthy": false,
       "priority": 2
+    }
+  },
+  {
+    "id": 79487,
+    "title": "Tender No. 08/2026-27 Mandap, Light decoration & allied services for Science Fair at GTU-ITR campus, Village: Mevad, Dist: Mehsana",
+    "rawTitle": "Tender No. 08/2026-27 Mandap, Light decoration & allied services for Science Fair at GTU-ITR campus, Village: Mevad, Dist: Mehsana",
+    "date": "2026-10-30",
+    "postedAt": "2026-10-30T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notice-inviting-tender-7623114d69.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notice-inviting-tender-7623114d69.pdf",
+        "name": "Notice Inviting Tender.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-27",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
     }
   },
   {

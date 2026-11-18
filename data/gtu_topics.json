@@ -131,10 +131,11 @@
       79429,
       79428,
       79445,
-      79473
+      79473,
+      79499
     ],
     "firstSeen": "2026-09-27T04:22:49.877Z",
-    "lastPublished": "2026-11-12T17:16:09.328Z"
+    "lastPublished": "2026-11-18T11:46:15.579Z"
   },
   "term-extension:winter-2026": {
     "key": "term-extension:winter-2026",
@@ -176,10 +177,12 @@
       79439,
       79442,
       79448,
-      79446
+      79446,
+      79498,
+      79497
     ],
     "firstSeen": "2026-09-27T04:22:49.878Z",
-    "lastPublished": "2026-11-04T14:46:12.238Z"
+    "lastPublished": "2026-11-18T11:46:15.580Z"
   },
   "term-extension:unspecified": {
     "key": "term-extension:unspecified",

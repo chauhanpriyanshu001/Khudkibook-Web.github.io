@@ -1,5 +1,158 @@
 [
   {
+    "id": 79495,
+    "title": "Enrollment Process for A. Y. 2026-27",
+    "rawTitle": "Enrollment Process for A.Y. 2026-27",
+    "date": "2026-11-18",
+    "postedAt": "2026-11-18T12:00:00+05:30",
+    "category": "Academic",
+    "categoryId": 10,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/enrolment-circular-a34eddb147.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/enrolment-circular-a34eddb147.pdf",
+        "name": "Enrolment Circular.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-2027",
+      "academicYearSlug": "2026-2027",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79495",
+      "label": "Academic",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79494,
+    "title": "Corrigendum Public Viva-Voce of Govilkar Srushti Shirish (209999903008)",
+    "rawTitle": "Corrigendum Public Viva-Voce of Govilkar Srushti Shirish (209999903008)",
+    "date": "2026-11-18",
+    "postedAt": "2026-11-18T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/corrigendum-notice-srushti-govilkar-2be78956ea.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/corrigendum-notice-srushti-govilkar-2be78956ea.pdf",
+        "name": "Corrigendum Notice- Srushti Govilkar.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79494",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79493,
+    "title": "Enrollment Process (A. Y. 2026-27) [MBA/MCA Phase-2 & Penalty Phase-1]",
+    "rawTitle": "Enrollment Process (A.Y. 2026-27) [MBA/MCA Phase-2 & Penalty Phase-1]",
+    "date": "2026-11-18",
+    "postedAt": "2026-11-18T12:00:00+05:30",
+    "category": "Academic",
+    "categoryId": 10,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/enroll-circular-mbamca-phase-2-23f5576c1d.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/enroll-circular-mbamca-phase-2-23f5576c1d.pdf",
+        "name": "Enroll circular-MBAMCA phase-2.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-2027",
+      "academicYearSlug": "2026-2027",
+      "program": "Master of Business Administration",
+      "programShort": "MBA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79493",
+      "label": "Academic",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79492,
+    "title": "Elective Entry for BE Semester 3 (Regular) (2026 enrolled D2D students only), BE (Working Professional) Sem – 3 (Regular) Winter-2026 Examination",
+    "rawTitle": "Elective Entry for BE Semester - 3 (Regular) (2026 enrolled D2D students only), BE (Working Professional) Sem – 3 (Regular) Winter-2026 Examination",
+    "date": "2026-11-18",
+    "postedAt": "2026-11-18T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/elective-be-wp-77e9eda430.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/elective-be-wp-77e9eda430.pdf",
+        "name": "elective_BE_WP.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 3,
+      "program": "Bachelor of Engineering",
+      "programShort": "BE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79492",
+      "label": "Exam",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79491,
     "title": "Circular-Affiliation Calendar2027-28",
     "rawTitle": "Circular-Affiliation Calendar2027-28",

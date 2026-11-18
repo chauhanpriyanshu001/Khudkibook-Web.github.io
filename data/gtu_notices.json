@@ -1,5 +1,40 @@
 [
   {
+    "id": 79490,
+    "title": "Circular to fill the Aishe S. Y_2025-26 data in the AISHE Portal_Last Date-10-01-2027",
+    "rawTitle": "Circular to fill the Aishe S.Y_2025-26 data in the AISHE Portal_Last Date-10-01-2027",
+    "date": "2026-11-18",
+    "postedAt": "2026-11-18T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-to-fill-the-aishe-s.y-2025-26-data-in-the-aishe-por-6e92905679.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-to-fill-the-aishe-s.y-2025-26-data-in-the-aishe-por-6e92905679.pdf",
+        "name": "Circular to fill the Aishe S.Y_2025-26 data in the AISHE Portal_Last Date-10-01-2027.pdf"
+      }
+    ],
+    "important": true,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79490",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79489,
     "title": "Notice inviting quotation for Archaeal 16S rRNA Gene Amplicon Sequencing Services for GTU-School of Applied Sciences & Technology.",
     "rawTitle": "Notice inviting quotation for Archaeal 16S rRNA Gene Amplicon Sequencing Services for GTU-School of Applied Sciences & Technology.",

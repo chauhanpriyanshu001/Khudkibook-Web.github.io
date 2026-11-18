@@ -1,5 +1,40 @@
 [
   {
+    "id": 79491,
+    "title": "Circular-Affiliation Calendar2027-28",
+    "rawTitle": "Circular-Affiliation Calendar2027-28",
+    "date": "2026-11-18",
+    "postedAt": "2026-11-18T12:00:00+05:30",
+    "category": "Affiliation",
+    "categoryId": 15,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-affiliation-calendar2027-28-02b8c69fda.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-affiliation-calendar2027-28-02b8c69fda.pdf",
+        "name": "Circular-Affiliation calendar2027-28.pdf"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79491",
+      "label": "Affiliation",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79490,
     "title": "Circular to fill the Aishe S. Y_2025-26 data in the AISHE Portal_Last Date-10-01-2027",
     "rawTitle": "Circular to fill the Aishe S.Y_2025-26 data in the AISHE Portal_Last Date-10-01-2027",

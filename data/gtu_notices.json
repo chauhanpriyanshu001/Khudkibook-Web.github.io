@@ -1,5 +1,40 @@
 [
   {
+    "id": 79511,
+    "title": "Pre-Submission Seminar of Makwana Sachinkumar Harshadbhai (Enrollment No. : 209999913019; Computer/IT Engineering Discipline)",
+    "rawTitle": "Pre-Submission Seminar of Makwana Sachinkumar Harshadbhai (Enrollment No.: 209999913019; Computer/IT Engineering Discipline)",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/makwana-sachinkumar-harshadbhai-os-021c1d995b.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/makwana-sachinkumar-harshadbhai-os-021c1d995b.pdf",
+        "name": "Pre-Submission Seminar of Makwana Sachinkumar Harshadbhai (Enrollment No.: 209999913019; Computer/IT Engineering Discipline)"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79510,
     "title": "Theory & Practical Exam Centre for BA, BI, BH and BV course for W26 Examination",
     "rawTitle": "Theory & Practical Exam Centre for BA, BI, BH and BV course for W26 Examination",

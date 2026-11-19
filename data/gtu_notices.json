@@ -1,5 +1,197 @@
 [
   {
+    "id": 79516,
+    "title": "Public Viva-Voce of Patel Nidhi Arvindkumar (199999913550) on 07/12/2026",
+    "rawTitle": "Public Viva-Voce of Patel Nidhi Arvindkumar (199999913550) on 07/12/2026",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-nidhi-patel-d9a19fae2a.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-nidhi-patel-d9a19fae2a.pdf",
+        "name": "Viva Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0-199999913550-patel-nidhi-arvindkumar-abstract-of-the-thesi-39ada0c343.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-12-07"
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79516",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79515,
+    "title": "Public Viva-Voce of Lanjewar Mangesh Khushal (209999911007) on 05/12/2026",
+    "rawTitle": "Public Viva-Voce of Lanjewar Mangesh Khushal (209999911007) on 05/12/2026",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-mangesh-lanjewar-b549013324.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-mangesh-lanjewar-b549013324.pdf",
+        "name": "Viva Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0-abstract-of-the-thesis-209999911007-8702ee128e.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-12-05"
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79515",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79514,
+    "title": "Public Viva-Voce of Patel Pratixaben Sureshbhai (199999901520) on 04/12/2026",
+    "rawTitle": "Public Viva-Voce of Patel Pratixaben Sureshbhai (199999901520) on 04/12/2026",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-pratixa-patel-9943722b65.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-pratixa-patel-9943722b65.pdf",
+        "name": "Viva Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0-abstract-of-phd-thesis-199999901520-partixaben-s-patel-7290b1fb58.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-12-04"
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79514",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79513,
+    "title": "Enrollment Process (A. Y. 2026-27) - Penalty Phase",
+    "rawTitle": "Enrollment Process (A.Y. 2026-27) - Penalty Phase",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Academic",
+    "categoryId": 10,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/enrolment-circular-ay-2026-27-rs.250-penalty-e13169b2a8.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/enrolment-circular-ay-2026-27-rs.250-penalty-e13169b2a8.pdf",
+        "name": "Enrollment Process (A.Y. 2026-27) - Penalty Phase"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-2027",
+      "academicYearSlug": "2026-2027",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79513",
+      "label": "Academic",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79512,
+    "title": "Pre-Submission Seminar of Kotak Ridhhi Jitendrakumar (Enrollment No. : 219999913017; Computer/IT Engineering Discipline)",
+    "rawTitle": "Pre-Submission Seminar of Kotak Ridhhi Jitendrakumar (Enrollment No.: 219999913017; Computer/IT Engineering Discipline)",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/kotak-riddhi-jitendrakumar-os-942a49f461.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/kotak-riddhi-jitendrakumar-os-942a49f461.pdf",
+        "name": "Pre-Submission Seminar of Kotak Ridhhi Jitendrakumar (Enrollment No.: 219999913017; Computer/IT Engineering Discipline)"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79511,
     "title": "Pre-Submission Seminar of Makwana Sachinkumar Harshadbhai (Enrollment No. : 209999913019; Computer/IT Engineering Discipline)",
     "rawTitle": "Pre-Submission Seminar of Makwana Sachinkumar Harshadbhai (Enrollment No.: 209999913019; Computer/IT Engineering Discipline)",

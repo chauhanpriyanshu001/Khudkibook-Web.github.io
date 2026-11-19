@@ -1,5 +1,102 @@
 [
   {
+    "id": 79516,
+    "title": "Public Viva-Voce of Patel Nidhi Arvindkumar (199999913550) on 07/12/2026",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Circular",
+    "topic": "other",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-nidhi-patel-d9a19fae2a.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-nidhi-patel-d9a19fae2a.pdf",
+        "name": "Viva Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0-199999913550-patel-nidhi-arvindkumar-abstract-of-the-thesi-39ada0c343.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
+    "id": 79515,
+    "title": "Public Viva-Voce of Lanjewar Mangesh Khushal (209999911007) on 05/12/2026",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Circular",
+    "topic": "other",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-mangesh-lanjewar-b549013324.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-mangesh-lanjewar-b549013324.pdf",
+        "name": "Viva Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0-abstract-of-the-thesis-209999911007-8702ee128e.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
+    "id": 79514,
+    "title": "Public Viva-Voce of Patel Pratixaben Sureshbhai (199999901520) on 04/12/2026",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Circular",
+    "topic": "other",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-pratixa-patel-9943722b65.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-pratixa-patel-9943722b65.pdf",
+        "name": "Viva Voce Notice"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0-abstract-of-phd-thesis-199999901520-partixaben-s-patel-7290b1fb58.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
+    "id": 79513,
+    "title": "Enrollment Process (A. Y. 2026-27) - Penalty Phase",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Academic",
+    "topic": "other",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/enrolment-circular-ay-2026-27-rs.250-penalty-e13169b2a8.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/enrolment-circular-ay-2026-27-rs.250-penalty-e13169b2a8.pdf",
+        "name": "Enrollment Process (A.Y. 2026-27) - Penalty Phase"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
+    "id": 79512,
+    "title": "Pre-Submission Seminar of Kotak Ridhhi Jitendrakumar (Enrollment No. : 219999913017; Computer/IT Engineering Discipline)",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/kotak-riddhi-jitendrakumar-os-942a49f461.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/kotak-riddhi-jitendrakumar-os-942a49f461.pdf",
+        "name": "Pre-Submission Seminar of Kotak Ridhhi Jitendrakumar (Enrollment No.: 219999913017; Computer/IT Engineering Discipline)"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79511,
     "title": "Pre-Submission Seminar of Makwana Sachinkumar Harshadbhai (Enrollment No. : 209999913019; Computer/IT Engineering Discipline)",
     "date": "2026-11-19",
@@ -7331,98 +7428,5 @@
     ],
     "important": false,
     "post": null
-  },
-  {
-    "id": 49098,
-    "title": "Public Viva-Voce of Patel Hiteshbhai Bhimabhai (199999913574) on 09/09/2026",
-    "date": "2026-09-05",
-    "postedAt": "2026-09-05T12:00:00+05:30",
-    "category": "PHD",
-    "topic": "noise",
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Hitesh%20Patel_340793.pdf",
-    "documents": [
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Hitesh%20Patel_340793.pdf",
-        "name": "Public Viva-Voce of Patel Hiteshbhai Bhimabhai (199999913574) on 09/09/2026"
-      },
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-Abstract%20of%20the%20Thesis%20(3)_862179.pdf",
-        "name": "Abstract"
-      }
-    ],
-    "important": false,
-    "post": null
-  },
-  {
-    "id": 49097,
-    "title": "INSTRUCTIONS FOR FILLING THE TERM EXTENSION EXAM FORMS OF WINTER-2026 B. PHARM Sem 7 (Regular) & B. PHARM Sem 5 to 8 (REMEDIAL)",
-    "date": "2026-09-05",
-    "postedAt": "2026-09-05T12:00:00+05:30",
-    "category": "Exam",
-    "topic": "term-extension",
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Term%20Extension%20W26_955782.pdf",
-    "documents": [
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Term%20Extension%20W26_955782.pdf",
-        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Term%20Extension%20W26_955782.pdf"
-      }
-    ],
-    "important": false,
-    "post": "/blog/gtu-winter-2026-term-extension-form.html"
-  },
-  {
-    "id": 49096,
-    "title": "Public Viva-Voce of Prajapati Anilkumar Amrutlal (209999913024) on 07/09/2026",
-    "date": "2026-09-03",
-    "postedAt": "2026-09-03T12:00:00+05:30",
-    "category": "PHD",
-    "topic": "noise",
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Anil%20Prajapati_982355.pdf",
-    "documents": [
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Public%20Viva%20Voce%20Notice-%20Anil%20Prajapati_982355.pdf",
-        "name": "Public Viva-Voce of Prajapati Anilkumar Amrutlal (209999913024) on 07/09/2026"
-      },
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/0-209999913024_Abstract%20of%20the%20Thesis_118792.pdf",
-        "name": "Abstract"
-      }
-    ],
-    "important": false,
-    "post": null
-  },
-  {
-    "id": 49095,
-    "title": "Instructions for filling the Term Extension Remedial Exam Forms of Winter-2026 Examination DIPLOMA IN ENGINEERING (DE) Sem 1 TO 8 DIPLOMA IN ENGINEERING (DE) Sem 1 & 2 (C2D) DIPLOMA IN VOCATION (DV) Sem 1 TO 6 DIPLOMA IN ARCHITECTURE (DA) Sem 1 TO 6",
-    "date": "2026-09-03",
-    "postedAt": "2026-09-03T12:00:00+05:30",
-    "category": "Exam",
-    "topic": "term-extension",
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20260903141727_170170.pdf",
-    "documents": [
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20260903141727_170170.pdf",
-        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20260903141727_170170.pdf"
-      }
-    ],
-    "important": false,
-    "post": "/blog/gtu-winter-2026-term-extension-form.html"
-  },
-  {
-    "id": 49094,
-    "title": "Notification for Result Declaration of Bachelor of Computer Applications Sem 3 (Remedial) Recheck/Reassessment of Summer-2026 Examination",
-    "date": "2026-09-03",
-    "postedAt": "2026-09-03T12:00:00+05:30",
-    "category": "Exam",
-    "topic": "result",
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/BCA%203%20REM%20RECHECK%20S26_227296.pdf",
-    "documents": [
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/BCA%203%20REM%20RECHECK%20S26_227296.pdf",
-        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/BCA%203%20REM%20RECHECK%20S26_227296.pdf"
-      }
-    ],
-    "important": false,
-    "post": "/blog/gtu-recheck-result-summer-2026.html"
   }
 ]

@@ -1,5 +1,253 @@
 [
   {
+    "id": 79510,
+    "title": "Theory & Practical Exam Centre for BA, BI, BH and BV course for W26 Examination",
+    "rawTitle": "Theory & Practical Exam Centre for BA, BI, BH and BV course for W26 Examination",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/exam-centre-p1-w26-18d78920ae.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/exam-centre-p1-w26-18d78920ae.pdf",
+        "name": "Theory & Practical Exam Centre for BA, BI, BH and BV course for W26 Examination"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "Bachelor of Arts",
+      "programShort": "BA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79510",
+      "label": "Exam",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79509,
+    "title": "Instructions for filling the Regular Exam Forms of Bachelor of Engineering (Semester 2) (For Bi-annual students only) Winter-2026 Examination",
+    "rawTitle": "Instructions for filling the Regular Exam Forms of Bachelor of Engineering (Semester - 2) (For Bi-annual students only) Winter-2026 Examination",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bi-annual-sem-2-eforms-939641f361.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/bi-annual-sem-2-eforms-939641f361.pdf",
+        "name": "Instructions for filling the Regular Exam Forms of Bachelor of Engineering  (Semester - 2) (For Bi-annual students only) Winter-2026 Examination"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 2,
+      "program": "Bachelor of Engineering",
+      "programShort": "BE",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": true,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 79508,
+    "title": "INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF MBA Semester 1 REMEDIAL (INTERNATIONAL BUSINESS) [DELIVERED IN ONLINE MODE] SUMMER-2026 EXAMINATION",
+    "rawTitle": "INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF MBA SEMESTER-1 REMEDIAL (INTERNATIONAL BUSINESS) [DELIVERED IN ONLINE MODE] SUMMER-2026 EXAMINATION",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mb1-rem-ib-online-s26-38312a0e4c.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mb1-rem-ib-online-s26-38312a0e4c.pdf",
+        "name": "INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF MBA SEMESTER-1 REMEDIAL (INTERNATIONAL BUSINESS) [DELIVERED IN ONLINE MODE] SUMMER-2026 EXAMINATION"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 1,
+      "program": "Master of Business Administration",
+      "programShort": "MBA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:summer-2026",
+      "label": "Exam form — Summer 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 79507,
+    "title": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MBA Semester 2 REGULAR (INTERNATIONAL BUSINESS) [DELIVERED IN ONLINE MODE] SUMMER-2026 EXAMINATION",
+    "rawTitle": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MBA SEMESTER-2 REGULAR (INTERNATIONAL BUSINESS) [DELIVERED IN ONLINE MODE] SUMMER-2026 EXAMINATION",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mb2-reg-ib-online-s26-9cb15e8215.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mb2-reg-ib-online-s26-9cb15e8215.pdf",
+        "name": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MBA SEMESTER-2 REGULAR (INTERNATIONAL BUSINESS) [DELIVERED IN ONLINE MODE] SUMMER-2026 EXAMINATION"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Summer 2026",
+      "sessionSlug": "summer-2026",
+      "sessionYear": "2026",
+      "sessionName": "Summer",
+      "semester": 2,
+      "program": "Master of Business Administration",
+      "programShort": "MBA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:summer-2026",
+      "label": "Exam form — Summer 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 79506,
+    "title": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MBA Semester 1 REGULAR (INTERNATIONAL BUSINESS) [DELIVERED IN ONLINE MODE] WINTER-2026 EXAMINATION",
+    "rawTitle": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MBA SEMESTER-1 REGULAR (INTERNATIONAL BUSINESS) [DELIVERED IN ONLINE MODE] WINTER-2026 EXAMINATION",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mb1-reg-ib-online-w26-736c29e6cf.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mb1-reg-ib-online-w26-736c29e6cf.pdf",
+        "name": "INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MBA SEMESTER-1 REGULAR (INTERNATIONAL BUSINESS) [DELIVERED IN ONLINE MODE] WINTER-2026 EXAMINATION"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 1,
+      "program": "Master of Business Administration",
+      "programShort": "MBA",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 79505,
+    "title": "Applications are Invited from interested candidates for admission to the GTU Swami Vivekanand IAS Study Centre.",
+    "rawTitle": "Applications are Invited from interested candidates for admission to the GTU Swami Vivekanand IAS Study Centre.",
+    "date": "2026-11-19",
+    "postedAt": "2026-11-19T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/short-advt-gtu-svisc-2b7cd7e304.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/short-advt-gtu-svisc-2b7cd7e304.pdf",
+        "name": "Short advertisement"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/detailed-advertisement-gtu-svisc-01-1-28445a4cad.pdf",
+        "name": "Detailed advertisement"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/step-by-step-guide-for-applicants-on-how-to-apply-to-the-gtu-a8f375e933.pdf",
+        "name": "Step-by-step guide for prospective applicants on how to apply to the GTU Swami Vivekanand IAS Study Centre"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "admission",
+      "key": "admission:2026-11",
+      "label": "Admission update — A.Y. 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
     "id": 79504,
     "title": "Pre-Submission Seminar of Barve Prasad Surender (Enrollment No. : 209999912009; Civil Engineering Discipline)",
     "rawTitle": "Pre-Submission Seminar of Barve Prasad Surender (Enrollment No.: 209999912009; Civil Engineering Discipline)",

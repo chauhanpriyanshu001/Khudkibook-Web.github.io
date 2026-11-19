@@ -132,10 +132,12 @@
       79428,
       79445,
       79473,
-      79499
+      79499,
+      79509,
+      79506
     ],
     "firstSeen": "2026-09-27T04:22:49.877Z",
-    "lastPublished": "2026-11-18T11:46:15.579Z"
+    "lastPublished": "2026-11-19T08:16:16.311Z"
   },
   "term-extension:winter-2026": {
     "key": "term-extension:winter-2026",
@@ -222,5 +224,28 @@
     ],
     "firstSeen": "2026-11-16T09:01:38.948Z",
     "lastPublished": "2026-11-16T09:01:38.948Z"
+  },
+  "exam-form:summer-2026": {
+    "key": "exam-form:summer-2026",
+    "type": "exam-form",
+    "slug": "gtu-summer-2026-exam-form-instructions",
+    "title": "GTU Summer 2026 Exam Form Instructions: Dates, Fees & How To Apply",
+    "noticeIds": [
+      79508,
+      79507
+    ],
+    "firstSeen": "2026-11-19T08:16:16.312Z",
+    "lastPublished": "2026-11-19T08:16:16.312Z"
+  },
+  "admission:2026-11": {
+    "key": "admission:2026-11",
+    "type": "admission",
+    "slug": "gtu-admission-update-2026-11",
+    "title": "GTU Admission Update A.Y. : Complete Guide For Students",
+    "noticeIds": [
+      79505
+    ],
+    "firstSeen": "2026-11-19T08:16:16.313Z",
+    "lastPublished": "2026-11-19T08:16:16.313Z"
   }
 }

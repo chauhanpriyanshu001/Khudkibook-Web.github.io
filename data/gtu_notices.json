@@ -1,5 +1,131 @@
 [
   {
+    "id": 79522,
+    "title": "Corrigendum-1 with Reference to Tender No. 08/2026-27 Mandap, Light decoration & allied services for Science Fair at GTU-ITR campus, Village: Mevad, Dist: Mehsana",
+    "rawTitle": "Corrigendum-1 with Reference to Tender No. 08/2026-27 Mandap, Light decoration & allied services for Science Fair at GTU-ITR campus, Village: Mevad, Dist: Mehsana",
+    "date": "2026-11-20",
+    "postedAt": "2026-11-20T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/corrigendum-1-gtu-itr-science-fair-2026-cbcb3ce121.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/corrigendum-1-gtu-itr-science-fair-2026-cbcb3ce121.pdf",
+        "name": "Corrigendum-1 with Reference to Tender No. 08/2026-27 Mandap, Light decoration & allied services for Science Fair at GTU-ITR campus, Village: Mevad, Dist: Mehsana"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2026-27",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79521,
+    "title": "PhD Notification No. 311/2026 for Paliwal Nidhi Dineshchandra (199999903518)",
+    "rawTitle": "PhD Notification No. 311/2026 for Paliwal Nidhi Dineshchandra (199999903518)",
+    "date": "2026-11-20",
+    "postedAt": "2026-11-20T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-nidhi-paliwal-277e30e4d5.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-nidhi-paliwal-277e30e4d5.pdf",
+        "name": "PhD Notification No. 311/2026 for Paliwal Nidhi Dineshchandra (199999903518)"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/signed-copy-of-thesis-1-804a121fe1.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/final-synopsis-199999903518-c32afe94a8.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79520,
+    "title": "PhD Notification No. 310/2026 for Patel Anoop Pravinkumar (189999913026)",
+    "rawTitle": "PhD Notification No. 310/2026 for Patel Anoop Pravinkumar (189999913026)",
+    "date": "2026-11-20",
+    "postedAt": "2026-11-20T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-anoop-patel-21533db69f.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-anoop-patel-21533db69f.pdf",
+        "name": "PhD Notification No. 310/2026 for Patel Anoop Pravinkumar (189999913026)"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/thesis-189999913026-signed-e22aff4097.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/app-synopsis-final-189999913026-9f7b2a535b.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
     "id": 79519,
     "title": "Research Week-2026 schedule",
     "rawTitle": "Research Week-2026 schedule",

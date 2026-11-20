@@ -1,5 +1,26 @@
 [
   {
+    "id": 79519,
+    "title": "Research Week-2026 schedule",
+    "date": "2026-11-20",
+    "postedAt": "2026-11-20T12:00:00+05:30",
+    "category": "PHD",
+    "topic": "noise",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/research-week-2026-schedule-for-instrumentation-control-engi-dbd3c0290d.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/research-week-2026-schedule-for-instrumentation-control-engi-dbd3c0290d.pdf",
+        "name": "Research Week-2026 schedule for Instrumentation & Control Engineering discipline.pdf"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/research-week-2026-schedule-for-science-mathematics-discipli-7ca283a7f1.pdf",
+        "name": "Research Week-2026 schedule for Science-Mathematics discipline.pdf"
+      }
+    ],
+    "important": false,
+    "post": null
+  },
+  {
     "id": 79518,
     "title": "Pre-Submission Seminar of Bhangale Nilesh Madhukar (Enrollment No. : 199999919554; Mechanical Engineering Discipline)",
     "date": "2026-11-20",
@@ -7403,22 +7424,5 @@
     ],
     "important": false,
     "post": null
-  },
-  {
-    "id": 49101,
-    "title": "Instructions for filling the REGULAR/ REMEDIAL Exam Forms of Bachelor of Science (Honours/ Honours with Research) PG Diploma in Bioinformatics, Master of Science (Industrial Biotechnology), Master of Science (Integrated) Biotechnology, Master of Arts (Hindu Studies) & PG Diploma in Intellectual Property Rights for Winter – 2026 Examination",
-    "date": "2026-09-07",
-    "postedAt": "2026-09-07T12:00:00+05:30",
-    "category": "Exam",
-    "topic": "exam-form",
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/img20260907_16581753_345470.pdf",
-    "documents": [
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/img20260907_16581753_345470.pdf",
-        "name": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/img20260907_16581753_345470.pdf"
-      }
-    ],
-    "important": false,
-    "post": "/blog/gtu-winter-2026-exam-form-instructions.html"
   }
 ]

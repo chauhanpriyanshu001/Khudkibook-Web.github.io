@@ -1,5 +1,162 @@
 [
   {
+    "id": 79526,
+    "title": "PhD Notification No. 313/2026 for Govilkar Srushti Shirish (209999903008)",
+    "rawTitle": "PhD Notification No. 313/2026 for Govilkar Srushti Shirish (209999903008)",
+    "date": "2026-11-21",
+    "postedAt": "2026-11-21T12:00:00+05:30",
+    "category": "PHD",
+    "categoryId": 3,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-srushti-govilkar-2a48aeaabd.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/notification-srushti-govilkar-2a48aeaabd.pdf",
+        "name": "PhD Notification No. 313/2026 for Govilkar Srushti Shirish (209999903008)"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/srushti-signed-thesis-1cd91363c5.pdf",
+        "name": "Thesis"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/srushti-govilkar-synopsis-16.03.2026-b6259f154f.pdf",
+        "name": "Synopsis"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "program": "PhD",
+      "programShort": "PhD",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:phd",
+      "label": "PHD",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79525,
+    "title": "Notice Inviting Quotation (NIQ) (No. AIC-GISC/IT/2026/02) For CCTV, LAN and Wi-Fi Installation, Configuration, Testing and Commissioning Work at AIC-GISC Foundation, GTU Campus, Ahmedabad.",
+    "rawTitle": "Notice Inviting Quotation (NIQ) (No. AIC-GISC/IT/2026/02) For CCTV, LAN and Wi-Fi Installation, Configuration, Testing and Commissioning Work at AIC-GISC Foundation, GTU Campus, Ahmedabad.",
+    "date": "2026-11-21",
+    "postedAt": "2026-11-21T12:00:00+05:30",
+    "category": "Tender",
+    "categoryId": 6,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/cctv-lan-and-wi-fi-installation-configuration-testing-and-co-3c17253209.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/cctv-lan-and-wi-fi-installation-configuration-testing-and-co-3c17253209.pdf",
+        "name": "Notice Inviting Quotation (NIQ) (No. AIC-GISC/IT/2026/02) For CCTV, LAN and Wi-Fi Installation, Configuration, Testing and Commissioning Work at AIC-GISC Foundation, GTU Campus, Ahmedabad."
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "noise",
+      "key": "noise:tender",
+      "label": "Tender",
+      "newsworthy": false,
+      "priority": 0
+    }
+  },
+  {
+    "id": 79524,
+    "title": "Instructions for filling the Regular Exam Forms of B. Arch (Sem 1), BHMCT(Sem 1), BID (Sem 1), B. voc (Sem 1) Winter-2026 Examination.",
+    "rawTitle": "Instructions for filling the Regular Exam Forms of B.Arch (Sem - 1), BHMCT(Sem - 1), BID (Sem - 1), B.voc (Sem-1) Winter-2026 Examination.",
+    "date": "2026-11-21",
+    "postedAt": "2026-11-21T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261121172331-9b539bb64c.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/20261121172331-9b539bb64c.pdf",
+        "name": "Instructions for filling the Regular Exam Forms of B.Arch (Sem - 1), BHMCT(Sem - 1), BID (Sem - 1), B.voc (Sem-1) Winter-2026 Examination."
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 1,
+      "program": "Bachelor of Architecture",
+      "programShort": "B.Arch",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "exam-form",
+      "key": "exam-form:winter-2026",
+      "label": "Exam form — Winter 2026",
+      "newsworthy": true,
+      "priority": 8
+    }
+  },
+  {
+    "id": 79523,
+    "title": "Circular - Dissemination of UGC Public Advisory and AICTE Public Notice on Verification of Recognition and Approval Status of Educational Institutions.",
+    "rawTitle": "Circular - Dissemination of UGC Public Advisory and AICTE Public Notice on Verification of Recognition and Approval Status of Educational Institutions.",
+    "date": "2026-11-21",
+    "postedAt": "2026-11-21T12:00:00+05:30",
+    "category": "Affiliation",
+    "categoryId": 15,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-dissemination-of-ugc-public-advisory-and-aicte-publ-94d324656f.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/circular-dissemination-of-ugc-public-advisory-and-aicte-publ-94d324656f.pdf",
+        "name": "Circular - Dissemination of UGC Public Advisory and AICTE Public Notice on Verification of Recognition and Approval Status of Educational Institutions."
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79523",
+      "label": "Affiliation",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79522,
     "title": "Corrigendum-1 with Reference to Tender No. 08/2026-27 Mandap, Light decoration & allied services for Science Fair at GTU-ITR campus, Village: Mevad, Dist: Mehsana",
     "rawTitle": "Corrigendum-1 with Reference to Tender No. 08/2026-27 Mandap, Light decoration & allied services for Science Fair at GTU-ITR campus, Village: Mevad, Dist: Mehsana",

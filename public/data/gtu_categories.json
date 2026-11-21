@@ -1,11 +1,11 @@
 [
   {
     "name": "PHD",
-    "count": 150
+    "count": 151
   },
   {
     "name": "Exam",
-    "count": 137
+    "count": 138
   },
   {
     "name": "Circular",
@@ -13,7 +13,7 @@
   },
   {
     "name": "Tender",
-    "count": 31
+    "count": 32
   },
   {
     "name": "Academic",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Affiliation",
-    "count": 6
+    "count": 7
   },
   {
     "name": "Convocation",

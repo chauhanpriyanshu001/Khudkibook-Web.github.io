@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node scripts/server.js",
-    "test": "node scripts/ai_book/test_quality.js && node scripts/monitor/test_watch.js",
+    "test": "node scripts/ai_book/test_quality.js && node scripts/monitor/test_watch.js && node scripts/monitor/test_notify.js",
     "gtu:watch": "node scripts/monitor/gtu_watch.js",
     "gtu:watch:loop": "node scripts/monitor/gtu_watch.js --watch",
     "gtu:backfill": "node scripts/monitor/gtu_watch.js --backfill 100",
@@ -19,7 +19,8 @@
     "quality-gate": "node scripts/quality_gate.js",
     "adsense-fix": "node scripts/prune_junk.js && node scripts/dedupe_subjects.js && node scripts/enrich_subjects.js && node scripts/fix_indexing.js && node scripts/enrich_pages.js && node scripts/gen_sitemap.js",
     "indexing": "node scripts/fix_indexing.js",
-    "noindex-orphans": "node scripts/noindex_orphans.js"
+    "noindex-orphans": "node scripts/noindex_orphans.js",
+    "sync:app": "node scripts/sync_to_app.js"
   },
   "repository": {
     "type": "git",
@@ -37,5 +38,8 @@
     "cheerio": "^1.2.0",
     "express": "^5.2.1",
     "pdf-parse": "^2.4.5"
+  },
+  "devDependencies": {
+    "firebase-admin": "^12.7.0"
   }
 }

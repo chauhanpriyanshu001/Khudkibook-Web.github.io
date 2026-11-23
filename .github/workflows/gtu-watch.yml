@@ -123,3 +123,16 @@ jobs:
           fi
           npm install --no-save --no-audit --no-fund firebase-tools@13
           npx firebase deploy --only hosting:main --project khudkibook --non-interactive
+
+      - name: Queue app notifications for new GTU posts
+        if: steps.watch.outputs.PUBLISHED != '0' && (steps.commit.outputs.changed == 'true' || inputs.force_deploy == true)
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          GTU_WATCH_REPORT: ${{ runner.temp }}/watch.json
+        run: |
+          if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
+            echo "::warning::FIREBASE_SERVICE_ACCOUNT secret is not set. No app notifications were queued."
+            exit 0
+          fi
+          npm install --no-save --no-audit --no-fund firebase-admin@12
+          node scripts/monitor/notify.js "$GTU_WATCH_REPORT"

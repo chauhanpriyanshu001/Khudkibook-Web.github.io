@@ -159,6 +159,87 @@ function pruneArchive(archive) {
     return keep.length ? keep : archive.slice(0, PUBLIC_NOTICE_LIMIT);
 }
 
+const PROGRAM_DOMAIN = {
+    de: 'diploma',
+    be: 'be',
+    me: 'me'
+};
+
+const BRANCH_LOOKUP = (() => {
+    const catalog = readJSON(path.join(PUBLIC_DIR, 'data/branches.json'), null);
+    const rows = [];
+    for (const domain of (catalog && catalog.domains) || []) {
+        for (const branch of domain.branches || []) {
+            const names = [branch.name, branch.shortName, branch.id]
+                .filter(Boolean)
+                .map(value => String(value).trim().toLowerCase())
+                .filter(value => value.length > 2);
+            rows.push({
+                slug: String(branch.id || '').trim(),
+                domain: String(domain.id || '').trim(),
+                names: Array.from(new Set(names))
+            });
+        }
+    }
+    return rows;
+})();
+
+function audienceFor(notices) {
+    const programs = new Set();
+    const semesters = new Set();
+    const branches = new Set();
+    const domains = new Set();
+    let session = '';
+    let resultKind = '';
+
+    for (const notice of notices || []) {
+        const facts = notice.facts || {};
+        if (facts.programShort) programs.add(String(facts.programShort).trim().toLowerCase());
+        if (facts.semester != null) semesters.add(Number(facts.semester));
+        if (facts.semesterFrom != null && facts.semesterTo != null) {
+            const from = Number(facts.semesterFrom);
+            const to = Number(facts.semesterTo);
+            for (let value = from; value <= to && value <= 12; value++) semesters.add(value);
+        }
+        if (facts.session && !session) session = String(facts.session);
+        if (facts.resultKind && !resultKind) resultKind = String(facts.resultKind);
+    }
+
+    for (const program of programs) {
+        if (PROGRAM_DOMAIN[program]) domains.add(PROGRAM_DOMAIN[program]);
+    }
+
+    for (const notice of notices || []) {
+        const title = String(notice.rawTitle || notice.title || '').toLowerCase();
+        for (const branch of BRANCH_LOOKUP) {
+            if (!branch.slug || !branch.names.some(name => title.includes(name))) continue;
+            if (domains.size && branch.domain && !domains.has(branch.domain)) continue;
+            branches.add(branch.slug);
+        }
+    }
+
+    return {
+        programs: Array.from(programs).sort(),
+        semesters: Array.from(semesters).filter(Number.isFinite).sort((left, right) => left - right),
+        branches: Array.from(branches).sort(),
+        domains: Array.from(domains).sort(),
+        session,
+        resultKind
+    };
+}
+
+function notificationEntry(group, knownIdsSet) {
+    const fresh = (group.members || []).filter(member => !knownIdsSet.has(member.id));
+    const audience = audienceFor(fresh.length ? fresh : group.members);
+    return {
+        topicKey: group.key,
+        noticeIds: fresh.map(member => member.id),
+        session: audience.session,
+        resultKind: audience.resultKind,
+        audience
+    };
+}
+
 /** The shape public/data/gtu_notices.json is trimmed down to. */
 function toPublicNotice(n) {
     return {
@@ -343,7 +424,14 @@ async function runOnce(opts = {}) {
                 result.skipped.push({ key: g.key, type: g.type, reason: `history — newest circular is ${g.latestDate}` });
                 continue;
             }
-            const entry = { slug: g.slug, type: g.type, notices: g.members.length, title: blogGen.titleFor(g), newCirculars: g.members.filter(m => !known.has(m.id)).length };
+            const entry = {
+                slug: g.slug,
+                type: g.type,
+                notices: g.members.length,
+                title: blogGen.titleFor(g),
+                newCirculars: g.members.filter(m => !known.has(m.id)).length,
+                ...notificationEntry(g, known)
+            };
             (topics[g.key] ? result.postsRefreshed : result.postsPublished).push(entry);
         }
         return result;
@@ -409,7 +497,15 @@ async function runOnce(opts = {}) {
             lastPublished: new Date().toISOString()
         };
 
-        const entry = { slug: g.slug, type: g.type, notices: g.members.length, title: post.title, url: `/blog/${g.slug}.html` };
+        const entry = {
+            slug: g.slug,
+            type: g.type,
+            notices: g.members.length,
+            title: post.title,
+            url: `/blog/${g.slug}.html`,
+            publishedAt: new Date().toISOString(),
+            ...notificationEntry(g, known)
+        };
         if (existed) result.postsRefreshed.push(entry);
         else result.postsPublished.push(entry);
         log(`[watch] ${existed ? 'refreshed' : 'published'} /blog/${g.slug}.html (${g.members.length} circular(s))`);
@@ -735,4 +831,4 @@ if (require.main === module) {
     });
 }
 
-module.exports = { runOnce, backfill, rebuildPosts, renderNoticesIntoPage, noticeDateLabel, watchLoop, loadState, loadTopics, STATE_FILE, TOPICS_FILE, ARCHIVE_FILE, PUBLIC_NOTICES, RSS_FILE, DEFAULTS, TOPIC_ALIASES };
+module.exports = { runOnce, backfill, rebuildPosts, renderNoticesIntoPage, noticeDateLabel, watchLoop, loadState, loadTopics, audienceFor, notificationEntry, STATE_FILE, TOPICS_FILE, ARCHIVE_FILE, PUBLIC_NOTICES, RSS_FILE, DEFAULTS, TOPIC_ALIASES };

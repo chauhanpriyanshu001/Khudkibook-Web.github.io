@@ -1,5 +1,85 @@
 [
   {
+    "id": 79528,
+    "title": "Public Viva-Voce of Nipa Harishbhai Thacker (189999901007) on 10/12/2026",
+    "rawTitle": "Public Viva-Voce of Nipa Harishbhai Thacker (189999901007) on 10/12/2026",
+    "date": "2026-11-23",
+    "postedAt": "2026-11-23T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-nipa-thacker-fac17f09de.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-nipa-thacker-fac17f09de.pdf",
+        "name": "Public Viva-Voce of Nipa Harishbhai Thacker (189999901007) on 10/12/2026"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0-abstract-of-the-thesis-8afbf3378c.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-12-10"
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79528",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79527,
+    "title": "Public Viva-Voce of Agrawal Pinal Shailesh (199999903501) on 10/12/2026",
+    "rawTitle": "Public Viva-Voce of Agrawal Pinal Shailesh (199999903501) on 10/12/2026",
+    "date": "2026-11-23",
+    "postedAt": "2026-11-23T12:00:00+05:30",
+    "category": "Circular",
+    "categoryId": 1,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-pinal-agrawal-c115eda102.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-viva-voce-notice-pinal-agrawal-c115eda102.pdf",
+        "name": "Public Viva-Voce of Agrawal Pinal Shailesh (199999903501) on 10/12/2026"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0-abstract-pinal-agrawal-199999903501-8cda24a7c8.pdf",
+        "name": "Abstract"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false,
+      "eventDate": "2026-12-10"
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79527",
+      "label": "Circular",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79526,
     "title": "PhD Notification No. 313/2026 for Govilkar Srushti Shirish (209999903008)",
     "rawTitle": "PhD Notification No. 313/2026 for Govilkar Srushti Shirish (209999903008)",

@@ -1,5 +1,175 @@
 [
   {
+    "id": 79532,
+    "title": "Student Guidelines & Schedule for Online ME Dissertation Examination Sem 3 (Regular/Remedial/Term Ext. Reg & Rem) and Sem 4 (Regular/Remedial/Term Ext. Reg & Rem) for Winter-2026 Examination",
+    "rawTitle": "Student Guidelines & Schedule for Online ME Dissertation Examination Sem-3 (Regular/Remedial/Term Ext. Reg & Rem) and Sem-4 (Regular/Remedial/Term Ext. Reg & Rem) for Winter-2026 Examination",
+    "date": "2026-11-25",
+    "postedAt": "2026-11-25T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261125-15312080-9f158ea3f9.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img20261125-15312080-9f158ea3f9.pdf",
+        "name": "Student Guidelines & Schedule for Online ME Dissertation Examination Sem-3 (Regular/Remedial/Term Ext. Reg & Rem) and  Sem-4 (Regular/Remedial/Term Ext. Reg & Rem)  for Winter-2026 Examination"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/annexure-1-dp-1-reg-5466019c59.pdf",
+        "name": "Annexure-1: ME DP-1 (Reg/ Rem/ Term Ext. Reg & Rem) Schedule"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/annexure-2-dp-2-ce0c03a4e4.pdf",
+        "name": "Annexure-2: ME DP-2 (Reg/ Rem/ Term Ext. Reg & Rem) Schedule"
+      },
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/annexure-3-google-meet-link-date-hall-wise-w-2026-7e7e4dfdbd.pdf",
+        "name": "Annexure-3: Date and Hall wise Google Meet Link"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 3,
+      "program": "Master of Engineering",
+      "programShort": "ME",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79532",
+      "label": "Exam",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79531,
+    "title": "Examiner Guidelines for Online M. Pharm Dissertation Examination (Sem 3 & 4 Regular/Remedial) (Winter-2026)",
+    "rawTitle": "Examiner Guidelines for Online M.Pharm Dissertation Examination (Sem-3 & 4 Regular/Remedial) (Winter-2026)",
+    "date": "2026-11-25",
+    "postedAt": "2026-11-25T12:00:00+05:30",
+    "category": "Exam",
+    "categoryId": 2,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261125-0005-224b3d2495.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/img-20261125-0005-224b3d2495.pdf",
+        "name": "Examiner Guidelines for Online M.Pharm Dissertation Examination (Sem-3 & 4 Regular/Remedial) (Winter-2026)"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "session": "Winter 2026",
+      "sessionSlug": "winter-2026",
+      "sessionYear": "2026",
+      "sessionName": "Winter",
+      "semester": 3,
+      "semesterFrom": 3,
+      "semesterTo": 4,
+      "program": "Master of Pharmacy",
+      "programShort": "M.Pharm",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": true,
+      "isRemedial": true,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79531",
+      "label": "Exam",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79530,
+    "title": "Public notice for Affiliation process 2027-28",
+    "rawTitle": "Public notice for Affiliation process 2027-28",
+    "date": "2026-11-25",
+    "postedAt": "2026-11-25T12:00:00+05:30",
+    "category": "Affiliation",
+    "categoryId": 15,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-notice-2027.28-final-d371232a9b.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-notice-2027.28-final-d371232a9b.pdf",
+        "name": "Public notice for Affiliation process 2027-28"
+      }
+    ],
+    "important": true,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2027-28",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79530",
+      "label": "Affiliation",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
+    "id": 79529,
+    "title": "Advertisement of Public notice for Affiliation process 2027-28",
+    "rawTitle": "Advertisement of Public notice for Affiliation process 2027-28",
+    "date": "2026-11-25",
+    "postedAt": "2026-11-25T12:00:00+05:30",
+    "category": "Affiliation",
+    "categoryId": 15,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-notice-2027-28-advertisement-1-ca6761b7c9.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-notice-2027-28-advertisement-1-ca6761b7c9.pdf",
+        "name": "Advertisement of Public notice for Affiliation process 2027-28"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "academicYear": "2027-28",
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79529",
+      "label": "Affiliation",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79528,
     "title": "Public Viva-Voce of Nipa Harishbhai Thacker (189999901007) on 10/12/2026",
     "rawTitle": "Public Viva-Voce of Nipa Harishbhai Thacker (189999901007) on 10/12/2026",

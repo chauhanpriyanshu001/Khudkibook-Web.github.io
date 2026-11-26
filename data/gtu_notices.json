@@ -1,5 +1,40 @@
 [
   {
+    "id": 79533,
+    "title": "User Manual for New Institutes for Registration in Samarth Affiliation Portal",
+    "rawTitle": "User Manual for New Institutes for Registration in Samarth Affiliation Portal",
+    "date": "2026-11-26",
+    "postedAt": "2026-11-26T12:00:00+05:30",
+    "category": "Affiliation",
+    "categoryId": 15,
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/user-manual-registration-profile-affiliation-1670eba39b.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/user-manual-registration-profile-affiliation-1670eba39b.pdf",
+        "name": "User Manual for New Institutes for Registration in Samarth Affiliation Portal"
+      }
+    ],
+    "important": false,
+    "source": "gtu.ac.in",
+    "sourcePage": "https://gtu.ac.in/academics/circulars",
+    "facts": {
+      "isRecheck": false,
+      "isReassessment": false,
+      "isRegular": false,
+      "isRemedial": false,
+      "isTermExtension": false,
+      "isBiAnnual": false,
+      "isSupplementary": false
+    },
+    "topic": {
+      "type": "other",
+      "key": "other:79533",
+      "label": "Affiliation",
+      "newsworthy": false,
+      "priority": 2
+    }
+  },
+  {
     "id": 79532,
     "title": "Student Guidelines & Schedule for Online ME Dissertation Examination Sem 3 (Regular/Remedial/Term Ext. Reg & Rem) and Sem 4 (Regular/Remedial/Term Ext. Reg & Rem) for Winter-2026 Examination",
     "rawTitle": "Student Guidelines & Schedule for Online ME Dissertation Examination Sem-3 (Regular/Remedial/Term Ext. Reg & Rem) and Sem-4 (Regular/Remedial/Term Ext. Reg & Rem) for Winter-2026 Examination",
@@ -105,10 +140,10 @@
     "postedAt": "2026-11-25T12:00:00+05:30",
     "category": "Affiliation",
     "categoryId": 15,
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-notice-2027.28-final-d371232a9b.pdf",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Affiliation%20Section/Overview/GTU%20Public%20notice%20of%20Affiliation%20process%20latest%202027-28.pdf",
     "documents": [
       {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-notice-2027.28-final-d371232a9b.pdf",
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Affiliation%20Section/Overview/GTU%20Public%20notice%20of%20Affiliation%20process%20latest%202027-28.pdf",
         "name": "Public notice for Affiliation process 2027-28"
       }
     ],
@@ -141,10 +176,10 @@
     "postedAt": "2026-11-25T12:00:00+05:30",
     "category": "Affiliation",
     "categoryId": 15,
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-notice-2027-28-advertisement-1-ca6761b7c9.pdf",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Affiliation%20Section/Overview/Public%20Notice%202027-28%20Advertisement%20%281%29%20%283%29.pdf",
     "documents": [
       {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-notice-2027-28-advertisement-1-ca6761b7c9.pdf",
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Affiliation%20Section/Overview/Public%20Notice%202027-28%20Advertisement%20%281%29%20%283%29.pdf",
         "name": "Advertisement of Public notice for Affiliation process 2027-28"
       }
     ],

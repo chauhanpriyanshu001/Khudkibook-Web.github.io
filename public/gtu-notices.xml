@@ -6,7 +6,15 @@
     <atom:link href="https://khudkibook.in/gtu-notices.xml" rel="self" type="application/rss+xml" />
     <description>Official Gujarat Technological University circulars, results, exam forms and syllabus updates — monitored from the GTU feed and published within minutes. GTU records no clock time on its circulars, so the timestamp on each item is the date GTU announced it, not the moment Khudkibook checked.</description>
     <language>en-in</language>
-    <lastBuildDate>Wed, 25 Nov 2026 06:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 06:30:00 GMT</lastBuildDate>
+    <item>
+      <title>User Manual for New Institutes for Registration in Samarth Affiliation Portal</title>
+      <link>https://khudkibook.in/gtu-notices.html#n79533</link>
+      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79533</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 GMT</pubDate>
+      <category>Affiliation</category>
+      <description>User Manual for New Institutes for Registration in Samarth Affiliation Portal — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/user-manual-registration-profile-affiliation-1670eba39b.pdf</description>
+    </item>
     <item>
       <title>Student Guidelines &amp; Schedule for Online ME Dissertation Examination Sem 3 (Regular/Remedial/Term Ext. Reg &amp; Rem) and Sem 4 (Regular/Remedial/Term Ext. Reg &amp; Rem) for Winter-2026 Examination</title>
       <link>https://khudkibook.in/gtu-notices.html#n79532</link>
@@ -29,7 +37,7 @@
       <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79530</guid>
       <pubDate>Wed, 25 Nov 2026 06:30:00 GMT</pubDate>
       <category>Affiliation</category>
-      <description>Public notice for Affiliation process 2027-28 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-notice-2027.28-final-d371232a9b.pdf</description>
+      <description>Public notice for Affiliation process 2027-28 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Affiliation%20Section/Overview/GTU%20Public%20notice%20of%20Affiliation%20process%20latest%202027-28.pdf</description>
     </item>
     <item>
       <title>Advertisement of Public notice for Affiliation process 2027-28</title>
@@ -37,7 +45,7 @@
       <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79529</guid>
       <pubDate>Wed, 25 Nov 2026 06:30:00 GMT</pubDate>
       <category>Affiliation</category>
-      <description>Advertisement of Public notice for Affiliation process 2027-28 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/public-notice-2027-28-advertisement-1-ca6761b7c9.pdf</description>
+      <description>Advertisement of Public notice for Affiliation process 2027-28 — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Affiliation%20Section/Overview/Public%20Notice%202027-28%20Advertisement%20%281%29%20%283%29.pdf</description>
     </item>
     <item>
       <title>Public Viva-Voce of Nipa Harishbhai Thacker (189999901007) on 10/12/2026</title>
@@ -798,14 +806,6 @@
       <pubDate>Thu, 29 Oct 2026 06:30:00 GMT</pubDate>
       <category>Exam</category>
       <description>EXTENSION IN FILLING THE EXAM FORMS OF BCA AND MCA INTEGRATED WINTER-2026 EXAMINATION — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/0415-261029164308-001-1d5e4a0c9d.pdf</description>
-    </item>
-    <item>
-      <title>Notification for Result Declaration of Master of Business Administration Sem 01 (Remedial) Recheck/Reassessment of Summer-2026 Examination</title>
-      <link>https://khudkibook.in/gtu-notices.html#n79427</link>
-      <guid isPermaLink="false">https://khudkibook.in/gtu-notices.html#n79427</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 GMT</pubDate>
-      <category>Exam</category>
-      <description>Notification for Result Declaration of Master of Business Administration Sem 01 (Remedial) Recheck/Reassessment of Summer-2026 Examination — official GTU circular. Source: https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/mba-1-remedial-recheck-reassessment-0f6322157b.pdf</description>
     </item>
   </channel>
 </rss>

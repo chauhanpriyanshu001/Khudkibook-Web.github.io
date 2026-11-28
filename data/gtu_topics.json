@@ -248,5 +248,16 @@
     ],
     "firstSeen": "2026-11-19T08:16:16.313Z",
     "lastPublished": "2026-11-19T08:16:16.313Z"
+  },
+  "result:winter-2026:recheck": {
+    "key": "result:winter-2026:recheck",
+    "type": "result",
+    "slug": "gtu-recheck-result-winter-2026",
+    "title": "GTU Winter 2026 Recheck Result: How To Check Scorecard & Re-Check",
+    "noticeIds": [
+      79539
+    ],
+    "firstSeen": "2026-11-28T11:31:33.436Z",
+    "lastPublished": "2026-11-28T11:31:33.436Z"
   }
 }

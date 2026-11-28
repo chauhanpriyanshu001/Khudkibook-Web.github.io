@@ -1,5 +1,22 @@
 [
   {
+    "id": 79539,
+    "title": "Notification for result declaration of Bachelor of Engineering Semester 08 (Remedial) of Winter 2026 Examination.",
+    "date": "2026-11-28",
+    "postedAt": "2026-11-28T12:00:00+05:30",
+    "category": "Exam",
+    "topic": "result",
+    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-8-rem.-0815675d29.pdf",
+    "documents": [
+      {
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/be-sem-8-rem.-0815675d29.pdf",
+        "name": "Notification for result declaration of Bachelor of Engineering Semester - 08 (Remedial) of Winter 2026 Examination."
+      }
+    ],
+    "important": false,
+    "post": "/blog/gtu-recheck-result-winter-2026.html"
+  },
+  {
     "id": 79538,
     "title": "Guidelines and Instructions Regarding Online Marks Entry of Master of Engineering, M. Sc. (Industrial Biotechnology), Master of Science (Integrated) Biotechnology, Master of Arts (Hindu Studies), Master of Architecture and B. Sc. (Honours/ Honours with Research) for Winter - 2026 Examination",
     "date": "2026-11-27",
@@ -115,7 +132,7 @@
         "name": "Student Guidelines & Schedule for Online ME Dissertation Examination Sem-3 (Regular/Remedial/Term Ext. Reg & Rem) and  Sem-4 (Regular/Remedial/Term Ext. Reg & Rem)  for Winter-2026 Examination"
       },
       {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/up-annexure-1-dp-1-reg-c1a0a02da7.pdf",
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/up-up-annexure-1-dp-1-reg-f8143954ae.pdf",
         "name": "Annexure-1: ME DP-1 (Reg/ Rem/ Term Ext. Reg & Rem) Schedule"
       },
       {
@@ -735,7 +752,7 @@
         "name": "Student Guideline & Schedule for Online M.Pharm Dissertation Examination (Sem-3 Regular/Remedial and Sem-4 Regular/Remedial) (Winter-2026)"
       },
       {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/student-list-for-m.pharm-sem-3-regularremedial-dissertation--d609f994f8.pdf",
+        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/2026/student-list-for-m.pharm-sem-3-regularremedial-dissertation--1c2b3fb02b.pdf",
         "name": "Student list for  M.Pharm Sem-3 (Regular & Remedial) Online Dissertation Phase 1 Exam Winter-26"
       },
       {
@@ -7439,30 +7456,5 @@
     ],
     "important": false,
     "post": "/blog/gtu-recheck-result-summer-2026.html"
-  },
-  {
-    "id": 49123,
-    "title": "Instruction Regarding Change in Dissertation Title/Guide Name of M. Pharm SEM – III & IV (Regular/Remedial) Students (Winter-2026)",
-    "date": "2026-09-10",
-    "postedAt": "2026-09-10T12:00:00+05:30",
-    "category": "Exam",
-    "topic": "other",
-    "link": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/M.Pharm Circular_749935.pdf",
-    "documents": [
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/M.Pharm Circular_749935.pdf",
-        "name": "Instruction Regarding Change in Dissertation Title/Guide Name of M. Pharm SEM – III & IV (Regular/Remedial) Students (Winter-2026)"
-      },
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/ANNEXURE 1_221234.docx",
-        "name": "ANNEXURE-1"
-      },
-      {
-        "url": "https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Annexure-2_451146.pdf",
-        "name": "ANNEXURE-2"
-      }
-    ],
-    "important": false,
-    "post": null
   }
 ]
